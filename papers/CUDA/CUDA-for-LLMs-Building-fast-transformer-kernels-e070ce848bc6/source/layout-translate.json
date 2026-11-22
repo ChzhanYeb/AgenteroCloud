@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:54:00.151Z",
+    "generatedAt": "2026-11-22T01:54:10.831Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -757,6 +757,38 @@
           "quote": "preface  xii acknowledgments  xiv about this book  xvi about the author  xix about the cover illustration  xx",
           "source": "preface  xii acknowledgments  xiv about this book  xvi about the author  xix about the cover illustration  xx",
           "translated": "序言xii致谢xiv关于本书xvi关于作者xix关于封面插图xx"
+        }
+      ]
+    },
+    {
+      "id": "4a2a52cf-2557-4741-ac49-0b3909c9a09c::paragraph-2",
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.27288468081401346,
+        "y": 0.5139783307528312,
+        "w": 0.4855465355173481,
+        "h": 0.07455858501661439
+      },
+      "kind": "text",
+      "readingOrder": 162.001,
+      "source": "⟪S0⟫When PyTorch just isn’t enough 1 ⟪/S0⟫1.1 What is CUDA? 2 1.2 When do you need custom CUDA? 2",
+      "translated": "⟪S0⟫当PyTorch还不够时1 ⟪/S0⟫1.1什么是CUDA？2 1.2什么时候需要自定义CUDA？2",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "When PyTorch just isn’t enough 1 1.1 What is CUDA?",
+          "source": "⟪S0⟫When PyTorch just isn’t enough 1 ⟪/S0⟫1.1 What is CUDA?",
+          "translated": "⟪S0⟫当PyTorch还不够时1 ⟪/S0⟫1.1什么是CUDA？"
+        },
+        {
+          "quote": "2 1.2 When do you need custom CUDA?",
+          "source": "2 1.2 When do you need custom CUDA?",
+          "translated": "2 1.2什么时候需要自定义CUDA？"
+        },
+        {
+          "quote": "2",
+          "source": "2",
+          "translated": "2"
         }
       ]
     },
@@ -1615,6 +1647,94 @@
           "quote": "warpgroup_wait fence instruction 194",
           "source": "warpgroup_wait fence instruction 194",
           "translated": "warpgroup_wait栅栏指令194"
+        }
+      ]
+    },
+    {
+      "id": "13f9e6b7-1a86-4266-add2-d2767599530f",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.12230749121277489,
+        "y": 0.24657736043907363,
+        "w": 0.09372421939307972,
+        "h": 0.01454877739950932
+      },
+      "kind": "text",
+      "readingOrder": 76,
+      "source": "transformers",
+      "translated": "变压器",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "transformers",
+          "source": "transformers",
+          "translated": "变压器"
+        }
+      ]
+    },
+    {
+      "id": "c73c0a92-5dbf-4f92-9de8-1a2a0b1d62f9",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.13810038095583693,
+        "y": 0.2645711392093329,
+        "w": 0.14484729210610447,
+        "h": 0.014918255484548473
+      },
+      "kind": "text",
+      "readingOrder": 81,
+      "source": "inference 105–117",
+      "translated": "推断105-117",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "inference 105–117",
+          "source": "inference 105–117",
+          "translated": "推断105-117"
+        }
+      ]
+    },
+    {
+      "id": "2cee82e0-c8d4-4db0-892d-9d5f88f98ecb",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6572351177570849,
+        "y": 0.24273604197127777,
+        "w": 0.17157820722233655,
+        "h": 0.047947060012514864
+      },
+      "kind": "text",
+      "readingOrder": 84,
+      "source": "warp operations, fused LayerNorm with 155–157",
+      "translated": "经纱操作，将LayerNorm与155-157融合",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "warp operations, fused LayerNorm with 155–157",
+          "source": "warp operations, fused LayerNorm with 155–157",
+          "translated": "经纱操作，将LayerNorm与155-157融合"
+        }
+      ]
+    },
+    {
+      "id": "6e5bb0b7-5d5e-4dfc-a316-26de80c00c2e",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.3896581411137406,
+        "y": 0.24293894393400575,
+        "w": 0.23870051501499293,
+        "h": 0.08351063860682245
+      },
+      "kind": "text",
+      "readingOrder": 86,
+      "source": "transposing matrices 38–40 CPU reference 39 launching transpose kernel 40 sequential loops to parallel kernel 39",
+      "translated": "转置矩阵38-40 CPU参考39启动转置内核40顺序循环到并行内核39",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "transposing matrices 38–40 CPU reference 39 launching transpose kernel 40 sequential loops to parallel kernel 39",
+          "source": "transposing matrices 38–40 CPU reference 39 launching transpose kernel 40 sequential loops to parallel kernel 39",
+          "translated": "转置矩阵38-40 CPU参考39启动转置内核40顺序循环到并行内核39"
         }
       ]
     }
