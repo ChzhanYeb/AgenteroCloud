@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 2,
+  "source": {
+    "mode": "pdf-layout-translate",
+    "generatedAt": "2026-11-22T01:53:07.742Z",
+    "providerId": "huoshanweb",
+    "sourceLang": "auto",
+    "targetLang": "zh-CN",
+    "serviceKey": "huoshanweb"
+  },
+  "items": [
+    {
+      "id": "a9865ee5-f4a3-4984-b19d-fa6129567fe7",
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.457180909581153,
+        "y": 0.3768831596404763,
+        "w": 0.4419698921555298,
+        "h": 0.054749382194500894
+      },
+      "kind": "header",
+      "readingOrder": 17,
+      "source": "CUDA for LLMs",
+      "translated": "LLM的CUDA",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "CUDA for LLMs",
+          "source": "CUDA for LLMs",
+          "translated": "LLM的CUDA"
+        }
+      ]
+    },
+    {
+      "id": "5b32af9b-f51b-468e-9f72-773d060d9dd2",
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.6848298411041862,
+        "y": 0.55967466761251,
+        "w": 0.210667234261083,
+        "h": 0.0247514257347839
+      },
+      "kind": "header",
+      "readingOrder": 109,
+      "source": "Elliot Arledge",
+      "translated": "埃利奥特·阿利奇",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Elliot Arledge",
+          "source": "Elliot Arledge",
+          "translated": "埃利奥特·阿利奇"
+        }
+      ]
+    },
+    {
+      "id": "01b88c7d-3199-4dce-9832-523e8ad6ad28",
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.7531817517859243,
+        "y": 0.8415261131728291,
+        "w": 0.1446172044956785,
+        "h": 0.081959905178182
+      },
+      "kind": "text",
+      "readingOrder": 210,
+      "source": "M A N N I N G Shelter Island",
+      "translated": "M A N N I N G避难所岛",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "M A N N I N G Shelter Island",
+          "source": "M A N N I N G Shelter Island",
+          "translated": "M A N N I N G避难所岛"
+        }
+      ]
+    },
+    {
+      "id": "2d232206-3953-42bc-a898-e98cbd9ebce5",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.12137281502179122,
+        "y": 0.13373077416779217,
+        "w": 0.7522178642725115,
+        "h": 0.03651278175880378
+      },
+      "kind": "text",
+      "readingOrder": 0,
+      "source": "For online information and ordering of this and other Manning books, please visit www.manning.com. The publisher offers discounts on this book when ordered in quantity.",
+      "translated": "有关在线信息以及订购这本书和其他曼宁书籍，请访问www.manning.com。出版商在大量订购这本书时提供折扣。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "For online information and ordering of this and other Manning books, please visit www.manning.com.",
+          "source": "For online information and ordering of this and other Manning books, please visit www.manning.com.",
+          "translated": "有关在线信息以及订购这本书和其他曼宁书籍，请访问www.manning.com。"
+        },
+        {
+          "quote": "The publisher offers discounts on this book when ordered in quantity.",
+          "source": "The publisher offers discounts on this book when ordered in quantity.",
+          "translated": "出版商在大量订购这本书时提供折扣。"
+        }
+      ]
+    },
+    {
+      "id": "be992299-4483-4d4a-8035-04193de1086d",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.12105078710661894,
+        "y": 0.17805918996812423,
+        "w": 0.28195748818111327,
+        "h": 0.01828903210342734
+      },
+      "kind": "header",
+      "readingOrder": 6,
+      "source": "For more information, please contact",
+      "translated": "欲了解更多信息，请联系",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "For more information, please contact",
+          "source": "For more information, please contact",
+          "translated": "欲了解更多信息，请联系"
+        }
+      ]
+    },
+    {
+      "id": "627851f9-7c00-4cd5-a7cf-f8802956eba4",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.17411344856556474,
+        "y": 0.2050137016907464,
+        "w": 0.1946123900103995,
+        "h": 0.01768255271578856
+      },
+      "kind": "text",
+      "readingOrder": 22,
+      "source": "Special Sales Department",
+      "translated": "特殊销售部",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Special Sales Department",
+          "source": "Special Sales Department",
+          "translated": "特殊销售部"
+        }
+      ]
+    },
+    {
+      "id": "f27daea0-1ecd-475c-b29b-4861abf4737e",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.1751206147704389,
+        "y": 0.22292810087635065,
+        "w": 0.19666559429294303,
+        "h": 0.016975759798151267
+      },
+      "kind": "text",
+      "readingOrder": 28,
+      "source": "Manning Publications Co.",
+      "translated": "曼宁出版公司。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Manning Publications Co.",
+          "source": "Manning Publications Co.",
+          "translated": "曼宁出版公司。"
+        }
+      ]
+    },
+    {
+      "id": "af45fe7d-ace2-4c70-a2bb-5fdb467a4604",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.17581493991338634,
+        "y": 0.2400601513323379,
+        "w": 0.13107243822300535,
+        "h": 0.016618140248624604
+      },
+      "kind": "text",
+      "readingOrder": 34,
+      "source": "20 Baldwin Road",
+      "translated": "鲍德温路20号",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "20 Baldwin Road",
+          "source": "20 Baldwin Road",
+          "translated": "鲍德温路20号"
+        }
+      ]
+    },
+    {
+      "id": "e461fbb5-75a8-4caa-9e0c-8a1e3f35f552",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.1756279156775488,
+        "y": 0.2570594345927711,
+        "w": 0.09375476568012112,
+        "h": 0.016757296532699743
+      },
+      "kind": "text",
+      "readingOrder": 51,
+      "source": "PO Box 761",
+      "translated": "邮政信箱761",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "PO Box 761",
+          "source": "PO Box 761",
+          "translated": "邮政信箱761"
+        }
+      ]
+    },
+    {
+      "id": "6c57a874-0f81-4b32-b120-8969c556d21a",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.1750264064612976,
+        "y": 0.27438204445411624,
+        "w": 0.18836916244377644,
+        "h": 0.01732028655642843
+      },
+      "kind": "text",
+      "readingOrder": 61,
+      "source": "Shelter Island, NY 11964",
+      "translated": "庇护所岛， NY 11964",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Shelter Island, NY 11964",
+          "source": "Shelter Island, NY 11964",
+          "translated": "庇护所岛， NY 11964"
+        }
+      ]
+    },
+    {
+      "id": "2f9fa8ba-b3df-4e7e-a1cb-99b7a30c5a2c",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.1741123863356582,
+        "y": 0.29294878409837183,
+        "w": 0.22340809345693935,
+        "h": 0.018097407849982653
+      },
+      "kind": "text",
+      "readingOrder": 66,
+      "source": "Email: orders@manning.com",
+      "translated": "电子邮件：orders@manning.com",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Email: orders@manning.com",
+          "source": "Email: orders@manning.com",
+          "translated": "电子邮件：orders@manning.com"
+        }
+      ]
+    },
+    {
+      "id": "2d6a4446-c0b9-48bc-879c-83703f6438b6",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.12099799140937352,
+        "y": 0.3372544750724871,
+        "w": 0.39394201384550653,
+        "h": 0.019343594725788064
+      },
+      "kind": "header",
+      "readingOrder": 72,
+      "source": "© 2027 Manning Publications Co. All rights reserved.",
+      "translated": "© 2027曼宁出版公司。保留所有权利。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "© 2027 Manning Publications Co.",
+          "source": "© 2027 Manning Publications Co.",
+          "translated": "© 2027曼宁出版公司。"
+        },
+        {
+          "quote": "All rights reserved.",
+          "source": "All rights reserved.",
+          "translated": "保留所有权利。"
+        }
+      ]
+    },
+    {
+      "id": "978d5d15-1001-496e-b209-da7e93d5dc1f",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.1202940057160601,
+        "y": 0.3839136981283456,
+        "w": 0.7702426856571173,
+        "h": 0.053805466968799565
+      },
+      "kind": "text",
+      "readingOrder": 87,
+      "source": "No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by means electronic, mechanical, photocopying, or otherwise, without prior written permission of the publisher.",
+      "translated": "未经出版商事先书面许可，不得以任何形式或通过电子、机械、影印或其他方式复制、存储或传输本出版物的任何部分。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by means electronic, mechanical, photocopying, or otherwise, without prior written permission of the publisher.",
+          "source": "No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by means electronic, mechanical, photocopying, or otherwise, without prior written permission of the publisher.",
+          "translated": "未经出版商事先书面许可，不得以任何形式或通过电子、机械、影印或其他方式复制、存储或传输本出版物的任何部分。"
+        }
+      ]
+    },
+    {
+      "id": "7eef049d-c2ab-42d6-be82-58570c3a5ff5",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.3783690774653839,
+        "y": 0.5885766291788511,
+        "w": 0.20000758489571083,
+        "h": 0.1750231749665444
+      },
+      "kind": "text",
+      "readingOrder": 200,
+      "source": "iling 170, 215 manual tiling becomes hardware tiling 205 overview of 215 vectorizing memory access for 178–179 compute-bound kernels 179 reaching peak performance 179",
+      "translated": "ling 170、215手动平铺成为硬件平铺205概述178-179计算绑定内核的215向量化内存访问179达到峰值性能179",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "iling 170, 215 manual tiling becomes hardware tiling 205 overview of 215 vectorizing memory access for 178–179 compute-bound kernels 179 reaching peak performance 179",
+          "source": "iling 170, 215 manual tiling becomes hardware tiling 205 overview of 215 vectorizing memory access for 178–179 compute-bound kernels 179 reaching peak performance 179",
+          "translated": "ling 170、215手动平铺成为硬件平铺205概述178-179计算绑定内核的215向量化内存访问179达到峰值性能179"
+        }
+      ]
+    },
+    {
+      "id": "b3b59f87-4531-4c40-955d-dcac280e0041",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.6744296342162512,
+        "y": 0.6686006889373513,
+        "w": 0.1595841961319673,
+        "h": 0.03202627425530333
+      },
+      "kind": "text",
+      "readingOrder": 204,
+      "source": "GEMM memory access problem 168",
+      "translated": "GEMM内存访问问题168",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "GEMM memory access problem 168",
+          "source": "GEMM memory access problem 168",
+          "translated": "GEMM内存访问问题168"
+        }
+      ]
+    },
+    {
+      "id": "9a63632b-223d-46f9-829f-586599e58c8f",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.12056130008213048,
+        "y": 0.6853045252558734,
+        "w": 0.19829959097832636,
+        "h": 0.04882154230273592
+      },
+      "kind": "text",
+      "readingOrder": 206,
+      "source": "performance analysis 202–205 progression analysis 203",
+      "translated": "性能分析202-205进展分析203",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "performance analysis 202–205 progression analysis 203",
+          "source": "performance analysis 202–205 progression analysis 203",
+          "translated": "性能分析202-205进展分析203"
+        }
+      ]
+    },
+    {
+      "id": "278652b7-e941-47d5-bdd2-396965c1974e",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.6742134560758172,
+        "y": 0.7034692363451626,
+        "w": 0.17570769775620296,
+        "h": 0.04724488950361816
+      },
+      "kind": "text",
+      "readingOrder": 213,
+      "source": "GEMM optimization with tiling and shared memory 170",
+      "translated": "具有平铺和共享内存的GEMM优化170",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "GEMM optimization with tiling and shared memory 170",
+          "source": "GEMM optimization with tiling and shared memory 170",
+          "translated": "具有平铺和共享内存的GEMM优化170"
+        }
+      ]
+    },
+    {
+      "id": "6d6b5930-13f5-473e-81a3-c4e89a92b901",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.6745192634532279,
+        "y": 0.7540149613092287,
+        "w": 0.1585182914841545,
+        "h": 0.015808347479678825
+      },
+      "kind": "text",
+      "readingOrder": 220,
+      "source": "GEMM profiling 179",
+      "translated": "GEMM分析179",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "GEMM profiling 179",
+          "source": "GEMM profiling 179",
+          "translated": "GEMM分析179"
+        }
+      ]
+    },
+    {
+      "id": "35f4a0b8-6eb7-487b-a10d-94461ac3d478",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.12577676279636787,
+        "y": 0.7367049360161826,
+        "w": 0.18414862158157191,
+        "h": 0.06651796224474622
+      },
+      "kind": "text",
+      "readingOrder": 222,
+      "source": "TCGen05 209–210 challenges and considerations 210 overview 209",
+      "translated": "TCGen05 209-210挑战和注意事项210概述209",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "TCGen05 209–210 challenges and considerations 210 overview 209",
+          "source": "TCGen05 209–210 challenges and considerations 210 overview 209",
+          "translated": "TCGen05 209-210挑战和注意事项210概述209"
+        }
+      ]
+    },
+    {
+      "id": "e43c8037-6ba2-4e77-96c7-fe3541735de6",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.6748039984860066,
+        "y": 0.7728049802364195,
+        "w": 0.12145111859125118,
+        "h": 0.015254965289824543
+      },
+      "kind": "text",
+      "readingOrder": 225,
+      "source": "GEMV 128–141",
+      "translated": "通用汽车128-141",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "GEMV 128–141",
+          "source": "GEMV 128–141",
+          "translated": "通用汽车128-141"
+        }
+      ]
+    },
+    {
+      "id": "28fddc21-f668-40b6-bc0e-82d5a648c9bf",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.37638879383047685,
+        "y": 0.7681437045406672,
+        "w": 0.18692183113277577,
+        "h": 0.04645782156088918
+      },
+      "kind": "text",
+      "readingOrder": 227,
+      "source": "TMA (Tensor Memory Accelerator) 186, 193–194, 199, 206",
+      "translated": "TMA（张量存储器加速器）186、193-194、199、206",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "TMA (Tensor Memory Accelerator) 186, 193–194, 199, 206",
+          "source": "TMA (Tensor Memory Accelerator) 186, 193–194, 199, 206",
+          "translated": "TMA（张量存储器加速器）186、193-194、199、206"
+        }
+      ]
+    },
+    {
+      "id": "afe27bbb-8053-4564-b17d-e7329545b7a4",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.12232035280731862,
+        "y": 0.8062793994876338,
+        "w": 0.14377044936114622,
+        "h": 0.01548051947549068
+      },
+      "kind": "text",
+      "readingOrder": 231,
+      "source": "WGMMA 193–202",
+      "translated": "WGMMA 193-202",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "WGMMA 193–202",
+          "source": "WGMMA 193–202",
+          "translated": "WGMMA 193-202"
+        }
+      ]
+    },
+    {
+      "id": "3e070308-6b2e-4c2b-a18d-e57692e0e97b",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.6741680959879174,
+        "y": 0.793389607005229,
+        "w": 0.1926637005379821,
+        "h": 0.03145246634305611
+      },
+      "kind": "text",
+      "readingOrder": 235,
+      "source": "maximizing bandwidth with vectorization 138",
+      "translated": "使用矢量化最大化带宽138",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "maximizing bandwidth with vectorization 138",
+          "source": "maximizing bandwidth with vectorization 138",
+          "translated": "使用矢量化最大化带宽138"
+        }
+      ]
+    },
+    {
+      "id": "88226288-32a7-4a73-a8cd-f2ddbed7c3a4",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.122080776900025,
+        "y": 0.8260872679792823,
+        "w": 0.12546400786119033,
+        "h": 0.014305362807295796
+      },
+      "kind": "text",
+      "readingOrder": 237,
+      "source": "when to use 185",
+      "translated": "什么时候使用185",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "when to use 185",
+          "source": "when to use 185",
+          "translated": "什么时候使用185"
+        }
+      ]
+    },
+    {
+      "id": "2c8345c9-a324-47e2-b280-35bd73b6ba14",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.3882687156871031,
+        "y": 0.8178204650636894,
+        "w": 0.21288881633826728,
+        "h": 0.015634680437153055
+      },
+      "kind": "text",
+      "readingOrder": 239,
+      "source": "vectorized loads become 206",
+      "translated": "矢量化负载变为206",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "vectorized loads become 206",
+          "source": "vectorized loads become 206",
+          "translated": "矢量化负载变为206"
+        }
+      ]
+    },
+    {
+      "id": "32c592ee-5877-450d-8ab5-1405ef890223",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.3746665172271872,
+        "y": 0.8371379710113501,
+        "w": 0.2177063160534748,
+        "h": 0.016088402526516655
+      },
+      "kind": "text",
+      "readingOrder": 244,
+      "source": "TMEM (Tensor Memory) 308",
+      "translated": "TMEM（张量存储器）308",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "TMEM (Tensor Memory) 308",
+          "source": "TMEM (Tensor Memory) 308",
+          "translated": "TMEM（张量存储器）308"
+        }
+      ]
+    },
+    {
+      "id": "7cd32b91-1067-41da-98a8-b2cecc054c5d",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.6740306951140639,
+        "y": 0.8298483114219866,
+        "w": 0.1264708152046096,
+        "h": 0.03008766991103291
+      },
+      "kind": "text",
+      "readingOrder": 245,
+      "source": "memory access problem 129",
+      "translated": "内存访问问题129",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "memory access problem 129",
+          "source": "memory access problem 129",
+          "translated": "内存访问问题129"
+        }
+      ]
+    }
+  ]
+}
