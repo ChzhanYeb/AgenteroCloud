@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:54:47.144Z",
+    "generatedAt": "2026-11-22T01:55:00.479Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -970,6 +970,28 @@
           "quote": "latency 18",
           "source": "latency 18",
           "translated": "延迟18"
+        }
+      ]
+    },
+    {
+      "id": "4e65261d-aa51-4aac-94b5-7c5b502526a3::paragraph-4",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.20622587345021,
+        "w": 0.35192714008427944,
+        "h": 0.01903623447232708
+      },
+      "kind": "text",
+      "readingOrder": 147.003,
+      "source": "2.4 Where the parallelism comes in 23",
+      "translated": "2.4并行性出现在哪里23",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "2.4 Where the parallelism comes in 23",
+          "source": "2.4 Where the parallelism comes in 23",
+          "translated": "2.4并行性出现在哪里23"
         }
       ]
     },
@@ -2278,6 +2300,72 @@
           "quote": "weight quantization 323",
           "source": "weight quantization 323",
           "translated": "权重量化323"
+        }
+      ]
+    },
+    {
+      "id": "32491edb-80b4-4435-b87f-0c2f04333f84",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.15693908576570584,
+        "y": 0.476222281036256,
+        "w": 0.1414589796667377,
+        "h": 0.01519059038275674
+      },
+      "kind": "text",
+      "readingOrder": 144,
+      "source": "KV cache 106–108",
+      "translated": "键值缓存 106-108",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "KV cache 106–108",
+          "source": "KV cache 106–108",
+          "translated": "键值缓存 106-108"
+        }
+      ]
+    },
+    {
+      "id": "c9e6aeec-7036-4db3-a2f8-3f632078b2ac",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.3903760362770461,
+        "y": 0.47172871891418017,
+        "w": 0.18472838379365591,
+        "h": 0.016770728139249604
+      },
+      "kind": "text",
+      "readingOrder": 146,
+      "source": "Ultra-Scale Playbook 323",
+      "translated": "超规模剧本323",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Ultra-Scale Playbook 323",
+          "source": "Ultra-Scale Playbook 323",
+          "translated": "超规模剧本323"
+        }
+      ]
+    },
+    {
+      "id": "11c719a0-764a-4c37-add4-90d1b9598f8e",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.39002409367099306,
+        "y": 0.4901830376624222,
+        "w": 0.1854760501032602,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 150,
+      "source": "universal pattern 32",
+      "translated": "通用模式32",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "universal pattern 32",
+          "source": "universal pattern 32",
+          "translated": "通用模式32"
         }
       ]
     }
