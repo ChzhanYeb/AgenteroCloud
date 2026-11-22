@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-22T02:04:26.504Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "figure-1",
+      "stableKey": "p2:figure:Figure 1: Example from A GENT R EWARD B ENCH , where an LLM judge evaluates a we",
+      "kind": "image",
+      "section": "figure",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.17461294286391316,
+        "y": 0.11572404341264204,
+        "w": 0.6531186197318283,
+        "h": 0.27813917217832623
+      },
+      "score": 0.9642123579978943,
+      "title": "Figure 1: Example from A GENT R EWARD B ENCH , where an LLM judge evaluates a web agent’s trajectory on VisualWebArena ( Koh et al. , 2024 ). The benchmark compares judgments against expert annotations to determine the effectiveness of the judge for evaluating web agents.",
+      "layoutRegionId": "85c2903e-5d94-4c47-9ccd-b4e0df71368b"
+    },
+    {
+      "id": "figure-2",
+      "stableKey": "p4:figure:Figure 2: A GENT R EWARD B ENCH creation process. We first collect trajectories ",
+      "kind": "image",
+      "section": "figure",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.17402670118543836,
+        "y": 0.10469126460528133,
+        "w": 0.6538752512215009,
+        "h": 0.19852534207430755
+      },
+      "score": 0.9375665783882141,
+      "title": "Figure 2: A GENT R EWARD B ENCH creation process. We first collect trajectories from LLM agents inside web environments using instructions from several benchmarks. Then, the trajectories are reviewed by expert annotators, who indicate if the trajectory is successful, led to side effects, and contains repetition cycles. Finally, we use the annotated trajectories to evaluate LLM judges.",
+      "layoutRegionId": "7310e11f-7cf6-4693-824f-e17c7ff2a020"
+    },
+    {
+      "id": "figure-3",
+      "stableKey": "p9:figure:Figure 3: Example of judge error (discussed in Section 6 ). In this example, the",
+      "kind": "image",
+      "section": "figure",
+      "page": 9,
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.174652099609375,
+        "y": 0.10369755523373382,
+        "w": 0.65301513671875,
+        "h": 0.2634598510433929
+      },
+      "score": 0.8466134071350098,
+      "title": "Figure 3: Example of judge error (discussed in Section 6 ). In this example, the user requests the agent to buy cereal in VisualWebArena, but the agent stops after adding it to the cart. The judge erroneously identified the trajectory as successful, even though the agent missed an important detail in the instruction.",
+      "layoutRegionId": "bdfbb76a-6606-47cd-93ec-ee224c1bc03f"
+    },
+    {
+      "id": "figure-4",
+      "stableKey": "p16:figure:Figure 4: User Interface used by annotators for answering questions",
+      "kind": "image",
+      "section": "figure",
+      "page": 16,
+      "pageIndex": 15,
+      "bbox": {
+        "x": 0.17093667173697277,
+        "y": 0.1136113561765112,
+        "w": 0.655207528008355,
+        "h": 0.49817310680042615
+      },
+      "score": 0.5641224980354309,
+      "title": "Figure 4: User Interface used by annotators for answering questions",
+      "layoutRegionId": "058bde9a-7d30-4eeb-8af9-09b1be886801"
+    },
+    {
+      "id": "figure-5",
+      "stableKey": "p23:figure:Figure 5: System Prompt Template used for the simplified judge",
+      "kind": "image",
+      "section": "figure",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.1799195108850018,
+        "y": 0.10712997359458847,
+        "w": 0.6432493745891097,
+        "h": 0.49226150127372353
+      },
+      "score": 0.8438224792480469,
+      "title": "Figure 5: System Prompt Template used for the simplified judge",
+      "layoutRegionId": "19c3c113-1cec-4d99-ac7b-e3b27aa64dd1"
+    },
+    {
+      "id": "figure-6",
+      "stableKey": "p23:figure:Figure 6: User Prompt Template used for the simplified judge",
+      "kind": "image",
+      "section": "figure",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.17747199613284442,
+        "y": 0.6132693435206558,
+        "w": 0.6453304290771484,
+        "h": 0.30729139694059737
+      },
+      "score": 0.7867029905319214,
+      "title": "Figure 6: User Prompt Template used for the simplified judge",
+      "layoutRegionId": "f96cc497-9025-485a-826f-e19bf6790b4c"
+    },
+    {
+      "id": "table-p6-0183_0102_0632_0224",
+      "stableKey": "p6:table:0.183_0.102_0.632_0.224",
+      "kind": "table",
+      "section": "table",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.18251359228994332,
+        "y": 0.10217589561385337,
+        "w": 0.6315998002594593,
+        "h": 0.2241188974091501
+      },
+      "score": 0.9676978588104248,
+      "layoutRegionId": "7e63aa6d-73c0-4e03-85f4-fd142272aef2"
+    },
+    {
+      "id": "table-p7-0208_0103_0580_0091",
+      "stableKey": "p7:table:0.208_0.103_0.580_0.091",
+      "kind": "table",
+      "section": "table",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.20793887368993821,
+        "y": 0.10253652900156349,
+        "w": 0.579917683320887,
+        "h": 0.09078329259699042
+      },
+      "score": 0.5357034802436829,
+      "layoutRegionId": "45da34d2-6731-4fb9-bf13-03ebe8b3d453"
+    },
+    {
+      "id": "table-p8-0187_0103_0625_0090",
+      "stableKey": "p8:table:0.187_0.103_0.625_0.090",
+      "kind": "table",
+      "section": "table",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.18659857207653568,
+        "y": 0.10322704700508503,
+        "w": 0.6254510443195019,
+        "h": 0.0898528147225428
+      },
+      "score": 0.9135899543762207,
+      "layoutRegionId": "9c135441-5836-482b-b23d-191e9d50705c"
+    },
+    {
+      "id": "table-p16-0203_0640_0589_0245",
+      "stableKey": "p16:table:0.203_0.640_0.589_0.245",
+      "kind": "table",
+      "section": "table",
+      "page": 16,
+      "pageIndex": 15,
+      "bbox": {
+        "x": 0.2033190384409786,
+        "y": 0.6404578854339291,
+        "w": 0.5892081541173598,
+        "h": 0.2445357736915049
+      },
+      "score": 0.6226521730422974,
+      "layoutRegionId": "8773dd00-645d-48d7-9042-bc96ba47e78c"
+    },
+    {
+      "id": "table-p17-0205_0118_0595_0088",
+      "stableKey": "p17:table:0.205_0.118_0.595_0.088",
+      "kind": "table",
+      "section": "table",
+      "page": 17,
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.20476713990853504,
+        "y": 0.11817711531513869,
+        "w": 0.5946384255403008,
+        "h": 0.08823621152627348
+      },
+      "score": 0.8768284320831299,
+      "layoutRegionId": "748c7752-795b-43d8-be1b-8d5d1d274e2a"
+    },
+    {
+      "id": "table-5",
+      "stableKey": "p17:table:Table 5: Agentlab Hyperparameters",
+      "kind": "table",
+      "section": "table",
+      "page": 17,
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.2238403519773795,
+        "y": 0.21679891721166747,
+        "w": 0.5492028629078585,
+        "h": 0.3934306520404237
+      },
+      "score": 0.9450141191482544,
+      "title": "Table 5: Agentlab Hyperparameters",
+      "layoutRegionId": "b4ba775e-c5d5-49be-8264-27cf02dfc87e"
+    },
+    {
+      "id": "table-6",
+      "stableKey": "p17:table:Table 6: Success Rate by evaluation type. For the LLM judge, we use GPT-4o with ",
+      "kind": "table",
+      "section": "table",
+      "page": 17,
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.17501157872817097,
+        "y": 0.6216673802847814,
+        "w": 0.6504879122466044,
+        "h": 0.24858174179539527
+      },
+      "score": 0.9370995759963989,
+      "title": "Table 6: Success Rate by evaluation type. For the LLM judge, we use GPT-4o with accessibility trees.",
+      "layoutRegionId": "b7c1d2ca-f41e-4c0d-a950-b1a5cf74f0c0"
+    },
+    {
+      "id": "table-p18-0185_0132_0630_0716",
+      "stableKey": "p18:table:0.185_0.132_0.630_0.716",
+      "kind": "table",
+      "section": "table",
+      "page": 18,
+      "pageIndex": 17,
+      "bbox": {
+        "x": 0.18532690659067988,
+        "y": 0.13169836757158992,
+        "w": 0.6299267064512165,
+        "h": 0.715774083378339
+      },
+      "score": 0.9688969850540161,
+      "layoutRegionId": "fd032ae3-11bc-4a40-b47f-7665b1de1791"
+    },
+    {
+      "id": "table-p19-0185_0132_0630_0716",
+      "stableKey": "p19:table:0.185_0.132_0.630_0.716",
+      "kind": "table",
+      "section": "table",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.18547272526360806,
+        "y": 0.1316450196083146,
+        "w": 0.6296005249023438,
+        "h": 0.7157815779098357
+      },
+      "score": 0.9690275192260742,
+      "layoutRegionId": "bf4517a7-c494-4cc0-acef-f07151b92d59"
+    },
+    {
+      "id": "table-p20-0186_0132_0629_0715",
+      "stableKey": "p20:table:0.186_0.132_0.629_0.715",
+      "kind": "table",
+      "section": "table",
+      "page": 20,
+      "pageIndex": 19,
+      "bbox": {
+        "x": 0.18583173066182854,
+        "y": 0.1321310948843908,
+        "w": 0.6294622234269684,
+        "h": 0.7152488014914773
+      },
+      "score": 0.9695109128952026,
+      "layoutRegionId": "40fa53e7-7193-4b15-b5c0-6e8cd06cfeba"
+    },
+    {
+      "id": "table-p21-0185_0131_0628_0717",
+      "stableKey": "p21:table:0.185_0.131_0.628_0.717",
+      "kind": "table",
+      "section": "table",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.18547589171166515,
+        "y": 0.13118439491349038,
+        "w": 0.6277753293903825,
+        "h": 0.716553928876164
+      },
+      "score": 0.9705742597579956,
+      "layoutRegionId": "0e81652e-c9d0-4460-9fe3-1e7a3b301f16"
+    },
+    {
+      "id": "table-p22-0185_0131_0628_0716",
+      "stableKey": "p22:table:0.185_0.131_0.628_0.716",
+      "kind": "table",
+      "section": "table",
+      "page": 22,
+      "pageIndex": 21,
+      "bbox": {
+        "x": 0.18527737785788143,
+        "y": 0.13144809067851365,
+        "w": 0.6279016382553998,
+        "h": 0.7162356713805536
+      },
+      "score": 0.9712709188461304,
+      "layoutRegionId": "35071420-cf36-49df-bed5-de2775d9990c"
+    },
+    {
+      "id": "table-p23-0177_0613_0645_0270",
+      "stableKey": "p23:table:0.177_0.613_0.645_0.270",
+      "kind": "table",
+      "section": "table",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.17747199613284442,
+        "y": 0.6132693435206558,
+        "w": 0.6453304290771484,
+        "h": 0.27026355627811316
+      },
+      "score": 0.4814450144767761,
+      "layoutRegionId": "dcf341c6-456f-43e2-b361-efb929a3ef29"
+    },
+    {
+      "id": "algorithm-p23-0180_0107_0643_0456",
+      "stableKey": "p23:algorithm:0.180_0.107_0.643_0.456",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.1799195108850018,
+        "y": 0.10712997359458847,
+        "w": 0.6432493745891097,
+        "h": 0.4561696100716639
+      },
+      "score": 0.6044155359268188,
+      "layoutRegionId": "54f654b6-7d04-4818-9a63-5ae80365420f"
+    }
+  ]
+}
