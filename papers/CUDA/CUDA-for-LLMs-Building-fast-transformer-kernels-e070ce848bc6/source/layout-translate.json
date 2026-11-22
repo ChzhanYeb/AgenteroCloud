@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T02:00:43.606Z",
+    "generatedAt": "2026-11-22T02:01:10.013Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -2907,6 +2907,65 @@
       ]
     },
     {
+      "id": "2d292aff-6d6e-438b-a192-4e933254102b",
+      "pageIndex": 13,
+      "bbox": {
+        "x": 0.18657508484058977,
+        "y": 0.12483176610282636,
+        "w": 0.7107002208060178,
+        "h": 0.10008985139754537
+      },
+      "kind": "text",
+      "readingOrder": 142,
+      "source": "The book moves from CUDA foundations through the kernels that matter most for transformers and modern inference: GEMV and GEMM, softmax, layer normalization, top-k, tensor cores, Flash Attention, quantization, and distributed communication. It then steps up to CUTLASS and production concerns, where the question becomes not only “can we write this kernel?” but “should we, and how do we maintain it?”",
+      "translated": "这本书从CUDA基础到对变压器和现代推理最重要的内核：GEMV和GEMM、softmax、层归一化、top-k、张量内核、闪存注意力、量化和分布式通信。然后它上升到CUTLASS和生产问题，问题不仅变成了“我们可以编写这个内核吗？”但是“我们应该，我们如何维护它？”",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "The book moves from CUDA foundations through the kernels that matter most for transformers and modern inference: GEMV and GEMM, softmax, layer normalization, top-k, tensor cores, Flash Attention, quantization, and distributed communication.",
+          "source": "The book moves from CUDA foundations through the kernels that matter most for transformers and modern inference: GEMV and GEMM, softmax, layer normalization, top-k, tensor cores, Flash Attention, quantization, and distributed communication.",
+          "translated": "这本书从CUDA基础到对变压器和现代推理最重要的内核：GEMV和GEMM、softmax、层归一化、top-k、张量内核、闪存注意力、量化和分布式通信。"
+        },
+        {
+          "quote": "It then steps up to CUTLASS and production concerns, where the question becomes not only “can we write this kernel?”",
+          "source": "It then steps up to CUTLASS and production concerns, where the question becomes not only “can we write this kernel?”",
+          "translated": "然后它上升到CUTLASS和生产问题，问题不仅变成了“我们可以编写这个内核吗？”"
+        },
+        {
+          "quote": "but “should we, and how do we maintain it?”",
+          "source": "but “should we, and how do we maintain it?”",
+          "translated": "但是“我们应该，我们如何维护它？”"
+        }
+      ]
+    },
+    {
+      "id": "d4341728-0dbe-451a-a6ec-6b7fd73c7b19",
+      "pageIndex": 13,
+      "bbox": {
+        "x": 0.18768695246354655,
+        "y": 0.227325028034546,
+        "w": 0.7088108008914923,
+        "h": 0.06158648134695925
+      },
+      "kind": "text",
+      "readingOrder": 203,
+      "source": "If this book saves you some of the searching, false starts, and disconnected explanations that I went through, it will have done its job. I learned much of this the slow way, and I wrote down the version I wish someone had handed me at the beginning.",
+      "translated": "如果这本书为你节省了一些我经历过的搜索、错误的开始和不连贯的解释，它就完成了它的工作。我慢慢地学到了很多，我写下了我希望有人一开始就交给我的版本。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "If this book saves you some of the searching, false starts, and disconnected explanations that I went through, it will have done its job.",
+          "source": "If this book saves you some of the searching, false starts, and disconnected explanations that I went through, it will have done its job.",
+          "translated": "如果这本书为你节省了一些我经历过的搜索、错误的开始和不连贯的解释，它就完成了它的工作。"
+        },
+        {
+          "quote": "I learned much of this the slow way, and I wrote down the version I wish someone had handed me at the beginning.",
+          "source": "I learned much of this the slow way, and I wrote down the version I wish someone had handed me at the beginning.",
+          "translated": "我慢慢地学到了很多，我写下了我希望有人一开始就交给我的版本。"
+        }
+      ]
+    },
+    {
       "id": "13:fallback:774",
       "pageIndex": 13,
       "bbox": {
@@ -2925,6 +2984,87 @@
           "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
           "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
           "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "6cafe690-b6ac-4f04-a6a3-438b6808d62a",
+      "pageIndex": 14,
+      "bbox": {
+        "x": 0.5155687305238711,
+        "y": 0.3409092999185294,
+        "w": 0.3820902410814028,
+        "h": 0.04267574736846996
+      },
+      "kind": "header",
+      "readingOrder": 44,
+      "source": "acknowledgments",
+      "translated": "致谢",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "acknowledgments",
+          "source": "acknowledgments",
+          "translated": "致谢"
+        }
+      ]
+    },
+    {
+      "id": "11794be9-f8ca-4269-80a9-c2a565b4f587",
+      "pageIndex": 14,
+      "bbox": {
+        "x": 0.18738159007434,
+        "y": 0.4099624960503816,
+        "w": 0.7096270671568159,
+        "h": 0.08142873959159397
+      },
+      "kind": "text",
+      "readingOrder": 71,
+      "source": "Thank you, development editor Connor O’Brien, for guiding this book with patience, clarity, and a steady sense of what the reader needed next. Connor helped turn a long sequence of experiments, diagrams, revisions, and structure questions into a manuscript that a reader can actually follow.",
+      "translated": "谢谢你，开发编辑康纳·奥布莱恩，耐心、清晰地指导这本书，并对读者接下来需要什么有一个稳定的感觉。康纳帮助将一长串实验、图表、修订和结构问题转化为读者可以实际遵循的手稿。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Thank you, development editor Connor O’Brien, for guiding this book with patience, clarity, and a steady sense of what the reader needed next.",
+          "source": "Thank you, development editor Connor O’Brien, for guiding this book with patience, clarity, and a steady sense of what the reader needed next.",
+          "translated": "谢谢你，开发编辑康纳·奥布莱恩，耐心、清晰地指导这本书，并对读者接下来需要什么有一个稳定的感觉。"
+        },
+        {
+          "quote": "Connor helped turn a long sequence of experiments, diagrams, revisions, and structure questions into a manuscript that a reader can actually follow.",
+          "source": "Connor helped turn a long sequence of experiments, diagrams, revisions, and structure questions into a manuscript that a reader can actually follow.",
+          "translated": "康纳帮助将一长串实验、图表、修订和结构问题转化为读者可以实际遵循的手稿。"
+        }
+      ]
+    },
+    {
+      "id": "33b079fe-5bf6-4e3e-9b7c-bfd41262dc63",
+      "pageIndex": 14,
+      "bbox": {
+        "x": 0.1872376435675491,
+        "y": 0.49319218416992966,
+        "w": 0.7089527521285939,
+        "h": 0.10032345244659496
+      },
+      "kind": "text",
+      "readingOrder": 109,
+      "source": "Thank you, Ruud Gijsen, for the technical review work that made the manuscript sharper. Ruud is a senior software engineer with expertise in high-performance computing and simulation engines. A book about CUDA and performance has to be precise, and the review process caught places where a sentence, diagram, benchmark, or claim needed to be more careful.",
+      "translated": "感谢Ruud Gijsen的技术审查工作，使手稿更加清晰。Ruud是一名高级软件工程师，擅长高性能计算和仿真引擎。一本关于CUDA和性能的书必须精确，审查过程抓住了句子、图表、基准或声明需要更加小心的地方。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Thank you, Ruud Gijsen, for the technical review work that made the manuscript sharper.",
+          "source": "Thank you, Ruud Gijsen, for the technical review work that made the manuscript sharper.",
+          "translated": "感谢Ruud Gijsen的技术审查工作，使手稿更加清晰。"
+        },
+        {
+          "quote": "Ruud is a senior software engineer with expertise in high-performance computing and simulation engines.",
+          "source": "Ruud is a senior software engineer with expertise in high-performance computing and simulation engines.",
+          "translated": "Ruud是一名高级软件工程师，擅长高性能计算和仿真引擎。"
+        },
+        {
+          "quote": "A book about CUDA and performance has to be precise, and the review process caught places where a sentence, diagram, benchmark, or claim needed to be more careful.",
+          "source": "A book about CUDA and performance has to be precise, and the review process caught places where a sentence, diagram, benchmark, or claim needed to be more careful.",
+          "translated": "一本关于CUDA和性能的书必须精确，审查过程抓住了句子、图表、基准或声明需要更加小心的地方。"
         }
       ]
     },
@@ -4623,6 +4763,28 @@
       ]
     },
     {
+      "id": "29:fallback:2504",
+      "pageIndex": 29,
+      "bbox": {
+        "x": 0.8487654554973798,
+        "y": 0.518737389370913,
+        "w": 0.02070159647554585,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10327,
+      "source": "SM",
+      "translated": "SM",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "SM",
+          "source": "SM",
+          "translated": "SM"
+        }
+      ]
+    },
+    {
       "id": "29:fallback:2469",
       "pageIndex": 29,
       "bbox": {
@@ -4685,6 +4847,182 @@
           "quote": "System memor",
           "source": "System memor",
           "translated": "系统记忆"
+        }
+      ]
+    },
+    {
+      "id": "29:fallback:2550",
+      "pageIndex": 29,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "30:fallback:2211",
+      "pageIndex": 30,
+      "bbox": {
+        "x": 0.7546672896994441,
+        "y": 0.16180799301478016,
+        "w": 0.07339656932238983,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10102,
+      "source": "Quantization",
+      "translated": "量化",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Quantization",
+          "source": "Quantization",
+          "translated": "量化"
+        }
+      ]
+    },
+    {
+      "id": "30:fallback:2183",
+      "pageIndex": 30,
+      "bbox": {
+        "x": 0.7377296198558156,
+        "y": 0.2220894021771493,
+        "w": 0.10727190900964668,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10140,
+      "source": "FlashAttention 1-4",
+      "translated": "闪存关注1-4",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "FlashAttention 1-4",
+          "source": "FlashAttention 1-4",
+          "translated": "闪存关注1-4"
+        }
+      ]
+    },
+    {
+      "id": "30:fallback:2131",
+      "pageIndex": 30,
+      "bbox": {
+        "x": 0.7527853263834854,
+        "y": 0.26809363548527304,
+        "w": 0.07716049595430725,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10169,
+      "source": "Tensor cores",
+      "translated": "张量核",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Tensor cores",
+          "source": "Tensor cores",
+          "translated": "张量核"
+        }
+      ]
+    },
+    {
+      "id": "30:fallback:2145",
+      "pageIndex": 30,
+      "bbox": {
+        "x": 0.7339656932238983,
+        "y": 0.28237081133951836,
+        "w": 0.11479976227348151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10178,
+      "source": "*speedup based on",
+      "translated": "*加速基于",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "*speedup based on",
+          "source": "*speedup based on",
+          "translated": "*加速基于"
+        }
+      ]
+    },
+    {
+      "id": "30:fallback:2164",
+      "pageIndex": 30,
+      "bbox": {
+        "x": 0.7377296198558156,
+        "y": 0.29506163432106974,
+        "w": 0.10727190900964668,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10186,
+      "source": "GPU architecture*",
+      "translated": "GPU架构*",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "GPU architecture*",
+          "source": "GPU architecture*",
+          "translated": "GPU架构*"
+        }
+      ]
+    },
+    {
+      "id": "30:fallback:2107",
+      "pageIndex": 30,
+      "bbox": {
+        "x": 0.7377296198558156,
+        "y": 0.3267886917749482,
+        "w": 0.10727190900964668,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10206,
+      "source": "Memory optimized",
+      "translated": "内存优化",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Memory optimized",
+          "source": "Memory optimized",
+          "translated": "内存优化"
+        }
+      ]
+    },
+    {
+      "id": "30:fallback:2089",
+      "pageIndex": 30,
+      "bbox": {
+        "x": 0.7546672896994441,
+        "y": 0.3807246894465416,
+        "w": 0.07339656932238983,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10240,
+      "source": "NaiveCUDA",
+      "translated": "朴素CUDA",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "NaiveCUDA",
+          "source": "NaiveCUDA",
+          "translated": "朴素CUDA"
         }
       ]
     },

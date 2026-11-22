@@ -2719,7 +2719,8 @@
     "@arxiv:Computer Science - Artificial Intelligence",
     "@arxiv:Computer Science - Computers and Society",
     "@arxiv:Computer Science - Machine Learning",
-    "@arxiv:Statistics - Machine Learning"
+    "@arxiv:Statistics - Machine Learning",
+    "模型评测"
   ],
   "arxiv_id": "2206.04615",
   "doi": "10.48550/ARXIV.2206.04615",
@@ -2739,5 +2740,5 @@
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:33:38.698Z",
-  "updated_at": "2026-11-22T01:48:19.158Z"
+  "updated_at": "2026-11-22T02:01:03.415Z"
 }
