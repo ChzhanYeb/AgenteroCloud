@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:54:40.621Z",
+    "generatedAt": "2026-11-22T01:54:47.144Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -943,6 +943,33 @@
           "quote": "3.1 From 1D to 3D element-wise addition 35 From loops to parallel threads 37  ■  Kernel 1, matrix transpose: When data needs to change shape 38",
           "source": "⟪S0⟫3.1 From 1D to 3D element-wise addition 35 ⟪/S0⟫From loops to parallel threads 37  ⟪S1⟫■  ⟪/S1⟫Kernel 1, matrix transpose: When data needs to change shape 38",
           "translated": "⟪S0⟫3.1从1D到3D元素加法35 ⟪/S0⟫从循环到并行线程37 ⟪S1⟫■⟪/S1⟫Kernel 1、矩阵转置：当数据需要改变形状时38"
+        }
+      ]
+    },
+    {
+      "id": "4e65261d-aa51-4aac-94b5-7c5b502526a3::paragraph-1",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.255947010970385,
+        "y": 0.08407670225277793,
+        "w": 0.38580247977153626,
+        "h": 0.0475905861808177
+      },
+      "kind": "text",
+      "readingOrder": 147,
+      "source": "⟪S0⟫Your first CUDA program 17 ⟪/S0⟫2.1 The “why”: Throughput vs. latency 18",
+      "translated": "⟪S0⟫您的第一个CUDA程序17 ⟪/S0⟫2.1“为什么”：吞吐量vs.延迟18",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Your first CUDA program 17 2.1 The “why”: Throughput vs.",
+          "source": "⟪S0⟫Your first CUDA program 17 ⟪/S0⟫2.1 The “why”: Throughput vs.",
+          "translated": "⟪S0⟫您的第一个CUDA程序17 ⟪/S0⟫2.1“为什么”：吞吐量vs."
+        },
+        {
+          "quote": "latency 18",
+          "source": "latency 18",
+          "translated": "延迟18"
         }
       ]
     },
@@ -2163,6 +2190,94 @@
           "quote": "TTFT (time to first token) 115",
           "source": "TTFT (time to first token) 115",
           "translated": "TTFT（第一个Token（词元）的时间）115"
+        }
+      ]
+    },
+    {
+      "id": "6aca57df-cd1e-4b16-8c89-d673a7969a2e",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.1558548217658602,
+        "y": 0.4230527219840405,
+        "w": 0.19749808109602832,
+        "h": 0.03079105047457375
+      },
+      "kind": "text",
+      "readingOrder": 133,
+      "source": "GEMV-dominated inference operations 107",
+      "translated": "GEMV支配的推理操作107",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "GEMV-dominated inference operations 107",
+          "source": "GEMV-dominated inference operations 107",
+          "translated": "GEMV支配的推理操作107"
+        }
+      ]
+    },
+    {
+      "id": "79ca9a74-de2d-4571-bfea-ed25c3bb81d2",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6577557252469426,
+        "y": 0.4237511655246332,
+        "w": 0.1724262111947319,
+        "h": 0.016754658613575536
+      },
+      "kind": "text",
+      "readingOrder": 135,
+      "source": "wavefront, defined 130",
+      "translated": "波前，定义130",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "wavefront, defined 130",
+          "source": "wavefront, defined 130",
+          "translated": "波前，定义130"
+        }
+      ]
+    },
+    {
+      "id": "9ae24cff-8338-4342-9d72-7983afe40c62",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.39002018925836374,
+        "y": 0.4480758291875247,
+        "w": 0.01812792945782867,
+        "h": 0.016879536252849922
+      },
+      "kind": "header",
+      "readingOrder": 137,
+      "source": "U",
+      "translated": "U",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "U",
+          "source": "U",
+          "translated": "U"
+        }
+      ]
+    },
+    {
+      "id": "39a4adb3-8711-4230-a14f-4886e7b84600",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.657931251561765,
+        "y": 0.44409058682035585,
+        "w": 0.17925456954080432,
+        "h": 0.016606935142619943
+      },
+      "kind": "text",
+      "readingOrder": 139,
+      "source": "weight quantization 323",
+      "translated": "权重量化323",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "weight quantization 323",
+          "source": "weight quantization 323",
+          "translated": "权重量化323"
         }
       ]
     }
