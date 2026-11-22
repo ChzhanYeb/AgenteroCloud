@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:56:45.722Z",
+    "generatedAt": "2026-11-22T01:57:14.024Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -1689,6 +1689,314 @@
           "quote": "tensor cores 202",
           "source": "tensor cores 202",
           "translated": "张量核202"
+        }
+      ]
+    },
+    {
+      "id": "cf96e60a-53d9-4a46-8132-04bcf0d13e2e",
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.26518179174873585,
+        "y": 0.8247224231450734,
+        "w": 0.45001680045787273,
+        "h": 0.04232877629981165
+      },
+      "kind": "text",
+      "readingOrder": 254,
+      "source": "⟪S0⟫7.5 Performance progression analysis 203 ⟪/S0⟫Decision framework: When to use tensor cores 204",
+      "translated": "⟪S0⟫7.5性能进展分析203 ⟪/S0⟫决策框架：何时使用张量核204",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "7.5 Performance progression analysis 203 Decision framework: When to use tensor cores 204",
+          "source": "⟪S0⟫7.5 Performance progression analysis 203 ⟪/S0⟫Decision framework: When to use tensor cores 204",
+          "translated": "⟪S0⟫7.5性能进展分析203 ⟪/S0⟫决策框架：何时使用张量核204"
+        }
+      ]
+    },
+    {
+      "id": "cf6d1e07-8702-4781-a8ee-a54124983a4b",
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.26442757980619414,
+        "y": 0.8788181580219073,
+        "w": 0.5453822224743503,
+        "h": 0.08375978885804916
+      },
+      "kind": "text",
+      "readingOrder": 282,
+      "source": "⟪S0⟫7.6 From CUDA cores to tensor cores: Pattern mapping 205 ⟪/S0⟫Manual tiling becomes hardware tiling 205  ⟪S1⟫■  ⟪/S1⟫Vectorized loads become TMA 206  ⟪S2⟫■  ⟪/S2⟫Shared memory becomes implicit 207 What you still optimize manually 208",
+      "translated": "⟪S0⟫7.6从CUDA内核到张量内核：模式映射205 ⟪/S0⟫手动平铺变为硬件平铺205 ⟪S1⟫■⟪/S1⟫矢量化负载变为TMA 206 ⟪S2⟫■⟪/S2⟫共享内存变为隐式207您仍然手动优化的内容208",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "7.6 From CUDA cores to tensor cores: Pattern mapping 205 Manual tiling becomes hardware tiling 205  ■  Vectorized loads become TMA 206  ■  Shared memory becomes implicit 207 What you still optimize manually 208",
+          "source": "⟪S0⟫7.6 From CUDA cores to tensor cores: Pattern mapping 205 ⟪/S0⟫Manual tiling becomes hardware tiling 205  ⟪S1⟫■  ⟪/S1⟫Vectorized loads become TMA 206  ⟪S2⟫■  ⟪/S2⟫Shared memory becomes implicit 207 What you still optimize manually 208",
+          "translated": "⟪S0⟫7.6从CUDA内核到张量内核：模式映射205 ⟪/S0⟫手动平铺变为硬件平铺205 ⟪S1⟫■⟪/S1⟫矢量化负载变为TMA 206 ⟪S2⟫■⟪/S2⟫共享内存变为隐式207您仍然手动优化的内容208"
+        }
+      ]
+    },
+    {
+      "id": "8:fallback:1817",
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "b94897ff-0f8e-470c-b926-6463b53e8eb7",
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.47162918851606594,
+        "y": 0.04164364941057754,
+        "w": 0.0738923583295361,
+        "h": 0.016132236756000323
+      },
+      "kind": "header",
+      "readingOrder": 0,
+      "source": "contents",
+      "translated": "内容",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "contents",
+          "source": "contents",
+          "translated": "内容"
+        }
+      ]
+    },
+    {
+      "id": "1f926bb1-5acf-4d12-8edc-f6478c4a802d",
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.28147315440711723,
+        "y": 0.2721456214608322,
+        "w": 0.5541085272831168,
+        "h": 0.10307354363631294
+      },
+      "kind": "text",
+      "readingOrder": 118,
+      "source": "⟪S0⟫8.2 Designing Flash Attention 214 ⟪/S0⟫Building intuition: Why this problem is harder than it looks 214 The Flash Attention solution: Tiling and online softmax 215 Tiling: Breaking the problem down 215  ⟪S1⟫■  ⟪/S1⟫Online softmax: Computing global statistics iteratively 215",
+      "translated": "⟪S0⟫8.2设计Flash注意214 ⟪/S0⟫建立直觉：为什么这个问题比看起来难214 Flash注意解决方案：平铺和在线softmax 215平铺：分解问题215 ⟪S1⟫■⟪/S1⟫Online softmax：迭代计算全局统计215",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "8.2 Designing Flash Attention 214 Building intuition: Why this problem is harder than it looks 214 The Flash Attention solution: Tiling and online softmax 215 Tiling: Breaking the problem down 215  ■  Online softmax: Computing global statistics iteratively 215",
+          "source": "⟪S0⟫8.2 Designing Flash Attention 214 ⟪/S0⟫Building intuition: Why this problem is harder than it looks 214 The Flash Attention solution: Tiling and online softmax 215 Tiling: Breaking the problem down 215  ⟪S1⟫■  ⟪/S1⟫Online softmax: Computing global statistics iteratively 215",
+          "translated": "⟪S0⟫8.2设计Flash注意214 ⟪/S0⟫建立直觉：为什么这个问题比看起来难214 Flash注意解决方案：平铺和在线softmax 215平铺：分解问题215 ⟪S1⟫■⟪/S1⟫Online softmax：迭代计算全局统计215"
+        }
+      ]
+    },
+    {
+      "id": "de57aa18-dbc1-4ec3-b4bd-09117dd6c6f7",
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.28063583015161986,
+        "y": 0.38973604545623514,
+        "w": 0.6078241156275723,
+        "h": 0.08405562301744647
+      },
+      "kind": "text",
+      "readingOrder": 131,
+      "source": "⟪S0⟫8.3 Implementing Flash Attention 217 ⟪/S0⟫Dissecting the naive implementation 218  ⟪S1⟫■  ⟪/S1⟫Understanding the work distribution strategy 220  ⟪S2⟫■  ⟪/S2⟫The three-level loop hierarchy 221 The fused Flash Attention kernel 222  ⟪S3⟫■  ⟪/S3⟫Benchmarking our kernel 228",
+      "translated": "⟪S0⟫8.3实现Flash注意217 ⟪/S0⟫剖析天真的实现218 ⟪S1⟫■⟪/S1⟫Understanding工作分配策略220 ⟪S2⟫■⟪/S2⟫三级循环层次结构221融合的Flash注意内核222 ⟪S3⟫■⟪/S3⟫基准测试我们的内核228",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "8.3 Implementing Flash Attention 217 Dissecting the naive implementation 218  ■  Understanding the work distribution strategy 220  ■  The three-level loop hierarchy 221 The fused Flash Attention kernel 222  ■  Benchmarking our kernel 228",
+          "source": "⟪S0⟫8.3 Implementing Flash Attention 217 ⟪/S0⟫Dissecting the naive implementation 218  ⟪S1⟫■  ⟪/S1⟫Understanding the work distribution strategy 220  ⟪S2⟫■  ⟪/S2⟫The three-level loop hierarchy 221 The fused Flash Attention kernel 222  ⟪S3⟫■  ⟪/S3⟫Benchmarking our kernel 228",
+          "translated": "⟪S0⟫8.3实现Flash注意217 ⟪/S0⟫剖析天真的实现218 ⟪S1⟫■⟪/S1⟫Understanding工作分配策略220 ⟪S2⟫■⟪/S2⟫三级循环层次结构221融合的Flash注意内核222 ⟪S3⟫■⟪/S3⟫基准测试我们的内核228"
+        }
+      ]
+    },
+    {
+      "id": "2e56a4b4-a627-494c-b726-f20600d7373e::paragraph-1",
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.08249034938008401,
+        "w": 0.5457693616280269,
+        "h": 0.041245174690042005
+      },
+      "kind": "text",
+      "readingOrder": 152,
+      "source": "⟪S0⟫7.7 TCGen05: Blackwell’s tensor cores 208 ⟪/S0⟫TCGen05 overview 209  ⟪S1⟫■  ⟪/S1⟫Challenges and considerations 209",
+      "translated": "⟪S0⟫7.7 TCGen05：Blackwell张量核心208 ⟪/S0⟫TCGen05概述209 ⟪S1⟫■⟪/S1⟫挑战和注意事项209",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "7.7 TCGen05: Blackwell’s tensor cores 208 TCGen05 overview 209  ■  Challenges and considerations 209",
+          "source": "⟪S0⟫7.7 TCGen05: Blackwell’s tensor cores 208 ⟪/S0⟫TCGen05 overview 209  ⟪S1⟫■  ⟪/S1⟫Challenges and considerations 209",
+          "translated": "⟪S0⟫7.7 TCGen05：Blackwell张量核心208 ⟪/S0⟫TCGen05概述209 ⟪S1⟫■⟪/S1⟫挑战和注意事项209"
+        }
+      ]
+    },
+    {
+      "id": "2e56a4b4-a627-494c-b726-f20600d7373e::paragraph-2",
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.13959905279706525,
+        "w": 0.22959952454696303,
+        "h": 0.017449881599633156
+      },
+      "kind": "text",
+      "readingOrder": 152.001,
+      "source": "7.8 Looking ahead 210",
+      "translated": "7.8展望未来210",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "7.8 Looking ahead 210",
+          "source": "7.8 Looking ahead 210",
+          "translated": "7.8展望未来210"
+        }
+      ]
+    },
+    {
+      "id": "2e56a4b4-a627-494c-b726-f20600d7373e::paragraph-3",
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.27288468081401346,
+        "y": 0.18243058035980117,
+        "w": 0.4479072691981738,
+        "h": 0.07297223214392047
+      },
+      "kind": "text",
+      "readingOrder": 152.002,
+      "source": "⟪S0⟫Flash Attention 212 ⟪/S0⟫⟪S1⟫8.1 From compute-bound to memory-bound 213 ⟪/S1⟫The HBM bottleneck in standard attention 213",
+      "translated": "⟪S0⟫Flash关注212 ⟪/S0⟫⟪S1⟫8.1从计算绑定到记忆绑定213 ⟪/S1⟫标准关注中的HBM瓶颈213",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Flash Attention 212 8.1 From compute-bound to memory-bound 213 The HBM bottleneck in standard attention 213",
+          "source": "⟪S0⟫Flash Attention 212 ⟪/S0⟫⟪S1⟫8.1 From compute-bound to memory-bound 213 ⟪/S1⟫The HBM bottleneck in standard attention 213",
+          "translated": "⟪S0⟫Flash关注212 ⟪/S0⟫⟪S1⟫8.1从计算绑定到记忆绑定213 ⟪/S1⟫标准关注中的HBM瓶颈213"
+        }
+      ]
+    },
+    {
+      "id": "9:fallback:1622",
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "10:fallback:1570",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "11:fallback:1044",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "12:fallback:1944",
+      "pageIndex": 12,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "13:fallback:774",
+      "pageIndex": 13,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
         }
       ]
     },
