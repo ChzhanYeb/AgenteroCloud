@@ -107,7 +107,8 @@
   "date": "2022",
   "abstract": "Neural networks often pack many unrelated concepts into a single neuron - a puzzling phenomenon known as 'polysemanticity' which makes interpretability much more challenging. This paper provides a toy model where polysemanticity can be fully understood, arising as a result of models storing additional sparse features in \"superposition.\" We demonstrate the existence of a phase change, a surprising connection to the geometry of uniform polytopes, and evidence of a link to adversarial examples. We also discuss potential implications for mechanistic interpretability.",
   "tags": [
-    "@arxiv:Computer Science - Machine Learning"
+    "@arxiv:Computer Science - Machine Learning",
+    "可解释性"
   ],
   "arxiv_id": "2209.10652",
   "doi": "10.48550/ARXIV.2209.10652",
@@ -126,5 +127,5 @@
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:36:02.180Z",
-  "updated_at": "2026-11-22T01:50:36.895Z"
+  "updated_at": "2026-11-22T02:02:32.667Z"
 }
