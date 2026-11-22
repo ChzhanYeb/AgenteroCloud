@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:57:39.105Z",
+    "generatedAt": "2026-11-22T01:58:06.289Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -1994,6 +1994,28 @@
       ]
     },
     {
+      "id": "2e56a4b4-a627-494c-b726-f20600d7373e::paragraph-10",
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.8978757259447606,
+        "w": 0.6078741510546645,
+        "h": 0.06186776203506301
+      },
+      "kind": "text",
+      "readingOrder": 152.009,
+      "source": "⟪S0⟫9.4 Putting it all together 259 ⟪/S0⟫Real model quantization workflow 259  ⟪S1⟫■  ⟪/S1⟫Accuracy validation strategy 260  ⟪S2⟫■  ⟪/S2⟫Common pitfalls 261  ⟪S3⟫■  ⟪/S3⟫The tradeoffs in one place 262",
+      "translated": "⟪S0⟫9.4把它放在一起259 ⟪/S0⟫Real模型量化工作流程259 ⟪S1⟫■⟪/S1⟫精度验证策略260 ⟪S2⟫■⟪/S2⟫常见陷阱261 ⟪S3⟫■⟪/S3⟫在一个地方的权衡262",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "9.4 Putting it all together 259 Real model quantization workflow 259  ■  Accuracy validation strategy 260  ■  Common pitfalls 261  ■  The tradeoffs in one place 262",
+          "source": "⟪S0⟫9.4 Putting it all together 259 ⟪/S0⟫Real model quantization workflow 259  ⟪S1⟫■  ⟪/S1⟫Accuracy validation strategy 260  ⟪S2⟫■  ⟪/S2⟫Common pitfalls 261  ⟪S3⟫■  ⟪/S3⟫The tradeoffs in one place 262",
+          "translated": "⟪S0⟫9.4把它放在一起259 ⟪/S0⟫Real模型量化工作流程259 ⟪S1⟫■⟪/S1⟫精度验证策略260 ⟪S2⟫■⟪/S2⟫常见陷阱261 ⟪S3⟫■⟪/S3⟫在一个地方的权衡262"
+        }
+      ]
+    },
+    {
       "id": "9:fallback:1622",
       "pageIndex": 9,
       "bbox": {
@@ -2012,6 +2034,94 @@
           "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
           "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
           "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "f0b17f8c-1ca4-4483-b757-0c6cdc8182a6",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.455609440915672,
+        "y": 0.041522934359278965,
+        "w": 0.0735789717981979,
+        "h": 0.016079696183352126
+      },
+      "kind": "header",
+      "readingOrder": 8,
+      "source": "contents",
+      "translated": "内容",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "contents",
+          "source": "contents",
+          "translated": "内容"
+        }
+      ]
+    },
+    {
+      "id": "356424f0-d2cd-4910-b9e4-3f0208207b33",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.26372317783359306,
+        "y": 0.08140304408122584,
+        "w": 0.5179604990574288,
+        "h": 0.07872766166523655
+      },
+      "kind": "text",
+      "readingOrder": 24,
+      "source": "⟪S0⟫9.5 Where we can go further 263 ⟪/S0⟫GPT quantization 263  ⟪S1⟫■  ⟪/S1⟫NormalFloat4 263 Quantization-aware training 264  ⟪S2⟫■  ⟪/S2⟫Quantization kernel profiling 264  ⟪S3⟫■  ⟪/S3⟫The road ahead 265",
+      "translated": "⟪S0⟫9.5我们可以更进一步263 ⟪/S0⟫GPT量化263 ⟪S1⟫■⟪/S1⟫NormalFloat4 263量化感知训练264 ⟪S2⟫■⟪/S2⟫量化内核分析264 ⟪S3⟫■⟪/S3⟫前方的路265",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "9.5 Where we can go further 263 GPT quantization 263  ■  NormalFloat4 263 Quantization-aware training 264  ■  Quantization kernel profiling 264  ■  The road ahead 265",
+          "source": "⟪S0⟫9.5 Where we can go further 263 ⟪/S0⟫GPT quantization 263  ⟪S1⟫■  ⟪/S1⟫NormalFloat4 263 Quantization-aware training 264  ⟪S2⟫■  ⟪/S2⟫Quantization kernel profiling 264  ⟪S3⟫■  ⟪/S3⟫The road ahead 265",
+          "translated": "⟪S0⟫9.5我们可以更进一步263 ⟪/S0⟫GPT量化263 ⟪S1⟫■⟪/S1⟫NormalFloat4 263量化感知训练264 ⟪S2⟫■⟪/S2⟫量化内核分析264 ⟪S3⟫■⟪/S3⟫前方的路265"
+        }
+      ]
+    },
+    {
+      "id": "99a5c90e-589d-40b3-86cb-ceb126e65c76",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.2657836167630674,
+        "y": 0.30461942232572115,
+        "w": 0.5822825391451817,
+        "h": 0.07599663488643686
+      },
+      "kind": "text",
+      "readingOrder": 85,
+      "source": "⟪S0⟫10.2 Tensor parallelism 278 ⟪/S0⟫Initialization and GPU assignment 279  ⟪S1⟫■  ⟪/S1⟫Memory allocation 281 Local matrix multiplication 281  ⟪S2⟫■  ⟪/S2⟫Combining the results with AllReduce 282",
+      "translated": "⟪S0⟫10.2张量并行性278⟪/S0⟫Initialization和GPU分配279 ⟪S1⟫■⟪/S1⟫内存分配281局部矩阵乘法281 ⟪S2⟫■⟪/S2⟫将结果与AllReduce 282相结合",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "10.2 Tensor parallelism 278 Initialization and GPU assignment 279  ■  Memory allocation 281 Local matrix multiplication 281  ■  Combining the results with AllReduce 282",
+          "source": "⟪S0⟫10.2 Tensor parallelism 278 ⟪/S0⟫Initialization and GPU assignment 279  ⟪S1⟫■  ⟪/S1⟫Memory allocation 281 Local matrix multiplication 281  ⟪S2⟫■  ⟪/S2⟫Combining the results with AllReduce 282",
+          "translated": "⟪S0⟫10.2张量并行性278⟪/S0⟫Initialization和GPU分配279 ⟪S1⟫■⟪/S1⟫内存分配281局部矩阵乘法281 ⟪S2⟫■⟪/S2⟫将结果与AllReduce 282相结合"
+        }
+      ]
+    },
+    {
+      "id": "d3b7d0d6-1db8-4b12-a9d4-8453d2097b74::paragraph-2",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.17132611025094371,
+        "w": 0.1825504416479952,
+        "h": 0.01903623447232708
+      },
+      "kind": "text",
+      "readingOrder": 150.001,
+      "source": "9.6 Exercises 265",
+      "translated": "9.6练习265",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "9.6 Exercises 265",
+          "source": "9.6 Exercises 265",
+          "translated": "9.6练习265"
         }
       ]
     },
@@ -2232,6 +2342,204 @@
           "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
           "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
           "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "20:fallback:623",
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "21:fallback:858",
+      "pageIndex": 21,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "22:fallback:2618",
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "23:fallback:3345",
+      "pageIndex": 23,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "24:fallback:3017",
+      "pageIndex": 24,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "25:fallback:3169",
+      "pageIndex": 25,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:44",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.25971093760230246,
+        "y": 0.14277175854245308,
+        "w": 0.028229449739380703,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10090,
+      "source": "CPU",
+      "translated": "CPU",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "CPU",
+          "source": "CPU",
+          "translated": "CPU"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:48",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.6718609037972607,
+        "y": 0.14277175854245308,
+        "w": 0.028229449739380703,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10090,
+      "source": "GPU",
+      "translated": "GPU",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "GPU",
+          "source": "GPU",
+          "translated": "GPU"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:53",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.656805197269591,
+        "y": 0.34423857337458136,
+        "w": 0.04704908289896784,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10217,
+      "source": "L2 cach",
+      "translated": "L2缓存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "L2 cach",
+          "source": "L2 cach",
+          "translated": "L2缓存"
         }
       ]
     },
