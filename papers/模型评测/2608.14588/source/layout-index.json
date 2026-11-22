@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-22T01:48:49.340Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "figure-1",
+      "stableKey": "p2:figure:Figure 1. Four-state Markov process of hallucination propagation. Escape probabi",
+      "kind": "image",
+      "section": "figure",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.08632761512706483,
+        "y": 0.37300653168649384,
+        "w": 0.3912698396670273,
+        "h": 0.15956489485923692
+      },
+      "score": 0.9348082542419434,
+      "title": "Figure 1. Four-state Markov process of hallucination propagation. Escape probabilities rise from 24.6% to 89.3% across boundaries; by S 3 S 4 , nearly 90% of hallucinations are structurally unrecov erable by any downstream gate. →",
+      "layoutRegionId": "9e28a50e-e989-4386-80ee-e9ed1b5bb306"
+    },
+    {
+      "id": "figure-2",
+      "stableKey": "p3:figure:Figure 2. Hallucination detectability decays monotonically across all three dete",
+      "kind": "chart",
+      "section": "figure",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.4973307092205372,
+        "y": 0.5612198800751658,
+        "w": 0.39186644709967317,
+        "h": 0.23978593614366317
+      },
+      "score": 0.9491865634918213,
+      "title": "Figure 2. Hallucination detectability decays monotonically across all three detection methods ( n =346). Every hallucination is de tectable at S 1 ; gpt-4o Judge drops 21.1 pp by S 4 , confirming the pipeline, not the hallucination itself, creates invisibility.",
+      "layoutRegionId": "2b8a754e-14f9-4f82-8178-c758ca35d89c"
+    },
+    {
+      "id": "figure-3",
+      "stableKey": "p4:figure:Figure 3. Boundary gates intercept the cascade at its origin while baselines dec",
+      "kind": "chart",
+      "section": "figure",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.5016339869281046,
+        "y": 0.5046399819730508,
+        "w": 0.3856209150326797,
+        "h": 0.3400569877239189
+      },
+      "score": 0.9550605416297913,
+      "title": "Figure 3. Boundary gates intercept the cascade at its origin while baselines decay passively. All methods begin identically at S1 (96.8%); Gate 1 alone drives a 26.6 pp drop at S2, reducing final survival to 16.2% versus 60.7% for Vanilla, a 3.75× reduction. Gate breakdown exposes the mechanism (Table 4): Gate 1 alone captures 75.4%, nearly as much as all three gates com bined (76.9%). Gate 3 adds only 1.5 pp of marginal cover age. Stage-by-stage presence curves confirm early intercep tion: all three methods begin identically at S1 (96.8% pres ence;3 ); divergence begins at S2 (Ours: 70.2% vs. Vanilla:",
+      "layoutRegionId": "5f19cc3f-4968-4295-9aa5-25496c084a59"
+    },
+    {
+      "id": "table-p3-0507_0274_0371_0103",
+      "stableKey": "p3:table:0.507_0.274_0.371_0.103",
+      "kind": "table",
+      "section": "table",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.507251016454759,
+        "y": 0.27444625623298413,
+        "w": 0.3713025859757966,
+        "h": 0.10293542495881668
+      },
+      "score": 0.9261213541030884,
+      "layoutRegionId": "cecd1aea-b9e5-447c-9035-d8d8f40625b2"
+    },
+    {
+      "id": "table-p4-0505_0176_0374_0101",
+      "stableKey": "p4:table:0.505_0.176_0.374_0.101",
+      "kind": "table",
+      "section": "table",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.5051874896280126,
+        "y": 0.17574158100166706,
+        "w": 0.37430108762254904,
+        "h": 0.10128302525992346
+      },
+      "score": 0.9461197853088379,
+      "layoutRegionId": "a572125a-c9bd-481a-bf2a-ac178571639a"
+    },
+    {
+      "id": "table-p4-0094_0352_0382_0112",
+      "stableKey": "p4:table:0.094_0.352_0.382_0.112",
+      "kind": "table",
+      "section": "table",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.09372851427863627,
+        "y": 0.3524204600941051,
+        "w": 0.3823758231268989,
+        "h": 0.11164474487304688
+      },
+      "score": 0.9514191150665283,
+      "layoutRegionId": "c45ba597-dd6c-4e91-8316-98d572d52ed1"
+    },
+    {
+      "id": "table-p5-0501_0082_0382_0082",
+      "stableKey": "p5:table:0.501_0.082_0.382_0.082",
+      "kind": "table",
+      "section": "table",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.501099580253651,
+        "y": 0.0816273544773911,
+        "w": 0.3819468878453074,
+        "h": 0.08181832053444603
+      },
+      "score": 0.9313927888870239,
+      "layoutRegionId": "3ae0398c-109d-4ada-a8a0-e95cc7ca1c07"
+    },
+    {
+      "id": "table-p5-0091_0129_0383_0092",
+      "stableKey": "p5:table:0.091_0.129_0.383_0.092",
+      "kind": "table",
+      "section": "table",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.09051844652961283,
+        "y": 0.128914996831104,
+        "w": 0.38336533814473867,
+        "h": 0.09197148409756747
+      },
+      "score": 0.9355047941207886,
+      "layoutRegionId": "f107377e-baa6-4485-aeeb-613693c73eaf"
+    },
+    {
+      "id": "table-p9-0090_0155_0383_0181",
+      "stableKey": "p9:table:0.090_0.155_0.383_0.181",
+      "kind": "table",
+      "section": "table",
+      "page": 9,
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.0902193605510238,
+        "y": 0.1551616167781329,
+        "w": 0.3833627887800628,
+        "h": 0.18072952887024543
+      },
+      "score": 0.9557753801345825,
+      "layoutRegionId": "19c78055-0d37-4711-a6bf-6c526e590815"
+    },
+    {
+      "id": "table-p9-0502_0469_0381_0078",
+      "stableKey": "p9:table:0.502_0.469_0.381_0.078",
+      "kind": "table",
+      "section": "table",
+      "page": 9,
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.5016040677338643,
+        "y": 0.4686937428484059,
+        "w": 0.3805919971341401,
+        "h": 0.07768727312184344
+      },
+      "score": 0.9512758851051331,
+      "layoutRegionId": "b9f3fb3e-7837-418e-b3cf-cad23bc60ab0"
+    },
+    {
+      "id": "table-p9-0093_0531_0380_0246",
+      "stableKey": "p9:table:0.093_0.531_0.380_0.246",
+      "kind": "table",
+      "section": "table",
+      "page": 9,
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.09278443280388327,
+        "y": 0.5310088263617622,
+        "w": 0.3804747388253804,
+        "h": 0.24566137911093355
+      },
+      "score": 0.9552782773971558,
+      "layoutRegionId": "c774821e-8a5e-4609-851e-365377854183"
+    }
+  ]
+}

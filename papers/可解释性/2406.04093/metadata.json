@@ -62,15 +62,15 @@
     }
   ],
   "year": 2024,
-  "date": "2024-06-06",
+  "date": "2024",
   "abstract": "Sparse autoencoders provide a promising unsupervised approach for extracting interpretable features from a language model by reconstructing activations from a sparse bottleneck layer. Since language models learn many concepts, autoencoders need to be very large to recover all relevant features. However, studying the properties of autoencoder scaling is difficult due to the need to balance reconstruction and sparsity objectives and the presence of dead latents. We propose using k-sparse autoencoders [Makhzani and Frey, 2013] to directly control sparsity, simplifying tuning and improving the reconstruction-sparsity frontier. Additionally, we find modifications that result in few dead latents, even at the largest scales we tried. Using these techniques, we find clean scaling laws with respect to autoencoder size and sparsity. We also introduce several new metrics for evaluating feature quality based on the recovery of hypothesized features, the explainability of activation patterns, and the sparsity of downstream effects. These metrics all generally improve with autoencoder size. To demonstrate the scalability of our approach, we train a 16 million latent autoencoder on GPT-4 activations for 40 billion tokens. We release training code and autoencoders for open-source models, as well as a visualizer.",
   "tags": [
     "@arxiv:Computer Science - Machine Learning",
     "@arxiv:Computer Science - Artificial Intelligence"
   ],
   "arxiv_id": "2406.04093",
-  "doi": "10.48550/arXiv.2406.04093",
-  "publication": "ICLR 2025",
+  "doi": "10.48550/ARXIV.2406.04093",
+  "publication": "International Conference on Learning Representations",
   "pdf_url": "https://arxiv.org/pdf/2406.04093",
   "html_url": "https://arxiv.org/html/2406.04093",
   "source_url": "https://arxiv.org/abs/2406.04093",
@@ -80,11 +80,11 @@
   "bibtex_key": "2406.04093",
   "citation_count": 704,
   "zotero_item_type": "preprint",
-  "meta_source": "translator",
+  "meta_source": "manual",
   "extra": "arXiv:2406.04093 [cs.LG]",
   "summary": "K-sparse autoencoders simplify scaling by directly controlling sparsity and reducing dead latents. Feature recovery, activation explainability, and downstream sparsity improve with autoencoder size, enabling a 16-million-latent model trained on GPT-4 activations.",
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:43:38.307Z",
-  "updated_at": "2026-11-17T15:12:04.881Z"
+  "updated_at": "2026-11-22T01:48:55.958Z"
 }

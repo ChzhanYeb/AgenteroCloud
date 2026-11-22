@@ -23,7 +23,7 @@
     "Or David Shafran",
     "Adi Simhi",
     "Robert Trager",
-    "Shriyash Kaustubh Upadhyay",
+    "Shriyash Upadhyay",
     "Ziyu Yao",
     "Yu Zhao",
     "Shay B. Cohen",
@@ -170,7 +170,7 @@
     }
   ],
   "year": 2026,
-  "date": "2026-11-09",
+  "date": "2026",
   "abstract": "Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential to cause societal harm also grows, making AI safety one of the defining challenges of our time. Yet we continue to build increasingly powerful systems without fully understanding how they work, how they will behave in unfamiliar situations, or how to reliably control them. Mechanistic interpretability offers a path towards understanding these systems by studying their internal representations and computations, with the aim of evaluating, predicting, and controlling behaviour. We survey mechanistic interpretability for AI safety in order to answer the question: Does understanding how models work actually make them safer? We place mechanistic interpretability in the broader context of interpretability research and compare its mechanistic evidence with behavioural evaluation. We introduce the foundations of mechanistic interpretability, including features, polysemanticity, transformer computation, and circuits, and survey methods for feature extraction and analysis, circuit discovery and causal verification, explaining intermediate representations in natural language, learning dynamics, and training-data attribution. Beyond surveying existing methods, we propose a unified framework for evaluating mechanistic interpretability claims and characterise six research orientations by their goals, assumptions, and trade-offs. Finally, we examine how mechanistic understanding can support AI safety, including knowledge editing, steering, and monitoring, and assess its limitations, failure modes, open problems, and relationship to behavioural safety measures. We also release a repository of code notebooks with worked examples that reproduce key findings from surveyed methods, allowing readers to build intuition through hands-on experimentation.",
   "tags": [
     "@arxiv:Computer Science - Computation and Language",
@@ -178,7 +178,8 @@
     "@arxiv:Computer Science - Machine Learning"
   ],
   "arxiv_id": "2611.08438",
-  "doi": "10.48550/arXiv.2611.08438",
+  "doi": "10.48550/arxiv.2611.08438",
+  "publication": "arXiv (Cornell University)",
   "pdf_url": "https://arxiv.org/pdf/2611.08438",
   "html_url": "https://arxiv.org/html/2611.08438",
   "source_url": "https://arxiv.org/abs/2611.08438",
@@ -188,11 +189,11 @@
   "bibtex_key": "2611.08438",
   "citation_count": 0,
   "zotero_item_type": "preprint",
-  "meta_source": "translator",
+  "meta_source": "manual",
   "extra": "arXiv:2611.08438 [cs.CL]",
   "summary": "Mechanistic interpretability aims to support safety by revealing model features, circuits, and computations, but its safety value remains uncertain. This survey compares mechanistic evidence with behavioral evaluation and proposes a framework for assessing claims, applications, and limitations.",
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:43:41.266Z",
-  "updated_at": "2026-11-17T15:12:05.461Z"
+  "updated_at": "2026-11-22T01:49:07.756Z"
 }
