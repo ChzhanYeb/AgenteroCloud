@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:55:00.479Z",
+    "generatedAt": "2026-11-22T01:55:10.135Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -992,6 +992,72 @@
           "quote": "2.4 Where the parallelism comes in 23",
           "source": "2.4 Where the parallelism comes in 23",
           "translated": "2.4并行性出现在哪里23"
+        }
+      ]
+    },
+    {
+      "id": "4e65261d-aa51-4aac-94b5-7c5b502526a3::paragraph-5",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.23795293090408848,
+        "w": 0.4761367189375545,
+        "h": 0.017449881599633156
+      },
+      "kind": "text",
+      "readingOrder": 147.004,
+      "source": "2.5 Scaling up: Grids, blocks, and boundary checks 25",
+      "translated": "2.5扩展：网格、块和边界检查25",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "2.5 Scaling up: Grids, blocks, and boundary checks 25",
+          "source": "2.5 Scaling up: Grids, blocks, and boundary checks 25",
+          "translated": "2.5扩展：网格、块和边界检查25"
+        }
+      ]
+    },
+    {
+      "id": "4e65261d-aa51-4aac-94b5-7c5b502526a3::paragraph-7",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.3664475135922962,
+        "w": 0.400858186299206,
+        "h": 0.01903623447232708
+      },
+      "kind": "text",
+      "readingOrder": 147.006,
+      "source": "2.7 The universal pattern: From nD to 1D 32",
+      "translated": "2.7通用模式：从nD到1D 32",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "2.7 The universal pattern: From nD to 1D 32",
+          "source": "2.7 The universal pattern: From nD to 1D 32",
+          "translated": "2.7通用模式：从nD到1D 32"
+        }
+      ]
+    },
+    {
+      "id": "4e65261d-aa51-4aac-94b5-7c5b502526a3::paragraph-8",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.255947010970385,
+        "y": 0.4045199825369504,
+        "w": 0.5532972148918618,
+        "h": 0.02379529309040885
+      },
+      "kind": "text",
+      "readingOrder": 147.007,
+      "source": "Naive kernels 34",
+      "translated": "朴素核34",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Naive kernels 34",
+          "source": "Naive kernels 34",
+          "translated": "朴素核34"
         }
       ]
     },
@@ -2366,6 +2432,72 @@
           "quote": "universal pattern 32",
           "source": "universal pattern 32",
           "translated": "通用模式32"
+        }
+      ]
+    },
+    {
+      "id": "6ca032d2-9ad7-4c59-b0e6-23434cdb12a7",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6585708862189852,
+        "y": 0.46376568811645025,
+        "w": 0.2114632176769755,
+        "h": 0.06436759833775277
+      },
+      "kind": "text",
+      "readingOrder": 159,
+      "source": "WGMMA (Warp Group Matrix Multiply­ Accumulate) 186, 193–202",
+      "translated": "经纱群矩阵相乘累加",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "WGMMA (Warp Group Matrix Multiply­ Accumulate) 186, 193–202",
+          "source": "WGMMA (Warp Group Matrix Multiply­ Accumulate) 186, 193–202",
+          "translated": "经纱群矩阵相乘累加"
+        }
+      ]
+    },
+    {
+      "id": "418157ca-5c0a-42e8-8ce1-e3a69b06e093",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.15574480919824493,
+        "y": 0.49601180509949944,
+        "w": 0.1610616718051799,
+        "h": 0.03195236411763977
+      },
+      "kind": "text",
+      "readingOrder": 161,
+      "source": "MoE (Mixture of Experts) 110–114",
+      "translated": "教育部（专家混合）110-114",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "MoE (Mixture of Experts) 110–114",
+          "source": "MoE (Mixture of Experts) 110–114",
+          "translated": "教育部（专家混合）110-114"
+        }
+      ]
+    },
+    {
+      "id": "e937ad9e-16c6-4a61-a473-027770ce0d7d",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.3900312709000911,
+        "y": 0.5249919845980372,
+        "w": 0.017013305778898164,
+        "h": 0.01807487663250892
+      },
+      "kind": "header",
+      "readingOrder": 166,
+      "source": "V",
+      "translated": "V",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "V",
+          "source": "V",
+          "translated": "V"
         }
       ]
     }
