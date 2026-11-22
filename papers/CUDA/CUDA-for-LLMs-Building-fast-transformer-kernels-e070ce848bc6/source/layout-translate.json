@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:58:31.460Z",
+    "generatedAt": "2026-11-22T01:58:58.491Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -2241,6 +2241,82 @@
       ]
     },
     {
+      "id": "d3b7d0d6-1db8-4b12-a9d4-8453d2097b74::paragraph-9",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.6884771467491627,
+        "w": 0.5043661686769352,
+        "h": 0.11263105396126856
+      },
+      "kind": "text",
+      "readingOrder": 150.008,
+      "source": "11.3 CuTe: The language of layouts 302 11.4 Tuning for performance 303 11.5 Architecture and precision 305 ⟪S0⟫Across the generations: Ampere vs. Hopper 305  ⟪/S0⟫⟪S1⟫■  ⟪/S1⟫⟪S2⟫Narrow precision operations: FP4 on Blackwell 307⟪/S2⟫",
+      "translated": "11.3 CuTe：布局语言302 11.4性能调整303 11.5架构和精度305 ⟪S0⟫跨代：安培vs.料斗305 ⟪/S0⟫ ⟪S1⟫ ■ ⟪/S1⟫ ⟪S2⟫ 窄精度操作：Blackwell 307上的FP4 ⟪/S2⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "11.3 CuTe: The language of layouts 302 11.4 Tuning for performance 303 11.5 Architecture and precision 305 Across the generations: Ampere vs.",
+          "source": "11.3 CuTe: The language of layouts 302 11.4 Tuning for performance 303 11.5 Architecture and precision 305 ⟪S0⟫Across the generations: Ampere vs.",
+          "translated": "11.3 CuTe：布局语言302 11.4性能调整303 11.5架构和精度305 ⟪S0⟫跨代：安培vs."
+        },
+        {
+          "quote": "Hopper 305 ■ Narrow precision operations: FP4 on Blackwell 307",
+          "source": "Hopper 305  ⟪/S0⟫⟪S1⟫■  ⟪/S1⟫⟪S2⟫Narrow precision operations: FP4 on Blackwell 307⟪/S2⟫",
+          "translated": "料斗305 ⟪/S0⟫ ⟪S1⟫ ■ ⟪/S1⟫ ⟪S2⟫ 窄精度操作：Blackwell 307上的FP4 ⟪/S2⟫"
+        }
+      ]
+    },
+    {
+      "id": "d3b7d0d6-1db8-4b12-a9d4-8453d2097b74::paragraph-10",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.8122126708192887,
+        "w": 0.44037941593433894,
+        "h": 0.046004233308123775
+      },
+      "kind": "text",
+      "readingOrder": 150.009,
+      "source": "11.6 Profiling and verification 309 11.7 Beyond a single GPU: Distributed GEMM 310",
+      "translated": "11.6分析和验证309 11.7超越单个GPU：分布式GEMM 310",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "11.6 Profiling and verification 309 11.7 Beyond a single GPU: Distributed GEMM 310",
+          "source": "11.6 Profiling and verification 309 11.7 Beyond a single GPU: Distributed GEMM 310",
+          "translated": "11.6分析和验证309 11.7超越单个GPU：分布式GEMM 310"
+        }
+      ]
+    },
+    {
+      "id": "d3b7d0d6-1db8-4b12-a9d4-8453d2097b74::paragraph-11",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.255947010970385,
+        "y": 0.8724940799816578,
+        "w": 0.5551791782078205,
+        "h": 0.08724940799816577
+      },
+      "kind": "text",
+      "readingOrder": 150.01,
+      "source": "⟪S0⟫Now what? 312 ⟪/S0⟫⟪S1⟫12.1 What this book intentionally left out 313 ⟪/S1⟫Data center–level considerations 313  ⟪S2⟫■  ⟪/S2⟫Convolution-heavy architectures 314  ⟪S3⟫■  ⟪/S3⟫The Blackwell TCGen05 instructions 314",
+      "translated": "⟪S0⟫现在什么？312 ⟪/S0⟫ ⟪S1⟫ 12.1这本书故意遗漏了什么313 ⟪/S1⟫ 数据中心级注意事项313 ⟪S2⟫ ■ ⟪/S2⟫ 卷积重架构314 ⟪S3⟫ ■ ⟪/S3⟫ Blackwell TCGen05说明314",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Now what?",
+          "source": "⟪S0⟫Now what?",
+          "translated": "⟪S0⟫现在什么？"
+        },
+        {
+          "quote": "312 12.1 What this book intentionally left out 313 Data center–level considerations 313 ■ Convolution-heavy architectures 314 ■ The Blackwell TCGen05 instructions 314",
+          "source": "312 ⟪/S0⟫⟪S1⟫12.1 What this book intentionally left out 313 ⟪/S1⟫Data center–level considerations 313  ⟪S2⟫■  ⟪/S2⟫Convolution-heavy architectures 314  ⟪S3⟫■  ⟪/S3⟫The Blackwell TCGen05 instructions 314",
+          "translated": "312 ⟪/S0⟫ ⟪S1⟫ 12.1这本书故意遗漏了什么313 ⟪/S1⟫ 数据中心级注意事项313 ⟪S2⟫ ■ ⟪/S2⟫ 卷积重架构314 ⟪S3⟫ ■ ⟪/S3⟫ Blackwell TCGen05说明314"
+        }
+      ]
+    },
+    {
       "id": "10:fallback:1570",
       "pageIndex": 10,
       "bbox": {
@@ -2769,12 +2845,56 @@
       ]
     },
     {
+      "id": "26:fallback:184",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.374510699875784,
+        "y": 0.18718963897788293,
+        "w": 0.04328515626705041,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10118,
+      "source": "Control",
+      "translated": "控制",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Control",
+          "source": "Control",
+          "translated": "控制"
+        }
+      ]
+    },
+    {
       "id": "26:fallback:152",
       "pageIndex": 26,
       "bbox": {
         "x": 0.12232761553731636,
         "y": 0.20939857919559787,
         "w": 0.045167119583009126,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10132,
+      "source": "L1 cach",
+      "translated": "L1缓存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "L1 cach",
+          "source": "L1 cach",
+          "translated": "L1缓存"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:229",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.28605842402572446,
+        "y": 0.20939857919559787,
+        "w": 0.04704908289896784,
         "h": 0.01427717585424531
       },
       "kind": "text",
@@ -2809,6 +2929,116 @@
           "quote": "Core",
           "source": "Core",
           "translated": "核心"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:178",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.29923216723743545,
+        "y": 0.2411256366494763,
+        "w": 0.028229449739380703,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10152,
+      "source": "Core",
+      "translated": "核心",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Core",
+          "source": "Core",
+          "translated": "核心"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:193",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.2088979280714172,
+        "y": 0.24905740101294596,
+        "w": 0.04328515626705041,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10157,
+      "source": "Control",
+      "translated": "控制",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Control",
+          "source": "Control",
+          "translated": "控制"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:201",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.374510699875784,
+        "y": 0.24905740101294596,
+        "w": 0.04328515626705041,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10157,
+      "source": "Control",
+      "translated": "控制",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Control",
+          "source": "Control",
+          "translated": "控制"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:210",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.12232761553731636,
+        "y": 0.2728526941033548,
+        "w": 0.045167119583009126,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10172,
+      "source": "L1 cach",
+      "translated": "L1缓存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "L1 cach",
+          "source": "L1 cach",
+          "translated": "L1缓存"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:220",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.2935862772895593,
+        "y": 0.2728526941033548,
+        "w": 0.039521229635132986,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10172,
+      "source": "1 cach",
+      "translated": "1个缓存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "1 cach",
+          "source": "1 cach",
+          "translated": "1个缓存"
         }
       ]
     },
@@ -2941,6 +3171,160 @@
           "quote": "VRAM",
           "source": "VRAM",
           "translated": "虚拟内存"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:392",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.21454381801929337,
+        "y": 0.5425326824613218,
+        "w": 0.03763926631917427,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10342,
+      "source": "HOST",
+      "translated": "主机",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "HOST",
+          "source": "HOST",
+          "translated": "主机"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:397",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.255947010970385,
+        "y": 0.5425326824613218,
+        "w": 0.03575730300321556,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10342,
+      "source": "(CPU)",
+      "translated": "（CPU）",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "(CPU)",
+          "source": "(CPU)",
+          "translated": "（CPU）"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:442",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.5683529214195315,
+        "y": 0.5425326824613218,
+        "w": 0.09033423916601824,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10342,
+      "source": "DEVICE(GPU)",
+      "translated": "设备（GPU）",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "DEVICE(GPU)",
+          "source": "DEVICE(GPU)",
+          "translated": "设备（GPU）"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:404",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.23900934112675665,
+        "y": 0.579018798533282,
+        "w": 0.028229449739380703,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10365,
+      "source": "RAM",
+      "translated": "内存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "RAM",
+          "source": "RAM",
+          "translated": "内存"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:432",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.4046221129311234,
+        "y": 0.579018798533282,
+        "w": 0.056458899478761405,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10365,
+      "source": "PCIe Bus",
+      "translated": "PCIe总线",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "PCIe Bus",
+          "source": "PCIe Bus",
+          "translated": "PCIe总线"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:409",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.2220716712831282,
+        "y": 0.6250230318414057,
+        "w": 0.062104789426637545,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10394,
+      "source": "HostCode",
+      "translated": "主机代码",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "HostCode",
+          "source": "HostCode",
+          "translated": "主机代码"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:420",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.2220716712831282,
+        "y": 0.6393002076956511,
+        "w": 0.062104789426637545,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10403,
+      "source": "(main.cpp)",
+      "translated": "（main. cpp）",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "(main.cpp)",
+          "source": "(main.cpp)",
+          "translated": "（main. cpp）"
         }
       ]
     },
