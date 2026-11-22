@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:54:10.831Z",
+    "generatedAt": "2026-11-22T01:54:18.903Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -789,6 +789,28 @@
           "quote": "2",
           "source": "2",
           "translated": "2"
+        }
+      ]
+    },
+    {
+      "id": "4a2a52cf-2557-4741-ac49-0b3909c9a09c::paragraph-3",
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.6662682065314478,
+        "w": 0.466726902357761,
+        "h": 0.05869505628967516
+      },
+      "kind": "text",
+      "readingOrder": 162.002,
+      "source": "⟪S0⟫1.4 Recognizing parallel opportunities 7 ⟪/S0⟫The memory hierarchy: Your performance bottleneck 8 When parallelism doesn’t help 10",
+      "translated": "⟪S0⟫1.4认识并行机会7 ⟪/S0⟫内存层次结构：您的性能瓶颈8当并行性没有帮助时10",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "1.4 Recognizing parallel opportunities 7 The memory hierarchy: Your performance bottleneck 8 When parallelism doesn’t help 10",
+          "source": "⟪S0⟫1.4 Recognizing parallel opportunities 7 ⟪/S0⟫The memory hierarchy: Your performance bottleneck 8 When parallelism doesn’t help 10",
+          "translated": "⟪S0⟫1.4认识并行机会7 ⟪/S0⟫内存层次结构：您的性能瓶颈8当并行性没有帮助时10"
         }
       ]
     },
@@ -1735,6 +1757,77 @@
           "quote": "transposing matrices 38–40 CPU reference 39 launching transpose kernel 40 sequential loops to parallel kernel 39",
           "source": "transposing matrices 38–40 CPU reference 39 launching transpose kernel 40 sequential loops to parallel kernel 39",
           "translated": "转置矩阵38-40 CPU参考39启动转置内核40顺序循环到并行内核39"
+        }
+      ]
+    },
+    {
+      "id": "131ac6e7-f81a-4d77-888b-63725857f354",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.15174736532532485,
+        "y": 0.28461545237844466,
+        "w": 0.1735355093696716,
+        "h": 0.02944827703707375
+      },
+      "kind": "text",
+      "readingOrder": 93,
+      "source": "cache vs. recomputation tradeoffs 109",
+      "translated": "缓存vs.重新计算权衡109",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "cache vs.",
+          "source": "cache vs.",
+          "translated": "缓存vs."
+        },
+        {
+          "quote": "recomputation tradeoffs 109",
+          "source": "recomputation tradeoffs 109",
+          "translated": "重新计算权衡109"
+        }
+      ]
+    },
+    {
+      "id": "1445c389-63b4-4334-89b8-e159b05a888d",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6731563937742533,
+        "y": 0.2955880342826874,
+        "w": 0.15327322987711667,
+        "h": 0.033346492274236715
+      },
+      "kind": "text",
+      "readingOrder": 98,
+      "source": "multikernel parallel approach 155",
+      "translated": "多核并行方法155",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "multikernel parallel approach 155",
+          "source": "multikernel parallel approach 155",
+          "translated": "多核并行方法155"
+        }
+      ]
+    },
+    {
+      "id": "f8ae3909-fb13-465d-9c97-008e1cb97014",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.15669490207733125,
+        "y": 0.319076332376648,
+        "w": 0.14764229172485008,
+        "h": 0.03002053607937649
+      },
+      "kind": "text",
+      "readingOrder": 104,
+      "source": "complete generation example 115",
+      "translated": "完整生成示例115",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "complete generation example 115",
+          "source": "complete generation example 115",
+          "translated": "完整生成示例115"
         }
       ]
     }
