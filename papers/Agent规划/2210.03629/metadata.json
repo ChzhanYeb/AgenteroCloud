@@ -56,10 +56,7 @@
     "@arxiv:Computer Science - Computation and Language",
     "@arxiv:Computer Science - Artificial Intelligence",
     "@arxiv:Computer Science - Machine Learning",
-    {
-      "name": "Agent规划",
-      "color": "blue"
-    }
+    "Agent规划"
   ],
   "arxiv_id": "2210.03629",
   "doi": "10.48550/ARXIV.2210.03629",
@@ -76,5 +73,5 @@
   "status": "completed",
   "is_read": false,
   "added_at": "2026-11-15T12:04:31.514Z",
-  "updated_at": "2026-11-22T01:46:31.048Z"
+  "updated_at": "2026-11-22T02:03:16.605Z"
 }

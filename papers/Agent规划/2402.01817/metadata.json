@@ -61,11 +61,8 @@
   "tags": [
     "@arxiv:Computer Science - Artificial Intelligence",
     "@arxiv:Computer Science - Machine Learning",
-    {
-      "name": "Agent规划",
-      "color": "blue"
-    },
-    "#submitted:ICML 2024"
+    "#submitted:ICML 2024",
+    "Agent规划"
   ],
   "arxiv_id": "2402.01817",
   "doi": "10.48550/ARXIV.2402.01817",
@@ -82,5 +79,5 @@
   "status": "completed",
   "is_read": false,
   "added_at": "2026-11-15T12:38:12.318Z",
-  "updated_at": "2026-11-22T01:46:24.278Z"
+  "updated_at": "2026-11-22T02:03:06.587Z"
 }
