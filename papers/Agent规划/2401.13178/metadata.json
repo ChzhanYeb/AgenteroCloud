@@ -62,7 +62,7 @@
     }
   ],
   "year": 2024,
-  "date": "2024-12-23",
+  "date": "2024",
   "abstract": "Evaluating Large Language Models (LLMs) as general-purpose agents is essential for understanding their capabilities and facilitating their integration into practical applications. However, the evaluation process presents substantial challenges. A primary obstacle is the benchmarking of agent performance across diverse scenarios within a unified framework, especially in maintaining partially-observable environments and ensuring multi-round interactions. Moreover, current evaluation frameworks mostly focus on the final success rate, revealing few insights during the process and failing to provide a deep understanding of the model abilities. To address these challenges, we introduce AgentBoard, a pioneering comprehensive benchmark and accompanied open-source evaluation framework tailored to analytical evaluation of LLM agents. AgentBoard offers a fine-grained progress rate metric that captures incremental advancements as well as a comprehensive evaluation toolkit that features easy assessment of agents for multi-faceted analysis. This not only sheds light on the capabilities and limitations of LLM agents but also propels the interpretability of their performance to the forefront. Ultimately, AgentBoard serves as a step towards demystifying agent behaviors and accelerating the development of stronger LLM agents.",
   "tags": [
     "@arxiv:Computer Science - Computation and Language",
@@ -71,10 +71,11 @@
     {
       "name": "Agent规划",
       "color": "blue"
-    }
+    },
+    "#submitted:NeurIPS 2024"
   ],
   "arxiv_id": "2401.13178",
-  "doi": "10.48550/arXiv.2401.13178",
+  "doi": "10.48550/ARXIV.2401.13178",
   "pdf_url": "https://arxiv.org/pdf/2401.13178",
   "html_url": "https://arxiv.org/html/2401.13178",
   "source_url": "https://arxiv.org/abs/2401.13178",
@@ -83,10 +84,10 @@
   "body_quality": "high",
   "bibtex_key": "2401.13178",
   "zotero_item_type": "preprint",
-  "meta_source": "translator",
+  "meta_source": "manual",
   "extra": "arXiv:2401.13178 [cs.CL]",
   "status": "completed",
   "is_read": false,
   "added_at": "2026-11-15T12:38:37.662Z",
-  "updated_at": "2026-11-15T12:39:15.512Z"
+  "updated_at": "2026-11-22T01:46:18.062Z"
 }

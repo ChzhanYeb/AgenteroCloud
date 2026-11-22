@@ -50,15 +50,17 @@
     }
   ],
   "year": 2023,
-  "date": "2023/05/17",
+  "date": "2023-12-03",
   "abstract": "Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference. This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role. To surmount these challenges, we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach to prompting language models, and enables exploration over coherent units of text (thoughts) that serve as intermediate steps toward problem solving. ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices. Our experiments show that ToT significantly enhances language models' problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%. Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm.",
   "tags": [
     {
       "name": "Agent规划",
       "color": "blue"
-    }
+    },
+    "#submitted:NeurIPS 2023"
   ],
   "arxiv_id": "2305.10601",
+  "doi": "10.48550/arXiv.2305.10601",
   "language": "en",
   "pdf_url": "https://arxiv.org/pdf/2305.10601",
   "html_url": "https://arxiv.org/html/2305.10601",
@@ -68,9 +70,9 @@
   "body_quality": "high",
   "bibtex_key": "2305.10601",
   "zotero_item_type": "webpage",
-  "meta_source": "translator",
+  "meta_source": "manual",
   "status": "completed",
   "is_read": false,
   "added_at": "2026-11-15T12:04:37.004Z",
-  "updated_at": "2026-11-15T12:39:14.899Z"
+  "updated_at": "2026-11-22T01:46:34.526Z"
 }
