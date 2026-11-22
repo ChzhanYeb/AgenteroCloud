@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:57:14.024Z",
+    "generatedAt": "2026-11-22T01:57:39.105Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -1891,6 +1891,109 @@
       ]
     },
     {
+      "id": "2e56a4b4-a627-494c-b726-f20600d7373e::paragraph-6",
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.48701033191703447,
+        "w": 0.5363595450482334,
+        "h": 0.08090399650739008
+      },
+      "kind": "text",
+      "readingOrder": 152.005,
+      "source": "⟪S0⟫8.4 The evolution of Flash Attention 229 ⟪/S0⟫Flash Attention 1 and 2 229  ⟪S1⟫■  ⟪/S1⟫Flash Attention 3: Asynchrony and low precision 230  ⟪S2⟫■  ⟪/S2⟫Flash Attention 4: Complexity for Blackwell 231  ⟪S3⟫■  ⟪/S3⟫What this evolution teaches us 231",
+      "translated": "⟪S0⟫8.4闪存注意的演变229 ⟪/S0⟫Flash注意1和2 229 ⟪S1⟫■⟪/S1⟫Flash注意3：异步和低精度230 ⟪S2⟫■⟪/S2⟫Flash注意4：Blackwell的复杂性231 ⟪S3⟫■⟪/S3⟫这种演变教会我们什么231",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "8.4 The evolution of Flash Attention 229 Flash Attention 1 and 2 229  ■  Flash Attention 3: Asynchrony and low precision 230  ■  Flash Attention 4: Complexity for Blackwell 231  ■  What this evolution teaches us 231",
+          "source": "⟪S0⟫8.4 The evolution of Flash Attention 229 ⟪/S0⟫Flash Attention 1 and 2 229  ⟪S1⟫■  ⟪/S1⟫Flash Attention 3: Asynchrony and low precision 230  ⟪S2⟫■  ⟪/S2⟫Flash Attention 4: Complexity for Blackwell 231  ⟪S3⟫■  ⟪/S3⟫What this evolution teaches us 231",
+          "translated": "⟪S0⟫8.4闪存注意的演变229 ⟪/S0⟫Flash注意1和2 229 ⟪S1⟫■⟪/S1⟫Flash注意3：异步和低精度230 ⟪S2⟫■⟪/S2⟫Flash注意4：Blackwell的复杂性231 ⟪S3⟫■⟪/S3⟫这种演变教会我们什么231"
+        }
+      ]
+    },
+    {
+      "id": "2e56a4b4-a627-494c-b726-f20600d7373e::paragraph-7",
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.27288468081401346,
+        "y": 0.5948823272602213,
+        "w": 0.4441433425662564,
+        "h": 0.09359481948894148
+      },
+      "kind": "text",
+      "readingOrder": 152.006,
+      "source": "⟪S0⟫Quantization 234 ⟪/S0⟫⟪S1⟫9.1 Quantization building blocks 235 ⟪/S1⟫Data types: The foundation of quantization 235 Basic quant/dequant operations 239",
+      "translated": "⟪S0⟫ 量化234 ⟪/S0⟫ ⟪S1⟫ 9.1量化构建块235 ⟪/S1⟫ 数据类型：量化的基础235基本量化/分离操作239",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Quantization 234 9.1 Quantization building blocks 235 Data types: The foundation of quantization 235 Basic quant/dequant operations 239",
+          "source": "⟪S0⟫Quantization 234 ⟪/S0⟫⟪S1⟫9.1 Quantization building blocks 235 ⟪/S1⟫Data types: The foundation of quantization 235 Basic quant/dequant operations 239",
+          "translated": "⟪S0⟫ 量化234 ⟪/S0⟫ ⟪S1⟫ 9.1量化构建块235 ⟪/S1⟫ 数据类型：量化的基础235基本量化/分离操作239"
+        }
+      ]
+    },
+    {
+      "id": "2e56a4b4-a627-494c-b726-f20600d7373e::paragraph-8",
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.702754322603408,
+        "w": 0.4761367189375545,
+        "h": 0.103112936725105
+      },
+      "kind": "text",
+      "readingOrder": 152.007,
+      "source": "⟪S0⟫9.2 Deployment strategies 243 ⟪/S0⟫Granularity schemes: How to apply quantization 243 Calibration: Computing quantization parameters 249 Static vs. dynamic quantization 251  ⟪S1⟫■  ⟪/S1⟫Symmetric vs. asymmetric quantization 254",
+      "translated": "⟪S0⟫9.2部署策略243 ⟪/S0⟫粒度方案：如何应用量化243校准：计算量化参数249静态vs.动态量化251 ⟪S1⟫■⟪/S1⟫对称vs.非对称量化254",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "9.2 Deployment strategies 243 Granularity schemes: How to apply quantization 243 Calibration: Computing quantization parameters 249 Static vs.",
+          "source": "⟪S0⟫9.2 Deployment strategies 243 ⟪/S0⟫Granularity schemes: How to apply quantization 243 Calibration: Computing quantization parameters 249 Static vs.",
+          "translated": "⟪S0⟫9.2部署策略243 ⟪/S0⟫粒度方案：如何应用量化243校准：计算量化参数249静态vs."
+        },
+        {
+          "quote": "dynamic quantization 251 ■ Symmetric vs.",
+          "source": "dynamic quantization 251  ⟪S1⟫■  ⟪/S1⟫Symmetric vs.",
+          "translated": "动态量化251 ⟪S1⟫■⟪/S1⟫对称vs."
+        },
+        {
+          "quote": "asymmetric quantization 254",
+          "source": "asymmetric quantization 254",
+          "translated": "非对称量化254"
+        }
+      ]
+    },
+    {
+      "id": "2e56a4b4-a627-494c-b726-f20600d7373e::paragraph-9",
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.8217307880554523,
+        "w": 0.3952122963513298,
+        "h": 0.06186776203506301
+      },
+      "kind": "text",
+      "readingOrder": 152.008,
+      "source": "⟪S0⟫9.3 Advanced techniques 257 ⟪/S0⟫Activation-aware weight quantization 257 Simple example: Big vs. small inputs 257",
+      "translated": "⟪S0⟫9.3高级技术257⟪/S0⟫Activation-aware权重量化257简单示例：Big vs.小输入257",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "9.3 Advanced techniques 257 Activation-aware weight quantization 257 Simple example: Big vs.",
+          "source": "⟪S0⟫9.3 Advanced techniques 257 ⟪/S0⟫Activation-aware weight quantization 257 Simple example: Big vs.",
+          "translated": "⟪S0⟫9.3高级技术257⟪/S0⟫Activation-aware权重量化257简单示例：Big vs."
+        },
+        {
+          "quote": "small inputs 257",
+          "source": "small inputs 257",
+          "translated": "小输入257"
+        }
+      ]
+    },
+    {
       "id": "9:fallback:1622",
       "pageIndex": 9,
       "bbox": {
@@ -1981,6 +2084,138 @@
     {
       "id": "13:fallback:774",
       "pageIndex": 13,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "14:fallback:1861",
+      "pageIndex": 14,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "15:fallback:943",
+      "pageIndex": 15,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "16:fallback:1745",
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "17:fallback:2702",
+      "pageIndex": 17,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "18:fallback:2946",
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "19:fallback:469",
+      "pageIndex": 19,
       "bbox": {
         "x": 0.2766486074459309,
         "y": 1.015265838524111,
