@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:58:58.491Z",
+    "generatedAt": "2026-11-22T01:59:23.361Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -2339,6 +2339,94 @@
       ]
     },
     {
+      "id": "8a7b0844-34eb-4fb3-9f4a-1aa454ec2010",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.2834033984007526,
+        "y": 0.08240270652438231,
+        "w": 0.5697401590428034,
+        "h": 0.04067016044937364
+      },
+      "kind": "text",
+      "readingOrder": 46,
+      "source": "⟪S0⟫12.2 Choosing the right abstraction layer 315 ⟪/S0⟫Triton: Python-level GPU programming 315  ⟪S1⟫■  ⟪/S1⟫torch.compile 316",
+      "translated": "⟪S0⟫12.2选择正确的抽象层315 ⟪/S0⟫Triton：Python级GPU编程315 ⟪S1⟫■⟪/S1⟫torch. compile 316",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "12.2 Choosing the right abstraction layer 315 Triton: Python-level GPU programming 315  ■  torch.compile 316",
+          "source": "⟪S0⟫12.2 Choosing the right abstraction layer 315 ⟪/S0⟫Triton: Python-level GPU programming 315  ⟪S1⟫■  ⟪/S1⟫torch.compile 316",
+          "translated": "⟪S0⟫12.2选择正确的抽象层315 ⟪/S0⟫Triton：Python级GPU编程315 ⟪S1⟫■⟪/S1⟫torch. compile 316"
+        }
+      ]
+    },
+    {
+      "id": "da41a629-bd18-4609-adb2-eae033af180d",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.2854517221675094,
+        "y": 0.13359513914273147,
+        "w": 0.5969389290150223,
+        "h": 0.0393152804151591
+      },
+      "kind": "text",
+      "readingOrder": 61,
+      "source": "12.3 Serving systems and end-to-end performance 316 ⟪S0⟫vLLM 316  ⟪/S0⟫⟪S1⟫■  ⟪/S1⟫⟪S2⟫SGLang 317  ⟪/S2⟫⟪S3⟫■  ⟪/S3⟫⟪S4⟫TensorRT-LLM 317  ⟪/S4⟫⟪S5⟫■  ⟪/S5⟫⟪S6⟫ONNX 318⟪/S6⟫",
+      "translated": "12.3服务系统和端到端性能316 ⟪S0⟫ vLLM 316 ⟪/S0⟫ ⟪S1⟫ ■ ⟪/S1⟫ ⟪S2⟫ SGLang 317 ⟪/S2⟫ ⟪S3⟫ ■ ⟪/S3⟫ ⟪S4⟫ TensorRT-大模型 317 ⟪/S4⟫ ⟪S5⟫ ■ ⟪/S5⟫ ⟪S6⟫ ONNX 318 ⟪/S6⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "12.3 Serving systems and end-to-end performance 316 vLLM 316  ■  SGLang 317  ■  TensorRT-LLM 317  ■  ONNX 318",
+          "source": "12.3 Serving systems and end-to-end performance 316 ⟪S0⟫vLLM 316  ⟪/S0⟫⟪S1⟫■  ⟪/S1⟫⟪S2⟫SGLang 317  ⟪/S2⟫⟪S3⟫■  ⟪/S3⟫⟪S4⟫TensorRT-LLM 317  ⟪/S4⟫⟪S5⟫■  ⟪/S5⟫⟪S6⟫ONNX 318⟪/S6⟫",
+          "translated": "12.3服务系统和端到端性能316 ⟪S0⟫ vLLM 316 ⟪/S0⟫ ⟪S1⟫ ■ ⟪/S1⟫ ⟪S2⟫ SGLang 317 ⟪/S2⟫ ⟪S3⟫ ■ ⟪/S3⟫ ⟪S4⟫ TensorRT-大模型 317 ⟪/S4⟫ ⟪S5⟫ ■ ⟪/S5⟫ ⟪S6⟫ ONNX 318 ⟪/S6⟫"
+        }
+      ]
+    },
+    {
+      "id": "74665e40-eab9-4d3e-8c95-4c9bc866d98c",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.28550141730178447,
+        "y": 0.18389285130693647,
+        "w": 0.4499157737810883,
+        "h": 0.018534600592907412
+      },
+      "kind": "text",
+      "readingOrder": 76,
+      "source": "12.4 Compiler and generated-kernel workflows 319",
+      "translated": "12.4编译器和生成的内核工作流319",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "12.4 Compiler and generated-kernel workflows 319",
+          "source": "12.4 Compiler and generated-kernel workflows 319",
+          "translated": "12.4编译器和生成的内核工作流319"
+        }
+      ]
+    },
+    {
+      "id": "7e7f40c0-df3f-444b-8d68-85e65671c2b5",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.2860552122989916,
+        "y": 0.21089076768964363,
+        "w": 0.4111580476375088,
+        "h": 0.04079038542854133
+      },
+      "kind": "text",
+      "readingOrder": 95,
+      "source": "12.5 High-level frameworks and languages 319 ⟪S0⟫JAX 319  ⟪/S0⟫⟪S1⟫■  ⟪/S1⟫⟪S2⟫Mojo 320⟪/S2⟫",
+      "translated": "12.5高级框架和语言319 ⟪S0⟫ JAX 319 ⟪/S0⟫ ⟪S1⟫ ■ ⟪/S1⟫ ⟪S2⟫ 魔咒320 ⟪/S2⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "12.5 High-level frameworks and languages 319 JAX 319  ■  Mojo 320",
+          "source": "12.5 High-level frameworks and languages 319 ⟪S0⟫JAX 319  ⟪/S0⟫⟪S1⟫■  ⟪/S1⟫⟪S2⟫Mojo 320⟪/S2⟫",
+          "translated": "12.5高级框架和语言319 ⟪S0⟫ JAX 319 ⟪/S0⟫ ⟪S1⟫ ■ ⟪/S1⟫ ⟪S2⟫ 魔咒320 ⟪/S2⟫"
+        }
+      ]
+    },
+    {
       "id": "11:fallback:1044",
       "pageIndex": 11,
       "bbox": {
@@ -3285,6 +3373,28 @@
       ]
     },
     {
+      "id": "26:fallback:456",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.5947004078429534,
+        "y": 0.579018798533282,
+        "w": 0.03763926631917427,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10365,
+      "source": "VRAM",
+      "translated": "虚拟内存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "VRAM",
+          "source": "VRAM",
+          "translated": "虚拟内存"
+        }
+      ]
+    },
+    {
       "id": "26:fallback:409",
       "pageIndex": 26,
       "bbox": {
@@ -3307,6 +3417,50 @@
       ]
     },
     {
+      "id": "26:fallback:462",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.5758807746833663,
+        "y": 0.6250230318414057,
+        "w": 0.03763926631917427,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10394,
+      "source": "CUDA",
+      "translated": "CUDA",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "CUDA",
+          "source": "CUDA",
+          "translated": "CUDA"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:467",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.617283967634458,
+        "y": 0.6250230318414057,
+        "w": 0.033875339687256846,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10394,
+      "source": "Cores",
+      "translated": "核心",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Cores",
+          "source": "Cores",
+          "translated": "核心"
+        }
+      ]
+    },
+    {
       "id": "26:fallback:420",
       "pageIndex": 26,
       "bbox": {
@@ -3325,6 +3479,138 @@
           "quote": "(main.cpp)",
           "source": "(main.cpp)",
           "translated": "（main. cpp）"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:474",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.5834086279472012,
+        "y": 0.6393002076956511,
+        "w": 0.062104789426637545,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10403,
+      "source": "(kernel.cu)",
+      "translated": "（kernel.cu）",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "(kernel.cu)",
+          "source": "(kernel.cu)",
+          "translated": "（kernel.cu）"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:487",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.2164257813352521,
+        "y": 0.701167969730714,
+        "w": 0.07527853263834854,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10442,
+      "source": "cudaMalloc()",
+      "translated": "CudaMalloc（）",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "cudaMalloc()",
+          "source": "cudaMalloc()",
+          "translated": "CudaMalloc（）"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:552",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.3368714335566097,
+        "y": 0.701167969730714,
+        "w": 0.12985546880115123,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10442,
+      "source": "AllocateGPU memory",
+      "translated": "AllocateGPU 记忆",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "AllocateGPU memory",
+          "source": "AllocateGPU memory",
+          "translated": "AllocateGPU 记忆"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:501",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.19572418485970625,
+        "y": 0.7281359685665107,
+        "w": 0.10538994569368795,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10459,
+      "source": "cudaMemcpy H⟪F0⟫",
+      "translated": "CudaMemcpy H⟪F0⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "cudaMemcpy H→",
+          "source": "cudaMemcpy H⟪F0⟫",
+          "translated": "CudaMemcpy H⟪F0⟫"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:517",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.20325203812354103,
+        "y": 0.7566903202750014,
+        "w": 0.10162601906177052,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10477,
+      "source": "kernel⟪F0⟫...⟪F1⟫",
+      "translated": "内核⟪F0⟫… ⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "kernel<<<...>>>()",
+          "source": "kernel⟪F0⟫...⟪F1⟫",
+          "translated": "内核⟪F0⟫… ⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:536",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.19572418485970625,
+        "y": 0.785244671983492,
+        "w": 0.10538994569368795,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10495,
+      "source": "cudaMemcpy D⟪F0⟫",
+      "translated": "CudaMemcpy D⟪F0⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "cudaMemcpy D→",
+          "source": "cudaMemcpy D⟪F0⟫",
+          "translated": "CudaMemcpy D⟪F0⟫"
         }
       ]
     },
