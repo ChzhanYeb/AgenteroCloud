@@ -86,14 +86,15 @@
     }
   ],
   "year": 2023,
-  "date": "2023-12-24",
+  "date": "2023",
   "abstract": "Evaluating large language model (LLM) based chat assistants is challenging due to their broad capabilities and the inadequacy of existing benchmarks in measuring human preferences. To address this, we explore using strong LLMs as judges to evaluate these models on more open-ended questions. We examine the usage and limitations of LLM-as-a-judge, including position, verbosity, and self-enhancement biases, as well as limited reasoning ability, and propose solutions to mitigate some of them. We then verify the agreement between LLM judges and human preferences by introducing two benchmarks: MT-bench, a multi-turn question set; and Chatbot Arena, a crowdsourced battle platform. Our results reveal that strong LLM judges like GPT-4 can match both controlled and crowdsourced human preferences well, achieving over 80% agreement, the same level of agreement between humans. Hence, LLM-as-a-judge is a scalable and explainable way to approximate human preferences, which are otherwise very expensive to obtain. Additionally, we show our benchmark and traditional benchmarks complement each other by evaluating several variants of LLaMA and Vicuna. The MT-bench questions, 3K expert votes, and 30K conversations with human preferences are publicly available at https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge.",
   "tags": [
     "@arxiv:Computer Science - Computation and Language",
-    "@arxiv:Computer Science - Artificial Intelligence"
+    "@arxiv:Computer Science - Artificial Intelligence",
+    "#submitted:NeurIPS 2023"
   ],
   "arxiv_id": "2306.05685",
-  "doi": "10.48550/arXiv.2306.05685",
+  "doi": "10.48550/ARXIV.2306.05685",
   "pdf_url": "https://arxiv.org/pdf/2306.05685",
   "html_url": "https://arxiv.org/html/2306.05685",
   "source_url": "https://arxiv.org/abs/2306.05685",
@@ -103,11 +104,11 @@
   "bibtex_key": "2306.05685",
   "citation_count": 13217,
   "zotero_item_type": "preprint",
-  "meta_source": "translator",
+  "meta_source": "manual",
   "extra": "arXiv:2306.05685 [cs.CL]",
   "summary": "GPT-4 can approximate human preferences for open-ended chat evaluation. MT-Bench and Chatbot Arena test multi-turn answers and crowdsourced battles, while identifying positional, verbosity, and self-enhancement biases; agreement exceeds 80%, matching human–human agreement.",
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:33:41.288Z",
-  "updated_at": "2026-11-17T15:12:05.923Z"
+  "updated_at": "2026-11-22T01:47:45.176Z"
 }
