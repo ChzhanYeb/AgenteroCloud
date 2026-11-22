@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:54:18.903Z",
+    "generatedAt": "2026-11-22T01:54:30.469Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -811,6 +811,72 @@
           "quote": "1.4 Recognizing parallel opportunities 7 The memory hierarchy: Your performance bottleneck 8 When parallelism doesn’t help 10",
           "source": "⟪S0⟫1.4 Recognizing parallel opportunities 7 ⟪/S0⟫The memory hierarchy: Your performance bottleneck 8 When parallelism doesn’t help 10",
           "translated": "⟪S0⟫1.4认识并行机会7 ⟪/S0⟫内存层次结构：您的性能瓶颈8当并行性没有帮助时10"
+        }
+      ]
+    },
+    {
+      "id": "4a2a52cf-2557-4741-ac49-0b3909c9a09c::paragraph-4",
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.7360677329299804,
+        "w": 0.5476513249439856,
+        "h": 0.05869505628967516
+      },
+      "kind": "text",
+      "readingOrder": 162.003,
+      "source": "⟪S0⟫1.5 Deep learning through the CUDA lens 11 ⟪/S0⟫The nature of deep learning computation 11  ⟪S1⟫■  ⟪/S1⟫Why GPUs excel at deep learning 12",
+      "translated": "⟪S0⟫ 1.5通过CUDA镜头进行深度学习11 ⟪/S0⟫ 深度学习计算的本质 ⟪S1⟫ ■ ⟪/S1⟫ 为什么GPU擅长深度学习12",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "1.5 Deep learning through the CUDA lens 11 The nature of deep learning computation 11  ■  Why GPUs excel at deep learning 12",
+          "source": "⟪S0⟫1.5 Deep learning through the CUDA lens 11 ⟪/S0⟫The nature of deep learning computation 11  ⟪S1⟫■  ⟪/S1⟫Why GPUs excel at deep learning 12",
+          "translated": "⟪S0⟫ 1.5通过CUDA镜头进行深度学习11 ⟪/S0⟫ 深度学习计算的本质 ⟪S1⟫ ■ ⟪/S1⟫ 为什么GPU擅长深度学习12"
+        }
+      ]
+    },
+    {
+      "id": "4a2a52cf-2557-4741-ac49-0b3909c9a09c::paragraph-5",
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.805867259328513,
+        "w": 0.5194218752046049,
+        "h": 0.07773129076200223
+      },
+      "kind": "text",
+      "readingOrder": 162.004,
+      "source": "⟪S0⟫1.6 The optimization stack 13 ⟪/S0⟫Starting point: Naive kernels 13  ⟪S1⟫■  ⟪/S1⟫Optimization layers 13 The compounding effect 14  ⟪S2⟫■  ⟪/S2⟫Scaling to multiple GPUs 14 Why this matters 14",
+      "translated": "⟪S0⟫1.6优化堆栈13 ⟪/S0⟫起点：朴素内核13 ⟪S1⟫■⟪/S1⟫优化层13复合效应14 ⟪S2⟫■⟪/S2⟫扩展到多个GPU 14为什么这很重要14",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "1.6 The optimization stack 13 Starting point: Naive kernels 13  ■  Optimization layers 13 The compounding effect 14  ■  Scaling to multiple GPUs 14 Why this matters 14",
+          "source": "⟪S0⟫1.6 The optimization stack 13 ⟪/S0⟫Starting point: Naive kernels 13  ⟪S1⟫■  ⟪/S1⟫Optimization layers 13 The compounding effect 14  ⟪S2⟫■  ⟪/S2⟫Scaling to multiple GPUs 14 Why this matters 14",
+          "translated": "⟪S0⟫1.6优化堆栈13 ⟪/S0⟫起点：朴素内核13 ⟪S1⟫■⟪/S1⟫优化层13复合效应14 ⟪S2⟫■⟪/S2⟫扩展到多个GPU 14为什么这很重要14"
+        }
+      ]
+    },
+    {
+      "id": "4a2a52cf-2557-4741-ac49-0b3909c9a09c::paragraph-6",
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.8947030201993728,
+        "w": 0.27476664412997215,
+        "h": 0.01903623447232708
+      },
+      "kind": "text",
+      "readingOrder": 162.005,
+      "source": "1.7 Getting ready to build 14",
+      "translated": "1.7准备构建14",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "1.7 Getting ready to build 14",
+          "source": "1.7 Getting ready to build 14",
+          "translated": "1.7准备构建14"
         }
       ]
     },
@@ -1828,6 +1894,99 @@
           "quote": "complete generation example 115",
           "source": "complete generation example 115",
           "translated": "完整生成示例115"
+        }
+      ]
+    },
+    {
+      "id": "b4619458-810c-46f3-8d6f-2c0429c32e42",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.389807025554151,
+        "y": 0.3303366652752652,
+        "w": 0.20337861456740944,
+        "h": 0.04567365774930611
+      },
+      "kind": "text",
+      "readingOrder": 109,
+      "source": "tree algorithms (NCCL) 277–279. ⟪S0⟫See also ⟪/S0⟫ring algorithms",
+      "translated": "树算法（NCCL）277-279。⟪S0⟫另请参阅⟪/S0⟫ring算法",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "tree algorithms (NCCL) 277–279.",
+          "source": "tree algorithms (NCCL) 277–279.",
+          "translated": "树算法（NCCL）277-279。"
+        },
+        {
+          "quote": "See also ring algorithms",
+          "source": "⟪S0⟫See also ⟪/S0⟫ring algorithms",
+          "translated": "⟪S0⟫另请参阅⟪/S0⟫ring算法"
+        }
+      ]
+    },
+    {
+      "id": "2e25ac4c-5c87-49cf-bd99-c71643c98aae",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6722593549726599,
+        "y": 0.3326109629789106,
+        "w": 0.189071985425976,
+        "h": 0.031539082054483046
+      },
+      "kind": "text",
+      "readingOrder": 112,
+      "source": "performance of warp-based LayerNorm 157",
+      "translated": "基于warp的LayerNorm 157的性能",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "performance of warp-based LayerNorm 157",
+          "source": "performance of warp-based LayerNorm 157",
+          "translated": "基于warp的LayerNorm 157的性能"
+        }
+      ]
+    },
+    {
+      "id": "3ba13b8d-94fd-4dd0-a5e3-647a20a410c1",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.1565949806938279,
+        "y": 0.3537676551812797,
+        "w": 0.1447228963713767,
+        "h": 0.030410899707573352
+      },
+      "kind": "text",
+      "readingOrder": 115,
+      "source": "deploying optimized stack 115–117",
+      "translated": "部署优化的堆栈115-117",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "deploying optimized stack 115–117",
+          "source": "deploying optimized stack 115–117",
+          "translated": "部署优化的堆栈115-117"
+        }
+      ]
+    },
+    {
+      "id": "c91fa144-1d9e-4c54-aa13-2d4ba0fc182a",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.3915297902090193,
+        "y": 0.3788338403300951,
+        "w": 0.08870699174653104,
+        "h": 0.015472533114839412
+      },
+      "kind": "text",
+      "readingOrder": 118,
+      "source": "Triton 316",
+      "translated": "海卫一316",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Triton 316",
+          "source": "Triton 316",
+          "translated": "海卫一316"
         }
       ]
     }
