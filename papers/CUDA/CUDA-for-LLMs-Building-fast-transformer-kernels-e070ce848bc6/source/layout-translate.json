@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:55:56.869Z",
+    "generatedAt": "2026-11-22T01:56:08.440Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -1283,6 +1283,72 @@
           "quote": "5.3 Inference kernels 117 Memory layout and contiguity 117  ■  GEMV: The inference workhorse 118",
           "source": "⟪S0⟫5.3 Inference kernels 117 ⟪/S0⟫Memory layout and contiguity 117  ⟪S1⟫■  ⟪/S1⟫GEMV: The inference workhorse 118",
           "translated": "⟪S0⟫5.3推理内核117 ⟪/S0⟫内存布局和连续性117 ⟪S1⟫■⟪/S1⟫GEMV：推理主力118"
+        }
+      ]
+    },
+    {
+      "id": "31ccd9e2-7247-443c-9698-263abde14fd0::paragraph-7",
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.27288468081401346,
+        "y": 0.6456456191864268,
+        "w": 0.400858186299206,
+        "h": 0.07138587927122654
+      },
+      "kind": "text",
+      "readingOrder": 137.006,
+      "source": "Optimizing our transformer kernels 126 ⟪F0⟫ ⟪F1⟫ ⟪F2⟫",
+      "translated": "优化我们的Transformer内核126 ⟪F0⟫ ⟪F1⟫ ⟪F2⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Optimizing our transformer kernels 126 6.1 Preparing to optimize 127 Profiling CUDA kernels 127",
+          "source": "Optimizing our transformer kernels 126 ⟪F0⟫ ⟪F1⟫ ⟪F2⟫",
+          "translated": "优化我们的Transformer内核126 ⟪F0⟫ ⟪F1⟫ ⟪F2⟫"
+        }
+      ]
+    },
+    {
+      "id": "31ccd9e2-7247-443c-9698-263abde14fd0::paragraph-8",
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.7297223214392047,
+        "w": 0.5890545178950773,
+        "h": 0.11897646545204424
+      },
+      "kind": "text",
+      "readingOrder": 137.007,
+      "source": "⟪S0⟫6.2 GEMV 127 ⟪/S0⟫Understanding the memory access problem 129  ⟪S1⟫■  ⟪/S1⟫Achieving coalesced access 131  ⟪S2⟫■  ⟪/S2⟫Profiling the coalescing improvement 134  ⟪S3⟫■  ⟪/S3⟫Scaling up with block-level reduction 135  ⟪S4⟫■  ⟪/S4⟫Maximizing bandwidth with vectorization 138  ⟪S5⟫■  ⟪/S5⟫Final GEMVp erformance analysis 139 GEMV optimization summary 140",
+      "translated": "⟪S0⟫6.2 GEMV 127⟪/S0⟫Understanding内存访问问题129 ⟪S1⟫■⟪/S1⟫实现合并访问131 ⟪S2⟫■⟪/S2⟫分析合并改进134 ⟪S3⟫■⟪/S3⟫通过块级缩减扩展135 ⟪S4⟫■⟪/S4⟫通过矢量化最大化带宽138 ⟪S5⟫■⟪/S5⟫Final GEMVp性能分析139 GEMV优化摘要140",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "6.2 GEMV 127 Understanding the memory access problem 129  ■  Achieving coalesced access 131  ■  Profiling the coalescing improvement 134  ■  Scaling up with block-level reduction 135  ■  Maximizing bandwidth with vectorization 138  ■  Final GEMVp erformance analysis 139 GEMV optimization summary 140",
+          "source": "⟪S0⟫6.2 GEMV 127 ⟪/S0⟫Understanding the memory access problem 129  ⟪S1⟫■  ⟪/S1⟫Achieving coalesced access 131  ⟪S2⟫■  ⟪/S2⟫Profiling the coalescing improvement 134  ⟪S3⟫■  ⟪/S3⟫Scaling up with block-level reduction 135  ⟪S4⟫■  ⟪/S4⟫Maximizing bandwidth with vectorization 138  ⟪S5⟫■  ⟪/S5⟫Final GEMVp erformance analysis 139 GEMV optimization summary 140",
+          "translated": "⟪S0⟫6.2 GEMV 127⟪/S0⟫Understanding内存访问问题129 ⟪S1⟫■⟪/S1⟫实现合并访问131 ⟪S2⟫■⟪/S2⟫分析合并改进134 ⟪S3⟫■⟪/S3⟫通过块级缩减扩展135 ⟪S4⟫■⟪/S4⟫通过矢量化最大化带宽138 ⟪S5⟫■⟪/S5⟫Final GEMVp性能分析139 GEMV优化摘要140"
+        }
+      ]
+    },
+    {
+      "id": "31ccd9e2-7247-443c-9698-263abde14fd0::paragraph-9",
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.8613896098728003,
+        "w": 0.5890545178950773,
+        "h": 0.09835387810702324
+      },
+      "kind": "text",
+      "readingOrder": 137.008,
+      "source": "⟪S0⟫6.3 Softmax 141 ⟪/S0⟫Online softmax: A better sequential algorithm 143  ⟪S1⟫■  ⟪/S1⟫Parallel softmax with warp shuffles 145  ⟪S2⟫■  ⟪/S2⟫Fused softmax with shared memory 147 Vectorized softmax 149  ⟪S3⟫■  ⟪/S3⟫Profiling softmax optimizations 150 Softmax optimization summary 151",
+      "translated": "⟪S0⟫6.3 Softmax 141 ⟪/S0⟫Online softmax：更好的顺序algorithm 143 ⟪S1⟫■⟪/S1⟫带经纱洗牌的并行softmax 145 ⟪S2⟫■⟪/S2⟫Fuse softmax带共享内存147矢量化softmax 149 ⟪S3⟫■⟪/S3⟫ Profile softmax优化150 Softmax优化摘要151",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "6.3 Softmax 141 Online softmax: A better sequential algorithm 143  ■  Parallel softmax with warp shuffles 145  ■  Fused softmax with shared memory 147 Vectorized softmax 149  ■  Profiling softmax optimizations 150 Softmax optimization summary 151",
+          "source": "⟪S0⟫6.3 Softmax 141 ⟪/S0⟫Online softmax: A better sequential algorithm 143  ⟪S1⟫■  ⟪/S1⟫Parallel softmax with warp shuffles 145  ⟪S2⟫■  ⟪/S2⟫Fused softmax with shared memory 147 Vectorized softmax 149  ⟪S3⟫■  ⟪/S3⟫Profiling softmax optimizations 150 Softmax optimization summary 151",
+          "translated": "⟪S0⟫6.3 Softmax 141 ⟪/S0⟫Online softmax：更好的顺序algorithm 143 ⟪S1⟫■⟪/S1⟫带经纱洗牌的并行softmax 145 ⟪S2⟫■⟪/S2⟫Fuse softmax带共享内存147矢量化softmax 149 ⟪S3⟫■⟪/S3⟫ Profile softmax优化150 Softmax优化摘要151"
         }
       ]
     },
@@ -3185,6 +3251,94 @@
           "quote": "loading data with 190–191",
           "source": "loading data with 190–191",
           "translated": "用190-191加载数据"
+        }
+      ]
+    },
+    {
+      "id": "227b2758-63d5-473d-be0a-bc79d0cdbe6e",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.38955389903832016,
+        "y": 0.7435889368866475,
+        "w": 0.22485400367657865,
+        "h": 0.034048420772204595
+      },
+      "kind": "text",
+      "readingOrder": 257,
+      "source": "verification technique 67 isolating and conquering 67",
+      "translated": "验证技术67隔离和征服67",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "verification technique 67 isolating and conquering 67",
+          "source": "verification technique 67 isolating and conquering 67",
+          "translated": "验证技术67隔离和征服67"
+        }
+      ]
+    },
+    {
+      "id": "5a297762-ed65-45f7-96be-a14abdb0b888",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6723913011523989,
+        "y": 0.7595472827400129,
+        "w": 0.18265232721366417,
+        "h": 0.016407856952567405
+      },
+      "kind": "text",
+      "readingOrder": 263,
+      "source": "matrix multiply with 191",
+      "translated": "矩阵乘以191",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "matrix multiply with 191",
+          "source": "matrix multiply with 191",
+          "translated": "矩阵乘以191"
+        }
+      ]
+    },
+    {
+      "id": "bd3a6219-bdd2-4772-823e-db32f34cfb46",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.3904977907914658,
+        "y": 0.7786523514943497,
+        "w": 0.08675935014956197,
+        "h": 0.015221954999132632
+      },
+      "kind": "text",
+      "readingOrder": 268,
+      "source": "vLLM 318",
+      "translated": "vLLM 318",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "vLLM 318",
+          "source": "vLLM 318",
+          "translated": "vLLM 318"
+        }
+      ]
+    },
+    {
+      "id": "d0cac51a-192d-4a4b-afb5-1dea1e8a811a",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6738640685633231,
+        "y": 0.7794223818676893,
+        "w": 0.1402944455366592,
+        "h": 0.01633409202146114
+      },
+      "kind": "text",
+      "readingOrder": 270,
+      "source": "storing results 193",
+      "translated": "存储结果193",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "storing results 193",
+          "source": "storing results 193",
+          "translated": "存储结果193"
         }
       ]
     }
