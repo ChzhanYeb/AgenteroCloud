@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:55:10.135Z",
+    "generatedAt": "2026-11-22T01:55:20.326Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -1058,6 +1058,50 @@
           "quote": "Naive kernels 34",
           "source": "Naive kernels 34",
           "translated": "朴素核34"
+        }
+      ]
+    },
+    {
+      "id": "4e65261d-aa51-4aac-94b5-7c5b502526a3::paragraph-9",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.5108056250074433,
+        "w": 0.44978923251413255,
+        "h": 0.06345411490775693
+      },
+      "kind": "text",
+      "readingOrder": 147.008,
+      "source": "⟪S0⟫3.2 Core neural network kernels 41 ⟪/S0⟫Kernel 2, GEMM: The heart of neural networks 41 Kernel 3, softmax: The final activation 43",
+      "translated": "⟪S0⟫3.2核心神经网络内核41 ⟪/S0⟫Kernel 2， GEMM：神经网络核心41 Kernel 3，softmax：最终激活43",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "3.2 Core neural network kernels 41 Kernel 2, GEMM: The heart of neural networks 41 Kernel 3, softmax: The final activation 43",
+          "source": "⟪S0⟫3.2 Core neural network kernels 41 ⟪/S0⟫Kernel 2, GEMM: The heart of neural networks 41 Kernel 3, softmax: The final activation 43",
+          "translated": "⟪S0⟫3.2核心神经网络内核41 ⟪/S0⟫Kernel 2， GEMM：神经网络核心41 Kernel 3，softmax：最终激活43"
+        }
+      ]
+    },
+    {
+      "id": "4e65261d-aa51-4aac-94b5-7c5b502526a3::paragraph-10",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.5901232686421395,
+        "w": 0.5702348847354902,
+        "h": 0.08090399650739008
+      },
+      "kind": "text",
+      "readingOrder": 147.009,
+      "source": "⟪S0⟫3.3 Convolution and pooling toolkit 45 ⟪/S0⟫Kernel 4, 1D convolution: Processing signals and sequences 45 Kernel 5, 2D convolution: The engine of computer vision 46 Kernel 6, 2D max pooling: Downsampling and feature detection 49",
+      "translated": "⟪S0⟫3.3卷积和池化工具包45 ⟪/S0⟫Kernel 4、1D卷积：处理信号和序列45 Kernel 5、2D卷积：计算机视觉引擎46 Kernel 6、2D max池化：下采样和特征检测49",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "3.3 Convolution and pooling toolkit 45 Kernel 4, 1D convolution: Processing signals and sequences 45 Kernel 5, 2D convolution: The engine of computer vision 46 Kernel 6, 2D max pooling: Downsampling and feature detection 49",
+          "source": "⟪S0⟫3.3 Convolution and pooling toolkit 45 ⟪/S0⟫Kernel 4, 1D convolution: Processing signals and sequences 45 Kernel 5, 2D convolution: The engine of computer vision 46 Kernel 6, 2D max pooling: Downsampling and feature detection 49",
+          "translated": "⟪S0⟫3.3卷积和池化工具包45 ⟪/S0⟫Kernel 4、1D卷积：处理信号和序列45 Kernel 5、2D卷积：计算机视觉引擎46 Kernel 6、2D max池化：下采样和特征检测49"
         }
       ]
     },
@@ -2498,6 +2542,116 @@
           "quote": "V",
           "source": "V",
           "translated": "V"
+        }
+      ]
+    },
+    {
+      "id": "aa035cc6-aa52-421b-b3c9-851afbd389c0",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.1561785435070996,
+        "y": 0.5329649378438491,
+        "w": 0.17913729361734182,
+        "h": 0.031007311440572956
+      },
+      "kind": "text",
+      "readingOrder": 169,
+      "source": "optimizing autoregressive generation 105–115",
+      "translated": "优化自回归生成105-115",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "optimizing autoregressive generation 105–115",
+          "source": "optimizing autoregressive generation 105–115",
+          "translated": "优化自回归生成105-115"
+        }
+      ]
+    },
+    {
+      "id": "7c18cb24-cc1a-4284-b6de-26bec733d3b0",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6737178827610536,
+        "y": 0.5334863261889126,
+        "w": 0.08059402422756938,
+        "h": 0.015642521591247027
+      },
+      "kind": "text",
+      "readingOrder": 171,
+      "source": "basic 194",
+      "translated": "基本194",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "basic 194",
+          "source": "basic 194",
+          "translated": "基本194"
+        }
+      ]
+    },
+    {
+      "id": "df7669af-29c0-4e94-ab41-e7e8fc1648aa",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.3895683970410983,
+        "y": 0.5506593732962431,
+        "w": 0.15503274194496708,
+        "h": 0.014691563847516851
+      },
+      "kind": "text",
+      "readingOrder": 173,
+      "source": "vecadd.cu file 20–23",
+      "translated": "vecadd.cu档案20-23",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "vecadd.cu file 20–23",
+          "source": "vecadd.cu file 20–23",
+          "translated": "vecadd.cu档案20-23"
+        }
+      ]
+    },
+    {
+      "id": "a89e113b-a9c2-462d-a970-880dbd0561bf",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6739256204800682,
+        "y": 0.5533112322499504,
+        "w": 0.21571563979083372,
+        "h": 0.015528437639398294
+      },
+      "kind": "text",
+      "readingOrder": 175,
+      "source": "PTX inline assembly 196–198",
+      "translated": "PTX直列组件196-198",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "PTX inline assembly 196–198",
+          "source": "PTX inline assembly 196–198",
+          "translated": "PTX直列组件196-198"
+        }
+      ]
+    },
+    {
+      "id": "4e88f20c-d7ba-442d-8edf-92dbab78f115",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.1551606832308693,
+        "y": 0.5677063327096551,
+        "w": 0.15420637014107333,
+        "h": 0.02807331614603985
+      },
+      "kind": "text",
+      "readingOrder": 177,
+      "source": "production inference results 115",
+      "translated": "生产推理结果115",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "production inference results 115",
+          "source": "production inference results 115",
+          "translated": "生产推理结果115"
         }
       ]
     }
