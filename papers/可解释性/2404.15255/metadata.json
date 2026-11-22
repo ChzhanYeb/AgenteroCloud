@@ -20,13 +20,14 @@
     }
   ],
   "year": 2024,
-  "date": "2024-04-23",
+  "date": "2024",
   "abstract": "Activation patching is a popular mechanistic interpretability technique, but has many subtleties regarding how it is applied and how one may interpret the results. We provide a summary of advice and best practices, based on our experience using this technique in practice. We include an overview of the different ways to apply activation patching and a discussion on how to interpret the results. We focus on what evidence patching experiments provide about circuits, and on the choice of metric and associated pitfalls.",
   "tags": [
-    "@arxiv:Computer Science - Machine Learning"
+    "@arxiv:Computer Science - Machine Learning",
+    "#submitted:NeurIPS 2023"
   ],
   "arxiv_id": "2404.15255",
-  "doi": "10.48550/arXiv.2404.15255",
+  "doi": "10.48550/ARXIV.2404.15255",
   "pdf_url": "https://arxiv.org/pdf/2404.15255",
   "html_url": "https://arxiv.org/html/2404.15255",
   "source_url": "https://arxiv.org/abs/2404.15255",
@@ -35,11 +36,11 @@
   "bibtex_key": "2404.15255",
   "citation_count": 260,
   "zotero_item_type": "preprint",
-  "meta_source": "translator",
+  "meta_source": "manual",
   "extra": "arXiv:2404.15255 [cs.LG]",
   "summary": "Activation patching results depend strongly on the intervention site, metric, and comparison baseline. This guide catalogs patching variants and interpretation pitfalls, clarifying when results support circuit claims and when they reflect metric-specific effects.",
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:43:38.918Z",
-  "updated_at": "2026-11-17T15:12:04.774Z"
+  "updated_at": "2026-11-22T01:48:39.575Z"
 }

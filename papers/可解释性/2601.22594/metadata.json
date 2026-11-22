@@ -32,14 +32,14 @@
     }
   ],
   "year": 2026,
-  "date": "2026-06-11",
+  "date": "2026",
   "abstract": "The high-level concepts that a neural network uses to perform computation need not be aligned to individual neurons (Smolensky, 1986). Language model interpretability research has thus turned to techniques which decompose the neuron basis into more interpretable units of model computation, such as sparse autoencoders (SAEs). However, not all neuron-based representations are uninterpretable. For the first time, we empirically show that MLP neurons are as sparse a feature basis as SAEs. We use this finding to develop an end-to-end gradient-based attribution pipeline for circuit tracing on the MLP neuron basis, which surfaces causally effective neurons on a variety of tasks. On a standard subject-verb agreement benchmark (Marks et al., 2025), a circuit of $\\approx 10^2$ MLP neurons is enough to control model behaviour. On the multi-hop city-state-capital task from (Lindsey et al., 2025), we find a circuit in which small sets of neurons encode specific latent reasoning steps (e.g. mapping a city to its state), and can be steered to change the model's output. This work thus advances automated interpretability of language models without imposing additional training costs.",
   "tags": [
     "@arxiv:Computer Science - Computation and Language",
     "@arxiv:Computer Science - Artificial Intelligence"
   ],
   "arxiv_id": "2601.22594",
-  "doi": "10.48550/arXiv.2601.22594",
+  "doi": "10.48550/ARXIV.2601.22594",
   "publication": "ICML 2026",
   "pdf_url": "https://arxiv.org/pdf/2601.22594",
   "html_url": "https://arxiv.org/html/2601.22594",
@@ -50,11 +50,11 @@
   "bibtex_key": "2601.22594",
   "citation_count": 27,
   "zotero_item_type": "preprint",
-  "meta_source": "translator",
+  "meta_source": "manual",
   "extra": "arXiv:2601.22594 [cs.CL]",
   "summary": "MLP neurons can be as sparse a feature basis as sparse autoencoders. Gradient-based attribution traces causally effective neuron circuits, finding roughly 100 neurons sufficient for subject–verb agreement and interpretable multi-hop city–state–capital reasoning steps.",
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:43:40.843Z",
-  "updated_at": "2026-11-17T15:12:05.345Z"
+  "updated_at": "2026-11-22T01:48:42.185Z"
 }
