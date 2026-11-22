@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:59:23.361Z",
+    "generatedAt": "2026-11-22T01:59:50.427Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -2427,6 +2427,204 @@
       ]
     },
     {
+      "id": "3f8167d0-59cb-488b-977a-8d60665a94d4",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.2825938643763229,
+        "y": 0.2613831776460894,
+        "w": 0.5781287895769638,
+        "h": 0.04048990465931057
+      },
+      "kind": "text",
+      "readingOrder": 105,
+      "source": "⟪S0⟫12.6 CUTLASS and template libraries 320 ⟪/S0⟫Python CuTe DSL 320  ⟪S1⟫■  ⟪/S1⟫CUTLASS profiler and auto-tuning 321",
+      "translated": "⟪S0⟫12.6 CUTLASS和模板库320 ⟪/S0⟫Python CuTe DSL 320 ⟪S1⟫■⟪/S1⟫CUTLASS分析器和自动调整321",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "12.6 CUTLASS and template libraries 320 Python CuTe DSL 320  ■  CUTLASS profiler and auto-tuning 321",
+          "source": "⟪S0⟫12.6 CUTLASS and template libraries 320 ⟪/S0⟫Python CuTe DSL 320  ⟪S1⟫■  ⟪/S1⟫CUTLASS profiler and auto-tuning 321",
+          "translated": "⟪S0⟫12.6 CUTLASS和模板库320 ⟪/S0⟫Python CuTe DSL 320 ⟪S1⟫■⟪/S1⟫CUTLASS分析器和自动调整321"
+        }
+      ]
+    },
+    {
+      "id": "55d7ac3f-37ed-4a86-8747-b7289a215f88",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.2838336589307238,
+        "y": 0.3119607754494821,
+        "w": 0.5644479861039657,
+        "h": 0.040480853450572465
+      },
+      "kind": "text",
+      "readingOrder": 121,
+      "source": "⟪S0⟫12.7 Expanding your toolkit 321 ⟪/S0⟫GPU MODE 321  ⟪S1⟫■  ⟪/S1⟫Ultra-Scale Playbook 321  ⟪S2⟫■  ⟪/S2⟫LeetGPU 322",
+      "translated": "⟪S0⟫12.7扩展您的工具包321 ⟪/S0⟫GPU MODE 321 ⟪S1⟫■⟪/S1⟫Ultra-Scale Playbook 321 ⟪S2⟫■⟪/S2⟫LeetGPU 322",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "12.7 Expanding your toolkit 321 GPU MODE 321  ■  Ultra-Scale Playbook 321  ■  LeetGPU 322",
+          "source": "⟪S0⟫12.7 Expanding your toolkit 321 ⟪/S0⟫GPU MODE 321  ⟪S1⟫■  ⟪/S1⟫Ultra-Scale Playbook 321  ⟪S2⟫■  ⟪/S2⟫LeetGPU 322",
+          "translated": "⟪S0⟫12.7扩展您的工具包321 ⟪/S0⟫GPU MODE 321 ⟪S1⟫■⟪/S1⟫Ultra-Scale Playbook 321 ⟪S2⟫■⟪/S2⟫LeetGPU 322"
+        }
+      ]
+    },
+    {
+      "id": "11d95622-a53c-4a2d-ba7a-b9a56a1329d6",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.28666186041127706,
+        "y": 0.36362749503587183,
+        "w": 0.3231159831035395,
+        "h": 0.017701623176980076
+      },
+      "kind": "text",
+      "readingOrder": 130,
+      "source": "12.8 High-level inference tricks 322",
+      "translated": "12.8高级推理技巧322",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "12.8 High-level inference tricks 322",
+          "source": "12.8 High-level inference tricks 322",
+          "translated": "12.8高级推理技巧322"
+        }
+      ]
+    },
+    {
+      "id": "b25a8434-c121-4e38-81cd-7314d936a9a8",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.2846577483757643,
+        "y": 0.39014030051174664,
+        "w": 0.33190665330285746,
+        "h": 0.01809491513741574
+      },
+      "kind": "text",
+      "readingOrder": 160,
+      "source": "12.9 Running on edge hardware 322",
+      "translated": "12.9在边缘硬件上运行322",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "12.9 Running on edge hardware 322",
+          "source": "12.9 Running on edge hardware 322",
+          "translated": "12.9在边缘硬件上运行322"
+        }
+      ]
+    },
+    {
+      "id": "c71d0bb3-c2ef-463b-bb02-e5ce4225ca96",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.2855808261645255,
+        "y": 0.41729871854245143,
+        "w": 0.5589244480079226,
+        "h": 0.058833389221723834
+      },
+      "kind": "text",
+      "readingOrder": 180,
+      "source": "⟪S0⟫12.10 Charting your next moves 322 ⟪/S0⟫The meta-point: The fundamentals generalize 323  ⟪S1⟫■  ⟪/S1⟫Where to go from here 323  ⟪S2⟫■   ⟪/S2⟫Final thoughts 323  ⟪S3⟫■  ⟪/S3⟫Resources 323",
+      "translated": "⟪S0⟫12.10绘制你的下一步322 ⟪/S0⟫元点：基本面概括323 ⟪S1⟫■⟪/S1⟫从这里去哪里323 ⟪S2⟫■⟪/S2⟫Final想法323 ⟪S3⟫■⟪/S3⟫Resources 323",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "12.10 Charting your next moves 322 The meta-point: The fundamentals generalize 323  ■  Where to go from here 323  ■   Final thoughts 323  ■  Resources 323",
+          "source": "⟪S0⟫12.10 Charting your next moves 322 ⟪/S0⟫The meta-point: The fundamentals generalize 323  ⟪S1⟫■  ⟪/S1⟫Where to go from here 323  ⟪S2⟫■   ⟪/S2⟫Final thoughts 323  ⟪S3⟫■  ⟪/S3⟫Resources 323",
+          "translated": "⟪S0⟫12.10绘制你的下一步322 ⟪/S0⟫元点：基本面概括323 ⟪S1⟫■⟪/S1⟫从这里去哪里323 ⟪S2⟫■⟪/S2⟫Final想法323 ⟪S3⟫■⟪/S3⟫Resources 323"
+        }
+      ]
+    },
+    {
+      "id": "5c9aed56-2023-4392-8cde-09ef96909981",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.23289517019564324,
+        "y": 0.4903006375923126,
+        "w": 0.3252760993907279,
+        "h": 0.01968908952778053
+      },
+      "kind": "text",
+      "readingOrder": 200,
+      "source": "appendix A Installation and setup 326",
+      "translated": "附录A安装和设置326",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "appendix A Installation and setup 326",
+          "source": "appendix A Installation and setup 326",
+          "translated": "附录A安装和设置326"
+        }
+      ]
+    },
+    {
+      "id": "4af1c7c5-eb38-411f-911f-b2debfd54603",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.2343061273095749,
+        "y": 0.5208933843118061,
+        "w": 0.35781831642646106,
+        "h": 0.021360659013183982
+      },
+      "kind": "text",
+      "readingOrder": 223,
+      "source": "appendix B Running the code examples 330",
+      "translated": "附录B运行代码示例330",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "appendix B Running the code examples 330",
+          "source": "appendix B Running the code examples 330",
+          "translated": "附录B运行代码示例330"
+        }
+      ]
+    },
+    {
+      "id": "67822359-8bb2-4785-9604-7efbe3f99690",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.2338319995553563,
+        "y": 0.5535688286825932,
+        "w": 0.4695917454286218,
+        "h": 0.019694946192258127
+      },
+      "kind": "text",
+      "readingOrder": 239,
+      "source": "appendix C Troubleshooting and development practices 340",
+      "translated": "附录C故障排除和开发实践340",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "appendix C Troubleshooting and development practices 340",
+          "source": "appendix C Troubleshooting and development practices 340",
+          "translated": "附录C故障排除和开发实践340"
+        }
+      ]
+    },
+    {
+      "id": "9433a043-7c07-40fb-af5d-a4d922d752fe",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.2323989509302608,
+        "y": 0.5846671846345906,
+        "w": 0.5077270766192747,
+        "h": 0.03880417753457078
+      },
+      "kind": "text",
+      "readingOrder": 254,
+      "source": "appendix D CUDA reference: commands, hardware, templates, and bindings 347",
+      "translated": "附录D CUDA参考：命令、硬件、模板和绑定347",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "appendix D CUDA reference: commands, hardware, templates, and bindings 347",
+          "source": "appendix D CUDA reference: commands, hardware, templates, and bindings 347",
+          "translated": "附录D CUDA参考：命令、硬件、模板和绑定347"
+        }
+      ]
+    },
+    {
       "id": "11:fallback:1044",
       "pageIndex": 11,
       "bbox": {
@@ -3571,6 +3769,28 @@
       ]
     },
     {
+      "id": "26:fallback:573",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.334989470240651,
+        "y": 0.7281359685665107,
+        "w": 0.1543209919086145,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10459,
+      "source": "Copy data: Host ⟪F0⟫ Device",
+      "translated": "复制数据：主机⟪F0⟫设备",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Copy data: Host → Device",
+          "source": "Copy data: Host ⟪F0⟫ Device",
+          "translated": "复制数据：主机⟪F0⟫设备"
+        }
+      ]
+    },
+    {
       "id": "26:fallback:517",
       "pageIndex": 26,
       "bbox": {
@@ -3593,6 +3813,28 @@
       ]
     },
     {
+      "id": "26:fallback:599",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.3368714335566097,
+        "y": 0.7566903202750014,
+        "w": 0.13173743211710995,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10477,
+      "source": "Execute parallel kernel",
+      "translated": "执行并行内核",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Execute parallel kernel",
+          "source": "Execute parallel kernel",
+          "translated": "执行并行内核"
+        }
+      ]
+    },
+    {
       "id": "26:fallback:536",
       "pageIndex": 26,
       "bbox": {
@@ -3611,6 +3853,182 @@
           "quote": "cudaMemcpy D→",
           "source": "cudaMemcpy D⟪F0⟫",
           "translated": "CudaMemcpy D⟪F0⟫"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:624",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.3368714335566097,
+        "y": 0.785244671983492,
+        "w": 0.1674947351203255,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10495,
+      "source": "Copy results: Device ⟪F0⟫ Host",
+      "translated": "复制结果：设备⟪F0⟫主机",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Copy results: Device → Host",
+          "source": "Copy results: Device ⟪F0⟫ Host",
+          "translated": "复制结果：设备⟪F0⟫主机"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:1061",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "27:fallback:329",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.6925625002728065,
+        "y": 0.19353505046865865,
+        "w": 0.02634748642342199,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10122,
+      "source": "Grid",
+      "translated": "网格",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Grid",
+          "source": "Grid",
+          "translated": "网格"
+        }
+      ]
+    },
+    {
+      "id": "27:fallback:387",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.25971093760230246,
+        "y": 0.25064375388563986,
+        "w": 0.07904245927026597,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10158,
+      "source": "Kernel Code",
+      "translated": "内核代码",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Kernel Code",
+          "source": "Kernel Code",
+          "translated": "内核代码"
+        }
+      ]
+    },
+    {
+      "id": "27:fallback:400",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.22018970796716947,
+        "y": 0.27761175272143657,
+        "w": 0.15620295522457325,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10175,
+      "source": "__global__void kernel(...) {",
+      "translated": "__global__void内核",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "__global__void kernel(...) {",
+          "source": "__global__void kernel(...) {",
+          "translated": "__global__void内核"
+        }
+      ]
+    },
+    {
+      "id": "27:fallback:360",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.4441433425662564,
+        "y": 0.28237081133951836,
+        "w": 0.04328515626705041,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10178,
+      "source": "Launch",
+      "translated": "发射",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Launch",
+          "source": "Launch",
+          "translated": "发射"
+        }
+      ]
+    },
+    {
+      "id": "27:fallback:368",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.41214996619495825,
+        "y": 0.3140978687933968,
+        "w": 0.10727190900964668,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10198,
+      "source": "⟪F0⟫grid, block⟪F1⟫",
+      "translated": "⟪F0⟫rid，block ⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "<<<grid, block>>>",
+          "source": "⟪F0⟫grid, block⟪F1⟫",
+          "translated": "⟪F0⟫rid，block ⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "27:fallback:335",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.7264378399600634,
+        "y": 0.393415512428093,
+        "w": 0.1524390285926558,
+        "h": 0.017449881599633156
+      },
+      "kind": "text",
+      "readingOrder": 10248,
+      "source": "...thousands of threads",
+      "translated": "…成千上万的线程",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "...thousands of threads",
+          "source": "...thousands of threads",
+          "translated": "…成千上万的线程"
         }
       ]
     },

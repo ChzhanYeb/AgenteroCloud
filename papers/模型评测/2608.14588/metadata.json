@@ -26,7 +26,8 @@
     "@arxiv:Computer Science - Artificial Intelligence",
     "@arxiv:Computer Science - Computation and Language",
     "@arxiv:Computer Science - Multiagent Systems",
-    "#submitted:ICML 2026"
+    "#submitted:ICML 2026",
+    "模型评测"
   ],
   "arxiv_id": "2608.14588",
   "doi": "10.48550/ARXIV.2608.14588",
@@ -43,5 +44,5 @@
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:34:47.737Z",
-  "updated_at": "2026-11-22T01:48:22.706Z"
+  "updated_at": "2026-11-22T01:59:50.777Z"
 }
