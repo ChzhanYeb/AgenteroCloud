@@ -151,7 +151,8 @@
   "tags": [
     "@arxiv:Computer Science - Machine Learning",
     "@arxiv:Computer Science - Artificial Intelligence",
-    "@arxiv:Computer Science - Computation and Language"
+    "@arxiv:Computer Science - Computation and Language",
+    "可解释性"
   ],
   "arxiv_id": "2504.13151",
   "doi": "10.48550/ARXIV.2504.13151",
@@ -171,5 +172,5 @@
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:43:39.163Z",
-  "updated_at": "2026-11-22T01:48:50.801Z"
+  "updated_at": "2026-11-22T02:01:52.595Z"
 }

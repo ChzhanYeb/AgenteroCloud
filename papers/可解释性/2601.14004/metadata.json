@@ -185,7 +185,8 @@
   "date": "2026",
   "abstract": "Mechanistic Interpretability (MI) has emerged as a vital approach to demystify the opaque decision-making of Large Language Models (LLMs). However, existing reviews primarily treat MI as an observational science, summarizing analytical insights while lacking a systematic framework for actionable intervention. To bridge this gap, we present a practical survey structured around the pipeline: \"Locate, Steer, and Improve.\" We formally categorize Localizing (diagnosis) and Steering (intervention) methods based on specific Interpretable Objects to establish a rigorous intervention protocol. Furthermore, we demonstrate how this framework enables tangible improvements in Alignment, Capability, and Efficiency, effectively operationalizing MI as an actionable methodology for model optimization. The curated paper list of this work is available at https://github.com/rattlesnakey/Awesome-Actionable-MI-Survey.",
   "tags": [
-    "@arxiv:Computer Science - Computation and Language"
+    "@arxiv:Computer Science - Computation and Language",
+    "可解释性"
   ],
   "arxiv_id": "2601.14004",
   "doi": "10.48550/ARXIV.2601.14004",
@@ -204,5 +205,5 @@
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:43:41.041Z",
-  "updated_at": "2026-11-22T01:49:16.512Z"
+  "updated_at": "2026-11-22T02:01:42.145Z"
 }
