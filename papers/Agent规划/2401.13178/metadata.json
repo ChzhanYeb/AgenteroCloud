@@ -68,11 +68,8 @@
     "@arxiv:Computer Science - Computation and Language",
     "@arxiv:Computer Science - Artificial Intelligence",
     "@arxiv:Computer Science - Machine Learning",
-    {
-      "name": "Agent规划",
-      "color": "blue"
-    },
-    "#submitted:NeurIPS 2024"
+    "#submitted:NeurIPS 2024",
+    "Agent规划"
   ],
   "arxiv_id": "2401.13178",
   "doi": "10.48550/ARXIV.2401.13178",
@@ -89,5 +86,5 @@
   "status": "completed",
   "is_read": false,
   "added_at": "2026-11-15T12:38:37.662Z",
-  "updated_at": "2026-11-22T01:46:18.062Z"
+  "updated_at": "2026-11-22T02:02:47.262Z"
 }
