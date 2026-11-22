@@ -1,0 +1,25 @@
+{
+  "path": "papers/待整理/2101.03961",
+  "id": "2101.03961",
+  "type": "pdf",
+  "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+  "authors": [
+    "William Fedus",
+    "Barret Zoph",
+    "Noam Shazeer"
+  ],
+  "year": 2021,
+  "abstract": "In deep learning, models typically reuse the same parameters for all inputs. Mixture of Experts (MoE) defies this and instead selects different parameters for each incoming example. The result is a sparsely-activated model -- with outrageous numbers of parameters -- but a constant computational cost. However, despite several notable successes of MoE, widespread adoption has been hindered by complexity, communication costs and training instability -- we address these with the Switch Transformer. We simplify the MoE routing algorithm and design intuitive improved models with reduced communication and computational costs. Our proposed training techniques help wrangle the instabilities and we show large sparse models may be trained, for the first time, with lower precision (bfloat16) formats. We design models based off T5-Base and T5-Large to obtain up to 7x increases in pre-training speed with the same computational resources. These improvements extend into multilingual settings where we measure gains over the mT5-Base version across all 101 languages. Finally, we advance the current scale of language models by pre-training up to trillion parameter models on the \"Colossal Clean Crawled Corpus\" and achieve a 4x speedup over the T5-XXL model.",
+  "tags": [],
+  "arxiv_id": "2101.03961",
+  "code_repo": "https://github.com/google-research/t5x",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 5408,
+  "meta_source": "recognize",
+  "summary": "Switch Transformer simplifies MoE routing and stabilizes sparse training with bfloat16 precision. It reaches up to 7× faster pretraining than dense T5 models at similar compute, while scaling to trillion-parameter models and improving mT5 across 101 languages.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:35.386Z",
+  "updated_at": "2026-11-15T11:49:15.012Z"
+}

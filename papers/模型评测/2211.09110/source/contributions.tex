@@ -1,0 +1,26 @@
+\hypertarget{contributions}{\subsection{Contributions}}
+\label{sec:contributions}
+To summarize, our contributions are:
+\begin{enumerate}
+  \item \textbf{Taxonomy.}
+  We taxonomize the vast design space of language model evaluation into scenarios and metrics.
+  By stating this taxonomy, we can select systematically from this space, which makes explicit both \textit{our priorities} in benchmark design and \textit{the limitations} in the benchmark at present (see \refsec{missing}).
+  \item 
+  \textbf{Broad coverage.}
+  Given our taxonomy, we select and implement \numcorescenarios \core scenarios, for which we comprehensively measure \nummetriccategories metrics (accuracy, calibration, robustness, fairness, bias, toxicity, efficiency).
+  We also include \numcomponents targeted evaluations of skills and risks (\eg knowledge, reasoning, disinformation, copyright), introducing \numnewscenarios new scenarios that have not been previously used in mainstream language model evaluation.
+  \item \textbf{Evaluation of existing models.}
+  We evaluate \nummodels language models under the standardized conditions of our benchmark, ensuring models can now be directly compared across many scenarios and metrics.
+  These models vary in terms of their public accessibility: \numpublicmodels are open, \numlimitedmodels are limited-access, and \numclosedmodels are closed.
+ \item \textbf{Empirical findings.}
+ Our extensive evaluation yields a host of findings (\refsec{experiments}), which in some cases reinforce findings in the literature and in others produce new knowledge about today's language models.
+ These results offer guidance for future language model development and ample opportunities for further analysis. 
+  \item \textbf{Interactive results and codebase.}
+  We provide a public website with all results, underlying model predictions and adaptation details, along an extensible codebase to support the community in taking \benchmarkname further.\footnote{\benchmarkUrl{}}
+\end{enumerate}
+
+\paragraph{Acknowledging the prior work this effort builds on.}
+To build our holistic evaluation of language models, we directly build on top of many prior works.
+While we advocate for evaluating language models in their totality, \ie centralizing many disparate evaluations, we want to be explicit that the underlying works across the AI community \textbf{should be recognized and cited}, as \benchmarkname would not exist in its current form without them.
+In particular, if the results of \benchmarkname are used by future work or new models are evaluated on \benchmarkname, they should cite the works that created the many datasets/evaluations that constitute \benchmarkname.\footnote{We take direct inspiration from and follow the precedent set by GLUE and SuperGLUE \citep{wang2019superglue, wang2019glue}; see \url{https://super.gluebenchmark.com/faq}.} 
+For this reason, we provide the BibTeX entries for all of these works in the codebase\footnote{\githubUrl{}} and explicitly acknowledge the associated work for every evaluation on the website.\footnote{\benchmarkUrl{}}

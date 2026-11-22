@@ -1,0 +1,22 @@
+\newcommand{\knote}{\color{red}}
+
+\newcommand{\donote}[1]{\color{red}#1\color{black}}
+\newcommand{\tweets}{\color{blue}}
+\def\mund#1{\smallskip\noindent{\bf #1: }}
+\newcommand{\mytcbinput}[4]{
+\tcbinputlisting{
+      listing file=#1,
+      minted options={
+        highlightlines={#3}, % Highlight specified lines
+        highlightcolor=yellow,
+        breaklines=True,        
+        fontsize=\scriptsize,
+        escapeinside=||,
+      },
+      breakable,
+      title=#2,
+      label=lst:#4,
+      listing only
+    }
+}
+

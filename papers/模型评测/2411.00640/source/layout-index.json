@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-17T14:36:23.759Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "table-p2-0250_0099_0500_0072",
+      "stableKey": "p2:table:0.250_0.099_0.500_0.072",
+      "kind": "table",
+      "section": "table",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.24971629124061734,
+        "y": 0.09912978278266059,
+        "w": 0.5002495011473014,
+        "h": 0.07231870323720604
+      },
+      "score": 0.9444519281387329,
+      "layoutRegionId": "d5cc9435-574b-475d-b485-87b3689ba53f"
+    },
+    {
+      "id": "table-p3-0214_0099_0571_0124",
+      "stableKey": "p3:table:0.214_0.099_0.571_0.124",
+      "kind": "table",
+      "section": "table",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.21444415422826033,
+        "y": 0.09928217801180753,
+        "w": 0.5706131131041283,
+        "h": 0.12350959007186119
+      },
+      "score": 0.9548616409301758,
+      "layoutRegionId": "2f21683a-c8cd-4dad-83f8-726e2a30d24e"
+    },
+    {
+      "id": "table-p4-0205_0099_0592_0125",
+      "stableKey": "p4:table:0.205_0.099_0.592_0.125",
+      "kind": "table",
+      "section": "table",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.2045008590797973,
+        "y": 0.09869717106674657,
+        "w": 0.5923598794376149,
+        "h": 0.12469676046660452
+      },
+      "score": 0.9603145718574524,
+      "layoutRegionId": "aebe9bff-b0e4-44b7-9c1b-bfd8d6b8ca61"
+    },
+    {
+      "id": "table-3",
+      "stableKey": "p4:table:Table 3: We suggest including the cluster count alongside the question count whe",
+      "kind": "table",
+      "section": "table",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.1255817413330078,
+        "y": 0.23312202607742463,
+        "w": 0.748495650447272,
+        "h": 0.12040438796534683
+      },
+      "score": 0.9458870887756348,
+      "title": "Table 3: We suggest including the cluster count alongside the question count when reporting cluster-adjusted standard errors (fictional models and numbers).",
+      "layoutRegionId": "4d4cba58-5bc5-49ca-90ad-8c2a5c691c50"
+    },
+    {
+      "id": "table-p8-0129_0101_0745_0072",
+      "stableKey": "p8:table:0.129_0.101_0.745_0.072",
+      "kind": "table",
+      "section": "table",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.12945547914193348,
+        "y": 0.10069482013432667,
+        "w": 0.7449809429692287,
+        "h": 0.07234892219004005
+      },
+      "score": 0.948658287525177,
+      "layoutRegionId": "bcd1a8b3-3e64-413d-8fac-16a798b95369"
+    },
+    {
+      "id": "formula-p3-0290_0548_0581_0049",
+      "stableKey": "p3:formula:0.290_0.548_0.581_0.049",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.2895255493961908,
+        "y": 0.5477259857485993,
+        "w": 0.5812573401756536,
+        "h": 0.04869923447117663
+      },
+      "score": 0.9295773506164551,
+      "layoutRegionId": "f832b4d8-e868-40b0-9ffc-b13cfe0073cc"
+    },
+    {
+      "id": "formula-p3-0394_0642_0477_0020",
+      "stableKey": "p3:formula:0.394_0.642_0.477_0.020",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.3941059486538756,
+        "y": 0.6418201176807133,
+        "w": 0.47656344744115087,
+        "h": 0.019870411265980104
+      },
+      "score": 0.8722484707832336,
+      "layoutRegionId": "07686b89-f69e-4c13-abb6-fc6200706b42"
+    },
+    {
+      "id": "formula-p3-0385_0888_0486_0016",
+      "stableKey": "p3:formula:0.385_0.888_0.486_0.016",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.3846634509516697,
+        "y": 0.8883912828233507,
+        "w": 0.4857435538098704,
+        "h": 0.016403891823508543
+      },
+      "score": 0.8627485036849976,
+      "layoutRegionId": "a4c9c1a7-8d9d-43f1-8fcc-a119069b9076"
+    },
+    {
+      "id": "formula-p4-0252_0668_0618_0053",
+      "stableKey": "p4:formula:0.252_0.668_0.618_0.053",
+      "kind": "formula",
+      "section": "formula",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.2520294438779744,
+        "y": 0.6683827409840594,
+        "w": 0.6180723851023155,
+        "h": 0.052672183874881595
+      },
+      "score": 0.9189536571502686,
+      "layoutRegionId": "c1b6c890-4a59-4479-b15f-14dad6b8519e"
+    },
+    {
+      "id": "formula-p7-0355_0376_0515_0018",
+      "stableKey": "p7:formula:0.355_0.376_0.515_0.018",
+      "kind": "formula",
+      "section": "formula",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.3549561095393561,
+        "y": 0.3756763959171796,
+        "w": 0.5152257034202027,
+        "h": 0.01772427799725773
+      },
+      "score": 0.8820401430130005,
+      "layoutRegionId": "441e3e8c-d474-419d-b98f-d330a22d2d6a"
+    },
+    {
+      "id": "formula-p7-0409_0407_0460_0017",
+      "stableKey": "p7:formula:0.409_0.407_0.460_0.017",
+      "kind": "formula",
+      "section": "formula",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.40921003054949195,
+        "y": 0.4068566139298256,
+        "w": 0.46017692914975233,
+        "h": 0.016686911534781412
+      },
+      "score": 0.8573222160339355,
+      "layoutRegionId": "8cc1f38a-8f89-47b6-b2ed-a34300b4ad21"
+    },
+    {
+      "id": "formula-p7-0223_0608_0649_0048",
+      "stableKey": "p7:formula:0.223_0.608_0.649_0.048",
+      "kind": "formula",
+      "section": "formula",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.22266156065697765,
+        "y": 0.6080626670760337,
+        "w": 0.6486190845763761,
+        "h": 0.04820143574416036
+      },
+      "score": 0.9315990209579468,
+      "layoutRegionId": "6913cbe1-7b0d-4522-ae1a-c192a5a73117"
+    },
+    {
+      "id": "formula-p8-0192_0690_0678_0050",
+      "stableKey": "p8:formula:0.192_0.690_0.678_0.050",
+      "kind": "formula",
+      "section": "formula",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.19195044274423637,
+        "y": 0.6898558645537405,
+        "w": 0.6777872696421505,
+        "h": 0.05001322428385413
+      },
+      "score": 0.9122128486633301,
+      "layoutRegionId": "35baf50c-01b7-43f0-99d6-aa9ded41adcd"
+    },
+    {
+      "id": "formula-p9-0324_0756_0547_0020",
+      "stableKey": "p9:formula:0.324_0.756_0.547_0.020",
+      "kind": "formula",
+      "section": "formula",
+      "page": 9,
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.3235938626956316,
+        "y": 0.7561046715938684,
+        "w": 0.5465070687088311,
+        "h": 0.019986316411182092
+      },
+      "score": 0.8631995916366577,
+      "layoutRegionId": "ed52380f-3402-4df0-991f-c514e89e5e4a"
+    },
+    {
+      "id": "formula-p10-0321_0203_0549_0023",
+      "stableKey": "p10:formula:0.321_0.203_0.549_0.023",
+      "kind": "formula",
+      "section": "formula",
+      "page": 10,
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.3206127889795241,
+        "y": 0.20304645191539417,
+        "w": 0.5491683062385111,
+        "h": 0.022523976335621837
+      },
+      "score": 0.8680932521820068,
+      "layoutRegionId": "71027adb-3654-488c-b2dc-62fcd2ebee50"
+    }
+  ]
+}

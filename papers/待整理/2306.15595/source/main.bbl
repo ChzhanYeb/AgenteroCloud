@@ -1,0 +1,343 @@
+\begin{thebibliography}{43}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ainslie et~al.(2023)Ainslie, Lei, de~Jong, Ontañón, Brahma,
+  Zemlyanskiy, Uthus, Guo, Lee-Thorp, Tay, Sung, and Sanghai]{ainslie2023colt5}
+Joshua Ainslie, Tao Lei, Michiel de~Jong, Santiago Ontañón, Siddhartha
+  Brahma, Yury Zemlyanskiy, David Uthus, Mandy Guo, James Lee-Thorp, Yi~Tay,
+  Yun-Hsuan Sung, and Sumit Sanghai.
+\newblock Colt5: Faster long-range transformers with conditional computation,
+  2023.
+
+\bibitem[Azerbayev et~al.(2022)Azerbayev, Ayers, and Piotrowski]{proofpile}
+Zhangir Azerbayev, Edward Ayers, and Bartosz Piotrowski.
+\newblock Proof-pile, 2022.
+\newblock URL \url{https://github.com/zhangir-azerbayev/proof-pile}.
+
+\bibitem[Beltagy et~al.(2020)Beltagy, Peters, and Cohan]{beltagy2020longformer}
+Iz~Beltagy, Matthew~E. Peters, and Arman Cohan.
+\newblock Longformer: The long-document transformer.
+\newblock 2020.
+
+\bibitem[Bulatov et~al.(2022)Bulatov, Kuratov, and
+  Burtsev]{bulatov2022recurrent}
+Aydar Bulatov, Yuri Kuratov, and Mikhail~S. Burtsev.
+\newblock Recurrent memory transformer.
+\newblock 2022.
+
+\bibitem[Child et~al.(2019)Child, Gray, Radford, and
+  Sutskever]{child2019generating}
+Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever.
+\newblock Generating long sequences with sparse transformers.
+\newblock 2019.
+
+\bibitem[Choromanski et~al.(2021)Choromanski, Likhosherstov, Dohan, Song, Gane,
+  Sarlós, Hawkins, Davis, Mohiuddin, Kaiser, Belanger, Colwell, and
+  Weller]{choromanski2021rethinking}
+Krzysztof~Marcin Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song,
+  Andreea Gane, Tamás Sarlós, Peter Hawkins, Jared~Quincy Davis, Afroz
+  Mohiuddin, Lukasz Kaiser, David~Benjamin Belanger, Lucy~J. Colwell, and
+  Adrian Weller.
+\newblock Rethinking attention with performers.
+\newblock In \emph{9th International Conference on Learning Representations,
+  ICLR 2021}. OpenReview.net, May 2021.
+
+\bibitem[Computer(2023)]{together2023redpajama}
+Together Computer.
+\newblock Redpajama: An open source recipe to reproduce llama training dataset,
+  2023.
+\newblock URL \url{https://github.com/togethercomputer/RedPajama-Data}.
+
+\bibitem[Dai et~al.(2019)Dai, Yang, Yang, Carbonell, Le, and
+  Salakhutdinov]{dai2019transformerxl}
+Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc Le, and Ruslan
+  Salakhutdinov.
+\newblock Transformerxl: Attentive language models beyond a fixed-length
+  context.
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
+  for Computational Linguistics}, pp.\  2978--2988, Florence, Italy, 2019.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/P19-1285}.
+
+\bibitem[Dao et~al.(2022)Dao, Fu, Ermon, Rudra, and
+  R{\'e}]{dao2022flashattention}
+Tri Dao, Daniel~Y. Fu, Stefano Ermon, Atri Rudra, and Christopher R{\'e}.
+\newblock Flash{A}ttention: Fast and memory-efficient exact attention with
+  {IO}-awareness.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2022.
+
+\bibitem[Dosovitskiy et~al.(2021)Dosovitskiy, Beyer, Kolesnikov, Weissenborn,
+  Zhai, Unterthiner, Dehghani, Minderer, Heigold, Gelly, Uszkoreit, and
+  Houlsby]{dosovitskiy2021an}
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn,
+  Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg
+  Heigold, Sylvain Gelly, Jakob Uszkoreit, and Neil Houlsby.
+\newblock An image is worth 16x16 words: Transformers for image recognition at
+  scale.
+\newblock In \emph{International Conference on Learning Representations}, 2021.
+\newblock URL \url{https://openreview.net/forum?id=YicbFdNTTy}.
+
+\bibitem[Gao et~al.(2020)Gao, Biderman, Black, Golding, Hoppe, Foster, Phang,
+  He, Thite, Nabeshima, Presser, and Leahy]{pile}
+Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles
+  Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, Shawn Presser,
+  and Connor Leahy.
+\newblock The {P}ile: An 800gb dataset of diverse text for language modeling.
+\newblock \emph{arXiv preprint arXiv:2101.00027}, 2020.
+
+\bibitem[Guu et~al.(2020)Guu, Lee, Tung, Pasupat, and Chang]{guu2020realm}
+Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang.
+\newblock Realm: Retrieval-augmented language model pre-training.
+\newblock 2020.
+
+\bibitem[Haviv et~al.(2022)Haviv, Ram, Press, Izsak, and
+  Levy]{haviv2022transformer}
+Adi Haviv, Ori Ram, Ofir Press, Peter Izsak, and Omer Levy.
+\newblock Transformer language models without positional encodings still learn
+  positional information.
+\newblock 2022.
+
+\bibitem[Hu et~al.(2021)Hu, Shen, Wallis, Allen-Zhu, Li, Wang, Wang, and
+  Chen]{hu2021lora}
+Edward~J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean
+  Wang, Lu~Wang, and Weizhu Chen.
+\newblock Lora: Low-rank adaptation of large language models.
+\newblock \emph{arXiv preprint arXiv:2106.09685}, 2021.
+
+\bibitem[Huang et~al.(2021)Huang, Cao, Parulian, Ji, and
+  Wang]{huang-etal-2021-efficient}
+Luyang Huang, Shuyang Cao, Nikolaus Parulian, Heng Ji, and Lu~Wang.
+\newblock Efficient attentions for long document summarization.
+\newblock In \emph{Proceedings of the 2021 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pp.\  1419--1436, Online, June 2021. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/2021.naacl-main.112}.
+\newblock URL \url{https://aclanthology.org/2021.naacl-main.112}.
+
+\bibitem[Izacard et~al.(2022)Izacard, Lewis, Lomeli, Hosseini, Petroni, Schick,
+  Dwivedi-Yu, Joulin, Riedel, and Grave]{izacard2022atlas}
+Gautier Izacard, Patrick Lewis, Maria Lomeli, Lucas Hosseini, Fabio Petroni,
+  Timo Schick, Jane Dwivedi-Yu, Armand Joulin, Sebastian Riedel, and Edouard
+  Grave.
+\newblock Atlas: Few-shot learning with retrieval augmented language models.
+\newblock 2022.
+
+\bibitem[Jiang et~al.(2022)Jiang, Gao, Araki, Ding, Wang, Callan, and
+  Neubig]{jiang2022retrieval}
+Zhengbao Jiang, Luyu Gao, Jun Araki, Haibo Ding, Zhiruo Wang, Jamie Callan, and
+  Graham Neubig.
+\newblock Retrieval as attention: End-to-end learning of retrieval and reading
+  within a single transformer.
+\newblock 2022.
+
+\bibitem[kaiokendev(2023)]{superhot}
+kaiokendev.
+\newblock Things i\'m learning while training superhot.
+\newblock \url{https://kaiokendev.github.io/til#extending-context-to-8k}, 2023.
+
+\bibitem[Karpukhin et~al.(2020)Karpukhin, Oguz, Min, Lewis, Wu, Edunov, Chen,
+  and Yih]{karpukhin2020dense}
+Vladimir Karpukhin, Barlas Oguz, Sewon Min, Patrick Lewis, Ledell Wu, Sergey
+  Edunov, Danqi Chen, and Wen-tau Yih.
+\newblock Dense passage retrieval for open-domain question answering.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pp.\  6769--6781. Association for
+  Computational Linguistics, 2020.
+\newblock \doi{10.18653/v1/2020.emnlp-main.550}.
+
+\bibitem[Khattab et~al.(2021)Khattab, Potts, and Zaharia]{khattab2021relevance}
+Omar Khattab, Christopher Potts, and Matei Zaharia.
+\newblock Relevance-guided supervision for openqa with colbert.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  9:\penalty0 929--944, 2021.
+\newblock \doi{10.1162/tacl_a_00405}.
+
+\bibitem[Kitaev et~al.(2020)Kitaev, Kaiser, and Levskaya]{kitaev2020reformer}
+Nikita Kitaev, Lukasz Kaiser, and Anselm Levskaya.
+\newblock Reformer: The efficient transformer.
+\newblock In \emph{8th International Conference on Learning Representations,
+  ICLR 2020}. OpenReview.net, April 2020.
+
+\bibitem[Kudo \& Richardson(2018)Kudo and
+  Richardson]{kudo-richardson-2018-sentencepiece}
+Taku Kudo and John Richardson.
+\newblock {S}entence{P}iece: A simple and language independent subword
+  tokenizer and detokenizer for neural text processing.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing: System Demonstrations}, pp.\  66--71, Brussels,
+  Belgium, November 2018. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/D18-2012}.
+\newblock URL \url{https://aclanthology.org/D18-2012}.
+
+\bibitem[Lin(2004)]{lin-2004-rouge}
+Chin-Yew Lin.
+\newblock {ROUGE}: A package for automatic evaluation of summaries.
+\newblock In \emph{Text Summarization Branches Out}, pp.\  74--81, Barcelona,
+  Spain, July 2004. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/W04-1013}.
+
+\bibitem[Loshchilov \& Hutter(2019)Loshchilov and
+  Hutter]{loshchilov2018decoupled}
+Ilya Loshchilov and Frank Hutter.
+\newblock Decoupled weight decay regularization.
+\newblock In \emph{International Conference on Learning Representations}, 2019.
+\newblock URL \url{https://openreview.net/forum?id=Bkg6RiCqY7}.
+
+\bibitem[Martins et~al.(2021)Martins, Marinho, and
+  Martins]{martins2021inftyformer}
+Pedro~Henrique Martins, Zita Marinho, and André F.~T. Martins.
+\newblock $\infty$-former: Infinite memory transformer.
+\newblock 2021.
+
+\bibitem[Mohtashami \& Jaggi(2023)Mohtashami and Jaggi]{mohtashami2023landmark}
+Amirkeivan Mohtashami and Martin Jaggi.
+\newblock Landmark attention: Random-access infinite context length for
+  transformers.
+\newblock \emph{arXiv preprint arXiv:2305.16300}, 2023.
+
+\bibitem[Mu et~al.(2023)Mu, Li, and Goodman]{mu2023learning}
+Jesse Mu, Xiang~Lisa Li, and Noah Goodman.
+\newblock Learning to compress prompts with gist tokens.
+\newblock 2023.
+
+\bibitem[Paszke et~al.(2019)Paszke, Gross, Massa, Lerer, Bradbury, Chanan,
+  Killeen, Lin, Gimelshein, Antiga, Desmaison, K\"{o}pf, Yang, DeVito, Raison,
+  Tejani, Chilamkurthy, Steiner, Fang, Bai, and Chintala]{pytorch}
+Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory
+  Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, Alban
+  Desmaison, Andreas K\"{o}pf, Edward Yang, Zach DeVito, Martin Raison, Alykhan
+  Tejani, Sasank Chilamkurthy, Benoit Steiner, Lu~Fang, Junjie Bai, and Soumith
+  Chintala.
+\newblock \emph{PyTorch: An Imperative Style, High-Performance Deep Learning
+  Library}.
+\newblock Curran Associates Inc., Red Hook, NY, USA, 2019.
+
+\bibitem[Press et~al.(2022)Press, Smith, and Lewis]{press2022train}
+Ofir Press, Noah Smith, and Mike Lewis.
+\newblock Train short, test long: Attention with linear biases enables input
+  length extrapolation.
+\newblock In \emph{International Conference on Learning Representations}, 2022.
+\newblock URL \url{https://openreview.net/forum?id=R8sQPpGCv0}.
+
+\bibitem[Rae et~al.(2020)Rae, Potapenko, Jayakumar, Hillier, and
+  Lillicrap]{Rae2020Compressive}
+Jack~W. Rae, Anna Potapenko, Siddhant~M. Jayakumar, Chloe Hillier, and
+  Timothy~P. Lillicrap.
+\newblock Compressive transformers for long-range sequence modelling.
+\newblock In \emph{International Conference on Learning Representations}, 2020.
+\newblock URL \url{https://openreview.net/forum?id=SylKikSYDH}.
+
+\bibitem[Ren et~al.(2021)Ren, Dai, Dai, Yang, Leskovec, Schuurmans, and
+  Dai]{ren2021combiner}
+Hongyu Ren, Hanjun Dai, Zihang Dai, Mengjiao Yang, Jure Leskovec, Dale
+  Schuurmans, and Bo~Dai.
+\newblock Combiner: Full attention transformer with sparse computation cost.
+\newblock In Marc'Aurelio Ranzato, Alina Beygelzimer, Yann~N. Dauphin, Percy
+  Liang, and Jennifer~Wortman Vaughan (eds.), \emph{Advances in Neural
+  Information Processing Systems 34: Annual Conference on Neural Information
+  Processing Systems 2021, NeurIPS 2021}, pp.\  22470--22482. Curran
+  Associates, Inc., 2021.
+
+\bibitem[Santhanam et~al.(2022)Santhanam, Khattab, Saad-Falcon, Potts, and
+  Zaharia]{Santhanam2022colbertv2}
+Keshav Santhanam, Omar Khattab, Jon Saad-Falcon, Christopher Potts, and Matei
+  Zaharia.
+\newblock Colbertv2: Effective and efficient retrieval via lightweight late
+  interaction.
+\newblock In \emph{Proceedings of the 2022 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pp.\  3715--3734, Seattle, United States, 2022. Association
+  for Computational Linguistics.
+\newblock \doi{10.18653/v1/2022.naacl-main.272}.
+
+\bibitem[Shaham et~al.(2022)Shaham, Segal, Ivgi, Efrat, Yoran, Haviv, Gupta,
+  Xiong, Geva, Berant, and Levy]{shaham-etal-2022-scrolls}
+Uri Shaham, Elad Segal, Maor Ivgi, Avia Efrat, Ori Yoran, Adi Haviv, Ankit
+  Gupta, Wenhan Xiong, Mor Geva, Jonathan Berant, and Omer Levy.
+\newblock {SCROLLS}: Standardized {C}ompa{R}ison over long language sequences.
+\newblock In \emph{Proceedings of the 2022 Conference on Empirical Methods in
+  Natural Language Processing}, pp.\  12007--12021, Abu Dhabi, United Arab
+  Emirates, December 2022. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/2022.emnlp-main.823}.
+
+\bibitem[Su et~al.(2021)Su, Lu, Pan, Wen, and Liu]{su2021roformer}
+Jianlin Su, Yu~Lu, Shengfeng Pan, Bo~Wen, and Yunfeng Liu.
+\newblock Roformer: Enhanced transformer with rotary position embedding, 2021.
+
+\bibitem[Sun et~al.(2022)Sun, Dong, Patra, Ma, Huang, Benhaim, Chaudhary, Song,
+  and Wei]{sun2022lengthextrapolatable}
+Yutao Sun, Li~Dong, Barun Patra, Shuming Ma, Shaohan Huang, Alon Benhaim,
+  Vishrav Chaudhary, Xia Song, and Furu Wei.
+\newblock A length-extrapolatable transformer, 2022.
+
+\bibitem[Touvron et~al.(2023)Touvron, Lavril, Izacard, Martinet, Lachaux,
+  Lacroix, Rozière, Goyal, Hambro, Azhar, Rodriguez, Joulin, Grave, and
+  Lample]{touvron2023llama}
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne
+  Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro,
+  Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, and Guillaume
+  Lample.
+\newblock Llama: Open and efficient foundation language models, 2023.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{transformer}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, \L~ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In I.~Guyon, U.~Von Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett (eds.), \emph{Advances in Neural Information
+  Processing Systems}, volume~30. Curran Associates, Inc., 2017.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf}.
+
+\bibitem[Wang et~al.(2020)Wang, Li, Khabsa, Fang, and Ma]{wang2020linformer}
+Sinong Wang, Belinda~Z Li, Madian Khabsa, Han Fang, and Hao Ma.
+\newblock Linformer: Self-attention with linear complexity.
+\newblock 2020.
+
+\bibitem[Wu et~al.(2020)Wu, Lan, Qian, Gu, Geramifard, and Yu]{wu2020memformer}
+Qingyang Wu, Zhenzhong Lan, Kun Qian, Jing Gu, Alborz Geramifard, and Zhou Yu.
+\newblock Memformer: A memory-augmented transformer for sequence modeling.
+\newblock 2020.
+
+\bibitem[Wu et~al.(2022)Wu, Rabe, Hutchins, and Szegedy]{wu2022memorizing}
+Yuhuai Wu, Markus~Norman Rabe, DeLesley Hutchins, and Christian Szegedy.
+\newblock Memorizing transformers.
+\newblock In \emph{The Tenth International Conference on Learning
+  Representations, ICLR 2022}. OpenReview.net, April 2022.
+
+\bibitem[Zaheer et~al.(2020)Zaheer, Guruganesh, Dubey, Ainslie, Alberti,
+  Ontañón, Pham, Ravula, Wang, Yang, and Ahmed]{zaheer2020bigbird}
+Manzil Zaheer, Guru Guruganesh, Kumar~Avinava Dubey, Joshua Ainslie, Chris
+  Alberti, Santiago Ontañón, Philip Pham, Anirudh Ravula, Qifan Wang,
+  Li~Yang, and Amr Ahmed.
+\newblock Big bird: Transformers for longer sequences.
+\newblock In Hugo Larochelle, Marc'Aurelio Ranzato, Raia Hadsell, Maria-Florina
+  Balcan, and Hsuan-Tien Lin (eds.), \emph{Advances in Neural Information
+  Processing Systems 33: Annual Conference on Neural Information Processing
+  Systems 2020, NeurIPS 2020}. Curran Associates, Inc., 2020.
+
+\bibitem[Zhang et~al.(2022)Zhang, Roller, Goyal, Artetxe, Chen, Chen, Dewan,
+  Diab, Li, Lin, Mihaylov, Ott, Shleifer, Shuster, Simig, Koura, Sridhar, Wang,
+  and Zettlemoyer]{zhang2022opt}
+Susan Zhang, Stephen Roller, Naman Goyal, Mikel Artetxe, Moya Chen, Shuohui
+  Chen, Christopher Dewan, Mona Diab, Xian Li, Xi~Victoria Lin, Todor Mihaylov,
+  Myle Ott, Sam Shleifer, Kurt Shuster, Daniel Simig, Punit~Singh Koura, Anjali
+  Sridhar, Tianlu Wang, and Luke Zettlemoyer.
+\newblock Opt: Open pre-trained transformer language models, 2022.
+
+\bibitem[Zhao et~al.(2023)Zhao, Gu, Varma, Luo, Huang, Xu, Wright, Shojanazeri,
+  Ott, Shleifer, Desmaison, Balioglu, Nguyen, Chauhan, Hao, and
+  Li]{zhao2023pytorch}
+Yanli Zhao, Andrew Gu, Rohan Varma, Liang Luo, Chien-Chin Huang, Min Xu, Less
+  Wright, Hamid Shojanazeri, Myle Ott, Sam Shleifer, Alban Desmaison, Can
+  Balioglu, Bernard Nguyen, Geeta Chauhan, Yuchen Hao, and Shen Li.
+\newblock Pytorch fsdp: Experiences on scaling fully sharded data parallel,
+  2023.
+
+\end{thebibliography}

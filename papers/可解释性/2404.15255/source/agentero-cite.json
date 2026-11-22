@@ -1,0 +1,543 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "s2",
+    "generatedAt": "2026-11-17T14:43:53.373Z",
+    "fingerprint": "f7c5a4cf355337b03dd52c31c4f0bd1218b1c3351093428a956c75eb4211f992"
+  },
+  "citations": [
+    {
+      "id": "ref-1",
+      "metadata": {
+        "title": "How do Language Models Bind Entities in Context?",
+        "authors": [
+          "Jia-Hai Feng",
+          "J. Steinhardt"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2310.17191",
+        "arxivId": "2310.17191",
+        "url": "https://www.semanticscholar.org/paper/6d130ebff26dbbf00e3c601973872ff0c0c4235f"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-2",
+      "metadata": {
+        "title": "In-Context Learning Creates Task Vectors",
+        "authors": [
+          "Roee Hendel",
+          "Mor Geva",
+          "A. Globerson"
+        ],
+        "year": 2023,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.48550/arXiv.2310.15916",
+        "arxivId": "2310.15916",
+        "url": "https://www.semanticscholar.org/paper/297211bc86653d9ebbe694a75141c9a1c6c11e69"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-3",
+      "metadata": {
+        "title": "Function Vectors in Large Language Models",
+        "authors": [
+          "Eric Todd",
+          "Millicent Li",
+          "Arnab Sen Sharma",
+          "Aaron Mueller",
+          "Byron C. Wallace",
+          "David Bau"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2310.15213",
+        "arxivId": "2310.15213",
+        "url": "https://www.semanticscholar.org/paper/b13947c7598aa91992cf04048afa19c7cfe69795"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-4",
+      "metadata": {
+        "title": "Circuit Component Reuse Across Tasks in Transformer Language Models",
+        "authors": [
+          "Jack Merullo",
+          "Carsten Eickhoff",
+          "Ellie Pavlick"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2310.08744",
+        "arxivId": "2310.08744",
+        "url": "https://www.semanticscholar.org/paper/c0d9a48547d728dd320b453b01a0ab1ce2f96098"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-5",
+      "metadata": {
+        "title": "Copy Suppression: Comprehensively Understanding an Attention Head",
+        "authors": [
+          "Callum McDougall",
+          "Arthur Conmy",
+          "Cody Rushing",
+          "Thomas McGrath",
+          "Neel Nanda"
+        ],
+        "year": 2023,
+        "doi": "10.48550/arXiv.2310.04625",
+        "arxivId": "2310.04625",
+        "url": "https://www.semanticscholar.org/paper/0eae83a76b2db97547d8ed42bb048c3eaaf78027"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-6",
+      "metadata": {
+        "title": "Towards Best Practices of Activation Patching in Language Models: Metrics and Methods",
+        "authors": [
+          "Fred Zhang",
+          "Neel Nanda"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2309.16042",
+        "arxivId": "2309.16042",
+        "url": "https://www.semanticscholar.org/paper/c16c05ca0a3d24519405849fd24604fc1ce47751"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-7",
+      "metadata": {
+        "title": "Rigorously Assessing Natural Language Explanations of Neurons",
+        "authors": [
+          "Jing Huang",
+          "Atticus Geiger",
+          "Karel D'Oosterlinck",
+          "Zhengxuan Wu",
+          "Christopher Potts"
+        ],
+        "year": 2023,
+        "venue": "BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+        "doi": "10.48550/arXiv.2309.10312",
+        "arxivId": "2309.10312",
+        "url": "https://www.semanticscholar.org/paper/97cea53d979305e6686387ff0ee38a15e3a5ba46"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-8",
+      "metadata": {
+        "title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+        "authors": [
+          "R. Huben",
+          "Hoagy Cunningham",
+          "L. Smith",
+          "Aidan Ewart",
+          "Lee Sharkey"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2309.08600",
+        "arxivId": "2309.08600",
+        "url": "https://www.semanticscholar.org/paper/edb548fe7574d99454b352ffdb61bca93c3072ba"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2309.08600",
+        "matchBy": "doi"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-9",
+      "metadata": {
+        "title": "The Hydra Effect: Emergent Self-repair in Language Model Computations",
+        "authors": [
+          "Tom McGrath",
+          "Matthew Rahtz",
+          "János Kramár",
+          "Vladimir Mikulik",
+          "S. Legg"
+        ],
+        "year": 2023,
+        "doi": "10.48550/arXiv.2307.15771",
+        "arxivId": "2307.15771",
+        "url": "https://www.semanticscholar.org/paper/c8fd279848e9c50eec85b852f22f7fffb08f97fc"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-10",
+      "metadata": {
+        "title": "Does Circuit Analysis Interpretability Scale? Evidence from Multiple Choice Capabilities in Chinchilla",
+        "authors": [
+          "Tom Lieberum",
+          "Matthew Rahtz",
+          "János Kramár",
+          "Neel Nanda",
+          "Geoffrey Irving",
+          "Rohin Shah",
+          "Vladimir Mikulik"
+        ],
+        "year": 2023,
+        "doi": "10.48550/arXiv.2307.09458",
+        "arxivId": "2307.09458",
+        "url": "https://www.semanticscholar.org/paper/77f02ff24909896856fec410968aef7999c29440"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-11",
+      "metadata": {
+        "title": "A Mechanistic Interpretation of Arithmetic Reasoning in Language Models using Causal Mediation Analysis",
+        "authors": [
+          "Alessandro Stolfo",
+          "Yonatan Belinkov",
+          "Mrinmaya Sachan"
+        ],
+        "year": 2023,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2023.emnlp-main.435",
+        "arxivId": "2305.15054",
+        "url": "https://www.semanticscholar.org/paper/5dc15ac1c92ab7492f121471823fb13a95d273ba"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-12",
+      "metadata": {
+        "title": "How does GPT-2 compute greater-than?: Interpreting mathematical abilities in a pre-trained language model",
+        "authors": [
+          "Michael Hanna",
+          "Ollie Liu",
+          "Alexandre Variengien"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2305.00586",
+        "arxivId": "2305.00586",
+        "url": "https://www.semanticscholar.org/paper/aec826ff336ca442697d5f908ab1668f1ea18987"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-13",
+      "metadata": {
+        "title": "Dissecting Recall of Factual Associations in Auto-Regressive Language Models",
+        "authors": [
+          "Mor Geva",
+          "Jasmijn Bastings",
+          "Katja Filippova",
+          "A. Globerson"
+        ],
+        "year": 2023,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.48550/arXiv.2304.14767",
+        "arxivId": "2304.14767",
+        "url": "https://www.semanticscholar.org/paper/133b97e40017a9bbbadd10bcd7f13088a97ca3cc"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-14",
+      "metadata": {
+        "title": "Towards Automated Circuit Discovery for Mechanistic Interpretability",
+        "authors": [
+          "Arthur Conmy",
+          "Augustine N. Mavor-Parker",
+          "Aengus Lynch",
+          "S. Heimersheim",
+          "Adrià Garriga-Alonso"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2304.14997",
+        "arxivId": "2304.14997",
+        "url": "https://www.semanticscholar.org/paper/eefbd8b384a58f464827b19e30a6920ba976def9"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-15",
+      "metadata": {
+        "title": "Localizing Model Behavior with Path Patching",
+        "authors": [
+          "Nicholas Goldowsky-Dill",
+          "C. Macleod",
+          "L. Sato",
+          "Aryaman Arora"
+        ],
+        "year": 2023,
+        "doi": "10.48550/arXiv.2304.05969",
+        "arxivId": "2304.05969",
+        "url": "https://www.semanticscholar.org/paper/8d8fc878bf4c7005546c866824a72d0c46ca91a3"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-16",
+      "metadata": {
+        "title": "Does Localization Inform Editing? Surprising Differences in Causality-Based Localization vs. Knowledge Editing in Language Models",
+        "authors": [
+          "Peter Hase",
+          "Mohit Bansal",
+          "Been Kim",
+          "Asma Ghandeharioun"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2301.04213",
+        "arxivId": "2301.04213",
+        "url": "https://www.semanticscholar.org/paper/9c0a434b240299cec0029a1be93ab263d7ec9963"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-17",
+      "metadata": {
+        "title": "Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small",
+        "authors": [
+          "Kevin Wang",
+          "Alexandre Variengien",
+          "Arthur Conmy",
+          "Buck Shlegeris",
+          "J. Steinhardt"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2211.00593",
+        "arxivId": "2211.00593",
+        "url": "https://www.semanticscholar.org/paper/6edd112383ad494f5f2eba72b6f4ffae122ce61f"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2211.00593",
+        "matchBy": "doi"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-18",
+      "metadata": {
+        "title": "Locating and Editing Factual Associations in GPT",
+        "authors": [
+          "Kevin Meng",
+          "David Bau",
+          "A. Andonian",
+          "Yonatan Belinkov"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems 35",
+        "doi": "10.52202/068431-1262",
+        "arxivId": "2202.05262",
+        "url": "https://www.semanticscholar.org/paper/996445d847f06e99b0bd259345408a0cf1bce87e"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2202.05262",
+        "matchBy": "arxiv"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-19",
+      "metadata": {
+        "title": "Inducing Causal Structure for Interpretable Neural Networks",
+        "authors": [
+          "Atticus Geiger",
+          "Zhengxuan Wu",
+          "Hanson Lu",
+          "Josh Rozner",
+          "Elisa Kreiss",
+          "T. Icard",
+          "Noah D. Goodman",
+          "Christopher Potts"
+        ],
+        "year": 2021,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2112.00826",
+        "arxivId": "2112.00826",
+        "url": "https://www.semanticscholar.org/paper/ccd04c27bf1237368b35eb456b3dd1c18ef9a9b9"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-20",
+      "metadata": {
+        "title": "Causal Analysis of Syntactic Agreement Mechanisms in Neural Language Models",
+        "authors": [
+          "Matthew Finlayson",
+          "Aaron Mueller",
+          "Sebastian Gehrmann",
+          "S. Shieber",
+          "Tal Linzen",
+          "Yonatan Belinkov"
+        ],
+        "year": 2021,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2021.acl-long.144",
+        "arxivId": "2106.06087",
+        "url": "https://www.semanticscholar.org/paper/488de57dde884402d88ccecfd02347dd7e4d01a1"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-21",
+      "metadata": {
+        "title": "Causal Abstractions of Neural Networks",
+        "authors": [
+          "Atticus Geiger",
+          "Hanson Lu",
+          "T. Icard",
+          "Christopher Potts"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2106.02997",
+        "arxivId": "2106.02997",
+        "url": "https://www.semanticscholar.org/paper/5951ede73a1dbb9c5ea8b4d95f31c5ed646aacbd"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-22",
+      "metadata": {
+        "title": "The Out-of-Distribution Problem in Explainability and Search Methods for Feature Importance Explanations",
+        "authors": [
+          "Peter Hase",
+          "Harry Xie",
+          "Mohit Bansal"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "arxivId": "2106.00786",
+        "url": "https://www.semanticscholar.org/paper/e8a44417703e9facebf5a630069b7484664d6087"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-23",
+      "metadata": {
+        "title": "Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation",
+        "authors": [
+          "Atticus Geiger",
+          "Kyle Richardson",
+          "Christopher Potts"
+        ],
+        "year": 2020,
+        "venue": "BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+        "doi": "10.18653/v1/2020.blackboxnlp-1.16",
+        "url": "https://www.semanticscholar.org/paper/c30b457fdfb0623b87379de79ffaa570a7f3bb48"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-24",
+      "metadata": {
+        "title": "Causal Mediation Analysis for Interpreting Neural NLP: The Case of Gender Bias",
+        "authors": [
+          "J. Vig",
+          "Sebastian Gehrmann",
+          "Yonatan Belinkov",
+          "Sharon Qian",
+          "D. Nevo",
+          "Yaron Singer",
+          "S. Shieber"
+        ],
+        "year": 2020,
+        "doi": "10.48550/arXiv.2004.12265",
+        "arxivId": "2004.12265",
+        "url": "https://www.semanticscholar.org/paper/868c3a07ca240ad66d953bfb5094ad962f1cdca4"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-25",
+      "metadata": {
+        "title": "Discovering the Compositional Structure of Vector Representations with Role Learning Networks",
+        "authors": [
+          "Paul Soulos",
+          "R. Thomas McCoy",
+          "Tal Linzen",
+          "P. Smolensky"
+        ],
+        "year": 2019,
+        "venue": "BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+        "doi": "10.18653/v1/2020.blackboxnlp-1.23",
+        "arxivId": "1910.09113",
+        "url": "https://www.semanticscholar.org/paper/86ee3f8d6aa6e83ae0f9e3a674d6bec536617b94"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-26",
+      "metadata": {
+        "title": "Attribution Patching: Activation Patching At Industrial Scale",
+        "year": 2023,
+        "venue": "Blogpost. Section"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-27",
+      "metadata": {
+        "title": "A circuit for Python docstrings in a 4-layer attention-only transformer",
+        "year": 2023,
+        "venue": "alignmentforum.org/posts"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-28",
+      "metadata": {
+        "title": "Fact Finding: Attempting to Reverse-Engineer Factual Recall on the Neuron Level (Post 1)",
+        "year": 2023,
+        "venue": "Alignment Forum"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-29",
+      "metadata": {
+        "title": "Causal scrubbing: A method for rigorously testing interpretability hypotheses",
+        "year": 2022,
+        "venue": "Alignment Forum"
+      },
+      "source": "s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "semantic scholar: 29 references"
+  ]
+}

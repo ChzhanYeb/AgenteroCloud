@@ -1,0 +1,2556 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bib+s2",
+    "generatedAt": "2026-11-17T14:43:55.218Z",
+    "fingerprint": "80f4b0304c0a6400d525ac946023ec1fd592cc16447d837e5ed08ece7aa1c52a"
+  },
+  "citations": [
+    {
+      "id": "cite-ngo2022alignment",
+      "rawKey": "ngo2022alignment",
+      "metadata": {
+        "title": "The alignment problem from a deep learning perspective",
+        "authors": [
+          "Richard Q. Ngo",
+          "Lawrence Chan",
+          "Sören Mindermann"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2209.00626",
+        "arxivId": "2209.00626",
+        "url": "https://arxiv.org/abs/2209.00626"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cotra2022without",
+      "rawKey": "cotra2022without",
+      "metadata": {
+        "title": "Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover",
+        "authors": [
+          "Ajeya Cotra"
+        ],
+        "year": 2022,
+        "venue": "AI Alignment Forum",
+        "url": "https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-olah2020zoom",
+      "rawKey": "olah2020zoom",
+      "metadata": {
+        "title": "Zoom In: An Introduction to Circuits",
+        "authors": [
+          "Chris Olah",
+          "Nick Cammarata",
+          "Ludwig Schubert",
+          "Gabriel Goh",
+          "Michael Petrov",
+          "Shan Carter"
+        ],
+        "year": 2020,
+        "venue": "Distill",
+        "doi": "10.23915/distill.00024.001"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-elhage2021mathematical",
+      "rawKey": "elhage2021mathematical",
+      "metadata": {
+        "title": "A mathematical framework for transformer circuits",
+        "authors": [
+          "Nelson Elhage",
+          "Neel Nanda",
+          "Catherine Olsson",
+          "Tom Henighan",
+          "Nicholas Joseph",
+          "Ben Mann",
+          "Amanda Askell",
+          "Yuntao Bai",
+          "Anna Chen",
+          "Tom Conerly",
+          "Nova DasSarma",
+          "Dawn Drain",
+          "Deep Ganguli",
+          "Zac Hatfield-Dodds",
+          "Danny Hernandez",
+          "Andy Jones",
+          "Jackson Kernion",
+          "Liane Lovitt",
+          "Kamal Ndousse",
+          "Dario Amodei",
+          "Tom Brown",
+          "Jack Clark",
+          "Jared Kaplan",
+          "Sam McCandlish",
+          "Chris Olah"
+        ],
+        "year": 2021,
+        "venue": "Transformer Circuits Thread",
+        "url": "https://transformer-circuits.pub/2021/framework/index.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2022interpretability",
+      "rawKey": "wang2022interpretability",
+      "metadata": {
+        "title": "Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small",
+        "authors": [
+          "Kevin Wang",
+          "Alexandre Variengien",
+          "Arthur Conmy",
+          "Buck Shlegeris",
+          "J. Steinhardt"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2211.00593",
+        "arxivId": "2211.00593",
+        "url": "https://openreview.net/pdf?id=NpsVSN6o4ul"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2211.00593",
+        "matchBy": "doi"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-conmy2023towards",
+      "rawKey": "conmy2023towards",
+      "metadata": {
+        "title": "Towards Automated Circuit Discovery for Mechanistic Interpretability",
+        "authors": [
+          "Arthur Conmy",
+          "Augustine N. Mavor-Parker",
+          "Aengus Lynch",
+          "S. Heimersheim",
+          "Adrià Garriga-Alonso"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2304.14997",
+        "arxivId": "2304.14997",
+        "url": "https://arxiv.org/abs/2304.14997"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ameisen2025circuit",
+      "rawKey": "ameisen2025circuit",
+      "metadata": {
+        "title": "Circuit Tracing: Revealing Computational Graphs in Language Models",
+        "authors": [
+          "Emmanuel Ameisen",
+          "Jack Lindsey",
+          "Adam Pearce",
+          "Wes Gurnee",
+          "Nicholas L. Turner",
+          "Brian Chen",
+          "Craig Citro",
+          "David Abrahams",
+          "Shan Carter",
+          "Basil Hosmer",
+          "Jonathan Marcus",
+          "Michael Sklar",
+          "Adly Templeton",
+          "Trenton Bricken",
+          "Callum McDougall",
+          "Hoagy Cunningham",
+          "Thomas Henighan",
+          "Adam Jermyn",
+          "Andy Jones",
+          "Andrew Persic",
+          "Zhenyi Qi",
+          "T. Ben Thompson",
+          "Sam Zimmerman",
+          "Kelley Rivoire",
+          "Thomas Conerly",
+          "Chris Olah",
+          "Joshua Batson"
+        ],
+        "year": 2025,
+        "venue": "Transformer Circuits Thread",
+        "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-marks2025sparse",
+      "rawKey": "marks2025sparse",
+      "metadata": {
+        "title": "Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models",
+        "authors": [
+          "Samuel Marks",
+          "Can Rager",
+          "Eric J. Michaud",
+          "Yonatan Belinkov",
+          "David Bau",
+          "Aaron Mueller"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2403.19647",
+        "arxivId": "2403.19647",
+        "url": "https://openreview.net/forum?id=I4e82CIDxv"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sharkey2025open",
+      "rawKey": "sharkey2025open",
+      "metadata": {
+        "title": "Open Problems in Mechanistic Interpretability",
+        "authors": [
+          "Lee Sharkey",
+          "Bilal Chughtai",
+          "Joshua Batson",
+          "Jack Lindsey",
+          "Jeffrey Wu",
+          "Lucius Bushnaq",
+          "Nicholas Goldowsky-Dill",
+          "Stefan Heimersheim",
+          "Alejandro Ortega",
+          "Joseph Isaac Bloom",
+          "Stella Biderman",
+          "Adria Garriga-Alonso",
+          "Arthur Conmy",
+          "Neel Nanda",
+          "Jessica Rumbelow",
+          "Martin Wattenberg",
+          "Nandi Schoots",
+          "Joseph Miller",
+          "William Saunders",
+          "Eric J. Michaud",
+          "Stephen Casper",
+          "Max Tegmark",
+          "David Bau",
+          "Eric Todd",
+          "Atticus Geiger",
+          "Mor Geva",
+          "Jesse Hoogland",
+          "Daniel Murfet",
+          "Tom McGrath"
+        ],
+        "year": 2025,
+        "venue": "Trans. Mach. Learn. Res.",
+        "url": "https://openreview.net/forum?id=91H76m9Z94"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2501.16496",
+        "matchBy": "title"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-casper2024blackbox",
+      "rawKey": "casper2024blackbox",
+      "metadata": {
+        "title": "Black-Box Access is Insufficient for Rigorous AI Audits",
+        "authors": [
+          "Stephen Casper",
+          "Carson Ezell",
+          "Charlotte Siegmann",
+          "Noam Kolt",
+          "Taylor Lynn Curtis",
+          "Ben Bucknall",
+          "A. Haupt",
+          "Kevin Wei",
+          "Jérémy Scheurer",
+          "Marius Hobbhahn",
+          "Lee Sharkey",
+          "Satyapriya Krishna",
+          "Marvin von Hagen",
+          "Silas Alberti",
+          "Alan Chan",
+          "Qinyi Sun",
+          "Michael Gerovitch",
+          "David Bau",
+          "Max Tegmark",
+          "D. Krueger",
+          "Dylan Hadfield-Menell"
+        ],
+        "year": 2024,
+        "venue": "Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency",
+        "doi": "10.1145/3630106.3659037",
+        "arxivId": "2401.14446",
+        "url": "https://doi.org/10.1145/3630106.3659037"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2023inference",
+      "rawKey": "li2023inference",
+      "metadata": {
+        "title": "Inference-Time Intervention: Eliciting Truthful Answers from a Language Model",
+        "authors": [
+          "Kenneth Li",
+          "Oam Patel",
+          "F. Viégas",
+          "H. Pfister",
+          "M. Wattenberg"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.52202/075280-1797",
+        "arxivId": "2306.03341",
+        "url": "http://papers.nips.cc/paper_files/paper/2023/hash/81b8390039b7302c909cb769f8b6cd93-Abstract-Conference.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ge2024automatically",
+      "rawKey": "ge2024automatically",
+      "metadata": {
+        "title": "Automatically Identifying Local and Global Circuits with Linear Computation Graphs",
+        "authors": [
+          "Xuyang Ge",
+          "Fu-Kang Zhu",
+          "Wentao Shu",
+          "Junxuan Wang",
+          "Zheng-Fu He",
+          "Xi-Peng Qiu"
+        ],
+        "year": 2024,
+        "venue": "arXiv:2405.13868",
+        "doi": "10.48550/arXiv.2405.13868",
+        "arxivId": "2405.13868",
+        "url": "https://arxiv.org/abs/2405.13868"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gao2025weight",
+      "rawKey": "gao2025weight",
+      "metadata": {
+        "title": "Weight-sparse transformers have interpretable circuits",
+        "authors": [
+          "Leo Gao",
+          "Achyuta Rajaram",
+          "Jacob Coxon",
+          "Soham V. Govande",
+          "Bowen Baker",
+          "Daniel P. Mossing"
+        ],
+        "year": 2025,
+        "venue": "arXiv:2511.13653",
+        "doi": "10.48550/arXiv.2511.13653",
+        "arxivId": "2511.13653",
+        "url": "https://arxiv.org/abs/2511.13653"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sharkey2025openproblemsmechanisticinterpretability",
+      "rawKey": "sharkey2025openproblemsmechanisticinterpretability",
+      "metadata": {
+        "title": "Open Problems in Mechanistic Interpretability",
+        "authors": [
+          "Lee Sharkey",
+          "Bilal Chughtai",
+          "Joshua Batson",
+          "Jack W. Lindsey",
+          "Jeff Wu",
+          "Lucius Bushnaq",
+          "Nicholas Goldowsky-Dill",
+          "S. Heimersheim",
+          "Alejandro Ortega",
+          "J. Bloom",
+          "Stella Biderman",
+          "Adrià Garriga-Alonso",
+          "Arthur Conmy",
+          "Neel Nanda",
+          "J. Rumbelow",
+          "M. Wattenberg",
+          "Nandi Schoots",
+          "Joseph Miller",
+          "Eric J. Michaud",
+          "Stephen Casper",
+          "Max Tegmark",
+          "William Saunders",
+          "David Bau",
+          "Eric Todd",
+          "Atticus Geiger",
+          "Mor Geva",
+          "Jesse Hoogland",
+          "Daniel Murfet",
+          "Thomas McGrath"
+        ],
+        "year": 2025,
+        "venue": "arXiv:2501.16496",
+        "doi": "10.48550/arXiv.2501.16496",
+        "arxivId": "2501.16496",
+        "url": "https://arxiv.org/abs/2501.16496"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2501.16496",
+        "matchBy": "doi"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-giulianelli2018",
+      "rawKey": "giulianelli2018",
+      "metadata": {
+        "title": "Under the Hood: Using Diagnostic Classifiers to Investigate and Improve how Language Models Track Agreement Information",
+        "authors": [
+          "Mario Giulianelli",
+          "Jack Harding",
+          "Florian Mohnert",
+          "D. Hupkes",
+          "Willem H. Zuidema"
+        ],
+        "year": 2018,
+        "venue": "BlackboxNLP@EMNLP",
+        "doi": "10.18653/v1/W18-5426",
+        "arxivId": "1808.08079",
+        "url": "https://aclanthology.org/W18-5426/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vig2020investigating",
+      "rawKey": "vig2020investigating",
+      "metadata": {
+        "title": "Investigating Gender Bias in Language Models Using Causal Mediation Analysis",
+        "authors": [
+          "J. Vig",
+          "Sebastian Gehrmann",
+          "Yonatan Belinkov",
+          "Sharon Qian",
+          "D. Nevo",
+          "Yaron Singer",
+          "S. Shieber"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://proceedings.neurips.cc/paper/2020/hash/92650b2e92217715fe312e6fa7b90d82-Abstract.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-geiger2021causal",
+      "rawKey": "geiger2021causal",
+      "metadata": {
+        "title": "Causal Abstractions of Neural Networks",
+        "authors": [
+          "Atticus Geiger",
+          "Hanson Lu",
+          "T. Icard",
+          "Christopher Potts"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2106.02997",
+        "arxivId": "2106.02997",
+        "url": "https://proceedings.neurips.cc/paper/2021/hash/4f5c422f4d49a5a807eda27434231040-Abstract.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sundararajan2017axiomatic",
+      "rawKey": "sundararajan2017axiomatic",
+      "metadata": {
+        "title": "Axiomatic at-tribution for deep networks",
+        "authors": [
+          "Mukund Sundararajan",
+          "Ankur Taly",
+          "Qiqi Yan"
+        ],
+        "year": 2017,
+        "venue": "Proceedings of the 34th International Conference on Machine Learning, ICML 2017, Sydney, NSW, Australia, 6-11 August 2017 , volume 70 of Proceedings of Machine Learning Research",
+        "url": "http://proceedings.mlr.press/v70/sundararajan17a.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-makino2024impact",
+      "rawKey": "makino2024impact",
+      "metadata": {
+        "title": "The Impact of Integration Step on Integrated Gradients",
+        "authors": [
+          "Masahiro Makino",
+          "Yuya Asazuma",
+          "Shota Sasaki",
+          "Jun Suzuki"
+        ],
+        "year": 2024,
+        "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2024.eacl-srw.22",
+        "url": "https://aclanthology.org/2024.eacl-srw.22/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jafari2025relp",
+      "rawKey": "jafari2025relp",
+      "metadata": {
+        "title": "Relp: Faithful and efficient circuit discovery in language models via relevance patching",
+        "authors": [
+          "Farnoush Rezaei Jafari",
+          "Oliver Eberle",
+          "Ashkan Khakzar",
+          "Neel Nanda"
+        ],
+        "year": 2025,
+        "venue": "arXiv:2508.21258",
+        "arxivId": "2508.21258",
+        "url": "https://arxiv.org/abs/2508.21258"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-engels2025decomposing",
+      "rawKey": "engels2025decomposing",
+      "metadata": {
+        "title": "Decomposing The Dark Matter of Sparse Autoencoders",
+        "authors": [
+          "Joshua Engels",
+          "L. Smith",
+          "Max Tegmark"
+        ],
+        "year": 2024,
+        "venue": "Trans. Mach. Learn. Res.",
+        "doi": "10.48550/arXiv.2410.14670",
+        "arxivId": "2410.14670",
+        "url": "https://arxiv.org/abs/2410.14670"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gurnee2024sae",
+      "rawKey": "gurnee2024sae",
+      "metadata": {
+        "title": "SAE reconstruction errors are (empirically) pathological",
+        "authors": [
+          "Wes Gurnee"
+        ],
+        "year": 2024,
+        "venue": "AI Alignment Forum",
+        "url": "https://www.alignmentforum.org/posts/rZPiuFxESMxCDHe4B/sae-reconstruction-errors-are-empirically-pathological"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bricken2023towards",
+      "rawKey": "bricken2023towards",
+      "metadata": {
+        "title": "Towards monosemanticity: Decomposing language models with dictionary learning",
+        "authors": [
+          "Trenton Bricken",
+          "Adly Templeton",
+          "Joshua Batson",
+          "Brian Chen",
+          "Adam Jermyn",
+          "Tom Conerly",
+          "Nick Turner",
+          "Cem Anil",
+          "Carson Denison",
+          "Amanda Askell",
+          "Robert Lasenby",
+          "Yifan Wu",
+          "Shauna Kravec",
+          "Nicholas Schiefer",
+          "Tim Maxwell",
+          "Nicholas Joseph",
+          "Zac Hatfield-Dodds",
+          "Alex Tamkin",
+          "Karina Nguyen",
+          "Brayden McLean",
+          "Josiah E Burke",
+          "Tristan Hume",
+          "Shan Carter",
+          "Tom Henighan",
+          "Christopher Olah"
+        ],
+        "year": 2023,
+        "venue": "Transformer Circuits Thread",
+        "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chanin2025absorption",
+      "rawKey": "chanin2025absorption",
+      "metadata": {
+        "title": "A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders",
+        "authors": [
+          "David Chanin",
+          "James Wilken-Smith",
+          "Tomáš Dulka",
+          "Hardik Bhatnagar",
+          "Satvik Golechha",
+          "J. Bloom"
+        ],
+        "year": 2024,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2409.14507",
+        "arxivId": "2409.14507",
+        "url": "https://arxiv.org/abs/2409.14507"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-minder2025robustly",
+      "rawKey": "minder2025robustly",
+      "metadata": {
+        "title": "Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning",
+        "authors": [
+          "Julian Minder",
+          "Clément Dumas",
+          "Caden Juang",
+          "Bilal Chughtai",
+          "Neel Nanda"
+        ],
+        "year": 2025,
+        "venue": "Advances in Neural Information Processing Systems 38",
+        "doi": "10.52202/085713-3551",
+        "arxivId": "2504.02922",
+        "url": "https://arxiv.org/abs/2504.02922"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cunningham2023sparse",
+      "rawKey": "cunningham2023sparse",
+      "metadata": {
+        "title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+        "authors": [
+          "R. Huben",
+          "Hoagy Cunningham",
+          "L. Smith",
+          "Aidan Ewart",
+          "Lee Sharkey"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2309.08600",
+        "arxivId": "2309.08600",
+        "url": "https://arxiv.org/abs/2309.08600"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2309.08600",
+        "matchBy": "doi"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lindsey2025biology",
+      "rawKey": "lindsey2025biology",
+      "metadata": {
+        "title": "On the biology of a large language model",
+        "authors": [
+          "Jack Lindsey",
+          "Wes Gurnee",
+          "Emmanuel Ameisen",
+          "Brian Chen",
+          "Adam Pearce",
+          "Nicholas L. Turner",
+          "Craig Citro",
+          "David Abrahams",
+          "Shan Carter",
+          "Basil Hosmer",
+          "Jonathan Marcus",
+          "Michael Sklar",
+          "Adly Templeton",
+          "Trenton Bricken",
+          "Callum McDougall",
+          "Hoagy Cunningham",
+          "Thomas Henighan",
+          "Adam Jermyn",
+          "Andy Jones",
+          "Andrew Persic",
+          "Zhenyi Qi",
+          "T. Ben Thompson",
+          "Sam Zimmerman",
+          "Kelley Rivoire",
+          "Thomas Conerly",
+          "Chris Olah",
+          "Joshua Batson"
+        ],
+        "year": 2025,
+        "venue": "Transformer Circuits Thread",
+        "url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-meng2022locating",
+      "rawKey": "meng2022locating",
+      "metadata": {
+        "title": "Locating and Editing Factual Associations in GPT",
+        "authors": [
+          "Kevin Meng",
+          "David Bau",
+          "A. Andonian",
+          "Yonatan Belinkov"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems 35",
+        "doi": "10.52202/068431-1262",
+        "arxivId": "2202.05262",
+        "url": "http://papers.nips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2202.05262",
+        "matchBy": "arxiv"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chan2022causal",
+      "rawKey": "chan2022causal",
+      "metadata": {
+        "title": "Causal scrubbing: a method for rigorously testing interpretability hypotheses",
+        "authors": [
+          "Lawrence Chan",
+          "AdriÃ Garriga-Alonso",
+          "Nicholas Goldowsky-Dill",
+          "Ryan Greenblatt",
+          "Jenny Nitishinskaya",
+          "Ansh Radhakrishnan",
+          "Buck Shlegeris",
+          "Nate Thomas"
+        ],
+        "year": 2022,
+        "venue": "AI Alignment Forum",
+        "url": "https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-goldowsky2023localizing",
+      "rawKey": "goldowsky2023localizing",
+      "metadata": {
+        "title": "Localizing Model Behavior with Path Patching",
+        "authors": [
+          "Nicholas Goldowsky-Dill",
+          "C. Macleod",
+          "L. Sato",
+          "Aryaman Arora"
+        ],
+        "year": 2023,
+        "venue": "arXiv:2304.05969",
+        "doi": "10.48550/arXiv.2304.05969",
+        "arxivId": "2304.05969",
+        "url": "https://arxiv.org/abs/2304.05969"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-guerner2023geometric",
+      "rawKey": "guerner2023geometric",
+      "metadata": {
+        "title": "A Geometric Notion of Causal Probing",
+        "authors": [
+          "Cl'ement Guerner",
+          "Anej Svete",
+          "Tianyu Liu",
+          "Alex Warstadt",
+          "Ryan Cotterell"
+        ],
+        "year": 2023,
+        "venue": "arXiv:2307.15054",
+        "doi": "10.48550/arXiv.2307.15054",
+        "arxivId": "2307.15054",
+        "url": "https://arxiv.org/abs/2307.15054"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-geiger2025causal",
+      "rawKey": "geiger2025causal",
+      "metadata": {
+        "title": "Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability",
+        "authors": [
+          "Atticus Geiger",
+          "D. Ibeling",
+          "Amir Zur",
+          "Maheep Chaudhary",
+          "Sonakshi Chauhan",
+          "Jing Huang",
+          "Aryaman Arora",
+          "Zhengxuan Wu",
+          "Noah D. Goodman",
+          "Christopher Potts",
+          "T. Icard"
+        ],
+        "year": 2023,
+        "venue": "Journal of machine learning research",
+        "arxivId": "2301.04709",
+        "url": "http://jmlr.org/papers/v26/23-0058.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-geiger2024finding",
+      "rawKey": "geiger2024finding",
+      "metadata": {
+        "title": "Finding Alignments Between Interpretable Causal Variables and Distributed Neural Representations",
+        "authors": [
+          "Atticus Geiger",
+          "Zhengxuan Wu",
+          "Christopher Potts",
+          "T. Icard",
+          "Noah D. Goodman"
+        ],
+        "year": 2023,
+        "venue": "CLEaR",
+        "doi": "10.48550/arXiv.2303.02536",
+        "arxivId": "2303.02536",
+        "url": "https://proceedings.mlr.press/v236/geiger24a.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lasri2022probing",
+      "rawKey": "lasri2022probing",
+      "metadata": {
+        "title": "Probing for the Usage of Grammatical Number",
+        "authors": [
+          "Karim Lasri",
+          "Tiago Pimentel",
+          "Alessandro Lenci",
+          "T. Poibeau",
+          "Ryan Cotterell"
+        ],
+        "year": 2022,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2022.acl-long.603",
+        "arxivId": "2204.08831",
+        "url": "https://aclanthology.org/2022.acl-long.603/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hanna2023when",
+      "rawKey": "hanna2023when",
+      "metadata": {
+        "title": "When Language Models Fall in Love: Animacy Processing in Transformer Language Models",
+        "authors": [
+          "Michael Hanna",
+          "Yonatan Belinkov",
+          "S. Pezzelle"
+        ],
+        "year": 2023,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2023.emnlp-main.744",
+        "arxivId": "2310.15004",
+        "url": "https://aclanthology.org/2023.emnlp-main.744/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-arora2024causalgym",
+      "rawKey": "arora2024causalgym",
+      "metadata": {
+        "title": "CausalGym: Benchmarking causal interpretability methods on linguistic tasks",
+        "authors": [
+          "Aryaman Arora",
+          "Dan Jurafsky",
+          "Christopher Potts"
+        ],
+        "year": 2024,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2024.acl-long.785",
+        "arxivId": "2402.12560",
+        "url": "https://aclanthology.org/2024.acl-long.785/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2024identifying",
+      "rawKey": "wu2024identifying",
+      "metadata": {
+        "title": "Interpretability at Scale: Identifying Causal Mechanisms in Alpaca",
+        "authors": [
+          "Zhengxuan Wu",
+          "Atticus Geiger",
+          "Thomas Icard",
+          "Christopher Potts",
+          "Noah D. Goodman"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2305.08809",
+        "arxivId": "2305.08809",
+        "url": "http://papers.nips.cc/paper_files/paper/2023/hash/f6a8b109d4d4fd64c75e94aaf85d9697-Abstract-Conference.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-baeumel2025modular",
+      "rawKey": "baeumel2025modular",
+      "metadata": {
+        "title": "Modular Arithmetic: Language Models Solve Math Digit by Digit",
+        "authors": [
+          "Tanja Baeumel",
+          "Daniil Gurgurov",
+          "Yusser Al Ghussin",
+          "Josef van Genabith",
+          "Simon Ostermann"
+        ],
+        "year": 2025,
+        "venue": "IJCNLP-AACL",
+        "doi": "10.48550/arXiv.2508.02513",
+        "arxivId": "2508.02513",
+        "url": "https://aclanthology.org/2025.findings-ijcnlp.86/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2025how",
+      "rawKey": "li2025how",
+      "metadata": {
+        "title": "(How) Do Language Models Track State?",
+        "authors": [
+          "Belinda Z. Li",
+          "Zifan Carl Guo",
+          "Jacob Andreas"
+        ],
+        "year": 2025,
+        "venue": "Forty-second International Conference on Machine Learning, ICML 2025, Vancouver, BC, Canada, July 13-19, 2025",
+        "url": "https://openreview.net/forum?id=8SXosAVIFH"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-prakash2025language",
+      "rawKey": "prakash2025language",
+      "metadata": {
+        "title": "Language Models use Lookbacks to Track Beliefs",
+        "authors": [
+          "Nikhil Prakash",
+          "Natalie Shapira",
+          "Arnab Sen Sharma",
+          "C. Riedl",
+          "Yonatan Belinkov",
+          "T. Shaham",
+          "David Bau",
+          "Atticus Geiger"
+        ],
+        "year": 2025,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2505.14685",
+        "arxivId": "2505.14685",
+        "url": "https://arxiv.org/abs/2505.14685"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zou2023representation",
+      "rawKey": "zou2023representation",
+      "metadata": {
+        "title": "Representation Engineering: A Top-Down Approach to AI Transparency",
+        "authors": [
+          "Andy Zou",
+          "Long Phan",
+          "Sarah Chen",
+          "James Campbell",
+          "Phillip Guo",
+          "Richard Ren",
+          "Alexander Pan",
+          "Xu-Wang Yin",
+          "Mantas Mazeika",
+          "Ann-Kathrin Dombrowski",
+          "Shashwat Goel",
+          "Nathaniel Li",
+          "Michael J. Byun",
+          "Zi-Fan Wang",
+          "Alex Troy Mallen",
+          "Steven Basart",
+          "O. Koyejo",
+          "Dawn Song",
+          "Matt Fredrikson",
+          "J. Kolter",
+          "Dan Hendrycks"
+        ],
+        "year": 2023,
+        "venue": "arXiv:2310.01405",
+        "doi": "10.48550/arXiv.2310.01405",
+        "arxivId": "2310.01405",
+        "url": "https://arxiv.org/abs/2310.01405"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2024reft",
+      "rawKey": "wu2024reft",
+      "metadata": {
+        "title": "ReFT: Representation Finetuning for Language Models",
+        "authors": [
+          "Zhengxuan Wu",
+          "Aryaman Arora",
+          "Zheng Wang",
+          "Atticus Geiger",
+          "Dan Jurafsky",
+          "Christopher D. Manning",
+          "Christopher Potts"
+        ],
+        "year": 2024,
+        "venue": "Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024, NeurIPS 2024, Vancouver, BC, Canada, December 10 - 15, 2024",
+        "url": "http://papers.nips.cc/paper_files/paper/2024/hash/75008a0fba53bf13b0bb3b7bff986e0e-Abstract-Conference.html"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-templeton2024scaling",
+      "rawKey": "templeton2024scaling",
+      "metadata": {
+        "title": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet",
+        "authors": [
+          "Adly Templeton",
+          "Tom Conerly",
+          "Jonathan Marcus",
+          "Jack W. Lindsey",
+          "Trenton Bricken",
+          "Brian K. Chen",
+          "Adam Pearce",
+          "Craig Citro",
+          "E. Ameisen",
+          "Andy Jones",
+          "Hoagy Cunningham",
+          "N. Turner",
+          "Callum McDougall",
+          "M. MacDiarmid",
+          "Alex Tamkin",
+          "Esin Durmus",
+          "Tristan Hume",
+          "Francesco Mosconi",
+          "C. D. Freeman",
+          "T. Sumers",
+          "Edward Rees",
+          "Joshua Batson",
+          "Adam S. Jermyn",
+          "Shan Carter",
+          "Chris Olah",
+          "T. Henighan"
+        ],
+        "year": 2026,
+        "venue": "Transformer Circuits Thread",
+        "doi": "10.48550/arXiv.2605.29358",
+        "arxivId": "2605.29358",
+        "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gao2025scaling",
+      "rawKey": "gao2025scaling",
+      "metadata": {
+        "title": "Scaling and evaluating sparse autoencoders",
+        "authors": [
+          "Leo Gao",
+          "Tom Dupré la Tour",
+          "Henk Tillman",
+          "G. Goh",
+          "Rajan Troll",
+          "A. Radford",
+          "I. Sutskever",
+          "Jan Leike",
+          "Jeffrey Wu"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2406.04093",
+        "arxivId": "2406.04093",
+        "url": "https://openreview.net/forum?id=tcsZt9ZNKD"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2406.04093",
+        "matchBy": "doi"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dunefsky2024transcoders",
+      "rawKey": "dunefsky2024transcoders",
+      "metadata": {
+        "title": "Transcoders Find Interpretable LLM Feature Circuits",
+        "authors": [
+          "Jacob Dunefsky",
+          "Philippe Chlenski",
+          "Neel Nanda"
+        ],
+        "year": 2024,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2406.11944",
+        "arxivId": "2406.11944",
+        "url": "http://papers.nips.cc/paper_files/paper/2024/hash/2b8f4db0464cc5b6e9d5e6bea4b9f308-Abstract-Conference.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-obrien2024steering",
+      "rawKey": "obrien2024steering",
+      "metadata": {
+        "title": "Steering Language Model Refusal with Sparse Autoencoders",
+        "authors": [
+          "Kyle O'Brien",
+          "David Majercak",
+          "Xavier Fernandes",
+          "Richard Edgar",
+          "Jing-Ya Chen",
+          "H. Nori",
+          "Dean Carignan",
+          "E. Horvitz",
+          "F. Poursabzi-Sangdeh"
+        ],
+        "year": 2024,
+        "venue": "arXiv:2411.11296",
+        "doi": "10.48550/arXiv.2411.11296",
+        "arxivId": "2411.11296",
+        "url": "https://arxiv.org/abs/2411.11296"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-durmus2024steering",
+      "rawKey": "durmus2024steering",
+      "metadata": {
+        "title": "Evaluating feature steering: A case study in mitigating social biases",
+        "authors": [
+          "Esin Durmus",
+          "Alex Tamkin",
+          "Jack Clark",
+          "Jerry Wei",
+          "Jonathan Marcus",
+          "Joshua Batson",
+          "Kunal Handa",
+          "Liane Lovitt",
+          "Meg Tong",
+          "Miles McCain",
+          "Oliver Rausch",
+          "Saffron Huang",
+          "Sam Bowman",
+          "Stuart Ritchie",
+          "Tom Henighan",
+          "Deep Ganguli"
+        ],
+        "year": 2024,
+        "venue": "com",
+        "url": "https://anthropic.com/research/evaluating-feature-steering"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jiang2025interpretable",
+      "rawKey": "jiang2025interpretable",
+      "metadata": {
+        "title": "Interpretable Embeddings with Sparse Autoencoders: A Data Analysis Toolkit",
+        "authors": [
+          "Nick Jiang",
+          "Xiaoqing Sun",
+          "Lisa Dunlap",
+          "Lewis Smith",
+          "Neel Nanda"
+        ],
+        "year": 2025,
+        "venue": "arXiv:2512.10092",
+        "doi": "10.48550/arXiv.2512.10092",
+        "arxivId": "2512.10092",
+        "url": "https://arxiv.org/abs/2512.10092"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kantamneni2025sparse",
+      "rawKey": "kantamneni2025sparse",
+      "metadata": {
+        "title": "Are Sparse Autoencoders Useful? A Case Study in Sparse Probing",
+        "authors": [
+          "S. Kantamneni",
+          "Joshua Engels",
+          "Senthooran Rajamanoharan",
+          "Max Tegmark",
+          "Neel Nanda"
+        ],
+        "year": 2025,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2502.16681",
+        "arxivId": "2502.16681",
+        "url": "https://openreview.net/forum?id=rNfzT8YkgO"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2025axbench",
+      "rawKey": "wu2025axbench",
+      "metadata": {
+        "title": "AxBench: Steering LLMs? Even Simple Baselines Outperform Sparse Autoencoders",
+        "authors": [
+          "Zhengxuan Wu",
+          "Aryaman Arora",
+          "Atticus Geiger",
+          "Zheng Wang",
+          "Jing Huang",
+          "Dan Jurafsky",
+          "Christopher D. Manning",
+          "Christopher Potts"
+        ],
+        "year": 2025,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2501.17148",
+        "arxivId": "2501.17148",
+        "url": "https://openreview.net/forum?id=K2CckZjNy0"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-syed2024attribution",
+      "rawKey": "syed2024attribution",
+      "metadata": {
+        "title": "Attribution Patching Outperforms Automated Circuit Discovery",
+        "authors": [
+          "Aaquib Syed",
+          "Can Rager",
+          "Arthur Conmy"
+        ],
+        "year": 2023,
+        "venue": "BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+        "doi": "10.18653/v1/2024.blackboxnlp-1.25",
+        "arxivId": "2310.10348",
+        "url": "https://aclanthology.org/2024.blackboxnlp-1.25/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hanna2024faith",
+      "rawKey": "hanna2024faith",
+      "metadata": {
+        "title": "Have Faith in Faithfulness: Going Beyond Circuit Overlap When Finding Model Mechanisms",
+        "authors": [
+          "Michael Hanna",
+          "S. Pezzelle",
+          "Yonatan Belinkov"
+        ],
+        "year": 2024,
+        "venue": "First Conference on Language Modeling",
+        "doi": "10.48550/arXiv.2403.17806",
+        "arxivId": "2403.17806",
+        "url": "https://openreview.net/forum?id=TZ0CCGDcuT"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mueller2025mib",
+      "rawKey": "mueller2025mib",
+      "metadata": {
+        "title": "MIB: A Mechanistic Interpretability Benchmark",
+        "authors": [
+          "Aaron Mueller",
+          "Atticus Geiger",
+          "Sarah Wiegreffe",
+          "Dana Arad",
+          "Iván Arcuschin",
+          "Adam Belfki",
+          "Yik Siu Chan",
+          "Jaden Fiotto-Kaufman",
+          "Tal Haklay",
+          "Michael Hanna",
+          "Jing Huang",
+          "Rohan Gupta",
+          "Yaniv Nikankin",
+          "Hadas Orgad",
+          "Nikhil Prakash",
+          "Anja Reusch",
+          "A. Sankaranarayanan",
+          "Shun Shao",
+          "Alessandro Stolfo",
+          "Martin Tutek",
+          "Amir Zur",
+          "David Bau",
+          "Yonatan Belinkov"
+        ],
+        "year": 2025,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2504.13151",
+        "arxivId": "2504.13151",
+        "url": "https://openreview.net/forum?id=sSrOwve6vb"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2504.13151",
+        "matchBy": "doi"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rajamanoharan2024gated",
+      "rawKey": "rajamanoharan2024gated",
+      "metadata": {
+        "title": "Improving Sparse Decomposition of Language Model Activations with Gated Sparse Autoencoders",
+        "authors": [
+          "Senthooran Rajamanoharan",
+          "Arthur Conmy",
+          "Lewis Smith",
+          "Tom Lieberum",
+          "Vikrant Varma",
+          "János Kramár",
+          "Rohin Shah",
+          "Neel Nanda"
+        ],
+        "year": 2024,
+        "venue": "Advances in Neural Information Processing Systems 37",
+        "doi": "10.52202/079017-0024",
+        "url": "http://papers.nips.cc/paper_files/paper/2024/hash/01772a8b0420baec00c4d59fe2fbace6-Abstract-Conference.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rajamanoharan2024jumprelu",
+      "rawKey": "rajamanoharan2024jumprelu",
+      "metadata": {
+        "title": "Jumping Ahead: Improving Reconstruction Fidelity with JumpReLU Sparse Autoencoders",
+        "authors": [
+          "Senthooran Rajamanoharan",
+          "Tom Lieberum",
+          "Nicolas Sonnerat",
+          "Arthur Conmy",
+          "Vikrant Varma",
+          "János Kramár",
+          "Neel Nanda"
+        ],
+        "year": 2024,
+        "venue": "arXiv:2407.14435",
+        "doi": "10.48550/arXiv.2407.14435",
+        "arxivId": "2407.14435",
+        "url": "https://arxiv.org/abs/2407.14435"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-he2024llama",
+      "rawKey": "he2024llama",
+      "metadata": {
+        "title": "Llama Scope: Extracting Millions of Features from Llama-3.1-8B with Sparse Autoencoders",
+        "authors": [
+          "Zheng-Fu He",
+          "Wentao Shu",
+          "Xuyang Ge",
+          "Lingjie Chen",
+          "Junxuan Wang",
+          "Yunhua Zhou",
+          "Frances Liu",
+          "Qi-Peng Guo",
+          "Xuan-Jing Huang",
+          "Zu-Xuan Wu",
+          "Yu-Gang Jiang",
+          "Xi-Peng Qiu"
+        ],
+        "year": 2024,
+        "venue": "arXiv:2410.20526",
+        "doi": "10.48550/arXiv.2410.20526",
+        "arxivId": "2410.20526",
+        "url": "https://arxiv.org/abs/2410.20526"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lieberum2024gemma",
+      "rawKey": "lieberum2024gemma",
+      "metadata": {
+        "title": "Gemma Scope: Open Sparse Autoencoders Everywhere All At Once on Gemma 2",
+        "authors": [
+          "Tom Lieberum",
+          "Senthooran Rajamanoharan",
+          "Arthur Conmy",
+          "Lewis Smith",
+          "Nicolas Sonnerat",
+          "Vikrant Varma",
+          "János Kramár",
+          "A. Dragan",
+          "Rohin Shah",
+          "Neel Nanda"
+        ],
+        "year": 2024,
+        "venue": "BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+        "doi": "10.18653/v1/2024.blackboxnlp-1.19",
+        "arxivId": "2408.05147",
+        "url": "https://aclanthology.org/2024.blackboxnlp-1.19/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-choi2024automatic",
+      "rawKey": "choi2024automatic",
+      "metadata": {
+        "title": "Scaling automatic neuron description",
+        "authors": [
+          "Dami Choi",
+          "Vincent Huang",
+          "Kevin Meng",
+          "Daniel D Johnson",
+          "Jacob Steinhardt",
+          "Sarah Schwettmann"
+        ],
+        "year": 2024,
+        "venue": "Transluce Blog",
+        "url": "https://transluce.org/neuron-descriptions"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-arras2019explaining",
+      "rawKey": "arras2019explaining",
+      "metadata": {
+        "title": "Explaining and Interpreting LSTMs",
+        "authors": [
+          "L. Arras",
+          "J. Arjona-Medina",
+          "M. Widrich",
+          "G. Montavon",
+          "Michael Gillhofer",
+          "Klaus-Robert Müller",
+          "S. Hochreiter",
+          "W. Samek"
+        ],
+        "year": 2019,
+        "venue": "Explainable AI",
+        "doi": "10.1007/978-3-030-28954-6_11",
+        "arxivId": "1909.12114",
+        "url": "https://doi.org/10.1007/978-3-030-28954-6_11"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-achtibat2024attnlrp",
+      "rawKey": "achtibat2024attnlrp",
+      "metadata": {
+        "title": "AttnLRP: Attention-Aware Layer-wise Relevance Propagation for Transformers",
+        "authors": [
+          "Reduan Achtibat",
+          "Sayed Mohammad Vakilzadeh Hatefi",
+          "Maximilian Dreyer",
+          "Aakriti Jain",
+          "T. Wiegand",
+          "S. Lapuschkin",
+          "W. Samek"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2402.05602",
+        "arxivId": "2402.05602",
+        "url": "https://openreview.net/forum?id=emtXYlBrNF"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jafari2024mambalrp",
+      "rawKey": "jafari2024mambalrp",
+      "metadata": {
+        "title": "MambaLRP: Explaining Selective State Space Sequence Models",
+        "authors": [
+          "F. Jafari",
+          "G. Montavon",
+          "Klaus-Robert Müller",
+          "Oliver Eberle"
+        ],
+        "year": 2024,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2406.07592",
+        "arxivId": "2406.07592",
+        "url": "http://papers.nips.cc/paper_files/paper/2024/hash/d6d0e41e0b1ed38c76d13c9e417a8f1f-Abstract-Conference.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2024optimal",
+      "rawKey": "li2024optimal",
+      "metadata": {
+        "title": "Optimal ablation for interpretability",
+        "authors": [
+          "M. Li",
+          "L. Janson"
+        ],
+        "year": 2024,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2409.09951",
+        "arxivId": "2409.09951",
+        "url": "http://papers.nips.cc/paper_files/paper/2024/hash/c55e6792923cc16fd6ed5c3f672420a5-Abstract-Conference.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-nikankin2025arithmetic",
+      "rawKey": "nikankin2025arithmetic",
+      "metadata": {
+        "title": "Arithmetic Without Algorithms: Language Models Solve Math With a Bag of Heuristics",
+        "authors": [
+          "Yaniv Nikankin",
+          "Anja Reusch",
+          "Aaron Mueller",
+          "Yonatan Belinkov"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2410.21272",
+        "arxivId": "2410.21272",
+        "url": "https://openreview.net/forum?id=O9YTt26r2P"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-viegas2023system",
+      "rawKey": "viegas2023system",
+      "metadata": {
+        "title": "The System Model and the User Model: Exploring AI Dashboard Design",
+        "authors": [
+          "F. Viégas",
+          "M. Wattenberg"
+        ],
+        "year": 2023,
+        "venue": "arXiv:2305.02469",
+        "doi": "10.48550/arXiv.2305.02469",
+        "arxivId": "2305.02469",
+        "url": "https://arxiv.org/abs/2305.02469"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chen2024designing",
+      "rawKey": "chen2024designing",
+      "metadata": {
+        "title": "Designing a Dashboard for Transparency and Control of Conversational AI",
+        "authors": [
+          "Yida Chen",
+          "Aoyu Wu",
+          "Trevor DePodesta",
+          "Catherine Yeh",
+          "Kenneth Li",
+          "Nicholas Castillo Marin",
+          "Oam Patel",
+          "Jan Riecke",
+          "Shivam Raval",
+          "Olivia Seow",
+          "M. Wattenberg",
+          "F. Viégas"
+        ],
+        "year": 2024,
+        "venue": "arXiv:2406.07882",
+        "doi": "10.48550/arXiv.2406.07882",
+        "arxivId": "2406.07882",
+        "url": "https://arxiv.org/abs/2406.07882"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hindupur2025projecting",
+      "rawKey": "hindupur2025projecting",
+      "metadata": {
+        "title": "Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry",
+        "authors": [
+          "Sai Sumedh R. Hindupur",
+          "E. Lubana",
+          "Thomas Fel",
+          "Demba E. Ba"
+        ],
+        "year": 2025,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2503.01822",
+        "arxivId": "2503.01822",
+        "url": "https://arxiv.org/abs/2503.01822"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shafran2025decomposing",
+      "rawKey": "shafran2025decomposing",
+      "metadata": {
+        "title": "Decomposing mlp activations into interpretable features via semi-nonnegative matrix factorization",
+        "authors": [
+          "Or Shafran",
+          "Atticus Geiger",
+          "Mor Geva"
+        ],
+        "year": 2025,
+        "venue": "arXiv:2506.10920",
+        "arxivId": "2506.10920",
+        "url": "https://arxiv.org/abs/2506.10920"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dhamdhere2019how",
+      "rawKey": "dhamdhere2019how",
+      "metadata": {
+        "title": "How Important Is a Neuron?",
+        "authors": [
+          "Kedar Dhamdhere",
+          "M. Sundararajan",
+          "Qi-Qi Yan"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1805.12233",
+        "arxivId": "1805.12233",
+        "url": "https://openreview.net/forum?id=SylKoo0cKm"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shrikumar2018computationally",
+      "rawKey": "shrikumar2018computationally",
+      "metadata": {
+        "title": "Computationally Efficient Measures of Internal Neuron Importance",
+        "authors": [
+          "A. Shrikumar",
+          "Jocelin Su",
+          "A. Kundaje"
+        ],
+        "year": 2018,
+        "venue": "arXiv:1807.09946",
+        "doi": "10.48550/arXiv.1807.09946",
+        "arxivId": "1807.09946",
+        "url": "https://arxiv.org/abs/1807.09946"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pearce2025bilinear",
+      "rawKey": "pearce2025bilinear",
+      "metadata": {
+        "title": "Bilinear MLPs enable weight-based mechanistic interpretability",
+        "authors": [
+          "Michael T. Pearce",
+          "Thomas Dooms",
+          "Alice Rigg",
+          "José Oramas",
+          "Lee Sharkey"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2410.08417",
+        "arxivId": "2410.08417",
+        "url": "https://openreview.net/forum?id=gI0kPklUKS"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-nanda2023patching",
+      "rawKey": "nanda2023patching",
+      "metadata": {
+        "title": "Attribution Patching: Activation Patching At Industrial Scale",
+        "authors": [
+          "Neel Nanda"
+        ],
+        "year": 2023,
+        "url": "https://www.neelnanda.io/mechanistic-interpretability/attribution-patching"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pearl2001ie",
+      "rawKey": "pearl2001ie",
+      "metadata": {
+        "title": "Direct and Indirect Effects",
+        "authors": [
+          "J. Pearl"
+        ],
+        "year": 2001,
+        "venue": "Conference on Uncertainty in Artificial Intelligence",
+        "doi": "10.1145/3501714.3501736",
+        "arxivId": "1301.2300",
+        "url": "https://dslpitt.org/uai/displayArticleDetails.jsp?mmnu=1&smnu=2&article_id=126&proceeding_id=17"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ali2022xai",
+      "rawKey": "ali2022xai",
+      "metadata": {
+        "title": "XAI for Transformers: Better Explanations through Conservative Propagation",
+        "authors": [
+          "Ameen Ali",
+          "T. Schnake",
+          "Oliver Eberle",
+          "G. Montavon",
+          "Klaus-Robert Müller",
+          "L. Wolf"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2202.07304",
+        "arxivId": "2202.07304",
+        "url": "https://proceedings.mlr.press/v162/ali22a.html"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xiao2024efficient",
+      "rawKey": "xiao2024efficient",
+      "metadata": {
+        "title": "Efficient Streaming Language Models with Attention Sinks",
+        "authors": [
+          "Guangxuan Xiao",
+          "Yuandong Tian",
+          "Beidi Chen",
+          "Song Han",
+          "Mike Lewis"
+        ],
+        "year": 2024,
+        "venue": "The Twelfth International Conference on Learning Representations, ICLR 2024, Vienna, Austria, May 7-11, 2024",
+        "url": "https://openreview.net/forum?id=NG7sS51zVF"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hu2025understanding",
+      "rawKey": "hu2025understanding",
+      "metadata": {
+        "title": "Understanding In-context Learning of Addition via Activation Subspaces",
+        "authors": [
+          "Xin-Yang Hu",
+          "Kayo Yin",
+          "Michael I. Jordan",
+          "J. Steinhardt",
+          "Li-Jie Chen"
+        ],
+        "year": 2025,
+        "venue": "arXiv:2505.05145",
+        "doi": "10.48550/arXiv.2505.05145",
+        "arxivId": "2505.05145",
+        "url": "https://arxiv.org/abs/2505.05145"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gurnee2023finding",
+      "rawKey": "gurnee2023finding",
+      "metadata": {
+        "title": "Finding Neurons in a Haystack: Case Studies with Sparse Probing",
+        "authors": [
+          "Wes Gurnee",
+          "Neel Nanda",
+          "Matthew Pauly",
+          "K. Harvey",
+          "Dmitrii Troitskii",
+          "D. Bertsimas"
+        ],
+        "year": 2023,
+        "venue": "Trans. Mach. Learn. Res.",
+        "doi": "10.48550/arXiv.2305.01610",
+        "arxivId": "2305.01610",
+        "url": "https://openreview.net/forum?id=JYs1R9IMJr"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-smolensky1986neural",
+      "rawKey": "smolensky1986neural",
+      "metadata": {
+        "title": "Neural and conceptual interpretation of PDP models",
+        "authors": [
+          "P. Smolensky"
+        ],
+        "year": 1986,
+        "venue": "Parallel Distributed Processing: Explorations in the Microstructure of Cognition",
+        "doi": "10.7551/mitpress/5236.003.0013",
+        "url": "https://www.semanticscholar.org/paper/7baa32c2fe6cf8ad19daea92eda7c48e97ce3000"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lan2019lca",
+      "rawKey": "lan2019lca",
+      "metadata": {
+        "title": "LCA: Loss Change Allocation for Neural Network Training",
+        "authors": [
+          "Janice Lan",
+          "Rosanne Liu",
+          "Hattie Zhou",
+          "Jason Yosinski"
+        ],
+        "year": 2019,
+        "venue": "Advances in Neural Information Processing Systems 32: Annual Conference on Neural Information Processing Systems 2019, NeurIPS 2019, December 8-14, 2019, Vancouver, BC, Canada",
+        "url": "https://proceedings.neurips.cc/paper/2019/hash/d77f00766fd3be3f2189c843a6af3fb2-Abstract.html"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shu2026completereplacement",
+      "rawKey": "shu2026completereplacement",
+      "metadata": {
+        "title": "Bridging the Attention Gap: Complete Replacement Models for Complete Circuit Tracing",
+        "authors": [
+          "Wentao Shu",
+          "Xuyang Ge",
+          "Guancheng Zhou",
+          "Junxuan Wang",
+          "Rui Lin",
+          "Zhaoxuan Song",
+          "Jiaxing Wu",
+          "Zhengfu He",
+          "Xipeng Qiu"
+        ],
+        "year": 2026,
+        "venue": "OpenMOSS Interpretability Research",
+        "url": "https://interp.open-moss.com/posts/complete-replacement"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-nostalgebraist2020interpreting",
+      "rawKey": "nostalgebraist2020interpreting",
+      "metadata": {
+        "title": "Interpreting GPT: The Logit Lens",
+        "authors": [
+          "nostalgebraist"
+        ],
+        "year": 2020,
+        "venue": "LessWrong blog post",
+        "url": "https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bolukbasi2021interpretabilityillusionbert",
+      "rawKey": "bolukbasi2021interpretabilityillusionbert",
+      "metadata": {
+        "title": "An Interpretability Illusion for BERT",
+        "authors": [
+          "Tolga Bolukbasi",
+          "Adam Pearce",
+          "Ann Yuan",
+          "Andy Coenen",
+          "Emily Reif",
+          "Fernanda ViÃgas",
+          "Martin Wattenberg"
+        ],
+        "year": 2021,
+        "venue": "arXiv:2104.07143",
+        "arxivId": "2104.07143",
+        "url": "https://arxiv.org/abs/2104.07143"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gonen2011multiple",
+      "rawKey": "gonen2011multiple",
+      "metadata": {
+        "title": "Multiple Kernel Learning Algorithms",
+        "authors": [
+          "Mehmet Gonen",
+          "Ethem Alpaydin"
+        ],
+        "year": 2011,
+        "venue": "Journal of Machine Learning Research",
+        "doi": "10.5555/1953048.2021071",
+        "url": "https://dl.acm.org/doi/10.5555/1953048.2021071"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-arora2026languagemodelcircuitssparse",
+      "rawKey": "arora2026languagemodelcircuitssparse",
+      "metadata": {
+        "title": "Language Model Circuits Are Sparse in the Neuron Basis",
+        "authors": [
+          "Aryaman Arora",
+          "Zhengxuan Wu",
+          "Jacob Steinhardt",
+          "Sarah Schwettmann"
+        ],
+        "year": 2026,
+        "venue": "arXiv:2601.22594",
+        "arxivId": "2601.22594",
+        "url": "https://arxiv.org/abs/2601.22594"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mcgrath2023hydraeffectemergentselfrepair",
+      "rawKey": "mcgrath2023hydraeffectemergentselfrepair",
+      "metadata": {
+        "title": "The Hydra Effect: Emergent Self-repair in Language Model Computations",
+        "authors": [
+          "Thomas McGrath",
+          "Matthew Rahtz",
+          "Janos Kramar",
+          "Vladimir Mikulik",
+          "Shane Legg"
+        ],
+        "year": 2023,
+        "venue": "arXiv:2307.15771",
+        "arxivId": "2307.15771",
+        "url": "https://arxiv.org/abs/2307.15771"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chowdhury2025surfacing",
+      "rawKey": "chowdhury2025surfacing",
+      "metadata": {
+        "title": "Surfacing Pathological Behaviors in Language Models",
+        "authors": [
+          "Neil Chowdhury",
+          "Sarah Schwettmann",
+          "Jacob Steinhardt",
+          "Daniel D. Johnson"
+        ],
+        "year": 2025,
+        "venue": "Transluce Blog",
+        "url": "https://transluce.org/pathological-behaviors"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pal-etal-2023-future",
+      "rawKey": "pal-etal-2023-future",
+      "metadata": {
+        "title": "Future Lens: Anticipating Subsequent Tokens from a Single Hidden State",
+        "authors": [
+          "Koyena Pal",
+          "Jiuding Sun",
+          "Andrew Yuan",
+          "Byron Wallace",
+          "David Bau"
+        ],
+        "year": 2023,
+        "venue": "Proceedings of the 27th Conference on Computational Natural Language Learning (CoNLL)",
+        "doi": "10.18653/v1/2023.conll-1.37",
+        "url": "https://aclanthology.org/2023.conll-1.37/"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hanna-etal-2025-circuit",
+      "rawKey": "hanna-etal-2025-circuit",
+      "metadata": {
+        "title": "Circuit-Tracer: A New Library for Finding Feature Circuits",
+        "authors": [
+          "Michael Hanna",
+          "Mateusz Piotrowski",
+          "Jack Lindsey",
+          "Emmanuel Ameisen"
+        ],
+        "year": 2025,
+        "venue": "Proceedings of the 8th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP",
+        "doi": "10.18653/v1/2025.blackboxnlp-1.14",
+        "url": "https://aclanthology.org/2025.blackboxnlp-1.14/"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gross2024compact",
+      "rawKey": "gross2024compact",
+      "metadata": {
+        "title": "Compact Proofs of Model Performance via Mechanistic Interpretability",
+        "authors": [
+          "Jason Gross",
+          "Rajashree Agrawal",
+          "Thomas Kwa",
+          "Euan Ong",
+          "Chun Hei Yip",
+          "Alex Gibson",
+          "Soufiane Noubir",
+          "Lawrence Chan"
+        ],
+        "year": 2024,
+        "venue": "Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024, NeurIPS 2024, Vancouver, BC, Canada, December 10 - 15, 2024",
+        "url": "http://papers.nips.cc/paper_files/paper/2024/hash/90e73f3cf1a6c84c723a2e8b7fb2b2c1-Abstract-Conference.html"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tegmark2023provablysafesystemspath",
+      "rawKey": "tegmark2023provablysafesystemspath",
+      "metadata": {
+        "title": "Provably safe systems: the only path to controllable AGI",
+        "authors": [
+          "Max Tegmark",
+          "Steve Omohundro"
+        ],
+        "year": 2023,
+        "venue": "arXiv:2309.01933",
+        "arxivId": "2309.01933",
+        "url": "https://arxiv.org/abs/2309.01933"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-karvonen2026activationoraclestrainingevaluating",
+      "rawKey": "karvonen2026activationoraclestrainingevaluating",
+      "metadata": {
+        "title": "Activation Oracles: Training and Evaluating LLMs as General-Purpose Activation Explainers",
+        "authors": [
+          "Adam Karvonen",
+          "James Chua",
+          "ClÃment Dumas",
+          "Kit Fraser-Taliente",
+          "Subhash Kantamneni",
+          "Julian Minder",
+          "Euan Ong",
+          "Arnab Sen Sharma",
+          "Daniel Wen",
+          "Owain Evans",
+          "Samuel Marks"
+        ],
+        "year": 2026,
+        "venue": "arXiv:2512.15674",
+        "arxivId": "2512.15674",
+        "url": "https://arxiv.org/abs/2512.15674"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-huang2025predictiveconceptdecoderstraining",
+      "rawKey": "huang2025predictiveconceptdecoderstraining",
+      "metadata": {
+        "title": "Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants",
+        "authors": [
+          "Vincent Huang",
+          "Dami Choi",
+          "Daniel D. Johnson",
+          "Sarah Schwettmann",
+          "Jacob Steinhardt"
+        ],
+        "year": 2025,
+        "venue": "arXiv:2512.15712",
+        "arxivId": "2512.15712",
+        "url": "https://arxiv.org/abs/2512.15712"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kamath2025tracing",
+      "rawKey": "kamath2025tracing",
+      "metadata": {
+        "title": "Tracing Attention Computation Through Feature Interactions",
+        "authors": [
+          "Harish Kamath",
+          "Emmanuel Ameisen",
+          "Isaac Kauvar",
+          "Rodrigo Luger",
+          "Wes Gurnee",
+          "Adam Pearce",
+          "Sam Zimmerman",
+          "Joshua Batson",
+          "Thomas Conerly",
+          "Chris Olah",
+          "Jack Lindsey"
+        ],
+        "year": 2025,
+        "venue": "Transformer Circuits Thread",
+        "url": "https://transformer-circuits.pub/2025/attention-qk/index.html"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fineweb",
+      "rawKey": "fineweb",
+      "metadata": {
+        "title": "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale",
+        "authors": [
+          "Guilherme Penedo",
+          "Hynek Kydlcek",
+          "Loubna Ben Allal",
+          "Anton Lozhkov",
+          "Margaret Mitchell",
+          "Colin A. Raffel",
+          "Leandro von Werra",
+          "Thomas Wolf"
+        ],
+        "year": 2024,
+        "venue": "Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024, NeurIPS 2024, Vancouver, BC, Canada, December 10 - 15, 2024",
+        "url": "http://papers.nips.cc/paper_files/paper/2024/hash/370df50ccfdf8bde18f8f9c2d9151bda-Abstract-Datasets_and_Benchmarks_Track.html"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bills2023language",
+      "rawKey": "bills2023language",
+      "metadata": {
+        "title": "Language models can explain neurons in language models",
+        "authors": [
+          "Steven Bills",
+          "Nick Cammarata",
+          "Dan Mossing",
+          "Henk Tillman",
+          "Leo Gao",
+          "Gabriel Goh",
+          "Ilya Sutskever",
+          "Jan Leike",
+          "Jeff Wu",
+          "William Saunders"
+        ],
+        "year": 2023,
+        "venue": "OpenAI",
+        "url": "https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-paulo2025automatically",
+      "rawKey": "paulo2025automatically",
+      "metadata": {
+        "title": "Automatically Interpreting Millions of Features in Large Language Models",
+        "authors": [
+          "Goncalo Paulo",
+          "Alex Mallen",
+          "Caden Juang",
+          "Nora Belrose"
+        ],
+        "year": 2025,
+        "venue": "Forty-second International Conference on Machine Learning, ICML 2025, Vancouver, BC, Canada, July 13-19, 2025",
+        "url": "https://proceedings.mlr.press/v267/paulo25a.html"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-foote2023neurongraphinterpretinglanguage",
+      "rawKey": "foote2023neurongraphinterpretinglanguage",
+      "metadata": {
+        "title": "Neuron to Graph: Interpreting Language Model Neurons at Scale",
+        "authors": [
+          "Alex Foote",
+          "Neel Nanda",
+          "Esben Kran",
+          "Ioannis Konstas",
+          "Shay Cohen",
+          "Fazl Barez"
+        ],
+        "year": 2023,
+        "venue": "arXiv:2305.19911",
+        "arxivId": "2305.19911",
+        "url": "https://arxiv.org/abs/2305.19911"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vllm",
+      "rawKey": "vllm",
+      "metadata": {
+        "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+        "authors": [
+          "Woosuk Kwon",
+          "Zhuohan Li",
+          "Siyuan Zhuang",
+          "Ying Sheng",
+          "Lianmin Zheng",
+          "Cody Hao Yu",
+          "Joseph Gonzalez",
+          "Hao Zhang",
+          "Ion Stoica"
+        ],
+        "year": 2023,
+        "venue": "Proceedings of the 29th Symposium on Operating Systems Principles, SOSP 2023, Koblenz, Germany, October 23-26, 2023",
+        "doi": "10.1145/3600006.3613165",
+        "url": "https://doi.org/10.1145/3600006.3613165"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/10_1145_3600006_3613165",
+        "matchBy": "doi"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhong2025understanding",
+      "rawKey": "zhong2025understanding",
+      "metadata": {
+        "title": "Understanding Transformer from the Perspective of Associative Memory",
+        "authors": [
+          "Shu Zhong",
+          "Mingyu Xu",
+          "Tenglong Ao",
+          "Guang Shi"
+        ],
+        "year": 2025,
+        "venue": "arXiv:2505.19488",
+        "arxivId": "2505.19488",
+        "url": "https://arxiv.org/abs/2505.19488"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-widrowhoff",
+      "rawKey": "widrowhoff",
+      "metadata": {
+        "title": "Adaptive switching circuits",
+        "authors": [
+          "Bernard Widrow",
+          "Marcian E. Hoff"
+        ],
+        "year": 1988,
+        "venue": "Neurocomputing: Foundations of Research"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-deltanet_og",
+      "rawKey": "deltanet_og",
+      "metadata": {
+        "title": "Linear Transformers Are Secretly Fast Weight Programmers",
+        "authors": [
+          "Imanol Schlag",
+          "Kazuki Irie",
+          "Jurgen Schmidhuber"
+        ],
+        "year": 2021,
+        "venue": "Proceedings of the 38th International Conference on Machine Learning, ICML 2021, 18-24 July 2021, Virtual Event",
+        "url": "http://proceedings.mlr.press/v139/schlag21a.html"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-deltanet_yang",
+      "rawKey": "deltanet_yang",
+      "metadata": {
+        "title": "Parallelizing Linear Transformers with the Delta Rule over Sequence Length",
+        "authors": [
+          "Songlin Yang",
+          "Bailin Wang",
+          "Yu Zhang",
+          "Yikang Shen",
+          "Yoon Kim"
+        ],
+        "year": 2024,
+        "venue": "Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024, NeurIPS 2024, Vancouver, BC, Canada, December 10 - 15, 2024",
+        "url": "http://papers.nips.cc/paper_files/paper/2024/hash/d13a3eae72366e61dfdc7eea82eeb685-Abstract-Conference.html"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/2406.06484",
+        "matchBy": "title"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-geva-etal-2021-transformer",
+      "rawKey": "geva-etal-2021-transformer",
+      "metadata": {
+        "title": "Transformer Feed-Forward Layers Are Key-Value Memories",
+        "authors": [
+          "Mor Geva",
+          "Roei Schuster",
+          "Jonathan Berant",
+          "Omer Levy"
+        ],
+        "year": 2021,
+        "venue": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2021.emnlp-main.446",
+        "url": "https://aclanthology.org/2021.emnlp-main.446/"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lora",
+      "rawKey": "lora",
+      "metadata": {
+        "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+        "authors": [
+          "Edward J. Hu",
+          "Yelong Shen",
+          "Phillip Wallis",
+          "Zeyuan Allen-Zhu",
+          "Yuanzhi Li",
+          "Shean Wang",
+          "Lu Wang",
+          "Weizhu Chen"
+        ],
+        "year": 2022,
+        "venue": "The Tenth International Conference on Learning Representations, ICLR 2022, Virtual Event, April 25-29, 2022",
+        "url": "https://openreview.net/forum?id=nZeVKeeFYf9"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-schulman2025lora",
+      "rawKey": "schulman2025lora",
+      "metadata": {
+        "title": "LoRA Without Regret",
+        "authors": [
+          "John Schulman",
+          "Thinking Machines Lab"
+        ],
+        "year": 2025,
+        "venue": "Thinking Machines Lab: Connectionism",
+        "doi": "10.64434/tml.20250929"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kwon2023efficient",
+      "rawKey": "kwon2023efficient",
+      "metadata": {
+        "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+        "authors": [
+          "Woosuk Kwon",
+          "Zhuohan Li",
+          "Siyuan Zhuang",
+          "Ying Sheng",
+          "Lianmin Zheng",
+          "Cody Hao Yu",
+          "Joseph Gonzalez",
+          "Hao Zhang",
+          "Ion Stoica"
+        ],
+        "year": 2023,
+        "venue": "Proceedings of the 29th Symposium on Operating Systems Principles, SOSP 2023, Koblenz, Germany, October 23-26, 2023",
+        "doi": "10.1145/3600006.3613165",
+        "url": "https://doi.org/10.1145/3600006.3613165"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/10_1145_3600006_3613165",
+        "matchBy": "doi"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chen2026learningratescalinglora",
+      "rawKey": "chen2026learningratescalinglora",
+      "metadata": {
+        "title": "Learning Rate Scaling across LoRA Ranks and Transfer to Full Finetuning",
+        "authors": [
+          "Nan Chen",
+          "Soledad Villar",
+          "Soufiane Hayou"
+        ],
+        "year": 2026,
+        "venue": "arXiv:2602.06204",
+        "arxivId": "2602.06204",
+        "url": "https://arxiv.org/abs/2602.06204"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kalajdzievski2023rankstabilizationscalingfactor",
+      "rawKey": "kalajdzievski2023rankstabilizationscalingfactor",
+      "metadata": {
+        "title": "A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA",
+        "authors": [
+          "Damjan Kalajdzievski"
+        ],
+        "year": 2023,
+        "venue": "arXiv:2312.03732",
+        "arxivId": "2312.03732",
+        "url": "https://arxiv.org/abs/2312.03732"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lambert2025tulu3pushingfrontiers",
+      "rawKey": "lambert2025tulu3pushingfrontiers",
+      "metadata": {
+        "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+        "authors": [
+          "Nathan Lambert",
+          "Jacob Morrison",
+          "Valentina Pyatkin",
+          "Shengyi Huang",
+          "Hamish Ivison",
+          "Faeze Brahman",
+          "Lester James V. Miranda",
+          "Alisa Liu",
+          "Nouha Dziri",
+          "Shane Lyu",
+          "Yuling Gu",
+          "Saumya Malik",
+          "Victoria Graf",
+          "Jena D. Hwang",
+          "Jiangjiang Yang",
+          "Ronan Le Bras",
+          "Oyvind Tafjord",
+          "Chris Wilhelm",
+          "Luca Soldaini",
+          "Noah A. Smith",
+          "Yizhong Wang",
+          "Pradeep Dasigi",
+          "Hannaneh Hajishirzi"
+        ],
+        "year": 2025,
+        "venue": "arXiv:2411.15124",
+        "arxivId": "2411.15124",
+        "url": "https://arxiv.org/abs/2411.15124"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kimiteam2026attentionresiduals",
+      "rawKey": "kimiteam2026attentionresiduals",
+      "metadata": {
+        "title": "Attention Residuals",
+        "authors": [
+          "Kimi Team",
+          "Guangyu Chen",
+          "Yu Zhang",
+          "Jianlin Su",
+          "Weixin Xu",
+          "Siyuan Pan",
+          "Yaoyu Wang",
+          "Yucheng Wang",
+          "Guanduo Chen",
+          "Bohong Yin",
+          "Yutian Chen",
+          "Junjie Yan",
+          "Ming Wei",
+          "Y. Zhang",
+          "Fanqing Meng",
+          "Chao Hong",
+          "Xiaotong Xie",
+          "Shaowei Liu",
+          "Enzhe Lu",
+          "Yunpeng Tai",
+          "Yanru Chen",
+          "Xin Men",
+          "Haiqing Guo",
+          "Y. Charles",
+          "Haoyu Lu",
+          "Lin Sui",
+          "Jinguo Zhu",
+          "Zaida Zhou",
+          "Weiran He",
+          "Weixiao Huang",
+          "Xinran Xu",
+          "Yuzhi Wang",
+          "Guokun Lai",
+          "Yulun Du",
+          "Yuxin Wu",
+          "Zhilin Yang",
+          "Xinyu Zhou"
+        ],
+        "year": 2026,
+        "venue": "arXiv:2603.15031",
+        "arxivId": "2603.15031",
+        "url": "https://arxiv.org/abs/2603.15031"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-arora2026adag",
+      "rawKey": "arora2026adag",
+      "metadata": {
+        "title": "ADAG: Automatically Describing Attribution Graphs",
+        "authors": [
+          "Aryaman Arora",
+          "Zheng-Xuan Wu",
+          "J. Steinhardt",
+          "Sarah E. Schwettmann"
+        ],
+        "year": 2026,
+        "venue": "arXiv:2604.07615",
+        "doi": "10.48550/arXiv.2604.07615",
+        "arxivId": "2604.07615",
+        "url": "https://arxiv.org/abs/2604.07615"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 110 entries (bib)",
+    "semantic scholar: 76 references",
+    "merged: 71 of 110 enriched online"
+  ]
+}

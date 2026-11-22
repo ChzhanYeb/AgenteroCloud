@@ -1,0 +1,119 @@
+\documentclass[10pt]{article} % For LaTeX2e
+\usepackage[accepted]{tmlr}
+% If accepted, instead use the following line for the camera-ready submission:
+%\usepackage[accepted]{tmlr}
+% To de-anonymize and remove mentions to TMLR (for example for posting to preprint servers), instead use the following:
+%\usepackage[preprint]{tmlr}
+
+\usepackage[symbol]{footmisc}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{xcolor}
+\usepackage{ifthen}
+\usepackage[normalem]{ulem}
+\usepackage{svg}
+\usepackage{subfiles}
+\usepackage{xspace}
+\usepackage{cleveref}
+\usepackage{wrapfig}
+\usepackage{dialogue}
+\usepackage[most]{tcolorbox}
+\usepackage{subcaption}
+% \usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{url}
+\input macros
+\input std-macros
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+% \renewcommand\benchmarkUrl{Link to website will be added upon de-anonymization.}
+% % \renewcommand\benchmarkUrl{Link to website will be added upon de-anonymization.}
+
+% \renewcommand\benchmarkUrlRuns{Link to website will be added upon de-anonymization.}
+% % \renewcommand\benchmarkUrlRuns{Link to website will be added upon de-anonymization.}
+% \renewcommand\annotationURL{Link to website will be added upon de-anonymization.}
+% \renewcommand\contaminationURL{Link to contamination information will be added upon de-anonymization.}
+
+% \renewcommand\benchmarkUrlModels{Link to models list will be added upon de-anonymization.}
+% % \renewcommand\benchmarkUrlModels{Link to website will be added upon de-anonymization.}
+
+% \renewcommand\benchmarkUrlPrefix[1]{specific page that will be added upon de-anonymization}
+
+% \renewcommand\githubUrl{Link to Github will be added upon de-anonymization.}
+
+\title{Holistic Evaluation of Language Models}
+
+% Authors must not appear in the submitted version. They should be hidden
+% as long as the tmlr package is used without the [accepted] or [preprint] options.
+% Non-anonymous submissions will be rejected without review.
+\title{Holistic Evaluation of Language Models}
+\input authors_tmlr
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+\def\month{08}  % Insert correct month for camera-ready version
+\def\year{2023} % Insert correct year for camera-ready version
+\def\openreview{\url{https://openreview.net/forum?id=iO4LZibEqW}} % Insert correct link to OpenReview for camera-ready version
+
+
+% Change log for TMLR [2/1/2023]
+% Rishi: Modified discussion of summarization in findings.tex, 03_core_scenarios.tex, experiments/prompt_analysis.tex, experiments/task_experiments.tex, experiments/human_evaluations.tex, 10_missing.tex
+
+\begin{document}
+
+
+\maketitle
+\blfootnote{
+{\textdagger} indicates lead authors and {‡} indicates major contributors. 
+Full author contributions in \refapp{contributions}.}
+\input 00_abstract
+\input 01_introduction
+\clearpage
+\renewcommand{\baselinestretch}{0.9685}\normalsize 
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}}
+\tableofcontents
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+\renewcommand{\baselinestretch}{1.0}\normalsize 
+\clearpage
+\input 02_preliminaries
+\input 03_core_scenarios
+\input 04_metrics
+\input 05_targeted_evaluations
+\input 06_models
+\input 07_adaptation
+\input 08_experiments
+\input 09_discussion
+\input 10_missing
+\input 11_limitations
+\input 12_conclusion
+
+\input{acknowledgements}
+
+\bibliography{refdb/all, non-refdb}
+\bibliographystyle{tmlr}
+
+\appendix
+\input{appendices/01_appendix_contributions}
+\input{appendices/02_appendix_core_scenarios}
+\input{appendices/03_appendix_metrics}
+\input{appendices/04_appendix_perturbations}
+\input{appendices/05_appendix_targeted_evaluations}
+\input{appendices/06_appendix_benchmark_comparison}
+\input{appendices/07_appendix_contamination}
+\input{appendices/08_appendix_priority_system}
+\input{appendices/09_appendix_models}
+\input{appendices/10_appendix_adaptation}
+
+\end{document}

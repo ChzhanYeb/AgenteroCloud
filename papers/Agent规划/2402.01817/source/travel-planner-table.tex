@@ -1,0 +1,31 @@
+\begin{table*}[ht]
+    \centering
+    \begin{tabular}{lc|cc|cc|c}
+        \toprule
+        \textbf{Model} & \multicolumn{1}{c}{\textbf{Delivery}} & \multicolumn{2}{c}{\textbf{Commonsense}} & \multicolumn{2}{c}{\textbf{Hard}} & \multicolumn{1}{c}{\textbf{Final Pass}} \\
+         & \multicolumn{1}{c}{\textbf{Rate}} & \multicolumn{2}{c}{\textbf{Pass Rate}} & \multicolumn{2}{c}{\textbf{Pass Rate}} & \multicolumn{1}{c}{\textbf{Rate}} \\
+
+        & \textbf{} & \textbf{Micro} & \textbf{Macro} & \textbf{Micro} & \textbf{Macro} & \textbf{} \\
+        \midrule
+        % Direct$_{\rm GPT-3.5-Turbo}$ & 0.99 & 0.61 & 0.03 & 0.11 & 0.03 & 0.00 \\
+        Direct $_{\rm GPT-3.5-Turbo}$ & 99.4 & 61.5 & 3.9 & 11.2 & 2.8 & 0.0 \\
+        % Direct$_{\rm GPT-4-Turbo}$ & 1.0 & 0.85 & 0.25 & 0.52 & 0.24 & 0.04 \\
+        Direct $_{\rm GPT-4-Turbo}$ & 100 & 84.9 & 25.6 & 51.9 & 24.4 & 4.4 \\
+
+        \textcolor{gray!75}{CoT$_{\rm GPT-3.5-Turbo}$} & \textcolor{gray!75}{\text{100}} & \textcolor{gray!75}{\text{66.3}} & \textcolor{gray!75}{\text{3.3}} & \textcolor{gray!75}{\text{11.9}} & \textcolor{gray!75}{\text{5}} & \textcolor{gray!75}0 \\
+        \textcolor{gray!75}{ReAct$_{\rm GPT-3.5-Turbo}$} & \textcolor{gray!75}{\text{82.2}} & \textcolor{gray!75}{\text{47.6}} & \textcolor{gray!75}{\text{3.9}} & \textcolor{gray!75}{\text{11.4}} & \textcolor{gray!75}{\text{6.7}} & \textcolor{gray!75}{0.6} \\
+        \textcolor{gray!75}{Reflexion$_{\rm GPT-3.5-Turbo}$} & \textcolor{gray!75}{\text{93.9}} & \textcolor{gray!75}{\text{53.8}} & \textcolor{gray!75}{\text{2.8}} & \textcolor{gray!75}{\text{11}} & \textcolor{gray!75}{\text{2.8}} & \textcolor{gray!75}{0} \\
+
+        \textbf{LLM Modulo [All]$_{\rm GPT-3.5-Turbo}$} & \textbf{97.8} & \textbf{59.8} & \textbf{13.3} & \textbf{14} & \textbf{6.7} & \textbf{5} \\
+        LLM Modulo [Common]$_{\rm GPT-3.5-Turbo}$ & 100 & 67.9 & 16.7 & 14 & 5 & 2.8 \\
+
+        LLM Modulo [Hard]$_{\rm GPT-3.5-Turbo}$ & 100 & 61.3 & 4.4 & 10.7 & 5.6 & 1.6 \\
+        LLM Modulo [Json]$_{\rm GPT-3.5-Turbo}$ & 100 & 61.3 & 4.4 & 10.2 & 3.9 & 1.1 \\
+        \textbf{LLM Modulo [All]$_{\rm GPT-4-Turbo}$} & \textbf{100} & \textbf{89.2} & \textbf{40.6} & \textbf{62.1} & \textbf{39.4} & \textbf{20.6} \\
+        \bottomrule
+    \end{tabular}
+    \caption{
+    We report the results on TravelPlanning Validation set following \cite{xie2024travelplanner}. Grayed out results on CoT / ReAct / Reflexion variants are reported from \cite{xie2024travelplanner} for completeness. Direct$_{\text{Model}}$ are reproduced baselines as implemented in \cite{xie2024travelplanner}. $\text{LLM Modulo}[\text{Crtic}]_{\mathcal{M}}$ represents the critics used during the LLM-Modulo planning with model $\mathcal{M}$. Values are percentages of delivery rate, micro and macro commonsense and hard constraints and finally, success rate defined as \textit{Final Pass Rate} as in \cite{xie2024travelplanner}.
+    }
+    \label{fig:travel-planning}\label{tab:model_performance}
+\end{table*}

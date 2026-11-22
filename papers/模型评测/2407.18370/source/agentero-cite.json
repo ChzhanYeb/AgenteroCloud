@@ -1,0 +1,1345 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-17T14:33:56.103Z",
+    "fingerprint": "4ffded8c3e35d9eca261e807620f55c1f043eaeb2979da2521a0cf3d594f906a"
+  },
+  "citations": [
+    {
+      "id": "cite-gpt-4",
+      "rawKey": "gpt-4",
+      "display": "[1]",
+      "raw": "Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et al. Gpt-4 technical report. arXiv preprint arXiv:2303.08774, 2023.",
+      "metadata": {
+        "title": "GPT-4 Technical Report",
+        "authors": [
+          "OpenAI",
+          "Josh Achiam",
+          "Steven Adler",
+          "S. Agarwal",
+          "Lama Ahmad",
+          "Ilge Akkaya",
+          "Florencia Leoni Aleman",
+          "Diogo Almeida",
+          "Janko Altenschmidt",
+          "Sam Altman",
+          "Shyamal Anadkat",
+          "Red Avila",
+          "I. Babuschkin",
+          "S. Balaji",
+          "Valerie Balcom",
+          "Paul Baltescu",
+          "Haim-ing Bao",
+          "Mo Bavarian",
+          "Jeff Belgum",
+          "Irwan Bello",
+          "Jake Berdine",
+          "Gabriel Bernadett-Shapiro",
+          "Christopher Berner",
+          "Lenny Bogdonoff",
+          "O. Boiko",
+          "Made-laine Boyd",
+          "Anna-Luisa Brakman",
+          "G. Brockman",
+          "Tim Brooks",
+          "Miles Brundage",
+          "Kevin Button",
+          "Trevor Cai",
+          "Rosie Campbell",
+          "Andrew B. Cann",
+          "Brittany Carey",
+          "Chelsea Carlson",
+          "Rory Carmichael",
+          "Brooke Chan",
+          "Che Chang",
+          "Fotis Chantzis",
+          "Derek Chen",
+          "Sully Chen",
+          "Ruby Chen",
+          "Jason Chen",
+          "Mark Chen",
+          "Benjamin Chess",
+          "Chester Cho",
+          "Casey Chu",
+          "Hyung Won Chung",
+          "Dave Cummings",
+          "Jeremiah Currier",
+          "Yunxing Dai",
+          "C. Decareaux",
+          "Thomas Degry",
+          "Noah Deutsch",
+          "Damien Deville",
+          "Arka Dhar",
+          "David Dohan",
+          "Steve Dowling",
+          "Sheila Dunning",
+          "Adrien Ecoffet",
+          "Atty Eleti",
+          "Tyna Eloundou",
+          "David Farhi",
+          "Liam Fedus",
+          "Niko Felix",
+          "S. Fishman",
+          "Juston Forte",
+          "Is-abella Fulford",
+          "Leo Gao",
+          "Elie Georges",
+          "C. Gibson",
+          "Vik Goel",
+          "T. Gogineni",
+          "G. Goh",
+          "Raphael Gontijo-Lopes",
+          "J. Gordon",
+          "Morgan Grafstein",
+          "Scott Gray",
+          "Ryan Greene",
+          "Joshua Gross",
+          "S. Gu",
+          "Yu-Fei Guo",
+          "Chris Hallacy",
+          "Jesse Han",
+          "J. Harris",
+          "Yu-Chen He",
+          "Mike Heaton",
+          "Johannes Heidecke",
+          "C. Hesse",
+          "Alan Hickey",
+          "W. Hickey",
+          "P. Hoeschele",
+          "Brandon Houghton",
+          "Kenny Hsu",
+          "Sheng-Li Hu",
+          "Xin Hu",
+          "Joost Huizinga",
+          "Shantanu Jain",
+          "Shawn Jain",
+          "Joanne Jang",
+          "Angela Jiang",
+          "R. Jiang",
+          "Hao-Zhun Jin",
+          "Denny Jin",
+          "Shino Jomoto",
+          "Billie Jonn",
+          "Heewoo Jun",
+          "T. Kaftan",
+          "L. Kaiser",
+          "A. Kamali",
+          "Ingmar Kanitscheider",
+          "N. Keskar",
+          "Tabarak Khan",
+          "Logan Kilpatrick",
+          "Jong Wook Kim",
+          "Christina Kim",
+          "Yongjik Kim",
+          "J. Kirchner",
+          "J. Kiros",
+          "Matthew Knight",
+          "Daniel Kokotajlo",
+          "Lukasz Kondraciuk",
+          "A. Kondrich",
+          "Aris Konstantinidis",
+          "Kyle Kosic",
+          "G. Krueger",
+          "Vishal Kuo",
+          "Michael Lampe",
+          "Ikai Lan",
+          "Teddy Lee",
+          "Jan Leike",
+          "Jade Leung",
+          "Daniel Levy",
+          "Chak Li",
+          "Rachel Lim",
+          "Molly Lin",
+          "Stephanie L. Lin",
+          "Mateusz Litwin",
+          "Theresa Lopez",
+          "Ryan Lowe",
+          "Patricia Lue",
+          "A. Makanju",
+          "Kim Malfacini",
+          "Sam Manning",
+          "Todor M. Markov",
+          "Yaniv Markovski",
+          "Bianca Martin",
+          "Katie Mayer",
+          "A. Mayne",
+          "Bob McGrew",
+          "S. McKinney",
+          "Christine McLeavey",
+          "Paul McMillan",
+          "Jake McNeil",
+          "David Medina",
+          "Aalok Mehta",
+          "Jacob Menick",
+          "Luke Metz",
+          "Andrey Mishchenko",
+          "Pamela Mishkin",
+          "Vinnie Monaco",
+          "Evan Morikawa",
+          "Daniel P. Mossing",
+          "Tong Mu",
+          "Mira Murati",
+          "O. Murk",
+          "David A. Mély",
+          "Ashvin Nair",
+          "Reiichiro Nakano",
+          "Rajeev Nayak",
+          "Arvind Neelakantan",
+          "Richard Q. Ngo",
+          "Hyeonwoo Noh",
+          "Long Ouyang",
+          "Cullen O'Keefe",
+          "J. Pachocki",
+          "Alex Paino",
+          "Joe Palermo",
+          "Ashley Pantuliano",
+          "Giambattista Parascandolo",
+          "Joel Parish",
+          "Emy Parparita",
+          "A. Passos",
+          "Mikhail Pavlov",
+          "Andrew Peng",
+          "Adam Perel-man",
+          "Filipe de Avila Belbute-Peres",
+          "Michael Petrov",
+          "Henrique Pondé de Oliveira Pinto",
+          "M. Pokorny",
+          "Michelle Pokrass",
+          "Vitchyr H. Pong",
+          "T. Pow-ell",
+          "Alethea Power",
+          "Boris Power",
+          "Elizabeth Proehl",
+          "Raul Puri",
+          "A. Radford",
+          "Jack W. Rae",
+          "Aditya Ramesh",
+          "Cameron Raymond",
+          "Francis Real",
+          "Kendra Rimbach",
+          "Carl Ross",
+          "Bob Rotsted",
+          "Henri Roussez",
+          "N. Ryder",
+          "Mario D. Saltarelli",
+          "Ted Sanders",
+          "Shibani Santurkar",
+          "G. Sastry",
+          "Heather Schmidt",
+          "David Schnurr",
+          "John D. Schulman",
+          "Daniel Selsam",
+          "Kyla Sheppard",
+          "Toki Sherbakov",
+          "Jessica Shieh",
+          "Sarah Shoker",
+          "Pranav Shyam",
+          "Szymon Sidor",
+          "Eric Sigler",
+          "Maddie Simens",
+          "Jordan Sitkin",
+          "Katarina Slama",
+          "Ian Sohl",
+          "Benjamin D. Sokolowsky",
+          "Yang Song",
+          "Natalie Staudacher",
+          "Felipe Petroski Such",
+          "Natalie Summers",
+          "I. Sutskever",
+          "Jie Tang",
+          "Nikolas A. Tezak",
+          "Madeleine B Thompson",
+          "Phil Tillet",
+          "Amin Tootoonchian",
+          "Elizabeth Tseng",
+          "P. Tuggle",
+          "Nick Turley",
+          "Jerry Tworek",
+          "Juan Felipe Ceron Uribe",
+          "Andrea Vallone",
+          "Arun Vijayvergiya",
+          "Chelsea Voss",
+          "Carroll L. Wainwright",
+          "Justin Wang",
+          "Alvin Wang",
+          "Ben Wang",
+          "Jonathan Ward",
+          "Jason Wei",
+          "C. Weinmann",
+          "Akila Welihinda",
+          "Peter Welinder",
+          "Jia-Yi Weng",
+          "Li-Lian Weng",
+          "Matt Wiethoff",
+          "Dave Willner",
+          "C. Winter",
+          "Samuel Wolrich",
+          "Hannah Wong",
+          "Lauren Workman",
+          "Sherwin Wu",
+          "Jeff Wu",
+          "Michael Wu",
+          "Kai Xiao",
+          "Tao Xu",
+          "Sarah Yoo",
+          "Kevin Yu",
+          "Qim-ing Yuan",
+          "W. Zaremba",
+          "Rowan Zellers",
+          "Chong Zhang",
+          "Marvin Zhang",
+          "Sheng-Jia Zhao",
+          "Tian-Hao Zheng",
+          "Jun-Tang Zhuang",
+          "William Zhuk",
+          "Barret Zoph"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2303.08774",
+        "arxivId": "2303.08774",
+        "url": "https://www.semanticscholar.org/paper/163b4d6a79a5b19af88b8585456363340d9efd04"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ltt",
+      "rawKey": "ltt",
+      "display": "[2]",
+      "raw": "Anastasios N. Angelopoulos, Stephen Bates, Emmanuel J. CandÃs, Michael I. Jordan, and Lihua Lei. Learn then test: Calibrating predictive algorithms to achieve risk control, 2022. URL https://arxiv.org/abs/2110.01052.",
+      "metadata": {
+        "title": "Learn then Test: Calibrating Predictive Algorithms to Achieve Risk Control",
+        "authors": [
+          "Anastasios Nikolas Angelopoulos",
+          "Stephen Bates",
+          "E. Candès",
+          "Michael I. Jordan",
+          "Li-Hua Lei"
+        ],
+        "year": 2021,
+        "venue": "Annals of Applied Statistics",
+        "doi": "10.48550/arXiv.2110.01052",
+        "arxivId": "2110.01052",
+        "url": "https://arxiv.org/abs/2110.01052"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-conformal-risk-control",
+      "rawKey": "conformal-risk-control",
+      "display": "[3]",
+      "raw": "Anastasios Nikolas Angelopoulos, Stephen Bates, Adam Fisch, Lihua Lei, and Tal Schuster. Conformal risk control. In The Twelfth International Conference on Learning Representations, 2024. URL https://openreview.net/forum?id=33XGfHLtZg.",
+      "metadata": {
+        "title": "Con-formal risk control",
+        "authors": [
+          "Anastasios Nikolas Angelopoulos",
+          "Stephen Bates",
+          "Adam Fisch",
+          "Lihua Lei",
+          "Tal Schuster"
+        ],
+        "year": 2024,
+        "venue": "The Twelfth International Conference on Learning Representations",
+        "url": "https://openreview.net/forum?id=33XGfHLtZg"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rcps",
+      "rawKey": "rcps",
+      "display": "[4]",
+      "raw": "Stephen Bates, Anastasios Angelopoulos, Lihua Lei, Jitendra Malik, and Michael Jordan. Distribution-free, risk-controlling prediction sets. J. ACM, 68 (6), sep 2021. ISSN 0004-5411. 10.1145/3478535. URL https://doi.org/10.1145/3478535.",
+      "metadata": {
+        "title": "Distribution-Free, Risk-Controlling Prediction Sets",
+        "authors": [
+          "Stephen Bates",
+          "Anastasios Nikolas Angelopoulos",
+          "Li-Hua Lei",
+          "J. Malik",
+          "Michael I. Jordan"
+        ],
+        "year": 2021,
+        "venue": "Journal of the ACM",
+        "doi": "10.1145/3478535",
+        "arxivId": "2101.02703",
+        "url": "https://doi.org/10.1145/3478535"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fixed-sequence-testing",
+      "rawKey": "fixed-sequence-testing",
+      "display": "[5]",
+      "raw": "Peter Bauer. Multiple testing in clinical trials. Statistics in medicine, 10 (6): 871--890, 1991.",
+      "metadata": {
+        "title": "Multiple testing in clinical trials.",
+        "authors": [
+          "P. Bauer"
+        ],
+        "year": 1991,
+        "venue": "Statistics in Medicine",
+        "doi": "10.1002/SIM.4780100609",
+        "url": "https://www.semanticscholar.org/paper/0b81b1841169ada6e6325c7bd153ec30bfef8cc4"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chateval",
+      "rawKey": "chateval",
+      "display": "[6]",
+      "raw": "Chi-Min Chan, Weize Chen, Yusheng Su, Jianxuan Yu, Wei Xue, Shanghang Zhang, Jie Fu, and Zhiyuan Liu. Chateval: Towards better llm-based evaluators through multi-agent debate, 2023. URL https://arxiv.org/abs/2308.07201.",
+      "metadata": {
+        "title": "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate",
+        "authors": [
+          "Chi-Min Chan",
+          "Weize Chen",
+          "Yusheng Su",
+          "Jianxuan Yu",
+          "Wei Xue",
+          "Shan Zhang",
+          "Jie Fu",
+          "Zhi-Yuan Liu"
+        ],
+        "year": 2023,
+        "doi": "10.48550/arXiv.2308.07201",
+        "arxivId": "2308.07201",
+        "url": "https://arxiv.org/abs/2308.07201"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-can-llms-be-an-alternative",
+      "rawKey": "can-llms-be-an-alternative",
+      "display": "[7]",
+      "raw": "Cheng-Han Chiang and Hung-yi Lee. Can large language models be an alternative to human evaluations? In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki (eds.), Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 15607--15631, Toronto, Canada, July 2023. Association for Computational Linguistics. 10.18653/v1/2023.acl-long.870. URL https://aclanthology.org/2023.acl-long.870.",
+      "metadata": {
+        "title": "Can Large Language Models Be an Alternative to Human Evaluations?",
+        "authors": [
+          "Cheng-Han Chiang",
+          "Hung-Yi Lee"
+        ],
+        "year": 2023,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2023.acl-long.870",
+        "arxivId": "2305.01937",
+        "url": "https://aclanthology.org/2023.acl-long.870"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-alpacafarm",
+      "rawKey": "alpacafarm",
+      "display": "[8]",
+      "raw": "Yann Dubois, Xuechen Li, Rohan Taori, Tianyi Zhang, Ishaan Gulrajani, Jimmy Ba, Carlos Guestrin, Percy Liang, and Tatsunori Hashimoto. Alpacafarm: A simulation framework for methods that learn from human feedback. In Thirty-seventh Conference on Neural Information Processing Systems, 2023. URL https://openreview.net/forum?id=4hturzLcKX.",
+      "metadata": {
+        "title": "AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback",
+        "authors": [
+          "Yann Dubois",
+          "Chengzhengxu Li",
+          "Rohan Taori",
+          "Tianyi Zhang",
+          "I. Gulrajani",
+          "Jimmy Ba",
+          "Carlos Guestrin",
+          "Percy Liang",
+          "Tatsunori B. Hashimoto"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2305.14387",
+        "arxivId": "2305.14387",
+        "url": "https://openreview.net/forum?id=4hturzLcKX"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lc-alpacaeval",
+      "rawKey": "lc-alpacaeval",
+      "display": "[9]",
+      "raw": "Yann Dubois, BalÃzs Galambosi, Percy Liang, and Tatsunori B. Hashimoto. Length-controlled alpacaeval: A simple way to debias automatic evaluators, 2024. URL https://arxiv.org/abs/2404.04475.",
+      "metadata": {
+        "title": "Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators",
+        "authors": [
+          "Yann Dubois",
+          "Bal'azs Galambosi",
+          "Percy Liang",
+          "Tatsunori B. Hashimoto"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2404.04475",
+        "arxivId": "2404.04475",
+        "url": "https://arxiv.org/abs/2404.04475"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-selective-classification",
+      "rawKey": "selective-classification",
+      "display": "[10]",
+      "raw": "Yonatan Geifman and Ran El-Yaniv. Selective classification for deep neural networks, 2017. URL https://arxiv.org/abs/1705.08500.",
+      "metadata": {
+        "title": "Selective Classification for Deep Neural Networks",
+        "authors": [
+          "Yonatan Geifman",
+          "Ran El-Yaniv"
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1705.08500",
+        "arxivId": "1705.08500",
+        "url": "https://arxiv.org/abs/1705.08500"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-conformal-alignment",
+      "rawKey": "conformal-alignment",
+      "display": "[11]",
+      "raw": "Yu Gui, Ying Jin, and Zhimei Ren. Conformal alignment: Knowing when to trust foundation models with guarantees, 2024. URL https://arxiv.org/abs/2405.10301.",
+      "metadata": {
+        "title": "Conformal Alignment: Knowing When to Trust Foundation Models with Guarantees",
+        "authors": [
+          "Yu Gui",
+          "Ying Jin",
+          "Zhi-Mei Ren"
+        ],
+        "year": 2024,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2405.10301",
+        "arxivId": "2405.10301",
+        "url": "https://arxiv.org/abs/2405.10301"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-token-level-uncertainty",
+      "rawKey": "token-level-uncertainty",
+      "display": "[12]",
+      "raw": "Neha Gupta, Harikrishna Narasimhan, Wittawat Jitkrittum, Ankit Singh Rawat, Aditya Krishna Menon, and Sanjiv Kumar. Language model cascades: Token-level uncertainty and beyond. In The Twelfth International Conference on Learning Representations, 2024. URL https://openreview.net/forum?id=KgaBScZ4VI.",
+      "metadata": {
+        "title": "Language Model Cascades: Token-level uncertainty and beyond",
+        "authors": [
+          "Neha Gupta",
+          "Harikrishna Narasimhan",
+          "Wittawat Jitkrittum",
+          "A. S. Rawat",
+          "A. Menon",
+          "Sanjiv Kumar"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2404.10136",
+        "arxivId": "2404.10136",
+        "url": "https://openreview.net/forum?id=KgaBScZ4VI"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mistral",
+      "rawKey": "mistral",
+      "display": "[13]",
+      "raw": "Albert Q. Jiang, Alexandre Sablayrolles, Arthur Mensch, Chris Bamford, Devendra Singh Chaplot, Diego de las Casas, Florian Bressand, Gianna Lengyel, Guillaume Lample, Lucile Saulnier, LÃlio Renard Lavaud, Marie-Anne Lachaux, Pierre Stock, Teven Le Scao, Thibaut Lavril, Thomas Wang, TimothÃe Lacroix, and William El Sayed. Mistral 7b, 2023. URL https://arxiv.org/abs/2310.06825.",
+      "metadata": {
+        "title": "Mistral 7B",
+        "authors": [
+          "Albert Q. Jiang",
+          "Alexandre Sablayrolles",
+          "Arthur Mensch",
+          "Chris Bamford",
+          "Devendra Singh Chaplot",
+          "Diego de las Casas",
+          "Florian Bressand",
+          "Gianna Lengyel",
+          "Guillaume Lample",
+          "Lucile Saulnier",
+          "LÃlio Renard Lavaud",
+          "Marie-Anne Lachaux",
+          "Pierre Stock",
+          "Teven Le Scao",
+          "Thibaut Lavril",
+          "Thomas Wang",
+          "TimothÃe Lacroix",
+          "William El Sayed"
+        ],
+        "year": 2023,
+        "arxivId": "2310.06825",
+        "url": "https://arxiv.org/abs/2310.06825"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/2310.06825",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mixtral",
+      "rawKey": "mixtral",
+      "display": "[14]",
+      "raw": "Albert Q. Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche Savary, Chris Bamford, Devendra Singh Chaplot, Diego de las Casas, Emma Bou Hanna, Florian Bressand, Gianna Lengyel, Guillaume Bour, Guillaume Lample, LÃlio Renard Lavaud, Lucile Saulnier, Marie-Anne Lachaux, Pierre Stock, Sandeep Subramanian, Sophia Yang, Szymon Antoniak, Teven Le Scao, ThÃophile Gervet, Thibaut Lavril, Thomas Wang, TimothÃe Lacroix, and William El Sayed. Mixtral of experts, 2024. URL https://arxiv.org/abs/2401.04088.",
+      "metadata": {
+        "title": "Mixtral of Experts",
+        "authors": [
+          "Albert Q. Jiang",
+          "Alexandre Sablayrolles",
+          "Antoine Roux",
+          "Arthur Mensch",
+          "Blanche Savary",
+          "Chris Bamford",
+          "Devendra Singh Chaplot",
+          "Diego de las Casas",
+          "Emma Bou Hanna",
+          "Florian Bressand",
+          "Gianna Lengyel",
+          "Guillaume Bour",
+          "Guillaume Lample",
+          "LÃlio Renard Lavaud",
+          "Lucile Saulnier",
+          "Marie-Anne Lachaux",
+          "Pierre Stock",
+          "Sandeep Subramanian",
+          "Sophia Yang",
+          "Szymon Antoniak",
+          "Teven Le Scao",
+          "ThÃophile Gervet",
+          "Thibaut Lavril",
+          "Thomas Wang",
+          "TimothÃe Lacroix",
+          "William El Sayed"
+        ],
+        "year": 2024,
+        "arxivId": "2401.04088",
+        "url": "https://arxiv.org/abs/2401.04088"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/2401.04088",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-language-models-mostly-know-what-they-know",
+      "rawKey": "language-models-mostly-know-what-they-know",
+      "display": "[15]",
+      "raw": "Saurav Kadavath, Tom Conerly, Amanda Askell, Tom Henighan, Dawn Drain, Ethan Perez, Nicholas Schiefer, Zac Hatfield-Dodds, Nova DasSarma, Eli Tran-Johnson, Scott Johnston, Sheer El-Showk, Andy Jones, Nelson Elhage, Tristan Hume, Anna Chen, Yuntao Bai, Sam Bowman, Stanislav Fort, Deep Ganguli, Danny Hernandez, Josh Jacobson, Jackson Kernion, Shauna Kravec, Liane Lovitt, Kamal Ndousse, Catherine Olsson, Sam Ringer, Dario Amodei, Tom Brown, Jack Clark, Nicholas Joseph, Ben Mann, Sam McCandlish, Chris Olah, and Jared Kaplan. Language models (mostly) know what they know, 2022. URL https://arxiv.org/abs/2207.05221.",
+      "metadata": {
+        "title": "Language Models (Mostly) Know What They Know",
+        "authors": [
+          "Saurav Kadavath",
+          "Tom Conerly",
+          "Amanda Askell",
+          "Tom Henighan",
+          "Dawn Drain",
+          "Ethan Perez",
+          "Nicholas Schiefer",
+          "Zac Hatfield-Dodds",
+          "Nova DasSarma",
+          "Eli Tran-Johnson",
+          "Scott Johnston",
+          "Sheer El-Showk",
+          "Andy Jones",
+          "Nelson Elhage",
+          "Tristan Hume",
+          "Anna Chen",
+          "Yuntao Bai",
+          "Sam Bowman",
+          "Stanislav Fort",
+          "Deep Ganguli",
+          "Danny Hernandez",
+          "Josh Jacobson",
+          "Jackson Kernion",
+          "Shauna Kravec",
+          "Liane Lovitt",
+          "Kamal Ndousse",
+          "Catherine Olsson",
+          "Sam Ringer",
+          "Dario Amodei",
+          "Tom Brown",
+          "Jack Clark",
+          "Nicholas Joseph",
+          "Ben Mann",
+          "Sam McCandlish",
+          "Chris Olah",
+          "Jared Kaplan"
+        ],
+        "year": 2022,
+        "arxivId": "2207.05221",
+        "url": "https://arxiv.org/abs/2207.05221"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-unfamiliar-fine-tuning-examples",
+      "rawKey": "unfamiliar-fine-tuning-examples",
+      "display": "[16]",
+      "raw": "Katie Kang, Eric Wallace, Claire Tomlin, Aviral Kumar, and Sergey Levine. Unfamiliar finetuning examples control how language models hallucinate, 2024. URL https://arxiv.org/abs/2403.05612.",
+      "metadata": {
+        "title": "Unfamiliar Finetuning Examples Control How Language Models Hallucinate",
+        "authors": [
+          "Katie Kang",
+          "Eric Wallace",
+          "C. Tomlin",
+          "Aviral Kumar",
+          "S. Levine"
+        ],
+        "year": 2024,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2403.05612",
+        "arxivId": "2403.05612",
+        "url": "https://arxiv.org/abs/2403.05612"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-calibration-tuning",
+      "rawKey": "calibration-tuning",
+      "display": "[17]",
+      "raw": "Sanyam Kapoor, Nate Gruver, Manley Roberts, Arka Pal, Samuel Dooley, Micah Goldblum, and Andrew Wilson. Calibration-tuning: Teaching large language models to know what they don't know. In Raul Vazquez, Hande Celikkanat, Dennis Ulmer, Jorg Tiedemann, Swabha Swayamdipta, Wilker Aziz, Barbara Plank, Joris Baan, and Marie-Catherine de Marneffe (eds.), Proceedings of the 1st Workshop on Uncertainty-Aware NLP (UncertaiNLP 2024), pp. 1--14, St Julians, Malta, March 2024. Association for Computational Linguistics. URL https://aclanthology.org/2024.uncertainlp-1.1.",
+      "metadata": {
+        "title": "Calibration-Tuning: Teaching Large Language Models to Know What They Don’t Know",
+        "authors": [
+          "Sanyam Kapoor",
+          "N. Gruver",
+          "Manley Roberts",
+          "Arka Pal",
+          "Samuel Dooley",
+          "Micah Goldblum",
+          "A. Wilson"
+        ],
+        "year": 2024,
+        "venue": "Proceedings of the 1st Workshop on Uncertainty-Aware NLP (UncertaiNLP 2024)",
+        "doi": "10.18653/v1/2024.uncertainlp-1.1",
+        "url": "https://aclanthology.org/2024.uncertainlp-1.1"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-prometheus-2",
+      "rawKey": "prometheus-2",
+      "display": "[18]",
+      "raw": "Seungone Kim, Juyoung Suk, Shayne Longpre, Bill Yuchen Lin, Jamin Shin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, and Minjoon Seo. Prometheus 2: An open source language model specialized in evaluating other language models, 2024. URL https://arxiv.org/abs/2405.01535.",
+      "metadata": {
+        "title": ": An open source language model",
+        "authors": [
+          "Seungone Kim",
+          "Juyoung Suk",
+          "Shayne Longpre",
+          "Bill Yuchen Lin",
+          "Jamin Shin",
+          "Sean Welleck",
+          "Graham Neubig",
+          "Moontae Lee",
+          "Kyungjae Lee",
+          "Minjoon Seo"
+        ],
+        "year": 2024,
+        "venue": "Prometheus 2",
+        "arxivId": "2405.01535",
+        "url": "https://arxiv.org/abs/2405.01535"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cobbler",
+      "rawKey": "cobbler",
+      "display": "[19]",
+      "raw": "Ryan Koo, Minhwa Lee, Vipul Raheja, Jong Inn Park, Zae Myung Kim, and Dongyeop Kang. Benchmarking cognitive biases in large language models as evaluators, 2023. URL https://arxiv.org/abs/2309.17012.",
+      "metadata": {
+        "title": "Benchmarking Cognitive Biases in Large Language Models as Evaluators",
+        "authors": [
+          "Ryan Koo",
+          "Minhwa Lee",
+          "Vipul Raheja",
+          "Jong Inn Park",
+          "Zae Myung Kim",
+          "Dongyeop Kang"
+        ],
+        "year": 2023,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2309.17012",
+        "arxivId": "2309.17012",
+        "url": "https://arxiv.org/abs/2309.17012"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-semantic-entropy",
+      "rawKey": "semantic-entropy",
+      "display": "[20]",
+      "raw": "Lorenz Kuhn, Yarin Gal, and Sebastian Farquhar. Semantic uncertainty: Linguistic invariances for uncertainty estimation in natural language generation. In The Eleventh International Conference on Learning Representations, 2023. URL https://openreview.net/forum?id=VD-AYtP0dve.",
+      "metadata": {
+        "title": "Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation",
+        "authors": [
+          "Lorenz Kuhn",
+          "Yarin Gal",
+          "Sebastian Farquhar"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2302.09664",
+        "arxivId": "2302.09664",
+        "url": "https://openreview.net/forum?id=VD-AYtP0dve"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-auto-j",
+      "rawKey": "auto-j",
+      "display": "[21]",
+      "raw": "Junlong Li, Shichao Sun, Weizhe Yuan, Run-Ze Fan, Hai Zhao, and Pengfei Liu. Generative judge for evaluating alignment, 2023. URL https://arxiv.org/abs/2310.05470.",
+      "metadata": {
+        "title": "Generative Judge for Evaluating Alignment",
+        "authors": [
+          "Junlong Li",
+          "Shichao Sun",
+          "Weizhe Yuan",
+          "Run-Ze Fan",
+          "Hai Zhao",
+          "Pengfei Liu"
+        ],
+        "year": 2023,
+        "arxivId": "2310.05470",
+        "url": "https://arxiv.org/abs/2310.05470"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-preference-dissection",
+      "rawKey": "preference-dissection",
+      "display": "[22]",
+      "raw": "Junlong Li, Fan Zhou, Shichao Sun, Yikai Zhang, Hai Zhao, and Pengfei Liu. Dissecting human and llm preferences, 2024a. URL https://arxiv.org/abs/2402.11296.",
+      "metadata": {
+        "title": "Dissecting Human and LLM Preferences",
+        "authors": [
+          "Junlong Li",
+          "Fan Zhou",
+          "Shichao Sun",
+          "Yikai Zhang",
+          "Hai Zhao",
+          "Pengfei Liu"
+        ],
+        "year": 2024,
+        "arxivId": "2402.11296",
+        "url": "https://arxiv.org/abs/2402.11296"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-arena-hard",
+      "rawKey": "arena-hard",
+      "display": "[23]",
+      "raw": "Tianle Li, Wei-Lin Chiang, Evan Frick, Lisa Dunlap, Tianhao Wu, Banghua Zhu, Joseph E. Gonzalez, and Ion Stoica. From crowdsourced data to high-quality benchmarks: Arena-hard and benchbuilder pipeline, 2024b.",
+      "metadata": {
+        "title": "crowdsourced data to high-quality",
+        "authors": [
+          "Tianle Li",
+          "Wei-Lin Chiang",
+          "Evan Frick",
+          "Lisa Dunlap",
+          "Tianhao Wu",
+          "Banghua Zhu",
+          "Joseph E. Gonzalez",
+          "Ion Stoica"
+        ],
+        "year": 2024,
+        "venue": "From",
+        "arxivId": "2406.11939"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-semantic-eigenvalue",
+      "rawKey": "semantic-eigenvalue",
+      "display": "[24]",
+      "raw": "Zhen Lin, Shubhendu Trivedi, and Jimeng Sun. Generating with confidence: Uncertainty quantification for black-box large language models, 2024. URL https://openreview.net/forum?id=XJiN1VkgA0.",
+      "metadata": {
+        "title": "Generating with Confidence: Uncertainty Quantification for Black-box Large Language Models",
+        "authors": [
+          "Zhen Lin",
+          "Shubhendu Trivedi",
+          "Ji-Meng Sun"
+        ],
+        "year": 2023,
+        "venue": "Trans. Mach. Learn. Res.",
+        "doi": "10.48550/arXiv.2305.19187",
+        "arxivId": "2305.19187",
+        "url": "https://openreview.net/forum?id=XJiN1VkgA0"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpteval",
+      "rawKey": "gpteval",
+      "display": "[25]",
+      "raw": "Yang Liu, Dan Iter, Yichong Xu, Shuohang Wang, Ruochen Xu, and Chenguang Zhu. G-eval: NLG evaluation using gpt-4 with better human alignment. In Houda Bouamor, Juan Pino, and Kalika Bali (eds.), Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pp. 2511--2522, Singapore, December 2023. Association for Computational Linguistics. 10.18653/v1/2023.emnlp-main.153. URL https://aclanthology.org/2023.emnlp-main.153.",
+      "metadata": {
+        "title": "G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment",
+        "authors": [
+          "Yang Liu",
+          "Dan Iter",
+          "Yi-Chong Xu",
+          "Shuo Wang",
+          "Ruochen Xu",
+          "Chenguang Zhu"
+        ],
+        "year": 2023,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2023.emnlp-main.153",
+        "arxivId": "2303.16634",
+        "url": "https://aclanthology.org/2023.emnlp-main.153"
+      },
+      "localMatch": {
+        "paperPath": "papers/模型评测/2303.16634",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-conformal-factuality-guarantee",
+      "rawKey": "conformal-factuality-guarantee",
+      "display": "[26]",
+      "raw": "Christopher Mohri and Tatsunori Hashimoto. Language models with conformal factuality guarantees. In Forty-first International Conference on Machine Learning, 2023.",
+      "metadata": {
+        "title": "Language Models with Conformal Factuality Guarantees",
+        "authors": [
+          "Christopher Mohri",
+          "Tatsunori B. Hashimoto"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2402.10978",
+        "arxivId": "2402.10978",
+        "url": "https://www.semanticscholar.org/paper/2495700b4303512784fbdbfccc58c6c4f7771ac2"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ece",
+      "rawKey": "ece",
+      "display": "[27]",
+      "raw": "Mahdi Pakdaman Naeini, Gregory Cooper, and Milos Hauskrecht. Obtaining well calibrated probabilities using bayesian binning. In Proceedings of the AAAI conference on artificial intelligence, volume 29, 2015.",
+      "metadata": {
+        "title": "Obtaining Well Calibrated Probabilities Using Bayesian Binning",
+        "authors": [
+          "Mahdi Pakdaman Naeini",
+          "G. Cooper",
+          "M. Hauskrecht"
+        ],
+        "year": 2015,
+        "venue": "Proceedings of the ... AAAI Conference on Artificial Intelligence. AAAI Conference on Artificial Intelligence",
+        "doi": "10.1609/aaai.v29i1.9602",
+        "url": "https://www.semanticscholar.org/paper/8d115c3b2ee80e0754360a154a9369bc1658b607"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-self-preference",
+      "rawKey": "self-preference",
+      "display": "[28]",
+      "raw": "Arjun Panickssery, Samuel R. Bowman, and Shi Feng. Llm evaluators recognize and favor their own generations, 2024. URL https://arxiv.org/abs/2404.13076.",
+      "metadata": {
+        "title": "LLM Evaluators Recognize and Favor Their Own Generations",
+        "authors": [
+          "Arjun Panickssery",
+          "Samuel R. Bowman",
+          "Shi Feng"
+        ],
+        "year": 2024,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2404.13076",
+        "arxivId": "2404.13076",
+        "url": "https://arxiv.org/abs/2404.13076"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-evaluation-metrics-in-the-era",
+      "rawKey": "evaluation-metrics-in-the-era",
+      "display": "[29]",
+      "raw": "Andrea Sottana, Bin Liang, Kai Zou, and Zheng Yuan. Evaluation metrics in the era of GPT-4: Reliably evaluating large language models on sequence to sequence tasks. In The 2023 Conference on Empirical Methods in Natural Language Processing, 2023. URL https://openreview.net/forum?id=SyEwsV52Dk.",
+      "metadata": {
+        "title": "Evaluation Metrics in the Era of GPT-4: Reliably Evaluating Large Language Models on Sequence to Sequence Tasks",
+        "authors": [
+          "Andrea Sottana",
+          "Bin Liang",
+          "Kai Zou",
+          "Zheng Yuan"
+        ],
+        "year": 2023,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.48550/arXiv.2310.13800",
+        "arxivId": "2310.13800",
+        "url": "https://openreview.net/forum?id=SyEwsV52Dk"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-summarize-from-human-feedback",
+      "rawKey": "summarize-from-human-feedback",
+      "display": "[30]",
+      "raw": "Nisan Stiennon, Long Ouyang, Jeffrey Wu, Daniel Ziegler, Ryan Lowe, Chelsea Voss, Alec Radford, Dario Amodei, and Paul F Christiano. Learning to summarize with human feedback. Advances in Neural Information Processing Systems, 33: 3008--3021, 2020.",
+      "metadata": {
+        "title": "Learning to summarize from human feedback",
+        "authors": [
+          "Nisan Stiennon",
+          "Long Ouyang",
+          "Jeff Wu",
+          "Daniel M. Ziegler",
+          "Ryan J. Lowe",
+          "Chelsea Voss",
+          "A. Radford",
+          "D. Amodei",
+          "Paul Christiano"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2009.01325",
+        "arxivId": "2009.01325",
+        "url": "https://www.semanticscholar.org/paper/053b1d7b97eb2c91fc3921d589c160b0923c70b1"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-judging-judges",
+      "rawKey": "judging-judges",
+      "display": "[31]",
+      "raw": "Aman Singh Thakur, Kartik Choudhary, Venkat Srinik Ramayapally, Sankaran Vaidyanathan, and Dieuwke Hupkes. Judging the judges: Evaluating alignment and vulnerabilities in llms-as-judges, 2024. URL https://arxiv.org/abs/2406.12624.",
+      "metadata": {
+        "title": "Judging the Judges: Evaluating Alignment and Vulnerabilities in LLMs-as-Judges",
+        "authors": [
+          "Aman Singh Thakur",
+          "Kartik Choudhary",
+          "Venkat Srinik Ramayapally",
+          "Sankaran Vaidyanathan",
+          "D. Hupkes"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2406.12624",
+        "arxivId": "2406.12624",
+        "url": "https://arxiv.org/abs/2406.12624"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fine-tuning-LMs-for-factuality",
+      "rawKey": "fine-tuning-LMs-for-factuality",
+      "display": "[32]",
+      "raw": "Katherine Tian, Eric Mitchell, Huaxiu Yao, Christopher D. Manning, and Chelsea Finn. Fine-tuning language models for factuality, 2023a. URL https://arxiv.org/abs/2311.08401.",
+      "metadata": {
+        "title": "Fine-tuning Language Models for Factuality",
+        "authors": [
+          "Katherine Tian",
+          "Eric Mitchell",
+          "Hua-Xiu Yao",
+          "Christopher D. Manning",
+          "C. Finn"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2311.08401",
+        "arxivId": "2311.08401",
+        "url": "https://arxiv.org/abs/2311.08401"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-verbalized-confidence",
+      "rawKey": "verbalized-confidence",
+      "display": "[33]",
+      "raw": "Katherine Tian, Eric Mitchell, Allan Zhou, Archit Sharma, Rafael Rafailov, Huaxiu Yao, Chelsea Finn, and Christopher Manning. Just ask for calibration: Strategies for eliciting calibrated confidence scores from language models fine-tuned with human feedback. In Houda Bouamor, Juan Pino, and Kalika Bali (eds.), Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pp. 5433--5442, Singapore, December 2023b. Association for Computational Linguistics. 10.18653/v1/2023.emnlp-main.330. URL https://aclanthology.org/2023.emnlp-main.330.",
+      "metadata": {
+        "title": "Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback",
+        "authors": [
+          "Katherine Tian",
+          "E. Mitchell",
+          "Allan Zhou",
+          "Archit Sharma",
+          "Rafael Rafailov",
+          "Huaxiu Yao",
+          "C. Finn",
+          "Christopher D. Manning"
+        ],
+        "year": 2023,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2023.emnlp-main.330",
+        "arxivId": "2305.14975",
+        "url": "https://aclanthology.org/2023.emnlp-main.330"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-replacing-judges-with-juries",
+      "rawKey": "replacing-judges-with-juries",
+      "display": "[34]",
+      "raw": "Pat Verga, Sebastian Hofstatter, Sophia Althammer, Yixuan Su, Aleksandra Piktus, Arkady Arkhangorodsky, Minjie Xu, Naomi White, and Patrick Lewis. Replacing judges with juries: Evaluating llm generations with a panel of diverse models, 2024. URL https://arxiv.org/abs/2404.18796.",
+      "metadata": {
+        "title": "Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models",
+        "authors": [
+          "Pat Verga",
+          "Sebastian Hofstätter",
+          "Sophia Althammer",
+          "Yixuan Su",
+          "Aleksandra Piktus",
+          "Arkady Arkhangorodsky",
+          "Minjie Xu",
+          "Naomi White",
+          "Patrick Lewis"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2404.18796",
+        "arxivId": "2404.18796",
+        "url": "https://arxiv.org/abs/2404.18796"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-LLMs-are-not-fair-evaluators",
+      "rawKey": "LLMs-are-not-fair-evaluators",
+      "display": "[35]",
+      "raw": "Peiyi Wang, Lei Li, Liang Chen, Zefan Cai, Dawei Zhu, Binghuai Lin, Yunbo Cao, Qi Liu, Tianyu Liu, and Zhifang Sui. Large language models are not fair evaluators, 2023. URL https://arxiv.org/abs/2305.17926.",
+      "metadata": {
+        "title": "Large Language Models are not Fair Evaluators",
+        "authors": [
+          "Peiyi Wang",
+          "Lei Li",
+          "Liang Chen",
+          "Ze-Fan Cai",
+          "Dawei Zhu",
+          "Bing-Huai Lin",
+          "Yun-Bo Cao",
+          "Ling-Peng Kong",
+          "Qi Liu",
+          "Tianyu Liu",
+          "Z. Sui"
+        ],
+        "year": 2023,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2305.17926",
+        "arxivId": "2305.17926",
+        "url": "https://arxiv.org/abs/2305.17926"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-confidence-elicitation",
+      "rawKey": "confidence-elicitation",
+      "display": "[36]",
+      "raw": "Miao Xiong, Zhiyuan Hu, Xinyang Lu, YIFEI LI, Jie Fu, Junxian He, and Bryan Hooi. Can LLMs express their uncertainty? an empirical evaluation of confidence elicitation in LLMs. In The Twelfth International Conference on Learning Representations, 2024. URL https://openreview.net/forum?id=gjeQKFxFpZ.",
+      "metadata": {
+        "title": "Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs",
+        "authors": [
+          "Miao Xiong",
+          "Zhiyuan Hu",
+          "Xinyang Lu",
+          "Yifei Li",
+          "Jie Fu",
+          "Jun-Xian He",
+          "Bryan Hooi"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2306.13063",
+        "arxivId": "2306.13063",
+        "url": "https://openreview.net/forum?id=gjeQKFxFpZ"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-conformal-abstention",
+      "rawKey": "conformal-abstention",
+      "display": "[37]",
+      "raw": "Yasin Abbasi Yadkori, Ilja Kuzborskij, David Stutz, AndrÃs GyÃrgy, Adam Fisch, Arnaud Doucet, Iuliya Beloshapka, Wei-Hung Weng, Yao-Yuan Yang, Csaba SzepesvÃri, Ali Taylan Cemgil, and Nenad Tomasev. Mitigating llm hallucinations via conformal abstention, 2024. URL https://arxiv.org/abs/2405.01563.",
+      "metadata": {
+        "title": "Mitigating LLM Hallucinations via Conformal Abstention",
+        "authors": [
+          "Yasin Abbasi Yadkori",
+          "Ilja Kuzborskij",
+          "David Stutz",
+          "AndrÃs GyÃrgy",
+          "Adam Fisch",
+          "Arnaud Doucet",
+          "Iuliya Beloshapka",
+          "Wei-Hung Weng",
+          "Yao-Yuan Yang",
+          "Csaba SzepesvÃri",
+          "Ali Taylan Cemgil",
+          "Nenad Tomasev"
+        ],
+        "year": 2024,
+        "arxivId": "2405.01563",
+        "url": "https://arxiv.org/abs/2405.01563"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-llmbar",
+      "rawKey": "llmbar",
+      "display": "[38]",
+      "raw": "Zhiyuan Zeng, Jiatong Yu, Tianyu Gao, Yu Meng, Tanya Goyal, and Danqi Chen. Evaluating large language models at evaluating instruction following. In The Twelfth International Conference on Learning Representations, 2024.",
+      "metadata": {
+        "title": "Evaluating Large Language Models at Evaluating Instruction Following",
+        "authors": [
+          "Zhiyuan Zeng",
+          "Jia-Tong Yu",
+          "Tianyu Gao",
+          "Yu Meng",
+          "Tanya Goyal",
+          "Danqi Chen"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2310.07641",
+        "arxivId": "2310.07641",
+        "url": "https://www.semanticscholar.org/paper/6f217d984f36499d88ab8a3d89572171552e6f3f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-alignscore",
+      "rawKey": "alignscore",
+      "display": "[39]",
+      "raw": "Yuheng Zha, Yichi Yang, Ruichen Li, and Zhiting Hu. AlignScore: Evaluating factual consistency with a unified alignment function. In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki (eds.), Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 11328--11348, Toronto, Canada, July 2023. Association for Computational Linguistics. 10.18653/v1/2023.acl-long.634. URL https://aclanthology.org/2023.acl-long.634.",
+      "metadata": {
+        "title": "AlignScore: Evaluating Factual Consistency with A Unified Alignment Function",
+        "authors": [
+          "Yuheng Zha",
+          "Yichi Yang",
+          "Ruichen Li",
+          "Zhiting Hu"
+        ],
+        "year": 2023,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2023.acl-long.634",
+        "arxivId": "2305.16739",
+        "url": "https://aclanthology.org/2023.acl-long.634"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-r-tuning",
+      "rawKey": "r-tuning",
+      "display": "[40]",
+      "raw": "Hanning Zhang, Shizhe Diao, Yong Lin, Yi Fung, Qing Lian, Xingyao Wang, Yangyi Chen, Heng Ji, and Tong Zhang. R-tuning: Instructing large language models to say `I don't know'. In Kevin Duh, Helena Gomez, and Steven Bethard (eds.), Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers), pp. 7113--7139, Mexico City, Mexico, June 2024. Association for Computational Linguistics. URL https://aclanthology.org/2024.naacl-long.394.",
+      "metadata": {
+        "title": "R-Tuning: Instructing Large Language Models to Say ‘I Don’t Know’",
+        "authors": [
+          "Han-Ning Zhang",
+          "Shizhe Diao",
+          "Yong Lin",
+          "Yi R. Fung",
+          "Qing Lian",
+          "Xingyao Wang",
+          "Yangyi Chen",
+          "Heng Ji",
+          "Tong Zhang"
+        ],
+        "year": 2023,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2024.naacl-long.394",
+        "arxivId": "2311.09677",
+        "url": "https://aclanthology.org/2024.naacl-long.394"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mt-bench",
+      "rawKey": "mt-bench",
+      "display": "[41]",
+      "raw": "Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica. Judging LLM-as-a-judge with MT-bench and chatbot arena. In Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track, 2023. URL https://openreview.net/forum?id=uccHPGDlao.",
+      "metadata": {
+        "title": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
+        "authors": [
+          "Lian-Min Zheng",
+          "Wei-Lin Chiang",
+          "Ying Sheng",
+          "Si-Yuan Zhuang",
+          "Zhanghao Wu",
+          "Yong-Hao Zhuang",
+          "Zi Lin",
+          "Zhuo-Han Li",
+          "Da-Cheng Li",
+          "E. Xing",
+          "Haotong Zhang",
+          "Joseph E. Gonzalez",
+          "I. Stoica"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.52202/075280-2020",
+        "arxivId": "2306.05685",
+        "url": "https://openreview.net/forum?id=uccHPGDlao"
+      },
+      "localMatch": {
+        "paperPath": "papers/模型评测/2306.05685",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-judgelm",
+      "rawKey": "judgelm",
+      "display": "[42]",
+      "raw": "Lianghui Zhu, Xinggang Wang, and Xinlong Wang. Judgelm: Fine-tuned large language models are scalable judges, 2023. URL https://arxiv.org/abs/2310.17631.",
+      "metadata": {
+        "title": "JudgeLM: Fine-tuned Large Language Models are Scalable Judges",
+        "authors": [
+          "Liang-Hui Zhu",
+          "Xing-Gang Wang",
+          "Xin-Long Wang"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2310.17631",
+        "arxivId": "2310.17631",
+        "url": "https://arxiv.org/abs/2310.17631"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 42 entries (bbl)",
+    "semantic scholar: 37 references",
+    "merged: 36 of 42 enriched online"
+  ]
+}

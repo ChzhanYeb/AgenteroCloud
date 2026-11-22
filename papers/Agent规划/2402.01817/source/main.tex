@@ -1,0 +1,1322 @@
+%%%%%%%% ICML 2024 EXAMPLE LATEX SUBMISSION FILE %%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+
+%\newcommand{\bnote}[1]{\color{blue}#1\color{black}}
+\newcommand{\bnote}[1]{\color{black}#1\color{black}}
+
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{booktabs} % for professional tables
+
+
+
+% hyperref makes hyperlinks in the resulting PDF.
+% If your build breaks (sometimes temporarily if a hyperlink spans a page)
+% please comment out the following usepackage line and replace
+% \usepackage{icml2024} with \usepackage[nohyperref]{icml2024} above.
+%\usepackage{hyperref}
+\usepackage[hyperfootnotes=false]{hyperref}
+
+
+% Attempt to make hyperref and algorithmic work together better:
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+\newcommand{\rao}[1]{\noindent\textcolor{red}{#1}}
+
+\usepackage{multirow}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+% Use the following line for the initial blind version submitted for review:
+%\usepackage[accepted]{icml2024}
+
+%\usepackage[preprint]{neurips_2023}
+
+% If accepted, instead use the following line for the camera-ready submission:
+\usepackage[accepted]{icml2024}
+
+% For theorems and such
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\input{commands.tex}
+
+% if you use cleveref..
+\usepackage[capitalize,noabbrev]{cleveref}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% THEOREMS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}[theorem]{Assumption}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% Todonotes is useful during development; simply uncomment the next line
+%    and comment out the line below the next line to turn off comments
+%\usepackage[disable,textsize=tiny]{todonotes}
+\usepackage[textsize=tiny]{todonotes}
+
+\usepackage{listings}
+%\usepackage[most,minted]{tcolorbox}
+%\def\baselinestretch{1.1}
+
+% The \icmltitle you define below is probably too long as a header.
+% Therefore, a short form for the running title is supplied here:
+%\icmltitlerunning{LLM-Modulo Architectures}
+
+%\renewcommand{\cite}[1]{\citep{#1}}
+%Had to do this so I could get icml bibstyle with neurips page size
+
+
+
+
+
+\begin{document}
+% "Position Paper:" has to be a part of the title according to the guidelines
+%\twocolumn[
+%\icmltitle{LLMs Can't Plan, But Can Help Planning in LLM-Modulo Frameworks}
+%\icmltitle{Position Paper: As Approximate Knowledge Sources, LLMs can Neither Plan nor Self-Verify, But can Provide Constructive Support in LLM-Modulo Architectures for Planning/Reasoning}
+%\icmltitle{Position Paper: LLMs are Approximate Knowledge Sources that can Neither Plan nor Self-Verify, But can be Gainfully Used in LLM-Modulo Architectures for Planning/Reasoning}
+%\icmltitle{Position Paper: LLMs should be viewed as Approximate Knowledge Sources and used in LLM-Modulo Architectures for Planning and Reasoning}
+%\icmltitle{Position Paper: LLMs are Approximate Knowledge Sources that are best used in LLM-Modulo Architectures for Planning and Reasoning}
+%\icmltitle{Position Paper: Leveraging LLMs in Planning without delusions}
+%\icmltitle{Position Paper: LLMs are Idea Generators and are best used in LLM-Modulo Architectures for Planning and Reasoning}
+%\icmltitle{Position Paper: LLM-Modulo Architectures: A Robust way to leverage LLMs for Planning}
+%\icmltitle{Critiques Are All You Need! \\ Leveraging the Planning, Reasoning, and Self-Critique Abilities of Large Language Models.}
+
+% It is OKAY to include author information, even for blind
+% submissions: the style file will automatically remove it for you
+% unless you've provided the [accepted] option to the icml2024
+% package.
+
+% List of affiliations: The first argument should be a (short)
+% identifier you will use later to specify author affiliations
+% Academic affiliations should list Department, University, City, Region, Country
+% Industry affiliations should list Company, City, Region, Country
+
+% You can specify symbols, otherwise they are numbered in order.
+% Ideally, you should not use this facility. Affiliations will be numbered
+% in order of appearance and this is the preferred way.
+%\icmlsetsymbol{equal}{*}
+
+
+\icmltitlerunning{LLM-Modulo Framework for Robust Planning}
+
+%\begin{document}
+% "Position Paper:" has to be a part of the title according to the guidelines
+\twocolumn[
+\icmltitle{Position: LLMs Can't Plan,\\
+But Can Help Planning in LLM-Modulo Frameworks}
+
+
+
+\begin{icmlauthorlist}
+% % LSaldyt: I added the following based on how I parsed Rao's slack messages regarding authorship
+\icmlauthor{Subbarao Kambhampati}{asu}
+\icmlauthor{Karthik Valmeekam}{asu}
+\icmlauthor{Lin Guan}{asu}
+\icmlauthor{Mudit Verma}{asu}
+\icmlauthor{Kaya Stechly}{asu}
+\icmlauthor{Siddhant Bhambri}{asu}
+\icmlauthor{Lucas Saldyt}{asu}
+\icmlauthor{Anil Murthy}{asu}
+%\icmlauthor{}{sch}
+%\icmlauthor{Firstname8 Lastname8}{sch}
+%\icmlauthor{Firstname8 Lastname8}{yyy,comp}
+%\icmlauthor{}{sch}
+%\icmlauthor{}{sch}
+\end{icmlauthorlist}
+
+\icmlaffiliation{asu}{School of Computing and AI, Arizona State University, Tempe, AZ, USA}
+% %\icmlaffiliation{comp}{Company Name, Location, Country}
+% %\icmlaffiliation{sch}{School of ZZZ, Institute of WWW, Location, Country}
+
+\icmlcorrespondingauthor{Subbarao Kambhampati}{rao@asu.edu}
+% %\icmlcorrespondingauthor{Firstname2 Lastname2}{first2.last2@www.uk}
+
+% % You may provide any keywords that you
+% % find helpful for describing your paper; these are used to populate
+% % the "keywords" metadata in the PDF but will not be shown in the document
+\icmlkeywords{LLMs, Planning, Reasoning}
+
+\vskip 0.3in
+]
+
+% this must go after the closing bracket ] following \twocolumn[ ...
+
+% This command actually creates the footnote in the first column
+% listing the affiliations and the copyright notice.
+% The command takes one argument, which is text to display at the start of the footnote.
+% The \icmlEqualContribution command is standard text for equal contribution.
+% Remove it (just {}) if you do not need this facility.
+
+\printAffiliationsAndNotice{}  % leave blank if no need to mention equal contribution
+%\printAffiliationsAndNotice{\icmlEqualContribution} % otherwise use the standard text.
+%\maketitle
+
+\begin{abstract}
+%There is considerable confusion about the role of Large Language Models (LLMs) in planning and reasoning tasks. On one side are over-optimistic claims that LLMs can indeed do these tasks with just the right prompting or self-verification strategies. On the other side are perhaps over-pessimistic claims that all that LLMs are good for in planning/reasoning tasks are as mere translators of the problem specification from one syntactic format to another, and ship the problem off to external symbolic solvers. In this position paper, we take the view that both these extremes are misguided. 
+We argue that auto-regressive LLMs cannot, by themselves, do planning or self-verification (which is after all a form of reasoning), and shed some light on the reasons for misunderstandings in the literature. We also argue that LLMs should be viewed as universal approximate knowledge sources that have much more meaningful roles to play in planning/reasoning tasks beyond simple front-end/back-end format translators. We present a vision of {\bf LLM-Modulo Frameworks} that combines the strengths of LLMs with external model-based verifiers in a tighter bi-directional interaction regime. We will show how the models driving the external verifiers themselves can be acquired with the help of LLMs. We will also argue that rather than simply pipelining LLMs and symbolic components, this LLM-Modulo Framework provides a  better \textit{neuro-symbolic} approach that offers tighter integration between LLMs and symbolic components, extending the scope of model-based planning/reasoning regimes towards more flexible knowledge, problem and preference specifications. 
+
+%\rao{Lucas: When you say "better", you may want to be more specific, e.g. "this neuro-symbolic approach offers tighter integration, which is more effective at finding feasible plans for difficult problems". You might also consider contrasting to other so-called "neuro-symbolic" approaches that simply glue things together haphazardly.}
+
+% \rao{Rao will rewrite--Even though LLM reasoning is faulty, LLMs can be useful in planning}
+% \rao{How and how not to use LLMs in Planning}
+% Large Language Models (LLMs), initially developed as prompt-completion systems, have been attributed with a range of competencies, including planning and reasoning. The latter capabilities, if true, would certainly help increase the utility of LLMs by making them a basis for advisable agents. Research in this direction showed reasons to be skeptical about the planning, reasoning, and self-critiquing abilities of LLMs in autonomous modes. However, this does not render them ineffective in such tasks. Instead, we propose a constructive role for LLMs within a framework we term LLM-Modulo, where LLMs act primarily as idea generators. In this framework, LLMs propose candidate plans or ideas that are then subjected to critique by various external systems that specialize in different aspects of evaluation. We discuss the integration of LLMs into broader systems, capitalizing on their strengths in idea generation, while external mechanisms manage the critique. 
+%  \rao{Lucas: It seems that the two main uses of LLMs in LLM-Modulo are for flexible knowledge representation and idea (plan) generation. If you agree, you may want to mention flexible KR explicitly in the abstract.}
+% This collaborative approach, we argue, can substantially increase the practical utility of LLMs in the context of planning and reasoning.
+\end{abstract}
+
+\setcounter{footnote}{0}
+
+
+\section{Introduction}
+\label{sec:intro}
+
+%\rao{the neurips style is making citations come without brackets..}
+%\rao{Explicit knowledge/Reasoning tasks..}
+
+%\rao{New outline There is a land rush on using LLMs in reasoning/planning tasks; but the literature is often full of wrong claims. (Use the intro from GPT4 doesn't know paper). Misleading claims: LLMs doing systematic problem-solving search (ToT); or self-verification (Voyager)--when all they use is a simulator. It is not that LLMs are not quite amazing.. trained as they have been on the collective subconscious of humanity--as uploaded to Internet, they possess a certain kind of {\em approximate omniscience}. This can be leveraged in fruitful ways.  The best way to view them is approximate knowledge sources. The point about code too? Alchemy quote? This position paper is a plea to avoid LLM Alchemy and use them with appropriate care.}
+
+%\rao{Lucas: I like that we explicitly say previous claims are \textit{wrong}, since that's the truth. Avoiding sugarcoating (personally) seems preferable (it is your choice), so if you choose not to sugarcoat, perhaps the abstract could be more direct as well (e.g. replace ``reasons to be skeptical" with ``empirically wrong" if warranted)}.
+
+%\rao{\bf Looking at the Call for Papers, they are looking more for a position than a vision.. Our position is that most of the work claiming planning and verification capabilities for LLMs is misleading. It is in part because of confusing approximate retrieval for reasoning. We argue for LLM-Modulo}
+
+%\rao{How to include icml Lin paper? The lessons of what to do .. mention the bright side as getting away from DRL polanyi --- Lin: sent in slack msg}
+
+%\rao{about the CACM Blog thing--using it may be fine to make this a perspective paper}
+
+%\rao{have to state that the current claims about planning/reasoning are largely misdirected. Get related work from the NeuriPS paper?}
+
+%\rao{when people claim that LLMs do planning they are ignoring the effect of human-in-the-loop back prompting and approximate retrieval}
+
+
+
+Large Language Models (LLMs), essentially n-gram models on steroids which have been pre-trained on web-scale language corpora
+%\rao{Kaya: "corpora"? or "a" before "web-scale"}
+(or, effectively, our collective consciousness), have caught the imagination of the AI research community with linguistic capabilities that no one expected text completion systems to possess. Their seeming versatility has led many researchers to wonder whether they can also do well on planning and reasoning tasks typically associated with System 2 competency. On the face of it, this doesn't seem to ring true, as both by training and operation, LLMs are best seen as a giant pseudo System 1 \cite{thinking-fast-slow} (see Figure~\ref{fig:sys12}). Even from a pure engineering perspective, a system that takes constant time to produce the next token cannot possibly be doing principled reasoning on its own.\footnote{Think of asking an LLM an yes/no question--{\em is this theorem logically entailed by this first-order logic knowledge-base}. This is well-known to be a semi-decidable problem. Ask yourself if the LLM will take longer in answering the question.  
+(If you are thinking Chain-of-thought prompts or training with step-by-step data, consider that you are essentially changing the nature of the original prompt/training).
+%or even the over the top deliberately introducing "Pause" commands doesn't change anything.
+}
+Not surprisingly, initial excitement based on anecdotal performance of
+LLMs on reasoning tasks \cite{bubeck2023sparks} has been dissipated to some
+extent by the recent spate of studies, including our own, questioning the robustness of such behaviors--be they planning \cite{valmeekam2023on,rao-cacm}, simple arithmetic and logic \cite{dziri2023faith}, theory of mind \cite{ullman2023large,verma2024theory}, or general mathematical and abstract benchmarks \cite{mccoy2023embers,gendron2023large}.
+%
+Despite this, a steady stream of claims continue to be made in the
+literature about the planning and reasoning capabilities of LLMs.
+%
+In light of questions about their planning capabilities, the head-long rush into agentic LLMs should be particularly concerning. After all, acting without
+the ability to plan is surely a recipe for unpleasant consequences!
+
+
+In an ironic juxtaposition to this unwarranted optimism about the planning and reasoning abilities of LLMs, there is also unwarranted pessimism about the roles LLMs can play in planning/reasoning tasks. Several efforts (e.g. \cite{liu2023llm+,pan2023logic,xie2023translating}) advocate using LLMs only as glorified translators--converting reasoning problems embedded in textual format to symbolic representations, and pawning them off to external classical symbolic solvers (with all their attendant expressivity and search complexity challenges \cite{twotheses-kr}).\footnote{In some circles, this unidirectional pipeline has been given the undeserved badge of \textit{neuro-symbolic architecture}.
+
+%, although one wonders why an LLM extracting and thro
+}
+%\rao{Anil: Cited Harold Soh's Paper, Ignore below comment}
+%\rao{Anil: Should the NUS Harold Soh's Paper be cited above? "Translating Natural Language to Planning Goals with LLMs" https://arxiv.org/abs/2302.05128 - They use LLMs to translate NL goals to PDDL as a central result} 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{images/sys1-2-fig.jpeg}
+    \caption{An informal account of viewing an LLM as a giant external non-veridical memory that acts as a pseudo System 1}
+    \label{fig:sys12}
+\end{figure}
+
+In truth, LLMs can be a whole lot more than machine translators. They are a kind of approximate knowledge source (albeit sans guarantees) trained on our collective consciousness. While it is unlikely that they will have System 2 competencies by themselves, they can nevertheless be valuable resources in solving System 2 tasks. To put it another way, the problem with Alchemy of yore was not that Chemistry is useless, but that people wanted to delude themselves that Chemistry--a pretty amazing discipline on its own merits--can be Nuclear Physics if you prompt it just so. The confusions regarding LLM abilities, or should we say, LLM alchemy, doesn't seem to be much different--oscillating between ignoring their strengths, and ascribing abilities they don't have.
+%\footnote{}
+
+
+%LLMs can do so much cross-fertilization 
+
+
+%Mention knowledge sources
+
+%On the face of it, there is no reason to believe that LLMs, which at best 
+
+%\rao{put the t-shirt thing?}
+
+% The delusion comes chiefly from our incessant need to confuse them for
+% human intelligence,  merrily applying anthropomorphic concepts such as
+% thinking , thoughts, reasoning and self-critiquing to LLMs.
+% This anthropomorphization is quite futile, as as we shall see in Section
+% 2, even counterproductive and misleading.
+% %
+% While no one quite foresaw how impressive the approximate omniscience
+% of these n-gram models on steroids would be, that doesn't quite justify
+% assuming that they do everything humans do.
+% %
+% If we can manage to tone down the "LLMs are Zero-shot <XXX>" studies
+% rife with confirmation biases that conflate approximate retrieval for
+% other capabilities associated with human intelligence
+% we can focus on the right way of leveraging the strengths of LLMs. This
+% can certainly be done in LLM-modulo architectures, with either humans or
+% other specialized sound reasoners in the loop).
+
+%\rao{discuss system 1/2}
+
+The goal of this position paper is to introduce some clarity into this confusing state of affairs oscillating between over-optimism and over-pessimism. 
+%\fromrao{some of this can go to conclusion too}
+Simply put, we take the stance that 
+LLMs are amazing giant external non-veridical memories that can serve as
+powerful cognitive orthotics for human or machine agents, if rightly
+used. The underlying n-gram nature makes them effortlessly intermix what
+would be considered disparate fields of study (not surprisingly, LLMs
+are seen to be very good at making/finding analogies!). The challenge is
+to leverage them without wrongly ascribing to them capabilities they
+don't possess. The {\bf LLM-Modulo framework} proposed in this position paper tackles this challenge.
+
+%we argue this is possible. 
+%\rao{Lucas: "argue this is possible" in (my opinion, caveat emptor) is weaker than something like "demonstrate this in our proposed neuro-symbolic LLM Modulo architecture"}
+
+For the sake of concreteness, we consider planning tasks, especially as studied in the automated planning community \cite{ghallab2004automated}. 
+%Notice that in theory it is possible for LLMs to be very effective as idea generators for external sound planners or humans in the loop in computer-supported cooperative work scenarios, while themselves being very bad at generating plans that are guaranteed to be correct. This is especially likely because the chief power of LLMs comes from their pattern-finding abilities than on first-principles simulations over world models. 
+The central position of the paper is that \textit{LLMs cannot plan themselves but can play a variety of constructive roles in solving planning tasks--especially as approximate knowledge sources and candidate plan generators in so-called LLM-Modulo Frameworks, where they are used in conjunction with external sound model-based verifiers}.  
+%\rao{Generate-Test with a sound tester will give sound results.}
+
+
+We support this position by first reviewing literature, including our
+own works, that establishes that LLMs cannot be used as planners or plan verifiers themselves (Section~\ref{sec:limitations}). We also discuss why there are claims about planning/verification abilities in the first place, in the process hopefully clarifying some prevalent misunderstandings. 
+
+
+Second, we will propose a framework that allows us to leverage LLMs effectively in planning tasks, by combining them with external critics, verifiers and humans. We call this an {\bf LLM-Modulo Framework} (a name loosely inspired by SAT Modulo Theories \cite{sat-modulo}); see Figure~\ref{fig:llm-modulo}. LLMs play a spectrum of roles in this architecture, from guessing candidate plans, to translating those plans into syntactic forms that are more accessible to external critics, to helping end users flesh out incomplete specifications, to helping expert users acquire domain models (that in turn drive model-based critics). All this leveraging of LLMs is done without ascribing to them any planning or verification abilities. The LLM ideas are vetted by external critics, thus ensuring that the plans generated in this architecture can have formal correctness guarantees where possible. 
+
+
+
+
+
+
+%ADD THIS HERE OR LATER? }
+
+%\rao{iterative human prompting--works only when the humans know or can verify the answer--something that is not always possible in complex planning problems.}
+
+
+%\rao{Lucas: Per NASA mission planning, both deep space network planning and mars rover task planning are done via \textit{collective human blackboard}. \cite{johnston2014automated} \cite{bresina2004activity}}
+%\rao{we don't use planners--but bank of critics}
+
+%LMT give robustness.. They also have advantages.. 
+%Some folks call LLM being integrated into frameworks with external reasoners as a ``neuro-symbolic framework". If that is the case, the LLM-Modulo architecture can be seen as 
+
+%deluding ourselves in the process.
+
+%\rao{Rao: Thanks! Lucas: ``if rightly used" seems to be the core idea of the paper. A title or leading sentence that states this might be: ``LLMs are best used in planning as approximate knowledge sources and heuristic plan generators, not as planners themselves". Another idea is to use a structure similar to the two theses of KR paper or the famous ``Understanding Why Crime Fell in the 1990s: Four Factors that Explain the Decline and Six that Do Not", e.g. ``Two Uses of LLMs in Planning that (make sense) and (several) that (do not)"}
+%
+%The LLM-Modulo framework we propose is one such way. 
+%\fromrao{conclusion?}
+%
+
+
+
+
+
+%Organization
+
+
+
+ %\cite{twotheses-kr}
+
+%\subsection{Potential advantages over pure combinatorial search methods}
+%\rao{Should this go elsewhere?}
+
+%We propose LLM-Modulo architecture as a way to leverage what LLMs are good at, without having to ascribe to them fake reasoning and planning abilities. 
+
+%\rao{unlike Stone/logic-lm, that use LLMs as glorified format changers that select the reasoning problem and paw it off to an external solver, we do not use solvers--but critics. Buddhist middle way }
+
+%\rao{The literature on LLM reasoning capabilities either is making wrong claims about their reasoning powers or is being too pessimistic about the use of LLMS in planning. If you use LLMs as just a problem format changer, and send the changed format to an external symblic solver, then you are not really leveraging either technology well.}
+
+
+%\rao{[Will do this in Desiderata] Karthik: Make a point about the advantage of using critics as opposed to planners in the LLM-Modulo framework? LLM-Modulo with external planners that do systematic search can still get stuck due to infinite branching in complex problems and can lead to the overall system not generating even a single candidate plan as opposed to using critics where relevant guesses can be immediately generated by the LLM.}
+
+%\rao{Lin: to Karthik's point above, I think it is not necessary to bring up the wall-clock time needed to search for a working plan (w.r.t what Karthik said “systematic search can still get stuck due to infinite branching factors”). There is no clear evidence supporting LLM-Modulo is much much faster than classical planner or LPG. To me, the most important factor that makes LLM-Modulo win is still the expressiveness — so I think the current intro is good}
+
+%\rao{[Will be in related work Karthik: Connection to case-based reasoning? - Our framework also shares connections with case-based reasoning \cite{hammond1990case}, where the tasks of relevant case retrievals and case adaptation are delegated to Large Language Models (LLMs), while the testing and/or repairing of cases can be undertaken by the critics. The aspect of fine-tuning with synthetic data within our framework can be considered as approximate case retention.}
+
+%Large Language Models (LLMs), essentially n-gram models on steroids which have been trained on web-scale language corpus, have caught the imagination of the AI research community with linguistic behaviors that no one expected text completion systems to possess. Their seeming versatility has lead many researchers to wonder whether they can also do well on reasoning tasks typically associated with system 2 competency. Initial excitement based on anecdotal performance of LLMs on reasoning tasks has dissipated to some extent by the recent spate of studies questioning the robustness of such behaviors--be it planning \cite{valmeekam_large_2023,rao-cacm-blog-llm-reasoning,rao-nyas}, simple arithmetic and logic \cite{dziri_faith_2023}, or general mathematical and abstract benchmark\cite{sawada_arb_2023,gendron2023large}. 
+
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+
+
+\section{Planning-centered Limitations of LLMs}
+%in Autonomous Mode}
+\label{sec:limitations}
+
+In this section, we will first review literature that calls into question claims about the planning and self-verification capabilities of LLMs. Subsequently, we will also provide some possible reasons for claims to the contrary made in the literature. 
+\begin{table*}
+    \centering
+    \small
+        
+    
+    \begin{tabular}{c c P{1.2cm} P{1.6cm} P{1.2cm} P{1.2cm} P{1.4cm}P{1.4cm}}
+    \toprule
+    \textbf{Domain} & \textbf{Method} & \multicolumn{6}{c}{
+        \centering
+        \textbf{Instances correct}}\\ \cmidrule{3-8}
+        & & \textbf{GPT-4o} & \textbf{GPT-4-Turbo} & \textbf{Claude-3-Opus} & \textbf{LLaMA-3 70B} & \textbf{Gemini Pro} & \textbf{GPT-4} \\ \midrule[0.08em]
+    \multicolumn{1}{P{2cm}}{\multirow{3}{=}{\textbf{Blocksworld (BW)}}} & One-shot & 170/600 (28.33\%) & 138/600 (23\%) & 289/600 (48.17\%) & 76/600 (12.6\%) & 68/600 (11.3\%) & 206/600 (34.3\%)  \\ \cmidrule{2-8}
+    & Zero-shot & 213/600 (35.5\%) & 241/600 (40.1\%) & 356/600 (59.3\%) & 205/600 (34.16\%) & 3/600 (0.5\%) & 210/600 (34.6\%)\\ \cmidrule{2-8}
+    \multicolumn{1}{P{2cm}}{\multirow{2}{=}{\textbf{Mystery BW (Deceptive)}}} & One-shot & 5/600 (0.83\%) & 5/600 (0.83\%) & 8/600 (1.3\%) & 15/600 (2.5\%) & 2/500 (0.4\%) &26/600 (4.3\%) \\ \cmidrule{2-8}
+    & Zero-shot & 0/600 (0\%) & 1/600 (0.16\%) & 0/600 (0\%) & 0/600 (0\%) & (0/500) (0\%) & 1/600 (0.16\%)\\  
+    \hline
+    \bottomrule     
+    \end{tabular}
+    \caption{Results of state-of-the-art LLMs GPT-4o, GPT-4-Turbo, Claude-3-Opus, Gemini Pro and LLaMA-3 70B for Plan Generation with prompts in natural language.}
+    \label{tab:planbench-sota}
+\end{table*}
+\subsection{LLMs cannot generate executable plans in autonomous mode}
+
+%\rao{Good point; but will avoid this for now--as I am not too sure we are authorities on how humans plan.. Lucas: It may be good to make connections to how humans do planning (iteratively), and to problems that are intractable for combinatorial search.
+% For example in my temporal planning draft I say:\\
+% As planning domains become more expressive, even very advanced algorithms can struggle. In contrast, humans seem capable of solving problems that are intractable when specified formally.
+% Our working theory of human planning accounts for this in two ways:
+% \begin{enumerate}
+%     \item The real world is highly sparse, in the sense that many states and actions are irrelevant to everyday life. Accordingly, human-like intuition plays a critical role in real-world planning. Heuristic candidate plan generation addresses this.
+%     \item Humans plan iteratively by generating a candidate plan and refining it by responding to critiques. This avoids full-scale combinatorial search, but still solves real-world problems. LLM-Modulo with external verifiers addresses this.
+% \end{enumerate}
+% }
+
+Despite initial claims about the planning capabilities of LLMs
+\cite{bairi2023codeplan, yao2023react, shinn2023reflexion,
+  huang2022inner, hao2023reasoning} several recent studies
+confirm that LLMs are not actually able to generate executable plans
+when they are used in autonomous modes
+\cite{valmeekam2023on,liu2023llm+,silver2022pddl}. For example, in
+\cite{valmeekam2023on,valmeekam2023planbench}, we evaluate LLMs' ability to generate correct plans on a suite of planning problem instances
+% \footnote{Link to the github repo: \url{ https://github.com/karthikv792/gpt-plan-benchmark}}
+%Thus, in this paper, we want to look at the ability of large language models to do reasoning about actions and change involving common-sense planning tasks. We develop a suite of benchmarks,
+based on the kinds of domains employed in the International Planning Competition \cite{ipc}. 
+% The tasks in the benchmark suite are aimed to test a variety of plan generation and validation capabilities. 
+To eliminate the subjective aspect of analysis that forms the core part
+of many earlier efforts to evaluate the reasoning capabilities of
+LLMs, we leverage models and tools from the automated planning community to automate evaluation. 
+%and tools to generate the queries and validate the system's answers. 
+% While our primary interest is in plan generation, the test tasks themselves form a broad curriculum for evaluating LLM's capabilities of reasoning about actions and change.
+
+We show that results in the autonomous mode are pretty bleak. On
+average, only about 12\% of the plans that the best LLM (GPT-4)
+generates are actually executable without errors and 
+goal-reaching. We show that the choice of LLM doesn't have much
+bearing on this. We tested the
+family of GPT LLMs including GPT-4 \cite{openai2023gpt4}, GPT-3.5
+\cite{openai_chatgpt}, InstructGPT-3 \cite{ouyang2022training} and GPT-3
+\cite{brown2020language}.
+%, as well as the latest ones including Claude Opus, Gemini, GPT4-Turbo and GPT4-o. 
+We also show that fine-tuning does not seem to have a major effect on this dismal performance. 
+%
+We demonstrate that the performance deteriorates further if the names of the actions and objects in the domain are obfuscated--a change that doesn't in any way affect the performance of the standard AI planners. This further suggests that LLMs are more likely doing approximate retrieval of plans than actual planning. 
+%To shed further light on the performance of GPT4, we present an evaluation of the plans it generates under a series of more relaxed (more forgiving) executability conditions.}
+%
+%Further, we provide a human baseline for the simplest domain in our set of domains, by presenting the planning instances to human subjects (through IRB-approved studies) and evaluating the quality and correctness of their plans.  These results are \textit{substantially better} than those of LLMs--confirming that LLMs can't plan even in a simple common sense domain in the autonomous mode. 
+%
+
+\bnote{We continue to reconfirm these limitations over each of the more
+recently released LLMs, including Claude Opus, Gemini, GPT4-Turbo and
+GPT4-o. Table~\ref{tab:planbench-sota} shows that all the
+state of the art LLMs show dismal performance on PlanBench
+\cite{valmeekam2023planbench}.}
+
+\bnote{More recently, we have also investigated
+so-called ``chain of thought'' prompting \cite{stechly2024chain}, as well as ReAct-style step-by-step prompting \cite{mudit-siddhant-react} and found that they too are largely
+ineffective in improving the planning performance of 
+LLMs.}
+
+
+
+\subsection{LLMs cannot verify plans and thus cannot improve by self-critiquing }
+\label{sec:cantverify}
+
+There still exists considerable optimism that even if LLMs can't generate correct solutions in one go, their accuracy might improve in an iterative prompting regime, where LLMs will be able to ``self-critique" their candidate solutions and refine them to the point of correctness \cite{yao2023react,yao2023tree,shinn2023reflexion, weng2023large,huang2022inner}. 
+%\rao{OK. Lucas: I'd say ``accuracy might improve" to be clearer in distinguishing hypothetical from empirical.}
+This belief seems to rest largely on the assumption that verification of correctness should be easier than generation for many reasoning problems--a rather classical argument from computational complexity. There are grounds to be skeptical of this assumption as the complexity of the reasoning task should 
+be irrelevant to LLM performance if what they are doing is approximate retrieval. 
+%
+In general, unless LLMs are trained not just on ``{\em correct data}," but also on ``{\em corrections data}," there is no {\em a priori} reason to believe that their critiques would even be approximately relevant, let alone actually correct. 
+%\rao{Will stick to the hedged version--a la kaya. Lucas: ``Grounds to be skeptical" is hedging slightly. It is a stylistic choice, but another (in my opinion clearer) option is to say that self-critiquing simply doesn't work (outside of minor syntax issues), and to cite Kaya/Matthew/Karthik's paper.}
+%\rao{Kaya: re Lucas minor quibble there is that we have empirical results that show this, but personally I'm not convinced that this is going to be true in every domain. Results like the reversal curse might imply that in some domains where there is just way more verification than generation data, the former is easier than the latter. A priori though, I expect that kind of asymmetry to be rare, so any given domain should be as easy to generate as to verify for an LLM.}
+
+Two of our studies--one on plan verification \cite{valmeekam2023can} and the other on CSP verification \cite{stechly2023gpt} seem to throw cold water on this optimism. 
+In \cite{stechly2023gpt}, we systematically investigate the effectiveness of iterative prompting in the context of {\em Graph Coloring}, a canonical NP-complete reasoning problem. 
+%We chose graph coloring as it is representative of both of standard classes of reasoning problems studied in AI--propositional satisfiability and constraint satisfaction--and practical problems like scheduling and allocation. 
+Our  methodology involves a principled empirical study of the
+performance of GPT4 on two tasks: solving a large suite of random graph
+coloring instances and, separately, verifying the correctness of the
+candidate colorings--both in direct (i.e., return the first solution
+generated by the LLM) and iterative modes. In iterative modes, we
+experiment both with an LLM critiquing LLM-produced solutions and an
+external, guaranteed correct reasoner verifying solutions. In both
+cases, we analyze whether the content of criticisms actually affects
+bottom-line performance. A more recent paper further analyzes these
+results along with performance on the 24 puzzle--a task that has been used
+by some researchers claiming LLMs have the ability to self verify
+\cite{karthik-kaya-self-verification-combined}. 
+
+
+%\rao{Done Lin: seems that ``direct mode" is not defined or explained here}
+
+Our results indicate that in direct mode, LLMs are, perhaps not surprisingly, pretty bad at solving graph coloring instances. More interestingly, they are no better at verifying solutions. In iterative modes, given the inability of LLMs to verify solutions, it should come as no surprise that our experiments also show that the strategy of LLMs self-critiquing their solutions does not improve over the baseline. We report that the performance is in fact {\em worse} because the system can't recognize a correct coloring and thus merrily passes over fortuitously correct colorings it has generated, ending up with a wrong one! Similar results have also been reported for planning problems in \cite{valmeekam2023on}. 
+
+%\rao{self-improvement via fine-tuning itself on plans it generates and critiques also won't work}
+
+One important corollary of the fact that LLMs cannot self-critique their plans is that they also can't self-improve by generating synthetic data, e.g. by generating plans themselves, critiquing the plans by themselves to improve them, and then using those to fine-tune themselves, as has been claimed in the literature \cite{huang-etal-2023-large, wang2022self}\footnote{Contrary to their claim of ``self-improvement", works like \cite{wang2022self} actually heavily depend on external knowledge (crafted seed examples) and critics (filtering step).}.%\cite{huang-etal-2023-large}.
+%; see Section~\ref{sec:syntheticdata}. 
+
+
+
+
+
+%\footnote{Closer study of these papers also raises other questions, including (a) {\em dependence on extra human knowledge:} for synthesizing self-improve data, humans have to extra chain-of-thought examples for encouraging diversity etc., (b) evaluation in tasks where there are no objective metrics of quality (c) and }
+
+%\rao{Good point but will skip for now. Lin: here can lightly mention that the reported improvements in those self-improve papers are questionable: (a) extra human inputs: for synthesizing self-improve data, humans have to extra chain-of-thought examples for encouraging diversity etc., (b) problem in metric: papers like SELF-INSTRUCT are evaluated on task where no clean notion of correctness (c) people overclaiming — like claiming 90.0\% $-->$ 94.4\% to be a huge thing }
+
+
+
+%We next experimented with an iterative strategy where an external coloring verifier does the backprompting. Here we looked at three different types of back prompting: (1) the verifier just asks the LLM to try again when the coloring is incorrect, (2) the verifier gives a backprompt showing the first violated constraint in the current candidate coloring and (3) the verifier sends a backprompt showing all violated coloring constraints. We note that these three strategies do lead to modest improvements in the bottom-line performance--improving from about 16\% to nearly 40\%. The surprising finding however is that the minimal information "try again" feedback is nearly as effective as the ones with meaningful backprompts. This lead us to consider whether the improvement is due to the type of backprompting (as authors who advocate these types of iterative approaches \cite{yao2023react,tree-of-thoughts,shinn_reflexion_2023,ling_deductive_2023, chen2023teaching, madaan2023selfrefine} seem to assume) or because the answer just happens to be in the top-K completions (even if the LLM is itself not cognizant of it). To check this, we experiment with a version of the direct mode where we query the LLM so that it generates more than one potential solution, and have the external verifier pick out any correct solution in the list. The results show that top-k correctness with an external, guaranteed correct verifier is pretty competitive with any iterative backprompting. 
+
+%Our investigation thus raises significant grounds to be skeptical about the effectiveness of iterative prompting techniques in general, and those relying on the self-critiquing capabilities of LLMs in particular. In the reminder of the paper, we discuss related work, present our experimental methodology, and then detail the results of our experiments. 
+
+
+%\rao{ -ve  No autonomous mode; +ve It is a knowledge store--avenging polanyi's revenge. So what is the best way to use. In the end, the issue is what would we do if we have a universal idea generator sans guarantees. This is where LLM Modulo Architectures come in , }
+%\rao{Should there be some results from backprompting or just cite those papers? }
+
+%\rao{Design considerations: 1. Avoid human being part of the innerloop of the planner search 2. Use LLMs to help with KA effort.}
+
+\subsection{Analyzing Claims to the Contrary in the Literature}
+\label{sec:contrary}
+%\rao{need to add citations--react, reflect, verification claims}
+
+
+Given that LLMs can neither guarantee correct generation nor correct verification of plans, as discussed in the previous sections, one obvious question is why the literature is replete with claims contrary to this
+\cite{bairi2023codeplan, yao2023react, shinn2023reflexion,yao2023tree,weng2023large,huang2022inner}. 
+
+\noindent{\bf Claims about Planning:} To analyze planning claims, we need to first understand that solving planning tasks requires (a) having the necessary planning domain knowledge–the actions and their preconditions, effects; the standard hierarchical recipes (e.g. task reduction schemas in HTN planning), past cases/plans, etc., and (b) being able to assemble this planning knowledge into an executable plan that takes care of any subgoal/resource interactions. The first part can be called knowledge acquisition and the second reasoning/planning. On closer examination, many papers claiming LLMs have planning abilities wind up confusing general planning knowledge extracted from the LLMs for executable plans. When all we are looking for are abstract plans, such as ``wedding plans," with no intention of actually executing them, it is easy to confuse them for complete executable plans.
+%\rao{I think it is best to not get into exactly what is missing.. grounding can be done post-facto as in SayCAN Lucas: This is a great point, and I'd elaborate that \textit{execution requires grounding}. Since GPT has presumably never attended a wedding, it's likely it's never experienced the ways wedding plans can go wrong (or generally how they are executed). }
+%
+Indeed, our close examination of several works claiming planning
+capabilities for LLMs \cite{llm-tutorial} suggests that they either work
+in domains/tasks where subgoal interactions can be safely ignored
+\cite{yao2023react, shinn2023reflexion}\footnote{Although domains like
+AlfWorld \cite{ALFWorld20} do have sub-goal interactions for successful
+task completion, \cite{yao2023react} and \cite{shinn2023reflexion}
+largely ignore these interactions by either focusing on single subgoals
+or relying on the ergodic nature of the domain
+when prompting LLMs for generating plans \cite{mudit-siddhant-react}.}--either because they are
+just working on a single subgoal, or because the world is forgiving and
+ergodic; or by delegating the interaction resolution (reasoning)  to the
+humans in the loop (who, through repeated prompting, have to ``correct"
+the plan). Sometimes, in common sense domains, or with enough
+fine-tuning, the ``assembling" part may also be obviated by having seen
+a case that pretty much corresponds to the problem that needs to be
+solved. Not surprisingly, our work  \cite{valmeekam2023on} shows that if the action interactions are removed by relaxing the world models, then the ability of LLMs to guess executable plans improves. Without these assumptions or mitigations, the plans that come out of LLMs may look reasonable to the lay user, and yet lead to execution time interactions and errors.\footnote{These issues are illustrated in part by a recent news story \cite{nyt-travel-books} about the proliferation of travel planning books, mostly auto-extracted from LLMs, and the ensuing disappointment of the unsuspecting end users who buy them mistaking them for usable plans!} 
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{images/avenging-polanyi.png}
+    \caption{Viewing LLMs as an approximate knowledge source trained over civilizational knowledge}
+    \vspace*{-0.2in}
+    \label{fig:avenging-polanyi}
+\end{figure}
+%answer. 
+%\rao{Lucas: "We believe.." is modest, consider making it stronger e.g. "LLM-Modulo is currently the most principled method for using LLMs in planning.". You could still say "We believe" beforehand to tone it down slightly, but I think "principled" gets the point across more clearly.}
+
+%Traditional approaches to model-based reasoning/planning that focus on the incompleteness and incorrectness of the said models (such as model-lite planning \cite{zhuo2017model}, robust planning \cite{nguyen2017robust}) can have fresh relevance.
+
+\begin{figure*}[h]
+    \centering
+    \includegraphics[width=\linewidth]{images/llm_framework_latest.png}
+    \caption{The proposed LLM-Modulo framework where LLMs act as idea generators and various external critics that specialize in different aspects, critique the candidate plan.}
+    \label{fig:llm-modulo}
+\end{figure*}
+
+
+
+\noindent{\bf Claims about Self-Verification:} Coming to the claims about LLM's self-verification abilities, a closer look at the literature \cite{yao2023tree,huang2023large} shows that those claims are either (i) made in the context of tacit knowledge tasks for which there is little possibility of a verifier (e.g. essay writing)--making it hard to evaluate whether LLM's critiquing actually helped
+%\footnote{Paradoxically, the fact that it is infeasible to write sound verifiers for tacit knowledge tasks also makes it possible for everyone to be a critic. Think of R2 saying the paper could be made "less dense" or the Peloton instructor critiquing Christopher Nolan film.}
+or (ii) the external verification is carried out either by simulators \cite{wang2023voyager, yao2023react} or simple calls to the underlying operating system. %(as is the case, for example, for the 24 puzzle in \cite{yao2023tree}). 
+
+
+%\donote{Kaya: you should check this part to make sure this gels with your read}
+In a related vein, there is the recent Tree of Thoughts (ToT) paper \cite{yao2023tree}, which has been pitched as a way to convert LLMs into some type of systematic search with self-verification. 
+%A closer look at the work however shows that ToT simply iteratively back-prompts the LLM until it comes up with a solution that is acceptable to an external verifier. 
+%
+Specifically, ToT employs a problem-specific prompt priming method. The ``tree" in ToT is essentially a way to generate diverse priming prompts (that the authors set up in a {\em problem specific way}). In other words, despite the use of terminology of problem-solving agents \cite{russell2010artificial}--search tree, expansion etc., there is really no deeper connection to search-based agents.%\footnote{Our preliminary experiments also show that at least in 24 puzzle, a simple iterative prompting, even without a systematic prompt diversification, is quite competitive with the ToT framework.}
+
+% Lucas : Disregard the below
+% \rao{Lucas: Based on the ToT discussions I've overheard, it may be ideal to explicitly say ToT isn't better than regeneration, assuming we don't want to hedge.}
+
+%In other words, there is no obvious connection between
+
+%Once you realize this, you will stop making questionable connections between ToT and search/reasoning!
+
+%verification
+
+
+
+
+The guarantees--if any--are coming in terms of soundness of the external verifier. The one clear reasoning problem used in the ToT paper is the 24 puzzle--for which the external verifier can be easily implemented in terms of arithmetic operations (thankfully not done by the numerically challenged LLM!). Here, our experiments show that the
+%at least for problems with formal correctness criteria (e.g. 24 puzzle that the paper uses) the
+LLM's own criticisms are often quite off the mark.\footnote{Note that we can do this check easily because of the formal specification of correctness. For the ``improving writing task" also used in ToT, there are no formal quality metrics and so it is hard to say anything concrete about the critiques of the LLM.}
+%
+Because the 24 puzzle's solutions can be verified by simple arithmetic operations, it is trivial to implement an external verifier for these problems.
+%readers don't quite realize that the framework \textit{relies on an external verifier}.
+In general though, the verifier may be more complex and can involve substantial work (you can substitute a simulator for the verifier--but someone has to write that simulator too!).
+%\rao{Lucas: I added italics in the above to emphasize your point}
+
+%
+%\bnote{Commenting this out}
+%In general planning problems, one way to provide an external verifier is to (a) write a domain model (e.g. in PDDL) and (b) feed it to an off-the-shelf model-based verifier like VAL (c.f. \cite{howey2004val}).  
+%
+%Finally, while there are claims that LLM critiques the intermediate solutions, we see that at least for problems with formal correctness criteria (e.g. 24 puzzle that the paper uses) the criticisms are often quite off the mark.
+
+
+
+%In the case of ToT, the back-prompting to the LLM is guided more by the step-by-step hand-coded instructions from the human about diversifiying the prompts, rather than by the flaws found by the verifier. 
+
+%\rao{should this para go elsewhere? Also add citations}
+
+%\rao{we concede that there are different types of planning}
+
+%\rao{verification claims are made for tasks without any possibility of formal verifiers.. LLMs for teaching! ToT criticism on the style}
+
+%hoopla 
+
+%Put the CACM blog stuff 
+
+%Put ToT stuff here? 
+
+
+%\subsection{Planning Background}
+
+%\rao{take it from the NeuriPS paper}
+
+%\section{LLM-Modulo Framework for Robust Planning: A Proposal}
+
+\noindent{\bf LLMs as Approximate Knowledge Sources:}
+The fact that LLMs are often good at extracting planning knowledge can indeed be gainfully leveraged. As shown in recent works \cite{guan2023leveraging}, LLMs can be a rich source of approximate models of world/domain dynamics and user preferences, as long as the humans (and any specialized critics) in the loop verify and refine those models, and give them over to model-based solvers. This way of using LLMs has the advantage that the humans need only be present when the dynamics/preference model is being teased out and refined, and the actual planning after that can be left to  
+sounder planning frameworks with correctness guarantees, such as the LLM-Modulo framework we propose.  
+
+
+Such an overall approach has striking similarities to knowledge-based AI systems of yore, with LLMs effectively replacing the ``knowledge engineer" (see Figure~\ref{fig:avenging-polanyi}). Given the rather quixotic and dogmatic shift of AI away from approaches that accept domain knowledge from human experts that can be termed ``Polanyi's Revenge" (c.f. \cite{polanyi-revenge}),
+%\rao{thx! Lin: ``I bemoaned in Polanyi's", will this violate double blind reviewing?}, 
+this new trend of using LLMs as knowledge sources can be viewed as a form of avenging Polanyi's revenge!  Indeed, LLMs make it easy to get problem-specific knowledge as long as we are willing to relax the correctness requirements of that knowledge. In contrast to the old knowledge engineering approaches, LLMs offer this without making it look like we are inconveniencing any specific human (we are, instead,  just leveraging everything humans told each other on the Web!).  So the million dollar question for reasoning tasks is: ``{\em how would you do robust planning if you have some doddering know-it-all ready to give you any kind of knowledge?}" The LLM-Modulo Framework is a principled method for tackling this challenge. 
+
+\section{LLM-Modulo Framework for Robust Planning}
+\label{sec:llm_modulo_framework}
+
+While Section~\ref{sec:limitations} questions the claims that LLMs are capable of planning/reasoning by themselves, it is certainly not meant to imply that LLMs don't have any constructive roles to play in solving planning/reasoning tasks. On the contrary, as discussed in the Introduction, their uncanny ability to generate ideas/potential candidate solutions–albeit with no guarantees about those guesses–can be valuable in the generate-test-critique setups in conjunction with either model-based verifiers or 
+%planners, external solvers or 
+expert humans in the loop. Accordingly, we propose a general ``LLM-Modulo'' framework\footnote{The name LLM-Modulo is inspired by the SAT-Modulo theories \cite{sat-modulo}.}. While we believe that versions of such an architecture can be of use in a wide variety of planning or reasoning tasks, for the sake of concreteness, we will focus on planning tasks, especially of the type studied in the automated planning community \cite{ghallab2004automated}.
+%\rao{Not sure what is Flexible KR--I do write a para on what is good about LLM-Modulo compared to normal model-based planning. Lucas: If you decide flexible KR is equally important to idea generation, it may be worth mentioning in the paragraph above.}
+
+%The trick is to recognize that LLMs are generating potential answers to be checked/refined by external solvers, and avoid ascribing autonomous reasoning capabilities to LLMs.
+
+%\rao{{\bf Desiderata}}
+%\rao{check redundancy}
+
+
+
+%%Rao: Commented this out as the design considerations part makes most of these points anyway.     
+% Given the approximate omniscience and approximate retrieval abilities, we do believe that LLMs have a meaningful and quite powerful role they can play in planning.  In particular, they can act as powerful idea generators at multiple stages of the planning process, with either automated verifiers or humans acting as critiques of the ideas. To begin with, they can be useful in "guessing" plans that can be iteratively evaluated and critiqued by external (automated) verifiers. These guesses can either be fully fleshed out (but not guaranteed to be correct) plans, or high level (hierarchical) plan templates. \rao{Mudit: In case the guess is a high level plan template, appropriate critics that function on abstract plans can be used for checking constraint violations at an abstract level, iteratively refining the guesses to a concrete plan.} Secondly, in case the critics are model-driven (e.g. VAL plan validator working off of a PDDL domain model \cite{howey2004val}) LLMs can also be helpful in reducing the model acquisition burden for the users. Thirdly, LLMs can play a role in elaborating the incomplete specifications of the planning task in ways consistent with typical human preferences. 
+
+Figure~\ref{fig:llm-modulo} gives a schematic of the {\bf LLM-Modulo Framework}, as we envision it. As can be seen readily, the underlying architecture is a Generate-Test-Critique loop, with the LLM generating candidate plans and a bank of critics critiquing the candidate. The loop starts with the LLM getting the problem specification and generating its first plan candidate.\footnote{Although we focus on planning from scratch, it is easy to accommodate replanning scenarios, where the loop starts with an externally supplied candidate plan.} 
+%for planning tasks that facilitates these uses.  
+Note that the plans an LLM helps generate in this architecture have {\em
+  soundness guarantees}  because of the external sound critics. This
+means that plans coming out of such an compound system  will constitute a
+better corpus of synthetic data for any fine tuning phase carried out to
+improve/customize the LLM's generation capability. The {\em
+  completeness} of the system depends on the LLM's ability to generate
+all potentially relevant candidates. 
+
+%This in turn depends on how 
+
+%While teacher-forced training seems to lead to incompleteness anyways \cite{vaishnav}
+
+%Cite Vaishnav
+%
+
+
+\noindent{\bf Design Choices:} Before going into the details about the framework and its various modules, it is worth noting some design decisions underlying the proposed architecture. We start by noting that the LLM-Modulo architecture is a ``Generate-Test" one that involves LLMs interacting with the external \textbf{critics/verifiers} rather than a LLMs being just front-ends to external solvers. This is a deliberate decision--as this allows the LLM to guess/generate candidates to satisfy the critics, as against dealing with the expressiveness and search complexity issues of the solvers. \bnote{The critics/verifiers also are also more naturally {\em composable} than solvers/planners. As we shall see, we do allow for {\em constructive critics} which can be based on solvers, and provide suggestions on specific ways of extending/modifying the candidate plans.}
+%
+
+Secondly, the framework explicitly recognizes that the LLMs can generate approximate ideas not just about plan candidates, but domain models, problem reduction strategies, and refinements to the problem specification. The framework also recognizes that LLMs are good at format/syntax changes. Accordingly, the framework leverages all these abilities of LLMs, letting them play multiple roles in planning. 
+%
+Finally, the architecture carefully circumscribes the human's role--domain experts interact with the LLM to tease out the models used by (some of) the critics, while end users take part in refining any incomplete problem specification in concert with the LLM. A notable, and deliberate, absence is human's involvement in the inner loop of planning--e.g. with iterative prompting. 
+In addition to posing an infeasible burden on the human's time for complex planning problems, such iterative prompting strategies are notorious for their Clever Hans effect \cite{cleverhans-wikipedia}.
+%\rao{Lucas: This section is great}
+%
+
+%Don't use the planner but use the verifier
+%    Don't make the human be involved in the search
+%      iterative prompting
+%
+%   Recognize that LLMs can generate ideas not just about plans but
+%     problem reduction strategies, domain models, problem specification
+%     refinement etc
+%Verification is indeed easier than generation for humans
+
+%even if you want to fine tune on synthetic data.. 
+
+%\subsection{Overview of the Architecture}
+
+%The underlying architecture is a Generate-Test loop, with the LLM generating candidate plans and a bank of critics critiquing the candidate. 
+
+%Three layers: (1) The plan guessing/back-prompting loop (2) LLMs helping with the models driving the critics (3) LLMs being finetuned with the plans generated this way
+
+\subsection{Critics/Verifers}
+%\rao{Siddhant NEW TEXT (rewriting the first paragraph):
+
+In the LLM-Modulo framework, critics can evaluate LLM-generated
+candidates for a planning/reasoning problem over both hard and soft (style)
+constraints. Hard constraints refer to correctness verification which
+can include causal correctness, timeline correctness, resource
+constraint correctness as well as unit tests.
+%\rao{Not clear who is doing the refinement.. will skip for now Mudit: If the LLM guess is a high level plan, appropriate critics which can check for constraint violations at an abstract level can be used to iteratively refine the blue print to a concrete plan.} 
+For PDDL planning problems, the hard critic can be based on VAL
+\cite{howey2004val}, that works off of a model (which itself can be
+acquired with the help of the LLM \cite{guan2023leveraging}.
+%
+\bnote{It is worth noting that the critics don't always have to be declarative
+model-based ones, and can be simulators. Just as LLMs can help humans in
+coming up with models, they can also help in writing procedural
+simulators, as seems to be done in systems like Voyager \cite{voyager}.} 
+%NVIDIA system..
+
+On the other hand, soft constraints can include more abstract notions of
+good form such as style, explicability, preference conformance, etc.
+As discussed in Section~\ref{sec:contrary}, while LLMs cannot take on
+the role of hard critics with soundness guarantees,\footnote{If we don't insist on soundness guarantees, then it is, in principle, possible to train LLMs discriminatively to learn to verify plans; see \cite{arora2023learning}.} they can help simulate some aspects of the
+role of soft (style) critics. So our framework does allow for style
+critics be possibly based on LLMs. \bnote{For example, in
+  \cite{verma2024theory} we discuss how LLMs can act as a human proxy to
+  evaluate plans in terms of how they would be perceived by humans in
+  the loop. Additionally, in \cite{guan2024task}, we show how Vision-Language
+  Models (VLMs) can be leveraged to critique the style of robot
+  behaviors in terms of their adherence to the soft common-sense
+  preferences of the humans in the loop. }
+%(e.g \cite{verma2024theory}). %\rao{Mudit: 
+We reiterate that the soundness of the LLM-modulo framework is inherited
+from the soundness of the correctness (hard) critics.
+
+
+%Given the large corpora of data they are trained on, LLMs have shown remarkable performance in language understanding and inference tasks, thus making them viable for critiquing the conformance of a robot's plan to an expected behavior type (e.g. \cite{verma2024theory}).}
+
+% \rao{Siddhant: Clarifying what we mean by `soft' constraints in the context of LLM-Modulo architecture can be helpful here, since currently, it does not seem very obvious for the kind of distinction we are trying to make. One way to address this could be to talk about what kind of information we are expecting from the soft critic and why this is more reasonable to expect from an LLM than correctness verification, hence the need for the hard critics a.k.a. ground-truth verification modules like VAL.}
+
+%Critics can range from those that check for the hard constraints of correctness--causal correctness, timeline correctness, resource constraint correctness etc., to those that check for soft constraints such as style, explicability, preference conformance etc. As discussed in Section~\ref{sec:contrary}, while LLMs cannot take on the role of hard critics, they can help simulate some soft critics (e.g. \cite{verma2024theory}). For PDDL planning problems, the hard critic can be based on VAL \cite{howey2004val}, which works off of a model (which itself can be acquired with the help of the LLM \cite{guan2023leveraging}.
+
+%\rao{Siddhant NEW TEXT: As shown in Figure \ref{fig:llm-modulo}, we also discuss the case where both hard and soft-constraint critics can be utilized in conjunction with each other.} 
+
+The bank of critics--hard (model-based) as well as soft (possibly
+LLM-based) evaluate the current plan candidate to evaluate its
+fitness/acceptability. If at least all the hard critics sign off on the
+current candidate, then that is considered a valid solution to be
+returned to the end-user or the executor. When a critic finds the
+current plan candidate to be unsatisfactory, it can provide varying
+levels of feedback, ranging from ``{\em No, try again}" to ``{\em No,
+  try again, here is one thing wrong with the current plan}" to ``{\em
+  No, try again, here are all the things wrong with the current
+  plan}."
+%
+\bnote{More importantly, the critics can be {\bf constructive}, and offer
+alternatives plan/subplan suggestions. One way of obtaining such
+constructive critics is to base them on partial planners--operating either on
+the models themselves or their relaxations
+\cite{pg-heuristics-aimag}.}
+%These feedbacks are essentially 
+%
+These critiques are all pooled at the Meta (Backprompt)  Controller
+(see Section~\ref{sec:meta-controller})
+
+%Style critics based on observed human preferences vs. content/executability critics. 
+
+%\subsubsection{LLMs as Reformulators}
+\noindent{\bf LLMs as Reformulators:}
+One interesting challenge is that many of the symbolic model-based
+verifiers tend to be operating on specialized formal
+representations. Given a central candidate plan (e.g. a mission plan),
+these critics need translations of that candidate into their
+representations. This is the role of the  reformulator module attached
+to individual critics. These reformulator modules can be supported to a large extent by LLMs,
+%, is to convert the central plan into specialized representations (or "views") used by the different critics.
+given that one thing LLMs are very good at is format change across different syntactic representations \cite{olmo2021gpt3}.
+%they can be used to allow for a symbolic \textit{lingua franca}. 
+%
+Indeed, as discussed in Section~\ref{sec:intro}, some approaches to
+combine LLMs with external symbolic solvers just use LLMs as
+reformulators for these solvers \cite{liu2023llm+,pan2023logic}.
+%
+\bnote{It is worth noting that the syntax conversion itself can be helped with
+a nested LLM-Modulo framework--where the syntactic correctness of the
+conversion is checked by syntax critics. We will have occasion to
+illustrate this in the context of our preliminary work on  LLM-Modulo
+frameworks for travel planning discussed in
+Section~\ref{sec:case-studies}. }
+%ChuChu Fan? 
+Our discussion of LLM-Modulo framework should make it clear that syntax
+reformulation alone is a severely limited role for LLMs!
+%\rao{Lucas: I like this section, I also clarified to say "problem reformulation alone". You could also elaborate to re-mention tight integration of LLM Modulo and its various components}
+
+%\rao{Lucas: Consider writing the above in terms of \textit{syntax}, e.g. ``LLMs seem empirically capable of following a formal grammar, and transforming knowledge into different syntactic forms."}
+
+\subsection{Backprompt (Meta) Controller}
+\label{sec:meta-controller}
+%(better name?)}
+
+The critiques from the various critics are pooled together by the Meta (Backprompt) Controller, which passes a processed version of them to the LLM as the next iterative prompt to elicit the next guess. 
+%\rao{Mudit: 
+This is especially required in the presence of a mix of soft and hard critics, where the Meta Controller can assume the responsibility of compiling the critiques into a consistent feedback to send to the LLM.
+
+The processing in the controller can range from (i) simple round-robin selection of prompts to (ii) generating a summarized prompt (with LLM help) to (iii) employing a {\em prompt diversification strategy} to elicit the next candidate from a different part of the implicit search space. This last strategy 
+%should be seen as an explicit effort to 
+helps increase the completeness of the LLM candidate generation, and may involve domain/task-specific knowledge (see the discussion of Tree of Thoughts in Section~\ref{sec:contrary}). 
+
+%(As discussed in \ref{sec:contrary}), this is effectively what Tree of Thoughts does \cite{yao2023tree}.) 
+
+%Such summarization is a reasonable strategy as LLMs don't have the capability to treat back prompts  treated as hard constraints by LLMs anyway \cite{stechly2024chain}
+
+%\rao{Since LLMs don't consider critiques as hard constraints, and written mostly to diversify
+
+%\rao{Not sure right now how to include this. Anil: Prompt diversification strategies other than ToT - If necessary for citation purposes - include varying the temperature and scoring the prompts \& re-prompting LLM to generate better prompts - which is used in Google Deepmind's "LLM as Optimizers" paper }
+
+%\rao{How about the problem decomposition as provided by humans as in ToT?}
+%Diversify the prompt \cite{ToT} Mention that simple re-prompting is competitive with manually diversified prompting {\em a la} ToT. 
+
+%\input{fine-tuning-and-synthetic-data-section}
+\subsection{Specification Refinement \& Critic/Model Acquisition}
+%%(Semi-automated)}
+
+%\fromrao{the LLM knowledge avenging polanyi figure***}
+
+%\donote{mention that specification itself can be llm-modulo..; also selecting crtics; agentic llms}
+
+As mentioned earlier, we avoid having humans involved in iteratively prompting LLMs--as this can be an infeasibly time-consuming activity for them. Instead, we let automated verifiers, either model-based or LLM-supported, to manage the plan critiquing process. 
+%
+The framework does depend on humans for ``once per domain" and ``once
+per problem" interactions. In the former category, human domain experts
+can play a role in acquiring the domain model with the help of the
+LLM. Examples of such interaction include teasing out PDDL planning
+models from the LLMs with the help of human expert curation (top left in
+Figure~\ref{fig:llm-modulo}). An example of this is our work in 
+\cite{guan2023leveraging}. The idea here is that the traditional domain model acquisition task (e.g. \cite{simpson2001gipo}) is significantly made easier by having the LLMs help with ideas regarding various pieces of the domain model (e.g., actions, their preconditions and effects) and letting humans sign off/critique the resulting model. Once the model is acquired this way, it can be used by correctness verifiers such as VAL \cite{howey2004val,guan2023leveraging}.
+%
+Often the planning problems in real world situations are specified
+incompletely, leaving it to the human commonsense to refine the
+specification. This brings up a second role for humans--this time end
+users (bottom left in Figure~\ref{fig:llm-modulo}--in collaboratively
+refining the specification with the help of LLMs (similar to the way
+done in  \cite{xie2023translating,liu2023llm+}).
+
+%\donote{Issue of specification vs. Syntax; also enumerating potential critics}
+
+\subsection{Summary of LLM Roles in LLM-Modulo}
+%Framework}
+%%
+It is worth summarizing the  multiple roles the LLM plays in the LLM-Modulo architecture. The most prominent, of course, is its role in ``guessing'' the candidate plans (step 2 in Figure~\ref{fig:llm-modulo}) in response to problem specification and iterative back prompting from the bank of critics (Step 5). 
+%
+Second, the LLM plays a role in converting the guessed plan candidate into specialized representations used by the various critics (e.g., the time-line view, the causal link view etc.). This role leverages the fact that LLMs are very good at format conversion (c.f. \cite{olmo2021gpt3}). 
+%
+Third, the LLM plays a role in helping the end user flesh out the incomplete problem specification to begin with (Step 1 in Figure~\ref{fig:llm-modulo}). 
+%
+Finally, the LLM plays a role in helping the domain expert tease out and refine the domain models used by the various model-based critics \cite{guan2023leveraging,kwon2022reward}, or help ``implement" procedural critics (such as those checking syntactic constraints). \bnote{As a broad approximate source of knowledge,  the LLM can also help enumerate the list of potential critics needed to validate the candidate plans (once again with a human in the loop).}
+
+%\rao{high level plans etc?}
+
+%Candidate guessing
+% Reformulator
+% Domain modeler
+% Problem specification completer
+
+
+ 
+% \subsection{}
+% {
+% \knote
+% To ADD:
+% \begin{itemize}
+%     \item Write about planning, graph coloring and game of 24.
+%     \item Finetuning and it's ineffectiveness - how it's not reasoning/planning anymore
+%     \item Self-critique ineffectiveness
+% \end{itemize}
+% }
+% \section{LLM-Modulo Setting}
+% {
+% \knote
+% To ADD:
+% \begin{itemize}
+%     \item LLM+VAL
+%     \item Write about how this can be extended to a framework with various critiques. - The LLM-Modulo Framework (include the finetuning aspect as well)
+%     \item One could also extract planning knowledge from LLMs to aid the critiques?
+%     \item Other types of critique (Temporal constraints, Resource constraints, HT, Style)
+%     \item cite FunSearch \cite{Romera-Paredes2024} and Alpha Geometry \cite{Trinh2024} as well.
+% \end{itemize}
+% }
+
+%cmd-/ is commenting 
+
+
+
+% \rao{
+% The first one is in the meta-controller. The second one is more about code. 
+% Karthik: Talk about how to potentially improve LLM's idea generations?
+% \begin{enumerate}
+%     \item Increasing the diversity of ideas: One could increase diversity in the idea generation process through diversity-inducing prompting and/or sampling multiple times.
+%     \item Quality and type of data for fine-tuning: For example, the quality of code data is higher than the quality of English data (given that wrong code is rarely available on Github and you always have interpreters to check that) which could explain why LLMs are being hailed as better code co-pilots. In our framework, we get quality data as it consists of solutions that are valid according to a bunch of critics. Along with the quality of data, the kind of data that is being used to finetune LLMs would also play a significant role. Finetuning/training LLMs with not just the correct data but also the corrections data would aid with the idea generation. One idea would be to not only train LLMs on correct plans, but also on the information as to why they are correct (like extracting state sequences). Further one could also finetune on plans that the critics deemed to be incorrect along with their explanations as to why the plan is incorrect.
+% \end{enumerate}
+% }
+
+%\fromrao{self-improvement via fine tuning itself on plans it generates and critiques also won't work}
+
+%instruction tuning 
+
+%Finetuning on LLM generated data won't work. 
+
+
+
+% 5. You can view this as a round-about System 2 to System 1 compilation (c.f. https://x.com/rao2z/status/1708329785745928558?s=20) --except that the system 2 is part outside the LLM. Specifically the test part of generate-test, supported by the verifier--is being brought into the generate part (something Minsky considered the main point of intelligence, btw..).  
+
+% 6. Seen this way, self-play with external verifiers is just converting reasoning into retrieval--by computing the deductive closure by generate-test, and then finetuning the generator  (c.f. https://x.com/rao2z/status/1699928891652219132?s=20 ) 
+
+% 7.  Computing the deductive closure to speedup later processing is nothing new of course.  Where as the deductive closure would be indexed in the past, it is now used to fine tune the LLM n-gram model. Unlike indexing--which ensures that re-use of the stored data will be correct, fine-tuning LLM no longer retains that guarantee. We are instead hoping for any incidental generalization caused by the compression. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{travel_planner_llm_modulo_v2.png}
+    \caption{LLM Modulo Framework adapted for Travel Planning}
+    \label{fig:llm_modulo_TP}
+    \vspace*{-0.1in}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\linewidth]{iters.png}
+    \caption{Final Pass rates of models across LLM Modulo Iterations}
+    \vspace*{-0.2in}
+    \label{fig:final_pass_rate_iter}
+\end{figure}
+
+\subsection{Can LLM-Modulo Frameworks Pay Their Way?}
+\label{sec:shoe-horn}
+%One question regarding this LLM-Modulo architecture from a planning perspective is whether 
+
+Let's address the elephant in the room: {\em Given that formal model-based planning systems already exist \cite{ghallab2004automated}, is LLM-Modulo framework for planning more than a gratuitous attempt to shoe-horn (the currently popular) LLMs to solve planning problems?}
+%, when there are more formal combinatorial planning systems available in multiple communities \cite{ghallab2004automated}. 
+\bnote{ Indeed, when the underlying problem is actually solvable by such
+  combinatorial solvers, it can be orders of magnitue more resource
+  efficient to use them.\footnote{\bnote{Not surprisingly, automated
+  programming, the one community
+  that certainly doesn't have the luxury of a ready-made ``solver,''
+  have stuck to LLM-Modulo style approaches.}}
+%In short, to what extent is LLM-Modulo architecture for planning is like using LLMs as calculators. 
+}
+%
+Compared to a planner that is guaranteed to be correct in a narrow set of domains, LLMs may likely be good at generating plausible (but not guaranteed to be correct) plan heuristics/suggestions in many more scenarios. 
+%
+Thus, unlike the traditional planning architectures studied in AI \cite{ghallab2004automated}, which put \textit{a priori} constraints on the expressiveness of the problems that can be posed to the planner (to wit, the different expressiveness levels of the PDDL specification \cite{mcdermott1998pddl}), the LLM-Modulo architecture puts no such restrictions. 
+%
+%
+In this sense, it is more representative of real-world planning problems
+such as those in NASA mission planning, where the different
+critics--human and automated--are at best able to give ``no objection"
+certificates for the candidate plans under consideration,  clearing it from their perspective.
+(Indeed, both deep space network planning and mars rover task planning are done via a \textit{collective human blackboard}. \cite{johnston2014automated,bresina2004activity}.) 
+%without any global guarantees of success. 
+Note that this is starkly different from just sending an unvetted plan out to execution (as would be the case if we have LLMs operate in autonomous mode to guess plans). Generalizing planning and reasoning frameworks this way is consistent with the Doyle \& Patil's call to the Knowledge Representation community of yore \cite{twotheses-kr}, as well as our own call for model-lite planning \cite{rao-model-lite}.
+\section{Two Case Studies of LLM-Modulo}
+\label{sec:case-studies}
+We have applied the LLM-Modulo framework to classical planning domains (as reported in \cite{valmeekam2023on}) and to a recent travel planning benchmark (as reported in \cite{llm-modulo-travel-planning}). In the former case, the results (presented in Section 5.2 and Table 4 of \cite{valmeekam2023on}) show that with back prompting from VAL \cite{howey2004val} acting as the external verifier and critic, LLM performance in Blocks World improves to 82\% within 15 back prompting rounds, while in Logistics, it improves to 70\%. LLM-Modulo doesn't help as much in an obfuscated version of blocks world called Mystery BW, reaching about 10\% accuracy. This should be expected because the LLMs have difficulty generating plausible candidate plans for this domain (note that even here, if a plan is returned, it must have passed muster with VAL, and is thus guaranteed correct by its model). 
+
+%\input{travel-planner-table}
+
+For the travel planning case study, we used a benchmark proposed in \cite{xie2024travelplanner}, which involves a rich mix of travel constraints presented in flexible natural language form. Our preliminary results on adapting LLM-Modulo framework to this benchmark are reported in \cite{llm-modulo-travel-planning}. 
+% Authors of the benchmark themselves provide variations of agentic LLMs such as GPT models paired with prompt engineering techniques like Chain of Thought and ReAct, and report that the best LLM strategies exhibit a startlingly low 0.7\% performance rate!
+The benchmark's authors test LLMs across a variety of prompt engineering techniques including Chain of Thought and ReAct, reporting that--on GPT-3.5-Turbo--the current best strategies only manage a startlingly low 0.7\% performance rate!
+%Unlike other reasoning benchmarks, TravelPlanner highlights the faliure of existing agentification of LLMs with extremely low performance rates.
+We adapted the LLM-Modulo framework to this benchmark by operationalizing their hard constraints (such as the budget constraint set by the user) or common-sense constraints (such as suggesting diverse attractions to visit) as critics as shown in Figure~\ref{fig:llm_modulo_TP}.  Our preliminary results show (see Figure~\ref{fig:final_pass_rate_iter}; additional results in \cite{llm-modulo-travel-planning}) that LLM-Modulo based agentification with automated critics in the loop significantly improves the performance (6x of baselines) even with a limit of 10 back prompting cycles, and weaker models such as GPT-3.5-turbo. Furthermore, we also find that LLMs can successfully implement functions corresponding to hard critics and several common-sense critics. Finally, LLMs reliably play the role of reformatter as well, converting free form travel plans into structured plans parseable by the critics for backprompts or plan evaluation. One interesting observation about this domain is that we were able to use the LLM itself to enumerate the type of critics needed to validate the plan (with light human supervision). 
+
+%\donote{Results on blocks world and travel planning domain}
+
+\section{Related Work}
+
+
+%We will note that 
+While the LLM-Modulo framework is being proposed in general form here for the first time, there are certainly works in leveraging LLMs in planning and reasoning tasks that are in line with the spirit of the LLM-Modulo framework. 
+%For exmaple, both \cite{valmeekam2023on} and \cite{stechly2023gpt}  describe and evaluate a backprompting interaction between an LLM and an external verifier. 
+Work on FunSearch \cite{funsearch} depends on a generate-test loop between a specially fine-tuned LLM that guesses solutions, and an external symbolic evaluator that critiques them. The authors note how the external verifier is critical for avoiding falling prey to hallucinations (i.e., approximate solution candidates that have flaws). AlphaGeometry \cite{alphageometry} too depends on the Generate-Test-Critique interaction between a fine-tuned LLM and a symbolic evaluator. Both these systems fine-tune pre-trained LLMs with task specific synthetic data--the correctness of which is vetted with external simulators.
+%(as we discuss in Section~\ref{sec:syntheticdata}). 
+%Even the earliest work using LLMs 
+
+%Alpha Geometry and FunSearch--have a lot in common with LLM-Modulo. 
+
+While we focused on PDDL planning tasks for the sake of concreteness, we believe that the essence of LLM-Modulo framework is equally applicable to other scenarios involving planning and reasoning--such as \textit{Reinforcement Learning with Simulators}.  Such RL systems rely on rewards as feedback to train a policy. 
+Simulators takes on the roles of 
+%Analogous to the 
+plan evaluation and critiques performed by the respective critics in the LLM-Modulo framework (e.g. \cite{alvaro-saynav}).
+%, environment simulators provide the required feedback. 
+The fact that simulators play the role of verifiers is often
+%largely overlooked 
+not explicitly recognized in cases where LLMs are used as an actor to generate an admissible plan by interacting with a simulator, for example in the case of AlfWorld \cite{yao2023react, shinn2023reflexion} and Minecraft \cite{wang2023voyager}.
+%
+%As mentioned in Section \ref{sec:llm_modulo_framework}, 
+Similar to extracting a domain model such as in the case of \cite{guan2023leveraging}, LLMs can also be used for designing a reward model or shaping the reward
+\cite{siddhant-llm-rl,kwon2022reward, hao2023reasoning,ma2023eureka}.
+%for the plan generation - feedback cycle is yet another potential use case that has been recently looked at, 
+%for reward shaping 
+
+%}, and for text-based } and robot manipulation \cite{ma2023eureka} domains.
+
+
+Interestingly, the fact that LLM's can help come up with approximate quasi-symbolic transition models, reward models and models of high level actions has made a bigger splash in RL. This is because for far too long, researchers there have tried to spurn any high level models (lest that would involve depending on humans; \cite{polanyi-revenge}) and focused on learning to act from sensory information, under the name of ``deep reinforcement learning." Given the horrendous sample complexity of the DRL methods even in reaching a single subgoal, and the well known fact that even approximate symbolic models can help drastically improve the performance (c.f. \cite{lin-icml22}), coupled with the fact that LLM's are only too glad to dream up approximate models and goal recipes, there has been a performance revolution of sorts there \cite{yao2023react,liang2023code,wang2023voyager}. If we look beyond the improvements in these lower level goal seeking behaviors--especially in the presence of ergodic simulators, the RL approaches dependent on LLMs will encounter the same issues regarding subgoal interactions that our discussion of PDDL planning problems brought into focus. The LLM-Modulo inspired frameworks will thus, we believe, be equally relevant there. Indeed, SayCan \cite{ahn2022saycan} the earliest use of LLMs in generating policies in an RL-with-Simulator scenario, explicitly filters the action choices suggested by the LLM with the help of simulator. 
+
+%Lin work approximate models 
+
+%RLHF is the only survivor. 
+Although we focused on text based LLMs (such as GPT4), recently there have also been impressive development in multi-modal LLMs (e.g. GPT4V). 
+%\cite{GPT4v,Bard}. 
+While multi-modality is a great addition that increases the coverage of their System 1 imagination (Figure~\ref{fig:sys12}), 
+%\rao{Mudit: and potentially allows for a larger context to work with}, 
+it is not clear that this gives them System 2 competence.\footnote{If you know how to complete sentences, and now learned to complete dance moves, does your ability to reason/plan magically improve?} 
+As we
+discussed earlier, we can leverage VLMs for style criticism of the robot
+behavior \cite{guan2024task}.
+
+
+
+% The LLM-Modulo framework has some similarities to case-based planning architectures that have been studied some decades back \cite{chef-hammond,rao-priar}. In both cases, a candidate plan is criticized/modified 
+%But CBP didn't really have a back-and-forth. Also the relation is not really all that forward looking. What insights does it give us? 
+
+%We should mention that 
+%While we focus on plan generation
+
+%Talk about Case-based planning?
+
+
+
+%This is why in SayCan \cite{ahn2022can}, where executability is critical, they try to filter out/interpret the LLM plans in terms of the skills/actions that are actually available to the executor. While SayCan does this in a rather convoluted way that requires access to the internal log probabilities of the LLM, our approach of specifying the domain as part of the prompt ensures that the generated plans only use the actions in the domain specification.
+
+
+%\rao{say something about SAYCAN--depends on logits--get the related work from  neurips and verification papers.. }
+%\rao{multi-modality doesn't help}
+
+%\rao{Anil: Not sure if this fits in related works - Although this is not a review paper, however with the LLM-modulo architecture proposed, a reasonable question would be "What about using other/smaller domain-specific (maybe, finetuned) Language models with LLMs to utilize/improve upon LLM outputs?" We could sort of state that this is a possibility and has been done in various ways (And can cite "PLasMA" paper, "SwiftSage" paper, and "Explanations from Large Language Models Make Small Reasoners Better" paper, which have used Smaller LMs in conjunction with LLMs)}
+
+
+
+%The architecture however will not give out a plan 
+%We may decide to rank critics? 
+
+%\cite{twotheses-kr}
+
+%\subsection{LLM-Modulo for RL tasks}
+
+
+
+% Some ways to generalize--instead of critiques, use simulators
+% \rao{Siddhant: This is what helps in the case of other works such as ReAct, Reflexion, etc. which they don't admit to and credit the decision-making capabilities to the LLMs disregarding the need of the external sound critic, i.e., the environment simulator that gives a feedback for every admissible action taken by the LLM actor.}
+
+% Instead of teasing out domain models, some works tease out reward models \cite{kwon2022reward}.
+
+%Planning and Reinforcement Learning are but close relatives. 
+
+%An RL agent both learns the model 
+
+%\rao{Make fun of the low-level DRL (use the planning/RL panel slide)}
+
+% \rao{
+
+% \textcolor{red}{
+% Mudit -> not sure if we have an RL subsection, but some pointers : 
+
+
+% 1. RL can benefit a lot from an external information source \& skip the typical “start from scratch” paradigm. 
+% 2. Examples are - Reward Models, Domain models, etc. both of which would be similar to as described by the LLM% 
+% 3. LLM can provide high-level sketches? which the agent can concretize. [If we allow for refinement in LLM\%
+% <therefore LLM proposes policy/sketches/reward models>
+
+% 4. LLM can be useful for constructing critics like safety/preferences etc. that are especially required for RL tasks (v/s planning where safety can be checked for post-planning phase).  
+% 5. LLMs are indeed useful for interfacing in RLHF  (symbolic lingua franca?) -> not directly related to LLM%
+% }
+% }
+
+\bnote{Finally, our position (with published supporting evidence) that LLMs are incapable
+of supporting planning in autonomous modes must seem quite at odds with
+the current head-long rush into agentic LLMs. We believe that the latter is
+largely a result of confusing ``acting'' with ``planning.''
+Given their ability to translate across formalisms, it 
+is of course possible for LLMs to invoke external services--something
+frameworks like AutoGPT and LangChain support. But the mere ability to
+invoke an action doesn't, in any way, guarantee that the course of
+actions thus invoked will achieve a desired state of affairs. The only
+way to guarantee the latter is to to support robust planning capabilities--something
+our LLM-Modulo frameworks strive to do.}
+
+%Langchain autogpt references
+
+%\section{Summary \& Conclusion}
+
+\section{Conclusion}
+
+This 
+position 
+paper is a modest attempt to combat both over-optimism and over-pessimism about the role of LLMs in planning and reasoning tasks. 
+Our position is that \textit{LLMs cannot plan themselves but can play a variety of constructive roles in solving planning tasks--especially as approximate knowledge sources and candidate plan generators in the so-called LLM-Modulo Frameworks in conjunction with external sound model-based verifiers.} In support of this position, we summarized the literature questioning the claims about the planning and self-verification capabilities of LLMs by themselves. We also discussed how conflating approximate knowledge acquisition and generating executable plans of action is behind many of the claims about planning and verification abilities of LLMs. We then shared LLM-Modulo framework, our vision for a productive way to integrate the impressive idea generation/approximate knowledge provision capabilities of LLMs with external verifiers with correctness guarantees, for robust and expressive planning. We discussed how planning in LLM-Modulo framework avoids inheriting the expressiveness and search-complexity limitations of traditional symbolic planners, while retaining their soundness guarantees. We illustrated and discussed the many roles LLMs can play in the LLM-Modulo framework. Finally, we also discussed two case studies of adapting the LLM-Modulo frameworks.  
+%As we discussed, LLM-Modulo frameworks are consistent with some of the most high-profile success stories of ``neuro-symbolic" architectures, including AlphaGeometry and FunSearch. 
+\newpage
+
+
+
+\section*{Impact Statement}
+
+% \section*{Impact Statement}
+This position paper takes a stance on a robust and well-founded way of leveraging Large Language Models in planning and reasoning tasks. It (i) points out the inabilities of current pre-trained LLMs to tackle planning problems, (ii) suggests some reasons as to why there are wide-spread misunderstandings about LLM planning abilities and (iii) proposes LLM-Modulo frameworks as a way to leverage LLMs for robust planning. The main consequences of realizing this position/vision is expected to be (i) sounding caution about misapplication of LLMs in autonomous modes for planning (ii) providing a way to leverage LLMs to do robust planning. 
+Given the current interest in agentic LLMs, these insights 
+can have significant positive impact in mission critical situations. We do not see any obvious negative societal consequences of leveraging LLMs this way (unless of course the plans are aimed at achieving malicious goals). 
+
+%work whose goal is to advance the field of Machine Learning. There are many potential societal consequences of our work, none which we feel must be specifically highlighted here.
+
+\section*{Acknowledgments}
+The ideas discussed in this paper have evolved over a series of talks, tutorials and twitter threads. The discussions, feedback and encouragement from colleagues, including Sarath Sreedharan, Tom Dietterich, %Kathleen Fisher, 
+Yann LeCun, Daniel Borrajo, and Dan Weld  
+is gratefully acknowledged. 
+%
+The adaptation of LLM-Modulo Framework for Travel Planning, discussed in Section~\ref{sec:case-studies} was lead by Atharva Gundawar.
+%
+Kambhampati acknowledges generous support from ONR via grants N00014-18-1-2442, N14-18-1-2840 and N00014-23-1-2409, as well as gifts from J.P. Morgan, Qualcomm and Amazon.
+\bibliography{llmplan}
+\bibliographystyle{icml2024}
+%\bibliographystyle{apa}
+%\newpage
+%\input{0-todo-ideas}
+\end{document}
+
+\newpage
+
+
+{\knote
+\textbf{Rao's thoughts}Ideas for ICML LLM-Modulo architectures
+
+--Futility of auto-generation and self-verification (most people tried
+  this--but it is by now understood that there are significant reasons
+  to be wary of the claims)
+
+We will look at it in the context of planning
+
+[The advantage of LLM-Modulo architecture being the ability combine
+constraints of differing levels of expressiveness[
+
+
+**LLM-Modulo Architecture
+ 
+ Guesses and critics 
+
+
+Three stages
+
+==The architecture should be opened up in three stages.. first critics
+looking at LLM guess
+
+then critics models being acquired from llms
+
+and finally the answers from the architecture being fed back to LLM as
+fine tuning.
+
+
+{\bf --LLM-Modulo is neuro symbolic
+ --the right Neurosymbolic architecture}
+
+
+--mention funsearch and AlphaGeometry
+
+
+
+--Improvements
+
+
+**Control flow for back-prompting
+--Dspy to make programs
+
+
+**Diversifying Prompts
+ --Put the ToT stuff too as a way to diversify prompts
+
+
+**Finetuning/Synthetic Data
+
+--synthetic data generated from verifier--finetuning.. [utkarsh]
+    --> Poly craft and intermediate concepts
+
+-==other stuff
+
+==>>
+
+==tweet threads relevant
+ ToT thread
+ Self-play thread
+ Verification thread
+ Code vs. Plan
+
+ Approx retrieval toothpaste?
+ System 1/2
+
+ RAG--LLM? 
+ 
+\textbf{Todo list}
+\begin{itemize}
+    \item LLMs to generate plans autonomously
+\item LLMs verification and self-critique
+\item LLMs generating plans in LLM-Modulo setting (cite FunSearch, AlphaGeometry saying they support our view of LLM-Modulo settings)
+\item Finetuning LLMs for improving their idea generation process to some extent
+\end{itemize}
+
+}
+
+\clearpage
+
+\subsection*{ICML 2024 Call For Position Papers}
+
+We invite submissions for a new position paper track at the ICML 2024 conference. The field of machine learning is broadening at a rapid pace, and many important contributions to the field do not fit the typical mold of a traditional conference research paper: instead, they have discussed an ongoing trend, or advocated for a particular viewpoint or perspective on the field.  This track aims to encourage the publication and dissemination of ideas and conversation within the ICML conference itself.
+
+The evaluation criteria for position papers differs from those of the main conference track.  Submissions to the main ICML conference track emphasize original research and novel results.  \rao{In contrast, submissions to the position paper track will be judged primarily on whether they present a compelling perspective that warrants greater exposure within the machine learning community (irrespective of whether a reviewer agrees or not with the given position, though we will below clarify additional reviewing criteria).}  The goal of this track is to highlight papers that stimulate (productive, civil) discussion on timely topics that need our community’s input.
+
+Position papers should meet standard ICML expectations for scholarship, including the use of evidence and reasoning to support claims, inclusion of relevant background and context, and the attribution of others’ work via appropriate citations.  Accepted position papers will be presented at the conference and included in the conference proceedings.  Position papers will be presented either as orals or posters, in the same proportion as accepted regular-track papers.
+
+We want to hear your ideas. Position papers may address any aspect relevant to machine learning, including (but very much not limited to) discussions such as the following:
+
+The strengths and limitations of current LLM approaches to intelligent systems
+The role of open-source versus closed-source ML models for research 
+Data legality and copyright aspects of model training procedures
+The role of privacy in machine learning training and deployment
+Implications of the shift to foundation models for many machine learning tasks
+Assessing ongoing trends in machine learning scholarship
+Concerns of the AI ethics community or the AI/AGI safety community
+The use of ML technology in social media or other venues that raise concerns about the spread of misinformation
+Research priorities for ML
+How can we improve the beneficial impact of our community’s work
+Policies
+
+The formatting (including page limit), policies, and deadlines for position papers are identical to those of the main conference, as described in the main call for papers. Specifically, papers are a maximum of 8 pages using the same ICML Style Template File, and with the same deadline (February 1, AoE) as the main track, and also will use double blind reviewing.  See the main Call for Papers for additional information.  Notably, position papers are subject to all the same requirements as traditional papers, including the plagiarism policy, dual review policy, and potential for ethics review. To clearly delineate submissions to this track, position papers must be titled beginning with the phrase “Position Paper: <Paper title>”
+
+Reviewing
+
+Position papers will be reviewed by ICML reviewers who explicitly opt in by checking the appropriate box within the OpenReview system.  Position papers will be reviewed according to the following criteria, which differ from those employed by the main track.
+
+1. Position: The paper clearly states a position on a machine learning topic (research, implementation, deployment, monitoring, etc.).  Examples include (but are not limited to) an argument in favor or against a particular research priority, a call to action, a value statement, a statement of concern about ICML community procedures, or a recommendation for changes to how we conduct and evaluate research. 
+
+Papers that describe new research without advocating a position are not responsive to this call and should instead be submitted to the main paper track.
+
+2. Support: The paper supports its position with clear reasoning and evidence where appropriate.
+
+3. Significance: The paper demonstrates that the topic is important, in terms of scope, impact, timeliness, risks, benefits, etc.
+
+4. Discussion potential: The topic is likely to inspire constructive, useful discussion within the ICML community. The reviewer need not agree with the stated position.
+
+5. Communication quality: The paper is well organized and clearly written.
+
+6. Context: The paper includes a discussion of (and citations to) literature and events relevant to the stated position.
+
+ 
+\clearpage
+
+
+\input{cacm-blog}
+
+\clearpage
+
+\input{tot-tweet}
+\end{document}
+
+
+% This document was modified from the file originally made available by
+% Pat Langley and Andrea Danyluk for ICML-2K. This version was created
+% by Iain Murray in 2018, and modified by Alexandre Bouchard in
+% 2019 and 2021 and by Csaba Szepesvari, Gang Niu and Sivan Sabato in 2022.
+% Modified again in 2023 and 2024 by Sivan Sabato and Jonathan Scarlett.
+% Previous contributors include Dan Roy, Lise Getoor and Tobias
+% Scheffer, which was slightly modified from the 2010 version by
+% Thorsten Joachims & Johannes Fuernkranz, slightly modified from the
+% 2009 version by Kiri Wagstaff and Sam Roweis's 2008 version, which is
+% slightly modified from Prasad Tadepalli's 2007 version which is a
+% lightly changed version of the previous year's version by Andrew
+% Moore, which was in turn edited from those of Kristian Kersting and
+% Codrina Lauth. Alex Smola contributed to the algorithmic style files.
+
+\rao{changes to the figure: put learned as well as unit-test based critics; (mudit also wonders if something about problem solving advice should be made part of specification expansion)}
+
+\rao{Should we be putting the travel planning domain results or not? should probably at least mention the neurips BW results}
+
+\rao{Yeah--there are two "ToDo's" for the revision of the ICML paper: (1) we need a picture that kind of shows LLM-Modulo archtecture recursively embedded once in the LLM-Modulo arch and (2) the writing should sort of reflect that the architecture doesn't rule this out.}
+
+\rao{Should mention that CoT doesn't work either! and cite the CoT and ReACT papers?}
+
+\rao{clean the citations so there are no unexpected lowercase letters}
+\rao{use the appendix for anything??}
+
+\rao{Cite MRKL Systems paper \cite{mrkl-systems}--say that they mostly focus on using LLMs as front ends and make a pipeline rather than a bidirectional framework like ours. Mention also the compound AI systems framework?}
+
+\rao{Anticipate the whole “Use LLMs as translators that invoke external solvers thing” and say that it is a low-hanging fruit. We can do better. Using solvers as tools
+}
+
+\rao{Introduce and connect constrained decoding as a way to improve the generator for the current sent of critics; Also connection between constrained decoding/fine-tuning and n-conistency. Colbert can be included here I think}
+
+\rao{Lucas: Not necessarily a change that needs to be made for the near-term, but my impression/summary is that in addition to debunking the (false) claims about planning and verification, we're making a third (potentially true) claim about LLM plan generation ability. In particular I'm curious about what properties we'd want for generation, e.g. do we want a complete generator, are we claiming LLMs respond to critiques, etc. It seems like we'd want completeness and critique responsiveness, so maybe we could make that more explicit, and lay out some hypotheses of how current LLM behavior compares to these ideal properties }
+\rao{Mention agentic rush}
+
+\rao{include travel planning results}
+
+\rao{In the "are we shoehorning LLMs" para, say that clearly it is quite costly to solve the planning problems that FF can solve with LLMs}
+
+\rao{Think of having plan/workflow skeletons in RAG that get retrieved by LLM and improved in the LLM-Modulo way.. So put the RAG thing into architecture???? The motivation is that we can make the plans that are more relevant for some specific institution/group of people **CHANGE THE FIGURE**}
+
+\rao{There is an error in the LLM-Modulo cations-- critics critique--instead of both being critique}
+
+\rao{Mystery domain is not good for LLM-Modulo--since LLMs have to make reasonable guesses}
+
+\rao{Multi-agent stuff can be done by just letting the LLM suggest problem reduction/partitioning. Of course, problem reduction may not be guaranteed correct! Plus there is a question of handling inter-agent interactions}
+
+\rao{constructive critics are needed for generator completeness}
+
+\rao{Cite Zibin Gou paper arxiv.org/abs/2305.11738}
+
+\rao{throw in the new results on Claude Opus etc}
+
+\rao{Cite Arora paper for learning verifiers, and also for using counter examples}
+
+\rao{***per Kaya, the ToT description about actually using a verifier is not right.. }
+
+\rao{Cite the neurosymbolic folks using solvers--(including from LLM side)--and say that the only guys who don't use solvers are the PL folks, who happen not to have solvers!!}
+
+\rao{**Constructive critics can come from {\bf relaxed solvers}. 
+}
+
+\rao{talk about context of LLM having all the old criticisms.. and the decision about whether to keep old criticisms or not; whether to summarize or not}
+
+\rao{**make sure to talk about derivational trace critics--and how they are task and advice specific; and can start critiquing at partial leve}
+
+\rao{Do push model-lite more.. Jana Doppa said Model-Lite is relevant and important}
+
+\rao{Do put in a link to Daman paper and how a bad verifier can be improved via fine tuning to a better verifier--but pattern recognition based critics can't give critiques? }
+
+\rao{thoughts for v3: Make clear the importance of meta-controller--how the generate-test-critique will always be sound if the verifier is sound; and will be complete if the generator can come up with diverse candidates.}
+
+\rao{2/9  Having simulator in the loop, meta controller aummarizing critques; LLM playing a role in the meta-controller}
+
+\rao{2/12: The LLM literature seems to be rife with confusing "acting" with "planning". Of course you can have LLMs invoke external services that act with your AutoGPT, your LangChain etc--but the mere ability to invoke an action doesn't in--any way--guarantee that those actions will achieve any desired state of affairs (unless someone else carefully orchestrates the invocation, and takes the blame). 
+%
+2. Indeed, the head-long rush to allow LLMs to act with external services should be concerning, when we know that they have no actual planning abilities. In the worst case, this may not be that much different from leaving guns unattended in a house with little kids (although I do think little kids have better planning abilities than LLMs).
+%
+3. we will need to establish upper bounds on the damage you can do when you can't plan. People tend to focus on agents making spearfish attacks--but dumb bombs cause just as much/more damage
+%
+4. Get vs. Post actions
+%
+5. AI Safety folks are too busy worrying about AGIs with planning abilities with actions at their disposal. What we have instead are dumb LLMs that have actions at their disposal. 
+}

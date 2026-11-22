@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "source": {
+    "mode": "pdf-layout-translate",
+    "generatedAt": "2026-11-20T02:41:04.495Z",
+    "providerId": "huoshanweb",
+    "sourceLang": "auto",
+    "targetLang": "zh-CN",
+    "serviceKey": "huoshanweb"
+  },
+  "items": [
+    {
+      "id": "8e995e08-5743-4d40-ac7b-0de919204154",
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.17357785094018077,
+        "y": 0.8697955198962279,
+        "w": 0.6539325589448018,
+        "h": 0.05735347246882891
+      },
+      "kind": "text",
+      "readingOrder": 287,
+      "source": "type of interaction is the ⟪S0⟫action ⟪/S0⟫phase, where the model needs to select the fish it wants to act with and then choose the target for skill. To ensure the validity of model operations, we perform checks for valid actions. The second type of interaction is the ⟪S1⟫guess ⟪/S1⟫phase, where we provide the model with",
+      "translated": "交互类型是⟪S0⟫action ⟪/S0⟫阶段，模型需要选择它想要与之一起行动的鱼，然后选择技能目标。为了确保模型操作的有效性，我们对有效操作进行检查。第二种类型的交互是⟪S1⟫猜测⟪/S1⟫阶段，我们为模型提供",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "type of interaction is the action phase, where the model needs to select the fish it wants to act with and then choose the target for skill.",
+          "source": "type of interaction is the ⟪S0⟫action ⟪/S0⟫phase, where the model needs to select the fish it wants to act with and then choose the target for skill.",
+          "translated": "交互类型是⟪S0⟫action ⟪/S0⟫阶段，模型需要选择它想要与之一起行动的鱼，然后选择技能目标。"
+        },
+        {
+          "quote": "To ensure the validity of model operations, we perform checks for valid actions.",
+          "source": "To ensure the validity of model operations, we perform checks for valid actions.",
+          "translated": "为了确保模型操作的有效性，我们对有效操作进行检查。"
+        },
+        {
+          "quote": "The second type of interaction is the guess phase, where we provide the model with",
+          "source": "The second type of interaction is the ⟪S1⟫guess ⟪/S1⟫phase, where we provide the model with",
+          "translated": "第二种类型的交互是⟪S1⟫猜测⟪/S1⟫阶段，我们为模型提供"
+        }
+      ]
+    }
+  ]
+}

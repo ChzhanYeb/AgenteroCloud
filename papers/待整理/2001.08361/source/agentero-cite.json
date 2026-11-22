@@ -1,0 +1,1107 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-15T11:46:52.934Z",
+    "fingerprint": "a71c30b724f98d450efd6e447527ce94a858ecb16a1c68857eb40483e379173c"
+  },
+  "citations": [
+    {
+      "id": "cite-altmann2012origin",
+      "rawKey": "altmann2012origin",
+      "display": "[1]",
+      "raw": "Eduardo G Altmann, Giampaolo Cristadoro, and Mirko Degli Esposti. On the origin of long-range correlations in texts. Proceedings of the National Academy of Sciences, 109(29):11582--11587, 2012.",
+      "metadata": {
+        "title": "On the origin of long-range correlations in texts",
+        "authors": [
+          "E. Altmann",
+          "G. Cristadoro",
+          "M. Degli Esposti"
+        ],
+        "year": 2012,
+        "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+        "doi": "10.1073/pnas.1117723109",
+        "arxivId": "1207.0658",
+        "url": "https://www.semanticscholar.org/paper/b760584bad3020ba3c267b86bb1ac3e8fdf1e780"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-1710.03667",
+      "rawKey": "1710.03667",
+      "display": "[2]",
+      "raw": "Madhu S. Advani and Andrew M. Saxe. High-dimensional dynamics of generalization error in neural networks. arXiv, 2017, 1710.03667http://arxiv.org/abs/1710.03667.",
+      "metadata": {
+        "title": "High-dimensional dynamics of generalization error in neural networks",
+        "authors": [
+          "Madhu S. Advani",
+          "Andrew M. Saxe",
+          "H. Sompolinsky"
+        ],
+        "year": 2017,
+        "venue": "Neural Networks",
+        "doi": "10.1016/j.neunet.2020.08.022",
+        "arxivId": "1710.03667",
+        "url": "http://arxiv.org/abs/1710.03667"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-banko2001scaling",
+      "rawKey": "banko2001scaling",
+      "display": "[3]",
+      "raw": "Michele Banko and Eric Brill. Scaling to very very large corpora for natural language disambiguation. In Proceedings of the 39th annual meeting on association for computational linguistics, pages 26--33. Association for Computational Linguistics, 2001.",
+      "metadata": {
+        "title": "Scaling to Very Very Large Corpora for Natural Language Disambiguation",
+        "authors": [
+          "Michele Banko",
+          "Eric Brill"
+        ],
+        "year": 2001,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.3115/1073012.1073017",
+        "url": "https://www.semanticscholar.org/paper/7628b62d64d2e5c33a13a5a473bc41b2391c1ebc"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-1812.11118",
+      "rawKey": "1812.11118",
+      "display": "[4]",
+      "raw": "Mikhail Belkin, Daniel Hsu, Siyuan Ma, and Soumik Mandal. Reconciling modern machine learning and the bias-variance trade-off. arXiv, 2018, 1812.11118http://arxiv.org/abs/1812.11118.",
+      "metadata": {
+        "title": "Reconciling modern machine learning and the bias-variance trade-off",
+        "authors": [
+          "Mikhail Belkin",
+          "Daniel J. Hsu",
+          "Si-Yuan Ma",
+          "Soumik Mandal"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1812.11118",
+        "arxivId": "1812.11118",
+        "url": "http://arxiv.org/abs/1812.11118"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-biau2012analysis",
+      "rawKey": "biau2012analysis",
+      "display": "[5]",
+      "raw": "G ASrard Biau. Analysis of a random forests model. Journal of Machine Learning Research, 13(Apr):1063--1095, 2012.",
+      "metadata": {
+        "title": "Analysis of a Random Forests Model",
+        "authors": [
+          "G. Biau"
+        ],
+        "year": 2010,
+        "venue": "Journal of machine learning research",
+        "doi": "10.5555/2503308.2343682",
+        "arxivId": "1005.0208",
+        "url": "https://www.semanticscholar.org/paper/29a662662539b9b4f74f24b3e7c3b6b9d9d42e29"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:journals-corr-abs-1904-10509",
+      "rawKey": "DBLP:journals/corr/abs-1904-10509",
+      "display": "[6]",
+      "raw": "Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers. CoRR, abs/1904.10509, 2019, 1904.10509http://arxiv.org/abs/1904.10509. http://arxiv.org/abs/1904.10509.",
+      "metadata": {
+        "title": "Generating Long Sequences with Sparse Transformers",
+        "authors": [
+          "R. Child",
+          "Scott Gray",
+          "A. Radford",
+          "I. Sutskever"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1904.10509",
+        "arxivId": "1904.10509",
+        "url": "http://arxiv.org/abs/1904.10509"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-1810.04805",
+      "rawKey": "1810.04805",
+      "display": "[7]",
+      "raw": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding, 2018, arXiv:1810.04805http://arxiv.org/abs/arXiv:1810.04805.",
+      "metadata": {
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "authors": [
+          "J. Devlin",
+          "Ming-Wei Chang",
+          "Kenton Lee",
+          "K. Toutanova"
+        ],
+        "year": 2019,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/N19-1423",
+        "arxivId": "1810.04805",
+        "url": "http://arxiv.org/abs/arXiv:1810.04805"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:journals-corr-abs-1807-03819",
+      "rawKey": "DBLP:journals/corr/abs-1807-03819",
+      "display": "[8]",
+      "raw": "Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, and Lukasz Kaiser. Universal transformers. CoRR, abs/1807.03819, 2018, 1807.03819http://arxiv.org/abs/1807.03819. http://arxiv.org/abs/1807.03819.",
+      "metadata": {
+        "title": "Universal Transformers",
+        "authors": [
+          "Mostafa Dehghani",
+          "S. Gouws",
+          "O. Vinyals",
+          "J. Uszkoreit",
+          "Lukasz Kaiser"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1807.03819",
+        "arxivId": "1807.03819",
+        "url": "http://arxiv.org/abs/1807.03819"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ebeling1994entropy",
+      "rawKey": "ebeling1994entropy",
+      "display": "[9]",
+      "raw": "Werner Ebeling and Thorsten Poschel. Entropy and long-range correlations in literary english. EPL (Europhysics Letters), 26(4):241, 1994.",
+      "metadata": {
+        "title": "Entropy and Long-Range Correlations in Literary English",
+        "authors": [
+          "W. Ebeling",
+          "T. Pöschel"
+        ],
+        "year": 1993,
+        "venue": "EPL (Europhysics Letters)",
+        "doi": "10.1209/0295-5075/26/4/001",
+        "arxivId": "chao-dyn/9309005",
+        "url": "https://www.semanticscholar.org/paper/40f41b58845735148d3f73110cd5b4bbdb474037"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-commoncrawl",
+      "rawKey": "commoncrawl",
+      "display": "[10]",
+      "raw": "The Common Crawl Foundation. Common crawl. http://commoncrawl.org.",
+      "metadata": {
+        "title": "The Common Crawl Foundation",
+        "venue": "http://commoncrawl.org .",
+        "url": "http://commoncrawl.org"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-unpublished-grd",
+      "rawKey": "unpublished-grd",
+      "display": "[11]",
+      "raw": "Guy Gur-Ari, Daniel A. Roberts, and Ethan Dyer. Gradient descent happens in a tiny subspace. 2018, arXiv:1812.04754http://arxiv.org/abs/arXiv:1812.04754.",
+      "metadata": {
+        "title": "Gradient Descent Happens in a Tiny Subspace",
+        "authors": [
+          "Guy Gur-Ari",
+          "Daniel A. Roberts",
+          "Ethan Dyer"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1812.04754",
+        "arxivId": "1812.04754",
+        "url": "http://arxiv.org/abs/arXiv:1812.04754"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-1901.01608",
+      "rawKey": "1901.01608",
+      "display": "[12]",
+      "raw": "Mario Geiger, Arthur Jacot, Stefano Spigler, Franck Gabriel, Levent Sagun, Stephane d'Ascoli, Giulio Biroli, Clement Hongler, and Matthieu Wyart. Scaling description of generalization with number of parameters in deep learning. arXiv, 2019, 1901.01608http://arxiv.org/abs/1901.01608.",
+      "metadata": {
+        "title": "Scaling description of generalization with number of parameters in deep learning",
+        "authors": [
+          "M. Geiger",
+          "Arthur Jacot",
+          "Stefano Spigler",
+          "Franck Gabriel",
+          "Levent Sagun",
+          "Stéphane d'Ascoli",
+          "G. Biroli",
+          "Clément Hongler",
+          "M. Wyart"
+        ],
+        "year": 2019,
+        "venue": "Journal of Statistical Mechanics: Theory and Experiment",
+        "doi": "10.1088/1742-5468/ab633c",
+        "arxivId": "1901.01608",
+        "url": "http://arxiv.org/abs/1901.01608"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:journals-corr-abs-1901-10159",
+      "rawKey": "DBLP:journals/corr/abs-1901-10159",
+      "display": "[13]",
+      "raw": "Behrooz Ghorbani, Shankar Krishnan, and Ying Xiao. An investigation into neural net optimization via hessian eigenvalue density. CoRR, abs/1901.10159, 2019, 1901.10159http://arxiv.org/abs/1901.10159. http://arxiv.org/abs/1901.10159.",
+      "metadata": {
+        "title": "An Investigation into Neural Net Optimization via Hessian Eigenvalue Density",
+        "authors": [
+          "B. Ghorbani",
+          "Shankar Krishnan",
+          "Ying Xiao"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1901.10159",
+        "arxivId": "1901.10159",
+        "url": "http://arxiv.org/abs/1901.10159"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:journals-corr-cs-CL-0108005",
+      "rawKey": "DBLP:journals/corr/cs-CL-0108005",
+      "display": "[14]",
+      "raw": "Joshua Goodman. A bit of progress in language modeling. CoRR, cs.CL/0108005, 2001. http://arxiv.org/abs/cs.CL/0108005.",
+      "metadata": {
+        "title": "A bit of progress in language modeling",
+        "authors": [
+          "Joshua Goodman"
+        ],
+        "year": 2001,
+        "venue": "Computer Speech and Language",
+        "doi": "10.1006/csla.2001.0174",
+        "arxivId": "cs.CL/0108005",
+        "url": "http://arxiv.org/abs/cs.CL/0108005"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gray2017gpu",
+      "rawKey": "gray2017gpu",
+      "display": "[15]",
+      "raw": "Scott Gray, Alec Radford, and Diederik P Kingma. Gpu kernels for block-sparse weights. openai.com, 2017.",
+      "metadata": {
+        "title": "GPU Kernels for Block-Sparse Weights",
+        "authors": [
+          "Scott Gray",
+          "A. Radford",
+          "Diederik P. Kingma"
+        ],
+        "year": 2017,
+        "url": "https://www.semanticscholar.org/paper/a07609c2ed39d049d3e59b61408fb600c6ab0950"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Hestness:2019:BHA:3293883.3295710",
+      "rawKey": "Hestness:2019:BHA:3293883.3295710",
+      "display": "[16]",
+      "raw": "Joel Hestness, Newsha Ardalani, and Gregory Diamos. Beyond human-level accuracy: Computational challenges in deep learning. In Proceedings of the 24th Symposium on Principles and Practice of Parallel Programming, PPoPP '19, pages 1--14, New York, NY, USA, 2019. ACM. 10.1145/3293883.3295710.",
+      "metadata": {
+        "title": "Beyond human-level accuracy: computational challenges in deep learning",
+        "authors": [
+          "Joel Hestness",
+          "Newsha Ardalani",
+          "G. Diamos"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 24th Symposium on Principles and Practice of Parallel Programming",
+        "doi": "10.1145/3293883.3295710",
+        "arxivId": "1909.01736",
+        "url": "https://www.semanticscholar.org/paper/083afaf8c8eb4d3f61a884221b340c3436c4bc13"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:journals-corr-abs-1811-06965",
+      "rawKey": "DBLP:journals/corr/abs-1811-06965",
+      "display": "[17]",
+      "raw": "Yanping Huang, Yonglong Cheng, Dehao Chen, HyoukJoong Lee, Jiquan Ngiam, Quoc V. Le, and Zhifeng Chen. Gpipe: Efficient training of giant neural networks using pipeline parallelism. CoRR, abs/1811.06965, 2018, 1811.06965http://arxiv.org/abs/1811.06965. http://arxiv.org/abs/1811.06965.",
+      "metadata": {
+        "title": "GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism",
+        "authors": [
+          "Yan-Ping Huang",
+          "You-Long Cheng",
+          "Ankur Bapna",
+          "O. Firat",
+          "Mia Chen",
+          "Dehao Chen",
+          "HyoukJoong Lee",
+          "J. Ngiam",
+          "Quoc V. Le",
+          "Yong-Hui Wu",
+          "Z. Chen"
+        ],
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "arxivId": "1811.06965",
+        "url": "http://arxiv.org/abs/1811.06965"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-1712.00409",
+      "rawKey": "1712.00409",
+      "display": "[18]",
+      "raw": "Joel Hestness, Sharan Narang, Newsha Ardalani, Gregory Diamos, Heewoo Jun, Hassan Kianinejad, Md. Mostofa Ali Patwary, Yang Yang, and Yanqi Zhou. Deep learning scaling is predictable, empirically, 2017, 1712.00409http://arxiv.org/abs/1712.00409.",
+      "metadata": {
+        "title": "Deep Learning Scaling is Predictable, Empirically",
+        "authors": [
+          "Joel Hestness",
+          "Sharan Narang",
+          "Newsha Ardalani",
+          "G. Diamos",
+          "Heewoo Jun",
+          "Hassan Kianinejad",
+          "Md. Mostofa Ali Patwary",
+          "Yang Yang",
+          "Yan-Qi Zhou"
+        ],
+        "year": 2017,
+        "doi": "10.48550/arXiv.1712.00409",
+        "arxivId": "1712.00409",
+        "url": "http://arxiv.org/abs/1712.00409"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jacot2018neural",
+      "rawKey": "jacot2018neural",
+      "display": "[19]",
+      "raw": "Arthur Jacot, Franck Gabriel, and Clement Hongler. Neural tangent kernel: Convergence and generalization in neural networks. In Advances in neural information processing systems, pages 8571--8580, 2018.",
+      "metadata": {
+        "title": "Neural Tangent Kernel: Convergence and Generalization in Neural Networks",
+        "authors": [
+          "Arthur Jacot",
+          "Franck Gabriel",
+          "Clément Hongler"
+        ],
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1806.07572",
+        "arxivId": "1806.07572",
+        "url": "https://www.semanticscholar.org/paper/7a84a692327534fd227fa1e07fcb3816b633c591"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kingma2014adam",
+      "rawKey": "kingma2014adam",
+      "display": "[20]",
+      "raw": "Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization, 2014, 1412.6980http://arxiv.org/abs/1412.6980.",
+      "metadata": {
+        "title": "Adam: A Method for Stochastic Optimization",
+        "authors": [
+          "Diederik P. Kingma",
+          "Jimmy Ba"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1412.6980",
+        "arxivId": "1412.6980",
+        "url": "http://arxiv.org/abs/1412.6980"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-1906.06669",
+      "rawKey": "1906.06669",
+      "display": "[21]",
+      "raw": "Aran Komatsuzaki. One epoch is all you need, 2019, arXiv:1906.06669http://arxiv.org/abs/arXiv:1906.06669.",
+      "metadata": {
+        "title": "One Epoch Is All You Need",
+        "authors": [
+          "Aran Komatsuzaki"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1906.06669",
+        "arxivId": "1906.06669",
+        "url": "http://arxiv.org/abs/arXiv:1906.06669"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Krizhevsky:2012:ICD:2999134.2999257",
+      "rawKey": "Krizhevsky:2012:ICD:2999134.2999257",
+      "display": "[22]",
+      "raw": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton. Imagenet classification with deep convolutional neural networks. In Proceedings of the 25th International Conference on Neural Information Processing Systems - Volume 1, NIPS'12, pages 1097--1105, USA, 2012. Curran Associates Inc. http://dl.acm.org/citation.cfm?id=2999134.2999257.",
+      "metadata": {
+        "title": "ImageNet classification with deep convolutional neural networks",
+        "authors": [
+          "A. Krizhevsky",
+          "I. Sutskever",
+          "Geoffrey E. Hinton"
+        ],
+        "year": 2012,
+        "venue": "Communications of the ACM",
+        "doi": "10.1145/3065386",
+        "url": "http://dl.acm.org/citation.cfm?id=2999134.2999257"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lan2019albert",
+      "rawKey": "lan2019albert",
+      "display": "[23]",
+      "raw": "Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and Radu Soricut. Albert: A lite bert for self-supervised learning of language representations, 2019, 1909.11942http://arxiv.org/abs/1909.11942.",
+      "metadata": {
+        "title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+        "authors": [
+          "Zhenzhong Lan",
+          "Mingda Chen",
+          "Sebastian Goodman",
+          "Kevin Gimpel",
+          "Piyush Sharma",
+          "Radu Soricut"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1909.11942",
+        "arxivId": "1909.11942",
+        "url": "http://arxiv.org/abs/1909.11942"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:journals-corr-abs-1907-11692",
+      "rawKey": "DBLP:journals/corr/abs-1907-11692",
+      "display": "[24]",
+      "raw": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. Roberta: A robustly optimized BERT pretraining approach. CoRR, abs/1907.11692, 2019, 1907.11692http://arxiv.org/abs/1907.11692. http://arxiv.org/abs/1907.11692.",
+      "metadata": {
+        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "authors": [
+          "Yinhan Liu",
+          "Myle Ott",
+          "Naman Goyal",
+          "Jing-Fei Du",
+          "Mandar Joshi",
+          "Danqi Chen",
+          "Omer Levy",
+          "M. Lewis",
+          "Luke Zettlemoyer",
+          "Veselin Stoyanov"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1907.11692",
+        "arxivId": "1907.11692",
+        "url": "http://arxiv.org/abs/1907.11692"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-liu2018generating",
+      "rawKey": "liu2018generating",
+      "display": "[25]",
+      "raw": "Peter J. Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, and Noam Shazeer. Generating wikipedia by summarizing long sequences. arXiv:1801.10198 [cs], 2018, 1801.10198http://arxiv.org/abs/1801.10198. http://arxiv.org/abs/1801.10198.",
+      "metadata": {
+        "title": "Generating Wikipedia by Summarizing Long Sequences",
+        "authors": [
+          "Peter J. Liu",
+          "Mohammad Saleh",
+          "Etienne Pot",
+          "Ben Goodrich",
+          "Ryan Sepassi",
+          "Lukasz Kaiser",
+          "Noam Shazeer"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1801.10198",
+        "arxivId": "1801.10198",
+        "url": "http://arxiv.org/abs/1801.10198"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lin2016criticality",
+      "rawKey": "lin2016criticality",
+      "display": "[26]",
+      "raw": "Henry W Lin and Max Tegmark. Criticality in formal languages and statistical physics. arXiv preprint arXiv:1606.06737, 2016.",
+      "metadata": {
+        "title": "Criticality in Formal Languages and Statistical Physics∗",
+        "authors": [
+          "Henry W. Lin",
+          "Max Tegmark"
+        ],
+        "year": 2017,
+        "arxivId": "1606.06737",
+        "url": "https://www.semanticscholar.org/paper/da4b2e183d4300f5154b42bc565bfc2e79d06186"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-1902.06720",
+      "rawKey": "1902.06720",
+      "display": "[27]",
+      "raw": "Jaehoon Lee, Lechao Xiao, Samuel S. Schoenholz, Yasaman Bahri, Roman Novak, Jascha Sohl-Dickstein, and Jeffrey Pennington. Wide neural networks of any depth evolve as linear models under gradient descent, 2019, arXiv:1902.06720http://arxiv.org/abs/arXiv:1902.06720.",
+      "metadata": {
+        "title": "Wide neural networks of any depth evolve as linear models under gradient descent",
+        "authors": [
+          "Jaehoon Lee",
+          "Lechao Xiao",
+          "S. Schoenholz",
+          "Yasaman Bahri",
+          "Roman Novak",
+          "Jascha Narain Sohl-Dickstein",
+          "Jeffrey Pennington"
+        ],
+        "year": 2019,
+        "venue": "Journal of Statistical Mechanics: Theory and Experiment",
+        "doi": "10.1088/1742-5468/abc62b",
+        "arxivId": "1902.06720",
+        "url": "http://arxiv.org/abs/arXiv:1902.06720"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-1812.06162",
+      "rawKey": "1812.06162",
+      "display": "[28]",
+      "raw": "Sam McCandlish, Jared Kaplan, Dario Amodei, and OpenAI Dota Team. An empirical model of large-batch training, 2018, arXiv:1812.06162http://arxiv.org/abs/arXiv:1812.06162.",
+      "metadata": {
+        "title": "An Empirical Model of Large-Batch Training",
+        "authors": [
+          "Sam McCandlish",
+          "J. Kaplan",
+          "D. Amodei",
+          "OpenAI Dota Team"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1812.06162",
+        "arxivId": "1812.06162",
+        "url": "http://arxiv.org/abs/arXiv:1812.06162"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:journals-corr-abs-1811-07062",
+      "rawKey": "DBLP:journals/corr/abs-1811-07062",
+      "display": "[29]",
+      "raw": "Vardan Papyan. The full spectrum of deep net hessians at scale: Dynamics with sample size. CoRR, abs/1811.07062, 2018, 1811.07062http://arxiv.org/abs/1811.07062. http://arxiv.org/abs/1811.07062.",
+      "metadata": {
+        "title": "The Full Spectrum of Deep Net Hessians At Scale: Dynamics with Sample Size",
+        "authors": [
+          "Vardan Papyan"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1811.07062",
+        "arxivId": "1811.07062",
+        "url": "http://arxiv.org/abs/1811.07062"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-radford2018improving",
+      "rawKey": "radford2018improving",
+      "display": "[30]",
+      "raw": "Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language understanding by generative pre-training. URL https://s3-us-west-2. amazonaws. com/openai-assets/research-covers/languageunsupervised/language understanding paper. pdf, 2018.",
+      "metadata": {
+        "title": "Improving Language Understanding by Generative Pre-Training",
+        "authors": [
+          "A. Radford",
+          "Karthik Narasimhan"
+        ],
+        "year": 2018,
+        "url": "https://s3-us-west-2"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rosenfeld2019constructive",
+      "rawKey": "rosenfeld2019constructive",
+      "display": "[31]",
+      "raw": "Jonathan S. Rosenfeld, Amir Rosenfeld, Yonatan Belinkov, and Nir Shavit. A constructive prediction of the generalization error across scales, 2019, 1909.12673http://arxiv.org/abs/1909.12673.",
+      "metadata": {
+        "title": "A Constructive Prediction of the Generalization Error Across Scales",
+        "authors": [
+          "Jonathan S. Rosenfeld",
+          "Amir Rosenfeld",
+          "Yonatan Belinkov",
+          "N. Shavit"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1909.12673",
+        "arxivId": "1909.12673",
+        "url": "http://arxiv.org/abs/1909.12673"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-1909.12673",
+      "rawKey": "1909.12673",
+      "display": "[32]",
+      "raw": "Jonathan S. Rosenfeld, Amir Rosenfeld, Yonatan Belinkov, and Nir Shavit. A constructive prediction of the generalization error across scales, 2019, arXiv:1909.12673http://arxiv.org/abs/arXiv:1909.12673.",
+      "metadata": {
+        "year": 2019,
+        "arxivId": "1909.12673",
+        "url": "http://arxiv.org/abs/arXiv:1909.12673"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-1910.10683",
+      "rawKey": "1910.10683",
+      "display": "[33]",
+      "raw": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified text-to-text transformer, 2019, arXiv:1910.10683http://arxiv.org/abs/arXiv:1910.10683.",
+      "metadata": {
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "authors": [
+          "Colin A. Raffel",
+          "Noam Shazeer",
+          "Adam Roberts",
+          "Katherine Lee",
+          "Sharan Narang",
+          "Michael Matena",
+          "Yan-Qi Zhou",
+          "Wei Li",
+          "Peter J. Liu"
+        ],
+        "year": 2019,
+        "venue": "Journal of machine learning research",
+        "doi": "10.48550/arXiv.1910.10683",
+        "arxivId": "1910.10683",
+        "url": "http://arxiv.org/abs/arXiv:1910.10683"
+      },
+      "localMatch": {
+        "paperPath": "papers/1910.10683",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-radford2019language",
+      "rawKey": "radford2019language",
+      "display": "[34]",
+      "raw": "Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. Language models are unsupervised multitask learners. openai.com, 2019.",
+      "metadata": {
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "authors": [
+          "A. Radford",
+          "Jeff Wu",
+          "R. Child",
+          "D. Luan",
+          "D. Amodei",
+          "I. Sutskever"
+        ],
+        "year": 2019,
+        "url": "https://www.semanticscholar.org/paper/9405cc0d6169988371b2755e573cc28650d14dfe"
+      },
+      "localMatch": {
+        "paperPath": "papers/language-models-are-unsupervised-multitask-learners",
+        "matchBy": "title"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shazeer2018meshtensorflow",
+      "rawKey": "shazeer2018meshtensorflow",
+      "display": "[35]",
+      "raw": "Noam Shazeer, Youlong Cheng, Niki Parmar, Dustin Tran, Ashish Vaswani, Penporn Koanantakool, Peter Hawkins, HyoukJoong Lee, Mingsheng Hong, Cliff Young, Ryan Sepassi, and Blake Hechtman. Mesh-tensorflow: Deep learning for supercomputers, 2018, 1811.02084http://arxiv.org/abs/1811.02084.",
+      "metadata": {
+        "title": "Mesh-TensorFlow: Deep Learning for Supercomputers",
+        "authors": [
+          "Noam Shazeer",
+          "You-Long Cheng",
+          "N. Parmar",
+          "Dustin Tran",
+          "Ashish Vaswani",
+          "Penporn Koanantakool",
+          "Peter G. Hawkins",
+          "HyoukJoong Lee",
+          "Mingsheng Hong",
+          "Cliff Young",
+          "Ryan Sepassi",
+          "Blake A. Hechtman"
+        ],
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1811.02084",
+        "arxivId": "1811.02084",
+        "url": "http://arxiv.org/abs/1811.02084"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-BPE",
+      "rawKey": "BPE",
+      "display": "[36]",
+      "raw": "Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words with subword units. CoRR, 2015, 1508.07909http://arxiv.org/abs/1508.07909.",
+      "metadata": {
+        "title": "Neural Machine Translation of Rare Words with Subword Units",
+        "authors": [
+          "Rico Sennrich",
+          "B. Haddow",
+          "Alexandra Birch"
+        ],
+        "year": 2015,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P16-1162",
+        "arxivId": "1508.07909",
+        "url": "http://arxiv.org/abs/1508.07909"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-1811.03600",
+      "rawKey": "1811.03600",
+      "display": "[37]",
+      "raw": "Christopher J. Shallue, Jaehoon Lee, Joe Antognini, Jascha Sohl-Dickstein, Roy Frostig, and George E. Dahl. Measuring the effects of data parallelism on neural network training, 2018, arXiv:1811.03600http://arxiv.org/abs/arXiv:1811.03600.",
+      "metadata": {
+        "title": "Measuring the Effects of Data Parallelism on Neural Network Training",
+        "authors": [
+          "Christopher J. Shallue",
+          "Jaehoon Lee",
+          "J. Antognini",
+          "Jascha Narain Sohl-Dickstein",
+          "Roy Frostig",
+          "G. Dahl"
+        ],
+        "year": 2018,
+        "venue": "Journal of machine learning research",
+        "doi": "10.48550/arXiv.1811.03600",
+        "arxivId": "1811.03600",
+        "url": "http://arxiv.org/abs/arXiv:1811.03600"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:journals-corr-abs-1804-04235",
+      "rawKey": "DBLP:journals/corr/abs-1804-04235",
+      "display": "[38]",
+      "raw": "Noam Shazeer and Mitchell Stern. Adafactor: Adaptive learning rates with sublinear memory cost. CoRR, abs/1804.04235, 2018, 1804.04235http://arxiv.org/abs/1804.04235. http://arxiv.org/abs/1804.04235.",
+      "metadata": {
+        "title": "Adafactor: Adaptive Learning Rates with Sublinear Memory Cost",
+        "authors": [
+          "Noam Shazeer",
+          "Mitchell Stern"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1804.04235",
+        "arxivId": "1804.04235",
+        "url": "http://arxiv.org/abs/1804.04235"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-thurner2018introduction",
+      "rawKey": "thurner2018introduction",
+      "display": "[39]",
+      "raw": "Stefan Thurner, Rudolf Hanel, and Peter Klimek. Introduction to the theory of complex systems. Oxford University Press, 2018.",
+      "metadata": {
+        "title": "Introduction to the Theory of Complex Systems",
+        "authors": [
+          "S. Thurner",
+          "P. Klimek",
+          "R. Hanel"
+        ],
+        "year": 2018,
+        "venue": "Oxford Scholarship Online",
+        "doi": "10.1093/oso/9780198821939.001.0001",
+        "url": "https://www.semanticscholar.org/paper/015a0f1e0e5a6f03b9dc8828b8c25964555b3415"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:journals-corr-abs-1905-11946",
+      "rawKey": "DBLP:journals/corr/abs-1905-11946",
+      "display": "[40]",
+      "raw": "Mingxing Tan and Quoc V. Le. Efficientnet: Rethinking model scaling for convolutional neural networks. CoRR, abs/1905.11946, 2019, 1905.11946http://arxiv.org/abs/1905.11946. http://arxiv.org/abs/1905.11946.",
+      "metadata": {
+        "title": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
+        "authors": [
+          "M. Tan",
+          "Quoc V. Le"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1905.11946",
+        "arxivId": "1905.11946",
+        "url": "http://arxiv.org/abs/1905.11946"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-OriginalTransformer",
+      "rawKey": "OriginalTransformer",
+      "display": "[41]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett, editors, Advances in Neural Information Processing Systems 30, pages 5998--6008. Curran Associates, Inc., 2017. http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf.",
+      "metadata": {
+        "title": "Attention is All you Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "N. Parmar",
+          "J. Uszkoreit",
+          "L. Jones",
+          "Aidan N. Gomez",
+          "Lukasz Kaiser",
+          "I. Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1706.03762",
+        "arxivId": "1706.03762",
+        "url": "http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ResNetsEnsemblesShallow",
+      "rawKey": "ResNetsEnsemblesShallow",
+      "display": "[42]",
+      "raw": "Andreas Veit, Michael Wilber, and Serge Belongie. Residual networks behave like ensembles of relatively shallow networks, 2016, arXiv:1605.06431http://arxiv.org/abs/arXiv:1605.06431.",
+      "metadata": {
+        "title": "Residual Networks Behave Like Ensembles of Relatively Shallow Networks",
+        "authors": [
+          "Andreas Veit",
+          "Michael J. Wilber",
+          "Serge J. Belongie"
+        ],
+        "year": 2016,
+        "venue": "Neural Information Processing Systems",
+        "arxivId": "1605.06431",
+        "url": "http://arxiv.org/abs/arXiv:1605.06431"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wasserman2006all",
+      "rawKey": "wasserman2006all",
+      "display": "[43]",
+      "raw": "Larry Wasserman. All of nonparametric statistics. Springer Science & Business Media, 2006.",
+      "metadata": {
+        "title": "All of Nonparametric Statistics",
+        "authors": [
+          "S. Fotopoulos"
+        ],
+        "year": 2007,
+        "venue": "Technometrics",
+        "doi": "10.1198/tech.2007.s454",
+        "url": "https://www.semanticscholar.org/paper/0eb36599c7e976b6e52a3693bbe30995cdbbb330"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2019superglue",
+      "rawKey": "wang2019superglue",
+      "display": "[44]",
+      "raw": "Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R. Bowman. Superglue: A stickier benchmark for general-purpose language understanding systems, 2019, 1905.00537http://arxiv.org/abs/1905.00537.",
+      "metadata": {
+        "title": "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems",
+        "authors": [
+          "Alex Wang",
+          "Yada Pruksachatkun",
+          "Nikita Nangia",
+          "Amanpreet Singh",
+          "Julian Michael",
+          "F. Hill",
+          "Omer Levy",
+          "Samuel R. Bowman"
+        ],
+        "year": 2019,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1905.00537",
+        "arxivId": "1905.00537",
+        "url": "http://arxiv.org/abs/1905.00537"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Wang_2017",
+      "rawKey": "Wang_2017",
+      "display": "[45]",
+      "raw": "Yu-Xiong Wang, Deva Ramanan, and Martial Hebert. Growing a brain: Fine-tuning by increasing model capacity. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Jul 2017. 10.1109/cvpr.2017.323.",
+      "metadata": {
+        "title": "Growing a Brain: Fine-Tuning by Increasing Model Capacity",
+        "authors": [
+          "Yu-Xiong Wang",
+          "D. Ramanan",
+          "M. Hebert"
+        ],
+        "year": 2017,
+        "venue": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "doi": "10.1109/cvpr.2017.323",
+        "arxivId": "1907.07844",
+        "url": "https://www.semanticscholar.org/paper/69a037af886a6235d9af3cdeef4c7233d34c86ce"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wen2019autogrow",
+      "rawKey": "wen2019autogrow",
+      "display": "[46]",
+      "raw": "Wei Wen, Feng Yan, and Hai Li. Autogrow: Automatic layer growing in deep convolutional networks, 2019, 1906.02909http://arxiv.org/abs/1906.02909.",
+      "metadata": {
+        "title": "AutoGrow: Automatic Layer Growing in Deep Convolutional Networks",
+        "authors": [
+          "W. Wen",
+          "Feng Yan",
+          "Yi-Ran Chen",
+          "H. Li"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining",
+        "doi": "10.1145/3394486.3403126",
+        "arxivId": "1906.02909",
+        "url": "http://arxiv.org/abs/1906.02909"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-1906.08237",
+      "rawKey": "1906.08237",
+      "display": "[47]",
+      "raw": "Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, and Quoc V. Le. Xlnet: Generalized autoregressive pretraining for language understanding, 2019, arXiv:1906.08237http://arxiv.org/abs/arXiv:1906.08237.",
+      "metadata": {
+        "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+        "authors": [
+          "Zhi-Lin Yang",
+          "Zi-Hang Dai",
+          "Yiming Yang",
+          "J. Carbonell",
+          "R. Salakhutdinov",
+          "Quoc V. Le"
+        ],
+        "year": 2019,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1906.08237",
+        "arxivId": "1906.08237",
+        "url": "http://arxiv.org/abs/arXiv:1906.08237"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Zagoruyko_2016",
+      "rawKey": "Zagoruyko_2016",
+      "display": "[48]",
+      "raw": "Sergey Zagoruyko and Nikos Komodakis. Wide residual networks. Procedings of the British Machine Vision Conference 2016, 2016. 10.5244/c.30.87.",
+      "metadata": {
+        "title": "Wide Residual Networks",
+        "authors": [
+          "S. Zagoruyko",
+          "N. Komodakis"
+        ],
+        "year": 2016,
+        "venue": "British Machine Vision Conference",
+        "doi": "10.5244/c.30.87",
+        "arxivId": "1605.07146",
+        "url": "https://www.semanticscholar.org/paper/1c4e9156ca07705531e45960b7a919dc473abb51"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Zhu_2015",
+      "rawKey": "Zhu_2015",
+      "display": "[49]",
+      "raw": "Yukun Zhu, Ryan Kiros, Rich Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler. Aligning books and movies: Towards story-like visual explanations by watching movies and reading books. 2015 IEEE International Conference on Computer Vision (ICCV), Dec 2015. 10.1109/iccv.2015.11.",
+      "metadata": {
+        "title": "Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books",
+        "authors": [
+          "Yu-Kun Zhu",
+          "R. Kiros",
+          "R. Zemel",
+          "R. Salakhutdinov",
+          "R. Urtasun",
+          "A. Torralba",
+          "S. Fidler"
+        ],
+        "year": 2015,
+        "venue": "2015 IEEE International Conference on Computer Vision (ICCV)",
+        "doi": "10.1109/iccv.2015.11",
+        "arxivId": "1506.06724",
+        "url": "https://www.semanticscholar.org/paper/0e6824e137847be0599bb0032e37042ed2ef5045"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:journals-corr-abs-1907-04164",
+      "rawKey": "DBLP:journals/corr/abs-1907-04164",
+      "display": "[50]",
+      "raw": "Guodong Zhang, Lala Li, Zachary Nado, James Martens, Sushant Sachdeva, George E. Dahl, Christopher J. Shallue, and Roger B. Grosse. Which algorithmic choices matter at which batch sizes? insights from a noisy quadratic model. CoRR, abs/1907.04164, 2019, 1907.04164http://arxiv.org/abs/1907.04164. http://arxiv.org/abs/1907.04164.",
+      "metadata": {
+        "title": "Which Algorithmic Choices Matter at Which Batch Sizes? Insights From a Noisy Quadratic Model",
+        "authors": [
+          "Guodong Zhang",
+          "La-La Li",
+          "Zachary Nado",
+          "James Martens",
+          "Sushant Sachdeva",
+          "G. Dahl",
+          "Christopher J. Shallue",
+          "R. Grosse"
+        ],
+        "year": 2019,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1907.04164",
+        "arxivId": "1907.04164",
+        "url": "http://arxiv.org/abs/1907.04164"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 50 entries (bbl)",
+    "semantic scholar: 59 references",
+    "merged: 49 of 50 enriched online"
+  ]
+}

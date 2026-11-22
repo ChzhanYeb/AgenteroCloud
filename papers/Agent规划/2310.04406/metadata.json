@@ -1,0 +1,64 @@
+{
+  "path": "papers/Agent规划/2310.04406",
+  "id": "2310.04406",
+  "type": "arxiv",
+  "title": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models",
+  "authors": [
+    "Andy Zhou",
+    "Kai Yan",
+    "Michal Shlapentokh-Rothman",
+    "Haohan Wang",
+    "Yu-Xiong Wang"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Andy",
+      "lastName": "Zhou"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Kai",
+      "lastName": "Yan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Michal",
+      "lastName": "Shlapentokh-Rothman"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Haohan",
+      "lastName": "Wang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yu-Xiong",
+      "lastName": "Wang"
+    }
+  ],
+  "year": 2023,
+  "date": "2023/10/06",
+  "abstract": "While language models (LMs) have shown potential across a range of decision-making tasks, their reliance on simple acting processes limits their broad deployment as autonomous agents. In this paper, we introduce Language Agent Tree Search (LATS) -- the first general framework that synergizes the capabilities of LMs in reasoning, acting, and planning. By leveraging the in-context learning ability of LMs, we integrate Monte Carlo Tree Search into LATS to enable LMs as agents, along with LM-powered value functions and self-reflections for proficient exploration and enhanced decision-making. A key feature of our approach is the incorporation of an environment for external feedback, which offers a more deliberate and adaptive problem-solving mechanism that surpasses the constraints of existing techniques. Our experimental evaluation across diverse domains, including programming, interactive question-answering (QA), web navigation, and math, validates the effectiveness and generality of LATS in decision-making while maintaining competitive or improved reasoning performance. Notably, LATS achieves state-of-the-art pass@1 accuracy (92.7%) for programming on HumanEval with GPT-4 and demonstrates gradient-free performance (average score of 75.9) comparable to gradient-based fine-tuning for web navigation on WebShop with GPT-3.5. Code can be found at https://github.com/lapisrocks/LanguageAgentTreeSearch",
+  "tags": [
+    {
+      "name": "Agent规划",
+      "color": "blue"
+    }
+  ],
+  "arxiv_id": "2310.04406",
+  "language": "en",
+  "pdf_url": "https://arxiv.org/pdf/2310.04406",
+  "html_url": "https://arxiv.org/html/2310.04406",
+  "source_url": "https://arxiv.org/abs/2310.04406",
+  "code_repo": "https://github.com/lapisrocks/LanguageAgentTreeSearch",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2310.04406",
+  "zotero_item_type": "webpage",
+  "meta_source": "translator",
+  "status": "completed",
+  "is_read": true,
+  "added_at": "2026-11-15T12:04:42.174Z",
+  "updated_at": "2026-11-15T13:18:37.101Z"
+}

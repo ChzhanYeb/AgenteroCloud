@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-17T15:01:13.343Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "figure-1",
+      "stableKey": "p2:figure:Figure 1: Left: We isolated a circuit (in orange) responsible for the flow of in",
+      "kind": "image",
+      "section": "figure",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.1727197185840482,
+        "y": 0.10388595889313053,
+        "w": 0.6551799898833232,
+        "h": 0.2327004249649819
+      },
+      "score": 0.9364520907402039,
+      "title": "Figure 1: Left: We isolated a circuit (in orange) responsible for the flow of information connecting the indirect object “Mary” to the next token prediction. The nodes are attention layers and the edges represent the interactions between these layers. Right: We discovered and validated this circuit using causal interventions, including both path patching and knockouts of attention heads.",
+      "layoutRegionId": "614e55eb-fb17-4a19-aa71-0185c987bec8"
+    },
+    {
+      "id": "figure-2",
+      "stableKey": "p4:figure:Figure 2: We discover a circuit in GPT-2 small that implements IOI. The input to",
+      "kind": "image",
+      "section": "figure",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.17138821470971202,
+        "y": 0.6933210738981613,
+        "w": 0.6561154134912428,
+        "h": 0.22883929628314392
+      },
+      "score": 0.9539175033569336,
+      "title": "Figure 2: We discover a circuit in GPT-2 small that implements IOI. The input tokens on the left are passed into the residual stream. Attention heads move information between residual streams: the query and output arrows show which residual streams they write to, and the key/value arrows show which residual streams they read from.",
+      "layoutRegionId": "42de2cdd-4748-45f2-b814-16fd469cdfe5"
+    },
+    {
+      "id": "figure-3",
+      "stableKey": "p6:figure:Figure 3: (a) We are searching for heads h directly affecting the logits using p",
+      "kind": "chart",
+      "section": "figure",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.1718168819651884,
+        "y": 0.10074541303846571,
+        "w": 0.6568550907708461,
+        "h": 0.3215449651082356
+      },
+      "score": 0.9263578653335571,
+      "title": "Figure 3: (a) We are searching for heads h directly affecting the logits using path patching. (b) Results of the path patching experiments. Name Movers and Negative Name Movers Heads are the heads that have the strongest direct effect on the logit difference. (c) Attention probability vs projection of the head output along W U [ IO ] or W U [ S ] respectively. For S tokens, we sum the attention probability on both S1 and S2.",
+      "layoutRegionId": "c9a05981-5138-48f9-b14f-b6d996160b67"
+    },
+    {
+      "id": "figure-4",
+      "stableKey": "p7:figure:Figure 4: (a) Diagram of the direct effect experiments on Name Mover Heads’ quer",
+      "kind": "chart",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.17095873714272491,
+        "y": 0.11619671908291904,
+        "w": 0.6576582341412314,
+        "h": 0.24910732230754815
+      },
+      "score": 0.9111042618751526,
+      "title": "Figure 4: (a) Diagram of the direct effect experiments on Name Mover Heads’ queries. We patch in the red path from the p ABC distribution. Then, we measure the indirect effect of h on the logits (dotted line). All attention heads are recomputed on this path. (b) Result of the path patching experiments. The four heads causing a decrease in logit difference are S-Inhibition Heads. (c) Attention of Name Mover Heads on p IOI before and after path patching of S-Inhibition Heads Name Mover Heads’ queries for all four S-Inhibition Heads at once (black bars show the standard → deviation). S-Inhibition Heads are responsible for Name Mover Heads’ selective attention on IO.",
+      "layoutRegionId": "a314e18d-d511-4fb4-b4f9-7b80f79fb3b3"
+    },
+    {
+      "id": "figure-5",
+      "stableKey": "p7:figure:Figure 5: (a) Diagram of the direct effect experiment on S-Inhibition Heads’ val",
+      "kind": "chart",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.17113801544787838,
+        "y": 0.3816313695425939,
+        "w": 0.6564693326264426,
+        "h": 0.24429463858556266
+      },
+      "score": 0.9110797643661499,
+      "title": "Figure 5: (a) Diagram of the direct effect experiment on S-Inhibition Heads’ values. On the indirect path from h to the logits (dotted line), all elements are recomputed, Name Movers Heads are me diating the effect on logits. (b) Result of the path patching experiments for the S-Inhibition Heads’ values.",
+      "layoutRegionId": "8dec8fb0-6e23-4454-a001-6b9d0a3663c2"
+    },
+    {
+      "id": "figure-6",
+      "stableKey": "p10:figure:Figure 6: Plot of points ( x K , y K ) = ( F ( C K ) , F ( M K )) for (a) our ci",
+      "kind": "chart",
+      "section": "figure",
+      "page": 10,
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.17310011620615043,
+        "y": 0.13233347613402088,
+        "w": 0.6552985945558236,
+        "h": 0.2333393578577523
+      },
+      "score": 0.9113308191299438,
+      "title": "Figure 6: Plot of points ( x K , y K ) = ( F ( C K ) , F ( M K )) for (a) our circuit and (b) a naive circuit. Each point is for a different choice of \\ K . We show sets \\ K obtained from different sampling strategies: 10 uniformly randomly chosen K C , K = , K a class of heads from the circuit, and 10 K found by greedy optimization. Since the incompleteness score is ⊆ ∅ x K y K , we show the line y = x for reference. | − |",
+      "layoutRegionId": "6d3f4f41-0e55-4d1e-966a-dfb7bc8aef65"
+    },
+    {
+      "id": "figure-7",
+      "stableKey": "p11:figure:Figure 7: Plot of minimality scores |F(C (K all components v in our circuit. The",
+      "kind": "chart",
+      "section": "figure",
+      "page": 11,
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.17647058823529413,
+        "y": 0.0990986872201014,
+        "w": 0.6470588235294118,
+        "h": 0.31504272692131274
+      },
+      "score": 0.9552508592605591,
+      "title": "Figure 7: Plot of minimality scores |F(C (K all components v in our circuit. The sets K \\ used for each component, as well as the initial and final ∪ { } − values of the logit difference for each of these v are in Appendix K.",
+      "layoutRegionId": "4ea5ec38-4bcb-4bb1-9c19-68081a26966f"
+    },
+    {
+      "id": "figure-10",
+      "stableKey": "p15:figure:Figure 10: Name Mover Heads’ attention probability before and after patching S-I",
+      "kind": "chart",
+      "section": "figure",
+      "page": 15,
+      "pageIndex": 14,
+      "bbox": {
+        "x": 0.17421460619159773,
+        "y": 0.22681794985376222,
+        "w": 0.6538062251471226,
+        "h": 0.2568294062758937
+      },
+      "score": 0.9163970947265625,
+      "title": "Figure 10: Name Mover Heads’ attention probability before and after patching S-Inhibition Heads from signal-specific datasets. Left: patching from the dataset generated by random flip of name (same position signal, random token signal). Right: patching from the dataset generated by IO S2 replacement (inverted position signal, inverted token signal). Black bars represent the standard ← deviation.",
+      "layoutRegionId": "269cab31-dedf-4659-bc08-f6a82da8ffb4"
+    },
+    {
+      "id": "figure-11",
+      "stableKey": "p16:figure:Figure 11: Illustration of the four forward passes in the path patching method. ",
+      "kind": "image",
+      "section": "figure",
+      "page": 16,
+      "pageIndex": 15,
+      "bbox": {
+        "x": 0.17424860187605315,
+        "y": 0.098217097195712,
+        "w": 0.653463712704727,
+        "h": 0.31265785718204997
+      },
+      "score": 0.9636912941932678,
+      "title": "Figure 11: Illustration of the four forward passes in the path patching method. h = 0 . 1 and R = 2 . 0 , 3 . 1 . The layer norms are not shown for clarity. In the forward pass C, we show in red all the { paths through which } h can influence the value of heads in R . Nodes in black are recomputed, nodes in color are patched or frozen to their corresponding values.",
+      "layoutRegionId": "53c4e566-158f-4eea-90ca-8d7b7ae85dfc"
+    },
+    {
+      "id": "figure-12",
+      "stableKey": "p18:figure:Figure 12: (a) Diagram of the direct effect experiment on S-Inhibition Heads’ ke",
+      "kind": "image",
+      "section": "figure",
+      "page": 18,
+      "pageIndex": 17,
+      "bbox": {
+        "x": 0.171438578686683,
+        "y": 0.1393255175966205,
+        "w": 0.6553255467633017,
+        "h": 0.18470492507472183
+      },
+      "score": 0.8993754386901855,
+      "title": "Figure 12: (a) Diagram of the direct effect experiment on S-Inhibition Heads’ keys at S2. (b) Result of the path patching experiments for direct effect experiment on S-Inhibition Heads’ keys.",
+      "layoutRegionId": "f2de859f-e60f-4754-9c4f-052265b9e6f4"
+    },
+    {
+      "id": "figure-13",
+      "stableKey": "p18:figure:Figure 13: (a) Diagram of the direct effect experiment on Induction Heads’ keys ",
+      "kind": "image",
+      "section": "figure",
+      "page": 18,
+      "pageIndex": 17,
+      "bbox": {
+        "x": 0.17336738187503192,
+        "y": 0.3471564475936119,
+        "w": 0.6543926039552377,
+        "h": 0.19253154716106374
+      },
+      "score": 0.8937989473342896,
+      "title": "Figure 13: (a) Diagram of the direct effect experiment on Induction Heads’ keys at S1+1. The effects on logits are mediated by S-Inhibition Heads and Name Mover Heads (b) Result of the path patching experiments on Induction Heads’ keys at S1+1.",
+      "layoutRegionId": "11ab42eb-7708-4ca6-ac95-7db6487ca1bc"
+    },
+    {
+      "id": "figure-15",
+      "stableKey": "p20:figure:Figure 15: Discovery of the Backup Name Mover Heads. Left: results from the path",
+      "kind": "chart",
+      "section": "figure",
+      "page": 20,
+      "pageIndex": 19,
+      "bbox": {
+        "x": 0.17168989991830066,
+        "y": 0.14823543664180872,
+        "w": 0.6558081433663961,
+        "h": 0.23218929406368372
+      },
+      "score": 0.920662522315979,
+      "title": "Figure 15: Discovery of the Backup Name Mover Heads. Left: results from the path patching experiment in Figure 3b . Right: the same path patching experiment results except computed after knocking out the Name Mover Heads. In both plots, the heads are ordered by decreasing order of the absolute value of their effect.",
+      "layoutRegionId": "7c209f75-024e-4d79-a9db-46e60ed7c3a5"
+    },
+    {
+      "id": "figure-16",
+      "stableKey": "p21:figure:Figure 16: Four examples of Backup Name Mover Heads. Left: attention probability",
+      "kind": "image",
+      "section": "figure",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.17227723863389757,
+        "y": 0.11955422102802932,
+        "w": 0.6557641870835248,
+        "h": 0.5582750975483595
+      },
+      "score": 0.74381422996521,
+      "title": "Figure 16: Four examples of Backup Name Mover Heads. Left: attention probability vs projection of the head output along W U [ IO ] or W U [ S ] respectively. Right: Attention pattern on a sample sequence.",
+      "layoutRegionId": "613bbb81-5e1d-48e0-9d33-043e899cdf48"
+    },
+    {
+      "id": "figure-17",
+      "stableKey": "p22:figure:Figure 17: Contribution to the next token prediction per head on repeated sequen",
+      "kind": "chart",
+      "section": "figure",
+      "page": 22,
+      "pageIndex": 21,
+      "bbox": {
+        "x": 0.1726123086767259,
+        "y": 0.16001780346186475,
+        "w": 0.6550587174160027,
+        "h": 0.24580845688328593
+      },
+      "score": 0.9173084497451782,
+      "title": "Figure 17: Contribution to the next token prediction per head on repeated sequences of tokens. The heads are ordered by decreasing absolute values of contribution. Black contour: heads with attention patterns demonstrating prefix matching property.",
+      "layoutRegionId": "08c2345d-3b23-4d3f-8df3-2e39b8ba46f0"
+    },
+    {
+      "id": "figure-18",
+      "stableKey": "p23:figure:Figure 18: Attention scores on sequences of repeated random tokens. Left: Duplic",
+      "kind": "image",
+      "section": "figure",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.1721774082557828,
+        "y": 0.09868036135278567,
+        "w": 0.655823875876034,
+        "h": 0.24025822649098405
+      },
+      "score": 0.856395959854126,
+      "title": "Figure 18: Attention scores on sequences of repeated random tokens. Left: Duplicate score, the av erage attention probability from a token to its previous occurrence. Center: Previous token attention score, it is the average of the off-diagonal attention probability. Right: Induction score. Average attention probability from the second occurrence of [A] to [B] on patterns [A][B]...[A] .",
+      "layoutRegionId": "0c5afa5e-f62d-4448-85e1-3583a0ecdbc5"
+    },
+    {
+      "id": "figure-19",
+      "stableKey": "p23:figure:Figure 19: Left: change in logit difference from knocking out each MLP layer. Ri",
+      "kind": "image",
+      "section": "figure",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.1737089718089384,
+        "y": 0.6684386898772885,
+        "w": 0.65397073085012,
+        "h": 0.1675179221413352
+      },
+      "score": 0.9215133786201477,
+      "title": "Figure 19: Left: change in logit difference from knocking out each MLP layer. Right: change in logit difference after a path patching experiment investigating the direct effect of MLPs on logits.",
+      "layoutRegionId": "6b288c43-60dc-417a-ae01-28c71e60fd07"
+    },
+    {
+      "id": "table-p12-0182_0103_0635_0100",
+      "stableKey": "p12:table:0.182_0.103_0.635_0.100",
+      "kind": "table",
+      "section": "table",
+      "page": 12,
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.18200841916152855,
+        "y": 0.10328905510179924,
+        "w": 0.6349068560631447,
+        "h": 0.10022184583875868
+      },
+      "score": 0.9554283618927002,
+      "layoutRegionId": "91c5d69b-1c54-4925-8432-e0280995c6fa"
+    },
+    {
+      "id": "table-p15-0207_0102_0587_0061",
+      "stableKey": "p15:table:0.207_0.102_0.587_0.061",
+      "kind": "table",
+      "section": "table",
+      "page": 15,
+      "pageIndex": 14,
+      "bbox": {
+        "x": 0.20725809982399535,
+        "y": 0.10185699270229147,
+        "w": 0.5872413161533331,
+        "h": 0.06116559770372179
+      },
+      "score": 0.9080115556716919,
+      "layoutRegionId": "664d2068-aa4f-40e6-a3e7-8ff8a8e79308"
+    },
+    {
+      "id": "table-p24-0176_0302_0726_0395",
+      "stableKey": "p24:table:0.176_0.302_0.726_0.395",
+      "kind": "table",
+      "section": "table",
+      "page": 24,
+      "pageIndex": 23,
+      "bbox": {
+        "x": 0.17588114270976946,
+        "y": 0.301537330704506,
+        "w": 0.7256980721467461,
+        "h": 0.3951960862284959
+      },
+      "score": 0.975297212600708,
+      "layoutRegionId": "6739b0b7-74a5-4272-bc6f-3b174e40699d"
+    },
+    {
+      "id": "algorithm-p17-0176_0291_0645_0311",
+      "stableKey": "p17:algorithm:0.176_0.291_0.645_0.311",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 17,
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.17571565216662838,
+        "y": 0.2914206764914773,
+        "w": 0.6453336578568601,
+        "h": 0.31076839716747556
+      },
+      "score": 0.9359419345855713,
+      "layoutRegionId": "7bbec648-61fc-4c42-8517-746058f520d0"
+    },
+    {
+      "id": "algorithm-p21-0176_0716_0648_0192",
+      "stableKey": "p21:algorithm:0.176_0.716_0.648_0.192",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.17563086864995023,
+        "y": 0.7160724678424873,
+        "w": 0.6482587203480839,
+        "h": 0.19237179226345485
+      },
+      "score": 0.9135477542877197,
+      "layoutRegionId": "6f367df3-66e2-4750-95c2-a13a86c76bc3"
+    },
+    {
+      "id": "algorithm-p25-0180_0591_0437_0064",
+      "stableKey": "p25:algorithm:0.180_0.591_0.437_0.064",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 25,
+      "pageIndex": 24,
+      "bbox": {
+        "x": 0.18009130939159518,
+        "y": 0.5910658788199377,
+        "w": 0.43662945117825774,
+        "h": 0.06366756708935054
+      },
+      "score": 0.3103402853012085,
+      "layoutRegionId": "87aa9e4f-ebe2-438f-ac87-000efb8b7f3f"
+    },
+    {
+      "id": "formula-p20-0404_0582_0421_0033",
+      "stableKey": "p20:formula:0.404_0.582_0.421_0.033",
+      "kind": "formula",
+      "section": "formula",
+      "page": 20,
+      "pageIndex": 19,
+      "bbox": {
+        "x": 0.4042425217971303,
+        "y": 0.5822568951231061,
+        "w": 0.42145358814912687,
+        "h": 0.033078434491398356
+      },
+      "score": 0.9210823774337769,
+      "layoutRegionId": "7a93668d-a9ab-4a78-8fbf-fc7d7309273c"
+    }
+  ]
+}

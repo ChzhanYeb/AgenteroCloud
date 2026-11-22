@@ -1,0 +1,597 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "s2",
+    "generatedAt": "2026-11-15T11:46:33.519Z",
+    "fingerprint": "18aee5c65dee8639d25b386dc69ac0a75e898a38ffbac24dd8b4f4457acc924e"
+  },
+  "citations": [
+    {
+      "id": "ref-1",
+      "metadata": {
+        "title": "Training Large Neural Networks with Constant Memory using a New Execution Algorithm",
+        "authors": [
+          "B. Pudipeddi",
+          "Maral Mesmakhosroshahi",
+          "Jinwen Xi",
+          "S. Bharadwaj"
+        ],
+        "year": 2020,
+        "doi": "10.48550/arXiv.2002.05645",
+        "arxivId": "2002.05645",
+        "url": "https://www.semanticscholar.org/paper/6a5c0fc737b6fbd6672fc4265b5e0ca38de17416"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-2",
+      "metadata": {
+        "title": "Scaling Laws for Neural Language Models",
+        "authors": [
+          "J. Kaplan",
+          "Sam McCandlish",
+          "T. Henighan",
+          "Tom B. Brown",
+          "Benjamin Chess",
+          "R. Child",
+          "Scott Gray",
+          "A. Radford",
+          "Jeff Wu",
+          "D. Amodei"
+        ],
+        "year": 2020,
+        "doi": "10.48550/arXiv.2001.08361",
+        "arxivId": "2001.08361",
+        "url": "https://www.semanticscholar.org/paper/e6c561d02500b2596a230b341a8eb8b921ca5bf2"
+      },
+      "localMatch": {
+        "paperPath": "papers/2001.08361",
+        "matchBy": "arxiv"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-3",
+      "metadata": {
+        "title": "PipeDream: generalized pipeline parallelism for DNN training",
+        "authors": [
+          "D. Narayanan",
+          "A. Harlap",
+          "Amar Phanishayee",
+          "Vivek Seshadri",
+          "Nikhil R. Devanur",
+          "G. Ganger",
+          "Phillip B. Gibbons",
+          "M. Zaharia"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 27th ACM Symposium on Operating Systems Principles",
+        "doi": "10.1145/3341301.3359646",
+        "url": "https://www.semanticscholar.org/paper/3fd7c9ba742dd2b435afa75217847e5087e2f2a8"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-4",
+      "metadata": {
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "authors": [
+          "Colin A. Raffel",
+          "Noam Shazeer",
+          "Adam Roberts",
+          "Katherine Lee",
+          "Sharan Narang",
+          "Michael Matena",
+          "Yan-Qi Zhou",
+          "Wei Li",
+          "Peter J. Liu"
+        ],
+        "year": 2019,
+        "venue": "Journal of machine learning research",
+        "doi": "10.48550/arXiv.1910.10683",
+        "arxivId": "1910.10683",
+        "url": "https://www.semanticscholar.org/paper/6c4b76232bb72897685d19b3d264c6ee3005bc2b"
+      },
+      "localMatch": {
+        "paperPath": "papers/1910.10683",
+        "matchBy": "arxiv"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-5",
+      "metadata": {
+        "title": "Checkmate: Breaking the Memory Wall with Optimal Tensor Rematerialization",
+        "authors": [
+          "Paras Jain",
+          "Ajay Jain",
+          "Aniruddha Nrusimha",
+          "A. Gholami",
+          "P. Abbeel",
+          "K. Keutzer",
+          "Ion Stoica",
+          "Joseph E. Gonzalez"
+        ],
+        "year": 2019,
+        "venue": "Conference on Machine Learning and Systems",
+        "doi": "10.48550/arXiv.1910.02653",
+        "arxivId": "1910.02653",
+        "url": "https://www.semanticscholar.org/paper/fd431005d26100f5453590080683cbae9dc1189f"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-6",
+      "metadata": {
+        "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+        "authors": [
+          "M. Shoeybi",
+          "M. Patwary",
+          "Raul Puri",
+          "P. LeGresley",
+          "J. Casper",
+          "Bryan Catanzaro"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1909.08053",
+        "arxivId": "1909.08053",
+        "url": "https://www.semanticscholar.org/paper/8323c591e119eb09b28b29fd6c7bc76bd889df7a"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-7",
+      "metadata": {
+        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "authors": [
+          "Yinhan Liu",
+          "Myle Ott",
+          "Naman Goyal",
+          "Jing-Fei Du",
+          "Mandar Joshi",
+          "Danqi Chen",
+          "Omer Levy",
+          "M. Lewis",
+          "Luke Zettlemoyer",
+          "Veselin Stoyanov"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1907.11692",
+        "arxivId": "1907.11692",
+        "url": "https://www.semanticscholar.org/paper/077f8329a7b6fa3b7c877a57b81eb6c18b5f87de"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-8",
+      "metadata": {
+        "title": "Reducing BERT Pre-Training Time from 3 Days to 76 Minutes",
+        "authors": [
+          "Yang You",
+          "Jing Li",
+          "Jonathan Hseu",
+          "Xiao-Dan Song",
+          "J. Demmel",
+          "Cho-Jui Hsieh"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1904.00962",
+        "url": "https://www.semanticscholar.org/paper/fcc8da758cf40f50da09d4f908f727260b6b44bd"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-9",
+      "metadata": {
+        "title": "Memory-Efficient Adaptive Optimization for Large-Scale Learning",
+        "authors": [
+          "Rohan Anil",
+          "Vineet Gupta",
+          "Tomer Koren",
+          "Y. Singer"
+        ],
+        "year": 2019,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1901.11150",
+        "arxivId": "1901.11150",
+        "url": "https://www.semanticscholar.org/paper/e5b2843d3fbb3260a3f84872230ed1437552b131"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-10",
+      "metadata": {
+        "title": "An Empirical Model of Large-Batch Training",
+        "authors": [
+          "Sam McCandlish",
+          "J. Kaplan",
+          "D. Amodei",
+          "OpenAI Dota Team"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1812.06162",
+        "arxivId": "1812.06162",
+        "url": "https://www.semanticscholar.org/paper/eefa0df7c5678fa6004f8b48dbbc1c2696702fee"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-11",
+      "metadata": {
+        "title": "GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism",
+        "authors": [
+          "Yan-Ping Huang",
+          "You-Long Cheng",
+          "Ankur Bapna",
+          "O. Firat",
+          "Mia Chen",
+          "Dehao Chen",
+          "HyoukJoong Lee",
+          "J. Ngiam",
+          "Quoc V. Le",
+          "Yong-Hui Wu",
+          "Z. Chen"
+        ],
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://www.semanticscholar.org/paper/d79a26226393f687ddbc375e32055b40b8ad8d38"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-12",
+      "metadata": {
+        "title": "Mesh-TensorFlow: Deep Learning for Supercomputers",
+        "authors": [
+          "Noam Shazeer",
+          "You-Long Cheng",
+          "N. Parmar",
+          "Dustin Tran",
+          "Ashish Vaswani",
+          "Penporn Koanantakool",
+          "Peter G. Hawkins",
+          "HyoukJoong Lee",
+          "Mingsheng Hong",
+          "Cliff Young",
+          "Ryan Sepassi",
+          "Blake A. Hechtman"
+        ],
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1811.02084",
+        "arxivId": "1811.02084",
+        "url": "https://www.semanticscholar.org/paper/2270b8628fd8ca67ae39d277f45bc3c38ac63d5f"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-13",
+      "metadata": {
+        "title": "Supporting Very Large Models using Automatic Dataflow Graph Partitioning",
+        "authors": [
+          "Min-Jie Wang",
+          "Chien-chin Huang",
+          "Jin-Yang Li"
+        ],
+        "year": 2018,
+        "venue": "Proceedings of the Fourteenth EuroSys Conference 2019",
+        "doi": "10.1145/3302424.3303953",
+        "arxivId": "1807.08887",
+        "url": "https://www.semanticscholar.org/paper/7dd7198bb8a61dd22879068e8c4619b32f0470f8"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-14",
+      "metadata": {
+        "title": "TFLMS: Large Model Support in TensorFlow by Graph Rewriting",
+        "authors": [
+          "Tung D. Le",
+          "Haruki Imai",
+          "Y. Negishi",
+          "K. Kawachiya"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1807.02037",
+        "arxivId": "1807.02037",
+        "url": "https://www.semanticscholar.org/paper/ed9dfd432361e428ee084fb43d6165d388e0d887"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-15",
+      "metadata": {
+        "title": "PipeDream: Fast and Efficient Pipeline Parallel DNN Training",
+        "authors": [
+          "A. Harlap",
+          "D. Narayanan",
+          "Amar Phanishayee",
+          "Vivek Seshadri",
+          "Nikhil R. Devanur",
+          "G. Ganger",
+          "Phillip B. Gibbons"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1806.03377",
+        "arxivId": "1806.03377",
+        "url": "https://www.semanticscholar.org/paper/c314d97d75b4a988b106ddcec8a40a4d3bcdb8bd"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-16",
+      "metadata": {
+        "title": "Gist: Efficient Data Encoding for Deep Neural Network Training",
+        "authors": [
+          "Animesh Jain",
+          "Amar Phanishayee",
+          "Jason Mars",
+          "Ling-Jia Tang",
+          "Gennady Pekhimenko"
+        ],
+        "year": 2018,
+        "venue": "2018 ACM/IEEE 45th Annual International Symposium on Computer Architecture (ISCA)",
+        "doi": "10.1109/ISCA.2018.00070",
+        "url": "https://www.semanticscholar.org/paper/aa0e749388e10318d9bfab43400e1f303a9e7394"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-17",
+      "metadata": {
+        "title": "Adafactor: Adaptive Learning Rates with Sublinear Memory Cost",
+        "authors": [
+          "Noam Shazeer",
+          "Mitchell Stern"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1804.04235",
+        "arxivId": "1804.04235",
+        "url": "https://www.semanticscholar.org/paper/54a13bcc9613dcaa76fb25fbe96572f376cfcca9"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-18",
+      "metadata": {
+        "title": "Horovod: fast and easy distributed deep learning in TensorFlow",
+        "authors": [
+          "Alexander Sergeev",
+          "Mike Del Balso"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1802.05799",
+        "arxivId": "1802.05799",
+        "url": "https://www.semanticscholar.org/paper/e2c8726d092aea573e69f5b0a2654225883cfacf"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-19",
+      "metadata": {
+        "title": "Superneurons: dynamic GPU memory management for training deep neural networks",
+        "authors": [
+          "Lin-Nan Wang",
+          "Jinmian Ye",
+          "Yiyang Zhao",
+          "Wei Wu",
+          "Ang Li",
+          "S. Song",
+          "Zeng-Lin Xu",
+          "Tim Kraska"
+        ],
+        "year": 2018,
+        "venue": "Proceedings of the 23rd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+        "doi": "10.1145/3178487.3178491",
+        "arxivId": "1801.04380",
+        "url": "https://www.semanticscholar.org/paper/ca45e17cf41cf1fd0aa7c9536f0a27bc0f4d3b33"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-20",
+      "metadata": {
+        "title": "Mixed Precision Training",
+        "authors": [
+          "P. Micikevicius",
+          "Sharan Narang",
+          "Jonah Alben",
+          "G. Diamos",
+          "Erich Elsen",
+          "David García",
+          "Boris Ginsburg",
+          "Michael Houston",
+          "Oleksii Kuchaiev",
+          "Ganesh Venkatesh",
+          "Hao Wu"
+        ],
+        "year": 2017,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1710.03740",
+        "arxivId": "1710.03740",
+        "url": "https://www.semanticscholar.org/paper/e7fd6848cb29ca221a7e17d823e06fb566f1f135"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-21",
+      "metadata": {
+        "title": "Scaling SGD Batch Size to 32K for ImageNet Training",
+        "authors": [
+          "Yang You",
+          "Igor Gitman",
+          "Boris Ginsburg"
+        ],
+        "year": 2017,
+        "doi": "10.48550/arXiv.1708.03888",
+        "url": "https://www.semanticscholar.org/paper/e6e64043c66b83a8787a69a70d7c0a85fd9d23c3"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-22",
+      "metadata": {
+        "title": "Training Deep Nets with Sublinear Memory Cost",
+        "authors": [
+          "Tian-Qi Chen",
+          "Bing Xu",
+          "Chiyuan Zhang",
+          "Carlos Guestrin"
+        ],
+        "year": 2016,
+        "doi": "10.48550/arXiv.1604.06174",
+        "arxivId": "1604.06174",
+        "url": "https://www.semanticscholar.org/paper/942deb7d865b7782c03176d95e3a0d56cb71009e"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-23",
+      "metadata": {
+        "title": "vDNN: Virtualized deep neural networks for scalable, memory-efficient neural network design",
+        "authors": [
+          "Minsoo Rhu",
+          "N. Gimelshein",
+          "Jason Clemons",
+          "Arslan Zulfiqar",
+          "S. Keckler"
+        ],
+        "year": 2016,
+        "venue": "2016 49th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+        "doi": "10.1109/MICRO.2016.7783721",
+        "url": "https://www.semanticscholar.org/paper/b1ee2e7040c396e2002022f876abc6dec61aa501"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-24",
+      "metadata": {
+        "title": "Adam: A Method for Stochastic Optimization",
+        "authors": [
+          "Diederik P. Kingma",
+          "Jimmy Ba"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1412.6980",
+        "arxivId": "1412.6980",
+        "url": "https://www.semanticscholar.org/paper/cf5cf758f1b00214d70e34f8a57813557dc03e17"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-25",
+      "metadata": {
+        "title": "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization",
+        "authors": [
+          "John C. Duchi",
+          "Elad Hazan",
+          "Y. Singer"
+        ],
+        "year": 2011,
+        "venue": "Journal of machine learning research",
+        "doi": "10.5555/1953048.2021068",
+        "url": "https://www.semanticscholar.org/paper/413c1142de9d91804d6d11c67ff3fed59c9fc279"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-26",
+      "metadata": {
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "authors": [
+          "A. Radford",
+          "Jeff Wu",
+          "R. Child",
+          "D. Luan",
+          "D. Amodei",
+          "I. Sutskever"
+        ],
+        "year": 2019,
+        "url": "https://www.semanticscholar.org/paper/9405cc0d6169988371b2755e573cc28650d14dfe"
+      },
+      "localMatch": {
+        "paperPath": "papers/language-models-are-unsupervised-multitask-learners",
+        "matchBy": "title"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-27",
+      "metadata": {
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "authors": [
+          "J. Devlin",
+          "Ming-Wei Chang",
+          "Kenton Lee",
+          "K. Toutanova"
+        ],
+        "year": 2019,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/N19-1423",
+        "arxivId": "1810.04805",
+        "url": "https://www.semanticscholar.org/paper/df2b0e26d0599ce3e70df8a9da02e51594e0e992"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-28",
+      "metadata": {
+        "title": "Automatic mixed-precision",
+        "year": 2019
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-29",
+      "metadata": {
+        "title": "NVIDIA Clocks Worlds Fastest BERT Training Time",
+        "year": 2019
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-30",
+      "metadata": {
+        "title": "Attention is all you",
+        "year": 2017,
+        "venue": "need. CoRR,"
+      },
+      "source": "s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "semantic scholar: 30 references"
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "path": "papers/可解释性/2501.16496",
+  "id": "2501.16496",
+  "type": "arxiv",
+  "title": "Open Problems in Mechanistic Interpretability",
+  "authors": [
+    "Lee Sharkey",
+    "Bilal Chughtai",
+    "Joshua Batson",
+    "Jack Lindsey",
+    "Jeff Wu",
+    "Lucius Bushnaq",
+    "Nicholas Goldowsky-Dill",
+    "Stefan Heimersheim",
+    "Alejandro Ortega",
+    "Joseph Bloom",
+    "Stella Biderman",
+    "Adria Garriga-Alonso",
+    "Arthur Conmy",
+    "Neel Nanda",
+    "Jessica Rumbelow",
+    "Martin Wattenberg",
+    "Nandi Schoots",
+    "Joseph Miller",
+    "Eric J. Michaud",
+    "Stephen Casper",
+    "Max Tegmark",
+    "William Saunders",
+    "David Bau",
+    "Eric Todd",
+    "Atticus Geiger",
+    "Mor Geva",
+    "Jesse Hoogland",
+    "Daniel Murfet",
+    "Tom McGrath"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Lee",
+      "lastName": "Sharkey"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Bilal",
+      "lastName": "Chughtai"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Joshua",
+      "lastName": "Batson"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jack",
+      "lastName": "Lindsey"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jeff",
+      "lastName": "Wu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Lucius",
+      "lastName": "Bushnaq"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nicholas",
+      "lastName": "Goldowsky-Dill"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Stefan",
+      "lastName": "Heimersheim"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Alejandro",
+      "lastName": "Ortega"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Joseph",
+      "lastName": "Bloom"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Stella",
+      "lastName": "Biderman"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Adria",
+      "lastName": "Garriga-Alonso"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Arthur",
+      "lastName": "Conmy"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Neel",
+      "lastName": "Nanda"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jessica",
+      "lastName": "Rumbelow"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Martin",
+      "lastName": "Wattenberg"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nandi",
+      "lastName": "Schoots"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Joseph",
+      "lastName": "Miller"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Eric J.",
+      "lastName": "Michaud"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Stephen",
+      "lastName": "Casper"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Max",
+      "lastName": "Tegmark"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "William",
+      "lastName": "Saunders"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "David",
+      "lastName": "Bau"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Eric",
+      "lastName": "Todd"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Atticus",
+      "lastName": "Geiger"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mor",
+      "lastName": "Geva"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jesse",
+      "lastName": "Hoogland"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Daniel",
+      "lastName": "Murfet"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tom",
+      "lastName": "McGrath"
+    }
+  ],
+  "year": 2025,
+  "date": "2025-01-27",
+  "abstract": "Mechanistic interpretability aims to understand the computational mechanisms underlying neural networks' capabilities in order to accomplish concrete scientific and engineering goals. Progress in this field thus promises to provide greater assurance over AI system behavior and shed light on exciting scientific questions about the nature of intelligence. Despite recent progress toward these goals, there are many open problems in the field that require solutions before many scientific and practical benefits can be realized: Our methods require both conceptual and practical improvements to reveal deeper insights; we must figure out how best to apply our methods in pursuit of specific goals; and the field must grapple with socio-technical challenges that influence and are influenced by our work. This forward-facing review discusses the current frontier of mechanistic interpretability and the open problems that the field may benefit from prioritizing.",
+  "tags": [
+    "@arxiv:Computer Science - Machine Learning"
+  ],
+  "arxiv_id": "2501.16496",
+  "doi": "10.48550/arXiv.2501.16496",
+  "pdf_url": "https://arxiv.org/pdf/2501.16496",
+  "html_url": "https://arxiv.org/html/2501.16496",
+  "source_url": "https://arxiv.org/abs/2501.16496",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2501.16496",
+  "citation_count": 223,
+  "zotero_item_type": "preprint",
+  "meta_source": "translator",
+  "extra": "arXiv:2501.16496 [cs.LG]",
+  "summary": "Mechanistic interpretability still needs conceptual and practical advances to explain deeper neural mechanisms. This review organizes open problems around better methods, goal-directed applications, and the socio-technical effects of interpretability research.",
+  "status": "completed",
+  "is_read": true,
+  "added_at": "2026-11-17T14:43:38.960Z",
+  "updated_at": "2026-11-17T15:12:05.001Z"
+}

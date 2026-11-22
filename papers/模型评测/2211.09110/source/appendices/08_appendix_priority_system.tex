@@ -1,0 +1,21 @@
+\hypertarget{priorities}{\section{Priority system}}
+\label{app:priorities}
+
+In total, to provide the desired coverage and holistic understanding, our benchmark requires significant resources to be run in full.
+Notably, numerous queries must be generated and executed on each language model, each requiring the model to process and/or generate a sequence of tokens.
+All of this computation can prove to be taxing, especially for large models with specific compute requirements and expensive aggregate API costs.
+In practice, we encountered this limit: we were unable to evaluate all OpenAI models to the full extent we initially envisioned due to cost required being infeasible. 
+
+For this reason, drawing inspiration from the \texttt{Big-Bench lite} version introduced in \citet{srivastava2022bigbench}, we introduced a priority system for prioritizing (\core/component) scenarios.\footnote{To be more precise, the priority system was implemented at the level of individual run specifications in the codebase. For example, this means we can assign a low priority to evaluating on the entire \civilcomments~dataset, but assign higher priority to evaluating on the subset of comments targeted towards nonbinary individuals, to reflect we want to specifically ensure we measure unfairness directed towards nonbinary individuals.} 
+By assigning each scenario $s$ a priority $p_s \in \{1, 2, 3, 4\}$, where $1$ is the highest priority and $4$ is the lowest priority, we can dynamically scale our benchmark by selecting all scenarios up to a certain threshold (\eg all priority $1$ scenarios). 
+% \rb{We can invert the ordering so highest lines up with the largest number. Or convert to a textual description.}
+Practically, we chose to evaluate all models on all priority $1$ and priority $2$ scenarios.
+More generally, one could imagine adaptively determine the ideal evaluation given a fixed budget by (i) sorting scenarios by priority, and then further by estimated cost among scenarios with equal priority and (ii) adding scenarios up until the budget.
+
+Properly determining priorities is challenging for two reasons: (i) fundamentally, the priorities are subjective and (ii) the decisions must depend on the other scenarios that will be evaluated on, as a core aspect of having representative evaluation is diversity/coverage. 
+In \refapp{priorities}, we provide the list of all run specifications we ran with their associated priority and our justification.
+% This configuration can also be found at \todo{\url{}}.
+As foundation models become increasingly complex and multifarious, we anticipate the needs for adaptive evaluations that balance the cost of the evaluation and the resources of the stakeholder conducting the evaluation will become increasingly important.
+For this reason, we encourage future work to develop better protocols for specifying priorities (\eg identifying ``core sets'' of evaluations). 
+Similarly, we encourage work to better reason about the algorithms for selecting evaluations given priorities for a fixed budget (\eg casting the problem as an instance of the knapsack problem if the priorities are mapped to continuous values).
+The configuration that specifies the priorities of all scenarios we implement can be found on Github.\footnote{\githubUrl}

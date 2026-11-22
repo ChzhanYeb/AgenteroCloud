@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-15T13:17:48.641Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "figure-1",
+      "stableKey": "p2:figure:Figure 1: Schematic illustrating various approaches to problem solving with LLMs",
+      "kind": "image",
+      "section": "figure",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.17647058823529413,
+        "y": 0.09332379427823154,
+        "w": 0.6486928104575164,
+        "h": 0.6301610542066169
+      },
+      "score": 0.9465345740318298,
+      "title": "Figure 1: Schematic illustrating various approaches to problem solving with LLMs. Each rectangle box represents a thought, which is a coherent language sequence that serves as an intermediate step toward problem solving. See concrete examples of how thoughts are generated, evaluated, and searched in Figures 2,4,6. choices instead of just picking one, and (2) evaluates its current status and actively looks ahead or backtracks to make more global decisions. To design such a planning process, we return to the origins of artificial intelligence (and cognitive science), drawing inspiration from the planning processes explored by Newell, Shaw, and Simon starting in the 1950s [21, 22]. Newell and colleagues characterized problem solving [21] as search through a combinatorial problem space, represented as a tree. We thus propose the Tree of Thoughts (ToT) framework for general problem solving with language models. As Figure 1 illustrates, while existing methods (detailed below) sample continuous language sequences for problem solving, ToT actively maintains a tree of thoughts, where each thought is a coherent language sequence that serves as an intermediate step toward problem solving (Table 1). Such a high-level semantic unit allows the LM to self-evaluate the progress different intermediate thoughts make towards solving the problem through a deliberate reasoning process that is also instantiated in language (Figures 2,4,6). This implementation of search heuristics via LM self-evaluation and deliberation is novel, as previous search heuristics are either programmed or learned. Finally, we combine this language-based capability to generate and evaluate diverse thoughts with search algorithms, such as breadth-first search (BFS) or depth-first search (DFS), which allow systematic exploration of the tree of thoughts with lookahead and backtracking. Empirically, we propose three new problems that challenge existing LM inference methods even with the state-of-the-art language model, GPT-4 [23]: Game of 24, Creative Writing, and Crosswords (Table 1). These tasks require deductive, mathematical, commonsense, lexical reasoning abilities, and a way to incorporate systematic planning or search. We show ToT obtains superior results on all three tasks by being general and flexible enough to support different levels of thoughts, different ways to generate and evaluate thoughts, and different search algorithms that adapt to the nature of different problems. We also analyze how such choices affect model performances via systematic ablations and discuss future directions to better train and use LMs.",
+      "layoutRegionId": "851743ab-0835-4b48-bb70-15093e49fcbe"
+    },
+    {
+      "id": "figure-2",
+      "stableKey": "p5:figure:Figure 2: ToT in a game of 24. The LM is prompted for (a) thought generation and",
+      "kind": "image",
+      "section": "figure",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.17483660130718953,
+        "y": 0.41309819077000476,
+        "w": 0.6519607843137254,
+        "h": 0.4745280718562578
+      },
+      "score": 0.9413274526596069,
+      "title": "Figure 2: ToT in a game of 24. The LM is prompted for (a) thought generation and (b) valuation. Task Setup. We scrape data from 4nums.com, which has 1,362 games that are sorted from easy to hard by human solving time, and use a subset of relatively hard games indexed 901-1,000 for testing. For each task, we consider the output as success if it is a valid equation that equals 24 and uses the input numbers each exactly once. We report the success rate across 100 games as the metric. Baselines. We use a standard input-output (IO) prompt with 5 in-context examples. For chain-of thought (CoT) prompting, we augment each input-output pair with 3 intermediate equations, each operating on two remaining numbers. For example, given input “4 9 10 13”, the thoughts could be “13 - 9 = 4 (left: 4 4 10); 10 - 4 = 6 (left: 4 6); 4 * 6 = 24 (left: 24)”. For each game, we sample IO and CoT prompting for 100 times for average performance. We also consider a CoT self-consistency baseline, which takes the majority output from 100 CoT samples, and an iterative-refine approach on top of an IO sample for at most 10 iterations. At each iteration, the LM is conditioned on all previous history to “reflect on your mistakes and generate a refined answer” if the output is incorrect. Note that it uses groundtruth feedback signals about equation correctness. ToT Setup. To frame Game of 24 into ToT, it is natural to decompose the thoughts into 3 steps, each an intermediate equation. As shown in Figure 2(a), at each tree node, we exact the remaining numbers and prompt the LM to propose some possible next steps. The same “propose prompt” is used for all 3 thought steps, though it only has one example with 4 input numbers. We perform a breadth-first search (BFS) in ToT, where at each step we keep the best b = 5 candidates. To perform deliberate BFS in ToT, as shown in Figure 2(b), we prompt LM to evaluate each thought candidate as “sure/maybe/impossible” with regard to reaching 24. The aim is to promote correct partial solutions that can be verdicted within few lookahead trials, and eliminate impossible partial solutions based on “too big/small” commonsense, and keep the rest “maybe”. We sample values 3 times for each thought.",
+      "layoutRegionId": "bbe37ae3-3efd-4c2d-a256-fc2e012cbaf4"
+    },
+    {
+      "id": "figure-3",
+      "stableKey": "p6:figure:Figure 3: Game of 24 (a) scale analysis & (b) error analysis.",
+      "kind": "chart",
+      "section": "figure",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.395136540232141,
+        "y": 0.09808005708636659,
+        "w": 0.3987865323334738,
+        "h": 0.16435755142057784
+      },
+      "score": 0.9151420593261719,
+      "title": "Figure 3: Game of 24 (a) scale analysis & (b) error analysis.",
+      "layoutRegionId": "968602a3-0964-458b-93cb-c595ec130703"
+    },
+    {
+      "id": "figure-4",
+      "stableKey": "p7:figure:Figure 4: A step of deliberate search in a randomly picked Creative Writing task",
+      "kind": "image",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.1739795161228554,
+        "y": 0.09584317062840317,
+        "w": 0.6540579702339919,
+        "h": 0.2444700953936336
+      },
+      "score": 0.808636486530304,
+      "title": "Figure 4: A step of deliberate search in a randomly picked Creative Writing task. Given the input, the LM samples 5 different plans, then votes 5 times to decide which plan is best. The majority choice is used to consequently write the output passage with the same sample-vote procedure.",
+      "layoutRegionId": "1c2851d8-940f-4fd1-ba61-b3f4637ad845"
+    },
+    {
+      "id": "figure-5",
+      "stableKey": "p7:figure:Figure 5: Creative Writing results.",
+      "kind": "chart",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.1846633237950942,
+        "y": 0.3262744094386245,
+        "w": 0.3825003306070963,
+        "h": 0.155863212816643
+      },
+      "score": 0.8399175405502319,
+      "title": "Figure 5: Creative Writing results.",
+      "layoutRegionId": "dbab708e-c903-4d59-a72f-2ab561b29eb7"
+    },
+    {
+      "id": "figure-p7-0609_0331_0219_0128",
+      "stableKey": "p7:figure:0.609_0.331_0.219_0.128",
+      "kind": "image",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.609151254292407,
+        "y": 0.3310819683652936,
+        "w": 0.21949578578176063,
+        "h": 0.1279135039358428
+      },
+      "score": 0.7623913288116455,
+      "layoutRegionId": "46c52eba-5acf-4535-b3fe-e60aa710d726"
+    },
+    {
+      "id": "figure-6",
+      "stableKey": "p8:figure:Figure 6: In Mini Crosswords, (a) how thoughts are proposed and aggregated in a ",
+      "kind": "image",
+      "section": "figure",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.17647058823529413,
+        "y": 0.09970209333631727,
+        "w": 0.6503267973856209,
+        "h": 0.5669645733303494
+      },
+      "score": 0.9436421990394592,
+      "title": "Figure 6: In Mini Crosswords, (a) how thoughts are proposed and aggregated in a priority queue for depth-first search (DFS), and (b) how a state is evaluated based on the possibility of filling in each remaining word clue, and pruned if any remaining clue is deemed not possible to fill by the LM. Then DFS backtracks to the parent state and explore the next promising thought for clue. these across proposals to obtain a sorted list of next thoughts to explore (Figure 6(a)). For state evaluations, we similarly translate each state into letter constraints for remaining clues, then evaluate for each clue if it is possible to fill given the constraints. If any remaining clue is deemed “impossible” to fill in (e.g. “v1. To heap: tm s ”), then the exploration of the state’s subtree is pruned and DFS backtracks to its parent to explore the next promising thought. We limit DFS search steps to 100, and simply render the deepest explored state (the first explored one if multiple) into the final output. Results. As shown in Table 3, IO and CoT prompting methods perform poorly with a word-level success rate less than 16%, while ToT significantly improves all metrics, achieving a word-level success rate of 60% and solving 4 out of 20 games. Such an improvement is not surprising, given IO and CoT lack mechanisms to try different clues, make changes to decisions, or backtrack. Oracle and ablation studies. When outputting from the oracle best DFS state (instead of the heuristically determined best state) per task, ToT performance is even higher and actually solves 7/20 games (Table 3, “+best state”), indicating our simple output heuristics can be readily improved. Interestingly, sometimes when the crosswords game is actually solved, the state evaluator might still deem some words as “impossible” and prune — possibly because 5 some rare or obselete words that GPT-4 cannot recognize2 . Given the state evaluation as a pruning × heuristic is imperfect, we also explore ablating the pruning, and find the performance generally worse (Table 3, “-prune”). However, it could actually find the correct solution for 4/20 games (though only outputting 1 via heuristic), 3 of which are games ToT+pruning cannot solve within 100 steps. Thus, better heuristics for DFS pruning are critical for problem solving in this case. Lastly, we confirm the importance of backtracking by running an ablation that keeps filling the most promising clue for at most 20 steps, allowing overwrites. This is similar to a “greedy” BFS search with breadth limit of b = 1, and performs poorly with a word level success of only 20% (Table 3, “-backtrack”).",
+      "layoutRegionId": "032c7f06-7269-4d44-9bca-1ed23793153d"
+    },
+    {
+      "id": "figure-p13-0181_0330_0634_0067",
+      "stableKey": "p13:figure:0.181_0.330_0.634_0.067",
+      "kind": "image",
+      "section": "figure",
+      "page": 13,
+      "pageIndex": 12,
+      "bbox": {
+        "x": 0.18145987566779642,
+        "y": 0.33019653474441685,
+        "w": 0.6341273862552019,
+        "h": 0.06748507721255524
+      },
+      "score": 0.40978094935417175,
+      "layoutRegionId": "f22e229e-8b66-4f28-b5e6-e5aa5ef4b509"
+    },
+    {
+      "id": "table-p5-0177_0092_0644_0145",
+      "stableKey": "p5:table:0.177_0.092_0.644_0.145",
+      "kind": "table",
+      "section": "table",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.177457659852271,
+        "y": 0.09161515669389204,
+        "w": 0.6441703372531467,
+        "h": 0.14491322064640547
+      },
+      "score": 0.9303662776947021,
+      "layoutRegionId": "b058a342-ffe5-48d9-9c57-915fe2cfdd23"
+    },
+    {
+      "id": "table-p6-0184_0096_0204_0141",
+      "stableKey": "p6:table:0.184_0.096_0.204_0.141",
+      "kind": "table",
+      "section": "table",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.18352755378274357,
+        "y": 0.0960764836783361,
+        "w": 0.20438778945823122,
+        "h": 0.14130896751326744
+      },
+      "score": 0.9343392252922058,
+      "layoutRegionId": "2a5dcc38-3b0e-42eb-8111-95a80d8e1554"
+    },
+    {
+      "id": "table-p14-0247_0442_0510_0075",
+      "stableKey": "p14:table:0.247_0.442_0.510_0.075",
+      "kind": "table",
+      "section": "table",
+      "page": 14,
+      "pageIndex": 13,
+      "bbox": {
+        "x": 0.24660885879416872,
+        "y": 0.442400807082051,
+        "w": 0.5100071227628421,
+        "h": 0.07519985931088226
+      },
+      "score": 0.9100103974342346,
+      "layoutRegionId": "259985bf-d03a-4d39-87ee-cd0cafc9c4cb"
+    },
+    {
+      "id": "table-p14-0283_0591_0437_0072",
+      "stableKey": "p14:table:0.283_0.591_0.437_0.072",
+      "kind": "table",
+      "section": "table",
+      "page": 14,
+      "pageIndex": 13,
+      "bbox": {
+        "x": 0.28268330393273844,
+        "y": 0.5906438345860954,
+        "w": 0.43695130691029666,
+        "h": 0.07231818305121528
+      },
+      "score": 0.8943825364112854,
+      "layoutRegionId": "e1a5c086-4680-4a94-9524-b93d3608c069"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+\hypertarget{introduction}{\section{Introduction}}
+\label{sec:introduction}
+
+% \tldr{Benchmarks are important, LMs are a thing)}
+Benchmarks orient AI.
+They encode values and priorities \citep{ethayarajh2020utility, birhane2022values} that specify directions for the 
+AI community to improve upon \citep{jones1995evaluating, jones2005acl, kiela2021dynabench, bowman2021fix,  raji2021benchmark}.
+When implemented and interpreted appropriately, they enable the broader community to better understand AI technology and influence its trajectory.
+
+In recent years, the AI technology that has arguably advanced the most is foundation models \citep{bommasani2021opportunities}, headlined by the rise of language models \citep[LMs;][]{peters2018elmo, devlin2019bert,brown2020gpt3,rae2021gopher,chowdhery2022palm}.
+At its core, a language model is a box that takes in text and generates text (\reffig{languageModel}).
+Despite their simplicity,
+when these models are trained on broad data
+at immense scale, they can be adapted (\eg prompted or fine-tuned) to myriad downstream scenarios.
+Yet the immense surface of model capabilities, limitations, and risks remains poorly understood.
+The rapid development, rising impact, and inadequate understanding demand that we benchmark language models holistically.
+
+\FigTop{figures/language_model_helm.png}{0.2}{languageModel}{
+\textbf{Language model.}
+A language model
+takes text (a prompt) and generates text (a completion) probabilistically.
+Despite their simple interface, language models can be adapted to a wide range of language tasks from
+question answering to summarization.
+}
+
+% \tldr{What does it mean to holistically evaluate a language model}
+But what does it mean to benchmark language models holistically?
+Language models are general-purpose text interfaces that could be applied across a vast expanse of scenarios.
+And for each scenario, we may have a broad set of desiderata: models should be accurate, robust, fair, efficient, and so on.
+In fact, the relative importance of these desiderata often will depend not only on the perspective and values one has, but the scenario itself (\eg inference efficiency might be of greater importance in mobile applications).
+
+\noindent We believe holistic evaluation involves three elements:
+\begin{enumerate}
+\item \textbf{Broad coverage and recognition of incompleteness.}
+Given language models' vast surface of capabilities and risks,
+we need to evaluate language models over a broad range of scenarios.
+Broadening the evaluation has been a continuing trend in the NLP community, 
+going from individual datasets such as SQuAD \citep{rajpurkar2016squad}
+to small collections of datasets such as SuperGLUE \citep{wang2019glue}
+to large collections of datasets such as the GPT-3 evaluation suite \citep{brown2020gpt3}, Eleuther AI LM Harness \citep{gao2021harness}, and BIG-Bench \citep{srivastava2022bigbench}.
+However, it is neither possible to consider all the scenarios nor all the desiderata that (could) pertain to LMs.
+Therefore, holistic evaluation should provide a top-down taxonomy and make explicit all the major scenarios and metrics that are missing.
+\item \textbf{Multi-metric measurement.}
+Societally beneficial systems reflect many values, not just accuracy.
+Holistic evaluation should represent these plural desiderata, evaluating every desideratum for each scenario considered.
+\item \textbf{Standardization.}
+Our \emph{object} of evaluation is the language model, not a scenario-specific system.  Therefore, in order to meaningfully compare different LMs, the strategy for adapting an LM to a scenario should be controlled for.  Furthermore, each LM should be evaluated on the same scenarios to the extent possible.
+\end{enumerate}
+Overall, holistic evaluation builds transparency by assessing language models in their totality.
+Rather than honing in on a specific aspect, we strive for a fuller characterization of language models to improve scientific understanding and orient societal impact.
+
+% 1. Taxonomy of scenarios x metrics (aspirational)
+% 2. Deliberate selection (given resources, access, best we can do)
+\hypertarget{helm}{\subsection{\benchmarkname}}
+\label{sec:helm}
+Holistic Evaluation of Language Models (\benchmarkname) has two levels:
+(i) an abstract taxonomy of \textit{scenarios} and \textit{metrics} to define the design space for language model evaluation 
+and (ii) a concrete set of implemented scenarios and metrics that were selected to prioritize coverage (\eg different English varieties), value (\eg user-facing applications), and feasibility (\eg limited engineering resources).
+
+\FigTop{figures/fig_taxonomy_v2}{0.35}{taxonomy}
+{\textbf{The importance of the taxonomy to \benchmarkname.}
+Previous language model benchmarks (\eg SuperGLUE, EleutherAI LM Evaluation Harness, BIG-Bench) are collections of datasets, each with a standard task framing and canonical metric, usually accuracy (\textit{left}).
+In comparison, in \benchmarkname we take a top-down approach of first explicitly stating what we want to evaluate (\ie scenarios and metrics) by working through their underlying structure.
+Given this stated taxonomy, we make deliberate decisions on what subset we implement and evaluate, which makes explicit what we miss (\eg coverage of languages beyond English).}
+
+% Importance of the taxonomy
+\paragraph{Recognition of incompleteness.}
+Benchmarks across AI, including those for language models like SuperGLUE \citep{wang2019superglue}, the EleutherAI LM Harness \citep{gao2021harness}, and BIG-bench \citep{srivastava2022bigbench}, are defined by specific choices of scenarios and metrics.
+Different benchmarks make different decisions on what to prioritize, how to make these decisions, and to what extent these processes are made clear in presenting the benchmark.
+Since our aim is holistic evaluation, we believe it is necessary to be explicit on the relationship between what we aspire to evaluate and what we actually evaluate.
+The construction of \benchmarkname starts top-down with a taxonomy over scenarios and metrics (see \reffig{taxonomy}).
+The taxonomy not only facilitates the systematic selection of scenarios and metrics, but it also make explicit what is missing.
+We view \benchmarkname as a living benchmark,
+and we hope that both the abstract taxonomy and the concrete selection of scenarios and metrics will evolve according to the technology, applications, and social concerns.
+In \refsec{missing}, we explicitly highlight evaluations \benchmarkname lacks that should be prioritized.  Often these are ones the entire AI field has historically neglected.
+
+% What is the concrete benchmark
+\FigTop{figures/fig_multi_metric_v2}{0.42}{multi-metric}
+{\textbf{Many metrics for each use case.}
+In comparison to most prior benchmarks of language technologies, which primarily center accuracy and often relegate other desiderata to their own bespoke datasets (if at all), in \benchmarkname we take a multi-metric approach.
+This foregrounds metrics beyond accuracy and allows one to study the tradeoffs between the metrics.
+}
+
+\paragraph{Multi-metric measurement.}
+\benchmarkname currently implements a \core\footnote{We use the term \textit{\core} to indicate that for this set of scenarios, we measure a range of metrics/desiderata. The term \textit{\core} is not meant to suggest that any specific scenario in this set is more fundamental than scenarios outside the set.} set of \numcorescenarios scenarios and \nummetriccategories (categories of) metrics.
+Our scenarios, which are triples of (task, domain, language), span \numcoretasks user-facing tasks (\eg question answering, information retrieval, summarization, toxicity detection), several domains (\eg news, books), and currently only English (though we cover several English varieties such as African-American English and the English varieties spoken in different English-speaking countries). 
+And our \nummetriccategories categories of metrics reflect a range of societal considerations (\ie accuracy, calibration, robustness, fairness, bias, toxicity, efficiency).
+We emphasize that while we have specific quantitative metrics for all of these considerations, they (\eg fairness) are complex and contested social constructs that can be operationalized in many different ways. 
+Consistent with our second element of holistic evaluation, 
+we ensure our benchmark attains \textbf{dense} multi-metric measurement: of the 112 possible (\core scenario, metric) pairs, we measure 98 (87.5\%) as shown in \reftab{scenarios-metrics-matrix}.
+
+This multi-metric perspective conveys a position we take on evaluation practices in AI. 
+While most benchmarks primarily foreground accuracy, perhaps deferring the evaluation of other metrics (\eg the extent to which models generate toxic content) to separate scenarios (\eg \realtoxicityprompts), we believe it is integral that all of these metrics be evaluated in the same contexts where we expect to deploy models (see \reffig{multi-metric}).
+In particular, measuring these \nummetriccategories desiderata for the same scenarios makes explicit potential trade-offs and helps to ensure these desiderata are not treated as second-class citizens to accuracy \citep[see][]{friedman1996bias}.
+
+\paragraph{Targeted evaluations.}
+In addition to our \core set of \numcorescenarios scenarios, where for each scenario we measure all \nummetriccategories categories of metrics, \benchmarkname has \numcomponents targeted evaluations through \numcomponentscenarios additional scenarios and accompanying metrics.
+These evaluations target linguistic understanding, world and commonsense knowledge, reasoning capabilities, memorization and copyright, disinformation generation, biases, and toxicity generation, providing a deeper dive beyond the core scenarios.
+This includes \numnewscenarios scenarios that are either entirely new (\eg \wikifact) or that have not been used in mainstream language model evaluation (\eg \ice).
+%\pl{it might be nice to cite the various benchmarks when they are mentioned at least at first}
+While \benchmarkname is oriented by a holistic approach that foregrounds societal impact and is reflected in our multi-metric perspective, evaluation can also pinpoint specific phenomena to advance scientific understanding \citep[\eg a model's ability to perform analogical reasoning; see][\S4.4]{bommasani2021opportunities}. 
+For this reason, to make our evaluation results more intelligible, we separate the \core scenarios from the targeted evaluations: the \core scenarios and multi-metric measurement provide an integrated lens on models, whereas the targeted evaluations isolate specific skills and risks.
+
+\FigTop{figures/fig_model_comparison_v4}{0.53}{evaluation-status-quo}
+{\textbf{Standardizing language model evaluation.} Prior to our effort (\textit{top}), the evaluation of language models was uneven.
+Several of our \numcorescenarios \core scenarios had no models evaluated on them, and only a few scenarios (\eg \boolq, \hellaswag) had a considerable number of models evaluated on them. 
+Note that this is \textit{cumulative}: in the \textit{top} plot, we not only document instances where the work introducing the model evaluated on a given scenario, but \textbf{any} subsequent work evaluated the model on the scenario (\eg \citet{tay2022unifying} in the paper on \ultwo expanded the evaluation of \tfive to include \hellaswag and several other datasets) under \textbf{any} conditions (\eg fine-tuning, 0-shot prompting, 5-shot prompting).
+After our evaluation (\textit{bottom}), models are now evaluated under the same conditions on many scenarios.
+}
+
+\paragraph{Standardization.}
+To build a shared understanding of existing language models, consistent with our third element of holistic evaluation, we benchmark \nummodels prominent language models on \benchmarkname.
+These models come from \nummodelcreators organizations: AI21 Labs (\eg \jurassicjumbo), Anthropic (\anthropic), BigScience (\eg \bloom), Cohere (\eg \coherexl), EleutherAI (\eg \gptneox), Google (\eg \ultwo), Meta (\eg \optonesevenfive), Microsoft/NVIDIA (\eg \mtnlgfivethreezero), OpenAI (\eg \gptdavinci), Tsinghua University (\glm), and Yandex (\yalm). 
+Benchmarking these models is challenging given they vary in  accessibility \citep[see][]{liang2022community-norms}: some are open (\eg \gptneox), some are limited-access (\eg \gptdavinci), and some are closed (\eg \anthropic).
+In some cases, very little is known about how these models were built (\eg the training data and its size are often not known), such as \instructdavinci. 
+What we do know is that several of these models are deployed, either in external-facing commercial APIs (\eg the OpenAI playground) or products (\eg GitHub Copilot). 
+That is, several of these models are having direct social impact at present. 
+The absence of an evaluation standard compromises the community's ability to clearly and rigorously understand the overall landscape of language models.
+To demonstrate how uneven language model evaluation has been, we annotated the datasets used to evaluate more than 40 language models (\ie all models evaluated in this work along with others like PaLM and Gopher) in \refapp{benchmark-comparison}.
+We found major models such as \tfive and \anthropic were not evaluated on a single dataset in common in their original works \citep{raffel2019exploring, askell2021general}.
+In fact, several models (\eg \jurassicgrande, \coherexl, \yalm) do not report any public results prior to our effort (to our knowledge).
+And even for datasets that are frequently evaluated for across all \numlmdatasets datasets evaluated in major language modeling works (\eg \hellaswag; many of the datasets within GLUE and SuperGLUE), we find the evaluation conditions vary greatly.
+On \hellaswag, some prior work reports fine-tuned accuracies (\eg \tfive), whereas others report prompting accuracies (\eg \gptdavinci).\footnote{
+We emphasize our objective in raising this point is \textit{not} to suggest that any individual work has evaluated improperly. 
+In fact, for this case, few-shot prompting was not even popularized at the time of T5's writing. 
+But, nonetheless, these models are evaluated under very different conditions (\eg number of examples used in adaptation, ability to have white-box model access to use gradients to update the model), even if they are nominally evaluated on the same scenario.}
+Even when works report results through few-shot prompting, the exact details can vary, which in \refsec{prompting-analysis} we show leads to wild swings in accuracies (\eg 30\% to 80\% for the same (model, scenario); see \citet{zhao2021calibrate}). 
+
+In \reffig{evaluation-status-quo}, we make explicit how our evaluation changes the status quo.
+Previously, on average models were evaluated on 17.9\% of our \core scenarios, even after compiling evaluations dispersed across different prior works.
+We improve this to 96.0\%.\footnote{The remaining 4.0\% is due to technical issues with specific models that we document in \refsec{models}.}
+By both evaluating these models on the same scenarios \emph{and} by conducting the evaluation under standardized conditions (\eg using the same few-shot prompting for all models), we facilitate direct head-to-head comparisons.
+
+% Adaptation
+\paragraph{The importance of adaptation.}
+To benchmark these models, we must specify an \textit{adaptation} procedure that uses the general-purpose language model to tackle a given scenario \citep[see][\S4.3]{bommasani2021opportunities}.
+In this work, we adapt all language models through few-shot prompting, as pioneered by GPT-3 \citep{brown2020gpt3}.
+Furthermore, we opted to choose relatively simple, generic prompts in order to orient the development of language models towards generic language \emph{interfaces}
+that respond robustly to direct natural language,
+rather than requiring model-specific incantations.
+Certainly stronger results could be obtained from
+more sophisticated prompting \citep[\eg chain-of-thoughts;][]{wei2022chain},
+prompt decomposition \citep{wu2022aichains, press2022selfask, arora2022ama}, 
+and prompt-tuning \citep{lester2021power,li2021prefix},
+potentially leading to qualitatively different findings \citep{suzgun2022challenging}.
+The exploration of adaptation strategies is another dimension of benchmarking which we leave to future work.
+
+\paragraph{Caveats and considerations.}
+Before presenting our empirical findings, we highlight three key considerations.
+First, while we standardize model evaluation, in particular by evaluating all models for the same scenarios, same metrics, and with the same prompts for \numincontext-shot prompting, models themselves may be more suitable for particular scenarios, particular metrics, and particular prompts/adaptation methods. 
+To be explicit, while some models may perform poorly under our evaluation, they may perform well in other contexts.
+Second, while the evaluation itself may be standardized, the computational resources required to train these models may be very different (\eg resource-intensive models generally fare better in our evaluation), which is partially captured by our measurements of efficiency.
+Finally, models may also differ significantly in their exposure to the particular data distribution or evaluation instances we use, with the potential for \textit{train-test contamination}.
+We emphasize that we have a limited understanding on how contaminated models are, and to what extent this compromises the validity and legitimacy of our evaluation, though we do provide all evidence we are aware of in \refapp{contamination}. 
+
+\input{findings}
+\input{contributions}

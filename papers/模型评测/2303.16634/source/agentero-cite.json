@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-17T14:33:53.247Z",
+    "fingerprint": "c84cd9e5e28f5a78e8d106e2b181281bc2c71d1b21629553539ec6606c3f75b5"
+  },
+  "citations": [
+    {
+      "id": "cite-banerjee2005meteor",
+      "rawKey": "banerjee2005meteor",
+      "display": "[1]",
+      "raw": "Satanjeev Banerjee and Alon Lavie. 2005. Meteor: An automatic metric for mt evaluation with improved correlation with human judgments. In Proceedings of the acl workshop on intrinsic and extrinsic evaluation measures for machine translation and/or summarization, pages 65--72.",
+      "metadata": {
+        "title": "METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments",
+        "authors": [
+          "Satanjeev Banerjee",
+          "A. Lavie"
+        ],
+        "year": 2005,
+        "venue": "IEEvaluation@ACL",
+        "url": "https://www.semanticscholar.org/paper/7533d30329cfdbf04ee8ee82bfef792d08015ee5"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cao2020factual",
+      "rawKey": "cao2020factual",
+      "display": "[2]",
+      "raw": "Meng Cao, Yue Dong, Jiapeng Wu, and Jackie Chi Kit Cheung. 2020. Factual error correction for abstractive summarization models. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 6251--6258.",
+      "metadata": {
+        "title": "Factual Error Correction for Abstractive Summarization Models",
+        "authors": [
+          "Mengyao Cao",
+          "Yue Dong",
+          "Jiapeng Wu",
+          "J. Cheung"
+        ],
+        "year": 2020,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.48550/arXiv.2010.08712",
+        "arxivId": "2010.08712",
+        "url": "https://www.semanticscholar.org/paper/d030535287d17cfd215048354c928aa69ca60c62"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cao2018faithful",
+      "rawKey": "cao2018faithful",
+      "display": "[3]",
+      "raw": "Ziqiang Cao, Furu Wei, Wenjie Li, and Sujian Li. 2018. Faithful to the original: Fact aware neural abstractive summarization. In thirty-second AAAI conference on artificial intelligence.",
+      "metadata": {
+        "title": "Faithful to the Original: Fact Aware Neural Abstractive Summarization",
+        "authors": [
+          "Zi-Qiang Cao",
+          "Furu Wei",
+          "Wen-Jie Li",
+          "Sujian Li"
+        ],
+        "year": 2017,
+        "venue": "AAAI Conference on Artificial Intelligence",
+        "doi": "10.48550/arXiv.1711.04434",
+        "arxivId": "1711.04434",
+        "url": "https://www.semanticscholar.org/paper/41232a69c0f8d4b993e6c6e00b16c223442c962f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-clark2019sentence",
+      "rawKey": "clark2019sentence",
+      "display": "[4]",
+      "raw": "Elizabeth Clark, Asli Celikyilmaz, and Noah A Smith. 2019. Sentence moverâ similarity: Automatic evaluation for multi-sentence texts. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 2748--2760.",
+      "metadata": {
+        "title": "Sentence Mover’s Similarity: Automatic Evaluation for Multi-Sentence Texts",
+        "authors": [
+          "Elizabeth Clark",
+          "Asli Celikyilmaz",
+          "Noah A. Smith"
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P19-1264",
+        "url": "https://www.semanticscholar.org/paper/6ab3f185d9e4f0c8cfa0331810e15f5db09035c3"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-devlin2019bert",
+      "rawKey": "devlin2019bert",
+      "display": "[5]",
+      "raw": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. Bert: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 4171--4186.",
+      "metadata": {
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "authors": [
+          "J. Devlin",
+          "Ming-Wei Chang",
+          "Kenton Lee",
+          "K. Toutanova"
+        ],
+        "year": 2019,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/N19-1423",
+        "arxivId": "1810.04805",
+        "url": "https://www.semanticscholar.org/paper/df2b0e26d0599ce3e70df8a9da02e51594e0e992"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/1810.04805",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-durmus2020feqa",
+      "rawKey": "durmus2020feqa",
+      "display": "[6]",
+      "raw": "Esin Durmus, He He, and Mona Diab. 2020. Feqa: A question answering evaluation framework for faithfulness assessment in abstractive summarization. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 5055--5070.",
+      "metadata": {
+        "title": "FEQA: A Question Answering Evaluation Framework for Faithfulness Assessment in Abstractive Summarization",
+        "authors": [
+          "Esin Durmus",
+          "He He",
+          "Mona T. Diab"
+        ],
+        "year": 2020,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2005.03754",
+        "arxivId": "2005.03754",
+        "url": "https://www.semanticscholar.org/paper/b53d339c83ae47d75f33f83fb9726a1d75c1b0d0"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dziri2019evaluating",
+      "rawKey": "dziri2019evaluating",
+      "display": "[7]",
+      "raw": "Nouha Dziri, Ehsan Kamalloo, Kory Mathewson, and Osmar R Zaiane. 2019. Evaluating coherence in dialogue systems using entailment. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 3806--3812.",
+      "metadata": {
+        "title": "Evaluating Coherence in Dialogue Systems using Entailment",
+        "authors": [
+          "Nouha Dziri",
+          "Ehsan Kamalloo",
+          "K. Mathewson",
+          "Osmar R Zaiane"
+        ],
+        "year": 2019,
+        "venue": "NAACL-HLT",
+        "doi": "10.48550/arXiv.1904.03371",
+        "arxivId": "1904.03371",
+        "url": "https://www.semanticscholar.org/paper/9a53d448f70b23b6f62bcfb8db124bf9c3d0cc5d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fabbri2021summeval",
+      "rawKey": "fabbri2021summeval",
+      "display": "[8]",
+      "raw": "Alexander R Fabbri, Wojciech Kryscinski, Bryan McCann, Caiming Xiong, Richard Socher, and Dragomir Radev. 2021. Summeval: Re-evaluating summarization evaluation. Transactions of the Association for Computational Linguistics, 9:391--409.",
+      "metadata": {
+        "title": "SummEval: Re-evaluating Summarization Evaluation",
+        "authors": [
+          "A. R. Fabbri",
+          "Wojciech Kryscinski",
+          "Bryan McCann",
+          "Caiming Xiong",
+          "R. Socher",
+          "Dragomir R. Radev"
+        ],
+        "year": 2020,
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "doi": "10.1162/tacl_a_00373",
+        "arxivId": "2007.12626",
+        "url": "https://www.semanticscholar.org/paper/dea5eb8c113c549d9e8ceb20abd0a3fdc70efe92"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fu2023GPTScore",
+      "rawKey": "fu2023GPTScore",
+      "display": "[9]",
+      "raw": "Jinlan Fu, See-Kiong Ng, Zhengbao Jiang, and Pengfei Liu. 2023. Gptscore: Evaluate as you desire. arXiv preprint arXiv:2302.04166.",
+      "metadata": {
+        "title": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
+        "authors": [
+          "Lian-Min Zheng",
+          "Wei-Lin Chiang",
+          "Ying Sheng",
+          "Si-Yuan Zhuang",
+          "Zhanghao Wu",
+          "Yong-Hao Zhuang",
+          "Zi Lin",
+          "Zhuo-Han Li",
+          "Da-Cheng Li",
+          "E. Xing",
+          "Haotong Zhang",
+          "Joseph E. Gonzalez",
+          "I. Stoica"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.52202/075280-2020",
+        "arxivId": "2302.04166",
+        "url": "https://www.semanticscholar.org/paper/a0a79dad89857a96f8f71b14238e5237cbfc4787"
+      },
+      "localMatch": {
+        "paperPath": "papers/模型评测/2306.05685",
+        "matchBy": "title"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hermann2015teaching",
+      "rawKey": "hermann2015teaching",
+      "display": "[10]",
+      "raw": "Karl Moritz Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom. 2015. Teaching machines to read and comprehend. Advances in neural information processing systems, 28.",
+      "metadata": {
+        "title": "Teaching Machines to Read and Comprehend",
+        "authors": [
+          "K. Hermann",
+          "T. Kociský",
+          "Edward Grefenstette",
+          "L. Espeholt",
+          "W. Kay",
+          "M. Suleyman",
+          "P. Blunsom"
+        ],
+        "year": 2015,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1506.03340",
+        "arxivId": "1506.03340",
+        "url": "https://www.semanticscholar.org/paper/d1505c6123c102e53eb19dff312cb25cea840b72"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kasai2021bidimensional",
+      "rawKey": "kasai2021bidimensional",
+      "display": "[11]",
+      "raw": "Jungo Kasai, Keisuke Sakaguchi, Ronan Le Bras, Lavinia Dunagan, Jacob Morrison, Alexander R Fabbri, Yejin Choi, and Noah A Smith. 2021. Bidimensional leaderboards: Generate and evaluate language hand in hand. arXiv preprint arXiv:2112.04139.",
+      "metadata": {
+        "title": "Bidimensional Leaderboards: Generate and Evaluate Language Hand in Hand",
+        "authors": [
+          "Jungo Kasai",
+          "Keisuke Sakaguchi",
+          "Ronan Le Bras",
+          "Lavinia Dunagan",
+          "Jacob Daniel Morrison",
+          "Alexander R. Fabbri",
+          "Yejin Choi",
+          "Noah A. Smith"
+        ],
+        "year": 2021,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2112.04139",
+        "arxivId": "2112.04139",
+        "url": "https://www.semanticscholar.org/paper/e58d2ea9b382265717fcb6c5459ed000fd58fdc9"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kocmi2023large",
+      "rawKey": "kocmi2023large",
+      "display": "[12]",
+      "raw": "Tom Kocmi and Christian Federmann. 2023. Large language models are state-of-the-art evaluators of translation quality. arXiv preprint arXiv:2302.14520.",
+      "metadata": {
+        "title": "Large Language Models Are State-of-the-Art Evaluators of Translation Quality",
+        "authors": [
+          "Tom Kocmi",
+          "C. Federmann"
+        ],
+        "year": 2023,
+        "venue": "European Association for Machine Translation Conferences/Workshops",
+        "doi": "10.48550/arXiv.2302.14520",
+        "arxivId": "2302.14520",
+        "url": "https://www.semanticscholar.org/paper/4161ad2d2495d8af1d62dc5e71882bde642cd1c1"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kryscinski2020evaluating",
+      "rawKey": "kryscinski2020evaluating",
+      "display": "[13]",
+      "raw": "Wojciech Kryscinski, Bryan McCann, Caiming Xiong, and Richard Socher. 2020. Evaluating the factual consistency of abstractive text summarization. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 9332--9346.",
+      "metadata": {
+        "title": "Evaluating the Factual Consistency of Abstractive Text Summarization",
+        "authors": [
+          "Wojciech Kryscinski",
+          "Bryan McCann",
+          "Caiming Xiong",
+          "R. Socher"
+        ],
+        "year": 2019,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.48550/arXiv.1910.12840",
+        "arxivId": "1910.12840",
+        "url": "https://www.semanticscholar.org/paper/0c5598424cc96d8fb500eb553cb7969f86a0ede0"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kusner2015word",
+      "rawKey": "kusner2015word",
+      "display": "[14]",
+      "raw": "Matt Kusner, Yu Sun, Nicholas Kolkin, and Kilian Weinberger. 2015. From word embeddings to document distances. In International conference on machine learning, pages 957--966. PMLR.",
+      "metadata": {
+        "title": "From Word Embeddings To Document Distances",
+        "authors": [
+          "Matt J. Kusner",
+          "Yu Sun",
+          "Nicholas I. Kolkin",
+          "Kilian Q. Weinberger"
+        ],
+        "year": 2015,
+        "venue": "International Conference on Machine Learning",
+        "url": "https://www.semanticscholar.org/paper/66021a920001bc3e6258bffe7076d647614147b7"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:conf-acl-LewisLGGMLSZ20",
+      "rawKey": "DBLP:conf/acl/LewisLGGMLSZ20",
+      "display": "[15]",
+      "raw": "Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Veselin Stoyanov, and Luke Zettlemoyer. 2020. BART: denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, ACL 2020, Online, July 5-10, 2020, pages 7871--7880. Association for Computational Linguistics.",
+      "metadata": {
+        "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+        "authors": [
+          "M. Lewis",
+          "Yinhan Liu",
+          "Naman Goyal",
+          "Marjan Ghazvininejad",
+          "Abdel-rahman Mohamed",
+          "Omer Levy",
+          "Veselin Stoyanov",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.1910.13461",
+        "arxivId": "1910.13461",
+        "url": "https://www.semanticscholar.org/paper/395de0bd3837fdf4b4b5e5f04835bcc69c279481"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lin2004rouge",
+      "rawKey": "lin2004rouge",
+      "display": "[16]",
+      "raw": "Chin-Yew Lin. 2004. Rouge: A package for automatic evaluation of summaries. In Text summarization branches out, pages 74--81.",
+      "metadata": {
+        "title": "ROUGE: A Package for Automatic Evaluation of Summaries",
+        "authors": [
+          "Chin-Yew Lin"
+        ],
+        "year": 2004,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "url": "https://www.semanticscholar.org/paper/60b05f32c32519a809f21642ef1eb3eaf3848008"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mehri2020usr",
+      "rawKey": "mehri2020usr",
+      "display": "[17]",
+      "raw": "Shikib Mehri and Maxine Eskenazi. 2020. Usr: An unsupervised and reference free evaluation metric for dialog generation. arXiv preprint arXiv:2005.00456.",
+      "metadata": {
+        "title": "USR: An Unsupervised and Reference Free Evaluation Metric for Dialog Generation",
+        "authors": [
+          "Shikib Mehri",
+          "M. Eskénazi"
+        ],
+        "year": 2020,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2005.00456",
+        "arxivId": "2005.00456",
+        "url": "https://www.semanticscholar.org/paper/8d668b0161db3f0769194c999e7743ae1b0538e5"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-narayan2018don",
+      "rawKey": "narayan2018don",
+      "display": "[18]",
+      "raw": "Shashi Narayan, Shay B Cohen, and Mirella Lapata. 2018. Donâ give me the details, just the summary! topic-aware convolutional neural networks for extreme summarization. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 1797--1807.",
+      "metadata": {
+        "title": "Don’t Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization",
+        "authors": [
+          "Shashi Narayan",
+          "Shay B. Cohen",
+          "Mirella Lapata"
+        ],
+        "year": 2018,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/D18-1206",
+        "arxivId": "1808.08745",
+        "url": "https://www.semanticscholar.org/paper/305b2cf37e5dece81e95c92883d5a6e28ac93b22"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpt35",
+      "rawKey": "gpt35",
+      "display": "[19]",
+      "raw": "Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al. 2022. Training language models to follow instructions with human feedback. Advances in Neural Information Processing Systems, 35:27730--27744.",
+      "metadata": {
+        "title": "Training language models to follow instructions with human feedback",
+        "authors": [
+          "Long Ouyang",
+          "Jeff Wu",
+          "Xu Jiang",
+          "Diogo Almeida",
+          "Carroll L. Wainwright",
+          "Pamela Mishkin",
+          "Chong Zhang",
+          "S. Agarwal",
+          "Katarina Slama",
+          "Alex Ray",
+          "John D. Schulman",
+          "Jacob Hilton",
+          "Fraser Kelton",
+          "Luke Miller",
+          "Maddie Simens",
+          "Amanda Askell",
+          "Peter Welinder",
+          "Paul F. Christiano",
+          "Jan Leike",
+          "Ryan J. Lowe"
+        ],
+        "year": 2022,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.52202/068431-2011",
+        "arxivId": "2203.02155",
+        "url": "https://www.semanticscholar.org/paper/d766bffc357127e0dc86dd69561d5aeb520d6f4c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-papineni2002bleu",
+      "rawKey": "papineni2002bleu",
+      "display": "[20]",
+      "raw": "Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. 2002. Bleu: a method for automatic evaluation of machine translation. In Proceedings of the 40th annual meeting of the Association for Computational Linguistics, pages 311--318.",
+      "metadata": {
+        "title": "Bleu: a Method for Automatic Evaluation of Machine Translation",
+        "authors": [
+          "K. Papineni",
+          "Salim Roukos",
+          "T. Ward",
+          "Wei-Jing Zhu"
+        ],
+        "year": 2002,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.3115/1073083.1073135",
+        "url": "https://www.semanticscholar.org/paper/d7da009f457917aa381619facfa5ffae9329a6e9"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-raffel2020exploring",
+      "rawKey": "raffel2020exploring",
+      "display": "[21]",
+      "raw": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J Liu. 2020. Exploring the limits of transfer learning with a unified text-to-text transformer. Journal of Machine Learning Research, 21:1--67.",
+      "metadata": {
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "authors": [
+          "Colin A. Raffel",
+          "Noam Shazeer",
+          "Adam Roberts",
+          "Katherine Lee",
+          "Sharan Narang",
+          "Michael Matena",
+          "Yan-Qi Zhou",
+          "Wei Li",
+          "Peter J. Liu"
+        ],
+        "year": 2019,
+        "venue": "Journal of machine learning research",
+        "doi": "10.48550/arXiv.1910.10683",
+        "arxivId": "1910.10683",
+        "url": "https://www.semanticscholar.org/paper/6c4b76232bb72897685d19b3d264c6ee3005bc2b"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/1910.10683",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-reiter2009investigation",
+      "rawKey": "reiter2009investigation",
+      "display": "[22]",
+      "raw": "Ehud Reiter and Anja Belz. 2009. An investigation into the validity of some metrics for automatically evaluating natural language generation systems. Computational Linguistics, 35(4):529--558.",
+      "metadata": {
+        "title": "An Investigation into the Validity of Some Metrics for Automatically Evaluating Natural Language Generation Systems",
+        "authors": [
+          "Ehud Reiter",
+          "Anja Belz"
+        ],
+        "year": 2009,
+        "venue": "International Conference on Computational Logic",
+        "doi": "10.1162/coli.2009.35.4.35405",
+        "url": "https://www.semanticscholar.org/paper/175468ba0a7242f259a4d7b81f3d82951313de61"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-stent2005evaluating",
+      "rawKey": "stent2005evaluating",
+      "display": "[23]",
+      "raw": "Amanda Stent, Matthew Marge, and Mohit Singhai. 2005. Evaluating evaluation methods for generation in the presence of variation. In Proceedings of the 6th international conference on Computational Linguistics and Intelligent Text Processing, pages 341--351.",
+      "metadata": {
+        "title": "Evaluating Evaluation Methods for Generation in the Presence of Variation",
+        "authors": [
+          "Amanda Stent",
+          "M. Marge",
+          "Mohit Singhai"
+        ],
+        "year": 2005,
+        "venue": "Conference on Intelligent Text Processing and Computational Linguistics",
+        "doi": "10.1007/978-3-540-30586-6_38",
+        "url": "https://www.semanticscholar.org/paper/6d1beff9dfc115eacc5466a39e535177e1a6b699"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2020asking",
+      "rawKey": "wang2020asking",
+      "display": "[24]",
+      "raw": "Alex Wang, Kyunghyun Cho, and Mike Lewis. 2020. Asking and answering questions to evaluate the factual consistency of summaries. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 5008--5020.",
+      "metadata": {
+        "title": "Asking and Answering Questions to Evaluate the Factual Consistency of Summaries",
+        "authors": [
+          "Alex Wang",
+          "Kyunghyun Cho",
+          "M. Lewis"
+        ],
+        "year": 2020,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2004.04228",
+        "arxivId": "2004.04228",
+        "url": "https://www.semanticscholar.org/paper/d36e39aedd802aea4be1ea303c70dc56e97dbc3c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2023chatgpt",
+      "rawKey": "wang2023chatgpt",
+      "display": "[25]",
+      "raw": "Jiaan Wang, Yunlong Liang, Fandong Meng, Haoxiang Shi, Zhixu Li, Jinan Xu, Jianfeng Qu, and Jie Zhou. 2023. Is chatgpt a good nlg evaluator? a preliminary study. arXiv preprint arXiv:2303.04048.",
+      "metadata": {
+        "title": "Large Language Models are not Fair Evaluators",
+        "authors": [
+          "Peiyi Wang",
+          "Lei Li",
+          "Liang Chen",
+          "Ze-Fan Cai",
+          "Dawei Zhu",
+          "Bing-Huai Lin",
+          "Yun-Bo Cao",
+          "Ling-Peng Kong",
+          "Qi Liu",
+          "Tianyu Liu",
+          "Z. Sui"
+        ],
+        "year": 2023,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2305.17926",
+        "arxivId": "2303.04048",
+        "url": "https://www.semanticscholar.org/paper/38d64919ba526868a850a0e5f6239d4c474b7e7e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wei2022chain",
+      "rawKey": "wei2022chain",
+      "display": "[26]",
+      "raw": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and Denny Zhou. 2022. Chain of thought prompting elicits reasoning in large language models. arXiv preprint arXiv:2201.11903.",
+      "metadata": {
+        "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models",
+        "authors": [
+          "Jason Wei",
+          "Xue-Zhi Wang",
+          "Dale Schuurmans",
+          "Maarten Bosma",
+          "Ed H. Chi",
+          "F. Xia",
+          "Quoc V. Le",
+          "Denny Zhou"
+        ],
+        "year": 2022,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2201.11903",
+        "arxivId": "2201.11903",
+        "url": "https://www.semanticscholar.org/paper/1b6e810ce0afd0dd093f789d2b2742d047e316d5"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ye2021towards",
+      "rawKey": "ye2021towards",
+      "display": "[27]",
+      "raw": "Zheng Ye, Liucun Lu, Lishan Huang, Liang Lin, and Xiaodan Liang. 2021. Towards quantifiable dialogue coherence evaluation. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 2718--2729.",
+      "metadata": {
+        "title": "Towards Quantifiable Dialogue Coherence Evaluation",
+        "authors": [
+          "Zheng Ye",
+          "Liucun Lu",
+          "Lishan Huang",
+          "Liang Lin",
+          "Xiao-Dan Liang"
+        ],
+        "year": 2021,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2021.acl-long.211",
+        "arxivId": "2106.00507",
+        "url": "https://www.semanticscholar.org/paper/c8419114a8972e4945052e9699b69dfa858ab17c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yuan2021bartscore",
+      "rawKey": "yuan2021bartscore",
+      "display": "[28]",
+      "raw": "Weizhe Yuan, Graham Neubig, and Pengfei Liu. 2021. Bartscore: Evaluating generated text as text generation. Advances in Neural Information Processing Systems, 34.",
+      "metadata": {
+        "title": "BARTScore: Evaluating Generated Text as Text Generation",
+        "authors": [
+          "Weizhe Yuan",
+          "Graham Neubig",
+          "Peng-Fei Liu"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2106.11520",
+        "arxivId": "2106.11520",
+        "url": "https://www.semanticscholar.org/paper/a6a7724763d8adba466519489b0b9d209e7f2d15"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhang2019bertscore",
+      "rawKey": "zhang2019bertscore",
+      "display": "[29]",
+      "raw": "Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q Weinberger, and Yoav Artzi. 2019. Bertscore: Evaluating text generation with bert. arXiv preprint arXiv:1904.09675.",
+      "metadata": {
+        "title": "BERTScore: Evaluating Text Generation with BERT",
+        "authors": [
+          "Tianyi Zhang",
+          "Varsha Kishore",
+          "Felix Wu",
+          "Kilian Q. Weinberger",
+          "Yoav Artzi"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1904.09675",
+        "arxivId": "1904.09675",
+        "url": "https://www.semanticscholar.org/paper/295065d942abca0711300b2b4c39829551060578"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-https:--doi.org-10.48550-arxiv.2301.13848",
+      "rawKey": "https://doi.org/10.48550/arxiv.2301.13848",
+      "display": "[30]",
+      "raw": "Tianyi Zhang, Faisal Ladhak, Esin Durmus, Percy Liang, Kathleen McKeown, and Tatsunori B. Hashimoto. 2023. https://arxiv.org/abs/2301.13848 Benchmarking large language models for news summarization.",
+      "metadata": {
+        "title": "Benchmarking Large Language Models for News Summarization",
+        "authors": [
+          "Tian-Yi Zhang",
+          "Faisal Ladhak",
+          "Esin Durmus",
+          "Percy Liang",
+          "K. McKeown",
+          "Tatsunori B. Hashimoto"
+        ],
+        "year": 2023,
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "doi": "10.1162/tacl_a_00632",
+        "arxivId": "2301.13848",
+        "url": "https://arxiv.org/abs/2301.13848"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhao2019MoverScore",
+      "rawKey": "zhao2019MoverScore",
+      "display": "[31]",
+      "raw": "Wei Zhao, Maxime Peyrard, Fei Liu, Yang Gao, Christian M Meyer, and Steffen Eger. 2019. Moverscore: Text generation evaluating with contextualized embeddings and earth mover distance. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 563--578.",
+      "metadata": {
+        "title": "MoverScore: Text Generation Evaluating with Contextualized Embeddings and Earth Mover Distance",
+        "authors": [
+          "Wei Zhao",
+          "Maxime Peyrard",
+          "Fei Liu",
+          "Yang Gao",
+          "Christian M. Meyer",
+          "Steffen Eger"
+        ],
+        "year": 2019,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/D19-1053",
+        "arxivId": "1909.02622",
+        "url": "https://www.semanticscholar.org/paper/635cb6fb865e86c108c5d1d895aeac0e759eb199"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhong2022towards",
+      "rawKey": "zhong2022towards",
+      "display": "[32]",
+      "raw": "Ming Zhong, Yang Liu, Da Yin, Yuning Mao, Yizhu Jiao, Pengfei Liu, Chenguang Zhu, Heng Ji, and Jiawei Han. 2022. Towards a unified multi-dimensional evaluator for text generation. arXiv preprint arXiv:2210.07197.",
+      "metadata": {
+        "title": "Towards a Unified Multi-Dimensional Evaluator for Text Generation",
+        "authors": [
+          "Ming Zhong",
+          "Yang Liu",
+          "Da Yin",
+          "Yuning Mao",
+          "Yi-Zhu Jiao",
+          "Peng Liu",
+          "Chenguang Zhu",
+          "Heng Ji",
+          "J. Han"
+        ],
+        "year": 2022,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2022.emnlp-main.131",
+        "arxivId": "2210.07197",
+        "url": "https://www.semanticscholar.org/paper/041f5dbfcd07a3369ac44a6b902ee4b145eccf2b"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 32 entries (bbl)",
+    "semantic scholar: 40 references",
+    "merged: 32 of 32 enriched online"
+  ]
+}

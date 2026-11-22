@@ -1,0 +1,642 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-17T14:36:15.330Z",
+    "fingerprint": "8f97149ffa0986e120b9ef8e4bd6fc05900e6040300018e17e02c719490c4659"
+  },
+  "citations": [
+    {
+      "id": "cite-biderman2023pythia",
+      "rawKey": "biderman2023pythia",
+      "display": "[1]",
+      "raw": "Stella Biderman, Hailey Schoelkopf, Quentin Gregory Anthony, Herbie Bradley, Kyle Oârien, Eric Hallahan, Mohammad Aflah Khan, Shivanshu Purohit, USVSN Sai Prashanth, Edward Raff, et al. Pythia: A suite for analyzing large language models across training and scaling. In International Conference on Machine Learning, pp. 2397--2430. PMLR, 2023.",
+      "metadata": {
+        "title": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+        "authors": [
+          "Stella Biderman",
+          "Hailey Schoelkopf",
+          "Quentin Anthony",
+          "Herbie Bradley",
+          "Kyle O'Brien",
+          "Eric Hallahan",
+          "Mohammad Aflah Khan",
+          "Shivanshu Purohit",
+          "USVSN Sai Prashanth",
+          "Edward Raff",
+          "Aviya Skowron",
+          "Lintang Sutawika",
+          "Oskar van der Wal"
+        ],
+        "year": 2023,
+        "arxivId": "2304.01373"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bills2023language",
+      "rawKey": "bills2023language",
+      "display": "[2]",
+      "raw": "Steven Bills, Nick Cammarata, Dan Mossing, Henk Tillman, Leo Gao, Gabriel Goh, Ilya Sutskever, Jan Leike, Jeff Wu, and William Saunders. Language models can explain neurons in language models. URL https://openaipublic. blob. core. windows. net/neuron-explainer/paper/index. html.(Date accessed: 14.05. 2023), 2023.",
+      "metadata": {
+        "title": "Language models can explain neurons in language models",
+        "authors": [
+          "Steven Bills",
+          "Nick Cammarata",
+          "Dan Mossing",
+          "Henk Tillman",
+          "Leo Gao",
+          "Gabriel Goh",
+          "Ilya Sutskever",
+          "Jan Leike",
+          "Jeff Wu",
+          "William Saunders"
+        ],
+        "year": 2023,
+        "url": "https://openaipublic"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cammarata2021curve",
+      "rawKey": "cammarata2021curve",
+      "display": "[3]",
+      "raw": "Nick Cammarata, Gabriel Goh, Shan Carter, Chelsea Voss, Ludwig Schubert, and Chris Olah. Curve circuits. Distill, 2021. 10.23915/distill.00024.006. https://distill.pub/2020/circuits/curve-circuits.",
+      "metadata": {
+        "title": "Curve Circuits",
+        "authors": [
+          "Nick Cammarata",
+          "Gabriel Goh",
+          "Shan Carter",
+          "Chelsea Voss",
+          "Ludwig Schubert",
+          "Chris Olah"
+        ],
+        "year": 2021,
+        "venue": "Distill",
+        "doi": "10.23915/distill.00024.006",
+        "url": "https://distill.pub/2020/circuits/curve-circuits"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-conmy2023towards",
+      "rawKey": "conmy2023towards",
+      "display": "[4]",
+      "raw": "Arthur Conmy, Augustine N Mavor-Parker, Aengus Lynch, Stefan Heimersheim, and Adria Garriga-Alonso. Towards automated circuit discovery for mechanistic interpretability. arXiv preprint arXiv:2304.14997, 2023.",
+      "metadata": {
+        "title": "Towards automated circuit discovery for mechanistic interpretability",
+        "authors": [
+          "Arthur Conmy",
+          "Augustine N Mavor-Parker",
+          "Aengus Lynch",
+          "Stefan Heimersheim",
+          "Adria Garriga-Alonso"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2304.14997",
+        "arxivId": "2304.14997"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-correia2019adaptively",
+      "rawKey": "correia2019adaptively",
+      "display": "[5]",
+      "raw": "Goncalo M Correia, Vlad Niculae, and Andre FT Martins. Adaptively sparse transformers. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pp. 2174--2184, 2019.",
+      "metadata": {
+        "title": "Adaptively Sparse Transformers",
+        "authors": [
+          "Goncalo M Correia",
+          "Vlad Niculae",
+          "Andre FT Martins"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dettmers2022llm",
+      "rawKey": "dettmers2022llm",
+      "display": "[6]",
+      "raw": "Tim Dettmers, Mike Lewis, Younes Belkada, and Luke Zettlemoyer. Llm. int8 (): 8-bit matrix multiplication for transformers at scale. arXiv preprint arXiv:2208.07339, 2022.",
+      "metadata": {
+        "title": "Llm. int8 (): 8-bit matrix multiplication for transformers at scale",
+        "authors": [
+          "Tim Dettmers",
+          "Mike Lewis",
+          "Younes Belkada",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2208.07339",
+        "arxivId": "2208.07339"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-elhage2021mathematical",
+      "rawKey": "elhage2021mathematical",
+      "display": "[7]",
+      "raw": "Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Nicholas Joseph, Ben Mann, Amanda Askell, Yuntao Bai, Anna Chen, Tom Conerly, et al. A mathematical framework for transformer circuits. Transformer Circuits Thread, 1, 2021.",
+      "metadata": {
+        "title": "A Mathematical Framework for Transformer Circuits",
+        "authors": [
+          "Nelson Elhage",
+          "Neel Nanda",
+          "Catherine Olsson",
+          "Tom Henighan",
+          "Nicholas Joseph",
+          "Ben Mann",
+          "Amanda Askell",
+          "Yuntao Bai",
+          "Anna Chen",
+          "Tom Conerly",
+          "Nova DasSarma",
+          "Dawn Drain",
+          "Deep Ganguli",
+          "Zac Hatfield-Dodds",
+          "Danny Hernandez",
+          "Andy Jones",
+          "Jackson Kernion",
+          "Liane Lovitt",
+          "Kamal Ndousse",
+          "Dario Amodei",
+          "Tom Brown",
+          "Jack Clark",
+          "Jared Kaplan",
+          "Sam McCandlish",
+          "Chris Olah"
+        ],
+        "year": 2021,
+        "url": "https://transformer-circuits.pub/2021/framework/index.html"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-elhage2022solu",
+      "rawKey": "elhage2022solu",
+      "display": "[8]",
+      "raw": "Nelson Elhage, Tristan Hume, Catherine Olsson, Neel Nanda, Tom Henighan, Scott Johnston, Sheer ElShowk, Nicholas Joseph, Nova DasSarma, Ben Mann, Danny Hernandez, Amanda Askell, Kamal Ndousse, Andy Jones, Dawn Drain, Anna Chen, Yuntao Bai, Deep Ganguli, Liane Lovitt, Zac Hatfield-Dodds, Jackson Kernion, Tom Conerly, Shauna Kravec, Stanislav Fort, Saurav Kadavath, Josh Jacobson, Eli Tran-Johnson, Jared Kaplan, Jack Clark, Tom Brown, Sam McCandlish, Dario Amodei, and Christopher Olah. Softmax linear units. Transformer Circuits Thread, 2022a. https://transformer-circuits.pub/2022/solu/index.html.",
+      "metadata": {
+        "title": "Softmax Linear Units",
+        "authors": [
+          "Nelson Elhage",
+          "Tristan Hume",
+          "Catherine Olsson",
+          "Neel Nanda",
+          "Tom Henighan",
+          "Scott Johnston",
+          "Sheer ElShowk",
+          "Nicholas Joseph",
+          "Nova DasSarma",
+          "Ben Mann",
+          "Danny Hernandez",
+          "Amanda Askell",
+          "Kamal Ndousse",
+          "Andy Jones",
+          "Dawn Drain",
+          "Anna Chen",
+          "Yuntao Bai",
+          "Deep Ganguli",
+          "Liane Lovitt",
+          "Zac Hatfield-Dodds",
+          "Jackson Kernion",
+          "Tom Conerly",
+          "Shauna Kravec",
+          "Stanislav Fort",
+          "Saurav Kadavath",
+          "Josh Jacobson",
+          "Eli Tran-Johnson",
+          "Jared Kaplan",
+          "Jack Clark",
+          "Tom Brown",
+          "Sam McCandlish",
+          "Dario Amodei",
+          "Christopher Olah"
+        ],
+        "year": 2022,
+        "venue": "Transformer Circuits Thread",
+        "url": "https://transformer-circuits.pub/2022/solu/index.html"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-elhage2022toy",
+      "rawKey": "elhage2022toy",
+      "display": "[9]",
+      "raw": "Nelson Elhage, Tristan Hume, Catherine Olsson, Nicholas Schiefer, Tom Henighan, Shauna Kravec, Zac Hatfield-Dodds, Robert Lasenby, Dawn Drain, Carol Chen, et al. Toy models of superposition. arXiv preprint arXiv:2209.10652, 2022b.",
+      "metadata": {
+        "title": "Toy Models of Superposition",
+        "authors": [
+          "Nelson Elhage",
+          "Tristan Hume",
+          "Catherine Olsson",
+          "Nicholas Schiefer",
+          "Tom Henighan",
+          "Shauna Kravec",
+          "Zac Hatfield-Dodds",
+          "Robert Lasenby",
+          "Dawn Drain",
+          "Carol Chen",
+          "Roger Grosse",
+          "Sam McCandlish",
+          "Jared Kaplan",
+          "Dario Amodei",
+          "Martin Wattenberg",
+          "Christopher Olah"
+        ],
+        "year": 2022,
+        "arxivId": "2209.10652"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2209.10652",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-elhage2023privileged",
+      "rawKey": "elhage2023privileged",
+      "display": "[10]",
+      "raw": "Nelson Elhage, Robert Lasenby, and Chris Olah. Privileged bases in the transformer residual stream, 2023. URL https://transformer-circuits.pub/2023/privileged-basis/index.html. Accessed: 2023-08-07.",
+      "metadata": {
+        "title": "Privileged Bases in the Transformer Residual Stream",
+        "authors": [
+          "Nelson Elhage",
+          "Robert Lasenby",
+          "Chris Olah"
+        ],
+        "year": 2023,
+        "url": "https://transformer-circuits.pub/2023/privileged-basis/index.html"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-frankle2018lottery",
+      "rawKey": "frankle2018lottery",
+      "display": "[11]",
+      "raw": "Jonathan Frankle and Michael Carbin. The lottery ticket hypothesis: Finding sparse, trainable neural networks. arXiv preprint arXiv:1803.03635, 2018.",
+      "metadata": {
+        "title": "The lottery ticket hypothesis: Finding sparse, trainable neural networks",
+        "authors": [
+          "Jonathan Frankle",
+          "Michael Carbin"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1803.03635",
+        "arxivId": "1803.03635"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fukushima1975relu",
+      "rawKey": "fukushima1975relu",
+      "display": "[12]",
+      "raw": "Kunihiko Fukushima. Cognitron: A self-organizing multilayered neural network. Biol. Cybern., 20 (3â): 121â36, sep 1975. ISSN 0340-1200. 10.1007/BF00342633. URL https://doi.org/10.1007/BF00342633.",
+      "metadata": {
+        "title": "Cognitron: A Self-Organizing Multilayered Neural Network",
+        "authors": [
+          "Kunihiko Fukushima"
+        ],
+        "year": 1975,
+        "venue": "Biol. Cybern.",
+        "doi": "10.1007/BF00342633",
+        "url": "https://doi.org/10.1007/BF00342633"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gao2020pile",
+      "rawKey": "gao2020pile",
+      "display": "[13]",
+      "raw": "Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, et al. The pile: An 800gb dataset of diverse text for language modeling. arXiv preprint arXiv:2101.00027, 2020.",
+      "metadata": {
+        "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+        "authors": [
+          "Leo Gao",
+          "Stella Biderman",
+          "Sid Black",
+          "Laurence Golding",
+          "Travis Hoppe",
+          "Charles Foster",
+          "Jason Phang",
+          "Horace He",
+          "Anish Thite",
+          "Noa Nabeshima",
+          "Shawn Presser",
+          "Connor Leahy"
+        ],
+        "year": 2020,
+        "arxivId": "2101.00027"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-georgiadis2019accelerating",
+      "rawKey": "georgiadis2019accelerating",
+      "display": "[14]",
+      "raw": "Georgios Georgiadis. Accelerating convolutional neural networks via activation map compression. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 7085--7095, 2019.",
+      "metadata": {
+        "title": "Accelerating convolutional neural networks via activation map compression",
+        "authors": [
+          "Georgios Georgiadis"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hendrycks2023overview",
+      "rawKey": "hendrycks2023overview",
+      "display": "[15]",
+      "raw": "Dan Hendrycks, Mantas Mazeika, and Thomas Woodside. An overview of catastrophic ai risks. arXiv preprint arXiv:2306.12001, 2023.",
+      "metadata": {
+        "title": "An Overview of Catastrophic AI Risks",
+        "authors": [
+          "Dan Hendrycks",
+          "Mantas Mazeika",
+          "Thomas Woodside"
+        ],
+        "year": 2023,
+        "arxivId": "2306.12001"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kasioumis2021elite",
+      "rawKey": "kasioumis2021elite",
+      "display": "[16]",
+      "raw": "Theodoros Kasioumis, Joe Townsend, and Hiroya Inakoshi. Elite backprop: Training sparse interpretable neurons. In NeSy, pp. 82--93, 2021.",
+      "metadata": {
+        "title": "Elite BackProp: Training Sparse Interpretable Neurons.",
+        "authors": [
+          "Theodoros Kasioumis",
+          "Joe Townsend",
+          "Hiroya Inakoshi"
+        ],
+        "year": 2021,
+        "venue": "NeSy"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lee2006efficient",
+      "rawKey": "lee2006efficient",
+      "display": "[17]",
+      "raw": "Honglak Lee, Alexis Battle, Rajat Raina, and Andrew Ng. Efficient sparse coding algorithms. Advances in neural information processing systems, 19, 2006.",
+      "metadata": {
+        "title": "Efficient sparse coding algorithms",
+        "authors": [
+          "Honglak Lee",
+          "Alexis Battle",
+          "Rajat Raina",
+          "Andrew Ng"
+        ],
+        "year": 2006,
+        "venue": "Advances in neural information processing systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Meister2021IsSA",
+      "rawKey": "Meister2021IsSA",
+      "display": "[18]",
+      "raw": "Clara Meister, Stefan Lazov, Isabelle Augenstein, and Ryan Cotterell. Is sparse attention more interpretable? In Annual Meeting of the Association for Computational Linguistics, 2021. URL https://api.semanticscholar.org/CorpusID:235293798.",
+      "metadata": {
+        "title": "Is Sparse Attention more Interpretable?",
+        "authors": [
+          "Clara Meister",
+          "Stefan Lazov",
+          "Isabelle Augenstein",
+          "Ryan Cotterell"
+        ],
+        "year": 2021,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "url": "https://api.semanticscholar.org/CorpusID:235293798"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ngo2022alignment",
+      "rawKey": "ngo2022alignment",
+      "display": "[19]",
+      "raw": "Richard Ngo, Lawrence Chan, and Soren Mindermann. The alignment problem from a deep learning perspective. arXiv preprint arXiv:2209.00626, 2022.",
+      "metadata": {
+        "title": "The alignment problem from a deep learning perspective",
+        "authors": [
+          "Richard Ngo",
+          "Lawrence Chan",
+          "Soren Mindermann"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2209.00626",
+        "arxivId": "2209.00626"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-olah2020zoom",
+      "rawKey": "olah2020zoom",
+      "display": "[20]",
+      "raw": "Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and Shan Carter. Zoom in: An introduction to circuits. Distill, 5 (3): e00024--001, 2020.",
+      "metadata": {
+        "title": "Zoom In: An Introduction to Circuits",
+        "authors": [
+          "Chris Olah",
+          "Nick Cammarata",
+          "Ludwig Schubert",
+          "Gabriel Goh",
+          "Michael Petrov",
+          "Shan Carter"
+        ],
+        "year": 2020,
+        "venue": "Distill",
+        "doi": "10.23915/distill.00024.001"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-olshausen1997sparse",
+      "rawKey": "olshausen1997sparse",
+      "display": "[21]",
+      "raw": "Bruno A Olshausen and David J Field. Sparse coding with an overcomplete basis set: A strategy employed by v1? Vision research, 37 (23): 3311--3325, 1997.",
+      "metadata": {
+        "title": "Sparse coding with an overcomplete basis set: A strategy employed by V1?",
+        "authors": [
+          "Bruno A. Olshausen",
+          "David J. Field"
+        ],
+        "year": 1997,
+        "venue": "Vision Research",
+        "doi": "https://doi.org/10.1016/S0042-6989(97)00169-7",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0042698997001697"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-olshausen2004sparse",
+      "rawKey": "olshausen2004sparse",
+      "display": "[22]",
+      "raw": "Bruno A Olshausen and David J Field. Sparse coding of sensory inputs. Current opinion in neurobiology, 14 (4): 481--487, 2004.",
+      "metadata": {
+        "title": "Sparse coding of sensory inputs",
+        "authors": [
+          "Bruno A Olshausen",
+          "David J Field"
+        ],
+        "year": 2004,
+        "venue": "Current opinion in neurobiology"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qu2019analysis",
+      "rawKey": "qu2019analysis",
+      "display": "[23]",
+      "raw": "Qing Qu, Yuexiang Zhai, Xiao Li, Yuqian Zhang, and Zhihui Zhu. Analysis of the optimization landscapes for overcomplete representation learning. arXiv preprint arXiv:1912.02427, 2019.",
+      "metadata": {
+        "title": "Analysis of the Optimization Landscapes for Overcomplete Representation Learning",
+        "authors": [
+          "Qing Qu",
+          "Yuexiang Zhai",
+          "Xiao Li",
+          "Yuqian Zhang",
+          "Zhihui Zhu"
+        ],
+        "year": 1912,
+        "arxivId": "1912.02427"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sharkey2023technical",
+      "rawKey": "sharkey2023technical",
+      "display": "[24]",
+      "raw": "Lee Sharkey, Dan Braun, and Beren Millidge. Taking features out of superposition with sparse autoencoders, 2023. URL https://www.alignmentforum.org/posts/z6QQJbtpkEAX3Aojj/interim-research-report-taking-features-out-of-superposition. Accessed: 2023-05-10.",
+      "metadata": {
+        "title": "A technical note on bilinear layers for interpretability",
+        "authors": [
+          "Lee Sharkey"
+        ],
+        "year": 2023,
+        "arxivId": "2305.03452",
+        "url": "https://www.alignmentforum.org/posts/z6QQJbtpkEAX3Aojj/interim-research-report-taking-features-out-of-superposition"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vig2020investigating",
+      "rawKey": "vig2020investigating",
+      "display": "[25]",
+      "raw": "Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo, Yaron Singer, and Stuart Shieber. Investigating gender bias in language models using causal mediation analysis. Advances in neural information processing systems, 33: 12388--12401, 2020.",
+      "metadata": {
+        "title": "Investigating gender bias in language models using causal mediation analysis",
+        "authors": [
+          "Jesse Vig",
+          "Sebastian Gehrmann",
+          "Yonatan Belinkov",
+          "Sharon Qian",
+          "Daniel Nevo",
+          "Yaron Singer",
+          "Stuart Shieber"
+        ],
+        "year": 2020,
+        "venue": "Advances in neural information processing systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2022interpretability",
+      "rawKey": "wang2022interpretability",
+      "display": "[26]",
+      "raw": "Kevin Wang, Alexandre Variengien, Arthur Conmy, Buck Shlegeris, and Jacob Steinhardt. Interpretability in the wild: a circuit for indirect object identification in gpt-2 small. arXiv preprint arXiv:2211.00593, 2022.",
+      "metadata": {
+        "title": "Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small",
+        "authors": [
+          "Kevin Wang",
+          "Alexandre Variengien",
+          "Arthur Conmy",
+          "Buck Shlegeris",
+          "Jacob Steinhardt"
+        ],
+        "year": 2022,
+        "arxivId": "2211.00593"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2211.00593",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wright2022high",
+      "rawKey": "wright2022high",
+      "display": "[27]",
+      "raw": "John Wright and Yi Ma. High-dimensional data analysis with low-dimensional models: Principles, computation, and applications. Cambridge University Press, 2022.",
+      "metadata": {
+        "title": "High-dimensional data analysis with low-dimensional models: Principles, computation, and applications",
+        "authors": [
+          "John Wright",
+          "Yi Ma"
+        ],
+        "year": 2022
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yun2021transformer",
+      "rawKey": "yun2021transformer",
+      "display": "[28]",
+      "raw": "Zeyu Yun, Yubei Chen, Bruno A Olshausen, and Yann LeCun. Transformer visualization via dictionary learning: contextualized embedding as a linear superposition of transformer factors. arXiv preprint arXiv:2103.15949, 2021.",
+      "metadata": {
+        "title": "Transformer visualization via dictionary learning: contextualized embedding as a linear superposition of transformer factors",
+        "authors": [
+          "Zeyu Yun",
+          "Yubei Chen",
+          "Bruno A Olshausen",
+          "Yann LeCun"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2103.15949",
+        "arxivId": "2103.15949"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 28 entries (bbl)",
+    "semantic scholar failed: rate limited",
+    "crossref failed: not found"
+  ]
+}

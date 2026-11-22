@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:47:21.693Z",
+    "fingerprint": "38785d6b0e912e2b94561262c83c50e7c6f7b735727a984bf7b96e635976f843"
+  },
+  "citations": [
+    {
+      "id": "cite-ainslie2023gqa",
+      "rawKey": "ainslie2023gqa",
+      "display": "[1]",
+      "raw": "Joshua Ainslie, James Lee-Thorp, Michiel de Jong, Yury Zemlyanskiy, Federico Lebron, and Sumit Sanghai. Gqa: Training generalized multi-query transformer models from multi-head checkpoints. arXiv preprint arXiv:2305.13245, 2023.",
+      "metadata": {
+        "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+        "authors": [
+          "Joshua Ainslie",
+          "James Lee-Thorp",
+          "Michiel de Jong",
+          "Yury Zemlyanskiy",
+          "Federico Lebron",
+          "Sumit Sanghai"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2305.13245",
+        "arxivId": "2305.13245"
+      },
+      "localMatch": {
+        "paperPath": "papers/2305.13245",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-beltagy2020longformer",
+      "rawKey": "beltagy2020longformer",
+      "display": "[2]",
+      "raw": "Iz Beltagy, Matthew E Peters, and Arman Cohan. Longformer: The long-document transformer. arXiv preprint arXiv:2004.05150, 2020.",
+      "metadata": {
+        "title": "Longformer: The long-document transformer",
+        "authors": [
+          "Iz Beltagy",
+          "Matthew E Peters",
+          "Arman Cohan"
+        ],
+        "year": 2004,
+        "venue": "arXiv preprint arXiv:2004.05150",
+        "arxivId": "2004.05150"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-scatterbrain",
+      "rawKey": "scatterbrain",
+      "display": "[3]",
+      "raw": "Beidi Chen, Tri Dao, Eric Winsor, Zhao Song, Atri Rudra, and Christopher RÃ. Scatterbrain: Unifying sparse and low-rank attention. In Advances in Neural Information Processing Systems (NeurIPS), 2021.",
+      "metadata": {
+        "title": "Scatterbrain: Unifying Sparse and Low-rank Attention",
+        "authors": [
+          "Beidi Chen",
+          "Tri Dao",
+          "Eric Winsor",
+          "Zhao Song",
+          "Atri Rudra",
+          "Christopher RÃ"
+        ],
+        "year": 2021,
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS)"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-choromanski2020rethinking",
+      "rawKey": "choromanski2020rethinking",
+      "display": "[4]",
+      "raw": "Krzysztof Marcin Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Quincy Davis, Afroz Mohiuddin, Lukasz Kaiser, et al. Rethinking attention with performers. In International Conference on Learning Representations (ICLR), 2020.",
+      "metadata": {
+        "title": "Rethinking Attention with Performers",
+        "authors": [
+          "Krzysztof Marcin Choromanski",
+          "Valerii Likhosherstov",
+          "David Dohan",
+          "Xingyou Song",
+          "Andreea Gane",
+          "Tamas Sarlos",
+          "Peter Hawkins",
+          "Jared Quincy Davis",
+          "Afroz Mohiuddin",
+          "Lukasz Kaiser"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations (ICLR)"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dao2022flashattention",
+      "rawKey": "dao2022flashattention",
+      "display": "[5]",
+      "raw": "Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, and Christopher Re. FlashAttention: Fast and memory-efficient exact attention with IO-awareness. In Advances in Neural Information Processing Systems, 2022.",
+      "metadata": {
+        "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+        "authors": [
+          "Tri Dao",
+          "Daniel Y. Fu",
+          "Stefano Ermon",
+          "Atri Rudra",
+          "Christopher Re"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jia2021dissecting",
+      "rawKey": "jia2021dissecting",
+      "display": "[6]",
+      "raw": "Zhe Jia and Peter Van Sandt. Dissecting the Ampere GPU architecture via microbenchmarking. GPU Technology Conference, 2021.",
+      "metadata": {
+        "title": "Dissecting the Ampere GPU architecture via microbenchmarking",
+        "authors": [
+          "Zhe Jia",
+          "Peter Van Sandt"
+        ],
+        "year": 2021
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jia2018dissecting",
+      "rawKey": "jia2018dissecting",
+      "display": "[7]",
+      "raw": "Zhe Jia, Marco Maggioni, Benjamin Staiger, and Daniele P Scarpazza. Dissecting the nvidia Volta GPU architecture via microbenchmarking. arXiv preprint arXiv:1804.06826, 2018.",
+      "metadata": {
+        "title": "Dissecting the NVIDIA Volta GPU architecture via microbenchmarking",
+        "authors": [
+          "Zhe Jia",
+          "Marco Maggioni",
+          "Benjamin Staiger",
+          "Daniele P Scarpazza"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1804.06826",
+        "arxivId": "1804.06826"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-katharopoulos2020transformers",
+      "rawKey": "katharopoulos2020transformers",
+      "display": "[8]",
+      "raw": "Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, and Francois Fleuret. Transformers are RNNs: Fast autoregressive transformers with linear attention. In International Conference on Machine Learning, pages 5156--5165. PMLR, 2020.",
+      "metadata": {
+        "title": "Transformers are RNNs: Fast autoregressive transformers with linear attention",
+        "authors": [
+          "Angelos Katharopoulos",
+          "Apoorv Vyas",
+          "Nikolaos Pappas",
+          "Francois Fleuret"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Machine Learning"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kitaev2020reformer",
+      "rawKey": "kitaev2020reformer",
+      "display": "[9]",
+      "raw": "Nikita Kitaev, ukasz Kaiser, and Anselm Levskaya. Reformer: The efficient transformer. In The International Conference on Machine Learning (ICML), 2020.",
+      "metadata": {
+        "title": "Reformer: The Efficient Transformer",
+        "authors": [
+          "Nikita Kitaev",
+          "ukasz Kaiser",
+          "Anselm Levskaya"
+        ],
+        "year": 2020,
+        "venue": "The International Conference on Machine Learning (ICML)"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xFormers2022",
+      "rawKey": "xFormers2022",
+      "display": "[10]",
+      "raw": "Benjamin Lefaudeux, Francisco Massa, Diana Liskovich, Wenhan Xiong, Vittorio Caggiano, Sean Naren, Min Xu, Jieru Hu, Marta Tintore, Susan Zhang, Patrick Labatut, and Daniel Haziza. xformers: A modular and hackable transformer modelling library. https://github.com/facebookresearch/xformers, 2022.",
+      "metadata": {
+        "title": "xFormers: A modular and hackable Transformer modelling library",
+        "authors": [
+          "Benjamin Lefaudeux",
+          "Francisco Massa",
+          "Diana Liskovich",
+          "Wenhan Xiong",
+          "Vittorio Caggiano",
+          "Sean Naren",
+          "Min Xu",
+          "Jieru Hu",
+          "Marta Tintore",
+          "Susan Zhang",
+          "Patrick Labatut",
+          "Daniel Haziza"
+        ],
+        "year": 2022,
+        "url": "https://github.com/facebookresearch/xformers"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-milakov2018online",
+      "rawKey": "milakov2018online",
+      "display": "[11]",
+      "raw": "Maxim Milakov and Natalia Gimelshein. Online normalizer calculation for softmax. arXiv preprint arXiv:1805.02867, 2018.",
+      "metadata": {
+        "title": "Online normalizer calculation for softmax",
+        "authors": [
+          "Maxim Milakov",
+          "Natalia Gimelshein"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1805.02867",
+        "arxivId": "1805.02867"
+      },
+      "localMatch": {
+        "paperPath": "papers/1805.02867",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-OpenAI2023GPT4TR",
+      "rawKey": "OpenAI2023GPT4TR",
+      "display": "[12]",
+      "raw": "OpenAI. Gpt-4 technical report. ArXiv, abs/2303.08774, 2023.",
+      "metadata": {
+        "title": "GPT-4 Technical Report",
+        "authors": [
+          "OpenAI"
+        ],
+        "year": 2023,
+        "venue": "ArXiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rabe2021self",
+      "rawKey": "rabe2021self",
+      "display": "[13]",
+      "raw": "Markus N Rabe and Charles Staats. Self-attention does not need $ O (n^2) $ memory. arXiv preprint arXiv:2112.05682, 2021.",
+      "metadata": {
+        "title": "Self-attention Does Not Need $ O (n^2) $ Memory",
+        "authors": [
+          "Markus N Rabe",
+          "Charles Staats"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2112.05682",
+        "arxivId": "2112.05682"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-roy2021efficient",
+      "rawKey": "roy2021efficient",
+      "display": "[14]",
+      "raw": "Aurko Roy, Mohammad Saffar, Ashish Vaswani, and David Grangier. Efficient content-based sparse attention with routing transformers. Transactions of the Association for Computational Linguistics, 9: 53--68, 2021.",
+      "metadata": {
+        "title": "Efficient content-based sparse attention with routing transformers",
+        "authors": [
+          "Aurko Roy",
+          "Mohammad Saffar",
+          "Ashish Vaswani",
+          "David Grangier"
+        ],
+        "year": 2021,
+        "venue": "Transactions of the Association for Computational Linguistics"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shazeer2019fast",
+      "rawKey": "shazeer2019fast",
+      "display": "[15]",
+      "raw": "Noam Shazeer. Fast transformer decoding: One write-head is all you need. arXiv preprint arXiv:1911.02150, 2019.",
+      "metadata": {
+        "title": "Fast transformer decoding: One write-head is all you need",
+        "authors": [
+          "Noam Shazeer"
+        ],
+        "year": 1911,
+        "venue": "arXiv preprint arXiv:1911.02150",
+        "arxivId": "1911.02150"
+      },
+      "localMatch": {
+        "paperPath": "papers/1911.02150",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shoeybi2019megatron",
+      "rawKey": "shoeybi2019megatron",
+      "display": "[16]",
+      "raw": "Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and Bryan Catanzaro. Megatron-LM: Training multi-billion parameter language models using model parallelism. arXiv preprint arXiv:1909.08053, 2019.",
+      "metadata": {
+        "title": "Megatron-LM: Training multi-billion parameter language models using model parallelism",
+        "authors": [
+          "Mohammad Shoeybi",
+          "Mostofa Patwary",
+          "Raul Puri",
+          "Patrick LeGresley",
+          "Jared Casper",
+          "Bryan Catanzaro"
+        ],
+        "year": 1909,
+        "venue": "arXiv preprint arXiv:1909.08053",
+        "arxivId": "1909.08053"
+      },
+      "localMatch": {
+        "paperPath": "papers/1909.08053",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tillet2019triton",
+      "rawKey": "tillet2019triton",
+      "display": "[17]",
+      "raw": "Philippe Tillet, Hsiang-Tsung Kung, and David Cox. Triton: an intermediate language and compiler for tiled neural network computations. In Proceedings of the 3rd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages, pages 10--19, 2019.",
+      "metadata": {
+        "title": "Triton: an intermediate language and compiler for tiled neural network computations",
+        "authors": [
+          "Philippe Tillet",
+          "Hsiang-Tsung Kung",
+          "David Cox"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 3rd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vaswani2017attention",
+      "rawKey": "vaswani2017attention",
+      "display": "[18]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ukasz Kaiser, and Illia Polosukhin. Attention is all you need. Advances in neural information processing systems, 30, 2017.",
+      "metadata": {
+        "title": "Attention is all you need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "Niki Parmar",
+          "Jakob Uszkoreit",
+          "Llion Jones",
+          "Aidan N Gomez",
+          "ukasz Kaiser",
+          "Illia Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Advances in neural information processing systems"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2020linformer",
+      "rawKey": "wang2020linformer",
+      "display": "[19]",
+      "raw": "Sinong Wang, Belinda Z Li, Madian Khabsa, Han Fang, and Hao Ma. Linformer: Self-attention with linear complexity. arXiv preprint arXiv:2006.04768, 2020.",
+      "metadata": {
+        "title": "Linformer: Self-attention with linear complexity",
+        "authors": [
+          "Sinong Wang",
+          "Belinda Z Li",
+          "Madian Khabsa",
+          "Han Fang",
+          "Hao Ma"
+        ],
+        "year": 2006,
+        "venue": "arXiv preprint arXiv:2006.04768",
+        "arxivId": "2006.04768"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zaheer2020bigbird",
+      "rawKey": "zaheer2020bigbird",
+      "display": "[20]",
+      "raw": "Manzil Zaheer, Guru Guruganesh, Kumar Avinava Dubey, Joshua Ainslie, Chris Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang, et al. Big bird: Transformers for longer sequences. Advances in Neural Information Processing Systems, 33, 2020.",
+      "metadata": {
+        "title": "Big bird: Transformers for longer sequences",
+        "authors": [
+          "Manzil Zaheer",
+          "Guru Guruganesh",
+          "Kumar Avinava Dubey",
+          "Joshua Ainslie",
+          "Chris Alberti",
+          "Santiago Ontanon",
+          "Philip Pham",
+          "Anirudh Ravula",
+          "Qifan Wang",
+          "Li Yang"
+        ],
+        "year": 2020,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 20 entries (bbl)",
+    "semantic scholar failed: rate limited"
+  ]
+}

@@ -1,0 +1,23 @@
+ %auto-ignore
+Great work! Below is what I had time to do prior to my flight:
+
+Abstract
+"monosemantic feature" I don't think this type checks. In my mind, monosemantic means "corresponds to exactly one feature" so it is vacuous to call a feature monosemantic. I notice this comes up a few times through the paper as well (especially section 6)
+
+Intro
+"one hypothesis is that the residual stream is linear with superposition" is an awkward sentence.
+I think you might want to more explicitly mention JL lemma or some intuition for why it is possible to represent many more features than dimensions.
+The last paragraph has some typos. Also I think you should sharpen the contributions and/or key takeaways.
+
+Results
+For plots like figure 4, I really like seaborn boxenplots. They are like richer boxplots that gives you a sense for the whole distribution. Here you could do x='layer' and hue='coding_ratio'. (ditto for plots 3 and 5)
+
+Beginning of 3.4 "combines top activating fra" typo?
+
+3.5 "In some cases, there are so many dead features that the set of living features does not form an overcomplete basis." Huh, this sounds pretty surprising. Does this even happen when you ramp down the sparsity parameter? If you plan on submitting this I think reviewers will want to know why.
+
+Nit: Was figure 7 too squished when side by side?
+
+Figure 12 is cool!
+
+Figures 23/24 are really squished?

@@ -1,0 +1,162 @@
+\documentclass[10pt]{article} % For LaTeX2e
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\usepackage[preprint]{tmlr}
+% If accepted, instead use the following line for the camera-ready submission:
+%\usepackage[accepted]{tmlr}
+% To de-anonymize and remove mentions to TMLR (for example for posting to preprint servers), instead use the following:
+%\usepackage[preprint]{tmlr}
+
+% Optional math commands from https://github.com/goodfeli/dlbook_notation.
+\input{math_commands.tex}
+
+\usepackage{url}
+\usepackage{graphicx}
+
+% CUSTOM PACKAGES
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{tocloft}
+
+% Add these lines to define paragraph reference formats
+\crefname{paracount}{paragraph}{paragraphs}
+\Crefname{paracount}{Paragraph}{Paragraphs}
+
+% END CUSTOM PACKAGES
+
+% Make "Figure X" bold in captions
+\usepackage{caption}
+\captionsetup[figure]{labelformat=simple, labelsep=colon}
+\renewcommand{\figurename}{\textbf{Figure}}
+\renewcommand{\thefigure}{\textbf{\arabic{figure}}}
+
+\title{Open Problems in Mechanistic Interpretability}
+
+% Authors must not appear in the submitted version. They should be hidden
+% as long as the tmlr package is used without the [accepted] or [preprint] options.
+% Non-anonymous submissions will be rejected without review.
+
+\author{\name Lee Sharkey$^*$ \aff Apollo Research
+      \AND
+      \name Bilal Chughtai$^*$ \aff Apollo Research
+      \AND
+      \name Joshua Batson \aff Anthropic
+      \AND
+      \name Jack Lindsey \aff Anthropic
+      \AND
+      \name Jeff Wu \aff Anthropic$^\dagger$
+      \AND
+      \name Lucius Bushnaq \aff Apollo Research
+      \AND
+      \name Nicholas Goldowsky-Dill \aff Apollo Research
+      \AND
+      \name Stefan Heimersheim \aff Apollo Research
+      \AND
+      \name Alejandro Ortega \aff Apollo Research
+      \AND
+      \name Joseph Bloom \aff Decode Research
+      \AND
+      \name Stella Biderman \aff Eleuther AI
+      \AND
+      \name Adria Garriga-Alonso \aff FAR AI
+      \AND
+      \name Arthur Conmy \aff Google DeepMind
+      \AND
+      \name Neel Nanda \aff Google DeepMind
+      \AND
+      \name Jessica Rumbelow \aff Leap Laboratories
+      \AND
+      \name Martin Wattenberg \aff Harvard University
+      \AND
+      \name Nandi Schoots \aff King's College London and Imperial College London
+      \AND
+      \name Joseph Miller \aff MATS
+      \AND
+      \name Eric J. Michaud \aff MIT
+      \AND
+      \name Stephen Casper \aff MIT
+      \AND
+      \name Max Tegmark \aff MIT
+      \AND
+      \name William Saunders \aff METR
+      \AND
+      \name David Bau \aff Northeastern University
+      \AND
+      \name Eric Todd \aff Northeastern University
+      \AND
+      \name Atticus Geiger \aff Pr(AI)$^2$r group
+      \AND
+      \name Mor Geva \aff Tel Aviv University
+      \AND
+      \name Jesse Hoogland \aff Timaeus
+      \AND
+      \name Daniel Murfet \aff University of Melbourne
+      \AND
+      \name Tom McGrath \aff Goodfire
+      }
+      
+      % The \author macro works with any number of authors. Use \AND 
+      % to separate the names and addresses of multiple authors.
+      
+      \newcommand{\fix}{\marginpar{FIX}}
+      \newcommand{\new}{\marginpar{NEW}}
+      
+      \def\month{MM}  % Insert correct month for camera-ready version
+      \def\year{YYYY} % Insert correct year for camera-ready version
+      \def\openreview{\url{https://openreview.net/forum?id=XXXX}} % Insert correct link to OpenReview for camera-ready version
+      
+\renewcommand{\thefootnote}{}  % This removes the number/countere
+\footnotetext{$^*$Correspondence to: lee@apolloresearch.ai and brchughtaii@gmail.com}
+\footnotetext{$^\dagger$Work done prior to joining Anthropic.}
+\renewcommand{\thefootnote}{\arabic{footnote}}  % Restore normal footnote numbering
+
+\begin{document}
+
+
+\maketitle
+
+\newpage
+
+\vspace*{\fill}
+\begin{center}
+\begin{abstract}
+Mechanistic interpretability aims to understand the computational mechanisms underlying neural networks' capabilities in order to accomplish concrete scientific and engineering goals. Progress in this field thus promises to provide greater assurance over AI system behavior and shed light on exciting scientific questions about the nature of intelligence. Despite recent progress toward these goals, there are many open problems in the field that require solutions before many scientific and practical benefits can be realized: Our methods require both conceptual and practical improvements to reveal deeper insights; we must figure out how best to apply our methods in pursuit of specific goals; and the field must grapple with socio-technical challenges that influence and are influenced by our work. This forward-facing review discusses the current frontier of mechanistic interpretability and the open problems that the field may benefit from prioritizing. 
+\end{abstract}
+\end{center}
+\vspace*{\fill}
+
+\textit{This review collects the perspectives of its various authors and represents a synthesis of their views by Apollo Research on behalf of Schmidt Sciences. The perspectives presented here do not necessarily reflect the views of any individual author or the institutions with which they are affiliated.}
+
+
+\newpage
+\tableofcontents
+\newpage
+
+\include{sections/introduction}
+\include{sections/open_problems_methods_and_foundations}
+\include{sections/open_problems_applications}
+\include{sections/open_problems_sociotechnical}
+\include{sections/conclusion}
+
+
+%\subsubsection*{Broader Impact Statement}
+%TODO: In this optional section, TMLR encourages authors to discuss possible repercussions of their work,
+%notably any potential negative impact that a user of this research should be aware of. 
+%Authors should consult the TMLR Ethics Guidelines available on the TMLR website
+%for guidance on how to approach this subject.
+
+\subsubsection*{Author Contributions}
+\textbf{LS} managed the project and made major contributions to planning, writing, and editing content, as well as coordinating other contributors and synthesizing their perspectives where necessary. \textbf{BC} substantially contributed to the framing, writing and editing of the final manuscript, and made all of the figures. All authors (\textbf{LS}, \textbf{BC}, \textbf{JBn}, \textbf{JL}, \textbf{JW}, \textbf{LB}, \textbf{NGD}, \textbf{SH}, \textbf{AO}, \textbf{JBm}, \textbf{SB}, \textbf{AGA}, \textbf{AC}, \textbf{NN}, \textbf{MW}, \textbf{NS}, \textbf{JM}, \textbf{EJM}, \textbf{SC}, \textbf{MT}, \textbf{WS}, \textbf{DB}, \textbf{ET}, \textbf{AG}, \textbf{MG}, \textbf{JH}, \textbf{DM}, \textbf{TM}) contributed to the initial writing and editing of various sections and giving feedback on versions of the manuscript.
+
+
+We also greatly thank Fayth Tan for assistance with editing and Schmidt Sciences for their feedback at various stages of the project and for funding the work.
+
+%\subsubsection*{Acknowledgments}
+
+\bibliographystyle{tmlr}
+\bibliography{main}
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}}
+\appendix
+\include{sections/appendix_open_questions_summary}
+
+\end{document}

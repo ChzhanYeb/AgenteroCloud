@@ -1,0 +1,26 @@
+{
+  "path": "papers/待整理/2412.06464",
+  "id": "2412.06464",
+  "type": "pdf",
+  "title": "Gated Delta Networks: Improving Mamba2 with Delta Rule",
+  "authors": [
+    "Songlin Yang",
+    "Jan Kautz",
+    "Ali Hatamizadeh"
+  ],
+  "year": 2024,
+  "abstract": "Linear Transformers have gained attention as efficient alternatives to standard Transformers, but their performance in retrieval and long-context tasks has been limited. To address these limitations, recent work has explored two distinct mechanisms: gating for adaptive memory control and the delta update rule for precise memory modifications. We observe that these mechanisms are complementary: gating enables rapid memory erasure while the delta rule facilitates targeted updates. Building on this insight, we introduce the gated delta rule and develop a parallel training algorithm optimized for modern hardware. Our proposed architecture, Gated DeltaNet, consistently surpasses existing models like Mamba2 and DeltaNet across multiple benchmarks, including language modeling, common-sense reasoning, in-context retrieval, length extrapolation, and long-context understanding. We further enhance performance by developing hybrid architectures that combine Gated DeltaNet layers with sliding window attention or Mamba2 layers, achieving both improved training efficiency and superior task performance.",
+  "tags": [],
+  "arxiv_id": "2412.06464",
+  "publication": "ICLR 2025",
+  "code_repo": "https://github.com/NVlabs/GatedDeltaNet",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 695,
+  "meta_source": "recognize",
+  "summary": "Gated DeltaNet combines gating for rapid memory erasure with delta updates for targeted modifications. A parallel training algorithm and hybrids with sliding-window attention or Mamba2 improve language modeling, retrieval, length extrapolation, and long-context understanding over both baselines.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:30.827Z",
+  "updated_at": "2026-11-15T11:49:14.080Z"
+}

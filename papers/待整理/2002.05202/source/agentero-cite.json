@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:47:35.446Z",
+    "fingerprint": "1c3a413fa2c5e0c5de442a9f665de991a01be4cc54a42ca61dd30cdf3efeb4e2"
+  },
+  "citations": [
+    {
+      "id": "cite-dauphin2016",
+      "rawKey": "dauphin2016",
+      "display": "[1]",
+      "raw": "Yann N. Dauphin, Angela Fan, Michael Auli, and David Grangier. Language modeling with gated convolutional networks. CoRR, abs/1612.08083, 2016. URL http://arxiv.org/abs/1612.08083.",
+      "metadata": {
+        "year": 2016,
+        "arxivId": "1612.08083",
+        "url": "http://arxiv.org/abs/1612.08083"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-glorot2011deep",
+      "rawKey": "glorot2011deep",
+      "display": "[2]",
+      "raw": "Xavier Glorot, Antoine Bordes, and Yoshua Bengio. Deep sparse rectifier neural networks. In Proceedings of the fourteenth international conference on artificial intelligence and statistics, pages 315--323, 2011.",
+      "metadata": {
+        "year": 2011
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-hendrycks2016",
+      "rawKey": "hendrycks2016",
+      "display": "[3]",
+      "raw": "Dan Hendrycks and Kevin Gimpel. Bridging nonlinearities and stochastic regularizers with gaussian error linear units. CoRR, abs/1606.08415, 2016. URL http://arxiv.org/abs/1606.08415.",
+      "metadata": {
+        "year": 2016,
+        "arxivId": "1606.08415",
+        "url": "http://arxiv.org/abs/1606.08415"
+      },
+      "localMatch": {
+        "paperPath": "papers/1606.08415",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-mnih2007three",
+      "rawKey": "mnih2007three",
+      "display": "[4]",
+      "raw": "Andriy Mnih and Geoffrey Hinton. Three new graphical models for statistical language modelling. In Proceedings of the 24th international conference on Machine learning, pages 641--648, 2007.",
+      "metadata": {
+        "year": 2007
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-raffel2019exploring",
+      "rawKey": "raffel2019exploring",
+      "display": "[5]",
+      "raw": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter Liu. Exploring the limits of transfer learning with a unified text-to-text transformer. arXiv e-prints, 2019.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-rajpurkar2016squad",
+      "rawKey": "rajpurkar2016squad",
+      "display": "[6]",
+      "raw": "Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang. Squad: 100,000+ questions for machine comprehension of text. arXiv preprint arXiv:1606.05250, 2016.",
+      "metadata": {
+        "year": 2016,
+        "arxivId": "1606.05250"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-ramachandran2017searching",
+      "rawKey": "ramachandran2017searching",
+      "display": "[7]",
+      "raw": "Prajit Ramachandran, Barret Zoph, and Quoc V Le. Searching for activation functions. arXiv preprint arXiv:1710.05941, 2017.",
+      "metadata": {
+        "year": 2017,
+        "arxivId": "1710.05941"
+      },
+      "localMatch": {
+        "paperPath": "papers/1710.05941",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-shazeer2018adafactor",
+      "rawKey": "shazeer2018adafactor",
+      "display": "[8]",
+      "raw": "Noam Shazeer and Mitchell Stern. Adafactor: Adaptive learning rates with sublinear memory cost. arXiv preprint arXiv:1804.04235, 2018.",
+      "metadata": {
+        "year": 2018,
+        "arxivId": "1804.04235"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Vas17",
+      "rawKey": "Vas17",
+      "display": "[9]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. In NIPS, 2017.",
+      "metadata": {
+        "year": 2017
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-wang2018glue",
+      "rawKey": "wang2018glue",
+      "display": "[10]",
+      "raw": "Alex Wang, Amapreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R. Bowman. GLUE: A multi-task benchmark and analysis platform for natural language understanding. arXiv preprint arXiv:1804.07461, 2018.",
+      "metadata": {
+        "year": 2018,
+        "arxivId": "1804.07461"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-wang2019superglue",
+      "rawKey": "wang2019superglue",
+      "display": "[11]",
+      "raw": "Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R. Bowman. Superglue: A stickier benchmark for general-purpose language understanding systems. arXiv preprint arXiv:1905.00537, 2019.",
+      "metadata": {
+        "year": 1905,
+        "arxivId": "1905.00537"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    }
+  ],
+  "messages": [
+    "local: 11 entries (bbl)",
+    "semantic scholar failed: rate limited"
+  ]
+}

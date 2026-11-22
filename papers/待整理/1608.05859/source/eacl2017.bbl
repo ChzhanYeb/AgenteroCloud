@@ -1,0 +1,305 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Axelrod \bgroup et al.\egroup }2011]{axelrod11}
+Amittai Axelrod, Xiaodong He, and Jianfeng Gao.
+\newblock 2011.
+\newblock Domain adaptation via pseudo in-domain data selection.
+\newblock In {\em Proceedings of the 2011 Conference on Empirical Methods in
+  Natural Language Processing}, pages 355--362, Edinburgh, Scotland, UK., July.
+  Association for Computational Linguistics.
+
+\bibitem[\protect\citename{Bahdanau \bgroup et al.\egroup }2014]{learn2align}
+Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio.
+\newblock 2014.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock {\em arXiv preprint arXiv:1409.0473}.
+
+\bibitem[\protect\citename{Baker \bgroup et al.\egroup }2014]{verb143}
+Simon Baker, Roi Reichart, and Anna Korhonen.
+\newblock 2014.
+\newblock An unsupervised model for instance level subcategorization
+  acquisition.
+\newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 278--289. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citename{Bengio \bgroup et al.\egroup }2003]{Bengio:2003}
+Yoshua Bengio, R{\'e}jean Ducharme, Pascal Vincent, and Christian Janvin.
+\newblock 2003.
+\newblock A neural probabilistic language model.
+\newblock {\em J. Mach. Learn. Res.}, 3:1137--1155, March.
+
+\bibitem[\protect\citename{Bruni \bgroup et al.\egroup }2014]{bruni2014}
+Elia Bruni, Nam-Khanh Tran, and Marco Baroni.
+\newblock 2014.
+\newblock Multimodal distributional semantics.
+\newblock {\em J. Artif. Intell. Res.(JAIR)}, 49(1-47).
+
+\bibitem[\protect\citename{Cho \bgroup et al.\egroup }2014]{cho2014learning}
+Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi
+  Bougares, Holger Schwenk, and Yoshua Bengio.
+\newblock 2014.
+\newblock Learning phrase representations using rnn encoder--decoder for
+  statistical machine translation.
+\newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 1724--1734, Doha, Qatar, October.
+  Association for Computational Linguistics.
+
+\bibitem[\protect\citename{Gage}1994]{gage94}
+Philip Gage.
+\newblock 1994.
+\newblock A new algorithm for data compression.
+\newblock {\em The C Users Journal}, 12(2):23--38.
+
+\bibitem[\protect\citename{Gal and Ghahramani}2016]{yarin1}
+Yarin Gal and Zoubin Ghahramani.
+\newblock 2016.
+\newblock Dropout as a {B}ayesian approximation: Representing model uncertainty
+  in deep learning.
+\newblock In {\em Proceedings of the 33rd International Conference on Machine
+  Learning (ICML-16)}.
+
+\bibitem[\protect\citename{{Gal}}2015]{yarin2}
+Yarin {Gal}.
+\newblock 2015.
+\newblock {A Theoretically Grounded Application of Dropout in Recurrent Neural
+  Networks}.
+\newblock {\em arXiv preprint arXiv:1512.05287}.
+
+\bibitem[\protect\citename{Goldberg and Levy}2014]{yg14}
+Yoav Goldberg and Omer Levy.
+\newblock 2014.
+\newblock word2vec explained: deriving mikolov et al.'s negative-sampling
+  word-embedding method.
+\newblock {\em arXiv preprint arXiv:1402.3722}.
+
+\bibitem[\protect\citename{Graves}2013]{Graves13}
+Alex Graves.
+\newblock 2013.
+\newblock Generating sequences with recurrent neural networks.
+\newblock {\em arXiv preprint arXiv:1308.0850}.
+
+\bibitem[\protect\citename{Greene and Cunningham}2006]{BBC}
+Derek Greene and P\'{a}draig Cunningham.
+\newblock 2006.
+\newblock Practical solutions to the problem of diagonal dominance in kernel
+  document clustering.
+\newblock In {\em Proc. 23rd International Conference on Machine learning
+  (ICML'06)}, pages 377--384. ACM Press.
+
+\bibitem[\protect\citename{G{\"{u}}l{\c{c}}ehre \bgroup et al.\egroup
+  }2016]{gulcehre16}
+{\c{C}}aglar G{\"{u}}l{\c{c}}ehre, Marcin Moczulski, Misha Denil, and Yoshua
+  Bengio.
+\newblock 2016.
+\newblock Noisy activation functions.
+\newblock {\em arXiv preprint arXiv:1603.00391}.
+
+\bibitem[\protect\citename{Halawi \bgroup et al.\egroup }2012]{mturk771}
+Guy Halawi, Gideon Dror, Evgeniy Gabrilovich, and Yehuda Koren.
+\newblock 2012.
+\newblock Large-scale learning of word relatedness with constraints.
+\newblock In {\em Proceedings of the 18th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 1406--1414.
+
+\bibitem[\protect\citename{Hill \bgroup et al.\egroup }2016]{simlex999}
+Felix Hill, Roi Reichart, and Anna Korhonen.
+\newblock 2016.
+\newblock Simlex-999: Evaluating semantic models with (genuine) similarity
+  estimation.
+\newblock {\em Computational Linguistics}.
+
+\bibitem[\protect\citename{Hinton \bgroup et al.\egroup
+  }2015]{hinton2015distilling}
+Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
+\newblock 2015.
+\newblock Distilling the knowledge in a neural network.
+\newblock {\em arXiv preprint arXiv:1503.02531}.
+
+\bibitem[\protect\citename{Hochreiter and Schmidhuber}1997]{LSTM97}
+Sepp Hochreiter and J\"{u}rgen Schmidhuber.
+\newblock 1997.
+\newblock Long short-term memory.
+\newblock {\em Neural Comput.}, 9(8):1735--1780, November.
+
+\bibitem[\protect\citename{Inan \bgroup et al.\egroup }2016]{socher16}
+Hakan Inan, Khashayar Khosravi, and Richard Socher.
+\newblock 2016.
+\newblock Tying word vectors and word classifiers: {A} loss framework for
+  language modeling.
+\newblock {\em arXiv preprint arXiv:1611.01462}.
+
+\bibitem[\protect\citename{Kalchbrenner and
+  Blunsom}2013]{kalchbrenner2013recurrent}
+Nal Kalchbrenner and Phil Blunsom.
+\newblock 2013.
+\newblock Recurrent continuous translation models.
+\newblock In {\em Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1700--1709, Seattle, Washington, USA,
+  October. Association for Computational Linguistics.
+
+\bibitem[\protect\citename{Luong \bgroup et al.\egroup }2013]{Luong-rare}
+Thang Luong, Richard Socher, and Christopher Manning, 2013.
+\newblock {\em Proceedings of the Seventeenth Conference on Computational
+  Natural Language Learning}, chapter Better Word Representations with
+  Recursive Neural Networks for Morphology, pages 104--113.
+\newblock Association for Computational Linguistics.
+
+\bibitem[\protect\citename{Maas \bgroup et al.\egroup }2011]{IMDB}
+L.~Andrew Maas, E.~Raymond Daly, T.~Peter Pham, Dan Huang, Y.~Andrew Ng, and
+  Christopher Potts.
+\newblock 2011.
+\newblock Learning word vectors for sentiment analysis.
+\newblock In {\em Proceedings of the 49th Annual Meeting of the Association for
+  Computational Linguistics: Human Language Technologies}, pages 142--150.
+  Association for Computational Linguistics.
+
+\bibitem[\protect\citename{Marcus \bgroup et al.\egroup }1993]{ptb}
+Mitchell~P. Marcus, Mary~Ann Marcinkiewicz, and Beatrice Santorini.
+\newblock 1993.
+\newblock Building a large annotated corpus of english: The penn treebank.
+\newblock {\em Comput. Linguist.}, 19(2):313--330, June.
+
+\bibitem[\protect\citename{Mikolov \bgroup et al.\egroup
+  }2010]{mikolov10inters}
+Tomas Mikolov, Martin Karafi{\'{a}}t, Luk{\'{a}}s Burget, Jan Cernock{\'{y}},
+  and Sanjeev Khudanpur.
+\newblock 2010.
+\newblock Recurrent neural network based language model.
+\newblock In {\em {INTERSPEECH} 2010, 11th Annual Conference of the
+  International Speech Communication Association, Makuhari, Chiba, Japan,
+  September 26-30, 2010}, pages 1045--1048.
+
+\bibitem[\protect\citename{Mikolov \bgroup et al.\egroup }2011]{MikolovKBCK11}
+Tom{\'a}{\v{s}} Mikolov, Stefan Kombrink, Luk{\'a}{\v{s}} Burget, Jan
+  {\v{C}}ernock{\`y}, and Sanjeev Khudanpur.
+\newblock 2011.
+\newblock Extensions of recurrent neural network language model.
+\newblock In {\em 2011 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)}, pages 5528--5531. IEEE.
+
+\bibitem[\protect\citename{Mikolov \bgroup et al.\egroup }2013a]{word2vec}
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock 2013a.
+\newblock Efficient estimation of word representations in vector space.
+\newblock {\em arXiv preprint arXiv:1301.3781}.
+
+\bibitem[\protect\citename{Mikolov \bgroup et al.\egroup }2013b]{word2vec2}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean.
+\newblock 2013b.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em Advances in Neural Information Processing Systems 26}, pages
+  3111--3119.
+
+\bibitem[\protect\citename{Mikolov \bgroup et al.\egroup }2014]{mikolovJCMR14}
+Tomas Mikolov, Armand Joulin, Sumit Chopra, Micha{\"{e}}l Mathieu, and
+  Marc'Aurelio Ranzato.
+\newblock 2014.
+\newblock Learning longer memory in recurrent neural networks.
+\newblock {\em arXiv preprint arXiv:1412.7753}.
+
+\bibitem[\protect\citename{Mitra \bgroup et al.\egroup }2016]{mitra2016dual}
+Bhaskar Mitra, Eric Nalisnick, Nick Craswell, and Rich Caruana.
+\newblock 2016.
+\newblock A dual embedding space model for document ranking.
+\newblock {\em arXiv preprint arXiv:1602.01137}.
+
+\bibitem[\protect\citename{Miyamoto and Cho}2016]{Miyamoto16}
+Yasumasa Miyamoto and Kyunghyun Cho.
+\newblock 2016.
+\newblock Gated word-character recurrent language model.
+\newblock In {\em Proceedings of the 2016 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1992--1997. Association for Computational
+  Linguistics.
+
+\bibitem[\protect\citename{Mnih and Hinton}2009]{mnih2009scalable}
+Andriy Mnih and Geoffrey~E Hinton.
+\newblock 2009.
+\newblock A scalable hierarchical distributed language model.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1081--1088.
+
+\bibitem[\protect\citename{Mnih and Kavukcuoglu}2013]{mnih2013learning}
+Andriy Mnih and Koray Kavukcuoglu.
+\newblock 2013.
+\newblock Learning word embeddings efficiently with noise-contrastive
+  estimation.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  2265--2273.
+
+\bibitem[\protect\citename{Mnih and Teh}2012]{mnih2012fast}
+Andriy Mnih and Yee~Whye Teh.
+\newblock 2012.
+\newblock A fast and simple algorithm for training neural probabilistic
+  language models.
+\newblock {\em arXiv preprint arXiv:1206.6426}.
+
+\bibitem[\protect\citename{Pascanu \bgroup et al.\egroup }2013]{Pascanu13}
+Razvan Pascanu, {\c{C}}aglar G{\"{u}}l{\c{c}}ehre, Kyunghyun Cho, and Yoshua
+  Bengio.
+\newblock 2013.
+\newblock How to construct deep recurrent neural networks.
+\newblock {\em arXiv preprint arXiv:1312.6026}.
+
+\bibitem[\protect\citename{Sennrich \bgroup et al.\egroup }2016a]{edinburghWMT}
+Rico Sennrich, Barry Haddow, and Alexandra Birch.
+\newblock 2016a.
+\newblock Edinburgh neural machine translation systems for wmt 16.
+\newblock {\em arXiv preprint arXiv:1606.02891}.
+
+\bibitem[\protect\citename{Sennrich \bgroup et al.\egroup }2016b]{bpe}
+Rico Sennrich, Barry Haddow, and Alexandra Birch.
+\newblock 2016b.
+\newblock {Neural Machine Translation of Rare Words with Subword Units}.
+\newblock In {\em Proceedings of ACL}.
+
+\bibitem[\protect\citename{Srivastava}2013]{dropout}
+Nitish Srivastava.
+\newblock 2013.
+\newblock {Improving Neural Networks with Dropout}.
+\newblock Master's thesis, University of Toronto, Toronto, Canada, January.
+
+\bibitem[\protect\citename{Sundermeyer \bgroup et al.\egroup
+  }2012]{sundermeyer12:lstm}
+Martin Sundermeyer, Ralf Schl{\"{u}}ter, and Hermann Ney.
+\newblock 2012.
+\newblock Lstm neural networks for language modeling.
+\newblock In {\em Interspeech}, pages 194--197, Portland, OR, USA, September.
+
+\bibitem[\protect\citename{Sutskever \bgroup et al.\egroup
+  }2014]{sutskever2014sequence}
+Ilya Sutskever, Oriol Vinyals, and Quoc~V Le.
+\newblock 2014.
+\newblock Sequence to sequence learning with neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  3104--3112.
+
+\bibitem[\protect\citename{Zaremba \bgroup et al.\egroup }2014]{zaremba14}
+Wojciech Zaremba, Ilya Sutskever, and Oriol Vinyals.
+\newblock 2014.
+\newblock Recurrent neural network regularization.
+\newblock {\em arXiv preprint arXiv:1409.2329}.
+
+\bibitem[\protect\citename{Zeiler}2012]{adadelta}
+Matthew~D Zeiler.
+\newblock 2012.
+\newblock Adadelta: an adaptive learning rate method.
+\newblock {\em arXiv preprint arXiv:1212.5701}.
+
+\bibitem[\protect\citename{Zhang \bgroup et al.\egroup }2015]{Zhang15}
+Shiliang Zhang, Hui Jiang, Mingbin Xu, Junfeng Hou, and Li{-}Rong Dai.
+\newblock 2015.
+\newblock A fixed-size encoding method for variable-length sequences with its
+  application to neural network language models.
+\newblock {\em arXiv preprint arXiv:1505.01504}.
+
+\bibitem[\protect\citename{Zilly \bgroup et al.\egroup }2016]{rhn}
+Julian~G. Zilly, Rupesh~Kumar Srivastava, Jan Koutn{\'{\i}}k, and J{\"{u}}rgen
+  Schmidhuber.
+\newblock 2016.
+\newblock Recurrent highway networks.
+\newblock {\em arXiv preprint arXiv:1607.03474}.
+
+\end{thebibliography}

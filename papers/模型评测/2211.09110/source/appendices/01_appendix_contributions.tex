@@ -1,0 +1,79 @@
+\hypertarget{author-contributions}{\section{Author contributions}}
+\label{app:contributions}
+This project was a team effort, built on countless contributions from everyone involved. 
+To organize the effort, we divided the design, implementation and analysis into the following teams: 
+infrastructure, 
+calibration,
+robustness,
+harms,
+efficiency,
+language,
+knowledge,
+reasoning,
+and
+visualization.
+We reference these names below, both to provide structure to our summary of the contributions and to reflect the internal organization we found useful. \\
+
+\noindent 
+\textbf{Ananya Kumar} (Calibration): Designed and implemented the metrics used to measure model calibration. \\
+\textbf{Benjamin Newman} (Harms): Led the design, implementation, and analysis of the disinformation scenarios and metrics, including leading the human evaluation for disinformation. \\ 
+\textbf{Binhang Yuan} (Infrastructure): Set up the Together Research Computer infrastructure for evaluating all the open models. \\ 
+\textbf{Bobby Yan} (Robustness): Implemented the RAFT scenario as part of the evaluation of robustness.\\ 
+\textbf{Ce Zhang} (Infrastructure): Managed the Together Research Computer infrastructure for evaluating all the open models.\\ \textbf{Christian Cosgrove} (Microsoft Turing): Implemented and managed API support for \mtnlgseven and \mtnlgfivethreezero in support of this project. \\
+\textbf{Christopher D. Manning}: Provided overall guidance on framing the project.\\ 
+\textbf{Christopher R\'{e}}: Provided overall guidance on the project.\\ 
+\textbf{Deepak Narayanan} (Efficiency): Led the efficiency team through the design, implementation, and analysis of the efficiency metrics, along with important contributions to the core infrastructure. \\ 
+\textbf{Diana Acosta-Navas} (Harms): Contributed to the design and analysis of the disinformation scenarios and metrics. \\ 
+\textbf{Dilara Soylu} (Harms, Visualization, Infrastructure): Led the design and implementation of the fairness perturbations. 
+Also made important contributions to the core infrastructure, visualization, and led the designs and implementation of TruthfulQA and MS MARCO scenarios. \\ 
+\textbf{Dimitris Tsipras} (Robustness, Visualization, Infrastructure): Led the robustness team through the design, implementation, and analysis of the robustness perturbations and metrics. 
+Also made many important contributions to the core infrastructure, visualization, and led the implementation of many \core scenarios, including QuAC. 
+Designed and created all the plots for the paper. \\ 
+\textbf{Drew A. Hudson} (Reasoning): Contributed to the planning, design and task selection of the reasoning component. Implemented and analyzed the bAbI and LSAT scenarios as part of the targeted evaluation of reasoning capabilities. \\ 
+\textbf{Eric Zelikman} (Reasoning): Implemented the GSM8K and synthetic reasoning scenarios as part of the targeted evaluation of reasoning capabilities. 
+Wrote documentation for how to implement new scenarios and metrics. \\ 
+\textbf{Esin Durmus} (Summarization): Helped with the design and analysis of the summarization scenarios, including the human evaluation of summarization. \\ 
+\textbf{Faisal Ladhak} (Summarization): Led the design, implementation, and analysis of the summarization scenarios, including leading the human evaluation of summarization. \\ 
+\textbf{Frieda Rong} (Reasoning): Implemented the MATH scenario as part of the targeted evaluation of reasoning capabilities. \\
+\textbf{Hongyu Ren} (Knowledge): Designed and implemented the WikiFact scenario as part of the targeted evaluation of world knowledge. \\ 
+\textbf{Huaxiu Yao} (Robustness): Implemented the IMDB scenario and the typos perturbation for evaluating robustness. \\
+\textbf{Jue Wang} (Infrastructure): Helped set up the Together Research Computer and ran evaluations on all the open models. \\ 
+\textbf{Keshav Santhanam} (Efficiency): Helped design and implement the synthetic efficiency scenario and associated metrics. \\ 
+\textbf{Laurel Orr} (Reasoning): Implemented the entity matching and data imputation scenarios as part of the targeted evaluation of reasoning capabilities. \\ 
+\textbf{Lucia Zheng} (Knowledge): Conducted the data annotation and preprocessing for the WikiFact scenario as part of the targeted evaluation of world knowledge. \\
+\textbf{Mert Yuksekgonul} (Robustness): Implemented the BoolQ and NarrativeQA scenarios as well as the contractions perturbation for evaluating robustness. \\ 
+\textbf{Michihiro Yasunaga} (Knowledge): Led the knowledge team through the design, implementation, and analysis of the knowledge targeted evaluation and knowledge-centric \core scenarios. Implemented MMLU, HellaSwag, Openbook QA, and WikiFact scenarios. 
+Created the figures for the paper. \\ 
+\textbf{Mirac Suzgun} (Reasoning): Designed and implemented the Dyck scenario as part of the targeted evaluation of reasoning capabilities. \\ 
+\textbf{Nathan Kim} (Language): Designed and implemented the ICE scenario as part of the targeted evaluation of linguistic understanding and analyzed results on ICE, TwitterAAE and BLiMP. \\ 
+\textbf{Neel Guha} (Reasoning, Knowledge): Designed and implemented the LegalSupport scenario as part of the targeted evaluation of reasoning capabilities and the WikiFact scenario as part of the targeted evaluation of world knowledge. \\ 
+\textbf{Niladri Chatterji} (Robustness): Implemented the NewsQA scenario and the synonyms perturbation for evaluating robustness to invariance.\\ 
+\textbf{Omar Khattab} (Information retrieval): Designed and guided the implementation of the information retrieval (MS MARCO) scenarios. \\ 
+\textbf{Percy Liang}: Led and managed the overall project. Designed the core abstractions of the benchmarking: scenarios as instances with references, adaptation strategies with different methods of converting instances to API requests, metrics that are computed on API responses; these abstractions are reflected in the conceptual framing and implementation.  Created the initial version of the codebase and managed and contributed to its development.  Designed and implemented the website visualization of scenarios and predictions.  Worked with partners to obtain access to models. \\ 
+\textbf{Peter Henderson} (Harms, Efficiency): Helped with the design and analysis of the copyright targeted evaluation. Also designed and implemented efficiency metrics to measure CO$_\text{2}$ costs of training.\\ 
+\textbf{Qian Huang} (Reasoning): Implemented the HumanEval and synthetic reasoning scenarios as part of the targeted evaluation of reasoning capabilities. \\ 
+\textbf{Rishi Bommasani}: Led the writing process and wrote most of the paper, conducted many of the analyses including the main findings, co-designed the conceptual framework, provided all annotations (\eg prior evaluation tables), led the harms team, created priority system and set priorities for all runs, and provided overall project management. 
+Conceptual framework: Co-designed the three elements of holistic evaluation and their implementation (\eg create taxonomies and led selection for both core scenarios and metrics).
+Harms: Framed the overall approach for harms in \benchmarkname, with special focus on the integrated/multi-metric approach to harm measurement.
+Designed and managed the general metrics for fairness, bias, toxicity. 
+Designed and managed the targeted evaluations for language (specifically ICE, TwitterAAE, BLiMP), copyright, disinformation, fine-grained bias, and fine-grained toxicity.
+Managed and helped design the summarization and information retrieval scenarios, as well as the summarization and disinformation human evaluations.
+\\ 
+\textbf{Ryan Chi} (Harms): Implemented the BBQ, BOLD, and CivilComments scenarios for the targeted evaluation of fine-grained model biases and toxicity. Implemented the bias metrics. \\ 
+\textbf{Sang Michael Xie} (Robustness): Implemented the typos perturbation for evaluating robustness. \\ 
+\textbf{Shibani Santurkar} (Robustness): Implemented the NaturalQuestions scenario as well as the contrast sets used for measuring robustness to equivariance. \\ 
+\textbf{Surya Ganguli} (Robustness): Provided overall guidance for the robustness team. \\ 
+\textbf{Tatsunori Hashimoto} (Robustness): Provided guidance for the robustness team, helped supervise the analysis of the summarization experiments. \\ 
+\textbf{Thomas Icard} (Reasoning): Provided overall guidance for the reasoning team. \\ 
+\textbf{Tianyi Zhang} (Summarization): Helped with the implementation, design and analysis of the summarization scenarios, including the human evaluation of summarization. \\ 
+\textbf{Tony Lee}: Managed and ran all experiments. Co-designed and implemented the data augmentation framework, which determines how to apply and evaluate perturbations. Added support for most models and tokenizers in \benchmarkname. Led the implementation of tokenization, prompt construction and truncation. Implemented toxicity metrics, including the Perspective API client. Implemented the RealToxicityPrompts scenario and contributed to the implementation of the CivilComments scenario as part of the overall toxicity evaluation. Worked with partners to evaluate models. Contributed significantly to the codebase and built the core infrastructure for running experiments. \\ 
+\textbf{Vishrav Chaudhary} (Microsoft Turing): Led the process and provided overall guidance for the access and usage of \mtnlgseven and \mtnlgfivethreezero in support of this project. \\
+\textbf{William Wang} (Knowledge): Helped with the evaluation of question answering scenarios. \\ 
+\textbf{Xuechen Li} (Harms, Reasoning): Led the design, implementation, and analysis of the targeted evaluation of copyright and memorization. 
+Implemented the APPS scenario as part of the targeted evaluation of reasoning capabilities. Helped with the implementation of the disinformation scenario. \\ 
+\textbf{Yian Zhang} (Language): Led the language team through the implementation of The Pile, WikiText-103, BLiMP, and TwitterAAE language modeling scenarios for the targeted evaluation of linguistic understanding. Implemented prompt construction for language modeling. Work done when at Stanford University. \\ 
+\textbf{Yuhuai Wu} (Reasoning): Led the reasoning team through the design, implementation, and analysis of the targeted evaluation of reasoning capabilities. 
+Implemented the MATH, pattern induction, and synthetic reasoning scenarios. \\ 
+\textbf{Yifan Mai} (Infrastructure): Built core infrastructure needed for the short-term and long-term maintenance of this effort. Contributed to the website visualization. Wrote documentation for the codebase. \\ 
+\textbf{Yuhui Zhang} (Knowledge): Implemented two key adaptation methods for multiple choice tasks. Also implemented the HellaSwag and OpenBookQA scenarios and contributed to the WikiFact scenario. \\ 
+\textbf{Yuta Koreeda} (Robustness): Helped with implementation of the perturbations for evaluating robustness. \\

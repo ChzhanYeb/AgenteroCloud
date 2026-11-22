@@ -1,0 +1,1472 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "s2",
+    "generatedAt": "2026-11-15T11:45:54.188Z",
+    "fingerprint": "e890c9b05324b39164e04c032d7eca55bae78af8b3ffe04d283d369b607eb2a5"
+  },
+  "citations": [
+    {
+      "id": "ref-1",
+      "metadata": {
+        "title": "MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies",
+        "authors": [
+          "Sheng-Ding Hu",
+          "Yuge Tu",
+          "Xu Han",
+          "Chaoqun He",
+          "Ganqu Cui",
+          "Xiang Long",
+          "Zhi Zheng",
+          "Yewei Fang",
+          "Yu-Xiang Huang",
+          "Weilin Zhao",
+          "Xinrong Zhang",
+          "Zhen Leng Thai",
+          "Kai Zhang",
+          "Chong-Yi Wang",
+          "Yuan Yao",
+          "Chenyang Zhao",
+          "Jie Zhou",
+          "Jie Cai",
+          "Zhongwu Zhai",
+          "Ning Ding",
+          "Chaochao Jia",
+          "Guo-Yang Zeng",
+          "Dahai Li",
+          "Zhi-Yuan Liu",
+          "Mao-Song Sun"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2404.06395",
+        "arxivId": "2404.06395",
+        "url": "https://www.semanticscholar.org/paper/49873ee415619efd9e1e4c16f73ee066ff008c1f"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-2",
+      "metadata": {
+        "title": "Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators",
+        "authors": [
+          "Yann Dubois",
+          "Bal'azs Galambosi",
+          "Percy Liang",
+          "Tatsunori Hashimoto"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2404.04475",
+        "arxivId": "2404.04475",
+        "url": "https://www.semanticscholar.org/paper/eb375712bd37250c350ecd3f559e1879e87eb3e5"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-3",
+      "metadata": {
+        "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+        "authors": [
+          "Naman Jain",
+          "King Han",
+          "Alex Gu",
+          "Wen-Ding Li",
+          "Fanjia Yan",
+          "Tianjun Zhang",
+          "Sida Wang",
+          "Armando Solar-Lezama",
+          "Koushik Sen",
+          "Ion Stoica"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2403.07974",
+        "arxivId": "2403.07974",
+        "url": "https://www.semanticscholar.org/paper/afe0998d191f3ea8490c7df100a3ffc5dcc62c5e"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-4",
+      "metadata": {
+        "title": "Yi: Open Foundation Models by 01.AI",
+        "authors": [
+          "Alex Young",
+          "Bei Chen",
+          "Chao Li",
+          "Chen-Gen Huang",
+          "Ge Zhang",
+          "Guan-Wei Zhang",
+          "Heng Li",
+          "Jiangcheng Zhu",
+          "Jianqun Chen",
+          "Jingwen Chang",
+          "Kai-Dong Yu",
+          "Peng Liu",
+          "Qiang Liu",
+          "Shawn Yue",
+          "Sen-Bin Yang",
+          "Shi-Ming Yang",
+          "Tao Yu",
+          "Wen Xie",
+          "Wen-Hao Huang",
+          "Xiao-Hui Hu",
+          "Xiao-Yi Ren",
+          "Xin-Yao Niu",
+          "Pengcheng Nie",
+          "Yu-Chi Xu",
+          "Yu-Dong Liu",
+          "Yue Wang",
+          "Yuxuan Cai",
+          "Zhenyu Gu",
+          "Zhiyuan Liu",
+          "Zong-Hong Dai"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2403.04652",
+        "arxivId": "2403.04652",
+        "url": "https://www.semanticscholar.org/paper/c0b454e0a6aa51ff3ba56778787d0c43932ef6ba"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-5",
+      "metadata": {
+        "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+        "authors": [
+          "Zhihong Shao",
+          "Peiyi Wang",
+          "Qi-Hao Zhu",
+          "Runxin Xu",
+          "Jun-Mei Song",
+          "Xiao Bi",
+          "Hao-Wei Zhang",
+          "Ming-Chuan Zhang",
+          "Y.-K. Li",
+          "Yu Wu",
+          "Daya Guo"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2402.03300",
+        "arxivId": "2402.03300",
+        "url": "https://www.semanticscholar.org/paper/35b142ea69598e6241f0011312128031df55895c"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-6",
+      "metadata": {
+        "title": "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization",
+        "authors": [
+          "C. Hooper",
+          "Sehoon Kim",
+          "Hiva Mohammadzadeh",
+          "Michael W. Mahoney",
+          "Y. Shao",
+          "Kurt Keutzer",
+          "A. Gholami"
+        ],
+        "year": 2024,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2401.18079",
+        "arxivId": "2401.18079",
+        "url": "https://www.semanticscholar.org/paper/b085968c4362fb286ad6c5ef71a5db9630da0498"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-7",
+      "metadata": {
+        "title": "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
+        "authors": [
+          "Damai Dai",
+          "Cheng Deng",
+          "Cheng-Gang Zhao",
+          "R.-X. Xu",
+          "Hua-Zuo Gao",
+          "De-Li Chen",
+          "Jia-Shi Li",
+          "Wang-Ding Zeng",
+          "Xing-Kai Yu",
+          "Yu Wu",
+          "Zhen-Da Xie",
+          "Y.-K. Li",
+          "Pan-Pan Huang",
+          "Fu-Li Luo",
+          "Chong Ruan",
+          "Zhi-Fang Sui",
+          "W. Liang"
+        ],
+        "year": 2024,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2401.06066",
+        "arxivId": "2401.06066",
+        "url": "https://www.semanticscholar.org/paper/16d6e1ed1cf72212f6154644f3aa59d18bc95fda"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-8",
+      "metadata": {
+        "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+        "authors": [
+          "DeepSeek-AI Xiao Bi",
+          "De-Li Chen",
+          "Guan-Ting Chen",
+          "Shanhuang Chen",
+          "Damai Dai",
+          "Cheng Deng",
+          "Honghui Ding",
+          "Kai Dong",
+          "Qiu-Shi Du",
+          "Zhe Fu",
+          "Hua-Zuo Gao",
+          "Kaige Gao",
+          "Wen-Ding Gao",
+          "Ruiqi Ge",
+          "Kang Guan",
+          "Daya Guo",
+          "Jianzhong Guo",
+          "Guangbo Hao",
+          "Zhe-Wen Hao",
+          "Ying He",
+          "Wen-Hui Hu",
+          "Pan-Pan Huang",
+          "Erhang Li",
+          "Guo-Wei Li",
+          "Jia-Shi Li",
+          "Yao Li",
+          "Y. K. Li",
+          "W. Liang",
+          "Fangyun Lin",
+          "A. Liu",
+          "Bo Liu",
+          "Wen Liu",
+          "Xiaodong Liu",
+          "Xin Liu",
+          "Yiyuan Liu",
+          "Haoyu Lu",
+          "Shanghao Lu",
+          "Fu-Li Luo",
+          "Shi-Rong Ma",
+          "X. Nie",
+          "Tian Pei",
+          "Yi-Shi Piao",
+          "Jun-Jie Qiu",
+          "Hui Qu",
+          "Tong-Zheng Ren",
+          "Zehui Ren",
+          "Chong Ruan",
+          "Zhangli Sha",
+          "Zhihong Shao",
+          "Jun-Mei Song",
+          "Xuecheng Su",
+          "Jingxiang Sun",
+          "Yao-Feng Sun",
+          "Min Tang",
+          "Bing-Li Wang",
+          "Peiyi Wang",
+          "Shiyu Wang",
+          "Yao-Hui Wang",
+          "Yong-Ji Wang",
+          "Tong Wu",
+          "Yu Wu",
+          "Xin Xie",
+          "Zhen-Da Xie",
+          "Zi-Wei Xie",
+          "Yi Xiong",
+          "Han-Wei Xu",
+          "R. Xu",
+          "Yan-Hong Xu",
+          "De-Jian Yang",
+          "Yu-Mei You",
+          "Shuiping Yu",
+          "Xing-Kai Yu",
+          "Bo Zhang",
+          "Hao-Wei Zhang",
+          "Lecong Zhang",
+          "Li-Yue Zhang",
+          "Ming-Chuan Zhang",
+          "Ming-Hu Zhang",
+          "Wen-Tao Zhang",
+          "Yichao Zhang",
+          "Cheng-Gang Zhao",
+          "Yao Zhao",
+          "Shang-Yan Zhou",
+          "Shun-Feng Zhou",
+          "Qi-Hao Zhu",
+          "Yuheng Zou"
+        ],
+        "year": 2024,
+        "arxivId": "2401.02954",
+        "url": "https://www.semanticscholar.org/paper/7260442ef9c0448f07ce3803efd49cebaffcebe9"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-9",
+      "metadata": {
+        "title": "AlignBench: Benchmarking Chinese Alignment of Large Language Models",
+        "authors": [
+          "Xiao Liu",
+          "Xuanyu Lei",
+          "Shengyuan Wang",
+          "Yue Huang",
+          "A. Feng",
+          "Bo-Si Wen",
+          "Jiale Cheng",
+          "Pei Ke",
+          "Yi-Fan Xu",
+          "W. Tam",
+          "Xiao-Han Zhang",
+          "Li-Chao Sun",
+          "Xiao-Tao Gu",
+          "Hong-Ning Wang",
+          "Jing Zhang",
+          "Min-Lie Huang",
+          "Yu-Xiao Dong",
+          "Jie Tang"
+        ],
+        "year": 2023,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2311.18743",
+        "arxivId": "2311.18743",
+        "url": "https://www.semanticscholar.org/paper/20a965316352e813b5cce13b35e537dbdcf30b9d"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-10",
+      "metadata": {
+        "title": "Zero Bubble Pipeline Parallelism",
+        "authors": [
+          "Penghui Qi",
+          "Xin-Yi Wan",
+          "Guangxing Huang",
+          "Min Lin"
+        ],
+        "year": 2023,
+        "doi": "10.48550/arXiv.2401.10241",
+        "arxivId": "2401.10241",
+        "url": "https://www.semanticscholar.org/paper/7e88160ab2b3c9224ce0b9a66bec1740728984bf"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-11",
+      "metadata": {
+        "title": "Instruction-Following Evaluation for Large Language Models",
+        "authors": [
+          "Jeffrey Zhou",
+          "Tian-Jian Lu",
+          "Swaroop Mishra",
+          "Siddhartha Brahma",
+          "Sujoy Basu",
+          "Yi Luan",
+          "Denny Zhou",
+          "Le Hou"
+        ],
+        "year": 2023,
+        "doi": "10.48550/arXiv.2311.07911",
+        "arxivId": "2311.07911",
+        "url": "https://www.semanticscholar.org/paper/1a9b8c545ba9a6779f202e04639c2d67e6d34f63"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-12",
+      "metadata": {
+        "title": "Atom: Low-bit Quantization for Efficient and Accurate LLM Serving",
+        "authors": [
+          "Yi-Long Zhao",
+          "Chien-Yu Lin",
+          "Kan Zhu",
+          "Zihao Ye",
+          "Lequn Chen",
+          "Si-Ze Zheng",
+          "Luis Ceze",
+          "Arvind Krishnamurthy",
+          "Tian-Qi Chen",
+          "Baris Kasikci"
+        ],
+        "year": 2023,
+        "venue": "Conference on Machine Learning and Systems",
+        "doi": "10.48550/arXiv.2310.19102",
+        "arxivId": "2310.19102",
+        "url": "https://www.semanticscholar.org/paper/9529e50807f36acf3d2e4af994b5803c47e4746a"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-13",
+      "metadata": {
+        "title": "Qwen Technical Report",
+        "authors": [
+          "Jin-Ze Bai",
+          "Shuai Bai",
+          "Yun-Fei Chu",
+          "Zeyu Cui",
+          "K. Dang",
+          "Xiaodong Deng",
+          "Fan Yang",
+          "Wenhang Ge",
+          "Yu Han",
+          "Fei Huang",
+          "Binyuan Hui",
+          "Luo Ji",
+          "Mei Li",
+          "Jun-Yang Lin",
+          "Run-Ji Lin",
+          "Dayiheng Liu",
+          "Gao Liu",
+          "Chengqiang Lu",
+          "K. Lu",
+          "Jian-Xin Ma",
+          "Rui Men",
+          "Xingzhang Ren",
+          "Xuancheng Ren",
+          "Chuan-Qi Tan",
+          "Si-Nan Tan",
+          "Jian-Hong Tu",
+          "Peng Wang",
+          "Shijie Wang",
+          "Wei Wang",
+          "Shengguang Wu",
+          "Benfeng Xu",
+          "Jin Xu",
+          "An Yang",
+          "Hao Yang",
+          "Jian Yang",
+          "Jian Yang",
+          "Shu-Sheng Yang",
+          "Yang Yao",
+          "Bo-Wen Yu",
+          "Yu Bowen",
+          "Hongyi Yuan",
+          "Zheng Yuan",
+          "Jian-Wei Zhang",
+          "Xing-Xuan Zhang",
+          "Yi-Chang Zhang",
+          "Zhen-Ru Zhang",
+          "Chang Zhou",
+          "Jing-Ren Zhou",
+          "Xiao-Huan Zhou",
+          "Tianhang Zhu"
+        ],
+        "year": 2023,
+        "doi": "10.48550/arXiv.2309.16609",
+        "arxivId": "2309.16609",
+        "url": "https://www.semanticscholar.org/paper/5fc1a3a49e8f1d106118b69d1d6be3b6caa23da0"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-14",
+      "metadata": {
+        "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+        "authors": [
+          "Woosuk Kwon",
+          "Zhuo-Han Li",
+          "Si-Yuan Zhuang",
+          "Ying Sheng",
+          "Lian-Min Zheng",
+          "C. Yu",
+          "Joseph E. Gonzalez",
+          "Haotong Zhang",
+          "Ion Stoica"
+        ],
+        "year": 2023,
+        "venue": "Proceedings of the 29th Symposium on Operating Systems Principles",
+        "doi": "10.1145/3600006.3613165",
+        "arxivId": "2309.06180",
+        "url": "https://www.semanticscholar.org/paper/83b90f4a0ae4cc214eb3cc140ccfef9cd99fac05"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-15",
+      "metadata": {
+        "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+        "authors": [
+          "Bo-Wen Peng",
+          "Jeffrey Quesnelle",
+          "Honglu Fan",
+          "Enrico Shippole"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2309.00071",
+        "arxivId": "2309.00071",
+        "url": "https://www.semanticscholar.org/paper/819bbdc2dac9e13d9ca3e2508a6e063186ce5e40"
+      },
+      "localMatch": {
+        "paperPath": "papers/2309.00071",
+        "matchBy": "arxiv"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-16",
+      "metadata": {
+        "title": "CMMLU: Measuring massive multitask language understanding in Chinese",
+        "authors": [
+          "Haonan Li",
+          "Yixuan Zhang",
+          "Fajri Koto",
+          "Yifei Yang",
+          "Hai Zhao",
+          "Yeyun Gong",
+          "Nan Duan",
+          "Tim Baldwin"
+        ],
+        "year": 2023,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2306.09212",
+        "arxivId": "2306.09212",
+        "url": "https://www.semanticscholar.org/paper/bb9a44c94a89dbe00f0061d05c70a45064ff6ea6"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-17",
+      "metadata": {
+        "title": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
+        "authors": [
+          "Lian-Min Zheng",
+          "Wei-Lin Chiang",
+          "Ying Sheng",
+          "Si-Yuan Zhuang",
+          "Zhanghao Wu",
+          "Yong-Hao Zhuang",
+          "Zi Lin",
+          "Zhuo-Han Li",
+          "Da-Cheng Li",
+          "E. Xing",
+          "Haotong Zhang",
+          "Joseph E. Gonzalez",
+          "Ion Stoica"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.52202/075280-2020",
+        "arxivId": "2306.05685",
+        "url": "https://www.semanticscholar.org/paper/a0a79dad89857a96f8f71b14238e5237cbfc4787"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-18",
+      "metadata": {
+        "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+        "authors": [
+          "Joshua Ainslie",
+          "J. Lee-Thorp",
+          "Michiel de Jong",
+          "Yury Zemlyanskiy",
+          "F. Lebrón",
+          "Sumit K. Sanghai"
+        ],
+        "year": 2023,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.48550/arXiv.2305.13245",
+        "arxivId": "2305.13245",
+        "url": "https://www.semanticscholar.org/paper/5ae6fb6b5a3c7df515ff4a82ac9673bae6a8e200"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-19",
+      "metadata": {
+        "title": "C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models",
+        "authors": [
+          "Yuzhen Huang",
+          "Yu-Zhuo Bai",
+          "Zhihao Zhu",
+          "Jun-Lei Zhang",
+          "Jinghan Zhang",
+          "Tangjun Su",
+          "Jun-Teng Liu",
+          "Chuancheng Lv",
+          "Yi-Kai Zhang",
+          "Jiayi Lei",
+          "Yao Fu",
+          "Maosong Sun",
+          "Junxian He"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2305.08322",
+        "arxivId": "2305.08322",
+        "url": "https://www.semanticscholar.org/paper/236c7dafea3df7ecffb5f18ec780d12f2f27d4b0"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-20",
+      "metadata": {
+        "title": "AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models",
+        "authors": [
+          "Wan-Jun Zhong",
+          "Ruixiang Cui",
+          "Yiduo Guo",
+          "Yaobo Liang",
+          "Shuai Lu",
+          "Yanlin Wang",
+          "A. Saied",
+          "Wei-Zhu Chen",
+          "Nan Duan"
+        ],
+        "year": 2023,
+        "venue": "NAACL-HLT",
+        "doi": "10.48550/arXiv.2304.06364",
+        "arxivId": "2304.06364",
+        "url": "https://www.semanticscholar.org/paper/68c834c19cd126bbd6d25a3572d7205cfed76271"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-21",
+      "metadata": {
+        "title": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them",
+        "authors": [
+          "M. Suzgun",
+          "Nathan Scales",
+          "Nathanael Schärli",
+          "Sebastian Gehrmann",
+          "Yi Tay",
+          "Hyung Won Chung",
+          "A. Chowdhery",
+          "Quoc V. Le",
+          "Ed H. Chi",
+          "Denny Zhou",
+          "Jason Wei"
+        ],
+        "year": 2022,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2210.09261",
+        "arxivId": "2210.09261",
+        "url": "https://www.semanticscholar.org/paper/663a41c866d49ce052801fbc88947d39764cad29"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-22",
+      "metadata": {
+        "title": "Emergent Abilities of Large Language Models",
+        "authors": [
+          "Jason Wei",
+          "Yi Tay",
+          "Rishi Bommasani",
+          "Colin A. Raffel",
+          "Barret Zoph",
+          "Sebastian Borgeaud",
+          "Dani Yogatama",
+          "Maarten Bosma",
+          "Denny Zhou",
+          "Donald Metzler",
+          "Ed H. Chi",
+          "Tatsunori B. Hashimoto",
+          "O. Vinyals",
+          "P. Liang",
+          "J. Dean",
+          "W. Fedus"
+        ],
+        "year": 2022,
+        "venue": "Trans. Mach. Learn. Res.",
+        "doi": "10.48550/arXiv.2206.07682",
+        "arxivId": "2206.07682",
+        "url": "https://www.semanticscholar.org/paper/dac3a172b504f4e33c029655e9befb3386e5f63a"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-23",
+      "metadata": {
+        "title": "Training language models to follow instructions with human feedback",
+        "authors": [
+          "Long Ouyang",
+          "Jeff Wu",
+          "Xu Jiang",
+          "Diogo Almeida",
+          "Carroll L. Wainwright",
+          "Pamela Mishkin",
+          "Chong Zhang",
+          "S. Agarwal",
+          "Katarina Slama",
+          "Alex Ray",
+          "John D. Schulman",
+          "Jacob Hilton",
+          "Fraser Kelton",
+          "Luke E. Miller",
+          "M. Simens",
+          "Amanda Askell",
+          "Peter Welinder",
+          "Paul F. Christiano",
+          "Jan Leike",
+          "Ryan J. Lowe"
+        ],
+        "year": 2022,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.52202/068431-2011",
+        "arxivId": "2203.02155",
+        "url": "https://www.semanticscholar.org/paper/d766bffc357127e0dc86dd69561d5aeb520d6f4c"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-24",
+      "metadata": {
+        "title": "Training Verifiers to Solve Math Word Problems",
+        "authors": [
+          "K. Cobbe",
+          "V. Kosaraju",
+          "Mo Bavarian",
+          "Mark Chen",
+          "Heewoo Jun",
+          "Lukasz Kaiser",
+          "Matthias Plappert",
+          "Jerry Tworek",
+          "Jacob Hilton",
+          "Reiichiro Nakano",
+          "Christopher Hesse",
+          "John D. Schulman"
+        ],
+        "year": 2021,
+        "doi": "10.48550/arXiv.2110.14168",
+        "arxivId": "2110.14168",
+        "url": "https://www.semanticscholar.org/paper/d6045d2ccc9c09ca1671348de86d07da6bc28eea"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-25",
+      "metadata": {
+        "title": "Program Synthesis with Large Language Models",
+        "authors": [
+          "Jacob Austin",
+          "A. Odena",
+          "Maxwell Nye",
+          "Maarten Bosma",
+          "H. Michalewski",
+          "David Dohan",
+          "Ellen Jiang",
+          "C. Cai",
+          "Michael Terry",
+          "Quoc V. Le",
+          "Charles Sutton"
+        ],
+        "year": 2021,
+        "doi": "10.48550/arXiv.2108.07732",
+        "arxivId": "2108.07732",
+        "url": "https://www.semanticscholar.org/paper/a38e0f993e4805ba8a9beae4c275c91ffcec01df"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-26",
+      "metadata": {
+        "title": "Evaluating Large Language Models Trained on Code",
+        "authors": [
+          "Mark Chen",
+          "Jerry Tworek",
+          "Heewoo Jun",
+          "Qi-Ming Yuan",
+          "Henrique Pondé de Oliveira Pinto",
+          "J. Kaplan",
+          "Harrison Edwards",
+          "Yuri Burda",
+          "Nicholas Joseph",
+          "Greg Brockman",
+          "Alex Ray",
+          "Raul Puri",
+          "G. Krueger",
+          "Michael Petrov",
+          "Heidy Khlaaf",
+          "G. Sastry",
+          "Pamela Mishkin",
+          "Brooke Chan",
+          "Scott Gray",
+          "N. Ryder",
+          "Mikhail Pavlov",
+          "Alethea Power",
+          "Lukasz Kaiser",
+          "Mo Bavarian",
+          "Clemens Winter",
+          "P. Tillet",
+          "Felipe Petroski Such",
+          "D. Cummings",
+          "Matthias Plappert",
+          "Fotios Chantzis",
+          "Elizabeth Barnes",
+          "A. Herbert-Voss",
+          "W. H. Guss",
+          "Alex Nichol",
+          "A. Paino",
+          "N. Tezak",
+          "Jie Tang",
+          "Igor Babuschkin",
+          "S. Balaji",
+          "Shantanu Jain",
+          "William Saunders",
+          "Christopher Hesse",
+          "A. Carr",
+          "Jan Leike",
+          "Joshua Achiam",
+          "Vedant Misra",
+          "Evan Morikawa",
+          "A. Radford",
+          "M. Knight",
+          "Miles Brundage",
+          "M. Murati",
+          "Katie Mayer",
+          "Peter Welinder",
+          "Bob McGrew",
+          "D. Amodei",
+          "Sam McCandlish",
+          "I. Sutskever",
+          "W. Zaremba"
+        ],
+        "year": 2021,
+        "doi": "10.48550/arXiv.2107.03374",
+        "arxivId": "2107.03374",
+        "url": "https://www.semanticscholar.org/paper/acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-27",
+      "metadata": {
+        "title": "Scaling Vision with Sparse Mixture of Experts",
+        "authors": [
+          "C. Riquelme",
+          "J. Puigcerver",
+          "Basil Mustafa",
+          "Maxim Neumann",
+          "Rodolphe Jenatton",
+          "André Susano Pinto",
+          "Daniel Keysers",
+          "N. Houlsby"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2106.05974",
+        "arxivId": "2106.05974",
+        "url": "https://www.semanticscholar.org/paper/8690d62d4bbbd0b1ed5e1f25320d10853bfbeb01"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-28",
+      "metadata": {
+        "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+        "authors": [
+          "Jian-Lin Su",
+          "Murtadha H. M. Ahmed",
+          "Yu Lu",
+          "Shengfeng Pan",
+          "Wen Bo",
+          "Yun-Feng Liu"
+        ],
+        "year": 2021,
+        "venue": "Neurocomputing",
+        "doi": "10.48550/arXiv.2104.09864",
+        "arxivId": "2104.09864",
+        "url": "https://www.semanticscholar.org/paper/66c10bf1f11bc1b2d92204d8f8391d087f6de1c4"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-29",
+      "metadata": {
+        "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Saurav Kadavath",
+          "Akul Arora",
+          "Steven Basart",
+          "Eric Tang",
+          "D. Song",
+          "Jacob Steinhardt"
+        ],
+        "year": 2021,
+        "venue": "NeurIPS Datasets and Benchmarks",
+        "doi": "10.48550/arXiv.2103.03874",
+        "arxivId": "2103.03874",
+        "url": "https://www.semanticscholar.org/paper/57d1e7ac339e783898f2c3b1af55737cbeee9fc5"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-30",
+      "metadata": {
+        "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+        "authors": [
+          "W. Fedus",
+          "Barret Zoph",
+          "Noam Shazeer"
+        ],
+        "year": 2021,
+        "venue": "Journal of machine learning research",
+        "doi": "10.48550/arXiv.2101.03961",
+        "arxivId": "2101.03961",
+        "url": "https://www.semanticscholar.org/paper/fdacf2a732f55befdc410ea927091cad3b791f13"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-31",
+      "metadata": {
+        "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+        "authors": [
+          "Leo Gao",
+          "Stella Biderman",
+          "Sid Black",
+          "Laurence Golding",
+          "Travis Hoppe",
+          "Charles Foster",
+          "Jason Phang",
+          "Horace He",
+          "Anish Thite",
+          "Noa Nabeshima",
+          "Shawn Presser",
+          "Connor Leahy"
+        ],
+        "year": 2020,
+        "doi": "10.48550/arXiv.2101.00027",
+        "arxivId": "2101.00027",
+        "url": "https://www.semanticscholar.org/paper/db1afe3b3cd4cd90e41fbba65d3075dd5aebb61e"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-32",
+      "metadata": {
+        "title": "Measuring Massive Multitask Language Understanding",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Steven Basart",
+          "Andy Zou",
+          "Mantas Mazeika",
+          "D. Song",
+          "Jacob Steinhardt"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2009.03300",
+        "arxivId": "2009.03300",
+        "url": "https://www.semanticscholar.org/paper/814a4f680b9ba6baba23b93499f4b48af1a27678"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-33",
+      "metadata": {
+        "title": "GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding",
+        "authors": [
+          "Dmitry Lepikhin",
+          "HyoukJoong Lee",
+          "Yuan-Zhong Xu",
+          "Dehao Chen",
+          "O. Firat",
+          "Yan-Ping Huang",
+          "M. Krikun",
+          "Noam Shazeer",
+          "Z. Chen"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2006.16668",
+        "arxivId": "2006.16668",
+        "url": "https://www.semanticscholar.org/paper/1882f194cb43828852cc052887671e55a80f945a"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-34",
+      "metadata": {
+        "title": "CLUE: A Chinese Language Understanding Evaluation Benchmark",
+        "authors": [
+          "Liang Xu",
+          "Xuanwei Zhang",
+          "Lu Li",
+          "Hai Hu",
+          "Chenjie Cao",
+          "Weitang Liu",
+          "Junyi Li",
+          "Yudong Li",
+          "Kai Sun",
+          "Yechen Xu",
+          "Yiming Cui",
+          "Cong Yu",
+          "Qianqian Dong",
+          "Yin Tian",
+          "Dian Yu",
+          "Bo Shi",
+          "Jun-jie Zeng",
+          "Rongzhao Wang",
+          "Weijian Xie",
+          "Yanting Li",
+          "Yina Patterson",
+          "Zuoyu Tian",
+          "Yiwen Zhang",
+          "He Zhou",
+          "Shao-Wei Liu",
+          "Qi-Xing Zhao",
+          "Cong Yue",
+          "Xinrui Zhang",
+          "Zhengliang Yang",
+          "Kyle Richardson",
+          "Zhen-Zhong Lan"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Computational Linguistics",
+        "doi": "10.48550/arXiv.2004.05986",
+        "arxivId": "2004.05986",
+        "url": "https://www.semanticscholar.org/paper/18318b10e7c2dd4ad292208f4399eb1d4dca5768"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-35",
+      "metadata": {
+        "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+        "authors": [
+          "Yonatan Bisk",
+          "Rowan Zellers",
+          "Ronan Le Bras",
+          "Jian-Feng Gao",
+          "Yejin Choi"
+        ],
+        "year": 2019,
+        "venue": "AAAI Conference on Artificial Intelligence",
+        "doi": "10.48550/arXiv.1911.11641",
+        "arxivId": "1911.11641",
+        "url": "https://www.semanticscholar.org/paper/04f4e55e14150b7c48b0287ba77c7443df76ed45"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-36",
+      "metadata": {
+        "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+        "authors": [
+          "Noam Shazeer"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1911.02150",
+        "arxivId": "1911.02150",
+        "url": "https://www.semanticscholar.org/paper/dc52b09089704ebd6f471177474bc29741c50023"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-37",
+      "metadata": {
+        "title": "ZeRO: Memory optimizations Toward Training Trillion Parameter Models",
+        "authors": [
+          "Samyam Rajbhandari",
+          "Jeff Rasley",
+          "Olatunji Ruwase",
+          "Yuxiong He"
+        ],
+        "year": 2019,
+        "venue": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis",
+        "doi": "10.1109/SC41405.2020.00024",
+        "arxivId": "1910.02054",
+        "url": "https://www.semanticscholar.org/paper/00c957711b12468cb38424caccdf5291bb354033"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-38",
+      "metadata": {
+        "title": "Natural Questions: A Benchmark for Question Answering Research",
+        "authors": [
+          "T. Kwiatkowski",
+          "J. Palomaki",
+          "Olivia Redfield",
+          "Michael Collins",
+          "Ankur P. Parikh",
+          "Chris Alberti",
+          "D. Epstein",
+          "I. Polosukhin",
+          "J. Devlin",
+          "Kenton Lee",
+          "K. Toutanova",
+          "L. Jones",
+          "Matthew Kelcey",
+          "Ming-Wei Chang",
+          "Andrew M. Dai",
+          "J. Uszkoreit",
+          "Quoc V. Le",
+          "Slav Petrov"
+        ],
+        "year": 2019,
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "doi": "10.1162/tacl_a_00276",
+        "url": "https://www.semanticscholar.org/paper/17dbd7b72029181327732e4d11b52a08ed4630d0"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-39",
+      "metadata": {
+        "title": "ChID: A Large-scale Chinese IDiom Dataset for Cloze Test",
+        "authors": [
+          "Chujie Zheng",
+          "Minlie Huang",
+          "Aixin Sun"
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P19-1075",
+        "arxivId": "1906.01265",
+        "url": "https://www.semanticscholar.org/paper/e278e072774f23675266881750e20bca74804cb9"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-40",
+      "metadata": {
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "authors": [
+          "Rowan Zellers",
+          "Ari Holtzman",
+          "Yonatan Bisk",
+          "Ali Farhadi",
+          "Yejin Choi"
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P19-1472",
+        "arxivId": "1905.07830",
+        "url": "https://www.semanticscholar.org/paper/8b0f27bb594b1eaaf493eaf1e2ee723a2b0a19ad"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-41",
+      "metadata": {
+        "title": "Investigating Prior Knowledge for Challenging Chinese Machine Reading Comprehension",
+        "authors": [
+          "Kai Sun",
+          "Dian Yu",
+          "Dong Yu",
+          "Claire Cardie"
+        ],
+        "year": 2019,
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "doi": "10.1162/tacl_a_00305",
+        "arxivId": "1904.09679",
+        "url": "https://www.semanticscholar.org/paper/1b07a24b81834116f6ad1d0232485ba81b9445f3"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-42",
+      "metadata": {
+        "title": "DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs",
+        "authors": [
+          "Dheeru Dua",
+          "Yizhong Wang",
+          "Pradeep Dasigi",
+          "Gabriel Stanovsky",
+          "Sameer Singh",
+          "Matt Gardner"
+        ],
+        "year": 2019,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/N19-1246",
+        "arxivId": "1903.00161",
+        "url": "https://www.semanticscholar.org/paper/dda6fb309f62e2557a071522354d8c2c897a2805"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-43",
+      "metadata": {
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "authors": [
+          "Peter Clark",
+          "Isaac Cowhey",
+          "Oren Etzioni",
+          "Tushar Khot",
+          "Ashish Sabharwal",
+          "Carissa Schoenick",
+          "O. Tafjord"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1803.05457",
+        "arxivId": "1803.05457",
+        "url": "https://www.semanticscholar.org/paper/88bb0a28bb58d847183ec505dda89b63771bb495"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-44",
+      "metadata": {
+        "title": "Decoupled Weight Decay Regularization",
+        "authors": [
+          "I. Loshchilov",
+          "F. Hutter"
+        ],
+        "year": 2017,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://www.semanticscholar.org/paper/d07284a6811f1b2745d91bdb06b040b57f226882"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-45",
+      "metadata": {
+        "title": "Attention is All you Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "N. Parmar",
+          "J. Uszkoreit",
+          "L. Jones",
+          "Aidan N. Gomez",
+          "Lukasz Kaiser",
+          "I. Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1706.03762",
+        "arxivId": "1706.03762",
+        "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "arxiv"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-46",
+      "metadata": {
+        "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+        "authors": [
+          "Mandar Joshi",
+          "Eunsol Choi",
+          "Daniel S. Weld",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2017,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P17-1147",
+        "arxivId": "1705.03551",
+        "url": "https://www.semanticscholar.org/paper/f010affab57b5fcf1cd6be23df79d8ec98c7289c"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-47",
+      "metadata": {
+        "title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+        "authors": [
+          "Guo-Kun Lai",
+          "Qizhe Xie",
+          "Hanxiao Liu",
+          "Yiming Yang",
+          "E. Hovy"
+        ],
+        "year": 2017,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/D17-1082",
+        "arxivId": "1704.04683",
+        "url": "https://www.semanticscholar.org/paper/636a79420d838eabe4af7fb25d6437de45ab64e8"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-48",
+      "metadata": {
+        "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+        "authors": [
+          "Noam Shazeer",
+          "Azalia Mirhoseini",
+          "Krzysztof Maziarz",
+          "Andy Davis",
+          "Quoc V. Le",
+          "Geoffrey E. Hinton",
+          "J. Dean"
+        ],
+        "year": 2017,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1701.06538",
+        "arxivId": "1701.06538",
+        "url": "https://www.semanticscholar.org/paper/510e26733aaff585d65701b9f1be7ca9d5afc586"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-49",
+      "metadata": {
+        "title": "Ccpm: A chinese classical poetry",
+        "year": 2021,
+        "venue": "matching dataset"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-50",
+      "metadata": {
+        "title": "An Adversarial Winograd Schema Challenge at Scale",
+        "authors": [
+          "Keisuke Sakaguchi",
+          "Ronan Le Bras",
+          "Chandra Bhagavatula",
+          "Yejin Choi"
+        ],
+        "year": 2019,
+        "url": "https://www.semanticscholar.org/paper/92e121c6e114fe3cfb89370df03847c66a9b4e28"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-51",
+      "metadata": {
+        "title": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension",
+        "authors": [
+          "Yiming Cui",
+          "Ting Liu",
+          "Wanxiang Che",
+          "Li Xiao",
+          "Zhi-Peng Chen",
+          "Wentao Ma",
+          "Shi-Jin Wang",
+          "Guo-Ping Hu"
+        ],
+        "year": 2019,
+        "venue": "EMNLP-IJCNLP",
+        "doi": "10.18653/v1/D19-1600",
+        "arxivId": "1810.07366",
+        "url": "https://www.semanticscholar.org/paper/4ae2960d3c6ac489b3b072666fb0b91d0480a170"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-52",
+      "metadata": {
+        "title": "The High Flyer",
+        "authors": [
+          "Súsan Howatch"
+        ],
+        "year": 1999,
+        "url": "https://www.semanticscholar.org/paper/dcd3434533bd11023ef96020db653055b3fa5a18"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-53",
+      "metadata": {
+        "title": "Introducing gemini: our largest and most capable ai model, 2023",
+        "venue": "blog.google/technology/ai"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-54",
+      "metadata": {
+        "title": "Can your language model pass",
+        "venue": "Cmath:"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-55",
+      "metadata": {
+        "title": "Cheaper, better, faster, stronger: Continuing to push the frontier of ai and making it accessible to all",
+        "venue": "mistral"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-56",
+      "metadata": {
+        "title": "2020, New York",
+        "venue": ", NY, USA, February"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-57",
+      "metadata": {
+        "title": "Less is more for alignment",
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-58",
+      "metadata": {
+        "title": "AI@Meta",
+        "venue": "Llama"
+      },
+      "source": "s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "semantic scholar: 58 references"
+  ]
+}

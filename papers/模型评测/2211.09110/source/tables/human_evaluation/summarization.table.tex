@@ -1,0 +1,30 @@
+\begin{table*}[htp]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{llrrrrrr}
+\toprule
+ &  & \multicolumn{3}{c}{\cnndm} & \multicolumn{3}{c}{\xsum} \\
+Setting & Models & Faithfulness & Coherence & Relevance & Faithfulness & Coherence & Relevance \\
+\midrule
+\multirow[c]{4}{*}{Zero-shot language models} & \gptcurie & 0.29 & 1.77 & 1.93 & 0.77 & 3.16 & 3.39 \\
+ & \gptdavinci & 0.76 & 2.65 & 3.50 & 0.80 & 2.78 & 3.52 \\
+ & \instructcurie & 0.97 & 4.24 & 4.59 & 0.96 & 4.27 & 4.34 \\
+ & \instructdavinci & 0.99 & 4.15 & 4.60 & 0.97 & 4.41 & 4.28 \\
+\midrule
+\multirow[c]{6}{*}{Five-shot language models} & \anthropic & 0.94 & 3.88 & 4.33 & 0.70 & 4.77 & 4.14 \\
+ & \coherexl & 0.99 & 3.42 & 4.48 & 0.63 & 4.79 & 4.00 \\
+ & \glm & 0.94 & 3.69 & 4.24 & 0.74 & 4.72 & 4.12 \\
+ & \optonesevenfive & 0.96 & 3.64 & 4.33 & 0.67 & 4.80 & 4.01 \\
+ & \gptdavinci & 0.99 & 3.95 & 4.34 & 0.69 & 4.69 & 4.03 \\
+ & \instructdavinci & 0.98 & 4.13 & 4.49 & 0.77 & 4.83 & 4.33 \\
+\midrule
+\multirow[c]{2}{*}{Fine-tuned language models} & Brio & 0.94 & 3.94 & 4.40 & 0.58 & 4.68 & 3.89 \\
+ & Pegasus & 0.97 & 3.93 & 4.38 & 0.57 & 4.73 & 3.85 \\
+\midrule
+Human generated & Reference summaries & 0.84 & 3.20 & 3.94 & 0.37 & 4.13 & 3.00 \\
+\bottomrule
+\end{tabular}
+}
+\caption{\textbf{Human evaluation for summarization scenarios.} 
+We conduct human evaluation for 13 sets of summaries for both \cnndm and \xsum.}
+\label{tab:summarization-human-evaluation}
+\end{table*}

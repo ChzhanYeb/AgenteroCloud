@@ -1,0 +1,2179 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-15T11:47:42.236Z",
+    "fingerprint": "e29b90b194f139953cb17b9e7783135c0a9d9581d21a3aba38d47bd1c8ad6d91"
+  },
+  "citations": [
+    {
+      "id": "cite-aggarwal1988input",
+      "rawKey": "aggarwal1988input",
+      "display": "[1]",
+      "raw": "Alok Aggarwal and S Vitter, Jeffrey. The input/output complexity of sorting and related problems. Communications of the ACM, 31 (9): 1116--1127, 1988.",
+      "metadata": {
+        "title": "The input/output complexity of sorting and related problems",
+        "authors": [
+          "A. Aggarwal",
+          "S. Jeffrey"
+        ],
+        "year": 1988,
+        "venue": "Commun. ACM",
+        "doi": "10.1145/48529.48535",
+        "url": "https://www.semanticscholar.org/paper/bbf58df1856fd582817fe93f816f1e03bfe3b17b"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bello2021lambdanetworks",
+      "rawKey": "bello2021lambdanetworks",
+      "display": "[2]",
+      "raw": "Irwan Bello. LambdaNetworks: Modeling long-range interactions without attention. arXiv preprint arXiv:2102.08602, 2021.",
+      "metadata": {
+        "title": "LambdaNetworks: Modeling Long-Range Interactions Without Attention",
+        "authors": [
+          "Irwan Bello"
+        ],
+        "year": 2021,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2102.08602",
+        "arxivId": "2102.08602",
+        "url": "https://www.semanticscholar.org/paper/cec7872b194aadf54140578b9be52939eb1112e9"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-beltagy2020longformer",
+      "rawKey": "beltagy2020longformer",
+      "display": "[3]",
+      "raw": "Iz Beltagy, Matthew E Peters, and Arman Cohan. Longformer: The long-document transformer. arXiv preprint arXiv:2004.05150, 2020.",
+      "metadata": {
+        "title": "Longformer: The Long-Document Transformer",
+        "authors": [
+          "Iz Beltagy",
+          "Matthew E. Peters",
+          "Arman Cohan"
+        ],
+        "year": 2020,
+        "doi": "10.48550/arXiv.2004.05150",
+        "arxivId": "2004.05150",
+        "url": "https://www.semanticscholar.org/paper/925ad2897d1b5decbea320d07e99afa9110e09b2"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-blackford2002updated",
+      "rawKey": "blackford2002updated",
+      "display": "[4]",
+      "raw": "L Susan Blackford, Antoine Petitet, Roldan Pozo, Karin Remington, R Clint Whaley, James Demmel, Jack Dongarra, Iain Duff, Sven Hammarling, Greg Henry, et al. An updated set of basic linear algebra subprograms (blas). ACM Transactions on Mathematical Software, 28 (2): 135--151, 2002.",
+      "metadata": {
+        "title": "An Updated Set of Basic Linear Algebra Subprograms Blas",
+        "authors": [
+          "L. Blackford",
+          "J. Demmel",
+          "J. Dongarra",
+          "I. Duu",
+          "S. Hammarling",
+          "G. Henry",
+          "M. Heroux",
+          "L. Kaufman",
+          "A. Lumsdaine",
+          "A. Petitet",
+          "R. Pozo",
+          "K. Remington",
+          "R. C. Whaley"
+        ],
+        "year": 2001,
+        "url": "https://www.semanticscholar.org/paper/e6074b731f7d42fecd3b83450c9674353a9e8c3a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-brown2020language",
+      "rawKey": "brown2020language",
+      "display": "[5]",
+      "raw": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Language models are few-shot learners. Advances in neural information processing systems, 33: 1877--1901, 2020.",
+      "metadata": {
+        "title": "Language Models are Few-Shot Learners",
+        "authors": [
+          "Tom B. Brown",
+          "Benjamin Mann",
+          "N. Ryder",
+          "Melanie Subbiah",
+          "J. Kaplan",
+          "Prafulla Dhariwal",
+          "Arvind Neelakantan",
+          "Pranav Shyam",
+          "G. Sastry",
+          "Amanda Askell",
+          "S. Agarwal",
+          "A. Herbert-Voss",
+          "G. Krueger",
+          "T. Henighan",
+          "R. Child",
+          "A. Ramesh",
+          "Daniel M. Ziegler",
+          "Jeff Wu",
+          "Clemens Winter",
+          "Christopher Hesse",
+          "Mark Chen",
+          "Eric Sigler",
+          "Mateusz Litwin",
+          "Scott Gray",
+          "Benjamin Chess",
+          "Jack Clark",
+          "Christopher Berner",
+          "Sam McCandlish",
+          "A. Radford",
+          "I. Sutskever",
+          "D. Amodei"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2005.14165",
+        "arxivId": "2005.14165",
+        "url": "https://www.semanticscholar.org/paper/90abbc2cf38462b954ae1b772fac9532e2ccd8b0"
+      },
+      "localMatch": {
+        "paperPath": "papers/2005.14165",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chalkidis-etal-2019-neural",
+      "rawKey": "chalkidis-etal-2019-neural",
+      "display": "[6]",
+      "raw": "Ilias Chalkidis, Ion Androutsopoulos, and Nikolaos Aletras. Neural legal judgment prediction in English. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 4317--4323, Florence, Italy, 2019. Association for Computational Linguistics. 10.18653/v1/P19-1424. URL https://www.aclweb.org/anthology/P19-1424.",
+      "metadata": {
+        "title": "Neural Legal Judgment Prediction in English",
+        "authors": [
+          "Ilias Chalkidis",
+          "Ion Androutsopoulos",
+          "Nikolaos Aletras"
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P19-1424",
+        "arxivId": "1906.02059",
+        "url": "https://www.aclweb.org/anthology/P19-1424"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chalkidis-et-al-2021-ecthr",
+      "rawKey": "chalkidis-et-al-2021-ecthr",
+      "display": "[7]",
+      "raw": "Ilias Chalkidis, Manos Fergadiotis, Dimitrios Tsarapatsanis, Nikolaos Aletras, Ion Androutsopoulos, and Prodromos Malakasiotis. Paragraph-level rationale extraction through regularization: A case study on european court of human rights cases. In Proceedings of the Annual Conference of the North American Chapter of the Association for Computational Linguistics, Mexico City, Mexico, 2021. Association for Computational Linguistics.",
+      "metadata": {
+        "title": "Paragraph-level Rationale Extraction through Regularization: A case study on European Court of Human Rights Cases",
+        "authors": [
+          "Ilias Chalkidis",
+          "Manos Fergadiotis",
+          "D. Tsarapatsanis",
+          "Nikolaos Aletras",
+          "Ion Androutsopoulos",
+          "Prodromos Malakasiotis"
+        ],
+        "year": 2021,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2103.13084",
+        "arxivId": "2103.13084",
+        "url": "https://www.semanticscholar.org/paper/29584ed6d68a06fdf91440a018f6bc83a44fd177"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-charlier2021kernel",
+      "rawKey": "charlier2021kernel",
+      "display": "[8]",
+      "raw": "Benjamin Charlier, Jean Feydy, Joan Alexis GlaunÃs, FranÃois-David Collin, and Ghislain Durif. Kernel operations on the gpu, with autodiff, without memory overflows. Journal of Machine Learning Research, 22 (74): 1--6, 2021. URL http://jmlr.org/papers/v22/20-275.html.",
+      "metadata": {
+        "title": "Kernel Operations on the GPU, with Autodiff, without Memory Overflows",
+        "authors": [
+          "Benjamin Charlier",
+          "Jean Feydy",
+          "J. Glaunès",
+          "François-David Collin",
+          "G. Durif"
+        ],
+        "year": 2020,
+        "venue": "Journal of machine learning research",
+        "doi": "10.48550/arXiv.2004.11127",
+        "arxivId": "2004.11127",
+        "url": "http://jmlr.org/papers/v22/20-275.html"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-scatterbrain",
+      "rawKey": "scatterbrain",
+      "display": "[9]",
+      "raw": "Beidi Chen, Tri Dao, Eric Winsor, Zhao Song, Atri Rudra, and Christopher RÃ. Scatterbrain: Unifying sparse and low-rank attention. In Advances in Neural Information Processing Systems (NeurIPS), 2021.",
+      "metadata": {
+        "title": "Scatterbrain: Unifying Sparse and Low-rank Attention Approximation",
+        "authors": [
+          "Beidi Chen",
+          "Tri Dao",
+          "Eric Winsor",
+          "Zhao Song",
+          "A. Rudra",
+          "C. Ré"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2110.15343",
+        "arxivId": "2110.15343",
+        "url": "https://www.semanticscholar.org/paper/5f895e84c1fea75de07b4f90da518273c2e57291"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chen2016training",
+      "rawKey": "chen2016training",
+      "display": "[10]",
+      "raw": "Tianqi Chen, Bing Xu, Chiyuan Zhang, and Carlos Guestrin. Training deep nets with sublinear memory cost. arXiv preprint arXiv:1604.06174, 2016.",
+      "metadata": {
+        "title": "Training Deep Nets with Sublinear Memory Cost",
+        "authors": [
+          "Tian-Qi Chen",
+          "Bing Xu",
+          "Chiyuan Zhang",
+          "Carlos Guestrin"
+        ],
+        "year": 2016,
+        "doi": "10.48550/arXiv.1604.06174",
+        "arxivId": "1604.06174",
+        "url": "https://www.semanticscholar.org/paper/942deb7d865b7782c03176d95e3a0d56cb71009e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-child2019generating",
+      "rawKey": "child2019generating",
+      "display": "[11]",
+      "raw": "Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers. arXiv preprint arXiv:1904.10509, 2019.",
+      "metadata": {
+        "title": "Generating Long Sequences with Sparse Transformers",
+        "authors": [
+          "R. Child",
+          "Scott Gray",
+          "A. Radford",
+          "I. Sutskever"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1904.10509",
+        "arxivId": "1904.10509",
+        "url": "https://www.semanticscholar.org/paper/21da617a0f79aabf94272107184606cefe90ab75"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-choromanski2020rethinking",
+      "rawKey": "choromanski2020rethinking",
+      "display": "[12]",
+      "raw": "Krzysztof Marcin Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Quincy Davis, Afroz Mohiuddin, Lukasz Kaiser, et al. Rethinking attention with performers. In International Conference on Learning Representations (ICLR), 2020.",
+      "metadata": {
+        "title": "Rethinking Attention with Performers",
+        "authors": [
+          "K. Choromanski",
+          "Valerii Likhosherstov",
+          "David Dohan",
+          "Xing-You Song",
+          "Andreea Gane",
+          "Tamás Sarlós",
+          "Peter G. Hawkins",
+          "J. Davis",
+          "Afroz Mohiuddin",
+          "Lukasz Kaiser",
+          "David Belanger",
+          "Lucy J. Colwell",
+          "Adrian Weller"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2009.14794",
+        "arxivId": "2009.14794",
+        "url": "https://www.semanticscholar.org/paper/3fbf6339273c50b04e886fa9bd4ad18c952a683d"
+      },
+      "localMatch": {
+        "paperPath": "papers/2009.14794",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dai2022revisiting",
+      "rawKey": "dai2022revisiting",
+      "display": "[13]",
+      "raw": "Xiang Dai, Ilias Chalkidis, Sune Darkner, and Desmond Elliott. Revisiting transformer-based models for long document classification. arXiv preprint arXiv:2204.06683, 2022.",
+      "metadata": {
+        "title": "Revisiting Transformer-based Models for Long Document Classification",
+        "authors": [
+          "Xiang Dai",
+          "Ilias Chalkidis",
+          "S. Darkner",
+          "Desmond Elliott"
+        ],
+        "year": 2022,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.48550/arXiv.2204.06683",
+        "arxivId": "2204.06683",
+        "url": "https://www.semanticscholar.org/paper/cc2d1a66c701e9be9124eb95431b6c3dd79a61d3"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dai2019transformer",
+      "rawKey": "dai2019transformer",
+      "display": "[14]",
+      "raw": "Zihang Dai, Zhilin Yang, Yiming Yang, Jaime G Carbonell, Quoc Le, and Ruslan Salakhutdinov. Transformer-XL: Attentive language models beyond a fixed-length context. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 2978--2988, 2019.",
+      "metadata": {
+        "title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+        "authors": [
+          "Zhenzhong Lan",
+          "Mingda Chen",
+          "Sebastian Goodman",
+          "Kevin Gimpel",
+          "Piyush Sharma",
+          "Radu Soricut"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1909.11942",
+        "arxivId": "1909.11942",
+        "url": "https://www.semanticscholar.org/paper/7a064df1aeada7e69e5173f7d4c8606f4470365b"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dao2019learning",
+      "rawKey": "dao2019learning",
+      "display": "[15]",
+      "raw": "Tri Dao, Albert Gu, Matthew Eichhorn, Atri Rudra, and Christopher Re. Learning fast algorithms for linear transforms using butterfly factorizations. In International Conference on Machine Learning (ICML), 2019.",
+      "metadata": {
+        "title": "Learning Fast Algorithms for Linear Transforms Using Butterfly Factorizations",
+        "authors": [
+          "Tri Dao",
+          "Albert Gu",
+          "Matthew Eichhorn",
+          "A. Rudra",
+          "C. Ré"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1903.05895",
+        "arxivId": "1903.05895",
+        "url": "https://www.semanticscholar.org/paper/a6e92f6fa9e91b7e869562a63b30a9a56cf14582"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dao2020kaleidoscope",
+      "rawKey": "dao2020kaleidoscope",
+      "display": "[16]",
+      "raw": "Tri Dao, Nimit Sohoni, Albert Gu, Matthew Eichhorn, Amit Blonder, Megan Leszczynski, Atri Rudra, and Christopher Re. Kaleidoscope: An efficient, learnable representation for all structured linear maps. In International Conference on Learning Representations (ICLR), 2020.",
+      "metadata": {
+        "title": "Kaleidoscope: An Efficient, Learnable Representation For All Structured Linear Maps",
+        "authors": [
+          "Tri Dao",
+          "N. Sohoni",
+          "Albert Gu",
+          "Matthew Eichhorn",
+          "Amit Blonder",
+          "Megan Leszczynski",
+          "A. Rudra",
+          "Christopher Ré"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2012.14966",
+        "arxivId": "2012.14966",
+        "url": "https://www.semanticscholar.org/paper/a68c3412e60560290400d2707596f82a914b7c00"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dao2021pixelated",
+      "rawKey": "dao2021pixelated",
+      "display": "[17]",
+      "raw": "Tri Dao, Beidi Chen, Kaizhao Liang, Jiaming Yang, Zhao Song, Atri Rudra, and Christopher Re. Pixelated butterfly: Simple and efficient sparse training for neural network models. In International Conference on Learning Representations (ICLR), 2022a.",
+      "metadata": {
+        "title": "Pixelated Butterfly: Simple and Efficient Sparse training for Neural Network Models",
+        "authors": [
+          "Beidi Chen",
+          "Tri Dao",
+          "K. Liang",
+          "Jia-Ming Yang",
+          "Zhao Song",
+          "A. Rudra",
+          "C. Ré"
+        ],
+        "year": 2021,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2112.00029",
+        "arxivId": "2112.00029",
+        "url": "https://www.semanticscholar.org/paper/90b21dbad8969b74d704eed15a3d98722a88e464"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dao2022monarch",
+      "rawKey": "dao2022monarch",
+      "display": "[18]",
+      "raw": "Tri Dao, Beidi Chen, Nimit Sohoni, Arjun Desai, Michael Poli, Jessica Grogan, Alexander Liu, Aniruddh Rao, Atri Rudra, and Christopher Re. Monarch: Expressive structured matrices for efficient and accurate training. In International Conference on Machine Learning (ICML), 2022b.",
+      "metadata": {
+        "title": "Monarch: Expressive Structured Matrices for Efficient and Accurate Training",
+        "authors": [
+          "Tri Dao",
+          "Beidi Chen",
+          "N. Sohoni",
+          "Arjun D Desai",
+          "Michael Poli",
+          "Jessica Grogan",
+          "Alexander Liu",
+          "A. Rao",
+          "A. Rudra",
+          "Christopher Ré"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2204.00595",
+        "arxivId": "2204.00595",
+        "url": "https://www.semanticscholar.org/paper/8326dba15f6b8ee6e43c23eea3265a05e59e8135"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-daras2020smyrf",
+      "rawKey": "daras2020smyrf",
+      "display": "[19]",
+      "raw": "Giannis Daras, Nikita Kitaev, Augustus Odena, and Alexandros G Dimakis. Smyrf-efficient attention using asymmetric clustering. Advances in Neural Information Processing Systems, 33: 6476--6489, 2020.",
+      "metadata": {
+        "title": "SMYRF: Efficient Attention using Asymmetric Clustering",
+        "authors": [
+          "G. Daras",
+          "Nikita Kitaev",
+          "A. Odena",
+          "A. Dimakis"
+        ],
+        "year": 2020,
+        "doi": "10.48550/arXiv.2010.05315",
+        "arxivId": "2010.05315",
+        "url": "https://www.semanticscholar.org/paper/c0f709acf38eb27702b0fbce1215db0ebaa2de2b"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-desa2018two",
+      "rawKey": "desa2018two",
+      "display": "[20]",
+      "raw": "Christopher De Sa, Albert Gu, Rohan Puttagunta, Christopher Re, and Atri Rudra. A two-pronged progress in structured dense matrix vector multiplication. In Proceedings of the Twenty-Ninth Annual ACM-SIAM Symposium on Discrete Algorithms, pages 1060--1079. SIAM, 2018.",
+      "metadata": {
+        "title": "A two-pronged progress in structured dense matrixvector multiplication",
+        "authors": [
+          "C. De Sa",
+          "Albert Gu",
+          "Rohan Puttagunta",
+          "C. Ré",
+          "A. Rudra"
+        ],
+        "year": 2018,
+        "venue": "Proceedings of the ... Annual ACM-SIAM Symposium on Discrete Algorithms. ACM-SIAM Symposium on Discrete Algorithms",
+        "doi": "10.1137/1.9781611975031.69",
+        "url": "https://www.semanticscholar.org/paper/bce22675d77e1ef28e92f3793c02f8f5ccdb0ddd"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-denning1968working",
+      "rawKey": "denning1968working",
+      "display": "[21]",
+      "raw": "Peter J Denning. The working set model for program behavior. Communications of the ACM, 11 (5): 323--333, 1968.",
+      "metadata": {
+        "title": "The working set model for program behavior",
+        "authors": [
+          "P. Denning"
+        ],
+        "year": 1968,
+        "venue": "Commun. ACM",
+        "doi": "10.1145/357980.357997",
+        "url": "https://www.semanticscholar.org/paper/7fc3a6862f746c9988d82c023d2b7aaf0e089168"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-devlin2018bert",
+      "rawKey": "devlin2018bert",
+      "display": "[22]",
+      "raw": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of deep bidirectional transformers for language understanding. 2019.",
+      "metadata": {
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "authors": [
+          "J. Devlin",
+          "Ming-Wei Chang",
+          "Kenton Lee",
+          "K. Toutanova"
+        ],
+        "year": 2019,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/N19-1423",
+        "arxivId": "1810.04805",
+        "url": "https://www.semanticscholar.org/paper/df2b0e26d0599ce3e70df8a9da02e51594e0e992"
+      },
+      "localMatch": {
+        "paperPath": "papers/1810.04805",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dong2017learning",
+      "rawKey": "dong2017learning",
+      "display": "[23]",
+      "raw": "Xin Dong, Shangyu Chen, and Sinno Jialin Pan. Learning to prune deep neural networks via layer-wise optimal brain surgeon. arXiv preprint arXiv:1705.07565, 2017.",
+      "metadata": {
+        "title": "Learning to Prune Deep Neural Networks via Layer-wise Optimal Brain Surgeon",
+        "authors": [
+          "Xin Dong",
+          "Shangyu Chen",
+          "Sinno Jialin Pan"
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1705.07565",
+        "arxivId": "1705.07565",
+        "url": "https://www.semanticscholar.org/paper/773d5ddc414424a8948446ddaa5275b944f50891"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dosovitskiy2020image",
+      "rawKey": "dosovitskiy2020image",
+      "display": "[24]",
+      "raw": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. In International Conference on Learning Representations, 2020.",
+      "metadata": {
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "authors": [
+          "A. Dosovitskiy",
+          "Lucas Beyer",
+          "Alexander Kolesnikov",
+          "Dirk Weissenborn",
+          "Xiao-Hua Zhai",
+          "T. Unterthiner",
+          "Mostafa Dehghani",
+          "M. Minderer",
+          "G. Heigold",
+          "S. Gelly",
+          "J. Uszkoreit",
+          "N. Houlsby"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2010.11929",
+        "arxivId": "2010.11929",
+        "url": "https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-eidelman1999new",
+      "rawKey": "eidelman1999new",
+      "display": "[25]",
+      "raw": "Y Eidelman and I Gohberg. On a new class of structured matrices. Integral Equations and Operator Theory, 34 (3): 293--324, 1999.",
+      "metadata": {
+        "title": "On a new class of structured matrices",
+        "authors": [
+          "Y. Eidelman",
+          "I. Gohberg"
+        ],
+        "year": 1999,
+        "venue": "Integral Equations and Operator Theory",
+        "doi": "10.1007/BF01300581",
+        "url": "https://www.semanticscholar.org/paper/8df26a339b6cbb1089e02f2039ac6c30a6ec89d9"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-feydy2020fast",
+      "rawKey": "feydy2020fast",
+      "display": "[26]",
+      "raw": "Jean Feydy, Joan Glaunes, Benjamin Charlier, and Michael Bronstein. Fast geometric learning with symbolic matrices. Advances in Neural Information Processing Systems, 33, 2020.",
+      "metadata": {
+        "title": "Fast geometric learning with symbolic matrices",
+        "authors": [
+          "Jean Feydy",
+          "J. Glaunès",
+          "Benjamin Charlier",
+          "M. Bronstein"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://www.semanticscholar.org/paper/82120293d715c3119801361e83e4d2969161f81e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-flum2006parameterized",
+      "rawKey": "flum2006parameterized",
+      "display": "[27]",
+      "raw": "Jorg Flum and Martin Grohe. Parameterized Complexity Theory. Springer, 2006.",
+      "metadata": {
+        "title": "Parameterized Complexity Theory",
+        "authors": [
+          "J. Flum",
+          "Martin Grohe"
+        ],
+        "year": 2006,
+        "venue": "Texts in Theoretical Computer Science. An EATCS Series",
+        "doi": "10.1007/3-540-29953-X",
+        "url": "https://www.semanticscholar.org/paper/94899246a7c0b3592c6bf8f7aa0ad3c9203f61f9"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-frankle2018lottery",
+      "rawKey": "frankle2018lottery",
+      "display": "[28]",
+      "raw": "Jonathan Frankle and Michael Carbin. The lottery ticket hypothesis: Finding sparse, trainable neural networks. In International Conference on Learning Representations, 2018.",
+      "metadata": {
+        "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+        "authors": [
+          "Jonathan Frankle",
+          "Michael Carbin"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Learning Representations",
+        "arxivId": "1803.03635",
+        "url": "https://www.semanticscholar.org/paper/21937ecd9d66567184b83eca3d3e09eb4e6fbd60"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-frankle2019stabilizing",
+      "rawKey": "frankle2019stabilizing",
+      "display": "[29]",
+      "raw": "Jonathan Frankle, Gintare Karolina Dziugaite, Daniel M Roy, and Michael Carbin. Stabilizing the lottery ticket hypothesis. arXiv preprint arXiv:1903.01611, 2019.",
+      "metadata": {
+        "title": "Stabilizing the Lottery Ticket Hypothesis",
+        "authors": [
+          "Jonathan Frankle",
+          "G. Dziugaite",
+          "Daniel M. Roy",
+          "Michael Carbin"
+        ],
+        "year": 2019,
+        "arxivId": "1903.01611",
+        "url": "https://www.semanticscholar.org/paper/075da5ebbb890924267b4b163292ad21d0b100a0"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-frankle2020linear",
+      "rawKey": "frankle2020linear",
+      "display": "[30]",
+      "raw": "Jonathan Frankle, Gintare Karolina Dziugaite, Daniel Roy, and Michael Carbin. Linear mode connectivity and the lottery ticket hypothesis. In International Conference on Machine Learning, pages 3259--3269. PMLR, 2020.",
+      "metadata": {
+        "title": "Linear Mode Connectivity and the Lottery Ticket Hypothesis",
+        "authors": [
+          "Jonathan Frankle",
+          "G. Dziugaite",
+          "Daniel M. Roy",
+          "Michael Carbin"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1912.05671",
+        "arxivId": "1912.05671",
+        "url": "https://www.semanticscholar.org/paper/3f06d02513a2763e472d2b5d5db08e9061081b9e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-goel2022s",
+      "rawKey": "goel2022s",
+      "display": "[31]",
+      "raw": "Karan Goel, Albert Gu, Chris Donahue, and Christopher Re. It's raw! audio generation with state-space models. In International Conference on Machine Learning (ICML), 2022.",
+      "metadata": {
+        "title": "It's Raw! Audio Generation with State-Space Models",
+        "authors": [
+          "Karan Goel",
+          "Albert Gu",
+          "Chris Donahue",
+          "Christopher Ré"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2202.09729",
+        "arxivId": "2202.09729",
+        "url": "https://www.semanticscholar.org/paper/b55ee75940d24934a54d7f1acfde06e9cb45ac44"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Gokaslan2019OpenWeb",
+      "rawKey": "Gokaslan2019OpenWeb",
+      "display": "[32]",
+      "raw": "Aaron Gokaslan, Vanya Cohen, Pavlick Ellie, and Stefanie Tellex. Openwebtext corpus, 2019.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-gray1997data",
+      "rawKey": "gray1997data",
+      "display": "[33]",
+      "raw": "Jim Gray, Surajit Chaudhuri, Adam Bosworth, Andrew Layman, Don Reichart, Murali Venkatrao, Frank Pellow, and Hamid Pirahesh. Data cube: A relational aggregation operator generalizing group-by, cross-tab, and sub-totals. Data mining and knowledge discovery, 1 (1): 29--53, 1997.",
+      "metadata": {
+        "title": "Data Cube: A Relational Aggregation Operator Generalizing Group-By, Cross-Tab, and Sub-Totals",
+        "authors": [
+          "Jim Gray",
+          "S. Chaudhuri",
+          "Adam Bosworth",
+          "Andrew Layman",
+          "Don Reichart",
+          "Murali Venkatrao",
+          "Frank Pellow",
+          "H. Pirahesh"
+        ],
+        "year": 1996,
+        "venue": "Proceedings of the Twelfth International Conference on Data Engineering",
+        "doi": "10.1023/A:1009726021843",
+        "arxivId": "cs/0701155",
+        "url": "https://www.semanticscholar.org/paper/8033c9c25c5658982e032ad670a0c525a5d6bbfa"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-griewank2008evaluating",
+      "rawKey": "griewank2008evaluating",
+      "display": "[34]",
+      "raw": "Andreas Griewank and Andrea Walther. Evaluating derivatives: principles and techniques of algorithmic differentiation. SIAM, 2008.",
+      "metadata": {
+        "year": 2008
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-gu2020hippo",
+      "rawKey": "gu2020hippo",
+      "display": "[35]",
+      "raw": "Albert Gu, Tri Dao, Stefano Ermon, Atri Rudra, and Christopher Re. Hippo: Recurrent memory with optimal polynomial projections. In Advances in neural information processing systems (NeurIPS), 2020.",
+      "metadata": {
+        "title": "HiPPO: Recurrent Memory with Optimal Polynomial Projections",
+        "authors": [
+          "Albert Gu",
+          "Tri Dao",
+          "Stefano Ermon",
+          "A. Rudra",
+          "C. Ré"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2008.07669",
+        "arxivId": "2008.07669",
+        "url": "https://www.semanticscholar.org/paper/0964490205fdc38c2f0980c9d778069089ca92e3"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gu2021combining",
+      "rawKey": "gu2021combining",
+      "display": "[36]",
+      "raw": "Albert Gu, Isys Johnson, Karan Goel, Khaled Saab, Tri Dao, Atri Rudra, and Christopher Re. Combining recurrent, convolutional, and continuous-time models with linear state space layers. Advances in Neural Information Processing Systems, 34, 2021.",
+      "metadata": {
+        "title": "Combining Recurrent, Convolutional, and Continuous-time Models with Linear State-Space Layers",
+        "authors": [
+          "Albert Gu",
+          "Isys Johnson",
+          "Karan Goel",
+          "Khaled Kamal Saab",
+          "Tri Dao",
+          "A. Rudra",
+          "Christopher Ré"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2110.13985",
+        "arxivId": "2110.13985",
+        "url": "https://www.semanticscholar.org/paper/ca9047c78d48b606c4e4f0c456b1dda550de28b2"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gu2022efficiently",
+      "rawKey": "gu2022efficiently",
+      "display": "[37]",
+      "raw": "Albert Gu, Karan Goel, and Christopher Re. Efficiently modeling long sequences with structured state spaces. In The International Conference on Learning Representations (ICLR), 2022.",
+      "metadata": {
+        "title": "Efficiently Modeling Long Sequences with Structured State Spaces",
+        "authors": [
+          "Albert Gu",
+          "Karan Goel",
+          "Christopher Ré"
+        ],
+        "year": 2021,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2111.00396",
+        "arxivId": "2111.00396",
+        "url": "https://www.semanticscholar.org/paper/af4d0b59aba23effec13bed5f6fa7a40b43a71ce"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-han2015learning",
+      "rawKey": "han2015learning",
+      "display": "[38]",
+      "raw": "Song Han, Jeff Pool, John Tran, and William J Dally. Learning both weights and connections for efficient neural networks. arXiv preprint arXiv:1506.02626, 2015.",
+      "metadata": {
+        "title": "Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding",
+        "authors": [
+          "Song Han",
+          "Hui-Zi Mao",
+          "W. Dally"
+        ],
+        "year": 2015,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1510.00149",
+        "arxivId": "1506.02626",
+        "url": "https://www.semanticscholar.org/paper/642d0f49b7826adcf986616f4af77e736229990f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-han2015deep",
+      "rawKey": "han2015deep",
+      "display": "[39]",
+      "raw": "Song Han, Huizi Mao, and William J Dally. Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding. In International Conference on Learning Representations, 2016.",
+      "metadata": {
+        "year": 2016
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-hennessy2003memory",
+      "rawKey": "hennessy2003memory",
+      "display": "[40]",
+      "raw": "John Hennessy and David Patterson. Memory hierarchy design. Computer Architecture: A Quantitative Approach, pages 390--525, 2003.",
+      "metadata": {
+        "title": "Memory hierarchy design",
+        "year": 2003,
+        "venue": "Computer Architecture: A Quantitative Approach"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hooker2020hardware",
+      "rawKey": "hooker2020hardware",
+      "display": "[41]",
+      "raw": "Sara Hooker. The hardware lottery. arXiv preprint arXiv:2009.06489, 2020.",
+      "metadata": {
+        "title": "The hardware lottery",
+        "authors": [
+          "Sara Hooker"
+        ],
+        "year": 2020,
+        "venue": "Communications of the ACM",
+        "doi": "10.1145/3467017",
+        "arxivId": "2009.06489",
+        "url": "https://www.semanticscholar.org/paper/f8da8c55c0e7c4940a02347347dd232bc2bac0b5"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hua2022transformer",
+      "rawKey": "hua2022transformer",
+      "display": "[42]",
+      "raw": "Weizhe Hua, Zihang Dai, Hanxiao Liu, and Quoc V Le. Transformer quality in linear time. arXiv preprint arXiv:2202.10447, 2022.",
+      "metadata": {
+        "title": "Transformer Quality in Linear Time",
+        "authors": [
+          "Weizhe Hua",
+          "Zi-Hang Dai",
+          "Hanxiao Liu",
+          "Quoc V. Le"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2202.10447",
+        "arxivId": "2202.10447",
+        "url": "https://www.semanticscholar.org/paper/dc0102a51a9d33e104a4a3808a18cf17f057228c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ivanov2021data",
+      "rawKey": "ivanov2021data",
+      "display": "[43]",
+      "raw": "Andrei Ivanov, Nikoli Dryden, Tal Ben-Nun, Shigang Li, and Torsten Hoefler. Data movement is all you need: A case study on optimizing transformers. Proceedings of Machine Learning and Systems, 3: 711--732, 2021.",
+      "metadata": {
+        "title": "Data Movement Is All You Need: A Case Study on Optimizing Transformers",
+        "authors": [
+          "A. Ivanov",
+          "Nikoli Dryden",
+          "Tal Ben-Nun",
+          "Shi-Gang Li",
+          "T. Hoefler"
+        ],
+        "year": 2020,
+        "venue": "Conference on Machine Learning and Systems",
+        "doi": "10.48550/arXiv.2007.00072",
+        "arxivId": "2007.00072",
+        "url": "https://www.semanticscholar.org/paper/3836ccb33191799e748e8e96f85a813eaf650ff8"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jia2021dissecting",
+      "rawKey": "jia2021dissecting",
+      "display": "[44]",
+      "raw": "Zhe Jia and Peter Van Sandt. Dissecting the Ampere GPU architecture via microbenchmarking. GPU Technology Conference, 2021.",
+      "metadata": {
+        "year": 2021
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-jia2018dissecting",
+      "rawKey": "jia2018dissecting",
+      "display": "[45]",
+      "raw": "Zhe Jia, Marco Maggioni, Benjamin Staiger, and Daniele P Scarpazza. Dissecting the nvidia Volta GPU architecture via microbenchmarking. arXiv preprint arXiv:1804.06826, 2018.",
+      "metadata": {
+        "title": "Dissecting the NVIDIA Volta GPU Architecture via Microbenchmarking",
+        "authors": [
+          "Zhe Jia",
+          "Marco Maggioni",
+          "B. Staiger",
+          "D. Scarpazza"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1804.06826",
+        "arxivId": "1804.06826",
+        "url": "https://www.semanticscholar.org/paper/0e5d529befc3ca2e3e3371a0c39dc05731c1d5b7"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jia2019dissecting",
+      "rawKey": "jia2019dissecting",
+      "display": "[46]",
+      "raw": "Zhe Jia, Blake Tillman, Marco Maggioni, and Daniele Paolo Scarpazza. Dissecting the graphcore IPU architecture via microbenchmarking. arXiv preprint arXiv:1912.03413, 2019.",
+      "metadata": {
+        "title": "Dissecting the Graphcore IPU Architecture via Microbenchmarking",
+        "authors": [
+          "Zhe Jia",
+          "Blake Tillman",
+          "Marco Maggioni",
+          "D. Scarpazza"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1912.03413",
+        "arxivId": "1912.03413",
+        "url": "https://www.semanticscholar.org/paper/d808dbdd6a53259bea908266397b3983f246aabc"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-johnson2016mimic",
+      "rawKey": "johnson2016mimic",
+      "display": "[47]",
+      "raw": "Alistair EW Johnson, Tom J Pollard, Lu Shen, Li-wei H Lehman, Mengling Feng, Mohammad Ghassemi, Benjamin Moody, Peter Szolovits, Leo Anthony Celi, and Roger G Mark. Mimic-iii, a freely accessible critical care database. Scientific data, 3 (1): 1--9, 2016.",
+      "metadata": {
+        "title": "MIMIC-III, a freely accessible critical care database",
+        "authors": [
+          "A. Johnson",
+          "T. Pollard",
+          "Lu Shen",
+          "L. Lehman",
+          "M. Feng",
+          "Mohammad M. Ghassemi",
+          "B. Moody",
+          "Peter Szolovits",
+          "Leo Anthony Celi",
+          "R. Mark"
+        ],
+        "year": 2016,
+        "venue": "Scientific Data",
+        "doi": "10.1038/sdata.2016.35",
+        "url": "https://www.semanticscholar.org/paper/95cd83603a0d2b6918a8e34a5637a8f382da96f5"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jouppi2017datacenter",
+      "rawKey": "jouppi2017datacenter",
+      "display": "[48]",
+      "raw": "Norman P Jouppi, Cliff Young, Nishant Patil, David Patterson, Gaurav Agrawal, Raminder Bajwa, Sarah Bates, Suresh Bhatia, Nan Boden, Al Borchers, et al. In-datacenter performance analysis of a tensor processing unit. In Proceedings of the 44th annual international symposium on computer architecture, pages 1--12, 2017.",
+      "metadata": {
+        "title": "In-datacenter performance analysis of a tensor processing unit",
+        "authors": [
+          "Norman P. Jouppi",
+          "Cliff Young",
+          "Nishant Patil",
+          "David A. Patterson",
+          "Gaurav Agrawal",
+          "R. Bajwa",
+          "S. Bates",
+          "S. Bhatia",
+          "N. Boden",
+          "Al Borchers",
+          "R. Boyle",
+          "P. Cantin",
+          "C. Chao",
+          "C. Clark",
+          "Jeremy Coriell",
+          "M. Daley",
+          "M. Dau",
+          "Jeffrey Dean",
+          "Ben Gelb",
+          "Taraneh Ghaemmaghami",
+          "Rajendra Gottipati",
+          "William Gulland",
+          "R. Hagmann",
+          "C. Ho",
+          "Doug Hogberg",
+          "John Hu",
+          "R. Hundt",
+          "Dan Hurt",
+          "Julian Ibarz",
+          "A. Jaffey",
+          "A. Jaworski",
+          "Alexander Kaplan",
+          "Harshit Khaitan",
+          "Daniel Killebrew",
+          "A. Koch",
+          "Naveen Kumar",
+          "Steve Lacy",
+          "James Laudon",
+          "James Law",
+          "D. Le",
+          "Chris Leary",
+          "Zhuyuan Liu",
+          "Kyle Lucke",
+          "A. Lundin",
+          "G. MacKean",
+          "A. Maggiore",
+          "Maire Mahony",
+          "Kieran Miller",
+          "R. Nagarajan",
+          "Ravi Narayanaswami",
+          "Ray Ni",
+          "K. Nix",
+          "Thomas Norrie",
+          "Mark Omernick",
+          "Narayana Penukonda",
+          "A. Phelps",
+          "Jonathan Ross",
+          "Matt Ross",
+          "Amir Salek",
+          "Emad Samadiani",
+          "Chris Severn",
+          "Gregory Sizikov",
+          "Matthew Snelham",
+          "Jed Souter",
+          "Dan Steinberg",
+          "Andy Swing",
+          "Mercedes Tan",
+          "G. Thorson",
+          "Boyu Tian",
+          "Horia Toma",
+          "E. Tuttle",
+          "V. Vasudevan",
+          "R. Walter",
+          "Walter Wang",
+          "Eric Wilcox",
+          "D. Yoon"
+        ],
+        "year": 2017,
+        "venue": "2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)",
+        "doi": "10.1145/3079856.3080246",
+        "arxivId": "1704.04760",
+        "url": "https://www.semanticscholar.org/paper/2dfeb5a90abc49ab2a80a492a01a4e2c8e92ec22"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kailath1979displacement",
+      "rawKey": "kailath1979displacement",
+      "display": "[49]",
+      "raw": "Thomas Kailath, Sun-Yuan Kung, and Martin Morf. Displacement ranks of matrices and linear equations. Journal of Mathematical Analysis and Applications, 68 (2): 395--407, 1979.",
+      "metadata": {
+        "title": "Displacement ranks of matrices and linear equations",
+        "authors": [
+          "T. Kailath",
+          "S. Kung",
+          "M. Morf"
+        ],
+        "year": 1979,
+        "venue": "Journal of Mathematical Analysis and Applications",
+        "doi": "10.1016/0022-247X(79)90124-0",
+        "url": "https://www.semanticscholar.org/paper/7306af13eb2052fe9b9652c7d8b669655d307635"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-katharopoulos2020transformers",
+      "rawKey": "katharopoulos2020transformers",
+      "display": "[50]",
+      "raw": "Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, and Francois Fleuret. Transformers are RNNs: Fast autoregressive transformers with linear attention. In International Conference on Machine Learning, pages 5156--5165. PMLR, 2020.",
+      "metadata": {
+        "title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention",
+        "authors": [
+          "Angelos Katharopoulos",
+          "Apoorv Vyas",
+          "Nikolaos Pappas",
+          "François Fleuret"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2006.16236",
+        "arxivId": "2006.16236",
+        "url": "https://www.semanticscholar.org/paper/6f68e1bb253925d8431588555d3010419f322e04"
+      },
+      "localMatch": {
+        "paperPath": "papers/2006.16236",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kitaev2020reformer",
+      "rawKey": "kitaev2020reformer",
+      "display": "[51]",
+      "raw": "Nikita Kitaev, ukasz Kaiser, and Anselm Levskaya. Reformer: The efficient transformer. In The International Conference on Machine Learning (ICML), 2020.",
+      "metadata": {
+        "title": "Reformer: The Efficient Transformer",
+        "authors": [
+          "Nikita Kitaev",
+          "Lukasz Kaiser",
+          "Anselm Levskaya"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2001.04451",
+        "arxivId": "2001.04451",
+        "url": "https://www.semanticscholar.org/paper/055fd6a9f7293269f1b22c1470e63bd02d8d9500"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lan2019albert",
+      "rawKey": "lan2019albert",
+      "display": "[52]",
+      "raw": "Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and Radu Soricut. Albert: A lite BEDRT for self-supervised learning of language representations. In The International Conference on Learning Representations (ICLR), 2020.",
+      "metadata": {
+        "year": 2020
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-li2020deep",
+      "rawKey": "li2020deep",
+      "display": "[53]",
+      "raw": "Mingzhen Li, Yi Liu, Xiaoyan Liu, Qingxiao Sun, Xin You, Hailong Yang, Zhongzhi Luan, Lin Gan, Guangwen Yang, and Depei Qian. The deep learning compiler: A comprehensive survey. IEEE Transactions on Parallel and Distributed Systems, 32 (3): 708--727, 2020.",
+      "metadata": {
+        "title": "The Deep Learning Compiler: A Comprehensive Survey",
+        "authors": [
+          "Mingzhen Li",
+          "Yi Liu",
+          "Xiaoyan Liu",
+          "Qingxiao Sun",
+          "Xin You",
+          "Hai-Long Yang",
+          "Zhong-Zhi Luan",
+          "Lin Gan",
+          "Guang-Wen Yang",
+          "D. Qian"
+        ],
+        "year": 2020,
+        "venue": "IEEE Transactions on Parallel and Distributed Systems",
+        "doi": "10.1109/TPDS.2020.3030548",
+        "arxivId": "2002.03794",
+        "url": "https://www.semanticscholar.org/paper/f5db5693e67b0437fde23ef537322fe9fc17ff45"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-likhosherstov2020sub",
+      "rawKey": "likhosherstov2020sub",
+      "display": "[54]",
+      "raw": "Valerii Likhosherstov, Krzysztof Choromanski, Jared Davis, Xingyou Song, and Adrian Weller. Sub-linear memory: How to make performers slim. arXiv preprint arXiv:2012.11346, 2020.",
+      "metadata": {
+        "title": "Sub-Linear Memory: How to Make Performers SLiM",
+        "authors": [
+          "Valerii Likhosherstov",
+          "K. Choromanski",
+          "J. Davis",
+          "Xing-You Song",
+          "Adrian Weller"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2012.11346",
+        "arxivId": "2012.11346",
+        "url": "https://www.semanticscholar.org/paper/77706ee4cbdbb23345da22af37bc1b9f5ec8f110"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-NIPS2017_a51fb975",
+      "rawKey": "NIPS2017_a51fb975",
+      "display": "[55]",
+      "raw": "Ji Lin, Yongming Rao, Jiwen Lu, and Jie Zhou. Runtime neural pruning. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett, editors, Advances in Neural Information Processing Systems, volume 30. Curran Associates, Inc., 2017.",
+      "metadata": {
+        "title": "Runtime Neural Pruning",
+        "authors": [
+          "Ji Lin",
+          "Yongming Rao",
+          "Ji-Wen Lu",
+          "Jie Zhou"
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://www.semanticscholar.org/paper/88cd4209db62a34d9cba0b9cbe9d45d1e57d21e5"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-liu2019roberta",
+      "rawKey": "liu2019roberta",
+      "display": "[56]",
+      "raw": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692, 2019.",
+      "metadata": {
+        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "authors": [
+          "Yinhan Liu",
+          "Myle Ott",
+          "Naman Goyal",
+          "Jing-Fei Du",
+          "Mandar Joshi",
+          "Danqi Chen",
+          "Omer Levy",
+          "M. Lewis",
+          "Luke Zettlemoyer",
+          "Veselin Stoyanov"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1907.11692",
+        "arxivId": "1907.11692",
+        "url": "https://www.semanticscholar.org/paper/077f8329a7b6fa3b7c877a57b81eb6c18b5f87de"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ma2021luna",
+      "rawKey": "ma2021luna",
+      "display": "[57]",
+      "raw": "Xuezhe Ma, Xiang Kong, Sinong Wang, Chunting Zhou, Jonathan May, Hao Ma, and Luke Zettlemoyer. Luna: Linear unified nested attention. Advances in Neural Information Processing Systems, 34, 2021.",
+      "metadata": {
+        "title": "Luna: Linear Unified Nested Attention",
+        "authors": [
+          "Xuezhe Ma",
+          "Xiang Kong",
+          "Sinong Wang",
+          "Chunting Zhou",
+          "Jonathan May",
+          "Hao Ma",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2106.01540",
+        "arxivId": "2106.01540",
+        "url": "https://www.semanticscholar.org/paper/af679d69fcc1d0fcf0f039aba937853bcb50a8de"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mattson2020mlperf",
+      "rawKey": "mattson2020mlperf",
+      "display": "[58]",
+      "raw": "Peter Mattson, Christine Cheng, Gregory Diamos, Cody Coleman, Paulius Micikevicius, David Patterson, Hanlin Tang, Gu-Yeon Wei, Peter Bailis, Victor Bittorf, et al. Mlperf training benchmark. Proceedings of Machine Learning and Systems, 2: 336--349, 2020.",
+      "metadata": {
+        "title": "MLPerf Training Benchmark",
+        "authors": [
+          "Peter Mattson",
+          "Christine Cheng",
+          "Cody A. Coleman",
+          "G. Diamos",
+          "P. Micikevicius",
+          "David A. Patterson",
+          "Han-Lin Tang",
+          "Gu-Yeon Wei",
+          "Peter D. Bailis",
+          "Victor Bittorf",
+          "D. Brooks",
+          "Dehao Chen",
+          "Debo Dutta",
+          "Udit Gupta",
+          "Kim M. Hazelwood",
+          "A. Hock",
+          "Xinyuan Huang",
+          "A. Ike",
+          "Bill Jia",
+          "Daniel Kang",
+          "David Kanter",
+          "Naveen Kumar",
+          "J. Liao",
+          "Guokai Ma",
+          "D. Narayanan",
+          "Tayo Oguntebi",
+          "Gennady Pekhimenko",
+          "Lillian Pentecost",
+          "V. Reddi",
+          "Taylor Robie",
+          "Tom St. John",
+          "T. Tabaru",
+          "Carole-Jean Wu",
+          "Ling-Jie Xu",
+          "Masafumi Yamazaki",
+          "Cliff Young",
+          "M. Zaharia"
+        ],
+        "year": 2019,
+        "venue": "Conference on Machine Learning and Systems",
+        "doi": "10.48550/arXiv.1910.01500",
+        "arxivId": "1910.01500",
+        "url": "https://www.semanticscholar.org/paper/d8e73f9034e16a380903282353e762d7f9517983"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mcsherry2015scalability",
+      "rawKey": "mcsherry2015scalability",
+      "display": "[59]",
+      "raw": "Frank McSherry, Michael Isard, and Derek G Murray. Scalability! but at what ${$COST$}$? In 15th Workshop on Hot Topics in Operating Systems (HotOS XV), 2015.",
+      "metadata": {
+        "title": "Scalability! But at what COST?",
+        "authors": [
+          "F. McSherry",
+          "M. Isard",
+          "D. Murray"
+        ],
+        "year": 2015,
+        "venue": "USENIX Workshop on Hot Topics in Operating Systems",
+        "url": "https://www.semanticscholar.org/paper/d133ef683d10af9102dad8a2a974b388fa42526a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-milakov2018online",
+      "rawKey": "milakov2018online",
+      "display": "[60]",
+      "raw": "Maxim Milakov and Natalia Gimelshein. Online normalizer calculation for softmax. arXiv preprint arXiv:1805.02867, 2018.",
+      "metadata": {
+        "title": "Online normalizer calculation for softmax",
+        "authors": [
+          "Maxim Milakov",
+          "N. Gimelshein"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1805.02867",
+        "arxivId": "1805.02867",
+        "url": "https://www.semanticscholar.org/paper/ec1f582446aa24f3f0920123ee6f05feea0b5e0a"
+      },
+      "localMatch": {
+        "paperPath": "papers/1805.02867",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-nvidia2017nvidia",
+      "rawKey": "nvidia2017nvidia",
+      "display": "[61]",
+      "raw": "NVIDIA. Nvidia Tesla V100 GPU architecture, 2017.",
+      "metadata": {
+        "year": 2017
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-nvidia2020nvidia",
+      "rawKey": "nvidia2020nvidia",
+      "display": "[62]",
+      "raw": "NVIDIA. Nvidia A100 tensor core GPU architecture, 2020.",
+      "metadata": {
+        "title": "Nvidia A100 tensor core GPU architecture",
+        "year": 2020,
+        "venue": "NVIDIA"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-nvidia2022nvidia",
+      "rawKey": "nvidia2022nvidia",
+      "display": "[63]",
+      "raw": "NVIDIA. Nvidia H100 tensor core GPU architecture, 2022.",
+      "metadata": {
+        "year": 2022
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-parker1995random",
+      "rawKey": "parker1995random",
+      "display": "[64]",
+      "raw": "D Stott Parker. Random butterfly transformations with applications in computational linear algebra. 1995.",
+      "metadata": {
+        "title": "8 Concluding Remarks",
+        "authors": [
+          "D. Parker"
+        ],
+        "year": 1995,
+        "url": "https://www.semanticscholar.org/paper/61c910a8730ea99bc38bedc56f5174108a5fca4c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-paszke2019pytorch",
+      "rawKey": "paszke2019pytorch",
+      "display": "[65]",
+      "raw": "Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, et al. Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems, 32, 2019.",
+      "metadata": {
+        "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+        "authors": [
+          "A. Paszke",
+          "Sam Gross",
+          "Francisco Massa",
+          "A. Lerer",
+          "James Bradbury",
+          "G. Chanan",
+          "T. Killeen",
+          "Ze-Ming Lin",
+          "N. Gimelshein",
+          "L. Antiga",
+          "A. Desmaison",
+          "Andreas Köpf",
+          "Edward Z. Yang",
+          "Z. DeVito",
+          "M. Raison",
+          "A. Tejani",
+          "S. Chilamkurthy",
+          "Benoit Steiner",
+          "Lu Fang",
+          "Jun-Jie Bai",
+          "Soumith Chintala"
+        ],
+        "year": 2019,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1912.01703",
+        "arxivId": "1912.01703",
+        "url": "https://www.semanticscholar.org/paper/3c8a456509e6c0805354bd40a35e3f2dbf8069b1"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rabe2021self",
+      "rawKey": "rabe2021self",
+      "display": "[66]",
+      "raw": "Markus N Rabe and Charles Staats. Self-attention does not need $ O (n^2) $ memory. arXiv preprint arXiv:2112.05682, 2021.",
+      "metadata": {
+        "title": "Self-attention Does Not Need $O(n^2)$ Memory",
+        "authors": [
+          "M. Rabe",
+          "Charles Staats"
+        ],
+        "year": 2021,
+        "arxivId": "2112.05682",
+        "url": "https://www.semanticscholar.org/paper/53c3940f35b8b45d55ed49056282e1961954513d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-radford2019language",
+      "rawKey": "radford2019language",
+      "display": "[67]",
+      "raw": "Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, et al. Language models are unsupervised multitask learners. OpenAI blog, 1 (8): 9, 2019.",
+      "metadata": {
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "authors": [
+          "A. Radford",
+          "Jeff Wu",
+          "R. Child",
+          "D. Luan",
+          "D. Amodei",
+          "I. Sutskever"
+        ],
+        "year": 2019,
+        "url": "https://www.semanticscholar.org/paper/9405cc0d6169988371b2755e573cc28650d14dfe"
+      },
+      "localMatch": {
+        "paperPath": "papers/language-models-are-unsupervised-multitask-learners",
+        "matchBy": "title"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rae-razavi-2020-transformers",
+      "rawKey": "rae-razavi-2020-transformers",
+      "display": "[68]",
+      "raw": "Jack Rae and Ali Razavi. Do transformers need deep long-range memory? In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, Online, July 2020. Association for Computational Linguistics. URL https://www.aclweb.org/anthology/2020.acl-main.672.",
+      "metadata": {
+        "title": "Do Transformers Need Deep Long-Range Memory?",
+        "authors": [
+          "Jack W. Rae",
+          "Ali Razavi"
+        ],
+        "year": 2020,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2007.03356",
+        "arxivId": "2007.03356",
+        "url": "https://www.aclweb.org/anthology/2020.acl-main.672"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rae2019compressive",
+      "rawKey": "rae2019compressive",
+      "display": "[69]",
+      "raw": "Jack W Rae, Anna Potapenko, Siddhant M Jayakumar, and Timothy P Lillicrap. Compressive transformers for long-range sequence modelling. In The International Conference on Learning Representations (ICLR), 2020.",
+      "metadata": {
+        "title": "Compressive Transformers for Long-Range Sequence Modelling",
+        "authors": [
+          "Jack W. Rae",
+          "Anna Potapenko",
+          "Siddhant M. Jayakumar",
+          "Chloe Hillier",
+          "T. Lillicrap"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1911.05507",
+        "arxivId": "1911.05507",
+        "url": "https://www.semanticscholar.org/paper/f51497f463566581874c941353dd9d80069c5b77"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ragan2013halide",
+      "rawKey": "ragan2013halide",
+      "display": "[70]",
+      "raw": "Jonathan Ragan-Kelley, Connelly Barnes, Andrew Adams, Sylvain Paris, Fredo Durand, and Saman Amarasinghe. Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines. Acm Sigplan Notices, 48 (6): 519--530, 2013.",
+      "metadata": {
+        "title": "Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines",
+        "authors": [
+          "Jonathan Ragan-Kelley",
+          "Connelly Barnes",
+          "Andrew Adams",
+          "Sylvain Paris",
+          "F. Durand",
+          "Saman P. Amarasinghe"
+        ],
+        "year": 2013,
+        "venue": "Proceedings of the 34th ACM SIGPLAN Conference on Programming Language Design and Implementation",
+        "doi": "10.1145/2491956.2462176",
+        "url": "https://www.semanticscholar.org/paper/4d23db55e6671a82c95dacec33b2967a4b8b677d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ramakrishnan2003database",
+      "rawKey": "ramakrishnan2003database",
+      "display": "[71]",
+      "raw": "Raghu Ramakrishnan, Johannes Gehrke, and Johannes Gehrke. Database management systems, volume 3. McGraw-Hill New York, 2003.",
+      "metadata": {
+        "title": "Database Management Systems",
+        "authors": [
+          "S. Hargitay",
+          "Timothy K. Dixon"
+        ],
+        "year": 2021,
+        "venue": "Software",
+        "doi": "10.1145/3477339.3477347",
+        "url": "https://www.semanticscholar.org/paper/f82d09363e9a657749d14e97e9d6d1410331b436"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-recht2013parallel",
+      "rawKey": "recht2013parallel",
+      "display": "[72]",
+      "raw": "Benjamin Recht and Christopher Re. Parallel stochastic gradient algorithms for large-scale matrix completion. Mathematical Programming Computation, 5 (2): 201--226, 2013.",
+      "metadata": {
+        "title": "Parallel stochastic gradient algorithms for large-scale matrix completion",
+        "authors": [
+          "B. Recht",
+          "C. Ré"
+        ],
+        "year": 2013,
+        "venue": "Mathematical Programming Computation",
+        "doi": "10.1007/s12532-013-0053-8",
+        "url": "https://www.semanticscholar.org/paper/d3986480be64dce5ae55c1f64df660d7d698f8fb"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ren2021combiner",
+      "rawKey": "ren2021combiner",
+      "display": "[73]",
+      "raw": "Hongyu Ren, Hanjun Dai, Zihang Dai, Mengjiao Yang, Jure Leskovec, Dale Schuurmans, and Bo Dai. Combiner: Full attention transformer with sparse computation cost. Advances in Neural Information Processing Systems, 34, 2021.",
+      "metadata": {
+        "title": "Combiner: Full Attention Transformer with Sparse Computation Cost",
+        "authors": [
+          "Hongyu Ren",
+          "Han-Jun Dai",
+          "Zi-Hang Dai",
+          "Mengjiao Yang",
+          "J. Leskovec",
+          "Dale Schuurmans",
+          "Bo Dai"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2107.05768",
+        "arxivId": "2107.05768",
+        "url": "https://www.semanticscholar.org/paper/5d032bd2632b6f5847767f39ce247098c6bbc563"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-roy2021efficient",
+      "rawKey": "roy2021efficient",
+      "display": "[74]",
+      "raw": "Aurko Roy, Mohammad Saffar, Ashish Vaswani, and David Grangier. Efficient content-based sparse attention with routing transformers. Transactions of the Association for Computational Linguistics, 9: 53--68, 2021.",
+      "metadata": {
+        "title": "Efficient Content-Based Sparse Attention with Routing Transformers",
+        "authors": [
+          "Aurko Roy",
+          "M. Saffar",
+          "Ashish Vaswani",
+          "D. Grangier"
+        ],
+        "year": 2020,
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "doi": "10.1162/tacl_a_00353",
+        "arxivId": "2003.05997",
+        "url": "https://www.semanticscholar.org/paper/fdadfb4b43f41d6b0264423b7deb016ff761c4e9"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sabne2020xla",
+      "rawKey": "sabne2020xla",
+      "display": "[75]",
+      "raw": "Amit Sabne. XLA: Compiling machine learning for peak performance. 2020.",
+      "metadata": {
+        "title": "XLA: Compiling machine learning for peak performance",
+        "year": 2020
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sanh2020movement",
+      "rawKey": "sanh2020movement",
+      "display": "[76]",
+      "raw": "Victor Sanh, Thomas Wolf, and Alexander M Rush. Movement pruning: Adaptive sparsity by fine-tuning. arXiv preprint arXiv:2005.07683, 2020.",
+      "metadata": {
+        "title": "Movement Pruning: Adaptive Sparsity by Fine-Tuning",
+        "authors": [
+          "Victor Sanh",
+          "Thomas Wolf",
+          "Alexander M. Rush"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2005.07683",
+        "arxivId": "2005.07683",
+        "url": "https://www.semanticscholar.org/paper/66f0f35fc78bdf2af9de46093d49a428970cde2e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shoeybi2019megatron",
+      "rawKey": "shoeybi2019megatron",
+      "display": "[77]",
+      "raw": "Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and Bryan Catanzaro. Megatron-LM: Training multi-billion parameter language models using model parallelism. arXiv preprint arXiv:1909.08053, 2019.",
+      "metadata": {
+        "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+        "authors": [
+          "M. Shoeybi",
+          "M. Patwary",
+          "Raul Puri",
+          "P. LeGresley",
+          "J. Casper",
+          "Bryan Catanzaro"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1909.08053",
+        "arxivId": "1909.08053",
+        "url": "https://www.semanticscholar.org/paper/8323c591e119eb09b28b29fd6c7bc76bd889df7a"
+      },
+      "localMatch": {
+        "paperPath": "papers/1909.08053",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sindhwani2015structured",
+      "rawKey": "sindhwani2015structured",
+      "display": "[78]",
+      "raw": "Vikas Sindhwani, Tara Sainath, and Sanjiv Kumar. Structured transforms for small-footprint deep learning. In Advances in Neural Information Processing Systems, pages 3088--3096, 2015.",
+      "metadata": {
+        "title": "Structured Transforms for Small-Footprint Deep Learning",
+        "authors": [
+          "Vikas Sindhwani",
+          "T. Sainath",
+          "Sanjiv Kumar"
+        ],
+        "year": 2015,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1510.01722",
+        "arxivId": "1510.01722",
+        "url": "https://www.semanticscholar.org/paper/bf76be8df2f2bc56edac98a5d0dfc19c85882eaa"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sukhbaatar2019adaptive",
+      "rawKey": "sukhbaatar2019adaptive",
+      "display": "[79]",
+      "raw": "Sainbayar Sukhbaatar, Edouard Grave, Piotr Bojanowski, and Armand Joulin. Adaptive attention span in transformers. In Proceedings of the Annual Meeting of the Association for Computational Linguistics, 2019.",
+      "metadata": {
+        "title": "Adaptive Attention Span in Transformers",
+        "authors": [
+          "Sainbayar Sukhbaatar",
+          "E. Grave",
+          "P. Bojanowski",
+          "A. Joulin"
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P19-1032",
+        "arxivId": "1905.07799",
+        "url": "https://www.semanticscholar.org/paper/f4238bd2385a52413ccbacfd9e409a650235bd13"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tay2020long",
+      "rawKey": "tay2020long",
+      "display": "[80]",
+      "raw": "Yi Tay, Mostafa Dehghani, Samira Abnar, Yikang Shen, Dara Bahri, Philip Pham, Jinfeng Rao, Liu Yang, Sebastian Ruder, and Donald Metzler. Long range arena: A benchmark for efficient transformers. In International Conference on Learning Representations, 2020a.",
+      "metadata": {
+        "title": "Long Range Arena: A Benchmark for Efficient Transformers",
+        "authors": [
+          "Yi Tay",
+          "Mostafa Dehghani",
+          "Samira Abnar",
+          "Yikang Shen",
+          "Dara Bahri",
+          "Philip Pham",
+          "J. Rao",
+          "Liu Yang",
+          "Sebastian Ruder",
+          "Donald Metzler"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2011.04006",
+        "arxivId": "2011.04006",
+        "url": "https://www.semanticscholar.org/paper/7e9ff94476f41041c75e253e84f487db00e9c861"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tay2020efficient",
+      "rawKey": "tay2020efficient",
+      "display": "[81]",
+      "raw": "Yi Tay, Mostafa Dehghani, Dara Bahri, and Donald Metzler. Efficient transformers: A survey. arXiv preprint arXiv:2009.06732, 2020b.",
+      "metadata": {
+        "title": "Efficient Transformers: A Survey",
+        "authors": [
+          "Yi Tay",
+          "Mostafa Dehghani",
+          "Dara Bahri",
+          "Donald Metzler"
+        ],
+        "year": 2020,
+        "venue": "ACM Computing Surveys",
+        "doi": "10.1145/3530811",
+        "arxivId": "2009.06732",
+        "url": "https://www.semanticscholar.org/paper/7e5709d81558d3ef4265de29ea75931afeb1f2dd"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vaswani2017attention",
+      "rawKey": "vaswani2017attention",
+      "display": "[82]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ukasz Kaiser, and Illia Polosukhin. Attention is all you need. Advances in neural information processing systems, 30, 2017.",
+      "metadata": {
+        "title": "Attention is All you Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "N. Parmar",
+          "J. Uszkoreit",
+          "L. Jones",
+          "Aidan N. Gomez",
+          "Lukasz Kaiser",
+          "I. Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1706.03762",
+        "arxivId": "1706.03762",
+        "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2022deepnet",
+      "rawKey": "wang2022deepnet",
+      "display": "[83]",
+      "raw": "Hongyu Wang, Shuming Ma, Li Dong, Shaohan Huang, Dongdong Zhang, and Furu Wei. Deepnet: Scaling transformers to 1,000 layers. arXiv preprint arXiv:2203.00555, 2022.",
+      "metadata": {
+        "title": "DeepNet: Scaling Transformers to 1,000 Layers",
+        "authors": [
+          "Hongyu Wang",
+          "Shu-Ming Ma",
+          "Li Dong",
+          "Shao-Han Huang",
+          "Dong-Dong Zhang",
+          "Furu Wei"
+        ],
+        "year": 2022,
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "doi": "10.1109/TPAMI.2024.3386927",
+        "arxivId": "2203.00555",
+        "url": "https://www.semanticscholar.org/paper/e0995bad59c8638ea8c319bb7220c0f0b1ed5dca"
+      },
+      "localMatch": {
+        "paperPath": "papers/10_1109_TPAMI_2024_3386927",
+        "matchBy": "doi"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2020linformer",
+      "rawKey": "wang2020linformer",
+      "display": "[84]",
+      "raw": "Sinong Wang, Belinda Z Li, Madian Khabsa, Han Fang, and Hao Ma. Linformer: Self-attention with linear complexity. arXiv preprint arXiv:2006.04768, 2020.",
+      "metadata": {
+        "title": "Linformer: Self-Attention with Linear Complexity",
+        "authors": [
+          "Sinong Wang",
+          "Belinda Z. Li",
+          "Madian Khabsa",
+          "Han Fang",
+          "Hao Ma"
+        ],
+        "year": 2020,
+        "doi": "10.48550/arXiv.2006.04768",
+        "arxivId": "2006.04768",
+        "url": "https://www.semanticscholar.org/paper/c0b79e6a5fd88ef13aa4780df5aae0aaa6b2be87"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-williams2009roofline",
+      "rawKey": "williams2009roofline",
+      "display": "[85]",
+      "raw": "Samuel Williams, Andrew Waterman, and David Patterson. Roofline: an insightful visual performance model for multicore architectures. Communications of the ACM, 52 (4): 65--76, 2009.",
+      "metadata": {
+        "year": 2009
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-wolf1991data",
+      "rawKey": "wolf1991data",
+      "display": "[86]",
+      "raw": "Michael E Wolf and Monica S Lam. A data locality optimizing algorithm. In Proceedings of the ACM SIGPLAN 1991 conference on Programming language design and implementation, pages 30--44, 1991.",
+      "metadata": {
+        "title": "A data locality optimizing algorithm",
+        "authors": [
+          "Michael E. Wolf",
+          "Monica S. Lam"
+        ],
+        "year": 1991,
+        "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+        "doi": "10.1145/113445.113449",
+        "url": "https://www.semanticscholar.org/paper/f4dff66ba8f2338d118f379f2eff1410feb57ce6"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wolf-etal-2020-transformers",
+      "rawKey": "wolf-etal-2020-transformers",
+      "display": "[87]",
+      "raw": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, RÃmi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest, and Alexander M. Rush. Transformers: State-of-the-art natural language processing. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, pages 38--45, Online, October 2020. Association for Computational Linguistics. URL https://www.aclweb.org/anthology/2020.emnlp-demos.6.",
+      "metadata": {
+        "title": "Transformers: State-of-the-Art Natural Language Processing",
+        "year": 2020,
+        "venue": "EMNLP",
+        "url": "https://www.aclweb.org/anthology/2020.emnlp-demos.6"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-woodruff2004optimal",
+      "rawKey": "woodruff2004optimal",
+      "display": "[88]",
+      "raw": "David P Woodruff. Optimal space lower bounds for all frequency moments. In SODA, volume 4, pages 167--175. Citeseer, 2004.",
+      "metadata": {
+        "title": "Optimal space lower bounds for all frequency moments",
+        "authors": [
+          "David P. Woodruff"
+        ],
+        "year": 2004,
+        "venue": "ACM-SIAM Symposium on Discrete Algorithms",
+        "url": "https://www.semanticscholar.org/paper/42cdd8bbd91464461f796b565c9beff50186fc20"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2019pay",
+      "rawKey": "wu2019pay",
+      "display": "[89]",
+      "raw": "Felix Wu, Angela Fan, Alexei Baevski, Yann N Dauphin, and Michael Auli. Pay less attention with lightweight and dynamic convolutions. In The International Conference on Learning Representations (ICLR), 2019.",
+      "metadata": {
+        "title": "Pay Less Attention with Lightweight and Dynamic Convolutions",
+        "authors": [
+          "Felix Wu",
+          "Angela Fan",
+          "Alexei Baevski",
+          "Y. Dauphin",
+          "M. Auli"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1901.10430",
+        "arxivId": "1901.10430",
+        "url": "https://www.semanticscholar.org/paper/fea820b7d953d32069e189af2961c28fd213470b"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xiong2021nystromformer",
+      "rawKey": "xiong2021nystromformer",
+      "display": "[90]",
+      "raw": "Yunyang Xiong, Zhanpeng Zeng, Rudrasis Chakraborty, Mingxing Tan, Glenn Fung, Yin Li, and Vikas Singh. Nystromformer: A nystom-based algorithm for approximating self-attention. In Proceedings of the AAAI Conference on Artificial Intelligence. AAAI Conference on Artificial Intelligence, volume 35, page 14138, 2021.",
+      "metadata": {
+        "title": "Nyströmformer: A Nystöm-based Algorithm for Approximating Self-Attention",
+        "authors": [
+          "Yunyang Xiong",
+          "Zhanpeng Zeng",
+          "Rudrasis Chakraborty",
+          "M. Tan",
+          "G. Fung",
+          "Yin Li",
+          "Vikas Singh"
+        ],
+        "year": 2021,
+        "venue": "Proceedings of the ... AAAI Conference on Artificial Intelligence. AAAI Conference on Artificial Intelligence",
+        "doi": "10.48550/arXiv.2102.03902",
+        "arxivId": "2102.03902",
+        "url": "https://www.semanticscholar.org/paper/6fa1cfc4f97f03a8485692418c7aa1a06c574a85"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yuan2021tokens",
+      "rawKey": "yuan2021tokens",
+      "display": "[91]",
+      "raw": "Li Yuan, Yunpeng Chen, Tao Wang, Weihao Yu, Yujun Shi, Zi-Hang Jiang, Francis EH Tay, Jiashi Feng, and Shuicheng Yan. Tokens-to-token vit: Training vision transformers from scratch on imagenet. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 558--567, 2021.",
+      "metadata": {
+        "title": "Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet",
+        "authors": [
+          "Li Yuan",
+          "Yun-Peng Chen",
+          "Tao Wang",
+          "Weihao Yu",
+          "Yujun Shi",
+          "Zi-Hang Jiang",
+          "Francis E. H. Tay",
+          "Jiashi Feng",
+          "S. Yan"
+        ],
+        "year": 2021,
+        "venue": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+        "doi": "10.1109/ICCV48922.2021.00060",
+        "arxivId": "2101.11986",
+        "url": "https://www.semanticscholar.org/paper/dbe077f8521ecbe0a1477d6148c726d4f053d9c9"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zaheer2020bigbird",
+      "rawKey": "zaheer2020bigbird",
+      "display": "[92]",
+      "raw": "Manzil Zaheer, Guru Guruganesh, Kumar Avinava Dubey, Joshua Ainslie, Chris Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang, et al. Big bird: Transformers for longer sequences. Advances in Neural Information Processing Systems, 33, 2020.",
+      "metadata": {
+        "title": "Big Bird: Transformers for Longer Sequences",
+        "authors": [
+          "M. Zaheer",
+          "G. Guruganesh",
+          "Kumar Avinava Dubey",
+          "Joshua Ainslie",
+          "Chris Alberti",
+          "Santiago Ontañón",
+          "Philip Pham",
+          "Anirudh Ravula",
+          "Qi-Fan Wang",
+          "Li Yang",
+          "Amr Ahmed"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2007.14062",
+        "arxivId": "2007.14062",
+        "url": "https://www.semanticscholar.org/paper/044e13d7dd4e0655eb76f0bd00b2c1bdb44e2be3"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhai2021attention",
+      "rawKey": "zhai2021attention",
+      "display": "[93]",
+      "raw": "Shuangfei Zhai, Walter Talbott, Nitish Srivastava, Chen Huang, Hanlin Goh, Ruixiang Zhang, and Josh Susskind. An attention free transformer. arXiv preprint arXiv:2105.14103, 2021.",
+      "metadata": {
+        "title": "An Attention Free Transformer",
+        "authors": [
+          "Shuang-Fei Zhai",
+          "Walter A. Talbott",
+          "Nitish Srivastava",
+          "Chen Huang",
+          "Han-Lin Goh",
+          "Rui-Xiang Zhang",
+          "J. Susskind"
+        ],
+        "year": 2021,
+        "doi": "10.48550/arXiv.2105.14103",
+        "arxivId": "2105.14103",
+        "url": "https://www.semanticscholar.org/paper/d5e999aae76d5270ef272076979c809817458212"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhu2021long",
+      "rawKey": "zhu2021long",
+      "display": "[94]",
+      "raw": "Chen Zhu, Wei Ping, Chaowei Xiao, Mohammad Shoeybi, Tom Goldstein, Anima Anandkumar, and Bryan Catanzaro. Long-short transformer: Efficient transformers for language and vision. Advances in Neural Information Processing Systems, 34, 2021.",
+      "metadata": {
+        "title": "Long-Short Transformer: Efficient Transformers for Language and Vision",
+        "authors": [
+          "Chen Zhu",
+          "Wei Ping",
+          "Chaowei Xiao",
+          "M. Shoeybi",
+          "T. Goldstein",
+          "Anima Anandkumar",
+          "Bryan Catanzaro"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2107.02192",
+        "arxivId": "2107.02192",
+        "url": "https://www.semanticscholar.org/paper/1a883522f3c0051d70be1f8cbdb8989a77395006"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 94 entries (bbl)",
+    "semantic scholar: 111 references",
+    "merged: 86 of 94 enriched online"
+  ]
+}

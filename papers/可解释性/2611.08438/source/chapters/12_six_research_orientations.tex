@@ -1,0 +1,374 @@
+\section{Six Research Orientations}
+\label{sec:orientations}
+
+An \emph{orientation} is a coherent research programme defined by its goals, assumptions, and trade-offs. In contrast, a \emph{method} is an established modular pipeline that may be used in different orientations. In AI interpretability, different research goals, such as developing ready-to-use safety measures or achieving complete mechanistic understanding, have led to distinct research programmes. This section organises six major research orientations and summarises their scientific objectives, core assumptions, characteristic methods, and limitations~(\citeemalp{nanda2025pragmatic, gao2025ambitious, li2025traininglanguagemodelsexplain, hoogland2023towards, barez2025automated}; \citeestalp{biderman2026position}; Figure~\ref{fig:sixresearchorientation}). Note that no single orientation is universally preferable. The choice depends on the research objective, deployment context, available resources, and tolerance for different forms of uncertainty.
+
+\begin{figure}[tb]
+  \centering
+    \includegraphics[width=\linewidth]{figs/research_directions_compressed.pdf}
+    \caption{Six research orientations of AI interpretability.}
+    \label{fig:sixresearchorientation}
+\end{figure}
+
+\subsection{Pragmatic Interpretability: Proxy-Task-Oriented Safety Interventions}
+\label{subsec: pragmatic interp}
+\emph{Pragmatic Interpretability} focuses on doing the research most helpful for longer-term alignment and interpretability goals, such as helping AGI go well~\citeem{nanda2025pragmatic}. Proponents argue that full mechanistic understanding is not required to have significant impact; instead, researchers should prioritise the work most likely to help~\citeem{nanda2025pragmatic}. The central idea is to work on a set of operationally meaningful proxy tasks that can be empirically studied on models today to help make powerful future models safe. Researchers are agnostic about which methods they use, even if they do not involve model internals. Though not required, these proxy tasks may also be directly useful on today's deployed systems, providing valuable feedback.
+
+A representative example is the study of Claude Sonnet 4.5’s evaluation awareness~\citeem{anthropic2025claude-sonnet-4-5}. The system was shown to condition its behaviour on the presence of evaluation signals, making results from safety evaluations used for previous models harder to interpret. Researchers identified and applied a steering vector that suppresses this awareness, allowing evaluation of its actual behaviour. While this study does not fully explain the internal mechanism of evaluation awareness, it is sufficient to produce a concrete and safety-relevant behavioural change, illustrating the pragmatic philosophy.
+
+Another example is \citetem{marks2025auditinglanguagemodelshidden}. In this case, researchers constructed a proxy task: they fine-tuned a model with a hidden goal, then blinded teams of researchers audited the model to discover it. This served as a proxy task for detecting a naturally emerging hidden goal in a future model. The different auditing teams used different techniques, allowing researchers to compare their efficacy.
+
+Common techniques in this paradigm include:
+\begin{itemize}
+\item \textbf{Steering vectors}, which shift models to targeted behaviours.
+\item \textbf{Probes}, which detect latent safety-relevant properties in activations.
+\item \textbf{Behavioural monitoring and anomaly detection}, which track signals indicative of emerging risks, such as monitoring the model's verbalised reasoning.
+
+\item \textbf{Prompting}, an effective black-box baseline method for steering model behaviour.
+\end{itemize}
+
+Recent work following this pragmatic trajectory has demonstrated effective control of refusal behaviour~\citeest{arditi2024refusallanguagemodelsmediated} and evaluation awareness~\citeem{anthropic2025claude-sonnet-4-5}. These interventions provide direct gains to contemporary systems. However, they may not (and are not designed to) fully explain how models implement their behaviours.
+
+\subsection{Ambitious Interpretability: Towards Complete Mechanistic Understanding}
+\label{subsec:ambitious}
+In contrast to pragmatic approaches, \emph{Ambitious Interpretability} seeks a comprehensive mechanistic understanding of how models implement their computations~\citeem{gao2025ambitious}. Proponents argue that partial or surface-level understanding cannot guarantee safety in next-generation systems. Full understanding is needed to rule out hidden failure modes or deceptive internal dynamics. Specifically, Ambitious Interpretability does not treat interpretability as a collection of useful heuristics. Instead, it treats interpretability as a scientific objective: to reverse-engineer the model and develop a transparent, predictive theory of its internal algorithms.
+
+Ambitious Interpretability particularly emphasises \emph{metric-driven progress}. Motivated by the fact that existing mechanistic approaches still struggle with stringent metrics, it proposes starting with looser ones, tracking and improving methods’ performance on them, and adopting stricter metrics when suitable. Two example metrics by \citetem{gao2025ambitious} are:
+\begin{itemize}
+    \item \textbf{Feature quality:} demonstrating that extracted features and their natural-language explanations are faithful and simulatable.
+    \item \textbf{Circuit faithfulness:} demonstrating circuits are necessary and sufficient for explaining behaviour via causal intervention (e.g., causal scrubbing~\citeem{chan2022causal}), without performance degradation.
+\end{itemize}
+
+The disadvantage of this ambition is its cost. Fine-grained mechanistic analysis of frontier large models is computationally expensive and sometimes intractable. As \citetem{gao2025ambitious} emphasised, current tools still fall far short of the coverage and robustness required for a truly comprehensive understanding.
+
+\paragraph{Interpretability-by-design as a Synthesis.}
+The emergence of interpretability-by-design models (Section~\ref{sec:architectural-interventions}) blurs the boundary between Ambitious and Pragmatic Interpretability. These methods~\citeest{gao2025weight, pearce2025bilinear, park2025monet, oldfield2024multilinear} aim to make representations and circuits easier to understand by modifying model architectures rather than relying entirely on post-hoc reverse engineering. This practical change to model design pursues the ambitious goal of mechanistic understanding. However, it remains unclear whether these methods can ultimately achieve complete mechanistic understanding. In the short term, they may simply represent a separate ``Engineering'' orientation in which interpretability is treated as an optimisation objective.
+
+\subsection{Developmental Interpretability: Characterising How Models Learn}
+\label{subsec:dev interp}
+Complementing post-hoc analysis of trained models, \emph{Developmental Interpretability}~(\citeemalp{hoogland2023towards}; \citeestalp{hoogland2025losslandscapedegeneracystagewise})
+treats the training process itself as an object of scientific inquiry. Taking a learning-theory perspective, it aims to mathematically formalise the emergence and evolution of model representations, effective complexity, and capabilities throughout training.
+
+Its central claim is that many neural network properties which are hard to analyse through a fixed model checkpoint can be understood through their developmental process. This process contains measurable, modelable signatures that can serve as proxies for the model’s properties of interest, such as developmental stages, phase transitions, and other organising principles that help mathematically explain how complex behaviours emerge and evolve throughout training. A classic example is the Local Learning Coefficient (LLC) introduced in Sections~\ref{sec:ld-localization} and \ref{sec:training_phase_why}. It successfully serves as a signature of the model’s effective complexity, allowing us to observe developmental transitions and compare two models with the same training loss.
+
+Methods in this paradigm include:
+\begin{itemize}
+\item \textbf{Singular Learning Theory (SLT)} and related mathematical frameworks for characterising developmental stages, symmetry breaking, and changes in the geometry of the loss landscape during training.
+\item \textbf{Checkpoint-based analysis} to track the emergence of representations and mechanisms by applying specialised probes, feature discovery methods, and circuit analyses across a model's training checkpoints.
+\end{itemize}
+
+More specifically, Developmental Interpretability aims to answer questions such as: Can we characterise the development of model capabilities or behaviours as phase transitions during training? What developmental stages precede the formation of a certain mechanism? How does the optimisation process transform distributed representations into structured mechanisms? Unlike Interpretability Across Time (detailed in Section~\ref{subsec: iat}), which emphasises forecasting and controlling future model behaviour, Developmental Interpretability is primarily concerned with understanding the developmental processes that produce those behaviours. Its primary goal is rigorous scientific explanation rather than predicting or intervening on capabilities.
+
+\subsection{Interpretability Across Time: Understanding the Causes of Model Behaviours}
+\label{subsec: iat}
+
+Like Developmental Interpretability, \emph{Interpretability Across Time}~\citeest{biderman2023pythia,biderman2026position} treats a model as a time-evolving process shaped by its training data, loss functions, architectures, and optimisation dynamics. However, the two orientations differ in their primary goals. Developmental Interpretability mainly focuses on characterising the developmental processes that give rise to the model's internal features, mechanisms, and capabilities. In contrast, Interpretability Across Time seeks established knowledge of learning that is (1) sufficiently predictive to estimate important model properties before training is complete, (2) sufficiently causal to identify when and why undesirable trajectories arise, and (3) sufficiently precise to enable interventions on the learning process itself~\citeest{biderman2026position}. From a safety perspective, this orientation aims to understand and ultimately shape the training process to prevent the model from developing undesirable behaviours in the first place rather than repairing them after they develop.
+
+Interpretability Across Time builds on three areas of research. First, scaling-law studies show that model performance can be predicted from factors such as model size, training data, and compute~(\citeemalp{kaplan2020scaling}; \citeestalp{hoffmann2022training}). This motivates similar efforts to predict safety-relevant model properties~\citeem{ganguli2022redteaminglanguagemodels, jones2025forecasting}. Second, longitudinal mechanistic studies track how internal mechanisms develop during training~\citeest{tigges2024llm,singh2024needsrightinductionhead}. Third, studies of training data show that the training distribution can affect downstream model behaviour. For example, \citetest{razeghi2022impact} found that few-shot numerical reasoning performance depends strongly on the frequency of relevant terms in pretraining data, while \citetem{elazar2022measuring} estimated the causal effects of pretraining-data statistics on factual predictions. Interpretability Across Time builds on these findings to predict and influence safety-relevant model behaviour during training.
+
+Methods in this paradigm include:
+\begin{itemize}
+\item \textbf{Longitudinal analysis of model internals,} tracking representations, features, or implemented mechanisms across checkpoints to determine when and how they form and evolve.
+\item \textbf{Monitoring training runs and forecasting future behaviour,} using early behavioural or internal signals to predict later capabilities, biases, or unsafe behaviours before they are fully expressed.
+\item \textbf{Training-process interventions and design}, manipulating data, activations, objectives, architectures, or other aspects of optimisation to encourage desirable developmental trajectories, prevent undesirable capabilities or behaviours from arising, or ensure that learned information is represented in ways that make it easier to control.
+\end{itemize}
+
+Several studies have examined whether safety risks can be identified before or during training. \citetem{zhang2026whatshapes} found that model activations measured before fine-tuning can predict alignment scores after fine-tuning. Similarly, \citetest{wang2026persona} identified internal features associated with emergent misalignment, which could sometimes detect misalignment before behavioural evaluations did. Other studies found that training models to exploit relatively simple reward misspecifications can lead to more serious failures, including reward tampering and broader misaligned behaviour~\citeem{denison2024sycophancy,taylor2025school}. These findings motivate monitoring early signs of undesirable behaviour during training rather than relying solely on the evaluation of the final model.
+
+Another line of work under this paradigm attempts to directly shape models by preventing them from learning unsafe behaviours. Data filtering can prevent models from acquiring hazardous information in the first place and substantially increase the amount of subsequent fine-tuning required to recover it~(\citeestalp{obrien2026deep}; \citeemalp{rathi2026shaping}), and gradient routing approaches deliberately constrain \textit{where or how} information is learned, making later removal or control more tractable~\citeem{cloud2024gradient, shilov2025beyond}.
+
+\paragraph{Common confusion.} Although \citetest{biderman2026position} contrasted this orientation with the ``fix it in post'' paradigm, it would be a mistake to view it as dismissive of post-training writ large. Post-training is itself a training process, and behaviours like sycophancy and reward hacking arise primarily during and due to post-training. This orientation's criticism of post-training safety focuses on cases where, instead of understanding why a behaviour developed, post-training patches undesirable behaviour. The core distinction is \emph{understanding and controlling a training process} versus \emph{applying optimisation pressure to suppress learned behaviours}.
+
+Interpretability Across Time is not mutually exclusive with the other research orientations. It can be Pragmatic, by using a simple probe as an early-warning signal, or Ambitious, by seeking a mechanistic theory of why a circuit forms under gradient descent. Its defining goal is using insights into training dynamics to explain and predict how model behaviour develops, and to intervene before undesirable behaviours emerge.
+
+\subsection{Introspective Interpretability: Models Interpreting Themselves}
+\label{sec:intro-interpretability}
+\emph{Introspective Interpretability}~(\citeestalp{binder}; \citeemalp{plunkett, li2025traininglanguagemodelsexplain,guo2026introspectivecouplingselfexplanationtraining,li2026introspective}) uses the model being explained as its own explainer. Its main practical advantage is its unique accessibility. For a given introspective model, it requires no white-box access or specialised tooling to explain its decisions; anyone can get the \emph{self-explanation} (or interchangeably \emph{self-report}) at deployment time by asking the model a follow-up question in an ordinary chat interface.
+
+This research direction is supported by the privileged access hypothesis discussed in Section~\ref{subsec:privileged-access}, which posits that models may have access to internal information that is difficult to recover through external analysis alone, including typical mechanistic analysis or a different model as the explainer. Recent work has leveraged this idea by fine-tuning target models to faithfully report their internal reasoning, behavioural tendencies, objectives, and even weight changes induced by training~\citeest{goel}.
+
+A related line of work fine-tunes metamodels (external explainers) on the internal representations of a target model~(\citeestalp{pan2024latentqateachingllmsdecode, ao}; \citeemalp{buildingbetterao, pcd}). These methods are generally not considered instances of Introspective Interpretability because the explainer is technically a separate model. However, the distinction can be blurry in practice, as many of these explainers are initialised from the target model and can be viewed as specialised, fine-tuned descendants of the original model.
+
+\subsubsection{Concerns for Introspective Interpretability}
+
+Self-explanation also raises concerns. For example, generated explanations can be plausible yet unfaithful. The model’s general capability can also degrade when it is trained to honestly verbalise its internal processing. Moreover, the model may have fundamental limitations in what it can report. These concerns raise questions about whether we can trust self-explanations in safety-critical applications and how to validate potentially misleading reports. Below, we first discuss the main failure modes of self-explanation, followed by validation procedures in Section~\ref{subsec:valproce model self-reports}. 
+
+\begin{warningbox}[Failure Modes of Self-Explanation]
+Introspective methods can fail in several ways. In each case, the explanation appears plausible yet is unfaithful.\\
+
+\paragraph{Confabulation.} Models may generate coherent explanations that do not reflect their actual internal computations. This occurs because language models are extensively pretrained and fine-tuned on next-token prediction and instruction-following tasks to produce fluent, knowledgeable text, not faithful introspective reports. Thus, explanations may simply reflect training data patterns (how humans explain reasoning) rather than the model's actual computational process~(\citeestalp{turpin2023languagemodelsdontsay, arcuschin2026chainofthought, barez2025chain}; \citeemalp{chen2025reasoningmodelsdontsay}). Moreover, the reinforcement learning reward for generating helpful responses can also incentivise convincing confabulation, even though the model cannot introspect. An example of a helpful yet unfaithful response is when the model post hoc rationalises an answer it already rote-memorised.\\
+
+\paragraph{Miscalibration.} Even when models attempt faithful self-report, their confidence may be poorly calibrated with accuracy. Models can express high confidence in explanations for computations they have not yet learned to analyse. Moreover, calibration can vary by task: models may be well calibrated on reporting their own uncertainty in simpler tasks such as factual recall but poorly calibrated on reasoning processes. A recent study further found that, even in factual recall tasks, models can hallucinate with high certainty despite knowing the correct answer~\citeest{simhi-etal-2025-trust}.\\
+
+\paragraph{Elicitation sensitivity.} Self-reports can be highly sensitive to prompting. Models can provide contradictory explanations or show substantially different introspective capabilities when similar questions are phrased differently~\citeem{hahami2026detectingdisturbancenuancedview}. The preset format of self-report (e.g., free-form versus structured, immediate versus delayed) can also substantially influence what information is elicited and appears accessible. Moreover, models may be intrinsically biased towards confirming hypotheses regardless of whether they reflect their underlying computations~\citeem{hahami2026detectingdisturbancenuancedview}.\\
+
+
+\paragraph{Strategic misreporting.} In adversarial or high-stakes settings, models with sufficient capability might strategically misreport their internal states. For example, a model optimised for user rewards might report sycophantic explanations it predicts users will find satisfying rather than accurate~\citeest{sharma_towards_2025}. A misaligned model might deliberately conceal its true objectives or reasoning~\citeem{hubinger2024sleeperagentstrainingdeceptive}. Even without explicit deception, models may learn to confabulate and produce seemingly safe explanations that avoid triggering safety filters~\citeem{baker2025monitoringreasoningmodelsmisbehavior}.
+\end{warningbox}
+
+
+Despite these limitations, targeted training can address some self-explanation failures. Studies show that models trained for introspection can produce more faithful reports of their internal objectives, behavioural tendencies, and training-induced changes~(\citeestalp{binder, chloe, goel}; \citeemalp{li2025traininglanguagemodelsexplain, joglekar}). In particular, models trained to disclose hidden objectives or emergent misalignment can report these properties with high accuracy~(\citeestalp{chloe}; \citeemalp{joglekar}). Explanation faithfulness may also improve when task performance requires reasoning~\citeem{early-work-on-monitorability-evaluations}. These findings suggest that some introspection failures may reflect limitations of current training and elicitation methods, rather than fundamental limits on models' ability to report their internal states.
+
+
+\subsubsection{Validation Procedures for Model Self-Reports}
+\label{subsec:valproce model self-reports}
+
+Given these concerns, Introspective Interpretability methods must be validated against additional, independent evidence. Specifically, they must be shown to be \emph{consistent} with model internals (as accessed by other mechanistic interpretability tools) and behavioural signatures (as tested by behavioural interpretability analysis). Validation procedures vary based on the type of self-report:
+
+\begin{practicebox}[Validation Procedures for Introspective Models]
+\paragraph{1. Causal intervention consistency.} Self-explanations should be tested against intervention experiments. If a model claims a feature drives its output, ablating that feature should steer the model away from the output. If a model claims it considered a piece of information (e.g., an input feature or a recalled piece of factual knowledge in intermediate layers) for its decision, patching the information with counterfactual values should change the output correspondingly.\\
+
+\paragraph{2. Cross-method consistency.} Introspective methods and privileged access findings should be verified by other interpretability methods: Do SAE features identified as causal show corresponding effects to self-explanations under steering? Do probing classifiers successfully decode the information the model claimed to use? Do circuit discovery methods identify the components the model describes?\\
+
+\paragraph{3. Paraphrase and sampling consistency.} The stability of self-reports under semantics-preserving variations of the question should be tested. Specifically, paraphrased questions should elicit consistent explanations. Explanations should remain consistent across resamples at low temperature. Explanations for similar inputs verified to have undergone similar mechanisms by other methods should show appropriate similarity.\\
+
+\paragraph{4. Calibration evaluation.} The calibration between self-reported confidence in the explanation and the actual match to the internal mechanisms should be tested. Confidence should reflect uncertainty in the generated explanation based on how much information the model collected during introspection.
+
+\end{practicebox}
+
+
+
+
+
+
+
+
+
+
+
+\subsubsection{When to Use Introspective Methods}
+Introspective methods are best suited for three scenarios: (1) Hypothesis generation, where introspection provides candidate explanations to be validated by other methods; (2) Rapid triage, where introspection is used to quickly identify which input--output pairs or model components are worth further investigation; (3) Human--AI collaboration, where introspective models provide human-readable explanations tailored to users' levels of expertise and understanding.
+
+Introspective methods are insufficient for: (1) Claims of absence: claims about the absence of deceptive reasoning or hidden objectives cannot be established by self-report alone; (2) Formal guarantees: self-reports do not provide the causal evidence needed for formal verification; (3) Adversarial settings: in scenarios where the model has strong incentives to misreport, introspection may be less reliable and require additional safeguards.
+
+\paragraph{Implications.}
+Although introspective methods can help efficiently detect latent goals, plans, and deceptive behaviour~(\citeestalp{binder, chloe, goel}; \citeemalp{li2025traininglanguagemodelsexplain, joglekar}), they work best as complements to other mechanistic analyses~\citeest{bereska2024mechanisticinterpretabilityaisafety}. Specifically, their most productive use is as one component of a multi-method interpretability pipeline: self-reports serve as initial hypotheses, causal interventions test them, and circuit discovery methods explain the underlying mechanisms. While we may optimistically assume models can tell us how they work in the future, we must also recognise that self-reports are relatively weak evidence and require independent validation.
+
+\subsection{Automated Interpretability: Scaling Discovery via Automation}
+\label{sec:automated-interp}
+
+
+\emph{Automated Interpretability} seeks to scale mechanistic analysis to large models by replacing human analysis with automated pipelines. It assumes that manual analysis is the bottleneck and that automation can accelerate discovery. Methods include:
+\begin{itemize}
+\item \textbf{Automated circuit discovery} to automatically find the critical computational graph inside the model that processes a given input prompt or implements a specific capability.
+\item \textbf{LLM-based feature or circuit explanations} to automatically discover, summarise, and evaluate representational units and internal computations and give human-readable interpretations or reports.
+\end{itemize}
+
+Automated interpretability is not limited to any particular type of internal representation or mechanism. Depending on the research question, automated pipelines may analyse SAE features~\citeest{paulo2025automatically, han2026sage}, individual neurons~(\citeemalp{bills2023language, foote2023neurongraphinterpretinglanguage}; \citeestalp{oikarinen2023clipdissect}), circuits~(\citeestalp{conmy2023automatedcircuitdiscoverymechanistic}; \citeemalp{khan2026can}), or other model components~\citeem{nla}. This approach distinguishes itself by automatically discovering, explaining, or evaluating these objects rather than relying on manual analysis. Below, we illustrate a classical automated feature-explanation pipeline whose explanation and verification stages generally follow \citetem{bills2023language}.
+
+\begin{practicebox}[Classical Automated Interpretability Pipeline]
+\paragraph{Stage 1 -- Feature Extraction.} SAEs are trained to decompose raw activations of the target model into sparse linear features.\\
+
+\paragraph{Stage 2 -- Explanation Generation.} An ``Investigator Agent'' (e.g., GPT-4) reads a sample of texts that strongly activate an SAE feature and generates a natural-language hypothesis of its function~(\citeestalp{paulo2025automatically}; \citeemalp{bills2023language}), e.g., ``This feature activates on Python code related to file I/O operations.''\\
+
+\paragraph{Stage 3 -- Explanation Verification.} A ``Simulator Agent'' predicts feature activations on new text based on the hypothesis and calculates the correlation between predicted activations and real activations~\citeem{bills2023language}. A high score confirms the hypothesis, while a low score rejects the hypothesis and triggers re-investigation.\\
+
+\paragraph{Stage 4 -- Deception Detection.} Crucially, coordinated agents can detect when explanations or agents themselves are deceptive or misleading---effectively deploying ``AI to catch AI'' in oversight scenarios~\citeem{barez2025automated}.
+\end{practicebox}
+
+Such a pipeline enables analysis of a model with billions of parameters with minimal human intervention~\citeem{bills2023language}, a prerequisite for comprehensive model oversight~\citeem{foote2023neurongraphinterpretinglanguage}. 
+
+
+Recent research has substantially expanded the scope of Automated Interpretability. While early work focused primarily on automated feature explanation, newer systems employ increasingly sophisticated pipelines for feature discovery, explanation generation, auditing, and intervention~(\citeestalp{han2026sage}; \citeemalp{marin2026automated, barez2025automated, cywinski2025eliciting}). More recently, automation has also been extended from individual features to higher-level structures such as circuits~\citeem{khan2026can, haklay2026pitfalls}, enabling automated explanation of circuit semantics rather than merely discovering circuit components~(\citeestalp{conmy2023automatedcircuitdiscoverymechanistic}; \citeemalp{ameisen2025circuit}).
+
+\subsubsection{Governance Concerns for Automated Interpretability}
+
+Despite the promise, automated methods face fundamental concerns. In particular, although automation improves scalability, reduced human involvement may also increase the risk and severity of systematic errors, reward hacking, or deceptive explanations when automated oversight fails to catch them~\citeem{lermen2025deceptive}. Therefore, success in this research orientation is measured not only by the analysis's scalability, but also by its coverage, faithfulness, and trustworthiness. Below, we detail several governance challenges, including error propagation at scale, human oversight becoming a bottleneck, and systematic biases going undetected.
+
+\begin{warningbox}[Governance Risks of Automation]
+\paragraph{Error propagation.} Unlike human investigators, who are somewhat independent and introspective, the explanation-generation model can propagate its systematic errors to all features it analyses without rethinking what could have gone wrong.\\
+
+\paragraph{Reduced human-specific functionalities.} Automation removes humans from the loop. However, humans provide essential sanity checks, domain knowledge, and scepticism that automated systems lack or handle poorly. Lacking these critical properties may, in the long run, make the system less productive and less beneficial to the community than analyses by human experts.\\
+
+\paragraph{Automation Bias.} Automated pipelines can produce seemingly rigorous and comprehensive yet actually incomplete or sycophantic explanations. This is particularly likely when language models are involved. For example, models may selectively report positive results~\citeest{aiscientistpitfall} or tailor their explanations to align with inferred user preferences~\citeest{sharma_towards_2025}. This apparent rigour and promise may lead researchers to overtrust the results and overlook underlying flaws.\\
+
+\paragraph{Spurious Feedback Loops.} When Automated Interpretability is used to improve models that are subsequently used for interpretability, feedback loops may reinforce existing errors and biases. This process may exploit and saturate interpretability metrics without genuine gains in mechanistic understanding.
+
+\end{warningbox}
+
+\subsubsection{Proposed Guardrails for Automated Interpretability}
+These concerns call for safeguards that combine technical validation, human oversight, and clear accountability. Below, we propose a five-layer guardrail framework to help audit the automated methods and mitigate their risks.
+
+
+\begin{practicebox}[Guardrail Framework for Automated Interpretability]
+\paragraph{Layer 1: Sampling-Based Human Validation.} Auditors can randomly sample a predefined fraction (e.g., 5\%) of generated explanations for human experts to review. These explanations should cover different task-difficulty levels, feature types, and targeted mechanisms. Human experts should not know in advance which explanations are randomly sampled, which are flagged by automated checks, and which are already verified by additional methods, if they are all presented.\\
+
+\paragraph{Layer 2: Consistency and Causality Checks.} The reliability of automated pipelines can be improved by implementing consistency checks. Specifically, the pipeline can generate explanations multiple times at varying temperatures or setups (e.g., different backbone LLM explainers). Inconsistent explanations trigger review. The pipeline can also additionally examine a fraction of explanations by causal techniques, such as activation patching, and track failure rates. These checks can be automated or involve human auditors.\\
+
+\paragraph{Layer 3: Adversarial Robustness.} Auditors can test automated pipelines against adversarial inputs. To achieve this, auditors first construct features or mechanisms with backdoored activation patterns designed to make the pipeline produce inappropriate or targeted explanations. Auditors then examine whether the pipeline was fooled. Failure cases can be used to improve the pipeline’s robustness.\\
+
+\paragraph{Layer 4: Error Detection and Bounds.} First, automated pipelines must output calibrated confidence. Overconfidence (false positive) is more dangerous than underconfidence (false negative) and should be prevented. Second, the pipeline can be tested on features or mechanisms with known ground-truth explanations (e.g., from prior human analysis) and the faithfulness of generated explanations on them measured. Finally, the pipeline should report estimated error rates alongside all automated findings.\\
+
+\paragraph{Layer 5: Regulator Practices.} Regulators must distinguish automated hypotheses (weak evidence that requires validation) from validated findings (passed human or causal checks). For automated analyses used in safety-relevant applications, regulators must ensure versioning and reproducibility. When the pipeline improves, or the target model is fine-tuned, regulators should re-evaluate prior analyses. Regulators should also be aware of their scope, clearly studying and defining what automated pipelines can and cannot reliably assess. Decisions should not be made by extrapolating beyond validated scope.
+\end{practicebox}
+
+
+
+
+
+
+
+
+\subsubsection{Integrating Automated and Human Analysis}
+
+A robust analysis pipeline should combine automation for scale and suitable human involvement for validation and edge cases. Table~\ref{tab:human-automated-workflow} shows an exemplary workflow that combines AI and human labour for scalable interpretability analysis.
+
+\begin{table}[tb]
+\centering
+\caption{\textbf{A human--Automated Interpretability pipeline.} Automated methods perform discovery and analysis. Human experts set the objectives, audit intermediate results, and draw conclusions. We use feature and circuit discovery and analysis as an example.}
+\label{tab:human-automated-workflow}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.5cm} >{\raggedright\arraybackslash}p{4.5cm} >{\raggedright\arraybackslash}p{4.5cm} >{\raggedright\arraybackslash}p{3cm}}
+\toprule
+\rowcolor{tableheader!80} \textcolor{white}{\textbf{Stage}} & \textcolor{white}{\textbf{Automated Role}} & \textcolor{white}{\textbf{Human Role}} & \textcolor{white}{\textbf{Deliverable}} \\
+\midrule
+\rowcolor{tablerow1} \textbf{Discovery} & Extract candidate features and circuits & Define scope and review methodology & Candidate features and circuits \\
+\rowcolor{tablerow2} \textbf{Prioritisation} & Rank features and circuits by importance metrics & Review rankings and adjust priorities & Prioritised analysis queue \\
+\rowcolor{tablerow1} \textbf{Explanation} & Generate explanations at scale & Audit a fraction of samples and review flagged cases & Draft explanations \\
+\rowcolor{tablerow2} \textbf{Validation} & Run automated consistency and causal checks & Investigate failure modes and validate edge cases & Validated findings \\
+\rowcolor{tablerow1} \textbf{Synthesis} & Aggregate findings and generate reports & Interpret implications and make decisions & Actionable conclusions \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Key Principles for Integration.}
+Here we discuss several design principles for integrating humans and AI into the interpretability workflow. First, automation provides breadth, and humans provide depth. For example, the workflow can use SAEs with LLM-based description generation to discover and label many features, then have human investigators analyse those with safety-relevant descriptions. Second, humans set criteria and automation applies them. Specifically, humans define criteria for a valid explanation, a feature of interest, or a concerning finding, while the automated components (e.g., the LLM explainer) operate based on these criteria. Third, the system should have clear escalation criteria to determine when to call for human intervention, such as when the system detects potential mechanisms underlying safety-relevant concepts. Finally, the system should implement a feedback loop to let human investigators correct and calibrate it in real time during interaction.
+
+\subsubsection{Summary: Responsible Automation}
+
+Introspective and Automated Interpretability offer promise for scalable mechanistic analysis. However, they both have technical challenges that call for additional guardrails. Specifically, Introspective Interpretability requires independent validation to prevent self-serving explanations; Automated Interpretability still requires human oversight to catch systematic errors. Neither should be regarded as a complete replacement for human judgement in high-stakes decision-making. Ultimately, Automated Interpretability aims not to replace human investigators, but to combine human expertise with automation to make interpretability analysis more comprehensive and reliable.
+
+\subsection{Comparative Analysis: Trade-Offs Between Orientations}
+Table~\ref{tab:orientations} compares the six research orientations across several dimensions, including their problem choices, primary techniques, and practical scalability. None of them is universally preferable. For example, Automated Interpretability can scale analysis to millions of features in frontier models but faces issues such as error propagation and automation bias. By contrast, Ambitious Interpretability can provide fundamental, theory-grounded analysis, but its current results still mainly come from controlled, small-scale settings~\citeem{elhage2022superposition}, and its transferability to frontier models remains unclear. Thus, the choice of orientation depends on multiple factors, such as the intended downstream use cases and available computational and human resources, as detailed in Section~\ref{subsec:choosing orientation}.
+
+\begin{table}[tb]
+\centering
+\caption{Comparison of six interpretability orientations across their core theses, evaluation criteria, methodological approaches, research time horizons, scalability, and robustness to model deception.}
+\label{tab:orientations}
+\renewcommand{\arraystretch}{1.3}
+\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.0cm}
+                >{\raggedright\arraybackslash}p{1.9cm}
+                >{\raggedright\arraybackslash}p{1.9cm}
+                >{\raggedright\arraybackslash}p{1.9cm}
+                >{\raggedright\arraybackslash}p{1.9cm}
+                >{\raggedright\arraybackslash}p{1.9cm}
+                >{\raggedright\arraybackslash}p{1.6cm}}
+\toprule
+\rowcolor{tableheader!80}
+\textcolor{white}{\textbf{Dimension}} &
+\textcolor{white}{\textbf{Pragmatic}} &
+\textcolor{white}{\textbf{Ambitious}} &
+\textcolor{white}{\textbf{Developmental}} &
+\textcolor{white}{\textbf{Across Time}} &
+\textcolor{white}{\textbf{Introspective}} &
+\textcolor{white}{\textbf{Automated}} \\
+\midrule
+
+\rowcolor{tablerow1}
+\textbf{Main Focus}
+&
+Immediate safety interventions without complete understanding
+&
+Complete causal understanding regardless of cost
+&
+Developmental processes of representations, mechanisms, and capabilities
+&
+Prediction and control of future model behaviour through training dynamics
+&
+Introspective models to explain themselves
+&
+Scalable discovery via automated pipelines
+\\
+
+\rowcolor{tablerow2}
+\textbf{Key Metrics}
+&
+Performance in proxy tasks
+&
+Faithfulness and simulatability
+&
+Phase-transition signatures (e.g., LLC) and their correspondence to mechanism formation
+&
+Forecasting accuracy and intervention effectiveness
+&
+Alignment between self-reports and actual mechanisms
+&
+Coverage, scalability, robustness, and faithfulness of analysis
+\\
+
+\rowcolor{tablerow1}
+\textbf{Primary Tools}
+&
+Steering vectors, probes, behavioural evaluation
+&
+Circuit discovery, loose-to-strict verification
+&
+SLT, loss landscape geometry, representation analysis
+&
+Longitudinal analysis, behavioural forecasting, training interventions
+&
+Introspective training, activation verbalisers
+&
+Circuit discovery, SAEs, LLM agents
+\\
+
+\rowcolor{tablerow2}
+\textbf{Expected Time to Impact}
+&
+Short-term
+&
+Long-term
+&
+Long-term
+&
+Medium
+&
+Medium
+&
+Short-term
+\\
+
+\rowcolor{tablerow1}
+\textbf{Scalability}
+&
+High
+&
+Low
+&
+Low
+&
+Medium
+&
+High
+&
+Medium
+\\
+
+\rowcolor{tablerow2}
+\textbf{Robustness to Deception}
+&
+Medium
+&
+High
+&
+Unknown
+&
+Unknown
+&
+Low
+&
+Low
+\\
+
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Choosing an Orientation: A Decision Framework}
+\label{subsec:choosing orientation}
+The investigator's priorities and constraints determine the research orientation to select. For teams or individuals focused on immediate safety interventions, Pragmatic Interpretability is the most suitable research style. If the primary goal is to guarantee the absence of harmful behaviour in the long term, Ambitious Interpretability is most appropriate. Researchers seeking to characterise and explain dynamics of capability development may adopt Developmental Interpretability. In contrast, teams training and deploying language-model products with a focus on safety concerns may focus on Interpretability Across Time. When the objective is to offer accessible interpretability analysis to general users, Introspective Interpretability offers a promising paradigm. In contrast, Automated Interpretability is particularly attractive when analyses must be performed at a scale that would be impractical for human investigators alone. Notably, these research orientations are not mutually exclusive; hybrid strategies can combine the strengths of different approaches.
+
+\subsection{Critical Concerns, Tensions, and Open Questions}
+
+Several concerns and tensions arise within and between these research orientations. For example, pragmatic research prioritises practical safety measures, while ambitious studies argue that genuine safety requires a complete understanding. Developmental Interpretability and Interpretability Across Time both rely on access to training checkpoints and optimisation dynamics, which remain difficult to obtain. Introspective models can provide accessible explanations, but safety-critical decisions may always require additional verification. Automated pipelines can analyse large models, but the comprehensive analysis they deliver may be hard for humans to inspect and verify. Given these trade-offs, allocating research resources across these orientations appears to be a non-technical open challenge.

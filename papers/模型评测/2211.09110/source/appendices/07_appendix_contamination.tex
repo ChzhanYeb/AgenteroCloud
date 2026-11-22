@@ -1,0 +1,15 @@
+\hypertarget{contamination}{\section{Contamination}}
+\label{app:contamination}
+
+In general, the utility of evaluations hinge on the validity and legitimacy of the evaluation in generalizing beyond the very specific instances that are evaluated to other settings or context of interest.
+For this reason, \textit{contamination} in the form of models being trained on the very instances they are tested on can drastically compromise the validity and legitimacy of evaluations.
+This concern is material for the language models we evaluate, as was raised by \citet{brown2020gpt3}, since many of them are trained on massive, poorly understood, and inadequately documented corpora, where it is certainly possible that models are trained on test instances.
+In particular, we lack visibility on the full training procedure for the majority of the models we train, and in fact know almost nothing about the training data or training procedure for some models.
+
+\input{tables/contamination.table}
+In light of this, we attempt to document known evidence of contamination when possible (see \reftab{contamination-evidence}).
+In particular, beyond models being exposed to the specific evaluation instances, we also consider models contaminated for our purposes if they are exposed to the evaluation distribution, because this compromises the legitimacy of claims about the \textit{few-shot} capabilities of models, even though this training may be very intentional.\footnote{We note this point on intentionality to clarify the term ``contamination'' may suggest that it was unintentional/unexpected, but we take a consequentialist perspective and are focused on whether the validity of our evaluation will be compromised independent of an intentions.}
+Given the evidence we observed, we differentiate \textbf{strong} contamination, where the model is extensively exposed to model from the evaluation distribution, from \textbf{weak} contamination, where the model only sees a marginal fraction of data from the evaluation distribution.
+We also note that the strength of this evidence can differ: for example, some of the existing evidence is obtained through heuristic n-gram overlap whereas other is known from different knowledge regarding how the training data was constructed.
+We encourage model providers of both existing and future models to provide more information on train-test contamination to allow the community to be informed about the validity and legitimacy of specific evaluation results, both for \benchmarkname and for other evaluations.
+For \benchmarkname, the evidence of contamination will be tracked on Github.

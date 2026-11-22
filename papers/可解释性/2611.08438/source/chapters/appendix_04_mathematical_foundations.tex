@@ -1,0 +1,145 @@
+\section{Mathematical Foundations}
+\label{app:math}
+
+This section provides background on some key mathematical frameworks used in mechanistic interpretability.
+
+\subsection{Causal Inference Basics}
+
+Mechanistic interpretability relies on causal reasoning: determining whether a component is \textit{necessary} and \textit{sufficient} for a behaviour.
+
+\subsubsection{Necessity}
+
+A component $S$ is \emph{necessary} for behaviour $B$ if:
+\begin{equation}
+\text{Remove } S \Rightarrow B \text{ disappears}
+\end{equation}
+
+Tested via ablation: measure the effect of removing $S$ on downstream loss or output distribution.
+
+\subsubsection{Sufficiency}
+
+A component $S$ is \emph{sufficient} for behaviour $B$ if:
+\begin{equation}
+\text{Only } S \text{ is active} \Rightarrow B \text{ occurs}
+\end{equation}
+
+Tested via interchange interventions: in the corrupted run with a reference input containing no target information, patch the activation of $S$ with that from a clean run using an input containing the target information, and then verify whether the behaviour emerges.
+
+\subsubsection{Causal Abstraction}
+
+Causal abstraction~\citeest{geiger2021causalabstractionsneuralnetworks} formalises when a high-level description (``this head implements copying'') correctly describes lower-level computation. A high-level abstraction is \emph{causally correct} if interventions on the high-level description produce the same causal effects as interventions on the low-level system. This is formalised via causal diagrams: high-level variables correspond to low-level variables via abstraction maps $\Phi$, and interventions commute:
+\begin{equation}
+\text{Intervene at high level} \xrightarrow{\Phi} \text{Intervene at low level}
+\end{equation}
+
+\subsection{Local Learning Coefficient}
+\label{app:slt}
+
+Singular Learning Theory (SLT; \citeestalp{watanabe2009algebraic}) provides a geometric analysis of learning and generalisation in singular statistical models, including neural networks. The Local Learning Coefficient (LLC; \citeestalp{lau2023local}) builds on SLT by localising Watanabe's learning coefficient around a particular parameter configuration, thereby providing a measure of the effective local complexity of a neural network around a local minimum. Below, we introduce the LLC step by step, following the exposition in Section~3 of \citetest{lau2023local}.
+
+We first consider a neural network and a downstream task. For each neural network parameter configuration, say $\theta$, we can evaluate its loss $\mathcal{L}(\theta)$. The task should have an explicitly defined loss function $\mathcal{L}(\cdot)$, such that we can optimise the model parameters until they converge to a local minimum $\theta^*$. Now we choose a sufficiently small closed ball $B(\theta^*)$ centred at $\theta^*$ such that any element in it, i.e., $\theta$, satisfies
+\[
+\mathcal{L}(\theta^*) \leq \mathcal{L}(\theta).
+\]
+Within this ball, we further consider the subset where each element has a loss that, while always greater than or equal to the local minimum, falls within a tolerance threshold $\epsilon$. Formally, we define
+\[
+B(\theta^*, \epsilon)
+\coloneqq
+\left\{
+\theta \in B(\theta^*)
+\mid
+\mathcal{L}(\theta) - \mathcal{L}(\theta^*) < \epsilon
+\right\}.
+\]
+
+We can then calculate the \emph{volume} of $B(\theta^*, \epsilon)$. Viewing each element in this set, which corresponds to a parameter configuration, as a point in a high-dimensional parameter space whose dimension is the number of scalar parameters in $\theta$, we have
+\[
+V(\epsilon)
+\coloneqq
+\int_{B(\theta^*, \epsilon)} d\theta.
+\]
+Intuitively, $V(\epsilon)$ measures how much parameter-space volume around $\theta^*$ achieves a loss within $\epsilon$ of the local minimum.
+
+By SLT, as $\epsilon \to 0$, $V(\epsilon)$ has the asymptotic form
+\[
+V(\epsilon)
+=
+c\epsilon^{\lambda(\theta^*)}
+(-\log\epsilon)^{m(\theta^*)-1}
++
+o\!\left(
+\epsilon^{\lambda(\theta^*)}
+(-\log\epsilon)^{m(\theta^*)-1}
+\right),
+\]
+where $c$ is a positive constant, $\lambda(\theta^*)$ is a positive rational number termed the \emph{Local Learning Coefficient}, and $m(\theta^*)$ is a positive integer called the local multiplicity. Importantly, the equation shows that $\lambda(\theta^*)$ determines the dominant rate at which $V(\epsilon)$ shrinks as $\epsilon \to 0$, while $m(\theta^*)$ contributes a lower-order logarithmic term. The larger $\lambda(\theta^*)$ is, the faster $V(\epsilon)$ decreases as $\epsilon \to 0$.
+
+The convergence speed of $V(\epsilon)$, as characterised by $\lambda(\theta^*)$, can therefore measure the model’s effective local complexity. Conceptually, a large $\lambda(\theta^*)$ means that, when we are \emph{just around} the local minimum (i.e., for small $\epsilon$), the volume of parameter configurations that preserve a similarly low loss is small: perturbing the parameters is more likely to substantially change the loss. This trend corresponds to a local solution with more complexity but less degeneracy. Conversely, a small $\lambda(\theta^*)$ implies that a larger number of nearby parameter configurations reach similarly low loss, indicating lower effective local complexity and higher degeneracy.
+
+The LLC has been used to characterise properties of trained neural networks. For example, \citetest{lau2023local} showed that the LLC can capture differences in effective complexity between models trained under different settings, even when their training losses are similar.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Information Theory Basics}
+
+In mechanistic interpretability, concepts from information theory are often used to quantify relationships between internal components and how much information is preserved, and to measure representation quality. Although they do not directly establish causal mechanisms, they are highly useful for quantifying how information is encoded and changes during model computation.
+
+\paragraph{Entropy.} A random variable $X$ has entropy (or information content) that is defined as:
+
+\[
+H(X) \coloneqq -\sum_x p(x)\log p(x).
+\]
+
+High entropy indicates greater uncertainty, while low entropy implies more predictable distributions. Entropy is frequently utilised to measure learned representation diversity or prediction confidence.
+
+\paragraph{Mutual Information.} The mutual information between two random variables $X$ and $Y$ is
+
+\[
+I(X;Y) = H(X)-H(X|Y),
+\]
+
+which measures how much information one variable provides about the other. Equivalently,
+
+\[
+I(X;Y)=D_{\mathrm{KL}}(p(X,Y)\,\|\,p(X)p(Y)).
+\]
+
+In interpretability, mutual information is often used to estimate how strongly a representation encodes a property of interest, such as a concept, label, or downstream behaviour.
+
+\paragraph{KL Divergence.} The Kullback--Leibler (KL) divergence between distributions $P$ and $Q$ is
+
+\[
+D_{\mathrm{KL}}(P\|Q)
+=
+\sum_x P(x)\log\frac{P(x)}{Q(x)},
+\]
+
+which measures how different one probability distribution is from another. KL divergence is widely used to compare model outputs before and after interventions, evaluate reconstruction quality, and train auxiliary interpretability models such as tuned lenses.
+
+
+
+    
+    
+    
+    
+    
+
+
+\clearpage

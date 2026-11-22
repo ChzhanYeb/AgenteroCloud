@@ -1,0 +1,18 @@
+\begin{abstract}
+Language models (LMs) are becoming the foundation for almost all major language technologies, but their capabilities, limitations, and risks are not well understood.
+We present Holistic Evaluation of Language Models (\benchmarkname) to improve the transparency of language models.
+First, we taxonomize the vast space of potential scenarios (\ie use cases) and metrics (\ie desiderata) that are of interest for LMs.  
+Then we select a broad subset based on coverage and feasibility, noting what's missing or underrepresented (\eg question answering for neglected English dialects, metrics for trustworthiness).
+Second, we adopt a multi-metric approach:
+We measure \nummetriccategories metrics (accuracy, calibration, robustness, fairness, bias, toxicity, and efficiency)
+for \emph{each} of \numcorescenarios core scenarios
+to the extent possible (87.5\% of the time), ensuring that metrics beyond accuracy don't fall to the wayside, and that trade-offs across models and metrics are clearly exposed.
+We also perform \numcomponents targeted evaluations, based on \numcomponentscenarios targeted scenarios, to more deeply analyze specific aspects (\eg knowledge, reasoning, memorization/copyright, disinformation).
+Third, we conduct a large-scale evaluation of \nummodels prominent language models (spanning open, limited-access, and closed models) on all \numscenarios scenarios, including \numnewscenarios scenarios that were not previously used in mainstream LM evaluation. 
+Prior to \benchmarkname, 
+models on average were evaluated on just 17.9\% of the \core \benchmarkname scenarios, with some prominent models not sharing a single scenario in common.
+We improve this to 96.0\%: now all \nummodels models have been densely benchmarked on a set of core scenarios and metrics under standardized conditions.
+Our evaluation surfaces \numfindings top-level findings concerning the interplay between different scenarios, metrics, and models.
+For full transparency, we release all raw model prompts and completions publicly\footnote{\benchmarkUrl{}} for further analysis, as well as a general modular toolkit for easily adding new scenarios, models, metrics, and prompting strategies.\footnote{\githubUrl{}}
+We intend for \benchmarkname to be a living benchmark for the community, continuously updated with new scenarios, metrics, and models.
+\end{abstract}

@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:48:07.290Z",
+    "fingerprint": "b0e22b786dd9e7be86502498455aaf452d51906cc74c6f6ac99ca4b43a0f19f1"
+  },
+  "citations": [
+    {
+      "id": "cite-bahdanau14",
+      "rawKey": "bahdanau14",
+      "display": "[1]",
+      "raw": "Bahdanau, D., Cho, K., and Bengio, Y. Neural machine translation by jointly learning to align and translate. In Proceedings of the 5th International Conference on Learning Representations, San Diego, CA, USA, 2015.",
+      "metadata": {
+        "year": 2015
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-blanc2017adaptive",
+      "rawKey": "blanc2017adaptive",
+      "display": "[2]",
+      "raw": "Blanc, G. and Rendle, S. Adaptive sampled softmax with kernel based sampling. arXiv preprint arXiv:1712.00527, 2017.",
+      "metadata": {
+        "year": 2017,
+        "arxivId": "1712.00527"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-child2019generating",
+      "rawKey": "child2019generating",
+      "display": "[3]",
+      "raw": "Child, R., Gray, S., Radford, A., and Sutskever, I. Generating long sequences with sparse transformers. arXiv preprint arXiv:1904.10509, 2019.",
+      "metadata": {
+        "year": 1904,
+        "arxivId": "1904.10509"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-clark2020electra",
+      "rawKey": "clark2020electra",
+      "display": "[4]",
+      "raw": "Clark, K., Luong, M.-T., Le, Q. V., and Manning, C. D. ELECTRA: Pre-training text encoders as discriminators rather than generators. In International Conference on Learning Representations, 2020.",
+      "metadata": {
+        "year": 2020
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-clevert2015fast",
+      "rawKey": "clevert2015fast",
+      "display": "[5]",
+      "raw": "Clevert, D.-A., Unterthiner, T., and Hochreiter, S. Fast and accurate deep network learning by exponential linear units (ELUs). arXiv preprint arXiv:1511.07289, 2015.",
+      "metadata": {
+        "year": 2015,
+        "arxivId": "1511.07289"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Cordonnier2020On",
+      "rawKey": "Cordonnier2020On",
+      "display": "[6]",
+      "raw": "Cordonnier, J.-B., Loukas, A., and Jaggi, M. On the relationship between self-attention and convolutional layers. In International Conference on Learning Representations, 2020.",
+      "metadata": {
+        "year": 2020
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-dai-etal-2019-transformer",
+      "rawKey": "dai-etal-2019-transformer",
+      "display": "[7]",
+      "raw": "Dai, Z., Yang, Z., Yang, Y., Carbonell, J., Le, Q., and Salakhutdinov, R. Transformer-XL: Attentive language models beyond a fixed-length context. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 2978--2988, Florence, Italy, July 2019. Association for Computational Linguistics.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-dehghani2018universal",
+      "rawKey": "dehghani2018universal",
+      "display": "[8]",
+      "raw": "Dehghani, M., Gouws, S., Vinyals, O., Uszkoreit, J., and Kaiser, . Universal transformers. arXiv preprint arXiv:1807.03819, 2018.",
+      "metadata": {
+        "year": 2018,
+        "arxivId": "1807.03819"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-devlin-etal-2019",
+      "rawKey": "devlin-etal-2019",
+      "display": "[9]",
+      "raw": "Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. BERT: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pp. 4171--4186, Minneapolis, Minnesota, June 2019. Association for Computational Linguistics.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-goodman2001classes",
+      "rawKey": "goodman2001classes",
+      "display": "[10]",
+      "raw": "Goodman, J. Classes for fast maximum entropy training. In 2001 IEEE International Conference on Acoustics, Speech, and Signal Processing. Proceedings (Cat. No. 01CH37221), volume 1, pp. 561--564. IEEE, 2001.",
+      "metadata": {
+        "year": 2001
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-graves2006connectionist",
+      "rawKey": "graves2006connectionist",
+      "display": "[11]",
+      "raw": "Graves, A., Fernandez, S., Gomez, F., and Schmidhuber, J. Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks. In Proceedings of the 23rd international conference on Machine learning, pp. 369--376, 2006.",
+      "metadata": {
+        "year": 2006
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-hochreiter1997long",
+      "rawKey": "hochreiter1997long",
+      "display": "[12]",
+      "raw": "Hochreiter, S. and Schmidhuber, J. Long short-term memory. Neural computation, 9 (8): 1735--1780, 1997.",
+      "metadata": {
+        "year": 1997
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-kingma2014adam",
+      "rawKey": "kingma2014adam",
+      "display": "[13]",
+      "raw": "Kingma, D. P. and Ba, J. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014.",
+      "metadata": {
+        "year": 2014,
+        "arxivId": "1412.6980"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-kitaev2020reformer",
+      "rawKey": "kitaev2020reformer",
+      "display": "[14]",
+      "raw": "Kitaev, N., Kaiser, ., and Levskaya, A. Reformer: The efficient transformer. arXiv preprint arXiv:2001.04451, 2020.",
+      "metadata": {
+        "year": 2001,
+        "arxivId": "2001.04451"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-krizhevsky2009learning",
+      "rawKey": "krizhevsky2009learning",
+      "display": "[15]",
+      "raw": "Krizhevsky, A., Hinton, G., et al. Learning multiple layers of features from tiny images. 2009.",
+      "metadata": {
+        "year": 2009
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-lample19",
+      "rawKey": "lample19",
+      "display": "[16]",
+      "raw": "Lample, G., Sablayrolles, A., Ranzato, M. A., Denoyer, L., and Jegou, H. Large memory layers with product keys. In Wallach, H., Larochelle, H., Beygelzimer, A., d Alche-Buc, F., Fox, E., and Garnett, R. (eds.), Advances in Neural Information Processing Systems 32, pp. 8546--8557. Curran Associates, Inc., 2019.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Lan2020",
+      "rawKey": "Lan2020",
+      "display": "[17]",
+      "raw": "Lan, Z., Chen, M., Goodman, S., Gimpel, K., Sharma, P., and Soricut, R. Albert: A lite bert for self-supervised learning of language representations. In International Conference on Learning Representations, 2020.",
+      "metadata": {
+        "year": 2020
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-lecun2010mnist",
+      "rawKey": "lecun2010mnist",
+      "display": "[18]",
+      "raw": "LeCun, Y., Cortes, C., and Burges, C. Mnist handwritten digit database. 2010.",
+      "metadata": {
+        "year": 2010
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-liu2019variance",
+      "rawKey": "liu2019variance",
+      "display": "[19]",
+      "raw": "Liu, L., Jiang, H., He, P., Chen, W., Liu, X., Gao, J., and Han, J. On the variance of the adaptive learning rate and beyond. arXiv preprint arXiv:1908.03265, 2019.",
+      "metadata": {
+        "year": 1908,
+        "arxivId": "1908.03265"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-liu2020roberta",
+      "rawKey": "liu2020roberta",
+      "display": "[20]",
+      "raw": "Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M., Zettlemoyer, L., and Stoyanov, V. RoBERTa: A robustly optimized BERT pretraining approach, 2020.",
+      "metadata": {
+        "year": 2020
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-paul19",
+      "rawKey": "paul19",
+      "display": "[21]",
+      "raw": "Michel, P., Levy, O., and Neubig, G. Are sixteen heads really better than one? In Wallach, H., Larochelle, H., Beygelzimer, A., d' Alche-Buc, F., Fox, E., and Garnett, R. (eds.), Advances in Neural Information Processing Systems 32, pp. 14014--14024. Curran Associates, Inc., 2019.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-mnih2009scalable",
+      "rawKey": "mnih2009scalable",
+      "display": "[22]",
+      "raw": "Mnih, A. and Hinton, G. E. A scalable hierarchical distributed language model. In Advances in neural information processing systems, pp. 1081--1088, 2009.",
+      "metadata": {
+        "year": 2009
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-morin2005hierarchical",
+      "rawKey": "morin2005hierarchical",
+      "display": "[23]",
+      "raw": "Morin, F. and Bengio, Y. Hierarchical probabilistic neural network language model. In Aistats, volume 5, pp. 246--252. Citeseer, 2005.",
+      "metadata": {
+        "year": 2005
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-parmar-etal-19",
+      "rawKey": "parmar-etal-19",
+      "display": "[24]",
+      "raw": "Parmar, N., Ramachandran, P., Vaswani, A., Bello, I., Levskaya, A., and Shlens, J. Stand-alone self-attention in vision models. In Wallach, H., Larochelle, H., Beygelzimer, A., d' Alche-Buc, F., Fox, E., and Garnett, R. (eds.), Advances in Neural Information Processing Systems 32, pp. 68--80. Curran Associates, Inc., 2019.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-paszke2019pytorch",
+      "rawKey": "paszke2019pytorch",
+      "display": "[25]",
+      "raw": "Paszke, A., Gross, S., Massa, F., Lerer, A., Bradbury, J., Chanan, G., Killeen, T., Lin, Z., Gimelshein, N., Antiga, L., et al. Pytorch: An imperative style, high-performance deep learning library. In Advances in Neural Information Processing Systems, pp. 8024--8035, 2019.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-paul1992design",
+      "rawKey": "paul1992design",
+      "display": "[26]",
+      "raw": "Paul, D. B. and Baker, J. M. The design for the wall street journal-based csr corpus. In Proceedings of the workshop on Speech and Natural Language, pp. 357--362. Association for Computational Linguistics, 1992.",
+      "metadata": {
+        "year": 1992
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Radford2018ImprovingLU",
+      "rawKey": "Radford2018ImprovingLU",
+      "display": "[27]",
+      "raw": "Radford, A., Narasimhan, K., Salimans, T., , and Sutskever, I. Improving language understanding by generative pre-training. In OpenAI report, 2018.",
+      "metadata": {
+        "year": 2018
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-radford2019language",
+      "rawKey": "radford2019language",
+      "display": "[28]",
+      "raw": "Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., and Sutskever, I. Language models are unsupervised multitask learners. OpenAI Blog, 1 (8): 9, 2019.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-rawat2019sampled",
+      "rawKey": "rawat2019sampled",
+      "display": "[29]",
+      "raw": "Rawat, A. S., Chen, J., Yu, F. X. X., Suresh, A. T., and Kumar, S. Sampled softmax with random fourier features. In Advances in Neural Information Processing Systems, pp. 13834--13844, 2019.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-salimans2017pixelcnn--",
+      "rawKey": "salimans2017pixelcnn++",
+      "display": "[30]",
+      "raw": "Salimans, T., Karpathy, A., Chen, X., and Kingma, D. P. Pixelcnn++: Improving the pixelcnn with discretized logistic mixture likelihood and other modifications. arXiv preprint arXiv:1701.05517, 2017.",
+      "metadata": {
+        "year": 2017,
+        "arxivId": "1701.05517"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-shen2020efficient",
+      "rawKey": "shen2020efficient",
+      "display": "[31]",
+      "raw": "Shen, Z., Zhang, M., Zhao, H., Yi, S., and Li, H. Efficient attention: Attention with linear complexities. arXiv preprint arXiv:1812.01243, 2020.",
+      "metadata": {
+        "year": 2020,
+        "arxivId": "1812.01243"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-pmlr-v97-song19d",
+      "rawKey": "pmlr-v97-song19d",
+      "display": "[32]",
+      "raw": "Song, K., Tan, X., Qin, T., Lu, J., and Liu, T.-Y. MASS: Masked sequence to sequence pre-training for language generation. In Chaudhuri, K. and Salakhutdinov, R. (eds.), Proceedings of the 36th International Conference on Machine Learning, volume 97 of Proceedings of Machine Learning Research, pp. 5926--5936, Long Beach, California, USA, 09--15 Jun 2019. PMLR.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-sperber18interspeech",
+      "rawKey": "sperber18interspeech",
+      "display": "[33]",
+      "raw": "Sperber, M., Niehues, J., Neubig, G., StÃker, S., and Waibel, A. Self-attentional acoustic models. In 19th Annual Conference of the International Speech Communication Association (InterSpeech 2018), Hyderabad, India, September 2018.",
+      "metadata": {
+        "year": 2018
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-sukhbaatar-etal-2019",
+      "rawKey": "sukhbaatar-etal-2019",
+      "display": "[34]",
+      "raw": "Sukhbaatar, S., Grave, E., Bojanowski, P., and Joulin, A. Adaptive attention span in transformers. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 331--335, Florence, Italy, July 2019. Association for Computational Linguistics.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Sutskever14",
+      "rawKey": "Sutskever14",
+      "display": "[35]",
+      "raw": "Sutskever, I., Vinyals, O., and Le, Q. V. Sequence to sequence learning with neural networks. In Advances in Neural Information Processing Systems 27, pp. 3104--3112. Curran Associates, Inc., 2014.",
+      "metadata": {
+        "year": 2014
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-tsai2019transformer",
+      "rawKey": "tsai2019transformer",
+      "display": "[36]",
+      "raw": "Tsai, Y.-H. H., Bai, S., Yamada, M., Morency, L.-P., and Salakhutdinov, R. Transformer dissection: An unified understanding for transformer's attention via the lens of kernel. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pp. 4343--4352, Hong Kong, China, November 2019. Association for Computational Linguistics.",
+      "metadata": {
+        "year": 2019
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-vaswani_attn",
+      "rawKey": "vaswani_attn",
+      "display": "[37]",
+      "raw": "Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., and Polosukhin, I. Attention is all you need. In NIPS, 2017.",
+      "metadata": {
+        "year": 2017
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-zhilin19",
+      "rawKey": "zhilin19",
+      "display": "[38]",
+      "raw": "Yang, Z., Dai, Z., Yang, Y., Carbonell, J. G., Salakhutdinov, R., and Le, Q. V. Xlnet: Generalized autoregressive pretraining for language understanding. CoRR, abs/1906.08237, 2019.",
+      "metadata": {
+        "year": 1906
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-zafrir19",
+      "rawKey": "zafrir19",
+      "display": "[39]",
+      "raw": "Zafrir, O., Boudoukh, G., Izsak, P., and Wasserblat, M. Q8BERT: quantized 8bit BERT. CoRR, abs/1910.06188, 2019.",
+      "metadata": {
+        "year": 1910
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    }
+  ],
+  "messages": [
+    "local: 39 entries (bbl)",
+    "semantic scholar failed: rate limited"
+  ]
+}

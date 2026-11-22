@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-17T14:43:56.678Z",
+    "fingerprint": "218c64c009a030110912bbf99dcdfd6e5c04b037e1f823acfc982be863267651"
+  },
+  "citations": [
+    {
+      "id": "cite-aharon2006k",
+      "rawKey": "aharon2006k",
+      "display": "[1]",
+      "raw": "Michal Aharon, Michael Elad, and Alfred Bruckstein. K-SVD: An algorithm for designing overcomplete dictionaries for sparse representation. IEEE Transactions on signal processing, 54 (11): 4311--4322, 2006.",
+      "metadata": {
+        "title": "$rm K$-SVD: An Algorithm for Designing Overcomplete Dictionaries for Sparse Representation",
+        "authors": [
+          "Michal Aharon",
+          "Michael Elad",
+          "A. Bruckstein"
+        ],
+        "year": 2006,
+        "venue": "IEEE Transactions on Signal Processing",
+        "doi": "10.1109/TSP.2006.881199",
+        "url": "https://www.semanticscholar.org/paper/83b522f4bfa5db7f7d34f839475af7d078107634"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-baehrens2010explain",
+      "rawKey": "baehrens2010explain",
+      "display": "[2]",
+      "raw": "David Baehrens, Timon Schroeter, Stefan Harmeling, Motoaki Kawanabe, Katja Hansen, and Klaus-Robert Muller. How to explain individual classification decisions. The Journal of Machine Learning Research, 11: 1803--1831, 2010.",
+      "metadata": {
+        "title": "How to Explain Individual Classification Decisions",
+        "authors": [
+          "D. Baehrens",
+          "Timon Schroeter",
+          "S. Harmeling",
+          "M. Kawanabe",
+          "Katja Hansen",
+          "Klaus-Robert Müller"
+        ],
+        "year": 2009,
+        "venue": "Journal of machine learning research",
+        "doi": "10.5555/1756006.1859912",
+        "arxivId": "0912.1128",
+        "url": "https://www.semanticscholar.org/paper/4e6238c8613b5b81f81552939bce33296aedfbfe"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bills2023language",
+      "rawKey": "bills2023language",
+      "display": "[3]",
+      "raw": "Steven Bills, Nick Cammarata, Dan Mossing, Henk Tillman, Leo Gao, Gabriel Goh, Ilya Sutskever, Jan Leike, Jeff Wu, and William Saunders. Language models can explain neurons in language models. OpenAI Blog, 2023. URL https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html.",
+      "metadata": {
+        "year": 2023,
+        "url": "https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Bisk2020",
+      "rawKey": "Bisk2020",
+      "display": "[4]",
+      "raw": "Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, and Yejin Choi. Piqa: Reasoning about physical commonsense in natural language. In Thirty-Fourth AAAI Conference on Artificial Intelligence, 2020.",
+      "metadata": {
+        "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+        "authors": [
+          "Yonatan Bisk",
+          "Rowan Zellers",
+          "Ronan Le Bras",
+          "Jian-Feng Gao",
+          "Yejin Choi"
+        ],
+        "year": 2019,
+        "venue": "AAAI Conference on Artificial Intelligence",
+        "doi": "10.48550/arXiv.1911.11641",
+        "arxivId": "1911.11641",
+        "url": "https://www.semanticscholar.org/paper/04f4e55e14150b7c48b0287ba77c7443df76ed45"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bloom2024open",
+      "rawKey": "bloom2024open",
+      "display": "[5]",
+      "raw": "Joseph Bloom. Open source sparse autoencoders for all residual stream layers of gpt2-small. AI Alignment Forum, 2024. URL https://www.lesswrong.com/posts/f9EgfLSurAiqRJySD/open-source-sparse-autoencoders-for-all-residual-stream.",
+      "metadata": {
+        "title": "Open source sparse autoencoders for all residual stream layers of gpt2-small",
+        "year": 2024,
+        "venue": "AI Alignment Forum",
+        "url": "https://www.lesswrong.com/posts/f9EgfLSurAiqRJySD/open-source-sparse-autoencoders-for-all-residual-stream"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bolukbasi2021interpretability",
+      "rawKey": "bolukbasi2021interpretability",
+      "display": "[6]",
+      "raw": "Tolga Bolukbasi, Adam Pearce, Ann Yuan, Andy Coenen, Emily Reif, Fernanda Viegas, and Martin Wattenberg. An interpretability illusion for BERT. arXiv preprint arXiv:2104.07143, 2021.",
+      "metadata": {
+        "title": "An Interpretability Illusion for BERT",
+        "authors": [
+          "T. Bolukbasi",
+          "Adam Pearce",
+          "Ann Yuan",
+          "A. Coenen",
+          "Emily Reif",
+          "F. Viégas",
+          "M. Wattenberg"
+        ],
+        "year": 2021,
+        "doi": "10.48550/arXiv.2104.07143",
+        "arxivId": "2104.07143",
+        "url": "https://www.semanticscholar.org/paper/9b9dc2b3d95d2f4e4269a9818c14c70c1f801384"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-braun2024identifying",
+      "rawKey": "braun2024identifying",
+      "display": "[7]",
+      "raw": "Dan Braun, Jordan Taylor, Nicholas Goldowsky-Dill, and Lee Sharkey. Identifying functionally important features with end-to-end sparse dictionary learning. 2024.",
+      "metadata": {
+        "title": "Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning",
+        "authors": [
+          "Dan Braun",
+          "Jordan K. Taylor",
+          "Nicholas Goldowsky-Dill",
+          "Lee Sharkey"
+        ],
+        "year": 2024,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2405.12241",
+        "arxivId": "2405.12241",
+        "url": "https://www.semanticscholar.org/paper/02ad427b0d20fb976741e332f69c2fd00c751164"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bricken2023monosemanticity",
+      "rawKey": "bricken2023monosemanticity",
+      "display": "[8]",
+      "raw": "Trenton Bricken, Adly Templeton, Joshua Batson, Brian Chen, Adam Jermyn, Tom Conerly, Nick Turner, Cem Anil, Carson Denison, Amanda Askell, Robert Lasenby, Yifan Wu, Shauna Kravec, Nicholas Schiefer, Tim Maxwell, Nicholas Joseph, Zac Hatfield-Dodds, Alex Tamkin, Karina Nguyen, Brayden McLean, Josiah E Burke, Tristan Hume, Shan Carter, Tom Henighan, and Christopher Olah. Towards monosemanticity: Decomposing language models with dictionary learning. Transformer Circuits Thread, 2023. https://transformer-circuits.pub/2023/monosemantic-features/index.html.",
+      "metadata": {
+        "title": "Towards monosemanticity: Decomposing language models with dictionary learning",
+        "year": 2023,
+        "venue": "Transformer Circuits Thread",
+        "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jigsaw2017",
+      "rawKey": "jigsaw2017",
+      "display": "[9]",
+      "raw": "Cjadams, Jeffrey Sorensen, Julia Elliott, Lucas Dixon, Mark McDonald, Nithum, and Will Cukierski. Toxic comment classification challenge. Kaggle, 2017. URL https://kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge.",
+      "metadata": {
+        "title": "Toxic comment classification challenge",
+        "year": 2017,
+        "venue": "Kaggle",
+        "url": "https://kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-clark2022unified",
+      "rawKey": "clark2022unified",
+      "display": "[10]",
+      "raw": "Aidan Clark, Diego de Las Casas, Aurelia Guy, Arthur Mensch, Michela Paganini, Jordan Hoffmann, Bogdan Damoc, Blake Hechtman, Trevor Cai, Sebastian Borgeaud, et al. Unified scaling laws for routed language models. In International conference on machine learning, pages 4057--4086. PMLR, 2022.",
+      "metadata": {
+        "title": "Unified Scaling Laws for Routed Language Models",
+        "authors": [
+          "Aidan Clark",
+          "D. de Las Casas",
+          "Aurelia Guy",
+          "A. Mensch",
+          "Michela Paganini",
+          "Jordan Hoffmann",
+          "Bogdan Damoc",
+          "Blake A. Hechtman",
+          "Trevor Cai",
+          "Sebastian Borgeaud",
+          "G. Van Den Driessche",
+          "Eliza Rutherford",
+          "T. Hennigan",
+          "Matthew G. Johnson",
+          "Katie Millican",
+          "Albin Cassirer",
+          "Chris Jones",
+          "Elena Buchatskaya",
+          "D. Budden",
+          "L. Sifre",
+          "Simon Osindero",
+          "O. Vinyals",
+          "Jack W. Rae",
+          "Erich Elsen",
+          "K. Kavukcuoglu",
+          "K. Simonyan"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2202.01169",
+        "arxivId": "2202.01169",
+        "url": "https://www.semanticscholar.org/paper/c2536182c010c41941e8a031071a1880c34cec60"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-conerly2024update",
+      "rawKey": "conerly2024update",
+      "display": "[11]",
+      "raw": "Tom Conerly, Adly Templeton, Trenton Bricken, Jonathan Marcus, and Tom Henighan. Update on how we train saes. Transformer Circuits Thread, 2024. https://transformer-circuits.pub/2024/april-update/index.html#training-saes.",
+      "metadata": {
+        "title": "Update on how we train saes",
+        "year": 2024,
+        "venue": "Transformer Circuits Thread",
+        "url": "https://transformer-circuits.pub/2024/april-update/index.html\\#training-saes"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cunningham2023sparse",
+      "rawKey": "cunningham2023sparse",
+      "display": "[12]",
+      "raw": "Hoagy Cunningham, Aidan Ewart, Logan Riggs, Robert Huben, and Lee Sharkey. Sparse autoencoders find highly interpretable features in language models. arXiv preprint arXiv:2309.08600, 2023.",
+      "metadata": {
+        "title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+        "authors": [
+          "R. Huben",
+          "Hoagy Cunningham",
+          "L. Smith",
+          "Aidan Ewart",
+          "Lee Sharkey"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2309.08600",
+        "arxivId": "2309.08600",
+        "url": "https://www.semanticscholar.org/paper/edb548fe7574d99454b352ffdb61bca93c3072ba"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2309.08600",
+        "matchBy": "doi"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-elhage2022toy",
+      "rawKey": "elhage2022toy",
+      "display": "[13]",
+      "raw": "Nelson Elhage, Tristan Hume, Catherine Olsson, Nicholas Schiefer, Tom Henighan, Shauna Kravec, Zac Hatfield-Dodds, Robert Lasenby, Dawn Drain, Carol Chen, et al. Toy models of superposition. arXiv preprint arXiv:2209.10652, 2022.",
+      "metadata": {
+        "title": "Toy Models of Superposition",
+        "authors": [
+          "Nelson Elhage",
+          "Tristan Hume",
+          "Catherine Olsson",
+          "Nicholas Schiefer",
+          "T. Henighan",
+          "S. Kravec",
+          "Zac Hatfield-Dodds",
+          "R. Lasenby",
+          "Dawn Drain",
+          "Carol Chen",
+          "R. Grosse",
+          "Sam McCandlish",
+          "Jared Kaplan",
+          "D. Amodei",
+          "M. Wattenberg",
+          "Chris Olah"
+        ],
+        "year": 2022,
+        "doi": "10.48550/arXiv.2209.10652",
+        "arxivId": "2209.10652",
+        "url": "https://www.semanticscholar.org/paper/9d125f45b1d2dea01f05281470bc08e12b6c7cba"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2209.10652",
+        "matchBy": "doi"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-erichson2019jumprelu",
+      "rawKey": "erichson2019jumprelu",
+      "display": "[14]",
+      "raw": "N Benjamin Erichson, Zhewei Yao, and Michael W Mahoney. JumpReLU: A retrofit defense strategy for adversarial attacks. arXiv preprint arXiv:1904.03750, 2019.",
+      "metadata": {
+        "title": "JumpReLU: A Retrofit Defense Strategy for Adversarial Attacks",
+        "authors": [
+          "N. Benjamin Erichson",
+          "Zhe-Wei Yao",
+          "Michael W. Mahoney"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Pattern Recognition Applications and Methods",
+        "doi": "10.48550/arXiv.1904.03750",
+        "arxivId": "1904.03750",
+        "url": "https://www.semanticscholar.org/paper/ac7aba64f4ab4ce15d7d1ed563121b012b240d92"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-foote2023neuron",
+      "rawKey": "foote2023neuron",
+      "display": "[15]",
+      "raw": "Alex Foote, Neel Nanda, Esben Kran, Ioannis Konstas, Shay Cohen, and Fazl Barez. Neuron to graph: Interpreting language model neurons at scale. arXiv preprint arXiv:2305.19911, 2023.",
+      "metadata": {
+        "title": "Neuron to Graph: Interpreting Language Model Neurons at Scale",
+        "authors": [
+          "Alex Foote",
+          "Neel Nanda",
+          "Esben Kran",
+          "Ioannis Konstas",
+          "Shay B. Cohen",
+          "Fazl Barez"
+        ],
+        "year": 2023,
+        "doi": "10.48550/arXiv.2305.19911",
+        "arxivId": "2305.19911",
+        "url": "https://www.semanticscholar.org/paper/61039ce0c0f079b90ecca7d8c659340aee9ee932"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-goh2016decoding",
+      "rawKey": "goh2016decoding",
+      "display": "[16]",
+      "raw": "Gabriel Goh. Decoding the thought vector, 2016. URL https://gabgoh.github.io/ThoughtVectors/. Accessed: 2024-05-24.",
+      "metadata": {
+        "title": "Decoding the thought vector",
+        "year": 2016,
+        "venue": "gabgoh.github.io/ ThoughtVectors/",
+        "url": "https://gabgoh.github.io/ThoughtVectors/"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gulli_ag_news",
+      "rawKey": "gulli_ag_news",
+      "display": "[17]",
+      "raw": "Antonio Gulli. Ag's corpus of news articles. http://groups.di.unipi.it/ gulli/AG_corpus_of_news_articles.html. Accessed: 2024-05-21.",
+      "metadata": {
+        "title": "Ag’s corpus of news articles",
+        "year": 2024,
+        "venue": "http://groups.di.",
+        "url": "http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gurnee2023finding",
+      "rawKey": "gurnee2023finding",
+      "display": "[18]",
+      "raw": "Wes Gurnee, Neel Nanda, Matthew Pauly, Katherine Harvey, Dmitrii Troitskii, and Dimitris Bertsimas. Finding neurons in a haystack: Case studies with sparse probing. arXiv preprint arXiv:2305.01610, 2023.",
+      "metadata": {
+        "title": "Finding Neurons in a Haystack: Case Studies with Sparse Probing",
+        "authors": [
+          "Wes Gurnee",
+          "Neel Nanda",
+          "Matthew Pauly",
+          "K. Harvey",
+          "Dmitrii Troitskii",
+          "D. Bertsimas"
+        ],
+        "year": 2023,
+        "venue": "Trans. Mach. Learn. Res.",
+        "doi": "10.48550/arXiv.2305.01610",
+        "arxivId": "2305.01610",
+        "url": "https://www.semanticscholar.org/paper/12910786da7a34c9ee26798fd81b0ed7b0e38789"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hendrycks2020aligning",
+      "rawKey": "hendrycks2020aligning",
+      "display": "[19]",
+      "raw": "Dan Hendrycks, Collin Burns, Steven Basart, Andrew Critch, Jerry Li, Dawn Song, and Jacob Steinhardt. Aligning ai with shared human values. arXiv preprint arXiv:2008.02275, 2020.",
+      "metadata": {
+        "title": "Aligning AI With Shared Human Values",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Steven Basart",
+          "Andrew Critch",
+          "J. Li",
+          "D. Song",
+          "J. Steinhardt"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2008.02275",
+        "arxivId": "2008.02275",
+        "url": "https://www.semanticscholar.org/paper/65906e6027246ae9e4ecd18d6e019a24505c842e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-henighan2020scaling",
+      "rawKey": "henighan2020scaling",
+      "display": "[20]",
+      "raw": "Tom Henighan, Jared Kaplan, Mor Katz, Mark Chen, Christopher Hesse, Jacob Jackson, Heewoo Jun, Tom B Brown, Prafulla Dhariwal, Scott Gray, et al. Scaling laws for autoregressive generative modeling. arXiv preprint arXiv:2010.14701, 2020.",
+      "metadata": {
+        "title": "Scaling Laws for Autoregressive Generative Modeling",
+        "authors": [
+          "T. Henighan",
+          "Jared Kaplan",
+          "Mor Katz",
+          "Mark Chen",
+          "C. Hesse",
+          "Jacob Jackson",
+          "Heewoo Jun",
+          "Tom B. Brown",
+          "Prafulla Dhariwal",
+          "Scott Gray",
+          "Chris Hallacy",
+          "Benjamin Mann",
+          "A. Radford",
+          "A. Ramesh",
+          "N. Ryder",
+          "Daniel M. Ziegler",
+          "John D. Schulman",
+          "D. Amodei",
+          "Sam McCandlish"
+        ],
+        "year": 2020,
+        "doi": "10.48550/arXiv.2010.14701",
+        "arxivId": "2010.14701",
+        "url": "https://www.semanticscholar.org/paper/3efbcfeeb0ea1051a71101d3318da4411081f0b8"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hinton2006reducing",
+      "rawKey": "hinton2006reducing",
+      "display": "[21]",
+      "raw": "Geoffrey E Hinton and Ruslan R Salakhutdinov. Reducing the dimensionality of data with neural networks. science, 313 (5786): 504--507, 2006.",
+      "metadata": {
+        "year": 2006
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-hoffmann2022training",
+      "rawKey": "hoffmann2022training",
+      "display": "[22]",
+      "raw": "Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, et al. Training compute-optimal large language models. arXiv preprint arXiv:2203.15556, 2022.",
+      "metadata": {
+        "title": "Training Compute-Optimal Large Language Models",
+        "authors": [
+          "Sebastian Borgeaud",
+          "Elena Buchatskaya",
+          "Trevor Cai",
+          "Aidan Clark",
+          "Bogdan Damoc",
+          "D. de Las Casas",
+          "Erich Elsen",
+          "Aurelia Guy",
+          "Lisa Anne Hendricks",
+          "T. Hennigan",
+          "Jordan Hoffmann",
+          "A. Mensch",
+          "Katie Millican",
+          "Eric Noland",
+          "Simon Osindero",
+          "Jack W. Rae",
+          "Eliza Rutherford",
+          "L. Sifre",
+          "K. Simonyan",
+          "G. Van Den Driessche",
+          "O. Vinyals",
+          "Johannes Welbl"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems 35",
+        "doi": "10.52202/068431-2176",
+        "arxivId": "2203.15556",
+        "url": "https://www.semanticscholar.org/paper/8342b592fe238f3d230e4959b06fd10153c45db1"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-huang2019gpipe",
+      "rawKey": "huang2019gpipe",
+      "display": "[23]",
+      "raw": "Yanping Huang, Youlong Cheng, Ankur Bapna, Orhan Firat, Dehao Chen, Mia Chen, HyoukJoong Lee, Jiquan Ngiam, Quoc V Le, Yonghui Wu, et al. Gpipe: Efficient training of giant neural networks using pipeline parallelism. Advances in neural information processing systems, 32, 2019.",
+      "metadata": {
+        "title": "GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism",
+        "authors": [
+          "Yan-Ping Huang",
+          "You-Long Cheng",
+          "Ankur Bapna",
+          "O. Firat",
+          "Mia Chen",
+          "Dehao Chen",
+          "HyoukJoong Lee",
+          "J. Ngiam",
+          "Quoc V. Le",
+          "Yong-Hui Wu",
+          "Z. Chen"
+        ],
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://www.semanticscholar.org/paper/d79a26226393f687ddbc375e32055b40b8ad8d38"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jermyn2024ghost",
+      "rawKey": "jermyn2024ghost",
+      "display": "[24]",
+      "raw": "Adam Jermyn and Adly Templeton. Ghost grads: An improvement on resampling. Transformer Circuits Thread, 2024. https://transformer-circuits.pub/2024/jan-update/index.html#dict-learning-resampling.",
+      "metadata": {
+        "title": "Ghost grads: An improvement on resampling",
+        "year": 2024,
+        "venue": "Transformer Circuits Thread",
+        "url": "https://transformer-circuits.pub/2024/jan-update/index.html\\#dict-learning-resampling"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kaplan2020scaling",
+      "rawKey": "kaplan2020scaling",
+      "display": "[25]",
+      "raw": "Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020.",
+      "metadata": {
+        "title": "Scaling Laws for Neural Language Models",
+        "authors": [
+          "Jared Kaplan",
+          "Sam McCandlish",
+          "T. Henighan",
+          "Tom B. Brown",
+          "Benjamin Chess",
+          "R. Child",
+          "Scott Gray",
+          "A. Radford",
+          "Jeff Wu",
+          "D. Amodei"
+        ],
+        "year": 2020,
+        "doi": "10.48550/arXiv.2001.08361",
+        "arxivId": "2001.08361",
+        "url": "https://www.semanticscholar.org/paper/e6c561d02500b2596a230b341a8eb8b921ca5bf2"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/2001.08361",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kingma2014adam",
+      "rawKey": "kingma2014adam",
+      "display": "[26]",
+      "raw": "Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014.",
+      "metadata": {
+        "title": "A method for stochastic optimization",
+        "year": 2014,
+        "venue": "arXiv preprint",
+        "arxivId": "1412.6980"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-koehn-2005-europarl",
+      "rawKey": "koehn-2005-europarl",
+      "display": "[27]",
+      "raw": "Philipp Koehn. Europarl: A parallel corpus for statistical machine translation. In Proceedings of Machine Translation Summit X: Papers, pages 79--86, Phuket, Thailand, September 13-15 2005. URL https://aclanthology.org/2005.mtsummit-papers.11.",
+      "metadata": {
+        "title": "Europarl: A Parallel Corpus for Statistical Machine Translation",
+        "authors": [
+          "Philipp Koehn"
+        ],
+        "year": 2005,
+        "venue": "Machine Translation Summit",
+        "url": "https://aclanthology.org/2005.mtsummit-papers.11"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-konda2014zero",
+      "rawKey": "konda2014zero",
+      "display": "[28]",
+      "raw": "Kishore Konda, Roland Memisevic, and David Krueger. Zero-bias autoencoders and the benefits of co-adapting features. arXiv preprint arXiv:1402.3337, 2014.",
+      "metadata": {
+        "title": "Zero-bias autoencoders and the benefits of co-adapting features",
+        "authors": [
+          "Roland Memisevic",
+          "K. Konda",
+          "D. Krueger"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1402.3337",
+        "arxivId": "1402.3337",
+        "url": "https://www.semanticscholar.org/paper/bd19dd1ccd9412171c6932d1556eeb47131b30ce"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-le2012building",
+      "rawKey": "le2012building",
+      "display": "[29]",
+      "raw": "Quoc V Le, Marcâurelio Ranzato, Rajat Monga, Matthieu Devin, Kai Chen, Greg S Corrado, Jeff Dean, and Andrew Y Ng. Building high-level features using large scale unsupervised learning. In 2013 IEEE international conference on acoustics, speech and signal processing, pages 8595--8598. IEEE, 2013.",
+      "metadata": {
+        "title": "Building high-level features using large scale unsupervised learning",
+        "authors": [
+          "Quoc V. Le",
+          "Rajat Monga",
+          "Matthieu Devin",
+          "G. Corrado",
+          "Kai Chen",
+          "M. Ranzato",
+          "J. Dean",
+          "A. Ng"
+        ],
+        "year": 2011,
+        "venue": "2013 IEEE International Conference on Acoustics, Speech and Signal Processing",
+        "doi": "10.1109/ICASSP.2013.6639343",
+        "arxivId": "1112.6209",
+        "url": "https://www.semanticscholar.org/paper/72e93aa6767ee683de7f001fa72f1314e40a8f35"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lee2007sparse",
+      "rawKey": "lee2007sparse",
+      "display": "[30]",
+      "raw": "Honglak Lee, Chaitanya Ekanadham, and Andrew Ng. Sparse deep belief net model for visual area v2. Advances in neural information processing systems, 20, 2007.",
+      "metadata": {
+        "title": "Sparse deep belief net model for visual area V2",
+        "authors": [
+          "Honglak Lee",
+          "Chaitanya Ekanadham",
+          "A. Ng"
+        ],
+        "year": 2007,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://www.semanticscholar.org/paper/202cbbf671743aefd380d2f23987bd46b9caaf97"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sharkey2022taking",
+      "rawKey": "sharkey2022taking",
+      "display": "[31]",
+      "raw": "Beren Millidge Lee Sharkey, Dan Braun. Taking features out of superposition with sparse autoencoders. AI Alignment Forum, 2022. URL https://www.alignmentforum.org/posts/z6QQJbtpkEAX3Aojj/interim-research-report-taking-features-out-of-superposition.",
+      "metadata": {
+        "title": "Taking features out of super-position with sparse autoencoders",
+        "year": 2022,
+        "venue": "AI Alignment Forum",
+        "url": "https://www.alignmentforum.org/posts/z6QQJbtpkEAX3Aojj/interim-research-report-taking-features-out-of-superposition"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lin2021truthfulqa",
+      "rawKey": "lin2021truthfulqa",
+      "display": "[32]",
+      "raw": "Stephanie Lin, Jacob Hilton, and Owain Evans. Truthfulqa: Measuring how models mimic human falsehoods. arXiv preprint arXiv:2109.07958, 2021.",
+      "metadata": {
+        "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+        "authors": [
+          "Stephanie C. Lin",
+          "Jacob Hilton",
+          "Owain Evans"
+        ],
+        "year": 2021,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2109.07958",
+        "arxivId": "2109.07958",
+        "url": "https://www.semanticscholar.org/paper/77d956cdab4508d569ae5741549b78e715fd0749"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lindsey2024scaling",
+      "rawKey": "lindsey2024scaling",
+      "display": "[33]",
+      "raw": "Jack Lindsey, Tom Conerly, Adly Templeton, Jonathan Marcus, and Tom Henighan. Scaling laws for dictionary learning. Transformer Circuits Thread, 2024. https://transformer-circuits.pub/2024/april-update/index.html#scaling-laws.",
+      "metadata": {
+        "title": "Scaling laws for dictionary learning",
+        "year": 2024,
+        "venue": "Transformer Circuits Thread",
+        "url": "https://transformer-circuits.pub/2024/april-update/index.html\\#scaling-laws"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mairal2014sparse",
+      "rawKey": "mairal2014sparse",
+      "display": "[34]",
+      "raw": "Julien Mairal, Francis Bach, Jean Ponce, et al. Sparse modeling for image and vision processing. Foundations and Trends in Computer Graphics and Vision, 8 (2-3): 85--283, 2014.",
+      "metadata": {
+        "title": "Sparse Modeling for Image and Vision Processing",
+        "authors": [
+          "Julien Mairal",
+          "F. Bach",
+          "J. Ponce"
+        ],
+        "year": 2014,
+        "venue": "Foundations and Trends in Computer Graphics and Vision",
+        "doi": "10.1561/0600000058",
+        "arxivId": "1411.3230",
+        "url": "https://www.semanticscholar.org/paper/a10a39d2811a804fcead1667c54c4465c3314484"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-makelov2024principled",
+      "rawKey": "makelov2024principled",
+      "display": "[35]",
+      "raw": "Aleksandar Makelov, George Lange, and Neel Nanda. Towards principled evaluations of sparse autoencoders for interpretability and control, 2024.",
+      "metadata": {
+        "title": "Towards Principled Evaluations of Sparse Autoencoders for Interpretability and Control",
+        "authors": [
+          "Aleksandar Makelov",
+          "Georg Lange",
+          "Neel Nanda"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2405.08366",
+        "arxivId": "2405.08366",
+        "url": "https://www.semanticscholar.org/paper/c5d82b27897633d6c3b2e452a0dc6c019d4a1565"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-makhzani2013k",
+      "rawKey": "makhzani2013k",
+      "display": "[36]",
+      "raw": "Alireza Makhzani and Brendan Frey. K-sparse autoencoders. arXiv preprint arXiv:1312.5663, 2013.",
+      "metadata": {
+        "title": "k-Sparse Autoencoders",
+        "authors": [
+          "Alireza Makhzani",
+          "B. Frey"
+        ],
+        "year": 2013,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1312.5663",
+        "arxivId": "1312.5663",
+        "url": "https://www.semanticscholar.org/paper/b94043a133e3d07ed0b1cfc036829e619ea0ba22"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-maleki2009coherence",
+      "rawKey": "maleki2009coherence",
+      "display": "[37]",
+      "raw": "Arian Maleki. Coherence analysis of iterative thresholding algorithms. In 2009 47th Annual Allerton Conference on Communication, Control, and Computing (Allerton), pages 236--243. IEEE, 2009.",
+      "metadata": {
+        "title": "Coherence analysis of iterative thresholding algorithms",
+        "authors": [
+          "A. Maleki"
+        ],
+        "year": 2009,
+        "venue": "2009 47th Annual Allerton Conference on Communication, Control, and Computing (Allerton)",
+        "doi": "10.48550/arXiv.0904.1193",
+        "arxivId": "0904.1193",
+        "url": "https://www.semanticscholar.org/paper/cf8423b52150458ed642e1e62753b940512939dd"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mallat1993matching",
+      "rawKey": "mallat1993matching",
+      "display": "[38]",
+      "raw": "Stephane G Mallat and Zhifeng Zhang. Matching pursuits with time-frequency dictionaries. IEEE Transactions on signal processing, 41 (12): 3397--3415, 1993.",
+      "metadata": {
+        "title": "Matching pursuits with time-frequency dictionaries",
+        "authors": [
+          "S. Mallat",
+          "Zhi-Feng Zhang"
+        ],
+        "year": 1993,
+        "venue": "IEEE Transactions on Signal Processing",
+        "doi": "10.1109/78.258082",
+        "url": "https://www.semanticscholar.org/paper/0b6e98a6a8cf8283fd76fe1100b23f11f4cfa711"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-marks2023some",
+      "rawKey": "marks2023some",
+      "display": "[39]",
+      "raw": "Sam Marks. Some open-source dictionaries and dictionary learning infrastructure. AI Alignment Forum, 2023. URL https://www.alignmentforum.org/posts/AaoWLcmpY3LKvtdyq/some-open-source-dictionaries-and-dictionary-learning.",
+      "metadata": {
+        "title": "Some open-source dictionaries and dictionary learning infrastructure",
+        "year": 2023,
+        "venue": "AI Alignment Forum",
+        "url": "https://www.alignmentforum.org/posts/AaoWLcmpY3LKvtdyq/some-open-source-dictionaries-and-dictionary-learning"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-marks2024sparse",
+      "rawKey": "marks2024sparse",
+      "display": "[40]",
+      "raw": "Samuel Marks, Can Rager, Eric J Michaud, Yonatan Belinkov, David Bau, and Aaron Mueller. Sparse feature circuits: Discovering and editing interpretable causal graphs in language models. arXiv preprint arXiv:2403.19647, 2024.",
+      "metadata": {
+        "title": "Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models",
+        "authors": [
+          "Samuel Marks",
+          "Can Rager",
+          "Eric J. Michaud",
+          "Yonatan Belinkov",
+          "David Bau",
+          "Aaron Mueller"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2403.19647",
+        "arxivId": "2403.19647",
+        "url": "https://www.semanticscholar.org/paper/b8f280d8bf685f8da7c83068e73f000528072d6b"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mcauley2013hidden",
+      "rawKey": "mcauley2013hidden",
+      "display": "[41]",
+      "raw": "Julian McAuley and Jure Leskovec. Hidden factors and hidden topics: understanding rating dimensions with review text. In Proceedings of the 7th ACM conference on Recommender systems, pages 165--172, 2013.",
+      "metadata": {
+        "title": "Hidden factors and hidden topics: understanding rating dimensions with review text",
+        "authors": [
+          "Julian McAuley",
+          "J. Leskovec"
+        ],
+        "year": 2013,
+        "venue": "Proceedings of the 7th ACM conference on Recommender systems",
+        "doi": "10.1145/2507157.2507163",
+        "url": "https://www.semanticscholar.org/paper/665f89a20b05472d82df0a12f2dd63e8fcc4f3ea"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mcinnes2018umap",
+      "rawKey": "mcinnes2018umap",
+      "display": "[42]",
+      "raw": "Leland McInnes, John Healy, and James Melville. Umap: Uniform manifold approximation and projection for dimension reduction. arXiv preprint arXiv:1802.03426, 2018.",
+      "metadata": {
+        "title": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
+        "authors": [
+          "Leland McInnes",
+          "John Healy"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1802.03426",
+        "arxivId": "1802.03426",
+        "url": "https://www.semanticscholar.org/paper/3a288c63576fc385910cb5bc44eaea75b442e62e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-meinshausen2007relaxed",
+      "rawKey": "meinshausen2007relaxed",
+      "display": "[43]",
+      "raw": "Nicolai Meinshausen. Relaxed lasso. Computational Statistics & Data Analysis, 52 (1): 374--393, 2007.",
+      "metadata": {
+        "title": "Relaxed Lasso",
+        "authors": [
+          "Nicolai Meinshausen"
+        ],
+        "year": 2007,
+        "venue": "Computational Statistics & Data Analysis",
+        "doi": "10.1016/j.csda.2006.12.019",
+        "url": "https://www.semanticscholar.org/paper/d90a98dbd297e3b57f166ea139258660188792ed"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-OpenBookQA2018",
+      "rawKey": "OpenBookQA2018",
+      "display": "[44]",
+      "raw": "Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a new dataset for open book question answering. In EMNLP, 2018.",
+      "metadata": {
+        "title": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering",
+        "authors": [
+          "Todor Mihaylov",
+          "Peter Clark",
+          "Tushar Khot",
+          "Ashish Sabharwal"
+        ],
+        "year": 2018,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/D18-1260",
+        "arxivId": "1809.02789",
+        "url": "https://www.semanticscholar.org/paper/1536e8958697c5364f68b2e2448905dbbeb3a0ca"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mossing2024tdb",
+      "rawKey": "mossing2024tdb",
+      "display": "[45]",
+      "raw": "Dan Mossing, Steven Bills, Henk Tillman, Tom DuprÃ la Tour, Nick Cammarata, Leo Gao, Joshua Achiam, Catherine Yeh, Jan Leike, Jeff Wu, and William Saunders. Transformer debugger. https://github.com/openai/transformer-debugger, 2024.",
+      "metadata": {
+        "year": 2024,
+        "url": "https://github.com/openai/transformer-debugger"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-nanda2024progress",
+      "rawKey": "nanda2024progress",
+      "display": "[46]",
+      "raw": "Neel Nanda, Arthur Conmy, Lewis Smith, Senthooran Rajamanoharan, Tom Lieberum, JÃnos KramÃr, and Vikrant Varma. Progress update #1 from the gdm mech interp team: Full update. AI Alignment Forum, 2024. URL https://www.alignmentforum.org/posts/C5KAZQib3bzzpeyrg/progress-update-1-from-the-gdm-mech-interp-team-full-update.",
+      "metadata": {
+        "title": "Progress update #1 from the gdm mech interp team: Full update",
+        "year": 2024,
+        "venue": "AI Alignment Forum",
+        "url": "https://www.alignmentforum.org/posts/C5KAZQib3bzzpeyrg/progress-update-1-from-the-gdm-mech-interp-team-full-update"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-olah2024open",
+      "rawKey": "olah2024open",
+      "display": "[47]",
+      "raw": "Chris Olah, Adly Templeton, Trenton Bricken, and Adam Jermyn. Open problem: Attribution dictionary learning. Transformer Circuits Thread, 2024. https://transformer-circuits.pub/2024/april-update/index.html#attr-dl.",
+      "metadata": {
+        "year": 2024,
+        "url": "https://transformer-circuits.pub/2024/april-update/index.html\\#attr-dl"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-olshausen1996emergence",
+      "rawKey": "olshausen1996emergence",
+      "display": "[48]",
+      "raw": "Bruno A Olshausen and David J Field. Emergence of simple-cell receptive field properties by learning a sparse code for natural images. Nature, 381 (6583): 607--609, 1996.",
+      "metadata": {
+        "title": "Emergence of simple-cell receptive field properties by learning a sparse code for natural images",
+        "authors": [
+          "B. Olshausen",
+          "D. Field"
+        ],
+        "year": 1996,
+        "venue": "Nature",
+        "doi": "10.1038/381607A0",
+        "url": "https://www.semanticscholar.org/paper/8012c4a1e2ca663f1a04e80cbb19631a00cbab27"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpt2_output_dataset",
+      "rawKey": "gpt2_output_dataset",
+      "display": "[49]",
+      "raw": "OpenAI. Gpt-2 output dataset. https://github.com/openai/gpt-2-output-dataset/tree/master, 2019. Accessed: 2024-05-21.",
+      "metadata": {
+        "year": 2019,
+        "url": "https://github.com/openai/gpt-2-output-dataset/tree/master"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-openai2023gpt",
+      "rawKey": "openai2023gpt",
+      "display": "[50]",
+      "raw": "OpenAI. GPT-4 technical report. arXiv prepreint arXiv:2303.08774, 2023.",
+      "metadata": {
+        "title": "GPT-4 Technical Report",
+        "authors": [
+          "OpenAI",
+          "Josh Achiam",
+          "Steven Adler",
+          "S. Agarwal",
+          "Lama Ahmad",
+          "Ilge Akkaya",
+          "Florencia Leoni Aleman",
+          "Diogo Almeida",
+          "Janko Altenschmidt",
+          "Sam Altman",
+          "Shyamal Anadkat",
+          "Red Avila",
+          "I. Babuschkin",
+          "S. Balaji",
+          "Valerie Balcom",
+          "Paul Baltescu",
+          "Haim-ing Bao",
+          "Mo Bavarian",
+          "Jeff Belgum",
+          "Irwan Bello",
+          "Jake Berdine",
+          "Gabriel Bernadett-Shapiro",
+          "Christopher Berner",
+          "Lenny Bogdonoff",
+          "O. Boiko",
+          "Made-laine Boyd",
+          "Anna-Luisa Brakman",
+          "G. Brockman",
+          "Tim Brooks",
+          "Miles Brundage",
+          "Kevin Button",
+          "Trevor Cai",
+          "Rosie Campbell",
+          "Andrew B. Cann",
+          "Brittany Carey",
+          "Chelsea Carlson",
+          "Rory Carmichael",
+          "Brooke Chan",
+          "Che Chang",
+          "Fotis Chantzis",
+          "Derek Chen",
+          "Sully Chen",
+          "Ruby Chen",
+          "Jason Chen",
+          "Mark Chen",
+          "Benjamin Chess",
+          "Chester Cho",
+          "Casey Chu",
+          "Hyung Won Chung",
+          "Dave Cummings",
+          "Jeremiah Currier",
+          "Yunxing Dai",
+          "C. Decareaux",
+          "Thomas Degry",
+          "Noah Deutsch",
+          "Damien Deville",
+          "Arka Dhar",
+          "David Dohan",
+          "Steve Dowling",
+          "Sheila Dunning",
+          "Adrien Ecoffet",
+          "Atty Eleti",
+          "Tyna Eloundou",
+          "David Farhi",
+          "Liam Fedus",
+          "Niko Felix",
+          "S. Fishman",
+          "Juston Forte",
+          "Is-abella Fulford",
+          "Leo Gao",
+          "Elie Georges",
+          "C. Gibson",
+          "Vik Goel",
+          "T. Gogineni",
+          "G. Goh",
+          "Raphael Gontijo-Lopes",
+          "J. Gordon",
+          "Morgan Grafstein",
+          "Scott Gray",
+          "Ryan Greene",
+          "Joshua Gross",
+          "S. Gu",
+          "Yu-Fei Guo",
+          "Chris Hallacy",
+          "Jesse Han",
+          "J. Harris",
+          "Yu-Chen He",
+          "Mike Heaton",
+          "Johannes Heidecke",
+          "C. Hesse",
+          "Alan Hickey",
+          "W. Hickey",
+          "P. Hoeschele",
+          "Brandon Houghton",
+          "Kenny Hsu",
+          "Sheng-Li Hu",
+          "Xin Hu",
+          "Joost Huizinga",
+          "Shantanu Jain",
+          "Shawn Jain",
+          "Joanne Jang",
+          "Angela Jiang",
+          "R. Jiang",
+          "Hao-Zhun Jin",
+          "Denny Jin",
+          "Shino Jomoto",
+          "Billie Jonn",
+          "Heewoo Jun",
+          "T. Kaftan",
+          "L. Kaiser",
+          "A. Kamali",
+          "Ingmar Kanitscheider",
+          "N. Keskar",
+          "Tabarak Khan",
+          "Logan Kilpatrick",
+          "Jong Wook Kim",
+          "Christina Kim",
+          "Yongjik Kim",
+          "J. Kirchner",
+          "J. Kiros",
+          "Matthew Knight",
+          "Daniel Kokotajlo",
+          "Lukasz Kondraciuk",
+          "A. Kondrich",
+          "Aris Konstantinidis",
+          "Kyle Kosic",
+          "G. Krueger",
+          "Vishal Kuo",
+          "Michael Lampe",
+          "Ikai Lan",
+          "Teddy Lee",
+          "Jan Leike",
+          "Jade Leung",
+          "Daniel Levy",
+          "Chak Li",
+          "Rachel Lim",
+          "Molly Lin",
+          "Stephanie L. Lin",
+          "Mateusz Litwin",
+          "Theresa Lopez",
+          "Ryan Lowe",
+          "Patricia Lue",
+          "A. Makanju",
+          "Kim Malfacini",
+          "Sam Manning",
+          "Todor M. Markov",
+          "Yaniv Markovski",
+          "Bianca Martin",
+          "Katie Mayer",
+          "A. Mayne",
+          "Bob McGrew",
+          "S. McKinney",
+          "Christine McLeavey",
+          "Paul McMillan",
+          "Jake McNeil",
+          "David Medina",
+          "Aalok Mehta",
+          "Jacob Menick",
+          "Luke Metz",
+          "Andrey Mishchenko",
+          "Pamela Mishkin",
+          "Vinnie Monaco",
+          "Evan Morikawa",
+          "Daniel P. Mossing",
+          "Tong Mu",
+          "Mira Murati",
+          "O. Murk",
+          "David A. Mély",
+          "Ashvin Nair",
+          "Reiichiro Nakano",
+          "Rajeev Nayak",
+          "Arvind Neelakantan",
+          "Richard Q. Ngo",
+          "Hyeonwoo Noh",
+          "Long Ouyang",
+          "Cullen O'Keefe",
+          "J. Pachocki",
+          "Alex Paino",
+          "Joe Palermo",
+          "Ashley Pantuliano",
+          "Giambattista Parascandolo",
+          "Joel Parish",
+          "Emy Parparita",
+          "A. Passos",
+          "Mikhail Pavlov",
+          "Andrew Peng",
+          "Adam Perel-man",
+          "Filipe de Avila Belbute-Peres",
+          "Michael Petrov",
+          "Henrique Pondé de Oliveira Pinto",
+          "M. Pokorny",
+          "Michelle Pokrass",
+          "Vitchyr H. Pong",
+          "T. Pow-ell",
+          "Alethea Power",
+          "Boris Power",
+          "Elizabeth Proehl",
+          "Raul Puri",
+          "A. Radford",
+          "Jack W. Rae",
+          "Aditya Ramesh",
+          "Cameron Raymond",
+          "Francis Real",
+          "Kendra Rimbach",
+          "Carl Ross",
+          "Bob Rotsted",
+          "Henri Roussez",
+          "N. Ryder",
+          "Mario D. Saltarelli",
+          "Ted Sanders",
+          "Shibani Santurkar",
+          "G. Sastry",
+          "Heather Schmidt",
+          "David Schnurr",
+          "John D. Schulman",
+          "Daniel Selsam",
+          "Kyla Sheppard",
+          "Toki Sherbakov",
+          "Jessica Shieh",
+          "Sarah Shoker",
+          "Pranav Shyam",
+          "Szymon Sidor",
+          "Eric Sigler",
+          "Maddie Simens",
+          "Jordan Sitkin",
+          "Katarina Slama",
+          "Ian Sohl",
+          "Benjamin D. Sokolowsky",
+          "Yang Song",
+          "Natalie Staudacher",
+          "Felipe Petroski Such",
+          "Natalie Summers",
+          "I. Sutskever",
+          "Jie Tang",
+          "Nikolas A. Tezak",
+          "Madeleine B Thompson",
+          "Phil Tillet",
+          "Amin Tootoonchian",
+          "Elizabeth Tseng",
+          "P. Tuggle",
+          "Nick Turley",
+          "Jerry Tworek",
+          "Juan Felipe Ceron Uribe",
+          "Andrea Vallone",
+          "Arun Vijayvergiya",
+          "Chelsea Voss",
+          "Carroll L. Wainwright",
+          "Justin Wang",
+          "Alvin Wang",
+          "Ben Wang",
+          "Jonathan Ward",
+          "Jason Wei",
+          "C. Weinmann",
+          "Akila Welihinda",
+          "Peter Welinder",
+          "Jia-Yi Weng",
+          "Li-Lian Weng",
+          "Matt Wiethoff",
+          "Dave Willner",
+          "C. Winter",
+          "Samuel Wolrich",
+          "Hannah Wong",
+          "Lauren Workman",
+          "Sherwin Wu",
+          "Jeff Wu",
+          "Michael Wu",
+          "Kai Xiao",
+          "Tao Xu",
+          "Sarah Yoo",
+          "Kevin Yu",
+          "Qim-ing Yuan",
+          "W. Zaremba",
+          "Rowan Zellers",
+          "Chong Zhang",
+          "Marvin Zhang",
+          "Sheng-Jia Zhao",
+          "Tian-Hao Zheng",
+          "Jun-Tang Zhuang",
+          "William Zhuk",
+          "Barret Zoph"
+        ],
+        "year": 2023,
+        "arxivId": "2303.08774",
+        "url": "https://www.semanticscholar.org/paper/163b4d6a79a5b19af88b8585456363340d9efd04"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-radford2019language",
+      "rawKey": "radford2019language",
+      "display": "[51]",
+      "raw": "Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, et al. Language models are unsupervised multitask learners. OpenAI blog, 1 (8): 9, 2019.",
+      "metadata": {
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "authors": [
+          "A. Radford",
+          "Jeff Wu",
+          "R. Child",
+          "D. Luan",
+          "D. Amodei",
+          "I. Sutskever"
+        ],
+        "year": 2019,
+        "url": "https://www.semanticscholar.org/paper/9405cc0d6169988371b2755e573cc28650d14dfe"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/language-models-are-unsupervised-multitask-learners",
+        "matchBy": "title"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rajamanoharan2024improving",
+      "rawKey": "rajamanoharan2024improving",
+      "display": "[52]",
+      "raw": "Senthooran Rajamanoharan, Arthur Conmy, Lewis Smith, Tom Lieberum, Vikrant Varma, JÃnos KramÃr, Rohin Shah, and Neel Nanda. Improving dictionary learning with gated sparse autoencoders. arXiv preprint arXiv:2404.16014, 2024.",
+      "metadata": {
+        "title": "Improving Dictionary Learning with Gated Sparse Autoencoders",
+        "authors": [
+          "Senthooran Rajamanoharan",
+          "Arthur Conmy",
+          "Lewis Smith",
+          "Tom Lieberum",
+          "Vikrant Varma",
+          "János Kramár",
+          "Rohin Shah",
+          "Neel Nanda"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2404.16014",
+        "arxivId": "2404.16014",
+        "url": "https://www.semanticscholar.org/paper/bbf218fd97d3c18801eb6eb09345bb38e7bcc871"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rogers2020getting",
+      "rawKey": "rogers2020getting",
+      "display": "[53]",
+      "raw": "Anna Rogers, Olga Kovaleva, Matthew Downey, and Anna Rumshisky. Getting closer to ai complete question answering: A set of prerequisite real tasks. In Proceedings of the AAAI conference on artificial intelligence, volume 34, pages 8722--8731, 2020.",
+      "metadata": {
+        "title": "Getting Closer to AI Complete Question Answering: A Set of Prerequisite Real Tasks",
+        "authors": [
+          "Anna Rogers",
+          "Olga Kovaleva",
+          "Matt Downey",
+          "Anna Rumshisky"
+        ],
+        "year": 2020,
+        "venue": "AAAI Conference on Artificial Intelligence",
+        "doi": "10.1609/AAAI.V34I05.6398",
+        "url": "https://www.semanticscholar.org/paper/a87f0bac2ed58e8a79d33d0c1cf81c6407cd645f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ruppert1988efficient",
+      "rawKey": "ruppert1988efficient",
+      "display": "[54]",
+      "raw": "David Ruppert. Efficient estimations from a slowly convergent robbins-monro process. Technical report, Cornell University Operations Research and Industrial Engineering, 1988.",
+      "metadata": {
+        "title": "Efficient Estimations from a Slowly Convergent Robbins-Monro Process",
+        "authors": [
+          "D. Ruppert"
+        ],
+        "year": 1988,
+        "url": "https://www.semanticscholar.org/paper/2991f9bb677b71c33945e89ac0c7dcf7a36fa198"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sap2019socialiqa",
+      "rawKey": "sap2019socialiqa",
+      "display": "[55]",
+      "raw": "Maarten Sap, Hannah Rashkin, Derek Chen, Ronan LeBras, and Yejin Choi. Socialiqa: Commonsense reasoning about social interactions. arXiv preprint arXiv:1904.09728, 2019.",
+      "metadata": {
+        "title": "Socialiqa: Commonsense reasoning about social interactions",
+        "year": 2019,
+        "arxivId": "1904.09728"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shazeer2017outrageously",
+      "rawKey": "shazeer2017outrageously",
+      "display": "[56]",
+      "raw": "Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538, 2017.",
+      "metadata": {
+        "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+        "authors": [
+          "Noam Shazeer",
+          "Azalia Mirhoseini",
+          "Krzysztof Maziarz",
+          "Andy Davis",
+          "Quoc V. Le",
+          "Geoffrey E. Hinton",
+          "J. Dean"
+        ],
+        "year": 2017,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1701.06538",
+        "arxivId": "1701.06538",
+        "url": "https://www.semanticscholar.org/paper/510e26733aaff585d65701b9f1be7ca9d5afc586"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shoeybi2019megatron",
+      "rawKey": "shoeybi2019megatron",
+      "display": "[57]",
+      "raw": "Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and Bryan Catanzaro. Megatron-lm: Training multi-billion parameter language models using model parallelism. arXiv preprint arXiv:1909.08053, 2019.",
+      "metadata": {
+        "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+        "authors": [
+          "M. Shoeybi",
+          "M. Patwary",
+          "Raul Puri",
+          "P. LeGresley",
+          "J. Casper",
+          "Bryan Catanzaro"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1909.08053",
+        "arxivId": "1909.08053",
+        "url": "https://www.semanticscholar.org/paper/8323c591e119eb09b28b29fd6c7bc76bd889df7a"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/1909.08053",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-simonyan2013deep",
+      "rawKey": "simonyan2013deep",
+      "display": "[58]",
+      "raw": "Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman. Deep inside convolutional networks: Visualising image classification models and saliency maps. arXiv preprint arXiv:1312.6034, 2013.",
+      "metadata": {
+        "title": "Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps",
+        "authors": [
+          "K. Simonyan",
+          "A. Vedaldi",
+          "Andrew Zisserman"
+        ],
+        "year": 2013,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1312.6034",
+        "arxivId": "1312.6034",
+        "url": "https://www.semanticscholar.org/paper/dc6ac3437f0a6e64e4404b1b9d188394f8a3bf71"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-skodras2001jpeg",
+      "rawKey": "skodras2001jpeg",
+      "display": "[59]",
+      "raw": "Athanassios Skodras, Charilaos Christopoulos, and Touradj Ebrahimi. The jpeg 2000 still image compression standard. IEEE Signal processing magazine, 18 (5): 36--58, 2001.",
+      "metadata": {
+        "title": "The JPEG 2000 still image compression standard",
+        "authors": [
+          "A. Skodras",
+          "C. Christopoulos",
+          "T. Ebrahimi"
+        ],
+        "year": 2001,
+        "venue": "IEEE Signal Processing Magazine",
+        "doi": "10.1109/79.952804",
+        "url": "https://www.semanticscholar.org/paper/2beb0e5650dde462da27056b4cfdd8281e7130f7"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sun2024massive",
+      "rawKey": "sun2024massive",
+      "display": "[60]",
+      "raw": "Mingjie Sun, Xinlei Chen, J Zico Kolter, and Zhuang Liu. Massive activations in large language models. arXiv preprint arXiv:2402.17762, 2024.",
+      "metadata": {
+        "title": "Massive Activations in Large Language Models",
+        "authors": [
+          "Ming-Jie Sun",
+          "Xinlei Chen",
+          "J. Kolter",
+          "Zhuang Liu"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2402.17762",
+        "arxivId": "2402.17762",
+        "url": "https://www.semanticscholar.org/paper/aa085ed9a77d815d3c1d19a468be1d9a8d3efd13"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tafjord2019quartz",
+      "rawKey": "tafjord2019quartz",
+      "display": "[61]",
+      "raw": "Oyvind Tafjord, Matt Gardner, Kevin Lin, and Peter Clark. Quartz: An open-domain dataset of qualitative relationship questions. arXiv preprint arXiv:1909.03553, 2019.",
+      "metadata": {
+        "title": "QuaRTz: An Open-Domain Dataset of Qualitative Relationship Questions",
+        "authors": [
+          "O. Tafjord",
+          "Matt Gardner",
+          "Kevin Lin",
+          "Peter Clark"
+        ],
+        "year": 2019,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/D19-1608",
+        "arxivId": "1909.03553",
+        "url": "https://www.semanticscholar.org/paper/75bf0d491998ffba0992685e0e41ec8fa8d18442"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-taggart2024prolu",
+      "rawKey": "taggart2024prolu",
+      "display": "[62]",
+      "raw": "Glen Taggart. ProLU: A nonlinearity for sparse autoencoders. AI Alignment Forum, 2024. URL https://www.alignmentforum.org/posts/HEpufTdakGTTKgoYF/prolu-a-pareto-improvement-for-sparse-autoencoders.",
+      "metadata": {
+        "year": 2024,
+        "url": "https://www.alignmentforum.org/posts/HEpufTdakGTTKgoYF/prolu-a-pareto-improvement-for-sparse-autoencoders"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-talmor2022commonsenseqa",
+      "rawKey": "talmor2022commonsenseqa",
+      "display": "[63]",
+      "raw": "Alon Talmor, Ori Yoran, Ronan Le Bras, Chandra Bhagavatula, Yoav Goldberg, Yejin Choi, and Jonathan Berant. Commonsenseqa 2.0: Exposing the limits of ai through gamification. arXiv preprint arXiv:2201.05320, 2022.",
+      "metadata": {
+        "title": "CommonsenseQA 2.0: Exposing the Limits of AI through Gamification",
+        "authors": [
+          "Alon Talmor",
+          "Ori Yoran",
+          "Ronan Le Bras",
+          "C. Bhagavatula",
+          "Yoav Goldberg",
+          "Yejin Choi",
+          "Jonathan Berant"
+        ],
+        "year": 2021,
+        "venue": "NeurIPS Datasets and Benchmarks",
+        "doi": "10.48550/arXiv.2201.05320",
+        "arxivId": "2201.05320",
+        "url": "https://www.semanticscholar.org/paper/d65a064eb837f838faf6ff67781b62450b92b159"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-templeton2024scaling",
+      "rawKey": "templeton2024scaling",
+      "display": "[64]",
+      "raw": "Adly Templeton, Tom Conerly, Jonathan Marcus, Jack Lindsey, Trenton Bricken, Brian Chen, Adam Pearce, Craig Citro, Emmanuel Ameisen, Andy Jones, Hoagy Cunningham, Nicholas L Turner, Callum McDougall, Monte MacDiarmid, C. Daniel Freeman, Theodore R. Sumers, Edward Rees, Joshua Batson, Adam Jermyn, Shan Carter, Chris Olah, and Tom Henighan. Scaling monosemanticity: Extracting interpretable features from claude 3 sonnet. Transformer Circuits Thread, 2024. URL https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html.",
+      "metadata": {
+        "title": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet",
+        "authors": [
+          "Adly Templeton",
+          "Tom Conerly",
+          "Jonathan Marcus",
+          "Jack W. Lindsey",
+          "Trenton Bricken",
+          "Brian K. Chen",
+          "Adam Pearce",
+          "Craig Citro",
+          "E. Ameisen",
+          "Andy Jones",
+          "Hoagy Cunningham",
+          "N. Turner",
+          "Callum McDougall",
+          "M. MacDiarmid",
+          "Alex Tamkin",
+          "Esin Durmus",
+          "Tristan Hume",
+          "Francesco Mosconi",
+          "C. D. Freeman",
+          "T. Sumers",
+          "Edward Rees",
+          "Joshua Batson",
+          "Adam S. Jermyn",
+          "Shan Carter",
+          "Chris Olah",
+          "T. Henighan"
+        ],
+        "year": 2026,
+        "doi": "10.48550/arXiv.2605.29358",
+        "arxivId": "2605.29358",
+        "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tibshirani1996regression",
+      "rawKey": "tibshirani1996regression",
+      "display": "[65]",
+      "raw": "Robert Tibshirani. Regression shrinkage and selection via the lasso. Journal of the Royal Statistical Society Series B: Statistical Methodology, 58 (1): 267--288, 1996.",
+      "metadata": {
+        "title": "Regression Shrinkage and Selection via the Lasso",
+        "authors": [
+          "R. Tibshirani"
+        ],
+        "year": 1996,
+        "venue": "Journal of the royal statistical society series b-methodological",
+        "doi": "10.1111/J.2517-6161.1996.TB02080.X",
+        "url": "https://www.semanticscholar.org/paper/b365b8e45b7d81f081de44ac8f9eadf9144f3ca5"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2018glue",
+      "rawKey": "wang2018glue",
+      "display": "[66]",
+      "raw": "Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R Bowman. Glue: A multi-task benchmark and analysis platform for natural language understanding. arXiv preprint arXiv:1804.07461, 2018.",
+      "metadata": {
+        "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+        "authors": [
+          "Alex Wang",
+          "Amanpreet Singh",
+          "Julian Michael",
+          "F. Hill",
+          "Omer Levy",
+          "Samuel R. Bowman"
+        ],
+        "year": 2018,
+        "venue": "BlackboxNLP@EMNLP",
+        "doi": "10.18653/v1/W18-5446",
+        "arxivId": "1804.07461",
+        "url": "https://www.semanticscholar.org/paper/451d4a16e425ecbf38c4b1cca0dcf5d9bec8255c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-welbl2017sciq",
+      "rawKey": "welbl2017sciq",
+      "display": "[67]",
+      "raw": "Johannes Welbl, Nelson F. Liu, Matt Gardner, Gabor Angeli, Rik Koncel-Kedziorski, Emily Bender, Kyle Richardson, Peter Clark, and Nate Kushman. Crowdsourcing multiple choice science questions. arXiv preprint arXiv:1707.06209, 2017. URL https://arxiv.org/abs/1707.06209.",
+      "metadata": {
+        "title": "Crowdsourcing Multiple Choice Science Questions",
+        "authors": [
+          "Johannes Welbl",
+          "Nelson F. Liu",
+          "Matt Gardner"
+        ],
+        "year": 2017,
+        "venue": "NUT@EMNLP",
+        "doi": "10.18653/v1/W17-4413",
+        "arxivId": "1707.06209",
+        "url": "https://arxiv.org/abs/1707.06209"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wright2024addressing",
+      "rawKey": "wright2024addressing",
+      "display": "[68]",
+      "raw": "Benjamin Wright and Lee Sharkey. Addressing feature suppression in SAEs. AI Alignment Forum, 2024. URL https://www.alignmentforum.org/posts/3JuSjTZyMzaSeTxKk/addressing-feature-suppression-in-saes.",
+      "metadata": {
+        "title": "Addressing feature suppression in SAEs",
+        "year": 2024,
+        "venue": "AI Alignment Forum",
+        "url": "https://www.alignmentforum.org/posts/3JuSjTZyMzaSeTxKk/addressing-feature-suppression-in-saes"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xiao2023efficient",
+      "rawKey": "xiao2023efficient",
+      "display": "[69]",
+      "raw": "Guangxuan Xiao, Yuandong Tian, Beidi Chen, Song Han, and Mike Lewis. Efficient streaming language models with attention sinks. arXiv preprint arXiv:2309.17453, 2023.",
+      "metadata": {
+        "title": "Efficient Streaming Language Models with Attention Sinks",
+        "authors": [
+          "Guang-Xuan Xiao",
+          "Yuan-Dong Tian",
+          "Beidi Chen",
+          "Song Han",
+          "Mike Lewis"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2309.17453",
+        "arxivId": "2309.17453",
+        "url": "https://www.semanticscholar.org/paper/fdc53c2c10742464087c0525f77e32604827a21d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yun2021transformer",
+      "rawKey": "yun2021transformer",
+      "display": "[70]",
+      "raw": "Zeyu Yun, Yubei Chen, Bruno A Olshausen, and Yann LeCun. Transformer visualization via dictionary learning: contextualized embedding as a linear superposition of transformer factors. arXiv preprint arXiv:2103.15949, 2021.",
+      "metadata": {
+        "title": "Transformer visualization via dictionary learning: contextualized embedding as a linear superposition of transformer factors",
+        "authors": [
+          "Ze-Yu Yun",
+          "Yu-Bei Chen",
+          "B. Olshausen",
+          "Yann LeCun"
+        ],
+        "year": 2021,
+        "venue": "Workshop on Knowledge Extraction and Integration for Deep Learning Architectures; Deep Learning Inside Out",
+        "doi": "10.48550/arXiv.2103.15949",
+        "arxivId": "2103.15949",
+        "url": "https://www.semanticscholar.org/paper/a6e1d0aa95b7504fbbf3c71b419801306ebacd15"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhao2023pytorch",
+      "rawKey": "zhao2023pytorch",
+      "display": "[71]",
+      "raw": "Yanli Zhao, Andrew Gu, Rohan Varma, Liang Luo, Chien-Chin Huang, Min Xu, Less Wright, Hamid Shojanazeri, Myle Ott, Sam Shleifer, et al. Pytorch fsdp: experiences on scaling fully sharded data parallel. arXiv preprint arXiv:2304.11277, 2023.",
+      "metadata": {
+        "title": "PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel",
+        "authors": [
+          "Yan-Li Zhao",
+          "A. Gu",
+          "Rohan Varma",
+          "Liangchen Luo",
+          "Chien-chin Huang",
+          "Min Xu",
+          "Less Wright",
+          "Hamid Shojanazeri",
+          "Myle Ott",
+          "Sam Shleifer",
+          "A. Desmaison",
+          "Can Balioglu",
+          "Pritam Damania",
+          "Bernard Nguyen",
+          "Geeta Chauhan",
+          "Yuchen Hao",
+          "Ajit Mathews",
+          "Shen Li"
+        ],
+        "year": 2023,
+        "venue": "Proceedings of the VLDB Endowment",
+        "doi": "10.48550/arXiv.2304.11277",
+        "arxivId": "2304.11277",
+        "url": "https://www.semanticscholar.org/paper/a0e7c31d723608e03f30fc92ffc2a604a7a039da"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhou2019mctaco",
+      "rawKey": "zhou2019mctaco",
+      "display": "[72]",
+      "raw": "Ben Zhou, Daniel Khashabi, Qiang Ning, and Dan Roth. âoing on a vacationâtakes longer than âoing for a walkâ A study of temporal commonsense understanding. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 2019. URL https://arxiv.org/abs/1909.03065.",
+      "metadata": {
+        "title": "“Going on a vacation” takes longer than “Going for a walk”: A Study of Temporal Commonsense Understanding",
+        "authors": [
+          "Ben Zhou",
+          "Daniel Khashabi",
+          "Qiang Ning",
+          "Dan Roth"
+        ],
+        "year": 2019,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/D19-1332",
+        "arxivId": "1909.03065",
+        "url": "https://arxiv.org/abs/1909.03065"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 72 entries (bbl)",
+    "semantic scholar: 69 references",
+    "merged: 66 of 72 enriched online"
+  ]
+}

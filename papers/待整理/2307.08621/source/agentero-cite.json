@@ -1,0 +1,976 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:47:30.979Z",
+    "fingerprint": "759c469da0caeb7b5fc297bb8107f32679a9d5089ffcd9b1a76615a620511f91"
+  },
+  "citations": [
+    {
+      "id": "cite-layernorm",
+      "rawKey": "layernorm",
+      "display": "[1]",
+      "raw": "Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint arXiv:1607.06450, 2016.",
+      "metadata": {
+        "title": "Layer normalization",
+        "authors": [
+          "Jimmy Lei Ba",
+          "Jamie Ryan Kiros",
+          "Geoffrey E Hinton"
+        ],
+        "year": 2016,
+        "venue": "arXiv preprint arXiv:1607.06450",
+        "arxivId": "1607.06450"
+      },
+      "localMatch": {
+        "paperPath": "papers/1607.06450",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpt3",
+      "rawKey": "gpt3",
+      "display": "[2]",
+      "raw": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. Language models are few-shot learners. In Advances in Neural Information Processing Systems, volume 33, pages 1877--1901. Curran Associates, Inc., 2020.",
+      "metadata": {
+        "title": "Language Models are Few-Shot Learners",
+        "authors": [
+          "Tom Brown",
+          "Benjamin Mann",
+          "Nick Ryder",
+          "Melanie Subbiah",
+          "Jared D Kaplan",
+          "Prafulla Dhariwal",
+          "Arvind Neelakantan",
+          "Pranav Shyam",
+          "Girish Sastry",
+          "Amanda Askell",
+          "Sandhini Agarwal",
+          "Ariel Herbert-Voss",
+          "Gretchen Krueger",
+          "Tom Henighan",
+          "Rewon Child",
+          "Aditya Ramesh",
+          "Daniel Ziegler",
+          "Jeffrey Wu",
+          "Clemens Winter",
+          "Chris Hesse",
+          "Mark Chen",
+          "Eric Sigler",
+          "Mateusz Litwin",
+          "Scott Gray",
+          "Benjamin Chess",
+          "Jack Clark",
+          "Christopher Berner",
+          "Sam McCandlish",
+          "Alec Radford",
+          "Ilya Sutskever",
+          "Dario Amodei"
+        ],
+        "year": 1901,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "localMatch": {
+        "paperPath": "papers/2005.14165",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-piqa",
+      "rawKey": "piqa",
+      "display": "[3]",
+      "raw": "Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, and Yejin Choi. Piqa: Reasoning about physical commonsense in natural language. In Thirty-Fourth AAAI Conference on Artificial Intelligence, 2020.",
+      "metadata": {
+        "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+        "authors": [
+          "Yonatan Bisk",
+          "Rowan Zellers",
+          "Ronan Le Bras",
+          "Jianfeng Gao",
+          "Yejin Choi"
+        ],
+        "year": 2020,
+        "venue": "Thirty-Fourth AAAI Conference on Artificial Intelligence"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-summscreen",
+      "rawKey": "summscreen",
+      "display": "[4]",
+      "raw": "Mingda Chen, Zewei Chu, Sam Wiseman, and Kevin Gimpel. Summscreen: A dataset for abstractive screenplay summarization. arXiv preprint arXiv:2104.07091, 2021.",
+      "metadata": {
+        "title": "Summscreen: A dataset for abstractive screenplay summarization",
+        "authors": [
+          "Mingda Chen",
+          "Zewei Chu",
+          "Sam Wiseman",
+          "Kevin Gimpel"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2104.07091",
+        "arxivId": "2104.07091"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xmoe",
+      "rawKey": "xmoe",
+      "display": "[5]",
+      "raw": "Zewen Chi, Li Dong, Shaohan Huang, Damai Dai, Shuming Ma, Barun Patra, Saksham Singhal, Payal Bajaj, Xia Song, Xian-Ling Mao, Heyan Huang, and Furu Wei. On the representation collapse of sparse mixture of experts. In Advances in Neural Information Processing Systems, 2022.",
+      "metadata": {
+        "title": "On the Representation Collapse of Sparse Mixture of Experts",
+        "authors": [
+          "Zewen Chi",
+          "Li Dong",
+          "Shaohan Huang",
+          "Damai Dai",
+          "Shuming Ma",
+          "Barun Patra",
+          "Saksham Singhal",
+          "Payal Bajaj",
+          "Xia Song",
+          "Xian-Ling Mao",
+          "Heyan Huang",
+          "Furu Wei"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems",
+        "url": "https://openreview.net/forum?id=mWaYC6CZf5"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-boolq",
+      "rawKey": "boolq",
+      "display": "[6]",
+      "raw": "Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael Collins, and Kristina Toutanova. BoolQ: Exploring the surprising difficulty of natural yes/no questions. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics, pages 2924--2936, 2019.",
+      "metadata": {
+        "title": "BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions",
+        "authors": [
+          "Christopher Clark",
+          "Kenton Lee",
+          "Ming-Wei Chang",
+          "Tom Kwiatkowski",
+          "Michael Collins",
+          "Kristina Toutanova"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/N19-1300",
+        "url": "https://aclanthology.org/N19-1300"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-flashattention",
+      "rawKey": "flashattention",
+      "display": "[7]",
+      "raw": "Tri Dao, Dan Fu, Stefano Ermon, Atri Rudra, and Christopher Re. Flashattention: Fast and memory-efficient exact attention with io-awareness. Advances in Neural Information Processing Systems, 35:16344--16359, 2022.",
+      "metadata": {
+        "title": "Flashattention: Fast and memory-efficient exact attention with io-awareness",
+        "authors": [
+          "Tri Dao",
+          "Dan Fu",
+          "Stefano Ermon",
+          "Atri Rudra",
+          "Christopher Re"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "localMatch": {
+        "paperPath": "papers/2205.14135",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-h3",
+      "rawKey": "h3",
+      "display": "[8]",
+      "raw": "Tri Dao, Daniel Y Fu, Khaled K Saab, Armin W Thomas, Atri Rudra, and Christopher Re. Hungry hungry hippos: Towards language modeling with state space models. arXiv preprint arXiv:2212.14052, 2022.",
+      "metadata": {
+        "title": "Hungry Hungry Hippos: Towards Language Modeling with State Space Models",
+        "authors": [
+          "Tri Dao",
+          "Daniel Y Fu",
+          "Khaled K Saab",
+          "Armin W Thomas",
+          "Atri Rudra",
+          "Christopher Re"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2212.14052",
+        "arxivId": "2212.14052"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-c4:ai2",
+      "rawKey": "c4:ai2",
+      "display": "[9]",
+      "raw": "Jesse Dodge, Ana Marasovic, Gabriel Ilharco, Dirk Groeneveld, Margaret Mitchell, and Matt Gardner. Documenting large webtext corpora: A case study on the colossal clean crawled corpus. In Conference on Empirical Methods in Natural Language Processing, 2021.",
+      "metadata": {
+        "title": "Documenting Large Webtext Corpora: A Case Study on the Colossal Clean Crawled Corpus",
+        "authors": [
+          "Jesse Dodge",
+          "Ana Marasovic",
+          "Gabriel Ilharco",
+          "Dirk Groeneveld",
+          "Margaret Mitchell",
+          "Matt Gardner"
+        ],
+        "year": 2021,
+        "venue": "Conference on Empirical Methods in Natural Language Processing"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pile",
+      "rawKey": "pile",
+      "display": "[10]",
+      "raw": "Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, et al. The Pile: An 800GB dataset of diverse text for language modeling. arXiv preprint arXiv:2101.00027, 2020.",
+      "metadata": {
+        "title": "The Pile: An 800GB dataset of diverse text for language modeling",
+        "authors": [
+          "Leo Gao",
+          "Stella Biderman",
+          "Sid Black",
+          "Laurence Golding",
+          "Travis Hoppe",
+          "Charles Foster",
+          "Jason Phang",
+          "Horace He",
+          "Anish Thite",
+          "Noa Nabeshima"
+        ],
+        "year": 2020,
+        "venue": "arXiv preprint arXiv:2101.00027",
+        "arxivId": "2101.00027"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-s4",
+      "rawKey": "s4",
+      "display": "[11]",
+      "raw": "Albert Gu, Karan Goel, and Christopher Re. Efficiently modeling long sequences with structured state spaces. arXiv preprint arXiv:2111.00396, 2021.",
+      "metadata": {
+        "title": "Efficiently modeling long sequences with structured state spaces",
+        "authors": [
+          "Albert Gu",
+          "Karan Goel",
+          "Christopher Re"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2111.00396",
+        "arxivId": "2111.00396"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-govreport",
+      "rawKey": "govreport",
+      "display": "[12]",
+      "raw": "Luyang Huang, Shuyang Cao, Nikolaus Parulian, Heng Ji, and Lu Wang. Efficient attentions for long document summarization. arXiv preprint arXiv:2104.02112, 2021.",
+      "metadata": {
+        "title": "Efficient attentions for long document summarization",
+        "authors": [
+          "Luyang Huang",
+          "Shuyang Cao",
+          "Nikolaus Parulian",
+          "Heng Ji",
+          "Lu Wang"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2104.02112",
+        "arxivId": "2104.02112"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kosmos-1",
+      "rawKey": "kosmos-1",
+      "display": "[13]",
+      "raw": "Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma, Tengchao Lv, Lei Cui, Owais Khan Mohammed, Qiang Liu, Kriti Aggarwal, Zewen Chi, Johan Bjorck, Vishrav Chaudhary, Subhojit Som, Xia Song, and Furu Wei. Language is not all you need: Aligning perception with language models. ArXiv, abs/2302.14045, 2023.",
+      "metadata": {
+        "title": "Language Is Not All You Need: Aligning Perception with Language Models",
+        "authors": [
+          "Shaohan Huang",
+          "Li Dong",
+          "Wenhui Wang",
+          "Yaru Hao",
+          "Saksham Singhal",
+          "Shuming Ma",
+          "Tengchao Lv",
+          "Lei Cui",
+          "Owais Khan Mohammed",
+          "Qiang Liu",
+          "Kriti Aggarwal",
+          "Zewen Chi",
+          "Johan Bjorck",
+          "Vishrav Chaudhary",
+          "Subhojit Som",
+          "Xia Song",
+          "Furu Wei"
+        ],
+        "year": 2023,
+        "venue": "ArXiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gelu",
+      "rawKey": "gelu",
+      "display": "[14]",
+      "raw": "Dan Hendrycks and Kevin Gimpel. Gaussian error linear units (GELUs). arXiv: Learning, 2016.",
+      "metadata": {
+        "title": "Gaussian Error Linear Units (GELUs)",
+        "authors": [
+          "Dan Hendrycks",
+          "Kevin Gimpel"
+        ],
+        "year": 2016,
+        "venue": "arXiv: Learning"
+      },
+      "localMatch": {
+        "paperPath": "papers/1606.08415",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lstm",
+      "rawKey": "lstm",
+      "display": "[15]",
+      "raw": "Sepp Hochreiter and Jurgen Schmidhuber. Long short-term memory. Neural Computation, 9:1735--1780, November 1997.",
+      "metadata": {
+        "title": "Long Short-Term Memory",
+        "authors": [
+          "Sepp Hochreiter",
+          "Jurgen Schmidhuber"
+        ],
+        "year": 1997,
+        "venue": "Neural Computation",
+        "doi": "10.1162/neco.1997.9.8.1735",
+        "url": "http://dx.doi.org/10.1162/neco.1997.9.8.1735"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-metalm",
+      "rawKey": "metalm",
+      "display": "[16]",
+      "raw": "Yaru Hao, Haoyu Song, Li Dong, Shaohan Huang, Zewen Chi, Wenhui Wang, Shuming Ma, and Furu Wei. Language models are general-purpose interfaces. ArXiv, abs/2206.06336, 2022.",
+      "metadata": {
+        "title": "Language Models are General-Purpose Interfaces",
+        "authors": [
+          "Yaru Hao",
+          "Haoyu Song",
+          "Li Dong",
+          "Shaohan Huang",
+          "Zewen Chi",
+          "Wenhui Wang",
+          "Shuming Ma",
+          "Furu Wei"
+        ],
+        "year": 2022,
+        "venue": "ArXiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-structured:prompt",
+      "rawKey": "structured:prompt",
+      "display": "[17]",
+      "raw": "Yaru Hao, Yutao Sun, Li Dong, Zhixiong Han, Yuxian Gu, and Furu Wei. Structured prompting: Scaling in-context learning to 1,000 examples. ArXiv, abs/2212.06713, 2022.",
+      "metadata": {
+        "title": "Structured Prompting: Scaling In-Context Learning to 1,000 Examples",
+        "authors": [
+          "Yaru Hao",
+          "Yutao Sun",
+          "Li Dong",
+          "Zhixiong Han",
+          "Yuxian Gu",
+          "Furu Wei"
+        ],
+        "year": 2022,
+        "venue": "ArXiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-TheStack",
+      "rawKey": "TheStack",
+      "display": "[18]",
+      "raw": "Denis Kocetkov, Raymond Li, Loubna Ben Allal, Jia Li, Chenghao Mou, Carlos MuÃoz Ferrandis, Yacine Jernite, Margaret Mitchell, Sean Hughes, Thomas Wolf, Dzmitry Bahdanau, Leandro von Werra, and Harm de Vries. The Stack: 3TB of permissively licensed source code. Preprint, 2022.",
+      "metadata": {
+        "title": "The Stack: 3TB of permissively licensed source code",
+        "authors": [
+          "Denis Kocetkov",
+          "Raymond Li",
+          "Loubna Ben Allal",
+          "Jia Li",
+          "Chenghao Mou",
+          "Carlos MuÃoz Ferrandis",
+          "Yacine Jernite",
+          "Margaret Mitchell",
+          "Sean Hughes",
+          "Thomas Wolf",
+          "Dzmitry Bahdanau",
+          "Leandro von Werra",
+          "Harm de Vries"
+        ],
+        "year": 2022,
+        "venue": "Preprint"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-linear-transformer",
+      "rawKey": "linear-transformer",
+      "display": "[19]",
+      "raw": "Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, and Francois Fleuret. Transformers are rnns: Fast autoregressive transformers with linear attention. In International Conference on Machine Learning, pages 5156--5165. PMLR, 2020.",
+      "metadata": {
+        "title": "Transformers are rnns: Fast autoregressive transformers with linear attention",
+        "authors": [
+          "Angelos Katharopoulos",
+          "Apoorv Vyas",
+          "Nikolaos Pappas",
+          "Francois Fleuret"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Machine Learning"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-winograd2012",
+      "rawKey": "winograd2012",
+      "display": "[20]",
+      "raw": "Hector Levesque, Ernest Davis, and Leora Morgenstern. The winograd schema challenge. In Thirteenth International Conference on the Principles of Knowledge Representation and Reasoning, 2012.",
+      "metadata": {
+        "title": "The winograd schema challenge",
+        "authors": [
+          "Hector Levesque",
+          "Ernest Davis",
+          "Leora Morgenstern"
+        ],
+        "year": 2012,
+        "venue": "Thirteenth International Conference on the Principles of Knowledge Representation and Reasoning"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-adamw",
+      "rawKey": "adamw",
+      "display": "[21]",
+      "raw": "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In International Conference on Learning Representations, 2019.",
+      "metadata": {
+        "title": "Decoupled Weight Decay Regularization",
+        "authors": [
+          "Ilya Loshchilov",
+          "Frank Hutter"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://openreview.net/forum?id=Bkg6RiCqY7"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-storycloze",
+      "rawKey": "storycloze",
+      "display": "[22]",
+      "raw": "Nasrin Mostafazadeh, Michael Roth, Annie Louis, Nathanael Chambers, and James Allen. Lsdsem 2017 shared task: The story cloze test. In Proceedings of the 2nd Workshop on Linking Models of Lexical, Sentential and Discourse-level Semantics, pages 46--51, 2017.",
+      "metadata": {
+        "title": "Lsdsem 2017 shared task: The story cloze test",
+        "authors": [
+          "Nasrin Mostafazadeh",
+          "Michael Roth",
+          "Annie Louis",
+          "Nathanael Chambers",
+          "James Allen"
+        ],
+        "year": 2017,
+        "venue": "Proceedings of the 2nd Workshop on Linking Models of Lexical, Sentential and Discourse-level Semantics"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-torchscale",
+      "rawKey": "torchscale",
+      "display": "[23]",
+      "raw": "Shuming Ma, Hongyu Wang, Shaohan Huang, Wenhui Wang, Zewen Chi, Li Dong, Alon Benhaim, Barun Patra, Vishrav Chaudhary, Xia Song, and Furu Wei. TorchScale: Transformers at scale. CoRR, abs/2211.13184, 2022.",
+      "metadata": {
+        "title": "TorchScale: Transformers at Scale",
+        "authors": [
+          "Shuming Ma",
+          "Hongyu Wang",
+          "Shaohan Huang",
+          "Wenhui Wang",
+          "Zewen Chi",
+          "Li Dong",
+          "Alon Benhaim",
+          "Barun Patra",
+          "Vishrav Chaudhary",
+          "Xia Song",
+          "Furu Wei"
+        ],
+        "year": 2022,
+        "venue": "CoRR"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ResurrectingRNN",
+      "rawKey": "ResurrectingRNN",
+      "display": "[24]",
+      "raw": "Antonio Orvieto, Samuel L. Smith, Albert Gu, Anushan Fernando, Caglar Gulcehre, Razvan Pascanu, and Soham De. Resurrecting recurrent neural networks for long sequences. ArXiv, abs/2303.06349, 2023.",
+      "metadata": {
+        "title": "Resurrecting Recurrent Neural Networks for Long Sequences",
+        "authors": [
+          "Antonio Orvieto",
+          "Samuel L. Smith",
+          "Albert Gu",
+          "Anushan Fernando",
+          "Caglar Gulcehre",
+          "Razvan Pascanu",
+          "Soham De"
+        ],
+        "year": 2023,
+        "venue": "ArXiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rwkv",
+      "rawKey": "rwkv",
+      "display": "[25]",
+      "raw": "Bo Peng, Eric Alcaide, Quentin Anthony, Alon Albalak, Samuel Arcadinho, Huanqi Cao, Xin Cheng, Michael Chung, Matteo Grella, Kranthi Kiran GV, Xuzheng He, Haowen Hou, Przemyslaw Kazienko, Jan Kocon, Jiaming Kong, Bartlomiej Koptyra, Hayden Lau, Krishna Sri Ipsit Mantri, Ferdinand Mom, Atsushi Saito, Xiangru Tang, Bolun Wang, Johan S. Wind, Stansilaw Wozniak, Ruichong Zhang, Zhenyuan Zhang, Qihang Zhao, Peng Zhou, Jian Zhu, and Rui-Jie Zhu. Rwkv: Reinventing rnns for the transformer era, 2023.",
+      "metadata": {
+        "title": "RWKV: Reinventing RNNs for the Transformer Era",
+        "authors": [
+          "Bo Peng",
+          "Eric Alcaide",
+          "Quentin Anthony",
+          "Alon Albalak",
+          "Samuel Arcadinho",
+          "Huanqi Cao",
+          "Xin Cheng",
+          "Michael Chung",
+          "Matteo Grella",
+          "Kranthi Kiran GV",
+          "Xuzheng He",
+          "Haowen Hou",
+          "Przemyslaw Kazienko",
+          "Jan Kocon",
+          "Jiaming Kong",
+          "Bartlomiej Koptyra",
+          "Hayden Lau",
+          "Krishna Sri Ipsit Mantri",
+          "Ferdinand Mom",
+          "Atsushi Saito",
+          "Xiangru Tang",
+          "Bolun Wang",
+          "Johan S. Wind",
+          "Stansilaw Wozniak",
+          "Ruichong Zhang",
+          "Zhenyuan Zhang",
+          "Qihang Zhao",
+          "Peng Zhou",
+          "Jian Zhu",
+          "Rui-Jie Zhu"
+        ],
+        "year": 2023,
+        "arxivId": "2305.13048"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hyena",
+      "rawKey": "hyena",
+      "display": "[26]",
+      "raw": "Michael Poli, Stefano Massaroli, Eric Nguyen, Daniel Y Fu, Tri Dao, Stephen Baccus, Yoshua Bengio, Stefano Ermon, and Christopher Re. Hyena hierarchy: Towards larger convolutional language models. arXiv preprint arXiv:2302.10866, 2023.",
+      "metadata": {
+        "title": "Hyena Hierarchy: Towards Larger Convolutional Language Models",
+        "authors": [
+          "Michael Poli",
+          "Stefano Massaroli",
+          "Eric Nguyen",
+          "Daniel Y Fu",
+          "Tri Dao",
+          "Stephen Baccus",
+          "Yoshua Bengio",
+          "Stefano Ermon",
+          "Christopher Re"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2302.10866",
+        "arxivId": "2302.10866"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kosmos-2",
+      "rawKey": "kosmos-2",
+      "display": "[27]",
+      "raw": "Zhiliang Peng, Wenhui Wang, Li Dong, Yaru Hao, Shaohan Huang, Shuming Ma, and Furu Wei. Kosmos-2: Grounding multimodal large language models to the world. ArXiv, abs/2306.14824, 2023.",
+      "metadata": {
+        "title": "Kosmos-2: Grounding Multimodal Large Language Models to the World",
+        "authors": [
+          "Zhiliang Peng",
+          "Wenhui Wang",
+          "Li Dong",
+          "Yaru Hao",
+          "Shaohan Huang",
+          "Shuming Ma",
+          "Furu Wei"
+        ],
+        "year": 2023,
+        "venue": "ArXiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-swish",
+      "rawKey": "swish",
+      "display": "[28]",
+      "raw": "Prajit Ramachandran, Barret Zoph, and Quoc V. Le. Swish: a self-gated activation function. arXiv: Neural and Evolutionary Computing, 2017.",
+      "metadata": {
+        "title": "Swish: a Self-Gated Activation Function",
+        "authors": [
+          "Prajit Ramachandran",
+          "Barret Zoph",
+          "Quoc V. Le"
+        ],
+        "year": 2017,
+        "venue": "arXiv: Neural and Evolutionary Computing"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lex",
+      "rawKey": "lex",
+      "display": "[29]",
+      "raw": "Yutao Sun, Li Dong, Barun Patra, Shuming Ma, Shaohan Huang, Alon Benhaim, Vishrav Chaudhary, Xia Song, and Furu Wei. A length-extrapolatable transformer. arXiv preprint arXiv:2212.10554, 2022.",
+      "metadata": {
+        "title": "A Length-Extrapolatable Transformer",
+        "authors": [
+          "Yutao Sun",
+          "Li Dong",
+          "Barun Patra",
+          "Shuming Ma",
+          "Shaohan Huang",
+          "Alon Benhaim",
+          "Vishrav Chaudhary",
+          "Xia Song",
+          "Furu Wei"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2212.10554",
+        "arxivId": "2212.10554"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-multiquery",
+      "rawKey": "multiquery",
+      "display": "[30]",
+      "raw": "Noam M. Shazeer. Fast transformer decoding: One write-head is all you need. ArXiv, abs/1911.02150, 2019.",
+      "metadata": {
+        "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+        "authors": [
+          "Noam M. Shazeer"
+        ],
+        "year": 1911,
+        "venue": "ArXiv"
+      },
+      "localMatch": {
+        "paperPath": "papers/1911.02150",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rotary",
+      "rawKey": "rotary",
+      "display": "[31]",
+      "raw": "Jianlin Su, Yu Lu, Shengfeng Pan, Bo Wen, and Yunfeng Liu. Roformer: Enhanced transformer with rotary position embedding. arXiv preprint arXiv:2104.09864, 2021.",
+      "metadata": {
+        "title": "Roformer: Enhanced transformer with rotary position embedding",
+        "authors": [
+          "Jianlin Su",
+          "Yu Lu",
+          "Shengfeng Pan",
+          "Bo Wen",
+          "Yunfeng Liu"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2104.09864",
+        "arxivId": "2104.09864"
+      },
+      "localMatch": {
+        "paperPath": "papers/2104.09864",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-megatron",
+      "rawKey": "megatron",
+      "display": "[32]",
+      "raw": "Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and Bryan Catanzaro. Megatron-LM: Training multi-billion parameter language models using model parallelism. arXiv preprint arXiv:1909.08053, 2019.",
+      "metadata": {
+        "title": "Megatron-LM: Training multi-billion parameter language models using model parallelism",
+        "authors": [
+          "Mohammad Shoeybi",
+          "Mostofa Patwary",
+          "Raul Puri",
+          "Patrick LeGresley",
+          "Jared Casper",
+          "Bryan Catanzaro"
+        ],
+        "year": 1909,
+        "venue": "arXiv preprint arXiv:1909.08053",
+        "arxivId": "1909.08053"
+      },
+      "localMatch": {
+        "paperPath": "papers/1909.08053",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-scrolls",
+      "rawKey": "scrolls",
+      "display": "[33]",
+      "raw": "Uri Shaham, Elad Segal, Maor Ivgi, Avia Efrat, Ori Yoran, Adi Haviv, Ankit Gupta, Wenhan Xiong, Mor Geva, Jonathan Berant, et al. Scrolls: Standardized comparison over long language sequences. arXiv preprint arXiv:2201.03533, 2022.",
+      "metadata": {
+        "title": "Scrolls: Standardized comparison over long language sequences",
+        "authors": [
+          "Uri Shaham",
+          "Elad Segal",
+          "Maor Ivgi",
+          "Avia Efrat",
+          "Ori Yoran",
+          "Adi Haviv",
+          "Ankit Gupta",
+          "Wenhan Xiong",
+          "Mor Geva",
+          "Jonathan Berant"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2201.03533",
+        "arxivId": "2201.03533"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-transformer",
+      "rawKey": "transformer",
+      "display": "[34]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017, 4-9 December 2017, Long Beach, CA, USA, pages 6000--6010, 2017.",
+      "metadata": {
+        "title": "Attention is All you Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "Niki Parmar",
+          "Jakob Uszkoreit",
+          "Llion Jones",
+          "Aidan N. Gomez",
+          "Lukasz Kaiser",
+          "Illia Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017, 4-9 December 2017, Long Beach, CA, USA",
+        "url": "http://papers.nips.cc/paper/7181-attention-is-all-you-need"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-groupnorm",
+      "rawKey": "groupnorm",
+      "display": "[35]",
+      "raw": "Yuxin Wu and Kaiming He. Group normalization. In Proceedings of the European conference on computer vision (ECCV), pages 3--19, 2018.",
+      "metadata": {
+        "title": "Group normalization",
+        "authors": [
+          "Yuxin Wu",
+          "Kaiming He"
+        ],
+        "year": 2018,
+        "venue": "Proceedings of the European conference on computer vision (ECCV)"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-deepnet",
+      "rawKey": "deepnet",
+      "display": "[36]",
+      "raw": "Hongyu Wang, Shuming Ma, Li Dong, Shaohan Huang, Dongdong Zhang, and Furu Wei. DeepNet: Scaling Transformers to 1,000 layers. ArXiv, abs/2203.00555, 2022.",
+      "metadata": {
+        "title": "DeepNet: Scaling Transformers to 1,000 Layers",
+        "authors": [
+          "Hongyu Wang",
+          "Shuming Ma",
+          "Li Dong",
+          "Shaohan Huang",
+          "Dongdong Zhang",
+          "Furu Wei"
+        ],
+        "year": 2022,
+        "venue": "ArXiv"
+      },
+      "localMatch": {
+        "paperPath": "papers/10_1109_TPAMI_2024_3386927",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-magneto",
+      "rawKey": "magneto",
+      "display": "[37]",
+      "raw": "Hongyu Wang, Shuming Ma, Shaohan Huang, Li Dong, Wenhui Wang, Zhiliang Peng, Yu Wu, Payal Bajaj, Saksham Singhal, Alon Benhaim, et al. Foundation transformers. arXiv preprint arXiv:2210.06423, 2022.",
+      "metadata": {
+        "title": "Foundation transformers",
+        "authors": [
+          "Hongyu Wang",
+          "Shuming Ma",
+          "Shaohan Huang",
+          "Li Dong",
+          "Wenhui Wang",
+          "Zhiliang Peng",
+          "Yu Wu",
+          "Payal Bajaj",
+          "Saksham Singhal",
+          "Alon Benhaim"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2210.06423",
+        "arxivId": "2210.06423"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-superglue",
+      "rawKey": "superglue",
+      "display": "[38]",
+      "raw": "Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R Bowman. SuperGLUE: A stickier benchmark for general-purpose language understanding systems. arXiv preprint arXiv:1905.00537, 2019.",
+      "metadata": {
+        "title": "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems",
+        "authors": [
+          "Alex Wang",
+          "Yada Pruksachatkun",
+          "Nikita Nangia",
+          "Amanpreet Singh",
+          "Julian Michael",
+          "Felix Hill",
+          "Omer Levy",
+          "Samuel R Bowman"
+        ],
+        "year": 1905,
+        "venue": "arXiv preprint arXiv:1905.00537",
+        "arxivId": "1905.00537"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hellaswag",
+      "rawKey": "hellaswag",
+      "display": "[39]",
+      "raw": "Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. Hellaswag: Can a machine really finish your sentence? In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, 2019.",
+      "metadata": {
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "authors": [
+          "Rowan Zellers",
+          "Ari Holtzman",
+          "Yonatan Bisk",
+          "Ali Farhadi",
+          "Yejin Choi"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qmsum",
+      "rawKey": "qmsum",
+      "display": "[40]",
+      "raw": "Ming Zhong, Da Yin, Tao Yu, Ahmad Zaidi, Mutethia Mutuma, Rahul Jha, Ahmed Hassan Awadallah, Asli Celikyilmaz, Yang Liu, Xipeng Qiu, et al. Qmsum: A new benchmark for query-based multi-domain meeting summarization. arXiv preprint arXiv:2104.05938, 2021.",
+      "metadata": {
+        "title": "QMSum: A new benchmark for query-based multi-domain meeting summarization",
+        "authors": [
+          "Ming Zhong",
+          "Da Yin",
+          "Tao Yu",
+          "Ahmad Zaidi",
+          "Mutethia Mutuma",
+          "Rahul Jha",
+          "Ahmed Hassan Awadallah",
+          "Asli Celikyilmaz",
+          "Yang Liu",
+          "Xipeng Qiu"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2104.05938",
+        "arxivId": "2104.05938"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 40 entries (bbl)",
+    "semantic scholar failed: rate limited"
+  ]
+}

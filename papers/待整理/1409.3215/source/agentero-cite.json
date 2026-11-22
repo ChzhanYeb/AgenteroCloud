@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:47:29.478Z",
+    "fingerprint": "8f09f0843dc52f39d9a769a377812746d2b878271420b4bc365d3bc64a271b66"
+  },
+  "citations": [
+    {
+      "id": "cite-auli13",
+      "rawKey": "auli13",
+      "display": "[1]",
+      "raw": "M. Auli, M. Galley, C. Quirk, and G. Zweig. Joint language and translation modeling with recurrent neural networks. In EMNLP, 2013.",
+      "metadata": {
+        "year": 2013
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-bog14",
+      "rawKey": "bog14",
+      "display": "[2]",
+      "raw": "D. Bahdanau, K. Cho, and Y. Bengio. Neural machine translation by jointly learning to align and translate. arXiv preprint arXiv:1409.0473, 2014.",
+      "metadata": {
+        "year": 2014,
+        "arxivId": "1409.0473"
+      },
+      "localMatch": {
+        "paperPath": "papers/1409.0473",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-bengio",
+      "rawKey": "bengio",
+      "display": "[3]",
+      "raw": "Y. Bengio, R. Ducharme, P. Vincent, and C. Jauvin. A neural probabilistic language model. In Journal of Machine Learning Research, pages 1137--1155, 2003.",
+      "metadata": {
+        "year": 2003
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-bengio_long_term",
+      "rawKey": "bengio_long_term",
+      "display": "[4]",
+      "raw": "Y. Bengio, P. Simard, and P. Frasconi. Learning long-term dependencies with gradient descent is difficult. IEEE Transactions on Neural Networks, 5(2):157--166, 1994.",
+      "metadata": {
+        "year": 1994
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-cho14",
+      "rawKey": "cho14",
+      "display": "[5]",
+      "raw": "K. Cho, B. Merrienboer, C. Gulcehre, F. Bougares, H. Schwenk, and Y. Bengio. Learning phrase representations using RNN encoder-decoder for statistical machine translation. In Arxiv preprint arXiv:1406.1078, 2014.",
+      "metadata": {
+        "year": 2014,
+        "arxivId": "1406.1078"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-ciresan12",
+      "rawKey": "ciresan12",
+      "display": "[6]",
+      "raw": "D. Ciresan, U. Meier, and J. Schmidhuber. Multi-column deep neural networks for image classification. In CVPR, 2012.",
+      "metadata": {
+        "year": 2012
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-dahl12b",
+      "rawKey": "dahl12b",
+      "display": "[7]",
+      "raw": "G. E. Dahl, D. Yu, L. Deng, and A. Acero. Context-dependent pre-trained deep neural networks for large vocabulary speech recognition. IEEE Transactions on Audio, Speech, and Language Processing - Special Issue on Deep Learning for Speech and Language Processing, 2012.",
+      "metadata": {
+        "year": 2012
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-devlin14",
+      "rawKey": "devlin14",
+      "display": "[8]",
+      "raw": "J. Devlin, R. Zbib, Z. Huang, T. Lamar, R. Schwartz, and J. Makhoul. Fast and robust neural network joint models for statistical machine translation. In ACL, 2014.",
+      "metadata": {
+        "year": 2014
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-durrani-EtAl:2014:W14-33",
+      "rawKey": "durrani-EtAl:2014:W14-33",
+      "display": "[9]",
+      "raw": "Nadir Durrani, Barry Haddow, Philipp Koehn, and Kenneth Heafield. Edinburgh's phrase-based machine translation systems for wmt-14. In WMT, 2014.",
+      "metadata": {
+        "year": 2014
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-graves13c",
+      "rawKey": "graves13c",
+      "display": "[10]",
+      "raw": "A. Graves. Generating sequences with recurrent neural networks. In Arxiv preprint arXiv:1308.0850, 2013.",
+      "metadata": {
+        "year": 2013,
+        "arxivId": "1308.0850"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-graves1",
+      "rawKey": "graves1",
+      "display": "[11]",
+      "raw": "A. Graves, S. Fernandez, F. Gomez, and J. Schmidhuber. Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks. In ICML, 2006.",
+      "metadata": {
+        "year": 2006
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-hermann14",
+      "rawKey": "hermann14",
+      "display": "[12]",
+      "raw": "K. M. Hermann and P. Blunsom. Multilingual distributed representations without word alignment. In ICLR, 2014.",
+      "metadata": {
+        "year": 2014
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-hinton12",
+      "rawKey": "hinton12",
+      "display": "[13]",
+      "raw": "G. Hinton, L. Deng, D. Yu, G. Dahl, A. Mohamed, N. Jaitly, A. Senior, V. Vanhoucke, P. Nguyen, T. Sainath, and B. Kingsbury. Deep neural networks for acoustic modeling in speech recognition. IEEE Signal Processing Magazine, 2012.",
+      "metadata": {
+        "year": 2012
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-hochreiter_long_term",
+      "rawKey": "hochreiter_long_term",
+      "display": "[14]",
+      "raw": "S. Hochreiter. Untersuchungen zu dynamischen neuronalen netzen. Master's thesis, Institut fur Informatik, Technische Universitat, Munchen, 1991.",
+      "metadata": {
+        "year": 1991
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Hochreiter01gradientflow",
+      "rawKey": "Hochreiter01gradientflow",
+      "display": "[15]",
+      "raw": "S. Hochreiter, Y. Bengio, P. Frasconi, and J. Schmidhuber. Gradient flow in recurrent nets: the difficulty of learning long-term dependencies, 2001.",
+      "metadata": {
+        "year": 2001
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-hochreiter97",
+      "rawKey": "hochreiter97",
+      "display": "[16]",
+      "raw": "S. Hochreiter and J. Schmidhuber. Long short-term memory. Neural Computation, 1997.",
+      "metadata": {
+        "year": 1997
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-minimal_time_lag",
+      "rawKey": "minimal_time_lag",
+      "display": "[17]",
+      "raw": "S. Hochreiter and J. Schmidhuber. LSTM can solve hard long time lag problems. 1997.",
+      "metadata": {
+        "year": 1997
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-kal13",
+      "rawKey": "kal13",
+      "display": "[18]",
+      "raw": "N. Kalchbrenner and P. Blunsom. Recurrent continuous translation models. In EMNLP, 2013.",
+      "metadata": {
+        "year": 2013
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-kriz12",
+      "rawKey": "kriz12",
+      "display": "[19]",
+      "raw": "A. Krizhevsky, I. Sutskever, and G. E. Hinton. ImageNet classification with deep convolutional neural networks. In NIPS, 2012.",
+      "metadata": {
+        "year": 2012
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-le12",
+      "rawKey": "le12",
+      "display": "[20]",
+      "raw": "Q.V. Le, M.A. Ranzato, R. Monga, M. Devin, K. Chen, G.S. Corrado, J. Dean, and A.Y. Ng. Building high-level features using large scale unsupervised learning. In ICML, 2012.",
+      "metadata": {
+        "year": 2012
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-lecun98",
+      "rawKey": "lecun98",
+      "display": "[21]",
+      "raw": "Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 1998.",
+      "metadata": {
+        "year": 1998
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-mikolov2012",
+      "rawKey": "mikolov2012",
+      "display": "[22]",
+      "raw": "T. Mikolov. Statistical Language Models based on Neural Networks. PhD thesis, Brno University of Technology, 2012.",
+      "metadata": {
+        "year": 2012
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-mikolov2010recurrent",
+      "rawKey": "mikolov2010recurrent",
+      "display": "[23]",
+      "raw": "T. Mikolov, M. Karafiat, L. Burget, J. Cernocky, and S. Khudanpur. Recurrent neural network based language model. In INTERSPEECH, pages 1045--1048, 2010.",
+      "metadata": {
+        "year": 2010
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-bleu",
+      "rawKey": "bleu",
+      "display": "[24]",
+      "raw": "K. Papineni, S. Roukos, T. Ward, and W. J. Zhu. BLEU: a method for automatic evaluation of machine translation. In ACL, 2002.",
+      "metadata": {
+        "year": 2002
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-razvan",
+      "rawKey": "razvan",
+      "display": "[25]",
+      "raw": "R. Pascanu, T. Mikolov, and Y. Bengio. On the difficulty of training recurrent neural networks. arXiv preprint arXiv:1211.5063, 2012.",
+      "metadata": {
+        "year": 2012,
+        "arxivId": "1211.5063"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-curse",
+      "rawKey": "curse",
+      "display": "[26]",
+      "raw": "J. Pouget-Abadie, D. Bahdanau, B. van Merrienboer, K. Cho, and Y. Bengio. Overcoming the curse of sentence length for neural machine translation using automatic segmentation. arXiv preprint arXiv:1409.1257, 2014.",
+      "metadata": {
+        "year": 2014,
+        "arxivId": "1409.1257"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-razborov",
+      "rawKey": "razborov",
+      "display": "[27]",
+      "raw": "A. Razborov. On small depth threshold circuits. In Proc. 3rd Scandinavian Workshop on Algorithm Theory, 1992.",
+      "metadata": {
+        "year": 1992
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-rumelhart1986learning",
+      "rawKey": "rumelhart1986learning",
+      "display": "[28]",
+      "raw": "D. Rumelhart, G. E. Hinton, and R. J. Williams. Learning representations by back-propagating errors. Nature, 323(6088):533--536, 1986.",
+      "metadata": {
+        "year": 1986
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-wmt14_en_fr",
+      "rawKey": "wmt14_en_fr",
+      "display": "[29]",
+      "raw": "H. Schwenk. University le mans. http://www-lium.univ-lemans.fr/ schwenk/cslm_joint_paper/, 2014. [Online; accessed 03-September-2014].",
+      "metadata": {
+        "year": 2014,
+        "url": "http://www-lium.univ-lemans.fr/~schwenk/cslm_joint_paper/"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-sundermeyer12",
+      "rawKey": "sundermeyer12",
+      "display": "[30]",
+      "raw": "M. Sundermeyer, R. Schluter, and H. Ney. LSTM neural networks for language modeling. In INTERSPEECH, 2010.",
+      "metadata": {
+        "year": 2010
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-werbos",
+      "rawKey": "werbos",
+      "display": "[31]",
+      "raw": "P. Werbos. Backpropagation through time: what it does and how to do it. Proceedings of IEEE, 1990.",
+      "metadata": {
+        "year": 1990
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    }
+  ],
+  "messages": [
+    "local: 31 entries (bbl)",
+    "semantic scholar failed: rate limited"
+  ]
+}

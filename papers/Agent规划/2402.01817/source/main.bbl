@@ -1,0 +1,350 @@
+\begin{thebibliography}{67}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[cle()]{cleverhans-wikipedia}
+Clever {H}ans.
+\newblock https://en.wikipedia.org/wiki/Clever\_Hans.
+
+\bibitem[Ahn et~al.(2022)Ahn, Brohan, Brown, Chebotar, Cortes, David, Finn, Fu, Gopalakrishnan, Hausman, et~al.]{ahn2022saycan}
+Ahn, M., Brohan, A., Brown, N., Chebotar, Y., Cortes, O., David, B., Finn, C., Fu, C., Gopalakrishnan, K., Hausman, K., et~al.
+\newblock Do as i can, not as i say: Grounding language in robotic affordances.
+\newblock \emph{arXiv preprint arXiv:2204.01691}, 2022.
+
+\bibitem[Arora \& Kambhampati(2023)Arora and Kambhampati]{arora2023learning}
+Arora, D. and Kambhampati, S.
+\newblock Learning and leveraging verifiers to improve planning capabilities of pre-trained language models.
+\newblock \emph{ICML Workshop on Knowledge and Logical Reasoning in the Era of Data-driven Learning (arXiv preprint arXiv:2305.17077)}, 2023.
+
+\bibitem[Bairi et~al.(2023)Bairi, Sonwane, Kanade, Iyer, Parthasarathy, Rajamani, Ashok, Shet, et~al.]{bairi2023codeplan}
+Bairi, R., Sonwane, A., Kanade, A., Iyer, A., Parthasarathy, S., Rajamani, S., Ashok, B., Shet, S., et~al.
+\newblock Codeplan: Repository-level coding using llms and planning.
+\newblock \emph{arXiv preprint arXiv:2309.12499}, 2023.
+
+\bibitem[Bhambri et~al.(2024)Bhambri, Bhattacharjee, Liu, and Kambhampati]{siddhant-llm-rl}
+Bhambri, S., Bhattacharjee, A., Liu, H., and Kambhampati, S.
+\newblock Efficient reinforcement learning via large language model-based search, 2024.
+
+\bibitem[Bresina et~al.(2004)Bresina, J{\'o}nsson, Morris, and Rajan]{bresina2004activity}
+Bresina, J.~L., J{\'o}nsson, A.~K., Morris, P.~H., and Rajan, K.
+\newblock Activity planning for the mars exploration rovers.
+\newblock In \emph{ICAPS-2005 Conference}, 2004.
+
+\bibitem[Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal, Neelakantan, Shyam, Sastry, Askell, et~al.]{brown2020language}
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J.~D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., et~al.
+\newblock Language models are few-shot learners.
+\newblock \emph{Advances in neural information processing systems}, 33:\penalty0 1877--1901, 2020.
+
+\bibitem[Bryce \& Kambhampati(2007)Bryce and Kambhampati]{pg-heuristics-aimag}
+Bryce, D. and Kambhampati, S.
+\newblock A tutorial on planning graph based reachability heuristics.
+\newblock \emph{{AI} Mag.}, 28\penalty0 (1):\penalty0 47--83, 2007.
+
+\bibitem[Bubeck et~al.(2023)Bubeck, Chandrasekaran, Eldan, Gehrke, Horvitz, Kamar, Lee, Lee, Li, Lundberg, et~al.]{bubeck2023sparks}
+Bubeck, S., Chandrasekaran, V., Eldan, R., Gehrke, J., Horvitz, E., Kamar, E., Lee, P., Lee, Y.~T., Li, Y., Lundberg, S., et~al.
+\newblock Sparks of artificial general intelligence: Early experiments with gpt-4.
+\newblock \emph{arXiv preprint arXiv:2303.12712}, 2023.
+
+\bibitem[Doyle \& Patil(1991)Doyle and Patil]{twotheses-kr}
+Doyle, J. and Patil, R.~S.
+\newblock Two theses of knowledge representation: Language restrictions, taxonomic classification, and the utility of representation services.
+\newblock \emph{Artificial intelligence}, 48\penalty0 (3):\penalty0 261--297, 1991.
+
+\bibitem[Dziri et~al.(2023)Dziri, Lu, Sclar, Li, Jiang, Lin, Welleck, West, Bhagavatula, Bras, Hwang, Sanyal, Ren, Ettinger, Harchaoui, and Choi]{dziri2023faith}
+Dziri, N., Lu, X., Sclar, M., Li, X.~L., Jiang, L., Lin, B.~Y., Welleck, S., West, P., Bhagavatula, C., Bras, R.~L., Hwang, J.~D., Sanyal, S., Ren, X., Ettinger, A., Harchaoui, Z., and Choi, Y.
+\newblock Faith and fate: Limits of transformers on compositionality.
+\newblock In \emph{Thirty-seventh Conference on Neural Information Processing Systems}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=Fkckkr3ya8}.
+
+\bibitem[Gendron et~al.(2023)Gendron, Bao, Witbrock, and Dobbie]{gendron2023large}
+Gendron, G., Bao, Q., Witbrock, M., and Dobbie, G.
+\newblock Large language models are not abstract reasoners.
+\newblock \emph{arXiv preprint arXiv:2305.19555}, 2023.
+
+\bibitem[Ghallab et~al.(2004)Ghallab, Nau, and Traverso]{ghallab2004automated}
+Ghallab, M., Nau, D., and Traverso, P.
+\newblock \emph{Automated Planning: theory and practice}.
+\newblock Elsevier, 2004.
+
+\bibitem[Guan et~al.(2022)Guan, Sreedharan, and Kambhampati]{lin-icml22}
+Guan, L., Sreedharan, S., and Kambhampati, S.
+\newblock Leveraging approximate symbolic models for reinforcement learning via skill diversity.
+\newblock In Chaudhuri, K., Jegelka, S., Song, L., Szepesvari, C., Niu, G., and Sabato, S. (eds.), \emph{Proceedings of the 39th International Conference on Machine Learning}, volume 162 of \emph{Proceedings of Machine Learning Research}, pp.\  7949--7967. PMLR, 17--23 Jul 2022.
+\newblock URL \url{https://proceedings.mlr.press/v162/guan22c.html}.
+
+\bibitem[Guan et~al.(2023)Guan, Valmeekam, Sreedharan, and Kambhampati]{guan2023leveraging}
+Guan, L., Valmeekam, K., Sreedharan, S., and Kambhampati, S.
+\newblock Leveraging pre-trained large language models to construct and utilize world models for model-based task planning.
+\newblock In \emph{Thirty-seventh Conference on Neural Information Processing Systems}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=zDbsSscmuj}.
+
+\bibitem[Guan et~al.(2024)Guan, Zhou, Liu, Zha, Amor, and Kambhampati]{guan2024task}
+Guan, L., Zhou, Y., Liu, D., Zha, Y., Amor, H.~B., and Kambhampati, S.
+\newblock "task success" is not enough: Investigating the use of video-language models as behavior critics for catching undesirable agent behaviors, 2024.
+
+\bibitem[Gundawar et~al.(2024)Gundawar, Verma, Guan, Valmeekam, Bhambri, and Kambhampati]{llm-modulo-travel-planning}
+Gundawar, A., Verma, M., Guan, L., Valmeekam, K., Bhambri, S., and Kambhampati, S.
+\newblock Robust planning with llm-modulo framework: Case study in travel planning.
+\newblock \emph{arXiv preprint arxiv:2405.20625}, 2024.
+
+\bibitem[Hao et~al.(2023)Hao, Gu, Ma, Hong, Wang, Wang, and Hu]{hao2023reasoning}
+Hao, S., Gu, Y., Ma, H., Hong, J.~J., Wang, Z., Wang, D.~Z., and Hu, Z.
+\newblock Reasoning with language model is planning with world model.
+\newblock \emph{arXiv preprint arXiv:2305.14992}, 2023.
+
+\bibitem[Howey et~al.(2004)Howey, Long, and Fox]{howey2004val}
+Howey, R., Long, D., and Fox, M.
+\newblock {VAL: Automatic plan validation, continuous effects and mixed initiative planning using PDDL}.
+\newblock In \emph{16th IEEE International Conference on Tools with Artificial Intelligence}, pp.\  294--301. IEEE, 2004.
+
+\bibitem[Huang et~al.(2023{\natexlab{a}})Huang, Chen, Mishra, Zheng, Yu, Song, and Zhou]{huang2023large}
+Huang, J., Chen, X., Mishra, S., Zheng, H.~S., Yu, A.~W., Song, X., and Zhou, D.
+\newblock Large language models cannot self-correct reasoning yet.
+\newblock \emph{arXiv preprint arXiv:2310.01798}, 2023{\natexlab{a}}.
+
+\bibitem[Huang et~al.(2023{\natexlab{b}})Huang, Gu, Hou, Wu, Wang, Yu, and Han]{huang-etal-2023-large}
+Huang, J., Gu, S., Hou, L., Wu, Y., Wang, X., Yu, H., and Han, J.
+\newblock Large language models can self-improve.
+\newblock In Bouamor, H., Pino, J., and Bali, K. (eds.), \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, pp.\  1051--1068, Singapore, December 2023{\natexlab{b}}. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.emnlp-main.67}.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.67}.
+
+\bibitem[Huang et~al.(2022)Huang, Xia, Xiao, Chan, Liang, Florence, Zeng, Tompson, Mordatch, Chebotar, et~al.]{huang2022inner}
+Huang, W., Xia, F., Xiao, T., Chan, H., Liang, J., Florence, P., Zeng, A., Tompson, J., Mordatch, I., Chebotar, Y., et~al.
+\newblock Inner monologue: Embodied reasoning through planning with language models.
+\newblock \emph{arXiv preprint arXiv:2207.05608}, 2022.
+
+\bibitem[IPC(1998)]{ipc}
+IPC.
+\newblock International planning competition, 1998.
+\newblock URL \url{https://www.icaps-conference.org/competitions/}.
+
+\bibitem[Johnston et~al.(2014)Johnston, Tran, Arroyo, Sorensen, Tay, Carruth, Coffman, and Wallace]{johnston2014automated}
+Johnston, M.~D., Tran, D., Arroyo, B., Sorensen, S., Tay, P., Carruth, B., Coffman, A., and Wallace, M.
+\newblock Automated scheduling for nasa's deep space network.
+\newblock \emph{AI Magazine}, 35\penalty0 (4):\penalty0 7--25, 2014.
+
+\bibitem[Kahneman(2011)]{thinking-fast-slow}
+Kahneman, D.
+\newblock \emph{Thinking, fast and slow}.
+\newblock macmillan, 2011.
+
+\bibitem[Kambhampati(2007)]{rao-model-lite}
+Kambhampati, S.
+\newblock Model-lite planning for the web age masses: The challenges of planning with incomplete and evolving domain models.
+\newblock In \emph{Proceedings of the National Conference on Artificial Intelligence}, volume~22, pp.\  1601. Menlo Park, CA; Cambridge, MA; London; AAAI Press; MIT Press; 1999, 2007.
+
+\bibitem[Kambhampati(2021)]{polanyi-revenge}
+Kambhampati, S.
+\newblock Polanyi's revenge and {AI}'s new romance with tacit knowledge.
+\newblock \emph{Communications of the ACM}, 64\penalty0 (2):\penalty0 31--32, 2021.
+
+\bibitem[Kambhampati(2024)]{rao-cacm}
+Kambhampati, S.
+\newblock Can {LLMs} reason and plan?
+\newblock \emph{Annals of the New York Academy of Sciences}, 2024.
+
+\bibitem[Kambhampati et~al.(2023)Kambhampati, Valmeekam, Marquez, and Guan]{llm-tutorial}
+Kambhampati, S., Valmeekam, K., Marquez, M., and Guan, L.
+\newblock On the role of large language models in planning, July 2023.
+\newblock URL \url{https://yochan-lab.github.io/tutorial/ICAPS-2023/}.
+\newblock Tutorial presented at the International Conference on Automated Planning and Scheduling (ICAPS), Prague.
+
+\bibitem[Kugel \& Hiltner(2023)Kugel and Hiltner]{nyt-travel-books}
+Kugel, S. and Hiltner, S.
+\newblock A new frontier for travel scammers: {A.I.-Generated Guidebooks}.
+\newblock \emph{New York Times}, August 2023.
+\newblock URL \url{https://www.nytimes.com/2023/08/05/travel/amazon-guidebooks-artificial-intelligence.html}.
+
+\bibitem[Kwon et~al.(2022)Kwon, Xie, Bullard, and Sadigh]{kwon2022reward}
+Kwon, M., Xie, S.~M., Bullard, K., and Sadigh, D.
+\newblock Reward design with language models.
+\newblock In \emph{The Eleventh International Conference on Learning Representations}, 2022.
+
+\bibitem[Liang et~al.(2023)Liang, Huang, Xia, Xu, Hausman, Ichter, Florence, and Zeng]{liang2023code}
+Liang, J., Huang, W., Xia, F., Xu, P., Hausman, K., Ichter, B., Florence, P., and Zeng, A.
+\newblock Code as policies: Language model programs for embodied control, 2023.
+
+\bibitem[Liu et~al.(2023)Liu, Jiang, Zhang, Liu, Zhang, Biswas, and Stone]{liu2023llm+}
+Liu, B., Jiang, Y., Zhang, X., Liu, Q., Zhang, S., Biswas, J., and Stone, P.
+\newblock Llm+ p: Empowering large language models with optimal planning proficiency.
+\newblock \emph{arXiv preprint arXiv:2304.11477}, 2023.
+
+\bibitem[Ma et~al.(2023)Ma, Liang, Wang, Huang, Bastani, Jayaraman, Zhu, Fan, and Anandkumar]{ma2023eureka}
+Ma, Y.~J., Liang, W., Wang, G., Huang, D.-A., Bastani, O., Jayaraman, D., Zhu, Y., Fan, L., and Anandkumar, A.
+\newblock Eureka: Human-level reward design via coding large language models.
+\newblock \emph{arXiv preprint arXiv:2310.12931}, 2023.
+
+\bibitem[McCoy et~al.(2023)McCoy, Yao, Friedman, Hardy, and Griffiths]{mccoy2023embers}
+McCoy, R.~T., Yao, S., Friedman, D., Hardy, M., and Griffiths, T.~L.
+\newblock Embers of autoregression: Understanding large language models through the problem they are trained to solve.
+\newblock \emph{arXiv preprint arXiv:2309.13638}, 2023.
+
+\bibitem[McDermott et~al.(1998)McDermott, Ghallab, Howe, Knoblock, Ram, Veloso, Weld, and Wilkins]{mcdermott1998pddl}
+McDermott, D., Ghallab, M., Howe, A.~E., Knoblock, C.~A., Ram, A., Veloso, M.~M., Weld, D.~S., and Wilkins, D.~E.
+\newblock Pddl-the planning domain definition language.
+\newblock 1998.
+
+\bibitem[Nieuwenhuis \& Oliveras(2006)Nieuwenhuis and Oliveras]{sat-modulo}
+Nieuwenhuis, R. and Oliveras, A.
+\newblock On sat modulo theories and optimization problems.
+\newblock In \emph{Theory and Applications of Satisfiability Testing-SAT 2006: 9th International Conference, Seattle, WA, USA, August 12-15, 2006. Proceedings 9}, pp.\  156--169. Springer, 2006.
+
+\bibitem[Olmo et~al.(2021)Olmo, Sreedharan, and Kambhampati]{olmo2021gpt3}
+Olmo, A., Sreedharan, S., and Kambhampati, S.
+\newblock Gpt3-to-plan: Extracting plans from text using gpt-3.
+\newblock \emph{FinPlan 2021}, pp.\ ~24, 2021.
+
+\bibitem[OpenAI(2022)]{openai_chatgpt}
+OpenAI.
+\newblock Introducing chatgpt by openai, 2022.
+\newblock URL \url{https://openai.com/blog/chatgpt}.
+
+\bibitem[OpenAI(2023)]{openai2023gpt4}
+OpenAI.
+\newblock Gpt-4 technical report, 2023.
+
+\bibitem[Ouyang et~al.(2022)Ouyang, Wu, Jiang, Almeida, Wainwright, Mishkin, Zhang, Agarwal, Slama, Ray, et~al.]{ouyang2022training}
+Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., et~al.
+\newblock Training language models to follow instructions with human feedback.
+\newblock \emph{Advances in Neural Information Processing Systems}, 35:\penalty0 27730--27744, 2022.
+
+\bibitem[Pan et~al.(2023)Pan, Albalak, Wang, and Wang]{pan2023logic}
+Pan, L., Albalak, A., Wang, X., and Wang, W.~Y.
+\newblock Logic-lm: Empowering large language models with symbolic solvers for faithful logical reasoning.
+\newblock \emph{arXiv preprint arXiv:2305.12295}, 2023.
+
+\bibitem[Rajvanshi et~al.(2023)Rajvanshi, Sikka, Lin, Lee, Chiu, and Velasquez]{alvaro-saynav}
+Rajvanshi, A., Sikka, K., Lin, X., Lee, B., Chiu, H.-P., and Velasquez, A.
+\newblock Saynav: Grounding large language models for dynamic planning to navigation in new environments.
+\newblock \emph{arXiv preprint arXiv:2309.04077}, 2023.
+
+\bibitem[Romera-Paredes et~al.(2023)Romera-Paredes, Barekatain, Novikov, Balog, Kumar, Dupont, Ruiz, Ellenberg, Wang, Fawzi, et~al.]{funsearch}
+Romera-Paredes, B., Barekatain, M., Novikov, A., Balog, M., Kumar, M.~P., Dupont, E., Ruiz, F.~J., Ellenberg, J.~S., Wang, P., Fawzi, O., et~al.
+\newblock Mathematical discoveries from program search with large language models.
+\newblock \emph{Nature}, pp.\  1--3, 2023.
+
+\bibitem[Russell \& Norvig(2010)Russell and Norvig]{russell2010artificial}
+Russell, S.~J. and Norvig, P.
+\newblock \emph{Artificial intelligence a modern approach}.
+\newblock London, 2010.
+
+\bibitem[Shinn et~al.(2023)Shinn, Cassano, Gopinath, Narasimhan, and Yao]{shinn2023reflexion}
+Shinn, N., Cassano, F., Gopinath, A., Narasimhan, K.~R., and Yao, S.
+\newblock Reflexion: Language agents with verbal reinforcement learning.
+\newblock In \emph{Thirty-seventh Conference on Neural Information Processing Systems}, 2023.
+
+\bibitem[Shridhar et~al.(2021)Shridhar, Yuan, C\^ot\'e, Bisk, Trischler, and Hausknecht]{ALFWorld20}
+Shridhar, M., Yuan, X., C\^ot\'e, M.-A., Bisk, Y., Trischler, A., and Hausknecht, M.
+\newblock {ALFWorld: Aligning Text and Embodied Environments for Interactive Learning}.
+\newblock In \emph{Proceedings of the International Conference on Learning Representations (ICLR)}, 2021.
+\newblock URL \url{https://arxiv.org/abs/2010.03768}.
+
+\bibitem[Silver et~al.(2022)Silver, Hariprasad, Shuttleworth, Kumar, Lozano-P{\'e}rez, and Kaelbling]{silver2022pddl}
+Silver, T., Hariprasad, V., Shuttleworth, R.~S., Kumar, N., Lozano-P{\'e}rez, T., and Kaelbling, L.~P.
+\newblock {PDDL} planning with pretrained large language models.
+\newblock In \emph{NeurIPS 2022 Foundation Models for Decision Making Workshop}, 2022.
+\newblock URL \url{https://openreview.net/forum?id=1QMMUB4zfl}.
+
+\bibitem[Simpson et~al.(2001)Simpson, McCluskey, and Zhao]{simpson2001gipo}
+Simpson, R., McCluskey, T.~L., and Zhao, W.
+\newblock Gipo: an integrated graphical tool to support knowledge engineering in ai planning.
+\newblock In \emph{ECP-01}, pp.\  445. Citeseer, 2001.
+
+\bibitem[Stechly et~al.(2023)Stechly, Marquez, and Kambhampati]{stechly2023gpt}
+Stechly, K., Marquez, M., and Kambhampati, S.
+\newblock {GPT-4 Doesn’t Know It’s Wrong: An Analysis of Iterative Prompting for Reasoning Problems}.
+\newblock In \emph{NeurIPS 2023 Foundation Models for Decision Making Workshop}, 2023.
+
+\bibitem[Stechly et~al.(2024{\natexlab{a}})Stechly, Valmeekam, and Kambhampati]{karthik-kaya-self-verification-combined}
+Stechly, K., Valmeekam, K., and Kambhampati, S.
+\newblock On the self-verification limitations of large language models on reasoning and planning tasks.
+\newblock \emph{arXiv preprint arxiv:2402.08115}, 2024{\natexlab{a}}.
+
+\bibitem[Stechly et~al.(2024{\natexlab{b}})Stechly, Valmeekam, and Kambhampati]{stechly2024chain}
+Stechly, K., Valmeekam, K., and Kambhampati, S.
+\newblock Chain of thoughtlessness: An analysis of cot in planning.
+\newblock \emph{arXiv preprint arxiv:2405.04776}, 2024{\natexlab{b}}.
+
+\bibitem[Trinh et~al.(2024)Trinh, Wu, Le, He, and Luong]{alphageometry}
+Trinh, T.~H., Wu, Y., Le, Q.~V., He, H., and Luong, T.
+\newblock Solving olympiad geometry without human demonstrations.
+\newblock \emph{Nature}, 625\penalty0 (7995):\penalty0 476--482, 2024.
+
+\bibitem[Ullman(2023)]{ullman2023large}
+Ullman, T.
+\newblock Large language models fail on trivial alterations to theory-of-mind tasks.
+\newblock \emph{arXiv preprint arXiv:2302.08399}, 2023.
+
+\bibitem[Valmeekam et~al.(2023{\natexlab{a}})Valmeekam, Marquez, and Kambhampati]{valmeekam2023can}
+Valmeekam, K., Marquez, M., and Kambhampati, S.
+\newblock Can large language models really improve by self-critiquing their own plans?
+\newblock In \emph{NeurIPS 2023 Foundation Models for Decision Making Workshop}, 2023{\natexlab{a}}.
+
+\bibitem[Valmeekam et~al.(2023{\natexlab{b}})Valmeekam, Marquez, Olmo, Sreedharan, and Kambhampati]{valmeekam2023planbench}
+Valmeekam, K., Marquez, M., Olmo, A., Sreedharan, S., and Kambhampati, S.
+\newblock Planbench: An extensible benchmark for evaluating large language models on planning and reasoning about change.
+\newblock In \emph{Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track}, 2023{\natexlab{b}}.
+\newblock URL \url{https://openreview.net/forum?id=YXogl4uQUO}.
+
+\bibitem[Valmeekam et~al.(2023{\natexlab{c}})Valmeekam, Marquez, Sreedharan, and Kambhampati]{valmeekam2023on}
+Valmeekam, K., Marquez, M., Sreedharan, S., and Kambhampati, S.
+\newblock On the planning abilities of large language models - a critical investigation.
+\newblock In \emph{Thirty-seventh Conference on Neural Information Processing Systems (Spotlight)}, 2023{\natexlab{c}}.
+\newblock URL \url{https://openreview.net/forum?id=X6dEqXIsEW}.
+
+\bibitem[Verma et~al.(2024{\natexlab{a}})Verma, Bhambri, and Kambhampati]{mudit-siddhant-react}
+Verma, M., Bhambri, S., and Kambhampati, S.
+\newblock On the brittle foundations of react prompting for agentic large language models.
+\newblock \emph{arXiv preprint arXiv:2405.13966}, 2024{\natexlab{a}}.
+
+\bibitem[Verma et~al.(2024{\natexlab{b}})Verma, Bhambri, and Kambhampati]{verma2024theory}
+Verma, M., Bhambri, S., and Kambhampati, S.
+\newblock Theory of mind abilities of large language models in human-robot interaction: An illusion?
+\newblock \emph{arXiv preprint arXiv:2401.05302}, 2024{\natexlab{b}}.
+
+\bibitem[Wang et~al.(2023{\natexlab{a}})Wang, Xie, Jiang, Mandlekar, Xiao, Zhu, Fan, and Anandkumar]{voyager}
+Wang, G., Xie, Y., Jiang, Y., Mandlekar, A., Xiao, C., Zhu, Y., Fan, L., and Anandkumar, A.
+\newblock Voyager: An open-ended embodied agent with large language models, 2023{\natexlab{a}}.
+
+\bibitem[Wang et~al.(2023{\natexlab{b}})Wang, Xie, Jiang, Mandlekar, Xiao, Zhu, Fan, and Anandkumar]{wang2023voyager}
+Wang, G., Xie, Y., Jiang, Y., Mandlekar, A., Xiao, C., Zhu, Y., Fan, L., and Anandkumar, A.
+\newblock Voyager: An open-ended embodied agent with large language models.
+\newblock \emph{arXiv preprint arXiv:2305.16291}, 2023{\natexlab{b}}.
+
+\bibitem[Wang et~al.(2022)Wang, Kordi, Mishra, Liu, Smith, Khashabi, and Hajishirzi]{wang2022self}
+Wang, Y., Kordi, Y., Mishra, S., Liu, A., Smith, N.~A., Khashabi, D., and Hajishirzi, H.
+\newblock Self-instruct: Aligning language model with self generated instructions.
+\newblock \emph{arXiv preprint arXiv:2212.10560}, 2022.
+
+\bibitem[Weng et~al.(2023)Weng, Zhu, Xia, Li, He, Liu, Sun, Liu, and Zhao]{weng2023large}
+Weng, Y., Zhu, M., Xia, F., Li, B., He, S., Liu, S., Sun, B., Liu, K., and Zhao, J.
+\newblock Large language models are better reasoners with self-verification.
+\newblock In \emph{Findings of the Association for Computational Linguistics: EMNLP 2023}, pp.\  2550--2575, 2023.
+
+\bibitem[Xie et~al.(2024)Xie, Zhang, Chen, Zhu, Lou, Tian, Xiao, and Su]{xie2024travelplanner}
+Xie, J., Zhang, K., Chen, J., Zhu, T., Lou, R., Tian, Y., Xiao, Y., and Su, Y.
+\newblock Travelplanner: A benchmark for real-world planning with language agents.
+\newblock \emph{arXiv preprint arxiv:2402.01622}, 2024.
+
+\bibitem[Xie et~al.(2023)Xie, Yu, Zhu, Bai, Gong, and Soh]{xie2023translating}
+Xie, Y., Yu, C., Zhu, T., Bai, J., Gong, Z., and Soh, H.
+\newblock Translating natural language to planning goals with large-language models.
+\newblock \emph{arXiv preprint arXiv:2302.05128}, 2023.
+
+\bibitem[Yao et~al.(2023{\natexlab{a}})Yao, Yu, Zhao, Shafran, Griffiths, Cao, and Narasimhan]{yao2023tree}
+Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T.~L., Cao, Y., and Narasimhan, K.~R.
+\newblock Tree of thoughts: Deliberate problem solving with large language models.
+\newblock In \emph{Thirty-seventh Conference on Neural Information Processing Systems}, 2023{\natexlab{a}}.
+\newblock URL \url{https://openreview.net/forum?id=5Xc1ecxO1h}.
+
+\bibitem[Yao et~al.(2023{\natexlab{b}})Yao, Zhao, Yu, Du, Shafran, Narasimhan, and Cao]{yao2023react}
+Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K.~R., and Cao, Y.
+\newblock React: Synergizing reasoning and acting in language models.
+\newblock In \emph{The Eleventh International Conference on Learning Representations}, 2023{\natexlab{b}}.
+\newblock URL \url{https://openreview.net/forum?id=WE_vluYUL-X}.
+
+\end{thebibliography}

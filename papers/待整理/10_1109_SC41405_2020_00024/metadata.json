@@ -1,0 +1,24 @@
+{
+  "path": "papers/待整理/10_1109_SC41405_2020_00024",
+  "id": "10_1109_SC41405_2020_00024",
+  "type": "pdf",
+  "title": "ZeRO: Memory optimizations Toward Training Trillion Parameter Models",
+  "authors": [
+    "Samyam Rajbhandari",
+    "Jeff Rasley",
+    "Olatunji Ruwase",
+    "Yuxiong He"
+  ],
+  "tags": [],
+  "doi": "10.1109/SC41405.2020.00024",
+  "publication": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis",
+  "pages": "1-16",
+  "publisher": "IEEE",
+  "body_source": "ocr",
+  "body_quality": "low",
+  "meta_source": "recognize",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:33.316Z",
+  "updated_at": "2026-11-15T11:49:15.410Z"
+}

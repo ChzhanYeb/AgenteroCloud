@@ -1,0 +1,58 @@
+\hypertarget{discussion}{\section{Related work and discussion}}
+\label{sec:discussion}
+
+\paragraph{The rise of language models.}
+
+Language modeling has a long-standing tradition of study across human language processing and computational language processing \citep{shannon1948mathematical, lounsbury1954transitional, goldman1958speech, baker1975stochastic, baker1975dragon, jelinek1976continuous, jelinek1990self, hale2001probabilistic, levy2008expectation, merity2018analysis, radford2018improving, devlin2019bert, brown2020gpt3, chowdhery2022palm}.
+Language modeling has also been seen as a grand challenge for AI, most notably in the Hutter Prize and the associated \texttt{enwiki8} benchmark on data compression.\footnote{\url{https://en.wikipedia.org/wiki/Hutter\_Prize}}
+However, in contrast to these prior framings, where language models were viewed as standalone generative models, the models we study in this work instead are better understood by situating language models in two broader contexts. 
+First, given the models function as adaptable foundations for the myriad scenarios they are tested on, we view language models as foundation models in service of building performant systems for these downstream use cases \citep{bommasani2021opportunities}.
+Second, as we demonstrate in our agnosticity to how the models are constructed, we view language models as natural language interfaces \citep[see][]{lee2022interaction}. 
+
+As \citet[][\S1.1]{bommasani2021opportunities} describe, the rise of language models in NLP initiated the foundation model paradigm.
+Specifically, ELMo \citep{peters2018elmo}, GPT \citep{radford2018improving}, and BERT \citep{devlin2019bert} demonstrated that pretraining using language modeling objectives could produce powerful general-purpose representations for many downstream use cases, building on prior evidence of the successes of pretraining \citep{mikolov2013efficient, pennington2014glove}.
+Further, these works, especially GPT and later GPT-2 \citep{radford2019language}, produced models with qualitatively better generative capabilities than what had been seen previously. 
+
+Together, these formative works ushered in significant change in the status of language modeling in NLP: language models rapidly became the substrate for almost all modeling work, especially with the advent of open infrastructure through Hugging Face Transformers \citep{wolf2019transformers} and models developed for languages beyond English \citep[\eg multilingual-BERT, XLM;][]{devlin2019bert, conneau2019cross}.
+Since then, we have seen a proliferation of different organizations building language models, often through conceptually similar means, with a rapid growth in scale and resource-intensivity.
+Notably, some of the models (\eg \mtnlgfivethreezero) we benchmark  1000$\times$ larger than ELMo and BERT.
+These models can cost millions of dollars to train, requiring extensive systems-level optimizations and dedicated large-scale compute~\citep{narayanan2021efficient}.
+These changes have also translated from research to deployment: language models are directly exposed as commercial APIs or are integrated into ubiquitous products \citep[see][\S5]{bommasani2022homogenization} as part of an emerging commercial ecosystem \citep[][\S1.2]{bommasani2021opportunities}.\footnote{See the emerging startup ecosystem for foundation models: \url{https://www.scalevp.com/blog/introducing-the-scale-generative-ai-index}}
+
+\paragraph{Benchmarks in NLP.}
+Similar to language modeling, benchmarking has a long history in NLP.
+As Karen Sp{\"a}rck Jones put it in her ACL Lifetime Achievement Award speech, ``proper evaluation is a complex and challenging business'' \citep{jones2005acl}.
+To address this challenge, the practice of benchmarking rose to prominence as the core methodology in the 1980's and, especially, the 1990's \citep[see][]{liberman2010obituary, jones1995evaluating}.
+This transition was well-demonstrated by initiatives such as the Message Understanding Conference \citep[MUC;][]{grishman1996muc} and the Text Retrieval Conference \cite[TREC;][]{voorhees1998trec}.
+And it coincided with a broader shift in the field towards statistical and data-driven methods with large datasets (\eg the Penn Treebank \citep{marcus1999ptb}) and new venues like the Conference on Empirical Methods for Natural Language Processing \citep{emnlp1996emnlp}. 
+
+More than a decade later, with the rise of deep learning in the 2010s \citep{collobert2008unified, turian2010word, collobert11scratch, socher2011paraphrase, socher2011parsing, sutskever2011generating, mikolov2013efficient, pennington2014glove, sutskever2014sequence, bahdanau2015neural, luong2015translation, vaswani2017attention}, larger benchmarks such as SNLI \citep{bowman2015large} and SQuAD \citep{rajpurkar2016squad} were developed to provide both adequate data for training systems in addition to evaluating systems.
+This parallels concurrent developments in other areas of AI: most notably, the ImageNet benchmark \citep{deng2009imagenet} that shaped modern computer vision.
+Like their predecessors, these benchmarks assign each model a single score (\eg the SQuAD F1 score) to measure the accuracy for a single task.
+
+As more general-purpose approaches to NLP grew, often displacing more bespoke task-specific approaches, new benchmarks such as SentEval \citep{conneau2018senteval}, DecaNLP \citep{mccann2018natural}, GLUE \citep{wang2019glue}, and SuperGLUE \citep{wang2019superglue} co-evolved to evaluate their capabilities.
+In contrast to the previous class of benchmarks, these benchmarks assign each model a vector of scores to measure the accuracy for a suite of scenarios.
+In some cases, these benchmarks also provide an aggregate score (\eg the GLUE score, which is the average of the accuracies for each of the constituent scenarios).
+
+More recently, this theme of meta-benchmarks that assess model accuracy across a range of tasks has continued \citep[see][\S4.4.3]{bommasani2021opportunities}: for example, GEM \citep{gehrmann2021gem} provides a suite for natural language generation tasks, XTREME \citep{hu2020xtreme} provides a suite for tasks spanning numerous languages, and GEMv2 \citep{gehrmann2022gemv2} provides a suite for generation across languages. 
+This approach is also the dominant approach to language model evaluation,\footnote{We note \citet{efrat2022lmentry} as a very recent counter-example to this trend that takes a much more minimalistic and succinct unit-testing perspective.}
+ often with even broader collections: \citet{brown2020gpt3} popularized the approach in their work on GPT-3, where they evaluated on 42 datasets.
+Indeed, this is the approach used in all the works that introduced models we evaluate in this work.
+Efforts like the EleutherAI Language Model Evaluation Harness \citep{gao2021harness}, HuggingFace's Evaluate library \citep{werra2022evaluate}, and Big-Bench \citep{srivastava2022bigbench} have centralized and expanded these evaluations into systematic repositories.
+
+Situated against this landscape, what differentiates our work is our holistic approach, which manifests in both our benchmark design process and our concrete benchmark.
+\benchmarkname is the byproduct of an explicit two-step process: we taxonomize the space for language model evaluation, structured around use cases (scenarios) and desiderata (metrics), and then systematically select points in a way that reflects our priorities. 
+This makes explicit the aspiration, the concrete benchmark, and, consequently, what our benchmark lacks that we should aspire to evaluate. 
+More simply, our concrete benchmark differs from both traditional benchmarks like ImageNet that assign a single score (\ie the ImageNet accuracy) and meta-benchmarks like GLUE that assign a score vector (\ie the accuracies on the GLUE datasets) to each model.
+Instead, we assign a score matrix to each model: for each use case, we report scores across several desiderata (\eg accuracy, calibration, robustness, fairness, efficiency). 
+
+Independent of the fact we measure holistically, one may wonder what the relationship is between the scenarios we select and those evaluated in prior works.
+To help understand this relationship, in \refapp{benchmark-comparison}, we document the scenarios that were evaluated for in past work (\eg the scenarios evaluated by \citet{chowdhery2022palm} in the PaLM paper or by \citet{gao2021harness} in the EleutherAI Language Model Evaluation Harness) as well as past results for the models we evaluate on our scenarios (\eg the \hellaswag accuracy reported by \citet{brown2020gpt3} in the GPT-3 paper).
+Further, to build on BIG-Bench specifically, we highlight that our codebase integrates all BIG-Bench scenarios, augmented with metrics beyond accuracy and the ability to evaluate all models we support.
+We emphasize that at this time, no common standard exists for language modeling evaluation, especially as the capabilities, harms, and limitations of these models are still being understood through the ongoing design of evaluations.
+We believe that establishing such a standard is necessary for the ecosystem to mature, and that holistic approaches are integral for building \textit{just} standards.
+
+% \paragraph{Philosophy of benchmarking.}
+% \todo{Rishi: Would be nice to discuss this.}
+% \tldr{benchmark drives progress}
+% \dots

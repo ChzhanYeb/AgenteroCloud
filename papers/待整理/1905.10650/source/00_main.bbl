@@ -1,0 +1,275 @@
+\begin{thebibliography}{38}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ahmed et~al.(2017)Ahmed, Keskar, and Socher]{ahmed2017weighted}
+Karim Ahmed, Nitish~Shirish Keskar, and Richard Socher.
+\newblock Weighted transformer network for machine translation.
+\newblock \emph{arXiv preprint arXiv:1711.02132}, 2017.
+
+\bibitem[Anwar et~al.(2017)Anwar, Hwang, and
+  Sung]{Anwar:2017:SPD:3051701.3005348}
+Sajid Anwar, Kyuyeon Hwang, and Wonyong Sung.
+\newblock Structured pruning of deep convolutional neural networks.
+\newblock \emph{J. Emerg. Technol. Comput. Syst.}, pages 32:1--32:18, 2017.
+
+\bibitem[Bahdanau et~al.(2015)Bahdanau, Cho, and
+  Bengio]{bahdanau15alignandtranslate}
+Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock In \emph{Proceedings of the International Conference on Learning
+  Representations (ICLR)}, 2015.
+
+\bibitem[Binder et~al.(2016)Binder, Montavon, Lapuschkin, M{\"u}ller, and
+  Samek]{binder2016layer}
+Alexander Binder, Gr{\'e}goire Montavon, Sebastian Lapuschkin, Klaus-Robert
+  M{\"u}ller, and Wojciech Samek.
+\newblock Layer-wise relevance propagation for neural networks with local
+  renormalization layers.
+\newblock In \emph{International Conference on Artificial Neural Networks},
+  pages 63--71, 2016.
+
+\bibitem[Cettolo et~al.(2015)Cettolo, Niehues, St{\"u}ker, Bentivogli, and
+  Federico]{Cettolo2015ReportOT}
+Mauro Cettolo, Jan Niehues, Sebastian St{\"u}ker, Luisa Bentivogli, and
+  Marcello Federico.
+\newblock Report on the 11 th iwslt evaluation campaign , iwslt 2014.
+\newblock In \emph{Proceedings of the 2014 International Workshop on Spoken
+  Language Translation (IWSLT)}, 2015.
+
+\bibitem[Cheng et~al.(2016)Cheng, Dong, and Lapata]{cheng-etal-2016-long}
+Jianpeng Cheng, Li~Dong, and Mirella Lapata.
+\newblock Long short-term memory-networks for machine reading.
+\newblock In \emph{Proceedings of the 2016 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 551--561, 2016.
+
+\bibitem[Cho et~al.(2014)Cho, van Merrienboer, Gulcehre, Bahdanau, Bougares,
+  Schwenk, and Bengio]{cho2014learning}
+Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi
+  Bougares, Holger Schwenk, and Yoshua Bengio.
+\newblock Learning phrase representations using rnn encoder--decoder for
+  statistical machine translation.
+\newblock In \emph{Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 1724--1734, 2014.
+
+\bibitem[Dai et~al.(2019)Dai, Yang, Yang, Cohen, Carbonell, Le, and
+  Salakhutdinov]{dai2019transformer}
+Zihang Dai, Zhilin Yang, Yiming Yang, William~W Cohen, Jaime Carbonell, Quoc~V
+  Le, and Ruslan Salakhutdinov.
+\newblock Transformer-xl: Attentive language models beyond a fixed-length
+  context.
+\newblock \emph{arXiv preprint arXiv:1901.02860}, 2019.
+
+\bibitem[Devlin et~al.(2018)Devlin, Chang, Lee, and Toutanova]{devlin2018bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In \emph{Proceedings of the 2019 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies (NAACL-HLT)}, 2018.
+
+\bibitem[Dolan and Brockett(2005)]{brocket2005automatically}
+William~B. Dolan and Chris Brockett.
+\newblock Automatically constructing a corpus of sentential paraphrases.
+\newblock In \emph{Proceedings of the The 3rd International Workshop on
+  Paraphrasing (IWP)}, 2005.
+\newblock URL \url{http://aclweb.org/anthology/I05-5002}.
+
+\bibitem[Han et~al.(2015)Han, Pool, Tran, and Dally]{han2015learning}
+Song Han, Jeff Pool, John Tran, and William Dally.
+\newblock Learning both weights and connections for efficient neural network.
+\newblock In \emph{Proceedings of the 29th Annual Conference on Neural
+  Information Processing Systems (NIPS)}, pages 1135--1143, 2015.
+
+\bibitem[Hassibi and Stork(1993)]{hassibi92second}
+Babak Hassibi and David~G. Stork.
+\newblock Second order derivatives for network pruning: Optimal brain surgeon.
+\newblock In \emph{Proceedings of the 5th Annual Conference on Neural
+  Information Processing Systems (NIPS)}, pages 164--171, 1993.
+
+\bibitem[Kim and Rush(2016)]{kim-rush-2016-sequence}
+Yoon Kim and Alexander~M. Rush.
+\newblock Sequence-level knowledge distillation.
+\newblock In \emph{Proceedings of the 2016 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 1317--1327, 2016.
+
+\bibitem[Koehn(2004)]{koehn2004statistical}
+Philipp Koehn.
+\newblock Statistical significance tests for machine translation evaluation.
+\newblock In \emph{Proceedings of the 2004 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 388--395, 2004.
+
+\bibitem[Koehn et~al.(2007)Koehn, Hoang, Birch, Callison-Burch, Federico,
+  Bertoldi, Cowan, Shen, Moran, Zens, Dyer, Bojar, Constantin, and
+  Herbst]{koehn2007moses}
+Philipp Koehn, Hieu Hoang, Alexandra Birch, Chris Callison-Burch, Marcello
+  Federico, Nicola Bertoldi, Brooke Cowan, Wade Shen, Christine Moran, Richard
+  Zens, Chris Dyer, Ond\v{r}ej Bojar, Alexandra Constantin, and Evan Herbst.
+\newblock Moses: Open source toolkit for statistical machine translation.
+\newblock In \emph{Proceedings of the 45th Annual Meeting of the Association
+  for Computational Linguistics (ACL)}, pages 177--180, 2007.
+
+\bibitem[LeCun et~al.(1990)LeCun, Denker, and Solla]{lecun1989optimal}
+Yann LeCun, John~S. Denker, and Sara~A. Solla.
+\newblock Optimal brain damage.
+\newblock In \emph{Proceedings of the 2nd Annual Conference on Neural
+  Information Processing Systems (NIPS)}, pages 598--605, 1990.
+
+\bibitem[Li et~al.(2016)Li, Kadav, Durdanovic, Samet, and Graf]{li2016pruning}
+Hao Li, Asim Kadav, Igor Durdanovic, Hanan Samet, and Hans~Peter Graf.
+\newblock Pruning filters for efficient convnets.
+\newblock \emph{arXiv preprint arXiv:1608.08710}, 2016.
+
+\bibitem[Luong et~al.(2015)Luong, Pham, and Manning]{luong2015effective}
+Thang Luong, Hieu Pham, and Christopher~D. Manning.
+\newblock Effective approaches to attention-based neural machine translation.
+\newblock In \emph{Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 1412--1421, 2015.
+
+\bibitem[Michel and Neubig(2018)]{michel-neubig-2018-mtnt}
+Paul Michel and Graham Neubig.
+\newblock {MTNT}: A testbed for machine translation of noisy text.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 543--553, 2018.
+
+\bibitem[Molchanov et~al.(2017)Molchanov, Tyree, Karras, Aila, and
+  Kautz]{molchanov2016pruning}
+Pavlo Molchanov, Stephen Tyree, Tero Karras, Timo Aila, and Jan Kautz.
+\newblock Pruning convolutional neural networks for resource efficient
+  inference.
+\newblock In \emph{Proceedings of the International Conference on Learning
+  Representations (ICLR)}, 2017.
+
+\bibitem[Murray and Chiang(2015)]{murray-chiang-2015-auto}
+Kenton Murray and David Chiang.
+\newblock Auto-sizing neural networks: With applications to n-gram language
+  models.
+\newblock In \emph{Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 908--916, 2015.
+
+\bibitem[Neubig et~al.(2019)Neubig, Dou, Hu, Michel, Pruthi, and
+  Wang]{neubig2019comparemt}
+Graham Neubig, Zi-Yi Dou, Junjie Hu, Paul Michel, Danish Pruthi, and Xinyi
+  Wang.
+\newblock compare-mt: A tool for holistic comparison of language generation
+  systems.
+\newblock In \emph{Meeting of the North American Chapter of the Association for
+  Computational Linguistics (NAACL) Demo Track}, Minneapolis, USA, June 2019.
+\newblock URL \url{http://arxiv.org/abs/1903.07926}.
+
+\bibitem[Ott et~al.(2018)Ott, Edunov, Grangier, and Auli]{ott2018scaling}
+Myle Ott, Sergey Edunov, David Grangier, and Michael Auli.
+\newblock Scaling neural machine translation.
+\newblock In \emph{Proceedings of the 3rd Conference on Machine Translation
+  (WMT)}, pages 1--9, 2018.
+
+\bibitem[Parikh et~al.(2016)Parikh, T{\"a}ckstr{\"o}m, Das, and
+  Uszkoreit]{parikh-etal-2016-decomposable}
+Ankur Parikh, Oscar T{\"a}ckstr{\"o}m, Dipanjan Das, and Jakob Uszkoreit.
+\newblock A decomposable attention model for natural language inference.
+\newblock In \emph{Proceedings of the 2016 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 2249--2255, 2016.
+
+\bibitem[Paulus et~al.(2017)Paulus, Xiong, and Socher]{paulus2017deep}
+Romain Paulus, Caiming Xiong, and Richard Socher.
+\newblock A deep reinforced model for abstractive summarization.
+\newblock In \emph{Proceedings of the International Conference on Learning
+  Representations (ICLR)}, 2017.
+
+\bibitem[Radford et~al.(2018)Radford, Narasimhan, Salimans, and
+  Sutskever]{radford2018improving}
+Alec Radford, Karthik Narasimhan, Time Salimans, and Ilya Sutskever.
+\newblock Improving language understanding with unsupervised learning.
+\newblock Technical report, Technical report, OpenAI, 2018.
+
+\bibitem[Radford et~al.(2019)Radford, Wu, Child, Luan, Amodei, and
+  Sutskever]{radford2019language}
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+  Sutskever.
+\newblock Language models are unsupervised multitask learners.
+\newblock \emph{OpenAI Blog}, 1:\penalty0 8, 2019.
+
+\bibitem[Raganato and Tiedemann(2018)]{raganato2018analysis}
+Alessandro Raganato and J\"org Tiedemann.
+\newblock An analysis of encoder representations in transformer-based machine
+  translation.
+\newblock In \emph{Proceedings of the Workshop on BlackboxNLP: Analyzing and
+  Interpreting Neural Networks for NLP}, pages 287--297, 2018.
+
+\bibitem[See et~al.(2016)See, Luong, and Manning]{see-etal-2016-compression}
+Abigail See, Minh-Thang Luong, and Christopher~D. Manning.
+\newblock Compression of neural machine translation models via pruning.
+\newblock In \emph{Proceedings of the Computational Natural Language Learning
+  (CoNLL)}, pages 291--301, 2016.
+
+\bibitem[Shen et~al.(2018)Shen, Zhou, Long, Jiang, Pan, and
+  Zhang]{Shen2018DiSANDS}
+Tao Shen, Tianyi Zhou, Guodong Long, Jing Jiang, Shirui Pan, and Chengqi Zhang.
+\newblock Disan: Directional self-attention network for rnn/cnn-free language
+  understanding.
+\newblock In \emph{Proceedings of the 32nd Meeting of the Association for
+  Advancement of Artificial Intelligence (AAAI)}, 2018.
+
+\bibitem[Shwartz-Ziv and Tishby(2017)]{ShwartzZiv2017OpeningTB}
+Ravid Shwartz-Ziv and Naftali Tishby.
+\newblock Opening the black box of deep neural networks via information.
+\newblock \emph{arXiv preprint arXiv:1703.00810}, 2017.
+
+\bibitem[Socher et~al.(2013)Socher, Perelygin, Wu, Chuang, Manning, Ng, and
+  Potts]{socher2013recursive}
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher~D. Manning,
+  Andrew Ng, and Christopher Potts.
+\newblock Recursive deep models for semantic compositionality over a sentiment
+  treebank.
+\newblock In \emph{Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 1631--1642, 2013.
+
+\bibitem[Strubell et~al.(2018)Strubell, Verga, Andor, Weiss, and
+  McCallum]{strubell2018linguistically}
+Emma Strubell, Patrick Verga, Daniel Andor, David Weiss, and Andrew McCallum.
+\newblock Linguistically-informed self-attention for semantic role labeling.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 5027--5038, 2018.
+
+\bibitem[Tang et~al.(2018)Tang, M{\"u}ller, Rios, and Sennrich]{tang2018why}
+Gongbo Tang, Mathias M{\"u}ller, Annette Rios, and Rico Sennrich.
+\newblock Why self-attention? a targeted evaluation of neural machine
+  translation architectures.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 4263--4272, 2018.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In \emph{Proceedings of the 30th Annual Conference on Neural
+  Information Processing Systems (NIPS)}, pages 5998--6008, 2017.
+
+\bibitem[Voita et~al.(2019)Voita, Talbot, Moiseev, Sennrich, and
+  Ivan]{voita2019analyzing}
+Elena Voita, David Talbot, Fedor Moiseev, Rico Sennrich, and Titov Ivan.
+\newblock Analyzing multi-head self-attention: Specialized heads do the heavy
+  lifting, the rest can be pruned.
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
+  for Computational Linguistics (ACL)}, page to appear, 2019.
+
+\bibitem[Warstadt et~al.(2018)Warstadt, Singh, and
+  Bowman]{Warstadt2018NeuralNA}
+Alex Warstadt, Amanpreet Singh, and Samuel~R. Bowman.
+\newblock Neural network acceptability judgments.
+\newblock \emph{arXiv preprint arXiv:1805.12471}, 2018.
+
+\bibitem[Williams et~al.(2018)Williams, Nangia, and Bowman]{williams18multinli}
+Adina Williams, Nikita Nangia, and Samuel Bowman.
+\newblock A broad-coverage challenge corpus for sentence understanding through
+  inference.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies (NAACL-HLT)}, pages 1112--1122, 2018.
+
+\end{thebibliography}

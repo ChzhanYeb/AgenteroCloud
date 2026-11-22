@@ -1,0 +1,24 @@
+{
+  "path": "papers/待整理/1508.04025",
+  "id": "1508.04025",
+  "type": "pdf",
+  "title": "Effective Approaches to Attention-based Neural Machine Translation",
+  "authors": [
+    "Minh-Thang Luong",
+    "Hieu Pham",
+    "Christopher D. Manning"
+  ],
+  "year": 2015,
+  "abstract": "An attentional mechanism has lately been used to improve neural machine translation (NMT) by selectively focusing on parts of the source sentence during translation. However, there has been little work exploring useful architectures for attention-based NMT. This paper examines two simple and effective classes of attentional mechanism: a global approach which always attends to all source words and a local one that only looks at a subset of source words at a time. We demonstrate the effectiveness of both approaches over the WMT translation tasks between English and German in both directions. With local attention, we achieve a significant gain of 5.0 BLEU points over non-attentional systems which already incorporate known techniques such as dropout. Our ensemble model using different attention architectures has established a new state-of-the-art result in the WMT'15 English to German translation task with 25.9 BLEU points, an improvement of 1.0 BLEU points over the existing best system backed by NMT and an n-gram reranker.",
+  "tags": [],
+  "arxiv_id": "1508.04025",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 8637,
+  "meta_source": "recognize",
+  "summary": "Global attention considers every source word, while local attention restricts computation to a moving subset during decoding. On WMT English–German, local attention improves non-attentional NMT by 5.0 BLEU, and an ensemble reaches 25.9 BLEU.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:32.053Z",
+  "updated_at": "2026-11-15T11:49:13.822Z"
+}

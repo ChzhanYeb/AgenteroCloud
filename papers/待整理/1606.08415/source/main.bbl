@@ -1,0 +1,149 @@
+\begin{thebibliography}{24}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ba \& Frey(2013)Ba and Frey]{standout}
+Jimmy Ba and Brendan Frey.
+\newblock Adaptive dropout for training deep neural networks.
+\newblock In \emph{Neural Information Processing Systems}, 2013.
+
+\bibitem[Bachman et~al.(2014)Bachman, Alsharif, and Precup]{bachman}
+Philip Bachman, Ouais Alsharif, and Doina Precup.
+\newblock Learning with pseudo-ensembles.
+\newblock In \emph{Neural Information Processing Systems}, 2014.
+
+\bibitem[Choudhury(2014)]{approx}
+Amit Choudhury.
+\newblock A simple approximation to the area under standard normal curve.
+\newblock In \emph{Mathematics and Statistics}, 2014.
+
+\bibitem[Clevert et~al.(2016)Clevert, Unterthiner, and Hochreiter]{elu}
+Djork{-}Arn{\'{e}} Clevert, Thomas Unterthiner, and Sepp Hochreiter.
+\newblock Fast and accurate deep network learning by exponential linear units
+  ({ELUs}).
+\newblock In \emph{International Conference on Learning Representations}, 2016.
+
+\bibitem[Desjardins et~al.(2015)Desjardins, Simonyan, Pascanu, and
+  Kavukcuoglu]{desjardens}
+Guillaume Desjardins, Karen Simonyan, Razvan Pascanu, and Koray Kavukcuoglu.
+\newblock Natural neural networks.
+\newblock In \emph{arXiv}, 2015.
+
+\bibitem[Gimpel et~al.(2011)Gimpel, Schneider, O$'$Connor, Das, Mills,
+  Eisenstein, Heilman, Yogatama, Flanigan, and Smith]{gimpel}
+Kevin Gimpel, Nathan Schneider, Brendan O$'$Connor, Dipanjan Das, Daniel Mills,
+  Jacob Eisenstein, Michael Heilman, Dani Yogatama, Jeffrey Flanigan, and
+  Noah~A. Smith.
+\newblock \emph{Part-of-Speech Tagging for {T}witter: Annotation, Features, and
+  Experiments}.
+\newblock Association for Computational Linguistics (ACL), 2011.
+
+\bibitem[Hendrycks \& Gimpel(2016)Hendrycks and Gimpel]{hendrycks}
+Dan Hendrycks and Kevin Gimpel.
+\newblock Adjusting for dropout variance in batch normalization and weight
+  initialization.
+\newblock In \emph{arXiv}, 2016.
+
+\bibitem[Hopfield(1982)]{hopfield}
+John Hopfield.
+\newblock Neural networks and physical systems with emergent collective
+  computational abilities.
+\newblock In \emph{Proceedings of the National Academy of Sciences of the USA},
+  1982.
+
+\bibitem[Kingma \& Ba(2015)Kingma and Ba]{adam}
+Diederik Kingma and Jimmy Ba.
+\newblock \emph{Adam: A Method for Stochastic Optimization}.
+\newblock International Conference for Learning Representations, 2015.
+
+\bibitem[Krizhevsky(2009)]{cifar}
+Alex Krizhevsky.
+\newblock Learning Multiple Layers of Features from Tiny Images, 2009.
+
+\bibitem[Krueger et~al.(2016)Krueger, Maharaj, Kram\'ar, Pezeshki, Ballas, Ke1,
+  Goyal, Bengio, Larochelle, Courville, and Pal]{zoneout}
+David Krueger, Tegan Maharaj, János Kram\'ar, Mohammad Pezeshki, Nicolas
+  Ballas, Nan~Rosemary Ke1, Anirudh Goyal, Yoshua Bengio, Hugo Larochelle,
+  Aaron Courville, and Chris Pal.
+\newblock Zoneout: Regularizing {RNNs} by randomly preserving hidden
+  activations.
+\newblock In \emph{Neural Information Processing Systems}, 2016.
+
+\bibitem[Loshchilov \& Hutter(2016)Loshchilov and Hutter]{SGDR}
+Ilya Loshchilov and Frank Hutter.
+\newblock {SGDR}: Stochastic gradient descent with restarts.
+\newblock \emph{arXiv}, 2016.
+
+\bibitem[Maas et~al.(2013)Maas, Hannun, , and Ng]{lrelu}
+Andrew~L. Maas, Awni~Y. Hannun, , and Andrew~Y. Ng.
+\newblock Rectifier nonlinearities improve neural network acoustic models.
+\newblock In \emph{International Conference on Machine Learning}, 2013.
+
+\bibitem[McCulloch \& Pitts(1943)McCulloch and Pitts]{mcculloch}
+Warren~S. McCulloch and Walter Pitts.
+\newblock A logical calculus of the ideas immanent in nervous activity.
+\newblock In \emph{Bulletin of Mathematical Biophysics}, 1943.
+
+\bibitem[Mishkin \& Matas(2016)Mishkin and Matas]{weights}
+Dmytro Mishkin and Jiri Matas.
+\newblock All you need is a good init.
+\newblock In \emph{International Conference on Learning Representations}, 2016.
+
+\bibitem[Mohamed et~al.(2012)Mohamed, Dahl, and Hinton]{timitdeep}
+Abdelrahman Mohamed, George~E. Dahl, and Geoffrey~E. Hinton.
+\newblock Acoustic modeling using deep belief networks.
+\newblock In \emph{IEEE Transactions on Audio, Speech, and Language
+  Processing}, 2012.
+
+\bibitem[Nair \& Hinton(2010)Nair and Hinton]{relu}
+Vinod Nair and Geoffrey~E. Hinton.
+\newblock Rectified linear units improve restricted boltzmann machines.
+\newblock In \emph{International Conference on Machine Learning}, 2010.
+
+\bibitem[Owoputi et~al.(2013)Owoputi, O'Connor, Dyer, Gimpel, Schneider, and
+  Smith]{owoputi}
+Olutobi Owoputi, Brendan O'Connor, Chris Dyer, Kevin Gimpel, Nathan Schneider,
+  and Noah~A. Smith.
+\newblock Improved part-of-speech tagging for online conversational text with
+  word clusters.
+\newblock In \emph{North American Chapter of the Association for Computational
+  Linguistics (NAACL)}, 2013.
+
+\bibitem[Salimans \& Kingma(2016)Salimans and Kingma]{weightnorm}
+Tim Salimans and Diederik~P. Kingma.
+\newblock Weight normalization: A simple reparameterization to accelerate
+  training of deep neural networks.
+\newblock In \emph{Neural Information Processing Systems}, 2016.
+
+\bibitem[Saxe et~al.(2014)Saxe, McClelland, and Ganguli]{init2}
+Andrew~M. Saxe, James~L. McClelland, and Surya Ganguli.
+\newblock Exact solutions to the nonlinear dynamics of learning in deep linear
+  neural networks.
+\newblock In \emph{International Conference on Learning Representations}, 2014.
+
+\bibitem[Shah et~al.(2016)Shah, Shinde, Kadam, Shah, and Shingade]{eluresnet}
+Anish Shah, Sameer Shinde, Eashan Kadam, Hena Shah, and Sandip Shingade.
+\newblock Deep residual networks with exponential linear unit.
+\newblock In \emph{Vision Net}, 2016.
+
+\bibitem[Srivastava(2013)]{srivastava}
+Nitish Srivastava.
+\newblock Improving neural networks with dropout.
+\newblock In \emph{University of Toronto}, 2013.
+
+\bibitem[Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
+  Salakhutdinov]{dropout}
+Nitish Srivastava, Geoffrey~E. Hinton, Alex Krizhevsky, Ilya Sutskever, and
+  Ruslan Salakhutdinov.
+\newblock Dropout: A simple way to prevent neural networks from overfitting.
+\newblock In \emph{Journal of Machine Learning Research}, 2014.
+
+\bibitem[Zagoruyko \& Komodakis(2016)Zagoruyko and Komodakis]{wrn}
+Sergey Zagoruyko and Nikos Komodakis.
+\newblock Wide residual networks.
+\newblock \emph{British Machine Vision Conference}, 2016.
+
+\end{thebibliography}

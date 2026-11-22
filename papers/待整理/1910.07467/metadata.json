@@ -1,0 +1,24 @@
+{
+  "path": "papers/待整理/1910.07467",
+  "id": "1910.07467",
+  "type": "pdf",
+  "title": "Root Mean Square Layer Normalization",
+  "authors": [
+    "Biao Zhang",
+    "Rico Sennrich"
+  ],
+  "year": 2019,
+  "abstract": "Layer normalization (LayerNorm) has been successfully applied to various deep neural networks to help stabilize training and boost model convergence because of its capability in handling re-centering and re-scaling of both inputs and weight matrix. However, the computational overhead introduced by LayerNorm makes these improvements expensive and significantly slows the underlying network, e.g. RNN in particular. In this paper, we hypothesize that re-centering invariance in LayerNorm is dispensable and propose root mean square layer normalization, or RMSNorm. RMSNorm regularizes the summed inputs to a neuron in one layer according to root mean square (RMS), giving the model re-scaling invariance property and implicit learning rate adaptation ability. RMSNorm is computationally simpler and thus more efficient than LayerNorm. We also present partial RMSNorm, or pRMSNorm where the RMS is estimated from p% of the summed inputs without breaking the above properties. Extensive experiments on several tasks using diverse network architectures show that RMSNorm achieves comparable performance against LayerNorm but reduces the running time by 7%~64% on different models. Source code is available at https://github.com/bzhangGo/rmsnorm.",
+  "tags": [],
+  "arxiv_id": "1910.07467",
+  "code_repo": "https://github.com/bzhangGo/rmsnorm",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 2247,
+  "meta_source": "recognize",
+  "summary": "RMSNorm drops LayerNorm’s mean-centering and normalizes activations using only their root mean square, preserving scale invariance with lower computational cost. It matches LayerNorm across architectures while reducing runtime by 7–64%; pRMSNorm estimates RMS from partial inputs.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:33.454Z",
+  "updated_at": "2026-11-15T11:49:14.878Z"
+}

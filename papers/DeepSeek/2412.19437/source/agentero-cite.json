@@ -1,0 +1,2474 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:45:56.033Z",
+    "fingerprint": "2f0e73d08979694395899c532a11ec76c920363ec0cfc54792fe9358272d47aa"
+  },
+  "citations": [
+    {
+      "id": "cite-llama3",
+      "rawKey": "llama3",
+      "display": "[1]",
+      "raw": "AI@Meta. Llama 3 model card, 2024a. URL https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md.",
+      "metadata": {
+        "title": "Llama 3 Model Card",
+        "authors": [
+          "AI@Meta"
+        ],
+        "year": 2024,
+        "url": "https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-llama3_1_405b",
+      "rawKey": "llama3_1_405b",
+      "display": "[2]",
+      "raw": "AI@Meta. Llama 3.1 model card, 2024b. URL https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md.",
+      "metadata": {
+        "title": "Llama 3.1 Model Card",
+        "authors": [
+          "AI@Meta"
+        ],
+        "year": 2024,
+        "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-claude35sonnet",
+      "rawKey": "claude35sonnet",
+      "display": "[3]",
+      "raw": "Anthropic. Claude 3.5 sonnet, 2024. URL https://www.anthropic.com/news/claude-3-5-sonnet.",
+      "metadata": {
+        "title": "Claude 3.5 Sonnet",
+        "authors": [
+          "Anthropic"
+        ],
+        "year": 2024,
+        "url": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mbpp",
+      "rawKey": "mbpp",
+      "display": "[4]",
+      "raw": "J. Austin, A. Odena, M. Nye, M. Bosma, H. Michalewski, D. Dohan, E. Jiang, C. Cai, M. Terry, Q. Le, et al. Program synthesis with large language models. arXiv preprint arXiv:2108.07732, 2021.",
+      "metadata": {
+        "title": "Program synthesis with large language models",
+        "authors": [
+          "Jacob Austin",
+          "Augustus Odena",
+          "Maxwell Nye",
+          "Maarten Bosma",
+          "Henryk Michalewski",
+          "David Dohan",
+          "Ellen Jiang",
+          "Carrie Cai",
+          "Michael Terry",
+          "Quoc Le"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2108.07732",
+        "arxivId": "2108.07732"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bai2022constitutional",
+      "rawKey": "bai2022constitutional",
+      "display": "[5]",
+      "raw": "Y. Bai, S. Kadavath, S. Kundu, A. Askell, J. Kernion, A. Jones, A. Chen, A. Goldie, A. Mirhoseini, C. McKinnon, et al. Constitutional AI: Harmlessness from AI feedback. arXiv preprint arXiv:2212.08073, 2022.",
+      "metadata": {
+        "title": "Constitutional AI: Harmlessness from AI feedback",
+        "authors": [
+          "Yuntao Bai",
+          "Saurav Kadavath",
+          "Sandipan Kundu",
+          "Amanda Askell",
+          "Jackson Kernion",
+          "Andy Jones",
+          "Anna Chen",
+          "Anna Goldie",
+          "Azalia Mirhoseini",
+          "Cameron McKinnon"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2212.08073",
+        "arxivId": "2212.08073"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bai2024longbench2",
+      "rawKey": "bai2024longbench2",
+      "display": "[6]",
+      "raw": "Y. Bai, S. Tu, J. Zhang, H. Peng, X. Wang, X. Lv, S. Cao, J. Xu, L. Hou, Y. Dong, J. Tang, and J. Li. LongBench v2: Towards deeper understanding and reasoning on realistic long-context multitasks. arXiv preprint arXiv:2412.15204, 2024.",
+      "metadata": {
+        "title": "LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks",
+        "authors": [
+          "Yushi Bai",
+          "Shangqing Tu",
+          "Jiajie Zhang",
+          "Hao Peng",
+          "Xiaozhi Wang",
+          "Xin Lv",
+          "Shulin Cao",
+          "Jiazheng Xu",
+          "Lei Hou",
+          "Yuxiao Dong",
+          "Jie Tang",
+          "Juanzi Li"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2412.15204",
+        "arxivId": "2412.15204"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-warp-spec",
+      "rawKey": "warp-spec",
+      "display": "[7]",
+      "raw": "M. Bauer, S. Treichler, and A. Aiken. Singe: leveraging warp specialization for high performance on GPUs. In Proceedings of the 19th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, PPoPP '14, page 119â30, New York, NY, USA, 2014. Association for Computing Machinery. ISBN 9781450326568. 10.1145/2555243.2555258. URL https://doi.org/10.1145/2555243.2555258.",
+      "metadata": {
+        "title": "Singe: leveraging warp specialization for high performance on GPUs",
+        "authors": [
+          "Michael Bauer",
+          "Sean Treichler",
+          "Alex Aiken"
+        ],
+        "year": 2014,
+        "venue": "Proceedings of the 19th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+        "doi": "10.1145/2555243.2555258",
+        "url": "https://doi.org/10.1145/2555243.2555258"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-piqa",
+      "rawKey": "piqa",
+      "display": "[8]",
+      "raw": "Y. Bisk, R. Zellers, R. L. Bras, J. Gao, and Y. Choi. PIQA: reasoning about physical commonsense in natural language. In The Thirty-Fourth AAAI Conference on Artificial Intelligence, AAAI 2020, The Thirty-Second Innovative Applications of Artificial Intelligence Conference, IAAI 2020, The Tenth AAAI Symposium on Educational Advances in Artificial Intelligence, EAAI 2020, New York, NY, USA, February 7-12, 2020, pages 7432--7439. AAAI Press, 2020. 10.1609/aaai.v34i05.6239. URL https://doi.org/10.1609/aaai.v34i05.6239.",
+      "metadata": {
+        "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+        "authors": [
+          "Yonatan Bisk",
+          "Rowan Zellers",
+          "Ronan Le Bras",
+          "Jianfeng Gao",
+          "Yejin Choi"
+        ],
+        "year": 2020,
+        "venue": "The Thirty-Fourth AAAI Conference on Artificial Intelligence, AAAI 2020, The Thirty-Second Innovative Applications of Artificial Intelligence Conference, IAAI 2020, The Tenth AAAI Symposium on Educational Advances in Artificial Intelligence, EAAI 2020, New York, NY, USA, February 7-12, 2020",
+        "doi": "10.1609/aaai.v34i05.6239",
+        "url": "https://doi.org/10.1609/aaai.v34i05.6239"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-codex",
+      "rawKey": "codex",
+      "display": "[9]",
+      "raw": "M. Chen, J. Tworek, H. Jun, Q. Yuan, H. P. de Oliveira Pinto, J. Kaplan, H. Edwards, Y. Burda, N. Joseph, G. Brockman, A. Ray, R. Puri, G. Krueger, M. Petrov, H. Khlaaf, G. Sastry, P. Mishkin, B. Chan, S. Gray, N. Ryder, M. Pavlov, A. Power, L. Kaiser, M. Bavarian, C. Winter, P. Tillet, F. P. Such, D. Cummings, M. Plappert, F. Chantzis, E. Barnes, A. Herbert-Voss, W. H. Guss, A. Nichol, A. Paino, N. Tezak, J. Tang, I. Babuschkin, S. Balaji, S. Jain, W. Saunders, C. Hesse, A. N. Carr, J. Leike, J. Achiam, V. Misra, E. Morikawa, A. Radford, M. Knight, M. Brundage, M. Murati, K. Mayer, P. Welinder, B. McGrew, D. Amodei, S. McCandlish, I. Sutskever, and W. Zaremba. Evaluating large language models trained on code. CoRR, abs/2107.03374, 2021. URL https://arxiv.org/abs/2107.03374.",
+      "metadata": {
+        "title": "Evaluating Large Language Models Trained on Code",
+        "authors": [
+          "Mark Chen",
+          "Jerry Tworek",
+          "Heewoo Jun",
+          "Qiming Yuan",
+          "Henrique Ponde de Oliveira Pinto",
+          "Jared Kaplan",
+          "Harrison Edwards",
+          "Yuri Burda",
+          "Nicholas Joseph",
+          "Greg Brockman",
+          "Alex Ray",
+          "Raul Puri",
+          "Gretchen Krueger",
+          "Michael Petrov",
+          "Heidy Khlaaf",
+          "Girish Sastry",
+          "Pamela Mishkin",
+          "Brooke Chan",
+          "Scott Gray",
+          "Nick Ryder",
+          "Mikhail Pavlov",
+          "Alethea Power",
+          "Lukasz Kaiser",
+          "Mohammad Bavarian",
+          "Clemens Winter",
+          "Philippe Tillet",
+          "Felipe Petroski Such",
+          "Dave Cummings",
+          "Matthias Plappert",
+          "Fotios Chantzis",
+          "Elizabeth Barnes",
+          "Ariel Herbert-Voss",
+          "William Hebgen Guss",
+          "Alex Nichol",
+          "Alex Paino",
+          "Nikolas Tezak",
+          "Jie Tang",
+          "Igor Babuschkin",
+          "Suchir Balaji",
+          "Shantanu Jain",
+          "William Saunders",
+          "Christopher Hesse",
+          "Andrew N. Carr",
+          "Jan Leike",
+          "Joshua Achiam",
+          "Vedant Misra",
+          "Evan Morikawa",
+          "Alec Radford",
+          "Matthew Knight",
+          "Miles Brundage",
+          "Mira Murati",
+          "Katie Mayer",
+          "Peter Welinder",
+          "Bob McGrew",
+          "Dario Amodei",
+          "Sam McCandlish",
+          "Ilya Sutskever",
+          "Wojciech Zaremba"
+        ],
+        "year": 2021,
+        "venue": "CoRR",
+        "arxivId": "2107.03374",
+        "url": "https://arxiv.org/abs/2107.03374"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-arc",
+      "rawKey": "arc",
+      "display": "[10]",
+      "raw": "P. Clark, I. Cowhey, O. Etzioni, T. Khot, A. Sabharwal, C. Schoenick, and O. Tafjord. Think you have solved question answering? try arc, the AI2 reasoning challenge. CoRR, abs/1803.05457, 2018. URL http://arxiv.org/abs/1803.05457.",
+      "metadata": {
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "authors": [
+          "Peter Clark",
+          "Isaac Cowhey",
+          "Oren Etzioni",
+          "Tushar Khot",
+          "Ashish Sabharwal",
+          "Carissa Schoenick",
+          "Oyvind Tafjord"
+        ],
+        "year": 2018,
+        "venue": "CoRR",
+        "arxivId": "1803.05457",
+        "url": "http://arxiv.org/abs/1803.05457"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gsm8k",
+      "rawKey": "gsm8k",
+      "display": "[11]",
+      "raw": "K. Cobbe, V. Kosaraju, M. Bavarian, M. Chen, H. Jun, L. Kaiser, M. Plappert, J. Tworek, J. Hilton, R. Nakano, et al. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021.",
+      "metadata": {
+        "title": "Training verifiers to solve math word problems",
+        "authors": [
+          "Karl Cobbe",
+          "Vineet Kosaraju",
+          "Mohammad Bavarian",
+          "Mark Chen",
+          "Heewoo Jun",
+          "Lukasz Kaiser",
+          "Matthias Plappert",
+          "Jerry Tworek",
+          "Jacob Hilton",
+          "Reiichiro Nakano"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2110.14168",
+        "arxivId": "2110.14168"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cui-etal-2019-span",
+      "rawKey": "cui-etal-2019-span",
+      "display": "[12]",
+      "raw": "Y. Cui, T. Liu, W. Che, L. Xiao, Z. Chen, W. Ma, S. Wang, and G. Hu. A span-extraction dataset for Chinese machine reading comprehension. In K. Inui, J. Jiang, V. Ng, and X. Wan, editors, Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 5883--5889, Hong Kong, China, Nov. 2019. Association for Computational Linguistics. 10.18653/v1/D19-1600. URL https://aclanthology.org/D19-1600.",
+      "metadata": {
+        "title": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension",
+        "authors": [
+          "Yiming Cui",
+          "Ting Liu",
+          "Wanxiang Che",
+          "Li Xiao",
+          "Zhipeng Chen",
+          "Wentao Ma",
+          "Shijin Wang",
+          "Guoping Hu"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+        "doi": "10.18653/v1/D19-1600",
+        "url": "https://aclanthology.org/D19-1600"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-deepseekmoe",
+      "rawKey": "deepseekmoe",
+      "display": "[13]",
+      "raw": "D. Dai, C. Deng, C. Zhao, R. X. Xu, H. Gao, D. Chen, J. Li, W. Zeng, X. Yu, Y. Wu, Z. Xie, Y. K. Li, P. Huang, F. Luo, C. Ruan, Z. Sui, and W. Liang. Deepseekmoe: Towards ultimate expert specialization in mixture-of-experts language models. CoRR, abs/2401.06066, 2024. URL https://doi.org/10.48550/arXiv.2401.06066.",
+      "metadata": {
+        "title": "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
+        "authors": [
+          "Damai Dai",
+          "Chengqi Deng",
+          "Chenggang Zhao",
+          "R. X. Xu",
+          "Huazuo Gao",
+          "Deli Chen",
+          "Jiashi Li",
+          "Wangding Zeng",
+          "Xingkai Yu",
+          "Y. Wu",
+          "Zhenda Xie",
+          "Y. K. Li",
+          "Panpan Huang",
+          "Fuli Luo",
+          "Chong Ruan",
+          "Zhifang Sui",
+          "Wenfeng Liang"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2401.06066",
+        "url": "https://doi.org/10.48550/arXiv.2401.06066"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dscodervii",
+      "rawKey": "dscodervii",
+      "display": "[14]",
+      "raw": "DeepSeek-AI. Deepseek-coder-v2: Breaking the barrier of closed-source models in code intelligence. CoRR, abs/2406.11931, 2024a. URL https://doi.org/10.48550/arXiv.2406.11931.",
+      "metadata": {
+        "title": "DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence",
+        "authors": [
+          "DeepSeek-AI"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2406.11931",
+        "url": "https://doi.org/10.48550/arXiv.2406.11931"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dsvi",
+      "rawKey": "dsvi",
+      "display": "[15]",
+      "raw": "DeepSeek-AI. Deepseek LLM: scaling open-source language models with longtermism. CoRR, abs/2401.02954, 2024b. URL https://doi.org/10.48550/arXiv.2401.02954.",
+      "metadata": {
+        "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+        "authors": [
+          "DeepSeek-AI"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2401.02954",
+        "url": "https://doi.org/10.48550/arXiv.2401.02954"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dsvii",
+      "rawKey": "dsvii",
+      "display": "[16]",
+      "raw": "DeepSeek-AI. Deepseek-v2: A strong, economical, and efficient mixture-of-experts language model. CoRR, abs/2405.04434, 2024c. URL https://doi.org/10.48550/arXiv.2405.04434.",
+      "metadata": {
+        "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+        "authors": [
+          "DeepSeek-AI"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2405.04434",
+        "url": "https://doi.org/10.48550/arXiv.2405.04434"
+      },
+      "localMatch": {
+        "paperPath": "papers/2405.04434",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-llm.int8",
+      "rawKey": "llm.int8",
+      "display": "[17]",
+      "raw": "T. Dettmers, M. Lewis, Y. Belkada, and L. Zettlemoyer. Gpt3. int8 (): 8-bit matrix multiplication for transformers at scale. Advances in Neural Information Processing Systems, 35: 30318--30332, 2022.",
+      "metadata": {
+        "title": "Gpt3. int8 (): 8-bit matrix multiplication for transformers at scale",
+        "authors": [
+          "Tim Dettmers",
+          "Mike Lewis",
+          "Younes Belkada",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Ding2024FewerTI",
+      "rawKey": "Ding2024FewerTI",
+      "display": "[18]",
+      "raw": "H. Ding, Z. Wang, G. Paolini, V. Kumar, A. Deoras, D. Roth, and S. Soatto. Fewer truncations improve language modeling. arXiv preprint arXiv:2404.10830, 2024.",
+      "metadata": {
+        "title": "Fewer Truncations Improve Language Modeling",
+        "authors": [
+          "Hantian Ding",
+          "Zijian Wang",
+          "Giovanni Paolini",
+          "Varun Kumar",
+          "Anoop Deoras",
+          "Dan Roth",
+          "Stefano Soatto"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2404.10830",
+        "arxivId": "2404.10830"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-drop",
+      "rawKey": "drop",
+      "display": "[19]",
+      "raw": "D. Dua, Y. Wang, P. Dasigi, G. Stanovsky, S. Singh, and M. Gardner. DROP: A reading comprehension benchmark requiring discrete reasoning over paragraphs. In J. Burstein, C. Doran, and T. Solorio, editors, Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL-HLT 2019, Minneapolis, MN, USA, June 2-7, 2019, Volume 1 (Long and Short Papers), pages 2368--2378. Association for Computational Linguistics, 2019. 10.18653/V1/N19-1246. URL https://doi.org/10.18653/v1/n19-1246.",
+      "metadata": {
+        "title": "DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs",
+        "authors": [
+          "Dheeru Dua",
+          "Yizhong Wang",
+          "Pradeep Dasigi",
+          "Gabriel Stanovsky",
+          "Sameer Singh",
+          "Matt Gardner"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL-HLT 2019, Minneapolis, MN, USA, June 2-7, 2019, Volume 1 (Long and Short Papers)",
+        "doi": "10.18653/v1/n19-1246",
+        "url": "https://doi.org/10.18653/v1/n19-1246"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-alpaca2.0",
+      "rawKey": "alpaca2.0",
+      "display": "[20]",
+      "raw": "Y. Dubois, B. Galambosi, P. Liang, and T. B. Hashimoto. Length-controlled alpacaeval: A simple way to debias automatic evaluators. arXiv preprint arXiv:2404.04475, 2024.",
+      "metadata": {
+        "title": "Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators",
+        "authors": [
+          "Yann Dubois",
+          "Balazs Galambosi",
+          "Percy Liang",
+          "Tatsunori B Hashimoto"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2404.04475",
+        "arxivId": "2404.04475"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-switch",
+      "rawKey": "switch",
+      "display": "[21]",
+      "raw": "W. Fedus, B. Zoph, and N. Shazeer. Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity. CoRR, abs/2101.03961, 2021. URL https://arxiv.org/abs/2101.03961.",
+      "metadata": {
+        "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+        "authors": [
+          "William Fedus",
+          "Barret Zoph",
+          "Noam Shazeer"
+        ],
+        "year": 2021,
+        "venue": "CoRR",
+        "arxivId": "2101.03961",
+        "url": "https://arxiv.org/abs/2101.03961"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-scalefp8train",
+      "rawKey": "scalefp8train",
+      "display": "[22]",
+      "raw": "M. Fishman, B. Chmiel, R. Banner, and D. Soudry. Scaling FP8 training to trillion-token llms. arXiv preprint arXiv:2409.12517, 2024.",
+      "metadata": {
+        "title": "Scaling FP8 training to trillion-token LLMs",
+        "authors": [
+          "Maxim Fishman",
+          "Brian Chmiel",
+          "Ron Banner",
+          "Daniel Soudry"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2409.12517",
+        "arxivId": "2409.12517"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-frantar2022gptq",
+      "rawKey": "frantar2022gptq",
+      "display": "[23]",
+      "raw": "E. Frantar, S. Ashkboos, T. Hoefler, and D. Alistarh. Gptq: Accurate post-training quantization for generative pre-trained transformers. arXiv preprint arXiv:2210.17323, 2022.",
+      "metadata": {
+        "title": "Gptq: Accurate post-training quantization for generative pre-trained transformers",
+        "authors": [
+          "Elias Frantar",
+          "Saleh Ashkboos",
+          "Torsten Hoefler",
+          "Dan Alistarh"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2210.17323",
+        "arxivId": "2210.17323"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pile",
+      "rawKey": "pile",
+      "display": "[24]",
+      "raw": "L. Gao, S. Biderman, S. Black, L. Golding, T. Hoppe, C. Foster, J. Phang, H. He, A. Thite, N. Nabeshima, et al. The Pile: An 800GB dataset of diverse text for language modeling. arXiv preprint arXiv:2101.00027, 2020.",
+      "metadata": {
+        "title": "The Pile: An 800GB dataset of diverse text for language modeling",
+        "authors": [
+          "Leo Gao",
+          "Stella Biderman",
+          "Sid Black",
+          "Laurence Golding",
+          "Travis Hoppe",
+          "Charles Foster",
+          "Jason Phang",
+          "Horace He",
+          "Anish Thite",
+          "Noa Nabeshima"
+        ],
+        "year": 2020,
+        "venue": "arXiv preprint arXiv:2101.00027",
+        "arxivId": "2101.00027"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mmlu_redux",
+      "rawKey": "mmlu_redux",
+      "display": "[25]",
+      "raw": "A. P. Gema, J. O. J. Leang, G. Hong, A. Devoto, A. C. M. Mancino, R. Saxena, X. He, Y. Zhao, X. Du, M. R. G. Madani, C. Barale, R. McHardy, J. Harris, J. Kaddour, E. van Krieken, and P. Minervini. Are we done with mmlu? CoRR, abs/2406.04127, 2024. URL https://doi.org/10.48550/arXiv.2406.04127.",
+      "metadata": {
+        "title": "Are We Done with MMLU?",
+        "authors": [
+          "Aryo Pradipta Gema",
+          "Joshua Ong Jun Leang",
+          "Giwon Hong",
+          "Alessio Devoto",
+          "Alberto Carlo Maria Mancino",
+          "Rohit Saxena",
+          "Xuanli He",
+          "Yu Zhao",
+          "Xiaotang Du",
+          "Mohammad Reza Ghasemi Madani",
+          "Claire Barale",
+          "Robert McHardy",
+          "Joshua Harris",
+          "Jean Kaddour",
+          "Emile van Krieken",
+          "Pasquale Minervini"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2406.04127",
+        "url": "https://doi.org/10.48550/arXiv.2406.04127"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-meta_mtp",
+      "rawKey": "meta_mtp",
+      "display": "[26]",
+      "raw": "F. Gloeckle, B. Y. Idrissi, B. Roziere, D. Lopez-Paz, and G. Synnaeve. Better & faster large language models via multi-token prediction. In Forty-first International Conference on Machine Learning, ICML 2024, Vienna, Austria, July 21-27, 2024. OpenReview.net, 2024. URL https://openreview.net/forum?id=pEWAcejiU2.",
+      "metadata": {
+        "title": "Better & Faster Large Language Models via Multi-token Prediction",
+        "authors": [
+          "Fabian Gloeckle",
+          "Badr Youbi Idrissi",
+          "Baptiste Roziere",
+          "David Lopez-Paz",
+          "Gabriel Synnaeve"
+        ],
+        "year": 2024,
+        "venue": "Forty-first International Conference on Machine Learning, ICML 2024, Vienna, Austria, July 21-27, 2024",
+        "url": "https://openreview.net/forum?id=pEWAcejiU2"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gemini1_5",
+      "rawKey": "gemini1_5",
+      "display": "[27]",
+      "raw": "Google. Our next-generation model: Gemini 1.5, 2024. URL https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024.",
+      "metadata": {
+        "title": "Our next-generation model: Gemini 1.5",
+        "authors": [
+          "Google"
+        ],
+        "year": 2024,
+        "url": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-nvsharp",
+      "rawKey": "nvsharp",
+      "display": "[28]",
+      "raw": "R. L. Graham, D. Bureddy, P. Lui, H. Rosenstock, G. Shainer, G. Bloch, D. Goldenerg, M. Dubman, S. Kotchubievsky, V. Koushnir, et al. Scalable hierarchical aggregation protocol (SHArP): A hardware architecture for efficient data reduction. In 2016 First International Workshop on Communication Optimizations in HPC (COMHPC), pages 1--10. IEEE, 2016.",
+      "metadata": {
+        "title": "Scalable hierarchical aggregation protocol (SHArP): A hardware architecture for efficient data reduction",
+        "authors": [
+          "Richard L Graham",
+          "Devendar Bureddy",
+          "Pak Lui",
+          "Hal Rosenstock",
+          "Gilad Shainer",
+          "Gil Bloch",
+          "Dror Goldenerg",
+          "Mike Dubman",
+          "Sasha Kotchubievsky",
+          "Vladimir Koushnir"
+        ],
+        "year": 2016,
+        "venue": "2016 First International Workshop on Communication Optimizations in HPC (COMHPC)"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gu2024cruxeval",
+      "rawKey": "gu2024cruxeval",
+      "display": "[29]",
+      "raw": "A. Gu, B. RoziÃre, H. Leather, A. Solar-Lezama, G. Synnaeve, and S. I. Wang. Cruxeval: A benchmark for code reasoning, understanding and execution, 2024.",
+      "metadata": {
+        "title": "CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution",
+        "authors": [
+          "Alex Gu",
+          "Baptiste RoziÃre",
+          "Hugh Leather",
+          "Armando Solar-Lezama",
+          "Gabriel Synnaeve",
+          "Sida I. Wang"
+        ],
+        "year": 2024,
+        "arxivId": "2401.03065"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dscodervi",
+      "rawKey": "dscodervi",
+      "display": "[30]",
+      "raw": "D. Guo, Q. Zhu, D. Yang, Z. Xie, K. Dong, W. Zhang, G. Chen, X. Bi, Y. Wu, Y. K. Li, F. Luo, Y. Xiong, and W. Liang. Deepseek-coder: When the large language model meets programming - the rise of code intelligence. CoRR, abs/2401.14196, 2024. URL https://doi.org/10.48550/arXiv.2401.14196.",
+      "metadata": {
+        "title": "DeepSeek-Coder: When the Large Language Model Meets Programming - The Rise of Code Intelligence",
+        "authors": [
+          "Daya Guo",
+          "Qihao Zhu",
+          "Dejian Yang",
+          "Zhenda Xie",
+          "Kai Dong",
+          "Wentao Zhang",
+          "Guanting Chen",
+          "Xiao Bi",
+          "Y. Wu",
+          "Y. K. Li",
+          "Fuli Luo",
+          "Yingfei Xiong",
+          "Wenfeng Liang"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2401.14196",
+        "url": "https://doi.org/10.48550/arXiv.2401.14196"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pipedream",
+      "rawKey": "pipedream",
+      "display": "[31]",
+      "raw": "A. Harlap, D. Narayanan, A. Phanishayee, V. Seshadri, N. Devanur, G. Ganger, and P. Gibbons. Pipedream: Fast and efficient pipeline parallel dnn training, 2018. URL https://arxiv.org/abs/1806.03377.",
+      "metadata": {
+        "title": "PipeDream: Fast and Efficient Pipeline Parallel DNN Training",
+        "authors": [
+          "Aaron Harlap",
+          "Deepak Narayanan",
+          "Amar Phanishayee",
+          "Vivek Seshadri",
+          "Nikhil Devanur",
+          "Greg Ganger",
+          "Phil Gibbons"
+        ],
+        "year": 2018,
+        "arxivId": "1806.03377",
+        "url": "https://arxiv.org/abs/1806.03377"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-understandoutlier",
+      "rawKey": "understandoutlier",
+      "display": "[32]",
+      "raw": "B. He, L. Noci, D. Paliotta, I. Schlag, and T. Hofmann. Understanding and minimising outlier features in transformer training. In The Thirty-eighth Annual Conference on Neural Information Processing Systems.",
+      "metadata": {
+        "title": "Understanding and Minimising Outlier Features in Transformer Training",
+        "authors": [
+          "Bobby He",
+          "Lorenzo Noci",
+          "Daniele Paliotta",
+          "Imanol Schlag",
+          "Thomas Hofmann"
+        ],
+        "venue": "The Thirty-eighth Annual Conference on Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-csimpleqa",
+      "rawKey": "csimpleqa",
+      "display": "[33]",
+      "raw": "Y. He, S. Li, J. Liu, Y. Tan, W. Wang, H. Huang, X. Bu, H. Guo, C. Hu, B. Zheng, et al. Chinese simpleqa: A chinese factuality evaluation for large language models. arXiv preprint arXiv:2411.07140, 2024.",
+      "metadata": {
+        "title": "Chinese simpleqa: A chinese factuality evaluation for large language models",
+        "authors": [
+          "Yancheng He",
+          "Shilong Li",
+          "Jiaheng Liu",
+          "Yingshui Tan",
+          "Weixun Wang",
+          "Hui Huang",
+          "Xingyuan Bu",
+          "Hangyu Guo",
+          "Chengwei Hu",
+          "Boren Zheng"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2411.07140",
+        "arxivId": "2411.07140"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mmlu",
+      "rawKey": "mmlu",
+      "display": "[34]",
+      "raw": "D. Hendrycks, C. Burns, S. Basart, A. Zou, M. Mazeika, D. Song, and J. Steinhardt. Measuring massive multitask language understanding. arXiv preprint arXiv:2009.03300, 2020.",
+      "metadata": {
+        "title": "Measuring massive multitask language understanding",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Steven Basart",
+          "Andy Zou",
+          "Mantas Mazeika",
+          "Dawn Song",
+          "Jacob Steinhardt"
+        ],
+        "year": 2009,
+        "venue": "arXiv preprint arXiv:2009.03300",
+        "arxivId": "2009.03300"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hendrycks2021measuring",
+      "rawKey": "hendrycks2021measuring",
+      "display": "[35]",
+      "raw": "D. Hendrycks, C. Burns, S. Kadavath, A. Arora, S. Basart, E. Tang, D. Song, and J. Steinhardt. Measuring mathematical problem solving with the math dataset. arXiv preprint arXiv:2103.03874, 2021.",
+      "metadata": {
+        "title": "Measuring mathematical problem solving with the math dataset",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Saurav Kadavath",
+          "Akul Arora",
+          "Steven Basart",
+          "Eric Tang",
+          "Dawn Song",
+          "Jacob Steinhardt"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2103.03874",
+        "arxivId": "2103.03874"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ceval",
+      "rawKey": "ceval",
+      "display": "[36]",
+      "raw": "Y. Huang, Y. Bai, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, Y. Zhang, J. Lei, et al. C-Eval: A multi-level multi-discipline chinese evaluation suite for foundation models. arXiv preprint arXiv:2305.08322, 2023.",
+      "metadata": {
+        "title": "C-Eval: A multi-level multi-discipline chinese evaluation suite for foundation models",
+        "authors": [
+          "Yuzhen Huang",
+          "Yuzhuo Bai",
+          "Zhihao Zhu",
+          "Junlei Zhang",
+          "Jinghan Zhang",
+          "Tangjun Su",
+          "Junteng Liu",
+          "Chuancheng Lv",
+          "Yikai Zhang",
+          "Jiayi Lei"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2305.08322",
+        "arxivId": "2305.08322"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-livecodebench",
+      "rawKey": "livecodebench",
+      "display": "[37]",
+      "raw": "N. Jain, K. Han, A. Gu, W. Li, F. Yan, T. Zhang, S. Wang, A. Solar-Lezama, K. Sen, and I. Stoica. Livecodebench: Holistic and contamination free evaluation of large language models for code. CoRR, abs/2403.07974, 2024. URL https://doi.org/10.48550/arXiv.2403.07974.",
+      "metadata": {
+        "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+        "authors": [
+          "Naman Jain",
+          "King Han",
+          "Alex Gu",
+          "Wen-Ding Li",
+          "Fanjia Yan",
+          "Tianjun Zhang",
+          "Sida Wang",
+          "Armando Solar-Lezama",
+          "Koushik Sen",
+          "Ion Stoica"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2403.07974",
+        "url": "https://doi.org/10.48550/arXiv.2403.07974"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mistral",
+      "rawKey": "mistral",
+      "display": "[38]",
+      "raw": "A. Q. Jiang, A. Sablayrolles, A. Mensch, C. Bamford, D. S. Chaplot, D. d. l. Casas, F. Bressand, G. Lengyel, G. Lample, L. Saulnier, et al. Mistral 7b. arXiv preprint arXiv:2310.06825, 2023.",
+      "metadata": {
+        "title": "Mistral 7B",
+        "authors": [
+          "Albert Q Jiang",
+          "Alexandre Sablayrolles",
+          "Arthur Mensch",
+          "Chris Bamford",
+          "Devendra Singh Chaplot",
+          "Diego de las Casas",
+          "Florian Bressand",
+          "Gianna Lengyel",
+          "Guillaume Lample",
+          "Lucile Saulnier"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2310.06825",
+        "arxivId": "2310.06825"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-joshi-etal-2017-triviaqa",
+      "rawKey": "joshi-etal-2017-triviaqa",
+      "display": "[39]",
+      "raw": "M. Joshi, E. Choi, D. Weld, and L. Zettlemoyer. TriviaQA: A large scale distantly supervised challenge dataset for reading comprehension. In R. Barzilay and M.-Y. Kan, editors, Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 1601--1611, Vancouver, Canada, July 2017. Association for Computational Linguistics. 10.18653/v1/P17-1147. URL https://aclanthology.org/P17-1147.",
+      "metadata": {
+        "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+        "authors": [
+          "Mandar Joshi",
+          "Eunsol Choi",
+          "Daniel Weld",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2017,
+        "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "doi": "10.18653/v1/P17-1147",
+        "url": "https://aclanthology.org/P17-1147"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bf16train",
+      "rawKey": "bf16train",
+      "display": "[40]",
+      "raw": "D. Kalamkar, D. Mudigere, N. Mellempudi, D. Das, K. Banerjee, S. Avancha, D. T. Vooturi, N. Jammalamadaka, J. Huang, H. Yuen, et al. A study of bfloat16 for deep learning training. arXiv preprint arXiv:1905.12322, 2019.",
+      "metadata": {
+        "title": "A study of BFLOAT16 for deep learning training",
+        "authors": [
+          "Dhiraj Kalamkar",
+          "Dheevatsa Mudigere",
+          "Naveen Mellempudi",
+          "Dipankar Das",
+          "Kunal Banerjee",
+          "Sasikanth Avancha",
+          "Dharma Teja Vooturi",
+          "Nataraj Jammalamadaka",
+          "Jianyu Huang",
+          "Hector Yuen"
+        ],
+        "year": 1905,
+        "venue": "arXiv preprint arXiv:1905.12322",
+        "arxivId": "1905.12322"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-frames",
+      "rawKey": "frames",
+      "display": "[41]",
+      "raw": "S. Krishna, K. Krishna, A. Mohananey, S. Schwarcz, A. Stambler, S. Upadhyay, and M. Faruqui. Fact, fetch, and reason: A unified evaluation of retrieval-augmented generation. CoRR, abs/2409.12941, 2024. 10.48550/ARXIV.2409.12941. URL https://doi.org/10.48550/arXiv.2409.12941.",
+      "metadata": {
+        "title": "Fact, Fetch, and Reason: A Unified Evaluation of Retrieval-Augmented Generation",
+        "authors": [
+          "Satyapriya Krishna",
+          "Kalpesh Krishna",
+          "Anhad Mohananey",
+          "Steven Schwarcz",
+          "Adam Stambler",
+          "Shyam Upadhyay",
+          "Manaal Faruqui"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2409.12941",
+        "arxivId": "2409.12941",
+        "url": "https://doi.org/10.48550/arXiv.2409.12941"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-naturalquestions",
+      "rawKey": "naturalquestions",
+      "display": "[42]",
+      "raw": "T. Kwiatkowski, J. Palomaki, O. Redfield, M. Collins, A. P. Parikh, C. Alberti, D. Epstein, I. Polosukhin, J. Devlin, K. Lee, K. Toutanova, L. Jones, M. Kelcey, M. Chang, A. M. Dai, J. Uszkoreit, Q. Le, and S. Petrov. Natural questions: a benchmark for question answering research. Trans. Assoc. Comput. Linguistics, 7: 452--466, 2019. 10.1162/tacl_a_00276. URL https://doi.org/10.1162/tacl_a_00276.",
+      "metadata": {
+        "title": "Natural Questions: a Benchmark for Question Answering Research",
+        "authors": [
+          "Tom Kwiatkowski",
+          "Jennimaria Palomaki",
+          "Olivia Redfield",
+          "Michael Collins",
+          "Ankur P. Parikh",
+          "Chris Alberti",
+          "Danielle Epstein",
+          "Illia Polosukhin",
+          "Jacob Devlin",
+          "Kenton Lee",
+          "Kristina Toutanova",
+          "Llion Jones",
+          "Matthew Kelcey",
+          "Ming-Wei Chang",
+          "Andrew M. Dai",
+          "Jakob Uszkoreit",
+          "Quoc Le",
+          "Slav Petrov"
+        ],
+        "year": 2019,
+        "venue": "Trans. Assoc. Comput. Linguistics",
+        "doi": "10.1162/tacl",
+        "url": "https://doi.org/10.1162/tacl\\_a\\_00276"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-race",
+      "rawKey": "race",
+      "display": "[43]",
+      "raw": "G. Lai, Q. Xie, H. Liu, Y. Yang, and E. H. Hovy. RACE: large-scale reading comprehension dataset from examinations. In M. Palmer, R. Hwa, and S. Riedel, editors, Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, EMNLP 2017, Copenhagen, Denmark, September 9-11, 2017, pages 785--794. Association for Computational Linguistics, 2017. 10.18653/V1/D17-1082. URL https://doi.org/10.18653/v1/d17-1082.",
+      "metadata": {
+        "title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+        "authors": [
+          "Guokun Lai",
+          "Qizhe Xie",
+          "Hanxiao Liu",
+          "Yiming Yang",
+          "Eduard H. Hovy"
+        ],
+        "year": 2017,
+        "venue": "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, EMNLP 2017, Copenhagen, Denmark, September 9-11, 2017",
+        "doi": "10.18653/v1/d17-1082",
+        "url": "https://doi.org/10.18653/v1/d17-1082"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lambert2024rewardbench",
+      "rawKey": "lambert2024rewardbench",
+      "display": "[44]",
+      "raw": "N. Lambert, V. Pyatkin, J. Morrison, L. Miranda, B. Y. Lin, K. Chandu, N. Dziri, S. Kumar, T. Zick, Y. Choi, et al. Rewardbench: Evaluating reward models for language modeling. arXiv preprint arXiv:2403.13787, 2024.",
+      "metadata": {
+        "title": "Rewardbench: Evaluating reward models for language modeling",
+        "authors": [
+          "Nathan Lambert",
+          "Valentina Pyatkin",
+          "Jacob Morrison",
+          "LJ Miranda",
+          "Bill Yuchen Lin",
+          "Khyathi Chandu",
+          "Nouha Dziri",
+          "Sachin Kumar",
+          "Tom Zick",
+          "Yejin Choi"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2403.13787",
+        "arxivId": "2403.13787"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gshard",
+      "rawKey": "gshard",
+      "display": "[45]",
+      "raw": "D. Lepikhin, H. Lee, Y. Xu, D. Chen, O. Firat, Y. Huang, M. Krikun, N. Shazeer, and Z. Chen. Gshard: Scaling giant models with conditional computation and automatic sharding. In 9th International Conference on Learning Representations, ICLR 2021. OpenReview.net, 2021. URL https://openreview.net/forum?id=qrwe7XHTmYb.",
+      "metadata": {
+        "title": "GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding",
+        "authors": [
+          "Dmitry Lepikhin",
+          "HyoukJoong Lee",
+          "Yuanzhong Xu",
+          "Dehao Chen",
+          "Orhan Firat",
+          "Yanping Huang",
+          "Maxim Krikun",
+          "Noam Shazeer",
+          "Zhifeng Chen"
+        ],
+        "year": 2021,
+        "venue": "9th International Conference on Learning Representations, ICLR 2021",
+        "url": "https://openreview.net/forum?id=qrwe7XHTmYb"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-speculative_google",
+      "rawKey": "speculative_google",
+      "display": "[46]",
+      "raw": "Y. Leviathan, M. Kalman, and Y. Matias. Fast inference from transformers via speculative decoding. In International Conference on Machine Learning, ICML 2023, 23-29 July 2023, Honolulu, Hawaii, USA, volume 202 of Proceedings of Machine Learning Research, pages 19274--19286. PMLR, 2023. URL https://proceedings.mlr.press/v202/leviathan23a.html.",
+      "metadata": {
+        "title": "Fast Inference from Transformers via Speculative Decoding",
+        "authors": [
+          "Yaniv Leviathan",
+          "Matan Kalman",
+          "Yossi Matias"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Machine Learning, ICML 2023, 23-29 July 2023, Honolulu, Hawaii, USA",
+        "url": "https://proceedings.mlr.press/v202/leviathan23a.html"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cmmlu",
+      "rawKey": "cmmlu",
+      "display": "[47]",
+      "raw": "H. Li, Y. Zhang, F. Koto, Y. Yang, H. Zhao, Y. Gong, N. Duan, and T. Baldwin. CMMLU: Measuring massive multitask language understanding in Chinese. arXiv preprint arXiv:2306.09212, 2023.",
+      "metadata": {
+        "title": "CMMLU: Measuring massive multitask language understanding in Chinese",
+        "authors": [
+          "Haonan Li",
+          "Yixuan Zhang",
+          "Fajri Koto",
+          "Yifei Yang",
+          "Hai Zhao",
+          "Yeyun Gong",
+          "Nan Duan",
+          "Timothy Baldwin"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2306.09212",
+        "arxivId": "2306.09212"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chimera",
+      "rawKey": "chimera",
+      "display": "[48]",
+      "raw": "S. Li and T. Hoefler. Chimera: efficiently training large-scale neural networks with bidirectional pipelines. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, SC â1, page 1â4. ACM, Nov. 2021. 10.1145/3458817.3476145. URL http://dx.doi.org/10.1145/3458817.3476145.",
+      "metadata": {
+        "title": "Chimera: efficiently training large-scale neural networks with bidirectional pipelines",
+        "authors": [
+          "Shigang Li",
+          "Torsten Hoefler"
+        ],
+        "year": 2021,
+        "venue": "Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+        "doi": "10.1145/3458817.3476145",
+        "url": "http://dx.doi.org/10.1145/3458817.3476145"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2024crowdsourced",
+      "rawKey": "li2024crowdsourced",
+      "display": "[49]",
+      "raw": "T. Li, W.-L. Chiang, E. Frick, L. Dunlap, T. Wu, B. Zhu, J. E. Gonzalez, and I. Stoica. From crowdsourced data to high-quality benchmarks: Arena-hard and benchbuilder pipeline. arXiv preprint arXiv:2406.11939, 2024a.",
+      "metadata": {
+        "title": "From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline",
+        "authors": [
+          "Tianle Li",
+          "Wei-Lin Chiang",
+          "Evan Frick",
+          "Lisa Dunlap",
+          "Tianhao Wu",
+          "Banghua Zhu",
+          "Joseph E Gonzalez",
+          "Ion Stoica"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2406.11939",
+        "arxivId": "2406.11939"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2021ccpm",
+      "rawKey": "li2021ccpm",
+      "display": "[50]",
+      "raw": "W. Li, F. Qi, M. Sun, X. Yi, and J. Zhang. Ccpm: A chinese classical poetry matching dataset, 2021.",
+      "metadata": {
+        "title": "CCPM: A Chinese Classical Poetry Matching Dataset",
+        "authors": [
+          "Wenhao Li",
+          "Fanchao Qi",
+          "Maosong Sun",
+          "Xiaoyuan Yi",
+          "Jiarui Zhang"
+        ],
+        "year": 2021,
+        "arxivId": "2106.01979"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-eagle",
+      "rawKey": "eagle",
+      "display": "[51]",
+      "raw": "Y. Li, F. Wei, C. Zhang, and H. Zhang. EAGLE: speculative sampling requires rethinking feature uncertainty. In Forty-first International Conference on Machine Learning, ICML 2024, Vienna, Austria, July 21-27, 2024. OpenReview.net, 2024b. URL https://openreview.net/forum?id=1NdN7eXyb4.",
+      "metadata": {
+        "title": "EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty",
+        "authors": [
+          "Yuhui Li",
+          "Fangyun Wei",
+          "Chao Zhang",
+          "Hongyang Zhang"
+        ],
+        "year": 2024,
+        "venue": "Forty-first International Conference on Machine Learning, ICML 2024, Vienna, Austria, July 21-27, 2024",
+        "url": "https://openreview.net/forum?id=1NdN7eXyb4"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Lin_ZeroEval_A_Unified_2024",
+      "rawKey": "Lin_ZeroEval_A_Unified_2024",
+      "display": "[52]",
+      "raw": "B. Y. Lin. ZeroEval: A Unified Framework for Evaluating Language Models, July 2024. URL https://github.com/WildEval/ZeroEval.",
+      "metadata": {
+        "title": "ZeroEval: A Unified Framework for Evaluating Language Models",
+        "authors": [
+          "Bill Yuchen Lin"
+        ],
+        "year": 2024,
+        "url": "https://github.com/WildEval/ZeroEval"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-adamW",
+      "rawKey": "adamW",
+      "display": "[53]",
+      "raw": "I. Loshchilov and F. Hutter. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017.",
+      "metadata": {
+        "title": "Decoupled weight decay regularization",
+        "authors": [
+          "Ilya Loshchilov",
+          "Frank Hutter"
+        ],
+        "year": 2017,
+        "venue": "arXiv preprint arXiv:1711.05101",
+        "arxivId": "1711.05101"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tokenboundary",
+      "rawKey": "tokenboundary",
+      "display": "[54]",
+      "raw": "S. Lundberg. The art of prompt design: Prompt boundaries and token healing, 2023. URL https://towardsdatascience.com/the-art-of-prompt-design-prompt-boundaries-and-token-healing-3b2448b0be38.",
+      "metadata": {
+        "title": "The Art of Prompt Design: Prompt Boundaries and Token Healing",
+        "authors": [
+          "Scott Lundberg"
+        ],
+        "year": 2023,
+        "url": "https://towardsdatascience.com/the-art-of-prompt-design-prompt-boundaries-and-token-healing-3b2448b0be38"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hifp8format",
+      "rawKey": "hifp8format",
+      "display": "[55]",
+      "raw": "Y. Luo, Z. Zhang, R. Wu, H. Liu, Y. Jin, K. Zheng, M. Wang, Z. He, G. Hu, L. Chen, et al. Ascend HiFloat8 format for deep learning. arXiv preprint arXiv:2409.16626, 2024.",
+      "metadata": {
+        "title": "Ascend HiFloat8 Format for Deep Learning",
+        "authors": [
+          "Yuanyong Luo",
+          "Zhongxing Zhang",
+          "Richard Wu",
+          "Hu Liu",
+          "Ying Jin",
+          "Kai Zheng",
+          "Minmin Wang",
+          "Zhanying He",
+          "Guipeng Hu",
+          "Luyao Chen"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2409.16626",
+        "arxivId": "2409.16626"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-AIME2024",
+      "rawKey": "AIME2024",
+      "display": "[56]",
+      "raw": "MAA. American invitational mathematics examination - aime. In American Invitational Mathematics Examination - AIME 2024, February 2024. URL https://maa.org/math-competitions/american-invitational-mathematics-examination-aime.",
+      "metadata": {
+        "title": "American Invitational Mathematics Examination - AIME",
+        "authors": [
+          "MAA"
+        ],
+        "year": 2024,
+        "venue": "American Invitational Mathematics Examination - AIME 2024",
+        "url": "https://maa.org/math-competitions/american-invitational-mathematics-examination-aime"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fp8format",
+      "rawKey": "fp8format",
+      "display": "[57]",
+      "raw": "P. Micikevicius, D. Stosic, N. Burgess, M. Cornea, P. Dubey, R. Grisenthwaite, S. Ha, A. Heinecke, P. Judd, J. Kamalu, et al. FP8 formats for deep learning. arXiv preprint arXiv:2209.05433, 2022.",
+      "metadata": {
+        "title": "FP8 formats for deep learning",
+        "authors": [
+          "Paulius Micikevicius",
+          "Dusan Stosic",
+          "Neil Burgess",
+          "Marius Cornea",
+          "Pradeep Dubey",
+          "Richard Grisenthwaite",
+          "Sangwon Ha",
+          "Alexander Heinecke",
+          "Patrick Judd",
+          "John Kamalu"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2209.05433",
+        "arxivId": "2209.05433"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mixtral8x22b",
+      "rawKey": "mixtral8x22b",
+      "display": "[58]",
+      "raw": "Mistral. Cheaper, better, faster, stronger: Continuing to push the frontier of ai and making it accessible to all, 2024. URL https://mistral.ai/news/mixtral-8x22b.",
+      "metadata": {
+        "title": "Cheaper, Better, Faster, Stronger: Continuing to push the frontier of AI and making it accessible to all",
+        "authors": [
+          "Mistral"
+        ],
+        "year": 2024,
+        "url": "https://mistral.ai/news/mixtral-8x22b"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fp16train",
+      "rawKey": "fp16train",
+      "display": "[59]",
+      "raw": "S. Narang, G. Diamos, E. Elsen, P. Micikevicius, J. Alben, D. Garcia, B. Ginsburg, M. Houston, O. Kuchaiev, G. Venkatesh, et al. Mixed precision training. In Int. Conf. on Learning Representation, 2017.",
+      "metadata": {
+        "title": "Mixed precision training",
+        "authors": [
+          "Sharan Narang",
+          "Gregory Diamos",
+          "Erich Elsen",
+          "Paulius Micikevicius",
+          "Jonah Alben",
+          "David Garcia",
+          "Boris Ginsburg",
+          "Michael Houston",
+          "Oleksii Kuchaiev",
+          "Ganesh Venkatesh"
+        ],
+        "year": 2017,
+        "venue": "Int. Conf. on Learning Representation"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-8-bit-numerical",
+      "rawKey": "8-bit-numerical",
+      "display": "[60]",
+      "raw": "B. Noune, P. Jones, D. Justus, D. Masters, and C. Luschi. 8-bit numerical formats for deep neural networks. arXiv preprint arXiv:2206.02915, 2022.",
+      "metadata": {
+        "title": "8-bit numerical formats for deep neural networks",
+        "authors": [
+          "Badreddine Noune",
+          "Philip Jones",
+          "Daniel Justus",
+          "Dominic Masters",
+          "Carlo Luschi"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2206.02915",
+        "arxivId": "2206.02915"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-nvidia_ibgda",
+      "rawKey": "nvidia_ibgda",
+      "display": "[61]",
+      "raw": "NVIDIA. Improving network performance of HPC systems using NVIDIA Magnum IO NVSHMEM and GPUDirect Async. https://developer.nvidia.com/blog/improving-network-performance-of-hpc-systems-using-nvidia-magnum-io-nvshmem-and-gpudirect-async, 2022.",
+      "metadata": {
+        "title": "Improving Network Performance of HPC Systems Using NVIDIA Magnum IO NVSHMEM and GPUDirect Async",
+        "authors": [
+          "NVIDIA"
+        ],
+        "year": 2022,
+        "url": "https://developer.nvidia.com/blog/improving-network-performance-of-hpc-systems-using-nvidia-magnum-io-nvshmem-and-gpudirect-async"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-nvidia_tensor_cores",
+      "rawKey": "nvidia_tensor_cores",
+      "display": "[62]",
+      "raw": "NVIDIA. Blackwell architecture. https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/, 2024a.",
+      "metadata": {
+        "title": "Blackwell Architecture",
+        "authors": [
+          "NVIDIA"
+        ],
+        "year": 2024,
+        "url": "https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-transformerengine",
+      "rawKey": "transformerengine",
+      "display": "[63]",
+      "raw": "NVIDIA. TransformerEngine, 2024b. URL https://github.com/NVIDIA/TransformerEngine. Accessed: 2024-11-19.",
+      "metadata": {
+        "title": "TransformerEngine",
+        "authors": [
+          "NVIDIA"
+        ],
+        "year": 2024,
+        "url": "https://github.com/NVIDIA/TransformerEngine"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpt4o",
+      "rawKey": "gpt4o",
+      "display": "[64]",
+      "raw": "OpenAI. Hello GPT-4o, 2024a. URL https://openai.com/index/hello-gpt-4o/.",
+      "metadata": {
+        "title": "Hello GPT-4o",
+        "authors": [
+          "OpenAI"
+        ],
+        "year": 2024,
+        "url": "https://openai.com/index/hello-gpt-4o/"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mmmlu",
+      "rawKey": "mmmlu",
+      "display": "[65]",
+      "raw": "OpenAI. Multilingual massive multitask language understanding (mmmlu), 2024b. URL https://huggingface.co/datasets/openai/MMMLU.",
+      "metadata": {
+        "title": "Multilingual Massive Multitask Language Understanding (MMMLU)",
+        "authors": [
+          "OpenAI"
+        ],
+        "year": 2024,
+        "url": "https://huggingface.co/datasets/openai/MMMLU"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-simpleqa",
+      "rawKey": "simpleqa",
+      "display": "[66]",
+      "raw": "OpenAI. Introducing SimpleQA, 2024c. URL https://openai.com/index/introducing-simpleqa/.",
+      "metadata": {
+        "title": "Introducing SimpleQA",
+        "authors": [
+          "OpenAI"
+        ],
+        "year": 2024,
+        "url": "https://openai.com/index/introducing-simpleqa/"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-swe_verified",
+      "rawKey": "swe_verified",
+      "display": "[67]",
+      "raw": "OpenAI. Introducing SWE-bench verified weâe releasing a human-validated subset of swe-bench that more, 2024d. URL https://openai.com/index/introducing-swe-bench-verified/.",
+      "metadata": {
+        "title": "Introducing SWE-bench Verified Weâe releasing a human-validated subset of SWE-bench that more",
+        "authors": [
+          "OpenAI"
+        ],
+        "year": 2024,
+        "url": "https://openai.com/index/introducing-swe-bench-verified/"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-peng2023yarn",
+      "rawKey": "peng2023yarn",
+      "display": "[68]",
+      "raw": "B. Peng, J. Quesnelle, H. Fan, and E. Shippole. Yarn: Efficient context window extension of large language models. arXiv preprint arXiv:2309.00071, 2023a.",
+      "metadata": {
+        "title": "Yarn: Efficient context window extension of large language models",
+        "authors": [
+          "Bowen Peng",
+          "Jeffrey Quesnelle",
+          "Honglu Fan",
+          "Enrico Shippole"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2309.00071",
+        "arxivId": "2309.00071"
+      },
+      "localMatch": {
+        "paperPath": "papers/2309.00071",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fp8lm",
+      "rawKey": "fp8lm",
+      "display": "[69]",
+      "raw": "H. Peng, K. Wu, Y. Wei, G. Zhao, Y. Yang, Z. Liu, Y. Xiong, Z. Yang, B. Ni, J. Hu, et al. FP8-LM: Training FP8 large language models. arXiv preprint arXiv:2310.18313, 2023b.",
+      "metadata": {
+        "title": "FP8-LM: Training FP8 large language models",
+        "authors": [
+          "Houwen Peng",
+          "Kan Wu",
+          "Yixuan Wei",
+          "Guoshuai Zhao",
+          "Yuxiang Yang",
+          "Ze Liu",
+          "Yifan Xiong",
+          "Ziyue Yang",
+          "Bolin Ni",
+          "Jingcheng Hu"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2310.18313",
+        "arxivId": "2310.18313"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qi2023zero",
+      "rawKey": "qi2023zero",
+      "display": "[70]",
+      "raw": "P. Qi, X. Wan, G. Huang, and M. Lin. Zero bubble pipeline parallelism. arXiv preprint arXiv:2401.10241, 2023a.",
+      "metadata": {
+        "title": "Zero Bubble Pipeline Parallelism",
+        "authors": [
+          "Penghui Qi",
+          "Xinyi Wan",
+          "Guangxing Huang",
+          "Min Lin"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2401.10241",
+        "arxivId": "2401.10241"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zerobubble",
+      "rawKey": "zerobubble",
+      "display": "[71]",
+      "raw": "P. Qi, X. Wan, G. Huang, and M. Lin. Zero bubble pipeline parallelism, 2023b. URL https://arxiv.org/abs/2401.10241.",
+      "metadata": {
+        "title": "Zero Bubble Pipeline Parallelism",
+        "authors": [
+          "Penghui Qi",
+          "Xinyi Wan",
+          "Guangxing Huang",
+          "Min Lin"
+        ],
+        "year": 2023,
+        "arxivId": "2401.10241",
+        "url": "https://arxiv.org/abs/2401.10241"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qwen",
+      "rawKey": "qwen",
+      "display": "[72]",
+      "raw": "Qwen. Qwen technical report. arXiv preprint arXiv:2309.16609, 2023.",
+      "metadata": {
+        "title": "Qwen Technical Report",
+        "authors": [
+          "Qwen"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2309.16609",
+        "arxivId": "2309.16609"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qwen1_5",
+      "rawKey": "qwen1_5",
+      "display": "[73]",
+      "raw": "Qwen. Introducing Qwen1.5, 2024a. URL https://qwenlm.github.io/blog/qwen1.5.",
+      "metadata": {
+        "title": "Introducing Qwen1.5",
+        "authors": [
+          "Qwen"
+        ],
+        "year": 2024,
+        "url": "https://qwenlm.github.io/blog/qwen1.5"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qwen2_5",
+      "rawKey": "qwen2_5",
+      "display": "[74]",
+      "raw": "Qwen. Qwen2.5: A party of foundation models, 2024b. URL https://qwenlm.github.io/blog/qwen2.5.",
+      "metadata": {
+        "title": "Qwen2.5: A Party of Foundation Models",
+        "authors": [
+          "Qwen"
+        ],
+        "year": 2024,
+        "url": "https://qwenlm.github.io/blog/qwen2.5"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zero",
+      "rawKey": "zero",
+      "display": "[75]",
+      "raw": "S. Rajbhandari, J. Rasley, O. Ruwase, and Y. He. Zero: Memory optimizations toward training trillion parameter models. In SC20: International Conference for High Performance Computing, Networking, Storage and Analysis, pages 1--16. IEEE, 2020.",
+      "metadata": {
+        "title": "Zero: Memory optimizations toward training trillion parameter models",
+        "authors": [
+          "Samyam Rajbhandari",
+          "Jeff Rasley",
+          "Olatunji Ruwase",
+          "Yuxiong He"
+        ],
+        "year": 2020,
+        "venue": "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpqa",
+      "rawKey": "gpqa",
+      "display": "[76]",
+      "raw": "D. Rein, B. L. Hou, A. C. Stickland, J. Petty, R. Y. Pang, J. Dirani, J. Michael, and S. R. Bowman. GPQA: A graduate-level google-proof q&a benchmark. arXiv preprint arXiv:2311.12022, 2023.",
+      "metadata": {
+        "title": "GPQA: A graduate-level google-proof q&a benchmark",
+        "authors": [
+          "David Rein",
+          "Betty Li Hou",
+          "Asa Cooper Stickland",
+          "Jackson Petty",
+          "Richard Yuanzhe Pang",
+          "Julien Dirani",
+          "Julian Michael",
+          "Samuel R Bowman"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2311.12022",
+        "arxivId": "2311.12022"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-microscaling",
+      "rawKey": "microscaling",
+      "display": "[77]",
+      "raw": "B. D. Rouhani, R. Zhao, A. More, M. Hall, A. Khodamoradi, S. Deng, D. Choudhary, M. Cornea, E. Dellinger, K. Denolf, et al. Microscaling data formats for deep learning. arXiv preprint arXiv:2310.10537, 2023a.",
+      "metadata": {
+        "title": "Microscaling data formats for deep learning",
+        "authors": [
+          "Bita Darvish Rouhani",
+          "Ritchie Zhao",
+          "Ankit More",
+          "Mathew Hall",
+          "Alireza Khodamoradi",
+          "Summer Deng",
+          "Dhruv Choudhary",
+          "Marius Cornea",
+          "Eric Dellinger",
+          "Kristof Denolf"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2310.10537",
+        "arxivId": "2310.10537"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rouhani2023microscaling",
+      "rawKey": "rouhani2023microscaling",
+      "display": "[78]",
+      "raw": "B. D. Rouhani, R. Zhao, A. More, M. Hall, A. Khodamoradi, S. Deng, D. Choudhary, M. Cornea, E. Dellinger, K. Denolf, et al. Microscaling data formats for deep learning. arXiv preprint arXiv:2310.10537, 2023b.",
+      "metadata": {
+        "title": "Microscaling data formats for deep learning",
+        "authors": [
+          "Bita Darvish Rouhani",
+          "Ritchie Zhao",
+          "Ankit More",
+          "Mathew Hall",
+          "Alireza Khodamoradi",
+          "Summer Deng",
+          "Dhruv Choudhary",
+          "Marius Cornea",
+          "Eric Dellinger",
+          "Kristof Denolf"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2310.10537",
+        "arxivId": "2310.10537"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sakaguchi2019winogrande",
+      "rawKey": "sakaguchi2019winogrande",
+      "display": "[79]",
+      "raw": "K. Sakaguchi, R. L. Bras, C. Bhagavatula, and Y. Choi. Winogrande: An adversarial winograd schema challenge at scale, 2019.",
+      "metadata": {
+        "title": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale",
+        "authors": [
+          "Keisuke Sakaguchi",
+          "Ronan Le Bras",
+          "Chandra Bhagavatula",
+          "Yejin Choi"
+        ],
+        "year": 2019,
+        "arxivId": "1907.10641"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-deepseekmath",
+      "rawKey": "deepseekmath",
+      "display": "[80]",
+      "raw": "Z. Shao, P. Wang, Q. Zhu, R. Xu, J. Song, M. Zhang, Y. Li, Y. Wu, and D. Guo. Deepseekmath: Pushing the limits of mathematical reasoning in open language models. arXiv preprint arXiv:2402.03300, 2024.",
+      "metadata": {
+        "title": "Deepseekmath: Pushing the limits of mathematical reasoning in open language models",
+        "authors": [
+          "Zhihong Shao",
+          "Peiyi Wang",
+          "Qihao Zhu",
+          "Runxin Xu",
+          "Junxiao Song",
+          "Mingchuan Zhang",
+          "YK Li",
+          "Y Wu",
+          "Daya Guo"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2402.03300",
+        "arxivId": "2402.03300"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-moe",
+      "rawKey": "moe",
+      "display": "[81]",
+      "raw": "N. Shazeer, A. Mirhoseini, K. Maziarz, A. Davis, Q. V. Le, G. E. Hinton, and J. Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. In 5th International Conference on Learning Representations, ICLR 2017. OpenReview.net, 2017. URL https://openreview.net/forum?id=B1ckMDqlg.",
+      "metadata": {
+        "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+        "authors": [
+          "Noam Shazeer",
+          "Azalia Mirhoseini",
+          "Krzysztof Maziarz",
+          "Andy Davis",
+          "Quoc V. Le",
+          "Geoffrey E. Hinton",
+          "Jeff Dean"
+        ],
+        "year": 2017,
+        "venue": "5th International Conference on Learning Representations, ICLR 2017",
+        "url": "https://openreview.net/forum?id=B1ckMDqlg"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mgsm",
+      "rawKey": "mgsm",
+      "display": "[82]",
+      "raw": "F. Shi, M. Suzgun, M. Freitag, X. Wang, S. Srivats, S. Vosoughi, H. W. Chung, Y. Tay, S. Ruder, D. Zhou, D. Das, and J. Wei. Language models are multilingual chain-of-thought reasoners. In The Eleventh International Conference on Learning Representations, ICLR 2023, Kigali, Rwanda, May 1-5, 2023. OpenReview.net, 2023. URL https://openreview.net/forum?id=fR3wGCk-IXp.",
+      "metadata": {
+        "title": "Language models are multilingual chain-of-thought reasoners",
+        "authors": [
+          "Freda Shi",
+          "Mirac Suzgun",
+          "Markus Freitag",
+          "Xuezhi Wang",
+          "Suraj Srivats",
+          "Soroush Vosoughi",
+          "Hyung Won Chung",
+          "Yi Tay",
+          "Sebastian Ruder",
+          "Denny Zhou",
+          "Dipanjan Das",
+          "Jason Wei"
+        ],
+        "year": 2023,
+        "venue": "The Eleventh International Conference on Learning Representations, ICLR 2023, Kigali, Rwanda, May 1-5, 2023",
+        "url": "https://openreview.net/forum?id=fR3wGCk-IXp"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shibata1999byte",
+      "rawKey": "shibata1999byte",
+      "display": "[83]",
+      "raw": "Y. Shibata, T. Kida, S. Fukamachi, M. Takeda, A. Shinohara, T. Shinohara, and S. Arikawa. Byte pair encoding: A text compression scheme that accelerates pattern matching. 1999.",
+      "metadata": {
+        "title": "Byte pair encoding: A text compression scheme that accelerates pattern matching",
+        "authors": [
+          "Yusuxke Shibata",
+          "Takuya Kida",
+          "Shuichi Fukamachi",
+          "Masayuki Takeda",
+          "Ayumi Shinohara",
+          "Takeshi Shinohara",
+          "Setsuo Arikawa"
+        ],
+        "year": 1999
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-su2024roformer",
+      "rawKey": "su2024roformer",
+      "display": "[84]",
+      "raw": "J. Su, M. Ahmed, Y. Lu, S. Pan, W. Bo, and Y. Liu. Roformer: Enhanced transformer with rotary position embedding. Neurocomputing, 568: 127063, 2024.",
+      "metadata": {
+        "title": "Roformer: Enhanced transformer with rotary position embedding",
+        "authors": [
+          "Jianlin Su",
+          "Murtadha Ahmed",
+          "Yu Lu",
+          "Shengfeng Pan",
+          "Wen Bo",
+          "Yunfeng Liu"
+        ],
+        "year": 2024,
+        "venue": "Neurocomputing"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sun2019investigating",
+      "rawKey": "sun2019investigating",
+      "display": "[85]",
+      "raw": "K. Sun, D. Yu, D. Yu, and C. Cardie. Investigating prior knowledge for challenging chinese machine reading comprehension, 2019a.",
+      "metadata": {
+        "title": "Investigating Prior Knowledge for Challenging Chinese Machine Reading Comprehension",
+        "authors": [
+          "Kai Sun",
+          "Dian Yu",
+          "Dong Yu",
+          "Claire Cardie"
+        ],
+        "year": 2019,
+        "arxivId": "1904.09679"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-massiveoutlier",
+      "rawKey": "massiveoutlier",
+      "display": "[86]",
+      "raw": "M. Sun, X. Chen, J. Z. Kolter, and Z. Liu. Massive activations in large language models. arXiv preprint arXiv:2402.17762, 2024.",
+      "metadata": {
+        "title": "Massive activations in large language models",
+        "authors": [
+          "Mingjie Sun",
+          "Xinlei Chen",
+          "J Zico Kolter",
+          "Zhuang Liu"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2402.17762",
+        "arxivId": "2402.17762"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hfp8",
+      "rawKey": "hfp8",
+      "display": "[87]",
+      "raw": "X. Sun, J. Choi, C.-Y. Chen, N. Wang, S. Venkataramani, V. V. Srinivasan, X. Cui, W. Zhang, and K. Gopalakrishnan. Hybrid 8-bit floating point (HFP8) training and inference for deep neural networks. Advances in neural information processing systems, 32, 2019b.",
+      "metadata": {
+        "title": "Hybrid 8-bit floating point (HFP8) training and inference for deep neural networks",
+        "authors": [
+          "Xiao Sun",
+          "Jungwook Choi",
+          "Chia-Yu Chen",
+          "Naigang Wang",
+          "Swagath Venkataramani",
+          "Vijayalakshmi Viji Srinivasan",
+          "Xiaodong Cui",
+          "Wei Zhang",
+          "Kailash Gopalakrishnan"
+        ],
+        "year": 2019,
+        "venue": "Advances in neural information processing systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bbh",
+      "rawKey": "bbh",
+      "display": "[88]",
+      "raw": "M. Suzgun, N. Scales, N. Scharli, S. Gehrmann, Y. Tay, H. W. Chung, A. Chowdhery, Q. V. Le, E. H. Chi, D. Zhou, et al. Challenging big-bench tasks and whether chain-of-thought can solve them. arXiv preprint arXiv:2210.09261, 2022.",
+      "metadata": {
+        "title": "Challenging big-bench tasks and whether chain-of-thought can solve them",
+        "authors": [
+          "Mirac Suzgun",
+          "Nathan Scales",
+          "Nathanael Scharli",
+          "Sebastian Gehrmann",
+          "Yi Tay",
+          "Hyung Won Chung",
+          "Aakanksha Chowdhery",
+          "Quoc V Le",
+          "Ed H Chi",
+          "Denny Zhou"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2210.09261",
+        "arxivId": "2210.09261"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Thakkar_CUTLASS_2023",
+      "rawKey": "Thakkar_CUTLASS_2023",
+      "display": "[89]",
+      "raw": "V. Thakkar, P. Ramani, C. Cecka, A. Shivam, H. Lu, E. Yan, J. Kosaian, M. Hoemmen, H. Wu, A. Kerr, M. Nicely, D. Merrill, D. Blasig, F. Qiao, P. Majcher, P. Springer, M. Hohnerbach, J. Wang, and M. Gupta. CUTLASS, Jan. 2023. URL https://github.com/NVIDIA/cutlass.",
+      "metadata": {
+        "title": "CUTLASS",
+        "authors": [
+          "Vijay Thakkar",
+          "Pradeep Ramani",
+          "Cris Cecka",
+          "Aniket Shivam",
+          "Honghao Lu",
+          "Ethan Yan",
+          "Jack Kosaian",
+          "Mark Hoemmen",
+          "Haicheng Wu",
+          "Andrew Kerr",
+          "Matt Nicely",
+          "Duane Merrill",
+          "Dustyn Blasig",
+          "Fengqi Qiao",
+          "Piotr Majcher",
+          "Paul Springer",
+          "Markus Hohnerbach",
+          "Jin Wang",
+          "Manish Gupta"
+        ],
+        "year": 2023,
+        "url": "https://github.com/NVIDIA/cutlass"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-llama",
+      "rawKey": "llama",
+      "display": "[90]",
+      "raw": "H. Touvron, T. Lavril, G. Izacard, X. Martinet, M.-A. Lachaux, T. Lacroix, B. Roziere, N. Goyal, E. Hambro, F. Azhar, et al. LLaMA: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971, 2023a.",
+      "metadata": {
+        "title": "LLaMA: Open and efficient foundation language models",
+        "authors": [
+          "Hugo Touvron",
+          "Thibaut Lavril",
+          "Gautier Izacard",
+          "Xavier Martinet",
+          "Marie-Anne Lachaux",
+          "Timothee Lacroix",
+          "Baptiste Roziere",
+          "Naman Goyal",
+          "Eric Hambro",
+          "Faisal Azhar"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2302.13971",
+        "arxivId": "2302.13971"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-llama2",
+      "rawKey": "llama2",
+      "display": "[91]",
+      "raw": "H. Touvron, L. Martin, K. Stone, P. Albert, A. Almahairi, Y. Babaei, N. Bashlykov, S. Batra, P. Bhargava, S. Bhosale, D. Bikel, L. Blecher, C. Canton-Ferrer, M. Chen, G. Cucurull, D. Esiobu, J. Fernandes, J. Fu, W. Fu, B. Fuller, C. Gao, V. Goswami, N. Goyal, A. Hartshorn, S. Hosseini, R. Hou, H. Inan, M. Kardas, V. Kerkez, M. Khabsa, I. Kloumann, A. Korenev, P. S. Koura, M. Lachaux, T. Lavril, J. Lee, D. Liskovich, Y. Lu, Y. Mao, X. Martinet, T. Mihaylov, P. Mishra, I. Molybog, Y. Nie, A. Poulton, J. Reizenstein, R. Rungta, K. Saladi, A. Schelten, R. Silva, E. M. Smith, R. Subramanian, X. E. Tan, B. Tang, R. Taylor, A. Williams, J. X. Kuan, P. Xu, Z. Yan, I. Zarov, Y. Zhang, A. Fan, M. Kambadur, S. Narang, A. Rodriguez, R. Stojnic, S. Edunov, and T. Scialom. Llama 2: Open foundation and fine-tuned chat models. CoRR, abs/2307.09288, 2023b. 10.48550/arXiv.2307.09288. URL https://doi.org/10.48550/arXiv.2307.09288.",
+      "metadata": {
+        "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+        "authors": [
+          "Hugo Touvron",
+          "Louis Martin",
+          "Kevin Stone",
+          "Peter Albert",
+          "Amjad Almahairi",
+          "Yasmine Babaei",
+          "Nikolay Bashlykov",
+          "Soumya Batra",
+          "Prajjwal Bhargava",
+          "Shruti Bhosale",
+          "Dan Bikel",
+          "Lukas Blecher",
+          "Cristian Canton-Ferrer",
+          "Moya Chen",
+          "Guillem Cucurull",
+          "David Esiobu",
+          "Jude Fernandes",
+          "Jeremy Fu",
+          "Wenyin Fu",
+          "Brian Fuller",
+          "Cynthia Gao",
+          "Vedanuj Goswami",
+          "Naman Goyal",
+          "Anthony Hartshorn",
+          "Saghar Hosseini",
+          "Rui Hou",
+          "Hakan Inan",
+          "Marcin Kardas",
+          "Viktor Kerkez",
+          "Madian Khabsa",
+          "Isabel Kloumann",
+          "Artem Korenev",
+          "Punit Singh Koura",
+          "Marie-Anne Lachaux",
+          "Thibaut Lavril",
+          "Jenya Lee",
+          "Diana Liskovich",
+          "Yinghai Lu",
+          "Yuning Mao",
+          "Xavier Martinet",
+          "Todor Mihaylov",
+          "Pushkar Mishra",
+          "Igor Molybog",
+          "Yixin Nie",
+          "Andrew Poulton",
+          "Jeremy Reizenstein",
+          "Rashi Rungta",
+          "Kalyan Saladi",
+          "Alan Schelten",
+          "Ruan Silva",
+          "Eric Michael Smith",
+          "Ranjan Subramanian",
+          "Xiaoqing Ellen Tan",
+          "Binh Tang",
+          "Ross Taylor",
+          "Adina Williams",
+          "Jian Xiang Kuan",
+          "Puxin Xu",
+          "Zheng Yan",
+          "Iliyan Zarov",
+          "Yuchen Zhang",
+          "Angela Fan",
+          "Melanie Kambadur",
+          "Sharan Narang",
+          "Aurelien Rodriguez",
+          "Robert Stojnic",
+          "Sergey Edunov",
+          "Thomas Scialom"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2307.09288",
+        "arxivId": "2307.09288",
+        "url": "https://doi.org/10.48550/arXiv.2307.09288"
+      },
+      "localMatch": {
+        "paperPath": "papers/2307.09288",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-transformer",
+      "rawKey": "transformer",
+      "display": "[92]",
+      "raw": "A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, . Kaiser, and I. Polosukhin. Attention is all you need. Advances in neural information processing systems, 30, 2017.",
+      "metadata": {
+        "title": "Attention is all you need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "Niki Parmar",
+          "Jakob Uszkoreit",
+          "Llion Jones",
+          "Aidan N Gomez",
+          "ukasz Kaiser",
+          "Illia Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Advances in neural information processing systems"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-noaux_tc",
+      "rawKey": "noaux_tc",
+      "display": "[93]",
+      "raw": "L. Wang, H. Gao, C. Zhao, X. Sun, and D. Dai. Auxiliary-loss-free load balancing strategy for mixture-of-experts. CoRR, abs/2408.15664, 2024a. URL https://doi.org/10.48550/arXiv.2408.15664.",
+      "metadata": {
+        "title": "Auxiliary-Loss-Free Load Balancing Strategy for Mixture-of-Experts",
+        "authors": [
+          "Lean Wang",
+          "Huazuo Gao",
+          "Chenggang Zhao",
+          "Xu Sun",
+          "Damai Dai"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2408.15664",
+        "url": "https://doi.org/10.48550/arXiv.2408.15664"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mmlu_pro",
+      "rawKey": "mmlu_pro",
+      "display": "[94]",
+      "raw": "Y. Wang, X. Ma, G. Zhang, Y. Ni, A. Chandra, S. Guo, W. Ren, A. Arulraj, X. He, Z. Jiang, T. Li, M. Ku, K. Wang, A. Zhuang, R. Fan, X. Yue, and W. Chen. Mmlu-pro: A more robust and challenging multi-task language understanding benchmark. CoRR, abs/2406.01574, 2024b. URL https://doi.org/10.48550/arXiv.2406.01574.",
+      "metadata": {
+        "title": "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark",
+        "authors": [
+          "Yubo Wang",
+          "Xueguang Ma",
+          "Ge Zhang",
+          "Yuansheng Ni",
+          "Abhranil Chandra",
+          "Shiguang Guo",
+          "Weiming Ren",
+          "Aaran Arulraj",
+          "Xuan He",
+          "Ziyan Jiang",
+          "Tianle Li",
+          "Max Ku",
+          "Kai Wang",
+          "Alex Zhuang",
+          "Rongqi Fan",
+          "Xiang Yue",
+          "Wenhu Chen"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2406.01574",
+        "url": "https://doi.org/10.48550/arXiv.2406.01574"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wei2023cmath",
+      "rawKey": "wei2023cmath",
+      "display": "[95]",
+      "raw": "T. Wei, J. Luan, W. Liu, S. Dong, and B. Wang. Cmath: Can your language model pass chinese elementary school math test?, 2023.",
+      "metadata": {
+        "title": "CMATH: Can Your Language Model Pass Chinese Elementary School Math Test?",
+        "authors": [
+          "Tianwen Wei",
+          "Jian Luan",
+          "Wei Liu",
+          "Shuang Dong",
+          "Bin Wang"
+        ],
+        "year": 2023,
+        "arxivId": "2306.16636"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-switchback",
+      "rawKey": "switchback",
+      "display": "[96]",
+      "raw": "M. Wortsman, T. Dettmers, L. Zettlemoyer, A. Morcos, A. Farhadi, and L. Schmidt. Stable and low-precision training for large-scale vision-language models. Advances in Neural Information Processing Systems, 36: 10271--10298, 2023.",
+      "metadata": {
+        "title": "Stable and low-precision training for large-scale vision-language models",
+        "authors": [
+          "Mitchell Wortsman",
+          "Tim Dettmers",
+          "Luke Zettlemoyer",
+          "Ari Morcos",
+          "Ali Farhadi",
+          "Ludwig Schmidt"
+        ],
+        "year": 2023,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-int4train",
+      "rawKey": "int4train",
+      "display": "[97]",
+      "raw": "H. Xi, C. Li, J. Chen, and J. Zhu. Training transformers with 4-bit integers. Advances in Neural Information Processing Systems, 36: 49146--49168, 2023.",
+      "metadata": {
+        "title": "Training transformers with 4-bit integers",
+        "authors": [
+          "Haocheng Xi",
+          "Changhao Li",
+          "Jianfei Chen",
+          "Jun Zhu"
+        ],
+        "year": 2023,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-agentless",
+      "rawKey": "agentless",
+      "display": "[98]",
+      "raw": "C. S. Xia, Y. Deng, S. Dunn, and L. Zhang. Agentless: Demystifying llm-based software engineering agents. arXiv preprint, 2024.",
+      "metadata": {
+        "title": "Agentless: Demystifying LLM-based Software Engineering Agents",
+        "authors": [
+          "Chunqiu Steven Xia",
+          "Yinlin Deng",
+          "Soren Dunn",
+          "Lingming Zhang"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-speculative_xhm",
+      "rawKey": "speculative_xhm",
+      "display": "[99]",
+      "raw": "H. Xia, T. Ge, P. Wang, S. Chen, F. Wei, and Z. Sui. Speculative decoding: Exploiting speculative execution for accelerating seq2seq generation. In Findings of the Association for Computational Linguistics: EMNLP 2023, Singapore, December 6-10, 2023, pages 3909--3925. Association for Computational Linguistics, 2023. URL https://doi.org/10.18653/v1/2023.findings-emnlp.257.",
+      "metadata": {
+        "title": "Speculative Decoding: Exploiting Speculative Execution for Accelerating Seq2seq Generation",
+        "authors": [
+          "Heming Xia",
+          "Tao Ge",
+          "Peiyi Wang",
+          "Si-Qing Chen",
+          "Furu Wei",
+          "Zhifang Sui"
+        ],
+        "year": 2023,
+        "venue": "Findings of the Association for Computational Linguistics: EMNLP 2023, Singapore, December 6-10, 2023",
+        "doi": "10.18653/v1/2023.findings-emnlp.257",
+        "url": "https://doi.org/10.18653/v1/2023.findings-emnlp.257"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xiao2023smoothquant",
+      "rawKey": "xiao2023smoothquant",
+      "display": "[100]",
+      "raw": "G. Xiao, J. Lin, M. Seznec, H. Wu, J. Demouth, and S. Han. Smoothquant: Accurate and efficient post-training quantization for large language models. In International Conference on Machine Learning, pages 38087--38099. PMLR, 2023.",
+      "metadata": {
+        "title": "Smoothquant: Accurate and efficient post-training quantization for large language models",
+        "authors": [
+          "Guangxuan Xiao",
+          "Ji Lin",
+          "Mickael Seznec",
+          "Hao Wu",
+          "Julien Demouth",
+          "Song Han"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Machine Learning"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-clue",
+      "rawKey": "clue",
+      "display": "[101]",
+      "raw": "L. Xu, H. Hu, X. Zhang, L. Li, C. Cao, Y. Li, Y. Xu, K. Sun, D. Yu, C. Yu, Y. Tian, Q. Dong, W. Liu, B. Shi, Y. Cui, J. Li, J. Zeng, R. Wang, W. Xie, Y. Li, Y. Patterson, Z. Tian, Y. Zhang, H. Zhou, S. Liu, Z. Zhao, Q. Zhao, C. Yue, X. Zhang, Z. Yang, K. Richardson, and Z. Lan. CLUE: A chinese language understanding evaluation benchmark. In D. Scott, N. Bel, and C. Zong, editors, Proceedings of the 28th International Conference on Computational Linguistics, COLING 2020, Barcelona, Spain (Online), December 8-13, 2020, pages 4762--4772. International Committee on Computational Linguistics, 2020. 10.18653/V1/2020.COLING-MAIN.419. URL https://doi.org/10.18653/v1/2020.coling-main.419.",
+      "metadata": {
+        "title": "CLUE: A Chinese Language Understanding Evaluation Benchmark",
+        "authors": [
+          "Liang Xu",
+          "Hai Hu",
+          "Xuanwei Zhang",
+          "Lu Li",
+          "Chenjie Cao",
+          "Yudong Li",
+          "Yechen Xu",
+          "Kai Sun",
+          "Dian Yu",
+          "Cong Yu",
+          "Yin Tian",
+          "Qianqian Dong",
+          "Weitang Liu",
+          "Bo Shi",
+          "Yiming Cui",
+          "Junyi Li",
+          "Jun Zeng",
+          "Rongzhao Wang",
+          "Weijian Xie",
+          "Yanting Li",
+          "Yina Patterson",
+          "Zuoyu Tian",
+          "Yiwen Zhang",
+          "He Zhou",
+          "Shaoweihua Liu",
+          "Zhe Zhao",
+          "Qipeng Zhao",
+          "Cong Yue",
+          "Xinrui Zhang",
+          "Zhengliang Yang",
+          "Kyle Richardson",
+          "Zhenzhong Lan"
+        ],
+        "year": 2020,
+        "venue": "Proceedings of the 28th International Conference on Computational Linguistics, COLING 2020, Barcelona, Spain (Online), December 8-13, 2020",
+        "doi": "10.18653/v1/2020.coling-main.419",
+        "url": "https://doi.org/10.18653/v1/2020.coling-main.419"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hellaswag",
+      "rawKey": "hellaswag",
+      "display": "[102]",
+      "raw": "R. Zellers, A. Holtzman, Y. Bisk, A. Farhadi, and Y. Choi. HellaSwag: Can a machine really finish your sentence? In A. Korhonen, D. R. Traum, and L. Marquez, editors, Proceedings of the 57th Conference of the Association for Computational Linguistics, ACL 2019, Florence, Italy, July 28- August 2, 2019, Volume 1: Long Papers, pages 4791--4800. Association for Computational Linguistics, 2019. 10.18653/v1/p19-1472. URL https://doi.org/10.18653/v1/p19-1472.",
+      "metadata": {
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "authors": [
+          "Rowan Zellers",
+          "Ari Holtzman",
+          "Yonatan Bisk",
+          "Ali Farhadi",
+          "Yejin Choi"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 57th Conference of the Association for Computational Linguistics, ACL 2019, Florence, Italy, July 28- August 2, 2019, Volume 1: Long Papers",
+        "doi": "10.18653/v1/p19-1472",
+        "url": "https://doi.org/10.18653/v1/p19-1472"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-agieval",
+      "rawKey": "agieval",
+      "display": "[103]",
+      "raw": "W. Zhong, R. Cui, Y. Guo, Y. Liang, S. Lu, Y. Wang, A. Saied, W. Chen, and N. Duan. AGIEval: A human-centric benchmark for evaluating foundation models. CoRR, abs/2304.06364, 2023. 10.48550/arXiv.2304.06364. URL https://doi.org/10.48550/arXiv.2304.06364.",
+      "metadata": {
+        "title": "AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models",
+        "authors": [
+          "Wanjun Zhong",
+          "Ruixiang Cui",
+          "Yiduo Guo",
+          "Yaobo Liang",
+          "Shuai Lu",
+          "Yanlin Wang",
+          "Amin Saied",
+          "Weizhu Chen",
+          "Nan Duan"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2304.06364",
+        "arxivId": "2304.06364",
+        "url": "https://doi.org/10.48550/arXiv.2304.06364"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-IFeval",
+      "rawKey": "IFeval",
+      "display": "[104]",
+      "raw": "J. Zhou, T. Lu, S. Mishra, S. Brahma, S. Basu, Y. Luan, D. Zhou, and L. Hou. Instruction-following evaluation for large language models. arXiv preprint arXiv:2311.07911, 2023.",
+      "metadata": {
+        "title": "Instruction-Following Evaluation for Large Language Models",
+        "authors": [
+          "Jeffrey Zhou",
+          "Tianjian Lu",
+          "Swaroop Mishra",
+          "Siddhartha Brahma",
+          "Sujoy Basu",
+          "Yi Luan",
+          "Denny Zhou",
+          "Le Hou"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2311.07911",
+        "arxivId": "2311.07911"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 104 entries (bbl)",
+    "semantic scholar: no references"
+  ]
+}

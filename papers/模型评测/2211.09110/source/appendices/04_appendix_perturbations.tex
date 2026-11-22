@@ -1,0 +1,48 @@
+\section{Perturbations}
+\label{app:perturbations}
+\subsection{Robustness}
+\label{app:perturbations-robustness}
+
+\paragraph{Lowercase.} We transform all the text of an instance into lowercase.
+
+\paragraph{Contractions/Expansions.}
+These two perturbations are based on the \texttt{Contractions and Expansions} perturbation from NL-Augmenter~\citep{dhole2021nl}. These are commonly used forms such as ``I'm / I am'' or ``She is / She's''. In contraction, we replace all occurrences of the pre-defined list of each expansion with their contracted versions. Similarly, Expansion perturbation replaces all occurrences of all contractions with their expanded versions.
+
+\subsubsection{Individual perturbations}
+Our focus is on perturbations that are relatively natural in the context of users interacting with text interfaces.
+First, we describe the individual perturbations that we consider, and in the next section we describe how we use them as building blocks to compose other perturbations.
+
+\paragraph{Misspellings.}
+The misspelling perturbation is inspired by the \texttt{Correct Common Misspellings} perturbation from NL-Augmenter~\citep{dhole2021nl}. The common misspellings are based on Wikipedia's List of Common Misspellings, which maps misspellings to correct words. We invert this mapping to produce a dictionary that maps a correctly spelled word to its common misspellings. We implement this perturbation by iterating through each word in the input, searching for whether we have common misspellings for that word, then with some probability (independently for each word), replace that word with a random common misspelling. Plural forms of words are handled by augmenting the dictionary of common misspellings to include plural forms.
+
+\paragraph{Extra spaces.} We replace each sequence of space (`` '') characters with another sequence of space characters of random length (typically this just adds extra space between words and sentences).
+
+\subsubsection{Composing perturbations}
+Given the basic perturbations described above, we compose them to create a composite perturbation. This allows us to evaluate model robustness in a scalable manner, as opposed to evaluating models on each individual perturbation for each instance. Concretely, our overall perturbation recipe for the core experiments is the following:
+\begin{itemize}
+    \item Transform the instance into lowercase (e.g., ``Hello'' $\to$ ``hello'')
+    \item Apply the contraction perturbation (e.g., ``it is'' $\to$ ``it's'')
+    \item Attempt to misspell each word with probability $0.1$ (e.g., ``the''$\to$``teh'') (note that we don't have misspellings for all possible words, so the actual probability will be lower in practice)
+    \item Replace each space with 1 to 3 space characters randomly (e.g., ``hi \textvisiblespace\ there''$\to$``hi \textvisiblespace\ \textvisiblespace\  \textvisiblespace\ there'')
+\end{itemize}
+
+\subsection{Fairness}
+\label{app:perturbations-fairness}
+
+We perturb evaluation instances using the following perturbation methods.
+Additionally, we perturb the reference the model's completion is compared against with the same method (\eg if we change \textit{he} to \textit{she} in the question, we will match this change in the answer).
+For all perturbations, we apply them deterministically whenever possible.
+While we believe this is suboptimal for actually matching a specific target distribution (\eg we do not believe the lexical substitutions we make are a strong simulation of AAE speech, even beyond the absence of other forms of linguistic variation between AAE and SAE), our general belief is this should overestimate any performance disparities, which help to highlight fairness concerns (rather than underestimating these effects). 
+With that said, we encourage future work to explore more sophisticated perturbation methods that may better capture important desired structure (\eg properly model coreference in the swapping of gender pronouns, or reflect other linguistic properties of AAE speech \citep{ziems2022value}). 
+
+\begin{enumerate}
+  \item Dialect Perturbation: We currently support conversions between Standard American English (SAE) and African American English (AAE) using the mapping between lexical terms provided by \citet{ziems2022value}.
+  \item Gender Pronoun Perturbation: We support conversions between the gender neutral and gendered pronouns from \citet{lauscher2022pronouns}.
+  \item Gender Term Perturbation: We convert gender terms of a source gender (e.g. ``Grandfather'') to their counterparts in a target gender (e.g. ``Grandmother''). 
+  We build our mapping by improving the union of the mappings from \citet{garg2018stereotypes} and \citet{bolukbasi2016man}.
+  \item First Name Perturbation: We convert first names in a source race or gender to those in the target race or gender, using the names from \citet{caliskan2017semantics}, which derives its list form \citet{greenwald1998measuring}.
+  The associations between demographic category and name are derived from US Census statistics; we note that these statistical relationships may also not be invariant across time (and hence may be less valid when considering text from different periods of time).
+  That is, the statistics used reify a particular set of associations that are likely to change as a function of time due to cultural changes (especially the relationship between self-identified gender/race and names as the categorizations themselves change with time), population changes (\eg immigration),  and political changes (\eg the Chinese Exclusion Act).
+  \item Last Name Perturbation: We convert last names in a source race to those in the target race, using the last names from \citet{garg2018stereotypes}, which derives its list form \citet{chalabi2017dear}.
+  See the above discussion of the relationship between names and demographic information; we also note that the frequent instance of name change through marriage is poorly addressed in the case of last names (\ie an implicit codification of intra-racial marriage).
+\end{enumerate}

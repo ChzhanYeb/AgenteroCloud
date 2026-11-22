@@ -1,0 +1,2156 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T12:39:52.892Z",
+    "fingerprint": "9fa7f771ffd965dbfa215542db369b9734828b9e788144433cef2aebacca3bb2"
+  },
+  "citations": [
+    {
+      "id": "cite-achiam2023gpt",
+      "rawKey": "achiam2023gpt",
+      "display": "[1]",
+      "raw": "Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et al. Gpt-4 technical report. arXiv preprint arXiv:2303.08774, 2023.",
+      "metadata": {
+        "title": "Gpt-4 technical report",
+        "authors": [
+          "Josh Achiam",
+          "Steven Adler",
+          "Sandhini Agarwal",
+          "Lama Ahmad",
+          "Ilge Akkaya",
+          "Florencia Leoni Aleman",
+          "Diogo Almeida",
+          "Janko Altenschmidt",
+          "Sam Altman",
+          "Shyamal Anadkat"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2303.08774",
+        "arxivId": "2303.08774"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-anthropic2024developing",
+      "rawKey": "anthropic2024developing",
+      "display": "[2]",
+      "raw": "Anthropic. Developing a computer use model, 2024. URL https://www.anthropic.com/news/developing-computer-use. Accessed: 2024-11-17.",
+      "metadata": {
+        "title": "Developing a computer use model",
+        "authors": [
+          "Anthropic"
+        ],
+        "year": 2024,
+        "url": "https://www.anthropic.com/news/developing-computer-use"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-claude35sonnet",
+      "rawKey": "claude35sonnet",
+      "display": "[3]",
+      "raw": "Anthropic. Claude 3.5 sonnet: Enhanced intelligence and versatility, 2024. URL https://www.anthropic.com/news/claude-3-5-sonnet. Accessed: 2024-11-18.",
+      "metadata": {
+        "title": "Claude 3.5 Sonnet: Enhanced Intelligence and Versatility",
+        "authors": [
+          "Anthropic"
+        ],
+        "year": 2024,
+        "url": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bard2020hanabi",
+      "rawKey": "bard2020hanabi",
+      "display": "[4]",
+      "raw": "Nolan Bard, Jakob N Foerster, Sarath Chandar, Neil Burch, Marc Lanctot, H Francis Song, Emilio Parisotto, Vincent Dumoulin, Subhodeep Moitra, Edward Hughes, et al. The hanabi challenge: A new frontier for ai research. Artificial Intelligence, 280: 103216, 2020.",
+      "metadata": {
+        "title": "The hanabi challenge: A new frontier for ai research",
+        "authors": [
+          "Nolan Bard",
+          "Jakob N Foerster",
+          "Sarath Chandar",
+          "Neil Burch",
+          "Marc Lanctot",
+          "H Francis Song",
+          "Emilio Parisotto",
+          "Vincent Dumoulin",
+          "Subhodeep Moitra",
+          "Edward Hughes"
+        ],
+        "year": 2020,
+        "venue": "Artificial Intelligence"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bellemare2013arcade",
+      "rawKey": "bellemare2013arcade",
+      "display": "[5]",
+      "raw": "Marc G Bellemare, Yavar Naddaf, Joel Veness, and Michael Bowling. The arcade learning environment: An evaluation platform for general agents. Journal of Artificial Intelligence Research, 47: 253--279, 2013.",
+      "metadata": {
+        "title": "The arcade learning environment: An evaluation platform for general agents",
+        "authors": [
+          "Marc G Bellemare",
+          "Yavar Naddaf",
+          "Joel Veness",
+          "Michael Bowling"
+        ],
+        "year": 2013,
+        "venue": "Journal of Artificial Intelligence Research"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-brown2020language",
+      "rawKey": "brown2020language",
+      "display": "[6]",
+      "raw": "Tom B Brown. Language models are few-shot learners. arXiv preprint arXiv:2005.14165, 2020.",
+      "metadata": {
+        "title": "Language models are few-shot learners",
+        "authors": [
+          "Tom B Brown"
+        ],
+        "year": 2005,
+        "venue": "arXiv preprint arXiv:2005.14165",
+        "arxivId": "2005.14165"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/2005.14165",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-carroll2019utility",
+      "rawKey": "carroll2019utility",
+      "display": "[7]",
+      "raw": "Micah Carroll, Rohin Shah, Mark K Ho, Tom Griffiths, Sanjit Seshia, Pieter Abbeel, and Anca Dragan. On the utility of learning about humans for human-ai coordination. Advances in neural information processing systems, 32, 2019.",
+      "metadata": {
+        "title": "On the utility of learning about humans for human-ai coordination",
+        "authors": [
+          "Micah Carroll",
+          "Rohin Shah",
+          "Mark K Ho",
+          "Tom Griffiths",
+          "Sanjit Seshia",
+          "Pieter Abbeel",
+          "Anca Dragan"
+        ],
+        "year": 2019,
+        "venue": "Advances in neural information processing systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-carta2023grounding",
+      "rawKey": "carta2023grounding",
+      "display": "[8]",
+      "raw": "Thomas Carta, Clement Romac, Thomas Wolf, Sylvain Lamprier, Olivier Sigaud, and Pierre-Yves Oudeyer. Grounding large language models in interactive environments with online reinforcement learning. In International Conference on Machine Learning, pp. 3676--3713. PMLR, 2023.",
+      "metadata": {
+        "title": "Grounding large language models in interactive environments with online reinforcement learning",
+        "authors": [
+          "Thomas Carta",
+          "Clement Romac",
+          "Thomas Wolf",
+          "Sylvain Lamprier",
+          "Olivier Sigaud",
+          "Pierre-Yves Oudeyer"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Machine Learning"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chang2023prompting",
+      "rawKey": "chang2023prompting",
+      "display": "[9]",
+      "raw": "Edward Y Chang. Prompting large language models with the socratic method. In 2023 IEEE 13th Annual Computing and Communication Workshop and Conference (CCWC), pp. 0351--0360. IEEE, 2023.",
+      "metadata": {
+        "title": "Prompting large language models with the socratic method",
+        "authors": [
+          "Edward Y Chang"
+        ],
+        "year": 2023,
+        "venue": "2023 IEEE 13th Annual Computing and Communication Workshop and Conference (CCWC)"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chen2021evaluating",
+      "rawKey": "chen2021evaluating",
+      "display": "[10]",
+      "raw": "Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde De Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al. Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374, 2021.",
+      "metadata": {
+        "title": "Evaluating large language models trained on code",
+        "authors": [
+          "Mark Chen",
+          "Jerry Tworek",
+          "Heewoo Jun",
+          "Qiming Yuan",
+          "Henrique Ponde De Oliveira Pinto",
+          "Jared Kaplan",
+          "Harri Edwards",
+          "Yuri Burda",
+          "Nicholas Joseph",
+          "Greg Brockman"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2107.03374",
+        "arxivId": "2107.03374"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-babyai_iclr19",
+      "rawKey": "babyai_iclr19",
+      "display": "[11]",
+      "raw": "Maxime Chevalier-Boisvert, Dzmitry Bahdanau, Salem Lahlou, Lucas Willems, Chitwan Saharia, Thien Huu Nguyen, and Yoshua Bengio. BabyAI: First steps towards grounded language learning with a human in the loop. In International Conference on Learning Representations, 2019. URL https://openreview.net/forum?id=rJeXCo0cYX.",
+      "metadata": {
+        "title": "BabyAI: First Steps Towards Grounded Language Learning With a Human In the Loop",
+        "authors": [
+          "Maxime Chevalier-Boisvert",
+          "Dzmitry Bahdanau",
+          "Salem Lahlou",
+          "Lucas Willems",
+          "Chitwan Saharia",
+          "Thien Huu Nguyen",
+          "Yoshua Bengio"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://openreview.net/forum?id=rJeXCo0cYX"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cloos2024baba",
+      "rawKey": "cloos2024baba",
+      "display": "[12]",
+      "raw": "Nathan Cloos, Meagan Jens, Michelangelo Naim, Yen-Ling Kuo, Ignacio Cases, Andrei Barbu, and Christopher J Cueva. Baba is ai: Break the rules to beat the benchmark. In ICML 2024 Workshop on LLMs and Cognition, 2024.",
+      "metadata": {
+        "title": "Baba Is AI: Break the Rules to Beat the Benchmark",
+        "authors": [
+          "Nathan Cloos",
+          "Meagan Jens",
+          "Michelangelo Naim",
+          "Yen-Ling Kuo",
+          "Ignacio Cases",
+          "Andrei Barbu",
+          "Christopher J Cueva"
+        ],
+        "year": 2024,
+        "venue": "ICML 2024 Workshop on LLMs and Cognition"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cobbe2021training",
+      "rawKey": "cobbe2021training",
+      "display": "[13]",
+      "raw": "Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, et al. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021.",
+      "metadata": {
+        "title": "Training verifiers to solve math word problems",
+        "authors": [
+          "Karl Cobbe",
+          "Vineet Kosaraju",
+          "Mohammad Bavarian",
+          "Mark Chen",
+          "Heewoo Jun",
+          "Lukasz Kaiser",
+          "Matthias Plappert",
+          "Jerry Tworek",
+          "Jacob Hilton",
+          "Reiichiro Nakano"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2110.14168",
+        "arxivId": "2110.14168"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cote2019textworld",
+      "rawKey": "cote2019textworld",
+      "display": "[14]",
+      "raw": "Marc-Alexandre Cote, Akos Kadar, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, et al. Textworld: A learning environment for text-based games. In Computer Games: 7th Workshop, CGW 2018, Held in Conjunction with the 27th International Conference on Artificial Intelligence, IJCAI 2018, Stockholm, Sweden, July 13, 2018, Revised Selected Papers 7, pp. 41--75. Springer, 2019.",
+      "metadata": {
+        "title": "Textworld: A learning environment for text-based games",
+        "authors": [
+          "Marc-Alexandre Cote",
+          "Akos Kadar",
+          "Xingdi Yuan",
+          "Ben Kybartas",
+          "Tavian Barnes",
+          "Emery Fine",
+          "James Moore",
+          "Matthew Hausknecht",
+          "Layla El Asri",
+          "Mahmoud Adada"
+        ],
+        "year": 2018,
+        "venue": "Computer Games: 7th Workshop, CGW 2018, Held in Conjunction with the 27th International Conference on Artificial Intelligence, IJCAI 2018, Stockholm, Sweden, July 13, 2018, Revised Selected Papers 7"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dubey2024llama",
+      "rawKey": "dubey2024llama",
+      "display": "[15]",
+      "raw": "Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek Kadian, Ahmad Al-Dahle, Aiesha Letman, Akhil Mathur, Alan Schelten, Amy Yang, Angela Fan, et al. The llama 3 herd of models. arXiv preprint arXiv:2407.21783, 2024.",
+      "metadata": {
+        "title": "The llama 3 herd of models",
+        "authors": [
+          "Abhimanyu Dubey",
+          "Abhinav Jauhri",
+          "Abhinav Pandey",
+          "Abhishek Kadian",
+          "Ahmad Al-Dahle",
+          "Aiesha Letman",
+          "Akhil Mathur",
+          "Alan Schelten",
+          "Amy Yang",
+          "Angela Fan"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2407.21783",
+        "arxivId": "2407.21783"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fan2022minedojo",
+      "rawKey": "fan2022minedojo",
+      "display": "[16]",
+      "raw": "Linxi Fan, Guanzhi Wang, Yunfan Jiang, Ajay Mandlekar, Yuncong Yang, Haoyi Zhu, Andrew Tang, De-An Huang, Yuke Zhu, and Anima Anandkumar. Minedojo: Building open-ended embodied agents with internet-scale knowledge. Advances in Neural Information Processing Systems, 35: 18343--18362, 2022.",
+      "metadata": {
+        "title": "Minedojo: Building open-ended embodied agents with internet-scale knowledge",
+        "authors": [
+          "Linxi Fan",
+          "Guanzhi Wang",
+          "Yunfan Jiang",
+          "Ajay Mandlekar",
+          "Yuncong Yang",
+          "Haoyi Zhu",
+          "Andrew Tang",
+          "De-An Huang",
+          "Yuke Zhu",
+          "Anima Anandkumar"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fernando2023promptbreeder",
+      "rawKey": "fernando2023promptbreeder",
+      "display": "[17]",
+      "raw": "Chrisantha Fernando, Dylan Banarse, Henryk Michalewski, Simon Osindero, and Tim Rocktaschel. Promptbreeder: Self-referential self-improvement via prompt evolution. arXiv preprint arXiv:2309.16797, 2023.",
+      "metadata": {
+        "title": "Promptbreeder: Self-referential self-improvement via prompt evolution",
+        "authors": [
+          "Chrisantha Fernando",
+          "Dylan Banarse",
+          "Henryk Michalewski",
+          "Simon Osindero",
+          "Tim Rocktaschel"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2309.16797",
+        "arxivId": "2309.16797"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gong2023mindagent",
+      "rawKey": "gong2023mindagent",
+      "display": "[18]",
+      "raw": "Ran Gong, Qiuyuan Huang, Xiaojian Ma, Hoi Vo, Zane Durante, Yusuke Noda, Zilong Zheng, Song-Chun Zhu, Demetri Terzopoulos, Li Fei-Fei, et al. Mindagent: Emergent gaming interaction. arXiv preprint arXiv:2309.09971, 2023.",
+      "metadata": {
+        "title": "Mindagent: Emergent gaming interaction",
+        "authors": [
+          "Ran Gong",
+          "Qiuyuan Huang",
+          "Xiaojian Ma",
+          "Hoi Vo",
+          "Zane Durante",
+          "Yusuke Noda",
+          "Zilong Zheng",
+          "Song-Chun Zhu",
+          "Demetri Terzopoulos",
+          "Li Fei-Fei"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2309.09971",
+        "arxivId": "2309.09971"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-goodger2023nethack",
+      "rawKey": "goodger2023nethack",
+      "display": "[19]",
+      "raw": "Nikolaj Goodger, Peter Vamplew, Cameron Foale, and Richard Dazeley. A nethack learning environment language wrapper for autonomous agents. Journal of Open Research Software, 11, 06 2023. 10.5334/jors.444.",
+      "metadata": {
+        "title": "A NetHack Learning Environment Language Wrapper for Autonomous Agents",
+        "authors": [
+          "Nikolaj Goodger",
+          "Peter Vamplew",
+          "Cameron Foale",
+          "Richard Dazeley"
+        ],
+        "year": 2023,
+        "venue": "Journal of Open Research Software",
+        "doi": "10.5334/jors.444"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-guan2023hallusionbench",
+      "rawKey": "guan2023hallusionbench",
+      "display": "[20]",
+      "raw": "Tianrui Guan, Fuxiao Liu, Xiyang Wu, Ruiqi Xian, Zongxia Li, Xiaoyu Liu, Xijun Wang, Lichang Chen, Furong Huang, Yaser Yacoob, et al. Hallusionbench: An advanced diagnostic suite for entangled language hallucination and visual illusion in large vision-language models. arXiv preprint arXiv:2310.14566, 2023.",
+      "metadata": {
+        "title": "HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models",
+        "authors": [
+          "Tianrui Guan",
+          "Fuxiao Liu",
+          "Xiyang Wu",
+          "Ruiqi Xian",
+          "Zongxia Li",
+          "Xiaoyu Liu",
+          "Xijun Wang",
+          "Lichang Chen",
+          "Furong Huang",
+          "Yaser Yacoob"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2310.14566",
+        "arxivId": "2310.14566"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-guss2019minerl",
+      "rawKey": "guss2019minerl",
+      "display": "[21]",
+      "raw": "William H Guss, Brandon Houghton, Nicholay Topin, Phillip Wang, Cayden Codel, Manuela Veloso, and Ruslan Salakhutdinov. Minerl: A large-scale dataset of minecraft demonstrations. arXiv preprint arXiv:1907.13440, 2019.",
+      "metadata": {
+        "title": "Minerl: A large-scale dataset of minecraft demonstrations",
+        "authors": [
+          "William H Guss",
+          "Brandon Houghton",
+          "Nicholay Topin",
+          "Phillip Wang",
+          "Cayden Codel",
+          "Manuela Veloso",
+          "Ruslan Salakhutdinov"
+        ],
+        "year": 1907,
+        "venue": "arXiv preprint arXiv:1907.13440",
+        "arxivId": "1907.13440"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hafner2021benchmarking",
+      "rawKey": "hafner2021benchmarking",
+      "display": "[22]",
+      "raw": "Danijar Hafner. Benchmarking the spectrum of agent capabilities. arXiv preprint arXiv:2109.06780, 2021.",
+      "metadata": {
+        "title": "Benchmarking the spectrum of agent capabilities",
+        "authors": [
+          "Danijar Hafner"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2109.06780",
+        "arxivId": "2109.06780"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hambro2022insights",
+      "rawKey": "hambro2022insights",
+      "display": "[23]",
+      "raw": "Eric Hambro, Sharada Mohanty, Dmitrii Babaev, Minwoo Byeon, Dipam Chakraborty, Edward Grefenstette, Minqi Jiang, Jo Daejin, Anssi Kanervisto, Jongmin Kim, et al. Insights from the neurips 2021 nethack challenge. In NeurIPS 2021 Competitions and Demonstrations Track, pp. 41--52. PMLR, 2022a.",
+      "metadata": {
+        "title": "Insights from the neurips 2021 nethack challenge",
+        "authors": [
+          "Eric Hambro",
+          "Sharada Mohanty",
+          "Dmitrii Babaev",
+          "Minwoo Byeon",
+          "Dipam Chakraborty",
+          "Edward Grefenstette",
+          "Minqi Jiang",
+          "Jo Daejin",
+          "Anssi Kanervisto",
+          "Jongmin Kim"
+        ],
+        "year": 2021,
+        "venue": "NeurIPS 2021 Competitions and Demonstrations Track"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hambro2022dungeons",
+      "rawKey": "hambro2022dungeons",
+      "display": "[24]",
+      "raw": "Eric Hambro, Roberta Raileanu, Danielle Rothermel, Vegard Mella, Tim Rocktaschel, Heinrich Kuttler, and Naila Murray. Dungeons and data: A large-scale nethack dataset. Advances in Neural Information Processing Systems, 35: 24864--24878, 2022b.",
+      "metadata": {
+        "title": "Dungeons and data: A large-scale nethack dataset",
+        "authors": [
+          "Eric Hambro",
+          "Roberta Raileanu",
+          "Danielle Rothermel",
+          "Vegard Mella",
+          "Tim Rocktaschel",
+          "Heinrich Kuttler",
+          "Naila Murray"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hendrycks2020measuring",
+      "rawKey": "hendrycks2020measuring",
+      "display": "[25]",
+      "raw": "Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. Measuring massive multitask language understanding. arXiv preprint arXiv:2009.03300, 2020.",
+      "metadata": {
+        "title": "Measuring massive multitask language understanding",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Steven Basart",
+          "Andy Zou",
+          "Mantas Mazeika",
+          "Dawn Song",
+          "Jacob Steinhardt"
+        ],
+        "year": 2009,
+        "venue": "arXiv preprint arXiv:2009.03300",
+        "arxivId": "2009.03300"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hendrycks2021measuring",
+      "rawKey": "hendrycks2021measuring",
+      "display": "[26]",
+      "raw": "Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, and Jacob Steinhardt. Measuring mathematical problem solving with the math dataset. arXiv preprint arXiv:2103.03874, 2021.",
+      "metadata": {
+        "title": "Measuring mathematical problem solving with the math dataset",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Saurav Kadavath",
+          "Akul Arora",
+          "Steven Basart",
+          "Eric Tang",
+          "Dawn Song",
+          "Jacob Steinhardt"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2103.03874",
+        "arxivId": "2103.03874"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hu2024automated",
+      "rawKey": "hu2024automated",
+      "display": "[27]",
+      "raw": "Shengran Hu, Cong Lu, and Jeff Clune. Automated design of agentic systems. arXiv preprint arXiv:2408.08435, 2024.",
+      "metadata": {
+        "title": "Automated design of agentic systems",
+        "authors": [
+          "Shengran Hu",
+          "Cong Lu",
+          "Jeff Clune"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2408.08435",
+        "arxivId": "2408.08435"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hughes2024open",
+      "rawKey": "hughes2024open",
+      "display": "[28]",
+      "raw": "Edward Hughes, Michael Dennis, Jack Parker-Holder, Feryal Behbahani, Aditi Mavalankar, Yuge Shi, Tom Schaul, and Tim Rocktaschel. Open-endedness is essential for artificial superhuman intelligence. arXiv preprint arXiv:2406.04268, 2024.",
+      "metadata": {
+        "title": "Open-Endedness is Essential for Artificial Superhuman Intelligence",
+        "authors": [
+          "Edward Hughes",
+          "Michael Dennis",
+          "Jack Parker-Holder",
+          "Feryal Behbahani",
+          "Aditi Mavalankar",
+          "Yuge Shi",
+          "Tom Schaul",
+          "Tim Rocktaschel"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2406.04268",
+        "arxivId": "2406.04268"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jeurissen2024playing",
+      "rawKey": "jeurissen2024playing",
+      "display": "[29]",
+      "raw": "Dominik Jeurissen, Diego Perez-Liebana, Jeremy Gow, Duygu Cakmak, and James Kwan. Playing nethack with llms: Potential & limitations as zero-shot agents. arXiv preprint arXiv:2403.00690, 2024.",
+      "metadata": {
+        "title": "Playing NetHack with LLMs: Potential & Limitations as Zero-Shot Agents",
+        "authors": [
+          "Dominik Jeurissen",
+          "Diego Perez-Liebana",
+          "Jeremy Gow",
+          "Duygu Cakmak",
+          "James Kwan"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2403.00690",
+        "arxivId": "2403.00690"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jimenez2023swe",
+      "rawKey": "jimenez2023swe",
+      "display": "[30]",
+      "raw": "Carlos E Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press, and Karthik Narasimhan. Swe-bench: Can language models resolve real-world github issues? arXiv preprint arXiv:2310.06770, 2023.",
+      "metadata": {
+        "title": "Swe-bench: Can language models resolve real-world github issues?",
+        "authors": [
+          "Carlos E Jimenez",
+          "John Yang",
+          "Alexander Wettig",
+          "Shunyu Yao",
+          "Kexin Pei",
+          "Ofir Press",
+          "Karthik Narasimhan"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2310.06770",
+        "arxivId": "2310.06770"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jin2024learning",
+      "rawKey": "jin2024learning",
+      "display": "[31]",
+      "raw": "Xuanfa Jin, Ziyan Wang, Yali Du, Meng Fang, Haifeng Zhang, and Jun Wang. Learning to discuss strategically: A case study on one night ultimate werewolf. arXiv preprint arXiv:2405.19946, 2024.",
+      "metadata": {
+        "title": "Learning to Discuss Strategically: A Case Study on One Night Ultimate Werewolf",
+        "authors": [
+          "Xuanfa Jin",
+          "Ziyan Wang",
+          "Yali Du",
+          "Meng Fang",
+          "Haifeng Zhang",
+          "Jun Wang"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2405.19946",
+        "arxivId": "2405.19946"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kambhampati2024llms",
+      "rawKey": "kambhampati2024llms",
+      "display": "[32]",
+      "raw": "Subbarao Kambhampati, Karthik Valmeekam, Lin Guan, Kaya Stechly, Mudit Verma, Siddhant Bhambri, Lucas Saldyt, and Anil Murthy. Llms can't plan, but can help planning in llm-modulo frameworks. arXiv preprint arXiv:2402.01817, 2024.",
+      "metadata": {
+        "title": "LLMs Can't Plan, But Can Help Planning in LLM-Modulo Frameworks",
+        "authors": [
+          "Subbarao Kambhampati",
+          "Karthik Valmeekam",
+          "Lin Guan",
+          "Kaya Stechly",
+          "Mudit Verma",
+          "Siddhant Bhambri",
+          "Lucas Saldyt",
+          "Anil Murthy"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2402.01817",
+        "arxivId": "2402.01817"
+      },
+      "localMatch": {
+        "paperPath": "papers/Agent规划/2402.01817",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-khan2024debating",
+      "rawKey": "khan2024debating",
+      "display": "[33]",
+      "raw": "Akbir Khan, John Hughes, Dan Valentine, Laura Ruis, Kshitij Sachan, Ansh Radhakrishnan, Edward Grefenstette, Samuel R Bowman, Tim Rocktaschel, and Ethan Perez. Debating with more persuasive llms leads to more truthful answers. arXiv preprint arXiv:2402.06782, 2024.",
+      "metadata": {
+        "title": "Debating with more persuasive llms leads to more truthful answers",
+        "authors": [
+          "Akbir Khan",
+          "John Hughes",
+          "Dan Valentine",
+          "Laura Ruis",
+          "Kshitij Sachan",
+          "Ansh Radhakrishnan",
+          "Edward Grefenstette",
+          "Samuel R Bowman",
+          "Tim Rocktaschel",
+          "Ethan Perez"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2402.06782",
+        "arxivId": "2402.06782"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kiela2021dynabench",
+      "rawKey": "kiela2021dynabench",
+      "display": "[34]",
+      "raw": "Douwe Kiela, Max Bartolo, Yixin Nie, Divyansh Kaushik, Atticus Geiger, Zhengxuan Wu, Bertie Vidgen, Grusha Prasad, Amanpreet Singh, Pratik Ringshia, et al. Dynabench: Rethinking benchmarking in nlp. arXiv preprint arXiv:2104.14337, 2021.",
+      "metadata": {
+        "title": "Dynabench: Rethinking benchmarking in NLP",
+        "authors": [
+          "Douwe Kiela",
+          "Max Bartolo",
+          "Yixin Nie",
+          "Divyansh Kaushik",
+          "Atticus Geiger",
+          "Zhengxuan Wu",
+          "Bertie Vidgen",
+          "Grusha Prasad",
+          "Amanpreet Singh",
+          "Pratik Ringshia"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2104.14337",
+        "arxivId": "2104.14337"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-klissarov2023motif",
+      "rawKey": "klissarov2023motif",
+      "display": "[35]",
+      "raw": "Martin Klissarov, Pierluca D'Oro, Shagun Sodhani, Roberta Raileanu, Pierre-Luc Bacon, Pascal Vincent, Amy Zhang, and Mikael Henaff. Motif: Intrinsic motivation from artificial intelligence feedback. arXiv preprint arXiv:2310.00166, 2023.",
+      "metadata": {
+        "title": "Motif: Intrinsic motivation from artificial intelligence feedback",
+        "authors": [
+          "Martin Klissarov",
+          "Pierluca D'Oro",
+          "Shagun Sodhani",
+          "Roberta Raileanu",
+          "Pierre-Luc Bacon",
+          "Pascal Vincent",
+          "Amy Zhang",
+          "Mikael Henaff"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2310.00166",
+        "arxivId": "2310.00166"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kuttler2020nethack",
+      "rawKey": "kuttler2020nethack",
+      "display": "[36]",
+      "raw": "Heinrich Kuttler, Nantas Nardelli, Alexander Miller, Roberta Raileanu, Marco Selvatici, Edward Grefenstette, and Tim Rocktaschel. The nethack learning environment. Advances in Neural Information Processing Systems, 33: 7671--7684, 2020.",
+      "metadata": {
+        "title": "The nethack learning environment",
+        "authors": [
+          "Heinrich Kuttler",
+          "Nantas Nardelli",
+          "Alexander Miller",
+          "Roberta Raileanu",
+          "Marco Selvatici",
+          "Edward Grefenstette",
+          "Tim Rocktaschel"
+        ],
+        "year": 2020,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kwon2023efficient",
+      "rawKey": "kwon2023efficient",
+      "display": "[37]",
+      "raw": "Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody Hao Yu, Joseph E. Gonzalez, Hao Zhang, and Ion Stoica. Efficient memory management for large language model serving with pagedattention. In Proceedings of the ACM SIGOPS 29th Symposium on Operating Systems Principles, 2023.",
+      "metadata": {
+        "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+        "authors": [
+          "Woosuk Kwon",
+          "Zhuohan Li",
+          "Siyuan Zhuang",
+          "Ying Sheng",
+          "Lianmin Zheng",
+          "Cody Hao Yu",
+          "Joseph E. Gonzalez",
+          "Hao Zhang",
+          "Ion Stoica"
+        ],
+        "year": 2023,
+        "venue": "Proceedings of the ACM SIGOPS 29th Symposium on Operating Systems Principles"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/10_1145_3600006_3613165",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-laskin2022context",
+      "rawKey": "laskin2022context",
+      "display": "[38]",
+      "raw": "Michael Laskin, Luyu Wang, Junhyuk Oh, Emilio Parisotto, Stephen Spencer, Richie Steigerwald, DJ Strouse, Steven Hansen, Angelos Filos, Ethan Brooks, et al. In-context reinforcement learning with algorithm distillation. arXiv preprint arXiv:2210.14215, 2022.",
+      "metadata": {
+        "title": "In-context reinforcement learning with algorithm distillation",
+        "authors": [
+          "Michael Laskin",
+          "Luyu Wang",
+          "Junhyuk Oh",
+          "Emilio Parisotto",
+          "Stephen Spencer",
+          "Richie Steigerwald",
+          "DJ Strouse",
+          "Steven Hansen",
+          "Angelos Filos",
+          "Ethan Brooks"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2210.14215",
+        "arxivId": "2210.14215"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lee2024supervised",
+      "rawKey": "lee2024supervised",
+      "display": "[39]",
+      "raw": "Jonathan Lee, Annie Xie, Aldo Pacchiano, Yash Chandak, Chelsea Finn, Ofir Nachum, and Emma Brunskill. Supervised pretraining can learn in-context reinforcement learning. Advances in Neural Information Processing Systems, 36, 2024.",
+      "metadata": {
+        "title": "Supervised pretraining can learn in-context reinforcement learning",
+        "authors": [
+          "Jonathan Lee",
+          "Annie Xie",
+          "Aldo Pacchiano",
+          "Yash Chandak",
+          "Chelsea Finn",
+          "Ofir Nachum",
+          "Emma Brunskill"
+        ],
+        "year": 2024,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lewis2020retrieval",
+      "rawKey": "lewis2020retrieval",
+      "display": "[40]",
+      "raw": "Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Kuttler, Mike Lewis, Wen-tau Yih, Tim Rocktaschel, et al. Retrieval-augmented generation for knowledge-intensive nlp tasks. Advances in Neural Information Processing Systems, 33: 9459--9474, 2020.",
+      "metadata": {
+        "title": "Retrieval-augmented generation for knowledge-intensive nlp tasks",
+        "authors": [
+          "Patrick Lewis",
+          "Ethan Perez",
+          "Aleksandra Piktus",
+          "Fabio Petroni",
+          "Vladimir Karpukhin",
+          "Naman Goyal",
+          "Heinrich Kuttler",
+          "Mike Lewis",
+          "Wen-tau Yih",
+          "Tim Rocktaschel"
+        ],
+        "year": 2020,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2022pre",
+      "rawKey": "li2022pre",
+      "display": "[41]",
+      "raw": "Shuang Li, Xavier Puig, Chris Paxton, Yilun Du, Clinton Wang, Linxi Fan, Tao Chen, De-An Huang, Ekin Akyurek, Anima Anandkumar, et al. Pre-trained language models for interactive decision-making. Advances in Neural Information Processing Systems, 35: 31199--31212, 2022.",
+      "metadata": {
+        "title": "Pre-trained language models for interactive decision-making",
+        "authors": [
+          "Shuang Li",
+          "Xavier Puig",
+          "Chris Paxton",
+          "Yilun Du",
+          "Clinton Wang",
+          "Linxi Fan",
+          "Tao Chen",
+          "De-An Huang",
+          "Ekin Akyurek",
+          "Anima Anandkumar"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lin2023transformers",
+      "rawKey": "lin2023transformers",
+      "display": "[42]",
+      "raw": "Licong Lin, Yu Bai, and Song Mei. Transformers as decision makers: Provable in-context reinforcement learning via supervised pretraining. arXiv preprint arXiv:2310.08566, 2023.",
+      "metadata": {
+        "title": "Transformers as decision makers: Provable in-context reinforcement learning via supervised pretraining",
+        "authors": [
+          "Licong Lin",
+          "Yu Bai",
+          "Song Mei"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2310.08566",
+        "arxivId": "2310.08566"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-liu2023llm",
+      "rawKey": "liu2023llm",
+      "display": "[43]",
+      "raw": "Jijia Liu, Chao Yu, Jiaxuan Gao, Yuqing Xie, Qingmin Liao, Yi Wu, and Yu Wang. Llm-powered hierarchical language agent for real-time human-ai coordination. arXiv preprint arXiv:2312.15224, 2023a.",
+      "metadata": {
+        "title": "Llm-powered hierarchical language agent for real-time human-ai coordination",
+        "authors": [
+          "Jijia Liu",
+          "Chao Yu",
+          "Jiaxuan Gao",
+          "Yuqing Xie",
+          "Qingmin Liao",
+          "Yi Wu",
+          "Yu Wang"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2312.15224",
+        "arxivId": "2312.15224"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-liu2023agentbench",
+      "rawKey": "liu2023agentbench",
+      "display": "[44]",
+      "raw": "Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hangliang Ding, Kaiwen Men, Kejuan Yang, et al. Agentbench: Evaluating llms as agents. arXiv preprint arXiv:2308.03688, 2023b.",
+      "metadata": {
+        "title": "Agentbench: Evaluating llms as agents",
+        "authors": [
+          "Xiao Liu",
+          "Hao Yu",
+          "Hanchen Zhang",
+          "Yifan Xu",
+          "Xuanyu Lei",
+          "Hanyu Lai",
+          "Yu Gu",
+          "Hangliang Ding",
+          "Kaiwen Men",
+          "Kejuan Yang"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2308.03688",
+        "arxivId": "2308.03688"
+      },
+      "localMatch": {
+        "paperPath": "papers/Agent规划/2308.03688",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lu2024intelligent",
+      "rawKey": "lu2024intelligent",
+      "display": "[45]",
+      "raw": "Cong Lu, Shengran Hu, and Jeff Clune. Intelligent go-explore: Standing on the shoulders of giant foundation models. arXiv preprint arXiv:2405.15143, 2024.",
+      "metadata": {
+        "title": "Intelligent Go-Explore: Standing on the Shoulders of Giant Foundation Models",
+        "authors": [
+          "Cong Lu",
+          "Shengran Hu",
+          "Jeff Clune"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2405.15143",
+        "arxivId": "2405.15143"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lu2021codexglue",
+      "rawKey": "lu2021codexglue",
+      "display": "[46]",
+      "raw": "Shuai Lu, Daya Guo, Shuo Ren, Junjie Huang, Alexey Svyatkovskiy, Ambrosio Blanco, Colin Clement, Dawn Drain, Daxin Jiang, Duyu Tang, et al. Codexglue: A machine learning benchmark dataset for code understanding and generation. arXiv preprint arXiv:2102.04664, 2021.",
+      "metadata": {
+        "title": "Codexglue: A machine learning benchmark dataset for code understanding and generation",
+        "authors": [
+          "Shuai Lu",
+          "Daya Guo",
+          "Shuo Ren",
+          "Junjie Huang",
+          "Alexey Svyatkovskiy",
+          "Ambrosio Blanco",
+          "Colin Clement",
+          "Dawn Drain",
+          "Daxin Jiang",
+          "Duyu Tang"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2102.04664",
+        "arxivId": "2102.04664"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-madaan2024self",
+      "rawKey": "madaan2024self",
+      "display": "[47]",
+      "raw": "Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah Wiegreffe, Uri Alon, Nouha Dziri, Shrimai Prabhumoye, Yiming Yang, et al. Self-refine: Iterative refinement with self-feedback. Advances in Neural Information Processing Systems, 36, 2024.",
+      "metadata": {
+        "title": "Self-refine: Iterative refinement with self-feedback",
+        "authors": [
+          "Aman Madaan",
+          "Niket Tandon",
+          "Prakhar Gupta",
+          "Skyler Hallinan",
+          "Luyu Gao",
+          "Sarah Wiegreffe",
+          "Uri Alon",
+          "Nouha Dziri",
+          "Shrimai Prabhumoye",
+          "Yiming Yang"
+        ],
+        "year": 2024,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-meta2024llama3.2",
+      "rawKey": "meta2024llama3.2",
+      "display": "[48]",
+      "raw": "MetaAI. Llama 3.2: Revolutionizing edge ai and vision with open, customizable models, 2024. URL https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/. Accessed: 2024-09-28.",
+      "metadata": {
+        "title": "Llama 3.2: Revolutionizing Edge AI and Vision with Open, Customizable Models",
+        "authors": [
+          "MetaAI"
+        ],
+        "year": 2024,
+        "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-olah2020zoom",
+      "rawKey": "olah2020zoom",
+      "display": "[49]",
+      "raw": "Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and Shan Carter. Zoom in: An introduction to circuits. Distill, 5 (3): e00024--001, 2020.",
+      "metadata": {
+        "title": "Zoom in: An introduction to circuits",
+        "authors": [
+          "Chris Olah",
+          "Nick Cammarata",
+          "Ludwig Schubert",
+          "Gabriel Goh",
+          "Michael Petrov",
+          "Shan Carter"
+        ],
+        "year": 2020,
+        "venue": "Distill"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-openai2024gpt4o",
+      "rawKey": "openai2024gpt4o",
+      "display": "[50]",
+      "raw": "OpenAI. Hello gpt-4o, 2024a. URL https://openai.com/index/hello-gpt-4o/. Accessed: 2024-09-28.",
+      "metadata": {
+        "title": "Hello GPT-4o",
+        "authors": [
+          "OpenAI"
+        ],
+        "year": 2024,
+        "url": "https://openai.com/index/hello-gpt-4o/"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-openai2024o1",
+      "rawKey": "openai2024o1",
+      "display": "[51]",
+      "raw": "OpenAI. Introducing openai o1 preview, September 2024b. URL https://openai.com/index/introducing-openai-o1-preview/. Accessed: 2024-09-27.",
+      "metadata": {
+        "title": "Introducing OpenAI O1 Preview",
+        "authors": [
+          "OpenAI"
+        ],
+        "year": 2024,
+        "url": "https://openai.com/index/introducing-openai-o1-preview/"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ouyang2022training",
+      "rawKey": "ouyang2022training",
+      "display": "[52]",
+      "raw": "Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al. Training language models to follow instructions with human feedback. Advances in neural information processing systems, 35: 27730--27744, 2022.",
+      "metadata": {
+        "title": "Training language models to follow instructions with human feedback",
+        "authors": [
+          "Long Ouyang",
+          "Jeffrey Wu",
+          "Xu Jiang",
+          "Diogo Almeida",
+          "Carroll Wainwright",
+          "Pamela Mishkin",
+          "Chong Zhang",
+          "Sandhini Agarwal",
+          "Katarina Slama",
+          "Alex Ray"
+        ],
+        "year": 2022,
+        "venue": "Advances in neural information processing systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-piatti2024cooperate",
+      "rawKey": "piatti2024cooperate",
+      "display": "[53]",
+      "raw": "Giorgio Piatti, Zhijing Jin, Max Kleiman-Weiner, Bernhard Scholkopf, Mrinmaya Sachan, and Rada Mihalcea. Cooperate or collapse: Emergence of sustainability behaviors in a society of llm agents. arXiv preprint arXiv:2404.16698, 2024.",
+      "metadata": {
+        "title": "Cooperate or Collapse: Emergence of Sustainability Behaviors in a Society of LLM Agents",
+        "authors": [
+          "Giorgio Piatti",
+          "Zhijing Jin",
+          "Max Kleiman-Weiner",
+          "Bernhard Scholkopf",
+          "Mrinmaya Sachan",
+          "Rada Mihalcea"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2404.16698",
+        "arxivId": "2404.16698"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pignatiello2020decision",
+      "rawKey": "pignatiello2020decision",
+      "display": "[54]",
+      "raw": "Grant A Pignatiello, Richard J Martin, and Ronald L Hickman Jr. Decision fatigue: A conceptual analysis. Journal of health psychology, 25 (1): 123--135, 2020.",
+      "metadata": {
+        "title": "Decision fatigue: A conceptual analysis",
+        "authors": [
+          "Grant A Pignatiello",
+          "Richard J Martin",
+          "Ronald L Hickman Jr"
+        ],
+        "year": 2020,
+        "venue": "Journal of health psychology"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-piterbarg2023diff",
+      "rawKey": "piterbarg2023diff",
+      "display": "[55]",
+      "raw": "Ulyana Piterbarg, Lerrel Pinto, and Rob Fergus. diff history for neural language agents. In Forty-first International Conference on Machine Learning, 2024.",
+      "metadata": {
+        "title": "diff History for Neural Language Agents",
+        "authors": [
+          "Ulyana Piterbarg",
+          "Lerrel Pinto",
+          "Rob Fergus"
+        ],
+        "year": 2024,
+        "venue": "Forty-first International Conference on Machine Learning"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qin2024sysbench",
+      "rawKey": "qin2024sysbench",
+      "display": "[56]",
+      "raw": "Yanzhao Qin, Tao Zhang, Yanjun Shen, Wenjing Luo, Haoze Sun, Yan Zhang, Yujing Qiao, Weipeng Chen, Zenan Zhou, Wentao Zhang, et al. Sysbench: Can large language models follow system messages? arXiv preprint arXiv:2408.10943, 2024.",
+      "metadata": {
+        "title": "SysBench: Can Large Language Models Follow System Messages?",
+        "authors": [
+          "Yanzhao Qin",
+          "Tao Zhang",
+          "Yanjun Shen",
+          "Wenjing Luo",
+          "Haoze Sun",
+          "Yan Zhang",
+          "Yujing Qiao",
+          "Weipeng Chen",
+          "Zenan Zhou",
+          "Wentao Zhang"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2408.10943",
+        "arxivId": "2408.10943"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qin2023toolllm",
+      "rawKey": "qin2023toolllm",
+      "display": "[57]",
+      "raw": "Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, Yankai Lin, Xin Cong, Xiangru Tang, Bill Qian, et al. Toolllm: Facilitating large language models to master 16000+ real-world apis. arXiv preprint arXiv:2307.16789, 2023.",
+      "metadata": {
+        "title": "Toolllm: Facilitating large language models to master 16000+ real-world apis",
+        "authors": [
+          "Yujia Qin",
+          "Shihao Liang",
+          "Yining Ye",
+          "Kunlun Zhu",
+          "Lan Yan",
+          "Yaxi Lu",
+          "Yankai Lin",
+          "Xin Cong",
+          "Xiangru Tang",
+          "Bill Qian"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2307.16789",
+        "arxivId": "2307.16789"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rahmanzadehgervi2024vision",
+      "rawKey": "rahmanzadehgervi2024vision",
+      "display": "[58]",
+      "raw": "Pooyan Rahmanzadehgervi, Logan Bolton, Mohammad Reza Taesiri, and Anh Totti Nguyen. Vision language models are blind. arXiv preprint arXiv:2407.06581, 2024.",
+      "metadata": {
+        "title": "Vision language models are blind",
+        "authors": [
+          "Pooyan Rahmanzadehgervi",
+          "Logan Bolton",
+          "Mohammad Reza Taesiri",
+          "Anh Totti Nguyen"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2407.06581",
+        "arxivId": "2407.06581"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-reed2022generalist",
+      "rawKey": "reed2022generalist",
+      "display": "[59]",
+      "raw": "Scott Reed, Konrad Zolna, Emilio Parisotto, Sergio Gomez Colmenarejo, Alexander Novikov, Gabriel Barth-Maron, Mai Gimenez, Yury Sulsky, Jackie Kay, Jost Tobias Springenberg, et al. A generalist agent. arXiv preprint arXiv:2205.06175, 2022.",
+      "metadata": {
+        "title": "A generalist agent",
+        "authors": [
+          "Scott Reed",
+          "Konrad Zolna",
+          "Emilio Parisotto",
+          "Sergio Gomez Colmenarejo",
+          "Alexander Novikov",
+          "Gabriel Barth-Maron",
+          "Mai Gimenez",
+          "Yury Sulsky",
+          "Jackie Kay",
+          "Jost Tobias Springenberg"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2205.06175",
+        "arxivId": "2205.06175"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-reid2024gemini",
+      "rawKey": "reid2024gemini",
+      "display": "[60]",
+      "raw": "Machel Reid, Nikolay Savinov, Denis Teplyashin, Dmitry Lepikhin, Timothy Lillicrap, Jean-baptiste Alayrac, Radu Soricut, Angeliki Lazaridou, Orhan Firat, Julian Schrittwieser, et al. Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context. arXiv preprint arXiv:2403.05530, 2024.",
+      "metadata": {
+        "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+        "authors": [
+          "Machel Reid",
+          "Nikolay Savinov",
+          "Denis Teplyashin",
+          "Dmitry Lepikhin",
+          "Timothy Lillicrap",
+          "Jean-baptiste Alayrac",
+          "Radu Soricut",
+          "Angeliki Lazaridou",
+          "Orhan Firat",
+          "Julian Schrittwieser"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2403.05530",
+        "arxivId": "2403.05530"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rein2023gpqa",
+      "rawKey": "rein2023gpqa",
+      "display": "[61]",
+      "raw": "David Rein, Betty Li Hou, Asa Cooper Stickland, Jackson Petty, Richard Yuanzhe Pang, Julien Dirani, Julian Michael, and Samuel R Bowman. Gpqa: A graduate-level google-proof q&a benchmark. arXiv preprint arXiv:2311.12022, 2023.",
+      "metadata": {
+        "title": "Gpqa: A graduate-level google-proof q&a benchmark",
+        "authors": [
+          "David Rein",
+          "Betty Li Hou",
+          "Asa Cooper Stickland",
+          "Jackson Petty",
+          "Richard Yuanzhe Pang",
+          "Julien Dirani",
+          "Julian Michael",
+          "Samuel R Bowman"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2311.12022",
+        "arxivId": "2311.12022"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ruan2023tptu",
+      "rawKey": "ruan2023tptu",
+      "display": "[62]",
+      "raw": "Jingqing Ruan, Yihong Chen, Bin Zhang, Zhiwei Xu, Tianpeng Bao, Hangyu Mao, Ziyue Li, Xingyu Zeng, Rui Zhao, et al. Tptu: Task planning and tool usage of large language model-based ai agents. In NeurIPS 2023 Foundation Models for Decision Making Workshop, 2023.",
+      "metadata": {
+        "title": "Tptu: Task planning and tool usage of large language model-based ai agents",
+        "authors": [
+          "Jingqing Ruan",
+          "Yihong Chen",
+          "Bin Zhang",
+          "Zhiwei Xu",
+          "Tianpeng Bao",
+          "Hangyu Mao",
+          "Ziyue Li",
+          "Xingyu Zeng",
+          "Rui Zhao"
+        ],
+        "year": 2023,
+        "venue": "NeurIPS 2023 Foundation Models for Decision Making Workshop"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ruoss2024lmact",
+      "rawKey": "ruoss2024lmact",
+      "display": "[63]",
+      "raw": "Anian Ruoss, Fabio Pardo, Harris Chan, Bonnie Li, Volodymyr Mnih, and Tim Genewein. Lmact: A benchmark for in-context imitation learning with long multimodal demonstrations. arXiv preprint arXiv:2412.01441, 2024.",
+      "metadata": {
+        "title": "LMAct: A Benchmark for In-Context Imitation Learning with Long Multimodal Demonstrations",
+        "authors": [
+          "Anian Ruoss",
+          "Fabio Pardo",
+          "Harris Chan",
+          "Bonnie Li",
+          "Volodymyr Mnih",
+          "Tim Genewein"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2412.01441",
+        "arxivId": "2412.01441"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-samvelyan2021minihack",
+      "rawKey": "samvelyan2021minihack",
+      "display": "[64]",
+      "raw": "Mikayel Samvelyan, Robert Kirk, Vitaly Kurin, Jack Parker-Holder, Minqi Jiang, Eric Hambro, Fabio Petroni, Heinrich Kuttler, Edward Grefenstette, and Tim Rocktaschel. Minihack the planet: A sandbox for open-ended reinforcement learning research. arXiv preprint arXiv:2109.13202, 2021.",
+      "metadata": {
+        "title": "Minihack the planet: A sandbox for open-ended reinforcement learning research",
+        "authors": [
+          "Mikayel Samvelyan",
+          "Robert Kirk",
+          "Vitaly Kurin",
+          "Jack Parker-Holder",
+          "Minqi Jiang",
+          "Eric Hambro",
+          "Fabio Petroni",
+          "Heinrich Kuttler",
+          "Edward Grefenstette",
+          "Tim Rocktaschel"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2109.13202",
+        "arxivId": "2109.13202"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-schick2024toolformer",
+      "rawKey": "schick2024toolformer",
+      "display": "[65]",
+      "raw": "Timo Schick, Jane Dwivedi-Yu, Roberto Dess, Roberta Raileanu, Maria Lomeli, Eric Hambro, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom. Toolformer: Language models can teach themselves to use tools. Advances in Neural Information Processing Systems, 36, 2024.",
+      "metadata": {
+        "title": "Toolformer: Language models can teach themselves to use tools",
+        "authors": [
+          "Timo Schick",
+          "Jane Dwivedi-Yu",
+          "Roberto Dess",
+          "Roberta Raileanu",
+          "Maria Lomeli",
+          "Eric Hambro",
+          "Luke Zettlemoyer",
+          "Nicola Cancedda",
+          "Thomas Scialom"
+        ],
+        "year": 2024,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-schrittwieser2020mastering",
+      "rawKey": "schrittwieser2020mastering",
+      "display": "[66]",
+      "raw": "Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan, Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis, Thore Graepel, et al. Mastering atari, go, chess and shogi by planning with a learned model. Nature, 588 (7839): 604--609, 2020.",
+      "metadata": {
+        "title": "Mastering atari, go, chess and shogi by planning with a learned model",
+        "authors": [
+          "Julian Schrittwieser",
+          "Ioannis Antonoglou",
+          "Thomas Hubert",
+          "Karen Simonyan",
+          "Laurent Sifre",
+          "Simon Schmitt",
+          "Arthur Guez",
+          "Edward Lockhart",
+          "Demis Hassabis",
+          "Thore Graepel"
+        ],
+        "year": 2020,
+        "venue": "Nature"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shen2024hugginggpt",
+      "rawKey": "shen2024hugginggpt",
+      "display": "[67]",
+      "raw": "Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu, and Yueting Zhuang. Hugginggpt: Solving ai tasks with chatgpt and its friends in hugging face. Advances in Neural Information Processing Systems, 36, 2024.",
+      "metadata": {
+        "title": "Hugginggpt: Solving ai tasks with chatgpt and its friends in hugging face",
+        "authors": [
+          "Yongliang Shen",
+          "Kaitao Song",
+          "Xu Tan",
+          "Dongsheng Li",
+          "Weiming Lu",
+          "Yueting Zhuang"
+        ],
+        "year": 2024,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shi2022language",
+      "rawKey": "shi2022language",
+      "display": "[68]",
+      "raw": "Freda Shi, Mirac Suzgun, Markus Freitag, Xuezhi Wang, Suraj Srivats, Soroush Vosoughi, Hyung Won Chung, Yi Tay, Sebastian Ruder, Denny Zhou, et al. Language models are multilingual chain-of-thought reasoners. arXiv preprint arXiv:2210.03057, 2022.",
+      "metadata": {
+        "title": "Language models are multilingual chain-of-thought reasoners",
+        "authors": [
+          "Freda Shi",
+          "Mirac Suzgun",
+          "Markus Freitag",
+          "Xuezhi Wang",
+          "Suraj Srivats",
+          "Soroush Vosoughi",
+          "Hyung Won Chung",
+          "Yi Tay",
+          "Sebastian Ruder",
+          "Denny Zhou"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2210.03057",
+        "arxivId": "2210.03057"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shinn2023reflexion",
+      "rawKey": "shinn2023reflexion",
+      "display": "[69]",
+      "raw": "Noah Shinn, Beck Labash, and Ashwin Gopinath. Reflexion: an autonomous agent with dynamic memory and self-reflection. arXiv preprint arXiv:2303.11366, 2 (5): 9, 2023.",
+      "metadata": {
+        "title": "Reflexion: an autonomous agent with dynamic memory and self-reflection",
+        "authors": [
+          "Noah Shinn",
+          "Beck Labash",
+          "Ashwin Gopinath"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2303.11366",
+        "arxivId": "2303.11366"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-silver2018general",
+      "rawKey": "silver2018general",
+      "display": "[70]",
+      "raw": "David Silver, Thomas Hubert, Julian Schrittwieser, Ioannis Antonoglou, Matthew Lai, Arthur Guez, Marc Lanctot, Laurent Sifre, Dharshan Kumaran, Thore Graepel, et al. A general reinforcement learning algorithm that masters chess, shogi, and go through self-play. Science, 362 (6419): 1140--1144, 2018.",
+      "metadata": {
+        "title": "A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play",
+        "authors": [
+          "David Silver",
+          "Thomas Hubert",
+          "Julian Schrittwieser",
+          "Ioannis Antonoglou",
+          "Matthew Lai",
+          "Arthur Guez",
+          "Marc Lanctot",
+          "Laurent Sifre",
+          "Dharshan Kumaran",
+          "Thore Graepel"
+        ],
+        "year": 2018,
+        "venue": "Science"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-snell2024scaling",
+      "rawKey": "snell2024scaling",
+      "display": "[71]",
+      "raw": "Charlie Snell, Jaehoon Lee, Kelvin Xu, and Aviral Kumar. Scaling llm test-time compute optimally can be more effective than scaling model parameters. arXiv preprint arXiv:2408.03314, 2024.",
+      "metadata": {
+        "title": "Scaling llm test-time compute optimally can be more effective than scaling model parameters",
+        "authors": [
+          "Charlie Snell",
+          "Jaehoon Lee",
+          "Kelvin Xu",
+          "Aviral Kumar"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2408.03314",
+        "arxivId": "2408.03314"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-srivastava2022beyond",
+      "rawKey": "srivastava2022beyond",
+      "display": "[72]",
+      "raw": "Aarohi Srivastava, Abhinav Rastogi, Abhishek Rao, Abu Awal Md Shoeb, Abubakar Abid, Adam Fisch, Adam R Brown, Adam Santoro, Aditya Gupta, Adria Garriga-Alonso, et al. Beyond the imitation game: Quantifying and extrapolating the capabilities of language models. arXiv preprint arXiv:2206.04615, 2022.",
+      "metadata": {
+        "title": "Beyond the imitation game: Quantifying and extrapolating the capabilities of language models",
+        "authors": [
+          "Aarohi Srivastava",
+          "Abhinav Rastogi",
+          "Abhishek Rao",
+          "Abu Awal Md Shoeb",
+          "Abubakar Abid",
+          "Adam Fisch",
+          "Adam R Brown",
+          "Adam Santoro",
+          "Aditya Gupta",
+          "Adria Garriga-Alonso"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2206.04615",
+        "arxivId": "2206.04615"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tan2024towards",
+      "rawKey": "tan2024towards",
+      "display": "[73]",
+      "raw": "Weihao Tan, Ziluo Ding, Wentao Zhang, Boyu Li, Bohan Zhou, Junpeng Yue, Haochong Xia, Jiechuan Jiang, Longtao Zheng, Xinrun Xu, et al. Towards general computer control: A multimodal agent for red dead redemption ii as a case study. In ICLR 2024 Workshop on Large Language Model (LLM) Agents, 2024.",
+      "metadata": {
+        "title": "Towards general computer control: A multimodal agent for red dead redemption ii as a case study",
+        "authors": [
+          "Weihao Tan",
+          "Ziluo Ding",
+          "Wentao Zhang",
+          "Boyu Li",
+          "Bohan Zhou",
+          "Junpeng Yue",
+          "Haochong Xia",
+          "Jiechuan Jiang",
+          "Longtao Zheng",
+          "Xinrun Xu"
+        ],
+        "year": 2024,
+        "venue": "ICLR 2024 Workshop on Large Language Model (LLM) Agents"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-team2023human",
+      "rawKey": "team2023human",
+      "display": "[74]",
+      "raw": "Adaptive Agent Team, Jakob Bauer, Kate Baumli, Satinder Baveja, Feryal Behbahani, Avishkar Bhoopchand, Nathalie Bradley-Schmieg, Michael Chang, Natalie Clay, Adrian Collister, et al. Human-timescale adaptation in an open-ended task space. arXiv preprint arXiv:2301.07608, 2023.",
+      "metadata": {
+        "title": "Human-timescale adaptation in an open-ended task space",
+        "authors": [
+          "Adaptive Agent Team",
+          "Jakob Bauer",
+          "Kate Baumli",
+          "Satinder Baveja",
+          "Feryal Behbahani",
+          "Avishkar Bhoopchand",
+          "Nathalie Bradley-Schmieg",
+          "Michael Chang",
+          "Natalie Clay",
+          "Adrian Collister"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2301.07608",
+        "arxivId": "2301.07608"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-todd2024missed",
+      "rawKey": "todd2024missed",
+      "display": "[75]",
+      "raw": "Graham Todd, Tim Merino, Sam Earle, and Julian Togelius. Missed connections: Lateral thinking puzzles for large language models. arXiv preprint arXiv:2404.11730, 2024.",
+      "metadata": {
+        "title": "Missed Connections: Lateral Thinking Puzzles for Large Language Models",
+        "authors": [
+          "Graham Todd",
+          "Tim Merino",
+          "Sam Earle",
+          "Julian Togelius"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2404.11730",
+        "arxivId": "2404.11730"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tong2024eyes",
+      "rawKey": "tong2024eyes",
+      "display": "[76]",
+      "raw": "Shengbang Tong, Zhuang Liu, Yuexiang Zhai, Yi Ma, Yann LeCun, and Saining Xie. Eyes wide shut? exploring the visual shortcomings of multimodal llms. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 9568--9578, 2024.",
+      "metadata": {
+        "title": "Eyes wide shut? exploring the visual shortcomings of multimodal llms",
+        "authors": [
+          "Shengbang Tong",
+          "Zhuang Liu",
+          "Yuexiang Zhai",
+          "Yi Ma",
+          "Yann LeCun",
+          "Saining Xie"
+        ],
+        "year": 2024,
+        "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vinyals2019grandmaster",
+      "rawKey": "vinyals2019grandmaster",
+      "display": "[77]",
+      "raw": "Oriol Vinyals, Igor Babuschkin, Wojciech M Czarnecki, Michael Mathieu, Andrew Dudzik, Junyoung Chung, David H Choi, Richard Powell, Timo Ewalds, Petko Georgiev, et al. Grandmaster level in starcraft ii using multi-agent reinforcement learning. nature, 575 (7782): 350--354, 2019.",
+      "metadata": {
+        "title": "Grandmaster level in StarCraft II using multi-agent reinforcement learning",
+        "authors": [
+          "Oriol Vinyals",
+          "Igor Babuschkin",
+          "Wojciech M Czarnecki",
+          "Michael Mathieu",
+          "Andrew Dudzik",
+          "Junyoung Chung",
+          "David H Choi",
+          "Richard Powell",
+          "Timo Ewalds",
+          "Petko Georgiev"
+        ],
+        "year": 2019,
+        "venue": "nature"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2019superglue",
+      "rawKey": "wang2019superglue",
+      "display": "[78]",
+      "raw": "Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. Superglue: A stickier benchmark for general-purpose language understanding systems. Advances in neural information processing systems, 32, 2019.",
+      "metadata": {
+        "title": "Superglue: A stickier benchmark for general-purpose language understanding systems",
+        "authors": [
+          "Alex Wang",
+          "Yada Pruksachatkun",
+          "Nikita Nangia",
+          "Amanpreet Singh",
+          "Julian Michael",
+          "Felix Hill",
+          "Omer Levy",
+          "Samuel Bowman"
+        ],
+        "year": 2019,
+        "venue": "Advances in neural information processing systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2023voyager",
+      "rawKey": "wang2023voyager",
+      "display": "[79]",
+      "raw": "Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi Fan, and Anima Anandkumar. Voyager: An open-ended embodied agent with large language models. arXiv preprint arXiv:2305.16291, 2023.",
+      "metadata": {
+        "title": "Voyager: An open-ended embodied agent with large language models",
+        "authors": [
+          "Guanzhi Wang",
+          "Yuqi Xie",
+          "Yunfan Jiang",
+          "Ajay Mandlekar",
+          "Chaowei Xiao",
+          "Yuke Zhu",
+          "Linxi Fan",
+          "Anima Anandkumar"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2305.16291",
+        "arxivId": "2305.16291"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2024officebench",
+      "rawKey": "wang2024officebench",
+      "display": "[80]",
+      "raw": "Zilong Wang, Yuedong Cui, Li Zhong, Zimin Zhang, Da Yin, Bill Yuchen Lin, and Jingbo Shang. Officebench: Benchmarking language agents across multiple applications for office automation. arXiv preprint arXiv:2407.19056, 2024.",
+      "metadata": {
+        "title": "OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation",
+        "authors": [
+          "Zilong Wang",
+          "Yuedong Cui",
+          "Li Zhong",
+          "Zimin Zhang",
+          "Da Yin",
+          "Bill Yuchen Lin",
+          "Jingbo Shang"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2407.19056",
+        "arxivId": "2407.19056"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wansink2007mindless",
+      "rawKey": "wansink2007mindless",
+      "display": "[81]",
+      "raw": "Brian Wansink and Jeffery Sobal. Mindless eating: The 200 daily food decisions we overlook. Environment and Behavior, 39 (1): 106--123, 2007.",
+      "metadata": {
+        "title": "Mindless eating: The 200 daily food decisions we overlook",
+        "authors": [
+          "Brian Wansink",
+          "Jeffery Sobal"
+        ],
+        "year": 2007,
+        "venue": "Environment and Behavior"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wei2022emergent",
+      "rawKey": "wei2022emergent",
+      "display": "[82]",
+      "raw": "Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, et al. Emergent abilities of large language models. arXiv preprint arXiv:2206.07682, 2022a.",
+      "metadata": {
+        "title": "Emergent abilities of large language models",
+        "authors": [
+          "Jason Wei",
+          "Yi Tay",
+          "Rishi Bommasani",
+          "Colin Raffel",
+          "Barret Zoph",
+          "Sebastian Borgeaud",
+          "Dani Yogatama",
+          "Maarten Bosma",
+          "Denny Zhou",
+          "Donald Metzler"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2206.07682",
+        "arxivId": "2206.07682"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wei2022chain",
+      "rawKey": "wei2022chain",
+      "display": "[83]",
+      "raw": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed Chi, Quoc V Le, Denny Zhou, et al. Chain-of-thought prompting elicits reasoning in large language models. Advances in neural information processing systems, 35: 24824--24837, 2022b.",
+      "metadata": {
+        "title": "Chain-of-thought prompting elicits reasoning in large language models",
+        "authors": [
+          "Jason Wei",
+          "Xuezhi Wang",
+          "Dale Schuurmans",
+          "Maarten Bosma",
+          "Fei Xia",
+          "Ed Chi",
+          "Quoc V Le",
+          "Denny Zhou"
+        ],
+        "year": 2022,
+        "venue": "Advances in neural information processing systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wolczyk2024fine",
+      "rawKey": "wolczyk2024fine",
+      "display": "[84]",
+      "raw": "Maciej Woczyk, Bartomiej Cupia, Mateusz Ostaszewski, Micha Bortkiewicz, Micha Zajac, Razvan Pascanu, ukasz Kucinski, and Piotr Mios. Fine-tuning reinforcement learning models is secretly a forgetting mitigation problem. arXiv preprint arXiv:2402.02868, 2024.",
+      "metadata": {
+        "title": "Fine-tuning Reinforcement Learning Models is Secretly a Forgetting Mitigation Problem",
+        "authors": [
+          "Maciej Woczyk",
+          "Bartomiej Cupia",
+          "Mateusz Ostaszewski",
+          "Micha Bortkiewicz",
+          "Micha Zajac",
+          "Razvan Pascanu",
+          "ukasz Kucinski",
+          "Piotr Mios"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2402.02868",
+        "arxivId": "2402.02868"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2024enhance",
+      "rawKey": "wu2024enhance",
+      "display": "[85]",
+      "raw": "Shuang Wu, Liwen Zhu, Tao Yang, Shiwei Xu, Qiang Fu, Yang Wei, and Haobo Fu. Enhance reasoning for large language models in the game werewolf. arXiv preprint arXiv:2402.02330, 2024.",
+      "metadata": {
+        "title": "Enhance reasoning for large language models in the game werewolf",
+        "authors": [
+          "Shuang Wu",
+          "Liwen Zhu",
+          "Tao Yang",
+          "Shiwei Xu",
+          "Qiang Fu",
+          "Yang Wei",
+          "Haobo Fu"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2402.02330",
+        "arxivId": "2402.02330"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2023smartplay",
+      "rawKey": "wu2023smartplay",
+      "display": "[86]",
+      "raw": "Yue Wu, Xuan Tang, Tom M Mitchell, and Yuanzhi Li. Smartplay: A benchmark for llms as intelligent agents. arXiv preprint arXiv:2310.01557, 2023.",
+      "metadata": {
+        "title": "Smartplay: A benchmark for llms as intelligent agents",
+        "authors": [
+          "Yue Wu",
+          "Xuan Tang",
+          "Tom M Mitchell",
+          "Yuanzhi Li"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2310.01557",
+        "arxivId": "2310.01557"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xing2024understanding",
+      "rawKey": "xing2024understanding",
+      "display": "[87]",
+      "raw": "Mingzhe Xing, Rongkai Zhang, Hui Xue, Qi Chen, Fan Yang, and Zhen Xiao. Understanding the weakness of large language model agents within a complex android environment. In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, pp. 6061--6072, 2024.",
+      "metadata": {
+        "title": "Understanding the weakness of large language model agents within a complex android environment",
+        "authors": [
+          "Mingzhe Xing",
+          "Rongkai Zhang",
+          "Hui Xue",
+          "Qi Chen",
+          "Fan Yang",
+          "Zhen Xiao"
+        ],
+        "year": 2024,
+        "venue": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yamada2023evaluating",
+      "rawKey": "yamada2023evaluating",
+      "display": "[88]",
+      "raw": "Yutaro Yamada, Yihan Bao, Andrew K Lampinen, Jungo Kasai, and Ilker Yildirim. Evaluating spatial understanding of large language models. arXiv preprint arXiv:2310.14540, 2023.",
+      "metadata": {
+        "title": "Evaluating spatial understanding of large language models",
+        "authors": [
+          "Yutaro Yamada",
+          "Yihan Bao",
+          "Andrew K Lampinen",
+          "Jungo Kasai",
+          "Ilker Yildirim"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2310.14540",
+        "arxivId": "2310.14540"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yang2023auto",
+      "rawKey": "yang2023auto",
+      "display": "[89]",
+      "raw": "Hui Yang, Sifu Yue, and Yunzhong He. Auto-gpt for online decision making: Benchmarks and additional opinions. arXiv preprint arXiv:2306.02224, 2023.",
+      "metadata": {
+        "title": "Auto-gpt for online decision making: Benchmarks and additional opinions",
+        "authors": [
+          "Hui Yang",
+          "Sifu Yue",
+          "Yunzhong He"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2306.02224",
+        "arxivId": "2306.02224"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yao2022webshop",
+      "rawKey": "yao2022webshop",
+      "display": "[90]",
+      "raw": "Shunyu Yao, Howard Chen, John Yang, and Karthik Narasimhan. Webshop: Towards scalable real-world web interaction with grounded language agents. Advances in Neural Information Processing Systems, 35: 20744--20757, 2022.",
+      "metadata": {
+        "title": "Webshop: Towards scalable real-world web interaction with grounded language agents",
+        "authors": [
+          "Shunyu Yao",
+          "Howard Chen",
+          "John Yang",
+          "Karthik Narasimhan"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yao2024tree",
+      "rawKey": "yao2024tree",
+      "display": "[91]",
+      "raw": "Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Tom Griffiths, Yuan Cao, and Karthik Narasimhan. Tree of thoughts: Deliberate problem solving with large language models. Advances in Neural Information Processing Systems, 36, 2024.",
+      "metadata": {
+        "title": "Tree of thoughts: Deliberate problem solving with large language models",
+        "authors": [
+          "Shunyu Yao",
+          "Dian Yu",
+          "Jeffrey Zhao",
+          "Izhak Shafran",
+          "Tom Griffiths",
+          "Yuan Cao",
+          "Karthik Narasimhan"
+        ],
+        "year": 2024,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "localMatch": {
+        "paperPath": "papers/Agent规划/2305.10601",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yu2023scaling",
+      "rawKey": "yu2023scaling",
+      "display": "[92]",
+      "raw": "Lili Yu, Bowen Shi, Ramakanth Pasunuru, Benjamin Muller, Olga Golovneva, Tianlu Wang, Arun Babu, Binh Tang, Brian Karrer, Shelly Sheynin, et al. Scaling autoregressive multi-modal models: Pretraining and instruction tuning. arXiv preprint arXiv:2309.02591, 2 (3), 2023.",
+      "metadata": {
+        "title": "Scaling autoregressive multi-modal models: Pretraining and instruction tuning",
+        "authors": [
+          "Lili Yu",
+          "Bowen Shi",
+          "Ramakanth Pasunuru",
+          "Benjamin Muller",
+          "Olga Golovneva",
+          "Tianlu Wang",
+          "Arun Babu",
+          "Binh Tang",
+          "Brian Karrer",
+          "Shelly Sheynin"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2309.02591",
+        "arxivId": "2309.02591"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zang2024overcoming",
+      "rawKey": "zang2024overcoming",
+      "display": "[93]",
+      "raw": "Yuhang Zang, Hanlin Goh, Josh Susskind, and Chen Huang. Overcoming the pitfalls of vision-language model finetuning for ood generalization. arXiv preprint arXiv:2401.15914, 2024.",
+      "metadata": {
+        "title": "Overcoming the Pitfalls of Vision-Language Model Finetuning for OOD Generalization",
+        "authors": [
+          "Yuhang Zang",
+          "Hanlin Goh",
+          "Josh Susskind",
+          "Chen Huang"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2401.15914",
+        "arxivId": "2401.15914"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhou2023webarena",
+      "rawKey": "zhou2023webarena",
+      "display": "[94]",
+      "raw": "Shuyan Zhou, Frank F Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, et al. Webarena: A realistic web environment for building autonomous agents. arXiv preprint arXiv:2307.13854, 2023.",
+      "metadata": {
+        "title": "Webarena: A realistic web environment for building autonomous agents",
+        "authors": [
+          "Shuyan Zhou",
+          "Frank F Xu",
+          "Hao Zhu",
+          "Xuhui Zhou",
+          "Robert Lo",
+          "Abishek Sridhar",
+          "Xianyi Cheng",
+          "Tianyue Ou",
+          "Yonatan Bisk",
+          "Daniel Fried"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2307.13854",
+        "arxivId": "2307.13854"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 94 entries (bbl)",
+    "semantic scholar failed: network: error sending request for url (https://api.semanticscholar.org/graph/v1/paper/ARXIV%3A2411.13543/references?fields=title,authors,year,venue,publicationVenue,journal,externalIds,url&limit=1000)",
+    "crossref failed: not found"
+  ]
+}

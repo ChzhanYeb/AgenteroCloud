@@ -1,0 +1,1306 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:48:03.582Z",
+    "fingerprint": "7e6318f783553e6ea600180adecdf60c9c679c066368db443355232f1775b7f4"
+  },
+  "citations": [
+    {
+      "id": "cite-abadi2016tensorflow",
+      "rawKey": "abadi2016tensorflow",
+      "display": "[1]",
+      "raw": "Martn Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Geoffrey Irving, Michael Isard, et al. Tensorflow: A system for large-scale machine learning. In 12th ${$USENIX$}$ symposium on operating systems design and implementation (${$OSDI$}$ 16), pages 265--283, 2016.",
+      "metadata": {
+        "title": "Tensorflow: A system for large-scale machine learning",
+        "authors": [
+          "Martn Abadi",
+          "Paul Barham",
+          "Jianmin Chen",
+          "Zhifeng Chen",
+          "Andy Davis",
+          "Jeffrey Dean",
+          "Matthieu Devin",
+          "Sanjay Ghemawat",
+          "Geoffrey Irving",
+          "Michael Isard"
+        ],
+        "year": 2016,
+        "venue": "12th ${$USENIX$}$ symposium on operating systems design and implementation (${$OSDI$}$ 16)"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-beltagy2020longformer",
+      "rawKey": "beltagy2020longformer",
+      "display": "[2]",
+      "raw": "Iz Beltagy, Matthew E Peters, and Arman Cohan. Longformer: The long-document transformer. arXiv preprint arXiv:2004.05150, 2020.",
+      "metadata": {
+        "title": "Longformer: The long-document transformer",
+        "authors": [
+          "Iz Beltagy",
+          "Matthew E Peters",
+          "Arman Cohan"
+        ],
+        "year": 2004,
+        "venue": "arXiv preprint arXiv:2004.05150",
+        "arxivId": "2004.05150"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-berant2013semantic",
+      "rawKey": "berant2013semantic",
+      "display": "[3]",
+      "raw": "Jonathan Berant, Andrew Chou, Roy Frostig, and Percy Liang. Semantic parsing on freebase from question-answer pairs. In Proceedings of the 2013 conference on empirical methods in natural language processing, pages 1533--1544, 2013.",
+      "metadata": {
+        "title": "Semantic parsing on freebase from question-answer pairs",
+        "authors": [
+          "Jonathan Berant",
+          "Andrew Chou",
+          "Roy Frostig",
+          "Percy Liang"
+        ],
+        "year": 2013,
+        "venue": "Proceedings of the 2013 conference on empirical methods in natural language processing"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-brown2020language",
+      "rawKey": "brown2020language",
+      "display": "[4]",
+      "raw": "Tom B Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Language models are few-shot learners. arXiv preprint arXiv:2005.14165, 2020.",
+      "metadata": {
+        "title": "Language models are few-shot learners",
+        "authors": [
+          "Tom B Brown",
+          "Benjamin Mann",
+          "Nick Ryder",
+          "Melanie Subbiah",
+          "Jared Kaplan",
+          "Prafulla Dhariwal",
+          "Arvind Neelakantan",
+          "Pranav Shyam",
+          "Girish Sastry",
+          "Amanda Askell"
+        ],
+        "year": 2005,
+        "venue": "arXiv preprint arXiv:2005.14165",
+        "arxivId": "2005.14165"
+      },
+      "localMatch": {
+        "paperPath": "papers/2005.14165",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-child2019generating",
+      "rawKey": "child2019generating",
+      "display": "[5]",
+      "raw": "Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers. arXiv preprint arXiv:1904.10509, 2019.",
+      "metadata": {
+        "title": "Generating long sequences with sparse transformers",
+        "authors": [
+          "Rewon Child",
+          "Scott Gray",
+          "Alec Radford",
+          "Ilya Sutskever"
+        ],
+        "year": 1904,
+        "venue": "arXiv preprint arXiv:1904.10509",
+        "arxivId": "1904.10509"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cho2014exponentially",
+      "rawKey": "cho2014exponentially",
+      "display": "[6]",
+      "raw": "Kyunghyun Cho and Yoshua Bengio. Exponentially increasing the capacity-to-computation ratio for conditional computation in deep learning. arXiv preprint arXiv:1406.7362, 2014.",
+      "metadata": {
+        "title": "Exponentially increasing the capacity-to-computation ratio for conditional computation in deep learning",
+        "authors": [
+          "Kyunghyun Cho",
+          "Yoshua Bengio"
+        ],
+        "year": 2014,
+        "venue": "arXiv preprint arXiv:1406.7362",
+        "arxivId": "1406.7362"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-clark2018think",
+      "rawKey": "clark2018think",
+      "display": "[7]",
+      "raw": "Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and Oyvind Tafjord. Think you have solved question answering? try arc, the ai2 reasoning challenge. arXiv preprint arXiv:1803.05457, 2018.",
+      "metadata": {
+        "title": "Think you have solved question answering? try arc, the ai2 reasoning challenge",
+        "authors": [
+          "Peter Clark",
+          "Isaac Cowhey",
+          "Oren Etzioni",
+          "Tushar Khot",
+          "Ashish Sabharwal",
+          "Carissa Schoenick",
+          "Oyvind Tafjord"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1803.05457",
+        "arxivId": "1803.05457"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-correia2019adaptively",
+      "rawKey": "correia2019adaptively",
+      "display": "[8]",
+      "raw": "Goncalo M Correia, Vlad Niculae, and Andre FT Martins. Adaptively sparse transformers. arXiv preprint arXiv:1909.00015, 2019.",
+      "metadata": {
+        "title": "Adaptively sparse transformers",
+        "authors": [
+          "Goncalo M Correia",
+          "Vlad Niculae",
+          "Andre FT Martins"
+        ],
+        "year": 1909,
+        "venue": "arXiv preprint arXiv:1909.00015",
+        "arxivId": "1909.00015"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-devlin2018bert",
+      "rawKey": "devlin2018bert",
+      "display": "[9]",
+      "raw": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805, 2018.",
+      "metadata": {
+        "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+        "authors": [
+          "Jacob Devlin",
+          "Ming-Wei Chang",
+          "Kenton Lee",
+          "Kristina Toutanova"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1810.04805",
+        "arxivId": "1810.04805"
+      },
+      "localMatch": {
+        "paperPath": "papers/1810.04805",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-eigen2013learning",
+      "rawKey": "eigen2013learning",
+      "display": "[10]",
+      "raw": "David Eigen, Marc'Aurelio Ranzato, and Ilya Sutskever. Learning factored representations in a deep mixture of experts. arXiv preprint arXiv:1312.4314, 2013.",
+      "metadata": {
+        "title": "Learning factored representations in a deep mixture of experts",
+        "authors": [
+          "David Eigen",
+          "Marc'Aurelio Ranzato",
+          "Ilya Sutskever"
+        ],
+        "year": 2013,
+        "venue": "arXiv preprint arXiv:1312.4314",
+        "arxivId": "1312.4314"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fan2021beyond",
+      "rawKey": "fan2021beyond",
+      "display": "[11]",
+      "raw": "Angela Fan, Shruti Bhosale, Holger Schwenk, Zhiyi Ma, Ahmed El-Kishky, Siddharth Goyal, Mandeep Baines, Onur Celebi, Guillaume Wenzek, Vishrav Chaudhary, et al. Beyond english-centric multilingual machine translation. Journal of Machine Learning Research, 22 (107): 1--48, 2021.",
+      "metadata": {
+        "title": "Beyond english-centric multilingual machine translation",
+        "authors": [
+          "Angela Fan",
+          "Shruti Bhosale",
+          "Holger Schwenk",
+          "Zhiyi Ma",
+          "Ahmed El-Kishky",
+          "Siddharth Goyal",
+          "Mandeep Baines",
+          "Onur Celebi",
+          "Guillaume Wenzek",
+          "Vishrav Chaudhary"
+        ],
+        "year": 2021,
+        "venue": "Journal of Machine Learning Research"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fedus2018maskgan",
+      "rawKey": "fedus2018maskgan",
+      "display": "[12]",
+      "raw": "William Fedus, Ian Goodfellow, and Andrew M Dai. Maskgan: Better text generation via filling in the_. arXiv preprint arXiv:1801.07736, 2018.",
+      "metadata": {
+        "title": "MaskGAN: Better text generation via filling in the_",
+        "authors": [
+          "William Fedus",
+          "Ian Goodfellow",
+          "Andrew M Dai"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1801.07736",
+        "arxivId": "1801.07736"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gale2020sparse",
+      "rawKey": "gale2020sparse",
+      "display": "[13]",
+      "raw": "Trevor Gale, Matei Zaharia, Cliff Young, and Erich Elsen. Sparse gpu kernels for deep learning. arXiv preprint arXiv:2006.10901, 2020.",
+      "metadata": {
+        "title": "Sparse GPU Kernels for Deep Learning",
+        "authors": [
+          "Trevor Gale",
+          "Matei Zaharia",
+          "Cliff Young",
+          "Erich Elsen"
+        ],
+        "year": 2006,
+        "venue": "arXiv preprint arXiv:2006.10901",
+        "arxivId": "2006.10901"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gray2017gpu",
+      "rawKey": "gray2017gpu",
+      "display": "[14]",
+      "raw": "Scott Gray, Alec Radford, and Diederik P Kingma. Gpu kernels for block-sparse weights. https://openai.com/blog/block-sparse-gpu-kernels/, 2017.",
+      "metadata": {
+        "title": "Gpu kernels for block-sparse weights",
+        "authors": [
+          "Scott Gray",
+          "Alec Radford",
+          "Diederik P Kingma"
+        ],
+        "year": 2017,
+        "venue": "https://openai.com/blog/block-sparse-gpu-kernels/",
+        "url": "https://openai.com/blog/block-sparse-gpu-kernels/"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-guu2020realm",
+      "rawKey": "guu2020realm",
+      "display": "[15]",
+      "raw": "Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. Realm: Retrieval-augmented language model pre-training. arXiv preprint arXiv:2002.08909, 2020.",
+      "metadata": {
+        "title": "Realm: Retrieval-augmented language model pre-training",
+        "authors": [
+          "Kelvin Guu",
+          "Kenton Lee",
+          "Zora Tung",
+          "Panupong Pasupat",
+          "Ming-Wei Chang"
+        ],
+        "year": 2002,
+        "venue": "arXiv preprint arXiv:2002.08909",
+        "arxivId": "2002.08909"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-harlap2018pipedream",
+      "rawKey": "harlap2018pipedream",
+      "display": "[16]",
+      "raw": "Aaron Harlap, Deepak Narayanan, Amar Phanishayee, Vivek Seshadri, Nikhil Devanur, Greg Ganger, and Phil Gibbons. Pipedream: Fast and efficient pipeline parallel dnn training. arXiv preprint arXiv:1806.03377, 2018.",
+      "metadata": {
+        "title": "Pipedream: Fast and efficient pipeline parallel dnn training",
+        "authors": [
+          "Aaron Harlap",
+          "Deepak Narayanan",
+          "Amar Phanishayee",
+          "Vivek Seshadri",
+          "Nikhil Devanur",
+          "Greg Ganger",
+          "Phil Gibbons"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1806.03377",
+        "arxivId": "1806.03377"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cnn2015moritz",
+      "rawKey": "cnn2015moritz",
+      "display": "[17]",
+      "raw": "Karl Moritz Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom. Teaching machines to read and comprehend. In C. Cortes, N. Lawrence, D. Lee, M. Sugiyama, and R. Garnett, editors, Advances in Neural Information Processing Systems, volume 28, pages 1693--1701. Curran Associates, Inc., 2015. URL https://proceedings.neurips.cc/paper/2015/file/afdec7005cc9f14302cd0474fd0f3c96-Paper.pdf.",
+      "metadata": {
+        "title": "Teaching Machines to Read and Comprehend",
+        "authors": [
+          "Karl Moritz Hermann",
+          "Tomas Kocisky",
+          "Edward Grefenstette",
+          "Lasse Espeholt",
+          "Will Kay",
+          "Mustafa Suleyman",
+          "Phil Blunsom"
+        ],
+        "year": 2015,
+        "venue": "Advances in Neural Information Processing Systems",
+        "url": "https://proceedings.neurips.cc/paper/2015/file/afdec7005cc9f14302cd0474fd0f3c96-Paper.pdf"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hinton2015distilling",
+      "rawKey": "hinton2015distilling",
+      "display": "[18]",
+      "raw": "Geoffrey Hinton, Oriol Vinyals, and Jeff Dean. Distilling the knowledge in a neural network. arXiv preprint arXiv:1503.02531, 2015.",
+      "metadata": {
+        "title": "Distilling the knowledge in a neural network",
+        "authors": [
+          "Geoffrey Hinton",
+          "Oriol Vinyals",
+          "Jeff Dean"
+        ],
+        "year": 2015,
+        "venue": "arXiv preprint arXiv:1503.02531",
+        "arxivId": "1503.02531"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hochreiter1997long",
+      "rawKey": "hochreiter1997long",
+      "display": "[19]",
+      "raw": "Sepp Hochreiter and Jurgen Schmidhuber. Long short-term memory. Neural computation, 9 (8): 1735--1780, 1997.",
+      "metadata": {
+        "title": "Long short-term memory",
+        "authors": [
+          "Sepp Hochreiter",
+          "Jurgen Schmidhuber"
+        ],
+        "year": 1997,
+        "venue": "Neural computation"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hooker2020hardware",
+      "rawKey": "hooker2020hardware",
+      "display": "[20]",
+      "raw": "Sara Hooker. The hardware lottery. arXiv preprint arXiv:2009.06489, 2020.",
+      "metadata": {
+        "title": "The Hardware Lottery",
+        "authors": [
+          "Sara Hooker"
+        ],
+        "year": 2009,
+        "venue": "arXiv preprint arXiv:2009.06489",
+        "arxivId": "2009.06489"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-huang2019gpipe",
+      "rawKey": "huang2019gpipe",
+      "display": "[21]",
+      "raw": "Yanping Huang, Youlong Cheng, Ankur Bapna, Orhan Firat, Dehao Chen, Mia Chen, HyoukJoong Lee, Jiquan Ngiam, Quoc V Le, Yonghui Wu, et al. Gpipe: Efficient training of giant neural networks using pipeline parallelism. In Advances in neural information processing systems, pages 103--112, 2019.",
+      "metadata": {
+        "title": "Gpipe: Efficient training of giant neural networks using pipeline parallelism",
+        "authors": [
+          "Yanping Huang",
+          "Youlong Cheng",
+          "Ankur Bapna",
+          "Orhan Firat",
+          "Dehao Chen",
+          "Mia Chen",
+          "HyoukJoong Lee",
+          "Jiquan Ngiam",
+          "Quoc V Le",
+          "Yonghui Wu"
+        ],
+        "year": 2019,
+        "venue": "Advances in neural information processing systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jacobs1991adaptive",
+      "rawKey": "jacobs1991adaptive",
+      "display": "[22]",
+      "raw": "Robert A Jacobs, Michael I Jordan, Steven J Nowlan, and Geoffrey E Hinton. Adaptive mixtures of local experts. Neural computation, 3 (1): 79--87, 1991.",
+      "metadata": {
+        "title": "Adaptive mixtures of local experts",
+        "authors": [
+          "Robert A Jacobs",
+          "Michael I Jordan",
+          "Steven J Nowlan",
+          "Geoffrey E Hinton"
+        ],
+        "year": 1991,
+        "venue": "Neural computation"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jordan1994hierarchical",
+      "rawKey": "jordan1994hierarchical",
+      "display": "[23]",
+      "raw": "Michael I Jordan and Robert A Jacobs. Hierarchical mixtures of experts and the em algorithm. Neural computation, 6 (2): 181--214, 1994.",
+      "metadata": {
+        "title": "Hierarchical mixtures of experts and the EM algorithm",
+        "authors": [
+          "Michael I Jordan",
+          "Robert A Jacobs"
+        ],
+        "year": 1994,
+        "venue": "Neural computation"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-joshi2017triviaqa",
+      "rawKey": "joshi2017triviaqa",
+      "display": "[24]",
+      "raw": "Mandar Joshi, Eunsol Choi, Daniel S Weld, and Luke Zettlemoyer. Triviaqa: A large scale distantly supervised challenge dataset for reading comprehension. arXiv preprint arXiv:1705.03551, 2017.",
+      "metadata": {
+        "title": "Triviaqa: A large scale distantly supervised challenge dataset for reading comprehension",
+        "authors": [
+          "Mandar Joshi",
+          "Eunsol Choi",
+          "Daniel S Weld",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2017,
+        "venue": "arXiv preprint arXiv:1705.03551",
+        "arxivId": "1705.03551"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kaplan2020scaling",
+      "rawKey": "kaplan2020scaling",
+      "display": "[25]",
+      "raw": "Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020.",
+      "metadata": {
+        "title": "Scaling laws for neural language models",
+        "authors": [
+          "Jared Kaplan",
+          "Sam McCandlish",
+          "Tom Henighan",
+          "Tom B Brown",
+          "Benjamin Chess",
+          "Rewon Child",
+          "Scott Gray",
+          "Alec Radford",
+          "Jeffrey Wu",
+          "Dario Amodei"
+        ],
+        "year": 2001,
+        "venue": "arXiv preprint arXiv:2001.08361",
+        "arxivId": "2001.08361"
+      },
+      "localMatch": {
+        "paperPath": "papers/2001.08361",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kitaev2020reformer",
+      "rawKey": "kitaev2020reformer",
+      "display": "[26]",
+      "raw": "Nikita Kitaev, ukasz Kaiser, and Anselm Levskaya. Reformer: The efficient transformer. arXiv preprint arXiv:2001.04451, 2020.",
+      "metadata": {
+        "title": "Reformer: The efficient transformer",
+        "authors": [
+          "Nikita Kitaev",
+          "ukasz Kaiser",
+          "Anselm Levskaya"
+        ],
+        "year": 2001,
+        "venue": "arXiv preprint arXiv:2001.04451",
+        "arxivId": "2001.04451"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kwiatkowski2019natural",
+      "rawKey": "kwiatkowski2019natural",
+      "display": "[27]",
+      "raw": "Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Jacob Devlin, Kenton Lee, et al. Natural questions: a benchmark for question answering research. Transactions of the Association for Computational Linguistics, 7: 453--466, 2019.",
+      "metadata": {
+        "title": "Natural questions: a benchmark for question answering research",
+        "authors": [
+          "Tom Kwiatkowski",
+          "Jennimaria Palomaki",
+          "Olivia Redfield",
+          "Michael Collins",
+          "Ankur Parikh",
+          "Chris Alberti",
+          "Danielle Epstein",
+          "Illia Polosukhin",
+          "Jacob Devlin",
+          "Kenton Lee"
+        ],
+        "year": 2019,
+        "venue": "Transactions of the Association for Computational Linguistics"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lample2019large",
+      "rawKey": "lample2019large",
+      "display": "[28]",
+      "raw": "Guillaume Lample, Alexandre Sablayrolles, Marc'Aurelio Ranzato, Ludovic Denoyer, and Herve Jegou. Large memory layers with product keys. In Advances in Neural Information Processing Systems, pages 8548--8559, 2019.",
+      "metadata": {
+        "title": "Large memory layers with product keys",
+        "authors": [
+          "Guillaume Lample",
+          "Alexandre Sablayrolles",
+          "Marc'Aurelio Ranzato",
+          "Ludovic Denoyer",
+          "Herve Jegou"
+        ],
+        "year": 2019,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lee2021deduplicating",
+      "rawKey": "lee2021deduplicating",
+      "display": "[29]",
+      "raw": "Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, and Nicholas Carlini. Deduplicating training data makes language models better. arXiv preprint arXiv:2107.06499, 2021.",
+      "metadata": {
+        "title": "Deduplicating training data makes language models better",
+        "authors": [
+          "Katherine Lee",
+          "Daphne Ippolito",
+          "Andrew Nystrom",
+          "Chiyuan Zhang",
+          "Douglas Eck",
+          "Chris Callison-Burch",
+          "Nicholas Carlini"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2107.06499",
+        "arxivId": "2107.06499"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lepikhin2020gshard",
+      "rawKey": "lepikhin2020gshard",
+      "display": "[30]",
+      "raw": "Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang, Maxim Krikun, Noam Shazeer, and Zhifeng Chen. Gshard: Scaling giant models with conditional computation and automatic sharding. arXiv preprint arXiv:2006.16668, 2020.",
+      "metadata": {
+        "title": "Gshard: Scaling giant models with conditional computation and automatic sharding",
+        "authors": [
+          "Dmitry Lepikhin",
+          "HyoukJoong Lee",
+          "Yuanzhong Xu",
+          "Dehao Chen",
+          "Orhan Firat",
+          "Yanping Huang",
+          "Maxim Krikun",
+          "Noam Shazeer",
+          "Zhifeng Chen"
+        ],
+        "year": 2006,
+        "venue": "arXiv preprint arXiv:2006.16668",
+        "arxivId": "2006.16668"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-micikevicius2017mixed",
+      "rawKey": "micikevicius2017mixed",
+      "display": "[31]",
+      "raw": "Paulius Micikevicius, Sharan Narang, Jonah Alben, Gregory Diamos, Erich Elsen, David Garcia, Boris Ginsburg, Michael Houston, Oleksii Kuchaiev, Ganesh Venkatesh, et al. Mixed precision training. arXiv preprint arXiv:1710.03740, 2017.",
+      "metadata": {
+        "title": "Mixed precision training",
+        "authors": [
+          "Paulius Micikevicius",
+          "Sharan Narang",
+          "Jonah Alben",
+          "Gregory Diamos",
+          "Erich Elsen",
+          "David Garcia",
+          "Boris Ginsburg",
+          "Michael Houston",
+          "Oleksii Kuchaiev",
+          "Ganesh Venkatesh"
+        ],
+        "year": 2017,
+        "venue": "arXiv preprint arXiv:1710.03740",
+        "arxivId": "1710.03740"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-narayan2018don",
+      "rawKey": "narayan2018don",
+      "display": "[32]",
+      "raw": "Shashi Narayan, Shay B Cohen, and Mirella Lapata. Don't give me the details, just the summary! topic-aware convolutional neural networks for extreme summarization. arXiv preprint arXiv:1808.08745, 2018.",
+      "metadata": {
+        "title": "Don't give me the details, just the summary! topic-aware convolutional neural networks for extreme summarization",
+        "authors": [
+          "Shashi Narayan",
+          "Shay B Cohen",
+          "Mirella Lapata"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1808.08745",
+        "arxivId": "1808.08745"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-nie2019adversarial",
+      "rawKey": "nie2019adversarial",
+      "display": "[33]",
+      "raw": "Yixin Nie, Adina Williams, Emily Dinan, Mohit Bansal, Jason Weston, and Douwe Kiela. Adversarial nli: A new benchmark for natural language understanding. arXiv preprint arXiv:1910.14599, 2019.",
+      "metadata": {
+        "title": "Adversarial nli: A new benchmark for natural language understanding",
+        "authors": [
+          "Yixin Nie",
+          "Adina Williams",
+          "Emily Dinan",
+          "Mohit Bansal",
+          "Jason Weston",
+          "Douwe Kiela"
+        ],
+        "year": 1910,
+        "venue": "arXiv preprint arXiv:1910.14599",
+        "arxivId": "1910.14599"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-puigcerver2020scalable",
+      "rawKey": "puigcerver2020scalable",
+      "display": "[34]",
+      "raw": "Joan Puigcerver, Carlos Riquelme, Basil Mustafa, Cedric Renggli, Andre Susano Pinto, Sylvain Gelly, Daniel Keysers, and Neil Houlsby. Scalable transfer learning with expert models. arXiv preprint arXiv:2009.13239, 2020.",
+      "metadata": {
+        "title": "Scalable transfer learning with expert models",
+        "authors": [
+          "Joan Puigcerver",
+          "Carlos Riquelme",
+          "Basil Mustafa",
+          "Cedric Renggli",
+          "Andre Susano Pinto",
+          "Sylvain Gelly",
+          "Daniel Keysers",
+          "Neil Houlsby"
+        ],
+        "year": 2009,
+        "venue": "arXiv preprint arXiv:2009.13239",
+        "arxivId": "2009.13239"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-radford2018improving",
+      "rawKey": "radford2018improving",
+      "display": "[35]",
+      "raw": "Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language understanding by generative pre-training, 2018.",
+      "metadata": {
+        "title": "Improving language understanding by generative pre-training",
+        "authors": [
+          "Alec Radford",
+          "Karthik Narasimhan",
+          "Tim Salimans",
+          "Ilya Sutskever"
+        ],
+        "year": 2018
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-raffel2019exploring",
+      "rawKey": "raffel2019exploring",
+      "display": "[36]",
+      "raw": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J Liu. Exploring the limits of transfer learning with a unified text-to-text transformer. arXiv preprint arXiv:1910.10683, 2019.",
+      "metadata": {
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "authors": [
+          "Colin Raffel",
+          "Noam Shazeer",
+          "Adam Roberts",
+          "Katherine Lee",
+          "Sharan Narang",
+          "Michael Matena",
+          "Yanqi Zhou",
+          "Wei Li",
+          "Peter J Liu"
+        ],
+        "year": 1910,
+        "venue": "arXiv preprint arXiv:1910.10683",
+        "arxivId": "1910.10683"
+      },
+      "localMatch": {
+        "paperPath": "papers/1910.10683",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rajbhandari2019zero",
+      "rawKey": "rajbhandari2019zero",
+      "display": "[37]",
+      "raw": "Samyam Rajbhandari, Jeff Rasley, Olatunji Ruwase, and Yuxiong He. Zero: Memory optimization towards training a trillion parameter models. arXiv preprint arXiv:1910.02054, 2019.",
+      "metadata": {
+        "title": "Zero: Memory optimization towards training a trillion parameter models",
+        "authors": [
+          "Samyam Rajbhandari",
+          "Jeff Rasley",
+          "Olatunji Ruwase",
+          "Yuxiong He"
+        ],
+        "year": 1910,
+        "venue": "arXiv preprint arXiv:1910.02054",
+        "arxivId": "1910.02054"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rajpurkar2016squad",
+      "rawKey": "rajpurkar2016squad",
+      "display": "[38]",
+      "raw": "Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang. Squad: 100,000+ questions for machine comprehension of text. arXiv preprint arXiv:1606.05250, 2016.",
+      "metadata": {
+        "title": "Squad: 100,000+ questions for machine comprehension of text",
+        "authors": [
+          "Pranav Rajpurkar",
+          "Jian Zhang",
+          "Konstantin Lopyrev",
+          "Percy Liang"
+        ],
+        "year": 2016,
+        "venue": "arXiv preprint arXiv:1606.05250",
+        "arxivId": "1606.05250"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ramachandran2018diversity",
+      "rawKey": "ramachandran2018diversity",
+      "display": "[39]",
+      "raw": "Prajit Ramachandran and Quoc V Le. Diversity and depth in per-example routing models. In International Conference on Learning Representations, 2018.",
+      "metadata": {
+        "title": "Diversity and depth in per-example routing models",
+        "authors": [
+          "Prajit Ramachandran",
+          "Quoc V Le"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Learning Representations"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-robbins1952some",
+      "rawKey": "robbins1952some",
+      "display": "[40]",
+      "raw": "Herbert Robbins. Some aspects of the sequential design of experiments. Bulletin of the American Mathematical Society, 58 (5): 527--535, 1952.",
+      "metadata": {
+        "title": "Some aspects of the sequential design of experiments",
+        "authors": [
+          "Herbert Robbins"
+        ],
+        "year": 1952,
+        "venue": "Bulletin of the American Mathematical Society"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-roberts2020much",
+      "rawKey": "roberts2020much",
+      "display": "[41]",
+      "raw": "Adam Roberts, Colin Raffel, and Noam Shazeer. How much knowledge can you pack into the parameters of a language model? arXiv preprint arXiv:2002.08910, 2020.",
+      "metadata": {
+        "title": "How Much Knowledge Can You Pack Into the Parameters of a Language Model?",
+        "authors": [
+          "Adam Roberts",
+          "Colin Raffel",
+          "Noam Shazeer"
+        ],
+        "year": 2002,
+        "venue": "arXiv preprint arXiv:2002.08910",
+        "arxivId": "2002.08910"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rosenbaum2017routing",
+      "rawKey": "rosenbaum2017routing",
+      "display": "[42]",
+      "raw": "Clemens Rosenbaum, Tim Klinger, and Matthew Riemer. Routing networks: Adaptive selection of non-linear functions for multi-task learning. arXiv preprint arXiv:1711.01239, 2017.",
+      "metadata": {
+        "title": "Routing networks: Adaptive selection of non-linear functions for multi-task learning",
+        "authors": [
+          "Clemens Rosenbaum",
+          "Tim Klinger",
+          "Matthew Riemer"
+        ],
+        "year": 2017,
+        "venue": "arXiv preprint arXiv:1711.01239",
+        "arxivId": "1711.01239"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sakaguchi2020winogrande",
+      "rawKey": "sakaguchi2020winogrande",
+      "display": "[43]",
+      "raw": "Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. Winogrande: An adversarial winograd schema challenge at scale. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 8732--8740, 2020.",
+      "metadata": {
+        "title": "Winogrande: An adversarial winograd schema challenge at scale",
+        "authors": [
+          "Keisuke Sakaguchi",
+          "Ronan Le Bras",
+          "Chandra Bhagavatula",
+          "Yejin Choi"
+        ],
+        "year": 2020,
+        "venue": "Proceedings of the AAAI Conference on Artificial Intelligence"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sanh2019distilbert",
+      "rawKey": "sanh2019distilbert",
+      "display": "[44]",
+      "raw": "Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf. Distilbert, a distilled version of bert: smaller, faster, cheaper and lighter, 2019.",
+      "metadata": {
+        "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+        "authors": [
+          "Victor Sanh",
+          "Lysandre Debut",
+          "Julien Chaumond",
+          "Thomas Wolf"
+        ],
+        "year": 2019,
+        "arxivId": "1910.01108"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shazeer2020glu",
+      "rawKey": "shazeer2020glu",
+      "display": "[45]",
+      "raw": "Noam Shazeer. Glu variants improve transformer, 2020.",
+      "metadata": {
+        "title": "GLU Variants Improve Transformer",
+        "authors": [
+          "Noam Shazeer"
+        ],
+        "year": 2020,
+        "arxivId": "2002.05202"
+      },
+      "localMatch": {
+        "paperPath": "papers/2002.05202",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shazeer2017outrageously",
+      "rawKey": "shazeer2017outrageously",
+      "display": "[46]",
+      "raw": "Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538, 2017.",
+      "metadata": {
+        "title": "Outrageously large neural networks: The sparsely-gated mixture-of-experts layer",
+        "authors": [
+          "Noam Shazeer",
+          "Azalia Mirhoseini",
+          "Krzysztof Maziarz",
+          "Andy Davis",
+          "Quoc Le",
+          "Geoffrey Hinton",
+          "Jeff Dean"
+        ],
+        "year": 2017,
+        "venue": "arXiv preprint arXiv:1701.06538",
+        "arxivId": "1701.06538"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shazeer2018mesh",
+      "rawKey": "shazeer2018mesh",
+      "display": "[47]",
+      "raw": "Noam Shazeer, Youlong Cheng, Niki Parmar, Dustin Tran, Ashish Vaswani, Penporn Koanantakool, Peter Hawkins, HyoukJoong Lee, Mingsheng Hong, Cliff Young, et al. Mesh-tensorflow: Deep learning for supercomputers. In Advances in Neural Information Processing Systems, pages 10414--10423, 2018.",
+      "metadata": {
+        "title": "Mesh-tensorflow: Deep learning for supercomputers",
+        "authors": [
+          "Noam Shazeer",
+          "Youlong Cheng",
+          "Niki Parmar",
+          "Dustin Tran",
+          "Ashish Vaswani",
+          "Penporn Koanantakool",
+          "Peter Hawkins",
+          "HyoukJoong Lee",
+          "Mingsheng Hong",
+          "Cliff Young"
+        ],
+        "year": 2018,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shoeybi2019megatron",
+      "rawKey": "shoeybi2019megatron",
+      "display": "[48]",
+      "raw": "Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and Bryan Catanzaro. Megatron-lm: Training multi-billion parameter language models using gpu model parallelism. arXiv preprint arXiv:1909.08053, 2019.",
+      "metadata": {
+        "title": "Megatron-lm: Training multi-billion parameter language models using gpu model parallelism",
+        "authors": [
+          "Mohammad Shoeybi",
+          "Mostofa Patwary",
+          "Raul Puri",
+          "Patrick LeGresley",
+          "Jared Casper",
+          "Bryan Catanzaro"
+        ],
+        "year": 1909,
+        "venue": "arXiv preprint arXiv:1909.08053",
+        "arxivId": "1909.08053"
+      },
+      "localMatch": {
+        "paperPath": "papers/1909.08053",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-srivastava2014dropout",
+      "rawKey": "srivastava2014dropout",
+      "display": "[49]",
+      "raw": "Nitish Srivastava, Geoffrey E. Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. Dropout: a simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15 (1): 1929--1958, 2014. URL http://www.cs.toronto.edu/ rsalakhu/papers/srivastava14a.pdf.",
+      "metadata": {
+        "title": "Dropout: a simple way to prevent neural networks from overfitting.",
+        "authors": [
+          "Nitish Srivastava",
+          "Geoffrey E. Hinton",
+          "Alex Krizhevsky",
+          "Ilya Sutskever",
+          "Ruslan Salakhutdinov"
+        ],
+        "year": 1929,
+        "venue": "Journal of Machine Learning Research",
+        "url": "http://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-strubell2019energy",
+      "rawKey": "strubell2019energy",
+      "display": "[50]",
+      "raw": "Emma Strubell, Ananya Ganesh, and Andrew McCallum. Energy and policy considerations for deep learning in nlp. arXiv preprint arXiv:1906.02243, 2019.",
+      "metadata": {
+        "title": "Energy and policy considerations for deep learning in NLP",
+        "authors": [
+          "Emma Strubell",
+          "Ananya Ganesh",
+          "Andrew McCallum"
+        ],
+        "year": 1906,
+        "venue": "arXiv preprint arXiv:1906.02243",
+        "arxivId": "1906.02243"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sukhbaatar2019adaptive",
+      "rawKey": "sukhbaatar2019adaptive",
+      "display": "[51]",
+      "raw": "Sainbayar Sukhbaatar, Edouard Grave, Piotr Bojanowski, and Armand Joulin. Adaptive attention span in transformers. arXiv preprint arXiv:1905.07799, 2019.",
+      "metadata": {
+        "title": "Adaptive attention span in transformers",
+        "authors": [
+          "Sainbayar Sukhbaatar",
+          "Edouard Grave",
+          "Piotr Bojanowski",
+          "Armand Joulin"
+        ],
+        "year": 1905,
+        "venue": "arXiv preprint arXiv:1905.07799",
+        "arxivId": "1905.07799"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sutton19",
+      "rawKey": "sutton19",
+      "display": "[52]",
+      "raw": "Rich Sutton. The Bitter Lesson. http://www.incompleteideas.net/IncIdeas/BitterLesson.html, 2019.",
+      "metadata": {
+        "title": "The Bitter Lesson",
+        "authors": [
+          "Rich Sutton"
+        ],
+        "year": 2019,
+        "venue": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+        "url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sutton2018reinforcement",
+      "rawKey": "sutton2018reinforcement",
+      "display": "[53]",
+      "raw": "Richard S Sutton and Andrew G Barto. Reinforcement learning: An introduction. Stanford University, 2018.",
+      "metadata": {
+        "title": "Reinforcement learning: An introduction",
+        "authors": [
+          "Richard S Sutton",
+          "Andrew G Barto"
+        ],
+        "year": 2018
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-taylor1953cloze",
+      "rawKey": "taylor1953cloze",
+      "display": "[54]",
+      "raw": "Wilson L Taylor. âloze procedureâ A new tool for measuring readability. Journalism quarterly, 30 (4): 415--433, 1953.",
+      "metadata": {
+        "title": "âloze procedureâ A new tool for measuring readability",
+        "authors": [
+          "Wilson L Taylor"
+        ],
+        "year": 1953,
+        "venue": "Journalism quarterly"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vaswani2017attention",
+      "rawKey": "vaswani2017attention",
+      "display": "[55]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processing systems, pages 5998--6008, 2017.",
+      "metadata": {
+        "title": "Attention is all you need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "Niki Parmar",
+          "Jakob Uszkoreit",
+          "Llion Jones",
+          "Aidan N Gomez",
+          "ukasz Kaiser",
+          "Illia Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Advances in neural information processing systems"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2018glue",
+      "rawKey": "wang2018glue",
+      "display": "[56]",
+      "raw": "Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R Bowman. Glue: A multi-task benchmark and analysis platform for natural language understanding. arXiv preprint arXiv:1804.07461, 2018.",
+      "metadata": {
+        "title": "Glue: A multi-task benchmark and analysis platform for natural language understanding",
+        "authors": [
+          "Alex Wang",
+          "Amanpreet Singh",
+          "Julian Michael",
+          "Felix Hill",
+          "Omer Levy",
+          "Samuel R Bowman"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1804.07461",
+        "arxivId": "1804.07461"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2019superglue",
+      "rawKey": "wang2019superglue",
+      "display": "[57]",
+      "raw": "Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. Superglue: A stickier benchmark for general-purpose language understanding systems. In Advances in Neural Information Processing Systems, pages 3266--3280, 2019.",
+      "metadata": {
+        "title": "Superglue: A stickier benchmark for general-purpose language understanding systems",
+        "authors": [
+          "Alex Wang",
+          "Yada Pruksachatkun",
+          "Nikita Nangia",
+          "Amanpreet Singh",
+          "Julian Michael",
+          "Felix Hill",
+          "Omer Levy",
+          "Samuel Bowman"
+        ],
+        "year": 2019,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2019bfloat16",
+      "rawKey": "wang2019bfloat16",
+      "display": "[58]",
+      "raw": "Shibo Wang and Pankaj Kanwar. Bfloat16: The secret to high performance on cloud tpus. Google Cloud Blog, 2019.",
+      "metadata": {
+        "title": "BFloat16: The secret to high performance on Cloud TPUs",
+        "authors": [
+          "Shibo Wang",
+          "Pankaj Kanwar"
+        ],
+        "year": 2019,
+        "venue": "Google Cloud Blog"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xue2020mt5",
+      "rawKey": "xue2020mt5",
+      "display": "[59]",
+      "raw": "Linting Xue, Noah Constant, Adam Roberts, Mihir Kale, Rami Al-Rfou, Aditya Siddhant, Aditya Barua, and Colin Raffel. mt5: A massively multilingual pre-trained text-to-text transformer. arXiv preprint arXiv:2010.11934, 2020.",
+      "metadata": {
+        "title": "mT5: A massively multilingual pre-trained text-to-text transformer",
+        "authors": [
+          "Linting Xue",
+          "Noah Constant",
+          "Adam Roberts",
+          "Mihir Kale",
+          "Rami Al-Rfou",
+          "Aditya Siddhant",
+          "Aditya Barua",
+          "Colin Raffel"
+        ],
+        "year": 2010,
+        "venue": "arXiv preprint arXiv:2010.11934",
+        "arxivId": "2010.11934"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yang2020xlnet",
+      "rawKey": "yang2020xlnet",
+      "display": "[60]",
+      "raw": "Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, and Quoc V. Le. Xlnet: Generalized autoregressive pretraining for language understanding, 2020.",
+      "metadata": {
+        "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+        "authors": [
+          "Zhilin Yang",
+          "Zihang Dai",
+          "Yiming Yang",
+          "Jaime Carbonell",
+          "Ruslan Salakhutdinov",
+          "Quoc V. Le"
+        ],
+        "year": 2020,
+        "arxivId": "1906.08237"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zaheer2020big",
+      "rawKey": "zaheer2020big",
+      "display": "[61]",
+      "raw": "Manzil Zaheer, Guru Guruganesh, Avinava Dubey, Joshua Ainslie, Chris Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang, et al. Big bird: Transformers for longer sequences. arXiv preprint arXiv:2007.14062, 2020.",
+      "metadata": {
+        "title": "Big bird: Transformers for longer sequences",
+        "authors": [
+          "Manzil Zaheer",
+          "Guru Guruganesh",
+          "Avinava Dubey",
+          "Joshua Ainslie",
+          "Chris Alberti",
+          "Santiago Ontanon",
+          "Philip Pham",
+          "Anirudh Ravula",
+          "Qifan Wang",
+          "Li Yang"
+        ],
+        "year": 2007,
+        "venue": "arXiv preprint arXiv:2007.14062",
+        "arxivId": "2007.14062"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 61 entries (bbl)",
+    "semantic scholar failed: rate limited"
+  ]
+}

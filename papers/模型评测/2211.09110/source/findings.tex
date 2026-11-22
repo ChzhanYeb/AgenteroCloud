@@ -1,0 +1,138 @@
+\hypertarget{findings}{\subsection{Empirical findings}}
+\label{sec:findings}
+To give a sense of the magnitude of our evaluation, we ran a total of \numrunresults runs (\ie evaluating a specific model on a specific scenario).
+% , which are all available at \benchmarkUrlRuns.
+This amounts to a total cost of \totaltokens tokens and 
+\totalqueries queries across all models, 
+\$\totaldollars for the commercial APIs, and about \totalgpuhours \gpuhours worth of compute for the open models. \\
+
+\noindent Here is a summary of the high-level findings:
+\begin{enumerate}
+    \item \textbf{The benefits of instruction-tuning.}
+    Across the \core scenarios, we find that \instructdavinci performs best on our accuracy, robustness, and fairness metrics, with \anthropic being in the top 3 for all 3 metrics (despite being more than 10$\times$ smaller in model scale compared to \mtnlgfivethreezero, which is the second most accurate and fair) as shown in \reffig{head-to-head}. 
+    Given the very strong performance of both models, and that they are the only instruction-tuned models we evaluate (beyond the much smaller OpenAI model variants), this suggests instruction-tuning provides a broad set of advantages.
+
+    \item \textbf{Relating model accuracy with model access.}
+    In light of the high accuracies of \anthropic (closed), \mtnlgfivethreezero (closed), and \instructdavinci (limited-access), we observe a consistent gap on all \core scenarios (\reffig{accuracy-vs-access}) between the current open models and non-open models.
+    We emphasize that this gap reflects the current snapshot of models we evaluate (\reftab{models}), and that the gap could grow or shrink over time as new models are released.
+    On one hand, we see the recent release of open models (\optonesevenfive, \bloom, \glm) as greatly reducing the gap over the past year, but we also have not evaluated some non-open models (\eg PaLM, Gopher) that we expect to be quite accurate.
+    In either case, monitoring this gap over time is crucial for 
+    tracking the accessibility (or lack thereof) and ultimately the power dynamics associated with language models.
+    
+    \item \textbf{Calibration.}
+    We observe that the relationship between accuracy and calibration (\refsec{metrics-calibration}) depends on the scenario and adaptation procedure (\reffig{acc-X}, \reffig{inter-metric-correlations}).
+    As an example, for \hellaswag,\footnote{See \benchmarkUrlPrefix{hellaswag}.} improving accuracy worsens calibration,
+    whereas for \openbookqa,\footnote{See \benchmarkUrlPrefix{openbookqa}.} improving accuracy improves calibration.
+    
+    \item \textbf{Robustness and fairness perturbations.}
+    Across all scenarios, we observe strong correlations between accuracy, robustness, and fairness, where robustness and fairness metrics consider worst-case accuracy over a set of perturbations (\eg typos for robustness, dialect alteration for fairness)---see \refsecs{metrics-robustness}{metrics-fairness} for more details.
+     While there is a strong correlation between accuracy and fairness (\reffig{acc-X}, \reffig{inter-metric-correlations}), we do observe trade-offs where the most accurate model is not the most robust or most fair.
+    We also see serious drops in some cases: for example, on \narrativeqa, \mtnlgfivethreezero precipitously drops from 72.6\% standard accuracy (\ie the third-most accurate model) to 38.9\% accuracy in the presence of robustness perturbations.\footnote{See \benchmarkUrlPrefix{narrative_qa}.}
+    
+    \item \textbf{Performance disparities.}
+    When we have access to demographic metadata, we generally see consistent performance disparities for all models. 
+    As an example of racialized dialect disparities, \optonesevenfive is the most accurate model on \twitteraae but its accuracy degrades from 1.506 bits per byte for White English to 2.114 bits per byte for African American English (lower is better).\footnote{See \benchmarkUrlPrefix{twitter_aae}.}
+    
+    \item \textbf{Generative harms.}
+    We find that the biases and toxicity in model generations are largely constant across models and low overall on average for the \core scenarios (\reffig{acc-X}).
+    However, note that even low levels of bias or toxicity could cause non-trivial social harm, and targeted evaluations are needed to obtain a more detailed characterization (\refsecs{targeted-bias}{targeted-toxicity}).
+    
+    \item \textbf{Accuracy vs. efficiency.}
+    We do not see a strong trade-off between accuracy and efficiency (which depends on both the model architecture and the hardware, see \refsec{metrics-efficiency}) across all \nummodels models (\reffig{acc-X}).
+    For each family of models (\eg different size variants of GPT-3), we find that as models become larger, accuracy consistently improves but with higher training and inference cost.\footnote{See \benchmarkUrlPrefix{core_scenarios\#Efficiency}.}
+    Overall, we observe that only a subset of all models (across model families) are on the accuracy-efficiency Pareto frontier for each scenario.
+
+    \item \textbf{Question answering.}
+    Across the 9 \core question answering scenarios (\refsec{questionAnswering}), we observe significant heterogeneity in results, though \instructdavinci is the most accurate model for all 9 scenarios.\footnote{See \benchmarkUrlPrefix{question_answering}.}
+    In fact, for 6 of the 9 scenarios, there is no open model among the three most accurate models, as generally they are \instructdavinci, \anthropic, and \mtnlgfivethreezero in descending order of accuracy.
+    
+    \item \textbf{Information retrieval.}
+    We consider the classic task of ranking candidate passages given a query (\refsec{informationRetrieval}).
+    The best-performing models we evaluate outperform classical retrieval methods and under some settings perform comparably to various fine-tuned neural retrievers, while nonetheless trailing the state of the art.\footnote{See \benchmarkUrlPrefix{information_retrieval}.}
+    Because the number of candidates could be large,
+    we create a LM request per passage, which requires
+    the model to produce calibrated probabilities.
+    Our use of LMs for passage ranking is unorthodox,
+    and computationally intensive in its naive implementation,
+    but we include it as a proof of concept.
+    %These promising results highlight some key challenges in ranking tasks. Information retrieval (IR) requires sorting documents by relevance to a query, demanding calibrated assessments of relevance \textit{across} documents.
+    %Naively, IR also requires prompting language models numerous times per query (\ie for each document), which---at current latencies---would be sufficiently fast for typical applications only whenever parallelization across documents is cost-effective.
+    
+    \item \textbf{Summarization.}
+    \cnndm and \xsum have been standard benchmarks for summarization for many years, but we find that automated evaluations on these datasets largely fail to discriminate differences we observed in model quality.
+    % Removed for TMLR
+    % the official reference summaries in these datasets are outperformed by generated model summaries in human evaluations, especially for faithfulness (\reftab{summarization-human-evaluation}).
+    % Overall, we believe summarization benchmarks (along with metrics) must be improved by incorporating high-quality, human-written summaries (\refsec{missing-scenarios}), so that we can draw meaningful conclusions on the effect of in-context learning, instruction tuning, and fine-tuning (see \refsec{human-evaluation-summarization}).
+    
+    \item \textbf{Sentiment analysis.}
+    For sentiment analysis on \imdb, many models are quite accurate and well-calibrated with marginal drops on robustness and fairness perturbations, but the contrast sets of \citet{gardner2020contrast} highlight clear limitations in model robustness (\eg one of the most accurate models in \glm drops by more than 8\%).\footnote{See \benchmarkUrlPrefix{sentiment_analysis} and \benchmarkUrlPrefix{robustness_contrast_sets}.} 
+    
+    \item \textbf{Toxicity detection.}
+    For toxicity detection on \civilcomments, we find that most models are not particularly accurate: \optonesevenfive is one of the most accurate models across all scenarios (\reffig{head-to-head}), but achieves essentially chance accuracy at 50.1\%.\footnote{See \benchmarkUrlPrefix{civil_comments}.}
+    Critically, given the importance of fairness in toxicity detection due the disparate impacts of content moderation, we find that most models are similarly accurate for detecting toxicity in comments mentioning Black and White individuals.
+    However, models vary greatly in their robustness: \optonesevenfive drops from 51.3\% standard accuracy to 8.8\% robust accuracy on the Black split, whereas the drop is less precipitous on the White split (50.8\% to 24.3\%). 
+    
+    \item \textbf{Miscellaneous text classification.}
+    For text classification on \raft, we see significant heterogeneity in which models do well on which subsets/tasks.\footnote{See \benchmarkUrlPrefix{raft}.}
+    \instructdavinci is consistently accurate across splits when compared with other models, but performs very poorly on the Systematic Review Inclusion split with an accuracy of 40.8\% compared to 97.5\% from several models (\eg \glm). 
+    
+    \item \textbf{Linguistic understanding.}
+    The trends in accuracy for language modeling\footnote{See \benchmarkUrlPrefix{language\#Accuracy}.} are quite different from the trends for the \core scenarios (\reffig{head-to-head}) .
+    In particular, \gptneox, \optonesevenfive, \bloom, \gptj, and \optsixsix consistently have the lowest bits-per-byte (lower is better) on \pile, \twitteraae, and \ice. 
+    In terms of linguistic phenomena, all models perform fairly similarly on \blimp overall, and further perform very similarly even on each of the specific subsets for morphology, syntax, semantics, and syntax-semantics.
+    We see the widest spread on irregular forms (morphology), where surprisingly the models that tend to be the most accurate for core scenarios (\ie \instructdavinci, \mtnlgfivethreezero) are some of the least accurate for irregular forms, perhaps suggesting they have overgeneralized particular linguistic rules.\footnote{See \benchmarkUrlPrefix{blimp\#phenomenon:\%20irregular_forms}.}
+    
+    \item \textbf{Knowledge.}
+    \instructdavinci demonstrates superior performance for all knowledge-intensive evaluations,\footnote{See \benchmarkUrlPrefix{knowledge\#Accuracy}.} with a very sizable gap for accuracy on \truthfulqa of 62.0\% compared to second place of 36.2\% from \anthropic.\footnote{See \benchmarkUrlPrefix{truthful_qa}.    
+    We note this is especially interesting given the projections of model accuracy by \citet{evans2022truthfulqa}, though we note our results are for \numincontext-shot learning whereas their projections are for 0-shot learning.}
+    Further, \mtnlgfivethreezero shows strong performance on the highly knowledge-intensive \naturalquestions (closed-book) and \wikifact scenarios, which generally concurs with the hypothesis that model scale especially contributes to improvements in acquisition of factual knowledge.
+    For example, \anthropic and \mtnlgfivethreezero tend to get very similar accuracies for most scenarios (as suggested by \reffig{head-to-head}), but \mtnlgfivethreezero demonstrates a wide margin for these two scenarios (38.5\% vs. 28.7\% for \naturalquestions (closed-book), 34.3\% vs. 22.3\% for \wikifact). 
+    
+    \item \textbf{Reasoning.}
+    For reasoning-intensive scenarios, we find that the code models, especially \davincicodex, consistently outperform the text models, even on synthetic reasoning scenarios posed in natural language.\footnote{See \benchmarkUrlPrefix{reasoning\#Accuracy}.}
+    This gap is made clear in mathematical reasoning: for \gsm, \davincicodex achieves an accuracy of 52.1\%, where the next best model is \instructdavinci at 35.0\% and no other model surpasses 16\%.\footnote{See \benchmarkUrlPrefix{gsm}.} 
+    Further, in addition to \davincicodex, \instructdavinci is much more accurate than other text models (\eg 65.1\% accuracy on synthetic reasoning in natural language, whereas the next most accurate text model is \optonesevenfive at 29.4\% accuracy, and \davincicodex has an accuracy of 72.7\%). 
+    
+    \item \textbf{Memorization of copyrighted/licensed material.}
+    We find that the likelihood of direct regurgitation of long copyrighted sequences is somewhat uncommon, but it does become noticeable when looking at popular books.\footnote{See \benchmarkUrlPrefix{copyright_text}.}
+    However, we do find the regurgitation risk clearly correlates with model accuracy: \instructdavinci, \gptdavinci, and \anthropic demonstrate the highest amount of verbatim regurgitation in line with their high accuracies. 
+    
+    \item \textbf{Disinformation.}
+    We find that the largest models (particularly \instructdavinci and \anthropic) are effective at generating realistic headlines that support a given thesis,\footnote{See \benchmarkUrlPrefix{disinformation_reiteration}.} but results are more mixed when prompting models to generate text encouraging people to perform certain actions (\reftab{disinformation-human-evaluation}).\footnote{See \benchmarkUrlPrefix{disinformation_wedging}.}
+    
+    \item \textbf{Targeted biases.}
+    For \bbq, \instructdavinci is the most accurate model by a very wide margin (89.5\% accuracy), with the next most accurate models (\tzero, 48.4\%; \mtnlgfivethreezero, 44.9\%) being the only other models with accuracies above 40\%. 
+    We highlight this because we see a very striking relationship on \bbq between model accuracy and model bias for ambiguous contexts.
+    These three models, which are the three most accurate, are the only three models with biases in ambiguous contexts that align with broader social biases/discrimination, whereas all other models show biases in the other direction (\reffig{component-bias}).
+    In other words, we find that for \bbq the most accurate models are precisely those that are most concerning for social biases in ambiguous contexts, though the trends in disambiguated contexts are less clear.
+    
+    \item \textbf{Targeted toxicity generation.}
+    For the \core scenarios, we observed the rate of toxicity generation was quite low.
+    Honing in on toxicity generation, all models show much stronger tendencies for toxic generations for toxic prompts in \realtoxicityprompts, as compared to relatively non-toxic prompts in both \realtoxicityprompts and \bolddataset.\footnote{See \benchmarkUrlPrefix{harms\#Toxicity}.} 
+    Understanding how these trends change based on the automated toxicity detection model used (currently PerspectiveAPI), as well as when human judgments from diverse stakeholders are used, is a key area for future work.
+    
+    \item \textbf{Comprehensiveness.}
+    By evaluating under unified conditions extensively, we expose findings lying in plain sight. 
+    In other words, while in many cases we are evaluating models that are available publicly on datasets that are available publicly, we nonetheless surface new findings. 
+    As an example, we find \instructdavinci achieves an accuracy of 74.4\% \texttt{ROUGE-L} on \narrativeqa, which sets a new state-of-the-art across all methods to our knowledge, in this case over the strong QA-specialized  \textsc{UnifiedQA}-v2 model \citep[67.4\% \texttt{ROUGE-L};][]{khashabi2022unified}. 
+    
+    \item \textbf{Prompting.}
+    All models show significant sensitivity to the formatting of prompt, the particular choice of in-context examples, and the number of in-context examples across all scenarios and for all metrics (see \refsec{prompting-analysis}).
+    In this effort, we consistently work towards standardizing these dimensions (\eg to ensure models are interoperable/performant using the same prompting practices), but current models differ in what prompting decisions would maximize accuracy.\footnote{See \benchmarkUrlPrefix{ablation\_prompts}.}
+
+    \item \textbf{Multiple choice adaptation method.}
+    We find that model performance is extremely sensitive to how multiple choice scenarios are adapted into prompts: for example, accuracy for \optonesevenfive on \hellaswag is 79.1\% when each answer choice is presented in a separate 0-shot prompt (\ie one of the most accurate models), but drops precipitously to 30.2\% (almost random accuracy) when the answer choices are presented jointly in a single \numincontext-shot prompt (\ie in the format of a multiple-choice exam).\footnote{See \benchmarkUrlPrefix{ablation_multiple_choice}.} 
+    Further, even for the same scenario, the adaptation method that maximizes accuracy can differ (and produce qualitatively different results) across models (\reffig{mc-ablations}) .
+    This poses a fundamental challenge for what it means to standardize language model evaluation in a fair way across models.
+    
+    \item \textbf{Upstream perplexity and downstream accuracy.}
+    Given the myriad scenarios where LMs could provide value, it would be appealing for many reasons if upstream perplexity on language modeling objectives reliably predicted downstream accuracy.
+    Unfortunately, when making these comparisons across model families, even when using bits-per-byte (BPB; which is more comparable than perplexity), we find this type of prediction does not work well: BPB on \pile is a poor predictor of downstream accuracy (\reffig{perplexity-accuracy}) though we note some models are trained on \pile whereas others are not (\reftab{contamination-evidence}).
+    More broadly, given the many downstream results, we encourage future work to explore new intrinsic/upstream surrogate measures of performance that can be shown to reliably predict downstream results (including for desiderata beyond accuracy) as discussed in \citet[][\S4.4.2]{bommasani2021opportunities} 
+    
+    \item \textbf{Trends for model scale.}
+    We find that model scale, within a model family, reliably predicts model accuracy, but for no scenario is a good predictor of downstream accuracy across all models (\reffig{scale-accuracy}).
+    However, we see a very clear thresholding effect: all models that win head-to-head model comparisons for accuracy at a rate well above chance (\ie $>55\%$) are at least 50B parameters (\reffig{head-to-head}).
+    Of these models, which are the 10 most accurate models, some of the most accurate (\ie in the top 5) are the smallest (\anthropic, \coherexl).
+    Overall, scale seems to be a key determinant of accuracy, and scaling within a model family reliable improves accuracy, but it might be inefficient compared to other means (\eg training with human feedback; compare \mtnlgfivethreezero and \anthropic).
+\end{enumerate}

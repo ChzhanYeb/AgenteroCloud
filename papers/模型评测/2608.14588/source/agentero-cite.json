@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bib+s2",
+    "generatedAt": "2026-11-17T14:34:55.095Z",
+    "fingerprint": "2f01c399391b267586c4c886ec667c4ed81832679898953b676d4c66e585f4f9"
+  },
+  "citations": [
+    {
+      "id": "cite-min2023factscore",
+      "rawKey": "min2023factscore",
+      "metadata": {
+        "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+        "authors": [
+          "Sewon Min",
+          "Kalpesh Krishna",
+          "Xinxi Lyu",
+          "M. Lewis",
+          "Wen-Tau Yih",
+          "Pang Wei Koh",
+          "M. Iyyer",
+          "Luke Zettlemoyer",
+          "Hannaneh Hajishirzi"
+        ],
+        "year": 2023,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2023.emnlp-main.741",
+        "arxivId": "2305.14251",
+        "url": "https://aclanthology.org/2023.emnlp-main.741/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dhuliawala2023cove",
+      "rawKey": "dhuliawala2023cove",
+      "metadata": {
+        "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+        "authors": [
+          "S. Dhuliawala",
+          "Mojtaba Komeili",
+          "Jing Xu",
+          "Roberta Raileanu",
+          "Xian Li",
+          "Asli Celikyilmaz",
+          "Jason E. Weston"
+        ],
+        "year": 2023,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2024.findings-acl.212",
+        "arxivId": "2309.11495",
+        "url": "https://aclanthology.org/2024.findings-acl.212/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-song2024veriscore",
+      "rawKey": "song2024veriscore",
+      "metadata": {
+        "title": "VERISCORE: Evaluating the factuality of verifiable claims in long-form text generation",
+        "authors": [
+          "Yixiao Song",
+          "Yekyung Kim",
+          "M. Iyyer"
+        ],
+        "year": 2024,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2024.findings-emnlp.552",
+        "arxivId": "2406.19276",
+        "url": "https://aclanthology.org/2024.findings-emnlp.552/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wei2024long",
+      "rawKey": "wei2024long",
+      "metadata": {
+        "title": "Long-form factuality in large language models",
+        "authors": [
+          "Jerry Wei",
+          "Chengrun Yang",
+          "Xinying Song",
+          "Yifeng Lu",
+          "Nathan Hu",
+          "Jie Huang",
+          "Dustin Tran",
+          "Daiyi Peng",
+          "Ruibo Liu",
+          "Da Huang",
+          "Cosmo Du",
+          "Quoc V. Le"
+        ],
+        "year": 2024,
+        "arxivId": "2403.18802",
+        "url": "https://arxiv.org/abs/2403.18802"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-du2024improving",
+      "rawKey": "du2024improving",
+      "metadata": {
+        "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+        "authors": [
+          "Yilun Du",
+          "Shuang Li",
+          "A. Torralba",
+          "J. Tenenbaum",
+          "Igor Mordatch"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2305.14325",
+        "arxivId": "2305.14325",
+        "url": "https://www.semanticscholar.org/paper/4780d0a027c5c5a8e01d7cf697f6296880ffc945"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-liang2023encouraging",
+      "rawKey": "liang2023encouraging",
+      "metadata": {
+        "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+        "authors": [
+          "Tian Liang",
+          "Zhiwei He",
+          "Wenxiang Jiao",
+          "Xing Wang",
+          "Yan Wang",
+          "Rui Wang",
+          "Yujiu Yang",
+          "Shu-Ming Shi",
+          "Zhaopeng Tu"
+        ],
+        "year": 2023,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2024.emnlp-main.992",
+        "arxivId": "2305.19118",
+        "url": "https://aclanthology.org/2024.emnlp-main.992/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hua2024trustagent",
+      "rawKey": "hua2024trustagent",
+      "metadata": {
+        "title": "TrustAgent: Towards Safe and Trustworthy LLM-based Agents",
+        "authors": [
+          "Wen-Yue Hua",
+          "Xianjun Yang",
+          "Mingyu Jin",
+          "Zelong Li",
+          "Wei Cheng",
+          "Rui-Xiang Tang",
+          "Yong-Feng Zhang"
+        ],
+        "year": 2024,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2024.findings-emnlp.585",
+        "arxivId": "2402.01586",
+        "url": "https://aclanthology.org/2024.findings-emnlp.585/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yang2024watch",
+      "rawKey": "yang2024watch",
+      "metadata": {
+        "title": "Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents",
+        "authors": [
+          "Wenkai Yang",
+          "Xiaohan Bi",
+          "Yan-Kai Lin",
+          "Si-Shuo Chen",
+          "Jie Zhou",
+          "Xu Sun"
+        ],
+        "year": 2024,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2402.11208",
+        "arxivId": "2402.11208",
+        "url": "https://arxiv.org/abs/2402.11208"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lewis2020rag",
+      "rawKey": "lewis2020rag",
+      "metadata": {
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "authors": [
+          "Patrick Lewis",
+          "Ethan Perez",
+          "Aleksandra Piktus",
+          "F. Petroni",
+          "Vladimir Karpukhin",
+          "Naman Goyal",
+          "Heinrich Küttler",
+          "M. Lewis",
+          "Wen-tau Yih",
+          "Tim Rocktäschel",
+          "Sebastian Riedel",
+          "Douwe Kiela"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2005.11401",
+        "arxivId": "2005.11401",
+        "url": "https://arxiv.org/abs/2005.11401"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gao2023retrieval",
+      "rawKey": "gao2023retrieval",
+      "metadata": {
+        "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+        "authors": [
+          "Yunfan Gao",
+          "Yun Xiong",
+          "Xinyu Gao",
+          "Kangxiang Jia",
+          "Jinliu Pan",
+          "Yuxi Bi",
+          "Yi Dai",
+          "Jiawei Sun",
+          "Meng Wang",
+          "Haofen Wang"
+        ],
+        "year": 2024,
+        "arxivId": "2312.10997",
+        "url": "https://arxiv.org/abs/2312.10997"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-patronus2023financebench",
+      "rawKey": "patronus2023financebench",
+      "metadata": {
+        "title": "FinanceBench: A New Benchmark for Financial Question Answering",
+        "authors": [
+          "Pranab Islam",
+          "Anand Kannappan",
+          "Douwe Kiela",
+          "Rebecca Qian",
+          "Nino Scherrer",
+          "Bertie Vidgen"
+        ],
+        "year": 2023,
+        "doi": "10.48550/arXiv.2311.11944",
+        "arxivId": "2311.11944",
+        "url": "https://arxiv.org/abs/2311.11944"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-langgraph",
+      "rawKey": "langgraph",
+      "metadata": {
+        "title": "LangGraph: Build stateful, multi-actor applications with LLMs",
+        "authors": [
+          "LangChain AI"
+        ],
+        "year": 2024,
+        "venue": ":"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-autogen",
+      "rawKey": "autogen",
+      "metadata": {
+        "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+        "authors": [
+          "Qingyun Wu",
+          "Gagan Bansal",
+          "Jieyu Zhang",
+          "Yiran Wu",
+          "Beibin Li",
+          "Erkang Zhu",
+          "Li Jiang",
+          "Xiaoyun Zhang",
+          "Shaokun Zhang",
+          "Jiale Liu",
+          "Ahmed Hassan Awadallah",
+          "Ryen W White",
+          "Doug Burger",
+          "Chi Wang"
+        ],
+        "year": 2023,
+        "arxivId": "2308.08155",
+        "url": "https://arxiv.org/abs/2308.08155"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-crewai",
+      "rawKey": "crewai",
+      "metadata": {
+        "title": "CrewAI: Framework for Orchestrating Role-Playing, Autonomous AI Agents",
+        "authors": [
+          "CrewAI Inc."
+        ],
+        "year": 2024
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-agenthallu",
+      "rawKey": "agenthallu",
+      "metadata": {
+        "title": "AgentHallu: Benchmarking Automated Hallucination Attribution of LLM-based Agents",
+        "authors": [
+          "Xuan-Nan Liu",
+          "Xiao Yang",
+          "Ze-Kun Li",
+          "Pei-Pei Li",
+          "Ran He"
+        ],
+        "year": 2026,
+        "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.48550/arXiv.2601.06818",
+        "arxivId": "2601.06818",
+        "url": "https://arxiv.org/abs/2601.06818"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-verimap",
+      "rawKey": "verimap",
+      "metadata": {
+        "title": "Verification-Aware Planning for Multi-Agent Systems",
+        "authors": [
+          "Tian-Yang Xu",
+          "Dan Zhang",
+          "Kushan Mitra",
+          "Estevam Hruschka"
+        ],
+        "year": 2025,
+        "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2026.eacl-long.353",
+        "arxivId": "2510.17109",
+        "url": "https://aclanthology.org/2026.eacl-long.353/"
+      },
+      "source": "bib+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-caveagent",
+      "rawKey": "caveagent",
+      "metadata": {
+        "title": "CaveAgent: Transforming LLMs into Stateful Runtime Operators",
+        "authors": [
+          "Maohao Ran",
+          "Zhenglin Wan",
+          "Cooper Lin",
+          "Yanting Zhang",
+          "Hongyu Xin",
+          "Hongwei Fan",
+          "Yibo Xu",
+          "Beier Luo",
+          "Yaxin Zhou",
+          "Wangbo Zhao",
+          "Lijie Yang",
+          "Lang Feng",
+          "Fuchao Yang",
+          "Jingxuan Wu",
+          "Yiqiao Huang",
+          "Chendong Ma",
+          "Dailing Jiang",
+          "Jianbo Deng",
+          "Sirui Han",
+          "Yang You",
+          "Bo An",
+          "Yike Guo",
+          "Jun Song"
+        ],
+        "year": 2026,
+        "arxivId": "2601.01569",
+        "url": "https://arxiv.org/abs/2601.01569"
+      },
+      "source": "bib",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 17 entries (bib)",
+    "semantic scholar: 15 references",
+    "merged: 12 of 17 enriched online"
+  ]
+}

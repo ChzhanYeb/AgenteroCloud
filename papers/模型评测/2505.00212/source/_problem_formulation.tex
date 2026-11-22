@@ -1,0 +1,97 @@
+\section{Problem Formulation: Automated Failure Attribution in Multi-Agent Cooperation}
+\label{sec:problem_formulation}
+
+In this section, we introduce decisive errors and formulate the automated failure attribution problem. We adopt the widely-adopted turn-based LLM multi-agent protocol~\citep{wu2023autogen,li2023camel,hong2023metagpt}.
+
+\paragraph{Background.} Considering a LLMs-powered multi-agent system $\mathcal{M}$ with a group of $N$ agents, denoted as $\mathcal{N} = \{1, 2, .. N\}$, 
+that operate at discrete time steps. These agents are taking actions in a turn-based protocol, meaning that exactly one agent performs an action at each time step. Formally, the system is described as:
+\begin{align}
+\mathcal{M} 
+\;=\; 
+\Bigl\langle 
+  \mathcal{N},\, 
+  S,\, 
+  A,\, 
+  P,\, 
+  \phi 
+\Bigr\rangle.
+\end{align}
+Here, $S$ is the set of possible states. $A$ is the global action set; each agent $i\in\mathcal{N}$ can typically perform actions from some subset $A_i \subseteq A$.
+$\phi(t)$ is a function that indicates which agent is active at time $t$, thus specifying the turn-based rule. $P\bigl(s_{t+1} \mid s_t,\, a_t,\, \phi(t)\bigr)$ is the state-transition probability, given that \emph{only one} agent $\phi(t)$ acts at time $t$.
+
+We employ $\phi(t)$ to denote the agent that takes an action $a_t$ at time step $t$.  A full trajectory $\tau$ can be written as:
+$
+\tau 
+\;=\;
+\bigl( s_0,\, a_0,\,
+        s_1,\, a_1,\,
+        \dots,\,
+        s_T \bigr),
+$
+where $T$ is a terminal time step or when the system enters a terminating state.
+
+
+\paragraph{Decisive Error and Objective.}
+We use a tuple $(i,t)$ to denote a mistake in a trajectory, which means agent $i$ is active at time $t$, and its action $a_t$ is deemed a mistake (e.g., wrong reasoning etc.). 
+A trajectory may contain multiple mistakes, but not all of them result in overall failure.
+We employ $Z(\tau)$ to denote the result of a trajectory $\tau$. 
+\begin{align}
+Z(\tau)
+\;=\;
+\begin{cases}
+1, 
+& 
+\text{if the system ultimately fails},\\[6pt]
+0, 
+& 
+\text{otherwise}.
+\end{cases}
+\end{align}
+Suppose the original trajectory $\tau$ is a failure, i.e., $Z(\tau)=1$.
+Considering the following scenario, if correcting the mistake made by agent $i$ at time $t$: we replace $a_t$ with a "correct" action $\tilde{a}_t$. The steps prior to step $t$ remain unchanged, while the actions following $t$ are adjusted accordingly to ensure correctness. This process generates a modified trajectory:
+\begin{align}
+    \tau^{(i,t)} 
+    \;=\;
+    \mathcal{I}_{(i,t)}(\tau),
+\end{align}
+where $\mathcal{I}_{(i,t)}$ denotes the intervention.
+If in the modified trajectory we obtain $Z\bigl(\tau^{(i,t)}\bigr)=0$ (success), then the error $(i,t)$ is said to be a \emph{decisive error}.
+Formally, we define the \emph{decisive error indicator} $\Delta_{i,t}(\tau)$ as
+\begin{align}
+\Delta_{i,t}(\tau)
+\;=\;
+\begin{cases}
+1, 
+& 
+\text{if } Z(\tau) = 1 \text{ and } Z\bigl(\tau^{(i,t)}\bigr) = 0,\\[6pt]
+0, 
+& 
+\text{otherwise}.
+\end{cases}
+\end{align}
+In words,
+$
+\Delta_{i,t}(\tau) = 1
+\quad
+\Longleftrightarrow
+\quad$
+Fixing agent $i$'s mistake at time $t$ changes $Z(\tau)$ from $1$ (fail) to $0$ (success). Formally, the decisive error could be defined as agent-time pairs $(i^*, t^*)$ such that $\Delta_{i^*,t^*}(\tau) = 1$, where $i^*$ represents the agent responsible for the system failure, and $t^*$ represents the exact time step at which the critical mistake occurs. We refer to these as the \emph{failure-responsible agent} and the \emph{decisive error step}, respectively across the paper.
+
+In practice, multiple decisive errors may occur within a trajectory. In our study, we address this situation by identifying the earliest error in time as the principal cause of failure. Specifically, we define an objective to determine:
+\begin{align}
+\mathcal{C}(\tau) 
+&=\; 
+\bigl\{
+  (i,t) \;\mid\; \Delta_{i,t}(\tau) \;=\; 1
+\bigr\},
+\label{eq:culprit_set}
+\\[5pt] 
+&(i^*,\, t^*)
+=\;
+\arg\min_{(i,t)\,\in\,\mathcal{C}(\tau)} 
+\; t. \nonumber
+\label{eq:earliest_culprit}
+\end{align}
+which selects the pair $(i^*, t^*)$ yielding the highest decisive error indicator with earliest time step.
+In this study, the research problem focuses on the automatic identification of the $(i^*, t^*)$ in LLMs-powered multiple agent systems. 
+

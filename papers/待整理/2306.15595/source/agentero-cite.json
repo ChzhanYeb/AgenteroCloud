@@ -1,0 +1,984 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:47:23.643Z",
+    "fingerprint": "1e99a19cab8fce0f3988ddcfeef69ba6735eac4955691866b6da9006b5e6c04c"
+  },
+  "citations": [
+    {
+      "id": "cite-ainslie2023colt5",
+      "rawKey": "ainslie2023colt5",
+      "display": "[1]",
+      "raw": "Joshua Ainslie, Tao Lei, Michiel de Jong, Santiago OntaÃÃn, Siddhartha Brahma, Yury Zemlyanskiy, David Uthus, Mandy Guo, James Lee-Thorp, Yi Tay, Yun-Hsuan Sung, and Sumit Sanghai. Colt5: Faster long-range transformers with conditional computation, 2023.",
+      "metadata": {
+        "title": "CoLT5: Faster Long-Range Transformers with Conditional Computation",
+        "authors": [
+          "Joshua Ainslie",
+          "Tao Lei",
+          "Michiel de Jong",
+          "Santiago OntaÃÃn",
+          "Siddhartha Brahma",
+          "Yury Zemlyanskiy",
+          "David Uthus",
+          "Mandy Guo",
+          "James Lee-Thorp",
+          "Yi Tay",
+          "Yun-Hsuan Sung",
+          "Sumit Sanghai"
+        ],
+        "year": 2023,
+        "arxivId": "2303.09752"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-proofpile",
+      "rawKey": "proofpile",
+      "display": "[2]",
+      "raw": "Zhangir Azerbayev, Edward Ayers, and Bartosz Piotrowski. Proof-pile, 2022. URL https://github.com/zhangir-azerbayev/proof-pile.",
+      "metadata": {
+        "title": "Proof-pile",
+        "authors": [
+          "Zhangir Azerbayev",
+          "Edward Ayers",
+          "Bartosz Piotrowski"
+        ],
+        "year": 2022,
+        "url": "https://github.com/zhangir-azerbayev/proof-pile"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-beltagy2020longformer",
+      "rawKey": "beltagy2020longformer",
+      "display": "[3]",
+      "raw": "Iz Beltagy, Matthew E. Peters, and Arman Cohan. Longformer: The long-document transformer. 2020.",
+      "metadata": {
+        "title": "Longformer: The long-document transformer",
+        "authors": [
+          "Iz Beltagy",
+          "Matthew E. Peters",
+          "Arman Cohan"
+        ],
+        "year": 2020,
+        "arxivId": "2004.05150"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bulatov2022recurrent",
+      "rawKey": "bulatov2022recurrent",
+      "display": "[4]",
+      "raw": "Aydar Bulatov, Yuri Kuratov, and Mikhail S. Burtsev. Recurrent memory transformer. 2022.",
+      "metadata": {
+        "title": "Recurrent memory transformer",
+        "authors": [
+          "Aydar Bulatov",
+          "Yuri Kuratov",
+          "Mikhail S. Burtsev"
+        ],
+        "year": 2022,
+        "arxivId": "2207.06881"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-child2019generating",
+      "rawKey": "child2019generating",
+      "display": "[5]",
+      "raw": "Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers. 2019.",
+      "metadata": {
+        "title": "Generating Long Sequences with Sparse Transformers",
+        "authors": [
+          "Rewon Child",
+          "Scott Gray",
+          "Alec Radford",
+          "Ilya Sutskever"
+        ],
+        "year": 2019,
+        "arxivId": "1904.10509"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-choromanski2021rethinking",
+      "rawKey": "choromanski2021rethinking",
+      "display": "[6]",
+      "raw": "Krzysztof Marcin Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane, TamÃs SarlÃs, Peter Hawkins, Jared Quincy Davis, Afroz Mohiuddin, Lukasz Kaiser, David Benjamin Belanger, Lucy J. Colwell, and Adrian Weller. Rethinking attention with performers. In 9th International Conference on Learning Representations, ICLR 2021. OpenReview.net, May 2021.",
+      "metadata": {
+        "title": "Rethinking attention with performers",
+        "authors": [
+          "Krzysztof Marcin Choromanski",
+          "Valerii Likhosherstov",
+          "David Dohan",
+          "Xingyou Song",
+          "Andreea Gane",
+          "TamÃs SarlÃs",
+          "Peter Hawkins",
+          "Jared Quincy Davis",
+          "Afroz Mohiuddin",
+          "Lukasz Kaiser",
+          "David Benjamin Belanger",
+          "Lucy J. Colwell",
+          "Adrian Weller"
+        ],
+        "year": 2021,
+        "venue": "9th International Conference on Learning Representations, ICLR 2021"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-together2023redpajama",
+      "rawKey": "together2023redpajama",
+      "display": "[7]",
+      "raw": "Together Computer. Redpajama: An open source recipe to reproduce llama training dataset, 2023. URL https://github.com/togethercomputer/RedPajama-Data.",
+      "metadata": {
+        "title": "RedPajama: An Open Source Recipe to Reproduce LLaMA training dataset",
+        "authors": [
+          "Together Computer"
+        ],
+        "year": 2023,
+        "url": "https://github.com/togethercomputer/RedPajama-Data"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dai2019transformerxl",
+      "rawKey": "dai2019transformerxl",
+      "display": "[8]",
+      "raw": "Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc Le, and Ruslan Salakhutdinov. Transformerxl: Attentive language models beyond a fixed-length context. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 2978--2988, Florence, Italy, 2019. Association for Computational Linguistics. 10.18653/v1/P19-1285.",
+      "metadata": {
+        "title": "TransformerXL: Attentive language models beyond a fixed-length context",
+        "authors": [
+          "Zihang Dai",
+          "Zhilin Yang",
+          "Yiming Yang",
+          "Jaime Carbonell",
+          "Quoc Le",
+          "Ruslan Salakhutdinov"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P19-1285"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dao2022flashattention",
+      "rawKey": "dao2022flashattention",
+      "display": "[9]",
+      "raw": "Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, and Christopher Re. FlashAttention: Fast and memory-efficient exact attention with IO-awareness. In Advances in Neural Information Processing Systems, 2022.",
+      "metadata": {
+        "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+        "authors": [
+          "Tri Dao",
+          "Daniel Y. Fu",
+          "Stefano Ermon",
+          "Atri Rudra",
+          "Christopher Re"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dosovitskiy2021an",
+      "rawKey": "dosovitskiy2021an",
+      "display": "[10]",
+      "raw": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, and Neil Houlsby. An image is worth 16x16 words: Transformers for image recognition at scale. In International Conference on Learning Representations, 2021. URL https://openreview.net/forum?id=YicbFdNTTy.",
+      "metadata": {
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "authors": [
+          "Alexey Dosovitskiy",
+          "Lucas Beyer",
+          "Alexander Kolesnikov",
+          "Dirk Weissenborn",
+          "Xiaohua Zhai",
+          "Thomas Unterthiner",
+          "Mostafa Dehghani",
+          "Matthias Minderer",
+          "Georg Heigold",
+          "Sylvain Gelly",
+          "Jakob Uszkoreit",
+          "Neil Houlsby"
+        ],
+        "year": 2021,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://openreview.net/forum?id=YicbFdNTTy"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pile",
+      "rawKey": "pile",
+      "display": "[11]",
+      "raw": "Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, Shawn Presser, and Connor Leahy. The Pile: An 800gb dataset of diverse text for language modeling. arXiv preprint arXiv:2101.00027, 2020.",
+      "metadata": {
+        "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+        "authors": [
+          "Leo Gao",
+          "Stella Biderman",
+          "Sid Black",
+          "Laurence Golding",
+          "Travis Hoppe",
+          "Charles Foster",
+          "Jason Phang",
+          "Horace He",
+          "Anish Thite",
+          "Noa Nabeshima",
+          "Shawn Presser",
+          "Connor Leahy"
+        ],
+        "year": 2020,
+        "venue": "arXiv preprint arXiv:2101.00027",
+        "arxivId": "2101.00027"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-guu2020realm",
+      "rawKey": "guu2020realm",
+      "display": "[12]",
+      "raw": "Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. Realm: Retrieval-augmented language model pre-training. 2020.",
+      "metadata": {
+        "title": "REALM: Retrieval-augmented language model pre-training",
+        "authors": [
+          "Kelvin Guu",
+          "Kenton Lee",
+          "Zora Tung",
+          "Panupong Pasupat",
+          "Ming-Wei Chang"
+        ],
+        "year": 2020,
+        "arxivId": "2002.08909"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-haviv2022transformer",
+      "rawKey": "haviv2022transformer",
+      "display": "[13]",
+      "raw": "Adi Haviv, Ori Ram, Ofir Press, Peter Izsak, and Omer Levy. Transformer language models without positional encodings still learn positional information. 2022.",
+      "metadata": {
+        "title": "Transformer Language Models without Positional Encodings Still Learn Positional Information",
+        "authors": [
+          "Adi Haviv",
+          "Ori Ram",
+          "Ofir Press",
+          "Peter Izsak",
+          "Omer Levy"
+        ],
+        "year": 2022,
+        "arxivId": "2203.16634"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hu2021lora",
+      "rawKey": "hu2021lora",
+      "display": "[14]",
+      "raw": "Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen. Lora: Low-rank adaptation of large language models. arXiv preprint arXiv:2106.09685, 2021.",
+      "metadata": {
+        "title": "Lora: Low-rank adaptation of large language models",
+        "authors": [
+          "Edward J Hu",
+          "Yelong Shen",
+          "Phillip Wallis",
+          "Zeyuan Allen-Zhu",
+          "Yuanzhi Li",
+          "Shean Wang",
+          "Lu Wang",
+          "Weizhu Chen"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2106.09685",
+        "arxivId": "2106.09685"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-huang-etal-2021-efficient",
+      "rawKey": "huang-etal-2021-efficient",
+      "display": "[15]",
+      "raw": "Luyang Huang, Shuyang Cao, Nikolaus Parulian, Heng Ji, and Lu Wang. Efficient attentions for long document summarization. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp. 1419--1436, Online, June 2021. Association for Computational Linguistics. 10.18653/v1/2021.naacl-main.112. URL https://aclanthology.org/2021.naacl-main.112.",
+      "metadata": {
+        "title": "Efficient Attentions for Long Document Summarization",
+        "authors": [
+          "Luyang Huang",
+          "Shuyang Cao",
+          "Nikolaus Parulian",
+          "Heng Ji",
+          "Lu Wang"
+        ],
+        "year": 2021,
+        "venue": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+        "doi": "10.18653/v1/2021.naacl-main.112",
+        "url": "https://aclanthology.org/2021.naacl-main.112"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-izacard2022atlas",
+      "rawKey": "izacard2022atlas",
+      "display": "[16]",
+      "raw": "Gautier Izacard, Patrick Lewis, Maria Lomeli, Lucas Hosseini, Fabio Petroni, Timo Schick, Jane Dwivedi-Yu, Armand Joulin, Sebastian Riedel, and Edouard Grave. Atlas: Few-shot learning with retrieval augmented language models. 2022.",
+      "metadata": {
+        "title": "Atlas: Few-shot learning with retrieval augmented language models",
+        "authors": [
+          "Gautier Izacard",
+          "Patrick Lewis",
+          "Maria Lomeli",
+          "Lucas Hosseini",
+          "Fabio Petroni",
+          "Timo Schick",
+          "Jane Dwivedi-Yu",
+          "Armand Joulin",
+          "Sebastian Riedel",
+          "Edouard Grave"
+        ],
+        "year": 2022,
+        "arxivId": "2208.03299"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jiang2022retrieval",
+      "rawKey": "jiang2022retrieval",
+      "display": "[17]",
+      "raw": "Zhengbao Jiang, Luyu Gao, Jun Araki, Haibo Ding, Zhiruo Wang, Jamie Callan, and Graham Neubig. Retrieval as attention: End-to-end learning of retrieval and reading within a single transformer. 2022.",
+      "metadata": {
+        "title": "Retrieval as attention: End-to-end learning of retrieval and reading within a single transformer",
+        "authors": [
+          "Zhengbao Jiang",
+          "Luyu Gao",
+          "Jun Araki",
+          "Haibo Ding",
+          "Zhiruo Wang",
+          "Jamie Callan",
+          "Graham Neubig"
+        ],
+        "year": 2022,
+        "arxivId": "2212.02027"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-superhot",
+      "rawKey": "superhot",
+      "display": "[18]",
+      "raw": "kaiokendev. Things im learning while training superhot. https://kaiokendev.github.io/til#extending-context-to-8k, 2023.",
+      "metadata": {
+        "title": "Things Im Learning While Training SuperHOT",
+        "authors": [
+          "kaiokendev"
+        ],
+        "year": 2023,
+        "url": "https://kaiokendev.github.io/til#extending-context-to-8k"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-karpukhin2020dense",
+      "rawKey": "karpukhin2020dense",
+      "display": "[19]",
+      "raw": "Vladimir Karpukhin, Barlas Oguz, Sewon Min, Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, and Wen-tau Yih. Dense passage retrieval for open-domain question answering. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 6769--6781. Association for Computational Linguistics, 2020. 10.18653/v1/2020.emnlp-main.550.",
+      "metadata": {
+        "title": "Dense passage retrieval for open-domain question answering",
+        "authors": [
+          "Vladimir Karpukhin",
+          "Barlas Oguz",
+          "Sewon Min",
+          "Patrick Lewis",
+          "Ledell Wu",
+          "Sergey Edunov",
+          "Danqi Chen",
+          "Wen-tau Yih"
+        ],
+        "year": 2020,
+        "venue": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "doi": "10.18653/v1/2020.emnlp-main.550"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-khattab2021relevance",
+      "rawKey": "khattab2021relevance",
+      "display": "[20]",
+      "raw": "Omar Khattab, Christopher Potts, and Matei Zaharia. Relevance-guided supervision for openqa with colbert. Transactions of the Association for Computational Linguistics, 9: 929--944, 2021. 10.1162/tacl_a_00405.",
+      "metadata": {
+        "title": "Relevance-guided supervision for OpenQA with ColBERT",
+        "authors": [
+          "Omar Khattab",
+          "Christopher Potts",
+          "Matei Zaharia"
+        ],
+        "year": 2021,
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "doi": "10.1162/tacl_a_00405"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kitaev2020reformer",
+      "rawKey": "kitaev2020reformer",
+      "display": "[21]",
+      "raw": "Nikita Kitaev, Lukasz Kaiser, and Anselm Levskaya. Reformer: The efficient transformer. In 8th International Conference on Learning Representations, ICLR 2020. OpenReview.net, April 2020.",
+      "metadata": {
+        "title": "Reformer: The efficient transformer",
+        "authors": [
+          "Nikita Kitaev",
+          "Lukasz Kaiser",
+          "Anselm Levskaya"
+        ],
+        "year": 2020,
+        "venue": "8th International Conference on Learning Representations, ICLR 2020"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kudo-richardson-2018-sentencepiece",
+      "rawKey": "kudo-richardson-2018-sentencepiece",
+      "display": "[22]",
+      "raw": "Taku Kudo and John Richardson. SentencePiece: A simple and language independent subword tokenizer and detokenizer for neural text processing. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, pp. 66--71, Brussels, Belgium, November 2018. Association for Computational Linguistics. 10.18653/v1/D18-2012. URL https://aclanthology.org/D18-2012.",
+      "metadata": {
+        "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+        "authors": [
+          "Taku Kudo",
+          "John Richardson"
+        ],
+        "year": 2018,
+        "venue": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+        "doi": "10.18653/v1/D18-2012",
+        "url": "https://aclanthology.org/D18-2012"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lin-2004-rouge",
+      "rawKey": "lin-2004-rouge",
+      "display": "[23]",
+      "raw": "Chin-Yew Lin. ROUGE: A package for automatic evaluation of summaries. In Text Summarization Branches Out, pp. 74--81, Barcelona, Spain, July 2004. Association for Computational Linguistics. URL https://aclanthology.org/W04-1013.",
+      "metadata": {
+        "title": "ROUGE: A Package for Automatic Evaluation of Summaries",
+        "authors": [
+          "Chin-Yew Lin"
+        ],
+        "year": 2004,
+        "venue": "Text Summarization Branches Out",
+        "url": "https://aclanthology.org/W04-1013"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-loshchilov2018decoupled",
+      "rawKey": "loshchilov2018decoupled",
+      "display": "[24]",
+      "raw": "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In International Conference on Learning Representations, 2019. URL https://openreview.net/forum?id=Bkg6RiCqY7.",
+      "metadata": {
+        "title": "Decoupled Weight Decay Regularization",
+        "authors": [
+          "Ilya Loshchilov",
+          "Frank Hutter"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://openreview.net/forum?id=Bkg6RiCqY7"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-martins2021inftyformer",
+      "rawKey": "martins2021inftyformer",
+      "display": "[25]",
+      "raw": "Pedro Henrique Martins, Zita Marinho, and AndrÃ F. T. Martins. $$-former: Infinite memory transformer. 2021.",
+      "metadata": {
+        "title": "$$-former: Infinite memory transformer",
+        "authors": [
+          "Pedro Henrique Martins",
+          "Zita Marinho",
+          "AndrÃ F. T. Martins"
+        ],
+        "year": 2021,
+        "arxivId": "2109.00301"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mohtashami2023landmark",
+      "rawKey": "mohtashami2023landmark",
+      "display": "[26]",
+      "raw": "Amirkeivan Mohtashami and Martin Jaggi. Landmark attention: Random-access infinite context length for transformers. arXiv preprint arXiv:2305.16300, 2023.",
+      "metadata": {
+        "title": "Landmark Attention: Random-Access Infinite Context Length for Transformers",
+        "authors": [
+          "Amirkeivan Mohtashami",
+          "Martin Jaggi"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2305.16300",
+        "arxivId": "2305.16300"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mu2023learning",
+      "rawKey": "mu2023learning",
+      "display": "[27]",
+      "raw": "Jesse Mu, Xiang Lisa Li, and Noah Goodman. Learning to compress prompts with gist tokens. 2023.",
+      "metadata": {
+        "title": "Learning to Compress Prompts with Gist Tokens",
+        "authors": [
+          "Jesse Mu",
+          "Xiang Lisa Li",
+          "Noah Goodman"
+        ],
+        "year": 2023,
+        "arxivId": "2304.08467"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pytorch",
+      "rawKey": "pytorch",
+      "display": "[28]",
+      "raw": "Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, Alban Desmaison, Andreas Kopf, Edward Yang, Zach DeVito, Martin Raison, Alykhan Tejani, Sasank Chilamkurthy, Benoit Steiner, Lu Fang, Junjie Bai, and Soumith Chintala. PyTorch: An Imperative Style, High-Performance Deep Learning Library. Curran Associates Inc., Red Hook, NY, USA, 2019.",
+      "metadata": {
+        "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+        "authors": [
+          "Adam Paszke",
+          "Sam Gross",
+          "Francisco Massa",
+          "Adam Lerer",
+          "James Bradbury",
+          "Gregory Chanan",
+          "Trevor Killeen",
+          "Zeming Lin",
+          "Natalia Gimelshein",
+          "Luca Antiga",
+          "Alban Desmaison",
+          "Andreas Kopf",
+          "Edward Yang",
+          "Zach DeVito",
+          "Martin Raison",
+          "Alykhan Tejani",
+          "Sasank Chilamkurthy",
+          "Benoit Steiner",
+          "Lu Fang",
+          "Junjie Bai",
+          "Soumith Chintala"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 33rd International Conference on Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-press2022train",
+      "rawKey": "press2022train",
+      "display": "[29]",
+      "raw": "Ofir Press, Noah Smith, and Mike Lewis. Train short, test long: Attention with linear biases enables input length extrapolation. In International Conference on Learning Representations, 2022. URL https://openreview.net/forum?id=R8sQPpGCv0.",
+      "metadata": {
+        "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+        "authors": [
+          "Ofir Press",
+          "Noah Smith",
+          "Mike Lewis"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://openreview.net/forum?id=R8sQPpGCv0"
+      },
+      "localMatch": {
+        "paperPath": "papers/2108.12409",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Rae2020Compressive",
+      "rawKey": "Rae2020Compressive",
+      "display": "[30]",
+      "raw": "Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Chloe Hillier, and Timothy P. Lillicrap. Compressive transformers for long-range sequence modelling. In International Conference on Learning Representations, 2020. URL https://openreview.net/forum?id=SylKikSYDH.",
+      "metadata": {
+        "title": "Compressive Transformers for Long-Range Sequence Modelling",
+        "authors": [
+          "Jack W. Rae",
+          "Anna Potapenko",
+          "Siddhant M. Jayakumar",
+          "Chloe Hillier",
+          "Timothy P. Lillicrap"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://openreview.net/forum?id=SylKikSYDH"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ren2021combiner",
+      "rawKey": "ren2021combiner",
+      "display": "[31]",
+      "raw": "Hongyu Ren, Hanjun Dai, Zihang Dai, Mengjiao Yang, Jure Leskovec, Dale Schuurmans, and Bo Dai. Combiner: Full attention transformer with sparse computation cost. In Marc'Aurelio Ranzato, Alina Beygelzimer, Yann N. Dauphin, Percy Liang, and Jennifer Wortman Vaughan (eds.), Advances in Neural Information Processing Systems 34: Annual Conference on Neural Information Processing Systems 2021, NeurIPS 2021, pp. 22470--22482. Curran Associates, Inc., 2021.",
+      "metadata": {
+        "title": "Combiner: Full attention transformer with sparse computation cost",
+        "authors": [
+          "Hongyu Ren",
+          "Hanjun Dai",
+          "Zihang Dai",
+          "Mengjiao Yang",
+          "Jure Leskovec",
+          "Dale Schuurmans",
+          "Bo Dai"
+        ],
+        "year": 2021,
+        "venue": "Advances in Neural Information Processing Systems 34: Annual Conference on Neural Information Processing Systems 2021, NeurIPS 2021"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Santhanam2022colbertv2",
+      "rawKey": "Santhanam2022colbertv2",
+      "display": "[32]",
+      "raw": "Keshav Santhanam, Omar Khattab, Jon Saad-Falcon, Christopher Potts, and Matei Zaharia. Colbertv2: Effective and efficient retrieval via lightweight late interaction. In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp. 3715--3734, Seattle, United States, 2022. Association for Computational Linguistics. 10.18653/v1/2022.naacl-main.272.",
+      "metadata": {
+        "title": "ColBERTv2: Effective and efficient retrieval via lightweight late interaction",
+        "authors": [
+          "Keshav Santhanam",
+          "Omar Khattab",
+          "Jon Saad-Falcon",
+          "Christopher Potts",
+          "Matei Zaharia"
+        ],
+        "year": 2022,
+        "venue": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+        "doi": "10.18653/v1/2022.naacl-main.272"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shaham-etal-2022-scrolls",
+      "rawKey": "shaham-etal-2022-scrolls",
+      "display": "[33]",
+      "raw": "Uri Shaham, Elad Segal, Maor Ivgi, Avia Efrat, Ori Yoran, Adi Haviv, Ankit Gupta, Wenhan Xiong, Mor Geva, Jonathan Berant, and Omer Levy. SCROLLS: Standardized CompaRison over long language sequences. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pp. 12007--12021, Abu Dhabi, United Arab Emirates, December 2022. Association for Computational Linguistics. URL https://aclanthology.org/2022.emnlp-main.823.",
+      "metadata": {
+        "title": "SCROLLS: Standardized CompaRison Over Long Language Sequences",
+        "authors": [
+          "Uri Shaham",
+          "Elad Segal",
+          "Maor Ivgi",
+          "Avia Efrat",
+          "Ori Yoran",
+          "Adi Haviv",
+          "Ankit Gupta",
+          "Wenhan Xiong",
+          "Mor Geva",
+          "Jonathan Berant",
+          "Omer Levy"
+        ],
+        "year": 2022,
+        "venue": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+        "url": "https://aclanthology.org/2022.emnlp-main.823"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-su2021roformer",
+      "rawKey": "su2021roformer",
+      "display": "[34]",
+      "raw": "Jianlin Su, Yu Lu, Shengfeng Pan, Bo Wen, and Yunfeng Liu. Roformer: Enhanced transformer with rotary position embedding, 2021.",
+      "metadata": {
+        "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+        "authors": [
+          "Jianlin Su",
+          "Yu Lu",
+          "Shengfeng Pan",
+          "Bo Wen",
+          "Yunfeng Liu"
+        ],
+        "year": 2021,
+        "arxivId": "2104.09864"
+      },
+      "localMatch": {
+        "paperPath": "papers/2104.09864",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sun2022lengthextrapolatable",
+      "rawKey": "sun2022lengthextrapolatable",
+      "display": "[35]",
+      "raw": "Yutao Sun, Li Dong, Barun Patra, Shuming Ma, Shaohan Huang, Alon Benhaim, Vishrav Chaudhary, Xia Song, and Furu Wei. A length-extrapolatable transformer, 2022.",
+      "metadata": {
+        "title": "A Length-Extrapolatable Transformer",
+        "authors": [
+          "Yutao Sun",
+          "Li Dong",
+          "Barun Patra",
+          "Shuming Ma",
+          "Shaohan Huang",
+          "Alon Benhaim",
+          "Vishrav Chaudhary",
+          "Xia Song",
+          "Furu Wei"
+        ],
+        "year": 2022,
+        "arxivId": "2212.10554"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-touvron2023llama",
+      "rawKey": "touvron2023llama",
+      "display": "[36]",
+      "raw": "Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, TimothÃe Lacroix, Baptiste RoziÃre, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, and Guillaume Lample. Llama: Open and efficient foundation language models, 2023.",
+      "metadata": {
+        "title": "LLaMA: Open and Efficient Foundation Language Models",
+        "authors": [
+          "Hugo Touvron",
+          "Thibaut Lavril",
+          "Gautier Izacard",
+          "Xavier Martinet",
+          "Marie-Anne Lachaux",
+          "TimothÃe Lacroix",
+          "Baptiste RoziÃre",
+          "Naman Goyal",
+          "Eric Hambro",
+          "Faisal Azhar",
+          "Aurelien Rodriguez",
+          "Armand Joulin",
+          "Edouard Grave",
+          "Guillaume Lample"
+        ],
+        "year": 2023,
+        "arxivId": "2302.13971"
+      },
+      "localMatch": {
+        "paperPath": "papers/2302.13971",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-transformer",
+      "rawKey": "transformer",
+      "display": "[37]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In I. Guyon, U. Von Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett (eds.), Advances in Neural Information Processing Systems, volume 30. Curran Associates, Inc., 2017. URL https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf.",
+      "metadata": {
+        "title": "Attention is All you Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "Niki Parmar",
+          "Jakob Uszkoreit",
+          "Llion Jones",
+          "Aidan N Gomez",
+          "ukasz Kaiser",
+          "Illia Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Advances in Neural Information Processing Systems",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2020linformer",
+      "rawKey": "wang2020linformer",
+      "display": "[38]",
+      "raw": "Sinong Wang, Belinda Z Li, Madian Khabsa, Han Fang, and Hao Ma. Linformer: Self-attention with linear complexity. 2020.",
+      "metadata": {
+        "title": "Linformer: Self-attention with linear complexity",
+        "authors": [
+          "Sinong Wang",
+          "Belinda Z Li",
+          "Madian Khabsa",
+          "Han Fang",
+          "Hao Ma"
+        ],
+        "year": 2020,
+        "arxivId": "2006.04768"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2020memformer",
+      "rawKey": "wu2020memformer",
+      "display": "[39]",
+      "raw": "Qingyang Wu, Zhenzhong Lan, Kun Qian, Jing Gu, Alborz Geramifard, and Zhou Yu. Memformer: A memory-augmented transformer for sequence modeling. 2020.",
+      "metadata": {
+        "title": "Memformer: A memory-augmented transformer for sequence modeling",
+        "authors": [
+          "Qingyang Wu",
+          "Zhenzhong Lan",
+          "Kun Qian",
+          "Jing Gu",
+          "Alborz Geramifard",
+          "Zhou Yu"
+        ],
+        "year": 2020,
+        "arxivId": "2010.06891"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2022memorizing",
+      "rawKey": "wu2022memorizing",
+      "display": "[40]",
+      "raw": "Yuhuai Wu, Markus Norman Rabe, DeLesley Hutchins, and Christian Szegedy. Memorizing transformers. In The Tenth International Conference on Learning Representations, ICLR 2022. OpenReview.net, April 2022.",
+      "metadata": {
+        "title": "Memorizing transformers",
+        "authors": [
+          "Yuhuai Wu",
+          "Markus Norman Rabe",
+          "DeLesley Hutchins",
+          "Christian Szegedy"
+        ],
+        "year": 2022,
+        "venue": "The Tenth International Conference on Learning Representations, ICLR 2022"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zaheer2020bigbird",
+      "rawKey": "zaheer2020bigbird",
+      "display": "[41]",
+      "raw": "Manzil Zaheer, Guru Guruganesh, Kumar Avinava Dubey, Joshua Ainslie, Chris Alberti, Santiago OntaÃÃn, Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang, and Amr Ahmed. Big bird: Transformers for longer sequences. In Hugo Larochelle, Marc'Aurelio Ranzato, Raia Hadsell, Maria-Florina Balcan, and Hsuan-Tien Lin (eds.), Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020. Curran Associates, Inc., 2020.",
+      "metadata": {
+        "title": "Big bird: Transformers for longer sequences",
+        "authors": [
+          "Manzil Zaheer",
+          "Guru Guruganesh",
+          "Kumar Avinava Dubey",
+          "Joshua Ainslie",
+          "Chris Alberti",
+          "Santiago OntaÃÃn",
+          "Philip Pham",
+          "Anirudh Ravula",
+          "Qifan Wang",
+          "Li Yang",
+          "Amr Ahmed"
+        ],
+        "year": 2020,
+        "venue": "Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhang2022opt",
+      "rawKey": "zhang2022opt",
+      "display": "[42]",
+      "raw": "Susan Zhang, Stephen Roller, Naman Goyal, Mikel Artetxe, Moya Chen, Shuohui Chen, Christopher Dewan, Mona Diab, Xian Li, Xi Victoria Lin, Todor Mihaylov, Myle Ott, Sam Shleifer, Kurt Shuster, Daniel Simig, Punit Singh Koura, Anjali Sridhar, Tianlu Wang, and Luke Zettlemoyer. Opt: Open pre-trained transformer language models, 2022.",
+      "metadata": {
+        "title": "OPT: Open Pre-trained Transformer Language Models",
+        "authors": [
+          "Susan Zhang",
+          "Stephen Roller",
+          "Naman Goyal",
+          "Mikel Artetxe",
+          "Moya Chen",
+          "Shuohui Chen",
+          "Christopher Dewan",
+          "Mona Diab",
+          "Xian Li",
+          "Xi Victoria Lin",
+          "Todor Mihaylov",
+          "Myle Ott",
+          "Sam Shleifer",
+          "Kurt Shuster",
+          "Daniel Simig",
+          "Punit Singh Koura",
+          "Anjali Sridhar",
+          "Tianlu Wang",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2022,
+        "arxivId": "2205.01068"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhao2023pytorch",
+      "rawKey": "zhao2023pytorch",
+      "display": "[43]",
+      "raw": "Yanli Zhao, Andrew Gu, Rohan Varma, Liang Luo, Chien-Chin Huang, Min Xu, Less Wright, Hamid Shojanazeri, Myle Ott, Sam Shleifer, Alban Desmaison, Can Balioglu, Bernard Nguyen, Geeta Chauhan, Yuchen Hao, and Shen Li. Pytorch fsdp: Experiences on scaling fully sharded data parallel, 2023.",
+      "metadata": {
+        "title": "PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel",
+        "authors": [
+          "Yanli Zhao",
+          "Andrew Gu",
+          "Rohan Varma",
+          "Liang Luo",
+          "Chien-Chin Huang",
+          "Min Xu",
+          "Less Wright",
+          "Hamid Shojanazeri",
+          "Myle Ott",
+          "Sam Shleifer",
+          "Alban Desmaison",
+          "Can Balioglu",
+          "Bernard Nguyen",
+          "Geeta Chauhan",
+          "Yuchen Hao",
+          "Shen Li"
+        ],
+        "year": 2023,
+        "arxivId": "2304.11277"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 43 entries (bbl)",
+    "semantic scholar failed: rate limited"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "s2",
+    "generatedAt": "2026-11-17T14:36:15.328Z",
+    "fingerprint": "dd0080744360972cd6cf52eb79f87618a58ef7f2a32f5c49248b4625e7285f12"
+  },
+  "citations": [
+    {
+      "id": "ref-1",
+      "metadata": {
+        "title": "The Surprising Simplicity of the Early-Time Learning Dynamics of Neural Networks",
+        "authors": [
+          "Wei Hu",
+          "Lechao Xiao",
+          "Ben Adlam",
+          "Jeffrey Pennington"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2006.14599",
+        "arxivId": "2006.14599",
+        "url": "https://www.semanticscholar.org/paper/092c88f430124dca071846dde56f3f90f91cb90c"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-2",
+      "metadata": {
+        "title": "Towards the Science of Security and Privacy in Machine Learning",
+        "authors": [
+          "Nicolas Papernot",
+          "P. McDaniel",
+          "Arunesh Sinha",
+          "Michael P. Wellman"
+        ],
+        "year": 2016,
+        "doi": "10.48550/arXiv.1611.03814",
+        "arxivId": "1611.03814",
+        "url": "https://www.semanticscholar.org/paper/ebab687cd1be7d25392c11f89fce6a63bef7219d"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-3",
+      "metadata": {
+        "title": "InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets",
+        "authors": [
+          "Xi Chen",
+          "Yan Duan",
+          "Rein Houthooft",
+          "John D. Schulman",
+          "I. Sutskever",
+          "P. Abbeel"
+        ],
+        "year": 2016,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1606.03657",
+        "arxivId": "1606.03657",
+        "url": "https://www.semanticscholar.org/paper/eb7ee0bc355652654990bcf9f92f124688fde493"
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-4",
+      "metadata": {
+        "title": "Transformer Circuits Thread",
+        "year": 2022
+      },
+      "source": "s2",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-5",
+      "metadata": {
+        "title": "Advances in Neural Information Processing",
+        "authors": [
+          "S. Baluja",
+          "D. Pomerleau"
+        ],
+        "year": 1994,
+        "url": "https://www.semanticscholar.org/paper/02fd44cf2e1728a58f37263af75271611895af79"
+      },
+      "source": "s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "semantic scholar: 5 references"
+  ]
+}

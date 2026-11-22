@@ -1,0 +1,49 @@
+\begin{table*}[htp]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lllr}
+\toprule
+Name & URL & Citation/Authors & \# datasets \\
+\midrule
+\benchmarkname & \benchmarkUrl & This work & \numscenarios \\
+BLOOM           & \url{https://arxiv.org/pdf/2211.05100.pdf}                                                                         & \citet{scao2022bloom} &  17\\
+T0++            & \url{https://arxiv.org/pdf/2110.08207.pdf}                                                                         & \citet{sanh2021multitask} &  24\\
+GPT-J           & \url{https://arankomatsuzaki.wordpress.com/2021/06/04/gpt-j/}                                                      & \citet{wang2021gptj} &  5\\
+GPT-NeoX        & \url{https://arxiv.org/pdf/2204.06745.pdf}                                                                         & \citet{black2022neox} &  18\\
+T5              & \url{https://arxiv.org/pdf/1910.10683.pdf}                                                                         & \citet{raffel2019exploring} &  18\\
+UL2             & \url{https://arxiv.org/pdf/2205.05131.pdf}                                                                         & \citet{tay2022unifying} &  12\\
+OPT             & \url{https://arxiv.org/pdf/2205.01068.pdf}                                                                         & \citet{zhang2022opt} &  27\\
+YaLM            & \url{https://github.com/yandex/YaLM-100B}                                                                          & Yandex   &  1\\
+MT-NLG          & \url{https://arxiv.org/pdf/2201.11990.pdf}                                                                         & \citet{smith2022mtnlg} &  9\\
+Anthropic-52    & \url{https://arxiv.org/pdf/2204.05862.pdf}                                                                         & \citet{bai2022helpful} &  9\\
+AI21 Jurassic   & \url{https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6\_jurassic\_tech\_paper.pdf} & \citet{lieber2021jurassic} &  12\\
+GPT-3           & \url{https://arxiv.org/pdf/2005.14165.pdf}                                                                         & \citet{brown2020gpt3} &  37\\
+InstructGPT     & \url{https://arxiv.org/pdf/2203.02155.pdf}                                                                         & \citet{ouyang2022instructions} &  14\\
+Codex           & \url{https://arxiv.org/pdf/2107.03374.pdf}                                                                         & \citet{chen2021codex} &  1\\
+GLM             & \url{https://arxiv.org/pdf/2210.02414.pdf}                                                                         & \citet{zeng2022glm} &  29\\
+Cohere          & \url{https://docs.cohere.ai/docs/introduction-to-large-language-models}                                            & Cohere &  0\\
+ELMo            & \url{https://arxiv.org/pdf/1802.05365.pdf}                                                                         & \citet{peters2018elmo} &  6\\
+BERT            & \url{https://arxiv.org/pdf/1810.04805.pdf}                                                                         & \citet{devlin2019bert} &  10\\
+RoBERTa         & \url{https://arxiv.org/pdf/1907.11692.pdf}                                                                         & \citet{liu2019roberta} &  11\\
+BART            & \url{https://arxiv.org/pdf/1910.13461.pdf}                                                                         & \citet{lewis2020bart} &  6\\
+DeBERTa         & \url{https://arxiv.org/pdf/2006.03654.pdf}                                                                         & \citet{he2021deberta} &  19\\
+FLAN            & \url{https://arxiv.org/pdf/2109.01652.pdf}                                                                         & \citet{wei2022flan} &  63\\
+GLaM            & \url{https://arxiv.org/pdf/2112.06905.pdf}                                                                         & \citet{du2021glam} &  25\\
+LaMDA           & \url{https://arxiv.org/pdf/2201.08239.pdf}                                                                         & \citet{thoppilan2022lamda} &  0\\
+PaLM            & \url{https://arxiv.org/pdf/2204.02311.pdf}                                                                         & \citet{chowdhery2022palm} &  262\\
+Gopher          & \url{https://arxiv.org/pdf/2112.11446.pdf}                                                                         & \citet{rae2021gopher} &  20\\
+RETRO           & \url{https://arxiv.org/pdf/2112.04426.pdf}                                                                         & \citet{borgeaud2022retro} &  6\\
+Chinchilla      & \url{https://arxiv.org/pdf/2203.15556.pdf}                                                                         & \citet{hoffmann2022chinchilla} &  14\\
+Alexa-LM        & \url{https://arxiv.org/pdf/2208.01448.pdf}                                                                         & \citet{soltan2022alexa} &  27\\
+SuperGLUE       & \url{https://arxiv.org/pdf/1905.00537.pdf}                                                                         & \citet{wang2019superglue} &  8\\
+LM Eval Harness & \url{https://github.com/EleutherAI/lm-evaluation-harness}                                                          & \citet{gao2021harness} &  71\\
+BIG-Bench       & \url{https://arxiv.org/pdf/2206.04615.pdf}                                                                         & \citet{srivastava2022bigbench} & 208\\ 
+
+\bottomrule
+\end{tabular}}
+\caption{\textbf{Summary of language model evaluations.}
+We enumerate \numpriorevaluations prominent evaluations of language models, spanning both language modeling efforts and benchmarking efforts.
+Across all of these, they amount to a total of \numlmdatasets datasets being used to evaluate language models.
+Here we provide a summary, whereas on Github we annotate the full \numlmdatasets $\times$ \numpriorevaluations binary matrix. 
+}
+\label{tab:prior-evaluations}
+\end{table*}

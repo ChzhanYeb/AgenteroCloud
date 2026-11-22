@@ -1,0 +1,680 @@
+\section{Circuits in Mechanistic Interpretability}
+\label{sec:circuit}
+Mechanistic interpretability aims not only to identify what information a model represents, but also to explain how it transforms and combines that information across layers to produce behaviour. Feature analysis is a useful tool for describing activation vectors, but it describes them in isolation. Many model behaviours arise from structured interactions among multiple components that operate together across layers. To explain these behaviours and their mechanisms, we need a high-level abstraction that captures critical computational patterns of these features. The circuit framework (Figure~\ref{fig:circuit}; introduced in Section~\ref{subsec:circuits}) addresses this gap by modelling behaviour as coordinated computational graphs and making explicit how components causally interact. 
+
+Notably, the circuit framework is not the only way to model an internal mechanism. Early studies have explored alternative ways. For example, \citetest{rnnfsa1992} and \citetest{OMLIN199641} categorised a recurrent neural network's hidden representations into different states and modelled its decision process as a finite-state automaton when the input sentence was fed sequentially. Nonetheless, the circuit framework has attracted growing research interest in studying neural networks' internal mechanisms. Below, we introduce approaches for identifying and constructing circuits.
+
+\subsection{Circuit Discovery Methods}
+\label{sec:circuit-discovery-methods}
+
+Circuit discovery methods aim to identify internal computational graphs responsible for specific capabilities or outputs in a neural network. Below, and in Table~\ref{tab:circuit-methods}, we formalise key techniques and methods, along with their strengths and limitations.
+
+\begin{definitionbox}[Activation Patching]
+\label{def:attribution-patching}
+Given a model $f_\theta(\cdot)$ parameterised by $\theta$ and an input sequence $x$, \emph{activation patching} evaluates the causal contribution of some model components $S$ by replacing their activations with specified reference values $\tilde{h}_S$ and measuring the resulting change in the model output. The causal importance of $S$ for $x$ is defined as
+\[
+s_S(x)
+=
+M\bigl(f_\theta(x)\bigr)
+-
+M\Bigl(f_\theta\bigl(x_{[S \leftarrow \tilde{h}_S]}\bigr)\Bigr),
+\]
+where \(M(\cdot)\) is a scalar performance metric computed from the model output, such as the logit difference for the answer token, and $x_{[S \leftarrow \tilde{h}_S]}$ denotes a forward pass on $x$ in which the activations of components in $S$ are replaced by $\tilde{h}_S$ while the remaining computation proceeds normally. The reference activations $\tilde{h}_S$ usually come from a corrupted reference run, where the input is modified to add or remove specific information. Some works have also set $\tilde{h}_S$ to zero or the mean model activation. The resulting change in model output quantifies the causal effect of intervening on $S$~\citeest{zhang2024towards}.
+\end{definitionbox}
+
+\begin{definitionbox}[Path Patching]
+\label{def:path-patching}
+\emph{Path patching} extends activation patching on model components to specific edges in the computational graph. For a connection \(e_{ij}\) from model component \(i\) to \(j\) denoting that the output activations of \(i\) are fed to \(j\) as one of its inputs, it replaces activations along \(e_{ij}\) with reference values \(\tilde{h}_{e_{ij}}\) and measures \(e_{ij}\)'s causal effect as:
+\[
+s_{ij}(x) = M\bigl(f_\theta(x)\bigr) - M\Bigl(f_\theta\bigl(x_{[e_{ij} \leftarrow \tilde{h}_{e_{ij}}]}\bigr)\Bigr).
+\]
+This allows finer-grained causal localisation along information flows~\citeem{goldowskydill2023localizingmodelbehaviorpath}.
+\end{definitionbox}
+
+\begin{definitionbox}[Automatic Circuit Discovery (ACDC)]
+\label{def:acdc}
+\emph{ACDC}~\citeest{conmy2023automatedcircuitdiscoverymechanistic} discovers a circuit by iteratively using path patching to identify important connections in the model’s computational graph. Traversing the graph in reverse topological order from the output node, it patches the activation transmitted along each edge and measures the resulting change in a task-specific metric. An edge $e_{ij}$ will be pruned if patching it produces $|s_{ij}(x)|$ less than a predefined threshold $\tau$; otherwise, it is retained in the graph and its upstream edges will be investigated. The remaining subgraph represents the discovered circuit.
+\end{definitionbox}
+
+\begin{definitionbox}[Edge Attribution Patching (EAP)]
+\label{def:eap}
+\emph{EAP}~\citeem{syed2023attributionpatchingoutperformsautomated} estimates the causal importance of edges in a model’s computational graph by approximating the effect of path patching with a first-order Taylor expansion. For an edge \(e_{ij}\) connecting components \(i\) and \(j\), its importance score is approximated as
+\[
+s_{ij}(x)
+\approx
+\frac{\partial M}{\partial h_{e_{ij}}}
+\cdot
+\left(h_{e_{ij}}^{\mathrm{clean}} - h_{e_{ij}}^{\mathrm{corrupt}}\right),
+\]
+where \(h_{e_{ij}}^{\mathrm{clean}}\) and \(h_{e_{ij}}^{\mathrm{corrupt}}\) denote the activations transmitted from component $i$ to component $j$ along edge $e_{ij}$ on clean and corrupted inputs, respectively, when processing $x$. $M(\cdot)$ is a scalar metric of model performance as mentioned above. EAP is substantially faster than ACDC because the attribution scores for all edges are computed using only two forward passes and a single backward pass. Specifically, the forward passes obtain $h_{e_{ij}}^{\mathrm{clean}}$ and $h_{e_{ij}}^{\mathrm{corrupt}}$, while the backward pass computes $\frac{\partial M}{\partial h_{e_{ij}}}$ for all components simultaneously. In contrast, ACDC requires a separate forward pass for each edge it tests.\\
+
+Edges with large score magnitudes are generally considered main contributors to the target behaviour. Therefore, one simple approach to circuit construction is directly selecting the highest-scoring edges~\citeem{syed2023attributionpatchingoutperformsautomated}. Subsequent work has improved EAP in different directions: EAP-IG~\citeest{eapig} and EAP-GP~\citeest{eapgp} improve edge-attribution estimation, while PEAP~\citeest{haklay-etal-2025-position} extends patching across token positions to produce finer-grained attribution graphs that capture cross-token interactions.
+\end{definitionbox}
+
+Besides intervention (activation patching, ACDC, etc.) and attribution (EAP, EAP-IG, etc.) techniques, another line of approaches treats circuit discovery as an optimisation problem~\citeest{netmodular, cao-etal-2021-low, bhaskar2024finding, haider2026multigranular}. Specifically, they use gradient descent to learn which parts of the computational graph can be removed without affecting model behaviour. For example, Edge Pruning~\citeest{bhaskar2024finding} learns edge masks to discover sparse connections, while multi-granular node pruning~\citeest{haider2026multigranular} learns node masks at different scales, from entire blocks to individual neurons. These methods can usually discover sparser circuits than intervention and attribution counterparts. However, the optimisation process itself introduces randomness and sensitivity to training configurations like the learning rate, which may make the subsequent analysis less robust and interpretable.
+
+Circuits can explain models in different contexts, from a single input--output pair to a capability or behaviour. Identifying a circuit for a specific input or prompt is called \emph{query-level circuit discovery}~\citeest{querycircuit}. In contrast, \emph{task-level circuit discovery}~\citeest{wang2022interpretabilitywildcircuitindirect, kharlapenko2025scaling} seeks to identify a circuit that implements a broader capability or task, typically operationalised by a dataset of examples, such as the indirect object identification (IOI) dataset~\citeest{wang2022interpretabilitywildcircuitindirect}. In the task-level setting, components’ and edges’ attribution scores (e.g., $s_S(x)$ or $s_{ij}(x)$) are aggregated across inputs to reduce example-specific noise, yielding a circuit that characterises the task as a whole.
+
+The techniques and methods introduced above, including activation patching, path patching, ACDC, EAP, EAP-IG, and mask-based pruning methods, have primarily been developed and evaluated in the task-level setting. More recent work has extended EAP-IG to identify circuits for individual prompts~\citeest{querycircuit}. This enables the discovery of sparse yet faithful circuits in the model even for complex, natural-language user queries, where the relevant computation may vary substantially from one input to another.
+
+\begin{table}[tb]
+\centering
+\caption{Trade-offs and characteristics of circuit discovery methods.}
+\label{tab:circuit-methods}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.3cm} >{\raggedright\arraybackslash}p{2.8cm} >{\raggedright\arraybackslash}p{2.8cm} >{\raggedright\arraybackslash}p{2.8cm}}
+\toprule
+\rowcolor{tableheader!80} \textcolor{white}{\textbf{Method}} & \textcolor{white}{\textbf{Core Idea}} & \textcolor{white}{\textbf{Strengths}} & \textcolor{white}{\textbf{Limitations}} \\
+\midrule
+\rowcolor{tablerow1} \textbf{Activation Patching}
+& Intervene on components and measure the resulting output change
+& Simple and intuitive; provides direct causal evidence
+& Requires many interventions; component-level granularity can be coarse \\
+
+\rowcolor{tablerow2} \textbf{Path Patching}
+& Intervene on individual information paths or edges and measure their causal effects
+& Finer-grained localisation of information flow
+& Computationally expensive due to the large number of candidate paths \\
+
+\rowcolor{tablerow1} \textbf{ACDC}
+& Greedily prune edges from the computational graph while testing whether the target behaviour is preserved
+& Fully automated; directly searches for a behaviourally sufficient subgraph
+& Computationally expensive due to sequential edge pruning; sensitive to pruning order and threshold choices \\
+
+\rowcolor{tablerow2} \textbf{EAP}
+& Approximate edge-level attribution using path patching and first-order gradients, enabling parallel evaluation of many candidate edges
+& Highly parallelisable and computationally efficient; enables large-scale edge attribution
+& Relies on a first-order approximation; attribution scores may not fully capture nonlinear or interaction effects \\
+
+\rowcolor{tablerow1} \textbf{SAE- or CLT-Based}
+& Discover circuits over sparse, interpretable features rather than raw model components
+& Leverages interpretable features; enables finer-grained feature-level circuit analysis
+& Depends on feature quality; requires additional computation to train and analyse SAEs/CLTs \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Circuit Discovery with Replacement Models}
+\label{sec:circuit-replacement}
+
+The methods introduced above discover circuits \emph{within} the target model. Their nodes correspond to coarse-grained components such as attention heads and MLP blocks, which are mostly not immediately understandable. A complementary approach first constructs a more interpretable replacement model (Section~\ref{subsubsec:cross-layer-transcoder}) that approximates the original model’s computation using sparse linear features, and then performs circuit discovery within this replacement model.
+
+Recent work has implemented this paradigm using cross-layer transcoders (CLTs; Section~\ref{subsubsec:cross-layer-transcoder})~\citeem{ameisen2025circuit, merullo2025replicating}. In particular, Circuit Tracer~\citeem{ameisen2025circuit} replaces the model’s MLPs with CLTs while retaining the underlying model's attention and residual-stream computation. This yields a prompt-specific attribution graph whose principal internal nodes are sparse CLT features rather than entire MLP blocks or attention heads.
+
+\begin{definitionbox}[Circuit Tracer]
+\label{def:circuit-tracer}
+
+\emph{Circuit Tracer}~\citeem{ameisen2025circuit} constructs a prompt-specific attribution graph in a CLT-based replacement model. For a given input prompt, consider a source feature $\phi_s$ at layer $\ell_s$ active at token position $c_s$ with activation value $z_{\ell_s}^{s}$, and a downstream target feature $\phi_t$ at layer $\ell_t$ active at position $c_t$. Recall that a CLT feature can write to the reconstructed MLP outputs of its own and all subsequent layers (Figure~\ref{fig:clt}); the source feature has layer-specific output vectors to these layers, corresponding to columns of the layer-specific decoder matrices:
+\[
+v_{\mathrm{out},\phi_s}^{\ell}
+\coloneqq
+W_{\mathrm{out},s}^{\ell_s \to \ell}
+\in \mathbb{R}^{d},
+\qquad
+\ell_s \leq \ell.
+\]
+On the other hand, the target feature reads from the MLP input through its corresponding encoder vector, given by a row of the encoder matrix:
+\[
+v_{\mathrm{in},\phi_t}
+\coloneqq
+\left(W_{\mathrm{in},t}^{\ell_t}\right)^\top
+\in \mathbb{R}^{d}.
+\]
+
+Then, let
+\[
+J_{c_s,\ell \to c_t,\ell_t}
+\in \mathbb{R}^{d\times d}
+\]
+denote the Jacobian that maps a perturbation written at token position $c_s$ and layer $\ell$ to the MLP input at position $c_t$ and layer $\ell_t$, where each of the entries is
+\[
+\left[
+J_{c_s,\ell \to c_t,\ell_t}
+\right]_{pq}
+=
+\frac{
+\partial \left(h_{\ell_t}^{\mathrm{in},c_t}\right)_p
+}{
+\partial \left(h_{\ell}^{\mathrm{out},c_s}\right)_q
+}.
+\]
+
+The direct attribution from source feature $\phi_s$ to target feature $\phi_t$ can then be modelled as
+\[
+A_{\phi_s \rightarrow \phi_t}
+=
+\sum_{\ell_s \leq \ell < \ell_t}
+z_{\ell_s}^{s}
+\left(v_{\mathrm{in},\phi_t}\right)^\top
+J_{c_s,\ell \to c_t,\ell_t}
+v_{\mathrm{out},\phi_s}^{\ell}.
+\]
+
+Each term in the summation measures the contribution of the source feature $\phi_s$’s write at layer $\ell$ to the pre-activation of target feature $\phi_t$, transported through the residual stream and attention heads. $A_{\phi_s \rightarrow \phi_t}$ aggregates the downstream writes across layers produced by the same source feature. Notably, \citetem{ameisen2025circuit} stop the gradients flowing through intermediate MLP outputs and fix attention patterns and normalisation denominators. This lets each edge capture direct feature-to-feature influence rather than effects mediated through intermediate feature nodes.
+
+\end{definitionbox}
+
+CLT-based circuit discovery differs from conventional circuit discovery in two aspects. First, the resulting circuit's nodes correspond to fine-grained linear features rather than coarse MLP blocks or attention modules. Using automated feature-interpretation pipelines (Section~\ref{sec:automated-interp}) to assign natural-language descriptions to these features, human inspectors can more easily understand the discovered mechanism. Second, an edge in a CLT-based circuit denotes the direct, input-specific influence between two features, which is different from the formulation of attribution methods based on clean--corrupted reference pairs, such as EAP and EAP-IG. Specifically, in Circuit Tracer, a source feature can write to the residual stream at multiple subsequent layers, and the strength of an edge from the source feature to a target feature is the aggregate of the contributions of these writes to the target feature.
+
+For a given prompt, Circuit Tracer produces a sparse attribution graph that describes active features and their interactions, making it well suited to query-level circuit discovery. Interpretability platforms such as Neuronpedia~\citeem{neuronpedia} also offer interactive implementations. However, the approach still has several limitations. Specifically, CLTs only approximate MLP computations, so the discovered circuit may only cover a part of the model's underlying mechanism. Moreover, feature-level attribution graphs can have many nodes and edges, so we must prune, cluster, or otherwise condense them before they become understandable.
+
+\subsection{Causal Verification}
+\label{sec:causal-verification}
+
+Once we identify circuits, two critical questions arise: are they causally responsible for the behaviour, and can we modify them reliably?
+
+\paragraph{Causal Necessity and Sufficiency.}
+A circuit is \emph{causally necessary} for a behaviour if removing or ablating the circuit degrades that behaviour. A circuit is \emph{causally sufficient} if activating the circuit alone, i.e., patching all edges outside the circuit with activations from a corrupted reference run, reproduces the behaviour. In practice, a circuit is rarely sparse, necessary, and sufficient at the same time; it typically explains 60--80\% of behavioural variance.
+
+\paragraph{Evaluating Circuits and Benchmarking Discovery Methods.}
+A circuit is often considered \emph{faithful} if it is both causally necessary and causally sufficient for the behaviour it is claimed to explain~\citeest{eapig, marks2025sparse}. Two popular approaches to validate causality are causal scrubbing and interchange interventions~(\citeemalp{chan2022causal}; \citeestalp{das}). Causal scrubbing~\citeem{chan2022causal} systematically evaluates a mechanistic hypothesis by replacing model activations with those from inputs deemed equivalent under the hypothesis and testing whether these interventions preserve the model behaviour. Interchange interventions~\citeest{das} test whether model activations causally correspond to higher-level variables by substituting activations across inputs and measuring the resulting change in model behaviour. Together, these methods provide stronger evidence for mechanistic explanations than observational analysis alone.
+
+More recently, several works have proposed metrics to quantify circuit faithfulness as a continuous score~\citeest{eapig, querycircuit}, allowing systematic comparisons of circuits discovered by different methods. By aggregating faithfulness scores across tasks and settings, benchmarks such as MIB~\citeest{mueller2025mib} evaluate how well circuit discovery methods identify causally important model components. However, achieving strict necessity and sufficiency is often hard because many model behaviours depend on distributed representations and multiple redundant pathways~\citeest{barez2025chain}. Even if we identify a circuit that captures the primary mechanism of a behaviour, components outside the circuit may still play important roles, such as handling edge cases and computational robustness.
+
+\subsection{Case Study: Induction Heads}
+\label{subsec: induc head case study: circuit}
+\begin{examplebox}[Circuit Perspective on Induction Heads]
+
+Following our introduction to induction heads in Section~\ref{subsec: induc head case study: feature extract}, we consider a repeated sequence:
+
+\[
+\texttt{A B C A B}
+\]
+
+where the model needs to predict the token after the second \texttt{B}. The induction head alone is not sufficient to implement induction behaviour from scratch. It still needs help from previous layers’ attention heads to locate the token following the current token's previous occurrence, so it knows it should attend to \texttt{C} in this example~\citeem{olsson2022incontextlearninginductionheads}.\\
+
+Specifically, in a two-layer attention-only transformer, \citetem{elhage2021mathematical} discovered the \emph{previous-token head}, which writes every token’s information to the next position. The change propagates to the residual stream to be read by the induction head, allowing it to locate \texttt{C} (because now some information about the first \texttt{B} is contained in \texttt{C}). The two kinds of heads form the \emph{induction circuit} that is sufficient to implement the induction behaviour in the two-layer small model.\\
+
+Empirical evidence supports this mechanistic interpretation. Head ablation experiments show that induction heads causally support in-context learning in the attention-only model. Circuit analysis also reveals induction heads’ dependence on earlier previous-token heads. Moreover, induction heads emerge abruptly during training, coinciding with sharp improvements in in-context learning performance.\\
+
+In larger models with additional layers and MLPs, the mechanism behind induction behaviour becomes more complex. However, the core principle remains the same: context propagates across layers and is used to conditionally retrieve tokens based on repeated subsequence matches. From this perspective, the circuit framework complements feature-based analysis by explicitly identifying the model’s internal mechanism that implements a specific behaviour.
+\end{examplebox}
+
+\subsection{A Unified Evaluation Framework for Mechanistic Interpretability}
+\label{sec:evaluation-framework}
+
+A persistent challenge in mechanistic interpretability (MI) is the lack of standardised evaluation. Different interpretability methods use incompatible metrics. For example, for the same behaviour of interest, circuit discovery can work at the level of MLP/attention modules~\citeest{conmy2023automatedcircuitdiscoverymechanistic}, CLT features~\citeem{ameisen2025circuit}, or even neurons~\citeest{arora2026language}. A CLT-based circuit must also verify CLT fidelity; an MLP/attention-level circuit should test and explain each node's role. Thus, it is hard to compare them and measure progress. To address this, this section presents a unified evaluation framework covering five dimensions---attribution faithfulness, completeness, stability, causal validity, and human interpretability---where different methods can be jointly tested.
+
+\subsubsection{The Need for Standardised Evaluation}
+
+Before we discuss the five dimensions, we first explain in detail the need for standardised evaluation. Specifically, current evaluation practices face several challenges:
+
+\begin{itemize}
+\item \textbf{Utility ambiguity:} Methods are initially developed for different aims and evaluated against distinct objectives, yet have overlapping application scenarios. For example, SAEs are assessed using reconstruction error and sparsity metrics; circuits are evaluated using behavioural recovery or faithfulness tests; and difference-in-means steering vectors (see Section~\ref{subsec:steering}) are examined by behaviour change---although all three approaches can be used to steer model outputs. Their unclear intended uses make it hard to compare their utility.
+
+\item \textbf{Cherry-picking:} Existing work often reports interpretability results on carefully selected examples, samples from a narrow distribution, or capabilities where a method performs well. It may not report negative results, failure cases, or coverage statistics. This makes it difficult to assess the robustness and generality of the findings and determine whether the proposed method genuinely outperforms existing ones.
+
+\item \textbf{Missing baselines:} Many proposed methods' claimed interpretability gains are not systematically and adequately compared against intuitive alternatives or baselines such as behavioural methods, random activations, or neuron-level analysis. Without this comparison, it is unclear whether a method extracts genuinely meaningful information.
+
+\item \textbf{Reproducibility gaps:} Many existing techniques involve substantial hyperparameter choices, heavy training procedures, and high variation across seemingly irrelevant factors. Reproducibility is often underreported and has not yet been established as a property to optimise.
+
+\item \textbf{Faithfulness--understandability gap:} Methods often demonstrate how understandable and informative their outputs are to humans. However, those outputs' faithfulness to the underlying model mechanism receives less attention. This rewards explanations that are persuasive rather than faithful.
+
+\end{itemize}
+
+\citetest{lan-etal-2026-make} have called for a shared platform for tracking and auditing interpretability insights and claims across papers; \citetem{philosophicalevalframework} proposed a framework that evaluates mechanistic explanations from several philosophy-of-science perspectives. However, these discussions remain largely conceptual. The MI community needs standardised, concrete evaluation protocols and benchmarks, along with established reporting practices, to enable principled comparisons across methods and findings. They are especially important for measuring real progress in the field, identifying systematic failure modes, and providing evidence about what methods do and do not reveal. More broadly, they are necessary for mechanistic interpretability to mature from a collection of promising techniques into a cumulative scientific discipline.
+
+\subsubsection{Five Evaluation Dimensions}
+\label{subsec:five eval dim}
+We propose a framework that situates mechanistic interpretability evaluation within five complementary dimensions. No single dimension suffices---strong methods should perform well across all five. Table~\ref{tab:evaluation-framework} summarises these five dimensions. We describe each one with example metrics that convey the idea.
+
+\begin{table}[tb]
+\centering
+\caption{Unified evaluation framework for mechanistic interpretability.}
+\label{tab:evaluation-framework}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{
+>{\raggedright\arraybackslash}p{2.8cm}
+>{\raggedright\arraybackslash}p{4.3cm}
+>{\raggedright\arraybackslash}p{4.3cm}
+>{\raggedright\arraybackslash}p{3.3cm}}
+\toprule
+\rowcolor{tableheader!80}
+\textcolor{white}{\textbf{Dimension}} &
+\textcolor{white}{\textbf{Definition}} &
+\textcolor{white}{\textbf{Metrics}} &
+\textcolor{white}{\textbf{Methods}} \\
+\midrule
+
+\rowcolor{tablerow1}
+\textbf{Attribution Faithfulness} &
+Do attribution scores accurately reflect the causal effects of the identified components? &
+Intervention-effect agreement; effect-size error; counterfactual effect recovery &
+Ablation; activation / path patching; interchange interventions \\
+
+\rowcolor{tablerow2}
+\textbf{Completeness} &
+How much of the behaviour is accounted for by the identified components? &
+Loss recovery; behavioural coverage; unexplained variance &
+Reconstruction; behavioural evaluation; residual analysis \\
+
+\rowcolor{tablerow1}
+\textbf{Stability} &
+Are findings robust to variations in factors like random seeds, hyperparameters, paraphrases, etc.? &
+Cross-seed agreement; checkpoint consistency; hyperparameter sensitivity &
+Multi-seed analysis; checkpoint comparison; input paraphrasing\\
+
+\rowcolor{tablerow2}
+\textbf{Causal Validity} &
+Are the identified components necessary, sufficient, and specific for the target behaviour? &
+Necessity score; sufficiency score; specificity score&
+Ablation; component isolation; interchange interventions; tests with control behaviours \\
+
+\rowcolor{tablerow1}
+\textbf{Human Interpretability} &
+Can humans understand and use the resulting explanations? &
+Explanation utility; debugging utility; interpretation agreement &
+User studies; expert evaluation\\
+
+\bottomrule
+\end{tabular}
+\end{table}
+
+Note that throughout this subsection, we use \emph{model components} to refer to any unit of analysis, including individual features, neurons, attention heads, circuits, and connections representing information flow between components. We operationalise the model behaviour of interest, \(B\), with a set of input prompts \(x \sim B\). Following the notation introduced in Section~\ref{sec:circuit-discovery-methods}, we denote the model by \(f_\theta(\cdot)\), a scalar behaviour-relevant performance metric by \(M(\cdot)\), and an intervention on components \(S\) by
+\[
+f_\theta\!\left(x_{[S \leftarrow \tilde h_S]}\right),
+\]
+where the activations of \(S\) are replaced by reference activations \(\tilde h_S\) while the remaining computation proceeds normally. Following Section~\ref{sec:circuit-discovery-methods}, we define the intervention effect of \(S\) on an input \(x\) as
+\[
+s(S,x)
+\coloneqq
+M\!\left(f_\theta(x)\right)
+-
+M\!\left(
+f_\theta\!\left(x_{[S \leftarrow \tilde h_S]}\right)
+\right)
+\]
+and the average intervention effect on behaviour \(B\) as
+\[
+s(S,B)
+\coloneqq
+\mathbb{E}_{x \sim B}\left[s(S,x)\right].
+\]
+
+\subsubsection*{Dimension 1: Attribution Faithfulness}
+
+Attribution faithfulness measures whether the interpretability method accurately attributes the model’s behaviour of interest to responsible components.
+
+\begin{definitionbox}[Attribution Faithfulness Metrics]
+
+\paragraph{Intervention-Effect Agreement.}
+Let \(a(S,x)\) denote the importance score assigned by an interpretability method to components \(S\) for a sample \(x \sim B\):
+\[
+\mathrm{EffectAgreement}
+=
+\rho_{x \sim B}\!\left(
+a(S,x),
+s(S,x)
+\right),
+\]
+where \(\rho\) may be Pearson or Spearman correlation. High agreement indicates that the attribution consistently reflects the identified components’ causal effects on behaviour \(B\).\\
+
+\paragraph{Effect-Size Error.}
+When attribution scores are calculated to estimate intervention effects, we measure the effect-size error as:
+\[
+\mathrm{EffectError}
+=
+\mathbb{E}_{x \sim B}
+\left[
+\left|
+a(S,x)-s(S,x)
+\right|
+\right].
+\]
+A low value indicates good calibration between estimated and actual intervention effects. If the two quantities are not naturally on the same scale, we may use normalised or rank-based measures instead.\\
+
+\paragraph{Counterfactual Effect Recovery.}
+Consider inputs \(x_1 \sim B'\) and \(x_2 \sim B\), where $B'$ is a reference behaviour (e.g., honesty) and $B$ is the behaviour of interest (e.g., sycophancy). Patching \(S\) from \(x_2\) into the computation on \(x_1\) yields
+\[
+\mathrm{CFRecovery}(S;B,B')
+=
+\mathbb{E}_{x_1 \sim B', x_2 \sim B}
+\frac{
+M\!\left(
+f_\theta\!\left(
+x_{1,[S \leftarrow h_S(x_2)]}
+\right)
+\right)
+-
+M\!\left(f_\theta(x_1)\right)
+}{
+M\!\left(f_\theta(x_2)\right)
+-
+M\!\left(f_\theta(x_1)\right)
+}.
+\]
+A value near 1 indicates that the patching recovers much of the behaviour, while a value near 0 indicates little effect. This metric has been widely used in the circuit discovery literature~(\citeestalp{eapig, eapgp}; \citeemalp{syed2023attributionpatchingoutperformsautomated}). However, the denominator of this metric can be close to $0$, and $M\!\left(
+f_\theta\!\left(
+x_{1,[S \leftarrow h_S(x_2)]}
+\right)
+\right)$ empirically can exceed $M\!\left(f_\theta(x_2)\right)$ or fall below $M\!\left(f_\theta(x_1)\right)$. These may cause this metric to take values much larger than $1$ or below $0$, complicating the analysis. Recent work has proposed an alternative metric that bounds the value between 0 and 1~\citeest{querycircuit}.
+\end{definitionbox}
+
+\paragraph{Evaluation protocol:}
+\begin{enumerate}
+\item Apply the method to acquire attribution scores \(a(S,x)\) of model components and select those of interest (e.g., components with high scores).
+\item Measure the corresponding ground-truth intervention effects \(s(S,x)\).
+\item Compare them using correlation, error, or rank agreement.
+\item Evaluate how much of the behavioural difference between clean and corrupted inputs can be recovered by patching the identified components.
+\item Report results across a diverse set of inputs with uncertainty estimates.
+\end{enumerate}
+
+\subsubsection*{Dimension 2: Completeness}
+
+Completeness measures how much of the model behaviour the identified components or mechanisms explain. A high completeness score indicates that the identified components/mechanisms capture most of the relevant computation.
+
+\begin{definitionbox}[Completeness Metrics]
+
+\paragraph{Loss Recovery.}
+For methods that reconstruct model activations (e.g., SAEs and CLTs), after replacing the target component's activations with the reconstructions, we measure the fraction of the original model performance that is recovered:
+\[
+\mathrm{LR}
+=
+\frac{
+\mathcal{L}_{\mathrm{reconstructed}}
+-
+\mathcal{L}_{\mathrm{ablated}}
+}{
+\mathcal{L}_{\mathrm{original}}
+-
+\mathcal{L}_{\mathrm{ablated}}
+},
+\]
+where \(\mathcal{L}_{\mathrm{original}}\) is the downstream test loss of the original model, \(\mathcal{L}_{\mathrm{reconstructed}}\) is the loss after replacing the original activations with reconstructions, and \(\mathcal{L}_{\mathrm{ablated}}\) is the baseline loss where activations are replaced with zero ablation, mean ablation, or Gaussian noise matching the layer statistics. A value near $1$ indicates that the reconstruction preserves most of the information. Similar to the vanilla Counterfactual Effect Recovery metric discussed above, this metric can take arbitrary values. A simple solution is to develop a bounded variant, as has been done for Counterfactual Effect Recovery~\citeest{querycircuit}.\\
+
+\paragraph{Behavioural Coverage.}
+Across input prompts $x \sim B$, we measure the fraction for which the identified components have a meaningful intervention effect:
+\[
+\mathrm{Coverage}(S,B)
+=
+\mathbb{E}_{x \sim B}
+\left[
+\mathbbm{1}
+\left(
+|s(S,x)| \geq \tau
+\right)
+\right],
+\]
+where \(s(S,x)\) is the intervention effect defined above and \(\tau\) specifies the minimum effect considered meaningful. Higher coverage indicates that the identified components account for the behaviour across a larger fraction of inputs.\\
+
+\paragraph{Unexplained Variance.}
+For methods that reconstruct activations of the components, we measure the fraction of unexplained activation variance as:
+\[
+\mathrm{UV}(S,B)
+=
+\frac{
+\mathbb{E}_{x \sim B}
+\left[
+\|h(x)-\hat{h}_S(x)\|_2^2
+\right]
+}{
+\mathbb{E}_{x \sim B}
+\left[
+\|h(x)-\bar{h}_B\|_2^2
+\right]
+},
+\]
+where $\bar{h}_B = \mathbb{E}_{x \sim B}[h(x)]$, \(h(x)\) is the original model activation, and \(\hat{h}_S(x)\) is its reconstruction from the identified components \(S\). Lower values indicate that the identified components explain a larger fraction of the variance in the original activations.
+
+\end{definitionbox}
+
+\paragraph{Evaluation protocol:}
+\begin{enumerate}
+\item Report behavioural coverage using the intervention effects \(s(S,x)\).
+\item Report reconstruction-based metrics such as loss recovery and unexplained variance if applicable.
+\item Analyse inputs of the behaviour for which the identified components do not provide good coverage or reconstruction.
+\end{enumerate}
+
+\subsubsection*{Dimension 3: Stability}
+Stability measures the robustness of explanations, attributions, and findings to changes in variables that should not affect the results, such as the choice of random seeds, small hyperparameter changes, and input paraphrasing.
+
+\begin{definitionbox}[Stability Metrics]
+\paragraph{Cross-Seed Agreement.} We train or apply the interpretability method $K$ times under different random seeds. Let $\mathcal{F}_i$ denote the set of features or mechanisms, such as SAE features and circuits, discovered under seed $i$. We measure the cross-seed agreement as:
+\[
+\text{Seed-Stability} = \frac{1}{K(K-1)} \sum_{i \neq j} \text{Align}(\mathcal{F}_i, \mathcal{F}_j),
+\]
+where $\text{Align}(\cdot)$ measures similarity between sets. For example, \citetest{paulo2025sparse} calculate the Hungarian matching between two sets of SAE features based on their pairwise cosine similarities.\\
+
+\paragraph{Hyperparameter Sensitivity.} We measure the sensitivity of mechanistic analyses or methods under reasonable hyperparameter variations. Let $\Omega$ denote the set of evaluated hyperparameter configurations and $\text{Metric}(\omega)$ denote the experimental result (e.g., a method's performance) under a configuration $\omega \in \Omega$. We calculate the hyperparameter sensitivity as:
+\[
+\text{HP-Sensitivity}
+=
+\frac{
+\max_{\omega \in \Omega} \text{Metric}(\omega)
+-
+\min_{\omega \in \Omega} \text{Metric}(\omega)
+}{
+\mathbb{E}_{\omega \in \Omega}[\text{Metric}(\omega)]
+}.
+\]
+Lower values indicate that the finding is less sensitive to hyperparameter choices and therefore more robust.\\
+
+\textbf{Paraphrase Consistency.} For each input $x \sim B$, let $\mathcal{P}(x) = \{x^{(1)}, \dots, x^{(K)}\}$ denote a set of semantics-preserving paraphrases of $x$. We measure the consistency of explanations or attributions across $\mathcal{P}(x)$. For example, we can measure whether the intervention effect of $S$ remains consistent:
+\[
+\text{Para-Consistency}(S, B)
+= \mathbb{E}_{x \sim B}\left[
+ 1 - \frac{\mathrm{Var}_{x' \in \mathcal{P}(x)}\left[s(S, x')\right]}
+          {\mathbb{E}_{x' \in \mathcal{P}(x)}\left[s(S, x')^2\right]}
+\right].
+\]
+The score lies in $[0, 1]$. A value of $1$ indicates that the intervention effect is identical across all paraphrases. A value of $0$ indicates that, for each $x$, the expected intervention effect, i.e., $\mathbb{E}_{x' \in \mathcal{P}(x)}s(S, x')$, is 0.
+\end{definitionbox}
+
+\paragraph{Evaluation protocol:}
+\begin{enumerate}
+\item Execute the interpretability method with several random seeds and compute alignment of the discovered units or findings across seeds.
+\item Analyse which findings are stable across all seeds and which ones are seed-specific. Key claims need to remain consistent under subsequent tests on hyperparameter variation and input paraphrasing, if applicable.
+\item Distinguish robust findings from fragile ones and report both of them.
+\end{enumerate}
+
+\subsubsection*{Dimension 4: Causal Validity}
+
+Causal validity assesses whether the identified components or mechanisms are causally responsible for the behaviour, particularly necessity (i.e., removing the components/mechanisms disrupts the behaviour) and sufficiency (i.e., the components/mechanisms alone are sufficient to preserve the behaviour).
+
+\begin{definitionbox}[Causal Validity Metrics]
+
+\paragraph{Necessity Score.}
+Necessity measures the fraction of the model’s performance on behaviour \(B\) that is lost when \(S\) is ablated (i.e., its activations are replaced with some reference values). It is calculated as:
+\[
+\mathrm{Necessity}(S,B)
+=
+1-
+\frac{
+\mathbb{E}_{x\sim B}
+\left[
+M\!\left(
+f_\theta\!\left(
+x_{[S\leftarrow\tilde h_S]}
+\right)
+\right)
+\right]
+}{
+\mathbb{E}_{x\sim B}
+\left[
+M\!\left(f_\theta(x)\right)
+\right]
+}.
+\]
+A higher value indicates that \(S\) is necessary for the behaviour.\\
+
+\paragraph{Sufficiency Score.}
+Let \(\bar S\) denote the components outside \(S\). Sufficiency measures how much of the original behaviour is achieved when only \(S\) is active (i.e., activations of all components outside \(S\) are replaced with some reference values). It is calculated as:
+\[
+\mathrm{Sufficiency}(S,B)
+=
+\frac{
+\mathbb{E}_{x\sim B}
+\left[
+M\!\left(
+f_\theta\!\left(
+x_{[\bar S \leftarrow \tilde h_{\bar S}]}
+\right)
+\right)
+\right]
+}{
+\mathbb{E}_{x\sim B}
+\left[
+M\!\left(f_\theta(x)\right)
+\right]
+}.
+\]
+A high value indicates that \(S\) alone implements much of the behaviour.\\
+
+\paragraph{Specificity.}
+Specificity measures the effect on non-target behaviours by interventions on \(S\). It is calculated as:
+\[
+\mathrm{Specificity}(S,B)
+=
+\frac{
+|s(S,B)|
+}{
+\sum_{B' \in \mathcal{B}}
+|s(S,B')|
+},
+\]
+where \(\mathcal{B}\) contains the target behaviour together with a set of relevant control behaviours. A high value indicates that the causal effect of \(S\) is specific to \(B\).
+
+\end{definitionbox}
+
+\paragraph{Evaluation protocol:}
+\begin{enumerate}
+\item \textbf{Necessity test:} Ablate \(S\) and measure the resulting degradation on behaviour \(B\). Compare against ablating random components of matched size.
+\item \textbf{Sufficiency test:} Replace components outside \(S\) with reference activations and measure how much of behaviour \(B\) is preserved. Compare against random component sets of matched size.
+\item \textbf{Interchange test:} Swap activations of \(S\) between inputs representing different behaviours and test whether the model output follows the intervention.
+\item \textbf{Specificity test:} Measure intervention effects on a set of non-target behaviours and examine whether the effect is specific to \(B\).
+\end{enumerate}
+
+The MI community has developed several benchmarks that examine the causal validity of interpretability methods. For example, MIB~\citeest{mueller2025mib} provides standardised tasks for assessing discovered circuits and causal variables (e.g., features); AxBench~\citeest{wu2025axbench} evaluates methods’ ability to steer models towards given concepts; RAVEL~\citeest{huang-etal-2024-ravel} investigates methods’ ability to localise features of given concepts by using interchange interventions to validate discovered features; and SAEBench~\citeest{karvonen2025saebench} evaluates SAEs specifically,
+pairing reconstruction metrics with downstream intervention tasks such as gender bias erasure.
+
+\subsubsection*{Dimension 5: Human Interpretability}
+Human interpretability measures whether generated explanations eventually improve human understanding, prediction, and decision-making about model behaviour.
+
+\begin{definitionbox}[Human Interpretability Metrics]
+\paragraph{Explanation Utility.} This metric tests whether humans can predict model behaviour more accurately in the held-out set based on the explanation. It is formulated as:
+\[
+\text{Expl-Utility}
+=
+P(\text{correct prediction} \mid \text{with explanation})
+-
+P(\text{correct prediction} \mid \text{no explanation})
+\]
+
+\paragraph{Debugging Utility.} This metric examines whether the explanations help humans identify and repair model errors, such as incorrect outputs or misaligned behaviour, in the wild.
+\[
+\text{Debug-Utility}
+=
+P(\text{error fixed}\mid\text{with explanation})
+-
+P(\text{error fixed}\mid\text{no explanation}).
+\]
+
+\paragraph{Consistency of Interpretation.} This metric inspects whether different humans interpret the same explanation consistently.
+\[
+\text{Inter-Rater} = \kappa(\text{human}_1 \text{ labels}, \text{human}_2 \text{ labels})
+\]
+where $\kappa(\cdot)$ is Cohen’s kappa or a similar agreement metric.
+\end{definitionbox}
+
+\paragraph{Evaluation protocol:}
+\begin{enumerate}
+\item \textbf{Prediction task:} Show humans explanations of model components or mechanisms and ask them to predict model behaviour on held-out inputs. Compare accuracy to a no-explanation baseline.
+\item \textbf{Identification task:} Show humans model outputs with errors and ask them to identify the cause, with and without explanation assistance. Measure accuracy and required time to complete the task.
+\item \textbf{Intervention task:} Ask humans to propose fixes for model errors based on explanations. Measure the success rate of proposed interventions.
+\item \textbf{Agreement task:} Ask multiple human raters to generate explanations, if applicable (e.g., write a summary of highly activated samples of an SAE feature as its explanation). Measure inter-rater reliability and agreement with machine-generated explanations.
+\end{enumerate}
+
+Several caveats and challenges arise when evaluating the human interpretability of tested methods. For example, human studies are usually expensive. Moreover, human expertise may confound results, where some explanations understandable to MI researchers may be opaque to domain experts, and vice versa.
+
+Note that different interpretability methods may emphasise distinct evaluation dimensions and operationalise them differently. Table~\ref{tab:method-evaluation} provides guidance on applying this framework to some common interpretability approaches.
+
+\begin{table}[tb]
+\centering
+\caption{Recommended evaluation priorities by interpretability method. The entries indicate evaluation aspects particularly important for each method, not mutually exclusive metrics.}
+\label{tab:method-evaluation}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.7cm}
+>{\raggedright\arraybackslash}p{2.25cm}
+>{\raggedright\arraybackslash}p{2.25cm}
+>{\raggedright\arraybackslash}p{2.25cm}
+>{\raggedright\arraybackslash}p{2.25cm}
+>{\raggedright\arraybackslash}p{2.25cm}}
+\toprule
+\rowcolor{tableheader!80}
+\textcolor{white}{\textbf{Method}} &
+\textcolor{white}{\textbf{Attribution Faithfulness}} &
+\textcolor{white}{\textbf{Completeness}} &
+\textcolor{white}{\textbf{Stability}} &
+\textcolor{white}{\textbf{Causal Validity}} &
+\textcolor{white}{\textbf{Human Interpretability}} \\
+\midrule
+
+\rowcolor{tablerow1}
+SAEs and variants &
+Feature attribution--intervention agreement; effect-size error &
+Activation reconstruction; loss recovery; unexplained variance &
+Cross-seed feature alignment &
+Feature necessity, sufficiency, and specificity &
+Feature description consistency across annotations, including models and humans \\
+
+\rowcolor{tablerow2}
+Circuit Discovery &
+Edge or component attribution--intervention agreement; counterfactual recovery &
+Behavioural coverage; loss or behaviour recovery &
+Robustness across hyperparameters, seeds, and paraphrases &
+Circuit necessity, sufficiency, specificity; interchange tests &
+Circuit-level descriptions; trade-off between sparsity and variance explained \\
+
+\rowcolor{tablerow1}
+Probing &
+Agreement between probe-derived importance and intervention effects &
+Coverage across target concepts or behaviours under different distributions &
+Robustness across seeds and sampled fitting sets &
+Necessity, specificity, and intervention tests on probe directions &
+Explanation of shared information in fitting set and search for confounding factors \\
+
+\rowcolor{tablerow2}
+Steering Vectors &
+Agreement between predicted and observed intervention effects &
+Coverage across behaviours deemed relevant &
+Stability across steering magnitudes, seeds, and paraphrases &
+Intervention efficacy and specificity; side-effect analysis &
+Explanation of shared information in fitting set and search for confounding factors \\
+
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Integrated Evaluation Protocol}
+
+We recommend the following integrated protocol for comprehensive evaluation:
+
+\begin{practicebox}[Recommended Evaluation Protocol]
+\paragraph{Step 1: Define scope.} Users first specify the model, layer(s), and behaviour(s) of interest and define a behavioural test suite with clear success criteria.\\
+
+\paragraph{Step 2: Establish baselines.} Users specify baseline methods, such as random directions in activation space, PCA components, individual neurons, and supervised probes (if labels are available).\\
+
+\paragraph{Step 3: Apply interpretability method.} Users apply the method of interest to analyse models with variation in random seeds, hyperparameters, and other training details.\\
+
+\paragraph{Step 4: Evaluate across all five dimensions.} Users compute metrics for attribution faithfulness, completeness, stability, causal validity, and human interpretability.\\
+
+\paragraph{Step 5: Report comprehensively.} Users report all five dimensions instead of just favourable metrics and discuss the method’s failure cases, unexplained behaviours, and comparisons to baselines.
+
+\end{practicebox}
+
+\subsubsection{Limitations of This Framework}
+
+This evaluation framework, though comprehensive, still has several limitations:
+
+\begin{itemize}
+\item \textbf{Metric choice:} The proposed specific metrics are not uniquely correct. Alternative formalisations may be appropriate for specific contexts.
+\item \textbf{Threshold arbitrariness:} Thresholds (e.g., the accuracy that counts as success) may lack theoretical grounding and will need empirical calibration.
+\item \textbf{Computational cost:} Evaluating all five dimensions comprehensively is expensive and potentially prohibitive for large-scale studies.
+\item \textbf{Human evaluation bottleneck:} Dimension 5 requires time-consuming, expensive, and subjective human studies.
+\item \textbf{Task dependence:} A method’s performance under this framework can depend on the evaluation task. For example, a method that excels at factual recall may perform poorly at reasoning.
+\end{itemize}
+
+Despite these limitations, systematic evaluation across multiple dimensions provides more reliable evidence than an arbitrary choice of metrics. Readers should view the framework as a starting point for standardisation, not a final answer.
+
+\paragraph{Summary.}
+This section introduced circuit discovery methods, which trace how model components or features interact to produce behaviour, either directly on the model’s computational graph (e.g., ACDC and EAP) or within interpretable replacement models (e.g., Circuit Tracer). We also discussed how to causally verify discovered circuits and introduced a broader evaluation framework for mechanistic interpretability methods based on faithfulness, completeness, stability, causal validity, and human interpretability. In summary, Section~\ref{sec:sae} introduced methods for extracting interpretable units of analysis, while this section examined how those units interact through circuits to produce behaviour. The next section takes a complementary perspective: directly interpreting the information in individual representations using natural language.

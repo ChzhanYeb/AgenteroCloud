@@ -1,0 +1,26 @@
+{
+  "path": "papers/待整理/2309.00071",
+  "id": "2309.00071",
+  "type": "pdf",
+  "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+  "authors": [
+    "Bowen Peng",
+    "Jeffrey Quesnelle",
+    "Honglu Fan",
+    "Enrico Shippole"
+  ],
+  "year": 2023,
+  "abstract": "Rotary Position Embeddings (RoPE) have been shown to effectively encode positional information in transformer-based language models. However, these models fail to generalize past the sequence length they were trained on. We present YaRN (Yet another RoPE extensioN method), a compute-efficient method to extend the context window of such models, requiring 10x less tokens and 2.5x less training steps than previous methods. Using YaRN, we show that LLaMA models can effectively utilize and extrapolate to context lengths much longer than their original pre-training would allow, while also surpassing previous the state-of-the-art at context window extension. In addition, we demonstrate that YaRN exhibits the capability to extrapolate beyond the limited context of a fine-tuning dataset. Code is available at https://github.com/jquesnelle/yarn",
+  "tags": [],
+  "arxiv_id": "2309.00071",
+  "code_repo": "https://github.com/jquesnelle/yarn",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 718,
+  "meta_source": "recognize",
+  "summary": "YaRN extends RoPE-based models beyond their training context using compute-efficient position interpolation. It needs 10× fewer tokens and 2.5× fewer training steps than prior methods, enabling LLaMA models to use up to 128k-token contexts.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:29.999Z",
+  "updated_at": "2026-11-15T11:49:15.379Z"
+}

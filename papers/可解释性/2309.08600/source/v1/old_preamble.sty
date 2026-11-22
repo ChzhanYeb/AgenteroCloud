@@ -1,0 +1,107 @@
+\ProvidesPackage{old_preamble}
+%Packages:
+\usepackage {amsmath, amssymb, amsthm, amscd,thmtools}
+\usepackage[margin=1in]{geometry}
+\usepackage{cancel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{float}
+\usepackage{authblk}
+\usepackage{tikz-cd}
+\usepackage{soul} %strike-out, under-line
+\usepackage{biblatex} %Imports biblatex package
+\addbibresource{old_refs.bib}
+\graphicspath{ {./images/} }
+\usepackage{algorithm,algorithmic}
+\usepackage{pdflscape}
+\usepackage{booktabs}
+
+%Shortcut commands:
+\newcommand {\fsum} {\displaystyle \sum} % Fancy sum
+\newcommand {\fprod}{\displaystyle \prod} % Fancy product
+\newcommand {\fint} {\displaystyle \int} % Fancy integral
+\newcommand{\ra} {\rightarrow}
+\newcommand{\ora}[1] {\overset {#1}{\rightarrow}}
+\newcommand{\ndiv}{\hspace{-4pt}\not|\hspace{2pt}}
+\newcommand{\fmatrix}[4]{\left( \begin{array}{cc} #1 & #2 \\ #3 & #4 \end{array} \right)} %Quickly makes a 2-by-2 matrix
+\newcommand{\matrixshell}[2]{\left[ \begin{array}{#1} #2 \end{array} \right]} %Quickly makes a shell for a matrix. First argument is the right number of c's, second argument is what is in the matrix
+\newcommand{\bea}{\begin{eqnarray*}}
+\newcommand{\eea}{\end{eqnarray*}}
+\newcommand{\comment} [1] {} %Removes anything in the brackets
+\renewcommand{\i}{^{-1}}
+\newcommand{\ds}{\displaystyle}
+
+
+%Set abbreviations:
+\newcommand{\p}{\mathfrak{p}}
+\newcommand{\q}{\mathfrak {q}}
+\newcommand{\m}{\mathfrak{m}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\X}{\mathbb{X}}
+\newcommand{\T}{\mathbb{T}}
+
+
+
+%Miscellaneous other things:
+\newcommand{\xrl}{\overline {\mathbb R}}
+\newcommand{\ch}{$\spadesuit$\footnote{Make sure to check this claim!}} 
+\newcommand{\qu}[1]{$\clubsuit$\footnote{#1}}
+\newcommand{\Gaff}{G_{\text{aff}}}
+\newcommand{\closedspan}{\overline{\spanset}}
+
+%%%%%%%%
+%Indexing:
+%\usepackage{imakeidx}
+%\makeindex
+%\newcommand{\emphi}[1]{\emph{#1}\index{#1}}
+%To use: Compile with a \printindex in your document text to produce a .idx. Then run makeindex from the menu to produce a .ind, then compile latex again.
+%\usepackage{hyperref} %If hyperref is loaded after imakeidx, the index will be clickable. To enable this, comment out the first \usepackage{hyperref}
+%%%%%%%%
+
+
+%%%%%%%%
+%Someone else's code online to show the input line numbers in the output file
+\usepackage{lineno}
+\makeatletter
+%\ifnum\inputlineno=\m@ne
+%\let\showlineno\@empty
+%\else
+\def\showlineno{line \the\inputlineno}
+%\fi
+%\makeatother
+\renewcommand\LineNumber{\the\inputlineno}
+\definecolor{linenogrey}{RGB}{150,150,150}
+\renewcommand\linenumberfont{\normalfont\bfseries\small\color{linenogrey}}
+\setlength\linenumbersep{5mm}
+% To enable, remove commenting of this line:
+%\linenumbers
+%%%%%%%%
+
+
+%New Math Operators:
+\DeclareMathOperator{\im}{im}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\ran}{ran}
+\DeclareMathOperator{\range}{range}
+
+
+
+%Theorems:
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{aside}[theorem]{Aside}
+\newtheorem{construction}[theorem]{Construction}
+\newtheorem{conjecture}[theorem]{Conjecture}

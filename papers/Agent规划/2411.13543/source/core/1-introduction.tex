@@ -1,0 +1,38 @@
+\section{Introduction}
+
+
+Recent successes of Large Language Models (LLMs) have renewed interest in building general-purpose agents capable of autonomously achieving complex goals~\cite{yang2023auto}. 
+LLMs possess vast knowledge across domains~\citep{brown2020language,hendrycks2020measuring}, can reason in specific scenarios~\citep{wei2022emergent,shinn2023reflexion,rein2023gpqa}, and can reliably follow human instructions in simple settings~\citep{ouyang2022training}. These abilities suggest that LLMs have the potential to become efficient \textit{agents}, capable of autonomously performing a wide range of human tasks that require sequential decision making. In the present day, however, state-of-the-art models continue to exhibit persistent failure modes on many of the skills that are crucial for autonomous real-world interaction. For example, LLMs fail to act robustly in dynamic environments, and they cannot reliably learn from mistakes, reason about space and time, or plan over long time horizons~\citep{xing2024understanding,yamada2023evaluating,kambhampati2024llms}. Improving our understanding of LLM capabilities through rigorous, safe evaluations is key for assessing the risks and limitations of deploying agentic LLMs in the real world.
+
+
+
+Current agentic benchmarks evaluate LLM performance in settings that involve no more than a few dozen rounds of interaction between a model and an environment, e.g., solving simple office tasks~\citep{wang2024officebench}, navigating the Internet ~\citep{zhou2023webarena}, and resolving GitHub issues~\citep{jimenez2023swe}. New agentic prompting frameworks and improvements to short-horizon reasoning via LLMs like OpenAI o1 have led to dramatic and fast-paced gains in state-of-the-art performance on these benchmarks \citep{openai2024o1, wang2023voyager, fernando2023promptbreeder, hu2024automated}. However, many realistic tasks require orders of magnitude more interactions~\citep{pignatiello2020decision,wansink2007mindless}.  %
+
+\begin{figure}[t!] 
+    \centering 
+    \includegraphics[width=1.0\textwidth]{iclr2025/images/diagram_v16.png} 
+    \caption{\textbf{An overview of the \our{} Benchmark for evaluating LLMs on long-context interactive tasks}. Submissions of new inference-time methods for improving the capabilities of an existing model via an ``agentic strategy'' need only modify the \texttt{\small{agent.py}} file.
+     Similarly, benchmarking a new model zero-shot can be done by adjusting a configuration file in \texttt{\small{client.py}}. The agent class includes a prompt builder to manage observation history, and a client that abstracts the complexities of various APIs and model-serving frameworks.  The \texttt{\small{env\_wrapper.py}} file standardizes interaction across settings, and the evaluator executes agents and collects performance metrics.
+    }
+    \label{fig:diagram} 
+    \vspace{-2mm}
+    \vspace{-0.1in}
+\end{figure}
+
+In this paper, we argue that the next frontier for language and vision-language model capabilities lies in long-horizon reasoning and decision-making. To that end, we propose~\our{}: Benchmarking Agentic LLM and VLM Reasoning On Games. \our{} is a benchmark and framework that aggregates a diverse set of complex reinforcement learning game environments into a unified testbed for research on long-context LLMs. Games have historically served as highly effective metrics for evaluating progress in deep reinforcement learning research~\citep{bellemare2013arcade, silver2018general, schrittwieser2020mastering, vinyals2019grandmaster}. By aggregating many different game environments into a single evaluation, we look to spur progress on developing truly generalist agents that can meaningfully address embodied, real world tasks. Specifically \our{} enables seamless running of LLM and VLM agents on BabyAI, Crafter, TextWorld, Baba Is AI, MiniHack, and NetHack~\citep{babyai_iclr19, hafner2021benchmarking, cote2019textworld, cloos2024baba, samvelyan2021minihack, kuttler2020nethack}. These environments have lightweight simulators, ensuring that the benchmark is affordable for the research community. Furthermore, while all of these games are long-horizon, they span a broad range of difficulty levels, from tasks where we see fair zero-shot performance by state-of-the-art long-context models (BabyAI) to those where even specialized neural models trained on billions of in-domain datapoints make very limited progress (NetHack)~\citep{piterbarg2023diff, klissarov2023motif, wolczyk2024fine}. \our{} is difficult to solve through simple memorization -- all of the environments used in the benchmark are procedurally generated, and encountering the same instance of an environment twice is unlikely. 
+
+Using the six proposed environments, we evaluate the capabilities of various popular LLMs and VLMs.  We employ a fine-grained metric that captures how close each model is to completing a task, which gives us a thorough understanding of the resulting trajectories. In our qualitative analysis, we study the agents' capabilities for spatial reasoning, systematic exploration, long-term planning, and discovering environment dynamics. We find that the current top LLMs show promise on the simplest tasks but completely fail to make meaningful progress on the more difficult tasks, such as MiniHack and NetHack. Some of the models exhibit knowledge about the game from pre-training but fail to use it in practice. For example, in NetHack, GPT-4o often dies from the consumption of rotten food, even though, when prompted, it correctly identifies it as very dangerous. Furthermore, we study the impact of the input representation. Although the majority of the environments were created with vision in mind, we find that multimodal LLMs perform much worse when also presented with an image of the environment rather than a textual-only description of the observation. This suggests that reliable vision-based decision-making is currently far outside our reach.
+
+Our results show that \our{} is a very difficult benchmark that still allows us to observe fine-grained progress in crucial areas such as long-term planning, spatial reasoning and navigation. We share the codebase and open the benchmark for external submissions.
+We summarize our contributions as follows:
+
+\begin{itemize}
+    \item \our{}, a suite of six reinforcement learning environments for testing the agentic capabilities of long-context LLMs. We provide a fine-grained metric for model evaluation, and we develop a novel data-informed progression system for NetHack.
+    \item Baseline evaluations of state-of-the-art LLMs on \our{} using zero-shot prompting, in both Language-Vision and Language-only modalities. We show that while models exhibit decent performance on easier games, all are very far from solving the hardest game in the benchmark, NetHack. We observe that the performance drops further when images of the environment are presented, suggesting severe problems with VLM decision-making. 
+    \item We perform a qualitative analysis of the results across capabilities such as spatial reasoning, systematic exploration, and long-term planning. We identify an intriguing knowing-doing gap where the models cannot employ the knowledge they possess.
+     \item An open-source toolkit for benchmarking long-context models on \our{}. This toolkit enables researchers and practitioners to quickly evaluate model performance. While the baseline evaluations performed in this paper are zero-shot, the \our{} toolkit supports inference-time prompting strategies like chain-of-thought \citep{wei2022chain}, few-shot learning, and more.
+\end{itemize}
+\vspace{-2mm}
+
+
+

@@ -1,0 +1,27 @@
+{
+  "path": "papers/待整理/2205.14135",
+  "id": "2205.14135",
+  "type": "pdf",
+  "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+  "authors": [
+    "Tri Dao",
+    "Daniel Y. Fu",
+    "Stefano Ermon",
+    "Atri Rudra",
+    "Christopher Ré"
+  ],
+  "year": 2022,
+  "abstract": "Transformers are slow and memory-hungry on long sequences, since the time and memory complexity of self-attention are quadratic in sequence length. Approximate attention methods have attempted to address this problem by trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms IO-aware -- accounting for reads and writes between levels of GPU memory. We propose FlashAttention, an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between GPU high bandwidth memory (HBM) and GPU on-chip SRAM. We analyze the IO complexity of FlashAttention, showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes. We also extend FlashAttention to block-sparse attention, yielding an approximate attention algorithm that is faster than any existing approximate attention method. FlashAttention trains Transformers faster than existing baselines: 15% end-to-end wall-clock speedup on BERT-large (seq. length 512) compared to the MLPerf 1.1 training speed record, 3$\\times$ speedup on GPT-2 (seq. length 1K), and 2.4$\\times$ speedup on long-range arena (seq. length 1K-4K). FlashAttention and block-sparse FlashAttention enable longer context in Transformers, yielding higher quality models (0.7 better perplexity on GPT-2 and 6.4 points of lift on long-document classification) and entirely new capabilities: the first Transformers to achieve better-than-chance performance on the Path-X challenge (seq. length 16K, 61.4% accuracy) and Path-256 (seq. length 64K, 63.1% accuracy).",
+  "tags": [],
+  "arxiv_id": "2205.14135",
+  "code_repo": "https://github.com/NVIDIA/apex",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 5892,
+  "meta_source": "recognize",
+  "summary": "FlashAttention makes exact attention IO-aware, tiling computation in GPU SRAM to reduce HBM reads and writes. It delivers 3× speedup on GPT-2 at sequence length 1K, while supporting longer contexts and improved downstream quality.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:36.448Z",
+  "updated_at": "2026-11-15T11:49:14.050Z"
+}

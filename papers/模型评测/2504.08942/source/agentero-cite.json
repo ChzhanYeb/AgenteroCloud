@@ -1,0 +1,559 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-17T14:33:57.711Z",
+    "fingerprint": "c8ad237fdf3f8b221fdbc5b33e3908f14ab7942770645e546a1c009ef031aaf8"
+  },
+  "citations": [
+    {
+      "id": "cite-openai2024gpt4technicalreport",
+      "rawKey": "openai2024gpt4technicalreport",
+      "display": "[1]",
+      "raw": "Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et al. Gpt-4 technical report. arXiv preprint arXiv:2303.08774, 2023. URL https://arxiv.org/abs/2303.08774.",
+      "metadata": {
+        "year": 2023,
+        "arxivId": "2303.08774",
+        "url": "https://arxiv.org/abs/2303.08774"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-adept_act_1",
+      "rawKey": "adept_act_1",
+      "display": "[2]",
+      "raw": "Adept. Act-1: Transformer for actions, 2022. URL https://www.adept.ai/blog/act-1/.",
+      "metadata": {
+        "year": 2022,
+        "url": "https://www.adept.ai/blog/act-1/"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-future_of_ai_llama",
+      "rawKey": "future_of_ai_llama",
+      "display": "[3]",
+      "raw": "Ahmad Al-Dahle. The future of ai: Built with llama, December 2024. URL https://ai.meta.com/blog/future-of-ai-built-with-llama/.",
+      "metadata": {
+        "year": 2024,
+        "url": "https://ai.meta.com/blog/future-of-ai-built-with-llama/"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Anthropic_Computer_Use_2024",
+      "rawKey": "Anthropic_Computer_Use_2024",
+      "display": "[4]",
+      "raw": "Anthropic. Introducing computer use, a new claude 3.5 sonnet, and claude 3.5 haiku, 2024a. URL https://www.anthropic.com/news/3-5-models-and-computer-use.",
+      "metadata": {
+        "year": 2024,
+        "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-anthropicclaude",
+      "rawKey": "anthropicclaude",
+      "display": "[5]",
+      "raw": "Anthropic. The claude 3 model family: Opus, sonnet, haiku, 2024b. URL https://api.semanticscholar.org/CorpusID:268232499.",
+      "metadata": {
+        "year": 2024,
+        "url": "https://api.semanticscholar.org/CorpusID:268232499"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-qwen_25_vl",
+      "rawKey": "qwen_25_vl",
+      "display": "[6]",
+      "raw": "Shuai Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, Sibo Song, Kai Dang, Peng Wang, Shijie Wang, Jun Tang, Humen Zhong, Yuanzhi Zhu, Mingkun Yang, Zhaohai Li, Jianqiang Wan, Pengfei Wang, Wei Ding, Zheren Fu, Yiheng Xu, Jiabo Ye, Xi Zhang, Tianbao Xie, Zesen Cheng, Hang Zhang, Zhibo Yang, Haiyang Xu, and Junyang Lin. Qwen2.5-vl technical report, 2025. URL https://arxiv.org/abs/2502.13923.",
+      "metadata": {
+        "year": 2025,
+        "arxivId": "2502.13923",
+        "url": "https://arxiv.org/abs/2502.13923"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-workarena_l2",
+      "rawKey": "workarena_l2",
+      "display": "[7]",
+      "raw": "LÃo Boisvert, Megh Thakkar, Maxime Gasse, Massimo Caccia, Thibault Le Sellier De Chezelles, Quentin Cappart, Nicolas Chapados, Alexandre Lacoste, and Alexandre Drouin. Workarena++: Towards compositional planning and reasoning-based common knowledge work tasks, 2025. URL https://arxiv.org/abs/2407.05291.",
+      "metadata": {
+        "year": 2025,
+        "arxivId": "2407.05291",
+        "url": "https://arxiv.org/abs/2407.05291"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-brockman2016openaigym",
+      "rawKey": "brockman2016openaigym",
+      "display": "[8]",
+      "raw": "Greg Brockman, Vicki Cheung, Ludwig Pettersson, Jonas Schneider, John Schulman, Jie Tang, and Wojciech Zaremba. Openai gym, 2016. URL https://arxiv.org/abs/1606.01540.",
+      "metadata": {
+        "year": 2016,
+        "arxivId": "1606.01540",
+        "url": "https://arxiv.org/abs/1606.01540"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-chen2024mllmasajudgeassessingmultimodalllmasajudge",
+      "rawKey": "chen2024mllmasajudgeassessingmultimodalllmasajudge",
+      "display": "[9]",
+      "raw": "Dongping Chen, Ruoxi Chen, Shilin Zhang, Yinuo Liu, Yaochen Wang, Huichi Zhou, Qihui Zhang, Yao Wan, Pan Zhou, and Lichao Sun. Mllm-as-a-judge: Assessing multimodal llm-as-a-judge with vision-language benchmark, 2024. URL https://arxiv.org/abs/2402.04788.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2402.04788",
+        "url": "https://arxiv.org/abs/2402.04788"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-browsergym_platform",
+      "rawKey": "browsergym_platform",
+      "display": "[10]",
+      "raw": "Thibault Le Sellier De Chezelles, Maxime Gasse, Alexandre Drouin, Massimo Caccia, LÃo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar Omidi Shayegan, Lawrence Keunho Jang, Xing Han LÃ, Ori Yoran, Dehan Kong, Frank F. Xu, Siva Reddy, Quentin Cappart, Graham Neubig, Ruslan Salakhutdinov, Nicolas Chapados, and Alexandre Lacoste. The browsergym ecosystem for web agent research, 2025. URL https://arxiv.org/abs/2412.05467.",
+      "metadata": {
+        "year": 2025,
+        "arxivId": "2412.05467",
+        "url": "https://arxiv.org/abs/2412.05467"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-deng2023mind2web",
+      "rawKey": "deng2023mind2web",
+      "display": "[11]",
+      "raw": "Xiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Sam Stevens, Boshi Wang, Huan Sun, and Yu Su. Mind2web: Towards a generalist agent for the web. Advances in Neural Information Processing Systems, 36: 28091--28114, 2023.",
+      "metadata": {
+        "year": 2023
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-workarena_l1",
+      "rawKey": "workarena_l1",
+      "display": "[12]",
+      "raw": "Alexandre Drouin, Maxime Gasse, Massimo Caccia, Issam H. Laradji, Manuel Del Verme, Tom Marty, LÃo Boisvert, Megh Thakkar, Quentin Cappart, David Vazquez, Nicolas Chapados, and Alexandre Lacoste. Workarena: How capable are web agents at solving common knowledge work tasks?, 2024. URL https://arxiv.org/abs/2403.07718.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2403.07718",
+        "url": "https://arxiv.org/abs/2403.07718"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-feizi2025pairbenchvisionlanguagemodelsreliable",
+      "rawKey": "feizi2025pairbenchvisionlanguagemodelsreliable",
+      "display": "[13]",
+      "raw": "Aarash Feizi, Sai Rajeswar, Adriana Romero-Soriano, Reihaneh Rabbany, Valentina Zantedeschi, Spandana Gella, and JoÃo Monteiro. Pairbench: Are vision-language models reliable at comparing what they see?, 2025. URL https://arxiv.org/abs/2502.15210.",
+      "metadata": {
+        "year": 2025,
+        "arxivId": "2502.15210",
+        "url": "https://arxiv.org/abs/2502.15210"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-grattafiori2024llama",
+      "rawKey": "grattafiori2024llama",
+      "display": "[14]",
+      "raw": "Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek Kadian, Ahmad Al-Dahle, Aiesha Letman, Akhil Mathur, Alan Schelten, Alex Vaughan, et al. The llama 3 herd of models. arXiv preprint, 2024. URL https://arxiv.org/abs/2407.21783.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2407.21783",
+        "url": "https://arxiv.org/abs/2407.21783"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-gur2018learning",
+      "rawKey": "gur2018learning",
+      "display": "[15]",
+      "raw": "Izzeddin Gur, Ulrich Rueckert, Aleksandra Faust, and Dilek Hakkani-Tur. Learning to navigate the web. arXiv preprint arXiv:1812.09195, 2018.",
+      "metadata": {
+        "year": 2018,
+        "arxivId": "1812.09195"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-gur2023real",
+      "rawKey": "gur2023real",
+      "display": "[16]",
+      "raw": "Izzeddin Gur, Hiroki Furuta, Austin Huang, Mustafa Safdari, Yutaka Matsuo, Douglas Eck, and Aleksandra Faust. A real-world webagent with planning, long context understanding, and program synthesis. arXiv preprint arXiv:2307.12856, 2023.",
+      "metadata": {
+        "year": 2023,
+        "arxivId": "2307.12856"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-He2024WebVoyagerBA",
+      "rawKey": "He2024WebVoyagerBA",
+      "display": "[17]",
+      "raw": "Hongliang He, Wenlin Yao, Kaixin Ma, Wenhao Yu, Yong Dai, Hongming Zhang, Zhenzhong Lan, and Dong Yu. Webvoyager: Building an end-to-end web agent with large multimodal models. ArXiv, abs/2401.13919, 2024. URL https://api.semanticscholar.org/CorpusID:267211622.",
+      "metadata": {
+        "year": 2024,
+        "url": "https://api.semanticscholar.org/CorpusID:267211622"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-humphreys2022datadrivenapproachlearningcontrol",
+      "rawKey": "humphreys2022datadrivenapproachlearningcontrol",
+      "display": "[18]",
+      "raw": "Peter C Humphreys, David Raposo, Toby Pohlen, Gregory Thornton, Rachita Chhaparia, Alistair Muldal, Josh Abramson, Petko Georgiev, Alex Goldin, Adam Santoro, and Timothy Lillicrap. A data-driven approach for learning to control computers, 2022. URL https://arxiv.org/abs/2202.08137.",
+      "metadata": {
+        "year": 2022,
+        "arxivId": "2202.08137",
+        "url": "https://arxiv.org/abs/2202.08137"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-openai2024gpt4ocard",
+      "rawKey": "openai2024gpt4ocard",
+      "display": "[19]",
+      "raw": "Aaron Hurst, Adam Lerer, Adam P Goucher, Adam Perelman, Aditya Ramesh, Aidan Clark, AJ Ostrow, Akila Welihinda, Alan Hayes, Alec Radford, et al. Gpt-4o system card. arXiv preprint arXiv:2410.21276, 2024.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2410.21276"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-koh_visualwebarena_2024",
+      "rawKey": "koh_visualwebarena_2024",
+      "display": "[20]",
+      "raw": "Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Chong Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, and Daniel Fried. VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks, June 2024. URL http://arxiv.org/abs/2401.13649. arXiv:2401.13649 [cs].",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2401.13649",
+        "url": "http://arxiv.org/abs/2401.13649"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-autowebglm",
+      "rawKey": "autowebglm",
+      "display": "[21]",
+      "raw": "Hanyu Lai, Xiao Liu, Iat Long Iong, Shuntian Yao, Yuxuan Chen, Pengbo Shen, Hao Yu, Hanchen Zhang, Xiaohan Zhang, Yuxiao Dong, and Jie Tang. Autowebglm: A large language model-based web navigating agent, 2024. URL https://arxiv.org/abs/2404.03648.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2404.03648",
+        "url": "https://arxiv.org/abs/2404.03648"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-rewardbench",
+      "rawKey": "rewardbench",
+      "display": "[22]",
+      "raw": "Nathan Lambert, Valentina Pyatkin, Jacob Morrison, LJ Miranda, Bill Yuchen Lin, Khyathi Chandu, Nouha Dziri, Sachin Kumar, Tom Zick, Yejin Choi, Noah A. Smith, and Hannaneh Hajishirzi. Rewardbench: Evaluating reward models for language modeling, 2024. URL https://arxiv.org/abs/2403.13787.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2403.13787",
+        "url": "https://arxiv.org/abs/2403.13787"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Liu_Guu_Pasupat_Shi_Liang_2018",
+      "rawKey": "Liu_Guu_Pasupat_Shi_Liang_2018",
+      "display": "[23]",
+      "raw": "Evan Zheran Liu, Kelvin Guu, Panupong Pasupat, Tianlin Shi, and Percy Liang. Reinforcement Learning on Web Interfaces using Workflow-guided Exploration. In 6th International Conference on Learning Representations, ICLR 2018, Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings, 2018. URL https://openreview.net/forum?id=ryTp3f-0-.",
+      "metadata": {
+        "year": 2018,
+        "url": "https://openreview.net/forum?id=ryTp3f-0-"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-lu2024weblinx",
+      "rawKey": "lu2024weblinx",
+      "display": "[24]",
+      "raw": "Xing Han Lu, Zdenek Kasner, and Siva Reddy. Weblinx: Real-world website navigation with multi-turn dialogue. arXiv preprint arXiv:2402.05930, 2024.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2402.05930"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-murty_bagel_2024",
+      "rawKey": "murty_bagel_2024",
+      "display": "[25]",
+      "raw": "Shikhar Murty, Christopher Manning, Peter Shaw, Mandar Joshi, and Kenton Lee. BAGEL: Bootstrapping Agents by Guiding Exploration with Language, June 2024. URL http://arxiv.org/abs/2403.08140. arXiv:2403.08140 [cs].",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2403.08140",
+        "url": "http://arxiv.org/abs/2403.08140"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-nnetnav_murty2025",
+      "rawKey": "nnetnav_murty2025",
+      "display": "[26]",
+      "raw": "Shikhar Murty, Hao Zhu, Dzmitry Bahdanau, and Christopher D. Manning. Nnetnav: Unsupervised learning of browser agents through environment interaction in the wild, 2025. URL https://arxiv.org/abs/2410.02907.",
+      "metadata": {
+        "year": 2025,
+        "arxivId": "2410.02907",
+        "url": "https://arxiv.org/abs/2410.02907"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-nakano2021webgpt",
+      "rawKey": "nakano2021webgpt",
+      "display": "[27]",
+      "raw": "Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders, et al. Webgpt: Browser-assisted question-answering with human feedback. arXiv preprint arXiv:2112.09332, 2021.",
+      "metadata": {
+        "year": 2021,
+        "arxivId": "2112.09332"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-OpenAI_Operator_2025",
+      "rawKey": "OpenAI_Operator_2025",
+      "display": "[28]",
+      "raw": "OpenAI. Introducing operator, January 2025. URL https://openai.com/index/introducing-operator.",
+      "metadata": {
+        "year": 2025,
+        "url": "https://openai.com/index/introducing-operator"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-AER_pan2024",
+      "rawKey": "AER_pan2024",
+      "display": "[29]",
+      "raw": "Jiayi Pan, Yichi Zhang, Nicholas Tomlin, Yifei Zhou, Sergey Levine, and Alane Suhr. Autonomous evaluation and refinement of digital agents, 2024. URL https://arxiv.org/abs/2404.06474.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2404.06474",
+        "url": "https://arxiv.org/abs/2404.06474"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-patel2024largelanguagemodelsselfimprove",
+      "rawKey": "patel2024largelanguagemodelsselfimprove",
+      "display": "[30]",
+      "raw": "Ajay Patel, Markus Hofmarcher, Claudiu Leoveanu-Condrei, Marius-Constantin Dinu, Chris Callison-Burch, and Sepp Hochreiter. Large language models can self-improve at web agent tasks, 2024. URL https://arxiv.org/abs/2405.20309.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2405.20309",
+        "url": "https://arxiv.org/abs/2405.20309"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-AgentQ_2024",
+      "rawKey": "AgentQ_2024",
+      "display": "[31]",
+      "raw": "Pranav Putta, Edmund Mills, Naman Garg, Sumeet Motwani, Chelsea Finn, Divyansh Garg, and Rafael Rafailov. Agent q: Advanced reasoning and learning for autonomous ai agents, 2024. URL https://arxiv.org/abs/2408.07199.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2408.07199",
+        "url": "https://arxiv.org/abs/2408.07199"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-dpo_2023",
+      "rawKey": "dpo_2023",
+      "display": "[32]",
+      "raw": "Rafael Rafailov, Archit Sharma, Eric Mitchell, Christopher D Manning, Stefano Ermon, and Chelsea Finn. Direct preference optimization: Your language model is secretly a reward model. Advances in Neural Information Processing Systems, 36: 53728--53741, 2023.",
+      "metadata": {
+        "year": 2023
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-sharma2023understandingsycophancylanguagemodels",
+      "rawKey": "sharma2023understandingsycophancylanguagemodels",
+      "display": "[33]",
+      "raw": "Mrinank Sharma, Meg Tong, Tomasz Korbak, David Duvenaud, Amanda Askell, Samuel R. Bowman, Newton Cheng, Esin Durmus, Zac Hatfield-Dodds, Scott R. Johnston, Shauna Kravec, Timothy Maxwell, Sam McCandlish, Kamal Ndousse, Oliver Rausch, Nicholas Schiefer, Da Yan, Miranda Zhang, and Ethan Perez. Towards understanding sycophancy in language models, 2023. URL https://arxiv.org/abs/2310.13548.",
+      "metadata": {
+        "year": 2023,
+        "arxivId": "2310.13548",
+        "url": "https://arxiv.org/abs/2310.13548"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-pix2act_shaw_2023",
+      "rawKey": "pix2act_shaw_2023",
+      "display": "[34]",
+      "raw": "Peter Shaw, Mandar Joshi, James Cohan, Jonathan Berant, Panupong Pasupat, Hexiang Hu, Urvashi Khandelwal, Kenton Lee, and Kristina Toutanova. From pixels to UI actions: Learning to follow instructions via graphical user interfaces. In Thirty-seventh Conference on Neural Information Processing Systems, 2023. URL https://openreview.net/forum?id=3PjCt4kmRx.",
+      "metadata": {
+        "year": 2023,
+        "url": "https://openreview.net/forum?id=3PjCt4kmRx"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-shi2017world",
+      "rawKey": "shi2017world",
+      "display": "[35]",
+      "raw": "Tianlin Shi, Andrej Karpathy, Linxi Fan, Jonathan Hernandez, and Percy Liang. World of bits: An open-domain platform for web-based agents. In International Conference on Machine Learning, pp. 3135--3144. PMLR, 2017.",
+      "metadata": {
+        "year": 2017
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-ibot_2000",
+      "rawKey": "ibot_2000",
+      "display": "[36]",
+      "raw": "Robert St. Amant and Luke S. Zettlemoyer. The user interface as an agent environment. In Proceedings of the Fourth International Conference on Autonomous Agents, AGENTS '00, pp. 483â90, New York, NY, USA, 2000. Association for Computing Machinery. ISBN 1581132301. 10.1145/336595.337575. URL https://doi.org/10.1145/336595.337575.",
+      "metadata": {
+        "year": 2000,
+        "doi": "10.1145/336595.337575",
+        "url": "https://doi.org/10.1145/336595.337575"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-insta_trabucco2025",
+      "rawKey": "insta_trabucco2025",
+      "display": "[37]",
+      "raw": "Brandon Trabucco, Gunnar Sigurdsson, Robinson Piramuthu, and Ruslan Salakhutdinov. Towards internet-scale training for agents, 2025. URL https://arxiv.org/abs/2502.06776.",
+      "metadata": {
+        "year": 2025,
+        "arxivId": "2502.06776",
+        "url": "https://arxiv.org/abs/2502.06776"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Yao_Chen_Yang_Narasimhan_2023",
+      "rawKey": "Yao_Chen_Yang_Narasimhan_2023",
+      "display": "[38]",
+      "raw": "Shunyu Yao, Howard Chen, John Yang, and Karthik Narasimhan. WebShop: Towards Scalable Real-world Web Interaction with Grounded Language Agents. In NeurIPS, 2022. URL https://arxiv.org/abs/2207.01206.",
+      "metadata": {
+        "year": 2022,
+        "arxivId": "2207.01206",
+        "url": "https://arxiv.org/abs/2207.01206"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-assistantbench_2024",
+      "rawKey": "assistantbench_2024",
+      "display": "[39]",
+      "raw": "Ori Yoran, Samuel Joseph Amouyal, Chaitanya Malaviya, Ben Bogin, Ofir Press, and Jonathan Berant. Assistantbench: Can web agents solve realistic and time-consuming tasks?, 2024. URL https://arxiv.org/abs/2407.15711.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2407.15711",
+        "url": "https://arxiv.org/abs/2407.15711"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-zheng2024gpt4visiongeneralistwebagent",
+      "rawKey": "zheng2024gpt4visiongeneralistwebagent",
+      "display": "[40]",
+      "raw": "Boyuan Zheng, Boyu Gou, Jihyung Kil, Huan Sun, and Yu Su. Gpt-4v(ision) is a generalist web agent, if grounded, 2024. URL https://arxiv.org/abs/2401.01614.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2401.01614",
+        "url": "https://arxiv.org/abs/2401.01614"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-zheng2023judgingllmasajudgemtbenchchatbot",
+      "rawKey": "zheng2023judgingllmasajudgemtbenchchatbot",
+      "display": "[41]",
+      "raw": "Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica. Judging llm-as-a-judge with mt-bench and chatbot arena, 2023. URL https://arxiv.org/abs/2306.05685.",
+      "metadata": {
+        "year": 2023,
+        "arxivId": "2306.05685",
+        "url": "https://arxiv.org/abs/2306.05685"
+      },
+      "localMatch": {
+        "paperPath": "papers/模型评测/2306.05685",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-zhou_webarena_2024",
+      "rawKey": "zhou_webarena_2024",
+      "display": "[42]",
+      "raw": "Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, and Graham Neubig. WebArena: A Realistic Web Environment for Building Autonomous Agents, April 2024. URL http://arxiv.org/abs/2307.13854. arXiv:2307.13854 [cs].",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2307.13854",
+        "url": "http://arxiv.org/abs/2307.13854"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-zhuge2024agentasajudgeevaluateagentsagents",
+      "rawKey": "zhuge2024agentasajudgeevaluateagentsagents",
+      "display": "[43]",
+      "raw": "Mingchen Zhuge, Changsheng Zhao, Dylan Ashley, Wenyi Wang, Dmitrii Khizbullin, Yunyang Xiong, Zechun Liu, Ernie Chang, Raghuraman Krishnamoorthi, Yuandong Tian, Yangyang Shi, Vikas Chandra, and JÃrgen Schmidhuber. Agent-as-a-judge: Evaluate agents with agents, 2024. URL https://arxiv.org/abs/2410.10934.",
+      "metadata": {
+        "year": 2024,
+        "arxivId": "2410.10934",
+        "url": "https://arxiv.org/abs/2410.10934"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    }
+  ],
+  "messages": [
+    "local: 43 entries (bbl)",
+    "semantic scholar failed: rate limited",
+    "crossref failed: not found"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "path": "papers/可解释性/2202.05262",
+  "id": "2202.05262",
+  "type": "arxiv",
+  "title": "Locating and Editing Factual Associations in GPT",
+  "authors": [
+    "Kevin Meng",
+    "David Bau",
+    "Alex Andonian",
+    "Yonatan Belinkov"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Kevin",
+      "lastName": "Meng"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "David",
+      "lastName": "Bau"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Alex",
+      "lastName": "Andonian"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yonatan",
+      "lastName": "Belinkov"
+    }
+  ],
+  "year": 2023,
+  "date": "2023-01-13",
+  "abstract": "We analyze the storage and recall of factual associations in autoregressive transformer language models, finding evidence that these associations correspond to localized, directly-editable computations. We first develop a causal intervention for identifying neuron activations that are decisive in a model's factual predictions. This reveals a distinct set of steps in middle-layer feed-forward modules that mediate factual predictions while processing subject tokens. To test our hypothesis that these computations correspond to factual association recall, we modify feed-forward weights to update specific factual associations using Rank-One Model Editing (ROME). We find that ROME is effective on a standard zero-shot relation extraction (zsRE) model-editing task, comparable to existing methods. To perform a more sensitive evaluation, we also evaluate ROME on a new dataset of counterfactual assertions, on which it simultaneously maintains both specificity and generalization, whereas other methods sacrifice one or another. Our results confirm an important role for mid-layer feed-forward modules in storing factual associations and suggest that direct manipulation of computational mechanisms may be a feasible approach for model editing. The code, dataset, visualizations, and an interactive demo notebook are available at https://rome.baulab.info/",
+  "tags": [
+    "@arxiv:Computer Science - Computation and Language",
+    "@arxiv:Computer Science - Machine Learning"
+  ],
+  "arxiv_id": "2202.05262",
+  "doi": "10.48550/arXiv.2202.05262",
+  "pdf_url": "https://arxiv.org/pdf/2202.05262",
+  "html_url": "https://arxiv.org/html/2202.05262",
+  "source_url": "https://arxiv.org/abs/2202.05262",
+  "code_repo": "https://github.com/kmeng01/rome",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2202.05262",
+  "citation_count": 3745,
+  "zotero_item_type": "preprint",
+  "meta_source": "translator",
+  "extra": "arXiv:2202.05262 [cs.CL]",
+  "summary": "Factual associations concentrate in subject-token computations within middle-layer feed-forward modules. ROME edits these weights with rank-one updates, achieving strong zsRE performance while preserving specificity and generalization on counterfactual assertions.",
+  "status": "completed",
+  "is_read": true,
+  "added_at": "2026-11-17T14:35:58.535Z",
+  "updated_at": "2026-11-17T15:12:04.234Z"
+}

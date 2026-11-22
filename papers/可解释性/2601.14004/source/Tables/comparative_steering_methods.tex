@@ -1,0 +1,17 @@
+\begin{table*}[!t]
+    \centering
+    \caption{Comparative analysis of steering methods. These interventions differ mainly in steering strength, side effects, required access, computational cost, and typical limitations.}
+    \label{tab:steering_methods_comparison}
+    \small
+    \setlength{\tabcolsep}{3pt}
+    \renewcommand{\arraystretch}{1.1}
+    \begin{tabular}{L{0.27\textwidth} L{0.10\textwidth} L{0.11\textwidth} L{0.18\textwidth} L{0.08\textwidth} L{0.18\textwidth}}
+    \toprule[1.3pt]
+    \textbf{Method} & \textbf{Steering Strength} & \textbf{Side Effects} & \textbf{Required Access} & \textbf{Cost} & \textbf{Key Limitation} \\
+    \midrule
+    \textbf{Amplitude Manipulation} (\S\ref{sec:amplitude_manipulation}) & Moderate & Moderate & Activations / Hidden States / Weights & Low & Polysemantic features may cause collateral changes \\
+    \textbf{Targeted Optimization} (\S\ref{sec:target_optimization}) & High & Low & Weights / Gradients & High & Depends on accurate localization \\
+    \textbf{Vector Arithmetic} (\S\ref{sec:vector_arithmetic}) & Moderate & Moderate & Hidden States / Weights & Low & Assumes linear and separable directions \\
+    \bottomrule[1.3pt]
+    \end{tabular}
+    \end{table*}

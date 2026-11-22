@@ -1,0 +1,24 @@
+\ProvidesPackage{extra_preamble}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{pdflscape}
+\usepackage{array}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\DeclareMathOperator{\rownorm}{rownorm}
+\usepackage{caption}
+\usepackage{subcaption}
+% Command added to allow a footnote without an accompanying symbol for the github link.
+
+\newcommand\blfootnote[1]{%
+    \bgroup
+    \renewcommand\thefootnote{\fnsymbol{footnote}}%
+    \renewcommand\thempfootnote{\fnsymbol{mpfootnote}}%
+    \footnotetext[0]{#1}%
+    \egroup
+}
+
+
+\hypersetup{
+   breaklinks=true,   % splits links across lines
+}

@@ -1,0 +1,34 @@
+\begin{table*}[htp]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{llccccccc}
+\toprule
+  &   & Accuracy & Calibration & Robustness & Fairness & Bias & Toxicity & Efficiency \\
+\midrule
+\multirow{7}{*}{\rotatebox[origin=c]{90}{Pearson}} & Accuracy & \color{lightgray} 1.0 (0.0) & 0.4 (3.3e-11) & 0.93 (2.6e-109) & 0.98 (1.9e-167) & 0.28 (0.001) & 0.15 (0.042) & -0.22 (0.0068) \\
+ & Calibration & \color{lightgray} 0.4 (3.3e-11) & \color{lightgray} 1.0 (0.0) & 0.41 (1e-11) & 0.42 (4.6e-12) & 0.15 (0.18) & -0.21 (0.019) & 0.019 (0.84) \\
+ & Robustness & \color{lightgray} 0.93 (2.6e-109) & \color{lightgray} 0.41 (1e-11) & \color{lightgray} 1.0 (0.0) & 0.93 (3.6e-112) & 0.00038 (1.0) & -0.079 (0.37) & -0.24 (0.0074) \\
+ & Fairness & \color{lightgray} 0.98 (1.9e-167) & \color{lightgray} 0.42 (4.6e-12) & \color{lightgray} 0.93 (3.6e-112) & \color{lightgray} 1.0 (0.0) & 0.067 (0.54) & -0.094 (0.28) & -0.18 (0.043) \\
+ & Bias & \color{lightgray} 0.28 (0.001) & \color{lightgray} 0.15 (0.18) & \color{lightgray} 0.00038 (1.0) & \color{lightgray} 0.067 (0.54) & \color{lightgray} 1.0 (0.0) & -0.14 (0.11) & 0.18 (0.16) \\
+ & Toxicity & \color{lightgray} 0.15 (0.042) & \color{lightgray} -0.21 (0.019) & \color{lightgray} -0.079 (0.37) & \color{lightgray} -0.094 (0.28) & \color{lightgray} -0.14 (0.11) & \color{lightgray} 1.0 (0.0) & 0.0024 (0.98) \\
+ & Efficiency & \color{lightgray} -0.22 (0.0068) & \color{lightgray} 0.019 (0.84) & \color{lightgray} -0.24 (0.0074) & \color{lightgray} -0.18 (0.043) & \color{lightgray} 0.18 (0.16) & \color{lightgray} 0.0024 (0.98) & \color{lightgray} 1.0 (0.0) \\
+\midrule
+\multirow{7}{*}{\rotatebox[origin=c]{90}{Spearman}} & Accuracy & \color{lightgray} 1.0 (0.0) & 0.46 (2e-14) & 0.92 (1e-100) & 0.97 (1.8e-159) & 0.29 (0.00064) & -0.15 (0.049) & -0.24 (0.0024) \\
+ & Calibration & \color{lightgray} 0.46 (2e-14) & \color{lightgray} 1.0 (0.0) & 0.49 (1.1e-16) & 0.49 (2.4e-16) & 0.05 (0.65) & -0.44 (2.3e-07) & -0.0042 (0.96) \\
+ & Robustness & \color{lightgray} 0.92 (1e-100) & \color{lightgray} 0.49 (1.1e-16) & \color{lightgray} 1.0 (0.0) & 0.94 (4.1e-113) & -0.14 (0.19) & -0.36 (2.3e-05) & -0.14 (0.12) \\
+ & Fairness & \color{lightgray} 0.97 (1.8e-159) & \color{lightgray} 0.49 (2.4e-16) & \color{lightgray} 0.94 (4.1e-113) & \color{lightgray} 1.0 (0.0) & -0.1 (0.36) & -0.42 (8.7e-07) & 0.051 (0.57) \\
+ & Bias & \color{lightgray} 0.29 (0.00064) & \color{lightgray} 0.05 (0.65) & \color{lightgray} -0.14 (0.19) & \color{lightgray} -0.1 (0.36) & \color{lightgray} 1.0 (0.0) & -0.1 (0.25) & 0.16 (0.21) \\
+ & Toxicity & \color{lightgray} -0.15 (0.049) & \color{lightgray} -0.44 (2.3e-07) & \color{lightgray} -0.36 (2.3e-05) & \color{lightgray} -0.42 (8.7e-07) & \color{lightgray} -0.1 (0.25) & \color{lightgray} 1.0 (0.0) & 0.42 (3.5e-05) \\
+ & Efficiency & \color{lightgray} -0.24 (0.0024) & \color{lightgray} -0.0042 (0.96) & \color{lightgray} -0.14 (0.12) & \color{lightgray} 0.051 (0.57) & \color{lightgray} 0.16 (0.21) & \color{lightgray} 0.42 (3.5e-05) & \color{lightgray} 1.0 (0.0) \\
+\midrule
+\multirow{7}{*}{\rotatebox[origin=c]{90}{Kendall tau}} & Accuracy & \color{lightgray} 1.0 (4.9e-147) & 0.33 (1.6e-14) & 0.77 (5.8e-73) & 0.88 (5e-94) & 0.17 (0.0026) & -0.11 (0.041) & -0.14 (0.0091) \\
+ & Calibration & \color{lightgray} 0.33 (1.6e-14) & \color{lightgray} 1.0 (0.0) & 0.35 (5e-16) & 0.35 (1.4e-16) & 0.037 (0.62) & -0.32 (6.1e-07) & -0.0039 (0.95) \\
+ & Robustness & \color{lightgray} 0.77 (5.8e-73) & \color{lightgray} 0.35 (5e-16) & \color{lightgray} 1.0 (1.5e-121) & 0.79 (2.4e-77) & -0.1 (0.18) & -0.27 (2.3e-05) & -0.083 (0.17) \\
+ & Fairness & \color{lightgray} 0.88 (5e-94) & \color{lightgray} 0.35 (1.4e-16) & \color{lightgray} 0.79 (2.4e-77) & \color{lightgray} 1.0 (1.4e-121) & -0.052 (0.49) & -0.31 (1.4e-06) & 0.036 (0.55) \\
+ & Bias & \color{lightgray} 0.17 (0.0026) & \color{lightgray} 0.037 (0.62) & \color{lightgray} -0.1 (0.18) & \color{lightgray} -0.052 (0.49) & \color{lightgray} 1.0 (9.8e-67) & -0.073 (0.23) & 0.1 (0.22) \\
+ & Toxicity & \color{lightgray} -0.11 (0.041) & \color{lightgray} -0.32 (6.1e-07) & \color{lightgray} -0.27 (2.3e-05) & \color{lightgray} -0.31 (1.4e-06) & \color{lightgray} -0.073 (0.23) & \color{lightgray} 1.0 (6.4e-68) & 0.3 (7.1e-05) \\
+ & Efficiency & \color{lightgray} -0.14 (0.0091) & \color{lightgray} -0.0039 (0.95) & \color{lightgray} -0.083 (0.17) & \color{lightgray} 0.036 (0.55) & \color{lightgray} 0.1 (0.22) & \color{lightgray} 0.3 (7.1e-05) & \color{lightgray} 1.0 (1.4e-74) \\
+\bottomrule
+\end{tabular}}
+\caption{\textbf{Relationship between metrics.} To summarize the relationship between metrics (across all models and scenarios), we report the Kendall tau correlation between pairs of metrics, with \todo{} indicating significance at \todo{}. \todo{we need to figure out how to do confidences here. Not super convinced about these results}}
+\label{tab:metric-metric}
+\end{table*}

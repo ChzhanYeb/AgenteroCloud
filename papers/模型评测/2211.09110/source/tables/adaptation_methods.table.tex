@@ -1,0 +1,24 @@
+\begin{table*}[htp]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{ll}
+\toprule
+Adaptation method & Scenarios \\
+\midrule
+Language modeling & \pile, \ice, \twitteraae  \\
+Multiple choice (joint) & \mmlu, \truthfulqa, \legalsupport, \lsat, \bbq \\
+Multiple choice (separate) & \blimp \\
+Multiple choice (separate-calibrated) & \\
+Generation & \boolq, \naturalquestions (open-book), \naturalquestions (closed-book), \narrativeqa \\ 
+& \quac, \xsum, \cnndm, \imdb, \civilcomments \\
+& \raft, \wikifact, synthetic reasoning, synthetic reasoning (natural) \\
+& \babi, Dyck, \gsm, \MATH, \MATH (chain-of-thoughts) \\
+& \humaneval, \codeapps, \entmatch, \dataimp \\
+& \cpyr (text), \cpyr (code), disinformation (reiteration), disinformation (wedging) \\
+& \bolddataset, \realtoxicityprompts \\ 
+Ranking & \msmarcoregular, \msmarcotrec\\
+\bottomrule 
+\end{tabular}}
+\caption{\textbf{Default adaptation methods.} For each adaptation method, we specify the scenarios that use the method by default. 
+We do not specify defaults for \hellaswag and \openbookqa currently.}
+\label{tab:adaptation-methods}
+\end{table*}

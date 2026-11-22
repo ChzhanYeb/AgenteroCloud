@@ -1,0 +1,306 @@
+\hypertarget{targeted}{\section{Targeted evaluations}}
+\label{sec:targeted-evaluations}
+In \refsec{core-scenarios}, we prioritized user-facing scenarios, where progress could confer direct social utility. 
+Given the growing development and deployment of language models, holistic evaluation of model performance for such scenarios aims to track the impact models will have.
+However, as \citet[][\S4.4]{bommasani2021opportunities} describe, evaluation serves multiple functions and the relevant function can depend on the stakeholder (\eg researchers have different evaluation needs from policymakers).
+While the preceding evaluation provides clarity on the practical utility of existing models, it is less effective at providing fine-grained scientific insight on primitives of interest.
+To address this, we supplement the evaluation with a deeper analysis of these primitives.
+
+Akin to how we explored the structure latent in the space of scenarios systematically, we identify further structure in designating a set of \textit{components} that help determine the benefits and harms of a language model.
+On the side of capabilities, we consider the canonical primitives of language, knowledge, and reasoning.
+On the side of harms, the space of harms of language models is more nascent, so we follow the recent taxonomies of \citet[][\S5]{bommasani2021opportunities}, \citet{weidinger2022taxonomy}, \citet{bender2021dangers} and \citet{rauh2022characteristics}.
+Specifically, we focus on disinformation and copyright as first-order concerns that are especially concerning when language models are accessible to malicious actors.
+These concerns foreground the dual use risks of such general-purpose technologies.
+Further, we extend our discussion of bias and toxicity with analytic assessments to supplement evaluations in the context of use-cases.
+Overall, our evaluation aims to build understanding on the practical utility of language models for society as well as the fundamental scientific components that shape model behavior.
+
+\hypertarget{language}{\subsection{Language}}
+\label{sec:language}
+
+To measure a model's understanding of the English language, we evaluate it on two types of scenarios: language modeling and minimal pairs.\footnote{We recognize the term \textit{understanding} is contested and subject to several valid interpretations \citep[see][\S2.6]{bommasani2021opportunities}. We clarify our operationalization below.}
+Both approaches have extensive traditions in linguistics: the former has been widely studied in incremental processing in psycholinguistics \citep{hale2001probabilistic, levy2008expectation}, where the performance at predicting the next word clarifies how well models or humans have learned the distribution of language use in a domain.
+The latter approach of minimal pair comparison is a dominant methodology employed throughout linguistics \citep{chomsky1957syntactic} that helps to tease out fine-grained understanding of specific linguistic phenomena.
+Together, the two approaches jointly provide a cohesive characterization of linguistic understanding at different resolutions.
+
+\subsubsection{Language modeling}
+\label{sec:language-modeling}
+
+\paragraph{Problem setting.}
+In language modeling, the input is an English text sequence that the model assigns a conditional log probability for each token in the sequence that can be summed to assign a (log) probability to the full sequence.
+More precisely, since we compare models that use different tokenizers, we use bits per byte as our main metric because of its invariance to tokenization schemes following \citet{gao2021thepile}.
+
+\paragraph{Datasets and selection process.} 
+Among all existing language modeling benchmarks, we select the following: \wikitext~\citep{merity2016pointer}, \pile~\citep{gao2021thepile},  \twitteraae~\citep{blodgett2016}, and \ice~\citep[The International Corpus of English;][]{Greenbaum1991-js}. 
+We include \wikitext~as a long-standing and well-studied benchmark for language modeling that covers English Wikipedia data and
+\pile~for its broader domain coverage.
+\wikitext~is a collection of verified articles from Wikipedia used for language model benchmarking.
+\pile~is a compilation of 22 different sub-corpora, of which we prioritize 5 corpora to ensure coverage of different domains: arXiv, BookCorpus2, Enron Emails, PubMed Central, and Wikipedia (en).
+
+To these, we add \twitteraae~and \ice~to evaluate language modeling across a range of English varieties. 
+These corpora, in addition to extending our coverage of English text for evaluation, serve to measure performance disparities in a model's understanding of different English varieties. 
+\citet{blodgett2020critical}, taking African American English (AAE) as an example, argues that deficits in language technology performance for AAE are inherently harmful because they risk reinforcing a stigmatization of AAE that has historically and continues to deny social opportunity to the speakers of that language. 
+Given the well-documented center-periphery domination between English as a Native Language (ENL) varieties and English as a Second/Foreign Language (ESL/EFL) varieties \citep{kachru2009handbook}, we expect that disparities in language modeling capacity between those two groups of regional Englishes could be similarly harmful.
+
+\twitteraae~contains over 50 million social media messages from Twitter (``tweets'') labeled with demographic proportions predicted using geolocations of the users. Similar to \citet{blodgett2016}, we sample 50,000 examples from the 830,000 tweets with the highest African American proportions and the 7.3 million tweets with the highest White proportions for the corresponding demographic group.
+\ice~ is a set of corpora designed for comparative analysis of 12 regional/national varieties of English across the world. 
+Of these twelve, we use the subsets from Canada, Jamaica, Kenya, Hong Kong, India, Ireland, Singapore, the Philippines, Tanzania and the USA. 
+These, in line with the two dominant classifications of world Englishes—the Three Circles model and the Dynamic model \citep{kirkpatrick2020routledge}—constitute a representative grouping of English varieties.
+
+\subsubsection{Minimal pairs}
+\label{sec:language-minimal-pairs}
+
+\paragraph{Problem setting.}
+A \textit{minimal pair} is a pair of sequences that differ in a single token, where one sequence is acceptable and the other is not.
+For each minimal pair, a model is deemed correct if it assigns higher probability to the acceptable sequence than to the unacceptable sequence.
+
+\paragraph{Datasets and selection process.} 
+Minimal pair evaluation of language models was pioneered by \citet{linzen2016assessing}, leading to several works that amassed minimal pairs to test linguistic understanding \citep[][\textit{inter alia}]{linzen2016assessing, warstadt-etal-2020-blimp-benchmark, gauthier2020syntaxgym}.
+Of these, we elect to use BLiMP \citep[Benchmark for Linguistic Minimal Pairs;][]{warstadt-etal-2020-blimp-benchmark}, which contains minimal pairs testing syntactic, morphological, and semantic knowledge.
+Drawing from syntax textbooks in linguistics to converge on a set of core phenomena, it covers 12 linguistic phenomena and 67 paradigms where 1000 synthetic minimal pairs were programmatically generated for each paradigm.
+
+\hypertarget{knowledge}{\subsection{Knowledge}}
+\label{sec:knowledge}
+To measure a model's knowledge, we evaluate the model through question answering (\refsec{knowledge-qa}) and text completion (\refsec{knowledge-factCompletion}).\footnote{To be more precise, since we are evaluating models as text-to-text interfaces, this means knowledge that is currently used by the interface. In other words, the knowledge need not be stored in the model and could, for example, be stored in an external knowledge base that is accessed by a retrieval-augmented model \citep{lewis2020rag, yasunaga2021qagnn, yasunaga2022deep}.}
+Question answering enables us to re-use questions developed for assessing human knowledge (\eg academic exams) that involve light linguistic understanding and reasoning, whereas text completion allows us to further isolate specific factual knowledge.
+
+\subsubsection{Knowledge-intensive QA}
+\label{sec:knowledge-qa}
+
+To evaluate LMs' knowledge in a practical QA setting, we use existing QA benchmarks that require significant knowledge to solve.
+
+\paragraph{Datasets.} 
+Among the QA datasets discussed in  \refsec{questionAnswering}, we focus on a subset that tests diverse forms of  knowledge: \hellaswag, \openbookqa, \truthfulqa, and \mmlu.
+Of these, \hellaswag~and \openbookqa~test general commonsense knowledge, with \truthfulqa~further adding emphasis on the factuality and truthfulness of knowledge. 
+In contrast, \mmlu~tests specialized knowledge from 57 domains, ranging from the humanities to the social sciences to STEM (science, technology, engineering and math).
+
+\subsubsection{Fact completion}
+\label{sec:knowledge-factCompletion}
+Here we aim to evaluate LMs' knowledge in a setting that factors out knowledge-agnostic capabilities like language understanding/reasoning, and we use simple prompts to test single facts. Specifically, we construct a new dataset of such prompts based on facts from Wikidata, and evaluate LMs on it.
+
+\paragraph{Problem setting.}
+In fact completion, given a prompt that asks for a fact (e.g., ``The capital of France is \_\_''), the task is to predict the completion of the prompt (``Paris''). This task is a natural language equivalent of the classical triple completion task studied for relational data~\citep{bordes2013translating}. Given an incomplete entity triple consisting of (subject, predicate, ?), the goal is to predict the missing object entity.
+Our evaluation metric is 5-shot Accuracy@$K$ ($K$=1,\,5), where Accuracy@$K$ indicates whether one of the system's top $K$ predictions matches the ground-truth label. 
+
+\paragraph{Datasets.} 
+Our fact completion setup described above was inspired by the LAMA probe dataset \citep{petroni2019language}.
+LAMA was an early work that established the method to probe LMs' knowledge through a fact completon prompt like ``The capital of France is \_\_''.
+However, the original LAMA dataset only covered $\sim$40 types of generic relational knowledge (e.g., place of birth). Here we curate a more diverse dataset to evaluate LMs.
+
+Specifically, we identified 12 domains spanning the humanities (e.g., law), social sciences (e.g., economics), STEM (e.g., biomedicine), and other general facts. 
+For each domain, we manually identified 2-7 Wikidata relations and engineered a prompt template which converted the triple into a natural-language-completion task. 
+We picked relations which captured factual information highly relevant to and representative of the domain. 
+This results in 86 relation types in total. 
+The full list of relations and their corresponding prompts is available in \refapp{component-knowledge}. 
+We then downloaded all triples corresponding to these relations (using the January 2022 Wikidata dump). 
+We removed triples where either the subject or object entity did not have a Wikipedia page. 
+We sampled 1000 triples for each property to use as our benchmark. 
+We observed that when cast as a natural language completion, a single triple may have multiple correct answers, as (1) a triple may be correctly completed by multiple different objects, or (2) a single object may be referenced by multiple different names. 
+In evaluating models, we consider any generation corresponding to any alias of a permissible object entity to be correct.
+
+\hypertarget{reasoning}{\subsection{Reasoning}}
+\label{sec:reasoning}
+
+To measure a model's reasoning capabilities, we evaluate it in both synthetic and realistic reasoning-centric scenarios.
+We specify a suite of synthetic tasks that probe core reasoning primitives (non-ampliative reasoning, ampliative reasoning, recursive hierarchy, state tracking; \refsec{reasoning-primitives}), largely isolating reasoning from language and knowledge. 
+To build on these primitives, we then test models in realistic contexts (mathematical reasoning, code reasoning, legal reasoning, logical reasoning, structured data reasoning; \refsec{realistic-reasoning}) that bring together these primitives.
+Put together, these approaches clarify the extent to which models possess capacities crucial for reasoning and how this is of service in real use cases that depend on reasoning.
+
+\subsubsection{Reasoning primitives}
+\label{sec:reasoning-primitives}
+While reasoning is usually assumed to involve transitions in thought \citep{HarmanRationality}, possibly in some non-linguistic format, we typically assess reasoning abilities (e.g., in adult humans) by means of explicit symbolic or linguistic tasks. Indeed, communication and argument may even be what reasoning is ultimately for \citep{MercierSperber}. 
+In order to distinguish reasoning from language and knowledge as much as possible, we focus here on relatively abstract capacities necessary for sophisticated text-based or symbolic reasoning divided into four categories: \textit{non-ampliative} reasoning, \textit{ampliative} reasoning, reasoning with \textit{recursive hierarchy}, and \textit{state tracking}. 
+The first division follows \citet{peirce1974collected}: \textit{non-ampliative} reasoning involves conclusions that are in some sense already present in the premises, whereas \textit{ampliative} reasoning involve conclusions that are only guaranteed if we accept further assumptions that were not explicitly given.\footnote{As a paradigmatic instance of non-ampliative reasoning, we investigate \emph{deductive} patterns in which the conclusion could not be false as long as the premises are true. For ampliative reasoning we investigate (what are often called) \emph{induction} and \emph{abduction}, which characteristically require tacit (e.g., statistical or causal) assumptions to justify a conclusion.}
+The last two evaluate how generally the model can reason both recursively and over changing states.
+
+These tasks involve only elementary language --- in some cases a mix of natural language and mathematical symbols --- and little in the way of factual world knowledge. 
+Our assumption is that these abilities will be requisite for reasoning independent of what facts happen to hold, or what (natural or artificial) language the model happens to be using. 
+We emphasize these evaluations are intended to be representative but not exhaustive.
+
+\paragraph{Non-ampliative Reasoning} 
+We first test two basic primitives for non-ampliative reasoning: 
+\textit{pattern matching} to identify a relevant rule
+and \textit{variable substitution} to apply the rule. 
+To instantiate these primitives, we implement scenarios with abstract symbols following LIME~\citep{wu2021lime}. 
+We further follow \citet{Clark2020TransformersAS} to test deduction that combines these primitives in natural language with simple words for variables and sentence templates for rules.
+
+\paragraph{Ampliative Reasoning}
+To measure ampliative reasoning, we use explicit rule induction and implicit function regression, which corresponds to making and applying claims about the likely causal structure for observations.
+For rule induction, we design and implement \texttt{rule\_induct} inspired by the LIME induction tasks, where we provide two examples generated from the same rule string, and task the model with inferring the underlying rule.
+For function regression, we design and implement \texttt{numeracy\_prediction}, which requires the model to perform symbolic regression given a few examples and apply the number relationship (\eg linear) to a new input.
+
+\paragraph{Recursive Hierarchy.} 
+To test the ability of language models to reason recursively over deep and long hierarchical dependencies, we use the generalized Dyck languages (\emph{Dyck}, or $\mathcal{D}_n$).
+Dyck is the family of languages which embodies what it means to be a language with hierarchical structure \citep{suzgun2019memory}.
+Although such structures are believed to be essential to natural language, similar nested hierarchies also arise in other core reasoning domains \citep{Dehaene} and involve a particularly subtle variety of pattern matching.
+
+To instantiate a task with Dyck, we require the model to generate the sequence of the closing brackets of a $\mathcal{D}_n$ word without its last few closing brackets.\footnote{A model capable of recognizing Dyck needs to emulate a discrete pushdown automaton (PDA).} 
+By virtue of the task formulation, every input example (\ie  $\mathcal{D}_n$ prefix) has a \textit{unique} sequence of closing brackets. 
+In our experiments, we limit our attention to a subset of the Dyck languages, $\mathcal{D}_3$, of well-nested strings over three pairs of brackets (viz., \{``('', ``)'', ``['', ``]'', ``\{'', ``\}''\}) and consider $500$ evaluation examples of varying lengths (between $52$ and $100$) under a two-shot prompting protocol. 
+To measure model accuracy, we report strict exact-match results. 
+
+\paragraph{State Tracking.} 
+To further evaluate the reasoning and state tracking capabilities of models, we measure their performance on \babi \citep[][]{babi}. 
+\babi features short stories about characters picking and dropping items while traversing rooms in a house. 
+Each question has a single-word answer, and they require a variety of reasoning skills, spanning transitive inference, coreference resolution, logical reasoning (negation, conjunctions and disjunctions), spatial and temporal reasoning, deduction and induction, grouped into 20 different tasks. 
+The inputs have 64 tokens per instance on average, with significant variance in input lengths, with some reaching around hundreds of tokens. 
+
+\subsubsection{Realistic reasoning}
+\label{sec:realistic-reasoning}
+We also evaluate language models on more complex and realistic reasoning tasks that require multiple primitive reasoning skills. 
+These evaluations bridge the gap between understanding reasoning in very controlled and synthetic conditions and the type of reasoning required in practical contexts.
+In particular, they also help surface how the abstract property of reasoning, while decomposed into similar primitives across domains, takes on different textures based on the domain (\eg the reasoning required in legal contexts is quite different from the reasoning required in code contexts). 
+Further, these realistic scenarios are central to reasoning: in-the-wild reasoning requires the ability to compose primitives in a variety of ways. 
+To operationalize this measurement, we choose a diverse set of reasoning-intensive scenarios with clear ground truth, so that automated evaluation at scale is possible.
+
+\paragraph{Mathematical Reasoning.} 
+We use \gsm~\citep{cobbe2020leveraging} and \MATH~\citep{hendrycks2021measuring} to test model performance in the context of math exams of varying difficulties. Both datasets evaluate multi-step mathematical reasoning capabilities necessary to arrive at a numerical answer given a question. In their ground truth examples, the datasets include intermediate steps in natural language which lead to the final answer, which the language model then imitates. 
+
+\paragraph{Code Synthesis.} 
+We use \humaneval~\citep{chen2021codex} and \codeapps~\citep{hendrycks2021measuringcoding}, which contain 164 and 10,000 coding questions respectively.
+\humaneval~contains handwritten programming problems that tests simple algorithms and mathematics, while \codeapps~is curated from open-access programming sites and covers a wider range of difficulties.  
+Since each full coding task example could be too long to fit multiple of them in the context window, we only perform zero-shot evaluation with models fine-tuned on code already. 
+
+\paragraph{Legal Reasoning.} 
+For legal reasoning, we construct \legalsupport, a novel comparative legal entailment task. 
+Lawyers often must determine which case most forcefully or accurately supports their claims. 
+This is integral part of legal argument formulation, as lawyers must cite to the decisions made by previous courts (\ie ``precedent'').
+In particular, this allows one to (1) determine what the law says, and (2) persuasively argue for how a court should decide in a pending dispute. 
+In \legalsupport, a model is provided with an argument, and the legal conclusions of two court cases. 
+The task is to determine which case most persuasively supports the argument. 
+The arguments and annotations are mined from actual legal opinions. 
+
+\paragraph{Logical Reasoning.}
+We perform further evaluation on analytical reasoning questions from the Law School Admission Test \citep[\lsat;][]{zhong2021arlsat}, a standardized test for prospective law school candidates, which are verbal versions of constraint satisfaction problems (CSP) about assignments, groupings or orderings of elements in accordance with a list of requirements, like assigning several people to tables, or organizing classes in a schedule. The questions are of multi-answer format with 5 answers per question, where they either ask for the specific solution to the CSP, the cardinality of the solution space, or other derived properties and inferences about a given problem. The prompts have 170 tokens per example on average, and we provide 5 such examples in-context before asking the model to predict the answer to a new exercise.
+
+\paragraph{Structured Data Reasoning.} 
+We evaluate how well models can wrangle structured data---a critical problem in enterprise data pipelines that has been studied in the data management community for over two decades~\citep{golshan2017data}. We evaluate on two classic data integration and cleaning tasks: entity matching and data imputation. Entity matching is the task of determining if two structured rows (often from different relations) refer to the same entity. Data imputation is the task of filling in a missing cell value from a structured row. For entity matching, we use the Beer, Abt-Buy, and iTunes Amazon (dirty) datasets from the Magellan benchmark~\citep{konda2016magellan}. For imputation, we choose the Restaurant and Buy datasets from~\citet{mei2021capturing}. For the tasks, we generate prompts following the random prompts from~\citet{narayan2022can}.
+
+
+\hypertarget{memorization}{\subsection{Memorization \& copyright}}
+\label{sec:copyright}
+Recent works have demonstrated that language models are capable of memorizing and reproducing content in training datasets \citep{carlini2019secret,lee2022language,carlini2022quantifying,kandpal2022deduplicating,carlini2021extracting}. 
+% For instance, GPT-2 models can be prompted to showcase plagiarizing behaviors \citep{lee2022language}.
+The ability to memorize and plagiarize suggests potential legal risks from an intellectual property standpoint \cite[][\S5.4]{bommasani2021opportunities}.
+In this section, we provide an evaluation of this risk through measuring the extent to which language models are able to reproduce copyrighted/licensed material in their training corpus with common sampling methods used in prior works~\citep{carlini2021extracting}.
+
+There are many situations in which training on, and generating, copyrighted material may be legally acceptable under doctrines like \emph{fair use}~\citep{lemley2020fair}. 
+But the degree of acceptability depends on the use case of the language model, as well as factors including the transformativeness of the content and the amount of content reproduced.
+We refer the reader to other works discussing the legal subject matter~\citep{sobel2017artificial,lemley2020fair,burk2019algorithmic,gillotte2019copyright,franceschelli2022copyright}.
+% It is argued that training machine learning models on copyrighted data can be considered a copyright infringement since the process creates a derivative product.
+% While in the U.S., the \emph{fair use} doctrine could permit such training (\eg when the final model is considered \emph{transformative})
+% , the doctrine may not be applicable to all forms of model training and usage.
+Fair use is not a panacea, though.
+In the case of ComicMix~\citep{comicmix}, creators wrote a book based on Dr. Seuss's \emph{Oh, the Places You’ll Go!} titled \emph{Oh, the Places You’ll Boldly Go!}
+The book mimicked the style of Dr. Seuss, but replaced the text and imagery with a story in a Star Trek theme. 
+This case was not covered by fair use because the book was a derivative product in a similar market that matched the original work too closely.
+As in the ComicMix case, machine learning models can memorize and output derivative content that is not necessarily protected by fair use. 
+It is thus important to measure the memorization of copyrighted material in models to guide the investigative resources placed to address this risk.
+
+Here, we introduce experiments to examine models' abilities to generate verbatim content. We emphasize that our numerical results do not (unconditionally) quantify the degree of legal risk.
+At a high level, given a model and a prompt (typically some initial portion of a copyrighted/licensed material), we measure the extent to which the model is able to reproduce the completion. 
+This is a simple test of models' regurgitation capabilities. 
+Specifically, we compiled prompts from three sources:
+(i) 1k randomly sampled books from the BooksCorpus (copyrighted), 
+(ii) 20 books from the BooksCorpus that also appear in a list of bestsellers (copyrighted),\footnote{\url{https://www.theguardian.com/news/datablog/2012/aug/09/best-selling-books-all-time-fifty-shades-grey-compare}} and (iii) 2k randomly sampled functions from the linux kernel source (GPL licensed).\footnote{GPL licenses generally require that the source code of derivative work also be distributed under the same license, compared to other licenses (\eg MIT) which don't enforce such distribution.}
+For (i), we took varying numbers of tokens at the beginning of randomly sampled paragraphs as prompts.
+For (ii), we repeated the previous procedure---this time only considering the first paragraph of each bestseller. 
+Lastly, for (iii), we took varying numbers of lines starting from the top of each function to form prompts.
+(i) and (ii) respectively test models' ability to reproduce the ``average'' content and content that is likely to be repeated in the training corpus.
+The comparison of the two is motivated by observations in past work that extraction of duplicated content is on average more likely~\citep{kandpal2022deduplicating}.\footnote{We expect portions of some of the bestsellers to appear repeatedly in the training corpus.}
+Our evaluation metrics measure both exact regurgitation (longest common sequence normalized by length of given prefix) and near-exact reproduction (edit distance and edit similarity~\citep{lee2021deduplicating} normalized by length of given prefix). 
+
+% We note that these experiments indirectly measure copyright risks through measuring the risk of continuing to regurgitate copyrighted material given a small prefix. 
+% We leave a thorough legal discussion to future work.
+
+Due to token credit constraints, we only sample one completion per prompt to test extraction. 
+Thus, the results here may be underpowered as ideally one would generate many samples for the same prefix to approximate the worst-case behavior. 
+In addition, given that we only focus on extracting selected contents (books and linux source code), our results may not fully reflect the qualitative behavior of extracting other sources.
+Nonetheless, we find that some models, particularly larger models and models trained on source code, generate verbatim content in certain situations. 
+Future work with black-box model access can explore this further.
+We discuss additional nuances of this evaluation in the appendix.
+
+\hypertarget{disinformation}{\subsection{Disinformation}}
+Disinformation refers to false information that is disseminated by an actor with the intent to deceive, mislead, or otherwise influence the behavior of the target.
+Disinformation is of social concern: it has been used to disrupt democratic processes, undermine public health campaigns, and incite genocidal violence \citep{election2021long, zarocostas2020fight, whitten2020poison}. 
+Structurally, effective disinformation relies on both (i) convincing content and (ii) network behavior to propagate disinformation (\eg via social media platforms) \citep{benkler2018network}. 
+% \todo{Cite stuff from Kate Starbird or others}. 
+
+To understand disinformation, we begin by considering approaches used for disinformation that pre-date modern language models. 
+Disinformation actors generally have two approaches outlined in \citet{diresta2022house}.
+One option is to hire people in-house, which is good for operational security, but these employees may lack the cultural or linguistic knowledge required to make effective disinformation. 
+This is particularly relevant when discussing geopolitical disinformation that may involve parties of very different cultural/linguistic backgrounds (\eg different nations). 
+The other option is to hire freelancers in the target country; freelance authors have the cultural context to make effective disinformation, but can more easily compromise the operation's security. 
+
+Given the growing generative capabilities of language models, malicious use for disinformation is a specific risk arising from the potential dual use of a language model. 
+Specifically, several works have identified that language models can be a secure, efficient, and effective means for producing content for disinformation operations \citep[][\S5.2]{radford2019language, buchanan2021truth, bommasani2021opportunities}.
+Relative to existing approaches, models can be created and stored in-house, matching the operational security of in-house operations, and can be trained on data from the foreign population, providing the effectiveness of remote operations \citep[see][]{horvitz2022horizon}.
+
+Beyond existing approaches that may be bottle-necked by the speed of human authorship, machine-generated text is highly scalable. Furthermore, when teamed with human editors who iteratively edit the model’s generations, refine their inputs, and fine-tune the system, language models may generate outputs that perform better than either the human or the model can manage by themselves \citep{buchanan2021truth} Thus, the bottle-neck for using model generations for disinformation is reliability: if model generations need extensive human post-editing, the cost and risk of using them might be comparable to hiring humans to author text in the first place \citep{goldstein2022generative}.
+
+\paragraph{Problem Setting.}
+In foundational work on the relationship between language models and disinformation, \citet{buchanan2021truth} introduce a taxonomy of six phenomena where language models may prove to be service.
+Of these six phenomena, we choose to focus on two: \textit{narrative reiteration} and \textit{narrative wedging}.
+We do so because the threats posed by these specifically align most strongly with the settings that concern disinformation researchers \citep{pennycook2021guide}, and because they prompt models for short generations, so a larger number can be efficiently evaluated.
+
+Narrative reiteration tests the ability of a language model to advance a specified narrative. 
+We test this by adapting models to generate headlines that support a given thesis statement. 
+In this sense, narrative reiteration reuses core capabilities related to the ability to paraphrase and the controllability of a language model's generation.
+
+Narrative wedging, on the other hand, tests the ability of a language model to generate messages that divide people based on group identity (e.g. race or religion). Such wedging can be clearly divisive, fragmenting or polarizing a community by exerting pressure on individuals’ sense of belonging to their social groups. We test this by adapting models to generate social media posts to amplify social divisions as well as to encourage a certain group to take a certain action. Further, divisive language may be either overtly hostile or only implicitly hostile \citep[such as code words, microaggressions, stereotypes, and dogwhistles; ][]{Fogal2018-FOGNWO, Quaranto2022-QUADWC}. Hence, we distinguish between covert and overt hostility in the models’ generations.
+
+\paragraph{Datasets.}
+Since we follow \citet{buchanan2021truth}, we begin by considering their dataset design for both reiteration and wedging.
+For reiteration, we choose to deviate from their work because they use only a single prompt in their evaluation.
+Instead, we use the Misinformation Reaction Frames dataset of \citet{gabriel-etal-2022-misinfo}, which provides headlines and theses on COVID-19 and climate change.
+From this dataset, we manually cluster 114 headlines about COVID and 147 headlines about climate change from the Misinformation Reaction Frames dataset into 38 and 49 clusters respectively.
+For each cluster, we write a thesis statement that all of the headlines in that cluster support (e.g. ``COVID-19 is a man-made disease.'').
+For wedging, we use the same 11 prompts introduced by \citet{buchanan2021truth}.
+These prompts encourage certain voting behavior (vote Democratic, Republican, or not at all) targeting religious groups (Christians, Jews, and Muslims), as well encourage division (\eg anti-Black racism). 
+
+\hypertarget{targeted-bias}{\subsection{Bias}}
+\label{sec:targeted-bias}
+
+In \refsec{metrics-bias}, we discuss social bias measurement in the context of realistic use cases, namely in the context of model generations. 
+We believe such measurement is most directly useful for measuring the bias-related harms associated with language models.
+However, most of the literature on bias measurement in NLP, which can be traced back to \citet{bolukbasi2016man}, instead focuses on biases that are more intrinsic and less directly grounded in extrinsically relevant use cases.
+As we note in \refsec{metrics-bias}, the predictive validity of these measurements (that is, the extent to which they predict biases in downstream behavior) has been questioned in several works \cite[\eg][]{goldfarb2021intrinsic, steed2022upstream}.
+As \citet[][\S5.1]{bommasani2021opportunities} describe, bias evaluation for foundation models can either target intrinsic properties of the model or extrinsic behavior of the model once adapted for a particular downstream use case. 
+Here, we complement our existing evaluation with a finer-grained assessment of bias, noting that this also helps ensure coverage of biases that may be pertinent even for tasks that involve minimal/no generation.
+
+\paragraph{Dataset Selection.}
+\citet{nadeem2020stereoset} and \citet{nangia2020crows} each introduced minimal pair evaluations for assessing the biases of language models.
+To date, these two datasets have been the primary datasets for evaluating biases in language models, as they provide significant control due to the minimal pair design (which is the same design used for the linguistic evaluations that we describe in \refsec{language-minimal-pairs}).
+However, \citet{blodgett2021norwegian} provides an extensive critique of these two datasets, providing comprehensive evidence for their inadequate validity.
+
+For this reason, we instead turn to the more recently introduced \bbq~dataset of \citet{parrish-etal-2022-bbq}.
+We note that the \bbq~dataset may still suffer from some of the concerns discussed by \citet{blodgett2021norwegian}, but we expect it is comparatively better than the other options.\footnote{\citet{parrish-etal-2022-bbq} do provide some discussion on this front.} 
+In particular, the \bbq~dataset frames bias evaluation in the context of question answering, which also aligns with our more general approach of preferring evaluations that are more realistic and less synthetic when discussing social harms. 
+\bbq~measures biases associated with nine demographic categories, following the US Equal Employment Opportunities Commission, of age, disability status, gender, nationality, physical appearance, race/ethnicity, religion, socio-economic status, and sexual orientation. 
+\bbq~uses data generated via templates, with attested biases (with documented evidence that establishes the bias), that are then vetted by crowdworkers on Amazon Mechanical Turk.
+
+\paragraph{Problem Setting.}
+\bbq~involves multiple-choice question answering, where each question is paired with a context and three answer choices (two of which reference different social groups of the same demographic category, and the third of which is always ``Unknown''). 
+To facilitate bias measurement, each example in the dataset is associated with a $2 \times 2$ pattern of instances: questions appear in pairs (one which is negative, \ie  a social value in the US is violated and the bias it reflects is harmful to certain groups, and the other of which is negative) and contexts appear in pairs (one which is ambiguous, and one which is disambiguating). 
+Due to these alterations, in additional to measuring the exact match accuracy of the model on all data, the authors also introduces measures for the bias of the model both on ambiguous and disambiguated contexts. 
+
+\hypertarget{targeted-toxicity}{\subsection{Toxicity}}
+\label{sec:targeted-toxicity}
+In \refsec{metrics-toxicity}, we discuss toxicity measurement in the context of realistic use cases, namely in the context of model generations. 
+In these use cases, we empirically find very little incidence of toxicity, which we take to be a generally positive sign regarding the risks of toxicity-related harms arising from language model deployment.
+On the other hand, \citet{abid2021persistent} demonstrate models have strong tendencies towards toxicity even with innocuous prompts, including in ways that reflect abhorrent social biases (\eg associating Islam with violence).
+Further, it has been made clear by \citet{kilcher2022gpt4chan} that these models can be further intensified in their toxicity, which has created controversy in the AI research community over potentially reckless deployment \citep{liang2022condemning}.
+In light of this, we complement our existing evaluation with a finer-grained assessment of toxicity, noting that this also poses interesting connections with the models ability to detect toxicity (\refsec{toxicity-detection}).
+
+\paragraph{Dataset Selection.}
+\citet{gehman2020realtoxicityprompts} introduced the main dataset used to evaluate toxicity in \realtoxicityprompts.
+Shortly thereafter, \citet{dhamala2021bold} introduced \bolddataset, which follows a similar structure as \realtoxicityprompts~but uses more innocuous input prompts.
+Given this, we choose to evaluate on both datasets to understand the relationship between properties of the prompt and properties of the model generation.
+We note that other works, especially \citet{abid2021persistent}, also demonstrate language model toxicity, but do not release a standardized dataset that has been used for measuring toxicity more broadly.
+
+\paragraph{Problem Setting.} 
+For toxicity evaluation, models are presented with a prompt and generate a completion.
+In the case of \realtoxicityprompts, these prompts are drawn from OpenWebText \citep{gokaslan2019openwebtext}, which is a collection of Internet text that replicates the training data of GPT-2 \citep{radford2019language}.
+To provide a stratified sample of different prompt toxicities, \citet{gehman2020realtoxicityprompts} ran the text in the corpus through PerspectiveAPI, binning into 4 bins ([0, .25), [0.25, 0.50), [0.50, 0.75), [0.75, 1.00]) and sampling 25k sentences from each. 
+For \bolddataset, the prompts are instead drawn from Wikipedia, taking the first 6-9 words of an article that mention a (profession, gender, race, religion, or political ideology), which also implies that toxicity measurements for \bolddataset~can be stratified by the associated social category.
+We note that in comparison to \realtoxicityprompts, the prompts in \bolddataset~tend to be more neutral, so generating toxic text is even less justifiable in these contexts. 
+We use PerspectiveAPI to measure toxicity in the model completions, reiterating the extensive caveats regarding the validity of PerpsectiveAPI that we discussed in \refsec{metrics-toxicity}. 

@@ -1,0 +1,31 @@
+{
+  "path": "papers/待整理/10_1145_3600006_3613165",
+  "id": "10_1145_3600006_3613165",
+  "type": "pdf",
+  "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+  "authors": [
+    "Woosuk Kwon",
+    "Zhuohan Li",
+    "Siyuan Zhuang",
+    "Ying Sheng",
+    "Lianmin Zheng",
+    "Cody Hao Yu",
+    "Joseph Gonzalez",
+    "Hao Zhang",
+    "Ion Stoica"
+  ],
+  "year": 2023,
+  "tags": [],
+  "doi": "10.1145/3600006.3613165",
+  "publication": "Proceedings of the 29th Symposium on Operating Systems Principles",
+  "pages": "611-626",
+  "publisher": "ACM",
+  "code_repo": "https://github.com/vllm-project/vllm",
+  "body_source": "ocr",
+  "body_quality": "low",
+  "meta_source": "recognize",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:30.118Z",
+  "updated_at": "2026-11-15T11:49:13.858Z"
+}

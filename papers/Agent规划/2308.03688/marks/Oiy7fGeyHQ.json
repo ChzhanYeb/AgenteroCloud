@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "kind": "visual",
+  "id": "Oiy7fGeyHQ",
+  "paperPath": "papers/Agent规划/2308.03688",
+  "page": 19,
+  "rects": [
+    {
+      "x": 0.5028857062844669,
+      "y": 0.2749980001738577,
+      "w": 0.3215979283152063,
+      "h": 0.12745483475502092
+    }
+  ],
+  "comment": "​",
+  "createdAt": "2026-11-19T02:51:44.272Z",
+  "updatedAt": "2026-11-19T02:51:45.864Z",
+  "image": {
+    "path": "assets/Oiy7fGeyHQ.png",
+    "mimeType": "image/png"
+  }
+}

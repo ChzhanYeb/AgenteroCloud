@@ -1,0 +1,16 @@
+{
+  "path": "papers/CUDA/CUDA-for-LLMs-Building-fast-transformer-kernels-e070ce848bc6",
+  "id": "CUDA-for-LLMs-Building-fast-transformer-kernels-e070ce848bc6",
+  "type": "pdf",
+  "title": "CUDA for LLMs Building fast transformer kernels (Elliot Arledge) (z-library.sk, 1lib.sk, z-lib.sk)",
+  "authors": [],
+  "tags": [],
+  "code_repo": "https://github.com/Dao-AILab/flash-attention",
+  "body_source": "ocr",
+  "body_quality": "low",
+  "meta_source": "local",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-20T02:33:01.963Z",
+  "updated_at": "2026-11-20T02:33:42.394Z"
+}

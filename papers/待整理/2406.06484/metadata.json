@@ -1,0 +1,27 @@
+{
+  "path": "papers/待整理/2406.06484",
+  "id": "2406.06484",
+  "type": "pdf",
+  "title": "Parallelizing Linear Transformers with the Delta Rule over Sequence Length",
+  "authors": [
+    "Songlin Yang",
+    "Bailin Wang",
+    "Yu Zhang",
+    "Yikang Shen",
+    "Yoon Kim"
+  ],
+  "year": 2024,
+  "abstract": "Transformers with linear attention (i.e., linear transformers) and state-space models have recently been suggested as a viable linear-time alternative to transformers with softmax attention. However, these models still underperform transformers especially on tasks that require in-context retrieval. While more expressive variants of linear transformers which replace the additive update in linear transformers with the delta rule (DeltaNet) have been found to be more effective at associative recall, existing algorithms for training such models do not parallelize over sequence length and are thus inefficient to train on modern hardware. This work describes a hardware-efficient algorithm for training linear transformers with the delta rule, which exploits a memory-efficient representation for computing products of Householder matrices. This algorithm allows us to scale up DeltaNet to standard language modeling settings. We train a 1.3B model for 100B tokens and find that it outperforms recent linear-time baselines such as Mamba and GLA in terms of perplexity and zero-shot performance on downstream tasks. We also experiment with two hybrid models which combine DeltaNet layers with (1) sliding-window attention layers every other layer or (2) two global attention layers, and find that these hybrids outperform strong transformer baselines.",
+  "tags": [],
+  "arxiv_id": "2406.06484",
+  "code_repo": "https://github.com/fla-org/flash-linear-attention",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 477,
+  "meta_source": "recognize",
+  "summary": "A Householder-product representation parallelizes DeltaNet training over sequence length, making the delta rule practical at scale. A 1.3B model trained on 100B tokens outperforms Mamba and GLA, while hybrid DeltaNet–attention models surpass strong transformer baselines.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:30.688Z",
+  "updated_at": "2026-11-15T11:49:14.690Z"
+}

@@ -1,0 +1,65 @@
+{
+  "path": "papers/可解释性/2309.08600",
+  "id": "2309.08600",
+  "type": "arxiv",
+  "title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+  "authors": [
+    "Hoagy Cunningham",
+    "Aidan Ewart",
+    "Logan Riggs",
+    "Robert Huben",
+    "Lee Sharkey"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Hoagy",
+      "lastName": "Cunningham"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Aidan",
+      "lastName": "Ewart"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Logan",
+      "lastName": "Riggs"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Robert",
+      "lastName": "Huben"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Lee",
+      "lastName": "Sharkey"
+    }
+  ],
+  "year": 2023,
+  "date": "2023-10-04",
+  "abstract": "One of the roadblocks to a better understanding of neural networks' internals is \\textit{polysemanticity}, where neurons appear to activate in multiple, semantically distinct contexts. Polysemanticity prevents us from identifying concise, human-understandable explanations for what neural networks are doing internally. One hypothesised cause of polysemanticity is \\textit{superposition}, where neural networks represent more features than they have neurons by assigning features to an overcomplete set of directions in activation space, rather than to individual neurons. Here, we attempt to identify those directions, using sparse autoencoders to reconstruct the internal activations of a language model. These autoencoders learn sets of sparsely activating features that are more interpretable and monosemantic than directions identified by alternative approaches, where interpretability is measured by automated methods. Moreover, we show that with our learned set of features, we can pinpoint the features that are causally responsible for counterfactual behaviour on the indirect object identification task \\citep{wang2022interpretability} to a finer degree than previous decompositions. This work indicates that it is possible to resolve superposition in language models using a scalable, unsupervised method. Our method may serve as a foundation for future mechanistic interpretability work, which we hope will enable greater model transparency and steerability.",
+  "tags": [
+    "@arxiv:Computer Science - Machine Learning",
+    "@arxiv:Computer Science - Computation and Language"
+  ],
+  "arxiv_id": "2309.08600",
+  "doi": "10.48550/arXiv.2309.08600",
+  "pdf_url": "https://arxiv.org/pdf/2309.08600",
+  "html_url": "https://arxiv.org/html/2309.08600",
+  "source_url": "https://arxiv.org/abs/2309.08600",
+  "code_repo": "https://github.com/HoagyC/sparse_coding",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2309.08600",
+  "citation_count": 1820,
+  "zotero_item_type": "preprint",
+  "meta_source": "translator",
+  "extra": "arXiv:2309.08600 [cs.LG]",
+  "summary": "Sparse autoencoders decompose language-model activations into sparsely firing, more monosemantic features than neuron-based or alternative directions. The learned features identify causal components of indirect-object identification behavior at finer resolution, supporting scalable analysis of superposition.",
+  "status": "completed",
+  "is_read": true,
+  "added_at": "2026-11-17T14:36:00.597Z",
+  "updated_at": "2026-11-17T15:12:04.630Z"
+}

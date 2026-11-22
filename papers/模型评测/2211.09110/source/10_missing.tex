@@ -1,0 +1,118 @@
+\hypertarget{missing}{\section{What is missing}}
+\label{sec:missing}
+One of our three requirements for holistic evaluation is the recognition of limitations: holistic evaluation should foreground where what is implemented falls short of the ambition of evaluating models in their totality.
+Our benchmark foregrounds the limitations of our current benchmark by design: our benchmark is a subset of a pre-specified taxonomy.
+That is, the difference between what is in the taxonomy and what is in the benchmark identifies what we currently miss.
+
+While it is useful to articulate what is missing, given the immense scale of the use cases and desiderata we could have for language models, we believe it is necessary to have clear \textbf{priorities} on how to navigate the space of what we lack.
+These priorities are deeply subjective: many compelling arguments can be presented to increase focus on any specific region of the design space for language models and language model evaluation.
+Indeed, this is also made clear through the diversity of different works happening in parallel throughout the AI community to evaluate language models.
+
+In this section, having conducted our holistic evaluation, we reflect on what we believe should be prioritized based on this experience.
+That is, we identify specific regions of the language model evaluation design space which we hope the community will improve, either because we feel \benchmarkname currently only scratches the surface or because we believe these concepts have been largely neglected in the broader NLP and AI communities. 
+To organize this, we consider how \benchmarkname can be improved going forward across the five axes that we discuss in this work:
+(i) scenarios,  
+(ii) metrics,
+(ii) targeted evaluations,
+(iv) models, 
+and (v) adaptation.
+
+\subsection{Missing scenarios}
+\label{sec:missing-scenarios}
+
+Since we define scenarios in terms of tasks, domains, and languages, we begin by considering what we miss for each of these.
+For tasks, we emphasize that we deliberately chose to prioritize classical user-facing tasks, but other tasks also can confer significant societal impact, even if they are not user-facing (\eg syntactic parsing and natural language inference). 
+Beyond this, even while our focus is oriented by societal impact in task selection, other tasks may be more discriminative in identifying specific properties, limitations, or capabilities of models (\eg natural language inference often plays such a diagnostic role, which may also align with our component skill on linguistic capabilities.
+%; \citet[see][]{naik2018stress}).
+We also explicitly acknowledge certain tasks that we do not currently implement as an oversight in terms of determining what was user-facing, such as data-to-text generation which has many existing benchmarks \citep[\eg][]{gardent2017webnlg, novikova2017e2e}.
+
+We especially highlight how the deployment of language models is giving rise to entirely new tasks, beyond the standard purview of the NLP and AI research communities.
+For example, several startups such as Jasper.AI\footnote{\url{https://www.jasper.ai/}} and Copy.AI\footnote{https://www.copy.ai/} are deploying systems for copy-writing with language models as their foundation.\footnote{See \url{https://www.scalevp.com/blog/introducing-the-scale-generative-ai-index} for more examples.} 
+Even further, we are seeing the rise of new types of creative and generative applications like story and email generation \citep[see][]{lee2022coauthor, lee2022interaction}.
+We believe it is incumbent on the NLP and AI research communities to develop evaluations for these new use cases, which not only may confer economic/commercial value but societal impact going forward, as key instances where practical deployments can inform research priorities.
+
+For domains we highlight three priorities.
+First, for coverage of \textit{what}, \ie the topic or genre of the text, many genres of strong practical economic and societal consequence are not covered in \benchmarkname.
+As examples, we highlight biomedical and clinical data, financial data, education data, and customer service, pointing to how language technologies are increasingly widespread\footnote{For example, see the growing sub-communities in the NLP research community for each of these areas, such as the FinNLP workshop for financial technology and NLP at \url{https://sites.google.com/nlg.csie.ntu.edu.tw/finnlp-2022/}.} in these sectors but we have no coverage of these anywhere in our benchmark.
+We do note we have some coverage of legal data via \legalsupport, though the realism of the entailment-based data for legal language technologies could stand to be improved \citep[\cf][]{guha2022legalbench}.
+Second, for coverage of \textit{when}, \ie the time period of the text, we highlight the contrast between the ever-changing nature of language, world, and society with the relative rigidity of many current language models in being able to update/edit knowledge \citep{lazaridou2021mind}.
+Early efforts to create such evaluations exist such as StreamingQA \citep{liska2022streamingqa}. 
+And symmetrically, while perhaps of less commercial utility, we have seen language models being used for inquiry in the computational social sciences and digital humanities, where evaluation of performance on historic/ancient texts may be especially pertinent \citep[see][]{bamman2020latin, yamshchikov2022plutarch}.
+Third, for coverage of \textit{who}, we note that there are many standard demographic categories within the US where we currently have no evaluation (\eg age, socioeconomic status), and in fact the metadata (\ie speaker demographics) required to \textit{knowingly} evaluate performance for these subgroups often is unavailable (and may be in contention with speaker privacy). 
+Beyond this, we highlight two further nuances that relate to speaker identity:
+(i) native vs. non-native speakers of English as well as (ii) speaker demographics that are culturally situated in English-speaking contexts beyond the US (\eg caste in India as discussed by \citet{sambasivan2021reimagining} and \citet{bhatt2022recontextualizing}), which are of specific relevance for language sociolinguistically but are not standard US demographic groups.
+
+To build on the considerations of speaker identity, we further note that we scoped our evaluation to English given the models we evaluate, but a clear area for improvement is coverage of other languages, as many have called for throughout the history of NLP \citep[\eg][]{bender2009linguistically, bender2011achieving, bender2012100, joshi2020state}.
+Currently, we believe we take important strides in coverage of English varieties both in terms of varieties like African American English (mainly through \twitteraae but also through data augmentations following \citet{ziems2022value}) and English spoken in different nations through \ice. 
+But we emphasize that a specific place to improve is to situate these evaluations in the context of societally consequential use cases, whereas currently to ensure some coverage we are relegated to measuring performance for these varieties in language modeling (\ie the setting where no labelled data is required), even still requiring the extensive effort of many linguists to build \ice. 
+We point to a more general trend of how to improve not just the coverage of languages, especially across typologically diverse languages, but to improve the cultural sensitivity of language model and language technology evaluation \citep{hershcovich2022challenges}. 
+
+% Removed for TMLR
+% Finally, we highlight the case of summarization, where the concrete results of our evaluation make clear that better summarization datasets are necessary. 
+% In particular, while we generally think about the delta between the taxonomy and the selection as clarifying areas for improvement, in this case the concrete results identify a different reason for improvement (\ie model-generated summaries outperform the official reference summaries under human evaluation). 
+% This aligns with concurrent calls \citep[\eg][]{bommasani2020intrinsic, gehrmann2022repairing, reiter2022summarization} to move beyond news summarization as the standard stand-in for summarization and, especially, the \cnndm and \xsum datasets.
+% For example, we point to settings such as meeting summarization as new horizons for summarization that pose different challenges and could provide significant social value if we had compelling systems \citep{wang2011summarizing, wang2013domain}.
+
+\subsection{Missing metrics}
+\label{sec:missing-metrics}
+
+As we enumerate in \reftab{desiderata-taxonomy}, there are numerous desiderata that we could have for AI systems and language technologies that we do not currently evaluate.
+In large part, what we currently measure in \benchmarkname reflects what is feasible given the the information and access we have to language models.
+Further, given language models may be integrated in broader systems, we do not currently taxonomize nor evaluate desiderata (\eg physical safety when language models serve as interfaces for robotic control and manipulation) of these broader systems. 
+For the desiderata we do taxonomize, beyond having to improve model access to adequately measure them, we specifically highlight 
+(i) user experience, given models increasingly function as user interfaces \citep[see][]{lee2022interaction},
+(ii) linguistic plausibility, given models show language capabilities that invite comparison with humans \citep[see][]{linzen2020accelerate},
+and (iii) provenance/credibility, given current modeling approaches often forsake provenance in favor of other desiderata \citep[see][]{metzler2021rethinking, khattab2021HAI}. 
+
+For the metrics we do measure, we highlight the following specific axes for improvement.
+For both robustness and fairness when using perturbations, appropriate estimation of when perturbations should be introduced \citep[see][]{dhole2021nl, ziems2022value} remains a challenge for constructing synthetic data that is realistic.
+Further, when using contrast sets to measure robustness  equivariance and demographic metadata to measure performance disparities, availability of these resources is the key challenge, especially for more generative scenarios.
+For social bias, the validity of our measures has largely not been verified, and the broader study of biases in model generations when situated in realistic contexts (\ie without assuming access to specific metadata) remains quite open.
+Similarly for toxicity, we resort to using the PerspectiveAPI in spite of its established flaws, and broader protocols that would enable toxicity measurement that reflects the perspectives of different social groups and individuals would be desirable \citep{gordon2022jury}. 
+Finally, for measurement of training and inference efficiency, improving the reliable disclosure of necessary information would help ensure the accurate measurement of computational costs, environmental emissions, and various runtimes.
+
+\subsection{Missing targeted evaluations}
+\label{sec:missing-targeted}
+
+In terms of missing targeted evaluations, we first consider targeted evaluations that we did not evaluate.
+For model capabilities, we note that linguistic understanding, knowledge, and reasoning correspond to core capabilities studied in the vast literature on human cognitive function.
+Drawing inspiration from that literature, we note that planning is another standard consideration that we do not explicitly study.
+While planning has close connections with reasoning, and may also manifest in language contexts through long-documents (where the coverage in \benchmarkname could stand to improve), we emphasize that planning may also be better evaluated when considering foundation models that ground language in other modalities (\eg robotic control). 
+For model harms, we identify other forms of harm that we do not currently evaluate.
+In terms of malicious use cases (akin to disinformation), we note that language models could be used to automate spam generation and for other forms of fraud, which are not currently widely studied in the NLP community.
+Further, in terms of unintentional harms (akin to model biases), we highlight that there are many other variants of harms, which differ from but are related to bias, such as dehumanization \citep{mendelsohn2020framework}, denigration \citep{caines2018aggressive}, and condescension \citep{wang2019talkdown} in the growing canon of work on the harms of language technologies \citep{bender2021dangers, weidinger2022taxonomy, rauh2022characteristics, kirk2022handling} 
+
+In terms of improving the existing targeted evaluations, we highlight a specific axis of improvement for each.
+For linguistic understanding, we evaluate linguistic phenomena across syntax, semantics, and morphology, but do not evaluate other levels of linguistic abstraction, highlighting pragmatic and discourse as a specific area of focus.
+For knowledge, we evaluate domain, commonsense, and world knowledge, but we can deepen the domain knowledge (\eg domain-specific knowledge bases beyond Wikidata) as well as expand to social and cultural knowledge \citep[\eg SocialIQA;][]{sap2019socialiqa}.
+For reasoning, we evaluate many forms of reasoning, but we can broaden the domain-specific reasoning beyond law (\ie \legalsupport) as well as consider more language-centric reasoning \citep[\eg multi-hop reasoning as in HotPotQA;][]{yang2018hotpotqa}.
+For copyright, we highlight the potential for broader evaluation of privacy risk (\eg personally identifying information), evaluation with knowledge of the training (to better understand claims of memorization), and harms of greater societal (\eg plagiarism of student essays) or legal (\eg violation of copyright law) consequence. 
+For disinformation, we highlight the use of trained annotators as important for better characterizing true disinformation risk, along with grounded user studies to observe the effect of machine disinformation generation in advancing specific goals of persuasion and deception influencing human behavior.
+Finally, for bias and toxicity, we reiterate our general position of pushing evaluation towards more contextually-situated measurement \citep[see][]{rauh2022characteristics}, which is why we measured these as generative harms for all generative scenarios beyond isolated evaluations. 
+
+\subsection{Missing models}
+\label{sec:missing-models}
+
+For models, we highlight three categories.
+First, there are models that we can access that we do not evaluate, largely because they were released very close to the release of this work (\eg Galactica \citep{taylor2022galactica} was released on the same day as this work was released).
+Noteworthy examples, especially given our findings on instruction-tuning, are Flan-T5 \citep{chung2022scaling}, Tk-Instruct \citep{wang2022supernatural}, and BLOOMZ \citep{muennighoff2022crosslingual}.
+There are newer versions of commercial APIs from AI21 Labs and Cohere which we have yet to evaluate.
+We hope the current exclusion of these models will be merely temporary, and that we will be able to reliably evaluate models that are released openly. 
+
+Second, there are models that have been disclosed publicly but we do not have access.
+Notably, at present, prominent models from DeepMind and Google (\eg Gopher \citep{rae2021gopher}, Chinchilla \citep{hoffmann2022chinchilla}, LaMDA \citep{thoppilan2022lamda}, PaLM \citep{chowdhery2022palm}, and U-PaLM \citep{tay2022transcending}) fall in this category.
+Consistent with the recommendations of \citet{liang2022community-norms}, we believe research access to publicly benchmark and document these models is necessary, even if the broader practices for model release will differ across model providers.
+To this end, we recommend patterns of developer-mediated access as potential middlegrounds to ensure these models can be benchmarked transparently as a form of structured model access \citep{shevlane2022structured}. 
+
+Third, we recognize that there exist many language models, some which potentially play consequential roles in society by underpinning high impact products and services, that are entirely undisclosed.
+Given the growing importance of language models, and their potential to undergird many different language technologies without this being obvious to the public, we expect new mechanisms for visibility into algorithm pipelines will be necessary \citep[see][]{bommasani2022homogenization}.
+We raise this as an important open question for the community: how do we ensure foundation models (including language models) are transparently benchmarked when we do not know they exist and no existing mechanism requires they be disclosed?
+
+\subsection{Missing adaptation}
+\label{sec:missing-adaptation}
+
+With the advances in language models and foundation models, we have witnessed the rise of a sprawling class of different adaptation methods \citep[see][\S4.3]{bommasani2021opportunities}.
+At present, these include a variety of gradient-free prompting strategies \citep[see][]{liu2022prompt} like chain-of-thoughts \citep{wei2022chain}, parameter-efficient gradient-based methods \citep[see][]{he2022towards} like adapters \citep{houlsby2019parameter}, and full gradient-based fine-tuning.
+Beyond exploring any of these specific methods, we recommend work also explore how interoperable these methods are across different scenarios, metrics, and models so as to understand how best practices for adaptation should emerge.
+We also emphasize these methods assume different levels of access to models and may use different resources, which we could imagine tracking as means for fairer comparison \citep[][\S4.2]{perez2021true, bommasani2021opportunities}.
+Finally, we encourage work to explore model adaptation more expansively beyond specific machine learning methods, such as new modes of interaction that empower humans and broader forms of adaptation such as continual learning \citep[see][\S2.5, \S4.3]{bommasani2021opportunities}. 

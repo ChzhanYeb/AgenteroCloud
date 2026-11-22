@@ -1,0 +1,92 @@
+\iffalse
+
+``By ablating select features in these dictionaries, we can remove
+model capabilities such as pronoun prediction, while disrupting model behaviour less than contemporary techniques.''
+
+High level scratch work:
+iterate over dictionary, measure which ones (when ablated) reduce performance the most, ablate those directions, measure KL divergence of model over pile
+
+Done on tasks: 
+pronoun prediction task
+tried this on IOI under a different metric (but probably an appendix)
+
+Similar Papers:
+LEACE
+papers they cite
+
+
+Section outline:
+Background on concept erasure/leace
+Explain the pronoun prediction task
+Explain dataset
+What it means to ablate
+Description of our process
+Show results via graphics
+
+
+Q: What were the interpretations of the 10 features that we ablate?
+
+\fi
+
+\begin{figure}[ht]
+    \centering
+    
+    \includegraphics[width=.8\textwidth]{images/aidan/erasure_across_depth_410m_gender.png}
+    \caption{Comparison of concept erasure methods applied to Pythia-410M at various layers. We show the mean edit magnitude (top) and the ability of the altered model to complete the pronoun-prediction task (bottom). Lower is better in both plots. The horizontal `Base Perf.' line shows the performance of the unedited model, and the horizontal `Majority' line shows the accuracy of random guessing.}
+    \label{fig:erasure_across_depth_gender}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{images/aidan/erasure_across_depth_410m_pronoun.png}
+    \caption{We find that the erasure ability of dictionary feature projections outperform LEACE and difference-in-means projections when transferred to a related task, both in terms of erasure precision as measured by mean edit magnitude (top) and their ability to harm model performance on the task (bottom). Lower is better in both plots.} %While not all dictionary features generalise, we note that the optimal features are in the top-four best-performing features on the first task (Appendix \ref{appendix:concept_erasure_transfer}).
+    \label{fig:erasure_across_depth_pronoun}
+\end{figure}
+
+% Previous version:
+% For further evidence of the interpretability of our dictionary features, we turn to \emph{concept erasure}. Concept erasure is the task of editing the internal representations of the model to remove a single model capability, as measured by reduced performance on a particular task, while aiming to minimally disrupt model behaviour \citep{belrose2023leace}.
+
+To demonstrate that our dictionary features correspond to functional units in the network, we turn to \emph{concept erasure}. Concept erasure is the task of removing a specified feature from a learned representation \citep{belrose2023leace}. Here, we assess each variant of concept erasure by how much our edits hinder the ability of our models to predict a certain concept while aiming to otherwise minimally disrupt model behaviour. On this task, we are able to outperform methods such as LEACE \citep{belrose2023leace} that hide a concept from arbitrary linear probes, while still using single-rank ablations, which we claim is evidence that our linear features better represent the underlying computational units of the model.
+
+\subsection{Erasure on the `Gender Prediction by Name' Task}
+
+We evaluate our approach on the pronoun prediction task, using the `Gender by Name' dataset \citep{misc_gender_by_name_591}. In this task, we few-shot prompt Pythia-410M to complete sentences of the form ``My name is \emph{\{name\}} and my gender is \{\emph{gender}\}.'' with the stereotypical gender for a given name. We restrict ourselves to male and female genders for simplicity and measure language model predictive ability via the true positive rate of a classifier with log probabilities equal to the model output logits of the corresponding tokens.
+
+The feature dictionaries we used were trained with $\ell^1$ penalty coefficient $\alpha=8e-4$ and dictionary ratio $R=4$. Note that in contrast to Pythia-70M, Pythia-410M has 24 layers and residual stream dimension $d_{\text{in}}=1024$. In this section, we perform \emph{full-rank ablations} of dictionary features by projecting model activations to the orthogonal complement of that feature. In other words, we prevent the model activations from activating in that direction.
+
+% %original:
+% To select dictionary features for ablation, we filter for the top four features in each layer which erase the most information about gender as learnable by a linear probe, and then rank by performance on a test dataset.
+
+% %new:
+To select dictionary features for ablation, we rank them by their ability to hide gender information from a linear probe, as in \citet{ravfogel2022linear}, and then evaluate the top four dictionary features on their performance at the `Gender by Name' task on a 32-element `train' dataset distinct from the test dataset.
+
+We compare our approach to two benchmarks: LEACE \citep{belrose2023leace} and difference-in-means projections.
+% \footnote{For difference-in-means projections, we apply the projection $\mathbf{x} - \mathbf{v}^T\mathbf{x} \cdot \mathbf{v}$, where $\mathbf{v}$ is the normalised difference-in-means vector $\mathbb{E}[\mathrm{Embed}(X) | \mathrm{male}] - \mathbb{E}[\mathrm{Embed}(X) | \mathrm{female}]$ where $\mathrm{Embed}(X)$ is the activation on datapoint $X$.}
+The difference-in-means projection $P_\mathbf{u}$ is defined as
+
+% \begin{align*}
+%     \mathbf{v} = \mathbb{E}[\mathrm{Embed}(X) | \mathrm{male}] - \mathbb{E}[\mathrm{Embed}(X) | \mathrm{female}] \\
+%     \hat{\mathbf{v}} = \frac{\mathbf{v}}{|\mathbf{v}|} \\
+%     P_\mathbf{v}(\mathbf{x}) = \mathbf{x} - \hat{\mathbf{v}}^T \mathbf{x} \cdot \hat{\mathbf{v}}
+% \end{align*}
+
+
+\begin{eqnarray*}
+    % \mathbf{v} &=& \sum_{X \in }\text{Embed}(X) \mid \text{male}] - \mathbb{E}[\text{Embed}(X) \mid \text{female}] \\
+    \mathbf{u} &=& \frac{1}{|\mathcal M|}\sum_{\mathbf{v} \in  \mathcal M}\mathbf{v} - \frac{1}{|\mathcal F|}\sum_{\mathbf{w}\in \mathcal F}\mathbf{w}  \\
+    \hat{\mathbf{u}} &=& \frac{\mathbf{u}}{\|\mathbf{u}\|} \\
+    % P_{\mathbf{u}}(\mathbf{x}) &=& \mathbf{x} - \hat{\mathbf{u}}^\top \mathbf{x} \cdot \hat{\mathbf{u}} \\
+    P_{\mathbf{u}}(\mathbf{x}) &=& \mathbf{x} - \langle \hat{\mathbf{u}}, \mathbf{x}\rangle \hat{\mathbf{u}}
+\end{eqnarray*}
+
+
+where $\mathcal M$ and $\mathcal F$ are the residual stream activations from the layer being studied corresponding to male and female prompts, respectively. In other words, difference-in-means projection finds the difference $\mathbf{u}$ between the centroids of each gender class, and projects each activation $\mathbf x$ onto the subspace orthogonal to that direction.
+
+We apply erasure interventions to each layer individually, and we assume activations at different token positions are i.i.d. for the purposes of LEACE and difference-in-means projections.
+
+
+We find single features in early layers of the model that, when ablated, outperform LEACE and difference-in-means projections in model prediction accuracy removal (Figures \ref{fig:erasure_across_depth_gender} and \ref{fig:erasure_across_depth_pronoun}) while having a lower disruption to model behaviour overall, as measured by KL-divergence on the training distribution (Appendix \ref{appendix:kl_div_pile}). % We also find that the features that prove most effective for edits have interpretable, token-level activations (Appendix \ref{appendix:concept-erasure-feature-interp}).
+
+\subsection{Transfer to Pronoun Prediction}
+
+In order to test for some limited generality in using our learned features for erasure, we test the ability for the features in the previous section to generalise to erasure on a different task. We instead few-shot prompt the model to perform completions of the form ``\{\emph{name}\} went to the store, where \{\emph{pronoun}\} bought an \{\emph{object}\}.'', choosing the stereotypical pronoun for a given name. We show in Figure \ref{fig:erasure_across_depth_pronoun} that the highest-ranked features for gender prediction often permit good erasure on the pronoun prediction task, while methods such as difference-in-means projection and LEACE fail.

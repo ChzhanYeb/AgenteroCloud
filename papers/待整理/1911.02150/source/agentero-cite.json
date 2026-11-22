@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-15T11:46:51.616Z",
+    "fingerprint": "e04aa54ce627219929f2003b5d05d5f13f05489dcf1e3b78b3b479a3f11feffa"
+  },
+  "citations": [
+    {
+      "id": "cite-1409.0473",
+      "rawKey": "1409.0473",
+      "display": "[1]",
+      "raw": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning to align and translate, 2014.",
+      "metadata": {
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "authors": [
+          "D. Bahdanau",
+          "Kyunghyun Cho",
+          "Yoshua Bengio"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1409.0473",
+        "arxivId": "1409.0473",
+        "url": "https://www.semanticscholar.org/paper/fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5"
+      },
+      "localMatch": {
+        "paperPath": "papers/1409.0473",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-LM1B",
+      "rawKey": "LM1B",
+      "display": "[2]",
+      "raw": "Ciprian Chelba, Tomas Mikolov, Mike Schuster, Qi Ge, Thorsten Brants, and Phillipp Koehn. One billion word benchmark for measuring progress in statistical language modeling. CoRR, abs/1312.3005, 2013. URL http://arxiv.org/abs/1312.3005.",
+      "metadata": {
+        "title": "One billion word benchmark for measuring progress in statistical language modeling",
+        "authors": [
+          "Ciprian Chelba",
+          "Tomas Mikolov",
+          "Mike Schuster",
+          "Qi Ge",
+          "T. Brants",
+          "P. Koehn",
+          "T. Robinson"
+        ],
+        "year": 2013,
+        "venue": "Interspeech",
+        "doi": "10.21437/Interspeech.2014-564",
+        "arxivId": "1312.3005",
+        "url": "http://arxiv.org/abs/1312.3005"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-liu2018generatin",
+      "rawKey": "liu2018generatin",
+      "display": "[3]",
+      "raw": "Peter J Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, and Noam Shazeer. Generating wikipedia by summarizing long sequences. In Proceedings of the International Conference on Learning Representations, 2018.",
+      "metadata": {
+        "title": "Generating Wikipedia by Summarizing Long Sequences",
+        "authors": [
+          "Peter J. Liu",
+          "Mohammad Saleh",
+          "Etienne Pot",
+          "Ben Goodrich",
+          "Ryan Sepassi",
+          "Lukasz Kaiser",
+          "Noam Shazeer"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1801.10198",
+        "arxivId": "1801.10198",
+        "url": "https://www.semanticscholar.org/paper/8691706ad0cf5e83969658b2e6bfffdc379440c9"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-povey2018time",
+      "rawKey": "povey2018time",
+      "display": "[4]",
+      "raw": "Daniel Povey, Hossein Hadian, Pegah Ghahremani, Ke Li, and Sanjeev Khudanpur. A time-restricted self-attention layer for ASR. In Proceddings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2018.",
+      "metadata": {
+        "title": "A Time-Restricted Self-Attention Layer for ASR",
+        "authors": [
+          "D. Povey",
+          "Hossein Hadian",
+          "P. Ghahremani",
+          "Ke Li",
+          "S. Khudanpur"
+        ],
+        "year": 2018,
+        "venue": "2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "doi": "10.1109/ICASSP.2018.8462497",
+        "url": "https://www.semanticscholar.org/paper/a6e4beb28b345fce7470da122b4e45e2cd0dcd12"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Vas17",
+      "rawKey": "Vas17",
+      "display": "[5]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. In NIPS, 2017.",
+      "metadata": {
+        "title": "Attention is All you Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "N. Parmar",
+          "J. Uszkoreit",
+          "L. Jones",
+          "Aidan N. Gomez",
+          "Lukasz Kaiser",
+          "I. Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1706.03762",
+        "arxivId": "1706.03762",
+        "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-1805.00631",
+      "rawKey": "1805.00631",
+      "display": "[6]",
+      "raw": "Biao Zhang, Deyi Xiong, and Jinsong Su. Accelerating neural transformer via an average attention network, 2018.",
+      "metadata": {
+        "title": "Accelerating Neural Transformer via an Average Attention Network",
+        "authors": [
+          "Biao Zhang",
+          "Deyi Xiong",
+          "Jinsong Su"
+        ],
+        "year": 2018,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P18-1166",
+        "arxivId": "1805.00631",
+        "url": "https://www.semanticscholar.org/paper/6e45251b16cd423f3c025f004959c6d2b26efab0"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 6 entries (bbl)",
+    "semantic scholar: 6 references",
+    "merged: 6 of 6 enriched online"
+  ]
+}

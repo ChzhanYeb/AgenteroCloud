@@ -1,0 +1,31 @@
+\section{Introduction}
+\label{sec:introduction}
+
+% \omer{Love the title! Agree with Graham that we can use 8 instead of 16. In any case, we should use number words: "Are Eight Heads Really Better than One?"}
+
+Transformers \citep{vaswani2017attention} have shown state of the art performance across a variety of NLP tasks, including, but not limited to, machine translation \citep{vaswani2017attention,ott2018scaling}, question answering \citep{devlin2018bert}, text classification \citep{radford2018improving}, and semantic role labeling \citep{strubell2018linguistically}. Central to its architectural improvements, the Transformer extends the standard attention mechanism \citep{bahdanau15alignandtranslate,cho2014learning} via \ac{mha}, where attention is computed independently by $N_h$ parallel attention mechanisms (heads). It has been shown that beyond improving performance, \ac{mha} can help with subject-verb agreement \citep{tang2018why} and that some heads are predictive of dependency structures \citep{raganato2018analysis}. Since then, several extensions to the general methodology have been proposed \citep{ahmed2017weighted,Shen2018DiSANDS}. 
+
+% In this paper, we observe -- in both transformer-based machine translation and BERT-based \citep{devlin2018bert} natural language inference -- that most attention heads can be individually removed after training without any significant downside in terms of test performance (\S\ref{sec:ablating_one}).
+% The more important heads (for which performance drops most when they are ignored) appear to have sharper attention distributions and less redundancy with other heads in the same layer (\S\ref{sec:important_characteristics}).
+
+% Since the value of having multiple heads has been confirmed experimentally \citep{vaswani2017attention,chen2018best}, these seemingly contradictory observations raise the question: to what extent is multi-headedness actually needed after training?
+% Remarkably, we observe that some attention layers can be reduced to a single attention head without impacting test performance (\S\ref{sec:ablating_all_but_one}). However, we show that this is not systematic (\S\ref{sec:pruning}), and that multi-headedness is indeed important and even critical in parts of the model (\S\ref{sec:importance_per_part}).
+
+However, it is still not entirely clear: what do the multiple heads in these models buy us?
+In this paper, we make the surprising observation that -- in both Transformer-based models for machine translation and BERT-based \citep{devlin2018bert} natural language inference -- most attention heads can be individually removed after training without any significant downside in terms of test performance (\S\ref{sec:ablating_one}).
+Remarkably, many attention layers can even be individually reduced to a single attention head without impacting test performance (\S\ref{sec:ablating_all_but_one}). 
+
+Based on this observation, we further propose a simple algorithm that greedily and iteratively prunes away attention heads that seem to be contributing less to the model.
+By jointly removing attention heads from the entire network, without restricting pruning to a single layer, we find that large parts of the network can be removed with little to no consequences, but that the majority of heads must remain to avoid catastrophic drops in performance (\S\ref{sec:pruning}).
+We further find that this has significant benefits for inference-time efficiency, resulting in up to a 17.5\% increase in inference speed for a BERT-based model.
+
+We then delve into further analysis.
+A closer look at the case of machine translation reveals that the encoder-decoder attention layers are particularly sensitive to pruning, much more than the self-attention layers, suggesting that multi-headedness plays a critical role in this component (\S\ref{sec:importance_per_part}). Finally, we provide evidence that the distinction between important and unimporant heads increases as training progresses, suggesting an interaction between multi-headedness and training dynamics (\S\ref{sec:anal_training}).
+% We also find that the more important heads (for which performance drops most when they are removed) appear to have sharper attention distributions (\S\ref{sec:important_characteristics}), suggesting that perhaps low entropy attention should be encouraged during training to improve translation models.
+% and less redundancy with other heads in the same layer.
+
+
+% A closer look at the case of machine translation reveals that multi-headedness is more important for some parts of the model than others, and plays a particularly critical role in encoder-decoder attention (\S\ref{sec:importance_per_part}).
+
+
+

@@ -1,0 +1,65 @@
+\begin{table*}[htp]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lcccccc|ccc}
+\toprule
+Model & Model Creator & Modality & \# Parameters & Tokenizer & Window Size & Access & Total Tokens & Total Queries & Total Cost \\
+\midrule
+% AI21 (3) (1)
+\jurassicjumbo & AI21 Labs & Text & 178B & AI21 & 2047 & limited & 327,443,515 & 591,384 & \$10,926 \\
+\jurassicgrande & AI21 Labs & Text & 17B & AI21 & 2047 & limited & 326,815,150 & 591,384 & \$2,973 \\
+\jurassiclarge & AI21 Labs & Text & 7.5B & AI21 & 2047 & limited & 342,616,800 & 601,560 & \$1,128 \\
+\midrule
+% Anthropic (1) (1)
+\anthropic & Anthropic & Text & 52B & GPT-2 & 8192 & closed & 767,856,111 & 842,195 & - \\
+\midrule
+% BigScience (2) (2)
+\bloom & BigScience & Text & 176B & BLOOM & 2048 & open & 581,384,088 & 849,303 & 4,200 \gpuhours \\
+\tzero & BigScience & Text & 11B & T0 & 1024 & open & 305,488,229 & 406,072 & 1,250 \gpuhours \\
+\midrule
+% Cohere (4) (1)
+\coherexl & Cohere & Text & 52.4B & Cohere & 2047 & limited & 397,920,975 & 597,252 & \$1,743  \\
+\coherel\footnote{Deprecated by Cohere as of December 2, 2022.} & Cohere & Text & 13.1B & Cohere & 2047 & limited & 398,293,651 & 597,252 & \$1,743  \\
+\coherem & Cohere & Text & 6.1B & Cohere & 2047 & limited & 398,036,367 & 597,252 & \$1,743  \\
+\coheres\footnote{Deprecated by Cohere as of December 2, 2022.} & Cohere & Text & 410M & Cohere & 2047 & limited & 399,114,309 & 597,252 & \$1,743  \\
+\midrule
+% EleutherAI (2) (2)
+\gptj & EleutherAI & Text & 6B & GPT-J & 2048 & open & 611,026,748 & 851,178 & 860 \gpuhours \\
+\gptneox & EleutherAI & Text & 20B & GPT-NeoX & 2048 & open & 599,170,730 & 849,830 & 540 \gpuhours \\
+\midrule
+% Google (2) (2)
+\tfive & Google & Text & 11B & T5 & 512 & open & 199,017,126 & 406,072 & 1,380 \gpuhours \\
+\ultwo & Google & Text & 20B & UL2 & 512 & open & 199,539,380 & 406,072 & 1,570 \gpuhours \\
+\midrule
+% Meta (2) (1)
+\optsixsix & Meta & Text & 66B & OPT & 2048 & open & 612,752,867 & 851,178 & 2,000 \gpuhours \\
+\optonesevenfive & Meta & Text & 175B & OPT & 2048 & open & 610,436,798 & 851,178 & 3,400 \gpuhours \\
+\midrule
+% Microsoft (1) (1)
+\mtnlgseven & Microsoft/NVIDIA & Text & 6.7B & GPT-2 & 2047 & closed & 417,583,950 & 590,756 & - \\
+\mtnlgfivethreezero & Microsoft/NVIDIA & Text & 530B & GPT-2 & 2047 & closed & 417,111,519 & 590,756 & - \\
+\midrule
+% OpenAI (10) (3)
+\gptdavinci & OpenAI & Text & 175B & GPT-2 & 2048 & limited & 422,001,611 & 606,253 & \$8,440 \\
+\gptcurie & OpenAI & Text & 6.7B & GPT-2 & 2048 & limited & 423,016,414 & 606,253 & \$846 \\
+\gptbabbage & OpenAI & Text & 1.3B & GPT-2 & 2048 & limited & 422,123,900 & 606,253 & \$211 \\
+\gptada & OpenAI & Text & 350M & GPT-2 & 2048 & limited & 422,635,705 & 604,253  & \$169 \\
+\instructdavinci & OpenAI & Text & Unknown & GPT-2 & 4000 & limited & 466,872,228 & 599,815 &  \$9,337 \\
+\instructcurie & OpenAI & Text & Unknown & GPT-2 & 2048 & limited & 420,004,477 & 606,253 & \$840 \\
+\instructbabbage & OpenAI & Text & Unknown & GPT-2 & 2048 & limited & 419,036,038 & 604,253 & \$210 \\
+\instructada & OpenAI & Text & Unknown & GPT-2 & 2048 & limited & 418,915,281 & 604,253 & \$168 \\
+\davincicodex & OpenAI & Code & Unknown & GPT-2 & 4000 & limited & 46,272,590 & 57,051 & \$925 \\
+\cushmancodex & OpenAI & Code & 12B & GPT-2 & 2048 & limited & 42,659,399 & 59,751 & \$85 \\
+\midrule
+% Tsinghua University (1) (1)
+\glm & Tsinghua University & Text & 130B & ICE & 2048 & open & 375,474,243 & 406,072 & 2,100 \gpuhours \\
+\midrule
+% Yandex (1) (1)
+\yalm & Yandex & Text & 100B & Yandex & 2048 & open & 378,607,292 & 405,093 & 2,200 \gpuhours \\
+\bottomrule
+\end{tabular}}
+\caption{\textbf{Models.} Description of the \nummodels models evaluated in this effort: provenance for this information is provided in \refapp{models}.
+The total tokens, queries, and cost refer to the overall costs we incur to evaluate the given model.
+For this reason, the costs for open models are measured in \gpuhours, the costs for commercial models are measured in the monetary cost calculated using the current pricing scheme for each model, and the costs for the private models were covered by the model providers.
+}
+\label{tab:models}
+\end{table*}

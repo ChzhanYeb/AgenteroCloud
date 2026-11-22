@@ -1,0 +1,176 @@
+\begin{thebibliography}{10}
+
+\bibitem{a100}
+{NVIDIA A100 Tensor Core GPU}.
+\newblock \url{https://www.nvidia.com/en-us/data-center/a100/}.
+
+\bibitem{nvlink}
+N{VL}ink and n{VS}witch.
+\newblock \url{https://www.nvidia.com/en-us/data-center/nvlink/}.
+
+\bibitem{selene}
+{Selene}.
+\newblock \url{https://www.top500.org/system/179842/}.
+
+\bibitem{gpt-3}
+Tom~B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan,
+  Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda
+  Askell, Sandhini Agarwal, Ariel Herbert{-}Voss, Gretchen Krueger, Tom
+  Henighan, Rewon Child, Aditya Ramesh, Daniel~M. Ziegler, Jeffrey Wu, Clemens
+  Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott
+  Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec
+  Radford, Ilya Sutskever, and Dario Amodei.
+\newblock Language models are few-shot learners.
+\newblock In Hugo Larochelle, Marc'Aurelio Ranzato, Raia Hadsell,
+  Maria{-}Florina Balcan, and Hsuan{-}Tien Lin, editors, {\em Advances in
+  Neural Information Processing Systems 33: Annual Conference on Neural
+  Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020,
+  virtual}, 2020.
+
+\bibitem{activation-recomputation}
+Tianqi Chen, Bing Xu, Chiyuan Zhang, and Carlos Guestrin.
+\newblock Training deep nets with sublinear memory cost.
+\newblock {\em CoRR}, abs/1604.06174, 2016.
+
+\bibitem{palm}
+Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra,
+  Adam Roberts, Paul Barham, Hyung~Won Chung, Charles Sutton, Sebastian
+  Gehrmann, Parker Schuh, Kensen Shi, Sasha Tsvyashchenko, Joshua Maynez,
+  Abhishek Rao, Parker Barnes, Yi~Tay, Noam Shazeer, Vinodkumar Prabhakaran,
+  Emily Reif, Nan Du, Ben Hutchinson, Reiner Pope, James Bradbury, Jacob
+  Austin, Michael Isard, Guy Gur-Ari, Pengcheng Yin, Toju Duke, Anselm
+  Levskaya, Sanjay Ghemawat, Sunipa Dev, Henryk Michalewski, Xavier Garcia,
+  Vedant Misra, Kevin Robinson, Liam Fedus, Denny Zhou, Daphne Ippolito, David
+  Luan, Hyeontaek Lim, Barret Zoph, Alexander Spiridonov, Ryan Sepassi, David
+  Dohan, Shivani Agrawal, Mark Omernick, Andrew~M. Dai,
+  Thanumalayan~Sankaranarayana Pillai, Marie Pellat, Aitor Lewkowycz, Erica
+  Moreira, Rewon Child, Oleksandr Polozov, Katherine Lee, Zongwei Zhou, Xuezhi
+  Wang, Brennan Saeta, Mark Diaz, Orhan Firat, Michele Catasta, Jason Wei,
+  Kathy Meier-Hellstern, Douglas Eck, Jeff Dean, Slav Petrov, and Noah Fiedel.
+\newblock Palm: Scaling language modeling with pathways, 2022.
+
+\bibitem{gpipe}
+Yanping Huang, Youlong Cheng, Ankur Bapna, Orhan Firat, Dehao Chen, Mia~Xu
+  Chen, HyoukJoong Lee, Jiquan Ngiam, Quoc~V. Le, Yonghui Wu, and Zhifeng Chen.
+\newblock Gpipe: Efficient training of giant neural networks using pipeline
+  parallelism.
+\newblock In Hanna~M. Wallach, Hugo Larochelle, Alina Beygelzimer, Florence
+  d'Alch{\'{e}}{-}Buc, Emily~B. Fox, and Roman Garnett, editors, {\em Advances
+  in Neural Information Processing Systems 32: Annual Conference on Neural
+  Information Processing Systems 2019, NeurIPS 2019, December 8-14, 2019,
+  Vancouver, BC, Canada}, pages 103--112, 2019.
+
+\bibitem{sagemaker}
+Can Karakus, Rahul Huilgol, Fei Wu, Anirudh Subramanian, Cade Daniel, Derya
+  Cavdar, Teng Xu, Haohan Chen, Arash Rahnama, and Luis Quintela.
+\newblock Amazon sagemaker model parallelism: A general and flexible framework
+  for large model training, 2021.
+
+\bibitem{sequence-parallelism}
+Shenggui Li, Fuzhao Xue, Yongbin Li, and Yang You.
+\newblock Sequence parallelism: Long sequence training from system perspective,
+  2021.
+
+\bibitem{terapipe}
+Zhuohan Li, Siyuan Zhuang, Shiyuan Guo, Danyang Zhuo, Hao Zhang, Dawn Song, and
+  Ion Stoica.
+\newblock Terapipe: Token-level pipeline parallelism for training large-scale
+  language models.
+\newblock In Marina Meila and Tong Zhang, editors, {\em Proceedings of the 38th
+  International Conference on Machine Learning, {ICML} 2021, 18-24 July 2021,
+  Virtual Event}, volume 139 of {\em Proceedings of Machine Learning Research},
+  pages 6543--6552. {PMLR}, 2021.
+
+\bibitem{pipedream}
+Deepak Narayanan, Aaron Harlap, Amar Phanishayee, Vivek Seshadri, Nikhil~R.
+  Devanur, Gregory~R. Ganger, Phillip~B. Gibbons, and Matei Zaharia.
+\newblock Pipedream: generalized pipeline parallelism for {DNN} training.
+\newblock In Tim Brecht and Carey Williamson, editors, {\em Proceedings of the
+  27th {ACM} Symposium on Operating Systems Principles, {SOSP} 2019,
+  Huntsville, ON, Canada, October 27-30, 2019}, pages 1--15. {ACM}, 2019.
+
+\bibitem{1f1b-pipedream}
+Deepak Narayanan, Amar Phanishayee, Kaiyu Shi, Xie Chen, and Matei Zaharia.
+\newblock {Memory-Efficient Pipeline-Parallel DNN Training}.
+\newblock {\em arXiv preprint arXiv:2006.09503}, 2020.
+
+\bibitem{megatron-pipeline}
+Deepak Narayanan, Mohammad Shoeybi, Jared Casper, Patrick LeGresley, Mostofa
+  Patwary, Vijay~Anand Korthikanti, Dmitri Vainbrand, Prethvi Kashinkunti,
+  Julie Bernauer, Bryan Catanzaroand~Amar Phanishayee, and Matei Zaharia.
+\newblock Efficient large-scale language model training on gpu clusters using
+  megatron-lm.
+\newblock {\em ArXiv}, abs/2104.04473, 2021.
+
+\bibitem{zero}
+Samyam Rajbhandari, Jeff Rasley, Olatunji Ruwase, and Yuxiong He.
+\newblock Zero: memory optimizations toward training trillion parameter models.
+\newblock In Christine Cuicchi, Irene Qualters, and William~T. Kramer, editors,
+  {\em Proceedings of the International Conference for High Performance
+  Computing, Networking, Storage and Analysis, {SC} 2020, Virtual Event /
+  Atlanta, Georgia, USA, November 9-19, 2020}, page~20. {IEEE/ACM}, 2020.
+
+\bibitem{zero-infinity}
+Samyam Rajbhandari, Olatunji Ruwase, Jeff Rasley, Shaden Smith, and Yuxiong He.
+\newblock Zero-infinity: breaking the {GPU} memory wall for extreme scale deep
+  learning.
+\newblock In Bronis~R. de~Supinski, Mary~W. Hall, and Todd Gamblin, editors,
+  {\em {SC} '21: The International Conference for High Performance Computing,
+  Networking, Storage and Analysis, St. Louis, Missouri, USA, November 14 - 19,
+  2021}, pages 59:1--59:14. {ACM}, 2021.
+
+\bibitem{deepspeed}
+Jeff Rasley, Samyam Rajbhandari, Olatunji Ruwase, and Yuxiong He.
+\newblock Deepspeed: System optimizations enable training deep learning models
+  with over 100 billion parameters.
+\newblock In Rajesh Gupta, Yan Liu, Jiliang Tang, and B.~Aditya Prakash,
+  editors, {\em {KDD} '20: The 26th {ACM} {SIGKDD} Conference on Knowledge
+  Discovery and Data Mining, Virtual Event, CA, USA, August 23-27, 2020}, pages
+  3505--3506. {ACM}, 2020.
+
+\bibitem{zero-offload}
+Jie Ren, Samyam Rajbhandari, Reza~Yazdani Aminabadi, Olatunji Ruwase, Shuangyan
+  Yang, Minjia Zhang, Dong Li, and Yuxiong He.
+\newblock Zero-offload: Democratizing billion-scale model training.
+\newblock In Irina Calciu and Geoff Kuenning, editors, {\em 2021 {USENIX}
+  Annual Technical Conference, {USENIX} {ATC} 2021, July 14-16, 2021}, pages
+  551--564. {USENIX} Association, 2021.
+
+\bibitem{mesh-tensorflow}
+Noam Shazeer, Youlong Cheng, Niki Parmar, Dustin Tran, Ashish Vaswani, Penporn
+  Koanantakool, Peter Hawkins, HyoukJoong Lee, Mingsheng Hong, Cliff Young,
+  Ryan Sepassi, and Blake~A. Hechtman.
+\newblock Mesh-tensorflow: Deep learning for supercomputers.
+\newblock In Samy Bengio, Hanna~M. Wallach, Hugo Larochelle, Kristen Grauman,
+  Nicol{\`{o}} Cesa{-}Bianchi, and Roman Garnett, editors, {\em Advances in
+  Neural Information Processing Systems 31: Annual Conference on Neural
+  Information Processing Systems 2018, NeurIPS 2018, December 3-8, 2018,
+  Montr{\'{e}}al, Canada}, pages 10435--10444, 2018.
+
+\bibitem{megatron}
+Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper,
+  and Bryan Catanzaro.
+\newblock Megatron-lm: Training multi-billion parameter language models using
+  model parallelism.
+\newblock {\em CoRR}, abs/1909.08053, 2019.
+
+\bibitem{mt-nlg}
+Shaden Smith, Mostofa Patwary, Brandon Norick, Patrick LeGresley, Samyam
+  Rajbhandari, Jared Casper, Zhun Liu, Shrimai Prabhumoye, George Zerveas,
+  Vijay Korthikanti, Elton Zhang, Rewon Child, Reza~Yazdani Aminabadi, Julie
+  Bernauer, Xia Song, Mohammad Shoeybi, Yuxiong He, Michael Houston, Saurabh
+  Tiwary, and Bryan Catanzaro.
+\newblock Using deepspeed and megatron to train megatron-turing nlg 530b, a
+  large-scale generative language model.
+\newblock {\em arXiv}, 2022.
+
+\bibitem{GSPMD}
+Yuanzhong Xu, HyoukJoong Lee, Dehao Chen, Blake~A. Hechtman, Yanping Huang,
+  Rahul Joshi, Maxim Krikun, Dmitry Lepikhin, Andy Ly, Marcello Maggioni,
+  Ruoming Pang, Noam Shazeer, Shibo Wang, Tao Wang, Yonghui Wu, and Zhifeng
+  Chen.
+\newblock {GSPMD:} general and scalable parallelization for {ML} computation
+  graphs.
+\newblock {\em CoRR}, abs/2105.04663, 2021.
+
+\end{thebibliography}

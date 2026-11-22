@@ -1,0 +1,175 @@
+{
+  "path": "papers/可解释性/2504.13151",
+  "id": "2504.13151",
+  "type": "arxiv",
+  "title": "MIB: A Mechanistic Interpretability Benchmark",
+  "authors": [
+    "Aaron Mueller",
+    "Atticus Geiger",
+    "Sarah Wiegreffe",
+    "Dana Arad",
+    "Iván Arcuschin",
+    "Adam Belfki",
+    "Yik Siu Chan",
+    "Jaden Fiotto-Kaufman",
+    "Tal Haklay",
+    "Michael Hanna",
+    "Jing Huang",
+    "Rohan Gupta",
+    "Yaniv Nikankin",
+    "Hadas Orgad",
+    "Nikhil Prakash",
+    "Anja Reusch",
+    "Aruna Sankaranarayanan",
+    "Shun Shao",
+    "Alessandro Stolfo",
+    "Martin Tutek",
+    "Amir Zur",
+    "David Bau",
+    "Yonatan Belinkov"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Aaron",
+      "lastName": "Mueller"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Atticus",
+      "lastName": "Geiger"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sarah",
+      "lastName": "Wiegreffe"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dana",
+      "lastName": "Arad"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Iván",
+      "lastName": "Arcuschin"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Adam",
+      "lastName": "Belfki"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yik Siu",
+      "lastName": "Chan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jaden",
+      "lastName": "Fiotto-Kaufman"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tal",
+      "lastName": "Haklay"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Michael",
+      "lastName": "Hanna"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jing",
+      "lastName": "Huang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rohan",
+      "lastName": "Gupta"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yaniv",
+      "lastName": "Nikankin"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hadas",
+      "lastName": "Orgad"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nikhil",
+      "lastName": "Prakash"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Anja",
+      "lastName": "Reusch"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Aruna",
+      "lastName": "Sankaranarayanan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Shun",
+      "lastName": "Shao"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Alessandro",
+      "lastName": "Stolfo"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Martin",
+      "lastName": "Tutek"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Amir",
+      "lastName": "Zur"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "David",
+      "lastName": "Bau"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yonatan",
+      "lastName": "Belinkov"
+    }
+  ],
+  "year": 2025,
+  "date": "2025-06-09",
+  "abstract": "How can we know whether new mechanistic interpretability methods achieve real improvements? In pursuit of lasting evaluation standards, we propose MIB, a Mechanistic Interpretability Benchmark, with two tracks spanning four tasks and five models. MIB favors methods that precisely and concisely recover relevant causal pathways or causal variables in neural language models. The circuit localization track compares methods that locate the model components - and connections between them - most important for performing a task (e.g., attribution patching or information flow routes). The causal variable localization track compares methods that featurize a hidden vector, e.g., sparse autoencoders (SAEs) or distributed alignment search (DAS), and align those features to a task-relevant causal variable. Using MIB, we find that attribution and mask optimization methods perform best on circuit localization. For causal variable localization, we find that the supervised DAS method performs best, while SAE features are not better than neurons, i.e., non-featurized hidden vectors. These findings illustrate that MIB enables meaningful comparisons, and increases our confidence that there has been real progress in the field.",
+  "tags": [
+    "@arxiv:Computer Science - Machine Learning",
+    "@arxiv:Computer Science - Artificial Intelligence",
+    "@arxiv:Computer Science - Computation and Language"
+  ],
+  "arxiv_id": "2504.13151",
+  "doi": "10.48550/arXiv.2504.13151",
+  "publication": "ICML 2025",
+  "pdf_url": "https://arxiv.org/pdf/2504.13151",
+  "html_url": "https://arxiv.org/html/2504.13151",
+  "source_url": "https://arxiv.org/abs/2504.13151",
+  "code_repo": "https://github.com/aaronmueller/mib",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2504.13151",
+  "citation_count": 66,
+  "zotero_item_type": "preprint",
+  "meta_source": "translator",
+  "extra": "arXiv:2504.13151 [cs.LG]",
+  "summary": "MIB benchmarks mechanistic interpretability across circuit localization and causal-variable recovery, covering four tasks and five language models. Attribution and mask optimization lead circuit search, while supervised DAS outperforms SAEs, whose features do not beat individual neurons.",
+  "status": "completed",
+  "is_read": true,
+  "added_at": "2026-11-17T14:43:39.163Z",
+  "updated_at": "2026-11-17T15:12:05.116Z"
+}

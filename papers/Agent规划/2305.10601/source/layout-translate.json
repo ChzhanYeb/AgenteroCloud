@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 2,
+  "source": {
+    "mode": "pdf-layout-translate",
+    "generatedAt": "2026-11-15T13:18:36.772Z",
+    "providerId": "tencenttransmart",
+    "sourceLang": "auto",
+    "targetLang": "zh-CN",
+    "serviceKey": "tencenttransmart"
+  },
+  "items": [
+    {
+      "id": "95e97e44-1ddd-4778-bd2b-9086c58202b0",
+      "pageIndex": 0,
+      "bbox": {
+        "x": 0.4627298093309589,
+        "y": 0.3414777505277383,
+        "w": 0.07625888998991524,
+        "h": 0.015447366117226958
+      },
+      "kind": "header",
+      "readingOrder": 138,
+      "source": "Abstract",
+      "translated": "摘要",
+      "sentences": [
+        {
+          "quote": "Abstract",
+          "source": "Abstract",
+          "translated": "摘要"
+        }
+      ]
+    },
+    {
+      "id": "c6ae587a-efc4-4d36-bea6-0e408e788e9b",
+      "pageIndex": 0,
+      "bbox": {
+        "x": 0.23114973579356873,
+        "y": 0.37517767241506866,
+        "w": 0.5376858929403467,
+        "h": 0.23654594806709675
+      },
+      "kind": "abstract",
+      "readingOrder": 184,
+      "source": "Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference. This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role. To surmount these challenges, we introduce a new framework for language model inference, “Tree of Thoughts” (ToT), which generalizes over the popular “Chain of Thought” approach to prompting language models, and enables exploration over coherent units of text (“thoughts”) that serve as intermediate steps toward problem solving. ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices. Our experiments show that ToT significantly enhances language models’ problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%. Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm.",
+      "translated": "语言模型越来越多地被部署用于解决各种任务中的一般问题，但仍然局限于推理过程中的标记级、从左到右的决策过程。这意味着他们可能无法完成需要探索、战略前瞻或初始决策起关键作用的任务。为了克服这些挑战，我们引入了一个新的语言模型推理框架，“思想树”（ToT），它概括了流行的“思想链”方法，以促进语言模型，并使探索连贯的文本单元（“思想”），作为解决问题的中间步骤。ToT允许LM通过考虑多个不同的推理路径和自我评估选择来执行深思熟虑的决策，以决定下一步行动，以及在必要时进行前瞻或回溯以做出全局选择。我们的实验表明，ToT显着提高语言模型的问题解决能力的三个新的任务，需要非平凡的规划或搜索：游戏的24，创意写作，迷你填字游戏。例如，在24人游戏中，虽然GPT-4与思维链提示只解决了4%的任务，但我们的方法取得了74%的成功率。包含所有提示的代码存储库：https://github.com/princeton-nlp/tree-of-thought-llm。",
+      "sentences": [
+        {
+          "quote": "Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference.",
+          "source": "Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference.",
+          "translated": "语言模型越来越多地被部署用于解决各种任务中的一般问题，但仍然局限于推理过程中的标记级、从左到右的决策过程。"
+        },
+        {
+          "quote": "This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role.",
+          "source": "This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role.",
+          "translated": "这意味着他们可能无法完成需要探索、战略前瞻或初始决策起关键作用的任务。"
+        },
+        {
+          "quote": "To surmount these challenges, we introduce a new framework for language model inference, “Tree of Thoughts” (ToT), which generalizes over the popular “Chain of Thought” approach to prompting language models, and enables exploration over coherent units of text (“thoughts”) that serve as intermediate steps toward problem solving.",
+          "source": "To surmount these challenges, we introduce a new framework for language model inference, “Tree of Thoughts” (ToT), which generalizes over the popular “Chain of Thought” approach to prompting language models, and enables exploration over coherent units of text (“thoughts”) that serve as intermediate steps toward problem solving.",
+          "translated": "为了克服这些挑战，我们引入了一个新的语言模型推理框架，“思想树”（ToT），它概括了流行的“思想链”方法，以促进语言模型，并使探索连贯的文本单元（“思想”），作为解决问题的中间步骤。"
+        },
+        {
+          "quote": "ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices.",
+          "source": "ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices.",
+          "translated": "ToT允许LM通过考虑多个不同的推理路径和自我评估选择来执行深思熟虑的决策，以决定下一步行动，以及在必要时进行前瞻或回溯以做出全局选择。"
+        },
+        {
+          "quote": "Our experiments show that ToT significantly enhances language models’ problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords.",
+          "source": "Our experiments show that ToT significantly enhances language models’ problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords.",
+          "translated": "我们的实验表明，ToT显着提高语言模型的问题解决能力的三个新的任务，需要非平凡的规划或搜索：游戏的24，创意写作，迷你填字游戏。"
+        },
+        {
+          "quote": "For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%.",
+          "source": "For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%.",
+          "translated": "例如，在24人游戏中，虽然GPT-4与思维链提示只解决了4%的任务，但我们的方法取得了74%的成功率。"
+        },
+        {
+          "quote": "Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm.",
+          "source": "Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm.",
+          "translated": "包含所有提示的代码存储库：https://github.com/princeton-nlp/tree-of-thought-llm。"
+        }
+      ]
+    },
+    {
+      "id": "cb7e6083-843c-4799-acc4-4b1ca997055e",
+      "pageIndex": 0,
+      "bbox": {
+        "x": 0.1754920685213376,
+        "y": 0.6406328605883049,
+        "w": 0.1383026098114213,
+        "h": 0.01484957608309659
+      },
+      "kind": "header",
+      "readingOrder": 203,
+      "source": "1 Introduction",
+      "translated": "1引言",
+      "sentences": [
+        {
+          "quote": "1 Introduction",
+          "source": "1 Introduction",
+          "translated": "1引言"
+        }
+      ]
+    },
+    {
+      "id": "fb21fcf7-3b04-4378-8d28-c31faaf587bf",
+      "pageIndex": 0,
+      "bbox": {
+        "x": 0.17296015670876097,
+        "y": 0.6722378971600773,
+        "w": 0.6550450169183071,
+        "h": 0.09854865796638256
+      },
+      "kind": "text",
+      "readingOrder": 219,
+      "source": "Originally designed to generate text, scaled-up versions of language models (LMs) such as GPT [25, 26, 1, 23] and PaLM ⟪F0⟫ have been shown to be increasingly capable of performing an ever wider range of tasks requiring mathematical, symbolic, commonsense, and knowledge reasoning. It is perhaps surprising that underlying all this progress is still the original autoregressive mechanism for generating text, which makes token-level decisions one by one and in a left-to-right fashion. Is such a simple mechanism sufficient for a LM to be built toward a general problem solver? If not, what problems would challenge the current paradigm, and what should be alternative mechanisms?",
+      "translated": "最初设计用于生成文本的语言模型（LM）的放大版本（如GPT [25, 26, 1, 23]和PaLM ⟪F0⟫）已被证明越来越能够执行更广泛的任务，需要数学，符号，常识和知识推理。令人惊讶的是，所有这些进步的背后仍然是原始的自回归文本生成机制，它以从左到右的方式逐个做出令牌级决策。这样一个简单的机制是否足以使LM成为一个通用的问题求解器？如果不是，什么问题会对目前的模式构成挑战，应该有什么替代机制？",
+      "sentences": [
+        {
+          "quote": "Originally designed to generate text, scaled-up versions of language models (LMs) such as GPT [25, 26, 1, 23] and PaLM [5] have been shown to be increasingly capable of performing an ever wider range of tasks requiring mathematical, symbolic, commonsense, and knowledge reasoning.",
+          "source": "Originally designed to generate text, scaled-up versions of language models (LMs) such as GPT [25, 26, 1, 23] and PaLM ⟪F0⟫ have been shown to be increasingly capable of performing an ever wider range of tasks requiring mathematical, symbolic, commonsense, and knowledge reasoning.",
+          "translated": "最初设计用于生成文本的语言模型（LM）的放大版本（如GPT [25, 26, 1, 23]和PaLM ⟪F0⟫）已被证明越来越能够执行更广泛的任务，需要数学，符号，常识和知识推理。"
+        },
+        {
+          "quote": "It is perhaps surprising that underlying all this progress is still the original autoregressive mechanism for generating text, which makes token-level decisions one by one and in a left-to-right fashion.",
+          "source": "It is perhaps surprising that underlying all this progress is still the original autoregressive mechanism for generating text, which makes token-level decisions one by one and in a left-to-right fashion.",
+          "translated": "令人惊讶的是，所有这些进步的背后仍然是原始的自回归文本生成机制，它以从左到右的方式逐个做出令牌级决策。"
+        },
+        {
+          "quote": "Is such a simple mechanism sufficient for a LM to be built toward a general problem solver?",
+          "source": "Is such a simple mechanism sufficient for a LM to be built toward a general problem solver?",
+          "translated": "这样一个简单的机制是否足以使LM成为一个通用的问题求解器？"
+        },
+        {
+          "quote": "If not, what problems would challenge the current paradigm, and what should be alternative mechanisms?",
+          "source": "If not, what problems would challenge the current paradigm, and what should be alternative mechanisms?",
+          "translated": "如果不是，什么问题会对目前的模式构成挑战，应该有什么替代机制？"
+        }
+      ]
+    },
+    {
+      "id": "102db256-1411-4fcf-8b84-d2cab63bdfef",
+      "pageIndex": 0,
+      "bbox": {
+        "x": 0.17271963131973167,
+        "y": 0.7758745906328914,
+        "w": 0.6564925324683096,
+        "h": 0.12602834990530304
+      },
+      "kind": "text",
+      "readingOrder": 247,
+      "source": "The literature on human cognition provides some clues to answer these questions. Research on “dual process” models suggests that people have two modes in which they engage with decisions – a fast, automatic, unconscious mode (“System 1”) and a slow, deliberate, conscious mode (“System 2”) ⟪F0⟫,⟪F1⟫,⟪F2⟫,⟪F3⟫. These two modes have previously been connected to a variety of mathematical models used in machine learning. For example, research on reinforcement learning in humans and other animals has explored the circumstances under which they engage in associative “model free” learning or more deliberative “model based” planning ⟪F4⟫. The simple associative token-level choices of LMs are also reminiscent of “System 1”, and thus might benefit from augmentation by a more deliberate “System 2” planning process that (1) maintains and explores diverse alternatives for current",
+      "translated": "关于人类认知的文献为回答这些问题提供了一些线索。对“双重过程”模型的研究表明，人们有两种模式参与决策-快速，自动，无意识的模式（“系统1”）和缓慢，深思熟虑，有意识的模式（“系统2”） ⟪F0⟫ , ⟪F1⟫ , ⟪F2⟫ , ⟪F3⟫ .这两种模式之前已经与机器学习中使用的各种数学模型相关联。例如，对人类和其他动物的强化学习的研究探索了他们进行联想“无模型”学习或更深思熟虑的“基于模型”规划⟪F4⟫的情况。LM的简单关联令牌级选择也让人想起“系统1”，因此可能受益于更深思熟虑的“系统2”规划过程的增强，该过程（1）维护和探索当前系统的多种替代方案，",
+      "sentences": [
+        {
+          "quote": "The literature on human cognition provides some clues to answer these questions.",
+          "source": "The literature on human cognition provides some clues to answer these questions.",
+          "translated": "关于人类认知的文献为回答这些问题提供了一些线索。"
+        },
+        {
+          "quote": "Research on “dual process” models suggests that people have two modes in which they engage with decisions – a fast, automatic, unconscious mode (“System 1”) and a slow, deliberate, conscious mode (“System 2”) [30, 31, 16, 15].",
+          "source": "Research on “dual process” models suggests that people have two modes in which they engage with decisions – a fast, automatic, unconscious mode (“System 1”) and a slow, deliberate, conscious mode (“System 2”) ⟪F0⟫,⟪F1⟫,⟪F2⟫,⟪F3⟫.",
+          "translated": "对“双重过程”模型的研究表明，人们有两种模式参与决策-快速，自动，无意识的模式（“系统1”）和缓慢，深思熟虑，有意识的模式（“系统2”） ⟪F0⟫ , ⟪F1⟫ , ⟪F2⟫ , ⟪F3⟫ ."
+        },
+        {
+          "quote": "These two modes have previously been connected to a variety of mathematical models used in machine learning.",
+          "source": "These two modes have previously been connected to a variety of mathematical models used in machine learning.",
+          "translated": "这两种模式之前已经与机器学习中使用的各种数学模型相关联。"
+        },
+        {
+          "quote": "For example, research on reinforcement learning in humans and other animals has explored the circumstances under which they engage in associative “model free” learning or more deliberative “model based” planning [7].",
+          "source": "For example, research on reinforcement learning in humans and other animals has explored the circumstances under which they engage in associative “model free” learning or more deliberative “model based” planning ⟪F4⟫.",
+          "translated": "例如，对人类和其他动物的强化学习的研究探索了他们进行联想“无模型”学习或更深思熟虑的“基于模型”规划⟪F4⟫的情况。"
+        },
+        {
+          "quote": "The simple associative token-level choices of LMs are also reminiscent of “System 1”, and thus might benefit from augmentation by a more deliberate “System 2” planning process that (1) maintains and explores diverse alternatives for current",
+          "source": "The simple associative token-level choices of LMs are also reminiscent of “System 1”, and thus might benefit from augmentation by a more deliberate “System 2” planning process that (1) maintains and explores diverse alternatives for current",
+          "translated": "LM的简单关联令牌级选择也让人想起“系统1”，因此可能受益于更深思熟虑的“系统2”规划过程的增强，该过程（1）维护和探索当前系统的多种替代方案，"
+        }
+      ]
+    },
+    {
+      "id": "851743ab-0835-4b48-bb70-15093e49fcbe",
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.17647058823529413,
+        "y": 0.29924242424242425,
+        "w": 0.6486928104575164,
+        "h": 0.42424242424242425
+      },
+      "kind": "figure_title",
+      "readingOrder": 47,
+      "source": "Figure 1: Schematic illustrating various approaches to problem solving with LLMs. Each rectangle box represents a ⟪S0⟫thought⟪/S0⟫, which is a coherent language sequence that serves as an intermediate step toward problem solving. See concrete examples of how thoughts are generated, evaluated, and searched in Figures 2,4,6. choices instead of just picking one, and (2) evaluates its current status and actively looks ahead or backtracks to make more global decisions. To design such a planning process, we return to the origins of artificial intelligence (and cognitive science), drawing inspiration from the planning processes explored by Newell, Shaw, and Simon starting in the 1950s ⟪F0⟫,⟪F1⟫. Newell and colleagues characterized problem solving ⟪F2⟫ as search through a combinatorial problem space, represented as a tree. We thus propose the Tree of Thoughts (ToT) framework for general problem solving with language models. As Figure 1 illustrates, while existing methods (detailed below) sample continuous language sequences for problem solving, ToT actively maintains a tree of thoughts, where each ⟪S1⟫thought ⟪/S1⟫is a coherent language sequence that serves as an intermediate step toward problem solving (Table 1). Such a high-level semantic unit allows the LM to self-evaluate the progress different intermediate thoughts make towards solving the problem through a deliberate reasoning process that is also instantiated in language (Figures 2,4,6). This implementation of search heuristics via LM self-evaluation and deliberation is novel, as previous search heuristics are either programmed or learned. Finally, we combine this language-based capability to generate and evaluate diverse thoughts with search algorithms, such as breadth-first search (BFS) or depth-first search (DFS), which allow systematic exploration of the tree of thoughts with lookahead and backtracking. Empirically, we propose three new problems that challenge existing LM inference methods even with the state-of-the-art language model, GPT-4 ⟪F3⟫: Game of 24, Creative Writing, and Crosswords (Table 1). These tasks require deductive, mathematical, commonsense, lexical reasoning abilities, and a way to incorporate systematic planning or search. We show ToT obtains superior results on all three tasks by being general and flexible enough to support different levels of thoughts, different ways to generate and evaluate thoughts, and different search algorithms that adapt to the nature of different problems. We also analyze how such choices affect model performances via systematic ablations and discuss future directions to better train and use LMs.",
+      "translated": "Figure 1：图解说明使用LLM解决问题的各种方法。每个矩形框代表一个⟪S0⟫thought⟪/S0⟫，这是一个连贯的语言序列，作为解决问题的中间步骤。参见Figures 2，4，6中关于思维如何产生、评估和搜索的具体例子。选择，而不仅仅是挑选一个，（2）评估其当前状态，并积极展望未来或回溯，以做出更多的全球决策。为了设计这样一个规划过程，我们回到人工智能（和认知科学）的起源，从纽韦尔、肖和西蒙从20世纪50年代开始探索的规划过程中汲取灵感 ⟪F0⟫ , ⟪F1⟫ .纽韦尔和他的同事们将问题求解⟪F2⟫的特征描述为在一个组合问题空间中搜索，该空间用一棵树表示。因此，我们提出了思维树（ToT）框架，用于使用语言模型解决一般问题。如Figure 1所示，虽然现有方法（下文详述）对用于解决问题的连续语言序列进行采样，但ToT积极地维护思想树，其中每个⟪S1⟫思想⟪/S1⟫是作为解决问题的中间步骤（Table 1)）的连贯语言序列。这样一个高级语义单元允许LM自我评估不同的中间思想通过一个也在语言中实例化的深思熟虑的推理过程来解决问题的进展（Figures 2，4，6）。这种通过LM自我评估和审议的搜索策略的实现是新颖的，因为以前的搜索策略要么是编程的，要么是学习的。最后，我们结合联合收割机这种基于语言的能力，以产生和评估不同的想法与搜索算法，如广度优先搜索（BFS）或深度优先搜索（DFS），这允许系统的探索树的思想与前瞻和回溯。从经验上讲，我们提出了三个新的问题，挑战现有的LM推理方法，即使与国家的最先进的语言模型，GPT-4 ⟪F3⟫：游戏的24，创意写作，和填字游戏（Table 1)。这些任务需要演绎，数学，常识，词汇推理能力，以及结合系统规划或搜索的方法。我们表明，ToT获得上级的结果，在所有三个任务的一般性和灵活性，足以支持不同层次的思想，不同的方式来产生和评估的想法，以及不同的搜索算法，以适应不同的问题的性质。我们还分析了这些选择如何通过系统消融影响模型性能，并讨论了未来更好地训练和使用LM的方向。",
+      "sentences": [
+        {
+          "quote": "Figure 1: Schematic illustrating various approaches to problem solving with LLMs.",
+          "source": "Figure 1: Schematic illustrating various approaches to problem solving with LLMs.",
+          "translated": "Figure 1：图解说明使用LLM解决问题的各种方法。"
+        },
+        {
+          "quote": "Each rectangle box represents a thought, which is a coherent language sequence that serves as an intermediate step toward problem solving.",
+          "source": "Each rectangle box represents a ⟪S0⟫thought⟪/S0⟫, which is a coherent language sequence that serves as an intermediate step toward problem solving.",
+          "translated": "每个矩形框代表一个⟪S0⟫thought⟪/S0⟫，这是一个连贯的语言序列，作为解决问题的中间步骤。"
+        },
+        {
+          "quote": "See concrete examples of how thoughts are generated, evaluated, and searched in Figures 2,4,6.",
+          "source": "See concrete examples of how thoughts are generated, evaluated, and searched in Figures 2,4,6.",
+          "translated": "参见Figures 2，4，6中关于思维如何产生、评估和搜索的具体例子。"
+        },
+        {
+          "quote": "choices instead of just picking one, and (2) evaluates its current status and actively looks ahead or backtracks to make more global decisions.",
+          "source": "choices instead of just picking one, and (2) evaluates its current status and actively looks ahead or backtracks to make more global decisions.",
+          "translated": "选择，而不仅仅是挑选一个，（2）评估其当前状态，并积极展望未来或回溯，以做出更多的全球决策。"
+        },
+        {
+          "quote": "To design such a planning process, we return to the origins of artificial intelligence (and cognitive science), drawing inspiration from the planning processes explored by Newell, Shaw, and Simon starting in the 1950s [21, 22].",
+          "source": "To design such a planning process, we return to the origins of artificial intelligence (and cognitive science), drawing inspiration from the planning processes explored by Newell, Shaw, and Simon starting in the 1950s ⟪F0⟫,⟪F1⟫.",
+          "translated": "为了设计这样一个规划过程，我们回到人工智能（和认知科学）的起源，从纽韦尔、肖和西蒙从20世纪50年代开始探索的规划过程中汲取灵感 ⟪F0⟫ , ⟪F1⟫ ."
+        },
+        {
+          "quote": "Newell and colleagues characterized problem solving [21] as search through a combinatorial problem space, represented as a tree.",
+          "source": "Newell and colleagues characterized problem solving ⟪F2⟫ as search through a combinatorial problem space, represented as a tree.",
+          "translated": "纽韦尔和他的同事们将问题求解⟪F2⟫的特征描述为在一个组合问题空间中搜索，该空间用一棵树表示。"
+        },
+        {
+          "quote": "We thus propose the Tree of Thoughts (ToT) framework for general problem solving with language models.",
+          "source": "We thus propose the Tree of Thoughts (ToT) framework for general problem solving with language models.",
+          "translated": "因此，我们提出了思维树（ToT）框架，用于使用语言模型解决一般问题。"
+        },
+        {
+          "quote": "As Figure 1 illustrates, while existing methods (detailed below) sample continuous language sequences for problem solving, ToT actively maintains a tree of thoughts, where each thought is a coherent language sequence that serves as an intermediate step toward problem solving (Table 1).",
+          "source": "As Figure 1 illustrates, while existing methods (detailed below) sample continuous language sequences for problem solving, ToT actively maintains a tree of thoughts, where each ⟪S1⟫thought ⟪/S1⟫is a coherent language sequence that serves as an intermediate step toward problem solving (Table 1).",
+          "translated": "如Figure 1所示，虽然现有方法（下文详述）对用于解决问题的连续语言序列进行采样，但ToT积极地维护思想树，其中每个⟪S1⟫思想⟪/S1⟫是作为解决问题的中间步骤（Table 1)）的连贯语言序列。"
+        },
+        {
+          "quote": "Such a high-level semantic unit allows the LM to self-evaluate the progress different intermediate thoughts make towards solving the problem through a deliberate reasoning process that is also instantiated in language (Figures 2,4,6).",
+          "source": "Such a high-level semantic unit allows the LM to self-evaluate the progress different intermediate thoughts make towards solving the problem through a deliberate reasoning process that is also instantiated in language (Figures 2,4,6).",
+          "translated": "这样一个高级语义单元允许LM自我评估不同的中间思想通过一个也在语言中实例化的深思熟虑的推理过程来解决问题的进展（Figures 2，4，6）。"
+        },
+        {
+          "quote": "This implementation of search heuristics via LM self-evaluation and deliberation is novel, as previous search heuristics are either programmed or learned.",
+          "source": "This implementation of search heuristics via LM self-evaluation and deliberation is novel, as previous search heuristics are either programmed or learned.",
+          "translated": "这种通过LM自我评估和审议的搜索策略的实现是新颖的，因为以前的搜索策略要么是编程的，要么是学习的。"
+        },
+        {
+          "quote": "Finally, we combine this language-based capability to generate and evaluate diverse thoughts with search algorithms, such as breadth-first search (BFS) or depth-first search (DFS), which allow systematic exploration of the tree of thoughts with lookahead and backtracking.",
+          "source": "Finally, we combine this language-based capability to generate and evaluate diverse thoughts with search algorithms, such as breadth-first search (BFS) or depth-first search (DFS), which allow systematic exploration of the tree of thoughts with lookahead and backtracking.",
+          "translated": "最后，我们结合联合收割机这种基于语言的能力，以产生和评估不同的想法与搜索算法，如广度优先搜索（BFS）或深度优先搜索（DFS），这允许系统的探索树的思想与前瞻和回溯。"
+        },
+        {
+          "quote": "Empirically, we propose three new problems that challenge existing LM inference methods even with the state-of-the-art language model, GPT-4 [23]: Game of 24, Creative Writing, and Crosswords (Table 1).",
+          "source": "Empirically, we propose three new problems that challenge existing LM inference methods even with the state-of-the-art language model, GPT-4 ⟪F3⟫: Game of 24, Creative Writing, and Crosswords (Table 1).",
+          "translated": "从经验上讲，我们提出了三个新的问题，挑战现有的LM推理方法，即使与国家的最先进的语言模型，GPT-4 ⟪F3⟫：游戏的24，创意写作，和填字游戏（Table 1)。"
+        },
+        {
+          "quote": "These tasks require deductive, mathematical, commonsense, lexical reasoning abilities, and a way to incorporate systematic planning or search.",
+          "source": "These tasks require deductive, mathematical, commonsense, lexical reasoning abilities, and a way to incorporate systematic planning or search.",
+          "translated": "这些任务需要演绎，数学，常识，词汇推理能力，以及结合系统规划或搜索的方法。"
+        },
+        {
+          "quote": "We show ToT obtains superior results on all three tasks by being general and flexible enough to support different levels of thoughts, different ways to generate and evaluate thoughts, and different search algorithms that adapt to the nature of different problems.",
+          "source": "We show ToT obtains superior results on all three tasks by being general and flexible enough to support different levels of thoughts, different ways to generate and evaluate thoughts, and different search algorithms that adapt to the nature of different problems.",
+          "translated": "我们表明，ToT获得上级的结果，在所有三个任务的一般性和灵活性，足以支持不同层次的思想，不同的方式来产生和评估的想法，以及不同的搜索算法，以适应不同的问题的性质。"
+        },
+        {
+          "quote": "We also analyze how such choices affect model performances via systematic ablations and discuss future directions to better train and use LMs.",
+          "source": "We also analyze how such choices affect model performances via systematic ablations and discuss future directions to better train and use LMs.",
+          "translated": "我们还分析了这些选择如何通过系统消融影响模型性能，并讨论了未来更好地训练和使用LM的方向。"
+        }
+      ]
+    },
+    {
+      "id": "b1dbf962-6ee5-446f-b984-18af00f71fd3",
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.1740883845908969,
+        "y": 0.7453624840938684,
+        "w": 0.1369751200956457,
+        "h": 0.016702362985321968
+      },
+      "kind": "header",
+      "readingOrder": 121,
+      "source": "2 Background",
+      "translated": "2背景",
+      "sentences": [
+        {
+          "quote": "2 Background",
+          "source": "2 Background",
+          "translated": "2背景"
+        }
+      ]
+    },
+    {
+      "id": "6333898c-5e51-489c-88d4-44e78f6b2fff",
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.1714787202722886,
+        "y": 0.7779023912217882,
+        "w": 0.6559920466803257,
+        "h": 0.07035604149404198
+      },
+      "kind": "text",
+      "readingOrder": 143,
+      "source": "We first formalize some existing methods that use large language models for problem-solving, which our approach is inspired by and later compared with. We use ⟪F0⟫ to denote a pre-trained LM with parameters ⟪F1⟫, and ⟪S0⟫lowercase letters ⟪/S0⟫⟪F2⟫⟪S1⟫, ⟪/S1⟫⟪F3⟫⟪S2⟫, ⟪/S2⟫⟪F4⟫⟪S3⟫, ⟪/S3⟫⟪F5⟫⟪S4⟫, ⟪/S4⟫⟪F6⟫ ⟪S5⟫to denote a language sequence⟪/S5⟫, i.e. ⟪F7⟫ ⟪F8⟫⟪S6⟫, ⟪/S6⟫⟪F9⟫⟪S7⟫, ⟪/S7⟫⟪F10⟫ where each ⟪F11⟫ is a token, so that ⟪F12⟫⟪S8⟫...⟪/S8⟫⟪F13⟫. We use uppercase letters ⟪F14⟫⟪S9⟫, ⟪/S9⟫⟪F15⟫ to denote a collection of language sequences.",
+      "translated": "我们首先形式化了一些现有的方法，使用大型语言模型解决问题，我们的方法受到启发，后来进行了比较。我们使用 ⟪F0⟫ 用参数表示预先训练的LM ⟪F1⟫ , 和 ⟪S0⟫ 小写字母 ⟪/S0⟫ ⟪F2⟫ ⟪S1⟫ , ⟪/S1⟫ ⟪F3⟫ ⟪S2⟫ , ⟪/S2⟫ ⟪F4⟫ ⟪S3⟫ , ⟪/S3⟫ ⟪F5⟫ ⟪S4⟫ , ⟪/S4⟫ ⟪F6⟫ ⟪S5⟫ 表示语言序列 ⟪/S5⟫ , 即 ⟪F7⟫ ⟪F8⟫ ⟪S6⟫ , ⟪/S6⟫ ⟪F9⟫ ⟪S7⟫ , ⟪/S7⟫ ⟪F10⟫ 其中每个 ⟪F11⟫ 是一个令牌，因此， ⟪F12⟫ ⟪S8⟫ ... ⟪/S8⟫ ⟪F13⟫ .我们用字母⟪F14⟫⟪S9⟫、⟪/S9⟫⟪F15⟫表示语言序列的集合。",
+      "sentences": [
+        {
+          "quote": "We first formalize some existing methods that use large language models for problem-solving, which our approach is inspired by and later compared with.",
+          "source": "We first formalize some existing methods that use large language models for problem-solving, which our approach is inspired by and later compared with.",
+          "translated": "我们首先形式化了一些现有的方法，使用大型语言模型解决问题，我们的方法受到启发，后来进行了比较。"
+        },
+        {
+          "quote": "We use pθ to denote a pre-trained LM with parameters θ, and lowercase letters x, y, z, s, · · · to denote a language sequence, i.e. x = (x[1], · · · , x[n]) where each x[i] is a token, so that pθ(x) = Qni=1 pθ(x[i]|x[1...i]).",
+          "source": "We use ⟪F0⟫ to denote a pre-trained LM with parameters ⟪F1⟫, and ⟪S0⟫lowercase letters ⟪/S0⟫⟪F2⟫⟪S1⟫, ⟪/S1⟫⟪F3⟫⟪S2⟫, ⟪/S2⟫⟪F4⟫⟪S3⟫, ⟪/S3⟫⟪F5⟫⟪S4⟫, ⟪/S4⟫⟪F6⟫ ⟪S5⟫to denote a language sequence⟪/S5⟫, i.e. ⟪F7⟫ ⟪F8⟫⟪S6⟫, ⟪/S6⟫⟪F9⟫⟪S7⟫, ⟪/S7⟫⟪F10⟫ where each ⟪F11⟫ is a token, so that ⟪F12⟫⟪S8⟫...⟪/S8⟫⟪F13⟫.",
+          "translated": "我们使用 ⟪F0⟫ 用参数表示预先训练的LM ⟪F1⟫ , 和 ⟪S0⟫ 小写字母 ⟪/S0⟫ ⟪F2⟫ ⟪S1⟫ , ⟪/S1⟫ ⟪F3⟫ ⟪S2⟫ , ⟪/S2⟫ ⟪F4⟫ ⟪S3⟫ , ⟪/S3⟫ ⟪F5⟫ ⟪S4⟫ , ⟪/S4⟫ ⟪F6⟫ ⟪S5⟫ 表示语言序列 ⟪/S5⟫ , 即 ⟪F7⟫ ⟪F8⟫ ⟪S6⟫ , ⟪/S6⟫ ⟪F9⟫ ⟪S7⟫ , ⟪/S7⟫ ⟪F10⟫ 其中每个 ⟪F11⟫ 是一个令牌，因此， ⟪F12⟫ ⟪S8⟫ ... ⟪/S8⟫ ⟪F13⟫ ."
+        },
+        {
+          "quote": "We use uppercase letters S, · · · to denote a collection of language sequences.",
+          "source": "We use uppercase letters ⟪F14⟫⟪S9⟫, ⟪/S9⟫⟪F15⟫ to denote a collection of language sequences.",
+          "translated": "我们用字母⟪F14⟫⟪S9⟫、⟪/S9⟫⟪F15⟫表示语言序列的集合。"
+        }
+      ]
+    },
+    {
+      "id": "3f8a2d01-d098-40c1-957e-89603e5e786a",
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.17273658552980112,
+        "y": 0.8535361241812658,
+        "w": 0.6541781331978592,
+        "h": 0.06174060551807134
+      },
+      "kind": "text",
+      "readingOrder": 223,
+      "source": "⟪S0⟫Input-output (IO) prompting ⟪/S0⟫is the most common way to turn a problem input ⟪F0⟫ into output ⟪F1⟫ with LM: ⟪F2⟫prompt⟪F3⟫, where prompt⟪F4⟫ wraps input ⟪F5⟫ with task instructions and/or few-shot input-output examples. For simplicity, let us denote ⟪F6⟫output ⟪F7⟫ input⟪F8⟫ ⟪F9⟫output ⟪F10⟫ prompt⟪F11⟫input⟪F12⟫, so that IO prompting can be formulated as ⟪F13⟫.",
+      "translated": "⟪S0⟫ 输入输出提示 ⟪/S0⟫ 是将问题输入 ⟪F0⟫ 成输出 ⟪F1⟫ LM： ⟪F2⟫ 提示 ⟪F3⟫ , 在提示 ⟪F4⟫ 绕回输入 ⟪F5⟫ 带有任务指令和/或几次输入输出示例。为了简单起见，让我们表示 ⟪F6⟫ 输出 ⟪F7⟫ 输入 ⟪F8⟫ ⟪F9⟫ 输出 ⟪F10⟫ 提示 ⟪F11⟫ 输入 ⟪F12⟫ , 因此IO提示可以表述为 ⟪F13⟫ .",
+      "sentences": [
+        {
+          "quote": "Input-output (IO) prompting is the most common way to turn a problem input x into output y with LM: y ∼ pθ(y|promptIO(x)), where promptIO(x) wraps input x with task instructions and/or few-shot input-output examples.",
+          "source": "⟪S0⟫Input-output (IO) prompting ⟪/S0⟫is the most common way to turn a problem input ⟪F0⟫ into output ⟪F1⟫ with LM: ⟪F2⟫prompt⟪F3⟫, where prompt⟪F4⟫ wraps input ⟪F5⟫ with task instructions and/or few-shot input-output examples.",
+          "translated": "⟪S0⟫ 输入输出提示 ⟪/S0⟫ 是将问题输入 ⟪F0⟫ 成输出 ⟪F1⟫ LM： ⟪F2⟫ 提示 ⟪F3⟫ , 在提示 ⟪F4⟫ 绕回输入 ⟪F5⟫ 带有任务指令和/或几次输入输出示例。"
+        },
+        {
+          "quote": "For simplicity, let us denote ppθrompt(output | input) = pθ(output | prompt(input)), so that IO prompting can be formulated as y ∼ pIθO(y|x).",
+          "source": "For simplicity, let us denote ⟪F6⟫output ⟪F7⟫ input⟪F8⟫ ⟪F9⟫output ⟪F10⟫ prompt⟪F11⟫input⟪F12⟫, so that IO prompting can be formulated as ⟪F13⟫.",
+          "translated": "为了简单起见，让我们表示 ⟪F6⟫ 输出 ⟪F7⟫ 输入 ⟪F8⟫ ⟪F9⟫ 输出 ⟪F10⟫ 提示 ⟪F11⟫ 输入 ⟪F12⟫ , 因此IO提示可以表述为 ⟪F13⟫ ."
+        }
+      ]
+    },
+    {
+      "id": "4d65c8a0-2e81-4d01-953e-4cad11693264",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.17116293564341423,
+        "y": 0.09363185998165248,
+        "w": 0.6571796267640357,
+        "h": 0.22337210298788668
+      },
+      "kind": "text",
+      "readingOrder": 81,
+      "source": "⟪S0⟫Chain-of-thought (CoT) prompting ⟪/S0⟫⟪F0⟫ was proposed to address cases where the mapping of input ⟪F1⟫ to output ⟪F2⟫ is non-trivial (e.g. when ⟪F3⟫ is a math question and ⟪F4⟫ is the final numerical answer). The key idea is to introduce a chain of ⟪S1⟫thoughts ⟪/S1⟫⟪F5⟫⟪S2⟫, ⟪/S2⟫⟪F6⟫⟪S3⟫, ⟪/S3⟫⟪F7⟫ to bridge ⟪F8⟫ and ⟪F9⟫, where each ⟪F10⟫ is a coherent language sequence that serves as a meaningful intermediate step toward problem solving (e.g. ⟪F11⟫ could be an intermediate equation for math QA). To solve problems with CoT, each thought ⟪F12⟫  ⟪S4⟫, ⟪/S4⟫⟪F13⟫ is sampled sequentially, then the output ⟪F14⟫ ⟪S5⟫, ⟪/S5⟫⟪F15⟫. In practice, ⟪F16⟫⟪S6⟫, ⟪/S6⟫⟪F17⟫ ⟪S7⟫, ⟪/S7⟫⟪F18⟫ is sampled as a continuous language sequence, and the ⟪S8⟫decomposition ⟪/S8⟫of thoughts (e.g. is each ⟪F19⟫ a phrase, a sentence, or a paragraph) is left ambiguous. ⟪S9⟫Self-consistency with CoT (CoT-SC) ⟪/S9⟫⟪F20⟫ is an ensemble approach that samples ⟪F21⟫ i.i.d. chains of thought: ⟪F22⟫⟪S10⟫, ⟪/S10⟫⟪F23⟫ ⟪S11⟫, ⟪/S11⟫⟪F24⟫, then returns the most frequent output: ⟪F25⟫. CoT-SC improves upon CoT, because there are generally different thought processes for the same problem (e.g. different ways to prove the same theorem), and the output decision can be more faithful by exploring a richer set of thoughts. However, within each chain there is no local exploration of different thought steps, and the “most frequent” heuristic only applies when the output space is limited (e.g. multi-choice QA).",
+      "translated": "⟪S0⟫ 思想链提示 ⟪/S0⟫ ⟪F0⟫ 提出了解决的情况下，映射的输入 ⟪F1⟫ 以输出 ⟪F2⟫ 非平凡（例如，当 ⟪F3⟫ 是一道数学题， ⟪F4⟫ 是最终的数字答案）。关键的想法是引入一系列 ⟪S1⟫ 思想 ⟪/S1⟫ ⟪F5⟫ ⟪S2⟫ , ⟪/S2⟫ ⟪F6⟫ ⟪S3⟫ , ⟪/S3⟫ ⟪F7⟫ 弥合 ⟪F8⟫ 和 ⟪F9⟫ , 其中每个 ⟪F10⟫ 是一个连贯的语言序列，作为解决问题的有意义的中间步骤（例如， ⟪F11⟫ 可以是数学QA的中间方程）。为了解决CoT问题，每个人都认为 ⟪F12⟫ ⟪S4⟫ , ⟪/S4⟫ ⟪F13⟫ 是按顺序采样的，则输出 ⟪F14⟫ ⟪S5⟫ , ⟪/S5⟫ ⟪F15⟫ .在实际操作中， ⟪F16⟫ ⟪S6⟫ , ⟪/S6⟫ ⟪F17⟫ ⟪S7⟫ , ⟪/S7⟫ ⟪F18⟫ 被采样为连续的语言序列， ⟪S8⟫ 分解 ⟪/S8⟫ 思想（例如，每一个 ⟪F19⟫ 一个短语、一个句子或一个段落）是模糊的。⟪S9⟫与CoT（CoT-SC）的自一致性⟪/S9⟫⟪F20⟫是一种集成方法，该方法对⟪F21⟫进行i.i.d.思想的链条： ⟪F22⟫ ⟪S10⟫ , ⟪/S10⟫ ⟪F23⟫ ⟪S11⟫ , ⟪/S11⟫ ⟪F24⟫ , 然后返回最频繁的输出： ⟪F25⟫ .CoT-SC改进了CoT，因为对于同一个问题通常有不同的思维过程（例如，证明同一个定理的不同方法），并且通过探索更丰富的思维集合，输出决策可以更忠实。然而，在每个链中，没有对不同思维步骤的局部探索，并且“最频繁”启发式仅在输出空间有限时适用（例如多选择QA）。",
+      "sentences": [
+        {
+          "quote": "Chain-of-thought (CoT) prompting [38] was proposed to address cases where the mapping of input x to output y is non-trivial (e.g. when x is a math question and y is the final numerical answer).",
+          "source": "⟪S0⟫Chain-of-thought (CoT) prompting ⟪/S0⟫⟪F0⟫ was proposed to address cases where the mapping of input ⟪F1⟫ to output ⟪F2⟫ is non-trivial (e.g. when ⟪F3⟫ is a math question and ⟪F4⟫ is the final numerical answer).",
+          "translated": "⟪S0⟫ 思想链提示 ⟪/S0⟫ ⟪F0⟫ 提出了解决的情况下，映射的输入 ⟪F1⟫ 以输出 ⟪F2⟫ 非平凡（例如，当 ⟪F3⟫ 是一道数学题， ⟪F4⟫ 是最终的数字答案）。"
+        },
+        {
+          "quote": "The key idea is to introduce a chain of thoughts z1, · · · , zn to bridge x and y, where each zi is a coherent language sequence that serves as a meaningful intermediate step toward problem solving (e.g. zi could be an intermediate equation for math QA).",
+          "source": "The key idea is to introduce a chain of ⟪S1⟫thoughts ⟪/S1⟫⟪F5⟫⟪S2⟫, ⟪/S2⟫⟪F6⟫⟪S3⟫, ⟪/S3⟫⟪F7⟫ to bridge ⟪F8⟫ and ⟪F9⟫, where each ⟪F10⟫ is a coherent language sequence that serves as a meaningful intermediate step toward problem solving (e.g. ⟪F11⟫ could be an intermediate equation for math QA).",
+          "translated": "关键的想法是引入一系列 ⟪S1⟫ 思想 ⟪/S1⟫ ⟪F5⟫ ⟪S2⟫ , ⟪/S2⟫ ⟪F6⟫ ⟪S3⟫ , ⟪/S3⟫ ⟪F7⟫ 弥合 ⟪F8⟫ 和 ⟪F9⟫ , 其中每个 ⟪F10⟫ 是一个连贯的语言序列，作为解决问题的有意义的中间步骤（例如， ⟪F11⟫ 可以是数学QA的中间方程）。"
+        },
+        {
+          "quote": "To solve problems with CoT, each thought zi ∼ pCθ oT(zi | x, z1···i−1) is sampled sequentially, then the output y ∼ pCθ oT(y|x, z1···n).",
+          "source": "To solve problems with CoT, each thought ⟪F12⟫  ⟪S4⟫, ⟪/S4⟫⟪F13⟫ is sampled sequentially, then the output ⟪F14⟫ ⟪S5⟫, ⟪/S5⟫⟪F15⟫.",
+          "translated": "为了解决CoT问题，每个人都认为 ⟪F12⟫ ⟪S4⟫ , ⟪/S4⟫ ⟪F13⟫ 是按顺序采样的，则输出 ⟪F14⟫ ⟪S5⟫ , ⟪/S5⟫ ⟪F15⟫ ."
+        },
+        {
+          "quote": "In practice, [z1···n, y] ∼ pCθ oT(z1···n, y|x) is sampled as a continuous language sequence, and the decomposition of thoughts (e.g. is each zi a phrase, a sentence, or a paragraph) is left ambiguous.",
+          "source": "In practice, ⟪F16⟫⟪S6⟫, ⟪/S6⟫⟪F17⟫ ⟪S7⟫, ⟪/S7⟫⟪F18⟫ is sampled as a continuous language sequence, and the ⟪S8⟫decomposition ⟪/S8⟫of thoughts (e.g. is each ⟪F19⟫ a phrase, a sentence, or a paragraph) is left ambiguous.",
+          "translated": "在实际操作中， ⟪F16⟫ ⟪S6⟫ , ⟪/S6⟫ ⟪F17⟫ ⟪S7⟫ , ⟪/S7⟫ ⟪F18⟫ 被采样为连续的语言序列， ⟪S8⟫ 分解 ⟪/S8⟫ 思想（例如，每一个 ⟪F19⟫ 一个短语、一个句子或一个段落）是模糊的。"
+        },
+        {
+          "quote": "Self-consistency with CoT (CoT-SC) [36] is an ensemble approach that samples k i.i.d.",
+          "source": "⟪S9⟫Self-consistency with CoT (CoT-SC) ⟪/S9⟫⟪F20⟫ is an ensemble approach that samples ⟪F21⟫ i.i.d.",
+          "translated": "⟪S9⟫与CoT（CoT-SC）的自一致性⟪/S9⟫⟪F20⟫是一种集成方法，该方法对⟪F21⟫进行i.i.d."
+        },
+        {
+          "quote": "chains of thought: [z1(i·)··n, y(i)] ∼ pCθ oT(z1···n, y|x) (i = 1 · · · k), then returns the most frequent output: arg maxy #{i | y(i) = y}.",
+          "source": "chains of thought: ⟪F22⟫⟪S10⟫, ⟪/S10⟫⟪F23⟫ ⟪S11⟫, ⟪/S11⟫⟪F24⟫, then returns the most frequent output: ⟪F25⟫.",
+          "translated": "思想的链条： ⟪F22⟫ ⟪S10⟫ , ⟪/S10⟫ ⟪F23⟫ ⟪S11⟫ , ⟪/S11⟫ ⟪F24⟫ , 然后返回最频繁的输出： ⟪F25⟫ ."
+        },
+        {
+          "quote": "CoT-SC improves upon CoT, because there are generally different thought processes for the same problem (e.g. different ways to prove the same theorem), and the output decision can be more faithful by exploring a richer set of thoughts.",
+          "source": "CoT-SC improves upon CoT, because there are generally different thought processes for the same problem (e.g. different ways to prove the same theorem), and the output decision can be more faithful by exploring a richer set of thoughts.",
+          "translated": "CoT-SC改进了CoT，因为对于同一个问题通常有不同的思维过程（例如，证明同一个定理的不同方法），并且通过探索更丰富的思维集合，输出决策可以更忠实。"
+        },
+        {
+          "quote": "However, within each chain there is no local exploration of different thought steps, and the “most frequent” heuristic only applies when the output space is limited (e.g. multi-choice QA).",
+          "source": "However, within each chain there is no local exploration of different thought steps, and the “most frequent” heuristic only applies when the output space is limited (e.g. multi-choice QA).",
+          "translated": "然而，在每个链中，没有对不同思维步骤的局部探索，并且“最频繁”启发式仅在输出空间有限时适用（例如多选择QA）。"
+        }
+      ]
+    },
+    {
+      "id": "6dde84da-9331-47b6-99e4-cbebe28008d6",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.17404977636399613,
+        "y": 0.33343864209724194,
+        "w": 0.49816769867940663,
+        "h": 0.017500520956636678
+      },
+      "kind": "header",
+      "readingOrder": 165,
+      "source": "3 Tree of Thoughts: Deliberate Problem Solving with LM",
+      "translated": "第三章思想之树：用LM刻意解决问题",
+      "sentences": [
+        {
+          "quote": "3 Tree of Thoughts: Deliberate Problem Solving with LM",
+          "source": "3 Tree of Thoughts: Deliberate Problem Solving with LM",
+          "translated": "第三章思想之树：用LM刻意解决问题"
+        }
+      ]
+    },
+    {
+      "id": "41809ad1-5b6d-4a33-a072-d4316e62f1ef",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.23027026107887816,
+        "y": 0.3597088438091856,
+        "w": 0.5379372640372881,
+        "h": 0.04362191094292535
+      },
+      "kind": "text",
+      "readingOrder": 181,
+      "source": "⟪S0⟫A genuine problem-solving process ⟪/S0⟫involves the repeated use of available information to initiate exploration, which discloses, in turn, more information until a way to attain the solution is finally discovered.—— Newell et al. ⟪F0⟫",
+      "translated": "⟪S0⟫A真正的问题解决过程⟪/S0⟫涉及重复使用可用信息来启动探索，这反过来又会披露更多信息，直到最终发现获得解决方案的方法。--纽韦尔等人⟪F0⟫",
+      "sentences": [
+        {
+          "quote": "A genuine problem-solving process involves the repeated use of available information to initiate exploration, which discloses, in turn, more information until a way to attain the solution is finally discovered.—— Newell et al. [21]",
+          "source": "⟪S0⟫A genuine problem-solving process ⟪/S0⟫involves the repeated use of available information to initiate exploration, which discloses, in turn, more information until a way to attain the solution is finally discovered.—— Newell et al. ⟪F0⟫",
+          "translated": "⟪S0⟫A真正的问题解决过程⟪/S0⟫涉及重复使用可用信息来启动探索，这反过来又会披露更多信息，直到最终发现获得解决方案的方法。--纽韦尔等人⟪F0⟫"
+        }
+      ]
+    },
+    {
+      "id": "75555405-0837-494c-8333-090a95e60c18",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.17163617003197765,
+        "y": 0.40679877695411143,
+        "w": 0.6545450796488843,
+        "h": 0.1130330634839607
+      },
+      "kind": "text",
+      "readingOrder": 200,
+      "source": "Research on human problem-solving suggests that people search through a combinatorial problemspace – a tree where the nodes represent partial solutions, and the branches correspond to operators that modify them ⟪F0⟫,⟪F1⟫. Which branch to take is determined by heuristics that help to navigate the problem-space and guide the problem-solver towards a solution. This perspective highlights two key shortcomings of existing approaches that use LMs to solve general problems: 1) Locally, they do not explore ⟪S0⟫different ⟪/S0⟫continuations within a thought process – the branches of the tree. 2) Globally, they do not incorporate any type of planning, lookahead, or backtracking to help evaluate these different options – the kind of heuristic-guided search that seems characteristic of human problem-solving.",
+      "translated": "对人类解决问题的研究表明，人们在一个组合问题空间中搜索-一棵树，其中节点代表部分解决方案，分支对应于修改它们的运算符⟪F0⟫，⟪F1⟫。选择哪一个分支是由帮助导航问题空间并引导问题解决者找到解决方案的逻辑学决定的。这种观点强调了使用LM解决一般问题的现有方法的两个关键缺点：1）在局部，它们没有探索 ⟪S0⟫ 不同 ⟪/S0⟫ 在一个思想过程中的延续-树的分支。2)在全球范围内，它们不包含任何类型的规划、前瞻或回溯来帮助评估这些不同的选项--这是一种似乎是人类解决问题的特征的经验指导搜索。",
+      "sentences": [
+        {
+          "quote": "Research on human problem-solving suggests that people search through a combinatorial problemspace – a tree where the nodes represent partial solutions, and the branches correspond to operators that modify them [21, 22].",
+          "source": "Research on human problem-solving suggests that people search through a combinatorial problemspace – a tree where the nodes represent partial solutions, and the branches correspond to operators that modify them ⟪F0⟫,⟪F1⟫.",
+          "translated": "对人类解决问题的研究表明，人们在一个组合问题空间中搜索-一棵树，其中节点代表部分解决方案，分支对应于修改它们的运算符⟪F0⟫，⟪F1⟫。"
+        },
+        {
+          "quote": "Which branch to take is determined by heuristics that help to navigate the problem-space and guide the problem-solver towards a solution.",
+          "source": "Which branch to take is determined by heuristics that help to navigate the problem-space and guide the problem-solver towards a solution.",
+          "translated": "选择哪一个分支是由帮助导航问题空间并引导问题解决者找到解决方案的逻辑学决定的。"
+        },
+        {
+          "quote": "This perspective highlights two key shortcomings of existing approaches that use LMs to solve general problems: 1) Locally, they do not explore different continuations within a thought process – the branches of the tree.",
+          "source": "This perspective highlights two key shortcomings of existing approaches that use LMs to solve general problems: 1) Locally, they do not explore ⟪S0⟫different ⟪/S0⟫continuations within a thought process – the branches of the tree.",
+          "translated": "这种观点强调了使用LM解决一般问题的现有方法的两个关键缺点：1）在局部，它们没有探索 ⟪S0⟫ 不同 ⟪/S0⟫ 在一个思想过程中的延续-树的分支。"
+        },
+        {
+          "quote": "2) Globally, they do not incorporate any type of planning, lookahead, or backtracking to help evaluate these different options – the kind of heuristic-guided search that seems characteristic of human problem-solving.",
+          "source": "2) Globally, they do not incorporate any type of planning, lookahead, or backtracking to help evaluate these different options – the kind of heuristic-guided search that seems characteristic of human problem-solving.",
+          "translated": "2)在全球范围内，它们不包含任何类型的规划、前瞻或回溯来帮助评估这些不同的选项--这是一种似乎是人类解决问题的特征的经验指导搜索。"
+        }
+      ]
+    }
+  ]
+}

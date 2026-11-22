@@ -1,0 +1,71 @@
+{
+  "path": "papers/模型评测/2505.08638",
+  "id": "2505.08638",
+  "type": "arxiv",
+  "title": "TRAIL: Trace Reasoning and Agentic Issue Localization",
+  "authors": [
+    "Darshan Deshpande",
+    "Varun Gangal",
+    "Hersh Mehta",
+    "Jitin Krishnan",
+    "Anand Kannappan",
+    "Rebecca Qian"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Darshan",
+      "lastName": "Deshpande"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Varun",
+      "lastName": "Gangal"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hersh",
+      "lastName": "Mehta"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jitin",
+      "lastName": "Krishnan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Anand",
+      "lastName": "Kannappan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rebecca",
+      "lastName": "Qian"
+    }
+  ],
+  "year": 2025,
+  "date": "2025-06-23",
+  "abstract": "The increasing adoption of agentic workflows across diverse domains brings a critical need to scalably and systematically evaluate the complex traces these systems generate. Current evaluation methods depend on manual, domain-specific human analysis of lengthy workflow traces - an approach that does not scale with the growing complexity and volume of agentic outputs. Error analysis in these settings is further complicated by the interplay of external tool outputs and language model reasoning, making it more challenging than traditional software debugging. In this work, we (1) articulate the need for robust and dynamic evaluation methods for agentic workflow traces, (2) introduce a formal taxonomy of error types encountered in agentic systems, and (3) present a set of 148 large human-annotated traces (TRAIL) constructed using this taxonomy and grounded in established agentic benchmarks. To ensure ecological validity, we curate traces from both single and multi-agent systems, focusing on real-world applications such as software engineering and open-world information retrieval. Our evaluations reveal that modern long context LLMs perform poorly at trace debugging, with the best Gemini-2.5-pro model scoring a mere 11% on TRAIL. Our dataset and code are made publicly available to support and accelerate future research in scalable evaluation for agentic workflows.",
+  "tags": [
+    "@arxiv:Computer Science - Artificial Intelligence",
+    "@arxiv:Computer Science - Computation and Language"
+  ],
+  "arxiv_id": "2505.08638",
+  "doi": "10.48550/arXiv.2505.08638",
+  "pdf_url": "https://arxiv.org/pdf/2505.08638",
+  "html_url": "https://arxiv.org/html/2505.08638",
+  "source_url": "https://arxiv.org/abs/2505.08638",
+  "code_repo": "https://github.com/patronus-ai/trail-benchmark",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2505.08638",
+  "citation_count": 123,
+  "zotero_item_type": "preprint",
+  "meta_source": "translator",
+  "extra": "arXiv:2505.08638 [cs.AI]",
+  "summary": "TRAIL formalizes agent-trace debugging with an error taxonomy and 148 human-annotated traces spanning single- and multi-agent software engineering and retrieval tasks. Long-context LLMs struggle, with Gemini-2.5-Pro reaching only 11% accuracy.",
+  "status": "completed",
+  "is_read": true,
+  "added_at": "2026-11-17T14:34:46.741Z",
+  "updated_at": "2026-11-17T15:12:07.067Z"
+}

@@ -1,0 +1,18 @@
+\subsection{Fine Tuning \& Synthetic Data}
+\label{sec:syntheticdata}
+
+\donote{too long...}
+
+Once the LLM-Modulo framework ``solves'' a planning instance, the solution can then be added to a synthetic data corpus (step 6 in Figure~\ref{fig:llm-modulo}), which is intermittently used to fine tune the LLM (step 7), so its future plan candidate guesses improve. 
+
+Such fine tuning on task-specific data has been a  popular way to get LLMs to improve their performance on reasoning/planning tasks. For example, fine tune the LLM on blocks world planning problem-solution pairs to improve their performance in guessing solutions for blocks world instances
+\cite{pallagani2023understanding}. While fine tuning still doesn't guarantee correctness of the generated solutions, it might improve the chances that LLM guesses candidates that are closer to being vetted by the bank of critics. 
+
+One important question is where this additional data for fine tuning comes from. A tempting idea is to have the LLM itself generate this additional data, and improve it by self-critiquing/verification, before fine-tuning itself on the data. This EM-like approach unfortunately will not work given that LLMs can't verify their own solutions (see Section~\ref{sec:cantverify}). In the past, this meant that the only reliable way to generate synthetic data is to use external plan generators--for example, use a classical planner like FF \cite{hoffmann2001ff} to solve a host of blocks world instances and then use those solutions to fine-tune the LLM. 
+%
+The LLM-Modulo framework, in contrast, provides an alternative way of using an LLM-based framework to generate synthetic data that is guaranteed correct. 
+
+%\rao{CRITICISM: This is perhaps unnecessary cirticism as fine turning anyway doesn't guarantee that LLMs will generate correct solutions.. so it is not like finetuning with not-fully-guaranteed-correct data is going change anything big.}
+
+%\rao{Karthik/Kaya--write this self-improvement imfeasibility as a corollary of failure to verify}
+

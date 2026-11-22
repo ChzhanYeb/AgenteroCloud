@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-15T11:46:48.948Z",
+    "fingerprint": "4ae411368ac8d1ca4d08dd15272046c2f0e2a993fa123efaff785e45f1954984"
+  },
+  "citations": [
+    {
+      "id": "cite-glorot-difficulty",
+      "rawKey": "glorot-difficulty",
+      "display": "[1]",
+      "raw": "Bengio, Yoshua and Glorot, Xavier. Understanding the difficulty of training deep feedforward neural networks. In Proceedings of AISTATS 2010, volume 9, pp. 249--256, May 2010.",
+      "metadata": {
+        "title": "Understanding the difficulty of training deep feedforward neural networks",
+        "authors": [
+          "X. Glorot",
+          "Yoshua Bengio"
+        ],
+        "year": 2010,
+        "venue": "International Conference on Artificial Intelligence and Statistics",
+        "url": "https://www.semanticscholar.org/paper/ea9d2a2b4ce11aaf85136840c65f3bc9c03ab649"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dist-belief",
+      "rawKey": "dist-belief",
+      "display": "[2]",
+      "raw": "Dean, Jeffrey, Corrado, Greg S., Monga, Rajat, Chen, Kai, Devin, Matthieu, Le, Quoc V., Mao, Mark Z., Ranzato, Marc'Aurelio, Senior, Andrew, Tucker, Paul, Yang, Ke, and Ng, Andrew Y. Large scale distributed deep networks. In NIPS, 2012.",
+      "metadata": {
+        "title": "Large Scale Distributed Deep Networks",
+        "authors": [
+          "Jeffrey Dean",
+          "G. Corrado",
+          "Rajat Monga",
+          "Kai Chen",
+          "Matthieu Devin",
+          "Quoc V. Le",
+          "Mark Z. Mao",
+          "M. Ranzato",
+          "A. Senior",
+          "P. Tucker",
+          "Ke Yang",
+          "A. Ng"
+        ],
+        "year": 2012,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://www.semanticscholar.org/paper/3127190433230b3dc1abd0680bb58dced4bcd90e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-desjardins",
+      "rawKey": "desjardins",
+      "display": "[3]",
+      "raw": "Desjardins, Guillaume and Kavukcuoglu, Koray. Natural neural networks. (unpublished).",
+      "metadata": {
+        "title": "Natural Neural Networks",
+        "authors": [
+          "Guillaume Desjardins",
+          "K. Simonyan",
+          "Razvan Pascanu",
+          "K. Kavukcuoglu"
+        ],
+        "year": 2015,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1507.00210",
+        "arxivId": "1507.00210",
+        "url": "https://www.semanticscholar.org/paper/941e30afcae061a115301c65a1afe49d8856f14e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-adagrad",
+      "rawKey": "adagrad",
+      "display": "[4]",
+      "raw": "Duchi, John, Hazan, Elad, and Singer, Yoram. Adaptive subgradient methods for online learning and stochastic optimization. J. Mach. Learn. Res., 12: 2121--2159, July 2011. ISSN 1532-4435.",
+      "metadata": {
+        "title": "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization",
+        "authors": [
+          "John C. Duchi",
+          "Elad Hazan",
+          "Y. Singer"
+        ],
+        "year": 2011,
+        "venue": "Journal of machine learning research",
+        "doi": "10.5555/1953048.2021068",
+        "url": "https://www.semanticscholar.org/paper/413c1142de9d91804d6d11c67ff3fed59c9fc279"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gulcehre",
+      "rawKey": "gulcehre",
+      "display": "[5]",
+      "raw": "Gulcehre, Caglar and Bengio, Yoshua. Knowledge matters: Importance of prior information for optimization. CoRR, abs/1301.4083, 2013.",
+      "metadata": {
+        "title": "Knowledge Matters: Importance of Prior Information for Optimization",
+        "authors": [
+          "Çaglar Gülçehre",
+          "Yoshua Bengio"
+        ],
+        "year": 2013,
+        "venue": "Journal of machine learning research",
+        "doi": "10.48550/arXiv.1301.4083",
+        "arxivId": "1301.4083",
+        "url": "https://www.semanticscholar.org/paper/523b12db4004b89284387f978c2af8ae0e79d54b"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-msr",
+      "rawKey": "msr",
+      "display": "[6]",
+      "raw": "He, K., Zhang, X., Ren, S., and Sun, J. Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification. ArXiv e-prints, February 2015.",
+      "metadata": {
+        "title": "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification",
+        "authors": [
+          "Kaiming He",
+          "X. Zhang",
+          "Shaoqing Ren",
+          "Jian Sun"
+        ],
+        "year": 2015,
+        "venue": "2015 IEEE International Conference on Computer Vision (ICCV)",
+        "doi": "10.1109/ICCV.2015.123",
+        "arxivId": "1502.01852",
+        "url": "https://www.semanticscholar.org/paper/d6f2f611da110b5b5061731be3fc4c7f45d8ee23"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ica",
+      "rawKey": "ica",
+      "display": "[7]",
+      "raw": "Hyvarinen, A. and Oja, E. Independent component analysis: Algorithms and applications. Neural Netw., 13 (4-5): 411--430, May 2000.",
+      "metadata": {
+        "title": "Independent component analysis: algorithms and applications",
+        "authors": [
+          "Aapo Hyvärinen",
+          "E. Oja"
+        ],
+        "year": 2000,
+        "venue": "Neural networks : the official journal of the International Neural Network Society",
+        "doi": "10.1016/S0893-6080(00)00026-5",
+        "url": "https://www.semanticscholar.org/paper/577d19a115f9ef6f002483fcf88adbb3b5479556"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-domain-adaptation-survey",
+      "rawKey": "domain-adaptation-survey",
+      "display": "[8]",
+      "raw": "Jiang, Jing. A literature survey on domain adaptation of statistical classifiers, 2008.",
+      "metadata": {
+        "title": "A Literature Survey on Domain Adaptation of Statistical Classifiers",
+        "authors": [
+          "James J. Jiang"
+        ],
+        "year": 2007,
+        "url": "https://www.semanticscholar.org/paper/73e1644ad4aab9e11c1e46eea513141c4930602d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mnist",
+      "rawKey": "mnist",
+      "display": "[9]",
+      "raw": "LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86 (11): 2278--2324, November 1998a.",
+      "metadata": {
+        "title": "GradientBased Learning Applied to Document Recognition",
+        "authors": [
+          "S. Haykin",
+          "B. Kosko"
+        ],
+        "year": 2001,
+        "doi": "10.1109/9780470544976.CH9",
+        "url": "https://www.semanticscholar.org/paper/f42b865e20e61a954239f421b42007236e671f19"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lecun-backprop",
+      "rawKey": "lecun-backprop",
+      "display": "[10]",
+      "raw": "LeCun, Y., Bottou, L., Orr, G., and Muller, K. Efficient backprop. In Orr, G. and K., Muller (eds.), Neural Networks: Tricks of the trade. Springer, 1998b.",
+      "metadata": {
+        "title": "Efficient BackProp",
+        "authors": [
+          "Yann LeCun",
+          "L. Bottou",
+          "Genevieve B. Orr",
+          "Klaus-Robert Müller"
+        ],
+        "year": 2012,
+        "venue": "Neural Networks",
+        "doi": "10.1007/978-3-642-35289-8_3",
+        "url": "https://www.semanticscholar.org/paper/b87274e6d9aa4e6ba5148898aa92941617d2b6ed"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lyu-simoncelli",
+      "rawKey": "lyu-simoncelli",
+      "display": "[11]",
+      "raw": "Lyu, S and Simoncelli, E P. Nonlinear image representation using divisive normalization. In Proc. Computer Vision and Pattern Recognition, pp. 1--8. IEEE Computer Society, Jun 23-28 2008. 10.1109/CVPR.2008.4587821.",
+      "metadata": {
+        "title": "Nonlinear image representation using divisive normalization",
+        "authors": [
+          "Siwei Lyu",
+          "Eero P. Simoncelli"
+        ],
+        "year": 2008,
+        "venue": "2008 IEEE Conference on Computer Vision and Pattern Recognition",
+        "doi": "10.1109/CVPR.2008.4587821",
+        "url": "https://www.semanticscholar.org/paper/25d92fe0ab92ae57bd8fed87c95fa9a207ec61aa"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-relu",
+      "rawKey": "relu",
+      "display": "[12]",
+      "raw": "Nair, Vinod and Hinton, Geoffrey E. Rectified linear units improve restricted boltzmann machines. In ICML, pp. 807--814. Omnipress, 2010.",
+      "metadata": {
+        "title": "Rectified Linear Units Improve Restricted Boltzmann Machines",
+        "authors": [
+          "Vinod Nair",
+          "Geoffrey E. Hinton"
+        ],
+        "year": 2010,
+        "venue": "International Conference on Machine Learning",
+        "url": "https://www.semanticscholar.org/paper/a538b05ebb01a40323997629e171c91aa28b8e2f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pascanu-rnn",
+      "rawKey": "pascanu-rnn",
+      "display": "[13]",
+      "raw": "Pascanu, Razvan, Mikolov, Tomas, and Bengio, Yoshua. On the difficulty of training recurrent neural networks. In Proceedings of the 30th International Conference on Machine Learning, ICML 2013, Atlanta, GA, USA, 16-21 June 2013, pp. 1310--1318, 2013.",
+      "metadata": {
+        "title": "On the difficulty of training recurrent neural networks",
+        "authors": [
+          "Razvan Pascanu",
+          "Tomas Mikolov",
+          "Yoshua Bengio"
+        ],
+        "year": 2012,
+        "venue": "International Conference on Machine Learning",
+        "arxivId": "1211.5063",
+        "url": "https://www.semanticscholar.org/paper/84069287da0a6b488b8c933f3cb5be759cb6237e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-povey",
+      "rawKey": "povey",
+      "display": "[14]",
+      "raw": "Povey, Daniel, Zhang, Xiaohui, and Khudanpur, Sanjeev. Parallel training of deep neural networks with natural gradient and parameter averaging. CoRR, abs/1410.7455, 2014.",
+      "metadata": {
+        "title": "Parallel training of Deep Neural Networks with Natural Gradient and Parameter Averaging",
+        "authors": [
+          "D. Povey",
+          "Xiaohui Zhang",
+          "S. Khudanpur"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1410.7455",
+        "arxivId": "1410.7455",
+        "url": "https://www.semanticscholar.org/paper/4030a62e75313110dc4a4c78483f4459dc4526bc"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-raiko",
+      "rawKey": "raiko",
+      "display": "[15]",
+      "raw": "Raiko, Tapani, Valpola, Harri, and LeCun, Yann. Deep learning made easier by linear transformations in perceptrons. In International Conference on Artificial Intelligence and Statistics (AISTATS), pp. 924--932, 2012.",
+      "metadata": {
+        "title": "Deep Learning Made Easier by Linear Transformations in Perceptrons",
+        "authors": [
+          "T. Raiko",
+          "Harri Valpola",
+          "Yann LeCun"
+        ],
+        "year": 2012,
+        "venue": "International Conference on Artificial Intelligence and Statistics",
+        "url": "https://www.semanticscholar.org/paper/b8ef1230a5cc9ea7cd8358f1ae7d1af97813ba14"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-imagenet",
+      "rawKey": "imagenet",
+      "display": "[16]",
+      "raw": "Russakovsky, Olga, Deng, Jia, Su, Hao, Krause, Jonathan, Satheesh, Sanjeev, Ma, Sean, Huang, Zhiheng, Karpathy, Andrej, Khosla, Aditya, Bernstein, Michael, Berg, Alexander C., and Fei-Fei, Li. ImageNet Large Scale Visual Recognition Challenge, 2014.",
+      "metadata": {
+        "title": "ImageNet Large Scale Visual Recognition Challenge",
+        "authors": [
+          "O. Russakovsky",
+          "Jia Deng",
+          "Hao Su",
+          "J. Krause",
+          "S. Satheesh",
+          "Sean Ma",
+          "Zhiheng Huang",
+          "A. Karpathy",
+          "A. Khosla",
+          "Michael S. Bernstein",
+          "A. Berg",
+          "Li Fei-Fei"
+        ],
+        "year": 2014,
+        "venue": "International Journal of Computer Vision",
+        "doi": "10.1007/s11263-015-0816-y",
+        "arxivId": "1409.0575",
+        "url": "https://www.semanticscholar.org/paper/e74f9b7f8eec6ba4704c206b93bc8079af3da4bd"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-iclr-dynamics",
+      "rawKey": "iclr-dynamics",
+      "display": "[17]",
+      "raw": "Saxe, Andrew M., McClelland, James L., and Ganguli, Surya. Exact solutions to the nonlinear dynamics of learning in deep linear neural networks. CoRR, abs/1312.6120, 2013.",
+      "metadata": {
+        "title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+        "authors": [
+          "Andrew M. Saxe",
+          "James L. McClelland",
+          "S. Ganguli"
+        ],
+        "year": 2013,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1312.6120",
+        "arxivId": "1312.6120",
+        "url": "https://www.semanticscholar.org/paper/99c970348b8f70ce23d6641e201904ea49266b6e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-covariate-shift",
+      "rawKey": "covariate-shift",
+      "display": "[18]",
+      "raw": "Shimodaira, Hidetoshi. Improving predictive inference under covariate shift by weighting the log-likelihood function. Journal of Statistical Planning and Inference, 90 (2): 227--244, October 2000.",
+      "metadata": {
+        "year": 2000
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-dropout",
+      "rawKey": "dropout",
+      "display": "[19]",
+      "raw": "Srivastava, Nitish, Hinton, Geoffrey, Krizhevsky, Alex, Sutskever, Ilya, and Salakhutdinov, Ruslan. Dropout: A simple way to prevent neural networks from overfitting. J. Mach. Learn. Res., 15 (1): 1929--1958, January 2014.",
+      "metadata": {
+        "title": "Dropout: a simple way to prevent neural networks from overfitting",
+        "authors": [
+          "Nitish Srivastava",
+          "Geoffrey E. Hinton",
+          "A. Krizhevsky",
+          "I. Sutskever",
+          "R. Salakhutdinov"
+        ],
+        "year": 2014,
+        "venue": "Journal of machine learning research",
+        "doi": "10.5555/2627435.2670313",
+        "url": "https://www.semanticscholar.org/paper/34f25a8704614163c4095b3ee2fc969b60de4698"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-momentum",
+      "rawKey": "momentum",
+      "display": "[20]",
+      "raw": "Sutskever, Ilya, Martens, James, Dahl, George E., and Hinton, Geoffrey E. On the importance of initialization and momentum in deep learning. In ICML (3), volume 28 of JMLR Proceedings, pp. 1139--1147. JMLR.org, 2013.",
+      "metadata": {
+        "title": "On the importance of initialization and momentum in deep learning",
+        "authors": [
+          "I. Sutskever",
+          "James Martens",
+          "G. Dahl",
+          "Geoffrey E. Hinton"
+        ],
+        "year": 2013,
+        "venue": "International Conference on Machine Learning",
+        "url": "https://www.semanticscholar.org/paper/aa7bfd2304201afbb19971ebde87b17e40242e91"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-inception",
+      "rawKey": "inception",
+      "display": "[21]",
+      "raw": "Szegedy, Christian, Liu, Wei, Jia, Yangqing, Sermanet, Pierre, Reed, Scott, Anguelov, Dragomir, Erhan, Dumitru, Vanhoucke, Vincent, and Rabinovich, Andrew. Going deeper with convolutions. CoRR, abs/1409.4842, 2014.",
+      "metadata": {
+        "title": "Going deeper with convolutions",
+        "authors": [
+          "C. Szegedy",
+          "Wei Liu",
+          "Yang-Qing Jia",
+          "P. Sermanet",
+          "Scott E. Reed",
+          "Dragomir Anguelov",
+          "D. Erhan",
+          "Vincent Vanhoucke",
+          "A. Rabinovich"
+        ],
+        "year": 2014,
+        "venue": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "doi": "10.48550/arXiv.1409.4842",
+        "arxivId": "1409.4842",
+        "url": "https://www.semanticscholar.org/paper/e15cf50aa89fee8535703b9f9512fca5bfc43327"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-loglinear-training",
+      "rawKey": "loglinear-training",
+      "display": "[22]",
+      "raw": "Wiesler, Simon and Ney, Hermann. A convergence analysis of log-linear training. In Shawe-Taylor, J., Zemel, R.S., Bartlett, P., Pereira, F.C.N., and Weinberger, K.Q. (eds.), Advances in Neural Information Processing Systems 24, pp. 657--665, Granada, Spain, December 2011.",
+      "metadata": {
+        "title": "A Convergence Analysis of Log-Linear Training",
+        "authors": [
+          "S. Wiesler",
+          "H. Ney"
+        ],
+        "year": 2011,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://www.semanticscholar.org/paper/d530d20a4d5c09ff2e51e31e4980d1675a9be2ba"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mean-normalized-sgd",
+      "rawKey": "mean-normalized-sgd",
+      "display": "[23]",
+      "raw": "Wiesler, Simon, Richard, Alexander, Schluter, Ralf, and Ney, Hermann. Mean-normalized stochastic gradient for large-scale deep learning. In IEEE International Conference on Acoustics, Speech, and Signal Processing, pp. 180--184, Florence, Italy, May 2014.",
+      "metadata": {
+        "title": "Mean-normalized stochastic gradient for large-scale deep learning",
+        "authors": [
+          "S. Wiesler",
+          "Alexander Richard",
+          "R. Schluter",
+          "H. Ney"
+        ],
+        "year": 2014,
+        "venue": "2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "doi": "10.1109/ICASSP.2014.6853582",
+        "url": "https://www.semanticscholar.org/paper/04f16203f1e66e8d2151dc359fd0405a0f482da7"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-deepimage",
+      "rawKey": "deepimage",
+      "display": "[24]",
+      "raw": "Wu, Ren, Yan, Shengen, Shan, Yi, Dang, Qingqing, and Sun, Gang. Deep image: Scaling up image recognition, 2015.",
+      "metadata": {
+        "title": "Deep Image: Scaling up Image Recognition",
+        "authors": [
+          "Ren Wu",
+          "Shengen Yan",
+          "Shan Yi",
+          "Qing-Qing Dang",
+          "Gang Sun"
+        ],
+        "year": 2015,
+        "doi": "10.48550/arXiv.1501.02876",
+        "arxivId": "1501.02876",
+        "url": "https://www.semanticscholar.org/paper/f5ce3abf942cdd685fb0f290f3e741f7b4749f0a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 24 entries (bbl)",
+    "semantic scholar: 53 references",
+    "merged: 23 of 24 enriched online"
+  ]
+}

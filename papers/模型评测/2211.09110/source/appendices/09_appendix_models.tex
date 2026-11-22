@@ -1,0 +1,76 @@
+\section{Models}
+\label{app:models}
+
+\paragraph{J-1~(AI21 Labs).} 
+J-1 is a family of autoregressive Transformer language models trained on undisclosed data \citep{lieber2021jurassic}. 
+We evaluate \jurassiclarge, \jurassicgrande, \jurassicjumbo; note that unlike other model families, \jurassicgrande was trained and release later, with some undisclosed tweaks to the training procedure relative to \jurassiclarge and \jurassicgrande.
+The release date and model size for these models are based on \url{https://studio.ai21.com/docs/jurassic1-language-models/}.
+
+\paragraph{Anthropic-LM~(Anthropic).}
+Anthropic-LM  is a family of autoregressive Transformer language models \citep{askell2021general} that are further trained on preferences and then fine-tuned with reinforcement learning on human feedback \citep{bai2022helpful}.
+We evaluate \anthropic.
+The release date and model size for this model are based on \citet{bai2022helpful}.
+
+\paragraph{BLOOM~(BigScience).}
+BLOOM \citep{scao2022bloom} is a family of autoregressive Transformer language models trained through the community-based BigScience initiative on a curated multilingual corpus of 46 natural languages and 13 programming languages.\footnote{\url{https://huggingface.co/bigscience/bloom\#training-data}}
+We evaluate \bloom. 
+The release date is based on \url{https://twitter.com/BigScienceLLM/status/1541828788375486469} and the model size is based on \citet{scao2022bloom}.
+
+\paragraph{T0++~(BigScience).}
+\tzero is an encoder-decoder Transformer language model that is finetuned from \tfive on a multitask mixture of 55 datasets to improve zero-shot task generalization \citep{sanh2021multitask}. 
+The release date and model size for this model are based on \citet{sanh2021multitask}.
+
+\paragraph{Cohere-LM~(Cohere).}
+Cohere-LM is a family of language models trained on undisclosed data in an undisclosed fashion.
+We evaluate \coheres, \coherem, \coherel, \coherexl. 
+The release date and model size for these models are provided by the model provider, Cohere.
+
+\paragraph{GPT-J~(EleutherAI).} 
+\gptj~\citep{wang2021gptj} is an autoregressive Transformer language model trained on 400B tokens from the Pile.
+The release date and model size for this model are based on \citet{wang2021gptj}.
+
+\paragraph{GPT-NeoX~(EleutherAI).}
+\gptneox~\citep{black2022neox} is an autoregressive Transformer language model trained on the Pile.
+The release date and model size for this model are based on \citet{black2022neox}.
+
+\paragraph{T5~(Google).}
+\tfive is an encoder-decoder Transformer language model that is trained on a filtered variant of CommonCrawl (C4) \citep{raffel2019exploring}. 
+The release date and model size for this model are based on \citet{raffel2019exploring}.
+
+\paragraph{UL2~(Google).}
+\ultwo is an encoder-decoder Transformer language model (\ie the same backbone architecture as \tfive) that introduces the Mixture-of-Denoisers training objective as a universal training objective across language tasks \citep{tay2022unifying}. \ultwo is trained on the C4 corpus (also like \tfive). 
+The release date and model size for this model are based on \citet{tay2022unifying}.
+
+\paragraph{OPT~(Meta).}
+OPT is a family of autoregressive Transformer language models trained on the concatenation of the Pile \citep{gao2021thepile}, the training data for RoBERTa \citep{liu2019roberta}, and PushShift.io Reddit \citep{baumgartner2020pushshift,  roller2021recipes}, and released as the first fully open language model at this scale \citep{zhang2022opt}. 
+We evaluate \optsixsix and \optonesevenfive. 
+The release date and model size for these models are based on \citet{zhang2022opt}.
+
+\paragraph{TNLGv2~(Microsoft/NVIDIA).}
+TNLGv2~\citep{smith2022mtnlg} are a family of autoregressive Transformer language models trained on a filtered subset of the Pile \citep{gao2021thepile} and Common Crawl.
+We evaluate \mtnlgseven and \mtnlgfivethreezero.
+The release date for these models is based on \citet{smith2022mtnlg} and the model sizes are provided by the Microsoft coauthors on this paper. 
+
+\paragraph{GPT-3~(OpenAI).} GPT-3 \citep{brown2020gpt3} is a family of autoregressive Transformer language models trained on 570GB of Internet text (WebText), of which we evaluate \gptada, \gptbabbage, \gptcurie, and \gptdavinci.
+The release date and model size for these models are based on \citet{brown2020gpt3}.
+
+\paragraph{InstructGPT~(OpenAI).} 
+InstructGPT models are GPT-3 models fine-tuned with human feedback, which the authors find to produce models that are better at following English instructions compared to the original GPT-3 models \citep{ouyang2022instructions}.
+These models differ significantly from the models described in the original InstructGPT paper, which is why we generally refer to them by their API names.\footnote{See \url{https://beta.openai.com/docs/model-index-for-researchers} for more details.}
+We evaluate \instructada, \instructbabbage, \instructcurie, and \instructdavinci. 
+We have contacted the model provider, OpenAI, but have not received formal confirmation on the nature of the training procedure for these models, the appropriate release date to use, or the appropriate model sizes.
+For this reason we generally exclude this information.
+
+\paragraph{Codex~(OpenAI).} Codex models are GPT-3 models fine-tuned on source code from 54 million public GitHub repositories \citep{chen2021codex}. 
+We evaluate these models on reasoning benchmarks, including those involving code (\refsec{reasoning}).
+The release date for these models is based on \citet{chen2021codex}, though we note that these are for the Codex models, which may not quite be the OpenAI models we evaluate.
+We have contacted the model provider, OpenAI, but have not received formal confirmation on the nature of the training procedure for these models, the appropriate release date to use, or the appropriate model sizes.
+
+\paragraph{GLM~(Tsinghua University).}
+\glm \citep{zeng2022glm} is a bidirectional Transformer language model trained simultaneously on English \citep[the Pile][]{gao2021thepile}, Chinese (several undisclosed corpora) and multi-task data from \citet{sanh2021multitask} and \citet{wang2022deepstruct} (which only accounts for 5\% of tokens) to improve zero-shot generalization. \footnote{\url{http://keg.cs.tsinghua.edu.cn/glm-130b/posts/glm-130b/}} 
+The training procedure is based on GLM \citep{du2022glm}. 
+The release date is based on \url{https://keg.cs.tsinghua.edu.cn/glm-130b/posts/glm-130b/} and the model size for this model is based on \citet{zeng2022glm}.
+
+\paragraph{YaLM~(Yandex).}
+\yalm is an autoregressive Transformer language model trained on 1.7TB of undisclosed data across both English and Russian comprised of both the Pile \citep{gao2021thepile} and several Russian corpora (predominantly derived from the Yandex Search index).\footnote{\url{https://github.com/yandex/YaLM-100B}}
+The release date and model size for this model are based on \url{https://github.com/yandex/YaLM-100B}.

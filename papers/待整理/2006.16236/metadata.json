@@ -1,0 +1,26 @@
+{
+  "path": "papers/待整理/2006.16236",
+  "id": "2006.16236",
+  "type": "pdf",
+  "title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention",
+  "authors": [
+    "Angelos Katharopoulos",
+    "Apoorv Vyas",
+    "Nikolaos Pappas",
+    "François Fleuret"
+  ],
+  "year": 2020,
+  "abstract": "Transformers achieve remarkable performance in several tasks but due to their quadratic complexity, with respect to the input's length, they are prohibitively slow for very long sequences. To address this limitation, we express the self-attention as a linear dot-product of kernel feature maps and make use of the associativity property of matrix products to reduce the complexity from $\\mathcal{O}\\left(N^2\\right)$ to $\\mathcal{O}\\left(N\\right)$, where $N$ is the sequence length. We show that this formulation permits an iterative implementation that dramatically accelerates autoregressive transformers and reveals their relationship to recurrent neural networks. Our linear transformers achieve similar performance to vanilla transformers and they are up to 4000x faster on autoregressive prediction of very long sequences.",
+  "tags": [],
+  "arxiv_id": "2006.16236",
+  "code_repo": "https://github.com/idiap/fast-transformers",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 3447,
+  "meta_source": "recognize",
+  "summary": "Linear Transformers replace quadratic softmax attention with kernel feature maps and associative matrix products, reducing sequence complexity from O(N²) to O(N). Their recurrent implementation matches vanilla Transformer performance while reaching up to 4000× faster autoregressive prediction on very long sequences.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:35.113Z",
+  "updated_at": "2026-11-15T11:49:15.299Z"
+}

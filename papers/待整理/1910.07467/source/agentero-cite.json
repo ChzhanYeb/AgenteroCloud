@@ -1,0 +1,973 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-15T11:46:51.341Z",
+    "fingerprint": "d88a32af2316b073e513bba5edaaef5b73468c7a27c849f94eb91d02046fed88"
+  },
+  "citations": [
+    {
+      "id": "cite-Abadi:2016:TSL:3026877.3026899",
+      "rawKey": "Abadi:2016:TSL:3026877.3026899",
+      "display": "[1]",
+      "raw": "Martn Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Geoffrey Irving, Michael Isard, Manjunath Kudlur, Josh Levenberg, Rajat Monga, Sherry Moore, Derek G. Murray, Benoit Steiner, Paul Tucker, Vijay Vasudevan, Pete Warden, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. Tensorflow: A system for large-scale machine learning. In Proceedings of the 12th USENIX Conference on Operating Systems Design and Implementation, OSDI'16, pages 265--283, 2016. ISBN 978-1-931971-33-1.",
+      "metadata": {
+        "title": "TensorFlow: A System for Large-scale Machine Learning",
+        "authors": [
+          "Martn Abadi",
+          "Paul Barham",
+          "Jianmin Chen",
+          "Zhifeng Chen",
+          "Andy Davis",
+          "Jeffrey Dean",
+          "Matthieu Devin",
+          "Sanjay Ghemawat",
+          "Geoffrey Irving",
+          "Michael Isard",
+          "Manjunath Kudlur",
+          "Josh Levenberg",
+          "Rajat Monga",
+          "Sherry Moore",
+          "Derek G. Murray",
+          "Benoit Steiner",
+          "Paul Tucker",
+          "Vijay Vasudevan",
+          "Pete Warden",
+          "Martin Wicke",
+          "Yuan Yu",
+          "Xiaoqiang Zheng"
+        ],
+        "year": 2016,
+        "venue": "Proceedings of the 12th USENIX Conference on Operating Systems Design and Implementation"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-arpit2016normalization",
+      "rawKey": "arpit2016normalization",
+      "display": "[2]",
+      "raw": "Devansh Arpit, Yingbo Zhou, Bhargava U Kota, and Venu Govindaraju. Normalization propagation: A parametric technique for removing internal covariate shift in deep networks. arXiv preprint arXiv:1603.01431, 2016.",
+      "metadata": {
+        "title": "Normalization Propagation: A Parametric Technique for Removing Internal Covariate Shift in Deep Networks",
+        "authors": [
+          "Devansh Arpit",
+          "Yingbo Zhou",
+          "Bhargava Urala Kota",
+          "V. Govindaraju"
+        ],
+        "year": 2016,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1603.01431",
+        "arxivId": "1603.01431",
+        "url": "https://www.semanticscholar.org/paper/f0afa23165dd0c9ca4e67b3ce7a02300e8a8fde4"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ba2016layer",
+      "rawKey": "ba2016layer",
+      "display": "[3]",
+      "raw": "Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint arXiv:1607.06450, 2016.",
+      "metadata": {
+        "title": "Layer Normalization",
+        "authors": [
+          "Jimmy Ba",
+          "J. Kiros",
+          "Geoffrey E. Hinton"
+        ],
+        "year": 2016,
+        "venue": "arXiv preprint arXiv:1607.06450",
+        "doi": "10.48550/arXiv.1607.06450",
+        "arxivId": "1607.06450",
+        "url": "https://www.semanticscholar.org/paper/97fb4e3d45bb098e27e0071448b6152217bd35a5"
+      },
+      "localMatch": {
+        "paperPath": "papers/1607.06450",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bahdanau-al-2014-nmt",
+      "rawKey": "bahdanau+al-2014-nmt",
+      "display": "[4]",
+      "raw": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning to align and translate. arXiv e-prints, abs/1409.0473, September 2014.",
+      "metadata": {
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "authors": [
+          "D. Bahdanau",
+          "Kyunghyun Cho",
+          "Yoshua Bengio"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1409.0473",
+        "arxivId": "1409.0473",
+        "url": "https://www.semanticscholar.org/paper/fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5"
+      },
+      "localMatch": {
+        "paperPath": "papers/1409.0473",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-NIPS2018_7996",
+      "rawKey": "NIPS2018_7996",
+      "display": "[5]",
+      "raw": "Nils Bjorck, Carla P Gomes, Bart Selman, and Kilian Q Weinberger. Understanding batch normalization. In S. Bengio, H. Wallach, H. Larochelle, K. Grauman, N. Cesa-Bianchi, and R. Garnett, editors, Advances in Neural Information Processing Systems 31, pages 7694--7705. Curran Associates, Inc., 2018. URL http://papers.nips.cc/paper/7996-understanding-batch-normalization.pdf.",
+      "metadata": {
+        "title": "Understanding Batch Normalization",
+        "authors": [
+          "Johan Bjorck",
+          "C. Gomes",
+          "B. Selman",
+          "K. Weinberger"
+        ],
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1806.02375",
+        "arxivId": "1806.02375",
+        "url": "http://papers.nips.cc/paper/7996-understanding-batch-normalization.pdf"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-P18-1008",
+      "rawKey": "P18-1008",
+      "display": "[6]",
+      "raw": "Mia Xu Chen, Orhan Firat, Ankur Bapna, Melvin Johnson, Wolfgang Macherey, George Foster, Llion Jones, Mike Schuster, Noam Shazeer, Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Lukasz Kaiser, Zhifeng Chen, Yonghui Wu, and Macduff Hughes. The best of both worlds: Combining recent advances in neural machine translation. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 76--86. Association for Computational Linguistics, 2018.",
+      "metadata": {
+        "title": "The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation",
+        "authors": [
+          "Mia Chen",
+          "O. Firat",
+          "Ankur Bapna",
+          "Melvin Johnson",
+          "Wolfgang Macherey",
+          "George F. Foster",
+          "L. Jones",
+          "Mike Schuster",
+          "Noam Shazeer",
+          "N. Parmar",
+          "Ashish Vaswani",
+          "J. Uszkoreit",
+          "Łukasz Kaiser",
+          "Zhi-Feng Chen",
+          "Yong-Hui Wu",
+          "Macduff Hughes"
+        ],
+        "year": 2018,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P18-1008",
+        "arxivId": "1804.09849",
+        "url": "https://www.semanticscholar.org/paper/bb669de2fce407df2f5cb2f8c51dedee3f467e04"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cho2014learning",
+      "rawKey": "cho2014learning",
+      "display": "[7]",
+      "raw": "Kyunghyun Cho, Bart Van Merrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for statistical machine translation. arXiv preprint arXiv:1406.1078, 2014.",
+      "metadata": {
+        "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+        "authors": [
+          "Kyunghyun Cho",
+          "Bart van Merriënboer",
+          "Çaglar Gülçehre",
+          "D. Bahdanau",
+          "F. Bougares",
+          "Holger Schwenk",
+          "Yoshua Bengio"
+        ],
+        "year": 2014,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.3115/v1/D14-1179",
+        "arxivId": "1406.1078",
+        "url": "https://www.semanticscholar.org/paper/0b544dfe355a5070b60986319a3f51fb45d1348e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cooijmans2016recurrent",
+      "rawKey": "cooijmans2016recurrent",
+      "display": "[8]",
+      "raw": "Tim Cooijmans, Nicolas Ballas, Cesar Laurent, Caglar Gulcehre, and Aaron Courville. Recurrent batch normalization. arXiv preprint arXiv:1603.09025, 2016.",
+      "metadata": {
+        "title": "Recurrent Batch Normalization",
+        "authors": [
+          "Tim Cooijmans",
+          "Nicolas Ballas",
+          "César Laurent",
+          "Çaglar Gülçehre",
+          "Aaron C. Courville"
+        ],
+        "year": 2016,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1603.09025",
+        "arxivId": "1603.09025",
+        "url": "https://www.semanticscholar.org/paper/952454718139dba3aafc6b3b67c4f514ac3964af"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hermann2015teaching",
+      "rawKey": "hermann2015teaching",
+      "display": "[9]",
+      "raw": "Karl Moritz Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom. Teaching machines to read and comprehend. In Advances in Neural Information Processing Systems, pages 1693--1701, 2015.",
+      "metadata": {
+        "title": "Teaching Machines to Read and Comprehend",
+        "authors": [
+          "K. Hermann",
+          "Tomás Kociský",
+          "Edward Grefenstette",
+          "L. Espeholt",
+          "W. Kay",
+          "M. Suleyman",
+          "P. Blunsom"
+        ],
+        "year": 2015,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1506.03340",
+        "arxivId": "1506.03340",
+        "url": "https://www.semanticscholar.org/paper/d1505c6123c102e53eb19dff312cb25cea840b72"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hoffer2018norm",
+      "rawKey": "hoffer2018norm",
+      "display": "[10]",
+      "raw": "Elad Hoffer, Ron Banner, Itay Golan, and Daniel Soudry. Norm matters: efficient and accurate normalization schemes in deep networks. arXiv preprint arXiv:1803.01814, 2018.",
+      "metadata": {
+        "title": "Norm matters: efficient and accurate normalization schemes in deep networks",
+        "authors": [
+          "Elad Hoffer",
+          "Ron Banner",
+          "Itay Golan",
+          "Daniel Soudry"
+        ],
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1803.01814",
+        "arxivId": "1803.01814",
+        "url": "https://www.semanticscholar.org/paper/48f0b0ab8ccdca861e374f26c3e54e1720cfb22e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ioffe2017batch",
+      "rawKey": "ioffe2017batch",
+      "display": "[11]",
+      "raw": "Sergey Ioffe. Batch renormalization: Towards reducing minibatch dependence in batch-normalized models. In Advances in Neural Information Processing Systems, pages 1945--1953, 2017.",
+      "metadata": {
+        "title": "Batch Renormalization: Towards Reducing Minibatch Dependence in Batch-Normalized Models",
+        "authors": [
+          "S. Ioffe"
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1702.03275",
+        "arxivId": "1702.03275",
+        "url": "https://www.semanticscholar.org/paper/af1765c5fa55a13f33bbca91a73c9e93d77b6056"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Ioffe:2015:BNA:3045118.3045167",
+      "rawKey": "Ioffe:2015:BNA:3045118.3045167",
+      "display": "[12]",
+      "raw": "Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In Proceedings of the 32Nd International Conference on International Conference on Machine Learning - Volume 37, ICML'15, pages 448--456, 2015.",
+      "metadata": {
+        "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+        "authors": [
+          "S. Ioffe",
+          "C. Szegedy"
+        ],
+        "year": 2015,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1502.03167",
+        "arxivId": "1502.03167",
+        "url": "https://www.semanticscholar.org/paper/995c5f5e62614fcb4d2796ad2faab969da51713e"
+      },
+      "localMatch": {
+        "paperPath": "papers/1502.03167",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kingma2014adam",
+      "rawKey": "kingma2014adam",
+      "display": "[13]",
+      "raw": "Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014.",
+      "metadata": {
+        "title": "Adam: A Method for Stochastic Optimization",
+        "authors": [
+          "Diederik P. Kingma",
+          "Jimmy Ba"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1412.6980",
+        "arxivId": "1412.6980",
+        "url": "https://www.semanticscholar.org/paper/cf5cf758f1b00214d70e34f8a57813557dc03e17"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:journals-corr-KirosSZ14",
+      "rawKey": "DBLP:journals/corr/KirosSZ14",
+      "display": "[14]",
+      "raw": "Ryan Kiros, Ruslan Salakhutdinov, and Richard S. Zemel. Unifying visual-semantic embeddings with multimodal neural language models. CoRR, abs/1411.2539, 2014.",
+      "metadata": {
+        "title": "Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models",
+        "authors": [
+          "R. Kiros",
+          "R. Salakhutdinov",
+          "R. Zemel"
+        ],
+        "year": 2014,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.1411.2539",
+        "arxivId": "1411.2539",
+        "url": "https://www.semanticscholar.org/paper/2e36ea91a3c8fbff92be2989325531b4002e2afc"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-krizhevsky2009learning",
+      "rawKey": "krizhevsky2009learning",
+      "display": "[15]",
+      "raw": "A. Krizhevsky and G. Hinton. Learning multiple layers of features from tiny images. Master's thesis, Department of Computer Science, University of Toronto, 2009.",
+      "metadata": {
+        "title": "Learning Multiple Layers of Features from Tiny Images",
+        "authors": [
+          "A. Krizhevsky"
+        ],
+        "year": 2009,
+        "venue": "Master's thesis, Department of Computer Science, University of Toronto",
+        "url": "https://www.semanticscholar.org/paper/5d90f06bb70a0a3dced62413346235c02b1aa086"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-laurent2016batch",
+      "rawKey": "laurent2016batch",
+      "display": "[16]",
+      "raw": "Cesar Laurent, Gabriel Pereyra, Philemon Brakel, Ying Zhang, and Yoshua Bengio. Batch normalized recurrent neural networks. In 2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 2657--2661. IEEE, 2016.",
+      "metadata": {
+        "title": "Batch normalized recurrent neural networks",
+        "authors": [
+          "César Laurent",
+          "Gabriel Pereyra",
+          "Philémon Brakel",
+          "Y. Zhang",
+          "Yoshua Bengio"
+        ],
+        "year": 2015,
+        "venue": "2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "doi": "10.1109/ICASSP.2016.7472159",
+        "arxivId": "1510.01378",
+        "url": "https://www.semanticscholar.org/paper/f95adc1d8daaa07a0c956826ec274ca9e2515ddc"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lin2014microsoft",
+      "rawKey": "lin2014microsoft",
+      "display": "[17]",
+      "raw": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence Zitnick. Microsoft coco: Common objects in context. In European conference on computer vision, pages 740--755. Springer, 2014.",
+      "metadata": {
+        "title": "Microsoft COCO: Common Objects in Context",
+        "authors": [
+          "Tsung-Yi Lin",
+          "M. Maire",
+          "Serge J. Belongie",
+          "L. Bourdev",
+          "Ross B. Girshick",
+          "James Hays",
+          "P. Perona",
+          "D. Ramanan",
+          "C. Zitnick",
+          "Piotr Dollár"
+        ],
+        "year": 2014,
+        "venue": "European Conference on Computer Vision",
+        "doi": "10.48550/arXiv.1405.0312",
+        "arxivId": "1405.0312",
+        "url": "https://www.semanticscholar.org/paper/71b7178df5d2b112d07e45038cb5637208659ff7"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-nguyen2017improving",
+      "rawKey": "nguyen2017improving",
+      "display": "[18]",
+      "raw": "Toan Q Nguyen and David Chiang. Improving lexical choice in neural machine translation. arXiv preprint arXiv:1710.01329, 2017.",
+      "metadata": {
+        "title": "Improving Lexical Choice in Neural Machine Translation",
+        "authors": [
+          "Toan Q. Nguyen",
+          "David Chiang"
+        ],
+        "year": 2017,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/N18-1031",
+        "arxivId": "1710.01329",
+        "url": "https://www.semanticscholar.org/paper/3acf8313546def523da334cb3324806ac229769f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-parmar2018image",
+      "rawKey": "parmar2018image",
+      "display": "[19]",
+      "raw": "Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Lukasz Kaiser, Noam Shazeer, and Alexander Ku. Image transformer. arXiv preprint arXiv:1802.05751, 2018.",
+      "metadata": {
+        "title": "Image Transformer",
+        "authors": [
+          "N. Parmar",
+          "Ashish Vaswani",
+          "J. Uszkoreit",
+          "Lukasz Kaiser",
+          "Noam Shazeer",
+          "Alexander Ku",
+          "Dustin Tran"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1802.05751",
+        "arxivId": "1802.05751",
+        "url": "https://www.semanticscholar.org/paper/1db9bd18681b96473f3c82b21edc9240b44dc329"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-paszke2017automatic",
+      "rawKey": "paszke2017automatic",
+      "display": "[20]",
+      "raw": "Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. Automatic differentiation in pytorch. In NIPS-W, 2017.",
+      "metadata": {
+        "title": "Automatic differentiation in PyTorch",
+        "authors": [
+          "Adam Paszke",
+          "Sam Gross",
+          "Soumith Chintala",
+          "Gregory Chanan",
+          "Edward Yang",
+          "Zachary DeVito",
+          "Zeming Lin",
+          "Alban Desmaison",
+          "Luca Antiga",
+          "Adam Lerer"
+        ],
+        "year": 2017,
+        "venue": "NIPS-W"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-post2018call",
+      "rawKey": "post2018call",
+      "display": "[21]",
+      "raw": "Matt Post. A call for clarity in reporting bleu scores. arXiv preprint arXiv:1804.08771, 2018.",
+      "metadata": {
+        "title": "A Call for Clarity in Reporting BLEU Scores",
+        "authors": [
+          "Matt Post"
+        ],
+        "year": 2018,
+        "venue": "Conference on Machine Translation",
+        "doi": "10.18653/v1/W18-6319",
+        "arxivId": "1804.08771",
+        "url": "https://www.semanticscholar.org/paper/b4bfadfca9742bb3ee98a0cd322d5ce4e59a3ceb"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-NIPS2016_6114",
+      "rawKey": "NIPS2016_6114",
+      "display": "[22]",
+      "raw": "Tim Salimans and Durk P Kingma. Weight normalization: A simple reparameterization to accelerate training of deep neural networks. In Advances in Neural Information Processing Systems 29, pages 901--909. 2016.",
+      "metadata": {
+        "title": "Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks",
+        "authors": [
+          "T. Salimans",
+          "Diederik P. Kingma"
+        ],
+        "year": 2016,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1602.07868",
+        "arxivId": "1602.07868",
+        "url": "https://www.semanticscholar.org/paper/3d2c6941a9b4608ba52b328369a3352db2092ae0"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-santurkar2018does",
+      "rawKey": "santurkar2018does",
+      "display": "[23]",
+      "raw": "Shibani Santurkar, Dimitris Tsipras, Andrew Ilyas, and Aleksander Madry. How does batch normalization help optimization? In Advances in Neural Information Processing Systems 31, pages 2488--2498. 2018.",
+      "metadata": {
+        "title": "How Does Batch Normalization Help Optimization? (No, It Is Not About Internal Covariate Shift)",
+        "authors": [
+          "Shibani Santurkar",
+          "Dimitris Tsipras",
+          "Andrew Ilyas",
+          "A. Ma̧dry"
+        ],
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1805.11604",
+        "arxivId": "1805.11604",
+        "url": "https://www.semanticscholar.org/paper/94be567c32ae76bdaadabd4975807a94181e39b3"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sennrich2015neural",
+      "rawKey": "sennrich2015neural",
+      "display": "[24]",
+      "raw": "Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words with subword units. arXiv preprint arXiv:1508.07909, 2015.",
+      "metadata": {
+        "title": "Neural Machine Translation of Rare Words with Subword Units",
+        "authors": [
+          "Rico Sennrich",
+          "B. Haddow",
+          "Alexandra Birch"
+        ],
+        "year": 2015,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P16-1162",
+        "arxivId": "1508.07909",
+        "url": "https://www.semanticscholar.org/paper/1518039b5001f1836565215eb047526b3ac7f462"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sennrich2017nematus",
+      "rawKey": "sennrich2017nematus",
+      "display": "[25]",
+      "raw": "Rico Sennrich, Orhan Firat, Kyunghyun Cho, Alexandra Birch, Barry Haddow, Julian Hitschler, Marcin Junczys-Dowmunt, Samuel Laubli, Antonio Valerio Miceli Barone, Jozef Mokry, and Maria Nadejde. Nematus: a Toolkit for Neural Machine Translation. In Proceedings of the Software Demonstrations of the 15th Conference of the European Chapter of the Association for Computational Linguistics, pages 65--68, Valencia, Spain, April 2017.",
+      "metadata": {
+        "title": "Nematus: a Toolkit for Neural Machine Translation",
+        "authors": [
+          "Rico Sennrich",
+          "O. Firat",
+          "Kyunghyun Cho",
+          "Alexandra Birch",
+          "B. Haddow",
+          "Julian Hitschler",
+          "Marcin Junczys-Dowmunt",
+          "Samuel Läubli",
+          "Antonio Valerio Miceli Barone",
+          "Jozef Mokry",
+          "Maria Nadejde"
+        ],
+        "year": 2017,
+        "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.1703.04357",
+        "arxivId": "1703.04357",
+        "url": "https://www.semanticscholar.org/paper/100104b980d56a40cadfbd7034fa7807ce49b3fb"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sharma2018conceptual",
+      "rawKey": "sharma2018conceptual",
+      "display": "[26]",
+      "raw": "Piyush Sharma, Nan Ding, Sebastian Goodman, and Radu Soricut. Conceptual captions: A cleaned, hypernymed, image alt-text dataset for automatic image captioning. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 2556--2565, 2018.",
+      "metadata": {
+        "title": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning",
+        "authors": [
+          "Piyush Sharma",
+          "Nan Ding",
+          "Sebastian Goodman",
+          "Radu Soricut"
+        ],
+        "year": 2018,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P18-1238",
+        "url": "https://www.semanticscholar.org/paper/b4df354db88a70183a64dbc9e56cf14e7669a6c0"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-CIS-166708",
+      "rawKey": "CIS-166708",
+      "display": "[27]",
+      "raw": "Hidetoshi Shimodaira. Improving predictive inference under covariate shift by weighting the log-likelihood function. Journal of Statistical Planning and Inference, 90 (2): 227--244, 2000.",
+      "metadata": {
+        "title": "Improving predictive inference under covariate shift by weighting the log-likelihood function",
+        "authors": [
+          "Hidetoshi Shimodaira"
+        ],
+        "year": 2000,
+        "venue": "Journal of Statistical Planning and Inference"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-simonyan2014very",
+      "rawKey": "simonyan2014very",
+      "display": "[28]",
+      "raw": "Karen Simonyan and Andrew Zisserman. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556, 2014.",
+      "metadata": {
+        "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+        "authors": [
+          "K. Simonyan",
+          "Andrew Zisserman"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1409.1556",
+        "arxivId": "1409.1556",
+        "url": "https://www.semanticscholar.org/paper/eb42cf88027de515750f230b23b1a057dc782108"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-2016arXiv160502688short",
+      "rawKey": "2016arXiv160502688short",
+      "display": "[29]",
+      "raw": "Theano Development Team. Theano: A Python framework for fast computation of mathematical expressions. arXiv e-prints, May 2016.",
+      "metadata": {
+        "title": "Theano: A Python framework for fast computation of mathematical expressions",
+        "authors": [
+          "Rami Al-Rfou",
+          "Guillaume Alain",
+          "Amjad Almahairi",
+          "Christof Angermueller",
+          "D. Bahdanau",
+          "Nicolas Ballas",
+          "Frédéric Bastien",
+          "Justin Bayer",
+          "A. Belikov",
+          "A. Belopolsky",
+          "Yoshua Bengio",
+          "Arnaud Bergeron",
+          "J. Bergstra",
+          "V. Bisson",
+          "Josh Bleecher Snyder",
+          "Nicolas Bouchard",
+          "Nicolas Boulanger-Lewandowski",
+          "Xavier Bouthillier",
+          "Alexandre de Brébisson",
+          "Olivier Breuleux",
+          "P. Carrier",
+          "Kyunghyun Cho",
+          "J. Chorowski",
+          "Paul F. Christiano",
+          "Tim Cooijmans",
+          "Marc-Alexandre Côté",
+          "Myriam Côté",
+          "Aaron C. Courville",
+          "Y. Dauphin",
+          "Olivier Delalleau",
+          "Julien Demouth",
+          "Guillaume Desjardins",
+          "S. Dieleman",
+          "Laurent Dinh",
+          "Mélanie Ducoffe",
+          "V. Dumoulin",
+          "Samira Ebrahimi Kahou",
+          "D. Erhan",
+          "Zi-Ye Fan",
+          "O. Firat",
+          "M. Germain",
+          "X. Glorot",
+          "I. Goodfellow",
+          "M. Graham",
+          "Çaglar Gülçehre",
+          "P. Hamel",
+          "Iban Harlouchet",
+          "Jean-Philippe Heng",
+          "Balázs Hidasi",
+          "S. Honari",
+          "Arjun Jain",
+          "Sébastien Jean",
+          "Kai Jia",
+          "Mikhail Korobov",
+          "Vivek Kulkarni",
+          "Alex Lamb",
+          "P. Lamblin",
+          "Eric Larsen",
+          "César Laurent",
+          "S. Lee",
+          "S. Lefrançois",
+          "S. Lemieux",
+          "Nicholas Léonard",
+          "Zhouhan Lin",
+          "J. Livezey",
+          "C. Lorenz",
+          "J. Lowin",
+          "Qianli Ma",
+          "Pierre-Antoine Manzagol",
+          "Olivier Mastropietro",
+          "R. McGibbon",
+          "Roland Memisevic",
+          "Bart van Merriënboer",
+          "Vincent Michalski",
+          "Mehdi Mirza",
+          "A. Orlandi",
+          "C. Pal",
+          "Razvan Pascanu",
+          "M. Pezeshki",
+          "Colin A. Raffel",
+          "D. Renshaw",
+          "M. Rocklin",
+          "Adriana Romero",
+          "Markus Roth",
+          "Peter Sadowski",
+          "John Salvatier",
+          "François Savard",
+          "Jan Schlüter",
+          "John D. Schulman",
+          "Gabriel Schwartz",
+          "I. Serban",
+          "Dmitriy Serdyuk",
+          "S. Shabanian",
+          "Étienne Simon",
+          "Sigurd Spieckermann",
+          "S. Subramanyam",
+          "Jakub Sygnowski",
+          "Jérémie Tanguay",
+          "Gijs van Tulder",
+          "Joseph P. Turian",
+          "Sebastian Urban",
+          "Pascal Vincent",
+          "Francesco Visin",
+          "Harm de Vries",
+          "David Warde-Farley",
+          "Dustin J. Webb",
+          "M. Willson",
+          "Kelvin Xu",
+          "Li-Jun Xue",
+          "Li Yao",
+          "Sai-Zheng Zhang",
+          "Ying Zhang"
+        ],
+        "year": 2016,
+        "venue": "arXiv e-prints",
+        "doi": "10.48550/arXiv.1605.02688",
+        "arxivId": "1605.02688",
+        "url": "https://www.semanticscholar.org/paper/6b570069f14c7588e066f7138e1f21af59d62e61"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-DBLP:journals-corr-UlyanovVL16",
+      "rawKey": "DBLP:journals/corr/UlyanovVL16",
+      "display": "[30]",
+      "raw": "Dmitry Ulyanov, Andrea Vedaldi, and Victor S. Lempitsky. Instance normalization: The missing ingredient for fast stylization. CoRR, 2016.",
+      "metadata": {
+        "title": "Instance Normalization: The Missing Ingredient for Fast Stylization",
+        "authors": [
+          "D. Ulyanov",
+          "A. Vedaldi",
+          "V. Lempitsky"
+        ],
+        "year": 2016,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.1607.08022",
+        "arxivId": "1607.08022",
+        "url": "https://www.semanticscholar.org/paper/63de0ad39d807f0c256f851428f211e8d5fcd3bb"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-NIPS2017_7181",
+      "rawKey": "NIPS2017_7181",
+      "display": "[31]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in Neural Information Processing Systems 30, pages 5998--6008. 2017.",
+      "metadata": {
+        "title": "Attention is All you Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "N. Parmar",
+          "J. Uszkoreit",
+          "L. Jones",
+          "Aidan N. Gomez",
+          "Lukasz Kaiser",
+          "I. Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1706.03762",
+        "arxivId": "1706.03762",
+        "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vendrov2015order",
+      "rawKey": "vendrov2015order",
+      "display": "[32]",
+      "raw": "Ivan Vendrov, Ryan Kiros, Sanja Fidler, and Raquel Urtasun. Order-embeddings of images and language. arXiv preprint arXiv:1511.06361, 2015.",
+      "metadata": {
+        "title": "Order-Embeddings of Images and Language",
+        "authors": [
+          "Ivan Vendrov",
+          "R. Kiros",
+          "S. Fidler",
+          "R. Urtasun"
+        ],
+        "year": 2015,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1511.06361",
+        "arxivId": "1511.06361",
+        "url": "https://www.semanticscholar.org/paper/46b8cbcdff87b842c2c1d4a003c831f845096ba7"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2018l1",
+      "rawKey": "wu2018l1",
+      "display": "[33]",
+      "raw": "Shuang Wu, Guoqi Li, Lei Deng, Liu Liu, Dong Wu, Yuan Xie, and Luping Shi. L1-norm batch normalization for efficient training of deep neural networks. IEEE transactions on neural networks and learning systems, 2018.",
+      "metadata": {
+        "title": "$L1$ -Norm Batch Normalization for Efficient Training of Deep Neural Networks",
+        "authors": [
+          "Shuang Wu",
+          "Guo-Qi Li",
+          "Lei Deng",
+          "Liu Liu",
+          "Dong Wu",
+          "Yuan Xie",
+          "Lu-Ping Shi"
+        ],
+        "year": 2018,
+        "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+        "doi": "10.1109/TNNLS.2018.2876179",
+        "arxivId": "1802.09769",
+        "url": "https://www.semanticscholar.org/paper/5877c99c73ee5fcb30438083b075bb87b29e2a19"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2018group",
+      "rawKey": "wu2018group",
+      "display": "[34]",
+      "raw": "Yuxin Wu and Kaiming He. Group normalization. In Proceedings of the European Conference on Computer Vision (ECCV), pages 3--19, 2018.",
+      "metadata": {
+        "title": "Group Normalization",
+        "authors": [
+          "Yuxin Wu",
+          "Kaiming He"
+        ],
+        "year": 2018,
+        "venue": "International Journal of Computer Vision",
+        "doi": "10.1007/s11263-019-01198-w",
+        "arxivId": "1803.08494",
+        "url": "https://www.semanticscholar.org/paper/d08b35243edc5be07387a9ed218070b31e502901"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhang2019lightweight",
+      "rawKey": "zhang2019lightweight",
+      "display": "[35]",
+      "raw": "Biao Zhang and Rico Sennrich. A lightweight recurrent network for sequence modeling. arXiv preprint arXiv:1905.13324, 2019.",
+      "metadata": {
+        "title": "A Lightweight Recurrent Network for Sequence Modeling",
+        "authors": [
+          "Biao Zhang",
+          "R. Sennrich"
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P19-1149",
+        "arxivId": "1905.13324",
+        "url": "https://www.semanticscholar.org/paper/60396a7643fd25fba52d73028bc563f5ad651bb6"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhang2018residual",
+      "rawKey": "zhang2018residual",
+      "display": "[36]",
+      "raw": "Hongyi Zhang, Yann N. Dauphin, and Tengyu Ma. Residual learning without normalization via better initialization. In International Conference on Learning Representations, 2019.",
+      "metadata": {
+        "title": "Residual learning without normalization via better initialization",
+        "authors": [
+          "Hongyi Zhang",
+          "Yann N. Dauphin",
+          "Tengyu Ma"
+        ],
+        "year": 2019,
+        "venue": "In International Conference on Learning Representations,"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhou2018syllable",
+      "rawKey": "zhou2018syllable",
+      "display": "[37]",
+      "raw": "Shiyu Zhou, Linhao Dong, Shuang Xu, and Bo Xu. Syllable-based sequence-to-sequence speech recognition with the transformer in mandarin chinese. arXiv preprint arXiv:1804.10752, 2018.",
+      "metadata": {
+        "title": "Syllable-Based Sequence-to-Sequence Speech Recognition with the Transformer in Mandarin Chinese",
+        "authors": [
+          "Shiyu Zhou",
+          "Linhao Dong",
+          "Shuang Xu",
+          "Bo Xu"
+        ],
+        "year": 2018,
+        "venue": "Interspeech",
+        "doi": "10.48550/arXiv.1804.10752",
+        "arxivId": "1804.10752",
+        "url": "https://www.semanticscholar.org/paper/53dcd6068586d50169877d145df550ff3f568221"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 37 entries (bbl)",
+    "semantic scholar: 38 references",
+    "merged: 34 of 37 enriched online"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "path": "papers/待整理/2001.08361",
+  "id": "2001.08361",
+  "type": "pdf",
+  "title": "Scaling Laws for Neural Language Models",
+  "authors": [
+    "Jared Kaplan",
+    "Sam McCandlish",
+    "Tom Henighan",
+    "Tom B. Brown",
+    "Benjamin Chess",
+    "Rewon Child",
+    "Scott Gray",
+    "Alec Radford",
+    "Jeffrey Wu",
+    "Dario Amodei"
+  ],
+  "year": 2020,
+  "abstract": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence.",
+  "tags": [],
+  "arxiv_id": "2001.08361",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 9657,
+  "meta_source": "recognize",
+  "summary": "Language-model loss follows power laws in model size, dataset size, and training compute across more than seven orders of magnitude, while width and depth matter little within broad ranges. Compute-optimal training favors larger models, modest data, and early stopping.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:34.120Z",
+  "updated_at": "2026-11-15T11:49:14.910Z"
+}

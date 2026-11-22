@@ -1,0 +1,208 @@
+{
+  "path": "papers/可解释性/2601.14004",
+  "id": "2601.14004",
+  "type": "arxiv",
+  "title": "Locate, Steer, and Improve: A Practical Survey of Actionable Mechanistic Interpretability in Large Language Models",
+  "authors": [
+    "Hengyuan Zhang",
+    "Zhihao Zhang",
+    "Mingyang Wang",
+    "Zunhai Su",
+    "Yiwei Wang",
+    "Qianli Wang",
+    "Shuzhou Yuan",
+    "Ercong Nie",
+    "Xufeng Duan",
+    "Feijiang Han",
+    "Qibo Xue",
+    "Zeping Yu",
+    "Chenming Shang",
+    "Xiao Liang",
+    "Jing Xiong",
+    "Hui Shen",
+    "Chaofan Tao",
+    "Zhengwu Liu",
+    "Senjie Jin",
+    "Zhiheng Xi",
+    "Dongdong Zhang",
+    "Sophia Ananiadou",
+    "Tao Gui",
+    "Ruobing Xie",
+    "Hayden Kwok-Hay So",
+    "Hinrich Schütze",
+    "Xuanjing Huang",
+    "Qi Zhang",
+    "Ngai Wong"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Hengyuan",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Zhihao",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mingyang",
+      "lastName": "Wang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Zunhai",
+      "lastName": "Su"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yiwei",
+      "lastName": "Wang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Qianli",
+      "lastName": "Wang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Shuzhou",
+      "lastName": "Yuan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ercong",
+      "lastName": "Nie"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Xufeng",
+      "lastName": "Duan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Feijiang",
+      "lastName": "Han"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Qibo",
+      "lastName": "Xue"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Zeping",
+      "lastName": "Yu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Chenming",
+      "lastName": "Shang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Xiao",
+      "lastName": "Liang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jing",
+      "lastName": "Xiong"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hui",
+      "lastName": "Shen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Chaofan",
+      "lastName": "Tao"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Zhengwu",
+      "lastName": "Liu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Senjie",
+      "lastName": "Jin"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Zhiheng",
+      "lastName": "Xi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dongdong",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sophia",
+      "lastName": "Ananiadou"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tao",
+      "lastName": "Gui"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ruobing",
+      "lastName": "Xie"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hayden Kwok-Hay",
+      "lastName": "So"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hinrich",
+      "lastName": "Schütze"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Xuanjing",
+      "lastName": "Huang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Qi",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ngai",
+      "lastName": "Wong"
+    }
+  ],
+  "year": 2026,
+  "date": "2026-04-14",
+  "abstract": "Mechanistic Interpretability (MI) has emerged as a vital approach to demystify the opaque decision-making of Large Language Models (LLMs). However, existing reviews primarily treat MI as an observational science, summarizing analytical insights while lacking a systematic framework for actionable intervention. To bridge this gap, we present a practical survey structured around the pipeline: \"Locate, Steer, and Improve.\" We formally categorize Localizing (diagnosis) and Steering (intervention) methods based on specific Interpretable Objects to establish a rigorous intervention protocol. Furthermore, we demonstrate how this framework enables tangible improvements in Alignment, Capability, and Efficiency, effectively operationalizing MI as an actionable methodology for model optimization. The curated paper list of this work is available at https://github.com/rattlesnakey/Awesome-Actionable-MI-Survey.",
+  "tags": [
+    "@arxiv:Computer Science - Computation and Language"
+  ],
+  "arxiv_id": "2601.14004",
+  "doi": "10.48550/arXiv.2601.14004",
+  "pdf_url": "https://arxiv.org/pdf/2601.14004",
+  "html_url": "https://arxiv.org/html/2601.14004",
+  "source_url": "https://arxiv.org/abs/2601.14004",
+  "code_repo": "https://github.com/rattlesnakey/Awesome-Actionable-MI-Survey",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2601.14004",
+  "citation_count": 29,
+  "zotero_item_type": "preprint",
+  "meta_source": "translator",
+  "extra": "arXiv:2601.14004 [cs.CL]",
+  "summary": "Actionable mechanistic interpretability can be organized as Locate, Steer, and Improve. The survey categorizes diagnostic and intervention methods by interpretable objects, then connects them to alignment, capability, and efficiency improvements.",
+  "status": "completed",
+  "is_read": true,
+  "added_at": "2026-11-17T14:43:41.041Z",
+  "updated_at": "2026-11-17T15:12:05.231Z"
+}

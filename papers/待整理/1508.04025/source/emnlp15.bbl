@@ -1,0 +1,100 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Bahdanau \bgroup et al.\egroup }2015]{bog15}
+D.~Bahdanau, K.~Cho, and Y.~Bengio.
+\newblock 2015.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock In {\em ICLR}.
+
+\bibitem[\protect\citename{Buck \bgroup et al.\egroup }2014]{buck14}
+Christian Buck, Kenneth Heafield, and Bas van Ooyen.
+\newblock 2014.
+\newblock N-gram counts and language models from the common crawl.
+\newblock In {\em LREC}.
+
+\bibitem[\protect\citename{Cho \bgroup et al.\egroup }2014]{cho14}
+Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger
+  Schwenk, and Yoshua Bengio.
+\newblock 2014.
+\newblock Learning phrase representations using {RNN} encoder-decoder for
+  statistical machine translation.
+\newblock In {\em EMNLP}.
+
+\bibitem[\protect\citename{Fraser and Marcu}2007]{fraser07}
+Alexander Fraser and Daniel Marcu.
+\newblock 2007.
+\newblock Measuring word alignment quality for statistical machine translation.
+\newblock {\em Computational Linguistics}, 33(3):293--303.
+
+\bibitem[\protect\citename{Gregor \bgroup et al.\egroup }2015]{draw15}
+Karol Gregor, Ivo Danihelka, Alex Graves, Danilo~Jimenez Rezende, and Daan
+  Wierstra.
+\newblock 2015.
+\newblock {DRAW:} {A} recurrent neural network for image generation.
+\newblock In {\em ICML}.
+
+\bibitem[\protect\citename{Jean \bgroup et al.\egroup }2015]{jean15}
+S{\'{e}}bastien Jean, Kyunghyun Cho, Roland Memisevic, and Yoshua Bengio.
+\newblock 2015.
+\newblock On using very large target vocabulary for neural machine translation.
+\newblock In {\em ACL}.
+
+\bibitem[\protect\citename{Kalchbrenner and Blunsom}2013]{kal13}
+N.~Kalchbrenner and P.~Blunsom.
+\newblock 2013.
+\newblock Recurrent continuous translation models.
+\newblock In {\em EMNLP}.
+
+\bibitem[\protect\citename{Koehn \bgroup et al.\egroup }2003]{Koehn:2003:SMT}
+Philipp Koehn, Franz~Josef Och, and Daniel Marcu.
+\newblock 2003.
+\newblock Statistical phrase-based translation.
+\newblock In {\em NAACL}.
+
+\bibitem[\protect\citename{Liang \bgroup et al.\egroup }2006]{liang06alignment}
+P.~Liang, B.~Taskar, and D.~Klein.
+\newblock 2006.
+\newblock Alignment by agreement.
+\newblock In {\em NAACL}.
+
+\bibitem[\protect\citename{{Luong} \bgroup et al.\egroup }2015]{luong15}
+M.-T. {Luong}, I.~{Sutskever}, Q.~V. {Le}, O.~{Vinyals}, and W.~{Zaremba}.
+\newblock 2015.
+\newblock Addressing the rare word problem in neural machine translation.
+\newblock In {\em ACL}.
+
+\bibitem[\protect\citename{Mnih \bgroup et al.\egroup }2014]{mnih14}
+Volodymyr Mnih, Nicolas Heess, Alex Graves, and Koray Kavukcuoglu.
+\newblock 2014.
+\newblock Recurrent models of visual attention.
+\newblock In {\em NIPS}.
+
+\bibitem[\protect\citename{Papineni \bgroup et al.\egroup
+  }2002]{Papineni02bleu}
+Kishore Papineni, Salim Roukos, Todd Ward, and Wei jing Zhu.
+\newblock 2002.
+\newblock Bleu: a method for automatic evaluation of machine translation.
+\newblock In {\em ACL}.
+
+\bibitem[\protect\citename{Sutskever \bgroup et al.\egroup }2014]{sutskever14}
+I.~Sutskever, O.~Vinyals, and Q.~V. Le.
+\newblock 2014.
+\newblock Sequence to sequence learning with neural networks.
+\newblock In {\em NIPS}.
+
+\bibitem[\protect\citename{Xu \bgroup et al.\egroup }2015]{xu15}
+Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron~C. Courville, Ruslan
+  Salakhutdinov, Richard~S. Zemel, and Yoshua Bengio.
+\newblock 2015.
+\newblock Show, attend and tell: Neural image caption generation with visual
+  attention.
+\newblock In {\em ICML}.
+
+\bibitem[\protect\citename{Zaremba \bgroup et al.\egroup }2015]{zaremba15}
+Wojciech Zaremba, Ilya Sutskever, and Oriol Vinyals.
+\newblock 2015.
+\newblock Recurrent neural network regularization.
+\newblock In {\em ICLR}.
+
+\end{thebibliography}

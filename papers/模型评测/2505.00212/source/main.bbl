@@ -1,0 +1,232 @@
+\begin{thebibliography}{45}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Achiam et~al.(2023)Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat, et~al.]{achiam2023gpt}
+Achiam, J., Adler, S., Agarwal, S., Ahmad, L., Akkaya, I., Aleman, F.~L., Almeida, D., Altenschmidt, J., Altman, S., Anadkat, S., et~al.
+\newblock Gpt-4 technical report.
+\newblock \emph{arXiv preprint arXiv:2303.08774}, 2023.
+
+\bibitem[Chan et~al.(2023)Chan, Chen, Su, Yu, Xue, Zhang, Fu, and Liu]{chan2023chateval}
+Chan, C.-M., Chen, W., Su, Y., Yu, J., Xue, W., Zhang, S., Fu, J., and Liu, Z.
+\newblock Chateval: Towards better llm-based evaluators through multi-agent debate.
+\newblock \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Clemen(1989)]{clemen1989combining}
+Clemen, R.~T.
+\newblock Combining forecasts: A review and annotated bibliography.
+\newblock \emph{International journal of forecasting}, 1989.
+
+\bibitem[Cui et~al.(2025)Cui, Yuan, Wang, Wang, Li, He, Fan, Yu, Xu, Chen, et~al.]{cui2025process}
+Cui, G., Yuan, L., Wang, Z., Wang, H., Li, W., He, B., Fan, Y., Yu, T., Xu, Q., Chen, W., et~al.
+\newblock Process reinforcement through implicit rewards.
+\newblock \emph{arXiv preprint arXiv:2502.01456}, 2025.
+
+\bibitem[DeepSeek-AI(2025)]{DeepSeek2025R1}
+DeepSeek-AI.
+\newblock Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning deepseek-ai.
+\newblock \emph{arXiv preprint arXiv:2501.12948}, 2025.
+
+\bibitem[Deng et~al.(2024)Deng, Gu, Zheng, Chen, Stevens, Wang, Sun, and Su]{deng2024mind2web}
+Deng, X., Gu, Y., Zheng, B., Chen, S., Stevens, S., Wang, B., Sun, H., and Su, Y.
+\newblock Mind2web: Towards a generalist agent for the web.
+\newblock \emph{Advances in Neural Information Processing Systems}, 2024.
+
+\bibitem[Fourney et~al.(2024)Fourney, Bansal, Mozannar, Tan, Salinas, Niedtner, Proebsting, Bassman, Gerrits, Alber, et~al.]{fourney2024magentic}
+Fourney, A., Bansal, G., Mozannar, H., Tan, C., Salinas, E., Niedtner, F., Proebsting, G., Bassman, G., Gerrits, J., Alber, J., et~al.
+\newblock Magentic-one: A generalist multi-agent system for solving complex tasks.
+\newblock \emph{arXiv preprint arXiv:2411.04468}, 2024.
+
+\bibitem[Fu et~al.(2023)Fu, Ng, Jiang, and Liu]{fu2023gptscore}
+Fu, J., Ng, S.-K., Jiang, Z., and Liu, P.
+\newblock Gptscore: Evaluate as you desire.
+\newblock \emph{Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies}, 2023.
+
+\bibitem[Ghafarollahi \& Buehler(2024)Ghafarollahi and Buehler]{ghafarollahi2024sciagents}
+Ghafarollahi, A. and Buehler, M.~J.
+\newblock Sciagents: Automating scientific discovery through multi-agent intelligent graph reasoning.
+\newblock \emph{arXiv preprint arXiv:2409.05556}, 2024.
+
+\bibitem[Gu et~al.(2024)Gu, Jiang, Shi, Tan, Zhai, Xu, Li, Shen, Ma, Liu, et~al.]{gu2024survey}
+Gu, J., Jiang, X., Shi, Z., Tan, H., Zhai, X., Xu, C., Li, W., Shen, Y., Ma, S., Liu, H., et~al.
+\newblock A survey on llm-as-a-judge.
+\newblock \emph{arXiv preprint arXiv:2411.15594}, 2024.
+
+\bibitem[Hong et~al.(2023)Hong, Zheng, Chen, Cheng, Wang, Zhang, Wang, Yau, Lin, Zhou, et~al.]{hong2023metagpt}
+Hong, S., Zheng, X., Chen, J., Cheng, Y., Wang, J., Zhang, C., Wang, Z., Yau, S. K.~S., Lin, Z., Zhou, L., et~al.
+\newblock Metagpt: Meta programming for multi-agent collaborative framework.
+\newblock \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Hu et~al.(2024)Hu, Zhang, Xiong, Ratner, Xiong, and Krishna]{hu2024language}
+Hu, Z., Zhang, J., Xiong, Z., Ratner, A., Xiong, H., and Krishna, R.
+\newblock Language model preference evaluation with multiple weak evaluators.
+\newblock \emph{arXiv preprint arXiv:2410.12869}, 2024.
+
+\bibitem[Huang \& Chang(2022)Huang and Chang]{huang2022towards}
+Huang, J. and Chang, K. C.-C.
+\newblock Towards reasoning in large language models: A survey.
+\newblock \emph{In Findings of the Association for Computational Linguistics: ACL 2023}, 2022.
+
+\bibitem[Huang et~al.(2023)Huang, Chen, Mishra, Zheng, Yu, Song, and Zhou]{huang2023large}
+Huang, J., Chen, X., Mishra, S., Zheng, H.~S., Yu, A.~W., Song, X., and Zhou, D.
+\newblock Large language models cannot self-correct reasoning yet.
+\newblock \emph{arXiv preprint arXiv:2310.01798}, 2023.
+
+\bibitem[Jimenez et~al.(2023)Jimenez, Yang, Wettig, Yao, Pei, Press, and Narasimhan]{jimenez2023swe}
+Jimenez, C.~E., Yang, J., Wettig, A., Yao, S., Pei, K., Press, O., and Narasimhan, K.
+\newblock Swe-bench: Can language models resolve real-world github issues?
+\newblock \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Li et~al.(2023{\natexlab{a}})Li, Hammoud, Itani, Khizbullin, and Ghanem]{li2023camel}
+Li, G., Hammoud, H., Itani, H., Khizbullin, D., and Ghanem, B.
+\newblock Camel: Communicative agents for" mind" exploration of large language model society.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36:\penalty0 51991--52008, 2023{\natexlab{a}}.
+
+\bibitem[Li et~al.(2023{\natexlab{b}})Li, Zhang, Dubois, Taori, Gulrajani, Guestrin, Liang, and Hashimoto]{li2023alpacaeval}
+Li, X., Zhang, T., Dubois, Y., Taori, R., Gulrajani, I., Guestrin, C., Liang, P., and Hashimoto, T.~B.
+\newblock Alpacaeval: An automatic evaluator of instruction-following models, 2023{\natexlab{b}}.
+
+\bibitem[Lightman et~al.(2023)Lightman, Kosaraju, Burda, Edwards, Baker, Lee, Leike, Schulman, Sutskever, and Cobbe]{lightman2023let}
+Lightman, H., Kosaraju, V., Burda, Y., Edwards, H., Baker, B., Lee, T., Leike, J., Schulman, J., Sutskever, I., and Cobbe, K.
+\newblock Let's verify step by step.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Liu et~al.(2023)Liu, Iter, Xu, Wang, Xu, and Zhu]{liu2023g}
+Liu, Y., Iter, D., Xu, Y., Wang, S., Xu, R., and Zhu, C.
+\newblock G-eval: Nlg evaluation using gpt-4 with better human alignment.
+\newblock \emph{arXiv preprint arXiv:2303.16634}, 2023.
+
+\bibitem[Mialon et~al.(2023)Mialon, Fourrier, Swift, Wolf, LeCun, and Scialom]{mialon2023gaia}
+Mialon, G., Fourrier, C., Swift, C., Wolf, T., LeCun, Y., and Scialom, T.
+\newblock Gaia: a benchmark for general ai assistants.
+\newblock \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Miao et~al.(2023)Miao, Teh, and Rainforth]{miao2023selfcheck}
+Miao, N., Teh, Y.~W., and Rainforth, T.
+\newblock Selfcheck: Using llms to zero-shot check their own step-by-step reasoning.
+\newblock \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Nelson et~al.(2024)Nelson, Kollias, Das, Chaudhury, and Dan]{nelson2024needle}
+Nelson, E., Kollias, G., Das, P., Chaudhury, S., and Dan, S.
+\newblock Needle in the haystack for memory based large language models.
+\newblock \emph{arXiv preprint arXiv:2407.01437}, 2024.
+
+\bibitem[Scriven(1991)]{scriven1991evaluation}
+Scriven, M.
+\newblock \emph{Evaluation thesaurus}.
+\newblock Sage Publications, 1991.
+
+\bibitem[Shinn et~al.(2024)Shinn, Cassano, Gopinath, Narasimhan, and Yao]{shinn2024reflexion}
+Shinn, N., Cassano, F., Gopinath, A., Narasimhan, K., and Yao, S.
+\newblock Reflexion: Language agents with verbal reinforcement learning.
+\newblock \emph{Advances in Neural Information Processing Systems}, 2024.
+
+\bibitem[Song et~al.(2024)Song, Liu, Zhang, Zhang, Luo, Wang, Wu, and Wang]{song2024adaptive}
+Song, L., Liu, J., Zhang, J., Zhang, S., Luo, A., Wang, S., Wu, Q., and Wang, C.
+\newblock Adaptive in-conversation team building for language model agents.
+\newblock \emph{arXiv preprint arXiv:2405.19425}, 2024.
+
+\bibitem[Thakur et~al.(2024)Thakur, Choudhary, Ramayapally, Vaidyanathan, and Hupkes]{thakur2024judging}
+Thakur, A.~S., Choudhary, K., Ramayapally, V.~S., Vaidyanathan, S., and Hupkes, D.
+\newblock Judging the judges: Evaluating alignment and vulnerabilities in llms-as-judges.
+\newblock \emph{arXiv preprint arXiv:2406.12624}, 2024.
+
+\bibitem[van Schaik \& Pugh(2024)van Schaik and Pugh]{van2024field}
+van Schaik, T.~A. and Pugh, B.
+\newblock A field guide to automatic evaluation of llm-generated summaries.
+\newblock In \emph{Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval}, pp.\  2832--2836, 2024.
+
+\bibitem[Wang et~al.(2024)Wang, Zhang, Zhang, Wu, Mo, Lu, Wang, Li, Xu, Tang, et~al.]{wang2024comprehensive}
+Wang, F., Zhang, Z., Zhang, X., Wu, Z., Mo, T., Lu, Q., Wang, W., Li, R., Xu, J., Tang, X., et~al.
+\newblock A comprehensive survey of small language models in the era of large language models: Techniques, enhancements, applications, collaboration with llms, and trustworthiness.
+\newblock \emph{arXiv preprint arXiv:2411.03350}, 2024.
+
+\bibitem[Wang et~al.(2023)Wang, Li, Shao, Xu, Dai, Li, Chen, Wu, and Sui]{wang2023math}
+Wang, P., Li, L., Shao, Z., Xu, R., Dai, D., Li, Y., Chen, D., Wu, Y., and Sui, Z.
+\newblock Math-shepherd: Verify and reinforce llms step-by-step without human annotations.
+\newblock \emph{arXiv preprint arXiv:2312.08935}, 2023.
+
+\bibitem[Wei et~al.(2022)Wei, Wang, Schuurmans, Bosma, Xia, Chi, Le, Zhou, et~al.]{wei2022chain}
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., Le, Q.~V., Zhou, D., et~al.
+\newblock Chain-of-thought prompting elicits reasoning in large language models.
+\newblock \emph{Advances in Neural Information Processing Systems}, pp.\  24824--24837, 2022.
+
+\bibitem[Wu et~al.(2023)Wu, Bansal, Zhang, Wu, Zhang, Zhu, Li, Jiang, Zhang, and Wang]{wu2023autogen}
+Wu, Q., Bansal, G., Zhang, J., Wu, Y., Zhang, S., Zhu, E., Li, B., Jiang, L., Zhang, X., and Wang, C.
+\newblock Autogen: Enabling next-gen llm applications via multi-agent conversation framework.
+\newblock \emph{Conference on Language Modeling}, 2023.
+
+\bibitem[Xie et~al.(2024)Xie, Zhang, Chen, Li, Zhao, Cao, Hua, Cheng, Shin, Lei, et~al.]{xie2024osworld}
+Xie, T., Zhang, D., Chen, J., Li, X., Zhao, S., Cao, R., Hua, T.~J., Cheng, Z., Shin, D., Lei, F., et~al.
+\newblock Osworld: Benchmarking multimodal agents for open-ended tasks in real computer environments.
+\newblock \emph{arXiv preprint arXiv:2404.07972}, 2024.
+
+\bibitem[Yao et~al.(2022)Yao, Zhao, Yu, Du, Shafran, Narasimhan, and Cao]{yao2022react}
+Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., and Cao, Y.
+\newblock React: Synergizing reasoning and acting in language models.
+\newblock \emph{ICLR}, 2022.
+
+\bibitem[Yao et~al.(2024)Yao, Yu, Zhao, Shafran, Griffiths, Cao, and Narasimhan]{yao2024tree}
+Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T., Cao, Y., and Narasimhan, K.
+\newblock Tree of thoughts: Deliberate problem solving with large language models.
+\newblock \emph{Advances in Neural Information Processing Systems}, 2024.
+
+\bibitem[Yoran et~al.(2024)Yoran, Amouyal, Malaviya, Bogin, Press, and Berant]{yoran2024assistantbench}
+Yoran, O., Amouyal, S.~J., Malaviya, C., Bogin, B., Press, O., and Berant, J.
+\newblock Assistantbench: Can web agents solve realistic and time-consuming tasks?
+\newblock \emph{In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing}, 2024.
+
+\bibitem[Yu \& Zhu(2020)Yu and Zhu]{yu2020hyper}
+Yu, T. and Zhu, H.
+\newblock Hyper-parameter optimization: A review of algorithms and applications.
+\newblock \emph{arXiv preprint arXiv:2003.05689}, 2020.
+
+\bibitem[Zhang et~al.(2023{\natexlab{a}})Zhang, Krishna, Awadallah, and Wang]{zhang2023ecoassistant}
+Zhang, J., Krishna, R., Awadallah, A.~H., and Wang, C.
+\newblock Ecoassistant: Using llm assistant more affordably and accurately.
+\newblock \emph{arXiv preprint arXiv:2310.03046}, 2023{\natexlab{a}}.
+
+\bibitem[Zhang et~al.(2023{\natexlab{b}})Zhang, Jia, Wang, and Wu]{zhang2023targeted}
+Zhang, S., Jia, F., Wang, C., and Wu, Q.
+\newblock Targeted hyperparameter optimization with lexicographic preferences over multiple objectives.
+\newblock In \emph{International Conference on Learning Representations}, 2023{\natexlab{b}}.
+
+\bibitem[Zhang et~al.(2024{\natexlab{a}})Zhang, Zhang, Ding, Garcia, Mallick, Madrigal, Xia, R{\"u}hle, Wu, and Wang]{zhang2024ecoact}
+Zhang, S., Zhang, J., Ding, D., Garcia, M.~H., Mallick, A., Madrigal, D., Xia, M., R{\"u}hle, V., Wu, Q., and Wang, C.
+\newblock Ecoact: Economic agent determines when to register what action.
+\newblock \emph{arXiv preprint arXiv:2411.01643}, 2024{\natexlab{a}}.
+
+\bibitem[Zhang et~al.(2024{\natexlab{b}})Zhang, Zhang, Liu, Song, Wang, Krishna, and Wu]{zhangoffline}
+Zhang, S., Zhang, J., Liu, J., Song, L., Wang, C., Krishna, R., and Wu, Q.
+\newblock Offline training of language model agents with functions as learnable weights.
+\newblock In \emph{International Conference on Machine Learning}, 2024{\natexlab{b}}.
+
+\bibitem[Zhang et~al.(2025)Zhang, Dong, Zhang, Kautz, Catanzaro, Tao, Wu, Yu, and Liu]{zhang2025nemotron}
+Zhang, S., Dong, Y., Zhang, J., Kautz, J., Catanzaro, B., Tao, A., Wu, Q., Yu, Z., and Liu, G.
+\newblock Nemotron-research-tool-n1: Tool-using language models with reinforced reasoning.
+\newblock \emph{arXiv preprint arXiv:2505.00024}, 2025.
+
+\bibitem[Zheng et~al.(2024)Zheng, Zhang, Zhang, Lin, Lu, Yu, Liu, Zhou, and Lin]{zheng2024processbench}
+Zheng, C., Zhang, Z., Zhang, B., Lin, R., Lu, K., Yu, B., Liu, D., Zhou, J., and Lin, J.
+\newblock Processbench: Identifying process errors in mathematical reasoning.
+\newblock \emph{arXiv preprint arXiv:2412.06559}, 2024.
+
+\bibitem[Zheng et~al.(2023)Zheng, Chiang, Sheng, Zhuang, Wu, Zhuang, Lin, Li, Li, Xing, et~al.]{zheng2023judging}
+Zheng, L., Chiang, W.-L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z., Li, Z., Li, D., Xing, E., et~al.
+\newblock Judging llm-as-a-judge with mt-bench and chatbot arena.
+\newblock \emph{Advances in Neural Information Processing Systems}, 2023.
+
+\bibitem[Zhong et~al.(2025)Zhong, Shen, Li, Gao, Lu, Chen, Zhang, Zhou, Gu, and Zou]{zhong2025comprehensive}
+Zhong, J., Shen, W., Li, Y., Gao, S., Lu, H., Chen, Y., Zhang, Y., Zhou, W., Gu, J., and Zou, L.
+\newblock A comprehensive survey of reward models: Taxonomy, applications, challenges, and future.
+\newblock \emph{arXiv preprint arXiv:2504.12328}, 2025.
+
+\bibitem[Zhuge et~al.(2024)Zhuge, Zhao, Ashley, Wang, Khizbullin, Xiong, Liu, Chang, Krishnamoorthi, Tian, et~al.]{zhuge2024agent}
+Zhuge, M., Zhao, C., Ashley, D., Wang, W., Khizbullin, D., Xiong, Y., Liu, Z., Chang, E., Krishnamoorthi, R., Tian, Y., et~al.
+\newblock Agent-as-a-judge: Evaluate agents with agents.
+\newblock \emph{arXiv preprint arXiv:2410.10934}, 2024.
+
+\end{thebibliography}

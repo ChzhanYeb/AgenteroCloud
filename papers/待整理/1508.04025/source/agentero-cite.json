@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-15T11:46:50.147Z",
+    "fingerprint": "f7574e3497363c347b6afb79a853640bbc61c840f86399dc04139faa1e421dc3"
+  },
+  "citations": [
+    {
+      "id": "cite-bog15",
+      "rawKey": "bog15",
+      "display": "[1]",
+      "raw": "D. Bahdanau, K. Cho, and Y. Bengio. 2015. Neural machine translation by jointly learning to align and translate. In ICLR.",
+      "metadata": {
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "authors": [
+          "D. Bahdanau",
+          "Kyunghyun Cho",
+          "Yoshua Bengio"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1409.0473",
+        "arxivId": "1409.0473",
+        "url": "https://www.semanticscholar.org/paper/fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5"
+      },
+      "localMatch": {
+        "paperPath": "papers/1409.0473",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-buck14",
+      "rawKey": "buck14",
+      "display": "[2]",
+      "raw": "Christian Buck, Kenneth Heafield, and Bas van Ooyen. 2014. N-gram counts and language models from the common crawl. In LREC.",
+      "metadata": {
+        "title": "N-gram Counts and Language Models from the Common Crawl",
+        "authors": [
+          "C. Buck",
+          "K. Heafield",
+          "Bas van Ooyen"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Language Resources and Evaluation",
+        "doi": "10.63317/3uyduafd26my",
+        "url": "https://www.semanticscholar.org/paper/8e4fb17fff38a7834af5b4eaafcbbde02bf00975"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cho14",
+      "rawKey": "cho14",
+      "display": "[3]",
+      "raw": "Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. 2014. Learning phrase representations using RNN encoder-decoder for statistical machine translation. In EMNLP.",
+      "metadata": {
+        "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+        "authors": [
+          "Kyunghyun Cho",
+          "Bart van Merriënboer",
+          "Çaglar Gülçehre",
+          "D. Bahdanau",
+          "F. Bougares",
+          "Holger Schwenk",
+          "Yoshua Bengio"
+        ],
+        "year": 2014,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.3115/v1/D14-1179",
+        "arxivId": "1406.1078",
+        "url": "https://www.semanticscholar.org/paper/0b544dfe355a5070b60986319a3f51fb45d1348e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fraser07",
+      "rawKey": "fraser07",
+      "display": "[4]",
+      "raw": "Alexander Fraser and Daniel Marcu. 2007. Measuring word alignment quality for statistical machine translation. Computational Linguistics, 33(3):293--303.",
+      "metadata": {
+        "title": "Squibs and Discussions: Measuring Word Alignment Quality for Statistical Machine Translation",
+        "authors": [
+          "Alexander M. Fraser",
+          "D. Marcu"
+        ],
+        "year": 2007,
+        "venue": "International Conference on Computational Logic",
+        "doi": "10.1162/coli.2007.33.3.293",
+        "url": "https://www.semanticscholar.org/paper/7227aaf03e02adb60bd9bd2a7f83be78f03a3d5a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-draw15",
+      "rawKey": "draw15",
+      "display": "[5]",
+      "raw": "Karol Gregor, Ivo Danihelka, Alex Graves, Danilo Jimenez Rezende, and Daan Wierstra. 2015. DRAW: A recurrent neural network for image generation. In ICML.",
+      "metadata": {
+        "title": "DRAW: A Recurrent Neural Network For Image Generation",
+        "authors": [
+          "K. Gregor",
+          "I. Danihelka",
+          "Alex Graves",
+          "Danilo Jimenez Rezende",
+          "D. Wierstra"
+        ],
+        "year": 2015,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1502.04623",
+        "arxivId": "1502.04623",
+        "url": "https://www.semanticscholar.org/paper/a2785f66c20fbdf30ec26c0931584c6d6a0f4fca"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jean15",
+      "rawKey": "jean15",
+      "display": "[6]",
+      "raw": "Sebastien Jean, Kyunghyun Cho, Roland Memisevic, and Yoshua Bengio. 2015. On using very large target vocabulary for neural machine translation. In ACL.",
+      "metadata": {
+        "title": "On Using Very Large Target Vocabulary for Neural Machine Translation",
+        "authors": [
+          "Sébastien Jean",
+          "Kyunghyun Cho",
+          "Roland Memisevic",
+          "Yoshua Bengio"
+        ],
+        "year": 2014,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.3115/v1/P15-1001",
+        "arxivId": "1412.2007",
+        "url": "https://www.semanticscholar.org/paper/1938624bb9b0f999536dcc8d8f519810bb4e1b3b"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kal13",
+      "rawKey": "kal13",
+      "display": "[7]",
+      "raw": "N. Kalchbrenner and P. Blunsom. 2013. Recurrent continuous translation models. In EMNLP.",
+      "metadata": {
+        "title": "Recurrent Continuous Translation Models",
+        "authors": [
+          "N. Kalchbrenner",
+          "P. Blunsom"
+        ],
+        "year": 2013,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/d13-1176",
+        "url": "https://www.semanticscholar.org/paper/944a1cfd79dbfb6fef460360a0765ba790f4027a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Koehn:2003:SMT",
+      "rawKey": "Koehn:2003:SMT",
+      "display": "[8]",
+      "raw": "Philipp Koehn, Franz Josef Och, and Daniel Marcu. 2003. Statistical phrase-based translation. In NAACL.",
+      "metadata": {
+        "title": "Statistical Phrase-Based Translation",
+        "authors": [
+          "Philipp Koehn",
+          "F. Och",
+          "Daniel Marcu"
+        ],
+        "year": 2003,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.3115/1073445.1073462",
+        "url": "https://www.semanticscholar.org/paper/a4b828609b60b06e61bea7a4029cc9e1cad5df87"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-liang06alignment",
+      "rawKey": "liang06alignment",
+      "display": "[9]",
+      "raw": "P. Liang, B. Taskar, and D. Klein. 2006. Alignment by agreement. In NAACL.",
+      "metadata": {
+        "title": "Alignment by Agreement",
+        "authors": [
+          "P. Liang",
+          "B. Taskar",
+          "D. Klein"
+        ],
+        "year": 2006,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.3115/1220835.1220849",
+        "url": "https://www.semanticscholar.org/paper/f4f6bfacb4cd508df62540f5aa9ba30cd83dd127"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-luong15",
+      "rawKey": "luong15",
+      "display": "[10]",
+      "raw": "M.-T. Luong, I. Sutskever, Q. V. Le, O. Vinyals, and W. Zaremba. 2015. Addressing the rare word problem in neural machine translation. In ACL.",
+      "metadata": {
+        "title": "Addressing the Rare Word Problem in Neural Machine Translation",
+        "authors": [
+          "Thang Luong",
+          "I. Sutskever",
+          "Quoc V. Le",
+          "O. Vinyals",
+          "W. Zaremba"
+        ],
+        "year": 2014,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.3115/v1/P15-1002",
+        "arxivId": "1410.8206",
+        "url": "https://www.semanticscholar.org/paper/1956c239b3552e030db1b78951f64781101125ed"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mnih14",
+      "rawKey": "mnih14",
+      "display": "[11]",
+      "raw": "Volodymyr Mnih, Nicolas Heess, Alex Graves, and Koray Kavukcuoglu. 2014. Recurrent models of visual attention. In NIPS.",
+      "metadata": {
+        "title": "Recurrent Models of Visual Attention",
+        "authors": [
+          "V. Mnih",
+          "N. Heess",
+          "Alex Graves",
+          "K. Kavukcuoglu"
+        ],
+        "year": 2014,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1406.6247",
+        "arxivId": "1406.6247",
+        "url": "https://www.semanticscholar.org/paper/8a756d4d25511d92a45d0f4545fa819de993851d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Papineni02bleu",
+      "rawKey": "Papineni02bleu",
+      "display": "[12]",
+      "raw": "Kishore Papineni, Salim Roukos, Todd Ward, and Wei jing Zhu. 2002. Bleu: a method for automatic evaluation of machine translation. In ACL.",
+      "metadata": {
+        "title": "Bleu: a Method for Automatic Evaluation of Machine Translation",
+        "authors": [
+          "K. Papineni",
+          "Salim Roukos",
+          "T. Ward",
+          "Wei-Jing Zhu"
+        ],
+        "year": 2002,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.3115/1073083.1073135",
+        "url": "https://www.semanticscholar.org/paper/d7da009f457917aa381619facfa5ffae9329a6e9"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sutskever14",
+      "rawKey": "sutskever14",
+      "display": "[13]",
+      "raw": "I. Sutskever, O. Vinyals, and Q. V. Le. 2014. Sequence to sequence learning with neural networks. In NIPS.",
+      "metadata": {
+        "title": "Sequence to Sequence Learning with Neural Networks",
+        "authors": [
+          "I. Sutskever",
+          "O. Vinyals",
+          "Quoc V. Le"
+        ],
+        "year": 2014,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1409.3215",
+        "arxivId": "1409.3215",
+        "url": "https://www.semanticscholar.org/paper/cea967b59209c6be22829699f05b8b1ac4dc092d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xu15",
+      "rawKey": "xu15",
+      "display": "[14]",
+      "raw": "Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron C. Courville, Ruslan Salakhutdinov, Richard S. Zemel, and Yoshua Bengio. 2015. Show, attend and tell: Neural image caption generation with visual attention. In ICML.",
+      "metadata": {
+        "title": "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+        "authors": [
+          "Ke Xu",
+          "Jimmy Ba",
+          "R. Kiros",
+          "Kyunghyun Cho",
+          "Aaron C. Courville",
+          "R. Salakhutdinov",
+          "R. Zemel",
+          "Yoshua Bengio"
+        ],
+        "year": 2015,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1502.03044",
+        "arxivId": "1502.03044",
+        "url": "https://www.semanticscholar.org/paper/bddc714813a5331505eaf308a10a8a6cafe273d4"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zaremba15",
+      "rawKey": "zaremba15",
+      "display": "[15]",
+      "raw": "Wojciech Zaremba, Ilya Sutskever, and Oriol Vinyals. 2015. Recurrent neural network regularization. In ICLR.",
+      "metadata": {
+        "title": "Recurrent Neural Network Regularization",
+        "authors": [
+          "W. Zaremba",
+          "I. Sutskever",
+          "O. Vinyals"
+        ],
+        "year": 2014,
+        "doi": "10.48550/arXiv.1409.2329",
+        "arxivId": "1409.2329",
+        "url": "https://www.semanticscholar.org/paper/f264e8b33c0d49a692a6ce2c4bcb28588aeb7d97"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 15 entries (bbl)",
+    "semantic scholar: 19 references",
+    "merged: 15 of 15 enriched online"
+  ]
+}

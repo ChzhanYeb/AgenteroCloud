@@ -1,0 +1,24 @@
+{
+  "path": "papers/待整理/1608.05859",
+  "id": "1608.05859",
+  "type": "pdf",
+  "title": "Using the Output Embedding to Improve Language Models",
+  "authors": [
+    "Ofir Press",
+    "Lior Wolf"
+  ],
+  "year": 2016,
+  "abstract": "We study the topmost weight matrix of neural network language models. We show that this matrix constitutes a valid word embedding. When training language models, we recommend tying the input embedding and this output embedding. We analyze the resulting update rules and show that the tied embedding evolves in a more similar way to the output embedding than to the input embedding in the untied model. We also offer a new method of regularizing the output embedding. Our methods lead to a significant reduction in perplexity, as we are able to show on a variety of neural network language models. Finally, we show that weight tying can reduce the size of neural translation models to less than half of their original size without harming their performance.",
+  "tags": [],
+  "arxiv_id": "1608.05859",
+  "code_repo": "https://github.com/ofirpress/UsingTheOutputEmbedding",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 879,
+  "meta_source": "recognize",
+  "summary": "Ties input and output word embeddings because the output projection itself forms a valid embedding. Weight tying lowers perplexity across language models and shrinks neural translation models to less than half their original size without harming performance.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:32.530Z",
+  "updated_at": "2026-11-15T11:49:15.349Z"
+}

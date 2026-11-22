@@ -1,0 +1,21 @@
+\section{Related Work}
+
+
+The evaluation of large language models has historically relied on benchmarks that emphasize static, non-interactive tasks. Benchmarks such as SuperGLUE \citep{wang2019superglue}, which tests general-purpose language understanding and MMLU \citep{hendrycks2020measuring}, which measures massive multitask language understanding, have been instrumental in advancing LLM research. BigBench \citep{srivastava2022beyond} further expands the scope by including a diverse set of linguistic and cognitive challenges. Mathematical reasoning datasets like GSM8K and MATH \citep{cobbe2021training, hendrycks2021measuring} assess models' abilities to solve grade-school and competition-level math problems, while \citet{shi2022language} explore multilingual chain-of-thought reasoning. In the domain of code understanding and generation, benchmarks such as HumanEval \citep{chen2021evaluating} and CodeXGLUE \citep{lu2021codexglue} evaluate models capabilities in programming tasks. 
+
+These benchmarks, however, are limited to single-turn or short-context scenarios, do not require sequential decision-making or adaptation to changing environments and have been saturating rapidly \citep{kiela2021dynabench}. Static benchmarks may not fully capture the progress we are seeking, since the research community aims to push the frontier of agentic foundation models capable of acting in dynamic environments, using tools, planning ahead, and reasoning about their surroundings. Researchers have recently investigated how LLMs use these skills to solve practical tasks, including using computer interfaces to perform office-related chores \citep{wang2024officebench,qin2024sysbench}, navigating web pages \citep{yao2022webshop, zhou2023webarena}, and solve GitHub issues \citep{jimenez2023swe}. Several works studied the multi-agent capabilities of LLMs to see if they can co-operate~\citep{gong2023mindagent,piatti2024cooperate} or effectively play against other agents~\citep{jin2024learning,wu2024enhance}.
+
+In this work, we study agentic skills in the context of video games, as they offer challenges well-tailored for human players and test skills that are useful for embodied agents. Previously, some related works employed games to benchmark LLMs~\citep{liu2023agentbench,todd2024missed,wu2023smartplay,ruoss2024lmact}, highlighting their emphasis on problem-solving, spatial reasoning, and well-defined rules and objectives. Some of these benchmarks, however, are already reaching saturation, with environments like Crafter being the most challenging in their suite. In contrast, \our{} fills an important gap by providing a wide range of games at varying difficulties-including the NetHack Learning Environment \citep{kuttler2020nethack}, which takes humans years to master, and where zero-shot LLMs struggle greatly, as also seen in prior work \citep{jeurissen2024playing}. These tasks represent a rich and granular testbed for evaluating agentic foundation models, pushing decision-making evaluations of LLMs/VLMs to the very limit of their context lengths. Other environments such as MineDojo~\citep{fan2022minedojo} and MineRL~\citep{guss2019minerl} also present open-ended challenges for agentic capabilities, their steep computational requirements and reliance on multimodal inputs make them less practical for accessible, large-scale benchmarks.
+
+While \our{} currently focuses on evaluating single-agent foundational capabilities, future extensions could explore multi-agent collaboration environments that provide unique opportunities to test teamwork and coordination skills in LLMs. For example, Overcooked \citep{carroll2019utility, liu2023llm} simulates a cooperative cooking environment where agents must collaborate efficiently under time constraints and task dependencies, testing planning and communication abilities. Another compelling environment is Hanabi \citep{bard2020hanabi}, a cooperative card game where players must rely on indirect communication and inferential reasoning to achieve a shared objective under partial observability. These environments present rich opportunities to benchmark advanced collaboration and multi-agent decision-making skills, which are essential for broader deployment of agentic LLMs.
+
+
+
+
+
+
+
+
+
+ 
+

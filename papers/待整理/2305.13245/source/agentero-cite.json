@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-15T11:47:28.961Z",
+    "fingerprint": "bd751104a8bd66c2e0b0639561ef7fc98fad9947f1f666a3a5a210748af4eaa7"
+  },
+  "citations": [
+    {
+      "id": "cite-jax",
+      "rawKey": "jax",
+      "display": "[1]",
+      "raw": "James Bradbury, Roy Frostig, Peter Hawkins, Matthew James Johnson, Chris Leary, Dougal Maclaurin, George Necula, Adam Paszke, Jake VanderPlas, Skye Wanderman-Milne, and Qiao Zhang. 2018. http://github.com/google/jax JAX: composable transformations of Python+NumPy programs.",
+      "metadata": {
+        "title": "JAX: composable transformations",
+        "authors": [
+          "James Bradbury",
+          "Roy Frostig",
+          "Peter Hawkins",
+          "Matthew James Johnson",
+          "Chris Leary",
+          "Dougal Maclaurin",
+          "George Necula",
+          "Adam Paszke",
+          "Jake VanderPlas",
+          "Skye Wanderman-Milne",
+          "Qiao Zhang"
+        ],
+        "year": 2018,
+        "url": "http://github.com/google/jax"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-specchen",
+      "rawKey": "specchen",
+      "display": "[2]",
+      "raw": "Charlie Chen, Sebastian Borgeaud, Geoffrey Irving, Jean-Baptiste Lespiau, Laurent Sifre, and John Jumper. 2023. https://doi.org/10.48550/arXiv.2302.01318 Accelerating large language model decoding with speculative sampling. CoRR, abs/2302.01318.",
+      "metadata": {
+        "title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+        "authors": [
+          "Charlie Chen",
+          "Sebastian Borgeaud",
+          "Geoffrey Irving",
+          "Jean-Baptiste Lespiau",
+          "L. Sifre",
+          "J. Jumper"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2302.01318",
+        "arxivId": "2302.01318",
+        "url": "https://doi.org/10.48550/arXiv.2302.01318"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-palm",
+      "rawKey": "palm",
+      "display": "[3]",
+      "raw": "Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra, Adam Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Sebastian Gehrmann, Parker Schuh, Kensen Shi, Sasha Tsvyashchenko, Joshua Maynez, Abhishek Rao, Parker Barnes, Yi Tay, Noam Shazeer, Vinodkumar Prabhakaran, Emily Reif, Nan Du, Ben Hutchinson, Reiner Pope, James Bradbury, Jacob Austin, Michael Isard, Guy Gur-Ari, Pengcheng Yin, Toju Duke, Anselm Levskaya, Sanjay Ghemawat, Sunipa Dev, Henryk Michalewski, Xavier Garcia, Vedant Misra, Kevin Robinson, Liam Fedus, Denny Zhou, Daphne Ippolito, David Luan, Hyeontaek Lim, Barret Zoph, Alexander Spiridonov, Ryan Sepassi, David Dohan, Shivani Agrawal, Mark Omernick, Andrew M. Dai, Thanumalayan Sankaranarayana Pillai, Marie Pellat, Aitor Lewkowycz, Erica Moreira, Rewon Child, Oleksandr Polozov, Katherine Lee, Zongwei Zhou, Xuezhi Wang, Brennan Saeta, Mark Diaz, Orhan Firat, Michele Catasta, Jason Wei, Kathy Meier-Hellstern, Douglas Eck, Jeff Dean, Slav Petrov, and Noah Fiedel. 2022. https://doi.org/10.48550/ARXIV.2204.02311 Palm: Scaling language modeling with pathways.",
+      "metadata": {
+        "title": "PaLM: Scaling Language Modeling with Pathways",
+        "authors": [
+          "A. Chowdhery",
+          "Sharan Narang",
+          "J. Devlin",
+          "Maarten Bosma",
+          "Gaurav Mishra",
+          "Adam Roberts",
+          "Paul Barham",
+          "Hyung Won Chung",
+          "Charles Sutton",
+          "Sebastian Gehrmann",
+          "P. Schuh",
+          "Ken-Sen Shi",
+          "Sasha Tsvyashchenko",
+          "Joshua Maynez",
+          "Abhishek Rao",
+          "Parker Barnes",
+          "Yi Tay",
+          "Noam Shazeer",
+          "Vinodkumar Prabhakaran",
+          "Emily Reif",
+          "Nan Du",
+          "Ben Hutchinson",
+          "Reiner Pope",
+          "James Bradbury",
+          "Jacob Austin",
+          "M. Isard",
+          "Guy Gur-Ari",
+          "Pengcheng Yin",
+          "Toju Duke",
+          "Anselm Levskaya",
+          "S. Ghemawat",
+          "Sunipa Dev",
+          "H. Michalewski",
+          "Xavier García",
+          "Vedant Misra",
+          "Kevin Robinson",
+          "L. Fedus",
+          "Denny Zhou",
+          "Daphne Ippolito",
+          "D. Luan",
+          "Hyeontaek Lim",
+          "Barret Zoph",
+          "A. Spiridonov",
+          "Ryan Sepassi",
+          "David Dohan",
+          "Shivani Agrawal",
+          "Mark Omernick",
+          "Andrew M. Dai",
+          "Thanumalayan Sankaranarayana Pillai",
+          "Marie Pellat",
+          "Aitor Lewkowycz",
+          "Erica Moreira",
+          "R. Child",
+          "Oleksandr Polozov",
+          "Katherine Lee",
+          "Zongwei Zhou",
+          "Xue-Zhi Wang",
+          "Brennan Saeta",
+          "Mark Díaz",
+          "O. Firat",
+          "Michele Catasta",
+          "Jason Wei",
+          "K. Meier-Hellstern",
+          "Douglas Eck",
+          "J. Dean",
+          "Slav Petrov",
+          "Noah Fiedel"
+        ],
+        "year": 2022,
+        "venue": "Journal of machine learning research",
+        "doi": "10.48550/ARXIV.2204.02311",
+        "arxivId": "2204.02311",
+        "url": "https://doi.org/10.48550/ARXIV.2204.02311"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-arxiv",
+      "rawKey": "arxiv",
+      "display": "[4]",
+      "raw": "Arman Cohan, Franck Dernoncourt, Doo Soon Kim, Trung Bui, Seokhwan Kim, Walter Chang, and Nazli Goharian. 2018. https://doi.org/10.18653/v1/N18-2097 A discourse-aware attention model for abstractive summarization of long documents. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers), pages 615--621, New Orleans, Louisiana. Association for Computational Linguistics.",
+      "metadata": {
+        "title": "A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents",
+        "authors": [
+          "Arman Cohan",
+          "Franck Dernoncourt",
+          "Doo Soon Kim",
+          "Trung Bui",
+          "Seokhwan Kim",
+          "W. Chang",
+          "Nazli Goharian"
+        ],
+        "year": 2018,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/N18-2097",
+        "arxivId": "1804.05685",
+        "url": "https://doi.org/10.18653/v1/N18-2097"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-flashattention",
+      "rawKey": "flashattention",
+      "display": "[5]",
+      "raw": "Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, and Christopher Re. 2022. https://doi.org/10.48550/arXiv.2205.14135 Flashattention: Fast and memory-efficient exact attention with io-awareness. CoRR, abs/2205.14135.",
+      "metadata": {
+        "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+        "authors": [
+          "Tri Dao",
+          "Daniel Y. Fu",
+          "Stefano Ermon",
+          "A. Rudra",
+          "Christopher Ré"
+        ],
+        "year": 2022,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2205.14135",
+        "arxivId": "2205.14135",
+        "url": "https://doi.org/10.48550/arXiv.2205.14135"
+      },
+      "localMatch": {
+        "paperPath": "papers/2205.14135",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dejong2022fido",
+      "rawKey": "dejong2022fido",
+      "display": "[6]",
+      "raw": "Michiel de Jong, Yury Zemlyanskiy, Joshua Ainslie, Nicholas FitzGerald, Sumit Sanghai, Fei Sha, and William Cohen. 2022. https://arxiv.org/abs/2212.08153 FiDO: Fusion-in-decoder optimized for stronger performance and faster inference. arXiv preprint arXiv:2212.08153.",
+      "metadata": {
+        "title": "FiDO: Fusion-in-Decoder optimized for stronger performance and faster inference",
+        "authors": [
+          "Michiel de Jong",
+          "Yury Zemlyanskiy",
+          "Joshua Ainslie",
+          "Nicholas FitzGerald",
+          "Sumit K. Sanghai",
+          "F. Sha",
+          "W. Cohen"
+        ],
+        "year": 2022,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2212.08153",
+        "arxivId": "2212.08153",
+        "url": "https://arxiv.org/abs/2212.08153"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-int8",
+      "rawKey": "int8",
+      "display": "[7]",
+      "raw": "Tim Dettmers, Mike Lewis, Younes Belkada, and Luke Zettlemoyer. 2022. https://doi.org/10.48550/arXiv.2208.07339 Llm.int8(): 8-bit matrix multiplication for transformers at scale. CoRR, abs/2208.07339.",
+      "metadata": {
+        "title": "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale",
+        "authors": [
+          "Tim Dettmers",
+          "M. Lewis",
+          "Younes Belkada",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems 35",
+        "doi": "10.48550/arXiv.2208.07339",
+        "arxivId": "2208.07339",
+        "url": "https://doi.org/10.48550/arXiv.2208.07339"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-multinews",
+      "rawKey": "multinews",
+      "display": "[8]",
+      "raw": "Alexander R. Fabbri, Irene Li, Tianwei She, Suyi Li, and Dragomir R. Radev. 2019. https://doi.org/10.18653/v1/p19-1102 Multi-news: A large-scale multi-document summarization dataset and abstractive hierarchical model. In Proceedings of the 57th Conference of the Association for Computational Linguistics, ACL 2019, Florence, Italy, July 28- August 2, 2019, Volume 1: Long Papers, pages 1074--1084. Association for Computational Linguistics.",
+      "metadata": {
+        "title": "Multi-News: A Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model",
+        "authors": [
+          "Alexander R. Fabbri",
+          "Irene Li",
+          "Tian-Wei She",
+          "Su-Yi Li",
+          "Dragomir R. Radev"
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/p19-1102",
+        "arxivId": "1906.01749",
+        "url": "https://doi.org/10.18653/v1/p19-1102"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gptq",
+      "rawKey": "gptq",
+      "display": "[9]",
+      "raw": "Elias Frantar, Saleh Ashkboos, Torsten Hoefler, and Dan Alistarh. 2022. https://doi.org/10.48550/arXiv.2210.17323 GPTQ: accurate post-training quantization for generative pre-trained transformers. CoRR, abs/2210.17323.",
+      "metadata": {
+        "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+        "authors": [
+          "Elias Frantar",
+          "Saleh Ashkboos",
+          "T. Hoefler",
+          "Martin Jaggi"
+        ],
+        "year": 2022,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2210.17323",
+        "arxivId": "2210.17323",
+        "url": "https://doi.org/10.48550/arXiv.2210.17323"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xprof",
+      "rawKey": "xprof",
+      "display": "[10]",
+      "raw": "Google. 2020. Profile your model with cloud tpu tools. https://cloud.google.com/tpu/docs/cloud-tpu-tools. Accessed: 2022-11-11.",
+      "metadata": {
+        "title": "Profile your model with cloud tpu tools",
+        "authors": [
+          "Google"
+        ],
+        "year": 2020,
+        "venue": "https://cloud.google.com/tpu/docs/ cloud-tpu-tools. Accessed: 2022-11-11.",
+        "url": "https://cloud.google.com/tpu/docs/cloud-tpu-tools"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-distillsurvey",
+      "rawKey": "distillsurvey",
+      "display": "[11]",
+      "raw": "Jianping Gou, Baosheng Yu, Stephen J. Maybank, and Dacheng Tao. 2021. https://doi.org/10.1007/s11263-021-01453-z Knowledge distillation: A survey. Int. J. Comput. Vis., 129(6):1789--1819.",
+      "metadata": {
+        "title": "Knowledge Distillation: A Survey",
+        "authors": [
+          "Jian-Ping Gou",
+          "B. Yu",
+          "S. Maybank",
+          "D. Tao"
+        ],
+        "year": 2020,
+        "venue": "International Journal of Computer Vision",
+        "doi": "10.1007/s11263-021-01453-z",
+        "arxivId": "2006.05525",
+        "url": "https://doi.org/10.1007/s11263-021-01453-z"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-flax",
+      "rawKey": "flax",
+      "display": "[12]",
+      "raw": "Jonathan Heek, Anselm Levskaya, Avital Oliver, Marvin Ritter, Bertrand Rondepierre, Andreas Steiner, and Marc van Zee. 2020. http://github.com/google/flax Flax: A neural network library and ecosystem for JAX.",
+      "metadata": {
+        "title": "Flax: A neural network library and ecosystem for JAX",
+        "authors": [
+          "Jonathan Heek",
+          "Anselm Levskaya",
+          "Avital Oliver",
+          "Marvin Ritter",
+          "Bertrand Rondepierre",
+          "Andreas Steiner",
+          "Marc van Zee"
+        ],
+        "year": 2020,
+        "url": "http://github.com/google/flax"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-distill",
+      "rawKey": "distill",
+      "display": "[13]",
+      "raw": "Geoffrey E. Hinton, Oriol Vinyals, and Jeffrey Dean. 2015. http://arxiv.org/abs/1503.02531 Distilling the knowledge in a neural network. CoRR, abs/1503.02531.",
+      "metadata": {
+        "title": "Distilling the Knowledge in a Neural Network",
+        "authors": [
+          "Geoffrey E. Hinton",
+          "O. Vinyals",
+          "Jeffrey Dean"
+        ],
+        "year": 2015,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.1503.02531",
+        "arxivId": "1503.02531",
+        "url": "http://arxiv.org/abs/1503.02531"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-triviaqa",
+      "rawKey": "triviaqa",
+      "display": "[14]",
+      "raw": "Mandar Joshi, Eunsol Choi, Daniel S. Weld, and Luke Zettlemoyer. 2017. Triviaqa: A large scale distantly supervised challenge dataset for reading comprehension. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics, Vancouver, Canada. Association for Computational Linguistics.",
+      "metadata": {
+        "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+        "authors": [
+          "Mandar Joshi",
+          "Eunsol Choi",
+          "Daniel S. Weld",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2017,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P17-1147",
+        "arxivId": "1705.03551",
+        "url": "https://www.semanticscholar.org/paper/f010affab57b5fcf1cd6be23df79d8ec98c7289c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sparsemoe",
+      "rawKey": "sparsemoe",
+      "display": "[15]",
+      "raw": "Aran Komatsuzaki, Joan Puigcerver, James Lee-Thorp, Carlos Riquelme Ruiz, Basil Mustafa, Joshua Ainslie, Yi Tay, Mostafa Dehghani, and Neil Houlsby. 2022. https://doi.org/10.48550/ARXIV.2212.05055 Sparse upcycling: Training mixture-of-experts from dense checkpoints.",
+      "metadata": {
+        "title": "Sparse Upcycling: Training Mixture-of-Experts from Dense Checkpoints",
+        "authors": [
+          "Aran Komatsuzaki",
+          "J. Puigcerver",
+          "J. Lee-Thorp",
+          "Carlos Riquelme Ruiz",
+          "Basil Mustafa",
+          "Joshua Ainslie",
+          "Yi Tay",
+          "Mostafa Dehghani",
+          "N. Houlsby"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/ARXIV.2212.05055",
+        "arxivId": "2212.05055",
+        "url": "https://doi.org/10.48550/ARXIV.2212.05055"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-specleviathan",
+      "rawKey": "specleviathan",
+      "display": "[16]",
+      "raw": "Yaniv Leviathan, Matan Kalman, and Yossi Matias. 2022. https://doi.org/10.48550/arXiv.2211.17192 Fast inference from transformers via speculative decoding. CoRR, abs/2211.17192.",
+      "metadata": {
+        "title": "Fast Inference from Transformers via Speculative Decoding",
+        "authors": [
+          "Yaniv Leviathan",
+          "Matan Kalman",
+          "Yossi Matias"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2211.17192",
+        "arxivId": "2211.17192",
+        "url": "https://doi.org/10.48550/arXiv.2211.17192"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gmha",
+      "rawKey": "gmha",
+      "display": "[17]",
+      "raw": "Gen Luo, Yiyi Zhou, Xiaoshuai Sun, Yan Wang, Liujuan Cao, Yongjian Wu, Feiyue Huang, and Rongrong Ji. 2022. https://doi.org/10.1109/TIP.2021.3139234 Towards lightweight transformer via group-wise transformation for vision-and-language tasks. IEEE Trans. Image Process., 31:3386--3398.",
+      "metadata": {
+        "title": "Towards Lightweight Transformer Via Group-Wise Transformation for Vision-and-Language Tasks",
+        "authors": [
+          "Gen Luo",
+          "Yi-Yi Zhou",
+          "Xiao-Shuai Sun",
+          "Yan Wang",
+          "Liu-Juan Cao",
+          "Yong-Jian Wu",
+          "Fei-Yue Huang",
+          "Rong-Rong Ji"
+        ],
+        "year": 2022,
+        "venue": "IEEE Transactions on Image Processing",
+        "doi": "10.1109/TIP.2021.3139234",
+        "arxivId": "2204.07780",
+        "url": "https://doi.org/10.1109/TIP.2021.3139234"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cnn",
+      "rawKey": "cnn",
+      "display": "[18]",
+      "raw": "Ramesh Nallapati, Bowen Zhou, Ccero Nogueira dos Santos, Caglar Gulcehre, and Bing Xiang. 2016. https://doi.org/10.18653/v1/k16-1028 Abstractive text summarization using sequence-to-sequence rnns and beyond. In Proceedings of the 20th SIGNLL Conference on Computational Natural Language Learning, CoNLL 2016, Berlin, Germany, August 11-12, 2016, pages 280--290. ACL.",
+      "metadata": {
+        "title": "Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond",
+        "authors": [
+          "Ramesh Nallapati",
+          "Bowen Zhou",
+          "C. D. dos Santos",
+          "Çaglar Gülçehre",
+          "Bing Xiang"
+        ],
+        "year": 2016,
+        "venue": "Conference on Computational Natural Language Learning",
+        "doi": "10.18653/v1/k16-1028",
+        "arxivId": "1602.06023",
+        "url": "https://doi.org/10.18653/v1/k16-1028"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pillars",
+      "rawKey": "pillars",
+      "display": "[19]",
+      "raw": "Jinjie Ni, Rui Mao, Zonglin Yang, Han Lei, and Erik Cambria. 2023. https://doi.org/10.18653/V1/2023.ACL-LONG.812 Finding the pillars of strength for multi-head attention. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), ACL 2023, Toronto, Canada, July 9-14, 2023, pages 14526--14540. Association for Computational Linguistics.",
+      "metadata": {
+        "title": "Finding the Pillars of Strength for Multi-Head Attention",
+        "authors": [
+          "Jinjie Ni",
+          "Rui Mao",
+          "Zonglin Yang",
+          "Han Lei",
+          "Erik Cambria"
+        ],
+        "year": 2023,
+        "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), ACL 2023, Toronto, Canada, July 9-14, 2023",
+        "doi": "10.18653/V1/2023.ACL-LONG.812",
+        "url": "https://doi.org/10.18653/V1/2023.ACL-LONG.812"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-grouptrans",
+      "rawKey": "grouptrans",
+      "display": "[20]",
+      "raw": "Sungrae Park, Geewook Kim, Junyeop Lee, Junbum Cha, Ji-Hoon Kim, and Hwalsuk Lee. 2020. https://doi.org/10.18653/V1/2020.COLING-MAIN.607 Scale down transformer by grouping features for a lightweight character-level language model. In Proceedings of the 28th International Conference on Computational Linguistics, COLING 2020, Barcelona, Spain (Online), December 8-13, 2020, pages 6883--6893. International Committee on Computational Linguistics.",
+      "metadata": {
+        "title": "Scale down Transformer by Grouping Features for a Lightweight Character-level Language Model",
+        "authors": [
+          "Sungrae Park",
+          "Geewook Kim",
+          "Junyeop Lee",
+          "Junbum Cha",
+          "Ji-Hoon Kim",
+          "Hwalsuk Lee"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Computational Linguistics",
+        "doi": "10.18653/V1/2020.COLING-MAIN.607",
+        "url": "https://doi.org/10.18653/V1/2020.COLING-MAIN.607"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-palminference",
+      "rawKey": "palminference",
+      "display": "[21]",
+      "raw": "Reiner Pope, Sholto Douglas, Aakanksha Chowdhery, Jacob Devlin, James Bradbury, Anselm Levskaya, Jonathan Heek, Kefan Xiao, Shivani Agrawal, and Jeff Dean. 2022. Efficiently scaling transformer inference. arXiv preprint arXiv:2211.05102.",
+      "metadata": {
+        "title": "Efficiently Scaling Transformer Inference",
+        "authors": [
+          "Reiner Pope",
+          "Sholto Douglas",
+          "A. Chowdhery",
+          "J. Devlin",
+          "James Bradbury",
+          "Anselm Levskaya",
+          "Jonathan Heek",
+          "Ke-Fan Xiao",
+          "Shivani Agrawal",
+          "J. Dean"
+        ],
+        "year": 2022,
+        "venue": "Conference on Machine Learning and Systems",
+        "doi": "10.48550/arXiv.2211.05102",
+        "arxivId": "2211.05102",
+        "url": "https://www.semanticscholar.org/paper/379e42895f6d40ab9e9559609f505aba89145a5d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gqamrabe",
+      "rawKey": "gqamrabe",
+      "display": "[22]",
+      "raw": "Markus Rabe. 2023. Memory-efficient attention. https://github.com/google/flaxformer/blob/main/flaxformer/components/attention/memory_efficient_attention.py. Accessed: 2023-05-23.",
+      "metadata": {
+        "title": "2023. Memory-efficient attention",
+        "authors": [
+          "Markus Rabe"
+        ],
+        "year": 2023,
+        "venue": ":/",
+        "url": "https://github.com/google/flaxformer/blob/main/flaxformer/components/attention/memory_efficient_attention.py"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-t5",
+      "rawKey": "t5",
+      "display": "[23]",
+      "raw": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. 2020. http://jmlr.org/papers/v21/20-074.html Exploring the limits of transfer learning with a unified text-to-text transformer. J. Mach. Learn. Res., 21:140:1--140:67.",
+      "metadata": {
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "authors": [
+          "Colin A. Raffel",
+          "Noam Shazeer",
+          "Adam Roberts",
+          "Katherine Lee",
+          "Sharan Narang",
+          "Michael Matena",
+          "Yan-Qi Zhou",
+          "Wei Li",
+          "Peter J. Liu"
+        ],
+        "year": 2019,
+        "venue": "Journal of machine learning research",
+        "doi": "10.48550/arXiv.1910.10683",
+        "arxivId": "1910.10683",
+        "url": "http://jmlr.org/papers/v21/20-074.html"
+      },
+      "localMatch": {
+        "paperPath": "papers/1910.10683",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shazeer2019mq",
+      "rawKey": "shazeer2019mq",
+      "display": "[24]",
+      "raw": "Noam Shazeer. 2019. Fast transformer decoding: One write-head is all you need. arXiv preprint arXiv:1911.02150.",
+      "metadata": {
+        "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+        "authors": [
+          "Noam Shazeer"
+        ],
+        "year": 2019,
+        "venue": "arXiv preprint arXiv:1911.02150",
+        "doi": "10.48550/arXiv.1911.02150",
+        "arxivId": "1911.02150",
+        "url": "https://www.semanticscholar.org/paper/dc52b09089704ebd6f471177474bc29741c50023"
+      },
+      "localMatch": {
+        "paperPath": "papers/1911.02150",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-llama",
+      "rawKey": "llama",
+      "display": "[25]",
+      "raw": "Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, TimothÃe Lacroix, Baptiste RoziÃre, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, and Guillaume Lample. 2023. https://doi.org/10.48550/ARXIV.2302.13971 Llama: Open and efficient foundation language models.",
+      "metadata": {
+        "title": "LLaMA: Open and Efficient Foundation Language Models",
+        "authors": [
+          "Hugo Touvron",
+          "Thibaut Lavril",
+          "Gautier Izacard",
+          "X. Martinet",
+          "M. Lachaux",
+          "Timothée Lacroix",
+          "Baptiste Rozière",
+          "Naman Goyal",
+          "Eric Hambro",
+          "Faisal Azhar",
+          "Aurélien Rodriguez",
+          "A. Joulin",
+          "E. Grave",
+          "Guillaume Lample"
+        ],
+        "year": 2023,
+        "doi": "10.48550/ARXIV.2302.13971",
+        "arxivId": "2302.13971",
+        "url": "https://doi.org/10.48550/ARXIV.2302.13971"
+      },
+      "localMatch": {
+        "paperPath": "papers/2302.13971",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-glue",
+      "rawKey": "glue",
+      "display": "[26]",
+      "raw": "Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R. Bowman. 2019. https://openreview.net/forum?id=rJ4km2R5t7 GLUE: A multi-task benchmark and analysis platform for natural language understanding. In 7th International Conference on Learning Representations, ICLR 2019, New Orleans, LA, USA, May 6-9, 2019. OpenReview.net.",
+      "metadata": {
+        "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+        "authors": [
+          "Alex Wang",
+          "Amanpreet Singh",
+          "Julian Michael",
+          "F. Hill",
+          "Omer Levy",
+          "Samuel R. Bowman"
+        ],
+        "year": 2018,
+        "venue": "BlackboxNLP@EMNLP",
+        "doi": "10.18653/v1/W18-5446",
+        "arxivId": "1804.07461",
+        "url": "https://openreview.net/forum?id=rJ4km2R5t7"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-roofline",
+      "rawKey": "roofline",
+      "display": "[27]",
+      "raw": "Samuel Williams, Andrew Waterman, and David A. Patterson. 2009. https://doi.org/10.1145/1498765.1498785 Roofline: an insightful visual performance model for multicore architectures. Commun. ACM, 52(4):65--76.",
+      "metadata": {
+        "title": "Roofline: an insightful visual performance model for multicore architectures",
+        "authors": [
+          "Samuel Williams",
+          "Andrew Waterman",
+          "David A. Patterson"
+        ],
+        "year": 2009,
+        "venue": "Commun. ACM",
+        "doi": "10.1145/1498765.1498785",
+        "url": "https://doi.org/10.1145/1498765.1498785"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mediasum",
+      "rawKey": "mediasum",
+      "display": "[28]",
+      "raw": "Chenguang Zhu, Yang Liu, Jie Mei, and Michael Zeng. 2021. https://doi.org/10.18653/v1/2021.naacl-main.474 Mediasum: A large-scale media interview dataset for dialogue summarization. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL-HLT 2021, Online, June 6-11, 2021, pages 5927--5934. Association for Computational Linguistics.",
+      "metadata": {
+        "title": "MediaSum: A Large-scale Media Interview Dataset for Dialogue Summarization",
+        "authors": [
+          "Chenguang Zhu",
+          "Yang Liu",
+          "Jie Mei",
+          "Michael Zeng"
+        ],
+        "year": 2021,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2021.naacl-main.474",
+        "arxivId": "2103.06410",
+        "url": "https://doi.org/10.18653/v1/2021.naacl-main.474"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 28 entries (bbl)",
+    "semantic scholar: 31 references",
+    "merged: 27 of 28 enriched online"
+  ]
+}

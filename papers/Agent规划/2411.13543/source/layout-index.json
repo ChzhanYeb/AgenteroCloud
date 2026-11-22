@@ -1,0 +1,754 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-17T14:07:21.535Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "figure-1",
+      "stableKey": "p2:figure:Figure 1: An overview of the BALROG Benchmark for evaluating LLMs on long-contex",
+      "kind": "image",
+      "section": "figure",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.17175295462016188,
+        "y": 0.10455455202044862,
+        "w": 0.6563408296871809,
+        "h": 0.40280064669522375
+      },
+      "score": 0.827303409576416,
+      "title": "Figure 1: An overview of the BALROG Benchmark for evaluating LLMs on long-context in teractive tasks . Submissions of new inference-time methods for improving the capabilities of an existing model via an “agentic strategy” need only modify the agent.py file. Similarly, bench marking a new model zero-shot can be done by adjusting a configuration file in client.py . The agent class includes a prompt builder to manage observation history, and a client that abstracts the complexities of various APIs and model-serving frameworks. The env wrapper.py file standard izes interaction across settings, and the evaluator executes agents and collects performance metrics.",
+      "layoutRegionId": "c4fc8968-6678-434d-9a2c-8db3432e8979"
+    },
+    {
+      "id": "figure-2",
+      "stableKey": "p6:figure:Figure 2: Baselines for BALROG . We evaluate the zero-shot performance of seven ",
+      "kind": "chart",
+      "section": "figure",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.173572004230973,
+        "y": 0.12628263415712299,
+        "w": 0.6541299882277943,
+        "h": 0.37871962845927537
+      },
+      "score": 0.9166627526283264,
+      "title": "Figure 2: Baselines for BALROG . We evaluate the zero-shot performance of seven state-of-the-art and long-context LLMs and VLMs on BALROG. During each timestep of interaction, models are prompted to output the next in-game action conditioned on past interaction history. Standard error is obtained by running multiple replicate seeds, as detailed in the Appendix.",
+      "layoutRegionId": "020c8e70-23de-41bc-a3e9-6c94e7769627"
+    },
+    {
+      "id": "figure-p19-0180_0187_0061_0045",
+      "stableKey": "p19:figure:0.180_0.187_0.061_0.045",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.17973687913682726,
+        "y": 0.18677780844948508,
+        "w": 0.0612543766794641,
+        "h": 0.045461462001607875
+      },
+      "score": 0.48574715852737427,
+      "layoutRegionId": "5ae4bb30-8ede-482b-8e10-088a7ea75552"
+    },
+    {
+      "id": "figure-p19-0179_0382_0062_0046",
+      "stableKey": "p19:figure:0.179_0.382_0.062_0.046",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.1791382583917356,
+        "y": 0.38235153814758915,
+        "w": 0.06194402657303156,
+        "h": 0.045895778771602745
+      },
+      "score": 0.6867179870605469,
+      "layoutRegionId": "c1b58928-bede-4ad0-bc3d-6f716f4d642a"
+    },
+    {
+      "id": "figure-p19-0633_0363_0106_0086",
+      "stableKey": "p19:figure:0.633_0.363_0.106_0.086",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.6330474155401092,
+        "y": 0.3634005459872159,
+        "w": 0.10601986155790441,
+        "h": 0.08593696054786143
+      },
+      "score": 0.6727535128593445,
+      "layoutRegionId": "4ede8ba0-50ce-4459-a2c9-608bbec62ac3"
+    },
+    {
+      "id": "figure-3",
+      "stableKey": "p19:figure:Figure 3: Crafter’s examples of unique procedurally generated maps.",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.17364813611398336,
+        "y": 0.7326343420780066,
+        "w": 0.6516009312050016,
+        "h": 0.18230862087673616
+      },
+      "score": 0.9466009140014648,
+      "title": "Figure 3: Crafter’s examples of unique procedurally generated maps.",
+      "layoutRegionId": "20275f06-63de-4b6f-be45-81343ebf81d0"
+    },
+    {
+      "id": "figure-p21-0179_0423_0062_0046",
+      "stableKey": "p21:figure:0.179_0.423_0.062_0.046",
+      "kind": "image",
+      "section": "figure",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.1790388768015344,
+        "y": 0.4227751914900963,
+        "w": 0.06215084300321691,
+        "h": 0.046465709956005366
+      },
+      "score": 0.7187296152114868,
+      "layoutRegionId": "2339a568-2c59-4148-a126-3bef3f5b8e10"
+    },
+    {
+      "id": "figure-p21-0180_0796_0060_0045",
+      "stableKey": "p21:figure:0.180_0.796_0.060_0.045",
+      "kind": "image",
+      "section": "figure",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.1798100191004136,
+        "y": 0.795874085089173,
+        "w": 0.05969397850285948,
+        "h": 0.04461839463975695
+      },
+      "score": 0.7128748893737793,
+      "layoutRegionId": "918e1e72-a331-40a7-9170-5c496205b476"
+    },
+    {
+      "id": "figure-p21-0634_0779_0104_0080",
+      "stableKey": "p21:figure:0.634_0.779_0.104_0.080",
+      "kind": "image",
+      "section": "figure",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.6341425079146242,
+        "y": 0.7791671752929688,
+        "w": 0.10371079787709354,
+        "h": 0.08017877135613952
+      },
+      "score": 0.9165185689926147,
+      "layoutRegionId": "9e776cf9-9dfb-44aa-8493-81ed0a6bcf5a"
+    },
+    {
+      "id": "figure-4",
+      "stableKey": "p22:figure:Figure 4: Crafter’s example of 3d scene visualization with Minecraft 3d models a",
+      "kind": "image",
+      "section": "figure",
+      "page": 22,
+      "pageIndex": 21,
+      "bbox": {
+        "x": 0.1938805922963261,
+        "y": 0.4998629020922112,
+        "w": 0.6096033582500384,
+        "h": 0.3285120183771306
+      },
+      "score": 0.9771959185600281,
+      "title": "Figure 4: Crafter’s example of 3d scene visualization with Minecraft 3d models and textures.",
+      "layoutRegionId": "a87593c2-8282-4aea-956d-d11492879ad9"
+    },
+    {
+      "id": "figure-5",
+      "stableKey": "p24:figure:Figure 5: TextWorld interface along with visualization.",
+      "kind": "image",
+      "section": "figure",
+      "page": 24,
+      "pageIndex": 23,
+      "bbox": {
+        "x": 0.17632569207085502,
+        "y": 0.1049639576613301,
+        "w": 0.6445845934300641,
+        "h": 0.28404931347779555
+      },
+      "score": 0.8529964685440063,
+      "title": "Figure 5: TextWorld interface along with visualization.",
+      "layoutRegionId": "29d86605-1cfc-4878-9392-34195149e806"
+    },
+    {
+      "id": "figure-p25-0178_0373_0064_0047",
+      "stableKey": "p25:figure:0.178_0.373_0.064_0.047",
+      "kind": "image",
+      "section": "figure",
+      "page": 25,
+      "pageIndex": 24,
+      "bbox": {
+        "x": 0.17842454847946665,
+        "y": 0.37319649590386283,
+        "w": 0.06351355010387945,
+        "h": 0.047447512848208646
+      },
+      "score": 0.6246322393417358,
+      "layoutRegionId": "6e6fe8a9-a9a1-41a1-9ebf-90d8e3e5f07d"
+    },
+    {
+      "id": "figure-p25-0174_0690_0138_0164",
+      "stableKey": "p25:figure:D B ABA I S AI",
+      "kind": "image",
+      "section": "figure",
+      "page": 25,
+      "pageIndex": 24,
+      "bbox": {
+        "x": 0.17434290966956445,
+        "y": 0.6903424503827336,
+        "w": 0.13787951500587214,
+        "h": 0.16360650881372318
+      },
+      "score": 0.7957698106765747,
+      "title": "D B ABA I S AI",
+      "layoutRegionId": "62bb5e6a-b932-48b5-9a9b-6b72ea112d2b"
+    },
+    {
+      "id": "figure-6",
+      "stableKey": "p26:figure:Figure 6: One of the Baba Is AI puzzles, where the agent has to break the “wall ",
+      "kind": "image",
+      "section": "figure",
+      "page": 26,
+      "pageIndex": 25,
+      "bbox": {
+        "x": 0.172201518139808,
+        "y": 0.205207651311701,
+        "w": 0.654678244995915,
+        "h": 0.19578141877145483
+      },
+      "score": 0.8710526823997498,
+      "title": "Figure 6: One of the Baba Is AI puzzles, where the agent has to break the “wall is stop” rule, create new rule “door is win” and go to green door to solve the task.",
+      "layoutRegionId": "0c584641-4170-4536-895a-c0eaf158b9be"
+    },
+    {
+      "id": "figure-p27-0179_0482_0061_0046",
+      "stableKey": "p27:figure:0.179_0.482_0.061_0.046",
+      "kind": "image",
+      "section": "figure",
+      "page": 27,
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.17912955689274407,
+        "y": 0.4824781321515941,
+        "w": 0.06135728624131945,
+        "h": 0.04612805144955413
+      },
+      "score": 0.7461296916007996,
+      "layoutRegionId": "eebf52ed-7814-43fe-84e8-f6119b8c024a"
+    },
+    {
+      "id": "figure-p27-0641_0467_0097_0076",
+      "stableKey": "p27:figure:0.641_0.467_0.097_0.076",
+      "kind": "image",
+      "section": "figure",
+      "page": 27,
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.6408767700195312,
+        "y": 0.46747330944947524,
+        "w": 0.09666527642144097,
+        "h": 0.07630862611712831
+      },
+      "score": 0.6954573392868042,
+      "layoutRegionId": "e234ecc8-8d94-4381-8b48-1a1fbf47e165"
+    },
+    {
+      "id": "figure-7",
+      "stableKey": "p28:figure:Figure 7: Examples of MiniHack Corridor task.",
+      "kind": "image",
+      "section": "figure",
+      "page": 28,
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.17422580095677595,
+        "y": 0.16237050836736505,
+        "w": 0.649918450249566,
+        "h": 0.16007423400878906
+      },
+      "score": 0.9428616762161255,
+      "title": "Figure 7: Examples of MiniHack Corridor task.",
+      "layoutRegionId": "b552b7ef-517b-4e0a-92f7-7e37583136ed"
+    },
+    {
+      "id": "figure-8",
+      "stableKey": "p28:figure:Figure 8: Example of MiniHack CorridorBattle task.",
+      "kind": "image",
+      "section": "figure",
+      "page": 28,
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.1747448491115196,
+        "y": 0.36140622996320626,
+        "w": 0.6474379495857587,
+        "h": 0.1032369209058357
+      },
+      "score": 0.9165366888046265,
+      "title": "Figure 8: Example of MiniHack CorridorBattle task.",
+      "layoutRegionId": "a5795ced-5be8-4a80-949f-0d944dd57b2a"
+    },
+    {
+      "id": "figure-9",
+      "stableKey": "p28:figure:Figure 9: Example of MiniHack Quest Easy task.",
+      "kind": "image",
+      "section": "figure",
+      "page": 28,
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.17206018734601589,
+        "y": 0.5827913765955453,
+        "w": 0.6534225987453087,
+        "h": 0.15987500277432531
+      },
+      "score": 0.8761111497879028,
+      "title": "Figure 9: Example of MiniHack Quest Easy task.",
+      "layoutRegionId": "85747305-7f77-4223-b929-7f8a1dee9491"
+    },
+    {
+      "id": "figure-10",
+      "stableKey": "p29:figure:Figure 10: Example of MiniHack Boxoban Hard task.",
+      "kind": "image",
+      "section": "figure",
+      "page": 29,
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.32130611644071694,
+        "y": 0.10410336773804944,
+        "w": 0.35620536056219365,
+        "h": 0.17819800521388196
+      },
+      "score": 0.9406638145446777,
+      "title": "Figure 10: Example of MiniHack Boxoban Hard task.",
+      "layoutRegionId": "b3701d1f-9adb-4ba4-b7bb-c43ca6961925"
+    },
+    {
+      "id": "figure-p30-0179_0680_0062_0045",
+      "stableKey": "p30:figure:0.179_0.680_0.062_0.045",
+      "kind": "image",
+      "section": "figure",
+      "page": 30,
+      "pageIndex": 29,
+      "bbox": {
+        "x": 0.17915152256784875,
+        "y": 0.6804776432538273,
+        "w": 0.0616254370196972,
+        "h": 0.04539312497533933
+      },
+      "score": 0.6195871233940125,
+      "layoutRegionId": "64088c66-91e3-48cc-8a8a-2d2b544c1ad0"
+    },
+    {
+      "id": "figure-p32-0173_0365_0321_0480",
+      "stableKey": "p32:figure:F.2 N EW N ET H ACK P ROGRESSION S YSTEM",
+      "kind": "chart",
+      "section": "figure",
+      "page": 32,
+      "pageIndex": 31,
+      "bbox": {
+        "x": 0.17287568485035615,
+        "y": 0.3648274739583333,
+        "w": 0.3212404064103669,
+        "h": 0.47969479031032997
+      },
+      "score": 0.8466513156890869,
+      "title": "F.2 N EW N ET H ACK P ROGRESSION S YSTEM",
+      "layoutRegionId": "80e3755f-263a-46a2-ad1f-1c98ec22b63d"
+    },
+    {
+      "id": "figure-11",
+      "stableKey": "p32:figure:Figure 11",
+      "kind": "chart",
+      "section": "figure",
+      "page": 32,
+      "pageIndex": 31,
+      "bbox": {
+        "x": 0.46492453182444854,
+        "y": 0.3646288014421559,
+        "w": 0.355477725758272,
+        "h": 0.4389498161547112
+      },
+      "score": 0.8742998242378235,
+      "title": "Figure 11",
+      "layoutRegionId": "5ad9610b-172e-4c54-92d2-d0b5148d7dca"
+    },
+    {
+      "id": "figure-p34-0178_0487_0063_0047",
+      "stableKey": "p34:figure:0.178_0.487_0.063_0.047",
+      "kind": "image",
+      "section": "figure",
+      "page": 34,
+      "pageIndex": 33,
+      "bbox": {
+        "x": 0.1784819808660769,
+        "y": 0.48745149554628314,
+        "w": 0.06264642952314389,
+        "h": 0.04734729034732087
+      },
+      "score": 0.6383185386657715,
+      "layoutRegionId": "22387958-372e-433d-bd64-2de93f2e82f5"
+    },
+    {
+      "id": "figure-p35-0180_0374_0060_0046",
+      "stableKey": "p35:figure:0.180_0.374_0.060_0.046",
+      "kind": "image",
+      "section": "figure",
+      "page": 35,
+      "pageIndex": 34,
+      "bbox": {
+        "x": 0.17983470243566177,
+        "y": 0.37351631395744556,
+        "w": 0.060471977283752046,
+        "h": 0.04574715970742582
+      },
+      "score": 0.5350432395935059,
+      "layoutRegionId": "bba50ce3-4eb3-4741-9ce9-bd47a885c6fa"
+    },
+    {
+      "id": "figure-p35-0634_0375_0104_0043",
+      "stableKey": "p35:figure:0.634_0.375_0.104_0.043",
+      "kind": "image",
+      "section": "figure",
+      "page": 35,
+      "pageIndex": 34,
+      "bbox": {
+        "x": 0.6344122793160233,
+        "y": 0.37515358973031093,
+        "w": 0.10350704816431781,
+        "h": 0.04250670924331203
+      },
+      "score": 0.5473962426185608,
+      "layoutRegionId": "c08a467c-1961-4c5a-bcd8-518e2f4ac4e0"
+    },
+    {
+      "id": "figure-p35-0618_0704_0190_0039",
+      "stableKey": "p35:figure:0.618_0.704_0.190_0.039",
+      "kind": "image",
+      "section": "figure",
+      "page": 35,
+      "pageIndex": 34,
+      "bbox": {
+        "x": 0.6184278500625511,
+        "y": 0.7038259795217803,
+        "w": 0.19016470316967932,
+        "h": 0.039499456232244316
+      },
+      "score": 0.3146744966506958,
+      "layoutRegionId": "dce483b6-e33b-4652-89a4-1d15366d3646"
+    },
+    {
+      "id": "table-1",
+      "stableKey": "p4:table:Table 1: The tested skills, time horizons, and complexities of interactive decis",
+      "kind": "table",
+      "section": "table",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.17349039962868285,
+        "y": 0.10202142927381727,
+        "w": 0.6524537903031492,
+        "h": 0.21392657540061258
+      },
+      "score": 0.9571833610534668,
+      "title": "Table 1: The tested skills, time horizons, and complexities of interactive decision-making tasks evaluated in BALROG . Compared to existing benchmarks, BALROG provides infrastructure for evaluating model reasoning and decision-making on harder, longer time-horizon interactive settings. The evaluated tasks span a range of difficulties.",
+      "layoutRegionId": "c357295e-8852-4486-8c0d-e32f73a426a3"
+    },
+    {
+      "id": "table-3",
+      "stableKey": "p7:table:Table 3: Vision-Language Performance",
+      "kind": "table",
+      "section": "table",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.5170157937442555,
+        "y": 0.31847360399034286,
+        "w": 0.29749657126034,
+        "h": 0.15039723328869758
+      },
+      "score": 0.9411320686340332,
+      "title": "Table 3: Vision-Language Performance",
+      "layoutRegionId": "b4cfed00-5c6e-465c-9adb-ef682f6403cf"
+    },
+    {
+      "id": "table-2",
+      "stableKey": "p7:table:Table 2: Language-Only Performance",
+      "kind": "table",
+      "section": "table",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.187150269551994,
+        "y": 0.3183733814894551,
+        "w": 0.297273598465265,
+        "h": 0.22050077264959161
+      },
+      "score": 0.9609998464584351,
+      "title": "Table 2: Language-Only Performance",
+      "layoutRegionId": "164322a5-6feb-4a09-a904-3dfae95f25e2"
+    },
+    {
+      "id": "table-p18-0522_0630_0296_0113",
+      "stableKey": "p18:table:0.522_0.630_0.296_0.113",
+      "kind": "table",
+      "section": "table",
+      "page": 18,
+      "pageIndex": 17,
+      "bbox": {
+        "x": 0.5216708214454402,
+        "y": 0.6299092841870857,
+        "w": 0.2955816929636438,
+        "h": 0.11313247680664062
+      },
+      "score": 0.8626067638397217,
+      "layoutRegionId": "6ea825b8-7fe6-4af4-9701-75788ad07d6c"
+    },
+    {
+      "id": "table-p18-0187_0629_0298_0185",
+      "stableKey": "p18:table:0.187_0.629_0.298_0.185",
+      "kind": "table",
+      "section": "table",
+      "page": 18,
+      "pageIndex": 17,
+      "bbox": {
+        "x": 0.1866705776040071,
+        "y": 0.6286357532848011,
+        "w": 0.29756469975889116,
+        "h": 0.18503478079131155
+      },
+      "score": 0.9101724624633789,
+      "layoutRegionId": "bade557e-1724-4099-b590-2ae3aa48dd76"
+    },
+    {
+      "id": "table-7",
+      "stableKey": "p20:table:Table 7: VLM Performance on crafter",
+      "kind": "table",
+      "section": "table",
+      "page": 20,
+      "pageIndex": 19,
+      "bbox": {
+        "x": 0.522730359844133,
+        "y": 0.49069541391700205,
+        "w": 0.278269400004468,
+        "h": 0.1401507445056029
+      },
+      "score": 0.9292855262756348,
+      "title": "Table 7: VLM Performance on crafter",
+      "layoutRegionId": "2d5086a3-cfc4-41c7-a4c7-65666bc88a09"
+    },
+    {
+      "id": "table-6",
+      "stableKey": "p20:table:Table 6: LLM Performance on crafter",
+      "kind": "table",
+      "section": "table",
+      "page": 20,
+      "pageIndex": 19,
+      "bbox": {
+        "x": 0.18804713479833665,
+        "y": 0.4905847491640033,
+        "w": 0.2953658633761935,
+        "h": 0.2110754070859967
+      },
+      "score": 0.9440397024154663,
+      "title": "Table 6: LLM Performance on crafter",
+      "layoutRegionId": "18d20a5e-10ca-4291-8be4-d83220a698f9"
+    },
+    {
+      "id": "table-8",
+      "stableKey": "p23:table:Table 8: Average Progress of VLMs in Crafter Across Rendering Types",
+      "kind": "table",
+      "section": "table",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.2641489614848218,
+        "y": 0.10204944225272747,
+        "w": 0.4712477789984809,
+        "h": 0.14003153521605213
+      },
+      "score": 0.9497930407524109,
+      "title": "Table 8: Average Progress of VLMs in Crafter Across Rendering Types",
+      "layoutRegionId": "331654e8-ead7-485e-a2f1-d281900659d3"
+    },
+    {
+      "id": "table-9",
+      "stableKey": "p24:table:Table 9: LLM Performance on textworld",
+      "kind": "table",
+      "section": "table",
+      "page": 24,
+      "pageIndex": 23,
+      "bbox": {
+        "x": 0.3552194732466554,
+        "y": 0.5343966628565933,
+        "w": 0.29302300347222227,
+        "h": 0.2095983871305832
+      },
+      "score": 0.9346109628677368,
+      "title": "Table 9: LLM Performance on textworld",
+      "layoutRegionId": "eed6d0f5-23e6-4b2a-8e11-ffe72fbde070"
+    },
+    {
+      "id": "table-p26-0523_0704_0294_0114",
+      "stableKey": "p26:table:0.523_0.704_0.294_0.114",
+      "kind": "table",
+      "section": "table",
+      "page": 26,
+      "pageIndex": 25,
+      "bbox": {
+        "x": 0.5229159585790697,
+        "y": 0.704497597434304,
+        "w": 0.29407571032156354,
+        "h": 0.11385453349412089
+      },
+      "score": 0.9431025981903076,
+      "layoutRegionId": "0395bf32-e2e2-4a1a-ba90-734a8fb217a3"
+    },
+    {
+      "id": "table-p26-0187_0704_0295_0185",
+      "stableKey": "p26:table:0.187_0.704_0.295_0.185",
+      "kind": "table",
+      "section": "table",
+      "page": 26,
+      "pageIndex": 25,
+      "bbox": {
+        "x": 0.18746322432374643,
+        "y": 0.7037070688575205,
+        "w": 0.294980292226754,
+        "h": 0.1847026324031329
+      },
+      "score": 0.959242045879364,
+      "layoutRegionId": "d0dd09ec-7d95-42ae-9c92-5cc9c62ab0e5"
+    },
+    {
+      "id": "table-13",
+      "stableKey": "p29:table:Table 13: VLM Performance on minihack",
+      "kind": "table",
+      "section": "table",
+      "page": 29,
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.5235964207867392,
+        "y": 0.48014781450984456,
+        "w": 0.2937340829886642,
+        "h": 0.1400973002115885
+      },
+      "score": 0.9403359293937683,
+      "title": "Table 13: VLM Performance on minihack",
+      "layoutRegionId": "3f0151fe-bc89-4946-a4d2-81cf7a0ca125"
+    },
+    {
+      "id": "table-p29-0188_0508_0297_0183",
+      "stableKey": "p29:table:0.188_0.508_0.297_0.183",
+      "kind": "table",
+      "section": "table",
+      "page": 29,
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.18799673342237286,
+        "y": 0.5081288886792732,
+        "w": 0.2969665776670369,
+        "h": 0.18281574441929055
+      },
+      "score": 0.9584279656410217,
+      "layoutRegionId": "a3e9e768-a5e7-4763-9f6c-770f4d82d1c8"
+    },
+    {
+      "id": "table-15",
+      "stableKey": "p33:table:Table 15: VLM Performance on nle",
+      "kind": "table",
+      "section": "table",
+      "page": 33,
+      "pageIndex": 32,
+      "bbox": {
+        "x": 0.5247028824550654,
+        "y": 0.356000071824199,
+        "w": 0.29345239377489285,
+        "h": 0.14084582858615452
+      },
+      "score": 0.9352409839630127,
+      "title": "Table 15: VLM Performance on nle",
+      "layoutRegionId": "0a6387c9-2692-4709-88c9-0552450203a4"
+    },
+    {
+      "id": "table-14",
+      "stableKey": "p33:table:Table 14: LLM Performance on nle",
+      "kind": "table",
+      "section": "table",
+      "page": 33,
+      "pageIndex": 32,
+      "bbox": {
+        "x": 0.18809536703271804,
+        "y": 0.3559576862990254,
+        "w": 0.2956568649391723,
+        "h": 0.22483621462427
+      },
+      "score": 0.9582351446151733,
+      "title": "Table 14: LLM Performance on nle",
+      "layoutRegionId": "ae881f6c-21ca-499f-aba0-43f27426c149"
+    },
+    {
+      "id": "table-p36-0256_0301_0488_0374",
+      "stableKey": "p36:table:0.256_0.301_0.488_0.374",
+      "kind": "table",
+      "section": "table",
+      "page": 36,
+      "pageIndex": 35,
+      "bbox": {
+        "x": 0.2562083076028263,
+        "y": 0.3010239841962101,
+        "w": 0.48812175576203787,
+        "h": 0.37350342490456323
+      },
+      "score": 0.9752995371818542,
+      "layoutRegionId": "a6a87e1a-27c8-4980-ba2c-84d8328198da"
+    },
+    {
+      "id": "algorithm-p2-0181_0301_0318_0094",
+      "stableKey": "p2:algorithm:0.181_0.301_0.318_0.094",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.18051066429786433,
+        "y": 0.3008276814162129,
+        "w": 0.3175464829588248,
+        "h": 0.09409390073834044
+      },
+      "score": 0.6065461039543152,
+      "layoutRegionId": "9fe6f83f-9055-4370-a25b-422139cfc63b"
+    },
+    {
+      "id": "algorithm-p2-0506_0302_0316_0094",
+      "stableKey": "p2:algorithm:0.506_0.302_0.316_0.094",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.5059014613332312,
+        "y": 0.3015248269745798,
+        "w": 0.3158838608685662,
+        "h": 0.09412913852267796
+      },
+      "score": 0.30752697587013245,
+      "layoutRegionId": "e1443501-b265-4ea7-9113-a15004015e59"
+    }
+  ]
+}

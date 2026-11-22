@@ -1,0 +1,502 @@
+\section{Training Data Attribution}
+\label{sec:influence-functions}
+
+
+
+
+
+
+
+
+
+
+For a model behaviour of interest, Sections~\ref{sec:sae}--\ref{sec:training} study the internal features, components, and their interactions and evolutions that produce the behaviour. Training data attribution (TDA) shifts the focus from model internals to training data, searching for training samples that strongly shaped the model behaviour. TDA applications include, but are not limited to, identifying influential training samples, detecting train--test leakage, and diagnosing model failures without retraining~(\citeestalp{liu2025olmotrace, park2023trakattributingmodelbehavior}; \citeemalp{grosse2023studyinglargelanguagemodel}). Although TDA is not generally a mechanistic method under this survey’s criteria, it can complement mechanistic interpretability in many ways. For example, by revealing how specific training samples shape malicious behaviour, TDA can enable effective training data filtering to prevent unwanted behaviours or even their internal mechanisms from forming during the training of next-generation models. Motivated by this application, this section focuses on post-hoc training data attribution methods that link a given target model’s behaviour to its training samples. This section excludes techniques for intervening in the data pipeline, such as filtering pretraining corpora, rebalancing demographic representation, and scheduling memorisation.
+
+TDA falls into two complementary approaches. \emph{Verbatim data attribution} detects explicit memorisation by identifying exact or near-exact string matches between model outputs and the training corpus. These searches can scale to trillions of tokens using techniques such as suffix arrays and infini-gram models. \emph{Gradient-based data attribution} estimates how training samples affect model parameters and predictions and can capture influential samples that do not manifest as verbatim reproduction. The two types of methods provide orthogonal views: one answers ``did the model use rote memorisation on a training sample to answer this question?''; the other answers ``how much did this training sample influence this certain behaviour of this model?''
+
+\subsection{Verbatim Data Attribution: OLMoTrace and Maximal Matching Spans}
+
+
+
+Earlier corpus search tools such as the ROOTS Search Tool~\citeest{piktus-etal-2023-roots} and GAIA Search~\citeest{piktus2023gaia} established the practice of querying pretraining corpora for transparency and data exploration. OLMoTrace~\citeest{liu2025olmotrace} scales this to trillions of tokens using a combination of suffix arrays, infini-gram models, and maximal matching span extraction~\citeest{liu2025infinigramscalingunboundedngram}, making it less a data-attribution method in the influence-function sense and more a retrieval tool for identifying content the model may have memorised.
+
+\begin{definitionbox}[Suffix Arrays (SA)]
+\label{def:suffix-array}
+The \emph{suffix array} of a string $x$ of length $T_1$ is an array of integers representing the starting positions of all suffixes of $x$ in lexicographic order. It enables efficient substring searches in $\mathcal{O}(T_2 \cdot \log T_1)$ time for a query of length $T_2$, compared to $\mathcal{O}(T_2 \cdot T_1)$ naive search.\\
+
+\paragraph{Example:} $x = \texttt{banana\$}$
+\begin{align*}
+\text{Suffixes: } & 0:\texttt{banana\$}, 1:\texttt{anana\$}, 2:\texttt{nana\$}, 3:\texttt{ana\$}, 4:\texttt{na\$}, 5:\texttt{a\$}, 6:\texttt{\$} \\
+\text{SA}(x) &= [6, 5, 3, 1, 0, 4, 2]
+\end{align*}
+\end{definitionbox}
+
+\begin{definitionbox}[Infini-Gram Models]
+\label{def:infini-gram}
+An \emph{infini-gram model} extends the n-gram model to arbitrary-length prefixes, using backoff to the longest matching sequence in the training corpus. Formally, for a token $w_i$:
+\[
+P_{\infty}(w_i \mid w_{1:i-1}) = \frac{\text{cnt}(w_{i-n+1:i} \mid \mathcal{D})}{\text{cnt}(w_{i-n+1:i-1} \mid \mathcal{D})}, 
+\quad n = \max \{ n' : \text{cnt}(w_{i-n'+1:i-1} \mid \mathcal{D})>0\},
+\]
+where $w_{1:i-1}$ are preceding tokens and $\mathcal{D}$ is the training corpus.\\
+
+Infini-grams are implemented on top of suffix arrays, which allow fast substring queries across massive corpora.
+\end{definitionbox}
+
+\begin{definitionbox}[Maximal Matching Spans]
+\label{def:maximal-matching-spans}
+Given a model output and a training corpus, a \emph{maximal matching span} is a contiguous sequence of tokens that:
+\begin{enumerate}
+    \item Appears verbatim at least once in the training data,
+    \item Does not break words or include spurious delimiters (e.g., periods or newlines) except at span boundaries, and
+    \item Is not contained within a longer span that satisfies 1. and 2.
+\end{enumerate}
+
+OLMoTrace identifies maximal matching spans by combining suffix-array search with infini-gram queries, adjusting boundaries for tokenisation, and retaining only the longest non-overlapping spans.
+\end{definitionbox}
+
+\begin{examplebox}[OLMoTrace Pipeline]
+\label{ex:olmotrace-pipeline}
+
+\paragraph{Language Model Output:} ``Celine Dion is a Canadian singer known for her powerful voice and wide [...]''\\
+
+\paragraph{Pipeline Steps:}
+\begin{enumerate}
+    \item Tokenise the language model output.
+    \item For each token starting a new word, query the suffix array with infini-gram to find the longest matching prefix in the training corpus.
+    \item Adjust span boundaries to avoid breaking words or including delimiters.
+    \item Retain only maximal spans (not contained in longer matches).
+\end{enumerate}
+
+\paragraph{Example Spans Found:}
+\begin{itemize}
+    \item ``Celine Dion [...] Born on March 30, 1968, in''
+    \item ``Charlemagne, Quebec, Canada, Dion began''
+    \item ``performing at a young age and gained [...]''
+    \item ``Her career took off when she won the 1988''
+    \item ``Eurovision Song Contest with the song 'Ne''
+\end{itemize}
+
+This process links language model output directly to the training corpus, enabling identification and attribution of memorised content.
+\end{examplebox}
+
+\begin{definitionbox}[OLMoTrace Algorithm]
+\label{def:olmotrace-algorithm}
+\paragraph{Inputs:} Model output tokens $S_1^L$, training corpus tokens $T_1^N$, suffix array $A_1^N$\\
+
+\paragraph{Steps:}
+\begin{enumerate}
+    \item Scan each token position $t$ in $S_1^L$, considering only tokens starting a new word.
+    \item Query the suffix array $A_1^N$ to find candidate matching positions in the training corpus.
+    \item Use infini-gram queries to determine the longest matching prefix starting at $t$, backing off to shorter n-grams if necessary.
+    \item Adjust the match length to avoid breaking words or including spurious delimiters.
+    \item Collect all spans $(t, t+\text{length})$ that satisfy the above criteria.
+    \item Filter out spans contained within longer overlapping spans to retain only maximal matches.
+\end{enumerate}
+\end{definitionbox}
+
+\paragraph{Limitations as a Mechanistic Interpretability Tool.}
+Verbatim attribution excels at factual memorisation but struggles with compositional or synthesised outputs. For tasks like translation, poetry, or reasoning, OLMoTrace (and other verbatim matching methods) can identify spans of text that appear in the training data, but these matches do not explain how the model combined information from multiple sources to produce the output.
+
+\begin{examplebox}[OLMoTrace on Multilingual Output]
+\label{ex:olmotrace-multilingual}
+\paragraph{Prompt:} ``Write a short story in Chinese about a girl who loves reading.''\\
+
+\paragraph{Completion (Chinese):}
+\begin{quote}
+\begin{CJK*}{UTF8}{gbsn}
+``\ldots 一个叫雪儿的小公主，她有一只可爱的小狐狸伴在身边。她喜欢坐在竹林间看着远方。某日，一场突如其来的山洪导致雪\ldots''
+\end{CJK*}
+\end{quote}
+
+\paragraph{OLMoTrace Influential Samples Identified:}
+OLMoTrace identified maximal matching spans across training datasets:
+\begin{itemize}
+    \item \begin{CJK*}{UTF8}{gbsn}Span: ``一个叫雪儿的小公主，她有一只可爱的小狐狸伴在身边。她喜欢坐在竹林间看着远方''---matched in pretraining corpus\end{CJK*}
+    \item \begin{CJK*}{UTF8}{gbsn}Span: ``她喜欢阅读关于科技、心理学和历史的书籍，业余时间还会参加编程课''---matched in post-training (instruction-tuning) data\end{CJK*}
+\end{itemize}
+
+This example demonstrates how OLMoTrace traces multilingual outputs across diverse training sources, linking model generations directly to their memorised origins in pretraining and post-training datasets.
+\end{examplebox}
+
+
+
+\subsection{Gradient-Based Attribution: Understanding Data Influence Through Perturbations}
+Gradient-based methods estimate how much each training sample influenced the model's predictions.
+  
+\subsubsection{Core Idea: Parameter Response to Training Data}
+
+\emph{Influence functions} estimate how a model's parameters and predictions would change if a training sample were slightly upweighted~(\citeestalp{koh2020understandingblackboxpredictionsinfluence}; \citeemalp{grosse2023studyinglargelanguagemodel}). We introduce their core idea below.
+
+Consider a neural network parameterised by $\theta$. After sufficient training, its parameters will converge to
+\[
+\theta^*
+=
+\arg\min_\theta
+\mathcal{L}_{\mathrm{train}}(\theta),
+\]
+where $\mathcal{L}_{\mathrm{train}}(\cdot)$ is the aggregate training objective calculated as:
+\[
+\mathcal{L}_{\mathrm{train}}(\theta)
+\coloneqq
+\frac{1}{n}
+\sum_{i=1}^{n}
+\mathcal{L}(z_i,\theta).
+\]
+$\{z_i \mid i=1, \ldots, n\}$ is the training set and $\mathcal{L}(\cdot)$ is a loss function such as cross-entropy loss. Note that although by definition $\theta^*$ is expected to be a global optimum, it will not affect the subsequent analysis if $\theta^*$ is in fact a local optimum.
+
+Now, suppose we upweight a training sample \(z_m\) by a small amount \(\epsilon\). The new aggregate training objective will become:
+\[
+\mathcal{L}_{\epsilon}(\theta)
+\coloneqq
+\mathcal{L}_{\mathrm{train}}(\theta)
++
+\epsilon \mathcal{L}(z_m,\theta).
+\]
+It corresponds to a new set of model parameters $\theta^*_{\epsilon}$ expressed as:
+\[
+\theta^*_{\epsilon}
+=
+\arg\min_\theta
+\mathcal{L}_{\epsilon}(\theta).
+\]
+This expression is not a closed-form formula and does not provide us with an efficient way to acquire $\theta^*_{\epsilon}$. A brute-force way is to train the neural network with this new objective and observe the new converged parameters; however, this method is extremely computationally expensive. We thus turn to leveraging the specific property of $\theta^*_{\epsilon}$. Note that, by definition, it must satisfy the first-order optimality condition:
+\[
+\nabla_\theta \mathcal{L}_{\epsilon}(\theta)\Big|_{\theta=\theta^*_{\epsilon}}
+=
+\nabla_\theta \mathcal{L}_{\mathrm{train}}(\theta^*_{\epsilon})
++
+\epsilon\, \nabla_\theta \mathcal{L}(z_m, \theta^*_{\epsilon})
+=
+0.
+\]
+This motivates defining a function to link $\theta$ and $\epsilon$:
+\[
+F(\theta, \epsilon)
+:=
+\nabla_\theta \mathcal{L}_{\mathrm{train}}(\theta)
++
+\epsilon\, \nabla_\theta \mathcal{L}(z_m, \theta). \]
+Note that $F(\theta^*, 0)=0$, which allows us to consider the implicit function theorem.
+
+To apply the implicit function theorem, we assume that $F(\theta, \epsilon)$ is continuously differentiable in a small area around $(\theta, \epsilon) = (\theta^*, 0)$. Furthermore, the Jacobian of $F(\theta, \epsilon)$ with respect to $\theta$ at $(\theta^*, 0)$, i.e.,
+\[
+\frac{\partial F(\theta, \epsilon)}{\partial \theta}\bigg |_{\theta = \theta^*, \epsilon = 0}
+=
+\nabla_{\theta}^{2}
+\mathcal{L}_{\mathrm{train}}(\theta^*)
+\eqqcolon H_{\theta^*},
+\]
+is invertible. $H_{\theta^*}$ denotes the Hessian of the training loss. These assumptions allow us to apply the implicit function theorem. 
+
+By the implicit function theorem, there exists a neighbourhood $V$ of $\epsilon = 0$ and a unique continuously differentiable function $\epsilon \mapsto \theta^*_{\epsilon}$ on $V$ such that $F(\theta^*_{\epsilon}, \epsilon) = 0$ for all $\epsilon \in V$. In other words, for sufficiently small $\epsilon$, $\theta^*_{\epsilon}$ is the stationary point of $\mathcal{L}_{\epsilon}(\cdot)$ near $\theta^*$. Moreover, its derivative is given by
+\[
+\frac{d\theta^*_{\epsilon}}{d\epsilon}
+=
+-
+\left[
+\frac{\partial F(\theta, \epsilon)}{\partial \theta} \bigg|_{\theta=\theta^*_{\epsilon}}
+\right]^{-1}
+\frac{\partial F(\theta^*_{\epsilon}, \epsilon)}{\partial \epsilon}.
+\]
+Recalling the expression of $F(\theta, \epsilon)$, we also have
+\[
+\frac{\partial F(\theta, \epsilon)}{\partial \epsilon}\bigg|_{\theta=\theta^*_{\epsilon}}
+=
+\nabla_\theta \mathcal{L}(z_m, \theta)\Big|_{\theta=\theta^*_{\epsilon}}.
+\]
+Putting $\epsilon = 0$ to let $\theta^*_\epsilon = \theta^*_{0} = \theta^*$ and $\frac{\partial F(\theta, \epsilon)}{\partial \theta} \bigg|_{\theta=\theta^*_{\epsilon}} = H_{\theta^*}$, we have:
+\[
+\frac{d\theta^*_{\epsilon}}
+     {d\epsilon}
+\Bigg|_{\epsilon=0}
+=
+-
+H_{\theta^*}^{-1}
+\nabla_\theta
+\mathcal{L}(z_m,\theta^*).
+\]
+This quantity describes how the model parameters respond to an infinitesimal increase in the importance of the training sample \(z_m\).
+
+To measure the effect on a test-time quantity $M(\theta, z_{\text{test}})$ (e.g., the model's test loss on the testing sample $z_{\text{test}}$), we apply the chain rule:
+\[
+\mathcal{I}_{M}(z_m, z_{\text{test}})
+\coloneqq
+\frac{d M(\theta^*_{\epsilon}, z_{\text{test}})}
+     {d\epsilon}
+\Bigg|_{\epsilon=0}
+=
+-
+\nabla_\theta M(\theta^*, z_{\text{test}})^\top
+H_{\theta^*}^{-1}
+\nabla_\theta
+\mathcal{L}(z_m,\theta^*).
+\]
+The quantity $\mathcal{I}_{M}(z_m, z_{\text{test}})$ is called the \emph{influence score}. Taking a step forward, by the definition of the derivative, for sufficiently small $\epsilon$ we have
+\[
+M(\theta^*_{\epsilon}, z_{\text{test}})
+-
+M(\theta^*, z_{\text{test}})
+\approx
+\epsilon
+\,\mathcal{I}_{M}(z_m, z_{\text{test}}).
+\]
+That is, the influence score quantifies the first-order effect of the training sample $z_m$ on the model's downstream loss for a testing sample $z_{\text{test}}$.
+
+\subsubsection{Proximal Bregman Response and the Generalised Gauss--Newton}
+
+Empirical results show that the original form of influence functions introduced above performs poorly in practice. This is due to multiple assumptions that rarely hold in practice. For example, for a trained neural network, its parameters $\theta$ are scarcely exactly at the local or global minimum $\theta^*$. Additionally, the Hessian $H_{\theta^*}$ is usually non-invertible or numerically unstable due to some small eigenvalues. These limitations motivate researchers to formulate influence functions without unrealistic assumptions. One classical approach is called the \emph{proximal Bregman response function} (PBRF)~\citeest{bae2022influencefunctionsanswerquestion}. It targets model parameters which minimise the new training objective while staying close to the original parameters. Below, we sketch its core idea.
+
+Let each training sample $z_i=(x_i, y_i)$, where $x_i$ is the input and $y_i$ is the label, and $u_i(\theta) =f(x_i, \theta)$ is the output of the model (parameterised as $\theta$) given input $x_i$, such as a logit vector. Slightly abusing notation, we denote the per-sample training loss as
+\[
+\mathcal{L}(z_i, \theta) 
+\coloneqq 
+\mathcal{L}(u_i(\theta), y_i)
+=
+\mathcal{L}(f(x_i, \theta), y_i),
+\]
+where $\mathcal{L}(\cdot, y)$ is a loss function as in the vanilla influence function formulation. Here we additionally assume $\mathcal{L}(\cdot, y)$ is convex in its first argument $u$, which many commonly used loss functions, such as cross-entropy loss, satisfy.
+
+As Bregman divergence will be used in the later formulation, we introduce this notion as the next step. Specifically, for a given convex function $\mathcal{L}(u, y)$ (as described above) with the label $y$ fixed, the Bregman divergence of two model outputs, $u$ and $u'$, is:
+\[
+D_{\mathcal{L}}(u, u'; y) = \mathcal{L}(u, y) - \mathcal{L}(u', y) - \big(\nabla_v \mathcal{L}(v, y)\big|_{v = u'}\big)^\top (u - u'),
+\]
+i.e., the amount by which $\mathcal{L}(\cdot, y)$ at $u$ exceeds its first-order Taylor approximation from $u'$.
+
+Now we introduce the PBRF formulation. Starting from the upweighted objective $\mathcal{L}_{\epsilon}(\theta)$, PBRF is represented as:
+\[
+\mathcal{P}_{\epsilon}(\theta)
+\coloneqq
+\frac{1}{n}
+\sum_{i=1}^{n}
+D_{\mathcal{L}}\big(f(x_i, \theta),\, f(x_i, \theta^s); y_i\big)
++
+\epsilon\, \mathcal{L}(z_m, \theta)
++
+\frac{\lambda}{2}\|\theta - \theta^s\|^2,
+\qquad
+\theta^{\mathrm{PBRF}}_{\epsilon}
+\coloneqq
+\arg\min_\theta
+\mathcal{P}_{\epsilon}(\theta),
+\]
+where $\theta^s$ denotes the original trained model parameters (note that it is not required to be the local or global optimum). Bregman divergence replaces the original loss function. An additional proximity term is added with a positive regularisation coefficient $\lambda$. $\theta^{\mathrm{PBRF}}_{\epsilon}$ searches for the set of model parameters that best corresponds to an upweight in $z_m$ while keeping its predictions on the overall training set close to the original predictions and staying close to $\theta^s$.
+
+In this construction, both the Bregman and the proximity terms are non-negative for all $\theta$ and vanish at $\theta = \theta^s$. Since these are the only two terms of $\mathcal{P}_{\epsilon}$ when $\epsilon = 0$, $\theta^s$ is a global minimiser of $\mathcal{P}_0$ (i.e., $\theta^s = \theta^{\mathrm{PBRF}}_0$) \emph{regardless of whether training has converged}.
+
+As in the vanilla formulation, $\theta^{\mathrm{PBRF}}_\epsilon$ does not have a closed-form formula for now. However, by observing that $\nabla_\theta \mathcal{P}_{\epsilon}(\theta)\big|_{\theta=\theta^{\text{PBRF}}_{\epsilon}}=0$, we define
+\[
+\tilde{F}(\theta, \epsilon)
+\coloneqq
+\nabla_\theta \mathcal{P}_{\epsilon}(\theta)
+=
+\frac{1}{n}
+\sum_{i=1}^{n}
+\nabla_\theta D_{\mathcal{L}}\big(f(x_i, \theta),\, f(x_i, \theta^s); y_i\big)
++
+\epsilon\, \nabla_\theta \mathcal{L}(z_m, \theta)
++
+\lambda (\theta - \theta^s),
+\]
+where $\tilde{F}(\theta^s, 0) = 0$. We assume that $f(x_i, \cdot)$ and $\mathcal{L}(\cdot, y)$ are twice continuously differentiable such that $\tilde{F}$ is continuously differentiable in a small area around $(\theta^s, 0)$. Then, we verify that $\frac{\partial\tilde{F}(\theta, \epsilon)}{\partial \theta}$ is invertible at $(\theta, \epsilon) = (\theta^s, 0)$, the last prerequisite for using the implicit function theorem. By direct calculation (we omit the detailed process here), we can obtain
+\[
+\frac{\partial \tilde{F}(\theta, \epsilon)}{\partial \theta}\bigg|_{\theta = \theta^s, \epsilon = 0}
+=
+\underbrace{
+\frac{1}{n}\sum_{i=1}^{n} J_i^\top H_i J_i
+}_{\eqqcolon\, G}
++
+\lambda I,
+\]
+where $u^s_i \coloneqq u_i(\theta^s)$, $J_i \coloneqq \frac{\partial u_i(\theta)}{\partial \theta} \big|_{\theta=\theta^s}$ is the output--parameter Jacobian, and $H_i \coloneqq \nabla^2_u \mathcal{L}(u, y_i) \big|_{u = u^s_i}$ is the loss--output Hessian. The matrix $G$ is the \emph{generalised Gauss--Newton} (GGN) matrix. Notably, as $H_i$ is positive semidefinite by the convexity of $\mathcal{L}(\cdot, y_i)$, we know $G$ is positive semidefinite (because $v^\top G v = \frac{1}{n}\sum_i (J_i v)^\top H_i (J_i v) \geq 0$ for any $v$). As a result, $G + \lambda I$ is positive definite and hence invertible. Unlike the case of $\nabla^2_\theta \mathcal{L}_{\mathrm{train}}(\theta^*)$, the invertibility of $G + \lambda I$ holds by construction.
+
+Knowing that $\partial \tilde{F}(\theta, \epsilon) / \partial \epsilon = \nabla_\theta \mathcal{L}(z_m, \theta)$, we apply the implicit function theorem and obtain
+\[
+\frac{d\theta^{\mathrm{PBRF}}_{\epsilon}}{d\epsilon}
+\Bigg|_{\epsilon=0}
+=
+-
+(G + \lambda I)^{-1}
+\nabla_\theta
+\mathcal{L}(z_m,\theta^s).
+\]
+By the chain rule, the influence score on a test-time quantity $M(\theta, z_{\text{test}})$ becomes
+\[
+\mathcal{I}^{\mathrm{PBRF}}_{M}(z_m, z_{\text{test}})
+\coloneqq
+\frac{d M(\theta^{\mathrm{PBRF}}_{\epsilon}, z_{\text{test}})}{d\epsilon}
+\Bigg|_{\epsilon=0}
+=
+-
+\nabla_\theta M(\theta^s, z_{\text{test}})^\top
+(G + \lambda I)^{-1}
+\nabla_\theta
+\mathcal{L}(z_m,\theta^s).
+\]
+As shown above, the influence function computed with $G + \lambda I$ is exactly the derivative of the PBRF at $\epsilon = 0$. \citetest{bae2022influencefunctionsanswerquestion} confirmed empirically that such influence estimates align well with the actual PBRF.
+
+\subsubsection{Addressing the Computational and Memory Bottlenecks of GGN}
+
+The size of the GGN matrix $G \in \mathbb{R}^{p \times p}$ (where $p$ is the number of model parameters) can be extremely large for modern language models, which makes the calculation of $(G + \lambda I)^{-1}$ computationally expensive. As a result, follow-up methods have avoided explicitly calculating this inverse matrix by borrowing techniques from the optimisation literature.
+
+\paragraph{Kronecker-Factored Approximate Curvature (K-FAC).}
+\citetest{kfac} proposed \emph{Kronecker-Factored Approximate Curvature} (K-FAC) to approximate a large Fisher information matrix (FIM) using a set of smaller matrices. For a trained neural network parameterised by $\theta^s$, the FIM is defined as
+\[
+\mathbf{F}
+\coloneqq
+\frac{1}{n}\sum_{i=1}^{n}
+\mathbb{E}_{\hat{y} \sim p(\cdot \mid x_i, \theta^s)}
+\left[
+\nabla_\theta \log p(\hat{y} \mid x_i, \theta^s)
+\nabla_\theta \log p(\hat{y} \mid x_i, \theta^s)^\top
+\right],
+\]
+where $\hat{y}$ is a sample from the model's prediction distribution on $x_i$. For example, suppose the task is three-class classification ($c_1, c_2, c_3$) and the model's prediction distribution is $\pi_i=\mathrm{softmax}(u_i^s) = (0.5, 0.3, 0.2)$. If a sampled label is $\hat{y}=c_2$, then $\log p(\hat{y} \mid x_i, \theta^s) = \log 0.3$.
+
+Although K-FAC approximates the FIM rather than the GGN, these matrices are equivalent for common loss functions under suitable probabilistic assumptions. For example, with softmax cross-entropy, the expected outer product of the output log-likelihood gradients can be shown to equal the loss--output Hessian:
+\[
+\mathbb{E}_{\hat{y} \sim p(\cdot \mid x_i, \theta^s)}
+\left[
+\nabla_u \log p(\hat{y} \mid u)
+\nabla_u \log p(\hat{y} \mid u)^\top
+\right]_{u=u_i^s}
+=
+\mathrm{diag}(\pi_i)-\pi_i\pi_i^\top
+=
+H_i.
+\]
+Applying the chain rule then gives
+\[
+\mathbf{F}
+=
+\frac{1}{n}\sum_{i=1}^{n}J_i^\top H_i J_i
+=
+G.
+\]
+This shows that we can use K-FAC to approximate the GGN used in the PBRF influence score.
+
+Now we return to K-FAC, which efficiently approximates the FIM. First, it ignores curvature between layers and approximates $\mathbf{F}$ as a block-diagonal matrix with one block per layer. Consider a neural network in which each layer $\ell$ has a weight matrix $W_\ell \in \mathbb{R}^{d_{\mathrm{out}}\times d_{\mathrm{in}}}$, input activations $h_{\ell-1}$, and pre-activations $s_\ell=W_\ell h_{\ell-1}$ (unrelated to the superscript $s$ in $\theta^s$). Following \citetem{grosse2023studyinglargelanguagemodel}, the \emph{pseudo-gradient} is defined as $\mathcal{D}_{s_\ell} \coloneqq \nabla_{s_\ell} \log p(\hat{y}\mid x,\theta^s) \in \mathbb{R}^{d_{\text{out}}}$---the gradient flowing back to ${s_\ell}$. The pseudo-gradient of the layer weights is $\mathcal{D}_{s_\ell} h_{\ell-1}^\top$. Its vectorisation gives $h_{\ell-1}\otimes\mathcal{D}_{s_\ell}$, where $\otimes$ denotes the Kronecker product. Leveraging $\otimes$'s properties that $(A\otimes B)^\top = A^\top \otimes B^\top$ and $(A\otimes B)(C\otimes D) = (AC)\otimes (BD)$, the block for this layer in the FIM, denoted as $\mathbf{F}_\ell$, can be represented as
+\[
+\mathbf{F}_\ell
+=
+\underbrace{\mathbb{E}\left[
+(h_{\ell-1}h_{\ell-1}^\top)
+\otimes
+(\mathcal{D}_{s_\ell}\mathcal{D}_{s_\ell}^\top)
+\right]}_{\in \mathbb{R}^{d_{\text{in}} d_{\text{out}}\times d_{\text{in}} d_{\text{out}}}}
+\approx
+\underbrace{
+\mathbb{E}[h_{\ell-1}h_{\ell-1}^\top]
+}_{\eqqcolon\,\textbf{A}_{\ell-1} \in \mathbb{R}^{d_{\text{in}}\times d_{\text{in}}}}
+\otimes
+\underbrace{
+\mathbb{E}[\mathcal{D}_{s_\ell}\mathcal{D}_{s_\ell}^\top]
+}_{\eqqcolon\,\textbf{S}_\ell \in \mathbb{R}^{d_{\text{out}}\times d_{\text{out}}}}.
+\]
+The approximation separates the expectation into two independent factors: activations and pseudo-gradients. K-FAC thus stores only $d_{\text{in}}^2+d_{\text{out}}^2$ entries instead of $(d_{\text{in}}d_{\text{out}})^2$ entries for each block. When the two factors are invertible, their Kronecker product can be inverted separately:
+\[
+(\textbf{A}_{\ell-1}\otimes \textbf{S}_\ell)^{-1}
+=
+\textbf{A}_{\ell-1}^{-1}\otimes \textbf{S}_\ell^{-1}.
+\]
+This substantially reduces the memory required to store $G$ and the computational cost of computing the inverse of $G+\lambda I$.
+
+\paragraph{Eigenvalue-Corrected K-FAC (EK-FAC) and ASTRA.}
+EK-FAC~\citeest{ekfac} improved K-FAC by correcting its eigenvalues. Recent work has adopted this technique to scale the influence function method to modern LLMs~\citeem{grosse2023studyinglargelanguagemodel}. ASTRA~\citeest{wang2025better} further used EK-FAC as a preconditioner for Neumann series iterations, achieving higher-quality GGN-vector products with less hyperparameter tuning. These efforts make influence functions increasingly practical for modern language models with billions of parameters.
+
+
+
+\subsubsection{Retraining-Based Influence Estimation: datamodels and TRAK}
+\label{sec:trak}
+
+Some methods have explored retraining the model to estimate the attribution. The most naive method is to upweight or remove each training sample, retrain the model on the modified training set, and observe changes in the model's output on the testing sample. \citetest{ilyas2022datamodelspredictingpredictionstraining} proposed \emph{datamodels} to more efficiently estimate each training sample's attribution on a testing sample by retraining many models on random subsets of the training data and fitting a linear regression that predicts the model output on the testing sample from binary indicators of whether each training sample was included. Each fitted coefficient then represents the training sample's influence on the testing sample.
+
+However, datamodels remains computationally expensive because it requires training many models. \emph{Tracing with the Randomly-projected After Kernel} (TRAK; \citeestalp{park2023trakattributingmodelbehavior}) provides a more efficient alternative. TRAK first uses a first-order Taylor expansion around the model parameters to approximate a trained model as a linear model. It then applies random projections to reduce gradient dimensionality and estimate training-sample influence in this lower-dimensional space. Finally, it averages the estimates across a small number of trained models to reduce variability due to training randomness. TRAK achieves attribution quality comparable to datamodels at substantially lower computational cost~\citeest{park2023trakattributingmodelbehavior}.
+
+\subsubsection{Efficient Influence Estimation Using Training Trajectories: TracIn}
+\label{sec:tracin}
+
+TracIn~\citeest{pruthi2020estimatingtrainingdatainfluence} estimates training-data influence using gradients evaluated along the training trajectory, without computing the inverse Hessian. Its core idea follows from the effect of a single Stochastic Gradient Descent (SGD; \citeestalp{sgd}) update on the loss of a testing sample.
+
+Suppose the model parameters at training step $t$ are $\theta^t$. An SGD update using training sample $z_m$ with learning rate $\eta_t$ is:
+\[
+\theta^{t+1}
+=
+\theta^t-\eta_t\nabla_\theta\mathcal{L}(z_m,\theta^t).
+\]
+By simple rearrangement, we have
+\[
+\theta^{t+1} - \theta^t
+=-\eta_t\nabla_\theta\mathcal{L}(z_m,\theta^t).
+\]
+Then, by first-order Taylor expansion, the change in the loss of a testing sample $z_{\text{test}}$ can be approximated as
+\[
+\begin{aligned}
+&\mathcal{L}(z_{\text{test}},\theta^{t+1})
+-\mathcal{L}(z_{\text{test}},\theta^t)\\
+&\quad\approx
+\nabla_\theta\mathcal{L}(z_{\text{test}},\theta^t)^\top
+(\theta^{t+1}-\theta^t)\\
+&\quad=
+-\eta_t
+\nabla_\theta\mathcal{L}(z_{\text{test}},\theta^t)^\top
+\nabla_\theta\mathcal{L}(z_m,\theta^t).
+\end{aligned}
+\]
+The above expression relates the gradient of the loss on a training sample $z_m$ to the gradient on a test sample $z_{\text{test}}$ and the change in test loss on $z_{\text{test}}$. A positive dot product indicates that the training update will reduce the test loss, while a negative value indicates the opposite.
+
+TracIn extends this idea across training. Its practical checkpoint-based variant, TracInCP, estimates influence by summing gradient dot products over model checkpoints:
+\[
+\begin{aligned}
+&\operatorname{TracInCP}(z_m,z_{\text{test}})\\
+&\quad=
+\sum_{t\in\mathcal{C}}\eta_t
+\nabla_\theta\mathcal{L}(z_{\text{test}},\theta^t)^\top
+\nabla_\theta\mathcal{L}(z_m,\theta^t),
+\end{aligned}
+\]
+where $\mathcal{C}$ denotes the selected training checkpoints. A larger positive score indicates that $z_m$ has contributed more towards reducing the test loss.
+
+Unlike Hessian-based influence functions, TracIn does not require matrix inversion. However, TracInCP approximates the influence of training samples using gradients only at selected checkpoints, which may undermine the estimation accuracy.
+
+\subsubsection{Illustrative Example}
+
+Gradient-based influence functions can identify influential training samples without requiring them to exactly match the current model output. They complement verbatim attribution and reveal subtler influences. Below, we provide an example of using them for the English-to-Chinese translation task.
+
+\begin{examplebox}[Gradient-Based Attribution on a Translation Example]
+\label{ex:gradient-translation}
+
+\paragraph{Prompt (English):}
+\begin{quote}
+``I went to the park to play frisbee with my dog. She loves catching the frisbee and running with it. Sometimes she gets too excited and won't let go when I try to take it from her. Playing frisbee with her is always fun and great exercise for both of us. Chinese:''
+\end{quote}
+
+\paragraph{Gradient-Based Influential Training Samples Identified:}
+\begin{quote}
+``Maybe I just feel like I could do anything, I want the whole world dancing to my music and wearing my clothes. \\
+\begin{CJK*}{UTF8}{gbsn} 也我只是感觉可以做任何事情,我想全世界都跳舞听我的音乐,穿着我的衣服。\end{CJK*}
+
+She continued to slay on screen, battling snakes, bank robbers and a serial killers subconscious. \\
+\begin{CJK*}{UTF8}{gbsn} 她继续在大荧幕上, 行动阻击手的意作 。\end{CJK*}
+
+Her music career took off with her first studio album on the six. \\
+\begin{CJK*}{UTF8}{gbsn} 她的音乐生涯在她的第一张专辑出现了巨色。\end{CJK*}
+
+In 1999 this double threat was riding high until hooking up with Ben Affleck, dubbed Bennifer. \\
+\begin{CJK*}{UTF8}{gbsn} 1999年, 這雙一直高歌遠,直到和本。艾弗萊克在一起本尼弗。\end{CJK*}
+
+Lo found it difficult to brush off the box office sink, eventually entering a professional rough patch. \\
+Lo \begin{CJK*}{UTF8}{gbsn} 發現很難刷掉票房水槽,最終進入了一個粗糙的修補。\end{CJK*}''
+
+\end{quote}
+
+\paragraph{Observation.} Influence functions identify training documents that impacted the translation, even without exact verbatim matches. This demonstrates that gradient-based methods can capture influences beyond what verbatim methods can reveal.
+
+\end{examplebox}
+
+\subsubsection{Recent Extensions and Limitations}
+
+Recent work extends training data attribution to handle training stochasticity. \emph{Distributional TDA} (d-TDA) estimates how output distributions depend on the dataset~\citeest{mlodozeniec2025distributionaltrainingdataattribution}. \citetem{georgiev2023journeydestinationdataguides} proposed TRAK variants to address diffusion models. More recent work connects TDA directly to mechanistic interpretability~\citeem{kowal2026concept, habibi2026symbolicmechanisticdataattribution}; for example, \citetem{kowal2026concept} introduced \emph{Concept Influence} to enable attribution at the level of semantic concepts represented by model internals such as sparse autoencoder features. This brings TDA closer to the mechanistic goal of understanding \emph{how} training data shapes specific internal computations. However, fundamental technical challenges persist, including approximation errors that compound over the training trajectory, variability across training runs caused by randomness like data ordering, and memory and computational bottlenecks of scaling to frontier models. These limitations motivate further research in this direction.
+
+\paragraph{Summary.} 
+Training data attribution traces model behaviour back to the training data. Verbatim methods such as OLMoTrace identify memorised spans, while gradient-based methods such as influence functions estimate the contribution of individual training samples to downstream model predictions. These approaches remain limited at scale. Meanwhile, recent work has begun linking data attribution to internal features and mechanisms. Having surveyed the main methodological families of AI interpretability in the preceding sections, Section~\ref{sec:orientations} organises them into six research orientations that differ in their goals, assumptions, and paths forward.

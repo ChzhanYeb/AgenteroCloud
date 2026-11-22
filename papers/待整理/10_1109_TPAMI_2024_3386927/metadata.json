@@ -1,0 +1,28 @@
+{
+  "path": "papers/待整理/10_1109_TPAMI_2024_3386927",
+  "id": "10_1109_TPAMI_2024_3386927",
+  "type": "pdf",
+  "title": "DeepNet: Scaling Transformers to 1,000 Layers",
+  "authors": [
+    "Hongyu Wang",
+    "Shuming Ma",
+    "Li Dong",
+    "Shaohan Huang",
+    "Dongdong Zhang",
+    "Furu Wei"
+  ],
+  "tags": [],
+  "doi": "10.1109/TPAMI.2024.3386927",
+  "publication": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "volume": "46",
+  "issue": "10",
+  "pages": "6761-6774",
+  "code_repo": "https://github.com/microsoft/unilm",
+  "body_source": "ocr",
+  "body_quality": "low",
+  "meta_source": "recognize",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:35.961Z",
+  "updated_at": "2026-11-15T11:49:13.620Z"
+}

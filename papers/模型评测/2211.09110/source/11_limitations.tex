@@ -1,0 +1,68 @@
+\hypertarget{limitations}{\section{Limitations and future work}}
+\label{sec:limitations}
+To understand how our work is limited, and therefore opportunities for future work, we consider three categories: 
+(i) our results,
+(ii) our benchmark implementation,
+and (iii) our underlying benchmark design principles.\footnote{We note that there are other important limitations (\eg what is missing) that we have already discussed.}
+
+\subsection{Limitations of results}
+For our results, we identify three key limitations: 
+(i) the relevance for practical use of language models, 
+(i) the generalizability of the findings, and 
+(iii) the dependence on adaptation decisions. 
+
+\paragraph{Relevance for practical use.}
+In practice, language models are used not only for diverse scenarios but in diverse contexts.
+In these contexts, language models are likely to be further specialized (\eg fine-tuned on much larger data than \numincontext examples from the domain of interest).
+Consequently, our results should not be taken as levelling the universal claim that models that perform well are always desirable and models that perform poorly are always undesirable.
+For example, \gptj does not perform particularly well, but may be suitable in many contexts due to its smaller size and the ease of fine-tuning (\eg with fewer hardware/compute constraints), so that the model can make use of more in-distribution data. 
+More broadly, we expect the totality of the results we provide are not relevant for every practical use case: we anticipate practitioners should first identify scenarios and metrics pertinent to their use conditions, and then prioritize these scenarios/metrics in interpreting the results of this benchmark.
+
+\paragraph{Generalizability.}
+For our results to constitute generalizable findings, instances from the test distribution should not be included in the (pre)training data for the model (\ie there should be no train-test contamination). 
+However, as several works have discussed \citep[\eg][]{brown2020gpt3, dodge2021c4, sanh2021multitask}, given that the language models we consider are trained on massive, multi-source, and incompletely-documented data (\eg text scraped from the Internet), it is difficult to directly determine if they are contaminated.
+We document all known evidence from prior work of contamination in \refapp{contamination}, though we acknowledge the extent to which models are contaminated and this compromises the validity of our results largely remains unclear. 
+
+\paragraph{Adaptation.}
+We emphasize that our results, and qualitative trends drawn from the results, depend on the choice and implementation of prompting as the adaptation mechanism.
+In other words, we should not assume we will see the same trends if models are fine-tuned or if prompts are explicitly optimized \citep{shin2020autoprompt, zhou2022large}.
+This is compounded by the evidence that we show in \refsec{prompting-analysis}, along with several prior works \citep[\eg][]{bach2022promptsource}, that model behavior is very sensitive to prompt design.
+Further, due to resource constraints, the sensitivity of the results to many lower-level decisions (\eg decoding hyperparameters) was not investigated and remains unclear. 
+
+\subsection{Limitations of \benchmarkname implementation}
+For our implementation, we see the main limitation as the lack of coverage of what is missing.
+In fact, beyond what we discuss in \refsec{limitations}, we emphasize our holistic approach generalizes to the evaluation of any foundation model: in future work, we can imagine specifying both taxonomies and concrete benchmarks for forms of natural language beyond text (\eg sign, speech), and data modalities even beyond natural language (\eg images, code, videos, proteins) as in \citet{tamkin2021dabs, tamkin2022dabs2}.
+More generally, we highlight our assumption of/evidence for the validity and reliability of our scenarios and metrics.
+
+\paragraph{Validity and reliability.}
+Many datasets can instantiate a scenario (\ie agree in task and domain), but differ enormously in the extend to which results reported on those datasets are useful.
+In the parlance of measurement modeling \citep{loevinger1957objective, messick1987validity, messick1988assessing, jackman2008measurement, liao2021are, jacobs2021measurement}, we would like results we report to be \textit{valid} (\ie reflect the underlying construct such as summarization of legal documents).
+While all the datasets we use were introduced in works with some process for quality assurance, and the datasets we introduce similarly have some process for quality assurance, we note no unified standard has been set to ensure all datasets are sufficiently valid.
+Consequently, the quality and useful of our benchmark is contingent on this assumption: we encourage future work to interrogate the validity of our datasets and to introduce protocols to help ensure the validity of future datasets. 
+Since benchmarks incentivize future work to build models that improve on the benchmark, validity is especially critical in light of the oft-cited Strathern's Law \citep{strathern1997improving} --- ``When a measure becomes a target, it ceases to be a good measure'' \citep[also see][]{goodhart1984problems, linzen2020accelerate, bowman2021fix}.
+
+Further, in addition to validity, measurement modeling and other approaches for measure design emphasize the \textit{reliability} of a measure (\ie the measure should not be overly sensitive to undesired sources of variation such as properties of the specific annotators who labelled data).
+Akin to validity, we lack uniform evidence for the reliability of our measurement.
+In particular, we highlight the importance of significance testing for making meaningful comparisons given we only run 3 random seeds (due to cost) for selecting in-context examples and we evaluate on 1000 instances instead of the full validation/test set for a given dataset.
+That is, both of these settings for our evaluation may render some of our claims statistically insignificant; we encourage future work to consider how to better address significance given the scale of this evaluation.\footnote{We do note that we perform paired bootstrap tests for all model comparisons made in the human evaluations (\refsec{human-evaluations}).} 
+
+
+
+\subsection{Limitations of \benchmarkname design}
+Given the nature of our benchmark design, we highlight the important question of aggregation \citep[see][]{ethayarajh2020utility, ma2021dynaboard}.
+In comparison to prior work, where a model would receive a single score (\eg SQuAD F1 accuracy) or a score vector (\eg GLUE accuracies), we produce a more complex collection of results per-model (\ie a score matrix of scenarios $\times$ metrics). 
+We believe this is necessary to capture the complexity of the artifacts we characterize \citep{liao2021are}: the generality of language models and the plurality of desiderata we should require of such systems.\footnote{We this said, we note that using our holistic evaluation as an oracle of sorts, one then may be able to identify minimal evaluations that discriminate between different models. In other words, holistic, broad, and expansive evaluations like \benchmarkname  complement and possibly could inform succinct unit-testing approaches like HANS \citep{mccoy2019right}, CheckList \citep{ribeiro2020beyond} and LMentry \citep{efrat2022lmentry}.} 
+
+However, this complexity does come at a serious cost.
+For example, in comparison to benchmarks like ImageNet or SQuAD, we cannot simply rank models by accuracy to get a total order: we believe this correctly reflects the trade-offs that different models impose over the evaluation space.
+In other words, while it is possible for model A to be strictly better on every metric for every scenario than model B (\ie strict Pareto dominance), in almost cases A is sometimes better and B is sometimes better when one is sufficiently holistic/expansive.
+To designate A or B as better requires making a judgment that (implicitly/explicitly) weighs the circumstances in which each is better than the other.
+
+Practically, by significantly increasing the volume of results we report for each model, our benchmark could overload a consumer of the results, making it difficult to interpret or act upon them.
+By providing structure (\eg taxonomizing scenarios and metrics, factorizing into \core scenarios vs. specific components), we hope to retain clarity as we provide nuance.
+Overall, the detail of our benchmark exposes decision points for different stakeholders to prefer one model over the other based on their values, preferences, and circumstances (\eg an organization deploying a model on mobile should assign higher priority to the efficiency results). 
+
+We leave the question of aggregating model performance to a single number (or a single number per scenario, or per metric) to future work.
+We do not believe there exists a universal aggregation that satisfies all preferences, reflects all values, or captures all circumstances appropriately.
+However, we do believe single-number metrics, though reductive, are useful practical tools to simplify decision-making.
+\footnote{By analogy, single-number metrics like GDP and calories are very helpful in practice, albeit flawed and reductive in encoding the true complexities of the economy and nutrition.}

@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-18T01:43:26.647Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "figure-1",
+      "stableKey": "p7:figure:Figure 1: Visualization of the (hybrid) architecture and block desig n of Gated ",
+      "kind": "image",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.17263931074952768,
+        "y": 0.1252612585973258,
+        "w": 0.6564207139358021,
+        "h": 0.28750524617204765
+      },
+      "score": 0.9360382556915283,
+      "title": "Figure 1: Visualization of the (hybrid) architecture and block desig n of Gated DeltaNet models. Gated DeltaNet-H1 and H2 use Gated DeltaNet + SWA and Mamba2 + Gated DeltaNet + SWA patterns, respec tively. In the block design, query/key paths consist of line ar proj., shortconv., SiLU and L2 norm; value path includes linear proj., shortconv. and SiLU; alpha/beta use linear proj.; and output gate applies linear proj. with SiLU.",
+      "layoutRegionId": "9bb7cca3-0bac-47e3-9b9d-c69fe52bfca9"
+    },
+    {
+      "id": "figure-p8-0205_0264_0590_0301",
+      "stableKey": "p8:figure:0.205_0.264_0.590_0.301",
+      "kind": "image",
+      "section": "figure",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.20457488415287992,
+        "y": 0.2639486524793837,
+        "w": 0.589923135595384,
+        "h": 0.3012409402866556
+      },
+      "score": 0.8765778541564941,
+      "layoutRegionId": "f1308b47-a1e0-434f-ae39-64d6fcefb716"
+    },
+    {
+      "id": "figure-3",
+      "stableKey": "p9:figure:Figure 3: Training throughput comparison of 1.3B models on a single H1 00 GPU.",
+      "kind": "chart",
+      "section": "figure",
+      "page": 9,
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.2551163068783829,
+        "y": 0.3339168278857915,
+        "w": 0.48800377440608406,
+        "h": 0.24783560242315733
+      },
+      "score": 0.9373752474784851,
+      "title": "Figure 3: Training throughput comparison of 1.3B models on a single H1 00 GPU.",
+      "layoutRegionId": "be8c51e1-3e0c-45d3-a31f-5d6cbf6bbe2f"
+    },
+    {
+      "id": "table-p5-0171_0145_0653_0108",
+      "stableKey": "p5:table:0.171_0.145_0.653_0.108",
+      "kind": "table",
+      "section": "table",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.171377543530433,
+        "y": 0.14477869476934876,
+        "w": 0.6534368976268893,
+        "h": 0.10790091813212693
+      },
+      "score": 0.7623132467269897,
+      "layoutRegionId": "1619358a-92bf-4086-9875-faffd2a33f04"
+    },
+    {
+      "id": "table-p5-0268_0272_0455_0077",
+      "stableKey": "p5:table:0.268_0.272_0.455_0.077",
+      "kind": "table",
+      "section": "table",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.2675315757202946,
+        "y": 0.27158856632733586,
+        "w": 0.4545453389485677,
+        "h": 0.07650857019906092
+      },
+      "score": 0.7860340476036072,
+      "layoutRegionId": "0eca1c6a-faeb-48a3-9f39-86111efe07ba"
+    },
+    {
+      "id": "table-p7-0202_0424_0594_0168",
+      "stableKey": "p7:table:0.202_0.424_0.594_0.168",
+      "kind": "table",
+      "section": "table",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.20213208167381536,
+        "y": 0.42409619418057526,
+        "w": 0.5935093499476614,
+        "h": 0.1682253365564828
+      },
+      "score": 0.5739989280700684,
+      "layoutRegionId": "1926c3f0-bfb3-4a51-9265-c33cd9b4452f"
+    },
+    {
+      "id": "table-p7-0482_0718_0324_0155",
+      "stableKey": "p7:table:0.482_0.718_0.324_0.155",
+      "kind": "table",
+      "section": "table",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.4820922153447968,
+        "y": 0.7175478694414852,
+        "w": 0.32433418822444343,
+        "h": 0.15511160185842804
+      },
+      "score": 0.9320781230926514,
+      "layoutRegionId": "46ade27a-2ab5-4504-aa74-a2ef916f7365"
+    },
+    {
+      "id": "table-p9-0191_0102_0616_0165",
+      "stableKey": "p9:table:0.191_0.102_0.616_0.165",
+      "kind": "table",
+      "section": "table",
+      "page": 9,
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.19108241212134267,
+        "y": 0.10164193432740491,
+        "w": 0.6164581822414025,
+        "h": 0.16522893038662997
+      },
+      "score": 0.9115400910377502,
+      "layoutRegionId": "98aa3eab-3ff5-4cee-ab69-87daa11a5117"
+    },
+    {
+      "id": "table-p22-0174_0102_0654_0264",
+      "stableKey": "p22:table:Table S.1: Ablation study on the Gated DeltaNet block. Avg-PPL and Avg- Acc deno",
+      "kind": "table",
+      "section": "table",
+      "page": 22,
+      "pageIndex": 21,
+      "bbox": {
+        "x": 0.17358874651341658,
+        "y": 0.10150514467798098,
+        "w": 0.6540977876949934,
+        "h": 0.26441791804149894
+      },
+      "score": 0.9433912038803101,
+      "title": "Table S.1: Ablation study on the Gated DeltaNet block. Avg-PPL and Avg- Acc denote average perplexity and zero-shot commonsense reasoning accuracy (as in Table 3 ), respectively. All models have 400M parameters and are trained for 15B tokens on the same subset of FineWeb-E du dataset ( Penedo et al. , 2024 ).",
+      "layoutRegionId": "c210c616-f7b0-4c09-861c-c53eee668d51"
+    },
+    {
+      "id": "table-p22-0175_0391_0646_0122",
+      "stableKey": "p22:table:B.2 A BLATION S TUDY",
+      "kind": "table",
+      "section": "table",
+      "page": 22,
+      "pageIndex": 21,
+      "bbox": {
+        "x": 0.17477936838187424,
+        "y": 0.3909606162947838,
+        "w": 0.6457609164169411,
+        "h": 0.12218872224441685
+      },
+      "score": 0.7993228435516357,
+      "title": "B.2 A BLATION S TUDY",
+      "layoutRegionId": "3f922f52-d357-454b-bcc8-f9f15d6c3e5e"
+    },
+    {
+      "id": "formula-p3-0192_0523_0633_0022",
+      "stableKey": "p3:formula:0.192_0.523_0.633_0.022",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.19237050823136873,
+        "y": 0.5227588306773793,
+        "w": 0.6327363431843278,
+        "h": 0.022181385695332234
+      },
+      "score": 0.8607399463653564,
+      "layoutRegionId": "ceb62cc1-6ea9-4556-ab2c-47b62040cb4a"
+    },
+    {
+      "id": "formula-p4-0206_0323_0619_0039",
+      "stableKey": "p4:formula:0.206_0.323_0.619_0.039",
+      "kind": "formula",
+      "section": "formula",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.2059717116013072,
+        "y": 0.3230668655549637,
+        "w": 0.6188727484809028,
+        "h": 0.03884028425120345
+      },
+      "score": 0.9173989295959473,
+      "layoutRegionId": "888f3f5e-99b3-4f8a-9d73-cfb3197fe362"
+    },
+    {
+      "id": "formula-p4-0219_0387_0606_0039",
+      "stableKey": "p4:formula:0.219_0.387_0.606_0.039",
+      "kind": "formula",
+      "section": "formula",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.21943225735932395,
+        "y": 0.38663998998776833,
+        "w": 0.6059118532666974,
+        "h": 0.03915698118884153
+      },
+      "score": 0.9270718097686768,
+      "layoutRegionId": "4abb8629-bb79-4b5f-be66-527407ccfe35"
+    },
+    {
+      "id": "formula-p4-0263_0473_0562_0025",
+      "stableKey": "p4:formula:0.263_0.473_0.562_0.025",
+      "kind": "formula",
+      "section": "formula",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.26279155257480596,
+        "y": 0.4726669234458846,
+        "w": 0.561673382528467,
+        "h": 0.02460695517183553
+      },
+      "score": 0.8858394622802734,
+      "layoutRegionId": "09c10bb3-3951-491a-ba76-cb32fe5ad1e4"
+    },
+    {
+      "id": "formula-p4-0346_0500_0479_0020",
+      "stableKey": "p4:formula:0.346_0.500_0.479_0.020",
+      "kind": "formula",
+      "section": "formula",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.3458637412077461,
+        "y": 0.5003017078746449,
+        "w": 0.47931212381599775,
+        "h": 0.01977623833550346
+      },
+      "score": 0.872334361076355,
+      "layoutRegionId": "308979fd-3401-4eda-b11c-df50ee20e466"
+    },
+    {
+      "id": "formula-p4-0238_0561_0587_0023",
+      "stableKey": "p4:formula:0.238_0.561_0.587_0.023",
+      "kind": "formula",
+      "section": "formula",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.23756595686370252,
+        "y": 0.5610308021005957,
+        "w": 0.58692381117079,
+        "h": 0.022763377488261516
+      },
+      "score": 0.8484479188919067,
+      "layoutRegionId": "4ea7e390-ecd0-4bc9-9911-bb68f7770c4b"
+    },
+    {
+      "id": "formula-p4-0249_0590_0576_0022",
+      "stableKey": "p4:formula:0.249_0.590_0.576_0.022",
+      "kind": "formula",
+      "section": "formula",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.2487934336942785,
+        "y": 0.5897911919487847,
+        "w": 0.5760815439660565,
+        "h": 0.022346226855961993
+      },
+      "score": 0.8496290445327759,
+      "layoutRegionId": "50422540-cbd8-43ec-bb85-3b217b49fe95"
+    },
+    {
+      "id": "formula-p4-0366_0702_0459_0016",
+      "stableKey": "p4:formula:0.366_0.702_0.459_0.016",
+      "kind": "formula",
+      "section": "formula",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.36633555094401044,
+        "y": 0.7016775728476168,
+        "w": 0.45858385671977114,
+        "h": 0.016129696007930905
+      },
+      "score": 0.8603801727294922,
+      "layoutRegionId": "60a899e9-0b88-4940-ad76-34f17000c466"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "path": "papers/待整理/1910.10683",
+  "id": "1910.10683",
+  "type": "pdf",
+  "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+  "authors": [
+    "Colin Raffel",
+    "Noam Shazeer",
+    "Adam Roberts",
+    "Katherine Lee",
+    "Sharan Narang",
+    "Michael Matena",
+    "Yanqi Zhou",
+    "Wei Li",
+    "Peter J. Liu"
+  ],
+  "year": 2019,
+  "abstract": "Transfer learning, where a model is first pre-trained on a data-rich task before being fine-tuned on a downstream task, has emerged as a powerful technique in natural language processing (NLP). The effectiveness of transfer learning has given rise to a diversity of approaches, methodology, and practice. In this paper, we explore the landscape of transfer learning techniques for NLP by introducing a unified framework that converts all text-based language problems into a text-to-text format. Our systematic study compares pre-training objectives, architectures, unlabeled data sets, transfer approaches, and other factors on dozens of language understanding tasks. By combining the insights from our exploration with scale and our new ``Colossal Clean Crawled Corpus'', we achieve state-of-the-art results on many benchmarks covering summarization, question answering, text classification, and more. To facilitate future work on transfer learning for NLP, we release our data set, pre-trained models, and code.",
+  "tags": [],
+  "arxiv_id": "1910.10683",
+  "code_repo": "https://github.com/google-research/text-to-text-transfer-transformer",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 28423,
+  "meta_source": "recognize",
+  "summary": "T5 casts every NLP task as text-to-text prediction, unifying pre-training, fine-tuning, and evaluation across architectures, objectives, and datasets. Scaling this setup with the Colossal Clean Crawled Corpus achieves state-of-the-art results across summarization, question answering, and classification.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:33.583Z",
+  "updated_at": "2026-11-15T11:49:13.903Z"
+}

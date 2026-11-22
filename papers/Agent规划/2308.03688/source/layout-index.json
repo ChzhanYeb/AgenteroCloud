@@ -1,0 +1,1893 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-20T02:32:37.300Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "figure-1",
+      "stableKey": "p1:figure:Figure 1: An overview of LLMs on A GENT B ENCH . While LLMs begin to manifest th",
+      "kind": "chart",
+      "section": "figure",
+      "page": 1,
+      "pageIndex": 0,
+      "bbox": {
+        "x": 0.17647058823529413,
+        "y": 0.5031471252441406,
+        "w": 0.6470588235294118,
+        "h": 0.27589327879626335
+      },
+      "score": 0.9012908935546875,
+      "title": "Figure 1: An overview of LLMs on A GENT B ENCH . While LLMs begin to manifest their proficiency in LLM-as-Agent, gaps between models and the distance toward practical usability are significant. 1 I NTRODUCTION",
+      "layoutRegionId": "60db805c-7461-4546-8d9a-5de6c42f54b0"
+    },
+    {
+      "id": "figure-2",
+      "stableKey": "p2:figure:Figure 2: A GENT B ENCH is the first systematic benchmark to evaluate LLM-as-Age",
+      "kind": "image",
+      "section": "figure",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.17188200607798457,
+        "y": 0.09945002469149503,
+        "w": 0.6566070606505948,
+        "h": 0.34222302292332507
+      },
+      "score": 0.9502441883087158,
+      "title": "Figure 2: A GENT B ENCH is the first systematic benchmark to evaluate LLM-as-Agent on a wide array of real-world challenges and 8 distinct environments. In total, 29 LLMs are examined in this edition. The advent of Large Language Models (LLMs) ( Brown et al. , 2020 ; Chowdhery et al. , 2022 ; Touvron et al. , 2023 ), such as GPT-4 ( OpenAI , 2023 ), has brought plenty of new opportunities to this realm. Through extensive alignment training ( Ouyang et al. , 2022 ; Wei et al. , 2022a ; Sanh et al. , 2022 ), LLMs have not only mastered traditional NLP tasks but also showcased an impressive ability to comprehend human intent and execute instructions. This has spurred the development of various LLM-based applications for autonomous goal completion (like AutoGPT ( Richards , 2023 ), BabyAGI ( Nakajima , 2023 ), AgentGPT ( age , 2023 )) as well as LLM agents situated in social and game contexts ( Park et al. , 2023 ; Wang et al. , 2023b ; Zhu et al. , 2023 ), sparking substantial public interest and discussions.",
+      "layoutRegionId": "0f1498f3-98cf-48c2-bad3-7c2efbd0b679"
+    },
+    {
+      "id": "figure-p19-0173_0074_0326_0130",
+      "stableKey": "p19:figure:0.173_0.074_0.326_0.130",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.17327653972152013,
+        "y": 0.07375657438027738,
+        "w": 0.3260935615090763,
+        "h": 0.13023478575427122
+      },
+      "score": 0.9133384823799133,
+      "layoutRegionId": "f19542f5-0bfe-41c6-aacc-17511233388c"
+    },
+    {
+      "id": "figure-p19-0501_0075_0323_0129",
+      "stableKey": "p19:figure:0.501_0.075_0.323_0.129",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.5009752660015829,
+        "y": 0.0746346435161552,
+        "w": 0.3230626224692351,
+        "h": 0.12900441583960948
+      },
+      "score": 0.9062761068344116,
+      "layoutRegionId": "f7107d97-2f55-4ae6-8665-39e685fd9e93"
+    },
+    {
+      "id": "figure-p19-0175_0278_0324_0123",
+      "stableKey": "p19:figure:0.175_0.278_0.324_0.123",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.17488261453466478,
+        "y": 0.2779426574707031,
+        "w": 0.32390476052278006,
+        "h": 0.12303654834477588
+      },
+      "score": 0.8892643451690674,
+      "layoutRegionId": "8043e42b-1429-4ba2-b7dc-f0e384b804bb"
+    },
+    {
+      "id": "figure-p19-0503_0275_0322_0127",
+      "stableKey": "p19:figure:0.503_0.275_0.322_0.127",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.5028857062844669,
+        "y": 0.2749980001738577,
+        "w": 0.3215979283152063,
+        "h": 0.12745483475502092
+      },
+      "score": 0.8894339203834534,
+      "layoutRegionId": "7a4aa159-a07a-4188-90cd-47ef60f85a07"
+    },
+    {
+      "id": "figure-p19-0174_0473_0324_0140",
+      "stableKey": "p19:figure:0.174_0.473_0.324_0.140",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.17437971027847987,
+        "y": 0.4729803066061001,
+        "w": 0.32407965067944494,
+        "h": 0.14038097497188684
+      },
+      "score": 0.8942049741744995,
+      "layoutRegionId": "8d704d70-0bdb-40de-b2f8-b6d5f43e951d"
+    },
+    {
+      "id": "figure-p19-0501_0475_0323_0139",
+      "stableKey": "p19:figure:0.501_0.475_0.323_0.139",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.5012021033592473,
+        "y": 0.47527128277402936,
+        "w": 0.3226404127731822,
+        "h": 0.1389923095703125
+      },
+      "score": 0.9009417295455933,
+      "layoutRegionId": "f273c3f2-80d8-4322-b7f7-c4da0b2e4f76"
+    },
+    {
+      "id": "figure-p19-0173_0685_0168_0099",
+      "stableKey": "p19:figure:0.173_0.685_0.168_0.099",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.17342889075185738,
+        "y": 0.6852571121369949,
+        "w": 0.16755854538063597,
+        "h": 0.09861909500276199
+      },
+      "score": 0.708720862865448,
+      "layoutRegionId": "3ae98c5b-69e4-4c94-9ae7-17a215004bad"
+    },
+    {
+      "id": "figure-p19-0343_0685_0156_0141",
+      "stableKey": "p19:figure:0.343_0.685_0.156_0.141",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.34293437783235037,
+        "y": 0.6853890467171717,
+        "w": 0.1555933484844133,
+        "h": 0.14114757499309502
+      },
+      "score": 0.7604165077209473,
+      "layoutRegionId": "fd2fe6af-4509-4406-8fa0-dc6ac20b6de0"
+    },
+    {
+      "id": "figure-p19-0502_0686_0322_0139",
+      "stableKey": "p19:figure:0.502_0.686_0.322_0.139",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.5018043268739788,
+        "y": 0.6863588275331439,
+        "w": 0.32242803635940054,
+        "h": 0.13916570490056818
+      },
+      "score": 0.9306904077529907,
+      "layoutRegionId": "bfa55299-afe6-43cc-8d15-1c35e1057bcb"
+    },
+    {
+      "id": "figure-5",
+      "stableKey": "p21:figure:Figure 5: The toolkit of A GENT B ENCH is meticulously crafted for the seamless ",
+      "kind": "image",
+      "section": "figure",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.17209625244140625,
+        "y": 0.10490787390506628,
+        "w": 0.6557558845071232,
+        "h": 0.2806592999082623
+      },
+      "score": 0.9591944217681885,
+      "title": "Figure 5: The toolkit of A GENT B ENCH is meticulously crafted for the seamless deployment of tasks and agents, coupled with an efficient evaluation assignment system. Agent servers (left) manifest in diverse forms, enabling us to deploy a model server and expose an accessible API through the HTTP protocol. Task servers (right) are composed of a task controller and several task workers, whose environment is within an isolated environment, ensuring freedom from conflicts and optimal task execution. Evaluation client (center) establishes an agent-task graph and employs the max-flow algorithm to optimize interactions. This optimization results in client workers seamlessly engaging with agent and task servers, facilitating the smooth execution of tasks and evaluations.",
+      "layoutRegionId": "f7e65b5e-9a83-49ca-8053-42d15f8cece4"
+    },
+    {
+      "id": "figure-p47-0212_0146_0110_0097",
+      "stableKey": "p47:figure:0.212_0.146_0.110_0.097",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.21213573879665798,
+        "y": 0.14560099322386463,
+        "w": 0.1098329880658318,
+        "h": 0.09679905091873323
+      },
+      "score": 0.9131333827972412,
+      "layoutRegionId": "56c3461f-6f2e-482e-85f4-55e8ecf66f72"
+    },
+    {
+      "id": "figure-p47-0371_0145_0122_0097",
+      "stableKey": "p47:figure:0.371_0.145_0.122_0.097",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.3706306756711474,
+        "y": 0.14505081947403725,
+        "w": 0.1217794231339997,
+        "h": 0.09655536304820668
+      },
+      "score": 0.9124093055725098,
+      "layoutRegionId": "a46f443c-7236-4750-bffb-039a41e61b7a"
+    },
+    {
+      "id": "figure-p47-0527_0148_0126_0094",
+      "stableKey": "p47:figure:0.527_0.148_0.126_0.094",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.5270172817255158,
+        "y": 0.1475104707660097,
+        "w": 0.1255690132091248,
+        "h": 0.09431815869880444
+      },
+      "score": 0.8809468746185303,
+      "layoutRegionId": "a3f66596-aa26-4f87-8d14-b561726c1e66"
+    },
+    {
+      "id": "figure-p47-0685_0146_0131_0094",
+      "stableKey": "p47:figure:0.685_0.146_0.131_0.094",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.6853469649171517,
+        "y": 0.1457161277231544,
+        "w": 0.1310784832324857,
+        "h": 0.09381861638541174
+      },
+      "score": 0.9265169501304626,
+      "layoutRegionId": "1ae2dcde-29b1-4e26-90cc-c353ebf1d4df"
+    },
+    {
+      "id": "figure-p47-0212_0244_0115_0098",
+      "stableKey": "p47:figure:0.212_0.244_0.115_0.098",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.21228902480181525,
+        "y": 0.24382986203588622,
+        "w": 0.11471540164324193,
+        "h": 0.09777211661290641
+      },
+      "score": 0.8996644616127014,
+      "layoutRegionId": "edbe5cea-5b8a-4880-a154-b036dbd33226"
+    },
+    {
+      "id": "figure-p47-0371_0244_0114_0098",
+      "stableKey": "p47:figure:0.371_0.244_0.114_0.098",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.37090256634880514,
+        "y": 0.24424751358802874,
+        "w": 0.11402170019212111,
+        "h": 0.0975986442180595
+      },
+      "score": 0.9021593332290649,
+      "layoutRegionId": "089f7615-9762-4c26-b56c-0b5435d42536"
+    },
+    {
+      "id": "figure-p47-0521_0245_0135_0094",
+      "stableKey": "p47:figure:0.521_0.245_0.135_0.094",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.5207258236953636,
+        "y": 0.24450234692506115,
+        "w": 0.134850994434232,
+        "h": 0.0937546816739169
+      },
+      "score": 0.9106591939926147,
+      "layoutRegionId": "6bf33fda-ddcf-4c87-b6f5-981d87f71921"
+    },
+    {
+      "id": "figure-p47-0689_0245_0123_0097",
+      "stableKey": "p47:figure:0.689_0.245_0.123_0.097",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.6887218500274459,
+        "y": 0.2447291287508878,
+        "w": 0.12345362644569546,
+        "h": 0.09668319393890072
+      },
+      "score": 0.9245168566703796,
+      "layoutRegionId": "1e773852-1d72-4817-b5b7-ced22c293aeb"
+    },
+    {
+      "id": "figure-p47-0185_0345_0152_0098",
+      "stableKey": "p47:figure:0.185_0.345_0.152_0.098",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.18515427283991395,
+        "y": 0.34476994986485954,
+        "w": 0.15175777011447483,
+        "h": 0.09765863900232796
+      },
+      "score": 0.8726187348365784,
+      "layoutRegionId": "7a8a386b-0777-4682-a436-c22d23195b28"
+    },
+    {
+      "id": "figure-p47-0366_0344_0132_0094",
+      "stableKey": "p47:figure:0.366_0.344_0.132_0.094",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.3660449607699525,
+        "y": 0.34411212651416506,
+        "w": 0.13207431868010877,
+        "h": 0.09397221574879656
+      },
+      "score": 0.9027762413024902,
+      "layoutRegionId": "775a4191-b7d9-45b3-bb90-9ae755ff82ba"
+    },
+    {
+      "id": "figure-p47-0517_0345_0141_0090",
+      "stableKey": "p47:figure:0.517_0.345_0.141_0.090",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.5170763302472682,
+        "y": 0.34469955136077574,
+        "w": 0.14087911368974673,
+        "h": 0.0895874717018821
+      },
+      "score": 0.9081867933273315,
+      "layoutRegionId": "9cef580c-9d11-469f-88bc-1c140d6277ec"
+    },
+    {
+      "id": "figure-p47-0684_0344_0126_0093",
+      "stableKey": "p47:figure:0.684_0.344_0.126_0.093",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.6842674803889655,
+        "y": 0.34426706487482245,
+        "w": 0.1264787561753217,
+        "h": 0.09288587473859691
+      },
+      "score": 0.9117759466171265,
+      "layoutRegionId": "d7fb2e57-a84a-47d3-8877-7dc57cbc1719"
+    },
+    {
+      "id": "figure-p47-0203_0444_0128_0093",
+      "stableKey": "p47:figure:0.203_0.444_0.128_0.093",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.20280176050522747,
+        "y": 0.44421340479995264,
+        "w": 0.12805129655825545,
+        "h": 0.09294340345594618
+      },
+      "score": 0.8788193464279175,
+      "layoutRegionId": "0f14a774-b8b8-4b0d-9a78-587714f7fd6f"
+    },
+    {
+      "id": "figure-p47-0347_0444_0132_0097",
+      "stableKey": "p47:figure:0.347_0.444_0.132_0.097",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.3466341604594312,
+        "y": 0.44376477328213776,
+        "w": 0.1318345911362592,
+        "h": 0.09707811143663195
+      },
+      "score": 0.9055569171905518,
+      "layoutRegionId": "d99c0683-1a92-47fd-91ec-cb69d8c9493f"
+    },
+    {
+      "id": "figure-p47-0511_0444_0139_0097",
+      "stableKey": "p47:figure:0.511_0.444_0.139_0.097",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.5106112411598754,
+        "y": 0.44359550090751265,
+        "w": 0.13947904499527675,
+        "h": 0.0973909166124132
+      },
+      "score": 0.9138912558555603,
+      "layoutRegionId": "d2f624b2-6470-4aba-b94d-6a75f5d05cf5"
+    },
+    {
+      "id": "figure-p47-0669_0445_0146_0093",
+      "stableKey": "p47:figure:0.669_0.445_0.146_0.093",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.6687720803653493,
+        "y": 0.44469710070677476,
+        "w": 0.14623145807802287,
+        "h": 0.09252409501509233
+      },
+      "score": 0.9018457531929016,
+      "layoutRegionId": "547c4de0-f796-4b6e-bd27-177141a24b00"
+    },
+    {
+      "id": "figure-p47-0196_0542_0137_0094",
+      "stableKey": "p47:figure:0.196_0.542_0.137_0.094",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.19643069248573453,
+        "y": 0.5424331896232836,
+        "w": 0.1372989205753102,
+        "h": 0.09405710239603061
+      },
+      "score": 0.8994466066360474,
+      "layoutRegionId": "cb51f5b6-5235-445b-9cec-89ac0369b1c2"
+    },
+    {
+      "id": "figure-p47-0350_0543_0147_0095",
+      "stableKey": "p47:figure:0.350_0.543_0.147_0.095",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.349508647046058,
+        "y": 0.5433607005109691,
+        "w": 0.14682874492570466,
+        "h": 0.09456634521484375
+      },
+      "score": 0.9070195555686951,
+      "layoutRegionId": "204c9873-12a8-4652-a280-91144ab52cac"
+    },
+    {
+      "id": "figure-p47-0508_0544_0145_0094",
+      "stableKey": "p47:figure:0.508_0.544_0.145_0.094",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.5084937101875255,
+        "y": 0.544026422982264,
+        "w": 0.1445869495666105,
+        "h": 0.09391642098474984
+      },
+      "score": 0.9027315378189087,
+      "layoutRegionId": "b2f55dd9-5d46-42ef-9eb9-c17a1176a160"
+    },
+    {
+      "id": "figure-p47-0674_0545_0136_0091",
+      "stableKey": "p47:figure:0.674_0.545_0.136_0.091",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.6741594302108864,
+        "y": 0.5448802215884431,
+        "w": 0.1357543047736673,
+        "h": 0.09051845049617266
+      },
+      "score": 0.9007226228713989,
+      "layoutRegionId": "135c7b91-f051-48c3-b325-3ccace199e98"
+    },
+    {
+      "id": "figure-p47-0192_0643_0132_0105",
+      "stableKey": "p47:figure:0.192_0.643_0.132_0.105",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.19169794967751097,
+        "y": 0.6433073101621686,
+        "w": 0.13233530131819982,
+        "h": 0.10503626351404671
+      },
+      "score": 0.8641992807388306,
+      "layoutRegionId": "62627750-c891-4faa-83a0-ae6f70453168"
+    },
+    {
+      "id": "figure-p47-0357_0642_0135_0094",
+      "stableKey": "p47:figure:0.357_0.642_0.135_0.094",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.3567529815474367,
+        "y": 0.6424525482485993,
+        "w": 0.1352232390759038,
+        "h": 0.09428132182419902
+      },
+      "score": 0.9063433408737183,
+      "layoutRegionId": "71e93239-7e25-453d-9373-ef575d7b6334"
+    },
+    {
+      "id": "figure-p47-0508_0643_0149_0099",
+      "stableKey": "p47:figure:0.508_0.643_0.149_0.099",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.5076726776322508,
+        "y": 0.6434163565587516,
+        "w": 0.1494096244861877,
+        "h": 0.09927090731534091
+      },
+      "score": 0.8803284168243408,
+      "layoutRegionId": "f1b1c09f-c2e5-4f36-a8a7-00805b59370a"
+    },
+    {
+      "id": "figure-p47-0670_0643_0140_0097",
+      "stableKey": "p47:figure:0.670_0.643_0.140_0.097",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.6701651180491728,
+        "y": 0.643386494029652,
+        "w": 0.13984361037709356,
+        "h": 0.09700401383216935
+      },
+      "score": 0.8877973556518555,
+      "layoutRegionId": "0d3b347d-8151-4263-ab2c-56b522ec1c48"
+    },
+    {
+      "id": "figure-p47-0184_0749_0137_0092",
+      "stableKey": "p47:figure:0.184_0.749_0.137_0.092",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.18433149499830856,
+        "y": 0.7485591233378709,
+        "w": 0.1372422486348869,
+        "h": 0.0921995374891493
+      },
+      "score": 0.7783617973327637,
+      "layoutRegionId": "e2bce4c1-5650-4f58-9936-1eafed2034ba"
+    },
+    {
+      "id": "figure-p47-0345_0742_0141_0100",
+      "stableKey": "p47:figure:0.345_0.742_0.141_0.100",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.3454669628267974,
+        "y": 0.7415289830679845,
+        "w": 0.14109363431244895,
+        "h": 0.09993312334773516
+      },
+      "score": 0.9115270376205444,
+      "layoutRegionId": "291523e5-bd1f-4a26-84e6-136d96cce5c7"
+    },
+    {
+      "id": "figure-p47-0504_0755_0135_0084",
+      "stableKey": "p47:figure:0.504_0.755_0.135_0.084",
+      "kind": "chart",
+      "section": "figure",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.5040845185323478,
+        "y": 0.7547277585424558,
+        "w": 0.1349724663628472,
+        "h": 0.08441424128985164
+      },
+      "score": 0.8665746450424194,
+      "layoutRegionId": "5c2cc7ce-e6a6-4d30-b489-26e142a26b64"
+    },
+    {
+      "id": "figure-7",
+      "stableKey": "p51:figure:Figure 7: The thought and plan of gpt-4",
+      "kind": "image",
+      "section": "figure",
+      "page": 51,
+      "pageIndex": 50,
+      "bbox": {
+        "x": 0.1970395106895297,
+        "y": 0.10142716494473544,
+        "w": 0.6071801029778774,
+        "h": 0.2130849722659949
+      },
+      "score": 0.9117294549942017,
+      "title": "Figure 7: The thought and plan of gpt-4",
+      "layoutRegionId": "7c2b3f97-5998-48de-95a9-6ddcb72b5c2c"
+    },
+    {
+      "id": "figure-8",
+      "stableKey": "p54:figure:Figure 8: Distribution of Rounds (Left) and Tokens (Right) in Completed Task Tra",
+      "kind": "chart",
+      "section": "figure",
+      "page": 54,
+      "pageIndex": 53,
+      "bbox": {
+        "x": 0.17268425187254263,
+        "y": 0.6955988720209911,
+        "w": 0.6546065012613932,
+        "h": 0.22721431231257894
+      },
+      "score": 0.8754318356513977,
+      "title": "Figure 8: Distribution of Rounds (Left) and Tokens (Right) in Completed Task Trajectories. For the rounds distribution, the median is 6.0 and the average is 7.95, with the middle 50% ranging from 4.0 to 9.0 rounds. Regarding the tokens distribution, the median is 1850.0 and the average is 2220.1, with the middle 50% between 761 and 2709 tokens.",
+      "layoutRegionId": "cecbdaa3-8e37-4cd7-84fd-4970a48a3395"
+    },
+    {
+      "id": "figure-9",
+      "stableKey": "p55:figure:Figure 9: P ( n, t ) , percentage among all TLE trajectories that there exists a",
+      "kind": "chart",
+      "section": "figure",
+      "page": 55,
+      "pageIndex": 54,
+      "bbox": {
+        "x": 0.17247772216796875,
+        "y": 0.12347635596689552,
+        "w": 0.655054578594133,
+        "h": 0.2328394109552557
+      },
+      "score": 0.9477391839027405,
+      "title": "Figure 9: P ( n, t ) , percentage among all TLE trajectories that there exists a pair of responses whose Rouge-L score is not less than t in the last n rounds before omission strategy started.",
+      "layoutRegionId": "7884f7f9-897c-411a-b9fd-aca843de4e63"
+    },
+    {
+      "id": "figure-p56-0236_0129_0334_0179",
+      "stableKey": "p56:figure:0.236_0.129_0.334_0.179",
+      "kind": "chart",
+      "section": "figure",
+      "page": 56,
+      "pageIndex": 55,
+      "bbox": {
+        "x": 0.23598358054566226,
+        "y": 0.129373955004143,
+        "w": 0.33428219564599926,
+        "h": 0.17900414900346237
+      },
+      "score": 0.6879238486289978,
+      "layoutRegionId": "49f7c951-f965-4c15-88b7-bbd3ae6f810d"
+    },
+    {
+      "id": "figure-p56-0517_0133_0273_0178",
+      "stableKey": "p56:figure:0.517_0.133_0.273_0.178",
+      "kind": "chart",
+      "section": "figure",
+      "page": 56,
+      "pageIndex": 55,
+      "bbox": {
+        "x": 0.5169894149880004,
+        "y": 0.1326804112906408,
+        "w": 0.27347120895884397,
+        "h": 0.17757779901677911
+      },
+      "score": 0.7126855850219727,
+      "layoutRegionId": "2bcd38ea-8feb-4cae-b242-d38123333d7a"
+    },
+    {
+      "id": "table-1",
+      "stableKey": "p3:table:Table 1: A GENT B ENCH evaluates 29 API-based or OSS LLMs on LLM-as-Agent challe",
+      "kind": "table",
+      "section": "table",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.174520667082344,
+        "y": 0.10155038159302991,
+        "w": 0.6516387415867225,
+        "h": 0.19298353098859689
+      },
+      "score": 0.9497781991958618,
+      "title": "Table 1: A GENT B ENCH evaluates 29 API-based or OSS LLMs on LLM-as-Agent challenges. Models annotated with * are evaluated after task weights are computed.",
+      "layoutRegionId": "35e18d6b-060c-4686-bf58-9200f3571160"
+    },
+    {
+      "id": "table-2",
+      "stableKey": "p6:table:Table 2: Statistics and metrics of 8 environments in A GENT B ENCH evaluation. “",
+      "kind": "table",
+      "section": "table",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.17324859020756742,
+        "y": 0.10212650684395222,
+        "w": 0.6554462707120609,
+        "h": 0.18029177309286712
+      },
+      "score": 0.9410492181777954,
+      "title": "Table 2: Statistics and metrics of 8 environments in A GENT B ENCH evaluation. “SR” stands for Success Rate . “#Avg. Round” denotes the estimated number of interacting rounds to solve a single problem. In “#Dev”, and “#Test”, we provide the number of query samples and total expected interacting rounds. Additionally, “Weight − ” refers to the average score for a task across all models 1 in our evaluation. For further clarification, please refer to Section 4.1 and Appendix B to I .",
+      "layoutRegionId": "6967f75c-bc5c-4dca-8818-2e09cd600fcd"
+    },
+    {
+      "id": "table-3",
+      "stableKey": "p7:table:Table 3: Test set (standard) results of A GENT B ENCH . A clear performance gap ",
+      "kind": "table",
+      "section": "table",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.17131072399662992,
+        "y": 0.10204036789711075,
+        "w": 0.6577941296147365,
+        "h": 0.367688506540626
+      },
+      "score": 0.9647338390350342,
+      "title": "Table 3: Test set (standard) results of A GENT B ENCH . A clear performance gap exists between top commercial LLMs (e.g., gpt-4 ) and OSS LLM competitors. “VER” stands for model version; “OA” stands for the overall A GENT B ENCH score, a weighted average of all environments (Cf. Section 4.1 ).",
+      "layoutRegionId": "258f0a91-22e4-4f2a-845c-6afe2bec4a61"
+    },
+    {
+      "id": "table-p8-0176_0103_0330_0101",
+      "stableKey": "p8:table:0.176_0.103_0.330_0.101",
+      "kind": "table",
+      "section": "table",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.1762434516856873,
+        "y": 0.10336017608642578,
+        "w": 0.32963497186797897,
+        "h": 0.10107255222821476
+      },
+      "score": 0.7983686327934265,
+      "layoutRegionId": "804a6566-69b3-480e-8b86-28f31e4778b8"
+    },
+    {
+      "id": "table-p8-0513_0084_0304_0147",
+      "stableKey": "p8:table:0.513_0.084_0.304_0.147",
+      "kind": "table",
+      "section": "table",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.512772254694521,
+        "y": 0.08363241137880267,
+        "w": 0.30439748327716504,
+        "h": 0.14676081532179708
+      },
+      "score": 0.45374155044555664,
+      "layoutRegionId": "bace7d09-5ced-402b-9323-6f034c7cfc29"
+    },
+    {
+      "id": "table-5",
+      "stableKey": "p26:table:Table 5: Re-annotated data tested on gpt-4 and gpt-3.5-turbo compared with the o",
+      "kind": "table",
+      "section": "table",
+      "page": 26,
+      "pageIndex": 25,
+      "bbox": {
+        "x": 0.19199437409444572,
+        "y": 0.49618010087446734,
+        "w": 0.6145445755104614,
+        "h": 0.0924944251474708
+      },
+      "score": 0.9258146286010742,
+      "title": "Table 5: Re-annotated data tested on gpt-4 and gpt-3.5-turbo compared with the original data.",
+      "layoutRegionId": "c489effb-33db-489a-a16e-c6b1097934a9"
+    },
+    {
+      "id": "table-p46-0182_0388_0638_0039",
+      "stableKey": "p46:table:0.182_0.388_0.638_0.039",
+      "kind": "table",
+      "section": "table",
+      "page": 46,
+      "pageIndex": 45,
+      "bbox": {
+        "x": 0.18220233293919783,
+        "y": 0.38773345947265625,
+        "w": 0.6378406449860218,
+        "h": 0.03872145065153488
+      },
+      "score": 0.7875592708587646,
+      "layoutRegionId": "cab4e024-ab55-4eb9-aece-1f9f14918d27"
+    },
+    {
+      "id": "algorithm-p23-0175_0259_0226_0036",
+      "stableKey": "p23:algorithm:0.175_0.259_0.226_0.036",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.17505699357176138,
+        "y": 0.2585174483482284,
+        "w": 0.2257496827568104,
+        "h": 0.03552471507679333
+      },
+      "score": 0.45249930024147034,
+      "layoutRegionId": "4b0ef69f-d5b7-4b07-bfd9-097d169a524f"
+    },
+    {
+      "id": "algorithm-p23-0179_0832_0634_0046",
+      "stableKey": "p23:algorithm:0.179_0.832_0.634_0.046",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.1787085190317989,
+        "y": 0.8321617974175347,
+        "w": 0.6344214794682521,
+        "h": 0.04574122573390151
+      },
+      "score": 0.3021624982357025,
+      "layoutRegionId": "685c86e9-a655-40d7-933f-882f1c0ebd4f"
+    },
+    {
+      "id": "algorithm-p24-0173_0115_0563_0441",
+      "stableKey": "p24:algorithm:0.173_0.115_0.563_0.441",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 24,
+      "pageIndex": 23,
+      "bbox": {
+        "x": 0.17318194520239735,
+        "y": 0.11521465609772037,
+        "w": 0.5626516155168122,
+        "h": 0.44093953720246903
+      },
+      "score": 0.9020217657089233,
+      "layoutRegionId": "e6e92423-c96d-4620-82ae-8240e0426241"
+    },
+    {
+      "id": "algorithm-p25-0172_0756_0642_0171",
+      "stableKey": "p25:algorithm:0.172_0.756_0.642_0.171",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 25,
+      "pageIndex": 24,
+      "bbox": {
+        "x": 0.17239806231330423,
+        "y": 0.7561213946101641,
+        "w": 0.641648560567619,
+        "h": 0.1714987706656408
+      },
+      "score": 0.7453539371490479,
+      "layoutRegionId": "dd1cc5ca-1c14-4951-beb4-4801b5b8a09e"
+    },
+    {
+      "id": "algorithm-p27-0172_0635_0647_0113",
+      "stableKey": "p27:algorithm:0.172_0.635_0.647_0.113",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 27,
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.17219963572383706,
+        "y": 0.6350001710833926,
+        "w": 0.6473749572155523,
+        "h": 0.11298189259538746
+      },
+      "score": 0.40018564462661743,
+      "layoutRegionId": "419a7892-9c42-436f-bb7a-feda66925d32"
+    },
+    {
+      "id": "algorithm-p28-0173_0271_0648_0077",
+      "stableKey": "p28:algorithm:0.173_0.271_0.648_0.077",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 28,
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.17297076555638533,
+        "y": 0.27077925325644137,
+        "w": 0.6482590569390191,
+        "h": 0.07699979916967527
+      },
+      "score": 0.5011241436004639,
+      "layoutRegionId": "f422c79e-a2bd-404c-9309-9ec69c2cd3f3"
+    },
+    {
+      "id": "algorithm-p29-0176_0447_0246_0013",
+      "stableKey": "p29:algorithm:0.176_0.447_0.246_0.013",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 29,
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.17620940613590813,
+        "y": 0.4474902297511245,
+        "w": 0.2456009185392093,
+        "h": 0.012637128733625316
+      },
+      "score": 0.36924058198928833,
+      "layoutRegionId": "5da24e02-e812-4e79-b3d7-32e664e6b074"
+    },
+    {
+      "id": "algorithm-p29-0175_0472_0542_0024",
+      "stableKey": "p29:algorithm:0.175_0.472_0.542_0.024",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 29,
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.17517205780627682,
+        "y": 0.4719247529000947,
+        "w": 0.5418009913824742,
+        "h": 0.02391572432084517
+      },
+      "score": 0.35507193207740784,
+      "layoutRegionId": "318711a0-6171-4089-9394-6e8e8fc0cf5e"
+    },
+    {
+      "id": "algorithm-p29-0175_0510_0636_0037",
+      "stableKey": "p29:algorithm:0.175_0.510_0.636_0.037",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 29,
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.17513108097649868,
+        "y": 0.5101868985879301,
+        "w": 0.636448405147378,
+        "h": 0.03701543326329703
+      },
+      "score": 0.3221617341041565,
+      "layoutRegionId": "e1794c5b-dc16-451a-b971-5b17cb21340c"
+    },
+    {
+      "id": "algorithm-p42-0206_0106_0602_0053",
+      "stableKey": "p42:algorithm:0.206_0.106_0.602_0.053",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.2059887655420241,
+        "y": 0.10632463898321595,
+        "w": 0.6020626990623723,
+        "h": 0.05305737196797072
+      },
+      "score": 0.6072889566421509,
+      "layoutRegionId": "281007ce-969c-4858-a30d-873571c81a09"
+    },
+    {
+      "id": "algorithm-p42-0176_0175_0600_0036",
+      "stableKey": "p42:algorithm:0.176_0.175_0.600_0.036",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.17576742483899485,
+        "y": 0.17518949027013297,
+        "w": 0.6000523411370571,
+        "h": 0.03624946902496646
+      },
+      "score": 0.6555395126342773,
+      "layoutRegionId": "33e4820a-613f-4d68-9994-45e9c4625c6e"
+    },
+    {
+      "id": "algorithm-p42-0175_0220_0587_0041",
+      "stableKey": "p42:algorithm:0.175_0.220_0.587_0.041",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.1753702724681181,
+        "y": 0.2202001436792239,
+        "w": 0.5874028299369064,
+        "h": 0.040897253787878785
+      },
+      "score": 0.6146620512008667,
+      "layoutRegionId": "5dde795c-1b33-4f1e-b3b5-ab691afc03f0"
+    },
+    {
+      "id": "algorithm-p42-0174_0271_0154_0028",
+      "stableKey": "p42:algorithm:0.174_0.271_0.154_0.028",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.1740159302755119,
+        "y": 0.27055593933721983,
+        "w": 0.15400338017083462,
+        "h": 0.027516663676560527
+      },
+      "score": 0.6175693869590759,
+      "layoutRegionId": "2d888d8b-0c74-4f73-9ebc-441a21717042"
+    },
+    {
+      "id": "algorithm-p42-0175_0309_0640_0102",
+      "stableKey": "p42:algorithm:0.175_0.309_0.640_0.102",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.17536896350337008,
+        "y": 0.3093691546507556,
+        "w": 0.639856824687883,
+        "h": 0.10243762623180043
+      },
+      "score": 0.616710901260376,
+      "layoutRegionId": "27398f83-6630-4d07-aa1e-2a5953cc8a1f"
+    },
+    {
+      "id": "algorithm-p42-0174_0421_0606_0041",
+      "stableKey": "p42:algorithm:0.174_0.421_0.606_0.041",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.17406171910903034,
+        "y": 0.421468330152107,
+        "w": 0.6055161968555326,
+        "h": 0.04051959875858191
+      },
+      "score": 0.530373215675354,
+      "layoutRegionId": "eb198bd2-c76e-4ba8-8877-f2b73cb617bf"
+    },
+    {
+      "id": "algorithm-p42-0174_0471_0629_0053",
+      "stableKey": "p42:algorithm:0.174_0.471_0.629_0.053",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.17427384619619332,
+        "y": 0.4709170948375355,
+        "w": 0.6287041707755694,
+        "h": 0.05317021379567156
+      },
+      "score": 0.4786103367805481,
+      "layoutRegionId": "1cd54439-c154-47ce-a8a5-82eae2dfd5a1"
+    },
+    {
+      "id": "algorithm-p42-0174_0534_0257_0029",
+      "stableKey": "p42:algorithm:0.174_0.534_0.257_0.029",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.17416112563189337,
+        "y": 0.5342328620679451,
+        "w": 0.2569731170055913,
+        "h": 0.028970814714528094
+      },
+      "score": 0.5426996350288391,
+      "layoutRegionId": "8132183f-8f4a-418f-af00-5ed464178330"
+    },
+    {
+      "id": "algorithm-p42-0175_0580_0641_0095",
+      "stableKey": "p42:algorithm:0.175_0.580_0.641_0.095",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.17473360448101766,
+        "y": 0.5804041467531763,
+        "w": 0.640815410738677,
+        "h": 0.0951497627027107
+      },
+      "score": 0.338165283203125,
+      "layoutRegionId": "93dbbedc-c8f8-4af0-9e6e-b898b469007e"
+    },
+    {
+      "id": "algorithm-p42-0173_0685_0631_0130",
+      "stableKey": "p42:algorithm:0.173_0.685_0.631_0.130",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.17311662162830627,
+        "y": 0.6848812681255918,
+        "w": 0.6305836945577384,
+        "h": 0.1299734404592803
+      },
+      "score": 0.38544392585754395,
+      "layoutRegionId": "e83bf78c-2bd3-4e41-adb2-e40400b1cae2"
+    },
+    {
+      "id": "algorithm-p46-0174_0523_0321_0090",
+      "stableKey": "p46:algorithm:0.174_0.523_0.321_0.090",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 46,
+      "pageIndex": 45,
+      "bbox": {
+        "x": 0.17380841573079428,
+        "y": 0.522795744616576,
+        "w": 0.32053431342629823,
+        "h": 0.08979092222271544
+      },
+      "score": 0.8792742490768433,
+      "layoutRegionId": "bce57a2d-3b4d-4b7c-acfc-b5ba7bdf50a4"
+    },
+    {
+      "id": "algorithm-p46-0175_0706_0443_0016",
+      "stableKey": "p46:algorithm:0.175_0.706_0.443_0.016",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 46,
+      "pageIndex": 45,
+      "bbox": {
+        "x": 0.1749313454222835,
+        "y": 0.7062179873688053,
+        "w": 0.44288670159632865,
+        "h": 0.015982656767874054
+      },
+      "score": 0.32249683141708374,
+      "layoutRegionId": "681b7997-3c2f-46ca-b922-5a8e1079c394"
+    },
+    {
+      "id": "algorithm-p46-0172_0729_0426_0061",
+      "stableKey": "p46:algorithm:0.172_0.729_0.426_0.061",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 46,
+      "pageIndex": 45,
+      "bbox": {
+        "x": 0.1724998997706993,
+        "y": 0.7288862286191998,
+        "w": 0.42645035538018916,
+        "h": 0.06059897066366793
+      },
+      "score": 0.36268776655197144,
+      "layoutRegionId": "c1d76324-ecc7-434c-bf65-fb744e080fa1"
+    },
+    {
+      "id": "algorithm-p46-0175_0857_0257_0015",
+      "stableKey": "p46:algorithm:0.175_0.857_0.257_0.015",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 46,
+      "pageIndex": 45,
+      "bbox": {
+        "x": 0.17542532378552006,
+        "y": 0.8573438856336806,
+        "w": 0.25693096834070545,
+        "h": 0.014611831819168244
+      },
+      "score": 0.3416552245616913,
+      "layoutRegionId": "35d4480d-c7d0-40fa-9480-6fbdea558e1c"
+    },
+    {
+      "id": "algorithm-p48-0173_0612_0218_0026",
+      "stableKey": "p48:algorithm:0.173_0.612_0.218_0.026",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 48,
+      "pageIndex": 47,
+      "bbox": {
+        "x": 0.17340399548898336,
+        "y": 0.6117184571545533,
+        "w": 0.21838727963516136,
+        "h": 0.026314860642558398
+      },
+      "score": 0.3162025511264801,
+      "layoutRegionId": "1a4f8ead-60d3-4af7-b283-e593934ca66c"
+    },
+    {
+      "id": "algorithm-p48-0174_0650_0198_0027",
+      "stableKey": "p48:algorithm:0.174_0.650_0.198_0.027",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 48,
+      "pageIndex": 47,
+      "bbox": {
+        "x": 0.17408594119003395,
+        "y": 0.6495375970397332,
+        "w": 0.19829256394330194,
+        "h": 0.026616183194247158
+      },
+      "score": 0.3363112807273865,
+      "layoutRegionId": "f03b177c-017c-4354-9d34-de595523f851"
+    },
+    {
+      "id": "algorithm-p48-0174_0800_0217_0027",
+      "stableKey": "p48:algorithm:0.174_0.800_0.217_0.027",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 48,
+      "pageIndex": 47,
+      "bbox": {
+        "x": 0.17379310707640805,
+        "y": 0.8000555327444365,
+        "w": 0.2170100866579542,
+        "h": 0.027131745309540718
+      },
+      "score": 0.31909000873565674,
+      "layoutRegionId": "c5333688-dda8-4d89-ad5b-2f930db8e623"
+    },
+    {
+      "id": "algorithm-p48-0174_0838_0200_0026",
+      "stableKey": "p48:algorithm:0.174_0.838_0.200_0.026",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 48,
+      "pageIndex": 47,
+      "bbox": {
+        "x": 0.1742458966822406,
+        "y": 0.8384079596008918,
+        "w": 0.20026749255610446,
+        "h": 0.025879908089685922
+      },
+      "score": 0.5062291026115417,
+      "layoutRegionId": "8f91bc64-aa38-4604-b048-cec054c644a7"
+    },
+    {
+      "id": "algorithm-p50-0173_0119_0632_0093",
+      "stableKey": "p50:algorithm:0.173_0.119_0.632_0.093",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 50,
+      "pageIndex": 49,
+      "bbox": {
+        "x": 0.17334899403690512,
+        "y": 0.11912051114169034,
+        "w": 0.6319777295480367,
+        "h": 0.09313797228264087
+      },
+      "score": 0.6856204271316528,
+      "layoutRegionId": "f2645f67-3be7-4b6a-afd0-f51def8ce074"
+    },
+    {
+      "id": "algorithm-p50-0174_0234_0365_0027",
+      "stableKey": "p50:algorithm:0.174_0.234_0.365_0.027",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 50,
+      "pageIndex": 49,
+      "bbox": {
+        "x": 0.1736518136816087,
+        "y": 0.2341804311733053,
+        "w": 0.36507389592189415,
+        "h": 0.027351109668461965
+      },
+      "score": 0.5816348791122437,
+      "layoutRegionId": "9c74484f-1a2b-4127-862b-7ea2d1a9d89d"
+    },
+    {
+      "id": "algorithm-p50-0175_0274_0562_0049",
+      "stableKey": "p50:algorithm:0.175_0.274_0.562_0.049",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 50,
+      "pageIndex": 49,
+      "bbox": {
+        "x": 0.17459792093513837,
+        "y": 0.2735194003943241,
+        "w": 0.5619849161384931,
+        "h": 0.04886066552364465
+      },
+      "score": 0.47342267632484436,
+      "layoutRegionId": "8bfc994a-1b7b-4fd9-a9ca-7d0b5b1e2c71"
+    },
+    {
+      "id": "algorithm-p50-0174_0342_0649_0044",
+      "stableKey": "p50:algorithm:0.174_0.342_0.649_0.044",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 50,
+      "pageIndex": 49,
+      "bbox": {
+        "x": 0.17390778485466452,
+        "y": 0.34216813366822524,
+        "w": 0.6492061490326925,
+        "h": 0.04414591163095802
+      },
+      "score": 0.5591186881065369,
+      "layoutRegionId": "6a47e4ee-3c46-497d-ab92-ab788119f6f8"
+    },
+    {
+      "id": "algorithm-p50-0175_0398_0357_0026",
+      "stableKey": "p50:algorithm:0.175_0.398_0.357_0.026",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 50,
+      "pageIndex": 49,
+      "bbox": {
+        "x": 0.17474454991957722,
+        "y": 0.3979375819967251,
+        "w": 0.3565637426438674,
+        "h": 0.026265269578105273
+      },
+      "score": 0.5446247458457947,
+      "layoutRegionId": "be6185e7-bdac-4423-a1a6-e8e2dfdcbe48"
+    },
+    {
+      "id": "algorithm-p50-0174_0448_0425_0027",
+      "stableKey": "p50:algorithm:0.174_0.448_0.425_0.027",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 50,
+      "pageIndex": 49,
+      "bbox": {
+        "x": 0.17446569056292766,
+        "y": 0.44754444469105115,
+        "w": 0.4248543658287697,
+        "h": 0.027003895152698864
+      },
+      "score": 0.5163107514381409,
+      "layoutRegionId": "b2512ab4-fe43-4a71-91ef-fa3e0a9170d6"
+    },
+    {
+      "id": "algorithm-p50-0174_0484_0229_0029",
+      "stableKey": "p50:algorithm:0.174_0.484_0.229_0.029",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 50,
+      "pageIndex": 49,
+      "bbox": {
+        "x": 0.1744518030702678,
+        "y": 0.4835641263711332,
+        "w": 0.22877508674571717,
+        "h": 0.028966075242167773
+      },
+      "score": 0.5159662365913391,
+      "layoutRegionId": "faf98f77-7e6b-4496-ada9-8146ac1e170c"
+    },
+    {
+      "id": "algorithm-p50-0174_0535_0322_0029",
+      "stableKey": "p50:algorithm:0.174_0.535_0.322_0.029",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 50,
+      "pageIndex": 49,
+      "bbox": {
+        "x": 0.17431803933935228,
+        "y": 0.5347948170671559,
+        "w": 0.32192809908997777,
+        "h": 0.02874073837742661
+      },
+      "score": 0.4821876585483551,
+      "layoutRegionId": "eaf3d75a-d8f5-4a52-8d35-15ef6e247781"
+    },
+    {
+      "id": "algorithm-p50-0174_0574_0358_0029",
+      "stableKey": "p50:algorithm:0.174_0.574_0.358_0.029",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 50,
+      "pageIndex": 49,
+      "bbox": {
+        "x": 0.17375505983439926,
+        "y": 0.5739291412661774,
+        "w": 0.35790662827834585,
+        "h": 0.028748252175071022
+      },
+      "score": 0.43567854166030884,
+      "layoutRegionId": "7737edb9-615f-4eaf-a1d3-68778919c64d"
+    },
+    {
+      "id": "algorithm-p50-0172_0622_0559_0171",
+      "stableKey": "p50:algorithm:0.172_0.622_0.559_0.171",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 50,
+      "pageIndex": 49,
+      "bbox": {
+        "x": 0.17241522845099955,
+        "y": 0.6218091791326349,
+        "w": 0.5591000450981988,
+        "h": 0.17053426877416747
+      },
+      "score": 0.6488896012306213,
+      "layoutRegionId": "946e5aaf-cc73-4d90-8ed3-ea543208a56e"
+    },
+    {
+      "id": "algorithm-p51-0174_0838_0216_0025",
+      "stableKey": "p51:algorithm:0.174_0.838_0.216_0.025",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 51,
+      "pageIndex": 50,
+      "bbox": {
+        "x": 0.17390145195855033,
+        "y": 0.8384566644225457,
+        "w": 0.21589737935783038,
+        "h": 0.025256609675860166
+      },
+      "score": 0.6955294609069824,
+      "layoutRegionId": "04b3069a-586d-4d27-8f05-e6b574a546e5"
+    },
+    {
+      "id": "algorithm-p52-0174_0121_0217_0026",
+      "stableKey": "p52:algorithm:0.174_0.121_0.217_0.026",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 52,
+      "pageIndex": 51,
+      "bbox": {
+        "x": 0.17439999299890854,
+        "y": 0.1209128216059521,
+        "w": 0.2168718350479026,
+        "h": 0.02576732635498047
+      },
+      "score": 0.5043379068374634,
+      "layoutRegionId": "6999bf22-57ac-457c-b7aa-2e9e0c642b43"
+    },
+    {
+      "id": "algorithm-p52-0174_0222_0217_0025",
+      "stableKey": "p52:algorithm:0.174_0.222_0.217_0.025",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 52,
+      "pageIndex": 51,
+      "bbox": {
+        "x": 0.1744268330094082,
+        "y": 0.22181408814709597,
+        "w": 0.2169126373490477,
+        "h": 0.024553684273151435
+      },
+      "score": 0.37103670835494995,
+      "layoutRegionId": "d33f247b-50d5-48d1-86f9-482b551ec3b7"
+    },
+    {
+      "id": "algorithm-p52-0173_0260_0634_0062",
+      "stableKey": "p52:algorithm:0.173_0.260_0.634_0.062",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 52,
+      "pageIndex": 51,
+      "bbox": {
+        "x": 0.17309206295636745,
+        "y": 0.2601355928363222,
+        "w": 0.6340556425206801,
+        "h": 0.06227385395705098
+      },
+      "score": 0.3362443447113037,
+      "layoutRegionId": "7cac67e9-ecd2-416b-b5be-92a7a83c3442"
+    },
+    {
+      "id": "algorithm-p52-0174_0334_0637_0028",
+      "stableKey": "p52:algorithm:0.174_0.334_0.637_0.028",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 52,
+      "pageIndex": 51,
+      "bbox": {
+        "x": 0.17360728394751454,
+        "y": 0.33441312385327887,
+        "w": 0.6374421337850733,
+        "h": 0.02755186292860243
+      },
+      "score": 0.47555503249168396,
+      "layoutRegionId": "8cdbd0e5-aae4-4fca-afad-e84e201f5bab"
+    },
+    {
+      "id": "algorithm-p52-0174_0448_0215_0025",
+      "stableKey": "p52:algorithm:0.174_0.448_0.215_0.025",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 52,
+      "pageIndex": 51,
+      "bbox": {
+        "x": 0.17417567384009267,
+        "y": 0.44840433139993685,
+        "w": 0.21528207866194982,
+        "h": 0.02500769104620423
+      },
+      "score": 0.4243178963661194,
+      "layoutRegionId": "ae66b4b7-e331-4562-ac2c-6977089c54fc"
+    },
+    {
+      "id": "algorithm-p52-0175_0562_0216_0024",
+      "stableKey": "p52:algorithm:0.175_0.562_0.216_0.024",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 52,
+      "pageIndex": 51,
+      "bbox": {
+        "x": 0.17456227969499974,
+        "y": 0.5623252945716934,
+        "w": 0.21580229865180123,
+        "h": 0.024109002315636837
+      },
+      "score": 0.3310292661190033,
+      "layoutRegionId": "060ec25c-a289-4d8e-940b-03ec64d47598"
+    },
+    {
+      "id": "algorithm-p52-0174_0875_0216_0027",
+      "stableKey": "p52:algorithm:0.174_0.875_0.216_0.027",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 52,
+      "pageIndex": 51,
+      "bbox": {
+        "x": 0.17406990948845358,
+        "y": 0.8750852334378946,
+        "w": 0.2163859722661037,
+        "h": 0.026992104270241478
+      },
+      "score": 0.7330251336097717,
+      "layoutRegionId": "c381bb06-5f89-496d-a3e1-c96220bf50f1"
+    },
+    {
+      "id": "algorithm-p53-0174_0272_0217_0025",
+      "stableKey": "p53:algorithm:0.174_0.272_0.217_0.025",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 53,
+      "pageIndex": 52,
+      "bbox": {
+        "x": 0.17375237957324857,
+        "y": 0.2720885228629064,
+        "w": 0.21743028927472682,
+        "h": 0.025258536290640784
+      },
+      "score": 0.3692089021205902,
+      "layoutRegionId": "99dd0037-0de9-4ccc-a054-863aebf90527"
+    },
+    {
+      "id": "algorithm-p54-0174_0105_0647_0209",
+      "stableKey": "p54:algorithm:0.174_0.105_0.647_0.209",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 54,
+      "pageIndex": 53,
+      "bbox": {
+        "x": 0.17369242898778978,
+        "y": 0.10475041167904632,
+        "w": 0.6468475067537595,
+        "h": 0.2088327311506175
+      },
+      "score": 0.7552626132965088,
+      "layoutRegionId": "9e0f49f9-8592-4eb9-9c1a-bb07a59acfad"
+    },
+    {
+      "id": "algorithm-p56-0178_0761_0343_0016",
+      "stableKey": "p56:algorithm:0.178_0.761_0.343_0.016",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 56,
+      "pageIndex": 55,
+      "bbox": {
+        "x": 0.17820433074352787,
+        "y": 0.7609631316830413,
+        "w": 0.3428583830789803,
+        "h": 0.015608199919113006
+      },
+      "score": 0.48729240894317627,
+      "layoutRegionId": "83f78132-1cb5-49f9-8657-abcd9fe860e2"
+    },
+    {
+      "id": "algorithm-p56-0176_0825_0592_0027",
+      "stableKey": "p56:algorithm:0.176_0.825_0.592_0.027",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 56,
+      "pageIndex": 55,
+      "bbox": {
+        "x": 0.17623522390727125,
+        "y": 0.8245838049686316,
+        "w": 0.5918500314351001,
+        "h": 0.026696099175347224
+      },
+      "score": 0.4668337404727936,
+      "layoutRegionId": "7bd9994c-acb0-4d28-8bfd-1f5525168e04"
+    },
+    {
+      "id": "algorithm-p56-0174_0864_0332_0057",
+      "stableKey": "p56:algorithm:0.174_0.864_0.332_0.057",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 56,
+      "pageIndex": 55,
+      "bbox": {
+        "x": 0.17443410088034236,
+        "y": 0.8644489326862373,
+        "w": 0.33219713946573093,
+        "h": 0.057071647258720014
+      },
+      "score": 0.6289457082748413,
+      "layoutRegionId": "8fd9793b-8862-4acd-b227-ecb9fb321d56"
+    },
+    {
+      "id": "algorithm-p57-0174_0144_0649_0027",
+      "stableKey": "p57:algorithm:0.174_0.144_0.649_0.027",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 57,
+      "pageIndex": 56,
+      "bbox": {
+        "x": 0.17418539757822074,
+        "y": 0.1443391279740767,
+        "w": 0.6485596825094784,
+        "h": 0.027458518442481455
+      },
+      "score": 0.40294355154037476,
+      "layoutRegionId": "b7ecdb9a-66dd-40d6-aca7-aefb3e8322cf"
+    },
+    {
+      "id": "algorithm-p57-0176_0183_0620_0060",
+      "stableKey": "p57:algorithm:0.176_0.183_0.620_0.060",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 57,
+      "pageIndex": 56,
+      "bbox": {
+        "x": 0.17556192983988844,
+        "y": 0.1826791859636403,
+        "w": 0.6195521261177811,
+        "h": 0.05983475964478772
+      },
+      "score": 0.708969235420227,
+      "layoutRegionId": "6fff369c-96ed-457c-bad8-e94c96520a76"
+    },
+    {
+      "id": "algorithm-p57-0175_0258_0638_0026",
+      "stableKey": "p57:algorithm:0.175_0.258_0.638_0.026",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 57,
+      "pageIndex": 56,
+      "bbox": {
+        "x": 0.1753073673622281,
+        "y": 0.25836724945993134,
+        "w": 0.6377784504609949,
+        "h": 0.026212692260742188
+      },
+      "score": 0.5463018417358398,
+      "layoutRegionId": "211ed9ca-3186-4b38-9f4a-c2fd5a97090e"
+    },
+    {
+      "id": "algorithm-p57-0178_0296_0478_0015",
+      "stableKey": "p57:algorithm:0.178_0.296_0.478_0.015",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 57,
+      "pageIndex": 56,
+      "bbox": {
+        "x": 0.1775471307093801,
+        "y": 0.2958473629421658,
+        "w": 0.47778041066687094,
+        "h": 0.014711726795543324
+      },
+      "score": 0.44580167531967163,
+      "layoutRegionId": "d051d5d6-2f69-4f35-a36c-63829e337fd5"
+    },
+    {
+      "id": "algorithm-p57-0175_0346_0331_0055",
+      "stableKey": "p57:algorithm:0.175_0.346_0.331_0.055",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 57,
+      "pageIndex": 56,
+      "bbox": {
+        "x": 0.17539048039056118,
+        "y": 0.345836331145932,
+        "w": 0.33072121314753117,
+        "h": 0.05514021594114978
+      },
+      "score": 0.5916030406951904,
+      "layoutRegionId": "1f8f4b13-9746-4578-b5e9-ca733698c077"
+    },
+    {
+      "id": "algorithm-p57-0176_0426_0644_0058",
+      "stableKey": "p57:algorithm:0.176_0.426_0.644_0.058",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 57,
+      "pageIndex": 56,
+      "bbox": {
+        "x": 0.17580514795639934,
+        "y": 0.4261863014914773,
+        "w": 0.6435456494100733,
+        "h": 0.05831974684590041
+      },
+      "score": 0.37350887060165405,
+      "layoutRegionId": "80fcfe8f-4d6d-4be7-88d1-00b84327d45d"
+    },
+    {
+      "id": "algorithm-p57-0175_0497_0635_0038",
+      "stableKey": "p57:algorithm:0.175_0.497_0.635_0.038",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 57,
+      "pageIndex": 56,
+      "bbox": {
+        "x": 0.17482470842747908,
+        "y": 0.4969740973578559,
+        "w": 0.6352024701685687,
+        "h": 0.037585017657039144
+      },
+      "score": 0.487956702709198,
+      "layoutRegionId": "81b1d1ce-5424-434a-84c4-f4e58b86350e"
+    },
+    {
+      "id": "algorithm-p57-0175_0558_0331_0047",
+      "stableKey": "p57:algorithm:0.175_0.558_0.331_0.047",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 57,
+      "pageIndex": 56,
+      "bbox": {
+        "x": 0.17535510094337214,
+        "y": 0.5579282587224786,
+        "w": 0.33062026079963236,
+        "h": 0.046989672111742424
+      },
+      "score": 0.4599863588809967,
+      "layoutRegionId": "f5543987-0f51-40d0-a0ce-a4f2a0e3f17d"
+    },
+    {
+      "id": "algorithm-p57-0175_0624_0303_0013",
+      "stableKey": "p57:algorithm:0.175_0.624_0.303_0.013",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 57,
+      "pageIndex": 56,
+      "bbox": {
+        "x": 0.1753868277555977,
+        "y": 0.6238454568265664,
+        "w": 0.30308710983376097,
+        "h": 0.012805707526929451
+      },
+      "score": 0.4181862473487854,
+      "layoutRegionId": "f664509a-e543-492f-8029-3f9ccace389f"
+    },
+    {
+      "id": "algorithm-p57-0175_0672_0331_0057",
+      "stableKey": "p57:algorithm:0.175_0.672_0.331_0.057",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 57,
+      "pageIndex": 56,
+      "bbox": {
+        "x": 0.1747753666896446,
+        "y": 0.6719532976246844,
+        "w": 0.3307888055938521,
+        "h": 0.05714300907019413
+      },
+      "score": 0.5852011442184448,
+      "layoutRegionId": "51b7a045-f1a3-4149-a59e-7c5b9e5d9535"
+    },
+    {
+      "id": "algorithm-p57-0176_0878_0347_0049",
+      "stableKey": "p57:algorithm:0.176_0.878_0.347_0.049",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 57,
+      "pageIndex": 56,
+      "bbox": {
+        "x": 0.17580372679467296,
+        "y": 0.8779172030362216,
+        "w": 0.34725724014581416,
+        "h": 0.048660509514086174
+      },
+      "score": 0.6582580208778381,
+      "layoutRegionId": "b7360230-fe1f-4a28-842a-51ff62d00a33"
+    },
+    {
+      "id": "algorithm-p58-0173_0107_0358_0206",
+      "stableKey": "p58:algorithm:0.173_0.107_0.358_0.206",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 58,
+      "pageIndex": 57,
+      "bbox": {
+        "x": 0.1727361741408803,
+        "y": 0.10672343860973012,
+        "w": 0.3582420099794475,
+        "h": 0.20593498692368017
+      },
+      "score": 0.7873237133026123,
+      "layoutRegionId": "2298d4ec-deb0-4a57-b557-96e989605afc"
+    },
+    {
+      "id": "formula-p21-0416_0408_0409_0053",
+      "stableKey": "p21:formula:0.416_0.408_0.409_0.053",
+      "kind": "formula",
+      "section": "formula",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.4164949304917279,
+        "y": 0.40767357566139917,
+        "w": 0.4087872972675398,
+        "h": 0.053112338287661764
+      },
+      "score": 0.9498593807220459,
+      "layoutRegionId": "b023160a-1972-40a0-90eb-ec4e8d934c65"
+    },
+    {
+      "id": "formula-p21-0377_0512_0449_0052",
+      "stableKey": "p21:formula:0.377_0.512_0.449_0.052",
+      "kind": "formula",
+      "section": "formula",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.37660710951861215,
+        "y": 0.5116250009247751,
+        "w": 0.4489871754365809,
+        "h": 0.051587114430437175
+      },
+      "score": 0.9409726858139038,
+      "layoutRegionId": "02514495-f9f7-46d5-8c8d-37de8fdfa860"
+    },
+    {
+      "id": "formula-p40-0271_0711_0554_0032",
+      "stableKey": "p40:formula:0.271_0.711_0.554_0.032",
+      "kind": "formula",
+      "section": "formula",
+      "page": 40,
+      "pageIndex": 39,
+      "bbox": {
+        "x": 0.27130874932981003,
+        "y": 0.71051025390625,
+        "w": 0.5539467506159363,
+        "h": 0.03183615328085543
+      },
+      "score": 0.8526329398155212,
+      "layoutRegionId": "9211fa97-29a7-45b0-bb6a-cc6c89cb9d89"
+    },
+    {
+      "id": "formula-p55-0194_0824_0631_0031",
+      "stableKey": "p55:formula:0.194_0.824_0.631_0.031",
+      "kind": "formula",
+      "section": "formula",
+      "page": 55,
+      "pageIndex": 54,
+      "bbox": {
+        "x": 0.19419097900390625,
+        "y": 0.8241524744515467,
+        "w": 0.6311637529360702,
+        "h": 0.030542238794191934
+      },
+      "score": 0.852093517780304,
+      "layoutRegionId": "e033e702-4c61-4120-9785-8be95faec6b7"
+    }
+  ]
+}

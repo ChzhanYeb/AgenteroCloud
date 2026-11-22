@@ -1,0 +1,707 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:46:00.662Z",
+    "fingerprint": "e4b95daa19b94e0c55299ad815ead8a56ff3bd4b8ee4388482f2fe6fb894880c"
+  },
+  "citations": [
+    {
+      "id": "cite-ainslie2023gqa",
+      "rawKey": "ainslie2023gqa",
+      "display": "[1]",
+      "raw": "Joshua Ainslie, James Lee-Thorp, Michiel de Jong, Yury Zemlyanskiy, Federico Lebron, and Sumit Sanghai. Gqa: Training generalized multi-query transformer models from multi-head checkpoints. arXiv preprint arXiv:2305.13245, 2023.",
+      "metadata": {
+        "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+        "authors": [
+          "Joshua Ainslie",
+          "James Lee-Thorp",
+          "Michiel de Jong",
+          "Yury Zemlyanskiy",
+          "Federico Lebron",
+          "Sumit Sanghai"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2305.13245",
+        "arxivId": "2305.13245"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-austin2021program",
+      "rawKey": "austin2021program",
+      "display": "[2]",
+      "raw": "Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, et al. Program synthesis with large language models. arXiv preprint arXiv:2108.07732, 2021.",
+      "metadata": {
+        "title": "Program synthesis with large language models",
+        "authors": [
+          "Jacob Austin",
+          "Augustus Odena",
+          "Maxwell Nye",
+          "Maarten Bosma",
+          "Henryk Michalewski",
+          "David Dohan",
+          "Ellen Jiang",
+          "Carrie Cai",
+          "Michael Terry",
+          "Quoc Le"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2108.07732",
+        "arxivId": "2108.07732"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-beltagy2020longformer",
+      "rawKey": "beltagy2020longformer",
+      "display": "[3]",
+      "raw": "Iz Beltagy, Matthew E Peters, and Arman Cohan. Longformer: The long-document transformer. arXiv preprint arXiv:2004.05150, 2020.",
+      "metadata": {
+        "title": "Longformer: The long-document transformer",
+        "authors": [
+          "Iz Beltagy",
+          "Matthew E Peters",
+          "Arman Cohan"
+        ],
+        "year": 2004,
+        "venue": "arXiv preprint arXiv:2004.05150",
+        "arxivId": "2004.05150"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bisk2020piqa",
+      "rawKey": "bisk2020piqa",
+      "display": "[4]",
+      "raw": "Yonatan Bisk, Rowan Zellers, Jianfeng Gao, Yejin Choi, et al. Piqa: Reasoning about physical commonsense in natural language. In Proceedings of the AAAI conference on artificial intelligence, 2020.",
+      "metadata": {
+        "title": "Piqa: Reasoning about physical commonsense in natural language",
+        "authors": [
+          "Yonatan Bisk",
+          "Rowan Zellers",
+          "Jianfeng Gao",
+          "Yejin Choi"
+        ],
+        "year": 2020,
+        "venue": "Proceedings of the AAAI conference on artificial intelligence"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chen2021evaluating",
+      "rawKey": "chen2021evaluating",
+      "display": "[5]",
+      "raw": "Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al. Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374, 2021.",
+      "metadata": {
+        "title": "Evaluating large language models trained on code",
+        "authors": [
+          "Mark Chen",
+          "Jerry Tworek",
+          "Heewoo Jun",
+          "Qiming Yuan",
+          "Henrique Ponde de Oliveira Pinto",
+          "Jared Kaplan",
+          "Harri Edwards",
+          "Yuri Burda",
+          "Nicholas Joseph",
+          "Greg Brockman"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2107.03374",
+        "arxivId": "2107.03374"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-child2019generating",
+      "rawKey": "child2019generating",
+      "display": "[6]",
+      "raw": "Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers. arXiv preprint arXiv:1904.10509, 2019.",
+      "metadata": {
+        "title": "Generating long sequences with sparse transformers",
+        "authors": [
+          "Rewon Child",
+          "Scott Gray",
+          "Alec Radford",
+          "Ilya Sutskever"
+        ],
+        "year": 1904,
+        "venue": "arXiv preprint arXiv:1904.10509",
+        "arxivId": "1904.10509"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-choi2018quac",
+      "rawKey": "choi2018quac",
+      "display": "[7]",
+      "raw": "Eunsol Choi, He He, Mohit Iyyer, Mark Yatskar, Wen-tau Yih, Yejin Choi, Percy Liang, and Luke Zettlemoyer. Quac: Question answering in context. arXiv preprint arXiv:1808.07036, 2018.",
+      "metadata": {
+        "title": "QuAC: Question answering in context",
+        "authors": [
+          "Eunsol Choi",
+          "He He",
+          "Mohit Iyyer",
+          "Mark Yatskar",
+          "Wen-tau Yih",
+          "Yejin Choi",
+          "Percy Liang",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1808.07036",
+        "arxivId": "1808.07036"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-clark2019boolq",
+      "rawKey": "clark2019boolq",
+      "display": "[8]",
+      "raw": "Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael Collins, and Kristina Toutanova. Boolq: Exploring the surprising difficulty of natural yes/no questions. arXiv preprint arXiv:1905.10044, 2019.",
+      "metadata": {
+        "title": "BoolQ: Exploring the surprising difficulty of natural yes/no questions",
+        "authors": [
+          "Christopher Clark",
+          "Kenton Lee",
+          "Ming-Wei Chang",
+          "Tom Kwiatkowski",
+          "Michael Collins",
+          "Kristina Toutanova"
+        ],
+        "year": 1905,
+        "venue": "arXiv preprint arXiv:1905.10044",
+        "arxivId": "1905.10044"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-clark2018think",
+      "rawKey": "clark2018think",
+      "display": "[9]",
+      "raw": "Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and Oyvind Tafjord. Think you have solved question answering? try arc, the ai2 reasoning challenge. arXiv preprint arXiv:1803.05457, 2018.",
+      "metadata": {
+        "title": "Think you have solved question answering? try arc, the ai2 reasoning challenge",
+        "authors": [
+          "Peter Clark",
+          "Isaac Cowhey",
+          "Oren Etzioni",
+          "Tushar Khot",
+          "Ashish Sabharwal",
+          "Carissa Schoenick",
+          "Oyvind Tafjord"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1803.05457",
+        "arxivId": "1803.05457"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cobbe2021training",
+      "rawKey": "cobbe2021training",
+      "display": "[10]",
+      "raw": "Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, et al. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021.",
+      "metadata": {
+        "title": "Training verifiers to solve math word problems",
+        "authors": [
+          "Karl Cobbe",
+          "Vineet Kosaraju",
+          "Mohammad Bavarian",
+          "Mark Chen",
+          "Heewoo Jun",
+          "Lukasz Kaiser",
+          "Matthias Plappert",
+          "Jerry Tworek",
+          "Jacob Hilton",
+          "Reiichiro Nakano"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2110.14168",
+        "arxivId": "2110.14168"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dao2022flashattention",
+      "rawKey": "dao2022flashattention",
+      "display": "[11]",
+      "raw": "Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, and Christopher Re. FlashAttention: Fast and memory-efficient exact attention with IO-awareness. In Advances in Neural Information Processing Systems, 2022.",
+      "metadata": {
+        "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+        "authors": [
+          "Tri Dao",
+          "Daniel Y. Fu",
+          "Stefano Ermon",
+          "Atri Rudra",
+          "Christopher Re"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hendrycks2020measuring",
+      "rawKey": "hendrycks2020measuring",
+      "display": "[12]",
+      "raw": "Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. Measuring massive multitask language understanding. arXiv preprint arXiv:2009.03300, 2020.",
+      "metadata": {
+        "title": "Measuring massive multitask language understanding",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Steven Basart",
+          "Andy Zou",
+          "Mantas Mazeika",
+          "Dawn Song",
+          "Jacob Steinhardt"
+        ],
+        "year": 2009,
+        "venue": "arXiv preprint arXiv:2009.03300",
+        "arxivId": "2009.03300"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hendrycks2021measuring",
+      "rawKey": "hendrycks2021measuring",
+      "display": "[13]",
+      "raw": "Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, and Jacob Steinhardt. Measuring mathematical problem solving with the math dataset. arXiv preprint arXiv:2103.03874, 2021.",
+      "metadata": {
+        "title": "Measuring mathematical problem solving with the math dataset",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Saurav Kadavath",
+          "Akul Arora",
+          "Steven Basart",
+          "Eric Tang",
+          "Dawn Song",
+          "Jacob Steinhardt"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2103.03874",
+        "arxivId": "2103.03874"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hoffmann2022compute",
+      "rawKey": "hoffmann2022compute",
+      "display": "[14]",
+      "raw": "Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, Thomas Hennigan, Eric Noland, Katherine Millican, George van den Driessche, Bogdan Damoc, Aurelia Guy, Simon Osindero, Karen Simonyan, Erich Elsen, Oriol Vinyals, Jack Rae, and Laurent Sifre. An empirical analysis of compute-optimal large language model training. In Advances in Neural Information Processing Systems, volume 35, 2022.",
+      "metadata": {
+        "title": "An empirical analysis of compute-optimal large language model training",
+        "authors": [
+          "Jordan Hoffmann",
+          "Sebastian Borgeaud",
+          "Arthur Mensch",
+          "Elena Buchatskaya",
+          "Trevor Cai",
+          "Eliza Rutherford",
+          "Diego de Las Casas",
+          "Lisa Anne Hendricks",
+          "Johannes Welbl",
+          "Aidan Clark",
+          "Thomas Hennigan",
+          "Eric Noland",
+          "Katherine Millican",
+          "George van den Driessche",
+          "Bogdan Damoc",
+          "Aurelia Guy",
+          "Simon Osindero",
+          "Karen Simonyan",
+          "Erich Elsen",
+          "Oriol Vinyals",
+          "Jack Rae",
+          "Laurent Sifre"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-joshi2017triviaqa",
+      "rawKey": "joshi2017triviaqa",
+      "display": "[15]",
+      "raw": "Mandar Joshi, Eunsol Choi, Daniel S Weld, and Luke Zettlemoyer. Triviaqa: A large scale distantly supervised challenge dataset for reading comprehension. arXiv preprint arXiv:1705.03551, 2017.",
+      "metadata": {
+        "title": "Triviaqa: A large scale distantly supervised challenge dataset for reading comprehension",
+        "authors": [
+          "Mandar Joshi",
+          "Eunsol Choi",
+          "Daniel S Weld",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2017,
+        "venue": "arXiv preprint arXiv:1705.03551",
+        "arxivId": "1705.03551"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kwiatkowski2019natural",
+      "rawKey": "kwiatkowski2019natural",
+      "display": "[16]",
+      "raw": "Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Jacob Devlin, Kenton Lee, et al. Natural questions: a benchmark for question answering research. Transactions of the Association for Computational Linguistics, 7:453--466, 2019.",
+      "metadata": {
+        "title": "Natural questions: a benchmark for question answering research",
+        "authors": [
+          "Tom Kwiatkowski",
+          "Jennimaria Palomaki",
+          "Olivia Redfield",
+          "Michael Collins",
+          "Ankur Parikh",
+          "Chris Alberti",
+          "Danielle Epstein",
+          "Illia Polosukhin",
+          "Jacob Devlin",
+          "Kenton Lee"
+        ],
+        "year": 2019,
+        "venue": "Transactions of the Association for Computational Linguistics"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kwon2023efficient",
+      "rawKey": "kwon2023efficient",
+      "display": "[17]",
+      "raw": "Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody Hao Yu, Joseph E. Gonzalez, Hao Zhang, and Ion Stoica. Efficient memory management for large language model serving with pagedattention. In Proceedings of the ACM SIGOPS 29th Symposium on Operating Systems Principles, 2023.",
+      "metadata": {
+        "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+        "authors": [
+          "Woosuk Kwon",
+          "Zhuohan Li",
+          "Siyuan Zhuang",
+          "Ying Sheng",
+          "Lianmin Zheng",
+          "Cody Hao Yu",
+          "Joseph E. Gonzalez",
+          "Hao Zhang",
+          "Ion Stoica"
+        ],
+        "year": 2023,
+        "venue": "Proceedings of the ACM SIGOPS 29th Symposium on Operating Systems Principles"
+      },
+      "localMatch": {
+        "paperPath": "papers/10_1145_3600006_3613165",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xFormers2022",
+      "rawKey": "xFormers2022",
+      "display": "[18]",
+      "raw": "Benjamin Lefaudeux, Francisco Massa, Diana Liskovich, Wenhan Xiong, Vittorio Caggiano, Sean Naren, Min Xu, Jieru Hu, Marta Tintore, Susan Zhang, Patrick Labatut, and Daniel Haziza. xformers: A modular and hackable transformer modelling library. https://github.com/facebookresearch/xformers, 2022.",
+      "metadata": {
+        "title": "xFormers: A modular and hackable Transformer modelling library",
+        "authors": [
+          "Benjamin Lefaudeux",
+          "Francisco Massa",
+          "Diana Liskovich",
+          "Wenhan Xiong",
+          "Vittorio Caggiano",
+          "Sean Naren",
+          "Min Xu",
+          "Jieru Hu",
+          "Marta Tintore",
+          "Susan Zhang",
+          "Patrick Labatut",
+          "Daniel Haziza"
+        ],
+        "year": 2022,
+        "url": "https://github.com/facebookresearch/xformers"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mihaylov2018can",
+      "rawKey": "mihaylov2018can",
+      "display": "[19]",
+      "raw": "Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a new dataset for open book question answering. arXiv preprint arXiv:1809.02789, 2018.",
+      "metadata": {
+        "title": "Can a suit of armor conduct electricity? a new dataset for open book question answering",
+        "authors": [
+          "Todor Mihaylov",
+          "Peter Clark",
+          "Tushar Khot",
+          "Ashish Sabharwal"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1809.02789",
+        "arxivId": "1809.02789"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-roziere2023code",
+      "rawKey": "roziere2023code",
+      "display": "[20]",
+      "raw": "Baptiste Roziere, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat, Xiaoqing Ellen Tan, Yossi Adi, Jingyu Liu, Tal Remez, Jeremy Rapin, et al. Code llama: Open foundation models for code. arXiv preprint arXiv:2308.12950, 2023.",
+      "metadata": {
+        "title": "Code llama: Open foundation models for code",
+        "authors": [
+          "Baptiste Roziere",
+          "Jonas Gehring",
+          "Fabian Gloeckle",
+          "Sten Sootla",
+          "Itai Gat",
+          "Xiaoqing Ellen Tan",
+          "Yossi Adi",
+          "Jingyu Liu",
+          "Tal Remez",
+          "Jeremy Rapin"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2308.12950",
+        "arxivId": "2308.12950"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sakaguchi2021winogrande",
+      "rawKey": "sakaguchi2021winogrande",
+      "display": "[21]",
+      "raw": "Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. Winogrande: An adversarial winograd schema challenge at scale. Communications of the ACM, 64(9):99--106, 2021.",
+      "metadata": {
+        "title": "Winogrande: An adversarial winograd schema challenge at scale",
+        "authors": [
+          "Keisuke Sakaguchi",
+          "Ronan Le Bras",
+          "Chandra Bhagavatula",
+          "Yejin Choi"
+        ],
+        "year": 2021,
+        "venue": "Communications of the ACM"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sap2019socialiqa",
+      "rawKey": "sap2019socialiqa",
+      "display": "[22]",
+      "raw": "Maarten Sap, Hannah Rashkin, Derek Chen, Ronan LeBras, and Yejin Choi. Socialiqa: Commonsense reasoning about social interactions. arXiv preprint arXiv:1904.09728, 2019.",
+      "metadata": {
+        "title": "Socialiqa: Commonsense reasoning about social interactions",
+        "authors": [
+          "Maarten Sap",
+          "Hannah Rashkin",
+          "Derek Chen",
+          "Ronan LeBras",
+          "Yejin Choi"
+        ],
+        "year": 1904,
+        "venue": "arXiv preprint arXiv:1904.09728",
+        "arxivId": "1904.09728"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-suzgun2022challenging",
+      "rawKey": "suzgun2022challenging",
+      "display": "[23]",
+      "raw": "Mirac Suzgun, Nathan Scales, Nathanael Scharli, Sebastian Gehrmann, Yi Tay, Hyung Won Chung, Aakanksha Chowdhery, Quoc V Le, Ed H Chi, Denny Zhou, , and Jason Wei. Challenging big-bench tasks and whether chain-of-thought can solve them. arXiv preprint arXiv:2210.09261, 2022.",
+      "metadata": {
+        "title": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them",
+        "authors": [
+          "Mirac Suzgun",
+          "Nathan Scales",
+          "Nathanael Scharli",
+          "Sebastian Gehrmann",
+          "Yi Tay",
+          "Hyung Won Chung",
+          "Aakanksha Chowdhery",
+          "Quoc V Le",
+          "Ed H Chi",
+          "Denny Zhou",
+          "Jason and Wei"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2210.09261",
+        "arxivId": "2210.09261"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-talmor2018commonsenseqa",
+      "rawKey": "talmor2018commonsenseqa",
+      "display": "[24]",
+      "raw": "Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. Commonsenseqa: A question answering challenge targeting commonsense knowledge. arXiv preprint arXiv:1811.00937, 2018.",
+      "metadata": {
+        "title": "Commonsenseqa: A question answering challenge targeting commonsense knowledge",
+        "authors": [
+          "Alon Talmor",
+          "Jonathan Herzig",
+          "Nicholas Lourie",
+          "Jonathan Berant"
+        ],
+        "year": 2018,
+        "venue": "arXiv preprint arXiv:1811.00937",
+        "arxivId": "1811.00937"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-touvron2023llama",
+      "rawKey": "touvron2023llama",
+      "display": "[25]",
+      "raw": "Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothee Lacroix, Baptiste Roziere, Naman Goyal, Eric Hambro, Faisal Azhar, et al. Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971, 2023.",
+      "metadata": {
+        "title": "Llama: Open and efficient foundation language models",
+        "authors": [
+          "Hugo Touvron",
+          "Thibaut Lavril",
+          "Gautier Izacard",
+          "Xavier Martinet",
+          "Marie-Anne Lachaux",
+          "Timothee Lacroix",
+          "Baptiste Roziere",
+          "Naman Goyal",
+          "Eric Hambro",
+          "Faisal Azhar"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2302.13971",
+        "arxivId": "2302.13971"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-touvron2023llama2",
+      "rawKey": "touvron2023llama2",
+      "display": "[26]",
+      "raw": "Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.",
+      "metadata": {
+        "title": "Llama 2: Open foundation and fine-tuned chat models",
+        "authors": [
+          "Hugo Touvron",
+          "Louis Martin",
+          "Kevin Stone",
+          "Peter Albert",
+          "Amjad Almahairi",
+          "Yasmine Babaei",
+          "Nikolay Bashlykov",
+          "Soumya Batra",
+          "Prajjwal Bhargava",
+          "Shruti Bhosale"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2307.09288",
+        "arxivId": "2307.09288"
+      },
+      "localMatch": {
+        "paperPath": "papers/2307.09288",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vaswani2017attention",
+      "rawKey": "vaswani2017attention",
+      "display": "[27]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ukasz Kaiser, and Illia Polosukhin. Attention is all you need. Advances in neural information processing systems, 30, 2017.",
+      "metadata": {
+        "title": "Attention is all you need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "Niki Parmar",
+          "Jakob Uszkoreit",
+          "Llion Jones",
+          "Aidan N Gomez",
+          "ukasz Kaiser",
+          "Illia Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Advances in neural information processing systems"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zellers2019hellaswag",
+      "rawKey": "zellers2019hellaswag",
+      "display": "[28]",
+      "raw": "Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. Hellaswag: Can a machine really finish your sentence? arXiv preprint arXiv:1905.07830, 2019.",
+      "metadata": {
+        "title": "Hellaswag: Can a machine really finish your sentence?",
+        "authors": [
+          "Rowan Zellers",
+          "Ari Holtzman",
+          "Yonatan Bisk",
+          "Ali Farhadi",
+          "Yejin Choi"
+        ],
+        "year": 1905,
+        "venue": "arXiv preprint arXiv:1905.07830",
+        "arxivId": "1905.07830"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhong2023agieval",
+      "rawKey": "zhong2023agieval",
+      "display": "[29]",
+      "raw": "Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang, Amin Saied, Weizhu Chen, and Nan Duan. Agieval: A human-centric benchmark for evaluating foundation models. arXiv preprint arXiv:2304.06364, 2023.",
+      "metadata": {
+        "title": "Agieval: A human-centric benchmark for evaluating foundation models",
+        "authors": [
+          "Wanjun Zhong",
+          "Ruixiang Cui",
+          "Yiduo Guo",
+          "Yaobo Liang",
+          "Shuai Lu",
+          "Yanlin Wang",
+          "Amin Saied",
+          "Weizhu Chen",
+          "Nan Duan"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2304.06364",
+        "arxivId": "2304.06364"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 29 entries (bbl)",
+    "semantic scholar failed: rate limited"
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-15T11:46:49.396Z",
+    "fingerprint": "67cdbcaa3635cdaf9ab3631f6e44db9fecbdf8dcf3f26703aa4aba6465e76267"
+  },
+  "citations": [
+    {
+      "id": "cite-Axelrod2011",
+      "rawKey": "Axelrod2011",
+      "display": "[1]",
+      "raw": "Axelrod, A., He, X., and Gao, J. (2011). Domain adaptation via pseudo in-domain data selection. In Proceedings of the ACL Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 355--362. Association for Computational Linguistics.",
+      "metadata": {
+        "title": "Domain Adaptation via Pseudo In-Domain Data Selection",
+        "authors": [
+          "Amittai Axelrod",
+          "Xiao-Dong He",
+          "Jianfeng Gao"
+        ],
+        "year": 2011,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "url": "https://www.semanticscholar.org/paper/396aabd694da04cdb846cb724ca9f866f345cbd5"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Bastien-Theano-2012",
+      "rawKey": "Bastien-Theano-2012",
+      "display": "[2]",
+      "raw": "Bastien, F., Lamblin, P., Pascanu, R., Bergstra, J., Goodfellow, I. J., Bergeron, A., Bouchard, N., and Bengio, Y. (2012). Theano: new features and speed improvements. Deep Learning and Unsupervised Feature Learning NIPS 2012 Workshop.",
+      "metadata": {
+        "title": "Theano: new features and speed improvements",
+        "authors": [
+          "Frédéric Bastien",
+          "P. Lamblin",
+          "Razvan Pascanu",
+          "J. Bergstra",
+          "I. Goodfellow",
+          "Arnaud Bergeron",
+          "Nicolas Bouchard",
+          "David Warde-Farley",
+          "Yoshua Bengio"
+        ],
+        "year": 2012,
+        "doi": "10.48550/arXiv.1211.5590",
+        "arxivId": "1211.5590",
+        "url": "https://www.semanticscholar.org/paper/855d0f722d75cc56a66a00ede18ace96bafee6bd"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Bengio-trnn93",
+      "rawKey": "Bengio-trnn93",
+      "display": "[3]",
+      "raw": "Bengio, Y., Simard, P., and Frasconi, P. (1994). Learning long-term dependencies with gradient descent is difficult. IEEE Transactions on Neural Networks, 5(2), 157--166.",
+      "metadata": {
+        "title": "Learning long-term dependencies with gradient descent is difficult",
+        "authors": [
+          "Yoshua Bengio",
+          "P. Simard",
+          "P. Frasconi"
+        ],
+        "year": 1994,
+        "venue": "IEEE transactions on neural networks",
+        "doi": "10.1109/72.279181",
+        "url": "https://www.semanticscholar.org/paper/d0be39ee052d246ae99c082a565aba25b811be2d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Bengio2003lm",
+      "rawKey": "Bengio2003lm",
+      "display": "[4]",
+      "raw": "Bengio, Y., Ducharme, R., Vincent, P., and Janvin, C. (2003). A neural probabilistic language model. J. Mach. Learn. Res., 3, 1137--1155.",
+      "metadata": {
+        "title": "A Neural Probabilistic Language Model",
+        "authors": [
+          "Yoshua Bengio",
+          "R. Ducharme",
+          "Pascal Vincent",
+          "C. Janvin"
+        ],
+        "year": 2003,
+        "venue": "Journal of machine learning research",
+        "doi": "10.1162/153244303322533223",
+        "url": "https://www.semanticscholar.org/paper/6c2b28f9354f667cd5bd07afc0471d8334430da7"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bergstra-al:2010-scipy",
+      "rawKey": "bergstra+al:2010-scipy",
+      "display": "[5]",
+      "raw": "Bergstra, J., Breuleux, O., Bastien, F., Lamblin, P., Pascanu, R., Desjardins, G., Turian, J., Warde-Farley, D., and Bengio, Y. (2010). Theano: a CPU and GPU math expression compiler. In Proceedings of the Python for Scientific Computing Conference (SciPy). Oral Presentation.",
+      "metadata": {
+        "title": "Theano: a CPU and GPU math expression compiler",
+        "year": 2010,
+        "venue": "Proceedings of the Python for Scientific Computing Conference (SciPy). Oral Presentation."
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Boulanger2013",
+      "rawKey": "Boulanger2013",
+      "display": "[6]",
+      "raw": "Boulanger-Lewandowski, N., Bengio, Y., and Vincent, P. (2013). Audio chord recognition with recurrent neural networks. In ISMIR.",
+      "metadata": {
+        "title": "Audio Chord Recognition with Recurrent Neural Networks",
+        "authors": [
+          "Nicolas Boulanger-Lewandowski",
+          "Yoshua Bengio",
+          "Pascal Vincent"
+        ],
+        "year": 2013,
+        "venue": "International Society for Music Information Retrieval Conference",
+        "url": "https://www.semanticscholar.org/paper/e27d81521dc4e8b6ea93947c05ffccf06784f569"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Cho2014",
+      "rawKey": "Cho2014",
+      "display": "[7]",
+      "raw": "Cho, K., van Merrienboer, B., Gulcehre, C., Bougares, F., Schwenk, H., and Bengio, Y. (2014a). Learning phrase representations using RNN encoder-decoder for statistical machine translation. In Proceedings of the Empiricial Methods in Natural Language Processing (EMNLP 2014). to appear.",
+      "metadata": {
+        "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+        "authors": [
+          "Kyunghyun Cho",
+          "Bart van Merriënboer",
+          "Çaglar Gülçehre",
+          "D. Bahdanau",
+          "F. Bougares",
+          "Holger Schwenk",
+          "Yoshua Bengio"
+        ],
+        "year": 2014,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.3115/v1/D14-1179",
+        "arxivId": "1406.1078",
+        "url": "https://www.semanticscholar.org/paper/0b544dfe355a5070b60986319a3f51fb45d1348e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Cho2014a",
+      "rawKey": "Cho2014a",
+      "display": "[8]",
+      "raw": "Cho, K., van Merrienboer, B., Bahdanau, D., and Bengio, Y. (2014b). On the properties of neural machine translation: Encoder--Decoder approaches. In Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation. to appear.",
+      "metadata": {
+        "title": "On the Properties of Neural Machine Translation: Encoder–Decoder Approaches",
+        "authors": [
+          "Kyunghyun Cho",
+          "Bart van Merriënboer",
+          "D. Bahdanau",
+          "Yoshua Bengio"
+        ],
+        "year": 2014,
+        "venue": "SSST@EMNLP",
+        "doi": "10.3115/v1/W14-4012",
+        "arxivId": "1409.1259",
+        "url": "https://www.semanticscholar.org/paper/1eb09fecd75eb27825dce4f964b97f4f5cc399d7"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Devlin2014",
+      "rawKey": "Devlin2014",
+      "display": "[9]",
+      "raw": "Devlin, J., Zbib, R., Huang, Z., Lamar, T., Schwartz, R., and Makhoul, J. (2014). Fast and robust neural network joint models for statistical machine translation. In Association for Computational Linguistics.",
+      "metadata": {
+        "title": "Fast and Robust Neural Network Joint Models for Statistical Machine Translation",
+        "authors": [
+          "J. Devlin",
+          "Rabih Zbib",
+          "Zhongqiang Huang",
+          "Thomas Lamar",
+          "Richard M. Schwartz",
+          "J. Makhoul"
+        ],
+        "year": 2014,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.3115/v1/P14-1129",
+        "url": "https://www.semanticscholar.org/paper/0894b06cff1cd0903574acaa7fcf071b144ae775"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Forcada1997",
+      "rawKey": "Forcada1997",
+      "display": "[10]",
+      "raw": "Forcada, M. L. and Neco, R. P. (1997). Recursive hetero-associative memories for translation. In J. Mira, R. Moreno-Diaz, and J. Cabestany, editors, Biological and Artificial Computation: From Neuroscience to Technology, volume 1240 of Lecture Notes in Computer Science, pages 453--462. Springer Berlin Heidelberg.",
+      "metadata": {
+        "title": "Recursive Hetero-associative Memories for Translation",
+        "authors": [
+          "M. Forcada",
+          "R. Ñeco"
+        ],
+        "year": 1997,
+        "venue": "International Work-Conference on Artificial and Natural Neural Networks",
+        "doi": "10.1007/BFb0032504",
+        "url": "https://www.semanticscholar.org/paper/73c2a58c936ba2d269491548ef32644c5e982199"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Goodfellow2013",
+      "rawKey": "Goodfellow2013",
+      "display": "[11]",
+      "raw": "Goodfellow, I., Warde-Farley, D., Mirza, M., Courville, A., and Bengio, Y. (2013). Maxout networks. In Proceedings of The 30th International Conference on Machine Learning, pages 1319--1327.",
+      "metadata": {
+        "title": "Maxout Networks",
+        "authors": [
+          "I. Goodfellow",
+          "David Warde-Farley",
+          "Mehdi Mirza",
+          "Aaron C. Courville",
+          "Yoshua Bengio"
+        ],
+        "year": 2013,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1302.4389",
+        "arxivId": "1302.4389",
+        "url": "https://www.semanticscholar.org/paper/b7b915d508987b73b61eccd2b237e7ed099a2d29"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Graves2012",
+      "rawKey": "Graves2012",
+      "display": "[12]",
+      "raw": "Graves, A. (2012). Sequence transduction with recurrent neural networks. In Proceedings of the 29th International Conference on Machine Learning (ICML 2012).",
+      "metadata": {
+        "title": "Sequence Transduction with Recurrent Neural Networks",
+        "authors": [
+          "Alex Graves"
+        ],
+        "year": 2012,
+        "doi": "10.48550/arXiv.1211.3711",
+        "arxivId": "1211.3711",
+        "url": "https://www.semanticscholar.org/paper/7b4f3d0e4e2486a8d5d3f8e00549cf9a117bf88f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Graves2013",
+      "rawKey": "Graves2013",
+      "display": "[13]",
+      "raw": "Graves, A. (2013). Generating sequences with recurrent neural networks. arXiv: 1308.0850 [cs.NE].",
+      "metadata": {
+        "title": "Generating Sequences With Recurrent Neural Networks",
+        "authors": [
+          "Alex Graves"
+        ],
+        "year": 2013,
+        "doi": "10.48550/arXiv.1308.0850",
+        "arxivId": "1308.0850",
+        "url": "https://www.semanticscholar.org/paper/6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Graves2013asru",
+      "rawKey": "Graves2013asru",
+      "display": "[14]",
+      "raw": "Graves, A., Jaitly, N., and Mohamed, A.-R. (2013). Hybrid speech recognition with deep bidirectional LSTM. In Automatic Speech Recognition and Understanding (ASRU), 2013 IEEE Workshop on, pages 273--278.",
+      "metadata": {
+        "title": "Hybrid speech recognition with Deep Bidirectional LSTM",
+        "authors": [
+          "Alex Graves",
+          "N. Jaitly",
+          "Abdel-rahman Mohamed"
+        ],
+        "year": 2013,
+        "venue": "2013 IEEE Workshop on Automatic Speech Recognition and Understanding",
+        "doi": "10.1109/ASRU.2013.6707742",
+        "url": "https://www.semanticscholar.org/paper/1149888d75af4ed5dffc25731b875651c3ccdeb2"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Hermann2014",
+      "rawKey": "Hermann2014",
+      "display": "[15]",
+      "raw": "Hermann, K. and Blunsom, P. (2014). Multilingual distributed representations without word alignment. In Proceedings of the Second International Conference on Learning Representations (ICLR 2014).",
+      "metadata": {
+        "title": "Multilingual Distributed Representations without Word Alignment",
+        "authors": [
+          "K. Hermann",
+          "P. Blunsom"
+        ],
+        "year": 2013,
+        "venue": "International Conference on Learning Representations",
+        "arxivId": "1312.6173",
+        "url": "https://www.semanticscholar.org/paper/c20ed3a1600122e6cf03b8ed74d3d2920ad0a8c6"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Hochreiter91",
+      "rawKey": "Hochreiter91",
+      "display": "[16]",
+      "raw": "Hochreiter, S. (1991). Untersuchungen zu dynamischen neuronalen Netzen. Diploma thesis, Institut fur Informatik, Lehrstuhl Prof. Brauer, Technische Universitat Munchen.",
+      "metadata": {
+        "title": "Untersuchungen zu dynamischen neuronalen Netzen",
+        "authors": [
+          "S. Hochreiter"
+        ],
+        "year": 1991,
+        "url": "https://www.semanticscholar.org/paper/3f3d13e95c25a8f6a753e38dfce88885097cbd43"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Hochreiter-Schmidhuber-1997",
+      "rawKey": "Hochreiter+Schmidhuber-1997",
+      "display": "[17]",
+      "raw": "Hochreiter, S. and Schmidhuber, J. (1997). Long short-term memory. Neural Computation, 9(8), 1735--1780.",
+      "metadata": {
+        "title": "Long Short-Term Memory",
+        "authors": [
+          "S. Hochreiter",
+          "J. Schmidhuber"
+        ],
+        "year": 1997,
+        "venue": "Neural Computation",
+        "doi": "10.1162/neco.1997.9.8.1735",
+        "url": "https://www.semanticscholar.org/paper/2e9d221c206e9503ceb452302d68d10e293f2a10"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Kalchbrenner2013",
+      "rawKey": "Kalchbrenner2013",
+      "display": "[18]",
+      "raw": "Kalchbrenner, N. and Blunsom, P. (2013). Recurrent continuous translation models. In Proceedings of the ACL Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 1700--1709. Association for Computational Linguistics.",
+      "metadata": {
+        "title": "Recurrent Continuous Translation Models",
+        "authors": [
+          "N. Kalchbrenner",
+          "P. Blunsom"
+        ],
+        "year": 2013,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/d13-1176",
+        "url": "https://www.semanticscholar.org/paper/944a1cfd79dbfb6fef460360a0765ba790f4027a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Koehn2010",
+      "rawKey": "Koehn2010",
+      "display": "[19]",
+      "raw": "Koehn, P. (2010). Statistical Machine Translation. Cambridge University Press, New York, NY, USA.",
+      "metadata": {
+        "title": "Statistical machine translation",
+        "authors": [
+          "A. Lopez"
+        ],
+        "year": 2008,
+        "venue": "Conference of the Association for Machine Translation in the Americas",
+        "doi": "10.1145/1380584.1380586",
+        "url": "https://www.semanticscholar.org/paper/0af81925ffade8b0ddaf84d5fb64a8fa5cbd4c5c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Koehn2003",
+      "rawKey": "Koehn2003",
+      "display": "[20]",
+      "raw": "Koehn, P., Och, F. J., and Marcu, D. (2003). Statistical phrase-based translation. In Proceedings of the 2003 Conference of the North American Chapter of the Association for Computational Linguistics on Human Language Technology - Volume 1, NAACL '03, pages 48--54, Stroudsburg, PA, USA. Association for Computational Linguistics.",
+      "metadata": {
+        "title": "Statistical Phrase-Based Translation",
+        "authors": [
+          "Philipp Koehn",
+          "F. Och",
+          "Daniel Marcu"
+        ],
+        "year": 2003,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.3115/1073445.1073462",
+        "url": "https://www.semanticscholar.org/paper/a4b828609b60b06e61bea7a4029cc9e1cad5df87"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Pascanu-al-ICML2013-small",
+      "rawKey": "Pascanu+al-ICML2013-small",
+      "display": "[21]",
+      "raw": "Pascanu, R., Mikolov, T., and Bengio, Y. (2013a). On the difficulty of training recurrent neural networks. In ICML'2013.",
+      "metadata": {
+        "title": "On the difficulty of training recurrent neural networks",
+        "authors": [
+          "Razvan Pascanu",
+          "Tomas Mikolov",
+          "Yoshua Bengio"
+        ],
+        "year": 2012,
+        "venue": "International Conference on Machine Learning",
+        "arxivId": "1211.5063",
+        "url": "https://www.semanticscholar.org/paper/84069287da0a6b488b8c933f3cb5be759cb6237e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Pascanu2013",
+      "rawKey": "Pascanu2013",
+      "display": "[22]",
+      "raw": "Pascanu, R., Mikolov, T., and Bengio, Y. (2013b). On the difficulty of training recurrent neural networks. In Proceedings of the 30th International Conference on Machine Learning (ICML 2013).",
+      "metadata": {
+        "year": 2013
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Pascanu2014rec",
+      "rawKey": "Pascanu2014rec",
+      "display": "[23]",
+      "raw": "Pascanu, R., Gulcehre, C., Cho, K., and Bengio, Y. (2014). How to construct deep recurrent neural networks. In Proceedings of the Second International Conference on Learning Representations (ICLR 2014).",
+      "metadata": {
+        "title": "How to Construct Deep Recurrent Neural Networks",
+        "authors": [
+          "Razvan Pascanu",
+          "Çaglar Gülçehre",
+          "Kyunghyun Cho",
+          "Yoshua Bengio"
+        ],
+        "year": 2013,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1312.6026",
+        "arxivId": "1312.6026",
+        "url": "https://www.semanticscholar.org/paper/533ee188324b833e059cb59b654e6160776d5812"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Pouget2014",
+      "rawKey": "Pouget2014",
+      "display": "[24]",
+      "raw": "Pouget-Abadie, J., Bahdanau, D., van Merrienboer, B., Cho, K., and Bengio, Y. (2014). Overcoming the curse of sentence length for neural machine translation using automatic segmentation. In Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation. to appear.",
+      "metadata": {
+        "title": "Overcoming the Curse of Sentence Length for Neural Machine Translation using Automatic Segmentation",
+        "authors": [
+          "J. Pouget-Abadie",
+          "D. Bahdanau",
+          "Bart van Merriënboer",
+          "Kyunghyun Cho",
+          "Yoshua Bengio"
+        ],
+        "year": 2014,
+        "venue": "SSST@EMNLP",
+        "doi": "10.3115/v1/W14-4009",
+        "arxivId": "1409.1257",
+        "url": "https://www.semanticscholar.org/paper/6122c95ac6475e965bf4e120f7a588d29bb00ecc"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Schuster1997",
+      "rawKey": "Schuster1997",
+      "display": "[25]",
+      "raw": "Schuster, M. and Paliwal, K. K. (1997). Bidirectional recurrent neural networks. Signal Processing, IEEE Transactions on, 45(11), 2673--2681.",
+      "metadata": {
+        "title": "Bidirectional recurrent neural networks",
+        "authors": [
+          "Mike Schuster",
+          "K. Paliwal"
+        ],
+        "year": 1997,
+        "venue": "IEEE Transactions on Signal Processing",
+        "doi": "10.1109/78.650093",
+        "url": "https://www.semanticscholar.org/paper/e23c34414e66118ecd9b08cf0cd4d016f59b0b85"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Schwenk2012",
+      "rawKey": "Schwenk2012",
+      "display": "[26]",
+      "raw": "Schwenk, H. (2012). Continuous space translation models for phrase-based statistical machine translation. In M. Kay and C. Boitet, editors, Proceedings of the 24th International Conference on Computational Linguistics (COLIN), pages 1071--1080. Indian Institute of Technology Bombay.",
+      "metadata": {
+        "title": "Continuous Space Translation Models for Phrase-Based Statistical Machine Translation",
+        "authors": [
+          "Holger Schwenk"
+        ],
+        "year": 2012,
+        "venue": "International Conference on Computational Linguistics",
+        "url": "https://www.semanticscholar.org/paper/5f08df805f14baa826dbddcb002277b15d3f1556"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Schwenk2006t",
+      "rawKey": "Schwenk2006t",
+      "display": "[27]",
+      "raw": "Schwenk, H., Dchelotte, D., and Gauvain, J.-L. (2006). Continuous space language models for statistical machine translation. In Proceedings of the COLING/ACL on Main conference poster sessions, pages 723--730. Association for Computational Linguistics.",
+      "metadata": {
+        "title": "Continuous Space Language Models for Statistical Machine Translation",
+        "authors": [
+          "Holger Schwenk",
+          "D. Déchelotte",
+          "J. Gauvain"
+        ],
+        "year": 2006,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.3115/1273073.1273166",
+        "url": "https://www.semanticscholar.org/paper/d4a258df43cc14e46988de9a4a7b2f0ea817529b"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Sutskever2014",
+      "rawKey": "Sutskever2014",
+      "display": "[28]",
+      "raw": "Sutskever, I., Vinyals, O., and Le, Q. (2014). Sequence to sequence learning with neural networks. In Advances in Neural Information Processing Systems (NIPS 2014).",
+      "metadata": {
+        "title": "Sequence to Sequence Learning with Neural Networks",
+        "authors": [
+          "I. Sutskever",
+          "O. Vinyals",
+          "Quoc V. Le"
+        ],
+        "year": 2014,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1409.3215",
+        "arxivId": "1409.3215",
+        "url": "https://www.semanticscholar.org/paper/cea967b59209c6be22829699f05b8b1ac4dc092d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Zeiler2012",
+      "rawKey": "Zeiler2012",
+      "display": "[29]",
+      "raw": "Zeiler, M. D. (2012). ADADELTA: An adaptive learning rate method. arXiv: 1212.5701 [cs.LG].",
+      "metadata": {
+        "title": "ADADELTA: An Adaptive Learning Rate Method",
+        "authors": [
+          "M. Zeiler"
+        ],
+        "year": 2012,
+        "doi": "10.48550/arXiv.1212.5701",
+        "arxivId": "1212.5701",
+        "url": "https://www.semanticscholar.org/paper/8729441d734782c3ed532a7d2d9611b438c0a09a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 29 entries (bbl)",
+    "semantic scholar: 33 references",
+    "merged: 28 of 29 enriched online"
+  ]
+}

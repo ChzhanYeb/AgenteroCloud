@@ -1,0 +1,387 @@
+\begin{thebibliography}{72}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aharon et~al.(2006)Aharon, Elad, and Bruckstein]{aharon2006k}
+Michal Aharon, Michael Elad, and Alfred Bruckstein.
+\newblock {K-SVD}: An algorithm for designing overcomplete dictionaries for sparse representation.
+\newblock \emph{IEEE Transactions on signal processing}, 54\penalty0 (11):\penalty0 4311--4322, 2006.
+
+\bibitem[Baehrens et~al.(2010)Baehrens, Schroeter, Harmeling, Kawanabe, Hansen, and M{\"u}ller]{baehrens2010explain}
+David Baehrens, Timon Schroeter, Stefan Harmeling, Motoaki Kawanabe, Katja Hansen, and Klaus-Robert M{\"u}ller.
+\newblock How to explain individual classification decisions.
+\newblock \emph{The Journal of Machine Learning Research}, 11:\penalty0 1803--1831, 2010.
+
+\bibitem[Bills et~al.(2023)Bills, Cammarata, Mossing, Tillman, Gao, Goh, Sutskever, Leike, Wu, and Saunders]{bills2023language}
+Steven Bills, Nick Cammarata, Dan Mossing, Henk Tillman, Leo Gao, Gabriel Goh, Ilya Sutskever, Jan Leike, Jeff Wu, and William Saunders.
+\newblock Language models can explain neurons in language models.
+\newblock \emph{OpenAI Blog}, 2023.
+\newblock URL \url{https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html}.
+
+\bibitem[Bisk et~al.(2020)Bisk, Zellers, Bras, Gao, and Choi]{Bisk2020}
+Yonatan Bisk, Rowan Zellers, Ronan~Le Bras, Jianfeng Gao, and Yejin Choi.
+\newblock Piqa: Reasoning about physical commonsense in natural language.
+\newblock In \emph{Thirty-Fourth AAAI Conference on Artificial Intelligence}, 2020.
+
+\bibitem[Bloom(2024)]{bloom2024open}
+Joseph Bloom.
+\newblock Open source sparse autoencoders for all residual stream layers of gpt2-small.
+\newblock \emph{AI Alignment Forum}, 2024.
+\newblock URL \url{https://www.lesswrong.com/posts/f9EgfLSurAiqRJySD/open-source-sparse-autoencoders-for-all-residual-stream}.
+
+\bibitem[Bolukbasi et~al.(2021)Bolukbasi, Pearce, Yuan, Coenen, Reif, Vi{\'e}gas, and Wattenberg]{bolukbasi2021interpretability}
+Tolga Bolukbasi, Adam Pearce, Ann Yuan, Andy Coenen, Emily Reif, Fernanda Vi{\'e}gas, and Martin Wattenberg.
+\newblock An interpretability illusion for {BERT}.
+\newblock \emph{arXiv preprint arXiv:2104.07143}, 2021.
+
+\bibitem[Braun et~al.(2024)Braun, Taylor, Goldowsky-Dill, and Sharkey]{braun2024identifying}
+Dan Braun, Jordan Taylor, Nicholas Goldowsky-Dill, and Lee Sharkey.
+\newblock Identifying functionally important features with end-to-end sparse dictionary learning.
+\newblock 2024.
+
+\bibitem[Bricken et~al.(2023)Bricken, Templeton, Batson, Chen, Jermyn, Conerly, Turner, Anil, Denison, Askell, Lasenby, Wu, Kravec, Schiefer, Maxwell, Joseph, Hatfield-Dodds, Tamkin, Nguyen, McLean, Burke, Hume, Carter, Henighan, and Olah]{bricken2023monosemanticity}
+Trenton Bricken, Adly Templeton, Joshua Batson, Brian Chen, Adam Jermyn, Tom Conerly, Nick Turner, Cem Anil, Carson Denison, Amanda Askell, Robert Lasenby, Yifan Wu, Shauna Kravec, Nicholas Schiefer, Tim Maxwell, Nicholas Joseph, Zac Hatfield-Dodds, Alex Tamkin, Karina Nguyen, Brayden McLean, Josiah~E Burke, Tristan Hume, Shan Carter, Tom Henighan, and Christopher Olah.
+\newblock Towards monosemanticity: Decomposing language models with dictionary learning.
+\newblock \emph{Transformer Circuits Thread}, 2023.
+\newblock https://transformer-circuits.pub/2023/monosemantic-features/index.html.
+
+\bibitem[Cjadams et~al.(2017)Cjadams, Sorensen, Elliott, Dixon, McDonald, Nithum, and Cukierski]{jigsaw2017}
+Cjadams, Jeffrey Sorensen, Julia Elliott, Lucas Dixon, Mark McDonald, Nithum, and Will Cukierski.
+\newblock Toxic comment classification challenge.
+\newblock Kaggle, 2017.
+\newblock URL \url{https://kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge}.
+
+\bibitem[Clark et~al.(2022)Clark, de~Las~Casas, Guy, Mensch, Paganini, Hoffmann, Damoc, Hechtman, Cai, Borgeaud, et~al.]{clark2022unified}
+Aidan Clark, Diego de~Las~Casas, Aurelia Guy, Arthur Mensch, Michela Paganini, Jordan Hoffmann, Bogdan Damoc, Blake Hechtman, Trevor Cai, Sebastian Borgeaud, et~al.
+\newblock Unified scaling laws for routed language models.
+\newblock In \emph{International conference on machine learning}, pages 4057--4086. PMLR, 2022.
+
+\bibitem[Conerly et~al.(2024)Conerly, Templeton, Bricken, Marcus, and Henighan]{conerly2024update}
+Tom Conerly, Adly Templeton, Trenton Bricken, Jonathan Marcus, and Tom Henighan.
+\newblock Update on how we train saes.
+\newblock \emph{Transformer Circuits Thread}, 2024.
+\newblock https://transformer-circuits.pub/2024/april-update/index.html\#training-saes.
+
+\bibitem[Cunningham et~al.(2023)Cunningham, Ewart, Riggs, Huben, and Sharkey]{cunningham2023sparse}
+Hoagy Cunningham, Aidan Ewart, Logan Riggs, Robert Huben, and Lee Sharkey.
+\newblock Sparse autoencoders find highly interpretable features in language models.
+\newblock \emph{arXiv preprint arXiv:2309.08600}, 2023.
+
+\bibitem[Elhage et~al.(2022)Elhage, Hume, Olsson, Schiefer, Henighan, Kravec, Hatfield-Dodds, Lasenby, Drain, Chen, et~al.]{elhage2022toy}
+Nelson Elhage, Tristan Hume, Catherine Olsson, Nicholas Schiefer, Tom Henighan, Shauna Kravec, Zac Hatfield-Dodds, Robert Lasenby, Dawn Drain, Carol Chen, et~al.
+\newblock Toy models of superposition.
+\newblock \emph{arXiv preprint arXiv:2209.10652}, 2022.
+
+\bibitem[Erichson et~al.(2019)Erichson, Yao, and Mahoney]{erichson2019jumprelu}
+N~Benjamin Erichson, Zhewei Yao, and Michael~W Mahoney.
+\newblock {JumpReLU}: A retrofit defense strategy for adversarial attacks.
+\newblock \emph{arXiv preprint arXiv:1904.03750}, 2019.
+
+\bibitem[Foote et~al.(2023)Foote, Nanda, Kran, Konstas, Cohen, and Barez]{foote2023neuron}
+Alex Foote, Neel Nanda, Esben Kran, Ioannis Konstas, Shay Cohen, and Fazl Barez.
+\newblock Neuron to graph: Interpreting language model neurons at scale.
+\newblock \emph{arXiv preprint arXiv:2305.19911}, 2023.
+
+\bibitem[Goh(2016)]{goh2016decoding}
+Gabriel Goh.
+\newblock Decoding the thought vector, 2016.
+\newblock URL \url{https://gabgoh.github.io/ThoughtVectors/}.
+\newblock Accessed: 2024-05-24.
+
+\bibitem[Gulli()]{gulli_ag_news}
+Antonio Gulli.
+\newblock Ag's corpus of news articles.
+\newblock \url{http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html}.
+\newblock Accessed: 2024-05-21.
+
+\bibitem[Gurnee et~al.(2023)Gurnee, Nanda, Pauly, Harvey, Troitskii, and Bertsimas]{gurnee2023finding}
+Wes Gurnee, Neel Nanda, Matthew Pauly, Katherine Harvey, Dmitrii Troitskii, and Dimitris Bertsimas.
+\newblock Finding neurons in a haystack: Case studies with sparse probing.
+\newblock \emph{arXiv preprint arXiv:2305.01610}, 2023.
+
+\bibitem[Hendrycks et~al.(2020)Hendrycks, Burns, Basart, Critch, Li, Song, and Steinhardt]{hendrycks2020aligning}
+Dan Hendrycks, Collin Burns, Steven Basart, Andrew Critch, Jerry Li, Dawn Song, and Jacob Steinhardt.
+\newblock Aligning ai with shared human values.
+\newblock \emph{arXiv preprint arXiv:2008.02275}, 2020.
+
+\bibitem[Henighan et~al.(2020)Henighan, Kaplan, Katz, Chen, Hesse, Jackson, Jun, Brown, Dhariwal, Gray, et~al.]{henighan2020scaling}
+Tom Henighan, Jared Kaplan, Mor Katz, Mark Chen, Christopher Hesse, Jacob Jackson, Heewoo Jun, Tom~B Brown, Prafulla Dhariwal, Scott Gray, et~al.
+\newblock Scaling laws for autoregressive generative modeling.
+\newblock \emph{arXiv preprint arXiv:2010.14701}, 2020.
+
+\bibitem[Hinton and Salakhutdinov(2006)]{hinton2006reducing}
+Geoffrey~E Hinton and Ruslan~R Salakhutdinov.
+\newblock Reducing the dimensionality of data with neural networks.
+\newblock \emph{science}, 313\penalty0 (5786):\penalty0 504--507, 2006.
+
+\bibitem[Hoffmann et~al.(2022)Hoffmann, Borgeaud, Mensch, Buchatskaya, Cai, Rutherford, Casas, Hendricks, Welbl, Clark, et~al.]{hoffmann2022training}
+Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de~Las Casas, Lisa~Anne Hendricks, Johannes Welbl, Aidan Clark, et~al.
+\newblock Training compute-optimal large language models.
+\newblock \emph{arXiv preprint arXiv:2203.15556}, 2022.
+
+\bibitem[Huang et~al.(2019)Huang, Cheng, Bapna, Firat, Chen, Chen, Lee, Ngiam, Le, Wu, et~al.]{huang2019gpipe}
+Yanping Huang, Youlong Cheng, Ankur Bapna, Orhan Firat, Dehao Chen, Mia Chen, HyoukJoong Lee, Jiquan Ngiam, Quoc~V Le, Yonghui Wu, et~al.
+\newblock Gpipe: Efficient training of giant neural networks using pipeline parallelism.
+\newblock \emph{Advances in neural information processing systems}, 32, 2019.
+
+\bibitem[Jermyn and Templeton(2024)]{jermyn2024ghost}
+Adam Jermyn and Adly Templeton.
+\newblock Ghost grads: An improvement on resampling.
+\newblock \emph{Transformer Circuits Thread}, 2024.
+\newblock https://transformer-circuits.pub/2024/jan-update/index.html\#dict-learning-resampling.
+
+\bibitem[Kaplan et~al.(2020)Kaplan, McCandlish, Henighan, Brown, Chess, Child, Gray, Radford, Wu, and Amodei]{kaplan2020scaling}
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom~B Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei.
+\newblock Scaling laws for neural language models.
+\newblock \emph{arXiv preprint arXiv:2001.08361}, 2020.
+
+\bibitem[Kingma and Ba(2014)]{kingma2014adam}
+Diederik~P Kingma and Jimmy Ba.
+\newblock Adam: A method for stochastic optimization.
+\newblock \emph{arXiv preprint arXiv:1412.6980}, 2014.
+
+\bibitem[Koehn(2005)]{koehn-2005-europarl}
+Philipp Koehn.
+\newblock {E}uroparl: A parallel corpus for statistical machine translation.
+\newblock In \emph{Proceedings of Machine Translation Summit X: Papers}, pages 79--86, Phuket, Thailand, September 13-15 2005.
+\newblock URL \url{https://aclanthology.org/2005.mtsummit-papers.11}.
+
+\bibitem[Konda et~al.(2014)Konda, Memisevic, and Krueger]{konda2014zero}
+Kishore Konda, Roland Memisevic, and David Krueger.
+\newblock Zero-bias autoencoders and the benefits of co-adapting features.
+\newblock \emph{arXiv preprint arXiv:1402.3337}, 2014.
+
+\bibitem[Le et~al.(2013)Le, Ranzato, Monga, Devin, Chen, Corrado, Dean, and Ng]{le2012building}
+Quoc~V Le, Marc’Aurelio Ranzato, Rajat Monga, Matthieu Devin, Kai Chen, Greg~S Corrado, Jeff Dean, and Andrew~Y Ng.
+\newblock Building high-level features using large scale unsupervised learning.
+\newblock In \emph{2013 IEEE international conference on acoustics, speech and signal processing}, pages 8595--8598. IEEE, 2013.
+
+\bibitem[Lee et~al.(2007)Lee, Ekanadham, and Ng]{lee2007sparse}
+Honglak Lee, Chaitanya Ekanadham, and Andrew Ng.
+\newblock Sparse deep belief net model for visual area v2.
+\newblock \emph{Advances in neural information processing systems}, 20, 2007.
+
+\bibitem[Lee~Sharkey(2022)]{sharkey2022taking}
+Beren~Millidge Lee~Sharkey, Dan~Braun.
+\newblock Taking features out of superposition with sparse autoencoders.
+\newblock \emph{AI Alignment Forum}, 2022.
+\newblock URL \url{https://www.alignmentforum.org/posts/z6QQJbtpkEAX3Aojj/interim-research-report-taking-features-out-of-superposition}.
+
+\bibitem[Lin et~al.(2021)Lin, Hilton, and Evans]{lin2021truthfulqa}
+Stephanie Lin, Jacob Hilton, and Owain Evans.
+\newblock Truthfulqa: Measuring how models mimic human falsehoods.
+\newblock \emph{arXiv preprint arXiv:2109.07958}, 2021.
+
+\bibitem[Lindsey et~al.(2024)Lindsey, Conerly, Templeton, Marcus, and Henighan]{lindsey2024scaling}
+Jack Lindsey, Tom Conerly, Adly Templeton, Jonathan Marcus, and Tom Henighan.
+\newblock Scaling laws for dictionary learning.
+\newblock \emph{Transformer Circuits Thread}, 2024.
+\newblock https://transformer-circuits.pub/2024/april-update/index.html\#scaling-laws.
+
+\bibitem[Mairal et~al.(2014)Mairal, Bach, Ponce, et~al.]{mairal2014sparse}
+Julien Mairal, Francis Bach, Jean Ponce, et~al.
+\newblock Sparse modeling for image and vision processing.
+\newblock \emph{Foundations and Trends{\textregistered} in Computer Graphics and Vision}, 8\penalty0 (2-3):\penalty0 85--283, 2014.
+
+\bibitem[Makelov et~al.(2024)Makelov, Lange, and Nanda]{makelov2024principled}
+Aleksandar Makelov, George Lange, and Neel Nanda.
+\newblock Towards principled evaluations of sparse autoencoders for interpretability and control, 2024.
+
+\bibitem[Makhzani and Frey(2013)]{makhzani2013k}
+Alireza Makhzani and Brendan Frey.
+\newblock K-sparse autoencoders.
+\newblock \emph{arXiv preprint arXiv:1312.5663}, 2013.
+
+\bibitem[Maleki(2009)]{maleki2009coherence}
+Arian Maleki.
+\newblock Coherence analysis of iterative thresholding algorithms.
+\newblock In \emph{2009 47th Annual Allerton Conference on Communication, Control, and Computing (Allerton)}, pages 236--243. IEEE, 2009.
+
+\bibitem[Mallat and Zhang(1993)]{mallat1993matching}
+St{\'e}phane~G Mallat and Zhifeng Zhang.
+\newblock Matching pursuits with time-frequency dictionaries.
+\newblock \emph{IEEE Transactions on signal processing}, 41\penalty0 (12):\penalty0 3397--3415, 1993.
+
+\bibitem[Marks(2023)]{marks2023some}
+Sam Marks.
+\newblock Some open-source dictionaries and dictionary learning infrastructure.
+\newblock \emph{AI Alignment Forum}, 2023.
+\newblock URL \url{https://www.alignmentforum.org/posts/AaoWLcmpY3LKvtdyq/some-open-source-dictionaries-and-dictionary-learning}.
+
+\bibitem[Marks et~al.(2024)Marks, Rager, Michaud, Belinkov, Bau, and Mueller]{marks2024sparse}
+Samuel Marks, Can Rager, Eric~J Michaud, Yonatan Belinkov, David Bau, and Aaron Mueller.
+\newblock Sparse feature circuits: Discovering and editing interpretable causal graphs in language models.
+\newblock \emph{arXiv preprint arXiv:2403.19647}, 2024.
+
+\bibitem[McAuley and Leskovec(2013)]{mcauley2013hidden}
+Julian McAuley and Jure Leskovec.
+\newblock Hidden factors and hidden topics: understanding rating dimensions with review text.
+\newblock In \emph{Proceedings of the 7th ACM conference on Recommender systems}, pages 165--172, 2013.
+
+\bibitem[McInnes et~al.(2018)McInnes, Healy, and Melville]{mcinnes2018umap}
+Leland McInnes, John Healy, and James Melville.
+\newblock Umap: Uniform manifold approximation and projection for dimension reduction.
+\newblock \emph{arXiv preprint arXiv:1802.03426}, 2018.
+
+\bibitem[Meinshausen(2007)]{meinshausen2007relaxed}
+Nicolai Meinshausen.
+\newblock Relaxed lasso.
+\newblock \emph{Computational Statistics \& Data Analysis}, 52\penalty0 (1):\penalty0 374--393, 2007.
+
+\bibitem[Mihaylov et~al.(2018)Mihaylov, Clark, Khot, and Sabharwal]{OpenBookQA2018}
+Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal.
+\newblock Can a suit of armor conduct electricity? a new dataset for open book question answering.
+\newblock In \emph{EMNLP}, 2018.
+
+\bibitem[Mossing et~al.(2024)Mossing, Bills, Tillman, Dupré~la Tour, Cammarata, Gao, Achiam, Yeh, Leike, Wu, and Saunders]{mossing2024tdb}
+Dan Mossing, Steven Bills, Henk Tillman, Tom Dupré~la Tour, Nick Cammarata, Leo Gao, Joshua Achiam, Catherine Yeh, Jan Leike, Jeff Wu, and William Saunders.
+\newblock Transformer debugger.
+\newblock \url{https://github.com/openai/transformer-debugger}, 2024.
+
+\bibitem[Nanda et~al.(2024)Nanda, Conmy, Smith, Rajamanoharan, Lieberum, Kramár, and Varma]{nanda2024progress}
+Neel Nanda, Arthur Conmy, Lewis Smith, Senthooran Rajamanoharan, Tom Lieberum, János Kramár, and Vikrant Varma.
+\newblock Progress update \#1 from the gdm mech interp team: Full update.
+\newblock \emph{AI Alignment Forum}, 2024.
+\newblock URL \url{https://www.alignmentforum.org/posts/C5KAZQib3bzzpeyrg/progress-update-1-from-the-gdm-mech-interp-team-full-update}.
+
+\bibitem[Olah et~al.(2024)Olah, Templeton, Bricken, and Jermyn]{olah2024open}
+Chris Olah, Adly Templeton, Trenton Bricken, and Adam Jermyn.
+\newblock Open problem: Attribution dictionary learning.
+\newblock \emph{Transformer Circuits Thread}, 2024.
+\newblock https://transformer-circuits.pub/2024/april-update/index.html\#attr-dl.
+
+\bibitem[Olshausen and Field(1996)]{olshausen1996emergence}
+Bruno~A Olshausen and David~J Field.
+\newblock Emergence of simple-cell receptive field properties by learning a sparse code for natural images.
+\newblock \emph{Nature}, 381\penalty0 (6583):\penalty0 607--609, 1996.
+
+\bibitem[OpenAI(2019)]{gpt2_output_dataset}
+OpenAI.
+\newblock Gpt-2 output dataset.
+\newblock \url{https://github.com/openai/gpt-2-output-dataset/tree/master}, 2019.
+\newblock Accessed: 2024-05-21.
+
+\bibitem[OpenAI(2023)]{openai2023gpt}
+OpenAI.
+\newblock {GPT-4} technical report.
+\newblock \emph{arXiv prepreint arXiv:2303.08774}, 2023.
+
+\bibitem[Radford et~al.(2019)Radford, Wu, Child, Luan, Amodei, Sutskever, et~al.]{radford2019language}
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, et~al.
+\newblock Language models are unsupervised multitask learners.
+\newblock \emph{OpenAI blog}, 1\penalty0 (8):\penalty0 9, 2019.
+
+\bibitem[Rajamanoharan et~al.(2024)Rajamanoharan, Conmy, Smith, Lieberum, Varma, Kramár, Shah, and Nanda]{rajamanoharan2024improving}
+Senthooran Rajamanoharan, Arthur Conmy, Lewis Smith, Tom Lieberum, Vikrant Varma, János Kramár, Rohin Shah, and Neel Nanda.
+\newblock Improving dictionary learning with gated sparse autoencoders.
+\newblock \emph{arXiv preprint arXiv:2404.16014}, 2024.
+
+\bibitem[Rogers et~al.(2020)Rogers, Kovaleva, Downey, and Rumshisky]{rogers2020getting}
+Anna Rogers, Olga Kovaleva, Matthew Downey, and Anna Rumshisky.
+\newblock Getting closer to ai complete question answering: A set of prerequisite real tasks.
+\newblock In \emph{Proceedings of the AAAI conference on artificial intelligence}, volume~34, pages 8722--8731, 2020.
+
+\bibitem[Ruppert(1988)]{ruppert1988efficient}
+David Ruppert.
+\newblock Efficient estimations from a slowly convergent robbins-monro process.
+\newblock Technical report, Cornell University Operations Research and Industrial Engineering, 1988.
+
+\bibitem[Sap et~al.(2019)Sap, Rashkin, Chen, LeBras, and Choi]{sap2019socialiqa}
+Maarten Sap, Hannah Rashkin, Derek Chen, Ronan LeBras, and Yejin Choi.
+\newblock Socialiqa: Commonsense reasoning about social interactions.
+\newblock \emph{arXiv preprint arXiv:1904.09728}, 2019.
+
+\bibitem[Shazeer et~al.(2017)Shazeer, Mirhoseini, Maziarz, Davis, Le, Hinton, and Dean]{shazeer2017outrageously}
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean.
+\newblock Outrageously large neural networks: The sparsely-gated mixture-of-experts layer.
+\newblock \emph{arXiv preprint arXiv:1701.06538}, 2017.
+
+\bibitem[Shoeybi et~al.(2019)Shoeybi, Patwary, Puri, LeGresley, Casper, and Catanzaro]{shoeybi2019megatron}
+Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and Bryan Catanzaro.
+\newblock Megatron-lm: Training multi-billion parameter language models using model parallelism.
+\newblock \emph{arXiv preprint arXiv:1909.08053}, 2019.
+
+\bibitem[Simonyan et~al.(2013)Simonyan, Vedaldi, and Zisserman]{simonyan2013deep}
+Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman.
+\newblock Deep inside convolutional networks: Visualising image classification models and saliency maps.
+\newblock \emph{arXiv preprint arXiv:1312.6034}, 2013.
+
+\bibitem[Skodras et~al.(2001)Skodras, Christopoulos, and Ebrahimi]{skodras2001jpeg}
+Athanassios Skodras, Charilaos Christopoulos, and Touradj Ebrahimi.
+\newblock The jpeg 2000 still image compression standard.
+\newblock \emph{IEEE Signal processing magazine}, 18\penalty0 (5):\penalty0 36--58, 2001.
+
+\bibitem[Sun et~al.(2024)Sun, Chen, Kolter, and Liu]{sun2024massive}
+Mingjie Sun, Xinlei Chen, J~Zico Kolter, and Zhuang Liu.
+\newblock Massive activations in large language models.
+\newblock \emph{arXiv preprint arXiv:2402.17762}, 2024.
+
+\bibitem[Tafjord et~al.(2019)Tafjord, Gardner, Lin, and Clark]{tafjord2019quartz}
+Oyvind Tafjord, Matt Gardner, Kevin Lin, and Peter Clark.
+\newblock Quartz: An open-domain dataset of qualitative relationship questions.
+\newblock \emph{arXiv preprint arXiv:1909.03553}, 2019.
+
+\bibitem[Taggart(2024)]{taggart2024prolu}
+Glen Taggart.
+\newblock {ProLU}: A nonlinearity for sparse autoencoders.
+\newblock \emph{AI Alignment Forum}, 2024.
+\newblock URL \url{https://www.alignmentforum.org/posts/HEpufTdakGTTKgoYF/prolu-a-pareto-improvement-for-sparse-autoencoders}.
+
+\bibitem[Talmor et~al.(2022)Talmor, Yoran, Bras, Bhagavatula, Goldberg, Choi, and Berant]{talmor2022commonsenseqa}
+Alon Talmor, Ori Yoran, Ronan~Le Bras, Chandra Bhagavatula, Yoav Goldberg, Yejin Choi, and Jonathan Berant.
+\newblock Commonsenseqa 2.0: Exposing the limits of ai through gamification.
+\newblock \emph{arXiv preprint arXiv:2201.05320}, 2022.
+
+\bibitem[Templeton et~al.(2024)Templeton, Conerly, Marcus, Lindsey, Bricken, Chen, Pearce, Citro, Ameisen, Jones, Cunningham, Turner, McDougall, MacDiarmid, Freeman, Sumers, Rees, Batson, Jermyn, Carter, Olah, and Henighan]{templeton2024scaling}
+Adly Templeton, Tom Conerly, Jonathan Marcus, Jack Lindsey, Trenton Bricken, Brian Chen, Adam Pearce, Craig Citro, Emmanuel Ameisen, Andy Jones, Hoagy Cunningham, Nicholas~L Turner, Callum McDougall, Monte MacDiarmid, C.~Daniel Freeman, Theodore~R. Sumers, Edward Rees, Joshua Batson, Adam Jermyn, Shan Carter, Chris Olah, and Tom Henighan.
+\newblock Scaling monosemanticity: Extracting interpretable features from claude 3 sonnet.
+\newblock \emph{Transformer Circuits Thread}, 2024.
+\newblock URL \url{https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html}.
+
+\bibitem[Tibshirani(1996)]{tibshirani1996regression}
+Robert Tibshirani.
+\newblock Regression shrinkage and selection via the lasso.
+\newblock \emph{Journal of the Royal Statistical Society Series B: Statistical Methodology}, 58\penalty0 (1):\penalty0 267--288, 1996.
+
+\bibitem[Wang et~al.(2018)Wang, Singh, Michael, Hill, Levy, and Bowman]{wang2018glue}
+Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel~R Bowman.
+\newblock Glue: A multi-task benchmark and analysis platform for natural language understanding.
+\newblock \emph{arXiv preprint arXiv:1804.07461}, 2018.
+
+\bibitem[Welbl et~al.(2017)Welbl, Liu, Gardner, Angeli, Koncel-Kedziorski, Bender, Richardson, Clark, and Kushman]{welbl2017sciq}
+Johannes Welbl, Nelson~F. Liu, Matt Gardner, Gabor Angeli, Rik Koncel-Kedziorski, Emily Bender, Kyle Richardson, Peter Clark, and Nate Kushman.
+\newblock Crowdsourcing multiple choice science questions.
+\newblock \emph{arXiv preprint arXiv:1707.06209}, 2017.
+\newblock URL \url{https://arxiv.org/abs/1707.06209}.
+
+\bibitem[Wright and Sharkey(2024)]{wright2024addressing}
+Benjamin Wright and Lee Sharkey.
+\newblock Addressing feature suppression in {SAEs}.
+\newblock \emph{AI Alignment Forum}, 2024.
+\newblock URL \url{https://www.alignmentforum.org/posts/3JuSjTZyMzaSeTxKk/addressing-feature-suppression-in-saes}.
+
+\bibitem[Xiao et~al.(2023)Xiao, Tian, Chen, Han, and Lewis]{xiao2023efficient}
+Guangxuan Xiao, Yuandong Tian, Beidi Chen, Song Han, and Mike Lewis.
+\newblock Efficient streaming language models with attention sinks.
+\newblock \emph{arXiv preprint arXiv:2309.17453}, 2023.
+
+\bibitem[Yun et~al.(2021)Yun, Chen, Olshausen, and LeCun]{yun2021transformer}
+Zeyu Yun, Yubei Chen, Bruno~A Olshausen, and Yann LeCun.
+\newblock Transformer visualization via dictionary learning: contextualized embedding as a linear superposition of transformer factors.
+\newblock \emph{arXiv preprint arXiv:2103.15949}, 2021.
+
+\bibitem[Zhao et~al.(2023)Zhao, Gu, Varma, Luo, Huang, Xu, Wright, Shojanazeri, Ott, Shleifer, et~al.]{zhao2023pytorch}
+Yanli Zhao, Andrew Gu, Rohan Varma, Liang Luo, Chien-Chin Huang, Min Xu, Less Wright, Hamid Shojanazeri, Myle Ott, Sam Shleifer, et~al.
+\newblock Pytorch fsdp: experiences on scaling fully sharded data parallel.
+\newblock \emph{arXiv preprint arXiv:2304.11277}, 2023.
+
+\bibitem[Zhou et~al.(2019)Zhou, Khashabi, Ning, and Roth]{zhou2019mctaco}
+Ben Zhou, Daniel Khashabi, Qiang Ning, and Dan Roth.
+\newblock “going on a vacation” takes longer than “going for a walk”: A study of temporal commonsense understanding.
+\newblock In \emph{Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)}, 2019.
+\newblock URL \url{https://arxiv.org/abs/1909.03065}.
+
+\end{thebibliography}

@@ -1,0 +1,64 @@
+\hypertarget{models}{\section{Models}}
+\label{sec:models}
+% \input{tables/models-abridged}
+\input{tables/models.tex}
+
+We evaluated \nummodels state-of-the-art language models varying in size, training procedure, organization, and access.
+These \nummodels can be grouped into \nummodelfamilies families (models within a family are identical up to model scale), and further into \nummodelcreators organizations that created the model.
+\reftab{models} documents the models and their properties; further description is deferred to \refapp{models}.
+
+\paragraph{Model selection.}
+As one of the pillars of this work, our aim was common understanding of language models.
+To achieve this ambition, we had to navigate the \textit{access} conditions of different models \citep{liang2022community-norms}.
+Some models were \textbf{open} (full model weights are available for download) (\eg \gptneox, \optonesevenfive, \bloom), 
+some were \textbf{limited} API access (\eg \gptdavinci, \jurassicjumbo, \coherexl), and some were \textbf{closed}, but the model owner provided us with access for this research effort (\anthropic, \mtnlgfivethreezero).
+Unfortunately, we did not evaluate models that we could not access (\eg Google's PaLM \citep{chowdhery2022palm} and LaMDA \citep{thoppilan2022lamda}, DeepMind's Gopher \citep{rae2021gopher} and RETRO \citep{borgeaud2022retro}).
+We more extensively discuss missing models in \refsec{missing-models}.
+We encourage future work to evaluate these models to allow for common understanding, and to develop standards for research access to these models \citep{liang2022community-norms}.
+
+\input{tables/together.table}
+\paragraph{Computational Resources.}
+For models that required we provide computational resources, we used the 
+Together Research Computer (\reftab{together}).\footnote{Together Research Computer: \url{https://together.xyz}}
+%Together Open Models API (TOMA; ).
+Specifically, Together Research Computer employs pipeline parallelism to achieve high-throughput inference: the model is partitioned across GPUs and the GPUs communicate with each other the activations of the model to accomplish forward passes to get the predictions.
+Generally, Together Research Computer will dispatch inference jobs to idle GPUs.
+%; in particular, it only uses A100 GPUs to run big models, \eg models with more than 100 billion parameters, to ensure reasonable inference efficiency.
+For models hosted via commercial APIs, the providers of these models graciously provided us sufficient API credits to evaluate their models as part of this effort. 
+
+\paragraph{Live systems.}
+For both the private models and commercial APIs, we are evaluating live systems that may be regularly updated in some cases.
+Unfortunately, the practices of (publicly disclosed) \textit{version control} and the corresponding \textit{change logs} are uneven across model providers.
+For this reason, to the extent available, we report model versions (\eg the version date for Cohere models).
+
+The results we produce are specific to the model versions at the time we queried them: we record these timestamps in the results we release.
+Further, due the scale of our evaluation, it is possible that models change over the duration of our evaluation, but we assume they do not change.\footnote{This may relate to observations of unexpected non-determinism in model behavior as reported in \url{https://twitter.com/OfirPress/status/1542610741668093952} and studied in \citet{ruis2022large}.}
+To the extent the models/APIs change, we anticipate the change is fairly gradual, therefore the results are not subject to large shocks, but we encourage efforts to longitudinally monitor such changes to clarify their nature  \citep[\cf][]{chen2022hapi}.
+Similarly, we note that the models we evaluate may be \textit{deprecated} at some point after our evaluation.
+
+\paragraph{Isolated technical issues.}
+In general, we evaluate every model on every scenario (see \reffig{evaluation-status-quo}), and for every scenario we measure every metric (see \reftab{scenarios-metrics-matrix}). 
+However, in a few isolated cases, we encounter issues/concerns that are generally attributable to specific model providers.
+We believe these issues are quite marginal in influencing the overall results (\eg most models are not affected at all, and even affected models are affected on few scenarios).
+
+First, for scenarios which require probabilities and not just completions (\eg \hellaswag, \msmarcoregular, \pile), we currently are not able to evaluate (possibly because the model itself fundamentally does not yield such probabilities) for \tzero, \tfive, \ultwo, \glm, and \yalm.
+Second, for two models (\jurassicjumbo, \jurassicgrande), the API yields a tokenization error which currently prevents us from reporting results for \naturalquestions (closed-book), though we expect this to be resolved shortly based on correspondence with the model providers.
+Third, the model probabilities for completions sampled with temperature zero are incorrect for models from AI21 Labs: for this reason, we do not report results for calibration, \msmarcoregular, and \msmarcotrec.
+We explicitly acknowledge this in \reffig{evaluation-status-quo}, which fully explains why we evaluate 96\% of the (model, scenario) pairs instead of 100\%. 
+
+\paragraph{Model contamination.}
+While we provide some information on the models we evaluate in \reftab{models}, with further details in \refapp{models}, we emphasize that we have uneven and usually limited information on the training procedure for these models \citep[see][]{liang2022community-norms}.
+Consequently, we generally lack a precise characterization of, and access to, the training data for these models with notable exceptions including the ROOTS corpus for  \bloom\footnote{See \url{https://huggingface.co/spaces/bigscience-data/roots-search}.} as well as the Pile corpus along with further training details for \gptj and \gptneox \citep[see][]{biderman2022datasheet}. 
+Without such access and/or disclosure of contamination by model providers, we cannot verify whether the model was trained on the data we evaluate it on.
+This concern is heightened given we evaluate in a few-shot manner (as we discuss in \refsec{prompting}), so the model being trained on data drawn from this evaluation distribution, even beyond the exact evaluation instances, could compromise the legitimacy/purity of such few-shot evaluation.
+For this reason, we flag known instances of model contamination (\ie where the model creators have disclosed possible contamination for a given scenario) when we report results, and compile this known evidence in \refapp{contamination}, though overall it is still largely limited.
+We encourage more proactive documentation/disclosure of model contamination, as well as the use of canaries or other methods for minimizing contamination, for future work on language model development to maintain the health of the evaluation ecosystem.
+
+\paragraph{Fairness of evaluation.}
+We prioritize standardization: models are evaluated on the same scenarios, for the same metrics, and with the same prompts for \numincontext-shot prompting.
+However, the models themselves can require vastly different resources to produce, which are only partially accounted for by our measurements of efficiency as one class of costs. 
+In this sense alone, the evaluation can be seen as unfair \citep[\cf][\S4.4]{linzen2020accelerate, bommasani2021opportunities}.
+Even beyond this, particular models may be better suited for specific scenarios, metrics, prompts, and broader adaptation methods.
+As an example, we evaluate \tzero in a \numincontext-shot fashion, whereas the model was designed for 0-shot prompting, and \tfive similarly was neither designed for in-context learning nor to follow instructions in prompts. 
+As one concrete recommendation as the language modeling space matures, we recommend model developers explicitly declare how their models should be evaluated and what the scope is of their generality/when models should be preferred.
+We believe this disclosure will help to strike a productive balance between the general-purpose possibilities for language models in the abstract and what is concretely sensible for a given model. 

@@ -1,0 +1,235 @@
+\begin{thebibliography}{43}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Achiam et~al.(2023)Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat, et~al.]{openai2024gpt4technicalreport}
+Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia~Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et~al.
+\newblock Gpt-4 technical report.
+\newblock \emph{arXiv preprint arXiv:2303.08774}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2303.08774}.
+
+\bibitem[Adept(2022)]{adept_act_1}
+Adept.
+\newblock Act-1: Transformer for actions, 2022.
+\newblock URL \url{https://www.adept.ai/blog/act-1/}.
+
+\bibitem[Al-Dahle(2024)]{future_of_ai_llama}
+Ahmad Al-Dahle.
+\newblock The future of ai: Built with llama, December 2024.
+\newblock URL \url{https://ai.meta.com/blog/future-of-ai-built-with-llama/}.
+
+\bibitem[Anthropic(2024{\natexlab{a}})]{Anthropic_Computer_Use_2024}
+Anthropic.
+\newblock Introducing computer use, a new claude 3.5 sonnet, and claude 3.5 haiku, 2024{\natexlab{a}}.
+\newblock URL \url{https://www.anthropic.com/news/3-5-models-and-computer-use}.
+
+\bibitem[Anthropic(2024{\natexlab{b}})]{anthropicclaude}
+Anthropic.
+\newblock The claude 3 model family: Opus, sonnet, haiku, 2024{\natexlab{b}}.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:268232499}.
+
+\bibitem[Bai et~al.(2025)Bai, Chen, Liu, Wang, Ge, Song, Dang, Wang, Wang, Tang, Zhong, Zhu, Yang, Li, Wan, Wang, Ding, Fu, Xu, Ye, Zhang, Xie, Cheng, Zhang, Yang, Xu, and Lin]{qwen_25_vl}
+Shuai Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, Sibo Song, Kai Dang, Peng Wang, Shijie Wang, Jun Tang, Humen Zhong, Yuanzhi Zhu, Mingkun Yang, Zhaohai Li, Jianqiang Wan, Pengfei Wang, Wei Ding, Zheren Fu, Yiheng Xu, Jiabo Ye, Xi~Zhang, Tianbao Xie, Zesen Cheng, Hang Zhang, Zhibo Yang, Haiyang Xu, and Junyang Lin.
+\newblock Qwen2.5-vl technical report, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.13923}.
+
+\bibitem[Boisvert et~al.(2025)Boisvert, Thakkar, Gasse, Caccia, Chezelles, Cappart, Chapados, Lacoste, and Drouin]{workarena_l2}
+Léo Boisvert, Megh Thakkar, Maxime Gasse, Massimo Caccia, Thibault Le Sellier~De Chezelles, Quentin Cappart, Nicolas Chapados, Alexandre Lacoste, and Alexandre Drouin.
+\newblock Workarena++: Towards compositional planning and reasoning-based common knowledge work tasks, 2025.
+\newblock URL \url{https://arxiv.org/abs/2407.05291}.
+
+\bibitem[Brockman et~al.(2016)Brockman, Cheung, Pettersson, Schneider, Schulman, Tang, and Zaremba]{brockman2016openaigym}
+Greg Brockman, Vicki Cheung, Ludwig Pettersson, Jonas Schneider, John Schulman, Jie Tang, and Wojciech Zaremba.
+\newblock Openai gym, 2016.
+\newblock URL \url{https://arxiv.org/abs/1606.01540}.
+
+\bibitem[Chen et~al.(2024)Chen, Chen, Zhang, Liu, Wang, Zhou, Zhang, Wan, Zhou, and Sun]{chen2024mllmasajudgeassessingmultimodalllmasajudge}
+Dongping Chen, Ruoxi Chen, Shilin Zhang, Yinuo Liu, Yaochen Wang, Huichi Zhou, Qihui Zhang, Yao Wan, Pan Zhou, and Lichao Sun.
+\newblock Mllm-as-a-judge: Assessing multimodal llm-as-a-judge with vision-language benchmark, 2024.
+\newblock URL \url{https://arxiv.org/abs/2402.04788}.
+
+\bibitem[Chezelles et~al.(2025)Chezelles, Gasse, Drouin, Caccia, Boisvert, Thakkar, Marty, Assouel, Shayegan, Jang, Lù, Yoran, Kong, Xu, Reddy, Cappart, Neubig, Salakhutdinov, Chapados, and Lacoste]{browsergym_platform}
+Thibault Le Sellier~De Chezelles, Maxime Gasse, Alexandre Drouin, Massimo Caccia, Léo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar~Omidi Shayegan, Lawrence~Keunho Jang, Xing~Han Lù, Ori Yoran, Dehan Kong, Frank~F. Xu, Siva Reddy, Quentin Cappart, Graham Neubig, Ruslan Salakhutdinov, Nicolas Chapados, and Alexandre Lacoste.
+\newblock The browsergym ecosystem for web agent research, 2025.
+\newblock URL \url{https://arxiv.org/abs/2412.05467}.
+
+\bibitem[Deng et~al.(2023)Deng, Gu, Zheng, Chen, Stevens, Wang, Sun, and Su]{deng2023mind2web}
+Xiang Deng, Yu~Gu, Boyuan Zheng, Shijie Chen, Sam Stevens, Boshi Wang, Huan Sun, and Yu~Su.
+\newblock Mind2web: Towards a generalist agent for the web.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36:\penalty0 28091--28114, 2023.
+
+\bibitem[Drouin et~al.(2024)Drouin, Gasse, Caccia, Laradji, Verme, Marty, Boisvert, Thakkar, Cappart, Vazquez, Chapados, and Lacoste]{workarena_l1}
+Alexandre Drouin, Maxime Gasse, Massimo Caccia, Issam~H. Laradji, Manuel~Del Verme, Tom Marty, Léo Boisvert, Megh Thakkar, Quentin Cappart, David Vazquez, Nicolas Chapados, and Alexandre Lacoste.
+\newblock Workarena: How capable are web agents at solving common knowledge work tasks?, 2024.
+\newblock URL \url{https://arxiv.org/abs/2403.07718}.
+
+\bibitem[Feizi et~al.(2025)Feizi, Rajeswar, Romero-Soriano, Rabbany, Zantedeschi, Gella, and Monteiro]{feizi2025pairbenchvisionlanguagemodelsreliable}
+Aarash Feizi, Sai Rajeswar, Adriana Romero-Soriano, Reihaneh Rabbany, Valentina Zantedeschi, Spandana Gella, and João Monteiro.
+\newblock Pairbench: Are vision-language models reliable at comparing what they see?, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.15210}.
+
+\bibitem[Grattafiori et~al.(2024)Grattafiori, Dubey, Jauhri, Pandey, Kadian, Al-Dahle, Letman, Mathur, Schelten, Vaughan, et~al.]{grattafiori2024llama}
+Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek Kadian, Ahmad Al-Dahle, Aiesha Letman, Akhil Mathur, Alan Schelten, Alex Vaughan, et~al.
+\newblock The llama 3 herd of models.
+\newblock \emph{arXiv preprint}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2407.21783}.
+
+\bibitem[Gur et~al.(2018)Gur, Rueckert, Faust, and Hakkani-Tur]{gur2018learning}
+Izzeddin Gur, Ulrich Rueckert, Aleksandra Faust, and Dilek Hakkani-Tur.
+\newblock Learning to navigate the web.
+\newblock \emph{arXiv preprint arXiv:1812.09195}, 2018.
+
+\bibitem[Gur et~al.(2023)Gur, Furuta, Huang, Safdari, Matsuo, Eck, and Faust]{gur2023real}
+Izzeddin Gur, Hiroki Furuta, Austin Huang, Mustafa Safdari, Yutaka Matsuo, Douglas Eck, and Aleksandra Faust.
+\newblock A real-world webagent with planning, long context understanding, and program synthesis.
+\newblock \emph{arXiv preprint arXiv:2307.12856}, 2023.
+
+\bibitem[He et~al.(2024)He, Yao, Ma, Yu, Dai, Zhang, Lan, and Yu]{He2024WebVoyagerBA}
+Hongliang He, Wenlin Yao, Kaixin Ma, Wenhao Yu, Yong Dai, Hongming Zhang, Zhenzhong Lan, and Dong Yu.
+\newblock Webvoyager: Building an end-to-end web agent with large multimodal models.
+\newblock \emph{ArXiv}, abs/2401.13919, 2024.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:267211622}.
+
+\bibitem[Humphreys et~al.(2022)Humphreys, Raposo, Pohlen, Thornton, Chhaparia, Muldal, Abramson, Georgiev, Goldin, Santoro, and Lillicrap]{humphreys2022datadrivenapproachlearningcontrol}
+Peter~C Humphreys, David Raposo, Toby Pohlen, Gregory Thornton, Rachita Chhaparia, Alistair Muldal, Josh Abramson, Petko Georgiev, Alex Goldin, Adam Santoro, and Timothy Lillicrap.
+\newblock A data-driven approach for learning to control computers, 2022.
+\newblock URL \url{https://arxiv.org/abs/2202.08137}.
+
+\bibitem[Hurst et~al.(2024)Hurst, Lerer, Goucher, Perelman, Ramesh, Clark, Ostrow, Welihinda, Hayes, Radford, et~al.]{openai2024gpt4ocard}
+Aaron Hurst, Adam Lerer, Adam~P Goucher, Adam Perelman, Aditya Ramesh, Aidan Clark, AJ~Ostrow, Akila Welihinda, Alan Hayes, Alec Radford, et~al.
+\newblock Gpt-4o system card.
+\newblock \emph{arXiv preprint arXiv:2410.21276}, 2024.
+
+\bibitem[Koh et~al.(2024)Koh, Lo, Jang, Duvvur, Lim, Huang, Neubig, Zhou, Salakhutdinov, and Fried]{koh_visualwebarena_2024}
+Jing~Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming~Chong Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, and Daniel Fried.
+\newblock {VisualWebArena}: {Evaluating} {Multimodal} {Agents} on {Realistic} {Visual} {Web} {Tasks}, June 2024.
+\newblock URL \url{http://arxiv.org/abs/2401.13649}.
+\newblock arXiv:2401.13649 [cs].
+
+\bibitem[Lai et~al.(2024)Lai, Liu, Iong, Yao, Chen, Shen, Yu, Zhang, Zhang, Dong, and Tang]{autowebglm}
+Hanyu Lai, Xiao Liu, Iat~Long Iong, Shuntian Yao, Yuxuan Chen, Pengbo Shen, Hao Yu, Hanchen Zhang, Xiaohan Zhang, Yuxiao Dong, and Jie Tang.
+\newblock Autowebglm: A large language model-based web navigating agent, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.03648}.
+
+\bibitem[Lambert et~al.(2024)Lambert, Pyatkin, Morrison, Miranda, Lin, Chandu, Dziri, Kumar, Zick, Choi, Smith, and Hajishirzi]{rewardbench}
+Nathan Lambert, Valentina Pyatkin, Jacob Morrison, LJ~Miranda, Bill~Yuchen Lin, Khyathi Chandu, Nouha Dziri, Sachin Kumar, Tom Zick, Yejin Choi, Noah~A. Smith, and Hannaneh Hajishirzi.
+\newblock Rewardbench: Evaluating reward models for language modeling, 2024.
+\newblock URL \url{https://arxiv.org/abs/2403.13787}.
+
+\bibitem[Liu et~al.(2018)Liu, Guu, Pasupat, Shi, and Liang]{Liu_Guu_Pasupat_Shi_Liang_2018}
+Evan~Zheran Liu, Kelvin Guu, Panupong Pasupat, Tianlin Shi, and Percy Liang.
+\newblock {R}einforcement {L}earning on {W}eb {I}nterfaces using {W}orkflow-guided {E}xploration.
+\newblock In \emph{6th International Conference on Learning Representations, {ICLR} 2018, Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings}, 2018.
+\newblock URL \url{https://openreview.net/forum?id=ryTp3f-0-}.
+
+\bibitem[L{\`u} et~al.(2024)L{\`u}, Kasner, and Reddy]{lu2024weblinx}
+Xing~Han L{\`u}, Zden{\v{e}}k Kasner, and Siva Reddy.
+\newblock Weblinx: Real-world website navigation with multi-turn dialogue.
+\newblock \emph{arXiv preprint arXiv:2402.05930}, 2024.
+
+\bibitem[Murty et~al.(2024)Murty, Manning, Shaw, Joshi, and Lee]{murty_bagel_2024}
+Shikhar Murty, Christopher Manning, Peter Shaw, Mandar Joshi, and Kenton Lee.
+\newblock {BAGEL}: {Bootstrapping} {Agents} by {Guiding} {Exploration} with {Language}, June 2024.
+\newblock URL \url{http://arxiv.org/abs/2403.08140}.
+\newblock arXiv:2403.08140 [cs].
+
+\bibitem[Murty et~al.(2025)Murty, Zhu, Bahdanau, and Manning]{nnetnav_murty2025}
+Shikhar Murty, Hao Zhu, Dzmitry Bahdanau, and Christopher~D. Manning.
+\newblock Nnetnav: Unsupervised learning of browser agents through environment interaction in the wild, 2025.
+\newblock URL \url{https://arxiv.org/abs/2410.02907}.
+
+\bibitem[Nakano et~al.(2021)Nakano, Hilton, Balaji, Wu, Ouyang, Kim, Hesse, Jain, Kosaraju, Saunders, et~al.]{nakano2021webgpt}
+Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders, et~al.
+\newblock Webgpt: Browser-assisted question-answering with human feedback.
+\newblock \emph{arXiv preprint arXiv:2112.09332}, 2021.
+
+\bibitem[OpenAI(2025)]{OpenAI_Operator_2025}
+OpenAI.
+\newblock Introducing operator, January 2025.
+\newblock URL \url{https://openai.com/index/introducing-operator}.
+
+\bibitem[Pan et~al.(2024)Pan, Zhang, Tomlin, Zhou, Levine, and Suhr]{AER_pan2024}
+Jiayi Pan, Yichi Zhang, Nicholas Tomlin, Yifei Zhou, Sergey Levine, and Alane Suhr.
+\newblock Autonomous evaluation and refinement of digital agents, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.06474}.
+
+\bibitem[Patel et~al.(2024)Patel, Hofmarcher, Leoveanu-Condrei, Dinu, Callison-Burch, and Hochreiter]{patel2024largelanguagemodelsselfimprove}
+Ajay Patel, Markus Hofmarcher, Claudiu Leoveanu-Condrei, Marius-Constantin Dinu, Chris Callison-Burch, and Sepp Hochreiter.
+\newblock Large language models can self-improve at web agent tasks, 2024.
+\newblock URL \url{https://arxiv.org/abs/2405.20309}.
+
+\bibitem[Putta et~al.(2024)Putta, Mills, Garg, Motwani, Finn, Garg, and Rafailov]{AgentQ_2024}
+Pranav Putta, Edmund Mills, Naman Garg, Sumeet Motwani, Chelsea Finn, Divyansh Garg, and Rafael Rafailov.
+\newblock Agent q: Advanced reasoning and learning for autonomous ai agents, 2024.
+\newblock URL \url{https://arxiv.org/abs/2408.07199}.
+
+\bibitem[Rafailov et~al.(2023)Rafailov, Sharma, Mitchell, Manning, Ermon, and Finn]{dpo_2023}
+Rafael Rafailov, Archit Sharma, Eric Mitchell, Christopher~D Manning, Stefano Ermon, and Chelsea Finn.
+\newblock Direct preference optimization: Your language model is secretly a reward model.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36:\penalty0 53728--53741, 2023.
+
+\bibitem[Sharma et~al.(2023)Sharma, Tong, Korbak, Duvenaud, Askell, Bowman, Cheng, Durmus, Hatfield-Dodds, Johnston, Kravec, Maxwell, McCandlish, Ndousse, Rausch, Schiefer, Yan, Zhang, and Perez]{sharma2023understandingsycophancylanguagemodels}
+Mrinank Sharma, Meg Tong, Tomasz Korbak, David Duvenaud, Amanda Askell, Samuel~R. Bowman, Newton Cheng, Esin Durmus, Zac Hatfield-Dodds, Scott~R. Johnston, Shauna Kravec, Timothy Maxwell, Sam McCandlish, Kamal Ndousse, Oliver Rausch, Nicholas Schiefer, Da~Yan, Miranda Zhang, and Ethan Perez.
+\newblock Towards understanding sycophancy in language models, 2023.
+\newblock URL \url{https://arxiv.org/abs/2310.13548}.
+
+\bibitem[Shaw et~al.(2023)Shaw, Joshi, Cohan, Berant, Pasupat, Hu, Khandelwal, Lee, and Toutanova]{pix2act_shaw_2023}
+Peter Shaw, Mandar Joshi, James Cohan, Jonathan Berant, Panupong Pasupat, Hexiang Hu, Urvashi Khandelwal, Kenton Lee, and Kristina Toutanova.
+\newblock From pixels to {UI} actions: Learning to follow instructions via graphical user interfaces.
+\newblock In \emph{Thirty-seventh Conference on Neural Information Processing Systems}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=3PjCt4kmRx}.
+
+\bibitem[Shi et~al.(2017)Shi, Karpathy, Fan, Hernandez, and Liang]{shi2017world}
+Tianlin Shi, Andrej Karpathy, Linxi Fan, Jonathan Hernandez, and Percy Liang.
+\newblock World of bits: An open-domain platform for web-based agents.
+\newblock In \emph{International Conference on Machine Learning}, pp.\  3135--3144. PMLR, 2017.
+
+\bibitem[St.~Amant \& Zettlemoyer(2000)St.~Amant and Zettlemoyer]{ibot_2000}
+Robert St.~Amant and Luke~S. Zettlemoyer.
+\newblock The user interface as an agent environment.
+\newblock In \emph{Proceedings of the Fourth International Conference on Autonomous Agents}, AGENTS '00, pp.\  483–490, New York, NY, USA, 2000. Association for Computing Machinery.
+\newblock ISBN 1581132301.
+\newblock \doi{10.1145/336595.337575}.
+\newblock URL \url{https://doi.org/10.1145/336595.337575}.
+
+\bibitem[Trabucco et~al.(2025)Trabucco, Sigurdsson, Piramuthu, and Salakhutdinov]{insta_trabucco2025}
+Brandon Trabucco, Gunnar Sigurdsson, Robinson Piramuthu, and Ruslan Salakhutdinov.
+\newblock Towards internet-scale training for agents, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.06776}.
+
+\bibitem[Yao et~al.(2022)Yao, Chen, Yang, and Narasimhan]{Yao_Chen_Yang_Narasimhan_2023}
+Shunyu Yao, Howard Chen, John Yang, and Karthik Narasimhan.
+\newblock {W}eb{S}hop: {T}owards {S}calable {R}eal-world {W}eb {I}nteraction with {G}rounded {L}anguage {A}gents.
+\newblock In \emph{NeurIPS}, 2022.
+\newblock URL \url{https://arxiv.org/abs/2207.01206}.
+
+\bibitem[Yoran et~al.(2024)Yoran, Amouyal, Malaviya, Bogin, Press, and Berant]{assistantbench_2024}
+Ori Yoran, Samuel~Joseph Amouyal, Chaitanya Malaviya, Ben Bogin, Ofir Press, and Jonathan Berant.
+\newblock Assistantbench: Can web agents solve realistic and time-consuming tasks?, 2024.
+\newblock URL \url{https://arxiv.org/abs/2407.15711}.
+
+\bibitem[Zheng et~al.(2024)Zheng, Gou, Kil, Sun, and Su]{zheng2024gpt4visiongeneralistwebagent}
+Boyuan Zheng, Boyu Gou, Jihyung Kil, Huan Sun, and Yu~Su.
+\newblock Gpt-4v(ision) is a generalist web agent, if grounded, 2024.
+\newblock URL \url{https://arxiv.org/abs/2401.01614}.
+
+\bibitem[Zheng et~al.(2023)Zheng, Chiang, Sheng, Zhuang, Wu, Zhuang, Lin, Li, Li, Xing, Zhang, Gonzalez, and Stoica]{zheng2023judgingllmasajudgemtbenchchatbot}
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi~Lin, Zhuohan Li, Dacheng Li, Eric~P. Xing, Hao Zhang, Joseph~E. Gonzalez, and Ion Stoica.
+\newblock Judging llm-as-a-judge with mt-bench and chatbot arena, 2023.
+\newblock URL \url{https://arxiv.org/abs/2306.05685}.
+
+\bibitem[Zhou et~al.(2024)Zhou, Xu, Zhu, Zhou, Lo, Sridhar, Cheng, Ou, Bisk, Fried, Alon, and Neubig]{zhou_webarena_2024}
+Shuyan Zhou, Frank~F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, and Graham Neubig.
+\newblock {WebArena}: {A} {Realistic} {Web} {Environment} for {Building} {Autonomous} {Agents}, April 2024.
+\newblock URL \url{http://arxiv.org/abs/2307.13854}.
+\newblock arXiv:2307.13854 [cs].
+
+\bibitem[Zhuge et~al.(2024)Zhuge, Zhao, Ashley, Wang, Khizbullin, Xiong, Liu, Chang, Krishnamoorthi, Tian, Shi, Chandra, and Schmidhuber]{zhuge2024agentasajudgeevaluateagentsagents}
+Mingchen Zhuge, Changsheng Zhao, Dylan Ashley, Wenyi Wang, Dmitrii Khizbullin, Yunyang Xiong, Zechun Liu, Ernie Chang, Raghuraman Krishnamoorthi, Yuandong Tian, Yangyang Shi, Vikas Chandra, and Jürgen Schmidhuber.
+\newblock Agent-as-a-judge: Evaluate agents with agents, 2024.
+\newblock URL \url{https://arxiv.org/abs/2410.10934}.
+
+\end{thebibliography}

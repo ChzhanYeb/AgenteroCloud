@@ -1,0 +1,24 @@
+{
+  "path": "papers/待整理/1606.08415",
+  "id": "1606.08415",
+  "type": "pdf",
+  "title": "Gaussian Error Linear Units (GELUs)",
+  "authors": [
+    "Dan Hendrycks",
+    "Kevin Gimpel"
+  ],
+  "year": 2016,
+  "abstract": "We propose the Gaussian Error Linear Unit (GELU), a high-performing neural network activation function. The GELU activation function is $xΦ(x)$, where $Φ(x)$ the standard Gaussian cumulative distribution function. The GELU nonlinearity weights inputs by their value, rather than gates inputs by their sign as in ReLUs ($x\\mathbf{1}_{x>0}$). We perform an empirical evaluation of the GELU nonlinearity against the ReLU and ELU activations and find performance improvements across all considered computer vision, natural language processing, and speech tasks.",
+  "tags": [],
+  "arxiv_id": "1606.08415",
+  "code_repo": "https://github.com/hendrycks/GELUs",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 7834,
+  "meta_source": "recognize",
+  "summary": "GELU weights inputs by their magnitude through the Gaussian CDF, rather than gating them by sign as ReLU does. Across vision, language, and speech tasks, it outperforms both ReLU and ELU.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:32.166Z",
+  "updated_at": "2026-11-15T11:49:14.117Z"
+}

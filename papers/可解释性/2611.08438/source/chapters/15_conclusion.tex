@@ -1,0 +1,38 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+Neural networks could be one of the most consequential artefacts humanity has built, yet we do not understand how they work or reliably control what they do. Recent decades have seen an exponential improvement in AI capabilities, but methods to understand and explain internal mechanisms have lagged behind. This has created an interpretability gap between what models can do and what we know about how they do it.
+
+Mechanistic interpretability offers a path towards understanding these systems by studying their internal representations and computations, with the aim of evaluating, predicting, and controlling behaviour. In this survey, we examine closely what interpretability can actually contribute to AI safety. We place mechanistic interpretability in the broader context of interpretability research and compare its mechanistic evidence with behavioural evaluation. Beyond surveying existing methods, we propose a unified framework for evaluating mechanistic interpretability claims and characterise six research orientations by their goals, assumptions, and trade-offs.
+
+Rather than converging on a single approach, the field has crystallised into divergent research orientations, including Pragmatic Interpretability, Ambitious Interpretability, Developmental Interpretability, Interpretability Across Time, Introspective Interpretability, and Automated Interpretability, each making trade-offs between completeness, cost, and applicability.
+
+\subsection{Achievements and Limits}
+
+Mechanistic interpretability has achieved substantial progress across several fronts, including extracting interpretable features with SAEs, discovering task-relevant circuits, and enabling targeted interventions on model behaviour. Overall, the field has shaped how researchers view model computation, representations, and causal structure.
+
+Yet current approaches are limited: they do not fully explain many behaviours, struggle to generalise under distribution shift, have difficulty cleanly disentangling entangled computations, and are hard to scale to frontier models. More importantly, their usefulness for AI safety remains debated.
+
+Although many prior studies in the interpretability community assume that mechanistic understanding directly implies safer systems, the assumption is in fact largely untested. Therefore, this survey considers not only what a method reveals about a model's internal computation, but also what it allows us to do in practice. We particularly discuss whether it supports safety-relevant tasks such as detecting deceptive behaviours or identifying dangerous capabilities, and whether those tasks can be achieved just as well without interpretability methods or insights.
+
+A persistent challenge in mechanistic interpretability is the lack of standardised evaluation. Different interpretability methods use incompatible metrics. To address this, we present a unified evaluation framework covering five dimensions---attribution faithfulness, completeness, stability, causal validity, and human interpretability---where different methods can be jointly tested. We identify gaps and argue that the evaluation methodology and safety benchmarks are the field's most pressing open problems.
+
+Mechanistic interpretability is not a panacea for AI safety. Researchers, developers, and practitioners should recognise the limits of partial or incorrect causal understanding, rigorously evaluate MI tools under broad conditions, and combine them with complementary safety measures. MI should therefore be viewed as one component of a defence-in-depth safety strategy rather than a standalone guarantee of safety.
+
+\subsection{The Road Ahead}
+
+The six research orientations describe different research goals and priorities. At a broader level, mechanistic interpretability can be organised into three complementary paradigms that encompass these orientations and other research directions:
+
+\begin{enumerate}
+    \item \textbf{Post-hoc explanation:} The traditional paradigm of studying trained models' internals via tools like SAEs, circuit discovery, activation verbalisers, and causal analysis. Because deployed systems still rely on conventional dense architectures without intrinsic interpretability, post-hoc analysis will remain important in the medium term.
+
+    \item \textbf{Studying learning dynamics:} Understanding how mechanisms emerge during training via methods like singular learning theory and checkpoint analysis. This paradigm enables understanding, prediction, and intervention early in behaviour and capability emergence.
+
+    \item \textbf{Interpretability by design:} Engineering architectures that are mechanistically transparent by construction, such as SoLU, weight-sparse transformers, KANs, and their successors. This paradigm moves interpretability upstream and promises to reduce the need for expensive post-hoc analysis.
+\end{enumerate}
+
+Each approach tackles a different area but complements the others. For instance, interpretability-by-design models can reduce reliance on post-hoc methods, while post-hoc mechanistic analysis can guide next-generation interpretability-by-design models towards desirable properties that current dense architectures lack. Insights into learning dynamics can suggest architectural constraints and training-time interventions.
+
+Progress also depends on establishing stronger scientific standards. Recent work argues that interpretability should produce claims that are both falsifiable and reproducible, and improve its use in model evaluations and downstream applications.
+
+Ultimately, the question remains: Does understanding how models work actually make them safer? This survey's goal is to understand how these approaches can work together to improve model understanding and safeguards, while recognising the limits of partial or incorrect causal understanding.

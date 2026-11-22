@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:45:52.554Z",
+    "fingerprint": "9a287d5f78bc38a6253093e7ab943847b98bd77de41d30c9fde5ac8bade87c67"
+  },
+  "citations": [
+    {
+      "id": "cite-standout",
+      "rawKey": "standout",
+      "display": "[1]",
+      "raw": "Jimmy Ba and Brendan Frey. Adaptive dropout for training deep neural networks. In Neural Information Processing Systems, 2013.",
+      "metadata": {
+        "title": "Adaptive dropout for training deep neural networks",
+        "authors": [
+          "Jimmy Ba",
+          "Brendan Frey"
+        ],
+        "year": 2013,
+        "venue": "Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bachman",
+      "rawKey": "bachman",
+      "display": "[2]",
+      "raw": "Philip Bachman, Ouais Alsharif, and Doina Precup. Learning with pseudo-ensembles. In Neural Information Processing Systems, 2014.",
+      "metadata": {
+        "title": "Learning with pseudo-ensembles",
+        "authors": [
+          "Philip Bachman",
+          "Ouais Alsharif",
+          "Doina Precup"
+        ],
+        "year": 2014,
+        "venue": "Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-approx",
+      "rawKey": "approx",
+      "display": "[3]",
+      "raw": "Amit Choudhury. A simple approximation to the area under standard normal curve. In Mathematics and Statistics, 2014.",
+      "metadata": {
+        "title": "A Simple Approximation to the Area Under Standard Normal Curve",
+        "authors": [
+          "Amit Choudhury"
+        ],
+        "year": 2014,
+        "venue": "Mathematics and Statistics"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-elu",
+      "rawKey": "elu",
+      "display": "[4]",
+      "raw": "Djork-Arne Clevert, Thomas Unterthiner, and Sepp Hochreiter. Fast and accurate deep network learning by exponential linear units (ELUs). In International Conference on Learning Representations, 2016.",
+      "metadata": {
+        "title": "Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)",
+        "authors": [
+          "Djork-Arne Clevert",
+          "Thomas Unterthiner",
+          "Sepp Hochreiter"
+        ],
+        "year": 2016,
+        "venue": "International Conference on Learning Representations"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-desjardens",
+      "rawKey": "desjardens",
+      "display": "[5]",
+      "raw": "Guillaume Desjardins, Karen Simonyan, Razvan Pascanu, and Koray Kavukcuoglu. Natural neural networks. In arXiv, 2015.",
+      "metadata": {
+        "title": "Natural Neural Networks",
+        "authors": [
+          "Guillaume Desjardins",
+          "Karen Simonyan",
+          "Razvan Pascanu",
+          "Koray Kavukcuoglu"
+        ],
+        "year": 2015,
+        "venue": "arXiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gimpel",
+      "rawKey": "gimpel",
+      "display": "[6]",
+      "raw": "Kevin Gimpel, Nathan Schneider, Brendan O$'$Connor, Dipanjan Das, Daniel Mills, Jacob Eisenstein, Michael Heilman, Dani Yogatama, Jeffrey Flanigan, and Noah A. Smith. Part-of-Speech Tagging for Twitter: Annotation, Features, and Experiments. Association for Computational Linguistics (ACL), 2011.",
+      "metadata": {
+        "title": "Part-of-Speech Tagging for Twitter: Annotation, Features, and Experiments",
+        "authors": [
+          "Kevin Gimpel",
+          "Nathan Schneider",
+          "Brendan O$'$Connor",
+          "Dipanjan Das",
+          "Daniel Mills",
+          "Jacob Eisenstein",
+          "Michael Heilman",
+          "Dani Yogatama",
+          "Jeffrey Flanigan",
+          "Noah A. Smith"
+        ],
+        "year": 2011
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hendrycks",
+      "rawKey": "hendrycks",
+      "display": "[7]",
+      "raw": "Dan Hendrycks and Kevin Gimpel. Adjusting for dropout variance in batch normalization and weight initialization. In arXiv, 2016.",
+      "metadata": {
+        "title": "Adjusting for Dropout Variance in Batch Normalization and Weight Initialization",
+        "authors": [
+          "Dan Hendrycks",
+          "Kevin Gimpel"
+        ],
+        "year": 2016,
+        "venue": "arXiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hopfield",
+      "rawKey": "hopfield",
+      "display": "[8]",
+      "raw": "John Hopfield. Neural networks and physical systems with emergent collective computational abilities. In Proceedings of the National Academy of Sciences of the USA, 1982.",
+      "metadata": {
+        "title": "Neural networks and physical systems with emergent collective computational abilities",
+        "authors": [
+          "John Hopfield"
+        ],
+        "year": 1982,
+        "venue": "Proceedings of the National Academy of Sciences of the USA"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-adam",
+      "rawKey": "adam",
+      "display": "[9]",
+      "raw": "Diederik Kingma and Jimmy Ba. Adam: A Method for Stochastic Optimization. International Conference for Learning Representations, 2015.",
+      "metadata": {
+        "title": "Adam: A Method for Stochastic Optimization",
+        "authors": [
+          "Diederik Kingma",
+          "Jimmy Ba"
+        ],
+        "year": 2015
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cifar",
+      "rawKey": "cifar",
+      "display": "[10]",
+      "raw": "Alex Krizhevsky. Learning Multiple Layers of Features from Tiny Images, 2009.",
+      "metadata": {
+        "authors": [
+          "Alex Krizhevsky"
+        ],
+        "year": 2009
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-zoneout",
+      "rawKey": "zoneout",
+      "display": "[11]",
+      "raw": "David Krueger, Tegan Maharaj, JÃnos Kramar, Mohammad Pezeshki, Nicolas Ballas, Nan Rosemary Ke1, Anirudh Goyal, Yoshua Bengio, Hugo Larochelle, Aaron Courville, and Chris Pal. Zoneout: Regularizing RNNs by randomly preserving hidden activations. In Neural Information Processing Systems, 2016.",
+      "metadata": {
+        "title": "Zoneout: Regularizing RNNs by Randomly Preserving Hidden Activations",
+        "authors": [
+          "David Krueger",
+          "Tegan Maharaj",
+          "JÃnos Kramar",
+          "Mohammad Pezeshki",
+          "Nicolas Ballas",
+          "Nan Rosemary Ke1",
+          "Anirudh Goyal",
+          "Yoshua Bengio",
+          "Hugo Larochelle",
+          "Aaron Courville",
+          "Chris Pal"
+        ],
+        "year": 2016,
+        "venue": "Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-SGDR",
+      "rawKey": "SGDR",
+      "display": "[12]",
+      "raw": "Ilya Loshchilov and Frank Hutter. SGDR: Stochastic gradient descent with restarts. arXiv, 2016.",
+      "metadata": {
+        "title": "SGDR: Stochastic Gradient Descent with Restarts",
+        "authors": [
+          "Ilya Loshchilov",
+          "Frank Hutter"
+        ],
+        "year": 2016,
+        "venue": "arXiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lrelu",
+      "rawKey": "lrelu",
+      "display": "[13]",
+      "raw": "Andrew L. Maas, Awni Y. Hannun, , and Andrew Y. Ng. Rectifier nonlinearities improve neural network acoustic models. In International Conference on Machine Learning, 2013.",
+      "metadata": {
+        "title": "Rectifier nonlinearities improve neural network acoustic models",
+        "authors": [
+          "Andrew L. Maas",
+          "Awni Y. Hannun",
+          "and Andrew Y. Ng"
+        ],
+        "year": 2013,
+        "venue": "International Conference on Machine Learning"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mcculloch",
+      "rawKey": "mcculloch",
+      "display": "[14]",
+      "raw": "Warren S. McCulloch and Walter Pitts. A logical calculus of the ideas immanent in nervous activity. In Bulletin of Mathematical Biophysics, 1943.",
+      "metadata": {
+        "title": "A logical calculus of the ideas immanent in nervous activity",
+        "authors": [
+          "Warren S. McCulloch",
+          "Walter Pitts"
+        ],
+        "year": 1943,
+        "venue": "Bulletin of Mathematical Biophysics"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-weights",
+      "rawKey": "weights",
+      "display": "[15]",
+      "raw": "Dmytro Mishkin and Jiri Matas. All you need is a good init. In International Conference on Learning Representations, 2016.",
+      "metadata": {
+        "title": "All You Need Is a Good Init",
+        "authors": [
+          "Dmytro Mishkin",
+          "Jiri Matas"
+        ],
+        "year": 2016,
+        "venue": "International Conference on Learning Representations"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-timitdeep",
+      "rawKey": "timitdeep",
+      "display": "[16]",
+      "raw": "Abdelrahman Mohamed, George E. Dahl, and Geoffrey E. Hinton. Acoustic modeling using deep belief networks. In IEEE Transactions on Audio, Speech, and Language Processing, 2012.",
+      "metadata": {
+        "title": "Acoustic Modeling Using Deep Belief Networks",
+        "authors": [
+          "Abdelrahman Mohamed",
+          "George E. Dahl",
+          "Geoffrey E. Hinton"
+        ],
+        "year": 2012,
+        "venue": "IEEE Transactions on Audio, Speech, and Language Processing"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-relu",
+      "rawKey": "relu",
+      "display": "[17]",
+      "raw": "Vinod Nair and Geoffrey E. Hinton. Rectified linear units improve restricted boltzmann machines. In International Conference on Machine Learning, 2010.",
+      "metadata": {
+        "title": "Rectified Linear Units Improve Restricted Boltzmann Machines",
+        "authors": [
+          "Vinod Nair",
+          "Geoffrey E. Hinton"
+        ],
+        "year": 2010,
+        "venue": "International Conference on Machine Learning"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-owoputi",
+      "rawKey": "owoputi",
+      "display": "[18]",
+      "raw": "Olutobi Owoputi, Brendan O'Connor, Chris Dyer, Kevin Gimpel, Nathan Schneider, and Noah A. Smith. Improved part-of-speech tagging for online conversational text with word clusters. In North American Chapter of the Association for Computational Linguistics (NAACL), 2013.",
+      "metadata": {
+        "title": "Improved Part-of-Speech Tagging for Online Conversational Text with Word Clusters",
+        "authors": [
+          "Olutobi Owoputi",
+          "Brendan O'Connor",
+          "Chris Dyer",
+          "Kevin Gimpel",
+          "Nathan Schneider",
+          "Noah A. Smith"
+        ],
+        "year": 2013,
+        "venue": "North American Chapter of the Association for Computational Linguistics (NAACL)"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-weightnorm",
+      "rawKey": "weightnorm",
+      "display": "[19]",
+      "raw": "Tim Salimans and Diederik P. Kingma. Weight normalization: A simple reparameterization to accelerate training of deep neural networks. In Neural Information Processing Systems, 2016.",
+      "metadata": {
+        "title": "Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks",
+        "authors": [
+          "Tim Salimans",
+          "Diederik P. Kingma"
+        ],
+        "year": 2016,
+        "venue": "Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-init2",
+      "rawKey": "init2",
+      "display": "[20]",
+      "raw": "Andrew M. Saxe, James L. McClelland, and Surya Ganguli. Exact solutions to the nonlinear dynamics of learning in deep linear neural networks. In International Conference on Learning Representations, 2014.",
+      "metadata": {
+        "title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+        "authors": [
+          "Andrew M. Saxe",
+          "James L. McClelland",
+          "Surya Ganguli"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-eluresnet",
+      "rawKey": "eluresnet",
+      "display": "[21]",
+      "raw": "Anish Shah, Sameer Shinde, Eashan Kadam, Hena Shah, and Sandip Shingade. Deep residual networks with exponential linear unit. In Vision Net, 2016.",
+      "metadata": {
+        "title": "Deep Residual Networks with Exponential Linear Unit",
+        "authors": [
+          "Anish Shah",
+          "Sameer Shinde",
+          "Eashan Kadam",
+          "Hena Shah",
+          "Sandip Shingade"
+        ],
+        "year": 2016,
+        "venue": "Vision Net"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-srivastava",
+      "rawKey": "srivastava",
+      "display": "[22]",
+      "raw": "Nitish Srivastava. Improving neural networks with dropout. In University of Toronto, 2013.",
+      "metadata": {
+        "title": "Improving Neural Networks with Dropout",
+        "authors": [
+          "Nitish Srivastava"
+        ],
+        "year": 2013,
+        "venue": "University of Toronto"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dropout",
+      "rawKey": "dropout",
+      "display": "[23]",
+      "raw": "Nitish Srivastava, Geoffrey E. Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. Dropout: A simple way to prevent neural networks from overfitting. In Journal of Machine Learning Research, 2014.",
+      "metadata": {
+        "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+        "authors": [
+          "Nitish Srivastava",
+          "Geoffrey E. Hinton",
+          "Alex Krizhevsky",
+          "Ilya Sutskever",
+          "Ruslan Salakhutdinov"
+        ],
+        "year": 2014,
+        "venue": "Journal of Machine Learning Research"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wrn",
+      "rawKey": "wrn",
+      "display": "[24]",
+      "raw": "Sergey Zagoruyko and Nikos Komodakis. Wide residual networks. British Machine Vision Conference, 2016.",
+      "metadata": {
+        "title": "Wide Residual Networks",
+        "authors": [
+          "Sergey Zagoruyko",
+          "Nikos Komodakis"
+        ],
+        "year": 2016,
+        "venue": "British Machine Vision Conference"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 24 entries (bbl)",
+    "semantic scholar failed: rate limited"
+  ]
+}

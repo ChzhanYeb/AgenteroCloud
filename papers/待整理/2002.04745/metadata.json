@@ -1,0 +1,32 @@
+{
+  "path": "papers/待整理/2002.04745",
+  "id": "2002.04745",
+  "type": "pdf",
+  "title": "On Layer Normalization in the Transformer Architecture",
+  "authors": [
+    "Ruibin Xiong",
+    "Yunchang Yang",
+    "Di He",
+    "Kai Zheng",
+    "Shuxin Zheng",
+    "Chen Xing",
+    "Huishuai Zhang",
+    "Yanyan Lan",
+    "Liwei Wang",
+    "Tie-Yan Liu"
+  ],
+  "year": 2020,
+  "abstract": "The Transformer is widely used in natural language processing tasks. To train a Transformer however, one usually needs a carefully designed learning rate warm-up stage, which is shown to be crucial to the final performance but will slow down the optimization and bring more hyper-parameter tunings. In this paper, we first study theoretically why the learning rate warm-up stage is essential and show that the location of layer normalization matters. Specifically, we prove with mean field theory that at initialization, for the original-designed Post-LN Transformer, which places the layer normalization between the residual blocks, the expected gradients of the parameters near the output layer are large. Therefore, using a large learning rate on those gradients makes the training unstable. The warm-up stage is practically helpful for avoiding this problem. On the other hand, our theory also shows that if the layer normalization is put inside the residual blocks (recently proposed as Pre-LN Transformer), the gradients are well-behaved at initialization. This motivates us to remove the warm-up stage for the training of Pre-LN Transformers. We show in our experiments that Pre-LN Transformers without the warm-up stage can reach comparable results with baselines while requiring significantly less training time and hyper-parameter tuning on a wide range of applications.",
+  "tags": [],
+  "arxiv_id": "2002.04745",
+  "publication": "Published on ICML 2020",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 1727,
+  "meta_source": "recognize",
+  "summary": "Pre-LN places normalization inside residual blocks, keeping initialization gradients well-behaved and removing the need for learning-rate warm-up. Mean-field analysis explains Post-LN instability near the output layer, while experiments show comparable results with less training time and tuning.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:34.461Z",
+  "updated_at": "2026-11-15T11:49:14.600Z"
+}

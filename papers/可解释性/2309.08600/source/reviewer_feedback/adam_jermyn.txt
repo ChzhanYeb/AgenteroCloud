@@ -1,0 +1,13 @@
+ %auto-ignore
+So I’m still looking through it but just wanted to reply and say that this is an exciting paper and folks on the team are excited to see ya’ll pursuing this! Thanks for sharing it!
+
+I also wanted to give a bit of context on where we’re at.
+We’re also currently preparing a paper on dictionary learning. I can’t share the draft, but I can say that it has some overlap with what you’re doing, which is cool to see (means we’re not tricking ourselves into thinking some of the things we’re seeing are real!). In particular, a few things we’ve found that match what you’ve found:
+
+Single-token features that seem context-specific.
+
+Features with sensible logit effects/ablation effects.
+
+Automated feature labelling working decently on features.
+
+Anyway, just wanted to share that :) . I’ll get back to you with any feedback that comes up!

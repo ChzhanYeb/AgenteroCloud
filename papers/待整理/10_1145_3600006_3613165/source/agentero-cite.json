@@ -1,0 +1,680 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "crossref",
+    "generatedAt": "2026-11-15T11:46:01.990Z",
+    "fingerprint": "d2cfde1e91a3a59358f1954a8bc7c3d0a58ab45738942fb0c9599997417fc29e"
+  },
+  "citations": [
+    {
+      "id": "ref-1",
+      "raw": "Reza Yazdani Aminabadi , Samyam Rajbhandari , Minjia Zhang , Ammar Ahmad Awan , Cheng Li, Du Li, Elton Zheng, Jeff Rasley, Shaden Smith, Olatunji Ruwase, et al. 2022 . DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale . arXiv preprint arXiv:2207.00032 (2022). Reza Yazdani Aminabadi, Samyam Rajbhandari, Minjia Zhang, Ammar Ahmad Awan, Cheng Li, Du Li, Elton Zheng, Jeff Rasley, Shaden Smith, Olatunji Ruwase, et al. 2022. DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale. arXiv preprint arXiv:2207.00032 (2022).",
+      "metadata": {
+        "title": "Cheng Li, Du Li, Elton Zheng, Jeff Rasley, Shaden Smith, Olatunji Ruwase, et al.",
+        "authors": [
+          "Aminabadi Reza Yazdani"
+        ],
+        "year": 2022
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-2",
+      "raw": "Jimmy Lei Ba , Jamie Ryan Kiros, and Geoffrey E Hinton . 2016 . Layer normalization. arXiv preprint arXiv:1607.06450 (2016). Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. 2016. Layer normalization. arXiv preprint arXiv:1607.06450 (2016).",
+      "metadata": {
+        "title": "Jamie Ryan Kiros, and Geoffrey E Hinton",
+        "authors": [
+          "Ba Jimmy Lei"
+        ],
+        "year": 2016
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-3",
+      "raw": "Yoshua Bengio , Réjean Ducharme , and Pascal Vincent . 2000. A neural probabilistic language model. Advances in neural information processing systems 13 ( 2000 ). Yoshua Bengio, Réjean Ducharme, and Pascal Vincent. 2000. A neural probabilistic language model. Advances in neural information processing systems 13 (2000).",
+      "metadata": {
+        "title": "A neural probabilistic language model. Advances in neural information processing systems 13",
+        "authors": [
+          "Bengio Yoshua"
+        ],
+        "year": 2000
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-4",
+      "metadata": {
+        "doi": "10.18653/v1/W16-2301"
+      },
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-5",
+      "raw": "Tom Brown Benjamin Mann Nick Ryder Melanie Subbiah Jared D Kaplan Prafulla Dhariwal Arvind Neelakantan Pranav Shyam Girish Sastry Amanda Askell etal 2020. Language models are few-shot learners. Advances in neural information processing systems 33 (2020) 1877--1901.  Tom Brown Benjamin Mann Nick Ryder Melanie Subbiah Jared D Kaplan Prafulla Dhariwal Arvind Neelakantan Pranav Shyam Girish Sastry Amanda Askell et al. 2020. Language models are few-shot learners. Advances in neural information processing systems 33 (2020) 1877--1901.",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-6",
+      "raw": "Mark Chen , Jerry Tworek , Heewoo Jun , Qiming Yuan , Henrique Ponde de Oliveira Pinto , Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al. 2021 . Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374 (2021). Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al. 2021. Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374 (2021).",
+      "metadata": {
+        "title": "Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al.",
+        "authors": [
+          "Chen Mark"
+        ],
+        "year": 2021
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-7",
+      "raw": "Tianqi Chen , Bing Xu , Chiyuan Zhang , and Carlos Guestrin . 2016. Training deep nets with sublinear memory cost. arXiv preprint arXiv:1604.06174 ( 2016 ). Tianqi Chen, Bing Xu, Chiyuan Zhang, and Carlos Guestrin. 2016. Training deep nets with sublinear memory cost. arXiv preprint arXiv:1604.06174 (2016).",
+      "metadata": {
+        "title": "Training deep nets with sublinear memory cost. arXiv preprint arXiv:1604.06174",
+        "authors": [
+          "Chen Tianqi"
+        ],
+        "year": 2016
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-8",
+      "raw": "Wei-Lin Chiang , Zhuohan Li , Zi Lin , Ying Sheng , Zhanghao Wu , Hao Zhang , Lianmin Zheng , Siyuan Zhuang , Yonghao Zhuang , Joseph E. Gonzalez , Ion Stoica , and Eric P . Xing . 2023 . Vicuna : An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality . https://lmsys.org/blog/2023-03-30-vicuna/ Wei-Lin Chiang, Zhuohan Li, Zi Lin, Ying Sheng, Zhanghao Wu, Hao Zhang, Lianmin Zheng, Siyuan Zhuang, Yonghao Zhuang, Joseph E. Gonzalez, Ion Stoica, and Eric P. Xing. 2023. Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality. https://lmsys.org/blog/2023-03-30-vicuna/",
+      "metadata": {
+        "title": "Xing",
+        "authors": [
+          "Chiang Wei-Lin"
+        ],
+        "year": 2023
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-9",
+      "raw": "Aakanksha Chowdhery , Sharan Narang , Jacob Devlin , Maarten Bosma , Gaurav Mishra , Adam Roberts , Paul Barham , Hyung Won Chung , Charles Sutton, Sebastian Gehrmann, et al. 2022 . Palm : Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311 (2022). Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra, Adam Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Sebastian Gehrmann, et al. 2022. Palm: Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311 (2022).",
+      "metadata": {
+        "title": "Charles Sutton, Sebastian Gehrmann, et al.",
+        "authors": [
+          "Chowdhery Aakanksha"
+        ],
+        "year": 2022
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-10",
+      "metadata": {
+        "doi": "10.1145/3419111.3421285"
+      },
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-11",
+      "raw": "Daniel Crankshaw , Xin Wang , Guilio Zhou , Michael J Franklin , Joseph E Gonzalez , and Ion Stoica . 2017 . Clipper: A Low-Latency Online Prediction Serving System. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17) . 613--627. Daniel Crankshaw, Xin Wang, Guilio Zhou, Michael J Franklin, Joseph E Gonzalez, and Ion Stoica. 2017. Clipper: A Low-Latency Online Prediction Serving System. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17). 613--627.",
+      "metadata": {
+        "title": "Clipper: A Low-Latency Online Prediction Serving System. In 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17)",
+        "authors": [
+          "Crankshaw Daniel"
+        ],
+        "year": 2017
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-12",
+      "raw": "Weihao Cui , Han Zhao , Quan Chen , Hao Wei , Zirui Li , Deze Zeng , Chao Li , and Minyi Guo . 2022 . DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs. In 2022 USENIX Annual Technical Conference (USENIX ATC 22) . 183--198. Weihao Cui, Han Zhao, Quan Chen, Hao Wei, Zirui Li, Deze Zeng, Chao Li, and Minyi Guo. 2022. DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs. In 2022 USENIX Annual Technical Conference (USENIX ATC 22). 183--198.",
+      "metadata": {
+        "title": "DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs. In 2022 USENIX Annual Technical Conference (USENIX ATC 22)",
+        "authors": [
+          "Cui Weihao"
+        ],
+        "year": 2022
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-13",
+      "raw": "Tri Dao , Dan Fu , Stefano Ermon , Atri Rudra , and Christopher Ré . 2022 . Flashattention: Fast and memory-efficient exact attention with io-awareness . Advances in Neural Information Processing Systems 35 (2022), 16344 -- 16359 . Tri Dao, Dan Fu, Stefano Ermon, Atri Rudra, and Christopher Ré. 2022. Flashattention: Fast and memory-efficient exact attention with io-awareness. Advances in Neural Information Processing Systems 35 (2022), 16344--16359.",
+      "metadata": {
+        "title": "Flashattention: Fast and memory-efficient exact attention with io-awareness",
+        "authors": [
+          "Dao Tri"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-14",
+      "metadata": {
+        "doi": "10.1145/3437801.3441578"
+      },
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-15",
+      "raw": "FastAPI. 2023. FastAPI. https://github.com/tiangolo/fastapi.  FastAPI. 2023. FastAPI. https://github.com/tiangolo/fastapi.",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-16",
+      "metadata": {
+        "doi": "10.1145/3190508.3190541"
+      },
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-17",
+      "raw": "Amir Gholami , Zhewei Yao , Sehoon Kim , Michael W Mahoney , and Kurt Keutzer . 2021 . Ai and memory wall . RiseLab Medium Post 1 (2021), 6 . Amir Gholami, Zhewei Yao, Sehoon Kim, Michael W Mahoney, and Kurt Keutzer. 2021. Ai and memory wall. RiseLab Medium Post 1 (2021), 6.",
+      "metadata": {
+        "title": "Ai and memory wall",
+        "authors": [
+          "Gholami Amir"
+        ],
+        "year": 2021,
+        "venue": "RiseLab Medium Post"
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-18",
+      "raw": "Github. 2022. https://github.com/features/copilot  Github. 2022. https://github.com/features/copilot",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-19",
+      "raw": "Google. 2023. https://bard.google.com/  Google. 2023. https://bard.google.com/",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-20",
+      "raw": "Arpan Gujarati , Reza Karimi , Safya Alzayat , Wei Hao , Antoine Kaufmann , Ymir Vigfusson , and Jonathan Mace . 2020 . Serving {DNNs} like Clockwork: Performance Predictability from the Bottom Up . In 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20) . 443--462. Arpan Gujarati, Reza Karimi, Safya Alzayat, Wei Hao, Antoine Kaufmann, Ymir Vigfusson, and Jonathan Mace. 2020. Serving {DNNs} like Clockwork: Performance Predictability from the Bottom Up. In 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20). 443--462.",
+      "metadata": {
+        "title": "14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20)",
+        "authors": [
+          "Gujarati Arpan"
+        ],
+        "year": 2020
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-21",
+      "raw": "Mingcong Han , Hanze Zhang , Rong Chen , and Haibo Chen . 2022 . Microsecond-scale Preemption for Concurrent {GPU-accelerated}{DNN} Inferences . In 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22) . 539--558. Mingcong Han, Hanze Zhang, Rong Chen, and Haibo Chen. 2022. Microsecond-scale Preemption for Concurrent {GPU-accelerated}{DNN} Inferences. In 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22). 539--558.",
+      "metadata": {
+        "title": "16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)",
+        "authors": [
+          "Han Mingcong"
+        ],
+        "year": 2022
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-22",
+      "metadata": {
+        "doi": "10.1109/CVPR.2016.90"
+      },
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-23",
+      "metadata": {
+        "doi": "10.1145/3373376.3378530"
+      },
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-24",
+      "raw": "Paras Jain , Ajay Jain , Aniruddha Nrusimha , Amir Gholami , Pieter Abbeel , Joseph Gonzalez , Kurt Keutzer , and Ion Stoica . 2020 . Checkmate: Breaking the memory wall with optimal tensor rematerialization . Proceedings of Machine Learning and Systems 2 (2020), 497 -- 511 . Paras Jain, Ajay Jain, Aniruddha Nrusimha, Amir Gholami, Pieter Abbeel, Joseph Gonzalez, Kurt Keutzer, and Ion Stoica. 2020. Checkmate: Breaking the memory wall with optimal tensor rematerialization. Proceedings of Machine Learning and Systems 2 (2020), 497--511.",
+      "metadata": {
+        "title": "Checkmate: Breaking the memory wall with optimal tensor rematerialization",
+        "authors": [
+          "Jain Paras"
+        ],
+        "year": 2020,
+        "venue": "Proceedings of Machine Learning and Systems"
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-25",
+      "metadata": {
+        "doi": "10.1109/TEC.1962.5219356"
+      },
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-26",
+      "raw": "Brian Lester , Rami Al-Rfou , and Noah Constant . 2021. The power of scale for parameter-efficient prompt tuning. arXiv preprint arXiv:2104.08691 ( 2021 ). Brian Lester, Rami Al-Rfou, and Noah Constant. 2021. The power of scale for parameter-efficient prompt tuning. arXiv preprint arXiv:2104.08691 (2021).",
+      "metadata": {
+        "title": "The power of scale for parameter-efficient prompt tuning. arXiv preprint arXiv:2104.08691",
+        "authors": [
+          "Lester Brian"
+        ],
+        "year": 2021
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-27",
+      "raw": "Xiang Lisa Li and Percy Liang . 2021 . Prefix-tuning: Optimizing continuous prompts for generation. arXiv preprint arXiv:2101.00190 (2021). Xiang Lisa Li and Percy Liang. 2021. Prefix-tuning: Optimizing continuous prompts for generation. arXiv preprint arXiv:2101.00190 (2021).",
+      "metadata": {
+        "title": "Prefix-tuning: Optimizing continuous prompts for generation. arXiv preprint arXiv:2101.00190",
+        "authors": [
+          "Li Xiang Lisa"
+        ],
+        "year": 2021
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-28",
+      "raw": "Zhuohan Li Lianmin Zheng Yinmin Zhong Vincent Liu Ying Sheng Xin Jin Yanping Huang Zhifeng Chen Hao Zhang Joseph E Gonzalez etal 2023. AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving. arXiv preprint arXiv:2302.11665 (2023).  Zhuohan Li Lianmin Zheng Yinmin Zhong Vincent Liu Ying Sheng Xin Jin Yanping Huang Zhifeng Chen Hao Zhang Joseph E Gonzalez et al. 2023. AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving. arXiv preprint arXiv:2302.11665 (2023).",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-29",
+      "raw": "Lingxiao Ma , Zhiqiang Xie , Zhi Yang , Jilong Xue , Youshan Miao , Wei Cui , Wenxiang Hu , Fan Yang , Lintao Zhang , and Lidong Zhou . 2020 . Rammer: Enabling holistic deep learning compiler optimizations with rtasks . In Proceedings of the 14th USENIX Conference on Operating Systems Design and Implementation. 881--897 . Lingxiao Ma, Zhiqiang Xie, Zhi Yang, Jilong Xue, Youshan Miao, Wei Cui, Wenxiang Hu, Fan Yang, Lintao Zhang, and Lidong Zhou. 2020. Rammer: Enabling holistic deep learning compiler optimizations with rtasks. In Proceedings of the 14th USENIX Conference on Operating Systems Design and Implementation. 881--897.",
+      "metadata": {
+        "title": "Proceedings of the 14th USENIX Conference on Operating Systems Design and Implementation. 881--897",
+        "authors": [
+          "Ma Lingxiao"
+        ],
+        "year": 2020
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-30",
+      "raw": "NVIDIA. [n. d.]. Triton Inference Server. https://developer.nvidia.com/nvidia-triton-inference-server.  NVIDIA. [n. d.]. Triton Inference Server. https://developer.nvidia.com/nvidia-triton-inference-server.",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-31",
+      "raw": "NVIDIA. 2023. FasterTransformer. https://github.com/NVIDIA/FasterTransformer.  NVIDIA. 2023. FasterTransformer. https://github.com/NVIDIA/FasterTransformer.",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-32",
+      "raw": "NVIDIA. 2023 . NCCL: The NVIDIA Collective Communication Library. https://developer.nvidia.com/nccl. NVIDIA. 2023. NCCL: The NVIDIA Collective Communication Library. https://developer.nvidia.com/nccl.",
+      "metadata": {
+        "title": "NCCL: The NVIDIA Collective Communication Library. https://developer.nvidia.com/nccl.",
+        "authors": [
+          "NVIDIA."
+        ],
+        "year": 2023
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-33",
+      "raw": "Christopher Olston , Noah Fiedel , Kiril Gorovoy , Jeremiah Harmsen , Li Lao , Fangwei Li , Vinu Rajashekhar , Sukriti Ramesh , and Jordan Soyke . 2017 . Tensorflow-serving: Flexible, high-performance ml serving. arXiv preprint arXiv:1712.06139 (2017). Christopher Olston, Noah Fiedel, Kiril Gorovoy, Jeremiah Harmsen, Li Lao, Fangwei Li, Vinu Rajashekhar, Sukriti Ramesh, and Jordan Soyke. 2017. Tensorflow-serving: Flexible, high-performance ml serving. arXiv preprint arXiv:1712.06139 (2017).",
+      "metadata": {
+        "title": "Tensorflow-serving: Flexible, high-performance ml serving. arXiv preprint arXiv:1712.06139",
+        "authors": [
+          "Olston Christopher"
+        ],
+        "year": 2017
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-34",
+      "raw": "OpenAI. 2020. https://openai.com/blog/openai-api  OpenAI. 2020. https://openai.com/blog/openai-api",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-35",
+      "raw": "OpenAI. 2022. https://openai.com/blog/chatgpt  OpenAI. 2022. https://openai.com/blog/chatgpt",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-36",
+      "raw": "OpenAI. 2023. https://openai.com/blog/custom-instructions-for-chatgpt  OpenAI. 2023. https://openai.com/blog/custom-instructions-for-chatgpt",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-37",
+      "raw": "LMSYS ORG. 2023. Chatbot Arena Leaderboard Week 8: Introducing MT-Bench and Vicuna-33B. https://lmsys.org/blog/2023-06-22-leaderboard/.  LMSYS ORG. 2023. Chatbot Arena Leaderboard Week 8: Introducing MT-Bench and Vicuna-33B. https://lmsys.org/blog/2023-06-22-leaderboard/.",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-38",
+      "raw": "Adam Paszke , Sam Gross , Francisco Massa , Adam Lerer , James Bradbury , Gregory Chanan , Trevor Killeen , Zeming Lin , Natalia Gimelshein , Luca Antiga , 2019 . Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems 32 (2019). Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, et al. 2019. Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems 32 (2019).",
+      "metadata": {
+        "title": "Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems 32",
+        "authors": [
+          "Paszke Adam"
+        ],
+        "year": 2019
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-39",
+      "raw": "Shishir G Patil , Paras Jain , Prabal Dutta , Ion Stoica , and Joseph Gonzalez . 2022 . POET: Training Neural Networks on Tiny Devices with Integrated Rematerialization and Paging. In International Conference on Machine Learning. PMLR, 17573--17583 . Shishir G Patil, Paras Jain, Prabal Dutta, Ion Stoica, and Joseph Gonzalez. 2022. POET: Training Neural Networks on Tiny Devices with Integrated Rematerialization and Paging. In International Conference on Machine Learning. PMLR, 17573--17583.",
+      "metadata": {
+        "title": "POET: Training Neural Networks on Tiny Devices with Integrated Rematerialization and Paging. In International Conference on Machine Learning. PMLR, 17573--17583",
+        "authors": [
+          "Patil Shishir G"
+        ],
+        "year": 2022
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-40",
+      "raw": "Reiner Pope , Sholto Douglas , Aakanksha Chowdhery , Jacob Devlin , James Bradbury , Anselm Levskaya , Jonathan Heek , Kefan Xiao , Shivani Agrawal , and Jeff Dean . 2022. Efficiently Scaling Transformer Inference. arXiv preprint arXiv:2211.05102 ( 2022 ). Reiner Pope, Sholto Douglas, Aakanksha Chowdhery, Jacob Devlin, James Bradbury, Anselm Levskaya, Jonathan Heek, Kefan Xiao, Shivani Agrawal, and Jeff Dean. 2022. Efficiently Scaling Transformer Inference. arXiv preprint arXiv:2211.05102 (2022).",
+      "metadata": {
+        "title": "Efficiently Scaling Transformer Inference. arXiv preprint arXiv:2211.05102",
+        "authors": [
+          "Pope Reiner"
+        ],
+        "year": 2022
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-41",
+      "raw": "Jie Ren , Samyam Rajbhandari , Reza Yazdani Aminabadi , Olatunji Ruwase , Shuangyan Yang , Minjia Zhang , Dong Li , and Yuxiong He . 2021 . ZeRO-Offload: Democratizing Billion-Scale Model Training .. In USENIX Annual Technical Conference. 551--564 . Jie Ren, Samyam Rajbhandari, Reza Yazdani Aminabadi, Olatunji Ruwase, Shuangyan Yang, Minjia Zhang, Dong Li, and Yuxiong He. 2021. ZeRO-Offload: Democratizing Billion-Scale Model Training.. In USENIX Annual Technical Conference. 551--564.",
+      "metadata": {
+        "title": "USENIX Annual Technical Conference. 551--564",
+        "authors": [
+          "Ren Jie"
+        ],
+        "year": 2021
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-42",
+      "raw": "Reuters. 2023. https://www.reuters.com/technology/tech-giants-ai-like-bing-bard-poses-billion-dollar-search-problem-2023-02-22/  Reuters. 2023. https://www.reuters.com/technology/tech-giants-ai-like-bing-bard-poses-billion-dollar-search-problem-2023-02-22/",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-43",
+      "raw": "Amazon Web Services. 2023. https://aws.amazon.com/bedrock/  Amazon Web Services. 2023. https://aws.amazon.com/bedrock/",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-44",
+      "metadata": {
+        "doi": "10.1145/3341301.3359658"
+      },
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-45",
+      "raw": "Ying Sheng Lianmin Zheng Binhang Yuan Zhuohan Li Max Ryabinin Daniel Y Fu Zhiqiang Xie Beidi Chen Clark Barrett Joseph E Gonzalez etal 2023. High-throughput Generative Inference of Large Language Models with a Single GPU. arXiv preprint arXiv:2303.06865 (2023).  Ying Sheng Lianmin Zheng Binhang Yuan Zhuohan Li Max Ryabinin Daniel Y Fu Zhiqiang Xie Beidi Chen Clark Barrett Joseph E Gonzalez et al. 2023. High-throughput Generative Inference of Large Language Models with a Single GPU. arXiv preprint arXiv:2303.06865 (2023).",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-46",
+      "raw": "Mohammad Shoeybi , Mostofa Patwary , Raul Puri , Patrick LeGresley , Jared Casper , and Bryan Catanzaro . 2019 . Megatron-lm: Training multibillion parameter language models using model parallelism. arXiv preprint arXiv:1909.08053 (2019). Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and Bryan Catanzaro. 2019. Megatron-lm: Training multibillion parameter language models using model parallelism. arXiv preprint arXiv:1909.08053 (2019).",
+      "metadata": {
+        "title": "Megatron-lm: Training multibillion parameter language models using model parallelism. arXiv preprint arXiv:1909.08053",
+        "authors": [
+          "Shoeybi Mohammad"
+        ],
+        "year": 2019
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-47",
+      "metadata": {
+        "doi": "10.48550/arXiv.2210.12924"
+      },
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-48",
+      "raw": "Ilya Sutskever , Oriol Vinyals , and Quoc V Le. 2014. Sequence to sequence learning with neural networks. Advances in neural information processing systems 27 ( 2014 ). Ilya Sutskever, Oriol Vinyals, and Quoc V Le. 2014. Sequence to sequence learning with neural networks. Advances in neural information processing systems 27 (2014).",
+      "metadata": {
+        "title": "Sequence to sequence learning with neural networks. Advances in neural information processing systems 27",
+        "authors": [
+          "Sutskever Ilya"
+        ],
+        "year": 2014
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-49",
+      "raw": "Rohan Taori , Ishaan Gulrajani , Tianyi Zhang , Yann Dubois , Xuechen Li , Carlos Guestrin , Percy Liang , and Tatsunori B . Hashimoto . 2023 . Stanford Alpaca : An Instruction-following LLaMA model. https://github.com/tatsu-lab/stanford_alpaca. Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos Guestrin, Percy Liang, and Tatsunori B. Hashimoto. 2023. Stanford Alpaca: An Instruction-following LLaMA model. https://github.com/tatsu-lab/stanford_alpaca.",
+      "metadata": {
+        "title": "Hashimoto",
+        "authors": [
+          "Taori Rohan"
+        ],
+        "year": 2023
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-50",
+      "raw": "ShareGPT Team. 2023. https://sharegpt.com/  ShareGPT Team. 2023. https://sharegpt.com/",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-51",
+      "raw": "Hugo Touvron , Thibaut Lavril , Gautier Izacard , Xavier Martinet , MarieAnne Lachaux , Timothée Lacroix , Baptiste Rozière , Naman Goyal , Eric Hambro , Faisal Azhar , 2023 . Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971 (2023). Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, MarieAnne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, et al. 2023. Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971 (2023).",
+      "metadata": {
+        "title": "Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971",
+        "authors": [
+          "Touvron Hugo"
+        ],
+        "year": 2023
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-52",
+      "raw": "Ashish Vaswani , Noam Shazeer , Niki Parmar , Jakob Uszkoreit , Llion Jones , Aidan N Gomez , Łukasz Kaiser , and Illia Polosukhin . 2017. Attention is all you need. Advances in neural information processing systems 30 ( 2017 ). Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. Advances in neural information processing systems 30 (2017).",
+      "metadata": {
+        "title": "Attention is all you need. Advances in neural information processing systems 30",
+        "authors": [
+          "Vaswani Ashish"
+        ],
+        "year": 2017
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-53",
+      "raw": "Jing Wang , Youyou Lu , Qing Wang , Minhui Xie , Keji Huang , and Jiwu Shu . 2022 . Pacman: An Efficient Compaction Approach for {Log-Structured} {Key-Value} Store on Persistent Memory . In 2022 USENIX Annual Technical Conference (USENIX ATC 22) . 773--788. Jing Wang, Youyou Lu, Qing Wang, Minhui Xie, Keji Huang, and Jiwu Shu. 2022. Pacman: An Efficient Compaction Approach for {Log-Structured} {Key-Value} Store on Persistent Memory. In 2022 USENIX Annual Technical Conference (USENIX ATC 22). 773--788.",
+      "metadata": {
+        "title": "2022 USENIX Annual Technical Conference (USENIX ATC 22)",
+        "authors": [
+          "Wang Jing"
+        ],
+        "year": 2022
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-54",
+      "metadata": {
+        "doi": "10.1145/3178487.3178491"
+      },
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-55",
+      "metadata": {
+        "doi": "10.18653/v1/2021.naacl-industry.15"
+      },
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-56",
+      "raw": "Yizhong Wang , Yeganeh Kordi , Swaroop Mishra , Alisa Liu , Noah A Smith , Daniel Khashabi , and Hannaneh Hajishirzi . 2022. Self-Instruct: Aligning Language Model with Self Generated Instructions. arXiv preprint arXiv:2212.10560 ( 2022 ). Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A Smith, Daniel Khashabi, and Hannaneh Hajishirzi. 2022. Self-Instruct: Aligning Language Model with Self Generated Instructions. arXiv preprint arXiv:2212.10560 (2022).",
+      "metadata": {
+        "title": "Self-Instruct: Aligning Language Model with Self Generated Instructions. arXiv preprint arXiv:2212.10560",
+        "authors": [
+          "Wang Yizhong"
+        ],
+        "year": 2022
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-57",
+      "metadata": {
+        "doi": "10.18653/v1/2020.emnlp-demos.6"
+      },
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-58",
+      "raw": "Yonghui Wu Mike Schuster Zhifeng Chen Quoc V Le Mohammad Norouzi Wolfgang Macherey Maxim Krikun Yuan Cao Qin Gao Klaus Macherey etal 2016. Google's neural machine translation system: Bridging the gap between human and machine translation. arXiv preprint arXiv:1609.08144 (2016).  Yonghui Wu Mike Schuster Zhifeng Chen Quoc V Le Mohammad Norouzi Wolfgang Macherey Maxim Krikun Yuan Cao Qin Gao Klaus Macherey et al. 2016. Google's neural machine translation system: Bridging the gap between human and machine translation. arXiv preprint arXiv:1609.08144 (2016).",
+      "metadata": {},
+      "source": "crossref",
+      "status": "unresolved"
+    },
+    {
+      "id": "ref-59",
+      "raw": "Gyeong-In Yu , Joo Seong Jeong , Geon-Woo Kim , Soojeong Kim , and Byung-Gon Chun . 2022 . Orca: A Distributed Serving System for {Transformer-Based} Generative Models . In 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22) . 521--538. Gyeong-In Yu, Joo Seong Jeong, Geon-Woo Kim, Soojeong Kim, and Byung-Gon Chun. 2022. Orca: A Distributed Serving System for {Transformer-Based} Generative Models. In 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22). 521--538.",
+      "metadata": {
+        "title": "16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)",
+        "authors": [
+          "Yu Gyeong-In"
+        ],
+        "year": 2022
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-60",
+      "raw": "Hong Zhang , Yupeng Tang , Anurag Khandelwal , and Ion Stoica . 2023 . SHEPHERD: Serving DNNs in the Wild. In 20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23) . USENIX Association, Boston, MA, 787--808. https://www.usenix.org/conference/nsdi23/presentation/zhang-hong Hong Zhang, Yupeng Tang, Anurag Khandelwal, and Ion Stoica. 2023. SHEPHERD: Serving DNNs in the Wild. In 20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23). USENIX Association, Boston, MA, 787--808. https://www.usenix.org/conference/nsdi23/presentation/zhang-hong",
+      "metadata": {
+        "title": "SHEPHERD: Serving DNNs in the Wild. In 20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)",
+        "authors": [
+          "Zhang Hong"
+        ],
+        "year": 2023
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-61",
+      "raw": "Susan Zhang , Stephen Roller , Naman Goyal , Mikel Artetxe , Moya Chen , Shuohui Chen , Christopher Dewan , Mona Diab , Xian Li , Xi Victoria Lin, et al . 2022 . Opt : Open pre-trained transformer language models. arXiv preprint arXiv:2205.01068 (2022). Susan Zhang, Stephen Roller, Naman Goyal, Mikel Artetxe, Moya Chen, Shuohui Chen, Christopher Dewan, Mona Diab, Xian Li, Xi Victoria Lin, et al. 2022. Opt: Open pre-trained transformer language models. arXiv preprint arXiv:2205.01068 (2022).",
+      "metadata": {
+        "title": "Xi Victoria Lin, et al",
+        "authors": [
+          "Zhang Susan"
+        ],
+        "year": 2022
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-62",
+      "raw": "Lianmin Zheng , Zhuohan Li , Hao Zhang , Yonghao Zhuang , Zhifeng Chen , Yanping Huang , Yida Wang , Yuanzhong Xu , Danyang Zhuo , Eric P Xing , 2022 . Alpa: Automating Inter-and Intra-Operator Parallelism for Distributed Deep Learning. In 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22) . 559--578. Lianmin Zheng, Zhuohan Li, Hao Zhang, Yonghao Zhuang, Zhifeng Chen, Yanping Huang, Yida Wang, Yuanzhong Xu, Danyang Zhuo, Eric P Xing, et al. 2022. Alpa: Automating Inter-and Intra-Operator Parallelism for Distributed Deep Learning. In 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22). 559--578.",
+      "metadata": {
+        "title": "Alpa: Automating Inter-and Intra-Operator Parallelism for Distributed Deep Learning. In 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)",
+        "authors": [
+          "Zheng Lianmin"
+        ],
+        "year": 2022
+      },
+      "source": "crossref",
+      "status": "resolved"
+    },
+    {
+      "id": "ref-63",
+      "raw": "Zhe Zhou , Xuechao Wei , Jiejing Zhang , and Guangyu Sun . 2022 . PetS: A Unified Framework for Parameter-Efficient Transformers Serving. In 2022 USENIX Annual Technical Conference (USENIX ATC 22) . 489--504. Zhe Zhou, Xuechao Wei, Jiejing Zhang, and Guangyu Sun. 2022. PetS: A Unified Framework for Parameter-Efficient Transformers Serving. In 2022 USENIX Annual Technical Conference (USENIX ATC 22). 489--504.",
+      "metadata": {
+        "title": "PetS: A Unified Framework for Parameter-Efficient Transformers Serving. In 2022 USENIX Annual Technical Conference (USENIX ATC 22)",
+        "authors": [
+          "Zhou Zhe"
+        ],
+        "year": 2022
+      },
+      "source": "crossref",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "semantic scholar failed: rate limited",
+    "crossref: 63 references"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "path": "papers/模型评测/2410.12784",
+  "id": "2410.12784",
+  "type": "arxiv",
+  "title": "JudgeBench: A Benchmark for Evaluating LLM-based Judges",
+  "authors": [
+    "Sijun Tan",
+    "Siyuan Zhuang",
+    "Kyle Montgomery",
+    "William Y. Tang",
+    "Alejandro Cuadron",
+    "Chenguang Wang",
+    "Raluca Ada Popa",
+    "Ion Stoica"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Sijun",
+      "lastName": "Tan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Siyuan",
+      "lastName": "Zhuang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Kyle",
+      "lastName": "Montgomery"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "William Y.",
+      "lastName": "Tang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Alejandro",
+      "lastName": "Cuadron"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Chenguang",
+      "lastName": "Wang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Raluca Ada",
+      "lastName": "Popa"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ion",
+      "lastName": "Stoica"
+    }
+  ],
+  "year": 2025,
+  "date": "2025-04-05",
+  "abstract": "LLM-based judges have emerged as a scalable alternative to human evaluation and are increasingly used to assess, compare, and improve models. However, the reliability of LLM-based judges themselves is rarely scrutinized. As LLMs become more advanced, their responses grow more sophisticated, requiring stronger judges to evaluate them. Existing benchmarks primarily focus on a judge's alignment with human preferences, but often fail to account for more challenging tasks where crowdsourced human preference is a poor indicator of factual and logical correctness. To address this, we propose a novel evaluation framework to objectively evaluate LLM-based judges. Based on this framework, we propose JudgeBench, a benchmark for evaluating LLM-based judges on challenging response pairs spanning knowledge, reasoning, math, and coding. JudgeBench leverages a novel pipeline for converting existing difficult datasets into challenging response pairs with preference labels reflecting objective correctness. Our comprehensive evaluation on a collection of prompted judges, fine-tuned judges, multi-agent judges, and reward models shows that JudgeBench poses a significantly greater challenge than previous benchmarks, with many strong models (e.g., GPT-4o) performing just slightly better than random guessing. Overall, JudgeBench offers a reliable platform for assessing increasingly advanced LLM-based judges. Data and code are available at https://github.com/ScalerLab/JudgeBench.",
+  "tags": [
+    "@arxiv:Computer Science - Artificial Intelligence",
+    "@arxiv:Computer Science - Computation and Language",
+    "@arxiv:Computer Science - Machine Learning"
+  ],
+  "arxiv_id": "2410.12784",
+  "doi": "10.48550/arXiv.2410.12784",
+  "publication": "ICLR 2025",
+  "pdf_url": "https://arxiv.org/pdf/2410.12784",
+  "html_url": "https://arxiv.org/html/2410.12784",
+  "source_url": "https://arxiv.org/abs/2410.12784",
+  "code_repo": "https://github.com/ScalerLab/JudgeBench",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2410.12784",
+  "citation_count": 436,
+  "zotero_item_type": "preprint",
+  "meta_source": "translator",
+  "extra": "arXiv:2410.12784 [cs.AI]",
+  "summary": "JudgeBench evaluates LLM judges on objectively correct response pairs across knowledge, reasoning, math, and coding. Its generated comparisons challenge prompted, fine-tuned, multi-agent judges, and reward models; GPT-4o performs only slightly above random guessing.",
+  "status": "completed",
+  "is_read": true,
+  "added_at": "2026-11-17T14:33:41.616Z",
+  "updated_at": "2026-11-17T15:12:06.413Z"
+}

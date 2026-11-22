@@ -1,0 +1,1310 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:48:21.892Z",
+    "fingerprint": "891dba8b48868064fc548dafe9ca285a409caef01905ca5589b00e57576f1710"
+  },
+  "citations": [
+    {
+      "id": "cite-image_transformer",
+      "rawKey": "image_transformer",
+      "display": "[1]",
+      "raw": "Irwan Bello, Barret Zoph, Ashish Vaswani, Jonathon Shlens, and Quoc V. Le. Attention augmented convolutional networks. CoRR, abs/1904.09925, 2019. URL http://arxiv.org/abs/1904.09925.",
+      "metadata": {
+        "title": "Attention Augmented Convolutional Networks",
+        "authors": [
+          "Irwan Bello",
+          "Barret Zoph",
+          "Ashish Vaswani",
+          "Jonathon Shlens",
+          "Quoc V. Le"
+        ],
+        "year": 1904,
+        "venue": "CoRR",
+        "arxivId": "1904.09925",
+        "url": "http://arxiv.org/abs/1904.09925"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-longformer",
+      "rawKey": "longformer",
+      "display": "[2]",
+      "raw": "Iz Beltagy, Matthew E. Peters, and Arman Cohan. Longformer: The long-document transformer. CoRR, abs/2004.05150, 2020. URL https://arxiv.org/abs/2004.05150.",
+      "metadata": {
+        "title": "Longformer: The Long-Document Transformer",
+        "authors": [
+          "Iz Beltagy",
+          "Matthew E. Peters",
+          "Arman Cohan"
+        ],
+        "year": 2004,
+        "venue": "CoRR",
+        "arxivId": "2004.05150",
+        "url": "https://arxiv.org/abs/2004.05150"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-imputer",
+      "rawKey": "imputer",
+      "display": "[3]",
+      "raw": "William Chan, Chitwan Saharia, Geoffrey E. Hinton, Mohammad Norouzi, and Navdeep Jaitly. Imputer: Sequence modelling via imputation and dynamic programming. CoRR, abs/2002.08926, 2020. URL https://arxiv.org/abs/2002.08926.",
+      "metadata": {
+        "title": "Imputer: Sequence Modelling via Imputation and Dynamic Programming",
+        "authors": [
+          "William Chan",
+          "Chitwan Saharia",
+          "Geoffrey E. Hinton",
+          "Mohammad Norouzi",
+          "Navdeep Jaitly"
+        ],
+        "year": 2002,
+        "venue": "CoRR",
+        "arxivId": "2002.08926",
+        "url": "https://arxiv.org/abs/2002.08926"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lm1b",
+      "rawKey": "lm1b",
+      "display": "[4]",
+      "raw": "Ciprian Chelba, Tomas Mikolov, Mike Schuster, Qi Ge, Thorsten Brants, Phillipp Koehn, and Tony Robinson. One billion word benchmark for measuring progress in statistical language modeling. In INTERSPEECH 2014, 15th Annual Conference of the International Speech Communication Association, Singapore, September 14-18, 2014, pp. 2635--2639, 2014.",
+      "metadata": {
+        "title": "One billion word benchmark for measuring progress in statistical language modeling",
+        "authors": [
+          "Ciprian Chelba",
+          "Tomas Mikolov",
+          "Mike Schuster",
+          "Qi Ge",
+          "Thorsten Brants",
+          "Phillipp Koehn",
+          "Tony Robinson"
+        ],
+        "year": 2014,
+        "venue": "INTERSPEECH 2014, 15th Annual Conference of the International Speech Communication Association, Singapore, September 14-18, 2014"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chelba",
+      "rawKey": "chelba",
+      "display": "[5]",
+      "raw": "Ciprian Chelba, Mia Xu Chen, Ankur Bapna, and Noam Shazeer. Faster transformer decoding: N-gram masked self-attention. CoRR, abs/2001.04589, 2020. URL https://arxiv.org/abs/2001.04589.",
+      "metadata": {
+        "title": "Faster Transformer Decoding: N-gram Masked Self-Attention",
+        "authors": [
+          "Ciprian Chelba",
+          "Mia Xu Chen",
+          "Ankur Bapna",
+          "Noam Shazeer"
+        ],
+        "year": 2001,
+        "venue": "CoRR",
+        "arxivId": "2001.04589",
+        "url": "https://arxiv.org/abs/2001.04589"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-nmt",
+      "rawKey": "nmt",
+      "display": "[6]",
+      "raw": "Mia Xu Chen, Orhan Firat, Ankur Bapna, Melvin Johnson, Wolfgang Macherey, George F. Foster, Llion Jones, Mike Schuster, Noam Shazeer, Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Lukasz Kaiser, Zhifeng Chen, Yonghui Wu, and Macduff Hughes. The best of both worlds: Combining recent advances in neural machine translation. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics, ACL 2018, Melbourne, Australia, July 15-20, 2018, Volume 1: Long Papers, pp. 76--86. Association for Computational Linguistics, 2018. 10.18653/v1/P18-1008. URL https://www.aclweb.org/anthology/P18-1008/.",
+      "metadata": {
+        "title": "The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation",
+        "authors": [
+          "Mia Xu Chen",
+          "Orhan Firat",
+          "Ankur Bapna",
+          "Melvin Johnson",
+          "Wolfgang Macherey",
+          "George F. Foster",
+          "Llion Jones",
+          "Mike Schuster",
+          "Noam Shazeer",
+          "Niki Parmar",
+          "Ashish Vaswani",
+          "Jakob Uszkoreit",
+          "Lukasz Kaiser",
+          "Zhifeng Chen",
+          "Yonghui Wu",
+          "Macduff Hughes"
+        ],
+        "year": 2018,
+        "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics, ACL 2018, Melbourne, Australia, July 15-20, 2018, Volume 1: Long Papers",
+        "doi": "10.18653/v1/P18-1008",
+        "url": "https://www.aclweb.org/anthology/P18-1008/"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sparsetr",
+      "rawKey": "sparsetr",
+      "display": "[7]",
+      "raw": "Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers. CoRR, abs/1904.10509, 2019. URL http://arxiv.org/abs/1904.10509.",
+      "metadata": {
+        "title": "Generating Long Sequences with Sparse Transformers",
+        "authors": [
+          "Rewon Child",
+          "Scott Gray",
+          "Alec Radford",
+          "Ilya Sutskever"
+        ],
+        "year": 1904,
+        "venue": "CoRR",
+        "arxivId": "1904.10509",
+        "url": "http://arxiv.org/abs/1904.10509"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-psrnn",
+      "rawKey": "psrnn",
+      "display": "[8]",
+      "raw": "Krzysztof Choromanski, Carlton Downey, and Byron Boots. Initialization matters: Orthogonal predictive state recurrent neural networks. In 6th International Conference on Learning Representations, ICLR 2018, Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings. OpenReview.net, 2018a. URL https://openreview.net/forum?id=HJJ23bW0b.",
+      "metadata": {
+        "title": "Initialization matters: Orthogonal Predictive State Recurrent Neural Networks",
+        "authors": [
+          "Krzysztof Choromanski",
+          "Carlton Downey",
+          "Byron Boots"
+        ],
+        "year": 2018,
+        "venue": "6th International Conference on Learning Representations, ICLR 2018, Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings",
+        "url": "https://openreview.net/forum?id=HJJ23bW0b"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-geom",
+      "rawKey": "geom",
+      "display": "[9]",
+      "raw": "Krzysztof Choromanski, Mark Rowland, Tamas Sarlos, Vikas Sindhwani, Richard E. Turner, and Adrian Weller. The geometry of random features. In International Conference on Artificial Intelligence and Statistics, AISTATS 2018, 9-11 April 2018, Playa Blanca, Lanzarote, Canary Islands, Spain, volume 84 of Proceedings of Machine Learning Research, pp. 1--9. PMLR, 2018b. URL http://proceedings.mlr.press/v84/choromanski18a.html.",
+      "metadata": {
+        "title": "The Geometry of Random Features",
+        "authors": [
+          "Krzysztof Choromanski",
+          "Mark Rowland",
+          "Tamas Sarlos",
+          "Vikas Sindhwani",
+          "Richard E. Turner",
+          "Adrian Weller"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Artificial Intelligence and Statistics, AISTATS 2018, 9-11 April 2018, Playa Blanca, Lanzarote, Canary Islands, Spain",
+        "url": "http://proceedings.mlr.press/v84/choromanski18a.html"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kama",
+      "rawKey": "kama",
+      "display": "[10]",
+      "raw": "Krzysztof Choromanski, Aldo Pacchiano, Jeffrey Pennington, and Yunhao Tang. KAMA-NNs: Low-dimensional rotation based neural networks. In The 22nd International Conference on Artificial Intelligence and Statistics, AISTATS 2019, 16-18 April 2019, Naha, Okinawa, Japan, volume 89 of Proceedings of Machine Learning Research, pp. 236--245. PMLR, 2019a. URL http://proceedings.mlr.press/v89/choromanski19a.html.",
+      "metadata": {
+        "title": "KAMA-NNs: Low-dimensional Rotation Based Neural Networks",
+        "authors": [
+          "Krzysztof Choromanski",
+          "Aldo Pacchiano",
+          "Jeffrey Pennington",
+          "Yunhao Tang"
+        ],
+        "year": 2019,
+        "venue": "The 22nd International Conference on Artificial Intelligence and Statistics, AISTATS 2019, 16-18 April 2019, Naha, Okinawa, Japan",
+        "url": "http://proceedings.mlr.press/v89/choromanski19a.html"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-uni",
+      "rawKey": "uni",
+      "display": "[11]",
+      "raw": "Krzysztof Choromanski, Mark Rowland, Wenyu Chen, and Adrian Weller. Unifying orthogonal Monte Carlo methods. In Proceedings of the 36th International Conference on Machine Learning, ICML 2019, 9-15 June 2019, Long Beach, California, USA, volume 97 of Proceedings of Machine Learning Research, pp. 1203--1212. PMLR, 2019b. URL http://proceedings.mlr.press/v97/choromanski19a.html.",
+      "metadata": {
+        "title": "Unifying Orthogonal Monte Carlo Methods",
+        "authors": [
+          "Krzysztof Choromanski",
+          "Mark Rowland",
+          "Wenyu Chen",
+          "Adrian Weller"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 36th International Conference on Machine Learning, ICML 2019, 9-15 June 2019, Long Beach, California, USA",
+        "url": "http://proceedings.mlr.press/v97/choromanski19a.html"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-unreas",
+      "rawKey": "unreas",
+      "display": "[12]",
+      "raw": "Krzysztof Marcin Choromanski, Mark Rowland, and Adrian Weller. The unreasonable effectiveness of structured random orthogonal embeddings. In Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017, 4-9 December 2017, Long Beach, CA, USA, pp. 219--228, 2017.",
+      "metadata": {
+        "title": "The Unreasonable Effectiveness of Structured Random Orthogonal Embeddings",
+        "authors": [
+          "Krzysztof Marcin Choromanski",
+          "Mark Rowland",
+          "Adrian Weller"
+        ],
+        "year": 2017,
+        "venue": "Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017, 4-9 December 2017, Long Beach, CA, USA"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-elu",
+      "rawKey": "elu",
+      "display": "[13]",
+      "raw": "Djork-Arne Clevert, Thomas Unterthiner, and Sepp Hochreiter. Fast and accurate deep network learning by exponential linear units (elus). In 4th International Conference on Learning Representations, ICLR 2016, San Juan, Puerto Rico, May 2-4, 2016, Conference Track Proceedings, 2016. URL http://arxiv.org/abs/1511.07289.",
+      "metadata": {
+        "title": "Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)",
+        "authors": [
+          "Djork-Arne Clevert",
+          "Thomas Unterthiner",
+          "Sepp Hochreiter"
+        ],
+        "year": 2016,
+        "venue": "4th International Conference on Learning Representations, ICLR 2016, San Juan, Puerto Rico, May 2-4, 2016, Conference Track Proceedings",
+        "arxivId": "1511.07289",
+        "url": "http://arxiv.org/abs/1511.07289"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cong2019protein",
+      "rawKey": "cong2019protein",
+      "display": "[14]",
+      "raw": "Qian Cong, Ivan Anishchenko, Sergey Ovchinnikov, and David Baker. Protein interaction networks revealed by proteome coevolution. Science, 365 (6449): 185--189, 2019.",
+      "metadata": {
+        "title": "Protein interaction networks revealed by proteome coevolution",
+        "authors": [
+          "Qian Cong",
+          "Ivan Anishchenko",
+          "Sergey Ovchinnikov",
+          "David Baker"
+        ],
+        "year": 2019,
+        "venue": "Science"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-uniprot2019uniprot",
+      "rawKey": "uniprot2019uniprot",
+      "display": "[15]",
+      "raw": "UniProt Consortium. Uniprot: a worldwide hub of protein knowledge. Nucleic acids research, 47 (D1): D506--D515, 2019.",
+      "metadata": {
+        "title": "UniProt: a worldwide hub of protein knowledge",
+        "authors": [
+          "UniProt Consortium"
+        ],
+        "year": 2019,
+        "venue": "Nucleic acids research"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cormen",
+      "rawKey": "cormen",
+      "display": "[16]",
+      "raw": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms, 3rd Edition. MIT Press, 2009. ISBN 978-0-262-03384-8. URL http://mitpress.mit.edu/books/introduction-algorithms.",
+      "metadata": {
+        "title": "Introduction to Algorithms, 3rd Edition",
+        "authors": [
+          "Thomas H. Cormen",
+          "Charles E. Leiserson",
+          "Ronald L. Rivest",
+          "Clifford Stein"
+        ],
+        "year": 2009,
+        "url": "http://mitpress.mit.edu/books/introduction-algorithms"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-transformerxl",
+      "rawKey": "transformerxl",
+      "display": "[17]",
+      "raw": "Zihang Dai, Zhilin Yang, Yiming Yang, William W. Cohen, Jaime Carbonell, Quoc V. Le, and Ruslan Salakhutdinov. Transformer-XL: Language modeling with longer-term dependency, 2019. URL https://openreview.net/forum?id=HJePno0cYm.",
+      "metadata": {
+        "title": "Transformer-XL: Language Modeling with Longer-Term Dependency",
+        "authors": [
+          "Zihang Dai",
+          "Zhilin Yang",
+          "Yiming Yang",
+          "William W. Cohen",
+          "Jaime Carbonell",
+          "Quoc V. Le",
+          "Ruslan Salakhutdinov"
+        ],
+        "year": 2019,
+        "url": "https://openreview.net/forum?id=HJePno0cYm"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-universal_t",
+      "rawKey": "universal_t",
+      "display": "[18]",
+      "raw": "Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, and Lukasz Kaiser. Universal transformers. In 7th International Conference on Learning Representations, ICLR 2019, New Orleans, LA, USA, May 6-9, 2019. OpenReview.net, 2019. URL https://openreview.net/forum?id=HyzdRiR9Y7.",
+      "metadata": {
+        "title": "Universal Transformers",
+        "authors": [
+          "Mostafa Dehghani",
+          "Stephan Gouws",
+          "Oriol Vinyals",
+          "Jakob Uszkoreit",
+          "Lukasz Kaiser"
+        ],
+        "year": 2019,
+        "venue": "7th International Conference on Learning Representations, ICLR 2019, New Orleans, LA, USA, May 6-9, 2019",
+        "url": "https://openreview.net/forum?id=HyzdRiR9Y7"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bert",
+      "rawKey": "bert",
+      "display": "[19]",
+      "raw": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: pre-training of deep bidirectional transformers for language understanding. CoRR, abs/1810.04805, 2018. URL http://arxiv.org/abs/1810.04805.",
+      "metadata": {
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "authors": [
+          "Jacob Devlin",
+          "Ming-Wei Chang",
+          "Kenton Lee",
+          "Kristina Toutanova"
+        ],
+        "year": 2018,
+        "venue": "CoRR",
+        "arxivId": "1810.04805",
+        "url": "http://arxiv.org/abs/1810.04805"
+      },
+      "localMatch": {
+        "paperPath": "papers/1810.04805",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-du2020energy",
+      "rawKey": "du2020energy",
+      "display": "[20]",
+      "raw": "Yilun Du, Joshua Meier, Jerry Ma, Rob Fergus, and Alexander Rives. Energy-based models for atomic-resolution protein conformations. arXiv preprint arXiv:2004.13167, 2020.",
+      "metadata": {
+        "title": "Energy-based models for atomic-resolution protein conformations",
+        "authors": [
+          "Yilun Du",
+          "Joshua Meier",
+          "Jerry Ma",
+          "Rob Fergus",
+          "Alexander Rives"
+        ],
+        "year": 2004,
+        "venue": "arXiv preprint arXiv:2004.13167",
+        "arxivId": "2004.13167"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-elnaggar2019end",
+      "rawKey": "elnaggar2019end",
+      "display": "[21]",
+      "raw": "Ahmed Elnaggar, Michael Heinzinger, Christian Dallago, and Burkhard Rost. End-to-end multitask learning, from protein language to protein features without alignments. bioRxiv, pp. 864405, 2019.",
+      "metadata": {
+        "title": "End-to-end multitask learning, from protein language to protein features without alignments",
+        "authors": [
+          "Ahmed Elnaggar",
+          "Michael Heinzinger",
+          "Christian Dallago",
+          "Burkhard Rost"
+        ],
+        "year": 2019,
+        "venue": "bioRxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jax",
+      "rawKey": "jax",
+      "display": "[22]",
+      "raw": "Roy Frostig, Matthew Johnson, and Chris Leary. Compiling machine learning programs via high-level tracing. In Conference on Machine Learning and Systems 2018, 2018. URL http://www.sysml.cc/doc/2018/146.pdf.",
+      "metadata": {
+        "title": "Compiling machine learning programs via high-level tracing",
+        "authors": [
+          "Roy Frostig",
+          "Matthew Johnson",
+          "Chris Leary"
+        ],
+        "year": 2018,
+        "venue": "Conference on Machine Learning and Systems 2018",
+        "url": "http://www.sysml.cc/doc/2018/146.pdf"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-attention_cvpr",
+      "rawKey": "attention_cvpr",
+      "display": "[23]",
+      "raw": "Jun Fu, Jing Liu, Haijie Tian, Yong Li, Yongjun Bao, Zhiwei Fang, and Hanqing Lu. Dual attention network for scene segmentation. In IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019, Long Beach, CA, USA, June 16-20, 2019, pp. 3146--3154, 2019.",
+      "metadata": {
+        "title": "Dual Attention Network for Scene Segmentation",
+        "authors": [
+          "Jun Fu",
+          "Jing Liu",
+          "Haijie Tian",
+          "Yong Li",
+          "Yongjun Bao",
+          "Zhiwei Fang",
+          "Hanqing Lu"
+        ],
+        "year": 2019,
+        "venue": "IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019, Long Beach, CA, USA, June 16-20, 2019"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-conformer",
+      "rawKey": "conformer",
+      "display": "[24]",
+      "raw": "Anmol Gulati, James Qin, Chung-Cheng Chiu, Niki Parmar, Yu Zhang, Jiahui Yu, Wei Han, Shibo Wang, Zhengdong Zhang, Yonghui Wu, and Ruoming Pang. Conformer: Convolution-augmented transformer for speech recognition, 2020.",
+      "metadata": {
+        "title": "Conformer: Convolution-augmented Transformer for Speech Recognition",
+        "authors": [
+          "Anmol Gulati",
+          "James Qin",
+          "Chung-Cheng Chiu",
+          "Niki Parmar",
+          "Yu Zhang",
+          "Jiahui Yu",
+          "Wei Han",
+          "Shibo Wang",
+          "Zhengdong Zhang",
+          "Yonghui Wu",
+          "Ruoming Pang"
+        ],
+        "year": 2020,
+        "arxivId": "2005.08100"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-simon",
+      "rawKey": "simon",
+      "display": "[25]",
+      "raw": "Cheng-Zhi Anna Huang, Ashish Vaswani, Jakob Uszkoreit, Ian Simon, Curtis Hawthorne, Noam Shazeer, Andrew M. Dai, Matthew D. Hoffman, Monica Dinculescu, and Douglas Eck. Music transformer: Generating music with long-term structure. In 7th International Conference on Learning Representations, ICLR 2019, New Orleans, LA, USA, May 6-9, 2019. OpenReview.net, 2019. URL https://openreview.net/forum?id=rJe4ShAcF7.",
+      "metadata": {
+        "title": "Music Transformer: Generating Music with Long-Term Structure",
+        "authors": [
+          "Cheng-Zhi Anna Huang",
+          "Ashish Vaswani",
+          "Jakob Uszkoreit",
+          "Ian Simon",
+          "Curtis Hawthorne",
+          "Noam Shazeer",
+          "Andrew M. Dai",
+          "Matthew D. Hoffman",
+          "Monica Dinculescu",
+          "Douglas Eck"
+        ],
+        "year": 2019,
+        "venue": "7th International Conference on Learning Representations, ICLR 2019, New Orleans, LA, USA, May 6-9, 2019",
+        "url": "https://openreview.net/forum?id=rJe4ShAcF7"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ingraham2019generative",
+      "rawKey": "ingraham2019generative",
+      "display": "[26]",
+      "raw": "John Ingraham, Vikas Garg, Regina Barzilay, and Tommi Jaakkola. Generative models for graph-based protein design. In Advances in Neural Information Processing Systems, pp. 15794--15805, 2019.",
+      "metadata": {
+        "title": "Generative models for graph-based protein design",
+        "authors": [
+          "John Ingraham",
+          "Vikas Garg",
+          "Regina Barzilay",
+          "Tommi Jaakkola"
+        ],
+        "year": 2019,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-trans-rnns",
+      "rawKey": "trans-rnns",
+      "display": "[27]",
+      "raw": "Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, and Francois Fleuret. Transformers are rnns: Fast autoregressive transformers with linear attention. CoRR, abs/2006.16236, 2020. URL https://arxiv.org/abs/2006.16236.",
+      "metadata": {
+        "title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention",
+        "authors": [
+          "Angelos Katharopoulos",
+          "Apoorv Vyas",
+          "Nikolaos Pappas",
+          "Francois Fleuret"
+        ],
+        "year": 2006,
+        "venue": "CoRR",
+        "arxivId": "2006.16236",
+        "url": "https://arxiv.org/abs/2006.16236"
+      },
+      "localMatch": {
+        "paperPath": "papers/2006.16236",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-reformer",
+      "rawKey": "reformer",
+      "display": "[28]",
+      "raw": "Nikita Kitaev, Lukasz Kaiser, and Anselm Levskaya. Reformer: The efficient transformer. In 8th International Conference on Learning Representations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020. OpenReview.net, 2020. URL https://openreview.net/forum?id=rkgNKkHtvB.",
+      "metadata": {
+        "title": "Reformer: The Efficient Transformer",
+        "authors": [
+          "Nikita Kitaev",
+          "Lukasz Kaiser",
+          "Anselm Levskaya"
+        ],
+        "year": 2020,
+        "venue": "8th International Conference on Learning Representations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020",
+        "url": "https://openreview.net/forum?id=rkgNKkHtvB"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kovaleva2019revealing",
+      "rawKey": "kovaleva2019revealing",
+      "display": "[29]",
+      "raw": "Olga Kovaleva, Alexey Romanov, Anna Rogers, and Anna Rumshisky. Revealing the dark secrets of bert. arXiv preprint arXiv:1908.08593, 2019.",
+      "metadata": {
+        "title": "Revealing the dark secrets of BERT",
+        "authors": [
+          "Olga Kovaleva",
+          "Alexey Romanov",
+          "Anna Rogers",
+          "Anna Rumshisky"
+        ],
+        "year": 1908,
+        "venue": "arXiv preprint arXiv:1908.08593",
+        "arxivId": "1908.08593"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sentencepiece",
+      "rawKey": "sentencepiece",
+      "display": "[30]",
+      "raw": "Taku Kudo and John Richardson. Sentencepiece: A simple and language independent subword tokenizer and detokenizer for neural text processing. CoRR, abs/1808.06226, 2018. URL http://arxiv.org/abs/1808.06226.",
+      "metadata": {
+        "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+        "authors": [
+          "Taku Kudo",
+          "John Richardson"
+        ],
+        "year": 2018,
+        "venue": "CoRR",
+        "arxivId": "1808.06226",
+        "url": "http://arxiv.org/abs/1808.06226"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cumsum",
+      "rawKey": "cumsum",
+      "display": "[31]",
+      "raw": "Richard E. Ladner and Michael J. Fischer. Parallel prefix computation. J. ACM, 27 (4): 831â38, October 1980. ISSN 0004-5411. 10.1145/322217.322232. URL https://doi.org/10.1145/322217.322232.",
+      "metadata": {
+        "title": "Parallel Prefix Computation",
+        "authors": [
+          "Richard E. Ladner",
+          "Michael J. Fischer"
+        ],
+        "year": 1980,
+        "venue": "J. ACM",
+        "doi": "10.1145/322217.322232",
+        "url": "https://doi.org/10.1145/322217.322232"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Lin2020DemystifyingOM",
+      "rawKey": "Lin2020DemystifyingOM",
+      "display": "[32]",
+      "raw": "Han Lin, Haoxian Chen, Tianyi Zhang, Clement Laroche, and Krzysztof Choromanski. Demystifying orthogonal Monte Carlo and beyond. CoRR, abs/2005.13590, 2020.",
+      "metadata": {
+        "title": "Demystifying Orthogonal Monte Carlo and Beyond",
+        "authors": [
+          "Han Lin",
+          "Haoxian Chen",
+          "Tianyi Zhang",
+          "Clement Laroche",
+          "Krzysztof Choromanski"
+        ],
+        "year": 2005,
+        "venue": "CoRR"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-luo",
+      "rawKey": "luo",
+      "display": "[33]",
+      "raw": "Haoneng Luo, Shiliang Zhang, Ming Lei, and Lei Xie. Simplified self-attention for transformer-based end-to-end speech recognition. CoRR, abs/2005.10463, 2020. URL https://arxiv.org/abs/2005.10463.",
+      "metadata": {
+        "title": "Simplified Self-Attention for Transformer-based End-to-End Speech Recognition",
+        "authors": [
+          "Haoneng Luo",
+          "Shiliang Zhang",
+          "Ming Lei",
+          "Lei Xie"
+        ],
+        "year": 2005,
+        "venue": "CoRR",
+        "arxivId": "2005.10463",
+        "url": "https://arxiv.org/abs/2005.10463"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-progen",
+      "rawKey": "progen",
+      "display": "[34]",
+      "raw": "Ali Madani, Bryan McCann, Nikhil Naik, Nitish Shirish Keskar, Namrata Anand, Raphael R. Eguchi, Po-Ssu Huang, and Richard Socher. Progen: Language modeling for protein generation. CoRR, abs/2004.03497, 2020. URL https://arxiv.org/abs/2004.03497.",
+      "metadata": {
+        "title": "ProGen: Language Modeling for Protein Generation",
+        "authors": [
+          "Ali Madani",
+          "Bryan McCann",
+          "Nikhil Naik",
+          "Nitish Shirish Keskar",
+          "Namrata Anand",
+          "Raphael R. Eguchi",
+          "Po-Ssu Huang",
+          "Richard Socher"
+        ],
+        "year": 2004,
+        "venue": "CoRR",
+        "arxivId": "2004.03497",
+        "url": "https://arxiv.org/abs/2004.03497"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-marcandalli2019induction",
+      "rawKey": "marcandalli2019induction",
+      "display": "[35]",
+      "raw": "Jessica Marcandalli, Brooke Fiala, Sebastian Ols, Michela Perotti, Willem de van der Schueren, Joost Snijder, Edgar Hodge, Mark Benhaim, Rashmi Ravichandran, Lauren Carter, et al. Induction of potent neutralizing antibody responses by a designed protein nanoparticle vaccine for respiratory syncytial virus. Cell, 176 (6): 1420--1431, 2019.",
+      "metadata": {
+        "title": "Induction of potent neutralizing antibody responses by a designed protein nanoparticle vaccine for respiratory syncytial virus",
+        "authors": [
+          "Jessica Marcandalli",
+          "Brooke Fiala",
+          "Sebastian Ols",
+          "Michela Perotti",
+          "Willem de van der Schueren",
+          "Joost Snijder",
+          "Edgar Hodge",
+          "Mark Benhaim",
+          "Rashmi Ravichandran",
+          "Lauren Carter"
+        ],
+        "year": 2019,
+        "venue": "Cell"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-listops",
+      "rawKey": "listops",
+      "display": "[36]",
+      "raw": "Nikita Nangia and Samuel R. Bowman. Listops: A diagnostic dataset for latent tree learning. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics, NAACL-HLT 2018, New Orleans, Louisiana, USA, June 2-4, 2018, Student Research Workshop, pp. 92--99, 2018. 10.18653/v1/n18-4013. URL https://doi.org/10.18653/v1/n18-4013.",
+      "metadata": {
+        "title": "ListOps: A Diagnostic Dataset for Latent Tree Learning",
+        "authors": [
+          "Nikita Nangia",
+          "Samuel R. Bowman"
+        ],
+        "year": 2018,
+        "venue": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics, NAACL-HLT 2018, New Orleans, Louisiana, USA, June 2-4, 2018, Student Research Workshop",
+        "doi": "10.18653/v1/n18-4013",
+        "url": "https://doi.org/10.18653/v1/n18-4013"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-parmar",
+      "rawKey": "parmar",
+      "display": "[37]",
+      "raw": "Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Lukasz Kaiser, Noam Shazeer, Alexander Ku, and Dustin Tran. Image transformer. In Proceedings of the 35th International Conference on Machine Learning, ICML 2018, Stockholmsmassan, Stockholm, Sweden, July 10-15, 2018, volume 80 of Proceedings of Machine Learning Research, pp. 4052--4061. PMLR, 2018. URL http://proceedings.mlr.press/v80/parmar18a.html.",
+      "metadata": {
+        "title": "Image Transformer",
+        "authors": [
+          "Niki Parmar",
+          "Ashish Vaswani",
+          "Jakob Uszkoreit",
+          "Lukasz Kaiser",
+          "Noam Shazeer",
+          "Alexander Ku",
+          "Dustin Tran"
+        ],
+        "year": 2018,
+        "venue": "Proceedings of the 35th International Conference on Machine Learning, ICML 2018, Stockholmsmassan, Stockholm, Sweden, July 10-15, 2018",
+        "url": "http://proceedings.mlr.press/v80/parmar18a.html"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-compr",
+      "rawKey": "compr",
+      "display": "[38]",
+      "raw": "Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Chloe Hillier, and Timothy P. Lillicrap. Compressive transformers for long-range sequence modelling. In International Conference on Learning Representations, 2020. URL https://openreview.net/forum?id=SylKikSYDH.",
+      "metadata": {
+        "title": "Compressive Transformers for Long-Range Sequence Modelling",
+        "authors": [
+          "Jack W. Rae",
+          "Anna Potapenko",
+          "Siddhant M. Jayakumar",
+          "Chloe Hillier",
+          "Timothy P. Lillicrap"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://openreview.net/forum?id=SylKikSYDH"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fourierapprox",
+      "rawKey": "fourierapprox",
+      "display": "[39]",
+      "raw": "Ali Rahimi and Benjamin Recht. Random features for large-scale kernel machines. In Advances in Neural Information Processing Systems 20, Proceedings of the Twenty-First Annual Conference on Neural Information Processing Systems, Vancouver, British Columbia, Canada, December 3-6, 2007, pp. 1177--1184. Curran Associates, Inc., 2007. URL http://papers.nips.cc/paper/3182-random-features-for-large-scale-kernel-machines.",
+      "metadata": {
+        "title": "Random Features for Large-Scale Kernel Machines",
+        "authors": [
+          "Ali Rahimi",
+          "Benjamin Recht"
+        ],
+        "year": 2007,
+        "venue": "Advances in Neural Information Processing Systems 20, Proceedings of the Twenty-First Annual Conference on Neural Information Processing Systems, Vancouver, British Columbia, Canada, December 3-6, 2007",
+        "url": "http://papers.nips.cc/paper/3182-random-features-for-large-scale-kernel-machines"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rives",
+      "rawKey": "rives",
+      "display": "[40]",
+      "raw": "Alexander Rives, Siddharth Goyal, Joshua Meier, Demi Guo, Myle Ott, C. Zitnick, Jerry Ma, and Rob Fergus. Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. bioArxiv, 04 2019. 10.1101/622803.",
+      "metadata": {
+        "title": "Biological Structure and Function Emerge from Scaling Unsupervised Learning to 250 Million Protein Sequences",
+        "authors": [
+          "Alexander Rives",
+          "Siddharth Goyal",
+          "Joshua Meier",
+          "Demi Guo",
+          "Myle Ott",
+          "C. Zitnick",
+          "Jerry Ma",
+          "Rob Fergus"
+        ],
+        "year": 2019,
+        "venue": "bioArxiv",
+        "doi": "10.1101/622803"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hron",
+      "rawKey": "hron",
+      "display": "[41]",
+      "raw": "Mark Rowland, Jiri Hron, Yunhao Tang, Krzysztof Choromanski, Tamas Sarlos, and Adrian Weller. Orthogonal estimation of Wasserstein distances. In The 22nd International Conference on Artificial Intelligence and Statistics, AISTATS 2019, 16-18 April 2019, Naha, Okinawa, Japan, volume 89 of Proceedings of Machine Learning Research, pp. 186--195. PMLR, 2019. URL http://proceedings.mlr.press/v89/rowland19a.html.",
+      "metadata": {
+        "title": "Orthogonal Estimation of Wasserstein Distances",
+        "authors": [
+          "Mark Rowland",
+          "Jiri Hron",
+          "Yunhao Tang",
+          "Krzysztof Choromanski",
+          "Tamas Sarlos",
+          "Adrian Weller"
+        ],
+        "year": 2019,
+        "venue": "The 22nd International Conference on Artificial Intelligence and Statistics, AISTATS 2019, 16-18 April 2019, Naha, Okinawa, Japan",
+        "url": "http://proceedings.mlr.press/v89/rowland19a.html"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-routing_t",
+      "rawKey": "routing_t",
+      "display": "[42]",
+      "raw": "Aurko Roy, Mohammad Saffar, Ashish Vaswani, and David Grangier. Efficient content-based sparse attention with routing transformers. CoRR, abs/2003.05997, 2020. URL https://arxiv.org/abs/2003.05997.",
+      "metadata": {
+        "title": "Efficient Content-Based Sparse Attention with Routing Transformers",
+        "authors": [
+          "Aurko Roy",
+          "Mohammad Saffar",
+          "Ashish Vaswani",
+          "David Grangier"
+        ],
+        "year": 2003,
+        "venue": "CoRR",
+        "arxivId": "2003.05997",
+        "url": "https://arxiv.org/abs/2003.05997"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shen",
+      "rawKey": "shen",
+      "display": "[43]",
+      "raw": "Zhuoran Shen, Mingyuan Zhang, Shuai Yi, Junjie Yan, and Haiyu Zhao. Factorized attention: Self-attention with linear complexities. CoRR, abs/1812.01243, 2018. URL http://arxiv.org/abs/1812.01243.",
+      "metadata": {
+        "title": "Factorized Attention: Self-Attention with Linear Complexities",
+        "authors": [
+          "Zhuoran Shen",
+          "Mingyuan Zhang",
+          "Shuai Yi",
+          "Junjie Yan",
+          "Haiyu Zhao"
+        ],
+        "year": 2018,
+        "venue": "CoRR",
+        "arxivId": "1812.01243",
+        "url": "http://arxiv.org/abs/1812.01243"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-co2",
+      "rawKey": "co2",
+      "display": "[44]",
+      "raw": "Emma Strubell, Ananya Ganesh, and Andrew McCallum. Energy and policy considerations for deep learning in NLP. CoRR, abs/1906.02243, 2019. URL http://arxiv.org/abs/1906.02243.",
+      "metadata": {
+        "title": "Energy and Policy Considerations for Deep Learning in NLP",
+        "authors": [
+          "Emma Strubell",
+          "Ananya Ganesh",
+          "Andrew McCallum"
+        ],
+        "year": 1906,
+        "venue": "CoRR",
+        "arxivId": "1906.02243",
+        "url": "http://arxiv.org/abs/1906.02243"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tang",
+      "rawKey": "tang",
+      "display": "[45]",
+      "raw": "Yujin Tang, Duong Nguyen, and David Ha. Neuroevolution of self-interpretable agents. CoRR, abs/2003.08165, 2020. URL https://arxiv.org/abs/2003.08165.",
+      "metadata": {
+        "title": "Neuroevolution of Self-Interpretable Agents",
+        "authors": [
+          "Yujin Tang",
+          "Duong Nguyen",
+          "David Ha"
+        ],
+        "year": 2003,
+        "venue": "CoRR",
+        "arxivId": "2003.08165",
+        "url": "https://arxiv.org/abs/2003.08165"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lra",
+      "rawKey": "lra",
+      "display": "[46]",
+      "raw": "Yi Tay, Mostafa Dehghani, Samira Abnar, Yikang Shen, Dara Bahri, Philip Pham, Jinfeng Rao, Liu Yang, Sebastian Ruder, and Donald Metzler. Long range arena: A benchmark for efficient transformers. 2021.",
+      "metadata": {
+        "title": "Long Range Arena: A Benchmark for Efficient Transformers",
+        "authors": [
+          "Yi Tay",
+          "Mostafa Dehghani",
+          "Samira Abnar",
+          "Yikang Shen",
+          "Dara Bahri",
+          "Philip Pham",
+          "Jinfeng Rao",
+          "Liu Yang",
+          "Sebastian Ruder",
+          "Donald Metzler"
+        ],
+        "year": 2021,
+        "venue": "9th International Conference on Learning Representations, ICLR 2019"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tsai2019transformer",
+      "rawKey": "tsai2019transformer",
+      "display": "[47]",
+      "raw": "Yao-Hung Hubert Tsai, Shaojie Bai, Makoto Yamada, Louis-Philippe Morency, and Ruslan Salakhutdinov. Transformer dissection: An unified understanding for transformerâ attention via the lens of kernel. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pp. 4335--4344, 2019.",
+      "metadata": {
+        "title": "Transformer Dissection: An Unified Understanding for Transformerâ Attention via the Lens of Kernel",
+        "authors": [
+          "Yao-Hung Hubert Tsai",
+          "Shaojie Bai",
+          "Makoto Yamada",
+          "Louis-Philippe Morency",
+          "Ruslan Salakhutdinov"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-transformer",
+      "rawKey": "transformer",
+      "display": "[48]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in Neural Information Processing Systems 30, pp. 5998--6008. Curran Associates, Inc., 2017. URL http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf.",
+      "metadata": {
+        "title": "Attention is All you Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "Niki Parmar",
+          "Jakob Uszkoreit",
+          "Llion Jones",
+          "Aidan N Gomez",
+          "ukasz Kaiser",
+          "Illia Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Advances in Neural Information Processing Systems 30",
+        "url": "http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "title"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gran",
+      "rawKey": "gran",
+      "display": "[49]",
+      "raw": "Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Lio, and Yoshua Bengio. Graph attention networks. In 6th International Conference on Learning Representations, ICLR 2018, Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings. OpenReview.net, 2018. URL https://openreview.net/forum?id=rJXMpikCZ.",
+      "metadata": {
+        "title": "Graph Attention Networks",
+        "authors": [
+          "Petar Velickovic",
+          "Guillem Cucurull",
+          "Arantxa Casanova",
+          "Adriana Romero",
+          "Pietro Lio",
+          "Yoshua Bengio"
+        ],
+        "year": 2018,
+        "venue": "6th International Conference on Learning Representations, ICLR 2018, Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings",
+        "url": "https://openreview.net/forum?id=rJXMpikCZ"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vig2019multiscale",
+      "rawKey": "vig2019multiscale",
+      "display": "[50]",
+      "raw": "Jesse Vig. A multiscale visualization of attention in the transformer model. arXiv preprint arXiv:1906.05714, 2019.",
+      "metadata": {
+        "title": "A multiscale visualization of attention in the transformer model",
+        "authors": [
+          "Jesse Vig"
+        ],
+        "year": 1906,
+        "venue": "arXiv preprint arXiv:1906.05714",
+        "arxivId": "1906.05714"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-analyzing_attention",
+      "rawKey": "analyzing_attention",
+      "display": "[51]",
+      "raw": "Jesse Vig and Yonatan Belinkov. Analyzing the structure of attention in a transformer language model. CoRR, abs/1906.04284, 2019. URL http://arxiv.org/abs/1906.04284.",
+      "metadata": {
+        "title": "Analyzing the Structure of Attention in a Transformer Language Model",
+        "authors": [
+          "Jesse Vig",
+          "Yonatan Belinkov"
+        ],
+        "year": 1906,
+        "venue": "CoRR",
+        "arxivId": "1906.04284",
+        "url": "http://arxiv.org/abs/1906.04284"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bertology",
+      "rawKey": "bertology",
+      "display": "[52]",
+      "raw": "Jesse Vig, Ali Madani, Lav R. Varshney, Caiming Xiong, Richard Socher, and Nazneen Fatema Rajani. Bertology meets biology: Interpreting attention in protein language models. CoRR, abs/2006.15222, 2020. URL https://arxiv.org/abs/2006.15222.",
+      "metadata": {
+        "title": "BERTology Meets Biology: Interpreting Attention in Protein Language Models",
+        "authors": [
+          "Jesse Vig",
+          "Ali Madani",
+          "Lav R. Varshney",
+          "Caiming Xiong",
+          "Richard Socher",
+          "Nazneen Fatema Rajani"
+        ],
+        "year": 2006,
+        "venue": "CoRR",
+        "arxivId": "2006.15222",
+        "url": "https://arxiv.org/abs/2006.15222"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pointer",
+      "rawKey": "pointer",
+      "display": "[53]",
+      "raw": "Oriol Vinyals, Meire Fortunato, and Navdeep Jaitly. Pointer networks. In Advances in Neural Information Processing Systems 28: Annual Conference on Neural Information Processing Systems 2015, December 7-12, 2015, Montreal, Quebec, Canada, pp. 2692--2700, 2015.",
+      "metadata": {
+        "title": "Pointer Networks",
+        "authors": [
+          "Oriol Vinyals",
+          "Meire Fortunato",
+          "Navdeep Jaitly"
+        ],
+        "year": 2015,
+        "venue": "Advances in Neural Information Processing Systems 28: Annual Conference on Neural Information Processing Systems 2015, December 7-12, 2015, Montreal, Quebec, Canada"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-linformer",
+      "rawKey": "linformer",
+      "display": "[54]",
+      "raw": "Sinong Wang, Belinda Z. Li, Madian Khabsa, Han Fang, and Hao Ma. Linformer: Self-attention with linear complexity. CoRR, abs/2006.04768, 2020. URL https://arxiv.org/abs/2006.04768.",
+      "metadata": {
+        "title": "Linformer: Self-Attention with Linear Complexity",
+        "authors": [
+          "Sinong Wang",
+          "Belinda Z. Li",
+          "Madian Khabsa",
+          "Han Fang",
+          "Hao Ma"
+        ],
+        "year": 2006,
+        "venue": "CoRR",
+        "arxivId": "2006.04768",
+        "url": "https://arxiv.org/abs/2006.04768"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shared_weights",
+      "rawKey": "shared_weights",
+      "display": "[55]",
+      "raw": "Tong Xiao, Yinqiao Li, Jingbo Zhu, Zhengtao Yu, and Tongran Liu. Sharing attention weights for fast transformer. In Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, IJCAI 2019, Macao, China, August 10-16, 2019, pp. 5292--5298. ijcai.org, 2019. 10.24963/ijcai.2019/735. URL https://doi.org/10.24963/ijcai.2019/735.",
+      "metadata": {
+        "title": "Sharing Attention Weights for Fast Transformer",
+        "authors": [
+          "Tong Xiao",
+          "Yinqiao Li",
+          "Jingbo Zhu",
+          "Zhengtao Yu",
+          "Tongran Liu"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, IJCAI 2019, Macao, China, August 10-16, 2019",
+        "doi": "10.24963/ijcai.2019/735",
+        "url": "https://doi.org/10.24963/ijcai.2019/735"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hans",
+      "rawKey": "hans",
+      "display": "[56]",
+      "raw": "Zichao Yang, Diyi Yang, Chris Dyer, Xiaodong He, Alexander J. Smola, and Eduard H. Hovy. Hierarchical attention networks for document classification. In NAACL HLT 2016, The 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, San Diego California, USA, June 12-17, 2016, pp. 1480--1489. The Association for Computational Linguistics, 2016. 10.18653/v1/n16-1174. URL https://doi.org/10.18653/v1/n16-1174.",
+      "metadata": {
+        "title": "Hierarchical Attention Networks for Document Classification",
+        "authors": [
+          "Zichao Yang",
+          "Diyi Yang",
+          "Chris Dyer",
+          "Xiaodong He",
+          "Alexander J. Smola",
+          "Eduard H. Hovy"
+        ],
+        "year": 2016,
+        "venue": "NAACL HLT 2016, The 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, San Diego California, USA, June 12-17, 2016",
+        "doi": "10.18653/v1/n16-1174",
+        "url": "https://doi.org/10.18653/v1/n16-1174"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-energy",
+      "rawKey": "energy",
+      "display": "[57]",
+      "raw": "Haoran You, Chaojian Li, Pengfei Xu, Yonggan Fu, Yue Wang, Xiaohan Chen, Richard G. Baraniuk, Zhangyang Wang, and Yingyan Lin. Drawing early-bird tickets: Toward more efficient training of deep networks. In International Conference on Learning Representations, 2020. URL https://openreview.net/forum?id=BJxsrgStvr.",
+      "metadata": {
+        "title": "Drawing Early-Bird Tickets: Toward More Efficient Training of Deep Networks",
+        "authors": [
+          "Haoran You",
+          "Chaojian Li",
+          "Pengfei Xu",
+          "Yonggan Fu",
+          "Yue Wang",
+          "Xiaohan Chen",
+          "Richard G. Baraniuk",
+          "Zhangyang Wang",
+          "Yingyan Lin"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://openreview.net/forum?id=BJxsrgStvr"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ort",
+      "rawKey": "ort",
+      "display": "[58]",
+      "raw": "Felix X. Yu, Ananda Theertha Suresh, Krzysztof Marcin Choromanski, Daniel N. Holtmann-Rice, and Sanjiv Kumar. Orthogonal random features. In Advances in Neural Information Processing Systems 29: Annual Conference on Neural Information Processing Systems 2016, December 5-10, 2016, Barcelona, Spain, pp. 1975--1983, 2016.",
+      "metadata": {
+        "title": "Orthogonal Random Features",
+        "authors": [
+          "Felix X. Yu",
+          "Ananda Theertha Suresh",
+          "Krzysztof Marcin Choromanski",
+          "Daniel N. Holtmann-Rice",
+          "Sanjiv Kumar"
+        ],
+        "year": 2016,
+        "venue": "Advances in Neural Information Processing Systems 29: Annual Conference on Neural Information Processing Systems 2016, December 5-10, 2016, Barcelona, Spain"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-relational",
+      "rawKey": "relational",
+      "display": "[59]",
+      "raw": "Vincius Flores Zambaldi, David Raposo, Adam Santoro, Victor Bapst, Yujia Li, Igor Babuschkin, Karl Tuyls, David P. Reichert, Timothy P. Lillicrap, Edward Lockhart, Murray Shanahan, Victoria Langston, Razvan Pascanu, Matthew Botvinick, Oriol Vinyals, and Peter W. Battaglia. Deep reinforcement learning with relational inductive biases. In 7th International Conference on Learning Representations, ICLR 2019, New Orleans, LA, USA, May 6-9, 2019, 2019.",
+      "metadata": {
+        "title": "Deep reinforcement learning with relational inductive biases",
+        "authors": [
+          "Vincius Flores Zambaldi",
+          "David Raposo",
+          "Adam Santoro",
+          "Victor Bapst",
+          "Yujia Li",
+          "Igor Babuschkin",
+          "Karl Tuyls",
+          "David P. Reichert",
+          "Timothy P. Lillicrap",
+          "Edward Lockhart",
+          "Murray Shanahan",
+          "Victoria Langston",
+          "Razvan Pascanu",
+          "Matthew Botvinick",
+          "Oriol Vinyals",
+          "Peter W. Battaglia"
+        ],
+        "year": 2019,
+        "venue": "7th International Conference on Learning Representations, ICLR 2019, New Orleans, LA, USA, May 6-9, 2019"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bookcorpus",
+      "rawKey": "bookcorpus",
+      "display": "[60]",
+      "raw": "Yukun Zhu, Ryan Kiros, Richard S. Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler. Aligning books and movies: Towards story-like visual explanations by watching movies and reading books. In 2015 IEEE International Conference on Computer Vision, ICCV 2015, Santiago, Chile, December 7-13, 2015, pp. 19--27, 2015. 10.1109/ICCV.2015.11. URL https://doi.org/10.1109/ICCV.2015.11.",
+      "metadata": {
+        "title": "Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books",
+        "authors": [
+          "Yukun Zhu",
+          "Ryan Kiros",
+          "Richard S. Zemel",
+          "Ruslan Salakhutdinov",
+          "Raquel Urtasun",
+          "Antonio Torralba",
+          "Sanja Fidler"
+        ],
+        "year": 2015,
+        "venue": "2015 IEEE International Conference on Computer Vision, ICCV 2015, Santiago, Chile, December 7-13, 2015",
+        "doi": "10.1109/ICCV.2015.11",
+        "url": "https://doi.org/10.1109/ICCV.2015.11"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 60 entries (bbl)",
+    "semantic scholar failed: rate limited"
+  ]
+}

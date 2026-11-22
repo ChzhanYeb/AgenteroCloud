@@ -1,0 +1,2742 @@
+{
+  "path": "papers/模型评测/2206.04615",
+  "id": "2206.04615",
+  "type": "arxiv",
+  "title": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models",
+  "authors": [
+    "Aarohi Srivastava",
+    "Abhinav Rastogi",
+    "Abhishek Rao",
+    "Abu Awal Md Shoeb",
+    "Abubakar Abid",
+    "Adam Fisch",
+    "Adam R. Brown",
+    "Adam Santoro",
+    "Aditya Gupta",
+    "Adrià Garriga-Alonso",
+    "Agnieszka Kluska",
+    "Aitor Lewkowycz",
+    "Akshat Agarwal",
+    "Alethea Power",
+    "Alex Ray",
+    "Alex Warstadt",
+    "Alexander W. Kocurek",
+    "Ali Safaya",
+    "Ali Tazarv",
+    "Alice Xiang",
+    "Alicia Parrish",
+    "Allen Nie",
+    "Aman Hussain",
+    "Amanda Askell",
+    "Amanda Dsouza",
+    "Ambrose Slone",
+    "Ameet Rahane",
+    "Anantharaman S. Iyer",
+    "Anders Andreassen",
+    "Andrea Madotto",
+    "Andrea Santilli",
+    "Andreas Stuhlmüller",
+    "Andrew Dai",
+    "Andrew La",
+    "Andrew Lampinen",
+    "Andy Zou",
+    "Angela Jiang",
+    "Angelica Chen",
+    "Anh Vuong",
+    "Animesh Gupta",
+    "Anna Gottardi",
+    "Antonio Norelli",
+    "Anu Venkatesh",
+    "Arash Gholamidavoodi",
+    "Arfa Tabassum",
+    "Arul Menezes",
+    "Arun Kirubarajan",
+    "Asher Mullokandov",
+    "Ashish Sabharwal",
+    "Austin Herrick",
+    "Avia Efrat",
+    "Aykut Erdem",
+    "Ayla Karakaş",
+    "B. Ryan Roberts",
+    "Bao Sheng Loe",
+    "Barret Zoph",
+    "Bartłomiej Bojanowski",
+    "Batuhan Özyurt",
+    "Behnam Hedayatnia",
+    "Behnam Neyshabur",
+    "Benjamin Inden",
+    "Benno Stein",
+    "Berk Ekmekci",
+    "Bill Yuchen Lin",
+    "Blake Howald",
+    "Bryan Orinion",
+    "Cameron Diao",
+    "Cameron Dour",
+    "Catherine Stinson",
+    "Cedrick Argueta",
+    "César Ferri Ramírez",
+    "Chandan Singh",
+    "Charles Rathkopf",
+    "Chenlin Meng",
+    "Chitta Baral",
+    "Chiyu Wu",
+    "Chris Callison-Burch",
+    "Chris Waites",
+    "Christian Voigt",
+    "Christopher D. Manning",
+    "Christopher Potts",
+    "Cindy Ramirez",
+    "Clara E. Rivera",
+    "Clemencia Siro",
+    "Colin Raffel",
+    "Courtney Ashcraft",
+    "Cristina Garbacea",
+    "Damien Sileo",
+    "Dan Garrette",
+    "Dan Hendrycks",
+    "Dan Kilman",
+    "Dan Roth",
+    "Daniel Freeman",
+    "Daniel Khashabi",
+    "Daniel Levy",
+    "Daniel Moseguí González",
+    "Danielle Perszyk",
+    "Danny Hernandez",
+    "Danqi Chen",
+    "Daphne Ippolito",
+    "Dar Gilboa",
+    "David Dohan",
+    "David Drakard",
+    "David Jurgens",
+    "Debajyoti Datta",
+    "Deep Ganguli",
+    "Denis Emelin",
+    "Denis Kleyko",
+    "Deniz Yuret",
+    "Derek Chen",
+    "Derek Tam",
+    "Dieuwke Hupkes",
+    "Diganta Misra",
+    "Dilyar Buzan",
+    "Dimitri Coelho Mollo",
+    "Diyi Yang",
+    "Dong-Ho Lee",
+    "Dylan Schrader",
+    "Ekaterina Shutova",
+    "Ekin Dogus Cubuk",
+    "Elad Segal",
+    "Eleanor Hagerman",
+    "Elizabeth Barnes",
+    "Elizabeth Donoway",
+    "Ellie Pavlick",
+    "Emanuele Rodola",
+    "Emma Lam",
+    "Eric Chu",
+    "Eric Tang",
+    "Erkut Erdem",
+    "Ernie Chang",
+    "Ethan A. Chi",
+    "Ethan Dyer",
+    "Ethan Jerzak",
+    "Ethan Kim",
+    "Eunice Engefu Manyasi",
+    "Evgenii Zheltonozhskii",
+    "Fanyue Xia",
+    "Fatemeh Siar",
+    "Fernando Martínez-Plumed",
+    "Francesca Happé",
+    "Francois Chollet",
+    "Frieda Rong",
+    "Gaurav Mishra",
+    "Genta Indra Winata",
+    "Gerard de Melo",
+    "Germán Kruszewski",
+    "Giambattista Parascandolo",
+    "Giorgio Mariani",
+    "Gloria Wang",
+    "Gonzalo Jaimovitch-López",
+    "Gregor Betz",
+    "Guy Gur-Ari",
+    "Hana Galijasevic",
+    "Hannah Kim",
+    "Hannah Rashkin",
+    "Hannaneh Hajishirzi",
+    "Harsh Mehta",
+    "Hayden Bogar",
+    "Henry Shevlin",
+    "Hinrich Schütze",
+    "Hiromu Yakura",
+    "Hongming Zhang",
+    "Hugh Mee Wong",
+    "Ian Ng",
+    "Isaac Noble",
+    "Jaap Jumelet",
+    "Jack Geissinger",
+    "Jackson Kernion",
+    "Jacob Hilton",
+    "Jaehoon Lee",
+    "Jaime Fernández Fisac",
+    "James B. Simon",
+    "James Koppel",
+    "James Zheng",
+    "James Zou",
+    "Jan Kocoń",
+    "Jana Thompson",
+    "Janelle Wingfield",
+    "Jared Kaplan",
+    "Jarema Radom",
+    "Jascha Sohl-Dickstein",
+    "Jason Phang",
+    "Jason Wei",
+    "Jason Yosinski",
+    "Jekaterina Novikova",
+    "Jelle Bosscher",
+    "Jennifer Marsh",
+    "Jeremy Kim",
+    "Jeroen Taal",
+    "Jesse Engel",
+    "Jesujoba Alabi",
+    "Jiacheng Xu",
+    "Jiaming Song",
+    "Jillian Tang",
+    "Joan Waweru",
+    "John Burden",
+    "John Miller",
+    "John U. Balis",
+    "Jonathan Batchelder",
+    "Jonathan Berant",
+    "Jörg Frohberg",
+    "Jos Rozen",
+    "Jose Hernandez-Orallo",
+    "Joseph Boudeman",
+    "Joseph Guerr",
+    "Joseph Jones",
+    "Joshua B. Tenenbaum",
+    "Joshua S. Rule",
+    "Joyce Chua",
+    "Kamil Kanclerz",
+    "Karen Livescu",
+    "Karl Krauth",
+    "Karthik Gopalakrishnan",
+    "Katerina Ignatyeva",
+    "Katja Markert",
+    "Kaustubh D. Dhole",
+    "Kevin Gimpel",
+    "Kevin Omondi",
+    "Kory Mathewson",
+    "Kristen Chiafullo",
+    "Ksenia Shkaruta",
+    "Kumar Shridhar",
+    "Kyle McDonell",
+    "Kyle Richardson",
+    "Laria Reynolds",
+    "Leo Gao",
+    "Li Zhang",
+    "Liam Dugan",
+    "Lianhui Qin",
+    "Lidia Contreras-Ochando",
+    "Louis-Philippe Morency",
+    "Luca Moschella",
+    "Lucas Lam",
+    "Lucy Noble",
+    "Ludwig Schmidt",
+    "Luheng He",
+    "Luis Oliveros Colón",
+    "Luke Metz",
+    "Lütfi Kerem Şenel",
+    "Maarten Bosma",
+    "Maarten Sap",
+    "Maartje ter Hoeve",
+    "Maheen Farooqi",
+    "Manaal Faruqui",
+    "Mantas Mazeika",
+    "Marco Baturan",
+    "Marco Marelli",
+    "Marco Maru",
+    "Maria Jose Ramírez Quintana",
+    "Marie Tolkiehn",
+    "Mario Giulianelli",
+    "Martha Lewis",
+    "Martin Potthast",
+    "Matthew L. Leavitt",
+    "Matthias Hagen",
+    "Mátyás Schubert",
+    "Medina Orduna Baitemirova",
+    "Melody Arnaud",
+    "Melvin McElrath",
+    "Michael A. Yee",
+    "Michael Cohen",
+    "Michael Gu",
+    "Michael Ivanitskiy",
+    "Michael Starritt",
+    "Michael Strube",
+    "Michał Swędrowski",
+    "Michele Bevilacqua",
+    "Michihiro Yasunaga",
+    "Mihir Kale",
+    "Mike Cain",
+    "Mimee Xu",
+    "Mirac Suzgun",
+    "Mitch Walker",
+    "Mo Tiwari",
+    "Mohit Bansal",
+    "Moin Aminnaseri",
+    "Mor Geva",
+    "Mozhdeh Gheini",
+    "Mukund Varma T",
+    "Nanyun Peng",
+    "Nathan A. Chi",
+    "Nayeon Lee",
+    "Neta Gur-Ari Krakover",
+    "Nicholas Cameron",
+    "Nicholas Roberts",
+    "Nick Doiron",
+    "Nicole Martinez",
+    "Nikita Nangia",
+    "Niklas Deckers",
+    "Niklas Muennighoff",
+    "Nitish Shirish Keskar",
+    "Niveditha S. Iyer",
+    "Noah Constant",
+    "Noah Fiedel",
+    "Nuan Wen",
+    "Oliver Zhang",
+    "Omar Agha",
+    "Omar Elbaghdadi",
+    "Omer Levy",
+    "Owain Evans",
+    "Pablo Antonio Moreno Casares",
+    "Parth Doshi",
+    "Pascale Fung",
+    "Paul Pu Liang",
+    "Paul Vicol",
+    "Pegah Alipoormolabashi",
+    "Peiyuan Liao",
+    "Percy Liang",
+    "Peter Chang",
+    "Peter Eckersley",
+    "Phu Mon Htut",
+    "Pinyu Hwang",
+    "Piotr Miłkowski",
+    "Piyush Patil",
+    "Pouya Pezeshkpour",
+    "Priti Oli",
+    "Qiaozhu Mei",
+    "Qing Lyu",
+    "Qinlang Chen",
+    "Rabin Banjade",
+    "Rachel Etta Rudolph",
+    "Raefer Gabriel",
+    "Rahel Habacker",
+    "Ramon Risco",
+    "Raphaël Millière",
+    "Rhythm Garg",
+    "Richard Barnes",
+    "Rif A. Saurous",
+    "Riku Arakawa",
+    "Robbe Raymaekers",
+    "Robert Frank",
+    "Rohan Sikand",
+    "Roman Novak",
+    "Roman Sitelew",
+    "Ronan LeBras",
+    "Rosanne Liu",
+    "Rowan Jacobs",
+    "Rui Zhang",
+    "Ruslan Salakhutdinov",
+    "Ryan Chi",
+    "Ryan Lee",
+    "Ryan Stovall",
+    "Ryan Teehan",
+    "Rylan Yang",
+    "Sahib Singh",
+    "Saif M. Mohammad",
+    "Sajant Anand",
+    "Sam Dillavou",
+    "Sam Shleifer",
+    "Sam Wiseman",
+    "Samuel Gruetter",
+    "Samuel R. Bowman",
+    "Samuel S. Schoenholz",
+    "Sanghyun Han",
+    "Sanjeev Kwatra",
+    "Sarah A. Rous",
+    "Sarik Ghazarian",
+    "Sayan Ghosh",
+    "Sean Casey",
+    "Sebastian Bischoff",
+    "Sebastian Gehrmann",
+    "Sebastian Schuster",
+    "Sepideh Sadeghi",
+    "Shadi Hamdan",
+    "Sharon Zhou",
+    "Shashank Srivastava",
+    "Sherry Shi",
+    "Shikhar Singh",
+    "Shima Asaadi",
+    "Shixiang Shane Gu",
+    "Shubh Pachchigar",
+    "Shubham Toshniwal",
+    "Shyam Upadhyay",
+    "Shyamolima",
+    "Debnath",
+    "Siamak Shakeri",
+    "Simon Thormeyer",
+    "Simone Melzi",
+    "Siva Reddy",
+    "Sneha Priscilla Makini",
+    "Soo-Hwan Lee",
+    "Spencer Torene",
+    "Sriharsha Hatwar",
+    "Stanislas Dehaene",
+    "Stefan Divic",
+    "Stefano Ermon",
+    "Stella Biderman",
+    "Stephanie Lin",
+    "Stephen Prasad",
+    "Steven T. Piantadosi",
+    "Stuart M. Shieber",
+    "Summer Misherghi",
+    "Svetlana Kiritchenko",
+    "Swaroop Mishra",
+    "Tal Linzen",
+    "Tal Schuster",
+    "Tao Li",
+    "Tao Yu",
+    "Tariq Ali",
+    "Tatsu Hashimoto",
+    "Te-Lin Wu",
+    "Théo Desbordes",
+    "Theodore Rothschild",
+    "Thomas Phan",
+    "Tianle Wang",
+    "Tiberius Nkinyili",
+    "Timo Schick",
+    "Timofei Kornev",
+    "Titus Tunduny",
+    "Tobias Gerstenberg",
+    "Trenton Chang",
+    "Trishala Neeraj",
+    "Tushar Khot",
+    "Tyler Shultz",
+    "Uri Shaham",
+    "Vedant Misra",
+    "Vera Demberg",
+    "Victoria Nyamai",
+    "Vikas Raunak",
+    "Vinay Ramasesh",
+    "Vinay Uday Prabhu",
+    "Vishakh Padmakumar",
+    "Vivek Srikumar",
+    "William Fedus",
+    "William Saunders",
+    "William Zhang",
+    "Wout Vossen",
+    "Xiang Ren",
+    "Xiaoyu Tong",
+    "Xinran Zhao",
+    "Xinyi Wu",
+    "Xudong Shen",
+    "Yadollah Yaghoobzadeh",
+    "Yair Lakretz",
+    "Yangqiu Song",
+    "Yasaman Bahri",
+    "Yejin Choi",
+    "Yichi Yang",
+    "Yiding Hao",
+    "Yifu Chen",
+    "Yonatan Belinkov",
+    "Yu Hou",
+    "Yufang Hou",
+    "Yuntao Bai",
+    "Zachary Seid",
+    "Zhuoye Zhao",
+    "Zijian Wang",
+    "Zijie J. Wang",
+    "Zirui Wang",
+    "Ziyi Wu"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Aarohi",
+      "lastName": "Srivastava"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Abhinav",
+      "lastName": "Rastogi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Abhishek",
+      "lastName": "Rao"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Abu Awal Md",
+      "lastName": "Shoeb"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Abubakar",
+      "lastName": "Abid"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Adam",
+      "lastName": "Fisch"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Adam R.",
+      "lastName": "Brown"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Adam",
+      "lastName": "Santoro"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Aditya",
+      "lastName": "Gupta"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Adrià",
+      "lastName": "Garriga-Alonso"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Agnieszka",
+      "lastName": "Kluska"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Aitor",
+      "lastName": "Lewkowycz"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Akshat",
+      "lastName": "Agarwal"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Alethea",
+      "lastName": "Power"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Alex",
+      "lastName": "Ray"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Alex",
+      "lastName": "Warstadt"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Alexander W.",
+      "lastName": "Kocurek"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ali",
+      "lastName": "Safaya"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ali",
+      "lastName": "Tazarv"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Alice",
+      "lastName": "Xiang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Alicia",
+      "lastName": "Parrish"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Allen",
+      "lastName": "Nie"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Aman",
+      "lastName": "Hussain"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Amanda",
+      "lastName": "Askell"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Amanda",
+      "lastName": "Dsouza"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ambrose",
+      "lastName": "Slone"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ameet",
+      "lastName": "Rahane"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Anantharaman S.",
+      "lastName": "Iyer"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Anders",
+      "lastName": "Andreassen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Andrea",
+      "lastName": "Madotto"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Andrea",
+      "lastName": "Santilli"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Andreas",
+      "lastName": "Stuhlmüller"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Andrew",
+      "lastName": "Dai"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Andrew",
+      "lastName": "La"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Andrew",
+      "lastName": "Lampinen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Andy",
+      "lastName": "Zou"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Angela",
+      "lastName": "Jiang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Angelica",
+      "lastName": "Chen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Anh",
+      "lastName": "Vuong"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Animesh",
+      "lastName": "Gupta"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Anna",
+      "lastName": "Gottardi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Antonio",
+      "lastName": "Norelli"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Anu",
+      "lastName": "Venkatesh"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Arash",
+      "lastName": "Gholamidavoodi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Arfa",
+      "lastName": "Tabassum"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Arul",
+      "lastName": "Menezes"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Arun",
+      "lastName": "Kirubarajan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Asher",
+      "lastName": "Mullokandov"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ashish",
+      "lastName": "Sabharwal"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Austin",
+      "lastName": "Herrick"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Avia",
+      "lastName": "Efrat"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Aykut",
+      "lastName": "Erdem"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ayla",
+      "lastName": "Karakaş"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "B. Ryan",
+      "lastName": "Roberts"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Bao Sheng",
+      "lastName": "Loe"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Barret",
+      "lastName": "Zoph"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Bartłomiej",
+      "lastName": "Bojanowski"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Batuhan",
+      "lastName": "Özyurt"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Behnam",
+      "lastName": "Hedayatnia"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Behnam",
+      "lastName": "Neyshabur"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Benjamin",
+      "lastName": "Inden"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Benno",
+      "lastName": "Stein"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Berk",
+      "lastName": "Ekmekci"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Bill Yuchen",
+      "lastName": "Lin"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Blake",
+      "lastName": "Howald"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Bryan",
+      "lastName": "Orinion"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Cameron",
+      "lastName": "Diao"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Cameron",
+      "lastName": "Dour"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Catherine",
+      "lastName": "Stinson"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Cedrick",
+      "lastName": "Argueta"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "César Ferri",
+      "lastName": "Ramírez"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Chandan",
+      "lastName": "Singh"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Charles",
+      "lastName": "Rathkopf"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Chenlin",
+      "lastName": "Meng"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Chitta",
+      "lastName": "Baral"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Chiyu",
+      "lastName": "Wu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Chris",
+      "lastName": "Callison-Burch"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Chris",
+      "lastName": "Waites"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Christian",
+      "lastName": "Voigt"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Christopher D.",
+      "lastName": "Manning"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Christopher",
+      "lastName": "Potts"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Cindy",
+      "lastName": "Ramirez"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Clara E.",
+      "lastName": "Rivera"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Clemencia",
+      "lastName": "Siro"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Colin",
+      "lastName": "Raffel"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Courtney",
+      "lastName": "Ashcraft"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Cristina",
+      "lastName": "Garbacea"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Damien",
+      "lastName": "Sileo"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dan",
+      "lastName": "Garrette"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dan",
+      "lastName": "Hendrycks"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dan",
+      "lastName": "Kilman"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dan",
+      "lastName": "Roth"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Daniel",
+      "lastName": "Freeman"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Daniel",
+      "lastName": "Khashabi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Daniel",
+      "lastName": "Levy"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Daniel Moseguí",
+      "lastName": "González"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Danielle",
+      "lastName": "Perszyk"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Danny",
+      "lastName": "Hernandez"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Danqi",
+      "lastName": "Chen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Daphne",
+      "lastName": "Ippolito"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dar",
+      "lastName": "Gilboa"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "David",
+      "lastName": "Dohan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "David",
+      "lastName": "Drakard"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "David",
+      "lastName": "Jurgens"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Debajyoti",
+      "lastName": "Datta"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Deep",
+      "lastName": "Ganguli"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Denis",
+      "lastName": "Emelin"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Denis",
+      "lastName": "Kleyko"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Deniz",
+      "lastName": "Yuret"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Derek",
+      "lastName": "Chen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Derek",
+      "lastName": "Tam"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dieuwke",
+      "lastName": "Hupkes"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Diganta",
+      "lastName": "Misra"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dilyar",
+      "lastName": "Buzan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dimitri Coelho",
+      "lastName": "Mollo"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Diyi",
+      "lastName": "Yang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dong-Ho",
+      "lastName": "Lee"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dylan",
+      "lastName": "Schrader"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ekaterina",
+      "lastName": "Shutova"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ekin Dogus",
+      "lastName": "Cubuk"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Elad",
+      "lastName": "Segal"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Eleanor",
+      "lastName": "Hagerman"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Elizabeth",
+      "lastName": "Barnes"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Elizabeth",
+      "lastName": "Donoway"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ellie",
+      "lastName": "Pavlick"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Emanuele",
+      "lastName": "Rodola"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Emma",
+      "lastName": "Lam"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Eric",
+      "lastName": "Chu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Eric",
+      "lastName": "Tang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Erkut",
+      "lastName": "Erdem"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ernie",
+      "lastName": "Chang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ethan A.",
+      "lastName": "Chi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ethan",
+      "lastName": "Dyer"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ethan",
+      "lastName": "Jerzak"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ethan",
+      "lastName": "Kim"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Eunice Engefu",
+      "lastName": "Manyasi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Evgenii",
+      "lastName": "Zheltonozhskii"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Fanyue",
+      "lastName": "Xia"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Fatemeh",
+      "lastName": "Siar"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Fernando",
+      "lastName": "Martínez-Plumed"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Francesca",
+      "lastName": "Happé"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Francois",
+      "lastName": "Chollet"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Frieda",
+      "lastName": "Rong"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Gaurav",
+      "lastName": "Mishra"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Genta Indra",
+      "lastName": "Winata"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Gerard de",
+      "lastName": "Melo"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Germán",
+      "lastName": "Kruszewski"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Giambattista",
+      "lastName": "Parascandolo"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Giorgio",
+      "lastName": "Mariani"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Gloria",
+      "lastName": "Wang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Gonzalo",
+      "lastName": "Jaimovitch-López"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Gregor",
+      "lastName": "Betz"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Guy",
+      "lastName": "Gur-Ari"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hana",
+      "lastName": "Galijasevic"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hannah",
+      "lastName": "Kim"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hannah",
+      "lastName": "Rashkin"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hannaneh",
+      "lastName": "Hajishirzi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Harsh",
+      "lastName": "Mehta"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hayden",
+      "lastName": "Bogar"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Henry",
+      "lastName": "Shevlin"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hinrich",
+      "lastName": "Schütze"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hiromu",
+      "lastName": "Yakura"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hongming",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hugh Mee",
+      "lastName": "Wong"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ian",
+      "lastName": "Ng"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Isaac",
+      "lastName": "Noble"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jaap",
+      "lastName": "Jumelet"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jack",
+      "lastName": "Geissinger"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jackson",
+      "lastName": "Kernion"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jacob",
+      "lastName": "Hilton"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jaehoon",
+      "lastName": "Lee"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jaime Fernández",
+      "lastName": "Fisac"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "James B.",
+      "lastName": "Simon"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "James",
+      "lastName": "Koppel"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "James",
+      "lastName": "Zheng"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "James",
+      "lastName": "Zou"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jan",
+      "lastName": "Kocoń"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jana",
+      "lastName": "Thompson"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Janelle",
+      "lastName": "Wingfield"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jared",
+      "lastName": "Kaplan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jarema",
+      "lastName": "Radom"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jascha",
+      "lastName": "Sohl-Dickstein"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jason",
+      "lastName": "Phang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jason",
+      "lastName": "Wei"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jason",
+      "lastName": "Yosinski"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jekaterina",
+      "lastName": "Novikova"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jelle",
+      "lastName": "Bosscher"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jennifer",
+      "lastName": "Marsh"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jeremy",
+      "lastName": "Kim"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jeroen",
+      "lastName": "Taal"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jesse",
+      "lastName": "Engel"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jesujoba",
+      "lastName": "Alabi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jiacheng",
+      "lastName": "Xu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jiaming",
+      "lastName": "Song"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jillian",
+      "lastName": "Tang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Joan",
+      "lastName": "Waweru"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "John",
+      "lastName": "Burden"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "John",
+      "lastName": "Miller"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "John U.",
+      "lastName": "Balis"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jonathan",
+      "lastName": "Batchelder"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jonathan",
+      "lastName": "Berant"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jörg",
+      "lastName": "Frohberg"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jos",
+      "lastName": "Rozen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jose",
+      "lastName": "Hernandez-Orallo"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Joseph",
+      "lastName": "Boudeman"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Joseph",
+      "lastName": "Guerr"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Joseph",
+      "lastName": "Jones"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Joshua B.",
+      "lastName": "Tenenbaum"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Joshua S.",
+      "lastName": "Rule"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Joyce",
+      "lastName": "Chua"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Kamil",
+      "lastName": "Kanclerz"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Karen",
+      "lastName": "Livescu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Karl",
+      "lastName": "Krauth"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Karthik",
+      "lastName": "Gopalakrishnan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Katerina",
+      "lastName": "Ignatyeva"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Katja",
+      "lastName": "Markert"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Kaustubh D.",
+      "lastName": "Dhole"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Kevin",
+      "lastName": "Gimpel"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Kevin",
+      "lastName": "Omondi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Kory",
+      "lastName": "Mathewson"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Kristen",
+      "lastName": "Chiafullo"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ksenia",
+      "lastName": "Shkaruta"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Kumar",
+      "lastName": "Shridhar"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Kyle",
+      "lastName": "McDonell"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Kyle",
+      "lastName": "Richardson"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Laria",
+      "lastName": "Reynolds"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Leo",
+      "lastName": "Gao"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Li",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Liam",
+      "lastName": "Dugan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Lianhui",
+      "lastName": "Qin"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Lidia",
+      "lastName": "Contreras-Ochando"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Louis-Philippe",
+      "lastName": "Morency"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Luca",
+      "lastName": "Moschella"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Lucas",
+      "lastName": "Lam"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Lucy",
+      "lastName": "Noble"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ludwig",
+      "lastName": "Schmidt"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Luheng",
+      "lastName": "He"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Luis Oliveros",
+      "lastName": "Colón"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Luke",
+      "lastName": "Metz"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Lütfi Kerem",
+      "lastName": "Şenel"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Maarten",
+      "lastName": "Bosma"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Maarten",
+      "lastName": "Sap"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Maartje ter",
+      "lastName": "Hoeve"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Maheen",
+      "lastName": "Farooqi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Manaal",
+      "lastName": "Faruqui"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mantas",
+      "lastName": "Mazeika"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Marco",
+      "lastName": "Baturan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Marco",
+      "lastName": "Marelli"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Marco",
+      "lastName": "Maru"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Maria Jose Ramírez",
+      "lastName": "Quintana"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Marie",
+      "lastName": "Tolkiehn"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mario",
+      "lastName": "Giulianelli"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Martha",
+      "lastName": "Lewis"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Martin",
+      "lastName": "Potthast"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Matthew L.",
+      "lastName": "Leavitt"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Matthias",
+      "lastName": "Hagen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mátyás",
+      "lastName": "Schubert"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Medina Orduna",
+      "lastName": "Baitemirova"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Melody",
+      "lastName": "Arnaud"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Melvin",
+      "lastName": "McElrath"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Michael A.",
+      "lastName": "Yee"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Michael",
+      "lastName": "Cohen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Michael",
+      "lastName": "Gu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Michael",
+      "lastName": "Ivanitskiy"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Michael",
+      "lastName": "Starritt"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Michael",
+      "lastName": "Strube"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Michał",
+      "lastName": "Swędrowski"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Michele",
+      "lastName": "Bevilacqua"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Michihiro",
+      "lastName": "Yasunaga"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mihir",
+      "lastName": "Kale"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mike",
+      "lastName": "Cain"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mimee",
+      "lastName": "Xu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mirac",
+      "lastName": "Suzgun"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mitch",
+      "lastName": "Walker"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mo",
+      "lastName": "Tiwari"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mohit",
+      "lastName": "Bansal"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Moin",
+      "lastName": "Aminnaseri"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mor",
+      "lastName": "Geva"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mozhdeh",
+      "lastName": "Gheini"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mukund Varma",
+      "lastName": "T"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nanyun",
+      "lastName": "Peng"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nathan A.",
+      "lastName": "Chi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nayeon",
+      "lastName": "Lee"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Neta Gur-Ari",
+      "lastName": "Krakover"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nicholas",
+      "lastName": "Cameron"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nicholas",
+      "lastName": "Roberts"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nick",
+      "lastName": "Doiron"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nicole",
+      "lastName": "Martinez"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nikita",
+      "lastName": "Nangia"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Niklas",
+      "lastName": "Deckers"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Niklas",
+      "lastName": "Muennighoff"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nitish Shirish",
+      "lastName": "Keskar"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Niveditha S.",
+      "lastName": "Iyer"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Noah",
+      "lastName": "Constant"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Noah",
+      "lastName": "Fiedel"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nuan",
+      "lastName": "Wen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Oliver",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Omar",
+      "lastName": "Agha"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Omar",
+      "lastName": "Elbaghdadi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Omer",
+      "lastName": "Levy"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Owain",
+      "lastName": "Evans"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Pablo Antonio Moreno",
+      "lastName": "Casares"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Parth",
+      "lastName": "Doshi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Pascale",
+      "lastName": "Fung"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Paul Pu",
+      "lastName": "Liang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Paul",
+      "lastName": "Vicol"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Pegah",
+      "lastName": "Alipoormolabashi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Peiyuan",
+      "lastName": "Liao"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Percy",
+      "lastName": "Liang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Peter",
+      "lastName": "Chang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Peter",
+      "lastName": "Eckersley"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Phu Mon",
+      "lastName": "Htut"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Pinyu",
+      "lastName": "Hwang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Piotr",
+      "lastName": "Miłkowski"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Piyush",
+      "lastName": "Patil"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Pouya",
+      "lastName": "Pezeshkpour"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Priti",
+      "lastName": "Oli"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Qiaozhu",
+      "lastName": "Mei"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Qing",
+      "lastName": "Lyu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Qinlang",
+      "lastName": "Chen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rabin",
+      "lastName": "Banjade"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rachel Etta",
+      "lastName": "Rudolph"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Raefer",
+      "lastName": "Gabriel"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rahel",
+      "lastName": "Habacker"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ramon",
+      "lastName": "Risco"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Raphaël",
+      "lastName": "Millière"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rhythm",
+      "lastName": "Garg"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Richard",
+      "lastName": "Barnes"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rif A.",
+      "lastName": "Saurous"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Riku",
+      "lastName": "Arakawa"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Robbe",
+      "lastName": "Raymaekers"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Robert",
+      "lastName": "Frank"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rohan",
+      "lastName": "Sikand"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Roman",
+      "lastName": "Novak"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Roman",
+      "lastName": "Sitelew"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ronan",
+      "lastName": "LeBras"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rosanne",
+      "lastName": "Liu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rowan",
+      "lastName": "Jacobs"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rui",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ruslan",
+      "lastName": "Salakhutdinov"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ryan",
+      "lastName": "Chi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ryan",
+      "lastName": "Lee"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ryan",
+      "lastName": "Stovall"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ryan",
+      "lastName": "Teehan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rylan",
+      "lastName": "Yang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sahib",
+      "lastName": "Singh"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Saif M.",
+      "lastName": "Mohammad"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sajant",
+      "lastName": "Anand"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sam",
+      "lastName": "Dillavou"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sam",
+      "lastName": "Shleifer"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sam",
+      "lastName": "Wiseman"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Samuel",
+      "lastName": "Gruetter"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Samuel R.",
+      "lastName": "Bowman"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Samuel S.",
+      "lastName": "Schoenholz"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sanghyun",
+      "lastName": "Han"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sanjeev",
+      "lastName": "Kwatra"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sarah A.",
+      "lastName": "Rous"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sarik",
+      "lastName": "Ghazarian"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sayan",
+      "lastName": "Ghosh"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sean",
+      "lastName": "Casey"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sebastian",
+      "lastName": "Bischoff"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sebastian",
+      "lastName": "Gehrmann"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sebastian",
+      "lastName": "Schuster"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sepideh",
+      "lastName": "Sadeghi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Shadi",
+      "lastName": "Hamdan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sharon",
+      "lastName": "Zhou"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Shashank",
+      "lastName": "Srivastava"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sherry",
+      "lastName": "Shi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Shikhar",
+      "lastName": "Singh"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Shima",
+      "lastName": "Asaadi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Shixiang Shane",
+      "lastName": "Gu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Shubh",
+      "lastName": "Pachchigar"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Shubham",
+      "lastName": "Toshniwal"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Shyam",
+      "lastName": "Upadhyay"
+    },
+    {
+      "creatorType": "author",
+      "name": "Shyamolima"
+    },
+    {
+      "creatorType": "author",
+      "name": "Debnath"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Siamak",
+      "lastName": "Shakeri"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Simon",
+      "lastName": "Thormeyer"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Simone",
+      "lastName": "Melzi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Siva",
+      "lastName": "Reddy"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sneha Priscilla",
+      "lastName": "Makini"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Soo-Hwan",
+      "lastName": "Lee"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Spencer",
+      "lastName": "Torene"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sriharsha",
+      "lastName": "Hatwar"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Stanislas",
+      "lastName": "Dehaene"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Stefan",
+      "lastName": "Divic"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Stefano",
+      "lastName": "Ermon"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Stella",
+      "lastName": "Biderman"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Stephanie",
+      "lastName": "Lin"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Stephen",
+      "lastName": "Prasad"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Steven T.",
+      "lastName": "Piantadosi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Stuart M.",
+      "lastName": "Shieber"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Summer",
+      "lastName": "Misherghi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Svetlana",
+      "lastName": "Kiritchenko"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Swaroop",
+      "lastName": "Mishra"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tal",
+      "lastName": "Linzen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tal",
+      "lastName": "Schuster"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tao",
+      "lastName": "Li"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tao",
+      "lastName": "Yu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tariq",
+      "lastName": "Ali"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tatsu",
+      "lastName": "Hashimoto"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Te-Lin",
+      "lastName": "Wu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Théo",
+      "lastName": "Desbordes"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Theodore",
+      "lastName": "Rothschild"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Thomas",
+      "lastName": "Phan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tianle",
+      "lastName": "Wang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tiberius",
+      "lastName": "Nkinyili"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Timo",
+      "lastName": "Schick"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Timofei",
+      "lastName": "Kornev"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Titus",
+      "lastName": "Tunduny"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tobias",
+      "lastName": "Gerstenberg"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Trenton",
+      "lastName": "Chang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Trishala",
+      "lastName": "Neeraj"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tushar",
+      "lastName": "Khot"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tyler",
+      "lastName": "Shultz"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Uri",
+      "lastName": "Shaham"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Vedant",
+      "lastName": "Misra"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Vera",
+      "lastName": "Demberg"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Victoria",
+      "lastName": "Nyamai"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Vikas",
+      "lastName": "Raunak"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Vinay",
+      "lastName": "Ramasesh"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Vinay Uday",
+      "lastName": "Prabhu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Vishakh",
+      "lastName": "Padmakumar"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Vivek",
+      "lastName": "Srikumar"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "William",
+      "lastName": "Fedus"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "William",
+      "lastName": "Saunders"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "William",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Wout",
+      "lastName": "Vossen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Xiang",
+      "lastName": "Ren"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Xiaoyu",
+      "lastName": "Tong"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Xinran",
+      "lastName": "Zhao"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Xinyi",
+      "lastName": "Wu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Xudong",
+      "lastName": "Shen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yadollah",
+      "lastName": "Yaghoobzadeh"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yair",
+      "lastName": "Lakretz"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yangqiu",
+      "lastName": "Song"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yasaman",
+      "lastName": "Bahri"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yejin",
+      "lastName": "Choi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yichi",
+      "lastName": "Yang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yiding",
+      "lastName": "Hao"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yifu",
+      "lastName": "Chen"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yonatan",
+      "lastName": "Belinkov"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yu",
+      "lastName": "Hou"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yufang",
+      "lastName": "Hou"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yuntao",
+      "lastName": "Bai"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Zachary",
+      "lastName": "Seid"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Zhuoye",
+      "lastName": "Zhao"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Zijian",
+      "lastName": "Wang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Zijie J.",
+      "lastName": "Wang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Zirui",
+      "lastName": "Wang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ziyi",
+      "lastName": "Wu"
+    }
+  ],
+  "year": 2023,
+  "date": "2023-06-12",
+  "abstract": "Language models demonstrate both quantitative improvement and new qualitative capabilities with increasing scale. Despite their potentially transformative impact, these new capabilities are as yet poorly characterized. In order to inform future research, prepare for disruptive new model capabilities, and ameliorate socially harmful effects, it is vital that we understand the present and near-future capabilities and limitations of language models. To address this challenge, we introduce the Beyond the Imitation Game benchmark (BIG-bench). BIG-bench currently consists of 204 tasks, contributed by 450 authors across 132 institutions. Task topics are diverse, drawing problems from linguistics, childhood development, math, common-sense reasoning, biology, physics, social bias, software development, and beyond. BIG-bench focuses on tasks that are believed to be beyond the capabilities of current language models. We evaluate the behavior of OpenAI's GPT models, Google-internal dense transformer architectures, and Switch-style sparse transformers on BIG-bench, across model sizes spanning millions to hundreds of billions of parameters. In addition, a team of human expert raters performed all tasks in order to provide a strong baseline. Findings include: model performance and calibration both improve with scale, but are poor in absolute terms (and when compared with rater performance); performance is remarkably similar across model classes, though with benefits from sparsity; tasks that improve gradually and predictably commonly involve a large knowledge or memorization component, whereas tasks that exhibit \"breakthrough\" behavior at a critical scale often involve multiple steps or components, or brittle metrics; social bias typically increases with scale in settings with ambiguous context, but this can be improved with prompting.",
+  "tags": [
+    "@arxiv:Computer Science - Computation and Language",
+    "@arxiv:Computer Science - Artificial Intelligence",
+    "@arxiv:Computer Science - Computers and Society",
+    "@arxiv:Computer Science - Machine Learning",
+    "@arxiv:Statistics - Machine Learning"
+  ],
+  "arxiv_id": "2206.04615",
+  "doi": "10.48550/arXiv.2206.04615",
+  "pdf_url": "https://arxiv.org/pdf/2206.04615",
+  "html_url": "https://arxiv.org/html/2206.04615",
+  "source_url": "https://arxiv.org/abs/2206.04615",
+  "code_repo": "https://github.com/google/BIG-bench",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2206.04615",
+  "citation_count": 2732,
+  "zotero_item_type": "preprint",
+  "meta_source": "translator",
+  "extra": "arXiv:2206.04615 [cs.CL]",
+  "summary": "BIG-bench evaluates 204 diverse tasks across language models from millions to hundreds of billions of parameters. Scaling improves performance and calibration, but breakthrough behavior clusters in multi-step or brittle tasks, while ambiguous-context social bias often increases.",
+  "status": "completed",
+  "is_read": true,
+  "added_at": "2026-11-17T14:33:38.698Z",
+  "updated_at": "2026-11-17T15:12:05.576Z"
+}

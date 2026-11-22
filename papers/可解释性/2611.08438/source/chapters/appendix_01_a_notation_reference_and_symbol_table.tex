@@ -1,0 +1,84 @@
+\section{Notation Reference and Symbol Table}
+\label{app:notation}
+This section provides a unified reference for mathematical notation used
+throughout the paper. It is not exhaustive: symbols that appear only
+within a single section are defined where they are introduced and may not be
+listed here. Where a symbol is overloaded across subfields, the
+section-specific meaning is noted. All vectors are column vectors throughout the paper.
+
+\subsection{Dimensions and Indices}
+\begin{itemize}
+    \item $d$: residual-stream dimension; equivalently model hidden size
+    \item $d_{\text{head}}$: attention head dimension
+    \item $d_{\text{mlp}}$: MLP hidden dimension, typically $d_{\text{mlp}} \gg d$
+    \item $N_H$: number of attention heads per layer
+    \item $d_{\text{sparse}}$: dictionary size of an SAE or transcoder,
+          $d_{\text{sparse}} = e\,d$ with integer expansion factor $e$
+    \item $L$: number of layers (model depth); $\ell \in \{1,\dots,L\}$ indexes layers
+    \item $T$: sequence length (context length); $t \in \{1,\dots,T\}$ indexes token positions
+    \item $O(\cdot)$: Big-O asymptotic complexity notation
+\end{itemize}
+
+\subsection{Inputs and Activations}
+\begin{itemize}
+    \item $x$: an input prompt or a set of input prompts
+    \item $h^{1:T}_\ell \in \mathbb{R}^{d\times T}$: residual-stream activations at layer $\ell$ for token positions $1$ to $T$, whose $t$-th column is $h^t_\ell$
+    \item $h_\ell^t \in \mathbb{R}^{d}$: residual-stream activation at layer $\ell$ for token position $t$
+    \item $h_\ell \in \mathbb{R}^{d}$: residual-stream activation at layer $\ell$ with token position omitted
+    \item $h \in \mathbb{R}^{d}$: residual-stream activation with both layer and position omitted
+    \item $h'_\ell \in \mathbb{R}^{d}$: mid-block residual stream (post-attention,
+          pre-MLP) at layer $\ell$
+    \item $h_\ell^{\text{in}} \in \mathbb{R}^{d}$, $h_\ell^{\text{out}} \in \mathbb{R}^{d}$:
+          input and output of a model component, e.g., an MLP block, at layer $\ell$
+    \item $\hat{h} \in \mathbb{R}^{d}$: reconstruction of activations $h$ by a dictionary model
+    \item $\tilde{h} \in \mathbb{R}^{d}$: activation after an intervention
+          (steering, ablation, patching, etc.)
+\end{itemize}
+
+\subsection{Dictionary Learning}
+\begin{itemize}
+    \item $E : \mathbb{R}^{d} \to \mathbb{R}^{d_{\text{sparse}}}$: SAE encoder
+    \item $D : \mathbb{R}^{d_{\text{sparse}}} \to \mathbb{R}^{d}$: SAE decoder
+    \item $z \in \mathbb{R}^{d_{\text{sparse}}}$: sparse feature activations; $z^i \in \mathbb{R}$ is the activation of feature $i$; when a layer index is also present, we write $z_\ell^i$ for feature $i$ at layer $\ell$
+    \item $f_j \in \mathbb{R}^{d}$: feature direction in activation space
+          (the $j$-th column of $W_{\text{out}}$)
+    \item $W_{\text{in}} \in \mathbb{R}^{d_{\text{sparse}} \times d}$,
+          $b_{\text{in}} \in \mathbb{R}^{d_{\text{sparse}}}$: encoder weights and bias
+    \item $W_{\text{out}} \in \mathbb{R}^{d \times d_{\text{sparse}}}$,
+          $b_{\text{out}} \in \mathbb{R}^{d}$: decoder weights and bias
+    \item $k$: number of active features in a Top-$k$ SAE
+\end{itemize}
+
+\subsection{Model Parameters}
+\begin{itemize}
+    \item $W_Q^r, W_K^r, W_V^r \in \mathbb{R}^{d_{\text{head}} \times d}$, $W_O^r \in \mathbb{R}^{d \times d_{\text{head}}}$: query, key, value, and output projection matrices of the $r$-th attention head
+    \item $W_1 \in \mathbb{R}^{d_{\text{mlp}} \times d}$, $W_2 \in \mathbb{R}^{d \times d_{\text{mlp}}}$: MLP weight matrices
+    \item $b_1 \in \mathbb{R}^{d_{\mathrm{mlp}}}$,
+          $b_2 \in \mathbb{R}^{d}$:
+          MLP bias vectors
+    \item $\theta$: the collection of all trainable model parameters
+\end{itemize}
+
+\subsection{Interventions and Objectives}
+\begin{itemize}
+    \item $v_{\text{steer}} \in \mathbb{R}^{d}$: steering vector, applied as
+          $h + \alpha\, v_{\text{steer}}$
+    \item $\alpha$: scaling factor for an intervention
+    \item $\mathcal{L}$: loss function
+    \item $\lambda$: sparsity or regularisation coefficient. In
+          Appendix~\ref{app:slt}, $\lambda(\cdot)$ instead denotes the local
+          learning coefficient
+\end{itemize}
+
+\subsection{Mathematical Operations}
+\begin{itemize}
+    \item $p(y \mid x)$, $\log p(y \mid x)$: conditional probability and log probability
+    \item $\mathbb{E}[\cdot]$: expectation over the data distribution;
+          $\mathbb{E}[\cdot \mid \text{condition}]$ denotes a conditional expectation
+    \item $\|v\|$: Euclidean norm; $\|z\|_1$ and $\|z\|_0$ denote the
+          $L_1$ and $L_0$ norms
+    \item $\langle v, w \rangle$: inner product
+    \item $\odot$: element-wise product
+    \item $\otimes$: Kronecker product
+    \item $\sigma(\cdot)$: activation function
+\end{itemize}

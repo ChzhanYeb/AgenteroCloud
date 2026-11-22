@@ -1,0 +1,37 @@
+\begin{table*}[!t]
+    \centering
+    \caption{Core interpretable objects of LLMs and their mathematical notations in this paper. Here, dimensions are denoted as follows: $d_{\text{model}}$ is the model dimension, $T$ is the sequence length, $|\mathcal{V}|$ is the vocabulary size, $H$ is the number of attention heads, $d_\text{head}$ is the head dimension ($d_\text{model}/H$), $d_\text{ffn}$ is the FFN hidden dimension, and $d_\text{SAE}$ is the dictionary size of the Sparse Autoencoder.}
+    \label{tab:interpretable_objects}
+    \setlength\tabcolsep{5pt} % 稍微增加了一点间距以适应新列
+    \fontsize{9}{13}\selectfont %稍微调小一点字体防止爆表格，您可以根据实际情况改回 {10}{15}
+    \begin{tabular}{l l c c}
+    \toprule[1.3pt]
+    \textbf{Object} & & \textbf{Notation} & \textbf{Shape} \\
+    \midrule
+    \textbf{Token Embedding} (\S\ref{sec:token_embedding}) & Embedding Matrix & $\mathbf{W}_E$ & $\mathbb{R}^{|\mathcal{V}| \times d_{\text{model}}}$ \\
+    & Token $i$ Embedding (Input) & $\mathbf{x}^0_{i}$ & $\mathbb{R}^{d_{\text{model}}}$ \\
+    \addlinespace[2pt] \hdashline[1pt/1pt] \addlinespace[2pt]
+    \textbf{Residual Stream} (\S\ref{sect:block_stream}) & Residual Stream State & $\mathbf{x}^l$ & $\mathbb{R}^{T \times d_{\text{model}}}$ \\
+    & Intermediate State (Post-Attn) & $\mathbf{x}^{l, \text{mid}}$ & $\mathbb{R}^{T \times d_{\text{model}}}$ \\
+    \addlinespace[2pt] \hdashline[1pt/1pt] \addlinespace[2pt]
+    \textbf{MHA} (\S\ref{sec:mha}) & Q, K, V, O Weight Matrices & $\mathbf{W}_{Q,K,V,O}^{l,h}$ & $\mathbb{R}^{d_{\text{model}} \times d_\text{head}}$ / $\mathbb{R}^{d_\text{head} \times d_{\text{model}}}$ \\
+    & Attention Score Matrix & $\mathbf{A}^{l,h}$ & $\mathbb{R}^{T \times T}$ \\
+    & Head Output & $\mathbf{h}_{\text{attn}}^{l,h}$ & $\mathbb{R}^{T \times d_\text{model}}$ \\
+    & Block Output & $\mathbf{h}_{\text{attn}}^{l}$ & $\mathbb{R}^{T \times d_{\text{model}}}$ \\
+    \addlinespace[2pt] \hdashline[1pt/1pt] \addlinespace[2pt]
+    \textbf{FFN} (\S\ref{sec:ffn}) & In Projection (Key) Matrix & $\mathbf{W}_{\text{in}}^l$ & $\mathbb{R}^{d_{\text{model}} \times d_\text{ffn}}$\\
+    & Out Projection (Value) Matrix & $\mathbf{W}_{\text{out}}^l$ & $\mathbb{R}^{d_\text{ffn} \times d_{\text{model}}}$ \\
+    & Block Output & $\mathbf{h}_\text{ffn}^{l}$ & $\mathbb{R}^{T \times d_{\text{model}}}$ \\
+    \addlinespace[2pt] \hdashline[1pt/1pt] \addlinespace[2pt]
+    \textbf{Neuron} (\S\ref{sec:ffn})
+    & Neuron Activation State & $\mathbf{s}^l$ & $\mathbb{R}^{d_\text{ffn}}$ \\
+    & $j$-th Neuron Activation & ${s}^l_j$ & $\mathbb{R}$ (Scalar) \\
+    & $j$-th Neuron Key Weight & $\mathbf{k}_{j}^l$ & $\mathbb{R}^{d_{\text{model}}}$ \\
+    & $j$-th Neuron Value Weight & $\mathbf{v}_{j}^l$ & $\mathbb{R}^{d_{\text{model}}}$ \\
+    \addlinespace[2pt] \hdashline[1pt/1pt] \addlinespace[2pt]
+    \textbf{SAE Feature} (\S\ref{sec:sae_feature}) & Feature Activation State& $\mathbf{a}$ & $\mathbb{R}^{d_{\text{SAE}}}$ \\
+    & $j$-th Feature Activation & $a_j$ & $\mathbb{R}$ (Scalar) \\
+    & $j$-th Feature & $\mathbf{f}_j$ & $\mathbb{R}^{d_{\text{model}}}$ \\
+    \bottomrule[1.3pt]
+    \end{tabular}
+    \end{table*}

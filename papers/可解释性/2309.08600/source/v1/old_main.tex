@@ -1,0 +1,118 @@
+ %auto-ignore
+\documentclass[12pt]{article}
+
+% \usepackage{iclr2024/iclr2024_conference,times}
+
+\usepackage{old_preamble}
+
+%%%%%%%%%%%%%%%%%%%%%
+\title{Sparse Autoencoders Find Highly Interpretable Model Directions}
+
+\author[1,2]{Hoagy Cunningham\thanks{Contributed equally to this work.}}
+\author[1,*]{Aidan Ewart}
+\author[1,*]{Logan Riggs Smith}
+\author[1]{Robert Huben}
+\author[3]{Lee Sharkey}
+\affil[1]{EleutherAI}
+\affil[2]{SERI MATS}
+\affil[3]{Apollo Research}
+
+\date{August 2023}
+
+% concept = meaning
+% feature = direction, but less than rank one with meaning?? thing in dictionary
+% (I think nora uses these)
+
+\begin{document}
+\maketitle
+\begin{abstract}
+    We train autoencoders to decompose internal activations of language models into a sparse linear combination of features. We show that these features are more interpretable than other unsupervised decompositions, as measured by OpenAI's automatic interpretation protocol. By editing select feature activations we can perform precise model steering, for example by removing capabilities such as pronoun prediction, while disrupting model behaviour less than contemporary techniques. We perform a number of case studies, finding many features that are monosemantic and cause predictable effects on the model's output. This work demonstrates that interpretable features can be found in language models via unsupervised learning, which we hope will serve as a foundation for future mechanistic interpretability work.
+    
+    % Concept erasure aims to remove specified features from a representation. It can improve fairness (e.g. preventing a classifier from using gender or race) and interpretability (e.g. removing a concept to observe changes in model behavior). We introduce LEAst-squares Concept Erasure (LEACE), a closed-form method which provably prevents all linear classifiers from detecting a concept while changing the representation as little as possible, as measured by a broad class of norms. We apply LEACE to large language models with a novel procedure called “concept scrubbing,” which erases target concept information from every layer in the network. We demonstrate our method on two tasks: measuring the reliance of language models on part-of-speech information, and reducing gender bias in BERT embeddings.
+\end{abstract}
+
+
+\section{Introduction}
+
+\input{sections/introduction}
+
+\section{Taking Features out of Superposition with Sparse Dictionary Learning}
+\input{sections/dictionary_learning}
+
+\section{Interpreting Sparse Features}
+\label{section:autointerp}
+\subsection{Interpretability at Scale}
+\label{section:autointerp_background}
+\input{sections/autointerpretability_background}
+
+\subsection{Sparse coding is more interpretable than baselines}
+\input{sections/hoagy_autointerp_results}
+
+
+\section{Learned Features Excel at Concept Erasure}
+
+\label{section:concept_erasure}
+
+\input{sections/aidan_concept_editing_results}
+
+\section{Identifying Causally-Relevant Features for IOI}
+
+\input{sections/aidan_identifying_causal_features}
+
+\section{Case Studies}
+
+\label{section:case_studies}
+
+\input{sections/logan_case_studies}
+
+
+\section{Discussion}
+\input{sections/discussion_conclusion}
+
+\subsection{Acknowledgements}
+\input{sections/acknowledgements}
+
+
+
+\newpage
+\printbibliography
+
+\appendix
+
+\section{Sparse Autoencoder Hyperparameter Selection}
+
+
+
+\input{sections/appendices/hyperparameter_selection}
+
+
+\section{Causal Interventions}
+
+\input{sections/appendices/aidan_erased_feature_interp}
+
+\section{Feature Analysis}
+\label{appendix:feature_interp_examples}
+\input{sections/appendices/feature_analysis}
+
+\section{Number of Active Features}
+\label{appendix:n_features_active}
+\input{sections/appendices/prop_feats_active}
+
+\section{Outlier Dimensions}
+\label{appendix:outlier_dimensions}
+\input{sections/appendices/outlier_dimensions}
+
+% \section{Sparse Autoencoding non-residual-stream stuff}
+
+\section{Top K Comparisons}
+\label{appendix:topk}
+\input{sections/appendices/full_baselines}
+
+\input{sections/appendices/feature_MCS_results}
+
+% \section{Applications for Interpretability}
+
+% \input{sections/appendices/other_appendix}
+
+% \section{Output logit differences}
+\end{document}

@@ -1,0 +1,28 @@
+{
+  "path": "papers/待整理/2104.09864",
+  "id": "2104.09864",
+  "type": "pdf",
+  "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+  "authors": [
+    "Jianlin Su",
+    "Yu Lu",
+    "Shengfeng Pan",
+    "Ahmed Murtadha",
+    "Bo Wen",
+    "Yunfeng Liu"
+  ],
+  "year": 2021,
+  "abstract": "Position encoding recently has shown effective in the transformer architecture. It enables valuable supervision for dependency modeling between elements at different positions of the sequence. In this paper, we first investigate various methods to integrate positional information into the learning process of transformer-based language models. Then, we propose a novel method named Rotary Position Embedding(RoPE) to effectively leverage the positional information. Specifically, the proposed RoPE encodes the absolute position with a rotation matrix and meanwhile incorporates the explicit relative position dependency in self-attention formulation. Notably, RoPE enables valuable properties, including the flexibility of sequence length, decaying inter-token dependency with increasing relative distances, and the capability of equipping the linear self-attention with relative position encoding. Finally, we evaluate the enhanced transformer with rotary position embedding, also called RoFormer, on various long text classification benchmark datasets. Our experiments show that it consistently overcomes its alternatives. Furthermore, we provide a theoretical analysis to explain some experimental results. RoFormer is already integrated into Huggingface: \\url{https://huggingface.co/docs/transformers/model_doc/roformer}.",
+  "tags": [],
+  "arxiv_id": "2104.09864",
+  "code_repo": "https://github.com/ZhuiyiTechnology/WoBERT",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 7234,
+  "meta_source": "recognize",
+  "summary": "RoPE encodes absolute positions as rotations while making relative position dependence explicit in self-attention. It supports flexible sequence lengths, distance-based dependency decay, and relative encoding for linear attention, improving long-text classification over alternatives.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:35.659Z",
+  "updated_at": "2026-11-15T11:49:14.847Z"
+}

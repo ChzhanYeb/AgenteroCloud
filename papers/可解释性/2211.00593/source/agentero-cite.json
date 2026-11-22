@@ -1,0 +1,615 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-17T14:36:13.777Z",
+    "fingerprint": "011197afbc1ead4994a665a3c3797944dd0c14f7453a2cf59831d1a7a18a19ce"
+  },
+  "citations": [
+    {
+      "id": "cite-barak2022hidden",
+      "rawKey": "barak2022hidden",
+      "display": "[1]",
+      "raw": "Boaz Barak, Benjamin L Edelman, Surbhi Goel, Sham Kakade, Eran Malach, and Cyril Zhang. Hidden progress in deep learning: Sgd learns parities near the computational limit. arXiv preprint arXiv:2207.08799, 2022.",
+      "metadata": {
+        "title": "Hidden Progress in Deep Learning: SGD Learns Parities Near the Computational Limit",
+        "authors": [
+          "Boaz Barak",
+          "Benjamin L. Edelman",
+          "Surbhi Goel",
+          "S. Kakade",
+          "Eran Malach",
+          "Cyril Zhang"
+        ],
+        "year": 2022,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2207.08799",
+        "arxivId": "2207.08799",
+        "url": "https://www.semanticscholar.org/paper/f5f5616f39493566a9d502f611adcc8f1ceb394e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-interp-illusion-bert",
+      "rawKey": "interp-illusion-bert",
+      "display": "[2]",
+      "raw": "Tolga Bolukbasi, Adam Pearce, Ann Yuan, Andy Coenen, Emily Reif, Fernanda B. Viegas, and Martin Wattenberg. An interpretability illusion for BERT. CoRR, abs/2104.07143, 2021. URL https://arxiv.org/abs/2104.07143.",
+      "metadata": {
+        "title": "An Interpretability Illusion for BERT",
+        "authors": [
+          "T. Bolukbasi",
+          "Adam Pearce",
+          "Ann Yuan",
+          "A. Coenen",
+          "Emily Reif",
+          "F. Viégas",
+          "M. Wattenberg"
+        ],
+        "year": 2021,
+        "venue": "CoRR",
+        "doi": "10.48550/arXiv.2104.07143",
+        "arxivId": "2104.07143",
+        "url": "https://arxiv.org/abs/2104.07143"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-GPT3",
+      "rawKey": "GPT3",
+      "display": "[3]",
+      "raw": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. Language models are few-shot learners. In H. Larochelle, M. Ranzato, R. Hadsell, M.F. Balcan, and H. Lin (eds.), Advances in Neural Information Processing Systems, volume 33, pp. 1877--1901. Curran Associates, Inc., 2020. URL https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf.",
+      "metadata": {
+        "title": "Language Models are Few-Shot Learners",
+        "authors": [
+          "Tom B. Brown",
+          "Benjamin Mann",
+          "N. Ryder",
+          "Melanie Subbiah",
+          "Jared Kaplan",
+          "Prafulla Dhariwal",
+          "Arvind Neelakantan",
+          "Pranav Shyam",
+          "G. Sastry",
+          "Amanda Askell",
+          "S. Agarwal",
+          "A. Herbert-Voss",
+          "G. Krueger",
+          "T. Henighan",
+          "R. Child",
+          "A. Ramesh",
+          "Daniel M. Ziegler",
+          "Jeff Wu",
+          "C. Winter",
+          "C. Hesse",
+          "Mark Chen",
+          "Eric Sigler",
+          "Mateusz Litwin",
+          "Scott Gray",
+          "Benjamin Chess",
+          "Jack Clark",
+          "Christopher Berner",
+          "Sam McCandlish",
+          "A. Radford",
+          "I. Sutskever",
+          "D. Amodei"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2005.14165",
+        "arxivId": "2005.14165",
+        "url": "https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/2005.14165",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-caldarini2022literature",
+      "rawKey": "caldarini2022literature",
+      "display": "[4]",
+      "raw": "Guendalina Caldarini, Sardar Jaf, and Kenneth McGarry. A literature survey of recent advances in chatbots. Information, 13 (1): 41, 2022.",
+      "metadata": {
+        "title": "Analyzing Transformers in Embedding Space",
+        "authors": [
+          "Guy Dar",
+          "Mor Geva",
+          "Ankit Gupta",
+          "Jonathan Berant"
+        ],
+        "year": 2022,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2209.02535",
+        "arxivId": "2209.02535",
+        "url": "https://www.semanticscholar.org/paper/c7fa5c2172a4624d6baa91e66344e4520d3028ad"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-elhage2021mathematical",
+      "rawKey": "elhage2021mathematical",
+      "display": "[5]",
+      "raw": "Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Nicholas Joseph, Ben Mann, Amanda Askell, Yuntao Bai, Anna Chen, Tom Conerly, Nova DasSarma, Dawn Drain, Deep Ganguli, Zac Hatfield-Dodds, Danny Hernandez, Andy Jones, Jackson Kernion, Liane Lovitt, Kamal Ndousse, Dario Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah. A mathematical framework for transformer circuits. Transformer Circuits Thread, 2021. https://transformer-circuits.pub/2021/framework/index.html.",
+      "metadata": {
+        "title": "A mathematical framework for transformer circuits",
+        "authors": [
+          "Nelson Elhage",
+          "Neel Nanda",
+          "Catherine Olsson",
+          "Tom Henighan",
+          "Nicholas Joseph",
+          "Ben Mann",
+          "Amanda Askell",
+          "Yuntao Bai",
+          "Anna Chen",
+          "Tom Conerly",
+          "Nova DasSarma",
+          "Dawn Drain",
+          "Deep Ganguli",
+          "Zac Hatfield-Dodds",
+          "Danny Hernandez",
+          "Andy Jones",
+          "Jackson Kernion",
+          "Liane Lovitt",
+          "Kamal Ndousse",
+          "Dario Amodei",
+          "Tom Brown",
+          "Jack Clark",
+          "Jared Kaplan",
+          "Sam McCandlish",
+          "Chris Olah"
+        ],
+        "year": 2021,
+        "venue": "Transformer Circuits Thread",
+        "url": "https://transformer-circuits.pub/2021/framework/index.html"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-geiger2021causal",
+      "rawKey": "geiger2021causal",
+      "display": "[6]",
+      "raw": "Atticus Geiger, Hanson Lu, Thomas F Icard, and Christopher Potts. Causal abstractions of neural networks. In A. Beygelzimer, Y. Dauphin, P. Liang, and J. Wortman Vaughan (eds.), Advances in Neural Information Processing Systems, 2021. URL https://openreview.net/forum?id=RmuXDtjDhG.",
+      "metadata": {
+        "title": "Causal Abstractions of Neural Networks",
+        "authors": [
+          "Atticus Geiger",
+          "Hanson Lu",
+          "T. Icard",
+          "Christopher Potts"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2106.02997",
+        "arxivId": "2106.02997",
+        "url": "https://openreview.net/forum?id=RmuXDtjDhG"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-geva2020transformer",
+      "rawKey": "geva2020transformer",
+      "display": "[7]",
+      "raw": "Mor Geva, Roei Schuster, Jonathan Berant, and Omer Levy. Transformer feed-forward layers are key-value memories. arXiv preprint arXiv:2012.14913, 2020.",
+      "metadata": {
+        "title": "Transformer Feed-Forward Layers Are Key-Value Memories",
+        "authors": [
+          "Mor Geva",
+          "R. Schuster",
+          "Jonathan Berant",
+          "Omer Levy"
+        ],
+        "year": 2020,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2021.emnlp-main.446",
+        "arxivId": "2012.14913",
+        "url": "https://www.semanticscholar.org/paper/4a54d58a4b20e4f3af25cea3c188a12082a95e02"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Hendrycks2022XRiskAF",
+      "rawKey": "Hendrycks2022XRiskAF",
+      "display": "[8]",
+      "raw": "Dan Hendrycks and Mantas Mazeika. X-risk analysis for ai research. arXiv, abs/2206.05862, 2022.",
+      "metadata": {
+        "title": "X-Risk Analysis for AI Research",
+        "authors": [
+          "Dan Hendrycks",
+          "Mantas Mazeika"
+        ],
+        "year": 2022,
+        "venue": "arXiv",
+        "doi": "10.48550/arXiv.2206.05862",
+        "arxivId": "2206.05862",
+        "url": "https://www.semanticscholar.org/paper/3ba793e937cb90ea3e82b4a6903ee4a95f307ddf"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hernandez2021natural",
+      "rawKey": "hernandez2021natural",
+      "display": "[9]",
+      "raw": "Evan Hernandez, Sarah Schwettmann, David Bau, Teona Bagashvili, Antonio Torralba, and Jacob Andreas. Natural language descriptions of deep visual features. In International Conference on Learning Representations, 2021.",
+      "metadata": {
+        "title": "Natural Language Descriptions of Deep Visual Features",
+        "authors": [
+          "Evan Hernandez",
+          "Sarah E. Schwettmann",
+          "David Bau",
+          "Teona Bagashvili",
+          "A. Torralba",
+          "Jacob Andreas"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2201.11114",
+        "arxivId": "2201.11114",
+        "url": "https://www.semanticscholar.org/paper/2e7be2911be7c6c8b8016aa30953d479649f1ffe"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-attention_not_explanation",
+      "rawKey": "attention_not_explanation",
+      "display": "[10]",
+      "raw": "Sarthak Jain and Byron C. Wallace. Attention is not Explanation. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pp. 3543--3556, Minneapolis, Minnesota, June 2019. Association for Computational Linguistics. 10.18653/v1/N19-1357. URL https://aclanthology.org/N19-1357.",
+      "metadata": {
+        "title": "Attention is not Explanation",
+        "authors": [
+          "Sarthak Jain",
+          "Byron C. Wallace"
+        ],
+        "year": 2019,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/N19-1357",
+        "arxivId": "1902.10186",
+        "url": "https://aclanthology.org/N19-1357"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-meng2022locating",
+      "rawKey": "meng2022locating",
+      "display": "[11]",
+      "raw": "Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov. Locating and editing factual associations in gpt. arXiv preprint arXiv:2202.05262, 2022.",
+      "metadata": {
+        "title": "Locating and Editing Factual Associations in GPT",
+        "authors": [
+          "Kevin Meng",
+          "David Bau",
+          "A. Andonian",
+          "Yonatan Belinkov"
+        ],
+        "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems 35",
+        "doi": "10.52202/068431-1262",
+        "arxivId": "2202.05262",
+        "url": "https://www.semanticscholar.org/paper/996445d847f06e99b0bd259345408a0cf1bce87e"
+      },
+      "localMatch": {
+        "paperPath": "papers/可解释性/2202.05262",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-michel2019sixteen",
+      "rawKey": "michel2019sixteen",
+      "display": "[12]",
+      "raw": "Paul Michel, Omer Levy, and Graham Neubig. Are sixteen heads really better than one? Advances in neural information processing systems, 32, 2019.",
+      "metadata": {
+        "title": "Are Sixteen Heads Really Better than One?",
+        "authors": [
+          "Paul Michel",
+          "Omer Levy",
+          "Graham Neubig"
+        ],
+        "year": 2019,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1905.10650",
+        "arxivId": "1905.10650",
+        "url": "https://www.semanticscholar.org/paper/b03c7ff961822183bab66b2e594415e585d3fd09"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/1905.10650",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mu2020compositionalExplanations",
+      "rawKey": "mu2020compositionalExplanations",
+      "display": "[13]",
+      "raw": "Jesse Mu and Jacob Andreas. Compositional explanations of neurons. Advances in Neural Information Processing Systems, 33: 17153--17163, 2020.",
+      "metadata": {
+        "title": "Compositional Explanations of Neurons",
+        "authors": [
+          "Jesse Mu",
+          "Jacob Andreas"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2006.14032",
+        "arxivId": "2006.14032",
+        "url": "https://www.semanticscholar.org/paper/56d1003fd02346e93354ab55cd204485c268512a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-meca_interp_grokking",
+      "rawKey": "meca_interp_grokking",
+      "display": "[14]",
+      "raw": "Neel Nanda and Tom Lieberum. A mechanistic interpretability analysis of grokking, 2022. URL https://www.alignmentforum.org/posts/N6WM6hs7RQMKDhYjB/a-mechanistic-interpretability-analysis-of-grokking.",
+      "metadata": {
+        "title": "A mechanistic interpretability analysis of grokking",
+        "authors": [
+          "Neel Nanda",
+          "Tom Lieberum"
+        ],
+        "year": 2022,
+        "url": "https://www.alignmentforum.org/posts/N6WM6hs7RQMKDhYjB/a-mechanistic-interpretability-analysis-of-grokking"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-AnthropicMechanisticEssay",
+      "rawKey": "AnthropicMechanisticEssay",
+      "display": "[15]",
+      "raw": "Chris Olah. Mechanistic interpretability, variables, and the importance of interpretable bases. https://www.transformer-circuits.pub/2022/mech-interp-essay, 2022. Accessed: 2022-15-09.",
+      "metadata": {
+        "title": "Mechanistic interpretability, variables, and the importance of interpretable bases",
+        "authors": [
+          "Chris Olah"
+        ],
+        "year": 2022,
+        "venue": "https://www.transformer-circuits.pub/2022/mech-interp-essay,",
+        "url": "https://www.transformer-circuits.pub/2022/mech-interp-essay"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-olah2020zoom",
+      "rawKey": "olah2020zoom",
+      "display": "[16]",
+      "raw": "Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and Shan Carter. Zoom in: An introduction to circuits. Distill, 2020. 10.23915/distill.00024.001. https://distill.pub/2020/circuits/zoom-in.",
+      "metadata": {
+        "title": "Zoom In: An Introduction to Circuits",
+        "authors": [
+          "Christopher Olah",
+          "Nick Cammarata",
+          "Ludwig Schubert",
+          "G. Goh",
+          "Michael Petrov",
+          "Shan Carter"
+        ],
+        "year": 2020,
+        "venue": "Distill",
+        "doi": "10.23915/distill.00024.001",
+        "url": "https://distill.pub/2020/circuits/zoom-in"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-olsson2022context",
+      "rawKey": "olsson2022context",
+      "display": "[17]",
+      "raw": "Catherine Olsson, Nelson Elhage, Neel Nanda, Nicholas Joseph, Nova DasSarma, Tom Henighan, Ben Mann, Amanda Askell, Yuntao Bai, Anna Chen, et al. In-context learning and induction heads. arXiv preprint arXiv:2209.11895, 2022.",
+      "metadata": {
+        "title": "In-context Learning and Induction Heads",
+        "authors": [
+          "Catherine Olsson",
+          "Nelson Elhage",
+          "Neel Nanda",
+          "Nicholas Joseph",
+          "Nova DasSarma",
+          "T. Henighan",
+          "Benjamin Mann",
+          "Amanda Askell",
+          "Yuntao Bai",
+          "Anna Chen",
+          "Tom Conerly",
+          "Dawn Drain",
+          "Deep Ganguli",
+          "Zac Hatfield-Dodds",
+          "Danny Hernandez",
+          "Scott Johnston",
+          "Andy Jones",
+          "John Kernion",
+          "Liane Lovitt",
+          "Kamal Ndousse",
+          "D. Amodei",
+          "Tom B. Brown",
+          "Jack Clark",
+          "Jared Kaplan",
+          "Sam McCandlish",
+          "Chris Olah"
+        ],
+        "year": 2022,
+        "venue": "arXiv preprint arXiv:2209.11895",
+        "doi": "10.48550/arXiv.2209.11895",
+        "arxivId": "2209.11895",
+        "url": "https://www.semanticscholar.org/paper/c90a99eeb57019732a6cc996bb9eaf13faedf00f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-GPT2",
+      "rawKey": "GPT2",
+      "display": "[18]",
+      "raw": "Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. Language models are unsupervised multitask learners. 2019.",
+      "metadata": {
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "authors": [
+          "A. Radford",
+          "Jeff Wu",
+          "R. Child",
+          "D. Luan",
+          "D. Amodei",
+          "I. Sutskever"
+        ],
+        "year": 2019,
+        "url": "https://www.semanticscholar.org/paper/9405cc0d6169988371b2755e573cc28650d14dfe"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/language-models-are-unsupervised-multitask-learners",
+        "matchBy": "title"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-interp_survey",
+      "rawKey": "interp_survey",
+      "display": "[19]",
+      "raw": "Tilman RÃuker, Anson Ho, Stephen Casper, and Dylan Hadfield-Menell. Toward transparent ai: A survey on interpreting the inner structures of deep neural networks, 2022. URL https://arxiv.org/abs/2207.13243.",
+      "metadata": {
+        "title": "Toward Transparent AI: A Survey on Interpreting the Inner Structures of Deep Neural Networks",
+        "authors": [
+          "Tilman Räuker",
+          "A. Ho",
+          "Stephen Casper",
+          "Dylan Hadfield-Menell"
+        ],
+        "year": 2022,
+        "venue": "2023 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+        "doi": "10.48550/ARXIV.2207.13243",
+        "arxivId": "2207.13243",
+        "url": "https://arxiv.org/abs/2207.13243"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Attention",
+      "rawKey": "Attention",
+      "display": "[20]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in Neural Information Processing Systems, pp. 5998--6008, 2017.",
+      "metadata": {
+        "title": "Attention is All you Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "N. Parmar",
+          "J. Uszkoreit",
+          "L. Jones",
+          "Aidan N. Gomez",
+          "L. Kaiser",
+          "I. Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1706.03762",
+        "arxivId": "1706.03762",
+        "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/1706.03762",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vig2020investigating",
+      "rawKey": "vig2020investigating",
+      "display": "[21]",
+      "raw": "Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo, Yaron Singer, and Stuart Shieber. Investigating gender bias in language models using causal mediation analysis. Advances in Neural Information Processing Systems, 33: 12388--12401, 2020.",
+      "metadata": {
+        "title": "Investigating Gender Bias in Language Models Using Causal Mediation Analysis",
+        "authors": [
+          "J. Vig",
+          "Sebastian Gehrmann",
+          "Yonatan Belinkov",
+          "Sharon Qian",
+          "D. Nevo",
+          "Yaron Singer",
+          "S. Shieber"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://www.semanticscholar.org/paper/78d08b8ab4132defffe98ec7f80a51452203f70d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Wei2022EmergentAO",
+      "rawKey": "Wei2022EmergentAO",
+      "display": "[22]",
+      "raw": "Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, and William Fedus. Emergent abilities of large language models. ArXiv, abs/2206.07682, 2022.",
+      "metadata": {
+        "title": "Emergent Abilities of Large Language Models",
+        "authors": [
+          "Jason Wei",
+          "Yi Tay",
+          "Rishi Bommasani",
+          "Colin A. Raffel",
+          "Barret Zoph",
+          "Sebastian Borgeaud",
+          "Dani Yogatama",
+          "Maarten Bosma",
+          "Denny Zhou",
+          "Donald Metzler",
+          "Ed H. Chi",
+          "Tatsunori B. Hashimoto",
+          "O. Vinyals",
+          "P. Liang",
+          "J. Dean",
+          "W. Fedus"
+        ],
+        "year": 2022,
+        "venue": "Trans. Mach. Learn. Res.",
+        "doi": "10.48550/arXiv.2206.07682",
+        "arxivId": "2206.07682",
+        "url": "https://www.semanticscholar.org/paper/dac3a172b504f4e33c029655e9befb3386e5f63a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhang2022shifting",
+      "rawKey": "zhang2022shifting",
+      "display": "[23]",
+      "raw": "Angela Zhang, Lei Xing, James Zou, and Joseph C Wu. Shifting machine learning for healthcare from development to deployment and from models to data. Nature Biomedical Engineering, pp. 1--16, 2022.",
+      "metadata": {
+        "title": "Shifting machine learning for healthcare from development to deployment and from models to data",
+        "authors": [
+          "Angela Zhang",
+          "L. Xing",
+          "James Zou",
+          "Joseph C. Wu"
+        ],
+        "year": 2022,
+        "venue": "Nature Biomedical Engineering",
+        "doi": "10.1038/s41551-022-00898-y",
+        "url": "https://www.semanticscholar.org/paper/3ac52f3e6f185ef61bd35b74ae8a5c2bde4d1997"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 23 entries (bbl)",
+    "semantic scholar: 31 references",
+    "merged: 23 of 23 enriched online"
+  ]
+}

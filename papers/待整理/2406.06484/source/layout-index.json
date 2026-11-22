@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-18T01:48:05.206Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "figure-1",
+      "stableKey": "p5:figure:Figure 1: Speed-up of the chunkwise parallel form vs. the recurrent form.",
+      "kind": "chart",
+      "section": "figure",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.599392012053845,
+        "y": 0.6359938419226444,
+        "w": 0.22607885622510726,
+        "h": 0.16544908465761132
+      },
+      "score": 0.7493830919265747,
+      "title": "Figure 1: Speed-up of the chunkwise parallel form vs. the recurrent form.",
+      "layoutRegionId": "495fe59e-07c8-4bd0-83b7-5671c5e12488"
+    },
+    {
+      "id": "figure-p6-0496_0213_0332_0196",
+      "stableKey": "p6:figure:Inputs Figure 2: An illustration of DeltaNet neural architec ture.",
+      "kind": "image",
+      "section": "figure",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.4959737740310968,
+        "y": 0.21338788427487768,
+        "w": 0.33189576591541564,
+        "h": 0.19628632670701154
+      },
+      "score": 0.9454926252365112,
+      "title": "Inputs Figure 2: An illustration of DeltaNet neural architec ture.",
+      "layoutRegionId": "4af890b8-f378-4dee-adc2-7a96efd4ccd2"
+    },
+    {
+      "id": "figure-p7-0175_0195_0648_0124",
+      "stableKey": "p7:figure:Model dimension Figure 3: Results on the synthetic MAD benchmark. Results other ",
+      "kind": "chart",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.1746628829856324,
+        "y": 0.19539792609937262,
+        "w": 0.6475381664201325,
+        "h": 0.12427746165882458
+      },
+      "score": 0.8661737442016602,
+      "title": "Model dimension Figure 3: Results on the synthetic MAD benchmark. Results other than DeltaNet are directly borrowed from Poli et al. [ 84 ]. (Multi-head) Hyena, Figure 4: Accuracy (%) on MQAR. DeltaNet and Mamba make use of convolutions, whereas GLA doe s not.",
+      "layoutRegionId": "c6ada840-0bb4-44d3-a010-abd74d296149"
+    },
+    {
+      "id": "figure-5",
+      "stableKey": "p8:figure:Figure 5: Zero-shot model performance across selected benchmarks for 3B models. ",
+      "kind": "chart",
+      "section": "figure",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.17647058823529413,
+        "y": 0.46273992519186,
+        "w": 0.6421568627450981,
+        "h": 0.16352270107076627
+      },
+      "score": 0.9,
+      "title": "Figure 5: Zero-shot model performance across selected benchmarks for 3B models. Llama-3.2-3B and PowerLM-3B are Transformer models, while the others are recurrent models. ARC results are averaged over normalized accuracy across ARC-Easy and ARC Figure 6: Training throughput of 1.3B Challenge.",
+      "layoutRegionId": "3912c318-f841-4591-afbc-312ddd00beb0"
+    },
+    {
+      "id": "figure-p22-0567_0347_0156_0089",
+      "stableKey": "p22:figure:0.567_0.347_0.156_0.089",
+      "kind": "chart",
+      "section": "figure",
+      "page": 22,
+      "pageIndex": 21,
+      "bbox": {
+        "x": 0.5668598249846813,
+        "y": 0.3468729654947917,
+        "w": 0.1559747434129902,
+        "h": 0.0891829596625434
+      },
+      "score": 0.7866313457489014,
+      "layoutRegionId": "44248263-f9d7-44a8-bd95-c39723183309"
+    },
+    {
+      "id": "figure-p22-0723_0352_0101_0070",
+      "stableKey": "p22:figure:0.723_0.352_0.101_0.070",
+      "kind": "image",
+      "section": "figure",
+      "page": 22,
+      "pageIndex": 21,
+      "bbox": {
+        "x": 0.7231881135429432,
+        "y": 0.3518994263928346,
+        "w": 0.10063256157769097,
+        "h": 0.07046092640269887
+      },
+      "score": 0.5684869289398193,
+      "layoutRegionId": "34aab124-25e8-46d1-a734-0a3ba4210479"
+    },
+    {
+      "id": "table-p7-0178_0188_0421_0082",
+      "stableKey": "p7:table:0.178_0.188_0.421_0.082",
+      "kind": "table",
+      "section": "table",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.17817651835921544,
+        "y": 0.18839918965041036,
+        "w": 0.42071255203945185,
+        "h": 0.08229893385761916
+      },
+      "score": 0.8732621669769287,
+      "layoutRegionId": "03ef7162-0ffb-4822-86a6-fd5cbc00491c"
+    },
+    {
+      "id": "table-p8-0176_0090_0650_0278",
+      "stableKey": "p8:table:0.176_0.090_0.650_0.278",
+      "kind": "table",
+      "section": "table",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.17600983264399508,
+        "y": 0.0896531596328273,
+        "w": 0.650494344873366,
+        "h": 0.27844632273972636
+      },
+      "score": 0.9471335411071777,
+      "layoutRegionId": "ed9e6240-7533-43e6-afb6-488c8ea5a609"
+    },
+    {
+      "id": "table-p8-0177_0474_0402_0081",
+      "stableKey": "p8:table:0.177_0.474_0.402_0.081",
+      "kind": "table",
+      "section": "table",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.17705932317995557,
+        "y": 0.4740971266621291,
+        "w": 0.4021535885879417,
+        "h": 0.08082746255277383
+      },
+      "score": 0.806605339050293,
+      "layoutRegionId": "4afb3dde-cc45-44eb-9a82-956c90c6509a"
+    },
+    {
+      "id": "table-p9-0179_0087_0643_0236",
+      "stableKey": "p9:table:0.179_0.087_0.643_0.236",
+      "kind": "table",
+      "section": "table",
+      "page": 9,
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.17911473442526424,
+        "y": 0.08710536571464153,
+        "w": 0.642784430310617,
+        "h": 0.23601937534833195
+      },
+      "score": 0.896255612373352,
+      "layoutRegionId": "2c2bd512-5bcb-417f-bfec-1c3b627a727f"
+    },
+    {
+      "id": "algorithm-p25-0152_0133_0649_0443",
+      "stableKey": "p25:algorithm:0.152_0.133_0.649_0.443",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 25,
+      "pageIndex": 24,
+      "bbox": {
+        "x": 0.15193716061660667,
+        "y": 0.1328208904073696,
+        "w": 0.6488031000872843,
+        "h": 0.44259197543365786
+      },
+      "score": 0.9506977796554565,
+      "layoutRegionId": "1bc5fa22-e82a-499c-adf7-8b7fe959e35d"
+    },
+    {
+      "id": "formula-p3-0664_0337_0161_0017",
+      "stableKey": "p3:formula:0.664_0.337_0.161_0.017",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.6640322317484937,
+        "y": 0.3370047289915759,
+        "w": 0.16075792499617036,
+        "h": 0.017063564724392355
+      },
+      "score": 0.7840029001235962,
+      "layoutRegionId": "1f9bcce0-4d77-4acc-9864-d368dfdca6c5"
+    },
+    {
+      "id": "formula-p3-0285_0360_0539_0024",
+      "stableKey": "p3:formula:0.285_0.360_0.539_0.024",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.2854255975461474,
+        "y": 0.3599537165478022,
+        "w": 0.5394433962753395,
+        "h": 0.02356839420819523
+      },
+      "score": 0.7885755300521851,
+      "layoutRegionId": "b4ff4d29-fdb8-42e8-a7f7-55e795ad284f"
+    },
+    {
+      "id": "formula-p4-0180_0623_0645_0051",
+      "stableKey": "p4:formula:0.180_0.623_0.645_0.051",
+      "kind": "formula",
+      "section": "formula",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.17971930161021113,
+        "y": 0.6234421778206873,
+        "w": 0.6454588073531008,
+        "h": 0.05112576725507023
+      },
+      "score": 0.8823761940002441,
+      "layoutRegionId": "c3bcec9a-b832-4c13-b0ad-830757e7f59b"
+    },
+    {
+      "id": "formula-p4-0245_0807_0580_0045",
+      "stableKey": "p4:formula:0.245_0.807_0.580_0.045",
+      "kind": "formula",
+      "section": "formula",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.24541159237132354,
+        "y": 0.8065489181364426,
+        "w": 0.5802307627559486,
+        "h": 0.045114613542653115
+      },
+      "score": 0.9189441204071045,
+      "layoutRegionId": "7a996884-5787-48a8-a720-1e5d3bfb2aa2"
+    },
+    {
+      "id": "formula-p5-0424_0161_0402_0017",
+      "stableKey": "p5:formula:0.424_0.161_0.402_0.017",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.42400773989608864,
+        "y": 0.16061453385786575,
+        "w": 0.4016620411592371,
+        "h": 0.016886084970801768
+      },
+      "score": 0.8548451662063599,
+      "layoutRegionId": "c6835c22-a07d-4ecd-9d27-8b72516eb0a6"
+    },
+    {
+      "id": "formula-p5-0198_0244_0627_0029",
+      "stableKey": "p5:formula:0.198_0.244_0.627_0.029",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.19802466249154285,
+        "y": 0.24357208097823943,
+        "w": 0.6274826573390586,
+        "h": 0.028526845604482348
+      },
+      "score": 0.7902927398681641,
+      "layoutRegionId": "95bc3cd1-94b4-455a-82ae-46d0d762668e"
+    },
+    {
+      "id": "formula-p5-0198_0280_0627_0040",
+      "stableKey": "p5:formula:0.198_0.280_0.627_0.040",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.19782229654150071,
+        "y": 0.2804655402597755,
+        "w": 0.6270923240512025,
+        "h": 0.04000247608531604
+      },
+      "score": 0.789699912071228,
+      "layoutRegionId": "3e522c69-1e94-4b4b-aaf9-b3c09c2f1080"
+    },
+    {
+      "id": "formula-p5-0313_0457_0512_0021",
+      "stableKey": "p5:formula:0.313_0.457_0.512_0.021",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.312981723959929,
+        "y": 0.4571346706814236,
+        "w": 0.5119077146442887,
+        "h": 0.021403649840692096
+      },
+      "score": 0.8653579950332642,
+      "layoutRegionId": "d1d226b6-4eee-47c0-aad2-8cf3d9aada8f"
+    },
+    {
+      "id": "formula-p5-0327_0484_0498_0022",
+      "stableKey": "p5:formula:0.327_0.484_0.498_0.022",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.3267221139147391,
+        "y": 0.48421316435842804,
+        "w": 0.4980606128966886,
+        "h": 0.022302993620284928
+      },
+      "score": 0.8937942981719971,
+      "layoutRegionId": "5e427415-13d8-4d64-9f92-57b8a711d5fe"
+    },
+    {
+      "id": "formula-p5-0315_0585_0510_0022",
+      "stableKey": "p5:formula:0.315_0.585_0.510_0.022",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.3151736041299658,
+        "y": 0.5847734393495502,
+        "w": 0.5097682927948197,
+        "h": 0.021813864659781412
+      },
+      "score": 0.8711566925048828,
+      "layoutRegionId": "40cc7b71-20eb-4c12-9f9e-f207b9fa3191"
+    },
+    {
+      "id": "formula-p5-0309_0610_0516_0019",
+      "stableKey": "p5:formula:0.309_0.610_0.516_0.019",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.30940792607326134,
+        "y": 0.6100469647031842,
+        "w": 0.5155377107508041,
+        "h": 0.019032256771819744
+      },
+      "score": 0.8175256252288818,
+      "layoutRegionId": "3f59c16c-ae8c-4d6e-9bb4-7b550c950d86"
+    },
+    {
+      "id": "formula-p23-0501_0882_0325_0031",
+      "stableKey": "p23:formula:0.501_0.882_0.325_0.031",
+      "kind": "formula",
+      "section": "formula",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.5008357926910999,
+        "y": 0.8822200274226641,
+        "w": 0.3247335596022264,
+        "h": 0.03072441948784721
+      },
+      "score": 0.8103508949279785,
+      "layoutRegionId": "ef3e68e9-7299-4d4f-b525-d2409abeeb18"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+%%%%%% ICML 2025 EXAMPLE LATEX SUBMISSION FILE %%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{booktabs}
+\usepackage{graphicx} 
+\usepackage{amssymb}
+\usepackage{cite}     
+\usepackage{multirow}
+% hyperref makes hyperlinks in the resulting PDF.
+% If your build breaks (sometimes temporarily if a hyperlink spans a page)
+% please comment out the following usepackage line and replace
+% \usepackage{icml2025} with \usepackage[nohyperref]{icml2025} above.
+\usepackage{hyperref}
+% Attempt to make hyperref and algorithmic work together better:
+% \usepackage{algorithm}
+% \usepackage{algorithmic}
+% \usepackage{algpseudocode}
+
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+% Use the following line for the initial blind version submitted for review:
+% \usepackage{icml2025}
+% If accepted, instead use the following line for the camera-ready submission:
+\usepackage[accepted]{icml2025}
+% For theorems and such
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{adjustbox}
+% if you use cleveref..
+\usepackage[capitalize,noabbrev]{cleveref}
+% Todonotes is useful during development; simply uncomment the next line
+%    and comment out the line below the next line to turn off comments
+%\usepackage[disable,textsize=tiny]{todonotes}
+\usepackage[textsize=tiny]{todonotes}
+% The \icmltitle you define below is probably too long as a header.
+% Therefore, a short form for the running title is supplied here:
+% \icmltitlerunning{Submission and Formatting Instructions for ICML 2025}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\sz}[1]{\textcolor{red}{\textbf{}#1}}
+\usepackage{xcolor}
+\usepackage{hyperref} 
+\usepackage{tikz}
+\input{macro-math.tex}
+\definecolor{mydarkblue}{rgb}{0,0.08,0.45} 
+\hypersetup{
+    citecolor= blue!70,
+    linkcolor= mydarkblue
+}
+\usepackage{tikz}
+\usetikzlibrary{trees} % Explicitly load the trees library
+\usepackage[edges]{forest}
+\tikzset{%
+    parent/.style =          {align=center,text width=2cm,rounded corners=3pt, line width=0.3mm},%, fill=gray!10,draw=gray!80},
+    child/.style =           {align=center,text width=2.3cm,rounded corners=3pt, fill=blue!10,draw=blue!80,line width=0.3mm},
+    grandchild/.style =      {align=center,text width=2cm,rounded corners=3pt},
+    greatgrandchild/.style = {align=center,text width=1.5cm,rounded corners=3pt},
+    greatgrandchild2/.style = {align=center,text width=1.5cm,rounded corners=3pt},    
+    referenceblock/.style =  {align=center,text width=1.5cm,rounded corners=2pt},
+    %%%% Re-define
+    % Pretrain Model
+    pretrain/.style =           {align=center,text width=2.9cm,rounded corners=3pt, fill=blue!10,draw=blue!80,line width=0.3mm},   
+    pretrain_work/.style =           {align=center, text width=2.9cm,rounded corners=3pt, fill=blue!10,draw=blue!0,line width=0.3mm},  
+    % Template Mining
+    template/.style =           {align=center,text width=2.9cm,rounded corners=3pt, fill=red!10,draw=red!80,line width=0.3mm},   
+    template_work/.style =           {align=center,text width=2.9cm,rounded corners=3pt, fill=red!10,draw=red!0,line width=0.3mm},    
+    % Answering Mining
+    answer/.style =           {align=center,text width=2.9cm,rounded corners=3pt,line width=0.3mm},%, fill= cyan!10,draw= cyan!80,},   
+    answer_work/.style =           {align=center,text width=2.9cm,rounded corners=3pt,line width=0.3mm},%, fill= cyan!10,draw= cyan!0,},      
+    % Multi-prompt 
+    multiple/.style =           {align=center,text width=2.9cm,rounded corners=3pt, fill= orange!10,draw= orange!80,line width=0.3mm},   
+    multiple_work/.style =           {align=center,text width=2.9cm,rounded corners=3pt, fill= orange!10,draw= orange!0,line width=0.3mm},        
+    % Tuning Strategy
+    tuning/.style =           {align=center,text width=2.9cm,rounded corners=3pt, fill= magenta!10,draw= magenta!80,line width=0.3mm},   
+    tuning_work/.style =           {align=center,text width=2.9cm,rounded corners=3pt, fill= magenta!10,draw= magenta!0,line width=0.3mm},
+    % Assurance
+    assurance/.style =           {align=center,text width=2.9cm,rounded corners=3pt, fill= green!10,draw= green!80,line width=0.3mm},   
+    assurance/.style =           {align=center,text width=2.9cm,rounded corners=3pt, fill= green!10,draw= green!0,line width=0.3mm},
+}
+\usepackage{color}
+\usepackage{colortbl}
+\cellcolor{gray!0}  
+\definecolor{Gray}{gray}{0.9}
+\usepackage{xcolor}
+\newcounter{round}
+\usepackage{etoc}
+\etocdepthtag.toc{mtchapter}
+\etocsettagdepth{mtchapter}{subsection}
+\etocsettagdepth{mtappendix}{none}
+\usepackage[breakable]{tcolorbox}
+\usepackage{hyperref}
+\newcommand{\finding}[2]{
+    % args:
+    %   1: finding number
+    %   2: finding text
+    \vspace{-0.1cm}
+    \begin{tcolorbox}[
+        colback=white!90!gray,     % Soft ivory background
+        colframe=teal!60!black,     % Deep navy frame color
+        arc=5pt,                    % Less rounded corners for a modern look
+        boxsep=5pt,                 % Inner margin between text and frame
+        left=10pt,                  % Left margin within the box
+        right=10pt,                 % Right margin within the box
+        top=2pt,                    % Top margin within the box
+        bottom=2pt,                 % Bottom margin within the box
+        boxrule=0.8pt,              % Frame thickness
+        % enhanced jigsaw removed
+    ]
+    \vspace{-0.1cm}
+        \paragraph{\textbf{\textit{Finding #1:}}} #2
+    \vspace{-0.1cm}
+    \end{tcolorbox}
+    \vspace{-0.3cm}
+}
+ 
+\newtcolorbox{boxL}{
+    fontupper = \color{black},
+    rounded corners,
+    arc = 6pt,
+    colframe = black!50, 
+    boxrule = 0pt, 
+    bottomrule = 4.5pt ,
+    breakable,
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\twocolumn[
+
+\icmltitle{Which Agent Causes Task Failures and When? \\ On Automated Failure Attribution of LLM Multi-Agent Systems}
+% It is OKAY to include author information, even for blind
+% submissions: the style file will automatically remove it for you
+% unless you've provided the [accepted] option to the icml2025
+% package.
+
+% List of affiliations: The first argument should be a (short)
+% identifier you will use later to specify author affiliations
+% Academic affiliations should list Department, University, City, Region, Country
+% Industry affiliations should list Company, City, Region, Country
+
+% You can specify symbols, otherwise they are numbered in order.
+% Ideally, you should not use this facility. Affiliations will be numbered
+% in order of appearance and this is the preferred way.
+% \icmlsetsymbol{equal}{*}
+
+\icmlsetsymbol{equal}{*}
+\icmlsetsymbol{corr}{\dag}
+
+\begin{icmlauthorlist}
+\icmlauthor{Shaokun Zhang}{equal,corr,psu}
+\icmlauthor{Ming Yin}{equal,duke}
+\icmlauthor{Jieyu Zhang}{uw}
+\icmlauthor{Jiale Liu}{psu}
+\icmlauthor{Zhiguang Han}{ntu}
+\icmlauthor{Jingyang Zhang}{duke}
+\icmlauthor{Beibin Li}{meta}
+\icmlauthor{Chi Wang}{gdm}
+\icmlauthor{Huazheng Wang}{osu}
+\icmlauthor{Yiran Chen}{duke}
+\icmlauthor{Qingyun Wu}{psu,ag2}
+\end{icmlauthorlist}
+
+\icmlaffiliation{psu}{Pennsylvania State University}
+\icmlaffiliation{duke}{Duke University}
+\icmlaffiliation{uw}{University of Washington}
+\icmlaffiliation{osu}{Oregon State University}
+\icmlaffiliation{gdm}{Google DeepMind}
+\icmlaffiliation{ntu}{Nanyang Technological University}
+\icmlaffiliation{meta}{Meta}
+\icmlaffiliation{ag2}{AG2AI, Inc.}
+
+\icmlcorrespondingauthor{\dag Shaokun Zhang}{shaokun.zhang@psu.edu}
+
+% You may provide any keywords that you
+% find helpful for describing your paper; these are used to populate
+% the "keywords" metadata in the PDF but will not be shown in the document
+\icmlkeywords{Machine Learning, ICML}
+\vskip 0.3in
+]
+
+% this must go after the closing bracket ] following \twocolumn[ ...
+
+% This command actually creates the footnote in the first column
+% listing the affiliations and the copyright notice.
+% The command takes one argument, which is text to display at the start of the footnote.
+% The \icmlEqualContribution command is standard text for equal contribution.
+% Remove it (just {}) if you do not need this facility.
+
+%\printAffiliationsAndNotice{}  % leave blank if no need to mention equal contribution
+% \printAffiliationsAndNotice{\icmlEqualContribution} % otherwise use the standard text.
+\printAffiliationsAndNotice{\icmlEqualContribution} % otherwise use the standard text.
+
+% this must go after the closing bracket ] following \twocolumn[ ...
+% This command actually creates the footnote in the first column
+% listing the affiliations and the copyright notice.
+% The command takes one argument, which is text to display at the start of the footnote.
+% The \icmlEqualContribution command is standard text for equal contribution.
+% Remove it (just {}) if you do not need this facility.
+% \printAffiliationsAndNotice{}  % leave blank if no need to mention equal contribution
+% \printAffiliationsAndNotice{\icmlEqualContribution} % otherwise use the standard text.
+% \section{Electronic Submission}
+% \label{submission}
+
+% \begin{center}
+% \textbf{\texttt{http://icml.cc/}}
+% \end{center}
+
+% \subsection{Citations and References}
+% In the unusual situation where you want a paper to appear in the
+% references without citing it in the main text, use \nocite
+% \nocite{langley00}
+
+\input{_introduction}
+\input{_problem_formulation}
+\input{_dataset}
+\input{_exp}
+\input{_conclusion}
+
+\clearpage
+\newpage
+\section*{Impact Statement}
+
+Our approach has societal implications, both positive and negative.
+On the positive side, our work contributes to the efficient development of multi-agent systems powered by LLMs, enabling their application across a wide range of domains. 
+Incorporating mechanisms for failure attribution and conduct corresponding improvement, these advancements have the potential to enhance LLM multi-agent systems significantly.
+However, the work also introduces potential risks. 
+For instance, granting these systems the ability to modify external environments, such as executing code on computers, could lead to unintended consequences. 
+
+\bibliography{reference}
+\bibliographystyle{icml2025}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% APPENDIX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{_app}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+% This document was modified from the file originally made available by
+% Pat Langley and Andrea Danyluk for ICML-2K. This version was created
+% by Iain Murray in 2018, and modified by Alexandre Bouchard in
+% 2019 and 2021 and by Csaba Szepesvari, Gang Niu and Sivan Sabato in 2022.
+% Modified again in 2023 and 2024 by Sivan Sabato and Jonathan Scarlett.
+% Previous contributors include Dan Roy, Lise Getoor and Tobias
+% Scheffer, which was slightly modified from the 2010 version by
+% Thorsten Joachims & Johannes Fuernkranz, slightly modified from the
+% 2009 version by Kiri Wagstaff and Sam Roweis's 2008 version, which is
+% slightly modified from Prasad Tadepalli's 2007 version which is a
+% lightly changed version of the previous year's version by Andrew
+% Moore, which was in turn edited from those of Kristian Kersting and
+% Codrina Lauth. Alex Smola contributed to the algorithmic style files.
+

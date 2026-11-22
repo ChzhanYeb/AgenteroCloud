@@ -1,0 +1,2092 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-17T14:34:54.918Z",
+    "fingerprint": "b9486221788cc7cfd903799eac485365089934bbeafc5224045acb1831a8797e"
+  },
+  "citations": [
+    {
+      "id": "cite-tolstoy1878",
+      "rawKey": "tolstoy1878",
+      "display": "[1]",
+      "raw": "Leo Tolstoy. Anna Karenina. The Russian Messenger, 1878.",
+      "metadata": {
+        "title": "Anna Karenina",
+        "authors": [
+          "M. Chowdhury"
+        ],
+        "year": 2011,
+        "venue": "BMJ : British Medical Journal",
+        "doi": "10.1136/bmj.d5416",
+        "url": "https://www.semanticscholar.org/paper/bc72ee882ac0b7786c661f1653489bb207f6e1ee"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-patil2023gorillalargelanguagemodel",
+      "rawKey": "patil2023gorillalargelanguagemodel",
+      "display": "[2]",
+      "raw": "Shishir G. Patil, Tianjun Zhang, Xin Wang, and Joseph E. Gonzalez. Gorilla: Large language model connected with massive apis, 2023. URL https://arxiv.org/abs/2305.15334.",
+      "metadata": {
+        "title": "Gorilla: Large Language Model Connected with Massive APIs",
+        "authors": [
+          "Shishir G. Patil",
+          "Tianjun Zhang",
+          "Xin Wang",
+          "Joseph E. Gonzalez"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.52202/079017-4020",
+        "arxivId": "2305.15334",
+        "url": "https://arxiv.org/abs/2305.15334"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-packer2024memgptllmsoperatingsystems",
+      "rawKey": "packer2024memgptllmsoperatingsystems",
+      "display": "[3]",
+      "raw": "Charles Packer, Sarah Wooders, Kevin Lin, Vivian Fang, Shishir G. Patil, Ion Stoica, and Joseph E. Gonzalez. Memgpt: Towards llms as operating systems, 2024. URL https://arxiv.org/abs/2310.08560.",
+      "metadata": {
+        "title": "MemGPT: Towards LLMs as Operating Systems",
+        "authors": [
+          "Charles Packer",
+          "Sarah Wooders",
+          "Kevin Lin",
+          "Vivian Fang",
+          "Shishir G. Patil",
+          "I. Stoica",
+          "Joseph Gonzalez"
+        ],
+        "year": 2023,
+        "doi": "10.48550/arXiv.2310.08560",
+        "arxivId": "2310.08560",
+        "url": "https://arxiv.org/abs/2310.08560"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Wang_2024",
+      "rawKey": "Wang_2024",
+      "display": "[4]",
+      "raw": "Lei Wang, Chen Ma, Xueyang Feng, Zeyu Zhang, Hao Yang, Jingsen Zhang, Zhiyuan Chen, Jiakai Tang, Xu Chen, Yankai Lin, Wayne Xin Zhao, Zhewei Wei, and Jirong Wen. A survey on large language model based autonomous agents. Frontiers of Computer Science, 18 (6), March 2024a. ISSN 2095-2236. 10.1007/s11704-024-40231-1. URL http://dx.doi.org/10.1007/s11704-024-40231-1.",
+      "metadata": {
+        "title": "A survey on large language model based autonomous agents",
+        "authors": [
+          "Lei Wang",
+          "Chengbang Ma",
+          "Xue-Yang Feng",
+          "Ze-Yu Zhang",
+          "Hao-ran Yang",
+          "Jing-Sen Zhang",
+          "Zhi-Yang Chen",
+          "Jia-Kai Tang",
+          "Xu Chen",
+          "Yan-Kai Lin",
+          "W. Zhao",
+          "Zhe-Wei Wei",
+          "Ji-Rong Wen"
+        ],
+        "year": 2023,
+        "venue": "Frontiers of Computer Science",
+        "doi": "10.1007/s11704-024-40231-1",
+        "arxivId": "2308.11432",
+        "url": "http://dx.doi.org/10.1007/s11704-024-40231-1"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chatdev",
+      "rawKey": "chatdev",
+      "display": "[5]",
+      "raw": "Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, and Maosong Sun. Chatdev: Communicative agents for software development. arXiv preprint arXiv:2307.07924, 2023. URL https://arxiv.org/abs/2307.07924.",
+      "metadata": {
+        "title": "ChatDev: Communicative Agents for Software Development",
+        "authors": [
+          "Cheng Qian",
+          "Wei Liu",
+          "Hongzhang Liu",
+          "Nuo Chen",
+          "Yu-Fan Dang",
+          "Jia-Hao Li",
+          "Cheng Yang",
+          "Weize Chen",
+          "Yusheng Su",
+          "Xin Cong",
+          "Juyuan Xu",
+          "Dahai Li",
+          "Zhi-Yuan Liu",
+          "Mao-Song Sun"
+        ],
+        "year": 2023,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2024.acl-long.810",
+        "arxivId": "2307.07924",
+        "url": "https://arxiv.org/abs/2307.07924"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2024openhandsopenplatformai",
+      "rawKey": "wang2024openhandsopenplatformai",
+      "display": "[6]",
+      "raw": "Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, Hoang H. Tran, Fuqiang Li, Ren Ma, Mingzhang Zheng, Bill Qian, Yanjun Shao, Niklas Muennighoff, Yizhe Zhang, Binyuan Hui, Junyang Lin, Robert Brennan, Hao Peng, Heng Ji, and Graham Neubig. Openhands: An open platform for ai software developers as generalist agents, 2024b. URL https://arxiv.org/abs/2407.16741.",
+      "metadata": {
+        "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+        "authors": [
+          "Xingyao Wang",
+          "Bo-Xuan Li",
+          "Yufan Song",
+          "Frank F. Xu",
+          "Xiangru Tang",
+          "Ming-Chen Zhuge",
+          "Jiayi Pan",
+          "Yue-Qi Song",
+          "Bo-Wen Li",
+          "Jaskirat Singh",
+          "Hoang H. Tran",
+          "Fuqiang Li",
+          "Ren Ma",
+          "Mingzhang Zheng",
+          "Bill Qian",
+          "Yanjun Shao",
+          "Niklas Muennighoff",
+          "Yi-Zhe Zhang",
+          "Bin-Yuan Hui",
+          "Jun-Yang Lin",
+          "Robert Brennan",
+          "Hao Peng",
+          "H. Ji",
+          "Graham Neubig"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations",
+        "arxivId": "2407.16741",
+        "url": "https://arxiv.org/abs/2407.16741"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gottweis2025aicoscientist",
+      "rawKey": "gottweis2025aicoscientist",
+      "display": "[7]",
+      "raw": "Juraj Gottweis, Wei-Hung Weng, Alexander Daryin, Tao Tu, Anil Palepu, Petar Sirkovic, Artiom Myaskovsky, Felix Weissenberger, Keran Rong, Ryutaro Tanno, Khaled Saab, Dan Popovici, Jacob Blum, Fan Zhang, Katherine Chou, Avinatan Hassidim, Burak Gokturk, Amin Vahdat, Pushmeet Kohli, Yossi Matias, Andrew Carroll, Kavita Kulkarni, Nenad Tomasev, Yuan Guan, Vikram Dhillon, Eeshit Dhaval Vaishnav, Byron Lee, Tiago R D Costa, JosÃ R PenadÃs, Gary Peltz, Yunhan Xu, Annalisa Pawlosky, Alan Karthikesalingam, and Vivek Natarajan. Towards an ai co-scientist, 2025. URL https://arxiv.org/abs/2502.18864.",
+      "metadata": {
+        "title": "LLM as a Judge",
+        "authors": [
+          "Md. Faizul Ibne Amin"
+        ],
+        "year": 2025,
+        "venue": "Journal of Japan Society for Fuzzy Theory and Intelligent Informatics",
+        "doi": "10.3156/jsoft.37.3_69_1",
+        "arxivId": "2502.18864",
+        "url": "https://arxiv.org/abs/2502.18864"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Swanson2024.11.11.623004",
+      "rawKey": "Swanson2024.11.11.623004",
+      "display": "[8]",
+      "raw": "Kyle Swanson, Wesley Wu, Nash L. Bulaong, John E. Pak, and James Zou. The virtual lab: Ai agents design new sars-cov-2 nanobodies with experimental validation. bioRxiv, 2024. 10.1101/2024.11.11.623004. URL https://www.biorxiv.org/content/early/2024/11/12/2024.11.11.623004.",
+      "metadata": {
+        "title": "The Virtual Lab: AI Agents Design New SARS-CoV-2 Nanobodies with Experimental Validation",
+        "authors": [
+          "Kyle Swanson",
+          "Wesley Wu",
+          "Nash L. Bulaong",
+          "J. Pak",
+          "James Y. Zou"
+        ],
+        "year": 2024,
+        "venue": "bioRxiv",
+        "doi": "10.1101/2024.11.11.623004",
+        "url": "https://www.biorxiv.org/content/early/2024/11/12/2024.11.11.623004"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-park2023generativeagentsinteractivesimulacra",
+      "rawKey": "park2023generativeagentsinteractivesimulacra",
+      "display": "[9]",
+      "raw": "Joon Sung Park, Joseph C. O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, and Michael S. Bernstein. Generative agents: Interactive simulacra of human behavior, 2023a. URL https://arxiv.org/abs/2304.03442.",
+      "metadata": {
+        "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+        "authors": [
+          "J. Park",
+          "Joseph O'Brien",
+          "C. Cai",
+          "M. Morris",
+          "Percy Liang",
+          "Michael S. Bernstein"
+        ],
+        "year": 2023,
+        "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+        "doi": "10.1145/3586183.3606763",
+        "arxivId": "2304.03442",
+        "url": "https://arxiv.org/abs/2304.03442"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-openmanus2025",
+      "rawKey": "openmanus2025",
+      "display": "[10]",
+      "raw": "Xinbin Liang, Jinyu Xiang, Zhaoyang Yu, Jiayi Zhang, and Sirui Hong. Openmanus: An open-source framework for building general ai agents. https://github.com/mannaandpoem/OpenManus, 2025.",
+      "metadata": {
+        "title": "OpenManus: An open-source framework for building general AI agents",
+        "authors": [
+          "Xinbin Liang",
+          "Jinyu Xiang",
+          "Zhaoyang Yu",
+          "Jiayi Zhang",
+          "Sirui Hong"
+        ],
+        "year": 2025,
+        "venue": "GitHub repository",
+        "url": "https://github.com/mannaandpoem/OpenManus"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fourney2024magentic",
+      "rawKey": "fourney2024magentic",
+      "display": "[11]",
+      "raw": "Adam Fourney, Gagan Bansal, Hussein Mozannar, Cheng Tan, Eduardo Salinas, Friederike Niedtner, Grace Proebsting, Griffin Bassman, Jack Gerrits, Jacob Alber, et al. Magentic-one: A generalist multi-agent system for solving complex tasks. arXiv preprint arXiv:2411.04468, 2024.",
+      "metadata": {
+        "title": "Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks",
+        "authors": [
+          "Adam Fourney",
+          "Gagan Bansal",
+          "Hussein Mozannar",
+          "Cheng Tan",
+          "Eduardo Salinas",
+          "Er-Kang Zhu",
+          "Friederike Niedtner",
+          "Grace Proebsting",
+          "Griffin Bassman",
+          "Jack Gerrits",
+          "Jacob Alber",
+          "Peter Chang",
+          "Ricky Loynd",
+          "Robert West",
+          "Victor C. Dibia",
+          "Ahmed Awadallah",
+          "Ece Kamar",
+          "Rafah Hosn",
+          "Saleema Amershi"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2411.04468",
+        "doi": "10.48550/arXiv.2411.04468",
+        "arxivId": "2411.04468",
+        "url": "https://www.semanticscholar.org/paper/36e87fcc7289e03f5a306e4bb95830e45b82ccd3"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-he2024llmbasedmultiagentsystemssoftware",
+      "rawKey": "he2024llmbasedmultiagentsystemssoftware",
+      "display": "[12]",
+      "raw": "Junda He, Christoph Treude, and David Lo. Llm-based multi-agent systems for software engineering: Vision and the road ahead, 2024a. URL https://arxiv.org/abs/2404.04834.",
+      "metadata": {
+        "title": "LLM-Based Multi-Agent Systems for Software Engineering: Vision and the Road Ahead",
+        "authors": [
+          "Jun-Da He",
+          "Christoph Treude",
+          "David Lo"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2404.04834",
+        "arxivId": "2404.04834",
+        "url": "https://arxiv.org/abs/2404.04834"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mandi2023rocodialecticmultirobotcollaboration",
+      "rawKey": "mandi2023rocodialecticmultirobotcollaboration",
+      "display": "[13]",
+      "raw": "Zhao Mandi, Shreeya Jain, and Shuran Song. Roco: Dialectic multi-robot collaboration with large language models, 2023. URL https://arxiv.org/abs/2307.04738.",
+      "metadata": {
+        "title": "RoCo: Dialectic Multi-Robot Collaboration with Large Language Models",
+        "authors": [
+          "Zhao Mandi",
+          "Shreeya Jain",
+          "Shuran Song"
+        ],
+        "year": 2023,
+        "arxivId": "2307.04738",
+        "url": "https://arxiv.org/abs/2307.04738"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhang2024buildingcooperativeembodiedagents",
+      "rawKey": "zhang2024buildingcooperativeembodiedagents",
+      "display": "[14]",
+      "raw": "Hongxin Zhang, Weihua Du, Jiaming Shan, Qinhong Zhou, Yilun Du, Joshua B. Tenenbaum, Tianmin Shu, and Chuang Gan. Building cooperative embodied agents modularly with large language models, 2024. URL https://arxiv.org/abs/2307.02485.",
+      "metadata": {
+        "title": "Building Cooperative Embodied Agents Modularly with Large Language Models",
+        "authors": [
+          "Hongxin Zhang",
+          "Weihua Du",
+          "Jiaming Shan",
+          "Qinhong Zhou",
+          "Yilun Du",
+          "J. Tenenbaum",
+          "Tianmin Shu",
+          "Chuang Gan"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2307.02485",
+        "arxivId": "2307.02485",
+        "url": "https://arxiv.org/abs/2307.02485"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-du2023improvingfactualityreasoninglanguage",
+      "rawKey": "du2023improvingfactualityreasoninglanguage",
+      "display": "[15]",
+      "raw": "Yilun Du, Shuang Li, Antonio Torralba, Joshua B. Tenenbaum, and Igor Mordatch. Improving factuality and reasoning in language models through multiagent debate, 2023. URL https://arxiv.org/abs/2305.14325.",
+      "metadata": {
+        "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+        "authors": [
+          "Yilun Du",
+          "Shuang Li",
+          "A. Torralba",
+          "J. Tenenbaum",
+          "Igor Mordatch"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2305.14325",
+        "arxivId": "2305.14325",
+        "url": "https://arxiv.org/abs/2305.14325"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-park2023generative",
+      "rawKey": "park2023generative",
+      "display": "[16]",
+      "raw": "Joon Sung Park, Joseph O'Brien, Carrie Jun Cai, Meredith Ringel Morris, Percy Liang, and Michael S Bernstein. Generative agents: Interactive simulacra of human behavior. In Proceedings of the 36th annual acm symposium on user interface software and technology, pages 1--22, 2023b.",
+      "metadata": {
+        "title": "Generative agents: Interactive simulacra of human behavior",
+        "authors": [
+          "Joon Sung Park",
+          "Joseph O'Brien",
+          "Carrie Jun Cai",
+          "Meredith Ringel Morris",
+          "Percy Liang",
+          "Michael S Bernstein"
+        ],
+        "year": 2023,
+        "venue": "Proceedings of the 36th annual acm symposium on user interface software and technology"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-guo2024large",
+      "rawKey": "guo2024large",
+      "display": "[17]",
+      "raw": "Taicheng Guo, Xiuying Chen, Yaqi Wang, Ruidi Chang, Shichao Pei, Nitesh V Chawla, Olaf Wiest, and Xiangliang Zhang. Large language model based multi-agents: A survey of progress and challenges. arXiv preprint arXiv:2402.01680, 2024a.",
+      "metadata": {
+        "title": "Large Language Model based Multi-Agents: A Survey of Progress and Challenges",
+        "authors": [
+          "Taicheng Guo",
+          "Xiu-Ying Chen",
+          "Ya-Qi Wang",
+          "Ruidi Chang",
+          "Shichao Pei",
+          "N. Chawla",
+          "Olaf Wiest",
+          "Xiangliang Zhang"
+        ],
+        "year": 2024,
+        "venue": "International Joint Conference on Artificial Intelligence",
+        "doi": "10.48550/arXiv.2402.01680",
+        "arxivId": "2402.01680",
+        "url": "https://www.semanticscholar.org/paper/8f070e301979732e0dd73f6aa6170309cf73aa7d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xia2024agentlessdemystifyingllmbasedsoftware",
+      "rawKey": "xia2024agentlessdemystifyingllmbasedsoftware",
+      "display": "[18]",
+      "raw": "Chunqiu Steven Xia, Yinlin Deng, Soren Dunn, and Lingming Zhang. Agentless: Demystifying llm-based software engineering agents, 2024. URL https://arxiv.org/abs/2407.01489.",
+      "metadata": {
+        "title": "Agentless: De-mystifying llm-based software engineering",
+        "authors": [
+          "Chunqiu Steven Xia",
+          "Yinlin Deng",
+          "Soren Dunn",
+          "Lingming Zhang"
+        ],
+        "year": 2024,
+        "venue": "agents",
+        "arxivId": "2407.01489",
+        "url": "https://arxiv.org/abs/2407.01489"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kapoor2024aiagentsmatter",
+      "rawKey": "kapoor2024aiagentsmatter",
+      "display": "[19]",
+      "raw": "Sayash Kapoor, Benedikt Stroebl, Zachary S. Siegel, Nitya Nadgir, and Arvind Narayanan. Ai agents that matter, 2024. URL https://arxiv.org/abs/2407.01502.",
+      "metadata": {
+        "title": "AI Agents That Matter",
+        "authors": [
+          "Sayash Kapoor",
+          "Benedikt Stroebl",
+          "Zachary S. Siegel",
+          "Nitya Nadgir",
+          "Arvind Narayanan"
+        ],
+        "year": 2024,
+        "arxivId": "2407.01502",
+        "url": "https://arxiv.org/abs/2407.01502"
+      },
+      "localMatch": {
+        "paperPath": "papers/模型评测/2407.01502",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-glaser1967discovery",
+      "rawKey": "glaser1967discovery",
+      "display": "[20]",
+      "raw": "Barney G. Glaser and Anselm L. Strauss. The Discovery of Grounded Theory: Strategies for Qualitative Research. Aldine Publishing Company, 1967.",
+      "metadata": {
+        "title": "The Discovery of Grounded Theory: Strategies for Qualitative Research",
+        "authors": [
+          "J. Wakeford"
+        ],
+        "year": 1969,
+        "venue": "Sociology",
+        "doi": "10.1177/003803856900300233",
+        "url": "https://www.semanticscholar.org/paper/5404c134e9a08c12c07fc8fde0e54ea5d291a901"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zheng2023judgingllmasajudgemtbenchchatbot",
+      "rawKey": "zheng2023judgingllmasajudgemtbenchchatbot",
+      "display": "[21]",
+      "raw": "Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica. Judging llm-as-a-judge with mt-bench and chatbot arena, 2023. URL https://arxiv.org/abs/2306.05685.",
+      "metadata": {
+        "title": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
+        "authors": [
+          "Lian-Min Zheng",
+          "Wei-Lin Chiang",
+          "Ying Sheng",
+          "Si-Yuan Zhuang",
+          "Zhanghao Wu",
+          "Yong-Hao Zhuang",
+          "Zi Lin",
+          "Zhuo-Han Li",
+          "Da-Cheng Li",
+          "E. Xing",
+          "Haotong Zhang",
+          "Joseph E. Gonzalez",
+          "I. Stoica"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.52202/075280-2020",
+        "arxivId": "2306.05685",
+        "url": "https://arxiv.org/abs/2306.05685"
+      },
+      "localMatch": {
+        "paperPath": "papers/模型评测/2306.05685",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2024agentworkflowmemory",
+      "rawKey": "wang2024agentworkflowmemory",
+      "display": "[22]",
+      "raw": "Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, and Graham Neubig. Agent workflow memory, 2024c. URL https://arxiv.org/abs/2409.07429.",
+      "metadata": {
+        "title": "Agent Workflow Memory",
+        "authors": [
+          "Zora Zhiruo Wang",
+          "Jia-Yuan Mao",
+          "Daniel Fried",
+          "Graham Neubig"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2409.07429",
+        "arxivId": "2409.07429",
+        "url": "https://arxiv.org/abs/2409.07429"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-khattab2023dspycompilingdeclarativelanguage",
+      "rawKey": "khattab2023dspycompilingdeclarativelanguage",
+      "display": "[23]",
+      "raw": "Omar Khattab, Arnav Singhvi, Paridhi Maheshwari, Zhiyuan Zhang, Keshav Santhanam, Sri Vardhamanan, Saiful Haq, Ashutosh Sharma, Thomas T. Joshi, Hanna Moazam, Heather Miller, Matei Zaharia, and Christopher Potts. Dspy: Compiling declarative language model calls into self-improving pipelines, 2023. URL https://arxiv.org/abs/2310.03714.",
+      "metadata": {
+        "title": "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+        "authors": [
+          "O. Khattab",
+          "Arnav Singhvi",
+          "Paridhi Maheshwari",
+          "Zhiyuan Zhang",
+          "Keshav Santhanam",
+          "Sri Vardhamanan",
+          "Saiful Haq",
+          "Ashutosh Sharma",
+          "Thomas T. Joshi",
+          "Hanna Moazam",
+          "Heather Miller",
+          "Matei Zaharia",
+          "Christopher Potts"
+        ],
+        "year": 2023,
+        "arxivId": "2310.03714",
+        "url": "https://arxiv.org/abs/2310.03714"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2024stateflowenhancingllmtasksolving",
+      "rawKey": "wu2024stateflowenhancingllmtasksolving",
+      "display": "[24]",
+      "raw": "Yiran Wu, Tianwei Yue, Shaokun Zhang, Chi Wang, and Qingyun Wu. Stateflow: Enhancing llm task-solving through state-driven workflows, 2024a. URL https://arxiv.org/abs/2403.11322.",
+      "metadata": {
+        "title": "StateFlow: Enhancing LLM Task-Solving through State-Driven Workflows",
+        "authors": [
+          "Yiran Wu",
+          "Tianwei Yue",
+          "Shao-Kun Zhang",
+          "Chi Wang",
+          "Qing-Yun Wu"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2403.11322",
+        "arxivId": "2403.11322",
+        "url": "https://arxiv.org/abs/2403.11322"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-han2024llmmultiagentsystemschallenges",
+      "rawKey": "han2024llmmultiagentsystemschallenges",
+      "display": "[25]",
+      "raw": "Shanshan Han, Qifan Zhang, Yuhang Yao, Weizhao Jin, Zhaozhuo Xu, and Chaoyang He. Llm multi-agent systems: Challenges and open problems, 2024. URL https://arxiv.org/abs/2402.03578.",
+      "metadata": {
+        "title": "LLM Multi-Agent Systems: Challenges and Open Problems",
+        "authors": [
+          "Shanshan Han",
+          "Qifan Zhang",
+          "Yuhang Yao",
+          "Weizhao Jin",
+          "Zhaozhuo Xu",
+          "Chaoyang He"
+        ],
+        "year": 2024,
+        "arxivId": "2402.03578",
+        "url": "https://arxiv.org/abs/2402.03578"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hammond2025multiagentrisksadvancedai",
+      "rawKey": "hammond2025multiagentrisksadvancedai",
+      "display": "[26]",
+      "raw": "Lewis Hammond, Alan Chan, Jesse Clifton, Jason Hoelscher-Obermaier, Akbir Khan, Euan McLean, Chandler Smith, Wolfram Barfuss, Jakob Foerster, TomÃÅ GavenÄiak, The Anh Han, Edward Hughes, VojtÄch KovaÅÃk, Jan Kulveit, Joel Z. Leibo, Caspar Oesterheld, Christian Schroeder de Witt, Nisarg Shah, Michael Wellman, Paolo Bova, Theodor Cimpeanu, Carson Ezell, Quentin Feuillade-Montixi, Matija Franklin, Esben Kran, Igor Krawczuk, Max Lamparth, Niklas Lauffer, Alexander Meinke, Sumeet Motwani, Anka Reuel, Vincent Conitzer, Michael Dennis, Iason Gabriel, Adam Gleave, Gillian Hadfield, Nika Haghtalab, Atoosa Kasirzadeh, SÃbastien Krier, Kate Larson, Joel Lehman, David C. Parkes, Georgios Piliouras, and Iyad Rahwan. Multi-agent risks from advanced ai, 2025. URL https://arxiv.org/abs/2502.14143.",
+      "metadata": {
+        "title": "Multi-Agent Risks from Advanced AI",
+        "authors": [
+          "Lewis Hammond",
+          "Alan Chan",
+          "Jesse Clifton",
+          "J. Hoelscher-Obermaier",
+          "Akbir Khan",
+          "Euan McLean",
+          "Chandler Smith",
+          "W. Barfuss",
+          "J. Foerster",
+          "Tomáš Gavenčiak",
+          "Han The Anh",
+          "Edward Hughes",
+          "Vojtěch Kovařík",
+          "Jan Kulveit",
+          "J. Leibo",
+          "Caspar Oesterheld",
+          "C. D. de Witt",
+          "Nisarg Shah",
+          "Michael T. Wellman",
+          "Paolo Bova",
+          "Theodor Cimpeanu",
+          "Carson Ezell",
+          "Quentin Feuillade-Montixi",
+          "Matija Franklin",
+          "Esben Kran",
+          "Igor Krawczuk",
+          "Max Lamparth",
+          "Niklas Lauffer",
+          "Alexander Meinke",
+          "S. Motwani",
+          "Anka Reuel",
+          "Vincent Conitzer",
+          "Michael Dennis",
+          "Iason Gabriel",
+          "A. Gleave",
+          "G. Hadfield",
+          "Nika Haghtalab",
+          "Atoosa Kasirzadeh",
+          "Sébastien Krier",
+          "Kate Larson",
+          "Joel Lehman",
+          "D. Parkes",
+          "G. Piliouras",
+          "I. Rahwan"
+        ],
+        "year": 2025,
+        "doi": "10.48550/arXiv.2502.14143",
+        "arxivId": "2502.14143",
+        "url": "https://arxiv.org/abs/2502.14143"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jimenez2024swebench",
+      "rawKey": "jimenez2024swebench",
+      "display": "[27]",
+      "raw": "Carlos E Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press, and Karthik R Narasimhan. SWE-bench: Can language models resolve real-world github issues? In The Twelfth International Conference on Learning Representations, 2024. URL https://openreview.net/forum?id=VTF8yNQM66.",
+      "metadata": {
+        "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+        "authors": [
+          "Carlos E. Jimenez",
+          "John Yang",
+          "Alexander Wettig",
+          "Shun-Yu Yao",
+          "Ke-Xin Pei",
+          "Ofir Press",
+          "Karthik R. Narasimhan"
+        ],
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2310.06770",
+        "arxivId": "2310.06770",
+        "url": "https://openreview.net/forum?id=VTF8yNQM66"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-peng2024survey",
+      "rawKey": "peng2024survey",
+      "display": "[28]",
+      "raw": "Ji-Lun Peng, Sijia Cheng, Egil Diau, Yung-Yu Shih, Po-Heng Chen, Yen-Ting Lin, and Yun-Nung Chen. A survey of useful llm evaluation. arXiv preprint arXiv:2406.00936, 2024.",
+      "metadata": {
+        "title": "A Survey of Useful LLM Evaluation",
+        "authors": [
+          "Jinjun Peng",
+          "Sijia Cheng",
+          "Egil Diau",
+          "Yung-Yu Shih",
+          "Po-Heng Chen",
+          "Yen-Ting Lin",
+          "Yun-Nung Chen"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2406.00936",
+        "doi": "10.48550/arXiv.2406.00936",
+        "arxivId": "2406.00936",
+        "url": "https://www.semanticscholar.org/paper/4906654ecb2d42cfee13f46bebe2ec02bb6442b1"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2024battleagentbench",
+      "rawKey": "wang2024battleagentbench",
+      "display": "[29]",
+      "raw": "Wei Wang, Dan Zhang, Tao Feng, Boyan Wang, and Jie Tang. Battleagentbench: A benchmark for evaluating cooperation and competition capabilities of language models in multi-agent systems. arXiv preprint arXiv:2408.15971, 2024d.",
+      "metadata": {
+        "title": "BattleAgentBench: A Benchmark for Evaluating Cooperation and Competition Capabilities of Language Models in Multi-Agent Systems",
+        "authors": [
+          "Wei Wang",
+          "Dan Zhang",
+          "Tao Feng",
+          "Boyan Wang",
+          "Jie Tang"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2408.15971",
+        "doi": "10.48550/arXiv.2408.15971",
+        "arxivId": "2408.15971",
+        "url": "https://www.semanticscholar.org/paper/2d042f3e36005567257ffe8857fff5e342e823c2"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-anne2024harnessing",
+      "rawKey": "anne2024harnessing",
+      "display": "[30]",
+      "raw": "Timothee Anne, Noah Syrkis, Meriem Elhosni, Florian Turati, Franck Legendre, Alain Jaquier, and Sebastian Risi. Harnessing language for coordination: A framework and benchmark for llm-driven multi-agent control. arXiv preprint arXiv:2412.11761, 2024.",
+      "metadata": {
+        "title": "Harnessing Language for Coordination: A Framework and Benchmark for LLM-Driven Multiagent Control",
+        "authors": [
+          "Timothée Anne",
+          "Noah Syrkis",
+          "Meriem Elhosni",
+          "Florian Turati",
+          "Franck Legendre",
+          "Alain Jaquier",
+          "S. Risi"
+        ],
+        "year": 2024,
+        "venue": "IEEE Transactions on Games",
+        "doi": "10.1109/TG.2025.3564042",
+        "arxivId": "2412.11761",
+        "url": "https://www.semanticscholar.org/paper/39dcc14ec83876663fca65dd8ac5496ba4d73e12"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bettini2024benchmarl",
+      "rawKey": "bettini2024benchmarl",
+      "display": "[31]",
+      "raw": "Matteo Bettini, Amanda Prorok, and Vincent Moens. Benchmarl: Benchmarking multi-agent reinforcement learning. Journal of Machine Learning Research, 25 (217): 1--10, 2024.",
+      "metadata": {
+        "title": "BenchMARL: Benchmarking Multi-Agent Reinforcement Learning",
+        "authors": [
+          "Matteo Bettini",
+          "A. Prorok",
+          "Vincent Moens"
+        ],
+        "year": 2023,
+        "venue": "Journal of machine learning research",
+        "doi": "10.48550/arXiv.2312.01472",
+        "arxivId": "2312.01472",
+        "url": "https://www.semanticscholar.org/paper/e52b101c0bee3490dbd60ed5c13f8f5287dd0321"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-long2024teamcraft",
+      "rawKey": "long2024teamcraft",
+      "display": "[32]",
+      "raw": "Qian Long, Zhi Li, Ran Gong, Ying Nian Wu, Demetri Terzopoulos, and Xiaofeng Gao. Teamcraft: A benchmark for multi-modal multi-agent systems in minecraft. arXiv preprint arXiv:2412.05255, 2024.",
+      "metadata": {
+        "title": "TeamCraft: A Benchmark for Multi-Modal Multi-Agent Systems in Minecraft",
+        "authors": [
+          "Qian Long",
+          "Zhi Li",
+          "Ran Gong",
+          "Ying-Nian Wu",
+          "D. Terzopoulos",
+          "Xiaofeng Gao"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2412.05255",
+        "doi": "10.48550/arXiv.2412.05255",
+        "arxivId": "2412.05255",
+        "url": "https://www.semanticscholar.org/paper/e1aade9d6dd726cc15cecaf66c7d594e4cd4314c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-liu2023trustworthy",
+      "rawKey": "liu2023trustworthy",
+      "display": "[33]",
+      "raw": "Yang Liu, Yuanshun Yao, Jean-Francois Ton, Xiaoying Zhang, Ruocheng Guo Hao Cheng, Yegor Klochkov, Muhammad Faaiz Taufiq, and Hang Li. Trustworthy llms: A survey and guideline for evaluating large language models' alignment. arXiv preprint arXiv:2308.05374, 2023.",
+      "metadata": {
+        "title": "Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment",
+        "authors": [
+          "Yang Liu",
+          "Yuan-Shun Yao",
+          "Jean-François Ton",
+          "Xiao-Ying Zhang",
+          "Ruocheng Guo",
+          "Hao Cheng",
+          "Yegor Klochkov",
+          "Muhammad Faaiz Taufiq",
+          "Hanguang Li"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2308.05374",
+        "doi": "10.48550/arXiv.2308.05374",
+        "arxivId": "2308.05374",
+        "url": "https://www.semanticscholar.org/paper/7142e920b6b9355d9cbacc9450818f912eca138e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yao2024survey",
+      "rawKey": "yao2024survey",
+      "display": "[34]",
+      "raw": "Yifan Yao, Jinhao Duan, Kaidi Xu, Yuanfang Cai, Zhibo Sun, and Yue Zhang. A survey on large language model (llm) security and privacy: The good, the bad, and the ugly. High-Confidence Computing, page 100211, 2024a.",
+      "metadata": {
+        "title": "A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly",
+        "authors": [
+          "Yi-Fan Yao",
+          "Jinhao Duan",
+          "Kai-Di Xu",
+          "Yuan-Fang Cai",
+          "Z. Sun",
+          "Yue Zhang"
+        ],
+        "year": 2023,
+        "venue": "High Confid. Comput.",
+        "doi": "10.1016/j.hcc.2024.100211",
+        "arxivId": "2312.02003",
+        "url": "https://www.semanticscholar.org/paper/383c598625110e0a4c60da4db10a838ef822fbcf"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Anthropic_2024",
+      "rawKey": "Anthropic_2024",
+      "display": "[35]",
+      "raw": "Anthropic, Dec 2024a. URL https://www.anthropic.com/research/building-effective-agents.",
+      "metadata": {
+        "authors": [
+          "Anthropic"
+        ],
+        "year": 2024,
+        "venue": "anthropic",
+        "url": "https://www.anthropic.com/research/building-effective-agents"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-stoica2024specifications",
+      "rawKey": "stoica2024specifications",
+      "display": "[36]",
+      "raw": "Ion Stoica, Matei Zaharia, Joseph Gonzalez, Ken Goldberg, Hao Zhang, Anastasios Angelopoulos, Shishir G Patil, Lingjiao Chen, Wei-Lin Chiang, and Jared Q Davis. Specifications: The missing link to making the development of llm systems an engineering discipline. arXiv preprint arXiv:2412.05299, 2024.",
+      "metadata": {
+        "title": "Specifications: The missing link to making the development of LLM systems an engineering discipline",
+        "authors": [
+          "I. Stoica",
+          "Matei A. Zaharia",
+          "Joseph Gonzalez",
+          "Kenneth Y. Goldberg",
+          "Koushik Sen",
+          "Hao Zhang",
+          "A. Angelopoulos",
+          "Shishir G. Patil",
+          "Lingjiao Chen",
+          "Wei-Lin Chiang",
+          "J. Davis"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2412.05299",
+        "doi": "10.48550/arXiv.2412.05299",
+        "arxivId": "2412.05299",
+        "url": "https://www.semanticscholar.org/paper/3402c5e50789776eac66031cb9afe242d3f69ce5"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bansal2024challenges",
+      "rawKey": "bansal2024challenges",
+      "display": "[37]",
+      "raw": "Gagan Bansal, Jennifer Wortman Vaughan, Saleema Amershi, Eric Horvitz, Adam Fourney, Hussein Mozannar, Victor Dibia, and Daniel S. Weld. Challenges in human-agent communication. Technical Report MSR-TR-2024-53, Microsoft, December 2024. URL https://www.microsoft.com/en-us/research/publication/human-agent-interaction-challenges/.",
+      "metadata": {
+        "title": "Challenges in Human-Agent Communication",
+        "authors": [
+          "Gagan Bansal",
+          "Jennifer Wortman Vaughan",
+          "Saleema Amershi",
+          "E. Horvitz",
+          "Adam Fourney",
+          "Hussein Mozannar",
+          "Victor C. Dibia",
+          "Daniel S. Weld"
+        ],
+        "year": 2024,
+        "doi": "10.48550/arXiv.2412.10380",
+        "arxivId": "2412.10380",
+        "url": "https://www.microsoft.com/en-us/research/publication/human-agent-interaction-challenges/"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Bai_2024",
+      "rawKey": "Bai_2024",
+      "display": "[38]",
+      "raw": "Ge Bai, Jie Liu, Xingyuan Bu, Yancheng He, Jiaheng Liu, Zhanhui Zhou, Zhuoran Lin, Wenbo Su, Tiezheng Ge, Bo Zheng, and Wanli Ouyang. Mt-bench-101: A fine-grained benchmark for evaluating large language models in multi-turn dialogues. In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), page 7421â454. Association for Computational Linguistics, 2024. 10.18653/v1/2024.acl-long.401. URL http://dx.doi.org/10.18653/v1/2024.acl-long.401.",
+      "metadata": {
+        "title": "MT-Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues",
+        "authors": [
+          "Ge Bai",
+          "Jie Liu",
+          "Xing-Yuan Bu",
+          "Yan-Cheng He",
+          "Jia-Heng Liu",
+          "Zhan-Hui Zhou",
+          "Zhuoran Lin",
+          "Wen-Bo Su",
+          "Tie-Zheng Ge",
+          "Bo Zheng",
+          "Wan-Li Ouyang"
+        ],
+        "year": 2024,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2024.acl-long.401",
+        "arxivId": "2402.14762",
+        "url": "http://dx.doi.org/10.18653/v1/2024.acl-long.401"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-SongD_code_tax",
+      "rawKey": "SongD_code_tax",
+      "display": "[39]",
+      "raw": "Song Da, Zijie Zhou, Zhijie Wang, Yuheng Huang, Shengmai Chen, Bonan Kou, Lei Ma, and Tianyi Zhang. An empirical study of code generation errors made by large language models. In In 7th Annual Symposium on Machine Programming, 2023.",
+      "metadata": {
+        "title": "An empirical study of code generation errors made by large language models",
+        "authors": [
+          "Song Da",
+          "Zijie Zhou",
+          "Zhijie Wang",
+          "Yuheng Huang",
+          "Shengmai Chen",
+          "Bonan Kou",
+          "Lei Ma",
+          "Tianyi Zhang"
+        ],
+        "year": 2023,
+        "venue": "245 In 7th Annual Symposium on Machine Programming"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-arabzadeh2024assessingverifyingtaskutility",
+      "rawKey": "arabzadeh2024assessingverifyingtaskutility",
+      "display": "[40]",
+      "raw": "Negar Arabzadeh, Siqing Huo, Nikhil Mehta, Qinqyun Wu, Chi Wang, Ahmed Awadallah, Charles L. A. Clarke, and Julia Kiseleva. Assessing and verifying task utility in llm-powered applications, 2024. URL https://arxiv.org/abs/2405.02178.",
+      "metadata": {
+        "title": "Assessing and Verifying Task Utility in LLM-Powered Applications",
+        "authors": [
+          "Negar Arabzadeh",
+          "Si-Qing Huo",
+          "N. Mehta",
+          "Qing-Yun Wu",
+          "Chi Wang",
+          "Ahmed Awadallah",
+          "C. Clarke",
+          "J. Kiseleva"
+        ],
+        "year": 2024,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.48550/arXiv.2405.02178",
+        "arxivId": "2405.02178",
+        "url": "https://arxiv.org/abs/2405.02178"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-epperson2025interactive",
+      "rawKey": "epperson2025interactive",
+      "display": "[41]",
+      "raw": "Will Epperson, Gagan Bansal, Victor Dibia, Adam Fourney, Jack Gerrits, Erkang (Eric) Zhu, and Saleema Amershi. Interactive debugging and steering of multi-agent ai systems. In CHI 2025, April 2025. URL https://arxiv.org/abs/2503.02068.",
+      "metadata": {
+        "title": "Interactive Debugging and Steering of Multi-Agent AI Systems",
+        "authors": [
+          "Will Epperson",
+          "Gagan Bansal",
+          "Victor C. Dibia",
+          "Adam Fourney",
+          "Jack Gerrits",
+          "Er-Kang Zhu",
+          "Saleema Amershi"
+        ],
+        "year": 2025,
+        "venue": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+        "doi": "10.1145/3706598.3713581",
+        "arxivId": "2503.02068",
+        "url": "https://arxiv.org/abs/2503.02068"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhang2025agentcausestaskfailures",
+      "rawKey": "zhang2025agentcausestaskfailures",
+      "display": "[42]",
+      "raw": "Shaokun Zhang, Ming Yin, Jieyu Zhang, Jiale Liu, Zhiguang Han, Jingyang Zhang, Beibin Li, Chi Wang, Huazheng Wang, Yiran Chen, and Qingyun Wu. Which agent causes task failures and when? on automated failure attribution of llm multi-agent systems, 2025. URL https://arxiv.org/abs/2505.00212.",
+      "metadata": {
+        "title": "Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems",
+        "authors": [
+          "Shao-Kun Zhang",
+          "Ming Yin",
+          "Jie-Yu Zhang",
+          "Jia-Le Liu",
+          "Zhi-Guang Han",
+          "Jing-Yang Zhang",
+          "Bei-Bin Li",
+          "Chi Wang",
+          "Hua-Zheng Wang",
+          "Yi-Ran Chen",
+          "Qing-Yun Wu"
+        ],
+        "year": 2025,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2505.00212",
+        "arxivId": "2505.00212",
+        "url": "https://arxiv.org/abs/2505.00212"
+      },
+      "localMatch": {
+        "paperPath": "papers/模型评测/2505.00212",
+        "matchBy": "doi"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-draucker2007theoretical",
+      "rawKey": "draucker2007theoretical",
+      "display": "[43]",
+      "raw": "Claire B Draucker, Donna S Martsolf, Ratchneewan Ross, and Thomas B Rusk. Theoretical sampling and category development in grounded theory. Qualitative health research, 17 (8): 1137--1148, 2007.",
+      "metadata": {
+        "title": "Theoretical Sampling and Category Development in Grounded Theory",
+        "authors": [
+          "C. Draucker",
+          "D. Martsolf",
+          "Ratchneewan Ross",
+          "Tom Rusk"
+        ],
+        "year": 2007,
+        "venue": "Qualitative Health Research",
+        "doi": "10.1177/1049732307308450",
+        "url": "https://www.semanticscholar.org/paper/5db0799c23359fbaffd13f319c1c214e428f4286"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-khandkar2009open",
+      "rawKey": "khandkar2009open",
+      "display": "[44]",
+      "raw": "Shahedul Huq Khandkar. Open coding. University of Calgary, 23 (2009): 2009, 2009.",
+      "metadata": {
+        "title": "Open coding",
+        "authors": [
+          "Shahedul Huq Khandkar"
+        ],
+        "year": 2009,
+        "venue": "University of Calgary"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-manus",
+      "rawKey": "manus",
+      "display": "[45]",
+      "raw": "Manus AI. Manus. https://manus.im/, 2025.",
+      "metadata": {
+        "title": "Manus",
+        "authors": [
+          "Manus AI"
+        ],
+        "year": 2025,
+        "url": "https://manus.im/"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-MCPIntroduction2024",
+      "rawKey": "MCPIntroduction2024",
+      "display": "[46]",
+      "raw": "Anthropic. Model context protocol: Introduction. https://modelcontextprotocol.io/introduction, dec 2024b.",
+      "metadata": {
+        "title": "Model context protocol: Introduction",
+        "authors": [
+          "Anthropic"
+        ],
+        "year": 2024,
+        "venue": "Anthropic",
+        "url": "https://modelcontextprotocol.io/introduction"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Surapaneni2025A2A",
+      "rawKey": "Surapaneni2025A2A",
+      "display": "[47]",
+      "raw": "Rao Surapaneni, Miku Jha, Michael Vakoc, and Todd Segal. A2a: A new era of agent interoperability, April 2025. URL https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/. Google Developers Blog.",
+      "metadata": {
+        "title": "A2A: A new era of agent interoperability",
+        "authors": [
+          "Rao Surapaneni",
+          "Miku Jha",
+          "Michael Vakoc",
+          "Todd Segal"
+        ],
+        "year": 2025,
+        "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-agashe2025llmcoordinationevaluatinganalyzingmultiagent",
+      "rawKey": "agashe2025llmcoordinationevaluatinganalyzingmultiagent",
+      "display": "[48]",
+      "raw": "Saaket Agashe, Yue Fan, Anthony Reyna, and Xin Eric Wang. Llm-coordination: Evaluating and analyzing multi-agent coordination abilities in large language models, 2025. URL https://arxiv.org/abs/2310.03903.",
+      "metadata": {
+        "title": "LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models",
+        "authors": [
+          "Saaket Agashe",
+          "Yue Fan",
+          "Anthony Reyna",
+          "Xin Eric Wang"
+        ],
+        "year": 2023,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2025.findings-naacl.448",
+        "arxivId": "2310.03903",
+        "url": "https://arxiv.org/abs/2310.03903"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-perrow1984normal",
+      "rawKey": "perrow1984normal",
+      "display": "[49]",
+      "raw": "Charles Perrow. Normal Accidents: Living with High-Risk Technologies. Princeton University Press, Princeton, NJ, 1984. ISBN 978-0691004129.",
+      "metadata": {
+        "title": "Normal Accidents Living with High-Risk Technologies",
+        "authors": [
+          "Benoît Pelopidas"
+        ],
+        "year": 2012,
+        "venue": "Critique",
+        "url": "https://www.semanticscholar.org/paper/b42372b07fafdf5ba5d3e409dfb066b6dc017b67"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-roberts1989high",
+      "rawKey": "roberts1989high",
+      "display": "[50]",
+      "raw": "Karlene H. Roberts. New challenges in organizational research: High reliability organizations. Organization & Environment, 3 (2): 111--125, 1989. 10.1177/108602668900300202.",
+      "metadata": {
+        "title": "New challenges in organizational research: high reliability organizations",
+        "authors": [
+          "K. Roberts"
+        ],
+        "year": 1989,
+        "venue": "Organization & Environment",
+        "doi": "10.1177/108602668900300202",
+        "url": "https://www.semanticscholar.org/paper/19f3f5855311529aac03148ab50ffc114e1fb52d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ctx26792789720006532",
+      "rawKey": "ctx26792789720006532",
+      "display": "[51]",
+      "raw": "Gene I Rochlin. Reliable organizations: Present research and future directions. Journal of contingencies and crisis management., 4 (2), 1996. ISSN 0966-0879.",
+      "metadata": {
+        "title": "Reliable Organizations: Present Research and Future Directions",
+        "authors": [
+          "G. Rochlin"
+        ],
+        "year": 1996,
+        "venue": "Journal of Contingencies and Crisis Management",
+        "doi": "10.1111/J.1468-5973.1996.TB00077.X",
+        "url": "https://www.semanticscholar.org/paper/dbbda319e47d497704305666d55153c45f3e2a48"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hong2023metagpt",
+      "rawKey": "hong2023metagpt",
+      "display": "[52]",
+      "raw": "Sirui Hong, Xiawu Zheng, Jonathan Chen, Yuheng Cheng, Jinlin Wang, Ceyao Zhang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, et al. Metagpt: Meta programming for multi-agent collaborative framework. arXiv preprint arXiv:2308.00352, 2023.",
+      "metadata": {
+        "title": "MetaGPT: Meta Programming for Multi-Agent Collaborative Framework",
+        "authors": [
+          "Si-Rui Hong",
+          "Xia-Wu Zheng",
+          "Jonathan P. Chen",
+          "Yu-Heng Cheng",
+          "Jin-Lin Wang",
+          "Ceyao Zhang",
+          "Zili Wang",
+          "Steven Ka Shing Yau",
+          "Zi-Juan Lin",
+          "Li-Yang Zhou",
+          "Chen-Yu Ran",
+          "Ling-Feng Xiao",
+          "Chenglin Wu"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2308.00352",
+        "doi": "10.48550/arXiv.2308.00352",
+        "arxivId": "2308.00352",
+        "url": "https://www.semanticscholar.org/paper/703035b483c181953de1b55b5fd59cd4cd4cf211"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-phan2024hyperagent",
+      "rawKey": "phan2024hyperagent",
+      "display": "[53]",
+      "raw": "Huy Nhat Phan, Tien N Nguyen, Phong X Nguyen, and Nghi DQ Bui. Hyperagent: Generalist software engineering agents to solve coding tasks at scale. arXiv preprint arXiv:2409.16299, 2024.",
+      "metadata": {
+        "title": "HyperAgent: Generalist Software Engineering Agents to Solve Coding Tasks at Scale",
+        "authors": [
+          "H. Phan",
+          "Phong Nguyen",
+          "N. Bui"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2409.16299",
+        "doi": "10.48550/arXiv.2409.16299",
+        "arxivId": "2409.16299",
+        "url": "https://www.semanticscholar.org/paper/e78675452b3e8fb027ca8056444384e673a1756d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-trivedi2024appworld",
+      "rawKey": "trivedi2024appworld",
+      "display": "[54]",
+      "raw": "Harsh Trivedi, Tushar Khot, Mareike Hartmann, Ruskin Manku, Vinty Dong, Edward Li, Shashank Gupta, Ashish Sabharwal, and Niranjan Balasubramanian. Appworld: A controllable world of apps and people for benchmarking interactive coding agents. arXiv preprint arXiv:2407.18901, 2024.",
+      "metadata": {
+        "title": "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents",
+        "authors": [
+          "H. Trivedi",
+          "Tushar Khot",
+          "Mareike Hartmann",
+          "R. Manku",
+          "Vinty Dong",
+          "Edward Li",
+          "Shashank Gupta",
+          "Ashish Sabharwal",
+          "Niranjan Balasubramanian"
+        ],
+        "year": 2024,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2407.18901",
+        "arxivId": "2407.18901",
+        "url": "https://www.semanticscholar.org/paper/19430ba54cc873dc5061bb53601fc576486d5a3c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2024autogen",
+      "rawKey": "wu2024autogen",
+      "display": "[55]",
+      "raw": "Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, et al. Autogen: Enabling next-gen llm applications via multi-agent conversations. In First Conference on Language Modeling, 2024b.",
+      "metadata": {
+        "title": "Autogen: Enabling next-gen LLM applications via multi-agent conversations",
+        "authors": [
+          "Qingyun Wu",
+          "Gagan Bansal",
+          "Jieyu Zhang",
+          "Yiran Wu",
+          "Beibin Li",
+          "Erkang Zhu",
+          "Li Jiang",
+          "Xiaoyun Zhang",
+          "Shaokun Zhang",
+          "Jiale Liu"
+        ],
+        "year": 2024,
+        "venue": "First Conference on Language Modeling"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qian2024chatdev",
+      "rawKey": "qian2024chatdev",
+      "display": "[56]",
+      "raw": "Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, et al. Chatdev: Communicative agents for software development. In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 15174--15186, 2024.",
+      "metadata": {
+        "title": "Exploring Large Language Model‐Based Intelligent Agents: Definitions, Methods, and Prospects",
+        "authors": [
+          "Yu-Heng Cheng",
+          "Ceyao Zhang",
+          "Zheng-Wen Zhang",
+          "Xiang-Rui Meng",
+          "Si-Rui Hong",
+          "Wen-Hao Li",
+          "Zihao Wang",
+          "Ze-Kai Wang",
+          "Feng Yin",
+          "Jun-Hua Zhao",
+          "Xiu-Qiang He"
+        ],
+        "year": 2024,
+        "venue": "Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery",
+        "doi": "10.1002/widm.70111",
+        "arxivId": "2401.03428",
+        "url": "https://www.semanticscholar.org/paper/098ba244f687186436e3eb06aced10f5ecb092a8"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2023autogen",
+      "rawKey": "wu2023autogen",
+      "display": "[57]",
+      "raw": "Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Shaokun Zhang, Erkang Zhu, Beibin Li, Li Jiang, Xiaoyun Zhang, and Chi Wang. Autogen: Enabling next-gen llm applications via multi-agent conversation framework. arXiv preprint arXiv:2308.08155, 2023.",
+      "metadata": {
+        "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+        "authors": [
+          "Qing-Yun Wu",
+          "Gagan Bansal",
+          "Jieyu Zhang",
+          "Yiran Wu",
+          "Bei-Bin Li",
+          "Er-Kang Zhu",
+          "Li Jiang",
+          "Xiaoyun Zhang",
+          "Shao-Kun Zhang",
+          "Jia-Le Liu",
+          "A. Awadallah",
+          "Ryen W. White",
+          "Doug Burger",
+          "Chi Wang"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2308.08155",
+        "arxivId": "2308.08155",
+        "url": "https://www.semanticscholar.org/paper/9ea0757c750ab1222a7442d3485a74d1c526b04c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-he2024does",
+      "rawKey": "he2024does",
+      "display": "[58]",
+      "raw": "Jia He, Mukund Rungta, David Koleczek, Arshdeep Sekhon, Franklin X Wang, and Sadid Hasan. Does prompt formatting have any impact on llm performance? arXiv preprint arXiv:2411.10541, 2024b.",
+      "metadata": {
+        "title": "Does Prompt Formatting Have Any Impact on LLM Performance?",
+        "authors": [
+          "Jia He",
+          "Mukund Rungta",
+          "David Koleczek",
+          "Arshdeep Sekhon",
+          "Franklin Wang",
+          "Sadid A. Hasan"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2411.10541",
+        "arxivId": "2411.10541",
+        "url": "https://www.semanticscholar.org/paper/113873a4e58e2ff15ce3523ee9fb629ff6dddfe4"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-talebirad2023multi",
+      "rawKey": "talebirad2023multi",
+      "display": "[59]",
+      "raw": "Yashar Talebirad and Amirhossein Nadiri. Multi-agent collaboration: Harnessing the power of intelligent llm agents. arXiv preprint arXiv:2306.03314, 2023.",
+      "metadata": {
+        "title": "Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents",
+        "authors": [
+          "Yashar Talebirad",
+          "Amirhossein Nadiri"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2306.03314",
+        "doi": "10.48550/arXiv.2306.03314",
+        "arxivId": "2306.03314",
+        "url": "https://www.semanticscholar.org/paper/ead6121fbc787d508dc6a6d7106f72bf0d647d03"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chan2023chateval",
+      "rawKey": "chan2023chateval",
+      "display": "[60]",
+      "raw": "Chi-Min Chan, Weize Chen, Yusheng Su, Jianxuan Yu, Wei Xue, Shanghang Zhang, Jie Fu, and Zhiyuan Liu. Chateval: Towards better llm-based evaluators through multi-agent debate. arXiv preprint arXiv:2308.07201, 2023.",
+      "metadata": {
+        "title": "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate",
+        "authors": [
+          "Chi-Min Chan",
+          "Weize Chen",
+          "Yusheng Su",
+          "Jianxuan Yu",
+          "Wei Xue",
+          "Shan Zhang",
+          "Jie Fu",
+          "Zhi-Yuan Liu"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2308.07201",
+        "doi": "10.48550/arXiv.2308.07201",
+        "arxivId": "2308.07201",
+        "url": "https://www.semanticscholar.org/paper/ec58a564fdda29e6a9a0a7bab5eeb4c290f716d7"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-weng2023large",
+      "rawKey": "weng2023large",
+      "display": "[61]",
+      "raw": "Yixuan Weng, Minjun Zhu, Fei Xia, Bin Li, Shizhu He, Shengping Liu, Bin Sun, Kang Liu, and Jun Zhao. Large language models are better reasoners with self-verification. In The 2023 Conference on Empirical Methods in Natural Language Processing, 2023.",
+      "metadata": {
+        "title": "RLTF: Reinforcement Learning from Unit Test Feedback",
+        "authors": [
+          "Jia-Te Liu",
+          "Yi-Qin Zhu",
+          "Kai-Wen Xiao",
+          "Qiang Fu",
+          "Xiao Han",
+          "Wei Yang",
+          "De-Heng Ye"
+        ],
+        "year": 2023,
+        "venue": "Trans. Mach. Learn. Res.",
+        "doi": "10.48550/arXiv.2307.04349",
+        "arxivId": "2307.04349",
+        "url": "https://www.semanticscholar.org/paper/a669ea57529f4db630043c8c75d8f840c485d24d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-langgraph",
+      "rawKey": "langgraph",
+      "display": "[62]",
+      "raw": "LangChain. Langgraph, 2024. URL https://www.langchain.com/langgraph.",
+      "metadata": {
+        "title": "LangGraph",
+        "authors": [
+          "LangChain"
+        ],
+        "year": 2024,
+        "url": "https://www.langchain.com/langgraph"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-anthropic2024",
+      "rawKey": "anthropic2024",
+      "display": "[63]",
+      "raw": "Anthropic. Building effective agents, 2024c. URL https://www.anthropic.com/research/building-effective-agents.",
+      "metadata": {
+        "title": "Building effective agents",
+        "authors": [
+          "Anthropic"
+        ],
+        "year": 2024,
+        "url": "https://www.anthropic.com/research/building-effective-agents"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yao2024tree",
+      "rawKey": "yao2024tree",
+      "display": "[64]",
+      "raw": "Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Tom Griffiths, Yuan Cao, and Karthik Narasimhan. Tree of thoughts: Deliberate problem solving with large language models. Advances in Neural Information Processing Systems, 36, 2024b.",
+      "metadata": {
+        "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+        "authors": [
+          "Shunyu Yao",
+          "Dian Yu",
+          "Jeffrey Zhao",
+          "I. Shafran",
+          "T. Griffiths",
+          "Yuan Cao",
+          "Karthik Narasimhan"
+        ],
+        "year": 2023,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2305.10601",
+        "arxivId": "2305.10601",
+        "url": "https://www.semanticscholar.org/paper/2f3822eb380b5e753a6d579f31dfc3ec4c4a0820"
+      },
+      "localMatch": {
+        "paperPath": "papers/Agent规划/2305.10601",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-haji2024improving",
+      "rawKey": "haji2024improving",
+      "display": "[65]",
+      "raw": "Fatemeh Haji, Mazal Bethany, Maryam Tabar, Jason Chiang, Anthony Rios, and Peyman Najafirad. Improving llm reasoning with multi-agent tree-of-thought validator agent. arXiv preprint arXiv:2409.11527, 2024.",
+      "metadata": {
+        "title": "Improving LLM Reasoning with Multi-Agent Tree-of-Thought Validator Agent",
+        "authors": [
+          "Fatemeh Haji",
+          "Mazal Bethany",
+          "Maryam Tabar",
+          "Jason Cho-Yu Chiang",
+          "Anthony Rios",
+          "Peyman Najafirad"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2409.11527",
+        "doi": "10.48550/arXiv.2409.11527",
+        "arxivId": "2409.11527",
+        "url": "https://www.semanticscholar.org/paper/69ba84363777acefbdfda225204430b232560c72"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xu2023towards",
+      "rawKey": "xu2023towards",
+      "display": "[66]",
+      "raw": "Zhenran Xu, Senbao Shi, Baotian Hu, Jindi Yu, Dongfang Li, Min Zhang, and Yuxiang Wu. Towards reasoning in large language models via multi-agent peer review collaboration. arXiv preprint arXiv:2311.08152, 2023.",
+      "metadata": {
+        "title": "Towards Reasoning in Large Language Models via Multi-Agent Peer Review Collaboration",
+        "authors": [
+          "Zhenran Xu",
+          "Senbao Shi",
+          "Baotian Hu",
+          "Jindi Yu",
+          "Dongfang Li",
+          "Min Zhang",
+          "Yuxiang Wu"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2311.08152",
+        "doi": "10.48550/arXiv.2311.08152",
+        "arxivId": "2311.08152",
+        "url": "https://www.semanticscholar.org/paper/4014253368133c01bfc0383660c518d11afccad2"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-stroebl2024inference",
+      "rawKey": "stroebl2024inference",
+      "display": "[67]",
+      "raw": "Benedikt Stroebl, Sayash Kapoor, and Arvind Narayanan. Inference scaling f laws: The limits of llm resampling with imperfect verifiers. arXiv preprint arXiv:2411.17501, 2024.",
+      "metadata": {
+        "title": "Inference Scaling fLaws: The Limits of LLM Resampling with Imperfect Verifiers",
+        "authors": [
+          "Benedikt Stroebl",
+          "Sayash Kapoor",
+          "Arvind Narayanan"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2411.17501",
+        "doi": "10.48550/arXiv.2411.17501",
+        "arxivId": "2411.17501",
+        "url": "https://www.semanticscholar.org/paper/5bb98b72874e2dc80a8937558968c87e88269e79"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chen2024more",
+      "rawKey": "chen2024more",
+      "display": "[68]",
+      "raw": "Lingjiao Chen, Jared Quincy Davis, Boris Hanin, Peter Bailis, Ion Stoica, Matei Zaharia, and James Zou. Are more llm calls all you need? towards scaling laws of compound inference systems. arXiv preprint arXiv:2403.02419, 2024a.",
+      "metadata": {
+        "title": "Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems",
+        "authors": [
+          "Lingjiao Chen",
+          "J. Davis",
+          "Boris Hanin",
+          "Peter D. Bailis",
+          "I. Stoica",
+          "Matei A. Zaharia",
+          "James Y. Zou"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2403.02419",
+        "doi": "10.48550/arXiv.2403.02419",
+        "arxivId": "2403.02419",
+        "url": "https://www.semanticscholar.org/paper/5e3286e57b3aedce35c2eeb7b8ecf40d1bcb2198"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jain2024testgeneval",
+      "rawKey": "jain2024testgeneval",
+      "display": "[69]",
+      "raw": "Kush Jain, Gabriel Synnaeve, and Baptiste Roziere. Testgeneval: A real world unit test generation and test completion benchmark. arXiv preprint arXiv:2410.00752, 2024.",
+      "metadata": {
+        "title": "TestGenEval: A Real World Unit Test Generation and Test Completion Benchmark",
+        "authors": [
+          "Kush Jain",
+          "Gabriel Synnaeve",
+          "Baptiste Rozière"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2410.00752",
+        "doi": "10.48550/arXiv.2410.00752",
+        "arxivId": "2410.00752",
+        "url": "https://www.semanticscholar.org/paper/b37074caf88e60afd2a760e8c2c2b4ce68e972c6"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-peng2023check",
+      "rawKey": "peng2023check",
+      "display": "[70]",
+      "raw": "Baolin Peng, Michel Galley, Pengcheng He, Hao Cheng, Yujia Xie, Yu Hu, Qiuyuan Huang, Lars Liden, Zhou Yu, Weizhu Chen, et al. Check your facts and try again: Improving large language models with external knowledge and automated feedback. arXiv preprint arXiv:2302.12813, 2023.",
+      "metadata": {
+        "title": "Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback",
+        "authors": [
+          "Baolin Peng",
+          "Michel Galley",
+          "Pengcheng He",
+          "Hao Cheng",
+          "Yujia Xie",
+          "Yu Hu",
+          "Qiuyuan Huang",
+          "Lars Lidén",
+          "Zhou Yu",
+          "Wei-Zhu Chen",
+          "Jian-Feng Gao"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2302.12813",
+        "doi": "10.48550/arXiv.2302.12813",
+        "arxivId": "2302.12813",
+        "url": "https://www.semanticscholar.org/paper/e5c72b92c48d68594b290c84a8904da7c8335554"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kapanipathi2020question",
+      "rawKey": "kapanipathi2020question",
+      "display": "[71]",
+      "raw": "Pavan Kapanipathi, Ibrahim Abdelaziz, Srinivas Ravishankar, Salim Roukos, Alexander Gray, Ramon Astudillo, Maria Chang, Cristina Cornelio, Saswati Dana, Achille Fokoue, et al. Question answering over knowledge bases by leveraging semantic parsing and neuro-symbolic reasoning. arXiv preprint arXiv:2012.01707, 2020.",
+      "metadata": {
+        "title": "Question Answering over Knowledge Bases by Leveraging Semantic Parsing and Neuro-Symbolic Reasoning",
+        "authors": [
+          "Pavan Kapanipathi",
+          "I. Abdelaziz",
+          "Srinivas Ravishankar",
+          "S. Roukos",
+          "Alexander G. Gray",
+          "Ramón Fernández Astudillo",
+          "Maria Chang",
+          "Cristina Cornelio",
+          "Saswati Dana",
+          "Achille Fokoue",
+          "Dinesh Garg",
+          "A. Gliozzo",
+          "Sairam Gurajada",
+          "Hima P. Karanam",
+          "Naweed Khan",
+          "Dinesh Khandelwal",
+          "Young-suk Lee",
+          "Yunyao Li",
+          "F. Luus",
+          "Ndivhuwo Makondo",
+          "Nandana Mihindukulasooriya",
+          "Tahira Naseem",
+          "S. Neelam",
+          "L. Popa",
+          "Revanth Gangi Reddy",
+          "Ryan Riegel",
+          "Gaetano Rossiello",
+          "Udit Sharma",
+          "G P Shrivatsa Bhargav",
+          "Mo Yu"
+        ],
+        "year": 2020,
+        "venue": "arXiv preprint arXiv:2012.01707",
+        "doi": "10.48550/arXiv.2012.01707",
+        "arxivId": "2012.01707",
+        "url": "https://www.semanticscholar.org/paper/f162b64756f01cdf04bc59c7592a77e4c8981656"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2024survey",
+      "rawKey": "li2024survey",
+      "display": "[72]",
+      "raw": "Xinyi Li, Sai Wang, Siqi Zeng, Yu Wu, and Yi Yang. A survey on llm-based multi-agent systems: workflow, infrastructure, and challenges. Vicinagearth, 1 (1): 9, 2024a.",
+      "metadata": {
+        "title": "A survey on LLM-based multi-agent systems: workflow, infrastructure, and challenges",
+        "authors": [
+          "Xin-Yi Li",
+          "Sai Wang",
+          "Si-Qi Zeng",
+          "Yu Wu",
+          "Yi Yang"
+        ],
+        "year": 2024,
+        "venue": "Vicinagearth",
+        "doi": "10.1007/s44336-024-00009-2",
+        "url": "https://www.semanticscholar.org/paper/fc8ce12d6186ddaa797e2b36d5e8eb7921425308"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-niu2021multi",
+      "rawKey": "niu2021multi",
+      "display": "[73]",
+      "raw": "Yaru Niu, Rohan R Paleja, and Matthew C Gombolay. Multi-agent graph-attention communication and teaming. In AAMAS, volume 21, page 20th, 2021.",
+      "metadata": {
+        "title": "Multi-Agent Graph-Attention Communication and Teaming",
+        "authors": [
+          "Yaru Niu",
+          "R. Paleja",
+          "M. Gombolay"
+        ],
+        "year": 2021,
+        "venue": "Adaptive Agents and Multi-Agent Systems",
+        "doi": "10.5555/3463952.3464065",
+        "url": "https://www.semanticscholar.org/paper/678afa16f840ae8c6b52247d3cf6ba24f12b33ab"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jiang2018learning",
+      "rawKey": "jiang2018learning",
+      "display": "[74]",
+      "raw": "Jiechuan Jiang and Zongqing Lu. Learning attentional communication for multi-agent cooperation. Advances in neural information processing systems, 31, 2018.",
+      "metadata": {
+        "title": "Learning Attentional Communication for Multi-Agent Cooperation",
+        "authors": [
+          "Jiechuan Jiang",
+          "Zong-Qing Lu"
+        ],
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1805.07733",
+        "arxivId": "1805.07733",
+        "url": "https://www.semanticscholar.org/paper/72c85ffe4491abd6f9e537d7dadf8f23c314849e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-singh2018learning",
+      "rawKey": "singh2018learning",
+      "display": "[75]",
+      "raw": "Amanpreet Singh, Tushar Jain, and Sainbayar Sukhbaatar. Learning when to communicate at scale in multiagent cooperative and competitive tasks. arXiv preprint arXiv:1812.09755, 2018.",
+      "metadata": {
+        "title": "Learning when to Communicate at Scale in Multiagent Cooperative and Competitive Tasks",
+        "authors": [
+          "Amanpreet Singh",
+          "Tushar Jain",
+          "Sainbayar Sukhbaatar"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1812.09755",
+        "arxivId": "1812.09755",
+        "url": "https://www.semanticscholar.org/paper/320f80ad1a95de5824b9477c4e3cec37ee007d10"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yu2022surprising",
+      "rawKey": "yu2022surprising",
+      "display": "[76]",
+      "raw": "Chao Yu, Akash Velu, Eugene Vinitsky, Jiaxuan Gao, Yu Wang, Alexandre Bayen, and Yi Wu. The surprising effectiveness of ppo in cooperative multi-agent games. Advances in Neural Information Processing Systems, 35: 24611--24624, 2022.",
+      "metadata": {
+        "title": "The Surprising Effectiveness of PPO in Cooperative Multi-Agent Games",
+        "authors": [
+          "Chao Yu",
+          "Akash Velu",
+          "Eugene Vinitsky",
+          "Jia-Xuan Gao",
+          "Yu Wang",
+          "A. Bayen",
+          "Yi Wu"
+        ],
+        "year": 2021,
+        "venue": "Advances in Neural Information Processing Systems 35",
+        "doi": "10.52202/068431-1787",
+        "arxivId": "2103.01955",
+        "url": "https://www.semanticscholar.org/paper/3a315c81a98851f0614c09fef6a14c30d6a1e63c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-guo2024heterogeneous",
+      "rawKey": "guo2024heterogeneous",
+      "display": "[77]",
+      "raw": "Xudong Guo, Daming Shi, Junjie Yu, and Wenhui Fan. Heterogeneous multi-agent reinforcement learning for zero-shot scalable collaboration. arXiv preprint arXiv:2404.03869, 2024b.",
+      "metadata": {
+        "title": "Heterogeneous Multi-Agent Reinforcement Learning for Zero-Shot Scalable Collaboration",
+        "authors": [
+          "Xu-Dong Guo",
+          "Daming Shi",
+          "Jun-Jie Yu",
+          "Wen-Hui Fan"
+        ],
+        "year": 2024,
+        "venue": "Neurocomputing",
+        "doi": "10.48550/arXiv.2404.03869",
+        "arxivId": "2404.03869",
+        "url": "https://www.semanticscholar.org/paper/1233fb47eb03f47f60df802cacacf23568aa2280"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chen2024optima",
+      "rawKey": "chen2024optima",
+      "display": "[78]",
+      "raw": "Weize Chen, Jiarui Yuan, Chen Qian, Cheng Yang, Zhiyuan Liu, and Maosong Sun. Optima: Optimizing effectiveness and efficiency for llm-based multi-agent system. arXiv preprint arXiv:2410.08115, 2024b.",
+      "metadata": {
+        "title": "Optima: Optimizing Effectiveness and Efficiency for LLM-Based Multi-Agent System",
+        "authors": [
+          "Weize Chen",
+          "Jia-Rui Yuan",
+          "Cheng Qian",
+          "Cheng Yang",
+          "Zhi-Yuan Liu",
+          "Mao-Song Sun"
+        ],
+        "year": 2024,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2410.08115",
+        "arxivId": "2410.08115",
+        "url": "https://www.semanticscholar.org/paper/2fc8a207405ac233cde98424c36dd19c8731ce5e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-horvitz1999uncertainty",
+      "rawKey": "horvitz1999uncertainty",
+      "display": "[79]",
+      "raw": "Eric Horvitz. Uncertainty, action, and interaction: In pursuit of mixed-initiative computing. IEEE Intelligent Systems, 14 (5): 17--20, 1999.",
+      "metadata": {
+        "title": "Uncertainty, Action, and Interaction: In Pursuit of Mixed-Initiative Computing",
+        "authors": [
+          "E. Horvitz"
+        ],
+        "year": 2016,
+        "venue": "IEEE Intelligent Systems",
+        "url": "https://www.semanticscholar.org/paper/3f45208609a0ae942ae65a0c3b1100247ec92655"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chakraborty2023servicenow",
+      "rawKey": "chakraborty2023servicenow",
+      "display": "[80]",
+      "raw": "Barnali Chakraborty and Debapratim Purkayastha. Servicenow: From startup to world's most innovative company. IUP Journal of Entrepreneurship Development, 20 (1), 2023.",
+      "metadata": {
+        "title": "ServiceNow: From Startup to World's Most Innovative Company.",
+        "authors": [
+          "Barnali Chakraborty",
+          "Debapratim Purkayastha"
+        ],
+        "year": 2023,
+        "venue": "IUP Journal of Entrepreneurship Development"
+      },
+      "source": "bbl",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2024gsm",
+      "rawKey": "li2024gsm",
+      "display": "[81]",
+      "raw": "Qintong Li, Leyang Cui, Xueliang Zhao, Lingpeng Kong, and Wei Bi. Gsm-plus: A comprehensive benchmark for evaluating the robustness of llms as mathematical problem solvers. arXiv preprint arXiv:2402.19255, 2024b.",
+      "metadata": {
+        "title": "GSM-Plus: A Comprehensive Benchmark for Evaluating the Robustness of LLMs as Mathematical Problem Solvers",
+        "authors": [
+          "Qintong Li",
+          "Leyang Cui",
+          "Xue-Liang Zhao",
+          "Ling-Peng Kong",
+          "Wei Bi"
+        ],
+        "year": 2024,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2402.19255",
+        "arxivId": "2402.19255",
+        "url": "https://www.semanticscholar.org/paper/bed35010543191bf57a09a6058e75332702d7afa"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cobbe2021training",
+      "rawKey": "cobbe2021training",
+      "display": "[82]",
+      "raw": "Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, et al. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021.",
+      "metadata": {
+        "title": "Training Verifiers to Solve Math Word Problems",
+        "authors": [
+          "K. Cobbe",
+          "V. Kosaraju",
+          "Mo Bavarian",
+          "Mark Chen",
+          "Heewoo Jun",
+          "L. Kaiser",
+          "Matthias Plappert",
+          "Jerry Tworek",
+          "Jacob Hilton",
+          "Reiichiro Nakano",
+          "C. Hesse",
+          "John D. Schulman"
+        ],
+        "year": 2021,
+        "venue": "arXiv preprint arXiv:2110.14168",
+        "doi": "10.48550/arXiv.2110.14168",
+        "arxivId": "2110.14168",
+        "url": "https://www.semanticscholar.org/paper/d6045d2ccc9c09ca1671348de86d07da6bc28eea"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hui2024qwen2",
+      "rawKey": "hui2024qwen2",
+      "display": "[83]",
+      "raw": "Binyuan Hui, Jian Yang, Zeyu Cui, Jiaxi Yang, Dayiheng Liu, Lei Zhang, Tianyu Liu, Jiajun Zhang, Bowen Yu, Kai Dang, et al. Qwen2. 5-coder technical report. arXiv preprint arXiv:2409.12186, 2024.",
+      "metadata": {
+        "title": "Qwen2.5-Coder Technical Report",
+        "authors": [
+          "Bin-Yuan Hui",
+          "Jian Yang",
+          "Zeyu Cui",
+          "Jiaxi Yang",
+          "Dayiheng Liu",
+          "Lei Zhang",
+          "Tianyu Liu",
+          "Jia-Jun Zhang",
+          "Bo-Wen Yu",
+          "K. Dang",
+          "An Yang",
+          "Rui Men",
+          "Fei Huang",
+          "Shanghaoran Quan",
+          "Xing-Zhang Ren",
+          "Xuan-Cheng Ren",
+          "Jing-Ren Zhou",
+          "Jun-Yang Lin"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2409.12186",
+        "arxivId": "2409.12186",
+        "url": "https://www.semanticscholar.org/paper/11dd2fc88747d20629f5aafab72ba649d93e969c"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-roziere2023code",
+      "rawKey": "roziere2023code",
+      "display": "[84]",
+      "raw": "Baptiste Roziere, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat, Xiaoqing Ellen Tan, Yossi Adi, Jingyu Liu, Romain Sauvestre, Tal Remez, et al. Code llama: Open foundation models for code. arXiv preprint arXiv:2308.12950, 2023.",
+      "metadata": {
+        "title": "Code Llama: Open Foundation Models for Code",
+        "authors": [
+          "Baptiste Rozière",
+          "J. Gehring",
+          "Fabian Gloeckle",
+          "Sten Sootla",
+          "Itai Gat",
+          "Xiaoqing Tan",
+          "Yossi Adi",
+          "Jingyu Liu",
+          "Romain Sauvestre",
+          "Tal Remez",
+          "Jérémy Rapin",
+          "A. Kozhevnikov",
+          "I. Evtimov",
+          "Joanna Bitton",
+          "Manish P Bhatt",
+          "Cristian Canton Ferrer",
+          "Aaron Grattafiori",
+          "Wenhan Xiong",
+          "Alexandre Défossez",
+          "Jade Copet",
+          "Faisal Azhar",
+          "Hugo Touvron",
+          "Louis Martin",
+          "N. Usunier",
+          "Thomas Scialom",
+          "Gabriel Synnaeve"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2308.12950",
+        "doi": "10.48550/arXiv.2308.12950",
+        "arxivId": "2308.12950",
+        "url": "https://www.semanticscholar.org/paper/0b0debb710366cdff461938c80763eace1651af6"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 84 entries (bbl)",
+    "semantic scholar: 177 references",
+    "merged: 71 of 84 enriched online"
+  ]
+}

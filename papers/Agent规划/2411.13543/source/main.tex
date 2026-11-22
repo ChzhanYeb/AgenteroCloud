@@ -1,0 +1,146 @@
+
+\documentclass{article} %
+\usepackage{iclr2025_conference,times}
+
+\input{math_commands.tex}
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{pifont}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage[skins]{tcolorbox}
+\usepackage{xparse}
+\usepackage{multirow}
+\usepackage{pifont}
+
+
+
+\NewDocumentCommand{\env}{O{} O{} m}{%
+    \noindent
+    \begin{minipage}{\textwidth}
+        \begin{minipage}{0.1\textwidth}
+            \includegraphics[width=\linewidth]{iclr2025/images/env.png}
+        \end{minipage}
+        \hspace{2pt}
+        \begin{minipage}{0.85\textwidth}
+            \begin{tcolorbox}[colback=gray!10, colframe=gray!50, arc=5pt, fontupper=\scriptsize]
+                \ifthenelse{\equal{#1}{}}{%
+                    #3 % Main content when #1 is empty
+                }{%
+                    \begin{minipage}{0.7\textwidth}
+                        #3 % Main content
+                    \end{minipage}
+                    \hspace{2pt}
+                    \begin{minipage}{0.2\textwidth}
+                        \includegraphics[width=\linewidth]{#1}
+                    \end{minipage}
+                }
+            \end{tcolorbox}
+        \end{minipage}
+    \end{minipage}
+    \vspace{-2pt}
+}
+
+\newcommand{\agent}[1]{
+    \noindent
+    \begin{minipage}{\textwidth}
+        \hfill
+        \begin{minipage}{0.2\textwidth}
+            \begin{tcolorbox}[colback=blue!10, colframe=blue!50, fontupper=\scriptsize]
+                #1
+            \end{tcolorbox}
+        \end{minipage}
+        \hspace{2pt}
+        \begin{minipage}{0.1\textwidth}
+            \includegraphics[width=\linewidth]{iclr2025/images/agent.png}
+        \end{minipage}
+    \end{minipage}
+}
+
+\usepackage{ifthen}
+\newcommand{\toref}[1][]{\textcolor{purple}{[\textbf{REF}\ifthenelse { \equal {#1} {} }
+    {}
+    {: #1}]}}
+\newcommand{\todo}[1][]{\textcolor{red}{\textbf{TODO}\ifthenelse { \equal {#1} {} }
+    {}
+    {: #1}}}    
+\newcommand{\tr}[1]{{\color{red}\textbf{TR}: #1}}
+\let\tim\tr
+
+\title{BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games}
+
+
+\author{\textbf{Davide Paglieri}$^{1}$\thanks{Equal contribution.}, \textbf{Bart{\l}omiej Cupia{\l}}$^{2,6*}$, \textbf{Samuel Coward}$^{3}$, \textbf{Ulyana Piterbarg}$^{4}$, \\
+\textbf{Maciej Wo{\l}czyk}$^{2}$, \textbf{Akbir Khan}$^{1,5}$, \textbf{Eduardo Pignatelli}$^{1}$, \textbf{{\L}ukasz Kuciski}$^{2, 6, 7}$,\textbf{Lerrel Pinto}$^{4}$ \\
+\textbf{Rob Fergus}$^{4}$, \textbf{Jakob Nicolaus Foerster}$^{3}$, \textbf{Jack Parker-Holder}$^{1}$, \textbf{Tim Rockt{\"a}schel}$^{1}$ \\
+$^{1}$AI Centre, University College London, 
+$^{2}$IDEAS NCBR,
+$^{3}$University of Oxford,\\ 
+$^{4}$New York University,
+$^{5}$Anthropic,
+$^{6}$University of Warsaw,\\
+$^{7}$Institute of Mathematics, Polish Academy of Sciences\\
+\texttt{d.paglieri@cs.ucl.ac.uk}
+}
+
+
+
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+\newcommand{\our}{BALROG}
+\newcommand{\mw}[1]{\textcolor{green}{[MW]: #1}}
+\newcommand{\UP}[2]{\textcolor{blue}{[UP]: #1}}
+\newcommand{\davide}[1]{\textcolor{orange}{[DP]: #1}}
+\newcommand{\kucil}[1]{\textcolor{violet}{[K]: #1}}
+\newcommand{\RF}[1]{\textcolor{magenta}{[RF]: #1}}
+\newcommand{\bartek}[1]{\textcolor{cyan}{[BC]: #1}}
+
+\usepackage{xcolor}
+\definecolor{myblue}{RGB}{0,0,255}
+
+\newcommand\cmark {\textcolor[RGB]{13, 120, 24}{\ding{52}}}
+\newcommand\triplecmark {\textcolor[RGB]{13, 120, 24}{\ding{52}\ding{52}\ding{52}}}
+\newcommand\xmark {\textcolor[RGB]{173, 21, 14}{\ding{55}}}
+
+
+
+\iclrfinalcopy %
+\begin{document}
+
+\maketitle
+
+\input{core/0-abstract}
+\input{core/1-introduction}
+\input{core/2-iclbench}
+\input{core/3-experimental_setup}
+\input{core/4-results}
+\input{core/5-related_work}
+\input{core/6-discussion}
+\input{core/7-conclusion}
+\input{core/8-statements}
+
+
+
+
+
+\input{main.bbl}
+%\bibliography{iclr2025_conference}
+\bibliographystyle{iclr2025_conference}
+
+\appendix
+\newpage
+\input{core/A-BabyAI}
+\input{core/B-Crafter}
+\input{core/C-TextWorld}
+\input{core/D-BabaIsAI}
+\input{core/E-MiniHack}
+\input{core/F-NetHack}
+
+
+
+\end{document}

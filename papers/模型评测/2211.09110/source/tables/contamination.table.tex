@@ -1,0 +1,99 @@
+\begin{table*}[htp]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{cccc}
+\toprule
+Model & Scenario & Contamination strength & Source of evidence \\
+\midrule
+\anthropic & \pile & Strong & \citet{askell2021general} \\
+\bloom & \pile & Strong & \citet{scao2022bloom} \\
+\gptj & \pile & Strong & \citet{wang2021gptj} \\
+\gptneox & \pile & Strong & \citet{black2022neox} \\
+\optsixsix & \pile & Strong & \citet{zhang2022opt} \\
+\optonesevenfive & \pile & Strong & \citet{zhang2022opt} \\
+\mtnlgseven & \pile & Strong & \citet{smith2022mtnlg} \\
+\mtnlgfivethreezero & \pile & Strong & \citet{smith2022mtnlg} \\
+\yalm & \pile & Strong & \url{https://github.com/yandex/YaLM-100B} \\
+\tzero & \boolq & Strong & \citet{sanh2021multitask} \\
+\tzero & \hellaswag & Strong & \citet{sanh2021multitask} \\
+\tzero & \openbookqa & Strong & \citet{sanh2021multitask} \\
+\tzero & \cnndm & Strong & \citet{sanh2021multitask} \\
+\tzero & \xsum & Strong & \citet{sanh2021multitask} \\
+\tzero & \imdb & Strong & \citet{sanh2021multitask} \\
+\midrule
+\gptdavinci & \naturalquestions (open-book) & Weak & \citet{brown2020gpt3} \\
+\gptdavinci & \naturalquestions (closed-book) & Weak & \citet{brown2020gpt3} \\
+\gptdavinci & \quac & Weak & \citet{brown2020gpt3} \\
+\gptdavinci & \boolq & Weak & \citet{brown2020gpt3} \\
+\gptdavinci & \hellaswag & Weak & \citet{brown2020gpt3} \\
+\gptdavinci & \openbookqa & Weak & \citet{brown2020gpt3} \\
+
+\gptcurie & \naturalquestions (open-book) & Weak & \citet{brown2020gpt3} \\
+\gptcurie & \naturalquestions (closed-book) & Weak & \citet{brown2020gpt3} \\
+\gptcurie & \quac & Weak & \citet{brown2020gpt3} \\
+\gptcurie & \boolq & Weak & \citet{brown2020gpt3} \\
+\gptcurie & \hellaswag & Weak & \citet{brown2020gpt3} \\
+\gptcurie & \openbookqa & Weak & \citet{brown2020gpt3} \\
+
+\gptbabbage & \naturalquestions (open-book) & Weak & \citet{brown2020gpt3} \\
+\gptbabbage & \naturalquestions (closed-book) & Weak & \citet{brown2020gpt3} \\
+\gptbabbage & \quac & Weak & \citet{brown2020gpt3} \\
+\gptbabbage & \boolq & Weak & \citet{brown2020gpt3} \\
+\gptbabbage & \hellaswag & Weak & \citet{brown2020gpt3} \\
+\gptbabbage & \openbookqa & Weak & \citet{brown2020gpt3} \\
+
+\gptada & \naturalquestions (open-book) & Weak & \citet{brown2020gpt3} \\
+\gptada & \naturalquestions (closed-book) & Weak & \citet{brown2020gpt3} \\
+\gptada & \quac & Weak & \citet{brown2020gpt3} \\
+\gptada & \boolq & Weak & \citet{brown2020gpt3} \\
+\gptada & \hellaswag & Weak & \citet{brown2020gpt3} \\
+\gptada & \openbookqa & Weak & \citet{brown2020gpt3} \\
+
+\instructdavinci & \naturalquestions (open-book) & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructdavinci & \naturalquestions (closed-book) & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructdavinci & \quac & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructdavinci & \boolq & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructdavinci & \hellaswag & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructdavinci & \openbookqa & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+
+\instructcurie & \naturalquestions (open-book) & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructcurie & \naturalquestions (closed-book) & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructcurie & \quac & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructcurie & \boolq & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructcurie & \hellaswag & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructcurie & \openbookqa & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+
+\instructbabbage & \naturalquestions (open-book) & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructbabbage & \naturalquestions (closed-book) & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructbabbage & \quac & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructbabbage & \boolq & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructbabbage & \hellaswag & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructbabbage & \openbookqa & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+
+\instructada & \naturalquestions (open-book) & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructada & \naturalquestions (closed-book) & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructada & \quac & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructada & \boolq & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructada & \hellaswag & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+\instructada & \openbookqa & Weak & Dependence: \citet{ouyang2022instructions}; Evidence: \citet{brown2020gpt3} \\
+
+\davincicodex & \naturalquestions (open-book) & Weak & Dependence: \citet{chen2021codex}; Evidence: \citet{brown2020gpt3} \\
+\davincicodex & \naturalquestions (closed-book) & Weak & Dependence: \citet{chen2021codex}; Evidence: \citet{brown2020gpt3} \\
+\davincicodex & \quac & Weak & Dependence: \citet{chen2021codex}; Evidence: \citet{brown2020gpt3} \\
+\davincicodex & \boolq & Weak & Dependence: \citet{chen2021codex}; Evidence: \citet{brown2020gpt3} \\
+\davincicodex & \hellaswag & Weak & Dependence: \citet{chen2021codex}; Evidence: \citet{brown2020gpt3} \\
+\davincicodex & \openbookqa & Weak & Dependence: \citet{chen2021codex}; Evidence: \citet{brown2020gpt3} \\
+
+\cushmancodex & \naturalquestions (open-book) & Weak & Dependence: \citet{chen2021codex}; Evidence: \citet{brown2020gpt3} \\
+\cushmancodex & \naturalquestions (closed-book) & Weak & Dependence: \citet{chen2021codex}; Evidence: \citet{brown2020gpt3} \\
+\cushmancodex & \quac & Weak & Dependence: \citet{chen2021codex}; Evidence: \citet{brown2020gpt3} \\
+\cushmancodex & \boolq & Weak & Dependence: \citet{chen2021codex}; Evidence: \citet{brown2020gpt3} \\
+\cushmancodex & \hellaswag & Weak & Dependence: \citet{chen2021codex}; Evidence: \citet{brown2020gpt3} \\
+\cushmancodex & \openbookqa & Weak & Dependence: \citet{chen2021codex}; Evidence: \citet{brown2020gpt3} \\
+
+\bottomrule
+\end{tabular}}
+\caption{\textbf{Evidence of train-test contamination.}
+The full provenance for the current train-test contamination at the time of writing, as well as updates in light of new evidence, are tracked on Github.
+}
+\label{tab:contamination-evidence}
+\end{table*}

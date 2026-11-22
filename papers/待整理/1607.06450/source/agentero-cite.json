@@ -1,0 +1,865 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-15T11:47:24.910Z",
+    "fingerprint": "266741bafb63d44ae79cd5eb75e71552207b05c4101cb84284b325efa93f8a31"
+  },
+  "citations": [
+    {
+      "id": "cite-krizhevsky2012imagenet",
+      "rawKey": "krizhevsky2012imagenet",
+      "display": "[1]",
+      "raw": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. Imagenet classification with deep convolutional neural networks. In NIPS, 2012.",
+      "metadata": {
+        "title": "ImageNet classification with deep convolutional neural networks",
+        "authors": [
+          "A. Krizhevsky",
+          "I. Sutskever",
+          "Geoffrey E. Hinton"
+        ],
+        "year": 2012,
+        "venue": "Communications of the ACM",
+        "doi": "10.1145/3065386",
+        "url": "https://www.semanticscholar.org/paper/abd1c342495432171beb7ca8fd9551ef13cbd0ff"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hinton2012deep",
+      "rawKey": "hinton2012deep",
+      "display": "[2]",
+      "raw": "Geoffrey Hinton, Li Deng, Dong Yu, George E Dahl, Abdel-rahman Mohamed, Navdeep Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara N Sainath, et al. Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups. IEEE, 2012.",
+      "metadata": {
+        "title": "Deep Neural Networks for Acoustic Modeling in Speech Recognition: The Shared Views of Four Research Groups",
+        "authors": [
+          "G. Hinton",
+          "L. Deng",
+          "Dong Yu",
+          "G. Dahl",
+          "Abdel-rahman Mohamed",
+          "N. Jaitly",
+          "A. Senior",
+          "Vincent Vanhoucke",
+          "P. Nguyen",
+          "T. Sainath",
+          "Brian Kingsbury"
+        ],
+        "year": 2012,
+        "venue": "IEEE Signal Processing Magazine",
+        "doi": "10.1109/MSP.2012.2205597",
+        "url": "https://www.semanticscholar.org/paper/31868290adf1c000c611dfc966b514d5a34e8d23"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dean2012large",
+      "rawKey": "dean2012large",
+      "display": "[3]",
+      "raw": "Jeffrey Dean, Greg Corrado, Rajat Monga, Kai Chen, Matthieu Devin, Mark Mao, Andrew Senior, Paul Tucker, Ke Yang, Quoc V Le, et al. Large scale distributed deep networks. In NIPS, 2012.",
+      "metadata": {
+        "title": "Large Scale Distributed Deep Networks",
+        "authors": [
+          "Jeffrey Dean",
+          "G. Corrado",
+          "Rajat Monga",
+          "Kai Chen",
+          "Matthieu Devin",
+          "Quoc V. Le",
+          "Mark Z. Mao",
+          "M. Ranzato",
+          "A. Senior",
+          "P. Tucker",
+          "Ke Yang",
+          "A. Ng"
+        ],
+        "year": 2012,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://www.semanticscholar.org/paper/3127190433230b3dc1abd0680bb58dced4bcd90e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ioffe2015batch",
+      "rawKey": "ioffe2015batch",
+      "display": "[4]",
+      "raw": "Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. ICML, 2015.",
+      "metadata": {
+        "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+        "authors": [
+          "S. Ioffe",
+          "C. Szegedy"
+        ],
+        "year": 2015,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1502.03167",
+        "arxivId": "1502.03167",
+        "url": "https://www.semanticscholar.org/paper/995c5f5e62614fcb4d2796ad2faab969da51713e"
+      },
+      "localMatch": {
+        "paperPath": "papers/1502.03167",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sutskever2014sequence",
+      "rawKey": "sutskever2014sequence",
+      "display": "[5]",
+      "raw": "Ilya Sutskever, Oriol Vinyals, and Quoc V Le. Sequence to sequence learning with neural networks. In Advances in neural information processing systems, pages 3104--3112, 2014.",
+      "metadata": {
+        "title": "Sequence to Sequence Learning with Neural Networks",
+        "authors": [
+          "I. Sutskever",
+          "O. Vinyals",
+          "Quoc V. Le"
+        ],
+        "year": 2014,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1409.3215",
+        "arxivId": "1409.3215",
+        "url": "https://www.semanticscholar.org/paper/cea967b59209c6be22829699f05b8b1ac4dc092d"
+      },
+      "localMatch": {
+        "paperPath": "papers/1409.3215",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-laurent2015batch",
+      "rawKey": "laurent2015batch",
+      "display": "[6]",
+      "raw": "Cesar Laurent, Gabriel Pereyra, Philemon Brakel, Ying Zhang, and Yoshua Bengio. Batch normalized recurrent neural networks. arXiv preprint arXiv:1510.01378, 2015.",
+      "metadata": {
+        "title": "Batch normalized recurrent neural networks",
+        "authors": [
+          "César Laurent",
+          "Gabriel Pereyra",
+          "Philémon Brakel",
+          "Y. Zhang",
+          "Yoshua Bengio"
+        ],
+        "year": 2015,
+        "venue": "2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "doi": "10.1109/ICASSP.2016.7472159",
+        "arxivId": "1510.01378",
+        "url": "https://www.semanticscholar.org/paper/f95adc1d8daaa07a0c956826ec274ca9e2515ddc"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-amodei2015deep",
+      "rawKey": "amodei2015deep",
+      "display": "[7]",
+      "raw": "Dario Amodei, Rishita Anubhai, Eric Battenberg, Carl Case, Jared Casper, Bryan Catanzaro, Jingdong Chen, Mike Chrzanowski, Adam Coates, Greg Diamos, et al. Deep speech 2: End-to-end speech recognition in english and mandarin. arXiv preprint arXiv:1512.02595, 2015.",
+      "metadata": {
+        "title": "Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin",
+        "authors": [
+          "D. Amodei",
+          "S. Ananthanarayanan",
+          "Rishita Anubhai",
+          "Jin Bai",
+          "Eric Battenberg",
+          "Carl Case",
+          "J. Casper",
+          "Bryan Catanzaro",
+          "Jingdong Chen",
+          "Mike Chrzanowski",
+          "A. Coates",
+          "G. Diamos",
+          "Erich Elsen",
+          "Jesse Engel",
+          "Linxi (Jim) Fan",
+          "Christopher Fougner",
+          "Awni Y. Hannun",
+          "Billy Jun",
+          "T. Han",
+          "P. LeGresley",
+          "Xian-Gang Li",
+          "Li-Bo Lin",
+          "Sharan Narang",
+          "A. Ng",
+          "Sherjil Ozair",
+          "R. Prenger",
+          "Sheng Qian",
+          "Jonathan Raiman",
+          "S. Satheesh",
+          "David Seetapun",
+          "Shubho Sengupta",
+          "Anuroop Sriram",
+          "Chong-Jun Wang",
+          "Yi Wang",
+          "Zhiqian Wang",
+          "Bo Xiao",
+          "Yan Xie",
+          "Dani Yogatama",
+          "J. Zhan",
+          "Zhenyao Zhu"
+        ],
+        "year": 2015,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1512.02595",
+        "arxivId": "1512.02595",
+        "url": "https://www.semanticscholar.org/paper/13497bd108d4412d02050e646235f456568cf822"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cooijmans2016recurrent",
+      "rawKey": "cooijmans2016recurrent",
+      "display": "[8]",
+      "raw": "Tim Cooijmans, Nicolas Ballas, Cesar Laurent, and Aaron Courville. Recurrent batch normalization. arXiv preprint arXiv:1603.09025, 2016.",
+      "metadata": {
+        "title": "Recurrent Batch Normalization",
+        "authors": [
+          "Tim Cooijmans",
+          "Nicolas Ballas",
+          "César Laurent",
+          "Çaglar Gülçehre",
+          "Aaron C. Courville"
+        ],
+        "year": 2016,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1603.09025",
+        "arxivId": "1603.09025",
+        "url": "https://www.semanticscholar.org/paper/952454718139dba3aafc6b3b67c4f514ac3964af"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-salimans2016weight",
+      "rawKey": "salimans2016weight",
+      "display": "[9]",
+      "raw": "Tim Salimans and Diederik P Kingma. Weight normalization: A simple reparameterization to accelerate training of deep neural networks. arXiv preprint arXiv:1602.07868, 2016.",
+      "metadata": {
+        "title": "Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks",
+        "authors": [
+          "T. Salimans",
+          "Diederik P. Kingma"
+        ],
+        "year": 2016,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1602.07868",
+        "arxivId": "1602.07868",
+        "url": "https://www.semanticscholar.org/paper/3d2c6941a9b4608ba52b328369a3352db2092ae0"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-neyshabur2015path",
+      "rawKey": "neyshabur2015path",
+      "display": "[10]",
+      "raw": "Behnam Neyshabur, Ruslan R Salakhutdinov, and Nati Srebro. Path-sgd: Path-normalized optimization in deep neural networks. In Advances in Neural Information Processing Systems, pages 2413--2421, 2015.",
+      "metadata": {
+        "title": "Path-SGD: Path-Normalized Optimization in Deep Neural Networks",
+        "authors": [
+          "Behnam Neyshabur",
+          "R. Salakhutdinov",
+          "N. Srebro"
+        ],
+        "year": 2015,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1506.02617",
+        "arxivId": "1506.02617",
+        "url": "https://www.semanticscholar.org/paper/6fe02ad979baad659f04c3376a77dbb2cb4699a5"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-amari1998natural",
+      "rawKey": "amari1998natural",
+      "display": "[11]",
+      "raw": "Shun-Ichi Amari. Natural gradient works efficiently in learning. Neural computation, 1998.",
+      "metadata": {
+        "title": "Natural Gradient Works Efficiently in Learning",
+        "authors": [
+          "S. Amari"
+        ],
+        "year": 1998,
+        "venue": "Neural Computation",
+        "doi": "10.1162/089976698300017746",
+        "url": "https://www.semanticscholar.org/paper/5a767a341364de1f75bea85e0b12ba7d3586a461"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vendrov2015order",
+      "rawKey": "vendrov2015order",
+      "display": "[12]",
+      "raw": "Ivan Vendrov, Ryan Kiros, Sanja Fidler, and Raquel Urtasun. Order-embeddings of images and language. ICLR, 2016.",
+      "metadata": {
+        "title": "Order-Embeddings of Images and Language",
+        "authors": [
+          "Ivan Vendrov",
+          "R. Kiros",
+          "S. Fidler",
+          "R. Urtasun"
+        ],
+        "year": 2015,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1511.06361",
+        "arxivId": "1511.06361",
+        "url": "https://www.semanticscholar.org/paper/46b8cbcdff87b842c2c1d4a003c831f845096ba7"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-team2016theano",
+      "rawKey": "team2016theano",
+      "display": "[13]",
+      "raw": "The Theano Development Team, Rami Al-Rfou, Guillaume Alain, Amjad Almahairi, Christof Angermueller, Dzmitry Bahdanau, Nicolas Ballas, Frederic Bastien, Justin Bayer, Anatoly Belikov, et al. Theano: A python framework for fast computation of mathematical expressions. arXiv preprint arXiv:1605.02688, 2016.",
+      "metadata": {
+        "title": "Theano: A Python framework for fast computation of mathematical expressions",
+        "authors": [
+          "Rami Al-Rfou",
+          "Guillaume Alain",
+          "Amjad Almahairi",
+          "Christof Angermueller",
+          "D. Bahdanau",
+          "Nicolas Ballas",
+          "Frédéric Bastien",
+          "Justin Bayer",
+          "A. Belikov",
+          "A. Belopolsky",
+          "Yoshua Bengio",
+          "Arnaud Bergeron",
+          "J. Bergstra",
+          "V. Bisson",
+          "Josh Bleecher Snyder",
+          "Nicolas Bouchard",
+          "Nicolas Boulanger-Lewandowski",
+          "Xavier Bouthillier",
+          "Alexandre de Brébisson",
+          "Olivier Breuleux",
+          "P. Carrier",
+          "Kyunghyun Cho",
+          "J. Chorowski",
+          "Paul F. Christiano",
+          "Tim Cooijmans",
+          "Marc-Alexandre Côté",
+          "Myriam Côté",
+          "Aaron C. Courville",
+          "Y. Dauphin",
+          "Olivier Delalleau",
+          "Julien Demouth",
+          "Guillaume Desjardins",
+          "S. Dieleman",
+          "Laurent Dinh",
+          "Mélanie Ducoffe",
+          "V. Dumoulin",
+          "Samira Ebrahimi Kahou",
+          "D. Erhan",
+          "Zi-Ye Fan",
+          "O. Firat",
+          "M. Germain",
+          "X. Glorot",
+          "I. Goodfellow",
+          "M. Graham",
+          "Çaglar Gülçehre",
+          "P. Hamel",
+          "Iban Harlouchet",
+          "Jean-Philippe Heng",
+          "Balázs Hidasi",
+          "S. Honari",
+          "Arjun Jain",
+          "Sébastien Jean",
+          "Kai Jia",
+          "Mikhail Korobov",
+          "Vivek Kulkarni",
+          "Alex Lamb",
+          "P. Lamblin",
+          "Eric Larsen",
+          "César Laurent",
+          "S. Lee",
+          "S. Lefrançois",
+          "S. Lemieux",
+          "Nicholas Léonard",
+          "Zhouhan Lin",
+          "J. Livezey",
+          "C. Lorenz",
+          "J. Lowin",
+          "Qianli Ma",
+          "Pierre-Antoine Manzagol",
+          "Olivier Mastropietro",
+          "R. McGibbon",
+          "Roland Memisevic",
+          "Bart van Merriënboer",
+          "Vincent Michalski",
+          "Mehdi Mirza",
+          "A. Orlandi",
+          "C. Pal",
+          "Razvan Pascanu",
+          "M. Pezeshki",
+          "Colin A. Raffel",
+          "D. Renshaw",
+          "M. Rocklin",
+          "Adriana Romero",
+          "Markus Roth",
+          "Peter Sadowski",
+          "John Salvatier",
+          "François Savard",
+          "Jan Schlüter",
+          "John D. Schulman",
+          "Gabriel Schwartz",
+          "I. Serban",
+          "Dmitriy Serdyuk",
+          "S. Shabanian",
+          "Étienne Simon",
+          "Sigurd Spieckermann",
+          "S. Subramanyam",
+          "Jakub Sygnowski",
+          "Jérémie Tanguay",
+          "Gijs van Tulder",
+          "Joseph P. Turian",
+          "Sebastian Urban",
+          "Pascal Vincent",
+          "Francesco Visin",
+          "Harm de Vries",
+          "David Warde-Farley",
+          "Dustin J. Webb",
+          "M. Willson",
+          "Kelvin Xu",
+          "Li-Jun Xue",
+          "Li Yao",
+          "Sai-Zheng Zhang",
+          "Ying Zhang"
+        ],
+        "year": 2016,
+        "doi": "10.48550/arXiv.1605.02688",
+        "arxivId": "1605.02688",
+        "url": "https://www.semanticscholar.org/paper/6b570069f14c7588e066f7138e1f21af59d62e61"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lin2014microsoft",
+      "rawKey": "lin2014microsoft",
+      "display": "[14]",
+      "raw": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence Zitnick. Microsoft coco: Common objects in context. ECCV, 2014.",
+      "metadata": {
+        "title": "Microsoft COCO: Common Objects in Context",
+        "authors": [
+          "Tsung-Yi Lin",
+          "M. Maire",
+          "Serge J. Belongie",
+          "L. Bourdev",
+          "Ross B. Girshick",
+          "James Hays",
+          "P. Perona",
+          "D. Ramanan",
+          "C. Zitnick",
+          "Piotr Dollár"
+        ],
+        "year": 2014,
+        "venue": "European Conference on Computer Vision",
+        "doi": "10.48550/arXiv.1405.0312",
+        "arxivId": "1405.0312",
+        "url": "https://www.semanticscholar.org/paper/71b7178df5d2b112d07e45038cb5637208659ff7"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cho2014learning",
+      "rawKey": "cho2014learning",
+      "display": "[15]",
+      "raw": "Kyunghyun Cho, Bart Van Merrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for statistical machine translation. EMNLP, 2014.",
+      "metadata": {
+        "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+        "authors": [
+          "Kyunghyun Cho",
+          "Bart van Merriënboer",
+          "Çaglar Gülçehre",
+          "D. Bahdanau",
+          "F. Bougares",
+          "Holger Schwenk",
+          "Yoshua Bengio"
+        ],
+        "year": 2014,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.3115/v1/D14-1179",
+        "arxivId": "1406.1078",
+        "url": "https://www.semanticscholar.org/paper/0b544dfe355a5070b60986319a3f51fb45d1348e"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-simonyan2014very",
+      "rawKey": "simonyan2014very",
+      "display": "[16]",
+      "raw": "Karen Simonyan and Andrew Zisserman. Very deep convolutional networks for large-scale image recognition. ICLR, 2015.",
+      "metadata": {
+        "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+        "authors": [
+          "K. Simonyan",
+          "Andrew Zisserman"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1409.1556",
+        "arxivId": "1409.1556",
+        "url": "https://www.semanticscholar.org/paper/eb42cf88027de515750f230b23b1a057dc782108"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kiros2014unifying",
+      "rawKey": "kiros2014unifying",
+      "display": "[17]",
+      "raw": "Ryan Kiros, Ruslan Salakhutdinov, and Richard S Zemel. Unifying visual-semantic embeddings with multimodal neural language models. arXiv preprint arXiv:1411.2539, 2014.",
+      "metadata": {
+        "title": "Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models",
+        "authors": [
+          "R. Kiros",
+          "R. Salakhutdinov",
+          "R. Zemel"
+        ],
+        "year": 2014,
+        "doi": "10.48550/arXiv.1411.2539",
+        "arxivId": "1411.2539",
+        "url": "https://www.semanticscholar.org/paper/2e36ea91a3c8fbff92be2989325531b4002e2afc"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-adam",
+      "rawKey": "adam",
+      "display": "[18]",
+      "raw": "D. Kingma and J. L. Ba. Adam: a method for stochastic optimization. ICLR, 2014. arXiv:1412.6980.",
+      "metadata": {
+        "title": "Adam: A Method for Stochastic Optimization",
+        "authors": [
+          "Diederik P. Kingma",
+          "Jimmy Ba"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1412.6980",
+        "arxivId": "1412.6980",
+        "url": "https://www.semanticscholar.org/paper/cf5cf758f1b00214d70e34f8a57813557dc03e17"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2015learning",
+      "rawKey": "wang2015learning",
+      "display": "[19]",
+      "raw": "Liwei Wang, Yin Li, and Svetlana Lazebnik. Learning deep structure-preserving image-text embeddings. CVPR, 2016.",
+      "metadata": {
+        "title": "Learning Deep Structure-Preserving Image-Text Embeddings",
+        "authors": [
+          "Liwei Wang",
+          "Yin Li",
+          "Svetlana Lazebnik"
+        ],
+        "year": 2015,
+        "venue": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "doi": "10.1109/CVPR.2016.541",
+        "arxivId": "1511.06078",
+        "url": "https://www.semanticscholar.org/paper/b27e791e843c924ef052981b79490ab59fc0433d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hermann2015teaching",
+      "rawKey": "hermann2015teaching",
+      "display": "[20]",
+      "raw": "Karl Moritz Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom. Teaching machines to read and comprehend. In NIPS, 2015.",
+      "metadata": {
+        "title": "Teaching Machines to Read and Comprehend",
+        "authors": [
+          "K. Hermann",
+          "Tomás Kociský",
+          "Edward Grefenstette",
+          "L. Espeholt",
+          "W. Kay",
+          "M. Suleyman",
+          "P. Blunsom"
+        ],
+        "year": 2015,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1506.03340",
+        "arxivId": "1506.03340",
+        "url": "https://www.semanticscholar.org/paper/d1505c6123c102e53eb19dff312cb25cea840b72"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kiros2015skip",
+      "rawKey": "kiros2015skip",
+      "display": "[21]",
+      "raw": "Ryan Kiros, Yukun Zhu, Ruslan R Salakhutdinov, Richard Zemel, Raquel Urtasun, Antonio Torralba, and Sanja Fidler. Skip-thought vectors. In NIPS, 2015.",
+      "metadata": {
+        "title": "Skip-Thought Vectors",
+        "authors": [
+          "R. Kiros",
+          "Yu-Kun Zhu",
+          "R. Salakhutdinov",
+          "R. Zemel",
+          "A. Torralba",
+          "R. Urtasun",
+          "S. Fidler"
+        ],
+        "year": 2015,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1506.06726",
+        "arxivId": "1506.06726",
+        "url": "https://www.semanticscholar.org/paper/6e795c6e9916174ae12349f5dc3f516570c17ce8"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mikolov2013efficient",
+      "rawKey": "mikolov2013efficient",
+      "display": "[22]",
+      "raw": "Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781, 2013.",
+      "metadata": {
+        "title": "Efficient Estimation of Word Representations in Vector Space",
+        "authors": [
+          "Tomas Mikolov",
+          "Kai Chen",
+          "G. Corrado",
+          "Jeffrey Dean"
+        ],
+        "year": 2013,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1301.3781",
+        "arxivId": "1301.3781",
+        "url": "https://www.semanticscholar.org/paper/f6b51c8753a871dc94ff32152c00c01e94f90f09"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhu2015aligning",
+      "rawKey": "zhu2015aligning",
+      "display": "[23]",
+      "raw": "Yukun Zhu, Ryan Kiros, Rich Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler. Aligning books and movies: Towards story-like visual explanations by watching movies and reading books. In ICCV, 2015.",
+      "metadata": {
+        "title": "Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books",
+        "authors": [
+          "Yu-Kun Zhu",
+          "R. Kiros",
+          "R. Zemel",
+          "R. Salakhutdinov",
+          "R. Urtasun",
+          "A. Torralba",
+          "S. Fidler"
+        ],
+        "year": 2015,
+        "venue": "2015 IEEE International Conference on Computer Vision (ICCV)",
+        "doi": "10.1109/ICCV.2015.11",
+        "arxivId": "1506.06724",
+        "url": "https://www.semanticscholar.org/paper/0e6824e137847be0599bb0032e37042ed2ef5045"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-marelli2014semeval",
+      "rawKey": "marelli2014semeval",
+      "display": "[24]",
+      "raw": "Marco Marelli, Luisa Bentivogli, Marco Baroni, Raffaella Bernardi, Stefano Menini, and Roberto Zamparelli. Semeval-2014 task 1: Evaluation of compositional distributional semantic models on full sentences through semantic relatedness and textual entailment. SemEval-2014, 2014.",
+      "metadata": {
+        "title": "SemEval-2014 Task 1: Evaluation of Compositional Distributional Semantic Models on Full Sentences through Semantic Relatedness and Textual Entailment",
+        "authors": [
+          "M. Marelli",
+          "L. Bentivogli",
+          "M. Baroni",
+          "R. Bernardi",
+          "Stefano Menini",
+          "Roberto Zamparelli"
+        ],
+        "year": 2014,
+        "venue": "International Workshop on Semantic Evaluation",
+        "doi": "10.3115/v1/S14-2001",
+        "url": "https://www.semanticscholar.org/paper/11ec56898a9e7f401a2affe776b5297bd4e25025"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pang2005seeing",
+      "rawKey": "pang2005seeing",
+      "display": "[25]",
+      "raw": "Bo Pang and Lillian Lee. Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales. In ACL, pages 115--124, 2005.",
+      "metadata": {
+        "title": "Seeing Stars: Exploiting Class Relationships for Sentiment Categorization with Respect to Rating Scales",
+        "authors": [
+          "B. Pang",
+          "Lillian Lee"
+        ],
+        "year": 2005,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.3115/1219840.1219855",
+        "arxivId": "cs/0506075",
+        "url": "https://www.semanticscholar.org/paper/6af58c061f2e4f130c3b795c21ff0c7e3903278f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hu2004mining",
+      "rawKey": "hu2004mining",
+      "display": "[26]",
+      "raw": "Minqing Hu and Bing Liu. Mining and summarizing customer reviews. In Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining, 2004.",
+      "metadata": {
+        "title": "Mining and summarizing customer reviews",
+        "authors": [
+          "Min-Qing Hu",
+          "Bing Liu"
+        ],
+        "year": 2004,
+        "venue": "Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining",
+        "doi": "10.1145/1014052.1014073",
+        "url": "https://www.semanticscholar.org/paper/cdcf7cb29f37ac0546961ea8a076075b9cc1f992"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pang2004sentimental",
+      "rawKey": "pang2004sentimental",
+      "display": "[27]",
+      "raw": "Bo Pang and Lillian Lee. A sentimental education: Sentiment analysis using subjectivity summarization based on minimum cuts. In ACL, 2004.",
+      "metadata": {
+        "title": "A Sentimental Education: Sentiment Analysis Using Subjectivity Summarization Based on Minimum Cuts",
+        "authors": [
+          "B. Pang",
+          "Lillian Lee"
+        ],
+        "year": 2004,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.3115/1218955.1218990",
+        "arxivId": "cs/0409058",
+        "url": "https://www.semanticscholar.org/paper/167e1359943b96b9e92ee73db1df69a1f65d731d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wiebe2005annotating",
+      "rawKey": "wiebe2005annotating",
+      "display": "[28]",
+      "raw": "Janyce Wiebe, Theresa Wilson, and Claire Cardie. Annotating expressions of opinions and emotions in language. Language resources and evaluation, 2005.",
+      "metadata": {
+        "title": "Annotating Expressions of Opinions and Emotions in Language",
+        "authors": [
+          "J. Wiebe",
+          "Theresa Wilson",
+          "Claire Cardie"
+        ],
+        "year": 2005,
+        "venue": "Language Resources and Evaluation",
+        "doi": "10.1007/s10579-005-7880-9",
+        "url": "https://www.semanticscholar.org/paper/1cff7cc15555c38607016aaba24059e76b160adb"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-draw",
+      "rawKey": "draw",
+      "display": "[29]",
+      "raw": "K. Gregor, I. Danihelka, A. Graves, and D. Wierstra. DRAW: a recurrent neural network for image generation. arXiv:1502.04623, 2015.",
+      "metadata": {
+        "title": "DRAW: A Recurrent Neural Network For Image Generation",
+        "authors": [
+          "K. Gregor",
+          "I. Danihelka",
+          "Alex Graves",
+          "Danilo Jimenez Rezende",
+          "D. Wierstra"
+        ],
+        "year": 2015,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1502.04623",
+        "arxivId": "1502.04623",
+        "url": "https://www.semanticscholar.org/paper/a2785f66c20fbdf30ec26c0931584c6d6a0f4fca"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hugobmnist",
+      "rawKey": "hugobmnist",
+      "display": "[30]",
+      "raw": "Hugo Larochelle and Iain Murray. The neural autoregressive distribution estimator. In AISTATS, volume 6, page 622, 2011.",
+      "metadata": {
+        "title": "The Neural Autoregressive Distribution Estimator",
+        "authors": [
+          "H. Larochelle",
+          "Iain Murray"
+        ],
+        "year": 2011,
+        "venue": "International Conference on Artificial Intelligence and Statistics",
+        "url": "https://www.semanticscholar.org/paper/b893e7053c9c7e266a23fb13a42261a88f650210"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-liwicki2005iam",
+      "rawKey": "liwicki2005iam",
+      "display": "[31]",
+      "raw": "Marcus Liwicki and Horst Bunke. Iam-ondb-an on-line english sentence database acquired from handwritten text on a whiteboard. In ICDAR, 2005.",
+      "metadata": {
+        "title": "IAM-OnDB - an on-line English sentence database acquired from handwritten text on a whiteboard",
+        "authors": [
+          "M. Liwicki",
+          "H. Bunke"
+        ],
+        "year": 2005,
+        "venue": "Eighth International Conference on Document Analysis and Recognition (ICDAR'05)",
+        "doi": "10.1109/ICDAR.2005.132",
+        "url": "https://www.semanticscholar.org/paper/9eb7daa88879f283ae05e359d6c502a320b833c9"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-graves2013generating",
+      "rawKey": "graves2013generating",
+      "display": "[32]",
+      "raw": "Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint arXiv:1308.0850, 2013.",
+      "metadata": {
+        "title": "Generating Sequences With Recurrent Neural Networks",
+        "authors": [
+          "Alex Graves"
+        ],
+        "year": 2013,
+        "doi": "10.48550/arXiv.1308.0850",
+        "arxivId": "1308.0850",
+        "url": "https://www.semanticscholar.org/paper/6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 32 entries (bbl)",
+    "semantic scholar: 33 references",
+    "merged: 32 of 32 enriched online"
+  ]
+}

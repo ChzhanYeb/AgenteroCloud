@@ -1,0 +1,189 @@
+\begin{thebibliography}{23}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Barak et~al.(2022)Barak, Edelman, Goel, Kakade, Malach, and
+  Zhang]{barak2022hidden}
+Boaz Barak, Benjamin~L Edelman, Surbhi Goel, Sham Kakade, Eran Malach, and
+  Cyril Zhang.
+\newblock Hidden progress in deep learning: Sgd learns parities near the
+  computational limit.
+\newblock \emph{arXiv preprint arXiv:2207.08799}, 2022.
+
+\bibitem[Bolukbasi et~al.(2021)Bolukbasi, Pearce, Yuan, Coenen, Reif,
+  Vi{\'{e}}gas, and Wattenberg]{interp-illusion-bert}
+Tolga Bolukbasi, Adam Pearce, Ann Yuan, Andy Coenen, Emily Reif, Fernanda~B.
+  Vi{\'{e}}gas, and Martin Wattenberg.
+\newblock An interpretability illusion for {BERT}.
+\newblock \emph{CoRR}, abs/2104.07143, 2021.
+\newblock URL \url{https://arxiv.org/abs/2104.07143}.
+
+\bibitem[Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal,
+  Neelakantan, Shyam, Sastry, Askell, Agarwal, Herbert-Voss, Krueger, Henighan,
+  Child, Ramesh, Ziegler, Wu, Winter, Hesse, Chen, Sigler, Litwin, Gray, Chess,
+  Clark, Berner, McCandlish, Radford, Sutskever, and Amodei]{GPT3}
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla
+  Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+  Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon
+  Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris
+  Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess,
+  Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever,
+  and Dario Amodei.
+\newblock Language models are few-shot learners.
+\newblock In H.~Larochelle, M.~Ranzato, R.~Hadsell, M.F. Balcan, and H.~Lin
+  (eds.), \emph{Advances in Neural Information Processing Systems}, volume~33,
+  pp.\  1877--1901. Curran Associates, Inc., 2020.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf}.
+
+\bibitem[Caldarini et~al.(2022)Caldarini, Jaf, and
+  McGarry]{caldarini2022literature}
+Guendalina Caldarini, Sardar Jaf, and Kenneth McGarry.
+\newblock A literature survey of recent advances in chatbots.
+\newblock \emph{Information}, 13\penalty0 (1):\penalty0 41, 2022.
+
+\bibitem[Elhage et~al.(2021)Elhage, Nanda, Olsson, Henighan, Joseph, Mann,
+  Askell, Bai, Chen, Conerly, DasSarma, Drain, Ganguli, Hatfield-Dodds,
+  Hernandez, Jones, Kernion, Lovitt, Ndousse, Amodei, Brown, Clark, Kaplan,
+  McCandlish, and Olah]{elhage2021mathematical}
+Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Nicholas Joseph, Ben
+  Mann, Amanda Askell, Yuntao Bai, Anna Chen, Tom Conerly, Nova DasSarma, Dawn
+  Drain, Deep Ganguli, Zac Hatfield-Dodds, Danny Hernandez, Andy Jones, Jackson
+  Kernion, Liane Lovitt, Kamal Ndousse, Dario Amodei, Tom Brown, Jack Clark,
+  Jared Kaplan, Sam McCandlish, and Chris Olah.
+\newblock A mathematical framework for transformer circuits.
+\newblock \emph{Transformer Circuits Thread}, 2021.
+\newblock https://transformer-circuits.pub/2021/framework/index.html.
+
+\bibitem[Geiger et~al.(2021)Geiger, Lu, Icard, and Potts]{geiger2021causal}
+Atticus Geiger, Hanson Lu, Thomas~F Icard, and Christopher Potts.
+\newblock Causal abstractions of neural networks.
+\newblock In A.~Beygelzimer, Y.~Dauphin, P.~Liang, and J.~Wortman Vaughan
+  (eds.), \emph{Advances in Neural Information Processing Systems}, 2021.
+\newblock URL \url{https://openreview.net/forum?id=RmuXDtjDhG}.
+
+\bibitem[Geva et~al.(2020)Geva, Schuster, Berant, and
+  Levy]{geva2020transformer}
+Mor Geva, Roei Schuster, Jonathan Berant, and Omer Levy.
+\newblock Transformer feed-forward layers are key-value memories.
+\newblock \emph{arXiv preprint arXiv:2012.14913}, 2020.
+
+\bibitem[Hendrycks \& Mazeika(2022)Hendrycks and Mazeika]{Hendrycks2022XRiskAF}
+Dan Hendrycks and Mantas Mazeika.
+\newblock X-risk analysis for ai research.
+\newblock \emph{arXiv}, abs/2206.05862, 2022.
+
+\bibitem[Hernandez et~al.(2021)Hernandez, Schwettmann, Bau, Bagashvili,
+  Torralba, and Andreas]{hernandez2021natural}
+Evan Hernandez, Sarah Schwettmann, David Bau, Teona Bagashvili, Antonio
+  Torralba, and Jacob Andreas.
+\newblock Natural language descriptions of deep visual features.
+\newblock In \emph{International Conference on Learning Representations}, 2021.
+
+\bibitem[Jain \& Wallace(2019)Jain and Wallace]{attention_not_explanation}
+Sarthak Jain and Byron~C. Wallace.
+\newblock {A}ttention is not {E}xplanation.
+\newblock In \emph{Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}, pp.\  3543--3556,
+  Minneapolis, Minnesota, June 2019. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/N19-1357}.
+\newblock URL \url{https://aclanthology.org/N19-1357}.
+
+\bibitem[Meng et~al.(2022)Meng, Bau, Andonian, and Belinkov]{meng2022locating}
+Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov.
+\newblock Locating and editing factual associations in gpt.
+\newblock \emph{arXiv preprint arXiv:2202.05262}, 2022.
+
+\bibitem[Michel et~al.(2019)Michel, Levy, and Neubig]{michel2019sixteen}
+Paul Michel, Omer Levy, and Graham Neubig.
+\newblock Are sixteen heads really better than one?
+\newblock \emph{Advances in neural information processing systems}, 32, 2019.
+
+\bibitem[Mu \& Andreas(2020)Mu and Andreas]{mu2020compositionalExplanations}
+Jesse Mu and Jacob Andreas.
+\newblock Compositional explanations of neurons.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  33:\penalty0 17153--17163, 2020.
+
+\bibitem[Nanda \& Lieberum(2022)Nanda and Lieberum]{meca_interp_grokking}
+Neel Nanda and Tom Lieberum.
+\newblock A mechanistic interpretability analysis of grokking, 2022.
+\newblock URL
+  \url{https://www.alignmentforum.org/posts/N6WM6hs7RQMKDhYjB/a-mechanistic-interpretability-analysis-of-grokking}.
+
+\bibitem[Olah(2022)]{AnthropicMechanisticEssay}
+Chris Olah.
+\newblock Mechanistic interpretability, variables, and the importance of
+  interpretable bases.
+\newblock \url{https://www.transformer-circuits.pub/2022/mech-interp-essay},
+  2022.
+\newblock Accessed: 2022-15-09.
+
+\bibitem[Olah et~al.(2020)Olah, Cammarata, Schubert, Goh, Petrov, and
+  Carter]{olah2020zoom}
+Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and
+  Shan Carter.
+\newblock Zoom in: An introduction to circuits.
+\newblock \emph{Distill}, 2020.
+\newblock \doi{10.23915/distill.00024.001}.
+\newblock https://distill.pub/2020/circuits/zoom-in.
+
+\bibitem[Olsson et~al.(2022)Olsson, Elhage, Nanda, Joseph, DasSarma, Henighan,
+  Mann, Askell, Bai, Chen, et~al.]{olsson2022context}
+Catherine Olsson, Nelson Elhage, Neel Nanda, Nicholas Joseph, Nova DasSarma,
+  Tom Henighan, Ben Mann, Amanda Askell, Yuntao Bai, Anna Chen, et~al.
+\newblock In-context learning and induction heads.
+\newblock \emph{arXiv preprint arXiv:2209.11895}, 2022.
+
+\bibitem[Radford et~al.(2019)Radford, Wu, Child, Luan, Amodei, and
+  Sutskever]{GPT2}
+Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+  Sutskever.
+\newblock Language models are unsupervised multitask learners.
+\newblock 2019.
+
+\bibitem[Räuker et~al.(2022)Räuker, Ho, Casper, and
+  Hadfield-Menell]{interp_survey}
+Tilman Räuker, Anson Ho, Stephen Casper, and Dylan Hadfield-Menell.
+\newblock Toward transparent ai: A survey on interpreting the inner structures
+  of deep neural networks, 2022.
+\newblock URL \url{https://arxiv.org/abs/2207.13243}.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{Attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pp.\
+  5998--6008, 2017.
+
+\bibitem[Vig et~al.(2020)Vig, Gehrmann, Belinkov, Qian, Nevo, Singer, and
+  Shieber]{vig2020investigating}
+Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo,
+  Yaron Singer, and Stuart Shieber.
+\newblock Investigating gender bias in language models using causal mediation
+  analysis.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  33:\penalty0 12388--12401, 2020.
+
+\bibitem[Wei et~al.(2022)Wei, Tay, Bommasani, Raffel, Zoph, Borgeaud, Yogatama,
+  Bosma, Zhou, Metzler, Chi, Hashimoto, Vinyals, Liang, Dean, and
+  Fedus]{Wei2022EmergentAO}
+Jason Wei, Yi~Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian
+  Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed~Chi,
+  Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, and William
+  Fedus.
+\newblock Emergent abilities of large language models.
+\newblock \emph{ArXiv}, abs/2206.07682, 2022.
+
+\bibitem[Zhang et~al.(2022)Zhang, Xing, Zou, and Wu]{zhang2022shifting}
+Angela Zhang, Lei Xing, James Zou, and Joseph~C Wu.
+\newblock Shifting machine learning for healthcare from development to
+  deployment and from models to data.
+\newblock \emph{Nature Biomedical Engineering}, pp.\  1--16, 2022.
+
+\end{thebibliography}

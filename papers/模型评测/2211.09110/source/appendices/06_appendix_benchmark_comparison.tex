@@ -1,0 +1,21 @@
+\hypertarget{benchmark-comparison}{\section{Comparison with other evaluations}}
+\label{app:benchmark-comparison}
+
+To understand the relationship between our benchmark and prior evaluations, we annotate two useful resources.
+First, centric on \benchmarkname, we evaluate the extent to which the \nummodels models we evaluate in this work have been evaluated on these scenarios in prior work. 
+In \refsec{helm}, we visualize \reffig{evaluation-status-quo}, which is a \numcorescenarios $\times$ \numtextmodels binary matrix of when a given model was evaluated on a given scenario. 
+In fact, this is only a submatrix: on Github, we provide the full \numscenarios $\times$ \nummodels matrix, where the entries are not just binary indicators but are, instead, the main result (\eg the accuracy) reported in prior work.
+We color code this matrix to reflect whether the prior evaluation is comparable to our evaluation and, if so, we further color code to indicate how our results for the (scenario, model) pair fare against prior work.
+In addition to understanding the relationship with prior work, this further provides us confidence on the quality of our results/implementation, especially given prompting can be fickle and models can be susceptible to brittleness surrounding specific tokenization decisions. 
+
+\input{tables/prior_evaluations.table}
+To take this further, we expand our analysis from our \numscenarios scenarios to all datasets used in all major language modeling work.
+We begin by enumerating major evaluations of language models.
+These take two forms: 
+(i) language model papers, which include the works introducing all the models we evaluate, as well as papers for iconic early language models (\eg ELMo \citep{peters2018elmo}, BERT \citep{devlin2019bert}) and modern language models we do not yet evaluate in \benchmarkname (\eg Gopher \citep{rae2021gopher}, PaLM \citep{chowdhery2022palm})
+and
+(ii) language model evaluation papers, which include SuperGLUE \citep{wang2019superglue}, the EleutherAI LM Evaluation Harness \citep{gao2021harness}, BIG-Bench \citep{srivastava2022bigbench} and now \benchmarkname. 
+We enumerate all of these papers in \reftab{prior-evaluations}.
+For each evaluation, we then enumerate all datasets used as part of the evaluation, of which the union across all \numpriorevaluations prior evaluations is \numlmdatasets datasets.
+On Github, we provide the full \numlmdatasets $\times$ \numpriorevaluations binary matrix of whether a given dataset was used as part of a given evaluation, which we summarize in \reftab{prior-evaluations} with the number of datasets used in a single evaluation. 
+Using this matrix, we define that \numnewscenarios of our scenarios were not mainstream in that across all \numpriorevaluations prior works, none had evaluated on this scenario. 

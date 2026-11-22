@@ -1,0 +1,2003 @@
+%%%%%%%% ICML 2025 EXAMPLE LATEX SUBMISSION FILE %%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{booktabs} % for professional tables
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{comment}
+\usepackage[compact]{titlesec}
+
+% hyperref makes hyperlinks in the resulting PDF.
+% If your build breaks (sometimes temporarily if a hyperlink spans a page)
+% please comment out the following usepackage line and replace
+% \usepackage{icml2025} with \usepackage[nohyperref]{icml2025} above.
+\usepackage{hyperref}
+
+
+% Attempt to make hyperref and algorithmic work together better:
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+
+% Use the following line for the initial blind version submitted for review:
+% \usepackage{icml2025}
+
+% If accepted, instead use the following line for the camera-ready submission:
+\usepackage[accepted]{icml2025}
+
+% For theorems and such
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{inconsolata}
+
+% if you use cleveref..
+\usepackage[capitalize,noabbrev]{cleveref}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage[framemethod=tikz]{mdframed}
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% THEOREMS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}[theorem]{Assumption}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\definecolor{boxgray}{rgb}{.94, .94, .94}
+\newcolumntype{g}{>{\columncolor{boxgray}}r}
+
+\mdfdefinestyle{roundedbox}{%
+    linecolor=gray!30,
+    backgroundcolor=gray!10,
+    linewidth=2pt,
+    roundcorner=10pt,
+    innertopmargin=8pt,
+    innerbottommargin=8pt,
+    innerrightmargin=8pt,
+    innerleftmargin=8pt
+}
+
+% Todonotes is useful during development; simply uncomment the next line
+%    and comment out the line below the next line to turn off comments
+\usepackage[disable,textsize=tiny]{todonotes}
+% \usepackage[textsize=tiny]{todonotes}
+\newcommand{\sarah}[2][]{\todo[color=blue!20, #1]{\textbf{Sarah:} #2}}
+\newcommand{\yb}[2][]{\todo[color=green!20, #1]{\textbf{YB:} #2}}
+\newcommand{\ho}[2][]{\todo[color=magenta!20, #1]{\textbf{HO:} #2}}
+\newcommand{\ale}[2][]{\todo[color=pink!20, #1]{\textbf{Alessandro:} #2}}
+
+
+\newcommand{\variabletrack}{causal variable localization track}
+\newcommand{\circuittrack}{circuit localization track}
+\newcommand{\variablename}{causal variable localization}
+\newcommand{\circuitname}{circuit localization}
+\newcommand{\mib}{\textsf{MIB}}
+\newcommand{\fullname}{the Mechanistic Interpretability Benchmark}
+\newcommand{\fullnameA}{a Mechanistic Interpretability Benchmark}
+\newcommand{\patching}{activation patching}
+
+% \newcommand{\order}{O}
+% \newcommand{\token}{T}
+% \newcommand{\position}{P}
+% \newcommand{\answer}{A}
+% \newcommand{\carry}{C}
+% \newcommand{\continent}{$A_{\mathit{Continent}}$}
+% \newcommand{\country}{$A_{\mathit{Country}}$}
+% \newcommand{\lang}{$A_{\mathit{Language}}$}
+% \newcommand{\inputvar}{T}
+% \newcommand{\outputvar}{O}
+\newcommand{\order}{X_{\text{Order}}}
+\newcommand{\token}{S_{\text{Tok}}}
+\newcommand{\position}{S_{\text{Pos}}}
+\newcommand{\tokensignal}{\texttt{TokenSignal}}
+\newcommand{\positionsignal}{\texttt{PositionSignal}}
+\newcommand{\answer}{O_{\text{Answer}}}
+\newcommand{\carry}{X_{\text{Carry}}}
+\newcommand{\continent}{$A_{\mathit{Cont}}$}
+\newcommand{\country}{$A_{\mathit{Country}}$}
+\newcommand{\lang}{$A_{\mathit{Lang}}$}
+\newcommand{\queryvar}{A_{\mathit{Query}}}
+\newcommand{\inputvar}{T}
+\newcommand{\outputvar}{O}
+
+% \newcommand{\arxiv}[1]{\textcolor{purple}{#1}}
+\newcommand{\arxiv}[1]{#1}
+
+
+% The \icmltitle you define below is probably too long as a header.
+% Therefore, a short form for the running title is supplied here:
+\icmltitlerunning{MIB: A Mechanistic Interpretability Benchmark}
+
+\begin{document} 
+
+\twocolumn[
+\icmltitle{\textsf{MIB}: A Mechanistic Interpretability Benchmark}
+
+\icmlsetsymbol{equal}{*}
+
+\begin{icmlauthorlist}
+\icmlauthor{Aaron Mueller}{equal,bu}
+\icmlauthor{Atticus Geiger}{equal,pr}
+\icmlauthor{Sarah Wiegreffe}{ai2}
+
+\icmlauthor{Dana Arad}{it}
+\icmlauthor{Iván Arcuschin}{uba}
+\icmlauthor{Adam Belfki}{no}
+\icmlauthor{Yik Siu Chan}{br}
+\icmlauthor{Jaden Fiotto-Kaufman}{no}
+\icmlauthor{Tal Haklay}{it}
+\icmlauthor{Michael Hanna}{uva}
+\icmlauthor{Jing Huang}{st}
+\icmlauthor{Rohan Gupta}{ind}
+\icmlauthor{Yaniv Nikankin}{it}
+\icmlauthor{Hadas Orgad}{it}
+\icmlauthor{Nikhil Prakash}{no}
+\icmlauthor{Anja Reusch}{it}
+\icmlauthor{Aruna Sankaranarayanan}{mit}
+\icmlauthor{Shun Shao}{cam}
+\icmlauthor{Alessandro Stolfo}{eth}
+\icmlauthor{Martin Tutek}{it}
+\icmlauthor{Amir Zur}{pr}
+\icmlauthor{David Bau}{no}
+\icmlauthor{Yonatan Belinkov}{it}
+
+%\icmlauthor{}{sch}
+%\icmlauthor{}{sch}
+\end{icmlauthorlist}
+
+\icmlaffiliation{bu}{Boston University}
+\icmlaffiliation{no}{Northeastern University}
+\icmlaffiliation{it}{Technion}
+\icmlaffiliation{st}{Stanford University}
+\icmlaffiliation{mit}{MIT}
+\icmlaffiliation{cam}{Cambridge University}
+\icmlaffiliation{pr}{Pr(AI)$^2$R Group}
+\icmlaffiliation{ai2}{Ai2}
+\icmlaffiliation{uva}{University of Amsterdam}
+\icmlaffiliation{br}{Brown University}
+\icmlaffiliation{ind}{Independent}
+\icmlaffiliation{eth}{ETH Z\"urich}
+\icmlaffiliation{uba}{University of Buenos Aires}
+
+\icmlcorrespondingauthor{Aaron Mueller}{amueller@bu.edu}
+
+% You may provide any keywords that you
+% find helpful for describing your paper; these are used to populate
+% the "keywords" metadata in the PDF but will not be shown in the document
+\icmlkeywords{Machine Learning, ICML}
+
+\vskip 0.3in
+]
+
+% this must go after the closing bracket ] following \twocolumn[ ...
+
+% This command actually creates the footnote in the first column
+% listing the affiliations and the copyright notice.
+% The command takes one argument, which is text to display at the start of the footnote.
+% The \icmlEqualContribution command is standard text for equal contribution.
+% Remove it (just {}) if you do not need this facility.
+
+%\printAffiliationsAndNotice{}  % leave blank if no need to mention equal contribution
+\printAffiliationsAndNotice{\icmlEqualContribution} % otherwise use the standard text.
+
+\begin{abstract}
+How can we know whether new mechanistic interpretability methods achieve real improvements?
+In pursuit of lasting evaluation standards,
+we propose \mib, \fullnameA{}, with two tracks spanning four tasks and five models. \mib{}
+favors methods that \emph{precisely} and \emph{concisely} recover relevant causal pathways or causal variables in neural language models. The \textbf{\circuittrack} compares methods that locate the model components---and connections between them---most important for performing a task (e.g., attribution patching or information flow routes).
+The \textbf{\variabletrack} compares methods that featurize a hidden vector, e.g., sparse autoencoders (SAEs) or distributed alignment search (DAS), and align those features to a task-relevant causal variable.
+Using \mib{}, we find that attribution and mask optimization methods perform best on circuit localization. 
+For causal variable localization, we find that the supervised DAS method performs best, while SAE features are not better than neurons, i.e., non-featurized hidden vectors. These findings illustrate that \mib{} enables meaningful comparisons,
+and increases our confidence that there has been real progress in the field.
+\end{abstract}
+
+\section{Introduction}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.98\columnwidth]{figures/mib_overview_vertical.pdf}
+    \caption{
+    An overview of \mib{}. We compare different circuit (\S\ref{sec:subgraph}) and causal variable (\S\ref{sec:causal_graph}) localization methods on their ability to faithfully represent a model’s behavior on a given task. We provide standardized datasets and metrics for this purpose, and accept user submissions for display on two public leaderboards (\S\ref{sec:materials}).
+    }
+    \label{fig:1}
+\end{figure}
+
+To understand how and why language models (LMs) behave the way they do, we must understand the underlying causes of their behavior. To this end, mechanistic interpretability (MI) methods have proliferated quickly. MI methods can yield deep insights into LM behaviors \citep[][\emph{i.a.}]{Rauker2023, Ferrando2024, sharkey2025openproblemsmechanisticinterpretability}, and sometimes yield more fine-grained control over LM behaviors than standard training or inference techniques \citep{meng2022locating,marks2024sparsefeaturecircuitsdiscovering}. However, it is difficult to directly compare the efficacy of MI methods. New methods are often compared to prior methods via ad hoc evaluations using metrics that may not produce generalizable insights. Thus, how can we know whether new methods are producing real advancements over prior work?
+
+We propose a benchmark to provide a basis for comparisons. A benchmark is a claim as to what should be considered important to a field. In our case, \emph{the ability to precisely locate, and causally validate, task mechanisms or specific concepts in a neural network} is the key goal of (at least some part of) many MI pipelines. 
+In fact, some have argued that causal analysis and localization are what differentiate MI from other types of interpretability work \cite{mueller2024questrightmediatorhistory,geiger2024causalabstractiontheoreticalfoundation,saphra2024mechanistic}.
+Existing benchmarks compare \emph{within} a specific class of methods \cite{saebench, Schwettmann2023}, or on specific tasks and models \cite{arora2024,huang-etal-2024-ravel, miller2024transformer, gupta2024interpbench}.
+
+We propose \mib{} to encourage stable standards for comparing \emph{across} MI methods---specifically, localization and featurization methods---in a principled way. \mib{} encourages evaluation across a standard suite of models, datasets with fixed counterfactual inputs used for interventions (\S\ref{sec:materials}), and principled metric definitions---including novel metrics (\S\ref{sec:subgraph_metrics}).
+It includes two public leaderboards that accept submissions for evaluation on a private test set (\S\ref{ssec:leaderboard}).
+
+\mib{} contains two tracks based on two prominent paradigms in mechanistic interpretability: \textbf{\circuitname{}} (\S\ref{sec:subgraph}) and \textbf{\variablename{}} (\S\ref{sec:causal_graph}). The \circuittrack{} benchmarks how well methods can locate the most important subset of model components for performing a given task \cite{Cao2020, wang2022interpretability, conmy2023towards}. The \variabletrack{}  benchmarks methods for featurizing hidden vectors (e.g., mapping them to an alternative vector space) and selecting features that implement specific causal variables or concepts \cite{vig2020,geiger2021, geiger2024causalabstractiontheoreticalfoundation, mueller2024questrightmediatorhistory}.
+
+Beyond standardizing evaluations, \mib{} yields several scientific insights. For instance, 
+using \mib{}, we find that attribution and mask optimization methods outperform other approaches to circuit localization. We find that supervised methods provide better features for causal variable localization, but the popular method of sparse autoencoders (SAEs) fail to provide better features that standard dimensions of hidden vectors. This is evidence that (1) there is clear differentiation between methods, and (2) there has been real progress in mechanistic interpretability.
+
+Our dataset is available \href{https://huggingface.co/collections/mib-bench/mib-datasets-67f55273612ec3067a42a56b}{at this HuggingFace URL}. Code is available \href{https://github.com/aaronmueller/mib}{at this GitHub URL}. The leaderboard is hosted \href{https://huggingface.co/spaces/mib-bench/leaderboard}{at this HuggingFace URL}.
+
+\section{Materials}
+\label{sec:materials}
+\subsection{Tasks}\label{sec:tasks}
+
+Both tracks evaluate across four tasks. The tasks are selected to represent various reasoning types, difficulty levels, and answer formats. Two of the tasks---Indirect Object Identification and Arithmetic---were chosen because they have been extensively studied, while the others---Multiple-choice Question Answering and the AI2 Reasoning Challenge---were chosen precisely because they have \emph{not} been studied.\footnote{Studying the same tasks can lead to hill-climbing on narrow distributions. Insights from novel models and task settings could verify that previous advancements are real.}
+
+The number of instances in each dataset and split is summarized in Table~\ref{tab:data_splits} (App.~\ref{app:data}). Each task comes with a training split on which users can discover circuits or causal variables, and a validation split on which users can tune their methods or hyperparameters. We also create two test sets per task: public and private. The public test set enables faster iteration on methods. We release the train, validation, and public test sets on Huggingface. The private test set is not visible to users; they must upload either their circuits or their locations and featurizers to an API (see \S\ref{ssec:leaderboard}).
+
+\paragraph{Indirect Object Identification (IOI).}
+
+The indirect object identification (IOI) task, first proposed by \citet{wang2022interpretability}, is one of the most studied  tasks in MI. 
+IOI has sentences like \textit{``When Mary and John went to the store, John gave an apple to \_''}, containing a subject (\textit{``John''}) and an indirect object (\textit{``Mary''}), which should be completed with the indirect object. 
+Even small LMs can achieve high accuracy; thus, it has been well studied \cite{cunningham2023sparse, conmy2023towards, merullo2023circuit}. We generate 40,000 instances. \arxiv{We ensure that each name tokenizes to a single token for all models we test. To assess generalization, the private test set contains names and direct objects that are not contained in the public train or test set.}
+See App.~\ref{app:ioi_data} for details.
+
+\paragraph{Arithmetic.}
+
+Math-related tasks are common in MI \citep{stolfo2023mechanistic,nanda2023progress,zhang2024interpreting,nikankin2025arithmetic} and  interpretability research more broadly \citep{liu2023omnigrok,huang2024unified}. We follow \citeauthor{stolfo2023mechanistic} in defining the task as performing operations with two operands of up to two digits each.
+Given a pair of numbers and an operator, the model must predict the result of the operation, e.g., \textit{``What is the sum of 13 and 25?"}. 
+To create the dataset, we enumerate all possible pairs of one-digit and two-digit numbers and generate queries for addition and subtraction, yielding about 75,000 instances.
+Following \citet{karpas2022mrkl} and \citet{stolfo2023mechanistic}, we use six natural language templates for each operand pair to ensure we are isolating robust behavior.
+See App.~\ref{app:arithmetic_data} for details.
+
+\paragraph{Multiple-choice question answering (MCQA).}
+MCQA is a common task format on LM evaluation benchmarks, though only a few MI works have studied it \cite{lieberum2023does, wiegreffe2024answer, li2024anchored}. We expand an existing synthetic dataset
+designed to isolate a model's MCQA ability from any task-specific knowledge \cite{wiegreffe2024answer}\arxiv{; the information needed to answer the questions is contained in the prompt}. We generate 260 instances. 
+All questions have four choices and are about the color of an object,  
+such as: 
+% \textit{``Question: A box is brown. What color is a box?\textbackslash nA. gray\textbackslash nB. black\textbackslash nC. white\textbackslash nD. brown\textbackslash nAnswer: ''} with answer \textit{``D''}.
+% See App.~\ref{app:mcqa_data} for details.
+\begin{mdframed}[style=roundedbox]
+\small
+\begin{verbatim}
+Question: A box is brown. What color is a box?
+A. gray
+B. black
+C. white
+D. brown
+Answer: D
+\end{verbatim}
+\end{mdframed}
+
+\paragraph{AI2 Reasoning Challenge (ARC).}
+Finally, we analyze the ARC dataset \citep{clark2018think}, which comprises grade-school-level multiple-choice science questions. This is a representative task for evaluating
+basic scientific knowledge in LMs \citep{gpt3,jiang2023mistral7b,llama3}.
+Our work presents the first causal investigation of LM performance on this dataset\arxiv{, and among the first MI investigations of a more realistic task used to benchmark state-of-the-art LMs}.
+We follow the dataset's original partition to Easy and Challenge subsets (5000 and 2500 instances, respectively) and analyze them separately; this is due to a large accuracy difference on the two subsets (\autoref{tab:benchmarking}).
+We maintain the original 4-choice multiple-choice prompt formatting (see App.~\ref{app:arc_data}), making this dataset related in format to, but more challenging than, MCQA.
+
+
+\subsection{Counterfactual Inputs} 
+For both \mib{} tracks, counterfactual interventions on model components\footnote{We use ``component'' as a generic term to refer to any (part of a) hidden representation in a model. When referring to submodules like full MLP blocks, we refer to the output vectors of these blocks.} provide the basis for all evaluations. Here, components are set to the value they would have taken if a \textit{counterfactual input} were provided. \emph{Activation patching} is a popular term for this method.\footnote{The term \emph{activation patching} includes not only interventions from counterfactual inputs, but also interventions 
+that zero out activations, inject noise, or steer activations to off-distribution values \cite{wang2022interpretability, zhang2024towards}; we use this term because we use mean ablations and optimal ablations as baselines in \S\ref{sec:subgraph_baselines}. Terms like \textit{resampling ablations} \cite{chan2022causal} or \textit{interchange interventions} \cite{geiger2021} more narrowly refer to interventions from counterfactual inputs.}
+Several studies
+\cite{vig2020, geiger2021, chan2022causal} have argued that this type of intervention is a useful analysis tool because components are only ever fixed to values that they would \textit{actually realize} (as opposed to interventions that add noise or fix components to constants).
+
+In the \circuittrack, \patching\ is used to push models towards answering in an opposite manner to how they would naturally answer given the input. Success is achieved in this setting when counterfactual interventions to components outside the circuit minimally change the model's predictions. In the \variabletrack, \patching\ is used to precisely manipulate specific concepts. Success is achieved in this setting when a variable in a causal model is a faithful summary of the role a model component plays in input-output behavior---i.e., interventions on the variable have the same effect as interventions on the model component.
+
+The counterfactual \arxiv{input} defines the task to a large extent \citep{miller2024transformer};\footnote{For example, given IOI, if the counterfactual entails replacing a name with a randomly selected one, then the task is now to choose the correct indirect object over a random name; this is distinct from simply generating the correct indirect object.}
+thus, it is crucial that the mapping from a dataset instance to its counterfactual counterpart is fixed. For each task, we define a set of meaningful counterfactual inputs to help localize model behaviors.  Some of these maintain the same correct answers as the original instances; some do not. 
+For example, the counterfactual inputs for ARC and MCQA have different answer symbols or answer orders than the original instance, which change the correct answer. Others change the semantics of the input, which may or may not change the correct answer. 
+
+We provide counterfactual inputs for each instance in the train, validation, and test sets, where the mappings from the original inputs to the counterfactual inputs are fixed to ensure consistency in evaluation. These are provided on Huggingface.  See App.~\ref{app:data}, Tables~\ref{table:ioi_cf}, \ref{table:arithmetic_counterfactual}, \ref{tab:mcqa_examples}, and \ref{tab:arc_examples} for examples and App.~\ref{app:data} for more details. 
+
+
+\subsection{Models}\label{ssec:general_metrics}
+\label{sec:benchmarking}
+
+\begin{table}[t]
+    \centering
+    \caption{Model performance (0-shot,  greedy generation) for all models and tasks on our public test splits. For results using ranked-choice scoring and more details on evaluation, see App.~\ref{app:benchmarking}.
+    % tasks conducive to ranked-choice scoring, we include results using that metric in App.~\ref{app:benchmarking}.
+    }
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{lrrrrrrr}
+    \toprule
+        &     &      & \multicolumn{2}{c}{Arithmetic} & \multicolumn{2}{c}{ARC} \\ 
+        \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+        & IOI & MCQA &  ($+$) &  ($-$) & (E) &  (C) \\
+    \midrule
+         Llama-3.1 8B   & 0.71 & 0.92 & 0.96 & 0.88 & 0.93 & 0.79 \\
+         Gemma-2 2B     & 0.83 & 1.00 & 0.65 & 0.43 & 0.79 & 0.59 \\
+         Qwen-2.5 0.5B  & 0.99 & 1.00 & 0.37 & 0.29 & 0.73 & 0.58 \\
+         GPT2-Small     & 0.92 & 0.06 & 0.00 & 0.10 & 0.03 & 0.03 \\
+         \bottomrule
+    \end{tabular}}
+    \label{tab:benchmarking}
+\end{table}
+
+
+To provide baselines for our paper and to initialize entries in the public leaderboard, we evaluate a set of open-weight models. Given the pace of the field, any set of models or tasks will be incomplete; we select 4 models that cover a range of model sizes, families, capability levels, and prominence in MI:
+Llama-3.1 8B \citep{llama3}, %, 70B, 405B)
+Gemma-2 2B \citep{team2024gemma},
+Qwen-2.5 0.5B \citep{yang2024qwen2},
+and GPT-2 Small \citep[117M,][]{radford2019language}.
+
+For a mechanistic analysis to be meaningful for a given model and task, the model generally should be able to perform the task well (and perform well on counterfactuals). 
+Performance for all models and tasks using 0-shot prompts\footnote{In-context learning is itself a behavior worth studying mechanistically, but one that is challenging to disentangle from task-specific behavior, leading many MI studies to use 0-shot prompts.} and greedy decoding is in Table~\ref{tab:benchmarking}; performance on counterfactual inputs are in App.~\ref{app:benchmarking}. Gemma 2 and Llama are generally capable across the board, performing well on MCQA and ARC (Easy). GPT-2 Small has been extensively studied in MI; it is significantly smaller than the other models we investigate and less capable (and thus may rely on qualitatively different mechanisms \arxiv{ than larger models that have been exposed to more data}). Qwen-2.5 performs well relative to its size but has not yet been extensively studied.
+
+\subsection{Leaderboard}\label{ssec:leaderboard}
+We have constructed two online leaderboards (one for each track) hosted on Huggingface to receive user submissions and display results. We intend for the leaderboards to serve as a living public artifact that both incentivizes progress in MI and advises users of MI tools on the state of the art. More details about the leaderboards, including screenshots, are in App.~\ref{app:leaderboard}.% (Figure~\ref{fig:circuit_leaderboard})
+
+We have constructed a submission portal for users. This will aggregate required information and links to one's materials, where they will then be used to run evaluations on the private test set. Our hope is that users will be able to use the public test set for fast prototyping of new methods, and that the private test set will be the measure by which the state of the art is benchmarked.
+
+\section{Circuit Localization Track}\label{sec:subgraph}
+
+The \circuittrack{} centers on evaluating how well a method can discover causal subgraphs $\mathcal{C}$---more commonly known as \textbf{circuits} \citep{olah2020zoom}---that localize the mechanisms underlying how a full neural network $\mathcal{N}$ performs a given task. Here, we define metrics for comparing circuit localization methods (\S\ref{sec:subgraph_metrics}) and compare common methods (\S\ref{sec:subgraph_baselines}).
+
+\paragraph{Defining circuits.} A circuit $\mathcal{C}$ is a set of nodes and edges in the computation graph of $\mathcal{N}$. Nodes are typically submodules or attention heads (e.g., the layer 5 MLP, or attention head 10 at layer 12); edges are abstract objects that reflect information flow between a pair of nodes.
+
+\subsection{Circuit Metrics}\label{sec:subgraph_metrics} 
+The metrics used to evaluate circuits are largely not standardized. There have been efforts to bring rigor to circuit evaluations \citep{miller2024transformer}---and to ascertain whether circuits are sensible data structures at all \citep{shi2024hypothesis}. As far as we are aware, no large-scale benchmark exists to systematically compare circuit localization methods. Thus, in addition to the proposed range of models and tasks (\S\ref{sec:materials}), we propose two circuit localization metrics that enable comparison across circuit discovery \emph{methods}, rather than across individual circuits.
+
+A common metric for evaluating circuits is \textbf{faithfulness} \citep{wang2022interpretability, miller2024transformer}.
+It aims to measure the extent to which a subgraph $\mathcal{C}$ of the computation graph explains the full model $\mathcal{N}$'s behavior on some task.
+Faithfulness is often defined ad hoc. In fact, this metric is often used for two distinct goals:
+(i) to measure whether $\mathcal{C}$ contributes to higher performance on a task \citep[e.g.,][]{meng2022locating,stolfo2023mechanistic,nikankin2025arithmetic}, or
+(ii) to capture \emph{any} component with measurable impact on a task, whether positive or negative \citep[e.g.,][]{wang2022interpretability,hanna2024have,marks2024sparsefeaturecircuitsdiscovering}.
+Which is the correct way to measure the quality of a circuit?
+Many studies work with either one of the notions, or a mix of the two---e.g., discovering components as in (ii) but defining the metric more in line with (i), or vice versa. This overloads the term.
+
+We claim that both are valid but complementary goals,
+and therefore split faithfulness into two metrics: (i) the \arxiv{\textbf{integrated circuit performance ratio} (\textsf{CPR}), and (ii) the \textbf{integrated circuit-model distance} (\textsf{CMD})}. \textsf{CPR} prioritizes methods that locate components with a positive effect on model performance on the task; higher is better. \textsf{CMD} prioritizes methods that locate components with \emph{any} strong effect on model performance, including negative effects; 0 is best. Intuitively, \arxiv{\textsf{CPR} may be more useful when aiming to understand components that encourage or positively affect a given model behavior. \textsf{CMD} may be more useful when the aim is to explain the full algorithm the model implements to perform some behavior (including cases where the behavior is not desirable).} We operationalize these metrics below.
+
+Discovering a circuit $\mathcal{C}$ often involves scoring components in a computation graph according to their importance, and only including those that exceed a causal importance threshold $\lambda$ (a hyperparameter; \citealp{conmy2023towards,marks2024sparsefeaturecircuitsdiscovering}). Given $\mathcal{C}$ and the full neural network $\mathcal{N}$, we can define \textbf{faithfulness} $f$ as
+\begin{equation}
+    f(\mathcal{C}, \mathcal{N}; m) = \frac{m(\mathcal{C}) - m(\varnothing)}{m(\mathcal{N}) - m(\varnothing)},
+    \label{eq:f}
+\end{equation}
+where $m$ is the logit difference $y' - y$ between the correct answer $y$ given the original input $x$ and correct answer $y'$ given the counterfactual input $x'$.\footnote{No choice of $m$ is perfect. Like the counterfactual input, the metric defines the task. We follow \citet{zhang2024towards}, who recommend the logit difference based on empirical evidence.}
+$\varnothing$ is the model with \emph{all} components ablated (the empty circuit).
+Conceptually, this corresponds to the proportion of divergence in $m$ between the prior and the full model that the circuit recovers \citep{marks2024sparsefeaturecircuitsdiscovering}. There exist other formulations of $f$, like the \emph{difference} (rather than \emph{ratio}) of $m$ between $\mathcal{C}$ and $\mathcal{N}$ \citep{wang2022interpretability}. We opt for the formulation of \citet{marks2024sparsefeaturecircuitsdiscovering}, as this gives meaning to the values 0 ($\mathcal{C}$ recovers none of the performance of $\mathcal{N}$ relative to $\varnothing$) and 1 ($\mathcal{C}$ assigns identical probability differences to $y$ and $y'$ relative to $\mathcal{N}$).
+
+We do not want the threshold $\lambda$ to affect comparisons between circuit localization methods. Thus, we propose shifting focus away from the quality of individual circuits, and toward a method's Pareto optimality with respect to two criteria: localizing task behavior, and minimizing circuit size. \arxiv{This formulation has the benefit of capturing \textbf{minimality} and \textbf{faithfulness} simultaneously.}\footnote{Prior implementations of minimality require manual analysis of the circuit \citep{wang2022interpretability}; our formulation is more general, though it is useful primarily as a relative comparison point, rather than an absolute measure.} Specifically, we propose to to quantify \textsf{CPR} as the area under the faithfulness curve with respect to circuit size, and to quantify \textsf{CMD} as the area between the faithfulness curve and 1.
+Both metrics involve evaluating faithfulness at many circuit sizes, and can be conceptualized as marginalizing over the circuit size hyperparameter.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{figures/f_curves.pdf}
+    \caption{Definition of our faithfulness metrics. \textsf{CPR}, in \textcolor{orange}{orange}, is the area under the faithfulness curve (the \textbf{black} line); it captures how well the method finds performant circuits at many circuit sizes. \textsf{CMD}, in \textcolor{blue}{blue}, is the area between the faithfulness curve and the line at $f=1$; it captures how closely the circuit's behavior resembles the model's task-specific behavior at many circuit sizes. Because we define $f$ as a ratio, $f=1$ (the horizontal line) means that the circuit and full model achieve the same logit difference.}
+    \label{fig:subgraph_metrics}
+\end{figure}
+
+In their exact form, $\textsf{CPR} = \smash{\int_{k=0}^1 f(\mathcal{C}_k)} \, dk$ and \mbox{$\textsf{CMD} = \smash{\int_{k=0}^1 |1 - f(\mathcal{C}_k)|} \, dk$}, where $f$ is the faithfulness of circuit $\mathcal{C}_k$ and $k$ is the proportion of edges from $\mathcal{N}$ in $\mathcal{C}_k$. \arxiv{Computing these integrals would require infinite samples.} Instead, we measure faithfulness at a few representative circuit sizes, and use these to approximate \textsf{CPR} and \textsf{CMD} \arxiv{with a Riemann sum}:
+\begin{enumerate}[noitemsep,topsep=0pt]
+    \item For all proportions of components $k \in $ \{.001, .002, .005, .01, .02, .05, .1, .2, .5, 1\}, discover a circuit $\mathcal{C}_k$ such that $\frac{|\mathcal{C}_k|}{|\mathcal{N}|} \leq k$.
+    \item Compute the faithfulness $f$ for all $\mathcal{C}_k$.
+    \item Compute the area under $f$ (\textsf{CPR}) and the area between $f$ and 1 (\textsf{CMD}) using the trapezoidal rule.
+\end{enumerate}
+We illustrate \textsf{CPR} and \textsf{CMD} in Figure~\ref{fig:subgraph_metrics}.
+
+In a realistic neural network, it is difficult to anticipate the best-case and worst-case \textsf{CPR} or \textsf{CMD} values, meaning we cannot bound the metric without losing information. \arxiv{If we knew the ground-truth circuit, we could instead compute precision and recall. Thus,} inspired by InterpBench \citep{gupta2024interpbench}, we train a model that implements a known ground-truth circuit for IOI. Because we know which edges are in the circuit, we report AUROC $(\in [0,1]$) over edges. See App.~\ref{app:interpbench} for InterpBench model training and implementation details.
+
+\paragraph{Measuring circuit size.} Circuits can be defined at many levels of granularity: one can include entire layers, submodules in a layer, neurons in a submodule, etc. One can also define a circuit at the level of nodes (e.g., submodules) or edges (e.g., connections between submodules).
+Thus, a key challenge is defining a notion of circuit size that enables comparison across different types of circuits. For this purpose, we treat including a node as equivalent to including all of its outgoing edges. Including one neuron\footnote{We use ``neuron'' to refer to a single dimension of any hidden vector, regardless of whether it is preceded by a non-linearity.} of $d_\text{model}$ in submodule $u$ can be conceptualized as including all outgoing edges from $u$ to $\frac{1}{d_\text{model}}$ of the degree they would have been compared to including all neurons in $u$. Under these assumptions, we define the \textbf{weighted edge count}:
+\begin{equation}
+|\mathcal{C}| = \sum_{(u,v) \in \mathcal{C}} \left(\frac{|N_{u} \cap N_{\mathcal{C}}|}{|N_u|}\right),
+\end{equation}
+where $u$ and $v$ are nodes (submodules), $N_u$ is the set of neurons in $u$ (the size of which is typically $d_\text{model}$), and $N_\mathcal{C}$ is the set of neurons in the circuit. Intuitively, this is the number of edges from a submodule weighted by the proportion of neurons from that submodule in the circuit; we sum this quantity over all submodules. We then normalize this count by the number of possible edges to obtain a percentage.
+
+\begin{table*}[t]
+    \centering
+    \caption{\textsf{CMD} scores across circuit localization methods and ablation types (lower is better), and AUROC scores for InterpBench (higher is better). All evaluations were performed using counterfactual ablations. Arithmetic scores are averaged across addition and subtraction; see Table~\ref{tab:circuit_arithmetic} (App.~\ref{app:subgraph-results}) for separate scores. We \textbf{bold} and \underline{underline} the best and second-best methods per column, respectively.}
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{@{}l@{} @{\hspace{7pt}}g @{\hspace{7pt}}r @{\hspace{5pt}}r @{\hspace{5pt}}r @{\hspace{5pt}}r r r @{\hspace{5pt}}r @{\hspace{5pt}}r r @{\hspace{5pt}}r r}
+    % \begin{tabular}{@{}l@{} rrrrrrrrrrrg@{}}
+    \toprule
+    & \multicolumn{5}{c}{IOI} & Arithmetic & \multicolumn{3}{c}{MCQA} & \multicolumn{2}{c}{ARC (E)} & ARC (C) \\\cmidrule(lr){2-6}\cmidrule(lr){7-7}\cmidrule(lr){8-10}\cmidrule(lr){11-12}\cmidrule(lr){13-13}
+    \textbf{Method} & InterpBench ($\uparrow$) & GPT-2 & Qwen-2.5 & Gemma-2 & Llama-3.1 & Llama-3.1  & Qwen-2.5 & Gemma-2 & Llama-3.1 & Gemma-2 & Llama-3.1 & Llama-3.1 \\
+    \midrule
+    Random & 0.44 & 0.75 & 0.72 & 0.69 & 0.74 & 0.75 & 0.73 & 0.68 & 0.74 & 0.68 & 0.74 & 0.74 \\
+    \midrule
+    EActP (CF) & 0.28 & \textbf{0.02} & 0.49 & - & - & - & 0.36 & - & - & - & - & - \\
+    \midrule
+    EAP (mean) & \underline{0.78} & 0.29 & 0.18 & 0.25 & \underline{0.04} & 0.07 & 0.21 & 0.20 & 0.16 & \underline{0.22} & \underline{0.28} & \underline{0.20} \\
+    EAP (CF) & 0.73 & \underline{0.03} & 0.15 & 0.06 & \textbf{0.01} &  \underline{0.01} & \underline{0.07} & 0.08 & \textbf{0.09} & \textbf{0.04} & \textbf{0.11} & \textbf{0.18} \\
+    EAP (OA) &  0.77 & 0.30 & 0.16 & - & - & - & 0.11 & - & - & - & - & -  \\
+    \midrule
+    EAP-IG-inp. (CF) & 0.71 & \underline{0.03} & \underline{0.02} & \underline{0.04} & \textbf{0.01} & \textbf{0.00} & 0.08 & \textbf{0.06} & 0.14 & \textbf{0.04} & \textbf{0.11} & 0.22 \\
+    EAP-IG-act. (CF) & \textbf{0.81}  & \underline{0.03} & \textbf{0.01} & \textbf{0.03} & \textbf{0.01} &  \textbf{0.00} & \textbf{0.05} & \underline{0.07} & \underline{0.13} & \textbf{0.04} & 0.30 & 0.37 \\
+    \midrule
+    NAP (CF) &  0.30 & 0.38 & 0.33 & 0.37 & 0.29 & 0.28 & 0.30 & 0.35 & 0.32 & 0.33 & 0.69 & 0.69  \\
+    NAP-IG (CF) & 0.62 & 0.27 & 0.20 & 0.26 & 0.19 & 0.18 & 0.18 & 0.29 & 0.33 & 0.28 & 0.67 & 0.67 \\
+    \midrule
+    IFR & 0.71 & 0.42 & 0.69 & 0.75 & 0.83 & 0.22 & 0.60 & 0.62 & 0.48 & 0.66 & 0.64 & 0.76  \\
+    \midrule
+    UGS & 0.74 & \underline{0.03} & 0.03 & - & - &  - & 0.20 & - & - & - & - & - \\
+    \bottomrule
+    \end{tabular}}
+    \label{tab:subgraph_fequal}
+    \vspace{-3pt}
+\end{table*}
+
+\subsection{Circuit Localization Baselines}\label{sec:subgraph_baselines}
+Here, we evaluate common circuit localization methods. We evaluate each model\footnote{We do not evaluate Gemma or Qwen on Arithmetic, as they tokenize numbers such that each digit has its own token.} and method\footnote{Exact activation patching and optimal ablations become intractable with respect to runtime as models scale. UGS becomes intractable with respect to memory requirements as models scale.} in \S\ref{sec:materials} where possible. We compare across multiple axes of variation, including (a) circuit localization method (see below), (b) granularity, including edge-level and neuron-level circuits, and (c) ablation type, including counterfactual (CF) ablations, mean ablations, and ``optimal ablations'' (OA; \citealp{li2024optimal}). For all methods, we assign importance scores to all edges or nodes, and either include the top-scoring components or perform greedy search; see App.~\ref{app:circuit_methods} for details.
+
+As a sanity check, we compare to random control circuits (\textsc{Random}). We operationalize this by uniformly sampling an importance score in $[-1, 1]$ for all edges in the model. We take the mean \textsf{CPR} and \textsf{CMD} across 3 random seeds.
+
+One way to find circuits is to filter model components by their indirect effects (IE; \citealp{pearl2001indirect}). The IE is defined as the change in $m$ caused by replacing a component's activation with its activation on another input, typically one where the expected output differs. We follow the procedure of \citet{vig2020} and \cite{finlayson-etal-2021-causal}.
+However, computing IE in exact form (\textsc{Activation Patching}, or ActP) is expensive, requiring $O(n)$ forward passes, where $n$ is the number of possible edges in $\mathcal{N}$.
+
+\textbf{Attribution methods} aim to reduce the cost of computing IE by approximating it. \citet{nanda2023attribution} and \citet{syed-etal-2024-attribution} propose \textsc{Attribution Patching} (AP), which linearly approximates the IE for all nodes or edges in $O(1)$ forward passes. When performed at the node level, we call this \textsc{Node AP} (NAP); at the edge level, it is \textsc{Edge AP} (EAP). 
+
+Unfortunately, AP approximates IE poorly \citep{syed-etal-2024-attribution}. 
+\textsc{AP with Integrated Gradients} \citep{sundararajan2017ig} or AP-IG, improves on AP by performing multiple steps of AP, trading off speed for approximation quality. We test two AP-IG variants: (i) AP-IG-inputs \citep{hanna2024have} and (ii) AP-IG-activations \citep{marks2024sparsefeaturecircuitsdiscovering}. AP-IG-inputs requires $O(Z)$ forward passes, while AP-IG-activations requires $O(Z \cdot L)$, where $Z$ is the number of AP steps, and $L$ is the number of model layers. We use $Z=5$, following \citet{hanna2024have}. We explore AP-IG at the node level (NAP-IG) and edge level (EAP-IG). See App.~\ref{app:eap-ig} for definitions and details.
+
+
+\textbf{Information flow routes} (IFR; \citealp{ferrando-voita-2024-information}) is a non-counterfactual-based and non-causal method that includes edge $(u,v)$ in $\mathcal{C}$ if the output vector of $u$ and input vector of $v$ are highly similar; this is taken as evidence of a writing operation. See App.~\ref{app:ifr} for details on how we adapted IFR to our formalization of circuits.
+
+\textbf{Mask-based methods} aim to learn a pruning mask on the edges of the computational graph. During training, masks are continuous. Edges with low mask values are ablated more often or more fully; edges with high values are likely in the circuit. The mask's training objective aims to maintain model behavior (often measured by KL-divergence with the unablated model) while keeping the mask sparse (measured by its $L_1$ norm). After training, the mask can be converted into a binary mask indicating which edges are in the circuit.
+
+As a mask-based method, we employ \textsc{Uniform Gradient Sampling} (UGS; \citealp{li2024optimal}), which uses CF ablations. \citeauthor{li2024optimal} also propose optimal ablations (OA), in which the mask is learned jointly with the value used to ablate non-circuit edges; they prefer OA as it is both independent of the example being ablated (unlike CF ablations) and minimally harmful (unlike mean ablations). Due to computational constraints, we do not do this, but instead learn OA vectors by optimizing them to minimize the expected cross-entropy loss on the task dataset. We then use these vectors as ablation values when running circuit localization with EAP. See App.~\ref{app:oa} for details.
+
+\subsection{Results}
+We present \textsf{CMD} and AUROC scores (Table~\ref{tab:subgraph_fequal}) for each method and task where it is tractable to run; see Table~\ref{tab:subgraph_fplus} in App.~\ref{app:subgraph-methods} for \textsf{CPR} scores. On both metrics, EAP-IG-inputs with CF ablations generally performs best. EAP-IG-activations and UGS are competitive with EAP-IG-inputs w.r.t.\ \textsf{CMD}, but have higher runtime and memory usage respectively. For \textsf{CPR}, they are less competitive; this is unsurprising for UGS, as it directly optimizes for maintaining model behavior, rather than for finding solely positively impactful components. 
+
+More surprisingly, edge activation patching (EActP) does not always perform best, despite computing \emph{exact} IEs for each edge: it dominates for IOI on GPT-2, but not Qwen-2.5 or InterpBench. This could stem from our use of fewer examples to run EActP due to its long runtime. But EActP also has deeper limitations: like attribution methods, it estimates the effect of ablating each edge independently; this may imperfectly predict the effect of ablating multiple edges in tandem \citep{mueller2024missed}. That said, UGS, which considers many edges at once, is also not the top performer.
+
+Circuits found with CF ablations outperform those found with mean or optimal ablations; the latter two score similarly to each other. This is expected, as the setting in which CF circuits are found more closely resembles the evaluation setting, and more precisely localizes the distinction captured by the CF input pairs.
+
+Certain methods underperform with respect to both metrics: node-level circuits do poorly, likely because each node included ``costs'' many edges; such circuits simply cannot be as sparse as edge circuits. The non-causal method IFR tends to achieve lower performance than attribution methods, but significantly better than random circuits in most cases. 
+
+In summary, \textbf{EAP-IG-inputs achieves the highest performance} on average on both \textsf{CMD} and \textsf{CPR}. However, \textbf{other techniques}, like EAP-IG-activations, EAP, and UGS, \textbf{remain competitive}.
+
+\section{Causal Variable Localization Track}\label{sec:causal_graph}
+The \circuittrack{} evaluates methods that localize \textit{behaviors} to model components that form \textit{end-to-end pathways} from input to output. In contrast, the \variabletrack{} evaluates methods that localize a specific \textit{concept}
+along causally active paths. Figure~\ref{fig:causalvariablemain} visually depicts an example evaluation in this track, while Table~\ref{tab:causalgraph} contains results for causal variable localization methods.
+ 
+\begin{figure*}
+\begin{subfigure}{\textwidth}
+\includegraphics[width=\textwidth, trim={0 8cm 0 5cm},clip]{figures/CausalVariableAlignment.pdf}
+\caption{\textbf{Arithmetic Task Submission.} Users submit an alignment between the carry-the-one variable $\carry$ in a high-level causal model $\mathcal{H}_{+}$ and two features $\Pi_{\carry}$ of the neural network's residual stream at the second number token. }
+\label{subfig:arithmetic_submission}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
+\includegraphics[width=\textwidth]{figures/CausalVariableInterchangeIntervention.pdf}
+\caption{\textbf{Arithmetic Task Evaluation.} An aligned interchange intervention with base input ``17+25='' and counterfactual input ``30+47=''. At the high-level, the interchange intervention $\mathcal{H}_{\carry \leftarrow \mathsf{Get}(\mathcal{H}(30+47), \carry)}(17+25)$ fixes the carry-the-one variable $\carry$ to the value 0 (from the counterfactual) instead of its natural value 1 (from the base input), causing the causal model to output ``32'' instead of ``42''. At the low-level, the interchange intervention $\mathcal{N}_{\Pi_{\carry} \leftarrow \mathsf{Get}(\mathcal{N}(30+47), \Pi_{\carry})}(17+25)$ fixes the aligned features $\Pi_{\carry}$ of the LM to the value they take on when the LM is run on the counterfactual input. The low-level output after intervention ``32'' is equal to the high-level output after intervention, which is a piece of evidence supporting the hypothesized alignment between the carry-the-one variable and the identified neural network features. The faithfulness metrics aggregate these individual experiments across base-counterfactual input pairs.}
+\label{subfig:arithmetic_evaluation}
+\end{subfigure}
+\caption{A schematic of the causal variable localization track submission and evaluation. Users submit an alignment between a high-level causal variable $X$ and hidden vector features $\Pi_X$ in an LM (top). In evaluations, aligned interchange interventions are performed with base and counterfactual inputs $(b,c)$ on the high-level causal model $\mathcal{H} _{X \leftarrow \mathsf{Get}(\mathcal{H}(c), X)}(b)$ and the low-level neural network  $\mathcal{N}_{\Pi_X \leftarrow \mathsf{Get}(\mathcal{N}({c}), \Pi_X)}(b)$. The more similar LM output under intervention is to the causal model output under intervention, the more faithfully the causal model abstracts the LM (bottom). }
+\label{fig:causalvariablemain}
+\end{figure*}
+
+\subsection{Causal Abstraction }
+A basic assumption in mechanistic interpretability is that models implement intelligent behaviors by representing and manipulating concepts.\footnote{Crucially, the concepts employed by an LM may not relate to those employed by a human on the same task \citep{hewitt2025cantunderstandaiusing}.}
+We operationalize such hypotheses by encoding the reasoning process as a causal model $\mathcal{H}$ with variables corresponding to concepts. The task is to align these high-level conceptual variables in a causal model with low-level features in a neural model that have the same mechanistic role, i.e., the high-level causal model is a \textit{causal abstraction} of the LM \cite{geiger2021, geiger2024causalabstractiontheoreticalfoundation}.
+
+\paragraph{LM Features.} What should be the atomic units of analysis, or \textit{features}, for mechanistic interpretability? The answer is hotly debated and not currently clear \citep{mueller2024questrightmediatorhistory}, so we design this track to incentivize investigation of this fundamental question. We adopt the framework of \citet{geiger2024causalabstractiontheoreticalfoundation} in which any hidden vector $\mathbf{h} \in \mathbb{R}^d$ constructed by a model $\mathcal{N}$ during inference can be mapped into a new feature space $\mathbb{F}^k$ (e.g., a rotated vector space) using an invertible function $\mathcal{F}: \mathbb{R}^d \to \mathbb{F}^k$ (e.g., multiplication with an orthogonal matrix).
+Features $\Pi$ are a set of indices between 1 and $k$, i.e., a set of dimensions in $\mathbb{F}^k$. 
+This framework supports a variety of features, including neurons, orthogonal directions, SAE features, and non-linear features. The vector $\mathbf{h}$ might come from the residual stream between transformer layers or the output of an attention head.
+
+\paragraph{Alignments.}
+Alignments between high-level conceptual variables and low-level features will not be static, even in the simplest cases. For instance, in MCQA, the index of the token corresponding to the correct multiple choice answer will change depending on the number of tokens in the question. As such, submissions to \mib{} can provide an \textbf{alignment} that aligns a variable $X$ with features $\Pi_X$ of a dynamically selected hidden vector $\mathbf{h}$, e.g., the residual stream of the correct answer token in the MCQA task.
+
+\paragraph{Faithfulness metrics.} 
+We quantify the degree to which a variable $X \in \mathcal{H}$ faithfully abstracts the features $\Pi_X$ using \textit{interchange interventions}. Given base and counterfactual inputs $(b,c)$, the interchange intervention $\mathcal{H} _{X \leftarrow \mathsf{Get}(\mathcal{H}(c), X)}(b)$ runs $\mathcal{H}$ on base input $b$ while fixing the variable $X$ to the value it takes when $\mathcal{H}$ is run on a counterfactual input $c$ \cite{vig2020, geiger-etal-2020-neural}. The distributed interchange intervention $\mathcal{N}_{\Pi_X \leftarrow \mathsf{Get}(\mathcal{N}({c}), \Pi_X)}(b)$ runs $\mathcal{N}$ on $b$ while fixing the features $\Pi_X$ of the hidden vector $\mathbf{h}$ passed through $\mathcal{F}$ to the value they take for counterfactual input $c$ \cite{ Wu2023, amini-etal-2023-naturalistic, Geiger2024DAS}. 
+
+Given a counterfactual dataset $\mathcal{D}$ and a high-level causal model $\mathcal{H}$ aligned to an LM $\mathcal{N}$, we measure whether interchange interventions on a variable $X$ in $\mathcal{H}$ and aligned features $\Pi_X$ in $\mathcal{N}$ produce the same output:
+\begin{align*}
+&\mathsf{Faith}(X, \Pi_X, \mathcal{H}, \mathcal{D}) =\\
+&\sum_{(b,c) \in \mathcal{D}}\left[\mathcal{H} _{X \leftarrow \mathsf{Get}(\mathcal{H}(c), X)}(b)=\mathcal{N}_{\Pi_X \leftarrow \mathsf{Get}(\mathcal{N}({c}), \Pi_X)}(b)\right].
+\end{align*}
+This metric of \textit{interchange intervention accuracy} (IIA) is for all tasks except IOI, which has a logit-based metric (\S\ref{sec:causal_variable_ioi}).
+
+For each task, we have base and counterfactual input pairs (defined in \S\ref{sec:tasks}). We use interchange interventions on counterfactual pairs to isolate variables in $\mathcal{H}$ that result in different outputs, conditional on which variables are targeted in the intervention. This is not as obvious as it first appears; naïve approaches to sampling counterfactual inputs used for intervention can undersample or exclude crucial settings. 
+
+For all tasks, we filter out all examples where the model predicts the incorrect output for the base input or any of the counterfactuals used. Possible extensions may expand to explain when LMs fail, which would be analogous to the $\mathsf{CMD}$ metric from the circuit localization track.
+
+
+\subsection{Causal Variable Localization Baselines}
+\paragraph{Featurizers and feature selection.} We consider five baselines for constructing the featurizer $\mathcal{F}$ and selecting the features $\Pi_X$. 
+See App.~\ref{app:causal_variable_track_details} for further details.
+
+We evaluate three \textit{unsupervised} featurization methods that provide features without access to a high-level causal model. The most naïve of these is the ``Full Vector'' baseline; this entails using an identity featurizer, and then selecting all features---i.e., intervening on the full untransformed hidden vector $\mathbf{h}$. We also evaluate \textsc{Principal Component Analysis} (PCA; \citealt{tigges2023linearrepresentationssentimentlarge, marks2023geometry}) and \textsc{Sparse Autoencoders} (SAE; \citealt{bricken2023monosemanticity, cunningham2023sparse}), which encode into very high-dimensional spaces with many features. For SAEs, we use the publicly available GemmaScope \cite{Lieberum2024} and LlamaScope \cite{Llamascope}.  
+
+To select SAE features, principal components, or standard dimensions of hidden vectors that are aligned with high-level causal variables, we use \textsc{Desiderata-Based Masking} (DBM; \citealt{Cao2020,Cao2022, Csordas2021, Davies2023, chaudhary2024evaluatingopensourcesparseautoencoders}) to learn a binary mask over features using a high-level causal model as a source of supervision. The masks are trained to maximize the faithfulness metric on training data.
+
+We also evaluate a \textit{supervised} featurization method \textsc{Distributed Alignment Search} (DAS; \citealt{Geiger2024DAS}) that learns a featurizer with supervision from the high-level causal model. First, a variable in the high-level causal model is aligned with features that are randomly initialized orthogonal directions that define a linear subspace of a hidden vector. Then, the features are trained to maximize the faithfulness metric. There is no need for a separate feature selection procedure because the features are constructed specifically for the high-level variable.
+
+\paragraph{Dynamic alignment.} For tasks other than IOI, we brute-force search over a few manually selected token locations. For each layer and token location, we attempt to locate features of the residual stream vector that correspond to variables in the high-level causal model. For each causal variable, we use training data to create and select features, and then evaluate the faithfulness of aligning those features with the causal variable. We compute the token location with the highest score at each layer and report the best layer and the average across layers.  Future submissions are free to target any tokens. For IOI, we focus our baseline experiments to the attention heads identified by \citet{wang2022interpretability} in GPT2-small, but we will allow for future submissions to identify new attention heads in the other three models.
+
+\subsection{MCQA and ARC (Easy)}
+\paragraph{Causal model.} For the two multiple-choice question answering datasets, we hypothesize the LM computes the position of the answer token in context before retrieving the answer token itself. The high-level causal model $\mathcal{H}_{\mathbf{MCQA}}$ is a simple algorithm with three variables: a text input variable $\inputvar$, an \textit{ordering ID} $\order$ \cite{dai-etal-2024-representational} storing the position of the answer, and the answer token $\answer$. This model abstracts away the details of how the answer position is computed; the mechanism for $\order$ is a lookup table from inputs to the index of the answer token, i.e., a number between 1 and 4 because there are four choices. Instead, the focus is on the retrieval of the correct choice; the mechanism for $\answer$ dereferences the index stored in $\order$.
+
+\paragraph{Counterfactuals.} We use counterfactuals where the answer position is changed, where the choice letters are randomized, or both. 
+When both the answer position and the choice letters are different in the counterfactual, a different output is expected when localizing the ordering id $\order$ versus the answer token $\answer$. 
+If the ordering ID is targeted, then the expected output is the choice token in the base at the answer position from the counterfactual.
+If the answer token is targeted, then the expected output is the answer token from the counterfactual, regardless of position.
+
+\paragraph{Results.} We target the residual stream of the last token of the input and the correct choice letter token at each layer. We generally see strong evidence (\cref{tab:results-arc,tab:results-mcqa}; App.~\ref{app:causalvariableMCQAdetails}) of the causal model $\mathcal{H}_{\mathbf{MCQA}}$ being a faithful abstraction, with DAS successfully disentangling the ordering ID variable $\order$ from the output token $\answer$ in many layers. Even the full vector baseline successfully localizes the variable in some layers, though it performs poorly on average because both variables are aligned with the same features. 
+
+% The MCQA dataset 
+
+\begin{table*}[t]
+    \caption{Baseline results for the \variabletrack. In each table, the first row is the task, the second row is the model, and the third row is the causal variable. 
+    For Arithmetic, MCQA, and ARC (Easy), we report interchange intervention accuracy, i.e., the proportion of aligned interventions on the causal model and deep learning model that result in the same output token(s); higher is better. For each method of aligning a causal variable to LM features, we report the mean across counterfactual datasets and layers in the low-level model. In parenthesis and bold, we report the best alignment across all layers. For IOI, we report the mean-squared error between the causal model logit and the deep learning model logit; lower is better.
+    See App.~\ref{app:causalvariabletracktaskdetails} for more detailed results by task.
+    }
+    \label{tab:causalgraph}
+\small
+\centering
+\begin{subfigure}[b]{0.52\textwidth}
+\centering
+  \begin{tabular}{lrrrr}
+    \toprule
+     & \multicolumn{4}{c}{ARC (Easy)} \\
+    \cmidrule(lr){2-5}
+ & \multicolumn{2}{c}{Gemma-2} & \multicolumn{2}{c}{Llama-3.1} \\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+    Method & $\answer$ & $\order$ & $\answer$ & $\order$ \\
+   \midrule
+    DAS & 88 (\textbf{94}) & 76 (\textbf{88}) & 88 (\textbf{99}) & 74 (\textbf{84}) \\
+    DBM & 82 (\textbf{99}) & 63 (\textbf{80}) & 85 (\textbf{100}) & 69 (\textbf{82}) \\
+    +PCA & 78 (\textbf{98}) & 64 (\textbf{81}) & 84 (\textbf{100}) & 72 (\textbf{83}) \\
+    +SAE & 70 (\textbf{89}) & 54 (\textbf{70}) & 74 (\textbf{94}) & 55 (\textbf{67}) \\
+    Full Vector & 63 (\textbf{100}) & 43 (\textbf{74}) & 68 (\textbf{100}) & 47 (\textbf{72}) \\
+    \bottomrule
+  \end{tabular}
+  \caption{The ARC (Easy) task with a high-level model that computes the ordering of the answer $\order$ and then the answer token $\answer$.}
+  \label{tab:results-arc}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.45\textwidth}
+    \centering
+  \begin{tabular}{lrr}
+    \toprule
+     & \multicolumn{2}{c}{Arithmetic (+)} \\
+    \cmidrule(lr){2-3}
+ & \multicolumn{1}{c}{Gemma-2} & \multicolumn{1}{c}{Llama-3.1} \\
+    \cmidrule(lr){2-2}\cmidrule(lr){3-3}
+    Method & $\carry$ & $\carry$ \\
+   \midrule
+    DAS & 31 (\textbf{35}) & 54 (\textbf{65}) \\
+    DBM & 33 (\textbf{43}) & 47 (\textbf{58}) \\
+    +PCA & 32 (\textbf{44}) & 37 (\textbf{56}) \\
+    +SAE & 32 (\textbf{44}) & 38 (\textbf{55}) \\
+    Full Vector & 29 (\textbf{35}) & 35 (\textbf{45}) \\
+    \bottomrule
+  \end{tabular}
+  \caption{The two-digit arithmetic task with a variable that computes the carry-the-one variable $\carry$. }
+  \label{tab:results-arithmetic}
+\end{subfigure}
+
+\vspace{5pt}
+
+\begin{subfigure}[b]{0.6\textwidth}
+\centering
+  \centering
+  \begin{tabular}{lrrrrrr}
+    \toprule
+     & \multicolumn{6}{c}{MCQA} \\
+    \cmidrule(lr){2-7}
+ & \multicolumn{2}{c}{Gemma-2} & \multicolumn{2}{c}{Llama-3.1} & \multicolumn{2}{c}{Qwen-2.5} \\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+    Method & $\answer$ & $\order$ & $\answer$ & $\order$ & $\answer$ & $\order$ \\
+    \midrule
+    DAS & 95 (\textbf{97}) & 77 (\textbf{93}) & 94 (\textbf{100}) & 77 (\textbf{91}) & 86 (\textbf{95}) & 78 (\textbf{100}) \\
+    DBM & 84 (\textbf{99}) & 63 (\textbf{84}) & 86 (\textbf{100}) & 66 (\textbf{73}) & 46 (\textbf{94}) & 60 (\textbf{99}) \\
+    +PCA & 57 (\textbf{96}) & 52 (\textbf{81}) & 65 (\textbf{99}) & 53 (\textbf{74}) & 22 (\textbf{76}) & 54 (\textbf{100}) \\
+    +SAE & 73 (\textbf{90}) & 51 (\textbf{65}) & 80 (\textbf{99}) & 58 (\textbf{65}) & -- & -- \\
+    Full Vector & 61 (\textbf{100}) & 44 (\textbf{77}) & 77 (\textbf{100}) & 46 (\textbf{68}) & 35 (\textbf{99}) & 49 (\textbf{99}) \\
+    \bottomrule
+  \end{tabular}
+  \caption{The MCQA task with variables for the ordering of the answer $\order$ and then the answer token $\answer$. This is a low-data regime ($\approx$100 examples).}
+  \label{tab:results-mcqa}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.33\textwidth}
+\centering
+  \centering
+  \begin{tabular}{lrr}
+    \toprule
+     & \multicolumn{2}{c}{IOI } \\
+    \cmidrule(lr){2-3}
+     & \multicolumn{2}{c}{GPT-2} \\
+    \cmidrule(lr){2-3}
+    Method & $\position$ & $\token$ \\
+    \midrule
+    DAS & 2.20 & 2.08 \\
+    DBM & 2.22 & 2.35 \\
+    +PCA & 2.24 & 2.33 \\
+    Full Vector  & 2.45 & 2.82 \\
+    \bottomrule
+  \end{tabular}
+  \caption{The IOI task with variables for the position $\position$ and token $\token$ of the subject. The metric is mean-squared error; lower is better. }
+  \label{tab:results-ioi}
+\end{subfigure}
+
+\begin{subfigure}[b]{\textwidth}
+\centering
+  \begin{tabular}{lrrrrrr}
+    \toprule
+     & \multicolumn{6}{c}{RAVEL} \\
+    \cmidrule(lr){2-7}
+ & \multicolumn{3}{c}{Gemma-2} & \multicolumn{3}{c}{Llama-3.1} \\
+    \cmidrule(lr){2-4}\cmidrule(lr){5-7}
+    Method & \continent & \country & \lang& \continent & \country & \lang\\
+    \midrule
+    DAS & 75 (\textbf{85}) & 57 (\textbf{67}) & 62 (\textbf{70}) & 75 (\textbf{83}) & 58 (\textbf{64}) & 63 (\textbf{70}) \\
+    DBM & 66 (\textbf{71}) & 53 (\textbf{65}) & 54 (\textbf{58}) & 68 (\textbf{80}) & 53 (\textbf{59}) & 58 (\textbf{64}) \\
+    +PCA & 63 (\textbf{70}) & 47 (\textbf{53}) & 50 (\textbf{56}) & 62 (\textbf{74}) & 48 (\textbf{54}) & 53 (\textbf{57}) \\
+    +SAE & 64 (\textbf{72}) & 49 (\textbf{56}) & 53 (\textbf{59}) & 64 (\textbf{72}) & 50 (\textbf{57}) & 55 (\textbf{57}) \\
+    Full Vector & 48 (\textbf{62}) & 49 (\textbf{57}) & 45 (\textbf{56}) & 53 (\textbf{62}) & 47 (\textbf{53}) & 47 (\textbf{57}) \\
+    \bottomrule
+  \end{tabular}
+  \caption{The RAVEL task with variables for the country \country, continent \continent, and language \lang\ of a city. }
+  \label{tab:results-ravel}
+\end{subfigure}
+
+\end{table*}
+
+\subsection{Two-Digit Addition}
+\paragraph{Causal model.}
+For the two-digit addition task, we hypothesize that LMs use a ``carry-the-one'' algorithm, as illustrated in Figure~\ref{fig:causalvariablemain}. The causal model $\mathcal{H}_+$ has an text input variable $\inputvar$  that is parsed into the variables $X_1$, $X_{10}$, $Y_1$, and $Y_{10}$ that represent the ones and tens digits of each two-digit input. The variable $\carry$ is a child of $X_1$ and $Y_1$ and takes on the value 1 if $X_1 + Y_1$ is greater than 10. The output variable $O_{110}$ has all inputs and $\carry$ as parents and takes on the value $\carry + X_{10} + Y_{10}$. The output variable $O_{1}$ has $X_1$ and $Y_1$ as parents and takes on the value $(X_1 + Y_1)\%10$. For the benchmark, we report results for localizing the variable $\carry$.
+
+\paragraph{Counterfactual dataset.}
+We use equal parts random counterfactuals and counterfactuals that do not change the carry-the-one variable (e.g., base \textit{17+75} and counterfactual \textit{11+71}).
+Interchange interventions on $\carry$ in $\mathcal{H}_+$ with random counterfactuals will cause the output variable $O_{110}$ to increase or decrease by $1$ half the time and have no effect the other half. 
+The carry-the-one counterfactual inputs always require a change in the output, but hold the input and parts of the output fixed so that low-level interchange interventions are less likely to have unintended consequences.
+
+\paragraph{Results.}
+For each baseline, we target the last token and the last token of the second operand. We see poor performance across the board (\cref{tab:results-arithmetic}; App.~\ref{app:causalvariablemathdetails}). The Gemma-2 results are at chance and the Llama-3.1 results have only faint signs of success. The difference in results is likely due to only Llama-3.1 tokenizing multi-digit numbers as single tokens. There may be no ``carry-the-one'' variable present in these models. Alternatively, the variable might be represented in a \textit{non-linear features space}, e.g., an onion representation \cite{csordas2024recurrent}. Future submissions that beat baselines will require genuine progress.
+
+\subsection{RAVEL}
+The Resolving Attribute–Value Entanglements in Language Models (RAVEL) benchmark \cite{huang-etal-2024-ravel} evaluates methods for featuring hidden vectors and selecting features that isolate certain \textit{attributes} about an \textit{entity}. For causal variable localization track, we include the split of RAVEL for disentangling the country, continent, and language attributes of city entities. The prompts are queries about a certain attribute, e.g., \textit{Paris is on the continent of}. 
+
+\paragraph{Causal model.} The causal model for RAVEL has a text input variable $\inputvar$, three attribute variables \country, \continent, and \lang\ for the attributes of the city in the prompt, a queried attribute variable $\queryvar$, and an output variable $\outputvar$ that retrieves the value of the attribute variable corresponding to the queried attribute. 
+
+\paragraph{Counterfactuals.} Half of the counterfactual prompts are prompts that query a different attribute from the base prompt. The other half are random sentences from Wikipedia containing the city. Interventions on \country, \continent, and \lang\ will only change the output if the queried attribute matches the intervened variable.
+When evaluating each variable, we balance the base prompts such that half of the prompts query the intervened attribute, which enforces the balance between interventions that should change the output and interventions that shouldn't change the output.
+
+\paragraph{Results.} For each baseline, we target the last token and the last token of the city entity in the prompt. We generally see evidence that the attributes can be localized and disentangled (\cref{tab:results-ravel}; App.~\ref{app:causalvariableRAVELdetails}), though the Llama-3 results are weaker. Because the dataset requires balancing causing an attribute to change with not changing the other attributes, the full vector baseline entirely fails completely. 
+
+\subsection{Indirect Object Identification.}\label{sec:causal_variable_ioi}
+In App.~A of \citet{wang2022interpretability}, there is an experiment where the identified four ``S-Inhibition'' heads that decrease the likelihood of the subject token are intervened upon with counterfactual datasets that invert the position of the subject or invert the token identity of the subject. They found the heads contain token and position signals that make roughly linear contribution to the difference between the indirect object logit and the subject logit. However, they did not attempt to disentangle the hidden vector outputs of those attention heads to align each signal with LM features. 
+
+\paragraph{Causal model.} First, we replicate these experiments on our curated datasets and fit our own linear model that we use to define a causal model $\mathcal{H}_{\mathbf{IOI}}$ that predicts the logit difference between the indirect object and the subject. The high-level causal model takes in a text input $\inputvar$ and computes the token and positional information $\token$ and $\position$ encoding the subject token identity and position, respectively. Then, the output variable $\outputvar$: (i) checks if the token and position variables $\token$ and $\position$ match the input $\inputvar$ and inverts the signal if a mismatch is detected, and (ii) computes the logit difference between the indirect object and subject as a linear function of these binary variables. See Appendix~\ref{app:causalvariableIOIdetails} for details of the causal model.
+
+\paragraph{Counterfactuals.} We use counterfactuals where the subject and indirect object tokens are inverted, their position is inverted, or both. We align each variable with features of the four heads. These counterfactuals test the ability of methods to disentangle the token and position variables.
+
+\paragraph{Results.} Broadly, we find evidence that the position and token variable can be disentangled~(\cref{tab:results-ioi}; App.~\ref{app:causalvariableIOIdetails}). For the full vector baseline, we conduct a brute force search and find an alignment of position to heads 7.3, 7.9 ($\Pi_{\position}$), and 8.6 and token to head 8.10 ($\Pi_{\token}$), to be better than other alignments to entire heads. While the variables can be disentangled at the level of heads, even better results are achieved when each variable is aligned to features of heads.
+
+\subsection{General Discussion} 
+Table~\ref{tab:causalgraph} shows the full results for the \variabletrack. We now describe general trends across tasks.
+
+\paragraph{Distributed alignment search (DAS) consistently achieves the best results.} DAS is the only method that learns features with supervision from the high-level causal model, so it is not surprising this method performs best. This establishes a skyline to compare unsupervised featurization methods against.
+
+
+\paragraph{DBM on standard hidden dimensions is a strong baseline.}
+The success of DBM shows that the dimensions of untransformed hidden vectors can be useful units of analysis; however, DAS outperforming DBM shows that non-basis-aligned directions in activation space are generally better units of analysis. 
+
+\textbf{DBM on PCA or SAE features does not outperform DBM on standard dimensions.} SAE and PCA features generally fail to improve upon neurons, i.e., standard dimensions of hidden vectors, as a unit of analysis. 
+Across the board, DBM on SAE features is the worst performing method other than the full vector baselines. A notable exception is the MCQA task where PCA performs very poorly, which we suspect is due to the low-data regime of $\approx$100 examples harming the quality of the principal components we compute. This is in line with the results from the steering benchmark AxBench \cite{wu2025axbenchsteeringllmssimple}, in which SAEs struggle against simple steering baselines. 
+
+\paragraph{There is room for future submissions to establish state-of-the-art results on the benchmark.} There are several clear opportunities for future submissions to the causal variable track to improve upon our baselines. First, our baselines provide weak evidence at best for the carry-the-one variable of the two digit addition task and we have hope that more complex feature spaces might be more successful. Second, while we only run baselines for IOI on the GPT-2 attention heads identified by \cite{wang2022interpretability}, we encourage future submissions to locate and featurize attention heads in the other three models. Third, we did not conduct exhaustive hyperparameter searches for any of the baseline methods, so all tasks likely have room for improving the best alignment and average alignment across layers.
+
+\section{Related Work}
+\paragraph{Circuit discovery evaluation.} While there do not exist benchmarks for circuit discovery methods in general, there do exist targeted tests of whether the \emph{concept of} circuits is sensible \citep{shi2024hypothesis}. There are also benchmarks of circuit discovery methods in the domain where we have access to ground-truth circuits \citep{gupta2024interpbench}, though the tasks in this benchmark are relatively simple, as the circuits are hand-crafted. Methods and metrics papers tend to focus on only one or two tasks and only one or two models \citep{miller2024transformer,ferrando-voita-2024-information,conmy2023towards}; this can function as a strong proof of concept, but limits our understanding of the generalizability and scalability of these methods and metrics.
+
+\paragraph{Causal variable localization evaluations.} The RAVEL \cite{huang-etal-2024-ravel} and CausalGym benchmarks \cite{arora2024} both enable comparisons across featurization methods, though in more narrow domains. The SAEBench~\cite{saebench} is similar in concept, though much narrower in scope w.r.t.\ the kinds of methods that can be evaluated, i.e., only SAEs. Our benchmark compares across a range of tasks, models, and methods.
+
+\paragraph{Other evaluations.} There also exist benchmarks that do not fall cleanly within these two camps. An impactful application of MI methods is targeted model editing \citep{meng2022locating}, for which there now exists multiple benchmarks \citep{cohen-etal-2024-evaluating,abraham2022cebab,zhong-etal-2023-mquake}. An emerging paradigm is evaluating automated \emph{interpretability agents}; for example, FIND \citep{Schwettmann2023} evaluates the quality of interpretability agents in correctly describing latent functions implemented by model components. Other benchmarks focusing on benchmarking explanations of LM behaviors \citep{mills2023almanacs,atanasova-etal-2023-faithfulness}.
+
+\section{Conclusions}
+We have proposed \mib, \fullnameA{}, and demonstrated its value for directly comparing mechanistic interpretability methods. \mib{} corroborates recent findings, like the value of attribution methods, and challenges others, like the utility of SAEs as featurizers for known causal variables. \mib{} is not in its final form: as progress in MI is rapid, we intend this as a \textbf{living benchmark} that scales to incorporate new advances in the field.  We therefore intend to support \mib{} such that our formulation can support future state-of-the-art methods.
+
+\section*{Acknowledgements}
+We are grateful for feedback and ideas discussed with Neel Nanda, Sandro Pezzelle, Christopher Potts, and Tamar Rott Shaham in an early phase of this project.
+
+This research was supported by a postdoctoral fellowship under the Zuckerman STEM Leadership Program (A.M.), grants from Open Philanthropy (A.G., Y.B., N.P., D.B.), grants from AI Safety Support Ltd (I.A., R.G.), the OpenAI Superalignment Fast Grant Program (M.H.), the Ariane de Rothschild Women Doctoral Program (D.A.), an armasuisse CYD Doctoral Fellowship (Al.St.), an Azrieli International Postdoctoral Fellowship (A.R.), an Azrieli Foundation Early Career Faculty Fellowship (Y.B.), a Google academic gift (Y.B.), the European Union (ERC, Control-LM, 101165402; Y.B.), and the Apple AIML PhD fellowship (H.O.). The opinions expressed here are those of the authors, and not of any of the mentioned organizations.
+
+\section*{Impact Statement}
+This paper presents work whose goal is to standardize the evaluation of mechanistic interpretability methods. Advancements in interpretability methods will advance current approaches to AI safety and robustness, many of which rely on localization as part of their pipelines. This could also potentially result in better countermeasures against safety methods that are meant to increase harm. We do not anticipate that \mib{} will directly contribute to such harms; it will primarily allow researchers to come to stronger conclusions regarding which localization methods tend to be best \emph{in general}, regardless of downstream application.
+
+\arxiv{
+\section*{Author Contributions}
+\begin{itemize}[noitemsep]
+    \item \textbf{Conceptualization}: Y.B.
+    \item \textbf{Track Leadership}: A.M., A.G., S.W.
+    \item \textbf{Coding}: M.H., A.M., A.Z., A.G., J.H., Y.C., Y.N., N.P., A.B., Ar.Sa., J.F., S.S., T.H.
+    \item \textbf{Baseline evaluations}: A.M., M.H., Al.St., J.H., N.P., A.Z., Ar.Sa., A.G., Y.C.
+    \item \textbf{Dataset creation}: S.W., D.A., Y.C., Y.N., M.T., Ar.Sa.
+    \item \textbf{Writing}: A.M., A.G., S.W., D.A., H.O., M.H., Al.St., N.P. A.R., I.A., R.G., Y.C.
+    \item \textbf{Editing}: All
+\end{itemize}
+}
+
+\bibliography{references}
+\bibliographystyle{icml2025}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% App.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\appendix
+\onecolumn
+
+
+\section{Table of Notation}
+In Table~\ref{tab:notation}, we summarize the mathematical notation used throughout the paper, grouped by the track(s) they appear in.
+
+
+\begin{table}
+    \centering
+    \caption{\arxiv{The notation used throughout the paper, grouped by track.}}
+    % \arxiv{
+    \begin{tabular}{p{1.8cm}rp{10cm}}
+    \toprule
+    \textbf{Track} & \textbf{Symbol} & \textbf{Meaning} \\
+    \midrule
+    \multirow{2}{*}{Shared} & $\mathcal{N}$ & The full computation graph; a neural network \\
+    & $d_\text{model}$ & The size of (i.e., number of neurons in) the output vector of each layer \\
+    \midrule
+    \multirow{15}{*}{\parbox{1.8cm}{Circuit\\ Localization}} &  $\mathcal{C}$ & A circuit $\in \mathcal{N}$ \\
+    & $k$ & The proportion of edges in a circuit. If a circuit has $\leq k\times 100$ edges, this is sometimes expressed as $\mathcal{C}_k$ \\
+    & $u$ & A node in the computation graph. Could be an MLP or an attention head \\ 
+    & $(u,v)$ & An edge from node $u$ to node $v$ \\
+    & $m$ & The metric used to evaluate a circuit. Usually the logit difference between a correct and incorrect answer \\
+    & $f$ & The faithfulness of a single circuit. Defined as a ratio of $m$ given $\mathcal{C}$ and $m$ given $\mathcal{N}$ \\
+    & \textsf{CPR} & Circuit performance ratio (higher is better). Defined as the area under the faithfulness curve. An aggregation over $f$ values at many circuit sizes \\
+    & \textsf{CMD} & Circuit-model distance (0 is best). Area between the faithfulness curve and 1.  An aggregation over $f$ values at many circuit sizes \\
+    & $N_u$ & The number of neurons in node $u$, usually equal to $d_\text{model}$ \\
+    & $N_\mathcal{C}$ & The set of all neurons in $\mathcal{C}$ \\
+    \midrule
+    \multirow{10}{*}{\parbox{1.8cm}{Causal Variable Localization}} & $\mathcal{H}$ & A high-level causal model \\
+    & $X$ & A variable in $\mathcal{H}$ \\
+    & $b$ & An base input to the neural network \\
+    & $c$ & An counterfactual input to the neural network that differs from $b$ in some systematic way \\
+    & $\mathbf{h}$ & The output activation vector of a node in the computation graph \\
+    & $\mathcal{F}$ & The featurization function that transforms $\mathbf{h}$ to a new space where the causal variable $X$ is easier to isolate \\
+    & $\Pi_X$ & A set of ``features'' in a hidden vector $\mathbf{h}$ abstracted by a variable $X$, i.e., dimensions in the range of $\mathcal{F}$ that encode $X$ \\
+    & $\mathcal{D}$ & A dataset containing $(b,c)$ pairs \\
+    \multicolumn{2}{r}{$\mathcal{H} _{X \leftarrow \mathsf{get}(\mathcal{H}(c), X)}(b)$} & An interchange intervention on the high-level model $\mathcal{H}$ which is run on the input $b$ while the variable $X$ is fixed to the value it takes when $\mathcal{H}$ is run on input $c$.\\
+    \multicolumn{2}{r}{$\mathcal{N}_{\Pi_X \leftarrow \mathsf{get}(\mathcal{N}(c), \Pi_X)}(b)$} & A distributed interchange intervention on the LM $\mathcal{N}$ which is run on the input $b$ while the features $\Pi_X$ of a hidden vector $\mathbf{h}$ are fixed to the value they take when $\mathcal{N}$ is run on input $c$.\\
+    \bottomrule
+    \end{tabular}
+    % }
+    \label{tab:notation}
+\end{table}
+
+\section{Limitations}
+Our two tracks separate the problems of featurization and causal dependency location for cleaner evaluation. However, these are mutually influential problems: one could potentially locate better circuits by first decomposing MLPs into sparse features, for example \citep{marks2024sparsefeaturecircuitsdiscovering}. The featurization method one uses should also be informed by the downstream task; for example, the outputs of DAS are not immediately applicable to finding circuits. Future work should consider the joint problem of (1) building causal dependency graphs from (2) more meaningful units, where these units may potentially exist at various levels of granularity.
+
+For circuit localization, there exist metrics such as completeness that cannot be tractably computed without access to the ground-truth set of causally relevant components. This motivated our inclusion of the InterpBench model, whose AUROC metric includes completeness. Some work has attempted to measure completeness as the faithfulness of the circuit's complement \citep{marks2024sparsefeaturecircuitsdiscovering}, but as it is easy to reduce performance even without ablating the full circuit, this may not be a good signal for when one has recovered the full set of causally relevant dependencies. We acknowledge that a fully automated completeness score is absent for the remaining models.
+
+For causal variable localization, our faithfulness metric captures the extent to which the causal variable---not the entire high-level model---aligns with the representation. The high-level model may differ from than the hypothesis, but it would still be possible to modify the model's behavior in a predictable way, and we believe this will be reflected in the scores. Nonetheless, this paradigm presumes the existence of the high-level model in the computation graph. We have mainly included graphs for which there exists evidence from past work, but we acknowledge that these graphs may not always exist in the models we evaluate in the exact forms shown here.
+
+Finally, our benchmark focuses solely on large language models. Given that this is the current focus of the vast majority of mechanistic interpretability research, we believe that this gives a broad-coverage sample of models commonly studied in the literature. It would be helpful in future work to expand the scope of these evaluations to include other modalities.
+
+\section{Further Details on Materials}
+\label{app:data}
+
+\autoref{tab:data_splits} contains dataset statistics.
+
+\begin{table}[h]
+    \centering
+    \caption{Information about datasets and their splits.}
+    \begin{tabular}{lrrr}
+    \toprule
+    Dataset & Train & Validation & Test (Public/Private)\\
+    \midrule
+    IOI & 10000 & 10000 & 1000/1000\\
+    MCQA & 110 & 50 & 50/50\\
+    Arithmetic ($+$) & 34400 & 4920 & 1000/1000 \\
+    Arithmetic ($-$) & 17400 & 2484 & 1000/1000 \\
+    % Arithmetic ($\times$) & 34,400 & 4,920 & 4,920/49,20 \\
+    % Arithmetic ($\div$) & 954 & 132 & 132/132 \\
+    ARC (Easy) & 2251 & 570 & 1188/1188\\
+    ARC (Challenge) & 1119 & 299 & 586/586 \\
+    RAVEL & 100000 & 16000 & 1000 \\
+    % Greater-than & 8,000 & 1,000 & 1,000/TODO \\
+    \bottomrule
+    \end{tabular}
+    \label{tab:data_splits}
+\end{table}
+
+\subsection{Indirect Object Identification (IOI)}
+\label{app:ioi_data}
+
+\begin{figure}
+\begin{lstlisting}
+    "prompt": "After Nick and John spent some time 
+    at the car dealership, Nick offered a nail to",
+    "template": "After {name_A} and {name_B} spent some time
+    at the {place}, {name_C} offered a {object} to",
+    "metadata": {
+      "indirect_object": "John",
+      "subject": "Nick",
+      "object": "nail",
+      "place": "car dealership",
+      "random_a": "Max",
+      "random_b": "Fred",
+      "random_c": "Bob"
+    },
+    "choices": [
+      "John",
+      "Nick"
+    ],
+    "answerKey": 0,
+    "abc_counterfactual": {
+      "prompt": "After Nick and John spent some time
+      at the car dealership, Bob offered a nail to",
+      "choices": [
+        "John",
+        "Nick",
+        "Bob"
+      ],
+      "answerKey": -1
+    },
+    "random_names_counterfactual": {
+      "prompt": "After Max and Fred spent some time
+      at the car dealership, Max offered a nail to",
+      "choices": [
+        "Max",
+        "Fred"
+      ],
+      "answerKey": 1
+    },
+    ...
+\end{lstlisting}
+\caption{An IOI example. Each input is paired with a set of templatically generated counterfactuals.} 
+\label{fig:ioi_format}
+\end{figure}
+
+To generate IOI examples, we collect sets of templates and attributes---namely, common English first names, common place names, and everyday objects. 
+We separate the templates and attributes into four disjoint groups and use them to generate the four splits (public train/validation/test and private test sets). This means that different splits do not share any attributes. We generate 10,000 IOI examples per split using 43 templates, 166 first names, 319 object names, and 247 place names. 
+The templates and attributes used in the public sets partly overlap with the original dataset by \citet{wang2022interpretability}. The rest of the public attributes and the additional private attributes were generated using ChatGPT \cite{openai2022chatgpt} and manually verified. We verify that all names are tokenized to a single token using the test prompt \textit{''I am \{name\}''} across our models.
+% \sarah[inline]{maybe good to add 1-2 sentences about why single-token names are good/important/needed right now, and that multi-token generation is a stretch goal of the benchmark}
+
+In Figure~\ref{fig:ioi_format}, we provide an example from our IOI dataset.
+Each example includes a prompt, a prompt template, metadata, a list of choices, and the index of the correct completion (answer key) from the list of choices.
+% Additionally, we provide eight standard counterfactuals for each example, where each counterfactual includes its prompt, choices, and correct answer key (see Table~\ref{table:ioi_cf}).
+
+\paragraph{Counterfactuals.}
+For each instance, we create eight counterfactuals: the six counterfactuals described by \citet{wang2022interpretability}, an additional counterfactual which is the composition of all three transformations proposed by \citet{wang2022interpretability}, and a counterfactual where the second instance of the subject is replaced with a third random name that did not appear in the first clause of the sentence (``ABC''). Table~\ref{table:ioi_cf} contains an example of each counterfactual type.
+
+In the circuit localization track, we use the ABC counterfactual. In the causal variable track, we use the IO $\leftrightarrow$ S1 Flip, IO $\leftrightarrow$ S2 Flip, and IO $\leftrightarrow$ S1 Flip + IO $\leftrightarrow$ S2 Flip counterfactuals.
+
+\begin{table*}[h]
+    \caption{An IOI example and its 8 associated counterfactuals. 
+    % The template for this example is \textit{"After $\mathtt{\{name\_a\}}$ and $\mathtt{\{name\_b\}}$ spent some time  at the car dealership, $\mathtt{\{name\_c\}}$ offered a nail to"}.
+    }
+\resizebox{\linewidth}{!}{
+    \centering
+    \begin{tabular}{llllll}
+    \toprule
+   \textbf{Prompt / Counterfactual}  & \textbf{Name A} & \textbf{Name B} & \textbf{Name C} & \textbf{Text}  & \textbf{\begin{tabular}[c]{@{}l@{}}Correct\\Completion\end{tabular}} \\
+    \midrule
+    Original Prompt  & Nick     & John     & Nick                                                           & \textit{\begin{tabular}[c]{@{}l@{}}After Nick and John spent some time\\  at the car dealership, Nick offered a nail to \\\end{tabular}} & John   \\ \midrule
+    ABC & Nick     & John     & Bob                                                                          & \textit{\begin{tabular}[c]{@{}l@{}}After Nick and John spent some time\\  at the car dealership, Bob offered a nail to \\\end{tabular}}  & N/A    \\ \midrule
+    Random Names     & Max      & Fred     & Max                                                            & \textit{\begin{tabular}[c]{@{}l@{}}After Max and Fred spent some time\\  at the car dealership, Max offered a nail to \\\end{tabular}}   & Fred   \\ \midrule
+    IO $\leftrightarrow$ S1 Flip    & John     & Nick     & Nick                                              & \textit{\begin{tabular}[c]{@{}l@{}}After John and Nick spent some time\\  at the car dealership, Nick offered a nail to \\\end{tabular}} & John   \\ \midrule
+    IO $\leftrightarrow$ S2 Flip    & Nick     & John     & John                                              & \textit{\begin{tabular}[c]{@{}l@{}}After Nick and John spent some time\\  at the car dealership, John offered a nail to \\\end{tabular}} & Nick   \\ \midrule
+    Random Names + IO $\leftrightarrow$ S1 Flip   & Fred     & Max      & Max                                 & \textit{\begin{tabular}[c]{@{}l@{}}After Fred and Max spent some time\\  at the car dealership, Max offered a nail to \\\end{tabular}}   & Fred   \\ \midrule
+    Random Names + IO $\leftrightarrow$ S2 Flip   & Max      & Fred     & Fred                                & \textit{\begin{tabular}[c]{@{}l@{}}After Max and Fred spent some time\\  at the car dealership, Fred offered a nail to \\\end{tabular}}  & Max    \\ \midrule
+    IO $\leftrightarrow$ S1 Flip + IO $\leftrightarrow$ S2 Flip  & John     & Nick     & John                   & \textit{\begin{tabular}[c]{@{}l@{}}After John and Nick spent some time\\ at the car dealership, John offered a nail to \\\end{tabular}}  & Nick   \\ \midrule
+    \begin{tabular}[c]{@{}l@{}}Random Names + IO $\leftrightarrow$ S1 Flip + \\ IO $\leftrightarrow$ S2 Flip \end{tabular} & Fred     & Max      & Fred     & \textit{\begin{tabular}[c]{@{}l@{}}After Fred and Max spent some time\\ at the car dealership, Fred offered a nail to \\\end{tabular}}   & Max \\
+    \bottomrule
+    \end{tabular}
+    }
+    \label{table:ioi_cf}
+\end{table*}
+
+\newpage
+\subsection{Arithmetic}\label{app:arithmetic_data}
+We list the templates used to format the arithmetic queries in Table~\ref{table:arithmetic_query_template}. We consider four text-based prompts and two Arabic numeral-based prompts. The prompts are modified from \citet{stolfo2023mechanistic}. An example instance and its associated counterfactuals are in  Table~\ref{table:arithmetic_counterfactual}. Subtraction queries are constrained to cases with positive results to maintain single-token answers when possible. 
+% and the division queries to cases with whole numbers. 
+Of the four models we investigate, two (Llama and GPT-2) tokenize numeric answers as single tokens and two (Qwen and Gemma) tokenize numbers into their respective digits (meaning that correct answers will often be more than one token in length). In the latter case, we generate the oracle number of tokens corresponding to the number of digits in the correct answer and then check for exact-match correctness.
+
+
+\paragraph{Counterfactuals.} We create counterfactuals by adjusting the operands in ways that will affect not only the correct answer, but also the addition or subtraction process (see \autoref{table:arithmetic_counterfactual}). In our experiments, we primarily use the \textit{random operands} counterfactual for baseline comparison, but we provide the additional counterfactuals for further analysis. 
+
+
+\begin{table*}[h]
+    \centering
+    \small
+    \caption{Prompt templates for single-operator two-operand arithmetic operations.}
+    \begin{tabular}{c ll}
+    \toprule
+    \textbf{Template} & \multicolumn{1}{c}{\bf Addition} & \multicolumn{1}{c}{\bf Subtraction}   \\ 
+    \midrule
+    1& Q: How much is $n_1$ plus $n_2$? A: & Q: How much is $n_1$ minus $n_2$? A: \\
+    2 & Q: What is $n_1$ plus $n_2$? A: & Q: What is $n_1$ minus $n_2$? A:  \\
+    3 & Q: What is the result of $n_1$ plus $n_2$? A: & Q: What is the result of $n_1$ minus $n_2$? \\ 
+    3 & The sum of $n_1$ and $n_2$ is:& The difference between $n_1$ and $n_2$ is:\\ 
+    5 & $n_1$$+$$n_2$=& $n_1$$-$$n_2$=\\
+    6 & $n_1$ $+$ $n_2$ =& $n_1$ $-$ $n_2$ =\\
+    \bottomrule
+    \end{tabular}
+    \label{table:arithmetic_query_template}
+\end{table*}
+
+\begin{table*}[h]
+\centering
+    \caption{An Arithmetic example and its 7 associated counterfactuals.}
+    \begin{tabular}{lll}
+        \toprule
+    \textbf{Prompt / Counterfactual} & 
+    \textbf{Text} & \textbf{\begin{tabular}[c]{@{}l@{}}Correct\\Completion\end{tabular}} \\        \midrule
+        Original Prompt & \textit{The sum of 27 and 64 is:} & 91 \\ 
+        Random Operands & \textit{The sum of 42 and 29 is:} & 71\\ 
+        Different ones digit in operand 1 & \textit{The sum of 24 and 64 is:} & 88\\ 
+        Different ones digit in operand 2 & \textit{The sum of 27 and 61 is:} & 88\\ 
+        Different tens digit in operand 1 & \textit{The sum of 47 and 64 is:} & 111\\ 
+        Different tens digit in operand 2 & \textit{The sum of 27 and 44 is:} & 71\\ 
+        Different ones digit carry value & \textit{The sum of 21 and 60 is:} & 81\\ 
+        Different tens digit carry value & \textit{The sum of 77 and 64 is:} & 141\\ 
+        \bottomrule
+    \end{tabular}
+    \label{table:arithmetic_counterfactual}
+\end{table*}
+
+\subsection{Multiple-choice question answering (MCQA)}\label{app:mcqa_data}
+
+We expand the dataset of \citet{wiegreffe2024answer}, itself based on \citet{norlund-etal-2021-transferring}, by adding 102 additional instances from \citet{paik-etal-2021-world} whose object group is ``0'', indicating that participants agreed on a prototypical color for that object---for example, that bananas are yellow. We randomly sample 3 incorrect colors from a set of 11 and pair them with the correct answer choice in a random position to create each instance. By design, each answer in this task is a single token (e.g., A, B, C, D).
+
+ In the paper, we report on 4-choice MCQA, as this is a standard number of choices and allows comparison with the ARC dataset. We also create versions of the dataset with 2, 3, 5, 6, 7, 8, 9, and 10 answer choices, in order to allow for future investigation into how mechanisms change as the result of having fewer or more choices.
+
+\paragraph{Counterfactuals.}
+We create two semantic counterfactuals and three format counterfactuals for each instance (and four combinations of these, resulting in 9 counterfactuals total). Semantic perturbations involve replacing the noun in the question (such as ``banana'') with a different noun  from another instance in the same split, or the correct color of the noun mentioned in the question (such as ``yellow'') with another color (such as ``brown''). The latter changes the correct answer; the former does not. 
+
+Format perturbations do not change the correct color itself, but do change the symbol that represents that color, and therefore, change the correct answer. We follow a similar design to \citet{lieberum2023does}. We change the position of the correct answer, the symbols representing the answer choices (i.e., 1/2/3/4 instead of A/B/C/D), or the letters (i.e., the randomly selected sequence E/Z/F/L instead of A/B/C/D). 
+See Table~\ref{tab:mcqa_examples} for an example dataset instance and its associated counterfactuals.
+
+\begin{table}
+% \resizebox{\linewidth}{!}{
+    \centering
+    \caption{An MCQA example and its 9 associated counterfactuals.}
+    \begin{tabular}{lll}
+    \toprule
+    \textbf{Prompt / Counterfactual} & 
+    \textbf{Text} & \textbf{\begin{tabular}[c]{@{}l@{}}Correct\\Completion\end{tabular}} \\
+    \midrule
+    Original Prompt & \textit{\begin{tabular}[c]{@{}l@{}}Question: Salmon meat is pink. What color is salmon meat?\\A. gray\textbackslash nB. black\textbackslash nC. white\textbackslash nD. pink\textbackslash nAnswer:\end{tabular}} & D \\
+    \midrule
+    Noun & \textit{\begin{tabular}[c]{@{}l@{}}Question: A banana is pink. What color is a banana?\\A. gray\textbackslash nB. black\textbackslash nC. white\textbackslash nD. pink\textbackslash nAnswer:\end{tabular}} & D \\
+    \midrule
+    Color & \textit{\begin{tabular}[c]{@{}l@{}}Question: Salmon meat is yellow. What color is salmon meat?\\A. gray\textbackslash nB. black\textbackslash nC. white\textbackslash nD. yellow\textbackslash nAnswer:\end{tabular}} & D \\
+    \midrule
+    Noun$+$Color & \textit{\begin{tabular}[c]{@{}l@{}}Question: A banana is yellow. What color is a banana?\\A. gray\textbackslash nB. black\textbackslash nC. white\textbackslash nD. yellow\textbackslash nAnswer:\end{tabular}} & D \\
+    \midrule
+    Answer Position & \textit{\begin{tabular}[c]{@{}l@{}}Question: Salmon meat is pink. What color is salmon meat?\\A. gray\textbackslash nB. black\textbackslash nC. pink\textbackslash nD. white\textbackslash nAnswer:\end{tabular}} & C \\
+    \midrule
+    Symbol & \textit{\begin{tabular}[c]{@{}l@{}}Question: Salmon meat is pink. What color is salmon meat?\\1. gray\textbackslash n2. black\textbackslash n3. white\textbackslash n4. pink\textbackslash nAnswer:\end{tabular}} & 4 \\
+    \midrule
+    Random Letter & \textit{\begin{tabular}[c]{@{}l@{}}Question: Salmon meat is pink. What color is salmon meat?\\E. gray\textbackslash nZ. black\textbackslash nF. white\textbackslash nL. pink\textbackslash nAnswer:\end{tabular}} & L \\
+    \midrule
+    Answer Position $+$ Random Letter & \textit{\begin{tabular}[c]{@{}l@{}}Question: Salmon meat is pink. What color is salmon meat?\\E. gray\textbackslash nZ. black\textbackslash nF. pink\textbackslash nL. white\textbackslash nAnswer:\end{tabular}} & F \\
+    \midrule
+    Answer Position $+$ Symbol & \textit{\begin{tabular}[c]{@{}l@{}}Question: Salmon meat is pink. What color is salmon meat?\\1. gray\textbackslash n2. black\textbackslash n3. pink\textbackslash n4. white\textbackslash nAnswer:\end{tabular}} & 3 \\
+    \midrule
+    Answer Position $+$ Color & \textit{\begin{tabular}[c]{@{}l@{}}Question: Salmon meat is yellow. What color is salmon meat?\\A. gray\textbackslash nB. black\textbackslash nC. yellow\textbackslash nD. white\textbackslash nAnswer:\end{tabular}} & C \\
+    \bottomrule
+    \end{tabular}
+    % }
+\label{tab:mcqa_examples}
+\end{table}
+
+\subsection{AI2 Reasoning Challenge (ARC)}\label{app:arc_data}
+
+By design, each answer in this task is a single token (e.g., A, B, C, D), making the  prompt format similar to MCQA (\Cref{app:mcqa_data}).
+
+\paragraph{Counterfactuals.}
+The counterfactual types and generation process are identical to the MCQA counterfactual generation process (described in \Cref{app:mcqa_data}). Due to the varying content of each ARC prompt and the lack of a token-level template between prompts, we include only the format-based counterfactuals, omitting \emph{semantic} counterfactuals such as ``Noun'' and ``Color'' from MCQA.
+For an example prompt and its counterfactuals, see Table~\ref{tab:arc_examples}.
+
+\begin{table}[h]
+    \centering
+    \caption{An ARC example and its 4 associated counterfactuals.}
+    \begin{tabular}{lll}
+    \toprule
+    \textbf{Prompt / Counterfactual} & 
+    \textbf{Text} & \textbf{\begin{tabular}[c]{@{}l@{}}Correct\\Completion\end{tabular}} \\
+    \midrule
+    Original Prompt & \textit{\begin{tabular}[c]{@{}l@{}} Question: How does a tiger get stripes?\\A. from its environment\\B. from its food\\C. from its offspring\\D. from its parents\\Answer:\end{tabular}} & D \\
+    \midrule
+    Answer Position & \textit{\begin{tabular}[c]{@{}l@{}} Question: How does a tiger get stripes?\\A. from its food\\B. from its parents\\C. from its environment\\D. from its offspring\\Answer:\end{tabular}} & B \\
+    \midrule
+    Symbol & \textit{\begin{tabular}[c]{@{}l@{}} Question: How does a tiger get stripes?\\1. from its environment\\2. from its food\\3. from its offspring\\4. from its parents\\Answer:\end{tabular}} & 4 \\
+    \midrule
+    Random Letter & \textit{\begin{tabular}[c]{@{}l@{}} Question: How does a tiger get stripes?\\D. from its environment\\H. from its food\\M. from its offspring\\E. from its parents\\Answer:\end{tabular}} & E \\
+    \midrule
+    Answer Position $+$ Random Letter & \textit{\begin{tabular}[c]{@{}l@{}} Question: How does a tiger get stripes?\\D. from its food\\H. from its parents\\M. from its environment\\E. from its offspring\\Answer:\end{tabular}} & H \\
+    \bottomrule
+    \end{tabular}
+\label{tab:arc_examples}
+\end{table}
+
+\subsection{Model Performance}\label{app:benchmarking}
+
+For all tasks, we report accuracy given greedy generations in Table~\ref{tab:benchmarking}. 
+For tasks that involve selecting between a fixed set of answer choices (IOI, MCQA, and ARC), we additionally report ranked-choice accuracy in Table~\ref{tab:ranked_choice_benchmarking}. Ranked-choice scoring computes a model's prediction as the token that is assigned the highest probability within the set of answer choices; this is an upper bound on greedy generation performance. Ranked-choice scoring is more in line with the metric $m$ used for circuit localization (\S\ref{sec:subgraph_metrics}); greedy scoring is more in line with the prerequisite of causal variable localization (\S\ref{sec:causal_graph}).
+
+In Table~\ref{tab:mcqa_counterfactual} and Table~\ref{tab:arc_counterfactual} we report the results for each counterfactual type in the MCQA and ARC tasks, respectively. 
+For the IOI and Arithmetic tasks, we found that due to the counterfactual format, all counterfactual types lead to the same performance as the original prompts (except for the ``ABC'' counterfactual in IOI, which has no correct answer).
+
+\begin{table}[h]
+    \centering
+    \caption{Model performance for all models on the public test split of each analyzed task (0-shot) with ranked-choice accuracy.}
+    \begin{tabular}{lrrrrr}
+    \toprule
+        &     &   & \multicolumn{2}{c}{ARC} \\ 
+        \cmidrule(lr){4-5}
+        & IOI & MCQA & (E) & (C) \\
+    \midrule
+         Llama-3.1 8B   & 1.00 & 0.92 & 0.93 & 0.79 \\
+         Gemma-2 2B    & 1.00 & 1.00 & 0.79 & 0.60 \\
+         Qwen-2.5 0.5B  & 1.00 & 1.00 & 0.73 & 0.58 \\
+         GPT-2 Small    & 1.00 & 0.30 & 0.23 & 0.23 \\
+         \bottomrule
+    \end{tabular}
+    \label{tab:ranked_choice_benchmarking}
+\end{table}
+
+
+
+% \begin{table}[h]
+%     \centering
+%     \small
+%     \caption{Model accuracy on two-operand arithmetic operations.}
+%     \begin{tabular}{l|ccccc}
+%         \toprule
+%             \textbf{Model} & \textbf{Addition} & \textbf{Subtraction} & \textbf{Multiplication} & \textbf{Division} & \textbf{Average} \\ 
+%             \midrule            
+%             \texttt{Llama-3.1 8B}  & 0.95 & 0.89 & 0.72 & 0.87 & 0.86 \\ 
+%             \texttt{Gemma 2 2B} & 0.74 & 0.62 & 0.55 & 0.74 & 0.66 \\
+%             \texttt{Qwen 2.5 0.5B} & 0.30 & 0.33 & 0.29 & 0.68 & 0.40 \\
+%             \texttt{GPT-2 Small} & 0.00 & 0.09 & 0.14 & 0.26 & 0.12 \\ 
+%         \bottomrule
+%     \end{tabular}
+%     \label{tab:arithmetic_eval_results}
+% \end{table}
+
+
+\begin{table}[h]
+    \centering
+    \caption{Model accuracy (0-shot, greedy generation) on MCQA counterfactuals. N = Noun, C = Color, AP = Answer Position, S = Symbol, RL = Random Letter}
+    \begin{tabular}{l|ccccccccc}
+        \toprule
+        \textbf{Model} & \textbf{N} & \textbf{C} & \textbf{N+C} & \textbf{AP} & \textbf{S} & \textbf{RL}  & \textbf{AP+RL} & \textbf{AP + S} & \textbf{AP + C} \\ 
+        \midrule
+        Llama 3.1-8B   & 0.70 & 0.72 & 0.96 & 0.94 & 0.94 & 0.90 & 0.98 & 0.98 & 0.72 \\
+        Gemma 2-2B    & 0.92 & 1.00 & 1.00 & 1.00 & 0.98 & 0.70 & 0.74 & 1.00 & 0.98 \\
+        Qwen 2.5-0.5B  & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 0.52 & 0.60 & 1.00 & 0.98 \\
+        GPT2-Small     & 0.00 & 0.06 & 0.00 & 0.02 & 0.00 & 0.00 & 0.00 & 0.00 & 0.02 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:mcqa_counterfactual}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \caption{Model accuracy (0-shot, greedy generation) on ARC counterfactuals. AP = Answer Position, S = Symbol, RL = Random Letter.}
+    \begin{tabular}{ll|cccc}
+        \toprule
+        \textbf{Easy/Challenge} & \textbf{Model} & \textbf{AP} & \textbf{S} & \textbf{RL} & \textbf{AP+RL} \\ 
+        \midrule
+        \multirow{4}{*}{Easy} 
+            & Llama 3.1-8B & 0.93 & 0.91 & 0.86 & 0.85 \\
+            & Gemma 2-2B    & 0.78 & 0.78 & 0.57 & 0.55 \\
+            & Qwen 2.5-0.5B  & 0.73 & 0.66 & 0.26 & 0.22 \\
+            & GPT2-Small     & 0.03 & 0.00 & 0.00 & 0.01 \\
+        \\
+        \multirow{4}{*}{Challenge} 
+            & Llama 3.1-8B & 0.79 & 0.77 & 0.69 & 0.67 \\
+            & Gemma 2-2B    & 0.60 & 0.62 & 0.43 & 0.41 \\
+            & Qwen 2.5-0.5B  & 0.56 & 0.51 & 0.18 & 0.19 \\
+            & GPT2-Small     & 0.04 & 0.00 & 0.01 & 0.00 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:arc_counterfactual}
+\end{table}
+
+\subsection{Leaderboard}\label{app:leaderboard}
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=\linewidth]{figures/circuit_leaderboard.png}
+    \caption{Leaderboard for the circuit localization track.}
+    \label{fig:circuit_leaderboard}
+\end{figure*}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{figures/causalvariable_leaderboard.png}
+    \caption{Leaderboard for the causal variable localization track.}
+    \label{fig:causalvariable_leaderboard}
+\end{figure}
+
+Here, we present screenshots of the \mib{} leaderboards. The leaderboards for both tracks are hosted on the same webpage; they are in separate tabs. The circuit localization track's leaderboard can be viewed in Figure~\ref{fig:circuit_leaderboard}. It has two tabs: one for \textsf{CPR} and one for \textsf{CMD}. Each row displays an Average score, which is a macroaverage of all scores in the row. Each row also displays a Score column, which is an average of the sigmoid of each score; we apply a sigmoid because each faithfulness value exists in a separate scale, where the lower and upper bounds may be different. Thus, to prevent any one column from dominating the score, we normalize each score to a [0, 1] range by applying a sigmoid to each \textsf{CPR} or \textsf{CMD} value before averaging. Users may filter rows based on model name and/or task name. After filtering, the Average and Score columns are recomputed dynamically. This allows users to compare performance at varying levels of granularity, or in cases where some methods are only tractable to run for a subset of the task/model combinations.
+
+The causal variable localization track's leaderboard can be viewed in Figure~\ref{fig:causalvariable_leaderboard}. It displays results aggregated across all layers and token positions, \emph{and} across counterfactual types. As in the \circuittrack{}, the Average is recomputed dynamically after filtering. 
+
+Our leaderboard will accept user submissions. To submit to the \circuittrack, a user must supply either (i) importance scores $\in\mathbb{R}$ on each node or edge, or (ii) 9 circuits of different sizes with membership in $\mathcal{C}$ given as Booleans.
+Recall from \S\ref{sec:subgraph} that we use circuits containing varying percentages of edges; we will enforce this as a submission requirement for the \circuittrack. The smallest circuit can contain $k$ edges in the model, where $\frac{|\mathcal{C}_k|}{|\mathcal{N}|} \leq 0.001$. The second-smallest can contain any proportion of edges $k \leq 0.2$; the largest can contain $k \leq 0.5$, and so on.
+
+For the \variabletrack{}, a user must provide an invertible featurizer function $\mathcal{F}$ and token position functions specifying where in an input to apply them. These must be provided as Python scripts. The trained featurizer, inverse featurizer, and token indices must also be provided for each task/model combination. We will evaluate whether interchange interventions on the features and the variable result in the same behavior for each counterfactual dataset and average the results across them.
+
+\section{Details on Circuit Localization Track}\label{app:subgraph-methods}
+\subsection{Methods}\label{app:circuit_methods}
+\paragraph{Mapping from scores to circuits.} All of the techniques that we benchmark produce a set of scores, which must then be mapped to circuits. To find a circuit with $n$ edges, we can simply take the top-$n$ edges by score---what we call the \emph{top-$n$} method for constructing circuits. However, this approach can often result in a circuit without an end-to-end pathway from inputs to outputs. Alternatively, we can perform a \emph{greedy search} starting from the logits as follows. Let our circuit $C=(V_C, V_E)=(\{\text{logits}\}, \emptyset)$. Then for $i=1,\ldots,n$ add the highest-$\hat{\text{IE}}$ edge connected to $V_C$ that is not currently in $V_E$, to $V_E$; add its parent to $V_C$. For simplicity, we use top-$n$, except in cases where it tends to not work well; in practice, greedy circuit construction is only needed for good performance when using information flow routes.
+
+When deciding which components to use, we can either add to the circuit the edges with the highest score. Or, we can first take the absolute value of each score, adding the highest-\emph{magnitude} scores. Adding the highest-scoring components is more likely to yield components that perform the task well, and is better suited to the \textsf{CPR} metric. Adding the highest-magnitude components is more likely to yield components that have \emph{any} strong effect on task performance, and is better suited to the \textsf{CMD} metric. Thus, when we report scores, we use high-value scoring to construct circuits for \textsf{CPR}, and high-magnitude scoring to construct circuits for \textsf{CMD}.
+
+\subsection{Baselines}\label{app:circuit_baselines}
+\paragraph{Attribution patching.}\label{app:eap}
+Edge attribution patching is computed as follows. Let $(u,v)$ be an edge from component $u$ to $v$, $a_u$ and $a'_u$ be the output activations of $u$ on normal and counterfactual inputs, $a_v$ be the input activations of $v$, and $m$ be our model performance metric.
+EAP estimates the indirect effect as 
+\begin{equation}
+    \hat{\text{IE}} = (a_u-a'_u)\frac{\partial m}{\partial a_v}\Big|_x.
+\label{eq:eap}
+\end{equation}
+That is, we multiply the change in activation of $u$ by the gradient (slope) of the metric $m$ with respect to $v$'s input, on normal inputs $x$.
+
+When performing NAP (at the node level rather than edge level), the $\hat{\text{IE}}$ of a node can be computed as in Eq.~\ref{eq:eap}, but replacing $\frac{\partial m}{\partial a_v}$ with $\frac{\partial m}{\partial a_u}$. Note that we always run NAP at the \emph{neuron} granularity, and not the submodule granularity; this is because at smaller circuit sizes, including just one submodule puts us over the size threshold, meaning we have multiple points at which the circuit is empty.
+
+\paragraph{Attribution patching with integrated gradients.}\label{app:eap-ig}
+Edge attribution patching with IG (EAP-IG) is defined as follows: \ho{missing EAP-IG-inputs definition}
+\begin{equation}
+    \hat{\text{IE}} = (a-a') \cdot \frac{1}{Z}\sum_{z=0}^Z \frac{\partial m(a' + \frac{z}{Z}\cdot (a - a'))}{\partial a}\Big|_x.
+    \label{eq:atp-ig}
+\end{equation}
+That is, given input $x$, we compute $\frac{\partial d}{\partial a}$ at $Z$ intermediate points between $a$ and $a'$. At each intermediate point, we intervene on $a$, replacing its activation with what it would have been at the intermediate point. Using this new activation, we recompute $m$, and backpropagate from that to obtain a new gradient value. We take the mean over these gradient values to obtain a more accurate estimate of the slope of $m$ w.r.t.\ $a$. This slope is then multiplied by the change in $a$ as before.
+
+EAP-IG-inputs operates under a similar intuition. The key difference is that, instead of interpolating between intermediate activations at the target neuron, we only interpolate between intermediate activations at the input embeddings, and allow the network to compute the activations for the target component naturally given each intermediate input embedding. EAP-IG-activations therefore requires us to perform this interpolation for each layer separately; EAP-IG-inputs only requires us to perform this interpolation once at the inputs.
+
+\paragraph{IFR.}\label{app:ifr}
+We adapt IFR to output importance scores for our computational graph as follows. Let $a_{v}$ be the \emph{input} to $v$; if $\mathcal{U}$ is the set of nodes with edges to $v$, and $a_{u}$ is the \emph{output} of a node $u\in U$, then the importance of a given $u$ to $v$ is 
+\begin{equation}
+    \text{imp}(u,v) = \frac{\max(||a_{v}||_{1}-||a_{u} -a_{v}||_{1}, 0)}{\sum_{u'\in\mathcal{U}}\max(||a_{v}||_{1}-||a_{u'} - a_{v}||_{1}, 0)}.
+\end{equation}
+Because important scores are normalized (for any given node, the sum of the scores of edges to it will be 1), we cannot apply a top-$n$ procedure to find IFR circuits; we must use greedy search.
+
+\paragraph{Uniform Gradient Sampling.}
+UGS maintains a parameter $\tilde{\theta}_{(u,v)}$ for each edge $(u,v)$, where $\theta_{(u,v)} = (1 + \exp(-\tilde{\theta}_{(u,v)}))^{-1}$ represents the estimated probability of $(u,v)$ being part of the circuit determined by the pruning mask. The sampling frequency for $\alpha_{(u,v)}$ is determined by $w(\theta_{(u,v)}) = \theta_{(u,v)}(1 - \theta_{(u,v)})$. Specifically, $\alpha_{(u,v)} \sim \text{Unif}(0, 1)$ with probability  $w(\theta_{(u,v)})$,  $\alpha_{(u,v)} = 1$  with probability  $\theta_{(u,v)} - \frac{1}{2}w(\theta_{(u,v)})$, and $\alpha_{(u,v)} = 0$ with probability $1 - \theta_{(u,v)} - \frac{1}{2}w(\theta_{(u,v)})$.
+We use $\theta_{(u,v)}$ as the importance scores when constructing circuits.
+
+The loss function comprises two components: (1) a performance metric that measures the discrepancy between the original model’s predictions and the output of the partially ablated model (here, KL divergence); and (2) a regularization term that controls the sparsity of the subgraph determined by the pruning mask. The balance between these components is governed by a hyperparameter $\lambda$.
+For our experiments, we set $\lambda = 10^{-3}$, chosen through a hyperparameter search over $\{10^{-2}, 10^{-3}, \dots, 10^{-7}\}$ using a validation set. All other hyperparameters were left at their default values, as specified in \citet{li2024optimal}.
+
+\paragraph{Optimal ablations.}\label{app:oa} In optimal ablations \citep{li2024optimal}, rather than taking an activation from an example-dependent counterfactual input, we learn an ablation vector $\mathbf{a}$ that is not dependent on the original input. Given submodule $u$ taking activations $\mathbf{u}$, we initialize the ablation vector to the mean of $\mathbf{u}$ over the task dataset $\mathcal{D}$. Then, we optimize $\mathbf{a}$ via gradient descent to minimize
+\begin{equation}
+    \arg\min_\mathbf{a}\mathcal{L}(\mathcal{N},\mathcal{D},\text{do}(\mathbf{u}=\mathbf{a})),
+\end{equation}
+where $\mathcal{L}$ is the cross-entropy (language modeling) loss on the task dataset $\mathcal{D}$ when we set $\mathbf{u}$ to $\mathbf{a}$. We pre-compute this vector for all $u$ in $\mathcal{N}$, and then use these vectors as the counterfactual activations during circuit discovery.
+
+We use initial learning rate $1\times10^{-3}$ and batch size 20. We train for up to 1000 steps on the train split of the task dataset. We compute loss on the validation split every 50 steps; if the validation loss does not improve from its best value after 150 steps, we stop early and save the ablation vector from the best evaluation step.
+
+\subsection{Further Circuit Localization Results}\label{app:subgraph-results}
+Table \ref{tab:subgraph_fplus} presents \textsf{CPR} scores for all valid task-model combinations. Trends are largely similar to those from the \textsf{CMD} table, except that EAP and UGS are less competitive with EAP-IG-inputs.
+
+\begin{table*}[t]
+    \centering
+    \caption{\textsf{CPR} scores across circuit localization methods and ablation types. All evaluations were performed using counterfactual ablations. Higher scores are better. Arithmetic scores are averaged across addition and subtraction; see Table~\ref{tab:circuit_arithmetic} for separate scores. We \textbf{bold} and \underline{underline} the best and second-best methods per column, respectively.}
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{lrrrrrrrrrrr}
+    \toprule
+    & \multicolumn{4}{c}{IOI} & Arithmetic & \multicolumn{3}{c}{MCQA} & \multicolumn{2}{c}{ARC (E)} & ARC (C) \\\cmidrule(lr){2-5}\cmidrule(lr){6-6}\cmidrule(lr){7-9}\cmidrule(lr){10-11}\cmidrule(lr){12-12}
+    \textbf{Method} & GPT-2 & Qwen-2.5 & Gemma-2 & Llama-3.1 & Llama-3.1  & Qwen-2.5 & Gemma-2 & Llama-3.1 & Gemma-2 & Llama-3.1 & Llama-3.1 \\
+    \midrule
+    Random & 0.25 & 0.28 & 0.30 & 0.25 & 0.25 & 0.27 & 0.32 & 0.26 & 0.32 & 0.26 & 0.25 \\
+    \midrule
+    EActP (CF) & \textbf{2.30} & 1.21 & - & - & - & 0.85 & - & - & - & - & - \\
+    \midrule
+    EAP (mean) &  0.29 & 0.71 & 0.68 & 0.98 & 0.35 & 0.29 & 0.33 & 0.13 & 0.26 & 0.34 & 0.80 \\
+    EAP (CF) & 1.20 & 0.26 & 1.29 & 0.85 & 0.55 & 0.85 & 1.49 & 1.00 &
+    1.08 & \underline{0.80} & \underline{0.82} \\
+    EAP (OA) & 0.95 & 0.70 & - & - & - & 0.29 & - & - & - & - & - \\
+    \midrule
+    EAP-IG-inputs (CF) & \underline{1.85} & \textbf{1.63} & \textbf{3.20} & \textbf{2.08} & \textbf{0.99} & \underline{1.16} & \underline{1.64} & 1.05 & 1.53 & \textbf{1.04} & \textbf{0.98} \\
+    EAP-IG-activations (CF) &  1.82 & \underline{1.63} & \underline{2.07} & \underline{1.60} & \underline{0.98} & 0.77 & 1.57 & \underline{0.79} & \textbf{1.70} & 0.71 & 0.63 \\
+    \midrule
+    NAP (CF) &  0.28 & 0.30 & 0.30 & 0.26 & 0.27 & 0.38 & 1.47 & 1.69 & 1.01 & 0.26 & 0.26 \\
+    NAP-IG (CF) &  0.76 & 0.29 & 1.52 & 0.42 & 0.39 & 0.77 & \textbf{1.71} & \textbf{1.87} & \underline{1.53} & 0.26 & 0.26 \\
+    \midrule
+    IFR &    0.58 & 0.31 & 0.25 & 0.09 & 0.89 & 0.40 & 0.38 & 0.52 & 0.34 & 0.36 & 0.24 \\
+    \midrule
+    UGS & 0.97 & 0.98 & - & - & - & \textbf{1.17} & - & - & - & - & - \\
+    \bottomrule
+    \end{tabular}}
+    \label{tab:subgraph_fplus}
+\end{table*}
+
+\begin{table*}[t]
+    \centering
+    \caption{\textsf{CMD} scores for the \emph{private} test set across circuit localization methods and ablation types (lower is better). All evaluations were performed using counterfactual ablations. Arithmetic scores are averaged across addition and subtraction. We \textbf{bold} and \underline{underline} the best and second-best methods per column, respectively.}
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{@{}l@{} @{\hspace{7pt}}r @{\hspace{5pt}}r @{\hspace{5pt}}r @{\hspace{5pt}}r r r @{\hspace{5pt}}r @{\hspace{5pt}}r r @{\hspace{5pt}}r r}
+    % \begin{tabular}{@{}l@{} rrrrrrrrrrrg@{}}
+    \toprule
+    & \multicolumn{4}{c}{IOI} & Arithmetic & \multicolumn{3}{c}{MCQA} & \multicolumn{2}{c}{ARC (E)} & ARC (C) \\\cmidrule(lr){2-5}\cmidrule(lr){6-6}\cmidrule(lr){7-9}\cmidrule(lr){10-11}\cmidrule(lr){12-12}
+    \textbf{Method} & GPT-2 & Qwen-2.5 & Gemma-2 & Llama-3.1 & Llama-3.1  & Qwen-2.5 & Gemma-2 & Llama-3.1 & Gemma-2 & Llama-3.1 & Llama-3.1 \\
+    \midrule
+    Random & 0.75 & 0.72 & 0.70 & 0.75 & 0.75 & 0.73 & 0.68 & 0.74 & 0.68 & 0.73 & 0.75 \\
+    \midrule
+    EActP (CF) & \textbf{0.01} & 0.48 & - & - & - & 0.35 & - & - & - & - & - \\
+    \midrule
+    EAP (mean) & 0.27 & 0.24 & 0.28 & \underline{0.04} & 0.07 & 0.21 & 0.19 & 0.17 & \underline{0.22} & \underline{0.19} & \underline{0.20} \\
+    EAP (CF) & 0.03 & 0.15 & 0.06 & \textbf{0.01} & \underline{0.01} & 0.12 & 0.08 & \textbf{0.12} & \textbf{0.04} & 0.20 & \textbf{0.19} \\
+    EAP (OA) & 0.31 & 0.17 & - & - & - & 0.11 & - & - & - & - & -  \\
+    \midrule
+    EAP-IG-inp. (CF) & 0.03 & \underline{0.02} & \underline{0.04} & \textbf{0.01} & \underline{0.01} & \underline{0.08} & \textbf{0.06} & \underline{0.14} & \textbf{0.04} & \textbf{0.10} & 0.22 \\
+    EAP-IG-act. (CF) & \underline{0.02} & \textbf{0.01} & \textbf{0.03} & \textbf{0.01} & \textbf{0.00} & \textbf{0.05} & \underline{0.07} & \textbf{0.12} & \textbf{0.04} & 0.30 & 0.38 \\
+    \midrule
+    NAP (CF) & 0.36 & 0.33 & 0.40 & 0.30 & 0.28 & 0.24 & 0.29 & 0.36 & 0.33 & 0.69 & 0.69 \\
+    NAP-IG (CF) & 0.25 & 0.19 & 0.29 & 0.18 & 0.17 & 0.18 & 0.29 & 0.33 & 0.27 & 0.67 & 0.67 \\
+    \midrule
+    IFR & 0.43 & 0.70 & 0.75 & 0.89 & 0.22 & 0.60 & 0.62 & 0.49 & 0.66 & 0.63 & 0.53 \\
+    \midrule
+    UGS & 0.04 & \underline{0.02} & - & - & - &  - & 0.19 & - & - & - & - \\
+    \bottomrule
+    \end{tabular}}
+    \label{tab:subgraph_fequal_private}
+\end{table*}
+
+\begin{table*}[t]
+    \centering
+    \caption{\textsf{CPR} scores for the \emph{private} test set across circuit localization methods and ablation types. All evaluations were performed using counterfactual ablations. Higher scores are better. Arithmetic scores are averaged across addition and subtraction. We \textbf{bold} and \underline{underline} the best and second-best methods per column, respectively.}
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{lrrrrrrrrrrr}
+    \toprule
+    & \multicolumn{4}{c}{IOI} & Arithmetic & \multicolumn{3}{c}{MCQA} & \multicolumn{2}{c}{ARC (E)} & ARC (C) \\\cmidrule(lr){2-5}\cmidrule(lr){6-6}\cmidrule(lr){7-9}\cmidrule(lr){10-11}\cmidrule(lr){12-12}
+    \textbf{Method} & GPT-2 & Qwen-2.5 & Gemma-2 & Llama-3.1 & Llama-3.1  & Qwen-2.5 & Gemma-2 & Llama-3.1 & Gemma-2 & Llama-3.1 & Llama-3.1 \\
+    \midrule
+    Random & 0.25 & 0.28 & 0.30 & 0.25 & 0.25 & 0.27 & 0.32 & 0.26 & 0.32 & 0.26 & 0.25 \\
+    \midrule
+    EActP (CF) & \textbf{2.39} & 1.20 & - & - & - & 0.87 & - & - & - & - & - \\
+    \midrule
+    EAP (mean) & 0.28 & 0.34 & 0.64 & 0.94 & 0.34 & 0.29 & 0.34 & 0.13 & 0.26 & 0.34 & \underline{0.31} \\
+    EAP (CF) &  1.26 & 0.27 & 1.31 & 0.87 & 0.54 & 0.84 & 1.48 & 1.06 & 1.08 & \underline{0.80} & 0.26 \\
+    EAP (OA) & 1.07 & 0.75 & - & - & - & 0.29 & - & - & - & - & - \\
+    \midrule
+    EAP-IG-inputs (CF) & \underline{1.89} & \textbf{1.73} & \textbf{3.03} & \textbf{2.04} & \textbf{0.98} & \textbf{1.61} & 1.05 & 0.95 & 1.53 & \textbf{1.05} & \underline{0.31} \\
+    EAP-IG-activations (CF) & 1.84 & \underline{1.61} & \underline{2.34} & \underline{1.33} & \textbf{0.98} & 0.76 & \underline{1.53} & 0.83 & \textbf{1.71} & 0.27 & 0.28 \\
+    \midrule
+    NAP (CF) & 0.27 & 0.30 & 0.29 & 0.25 & 0.26 & 0.38 & 1.46 & \underline{1.69} & 1.02 & 0.26 & 0.26 \\
+    NAP-IG (CF) &  0.69 & 0.29 & 1.42 & 0.42 & 0.38 & 0.77 & \textbf{1.68} & \textbf{1.84} & \underline{1.54} & 0.26 & 0.26 \\
+    \midrule
+    IFR & 0.57 & 0.30 & 0.25 & 0.11 & \underline{0.89} & 0.40 & 0.38 & 0.51 & 0.34 & 0.37 & \textbf{0.47} \\
+    \midrule
+    UGS & 0.97 & 1.00 & - & - & - & \underline{1.17} & - & - & - & - & - \\
+    \bottomrule
+    \end{tabular}}
+    \label{tab:subgraph_fplus_private}
+\end{table*}
+
+
+
+We provide scores for all methods where possible. UGS has significant memory requirements; running it on an 80G GPU is not possible for larger models, even when reducing the batch size to 1. Edge activation patching (EActP) and optimal ablations--based methods do not scale well time-wise with model size; the number of edges multiplies significantly, meaning that we must iterate over many more components. We do not include methods that take over 1 week to run.\footnote{This is an arbitrary threshold. We do not restrict users from submitting methods that take this long to run if they so choose.}
+
+\begin{table}
+    \centering
+    \caption{\textsf{CPR} and \textsf{CMD} scores for Llama-3.1 on the arithmetic public test sets, separated by operator. Scores are generally similar across operators, and methods follow similar rankings regardless of which operators are used. A notable exception is EAP-IG-activations, where \textsf{CPR} scores are significantly different.}
+    \begin{tabular}{lrrrr}
+    \toprule
+    & \multicolumn{2}{c}{Arithmetic ($+$)} & \multicolumn{2}{c}{Arithmetic ($-$)} \\\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+    \textbf{Method} & \textsf{CPR} ($\uparrow$) & \textsf{CMD} ($\downarrow$) & \textsf{CPR} ($\uparrow$) & \textsf{CMD} ($\downarrow$) \\
+    \midrule
+    Random & 0.25 & 0.25 & 0.75 & 0.75  \\
+    \midrule
+    EAP (mean) & 0.40 & 0.07 & 0.31 & 0.07 \\
+    EAP (CF) & 0.49 & 0.01 & 0.61 & 0.01 \\
+    \midrule
+    EAP-IG-inputs & 0.96 & 0.00 & 1.03 & 0.00 \\
+    EAP-IG-activations & 0.98 & 0.00 & 0.99 & 0.00 \\
+    \midrule
+    NAP (CF) & 0.26 & 0.29 & 0.27 & 0.27 \\
+    NAP-IG (CF) & 0.43 & 0.18 & 0.34 & 0.18 \\
+    \midrule
+    IFR & 0.90 & 0.24 & 0.87 & 0.20 \\
+    \bottomrule
+    \end{tabular}
+    \label{tab:circuit_arithmetic}
+\end{table}
+
+
+In Table~\ref{tab:circuit_arithmetic} we provide scores for each arithmetic operator separately. 
+
+\section{Details on InterpBench Model Training}
+\label{app:interpbench}
+
+Faithfulness is a fuzzy and unbound metric. Ideally, we would like to know which edges or nodes are in the circuit in advance, such that we can compute more precise metrics such as precision and recall. Inspired by InterpBench \citep{gupta2024interpbench}, we train a transformer model closely following their methods. The model we use was explicitly trained to predict the indirect objects in the IOI dataset (App.~\ref{app:ioi_data}), 
+% Some details that I don't think are worth mentioning:
+% - We used every combination of counterfactuals in the IOI dataset itself except the ABC ones.
+% - We didn't do a cross-product of all datapoints. The dataset itself when expanded would be around 80k - 100k samples.
+% - 80% train split.
+% Rohan- I haven't mentioned the exact head mapping as I don't know if the model will be made public. If you need it it's the first head of each layer.  
+and implements a simplified version of the IOI circuit described by \citet{gupta2024interpbench}.
+
+The model has $6$ layers and $4$ heads per layer, $d_{\text{model}} = 64$, and $d_{\text{head}} = 16$. It was trained with mini-batches of varying lengths using left padding. We performed hyperparameter sweeps to find the best weights for the SIIT algorithm. We use the three-losses variant of SIIT; see \citet{gupta2024interpbench} for details. The final model was trained for $70$ hours on a single H100 GPU.
+
+\newpage
+\section{Details on Causal Variable Localization Track} \label{app:causal_variable_track_details}
+
+
+
+\subsection{Causal Abstraction Analysis}
+\paragraph{Causal Models and Interventions}
+A deterministic causal model $\mathcal{H}$ has \textit{variables} that take on \textit{values}. Each variable has a \textit{mechanism} that determines the value of the variable based on the values of \textit{parent variables}. Variables without parents, denoted $\mathbf{X}$, can be thought of as inputs that determine the setting of all other variables, denoted $\mathcal{H}(\mathbf{x})$. A \textit{hard intervention} $X \leftarrow x$ overrides the mechanisms of variable $X$, fixing it to a constant value $x$.  
+
+\paragraph{Interchange Interventions} 
+We perform \textit{interchange interventions} \citep{vig2020, geiger-etal-2020-neural} where a variable (or set of features) $X$ is fixed to be the value it would take on if the LM were processing \textit{counterfactual input} $c$. We write $X \leftarrow \mathsf{Get}(\mathcal{H}(c), X)$
+where $\mathsf{Get}(\mathcal{H}(c), X)$ is the value of variable $X$ when $\mathcal{H}$ processes input $c$.
+In experiments, we will feed a \textit{base input} $b$ to a model under an interchange intervention $\mathcal{H}_{X \leftarrow \mathsf{Get}(\mathcal{H}(c), X))}(b)$. 
+
+\paragraph{Featurizing Hidden Vectors}
+The dimensions of hidden vectors are not an ideal unit of analysis \citep{Smolensky1988a}, and so it is typical to \textit{featurize} a hidden vector using some invertible function, e.g., an orthogonal matrix, to project a hidden vector into a new variable space with more interpretable dimensions called ``features''\citep{geiger2024causalabstractiontheoreticalfoundation, huang-etal-2024-ravel}. 
+A feature intervention $\Pi \leftarrow \Pi$ edits the mechanism of a hidden vector $\mathbf{h}$ to fix the value of features $\Pi$ to $\Pi$.
+
+\paragraph{Alignment} The LM is a \textit{low-level causal model} $\mathcal{N}$ where variables are dimensions of hidden vectors and the hypothesis about LM structure is a \textit{high-level causal model} $\mathcal{H}$. An \textit{alignment} assigns each high-level variable $X$ to features of a hidden vector $\Pi^{X}_{\mathbf{h}}$, e.g., orthogonal directions in the activation space of $\mathbf{h}$.
+To evaluate an alignment, we perform intervention experiments to evaluate whether high-level interventions on the variables in $\mathcal{H}$ have the same effect as interventions on the aligned features in $\mathcal{N}$.
+
+\paragraph{Causal Abstraction} We use interchange interventions to reveal whether the hypothesized causal model $\mathcal{H}$ is an abstraction of an LM $\mathcal{N}$. To simplify, assume both models share an input and output space. The high-level model $\mathcal{H}$ is an abstraction of the low-level model $\mathcal{N}$ under a given alignment when each high-level interchange intervention and the aligned low-level intervention result in the same output. For a high-level intervention on $X$ aligned with low-level features $\Pi^{X}_{\mathbf{h}}$ with a counterfactual input $c$ and base input $b$, we write
+\begin{equation}\label{eq:abstraction}
+\mathsf{GetOutput}(\mathcal{N}_{\Pi_{\mathbf{h}}^{X} \leftarrow \mathsf{Get}(\mathcal{N}(c), \Pi^X_\mathbf{h}))}(b)) = \mathsf{GetOutput}(\mathcal{H}_{X \leftarrow \mathsf{Get}(\mathcal{H}(c), X))}(b))
+\end{equation}
+If the low-level interchange intervention on the LM produces the same output as the aligned high-level intervention on the algorithm, this is a piece of evidence in favor of the hypothesis. This extends naturally to multi-variable interventions \citep{geiger2024causalabstractiontheoreticalfoundation}.
+
+\paragraph{Graded Faithfulness Metric} We construct \textit{counterfactual datasets} for each causal variable where an example consists of a base prompt and a counterfactual prompt . The \textit{counterfactual label} is the expected output of the algorithm after the high-level interchange intervention, i.e., the right-side of Equation~\ref{eq:abstraction}.  The interchange intervention accuracy is the proportion of examples for which Equation~\ref{eq:abstraction} holds, i.e., the degree to which $\mathcal{H}$ faithfully abstracts $\mathcal{N}$.
+
+\subsection{Aligning Unsupervised Features to Causal Variables}
+\label{app:causal_variable_unsupervised_details}
+In our experiments, we use a variety of unsupervised methods for featurizing hidden vectors in LMs, including principal component analysis (PCA), sparse autoencoders (SAE), and simply taking standard dimensions of the hidden vector as features. For a variable $X$ in the high-level causal model $\mathcal{H}$, we learn a set of features $\Pi^X_{\mathbf{h}}$ of a hidden vector $\mathbf{h}$ of the LM $\mathcal{N}$ using Differential Binary Masking (DBM) \citep{Cao2020,Cao2022, Csordas2021, Davies2023}. Given base input $b$ and counterfactual input $c$, we train a mask $\mathbf{m} \in [0,1]^{|\Pi_{\mathbf{h}}|}$ on the objective
+\begin{equation}
+\mathsf{CE}\Big(\mathsf{GetLogits}\big(\mathcal{N}_{\Pi_{\mathbf{h}} \leftarrow \mathbf{m} \circ \mathsf{Get}(\mathcal{N}(c), \Pi_\mathbf{h}))}(b)\big), \mathsf{GetLogits}\big(\mathcal{H}_{X \leftarrow \mathsf{Get}(\mathcal{H}(c), X))}(b)\big)\Big)
+\end{equation}
+
+\paragraph{Principal Component Analysis.} Principal Component Analysis (PCA) serves as an unsupervised dimensionality reduction technique \citep{tigges2023linearrepresentationssentimentlarge, marks2023geometry}. For a vector set $(\mathcal{V}\subset\mathbb{R}^{n})$ where ($|\mathcal{V}|>n$), PCA determines orthogonal unit vectors
+$\begin{bmatrix}
+\mathbf{p}_1 & \dots & \mathbf{p}_{n}
+\end{bmatrix}$.
+We employ the principal components' orthogonal matrix as featurizer $\mathcal{F}$, mapping neurons into a more interpretable lower-dimensional space.
+Given PCA's unsupervised nature, which doesn't inherently specify component information, we use differential binary masking to select principal components that best abstracted by a causal variable.
+
+\paragraph{Sparse Autoencoders.} Sparse Autoencoders (SAE) employ an autoencoder architecture to transform neural activations into a sparse, higher-dimensional feature space before reconstruction \citep{bricken2023monosemanticity, cunningham2023sparse}. Our implementation utilizes the GemmaScope \cite{Lieberum2024} and LlamaScope \cite{Llamascope} SAE collections.
+A key consideration is that featurizer invertibility requires inclusion of the SAE reconstruction loss. Consequently, all SAE feature interventions incorporate the base input's reconstruction error.
+As with PCA, sparse autoencoders produce unsupervised features without inherent interpretability. We address this by implementing the previously described differential binary masking approach on SAE features \cite{chaudhary2024evaluatingopensourcesparseautoencoders}.
+
+\subsection{Distributed Alignment Search}
+\paragraph{Distributed Alignment Search.} Distributed Alignment Search (DAS) \cite{Geiger2024DAS} operates as a supervised featurization technique that identifies a linear subspace within the model's representation space. The method utilizes an orthogonal matrix $Q$ of size $n \times n$, written as $Q = [\mathbf{u}_{1} \dots \mathbf{u}_{n}]$. This transformation matrix converts the original representation into a new coordinate system through $\mathcal{F}(\mathbf{h}) = Q^{\top} \mathbf{h}$.
+The feature subset $\Pi_{\mathbf{h}}$ is extracted from the first $k$ dimensions of this transformed space, where $k$ serves as an adjustable hyperparameter. The optimization of matrix $Q$ minimizes the following loss:
+\[\mathcal{L} = \texttt{CE} (\mathcal{H}_{X \leftarrow \mathsf{Get}(\mathcal{H}(c), X)}(b), \mathcal{N}_{\Pi_{\mathbf{h}}^X \leftarrow \mathsf{Get}(\mathcal{N}(c), \Pi^X_{\mathbf{h}})}(b))\]
+To manage computational efficiency, rather than computing the complete matrix $Q$, we learn only the $k$ orthogonal vectors that constitute feature $\Pi^X_{\mathbf{h}}$. Our implementation utilizes the \texttt{pyvene} library \citep{wu2024pyvene}, training the featurizer on base-counterfactual pairs with interchange interventions. 
+
+\newpage
+
+\subsection{Hyperparameters}
+\paragraph{Learning rate and regularization} The learning rate used across models and tasks was $0.01$, except for IOI which we used learning rate of $1.0$. No regularization loss terms were used. 
+
+\paragraph{Epochs and batch size.} For RAVEL, we train for one epoch of $\approx$30k examples with a batch size of 128 for Llama and 32 for Gemma. For MCQA, we train for 8 epochs on $\approx$300 examples with a batch size of 64. For ARC (easy), we train for 2 epochs of $\approx$9k examples and a batch size of 48 with Gemma and for 1 epoch with a batch size of 16 for Llama. For the two-digit addition task, we train for 1 epoch on $\approx$30k examples with a batch size of 256. For IOI, we train for one epoch on $\approx$30k examples. 
+
+\paragraph{DAS dimensionality.} The dimensionality of DAS was set at 16 for the ordering ID $\order$ and carry-the-one variable $\carry$. The DAS dimensionality for $\token$ and $\position$ are 32. The $\answer$ variable in MCQA and ARC (Easy) has a DAS dimensionality of half the residual stream for their respective model, because token embeddings live in a higher dimensional space. The RAVEL task which had the dimensionality of an eighth of the residual stream, according to the experiments from \citep{huang-etal-2024-ravel}.
+
+\paragraph{Masking parameters.} For the masking methods, the temperature schedule used begins at $1.0$ and approaches $0.01$. 
+
+\subsection{High-level Causal Models and Experimental Details for Each Task}\label{app:causalvariabletracktaskdetails}
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric}
+\subsubsection{Multiple-choice Question Answering}\label{app:causalvariableMCQAdetails}
+
+\begin{figure*}[ht]
+    \centering
+    
+    % Define styles for nodes and arrows
+    \tikzset{
+        general node/.style={draw, ellipse, fill=blue!20, minimum width=2.5cm, minimum height=1.2cm, align=center, font=\small},
+        specific node/.style={draw, ellipse, fill=green!20, minimum width=2.5cm, minimum height=1.2cm, align=center, font=\small},
+        arrow/.style={-{Stealth[length=3mm]}, thick},
+    }
+    
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \begin{tikzpicture}[node distance=1.8cm]
+            % Nodes for general model
+            \node[general node] (answer) {Answer};
+            \node[general node] (pointer) [below=of answer] {AnswerPointer};
+            \node[general node] (prompt) [below=of pointer] {TextPrompt};
+            
+            % Arrows for general model
+            \draw[arrow] (prompt) -- (pointer);
+            \draw[arrow] (prompt) to[out=45,in=-45] (answer);
+            \draw[arrow] (pointer) -- (answer);
+        \end{tikzpicture}
+        \caption{General causal model for multiple choice question answering}
+        \label{fig:mc-general}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \begin{tikzpicture}[node distance=1.8cm]
+            % Nodes for specific example
+            \node[specific node] (answer) {Answer: C};
+            \node[specific node] (pointer) [below=of answer] {AnswerPointer: 3};
+            \node[specific node, text width=3cm] (prompt) [below=of pointer] {TextPrompt:\\``Question: Coconuts are brown. What color are coconuts?\\A. red\;B. orange\;C. brown\;D. purple''};
+            
+            % Arrows for specific example
+            \draw[arrow] (prompt) -- (pointer);
+            \draw[arrow] (prompt) to[out=45,in=-45] (answer);
+            \draw[arrow] (pointer) -- (answer);
+        \end{tikzpicture}
+        \caption{Specific example of the causal process}
+        \label{fig:mc-specific}
+    \end{subfigure}
+    
+    \caption{Causal model for multiple choice question answering. The model operates through a two-step mechanism: first, the TextPrompt is processed to generate an AnswerPointer that identifies the position of the correct answer in the options list. Second, this AnswerPointer is used to extract the corresponding letter label (A, B, C, or D) as the final Answer. This mechanism separates the reasoning process (identifying which option is correct) from the answer extraction (converting position to label).}
+    \label{fig:mc-full}
+\end{figure*}
+
+We define the causal model for multiple-choice question answering, including one for the ARC dataset, in Figure~\ref{fig:mc-full}. It comprises two variables, as illustrated in Figure~\ref{fig:mc-general}: 1) $\order$: It takes the text prompt as input and outputs a pointer that encodes the position of the correct label. 2) $\answer$: It receives the answer pointer as input and dereferences it by retrieving the corresponding token value from the text prompt. For instance, consider the text prompt shown in Figure~\ref{fig:mc-specific}. First, the $\order$ variable identifies the position of the correct option—position $3$. Then, the $\answer$ variable uses this information to locate and extract the value of the third option from the prompt—i.e., $C$—which becomes the final output. Similar high-level causal models have also been proposed in prior work \cite{lieberum2023doescircuitanalysisinterpretability, PrakashSHBB24}.
+
+We highlight two interchange intervention experiments—one for each variable in the causal model—to align the LM's internal representations with those of the causal model. For both variables, we use counterfactuals in which the position of the correct option and the option label is replaced with a different letter. (To be clear, in the main text, we report the average across this counterfactual and counterfactuals that only change position and only change the option label.)
+
+Figures~\ref{fig:mcqa_answerpointer_gemma_full_vector} and \ref{fig:mcqa_answerpointer_gemma_das} show the alignment results of the $\order$ variable in the Gemma model using full vector patching and the DAS method, respectively. This result shows that we can use DAS isolate the answer position in the middle layers above the correct label token and then the final token. This behavior aligns with our hypothesized causal model, in which the model first identifies the position of the correct option, before dereferencing it to fetch token value information.
+
+
+Figures~\ref{fig:mcqa_answer_gemma_full_vector} and \ref{fig:mcqa_answer_gemma_das} illustrate the alignment results of the $\answer$ variable in the Gemma model, using the full vector patching and DAS methods, respectively. The success of full vector patching at the last layer of the last token is logically guaranteed, as this is where the model predicts the next token. However, full vector patching fails at other locations because the output token is tangled with ordering information and the positional encoding. On the other hand, DAS is able to disentangle the output token from this other information at basically every layer.
+
+
+\begin{figure}[H]
+    \begin{subfigure}{0.47\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/heatmap_answerPosition_randomLetter_gemma_fullvector_answerpointer.png}
+    \caption{$\order$ variable alignment results with full residual vector patching.}
+    \label{fig:mcqa_answerpointer_gemma_full_vector}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.47\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/heatmap_answerPosition_randomLetter_gemma_DAS_answerpointer.png}
+    \caption{$\order$ variable alignment results using the subspace identified using the DAS method.}
+    \label{fig:mcqa_answerpointer_gemma_das}
+    \end{subfigure}
+    \begin{subfigure}{0.47\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/heatmap_answerPosition_randomLetter_gemma_fullvector_answer.png}
+    \caption{$\answer$ variable alignment results with full vector patching.}
+    \label{fig:mcqa_answer_gemma_full_vector}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.47\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/heatmap_answerPosition_randomLetter_gemma_DAS_answer.png}
+    \caption{$\answer$ variable alignment results using the subspace identified using the DAS method.}
+    \label{fig:mcqa_answer_gemma_das}
+    \end{subfigure}
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    
+    % Define styles for nodes and arrows
+    \tikzset{
+        general node/.style={draw, ellipse, fill=blue!20, minimum width=2.5cm, minimum height=1.2cm, align=center, font=\small},
+        specific node/.style={draw, ellipse, fill=green!20, minimum width=2.5cm, minimum height=1.2cm, align=center, font=\small},
+        arrow/.style={-{Stealth[length=3mm]}, thick},
+    }
+    
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \resizebox{\textwidth}{!}{
+        \begin{tikzpicture}[node distance=1.5cm]
+            % Output nodes
+            \node[general node] (digit100) {OutputDigit$_{100}$};
+            \node[general node] (digit10) [right=of digit100] {OutputDigit$_{10}$};
+            \node[general node] (digit1) [right=of digit10] {OutputDigit$_{1}$};
+            
+            % Intermediate node
+            \node[general node] (carry) [below=2cm of digit10] {CarryTheOne};
+            
+            % TextPrompt input node
+            \node[general node] (textprompt) [below=3cm of carry] {TextPrompt};
+            
+            % Input nodes
+            \node[general node] (addend1_10) [below left=1.2cm and 0.6cm of carry] {Addend$_1$Digit$_{10}$};
+            \node[general node] (addend1_1) [below right=1.2cm and 0.6cm of carry] {Addend$_1$Digit$_{1}$};
+            \node[general node] (addend2_10) [left=of addend1_10] {Addend$_2$Digit$_{10}$};
+            \node[general node] (addend2_1) [right=of addend1_1] {Addend$_2$Digit$_{1}$};
+            
+            % Arrows from TextPrompt to input variables
+            \draw[arrow] (textprompt) to[out=135, in=270] (addend1_10);
+            \draw[arrow] (textprompt) to[out=30, in=270] (addend1_1);
+            \draw[arrow] (textprompt) to[out=150, in=270] (addend2_10);
+            \draw[arrow] (textprompt) to[out=45, in=270] (addend2_1);
+            
+            % Arrows from input to intermediate
+            \draw[arrow] (addend1_1) to[out=120, in=300] (carry);
+            \draw[arrow] (addend2_1) to[out=60, in=0] (carry);
+            
+            % Arrows from input to output
+            \draw[arrow] (addend1_1) to[out=45, in=270] (digit1);
+            \draw[arrow] (addend2_1) to[out=135, in=270] (digit1);
+            \draw[arrow] (addend1_10) to[out=45, in=270] (digit10);
+            \draw[arrow] (addend2_10) to[out=45, in=270] (digit10);
+            
+            % Arrows from intermediate to output
+            \draw[arrow] (carry) to[out=60, in=270] (digit10);
+            \draw[arrow] (carry) to[out=120, in=270] (digit100);
+            
+            % Additional arrows
+            \draw[arrow] (addend1_10) to[out=30, in=270] (digit100);
+            \draw[arrow] (addend2_10) to[out=45, in=270] (digit100);
+        \end{tikzpicture}
+        }
+        \caption{General causal model for two-digit addition}
+        \label{fig:arith-general}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \resizebox{\textwidth}{!}{
+        \begin{tikzpicture}[node distance=1.5cm]
+            % Output nodes
+            \node[specific node] (digit100) {OutputDigit$_{100}$ = 1};
+            \node[specific node] (digit10) [right=of digit100] {OutputDigit$_{10}$ = 2};
+            \node[specific node] (digit1) [right=of digit10] {OutputDigit$_{1}$ = 3};
+            
+            % Intermediate node
+            \node[specific node] (carry) [below=2cm of digit10] {CarryTheOne = 1};
+            
+            % TextPrompt input node
+            \node[specific node] (textprompt) [below=3cm of carry] {TextPrompt: ``57 + 66 = ?''};
+            
+            % Input nodes
+            \node[specific node] (addend1_10) [below left=1.2cm and 0.6cm of carry] {Addend$_1$Digit$_{10}$ = 5};
+            \node[specific node] (addend1_1) [below right=1.2cm and 0.6cm of carry] {Addend$_1$Digit$_{1}$ = 7};
+            \node[specific node] (addend2_10) [left=of addend1_10] {Addend$_2$Digit$_{10}$ = 6};
+            \node[specific node] (addend2_1) [right=of addend1_1] {Addend$_2$Digit$_{1}$ = 6};
+            
+            % Arrows from TextPrompt to input variables
+            \draw[arrow] (textprompt) to[out=135, in=270] (addend1_10);
+            \draw[arrow] (textprompt) to[out=30, in=270] (addend1_1);
+            \draw[arrow] (textprompt) to[out=150, in=270] (addend2_10);
+            \draw[arrow] (textprompt) to[out=45, in=270] (addend2_1);
+            
+            % Arrows from input to intermediate
+            \draw[arrow] (addend1_1) to[out=120, in=300] (carry);
+            \draw[arrow] (addend2_1) to[out=60, in=0] (carry);
+            
+            % Arrows from input to output
+            \draw[arrow] (addend1_1) to[out=45, in=270] (digit1);
+            \draw[arrow] (addend2_1) to[out=135, in=270] (digit1);
+            \draw[arrow] (addend1_10) to[out=45, in=270] (digit10);
+            \draw[arrow] (addend2_10) to[out=45, in=270] (digit10);
+            
+            % Arrows from intermediate to output
+            \draw[arrow] (carry) to[out=60, in=270] (digit10);
+            \draw[arrow] (carry) to[out=120, in=270] (digit100);
+            
+            % Additional arrows
+            \draw[arrow] (addend1_10) to[out=30, in=270] (digit100);
+            \draw[arrow] (addend2_10) to[out=45, in=270] (digit100);
+        \end{tikzpicture}
+        }
+        \caption{Specific example: 57 + 66 = 123}
+        \label{fig:arith-specific}
+    \end{subfigure}
+    
+    \caption{Causal model for two-digit addition arithmetic. The model processes addition through a series of interdependent mechanisms: (1) The 1's digits from both addends directly influence the output 1's digit through modular addition. (2) When the sum of 1's digits exceeds 9, the CarryTheOne variable becomes 1, otherwise it's 0. (3) The 10's digit of the result is determined by three inputs: the 10's digits of both addends and the CarryTheOne value. (4) The 100's digit is causally influenced by both 10's digits of the addends and the carry operation—it becomes 1 only when the sum of 10's digits plus any carried value exceeds 9.}
+    \label{fig:arithmetic-full}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{subfigure}{0.47\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/heatmap_ones_carry_llama_full_vector.png}
+    \caption{$X_\text{Carry}$ variable alignment results in Llama with full vector patching and counterfactuals that differ only by the carry the one variable.}
+    \label{fig:arith_ones_carry_llama_full_vector}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.47\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/heatmap_ones_carry_llama_das.png}
+    \caption{$X_\text{Carry}$ variable alignment results in Llama using the DAS method and counterfactuals that differ only by the carry the one variable.}
+    \label{fig:arith_ones_carry_llama_das}
+    \end{subfigure}
+
+    \begin{subfigure}{0.47\textwidth}
+    \includegraphics[width=\linewidth]{figures/heatmap_ones_carry_llama_full_vector_random.png}
+    \caption{$X_\text{Carry}$ variable alignment results in Llama with full vector patching and counterfactuals that are randomly sampled.}
+    \label{fig:arith_ones_carry_llama_full_vector_random}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.47\textwidth}
+    \includegraphics[width=\linewidth]{figures/heatmap_ones_carry_llama_das_random.png}
+    \caption{$X_\text{Carry}$ variable alignment results in Llama with the DAS method and counterfactuals that are randomly sampled.}
+    \label{fig:arith_ones_carry_llama_das_random}
+    \end{subfigure}
+\end{figure}
+
+\subsubsection{Arithmetic}\label{app:causalvariablemathdetails}
+We define the causal model for arithmetic (addition) in Figure~\ref{fig:arithmetic-full}. Unlike the causal models for MCQA and ARC, the addition causal model involves multiple variables, as illustrated in Figure~\ref{fig:arith-general}. First, the units and tens digits of both addends are parsed. The unit digits are then added together to determine the units digit of the result, as well as whether a carry is generated. Next, the tens digits of both addends—along with the carry, if any—are summed to compute the tens digit of the result. This step also helps determine whether the result includes a hundred's digit.
+
+Consider the example shown in Figure~\ref{fig:arith-specific}, namely $57+66$. The causal model begins by parsing the addends to identify their respective tens and units digits. It first adds the unit digits, $7$ and $6$, determining that the units digit of the result is $3$, and that a carry is generated. Next, it adds the tens digits of both addends along with the carry, concluding that the tens digit of the result is $3$. Using these same three values—the tens digits and the carry—the model also determines that the result includes a hundreds digit, which is $1$.
+
+We evaluate the hypothesized causal model by conducting an interchange intervention experiment to align the $\carry$ variable. The counterfactual examples are designed such that they introduce a carry when the original does not, and remove it when the original includes one. Figures~\ref{fig:arith_ones_carry_llama_full_vector} and \ref{fig:arith_ones_carry_llama_das} present the alignment results in the Llama model using full vector patching and the DAS method, respectively. At first, these results suggest that the $\carry$ information emerges at the last token position during the middle layers of the model. However, this is likely a representation of the tens-digit output, which perfectly correlates with the ones-carry variable in these counterfactual. Indeed, when we use random counterfactuals in which the output is entirely independent from the carry the one value, we see a total failure.
+
+
+
+
+\begin{figure}[H]
+    \centering
+    % Define styles for nodes and arrows
+    \tikzset{
+        general node/.style={draw, ellipse, fill=blue!20, minimum width=2.5cm, minimum height=1.2cm, align=center, font=\small},
+        specific node/.style={draw, ellipse, fill=green!20, minimum width=2.5cm, minimum height=1.2cm, align=center, font=\small},
+        arrow/.style={-{Stealth[length=3mm]}, thick},
+    }
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \resizebox{\textwidth}{!}{
+        \begin{tikzpicture}[node distance=1.5cm]
+            % Output nodes
+            \node[general node] (answer) {Answer};
+            
+            % Intermediate node
+            \node[general node] (continent) [below left=1.2cm and 0.6cm of answer] {Continent};
+            \node[general node] (country) [below=1.2cm of answer] {Country};
+            \node[general node] (language) [below right=1.2cm and 0.6cm of answer] {Language};
+            
+            % TextPrompt input node
+            \node[general node] (textprompt) [below=3cm of country] {TextPrompt};
+            
+            % Input nodes
+            \node[general node] (entity) [below left=1.2cm and 0.6cm of country] {Entity};
+            \node[general node] (qattr) [below right=1.2cm and 0.6cm of country] {QueriedAttribute};
+
+            % Arrows from TextPrompt to input variables
+            \draw[arrow] (textprompt) -- (entity);
+            \draw[arrow] (textprompt) -- (qattr);
+            
+            % Arrows from input to intermediate
+            \draw[arrow] (entity) -- (continent);
+            \draw[arrow] (entity) -- (country);
+            \draw[arrow] (entity) -- (language);
+            
+            % Arrows from input to output
+            \draw[arrow] (qattr) -- (answer);
+            
+            % Arrows from intermediate to output
+            \draw[arrow] (continent) -- (answer);
+            \draw[arrow] (country) -- (answer);
+            \draw[arrow] (language) -- (answer);
+            
+        \end{tikzpicture}
+        }
+        \caption{General causal model for RAVEL.}
+        \label{fig:ravel-general}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \resizebox{\textwidth}{!}{
+        \begin{tikzpicture}[node distance=1.5cm]
+            % Output nodes
+            \node[specific node] (answer) {Answer:\\Europe};
+            
+            % Intermediate node
+            \node[specific node] (continent) [below left=1.2cm and 0.6cm of answer] {Continent:\\Europe};
+            \node[specific node] (country) [below=1.2cm of answer] {Country:\\France};
+            \node[specific node] (language) [below right=1.2cm and 0.6cm of answer] {Language:\\French};
+            
+            % TextPrompt input node
+            \node[specific node] (textprompt) [below=3cm of country] {TextPrompt: Paris is in the continent of};
+            
+            % Input nodes
+            \node[specific node] (entity) [below left=1.2cm and 0.6cm of country] {Entity:\\Paris};
+            \node[specific node] (qattr) [below right=1.2cm and 0.6cm of country] {QueriedAttribute:\\Continent};
+
+            % Arrows from TextPrompt to input variables
+            \draw[arrow] (textprompt) -- (entity);
+            \draw[arrow] (textprompt) -- (qattr);
+            
+            % Arrows from input to intermediate
+            \draw[arrow] (entity) -- (continent);
+            \draw[arrow] (entity) -- (country);
+            \draw[arrow] (entity) -- (language);
+            
+            % Arrows from input to output
+            \draw[arrow] (qattr) -- (answer);
+            
+            % Arrows from intermediate to output
+            \draw[arrow] (continent) -- (answer);
+            \draw[arrow] (country) -- (answer);
+            \draw[arrow] (language) -- (answer);
+            
+        \end{tikzpicture}
+        }
+        \caption{Specific example: Paris is in the continent of `` ''.}
+        \label{fig:ravel-specific}
+    \end{subfigure}
+    \caption{Causal model for the RAVEL task. Given a prompt querying an attribute of a city entity, the model extracts the entity and queried attribute as input variables, then identifies the values of the \continent, \country, and \lang attributes for the entity. Lastly, it decides which value to output based on the queried attribute.}
+    \label{fig:ravel-full}
+\end{figure}
+
+
+\subsubsection{RAVEL}\label{app:causalvariableRAVELdetails}
+We define the causal model for the RAVEL task in Figure~\ref{fig:ravel-full}. The model takes an input prompt that queries the value of an attribute of an entity (e.g., the continent of a city) and outputs the correct answer. As illustrated in Figure~\ref{fig:ravel-general}, the causal model first parses the input prompt $\inputvar$ to extract two input variables: the \textit{entity} and the \textit{queried attribute} $\queryvar$. The entity refers to a city, which is associated with three attribute variables: \continent, \country, and \lang. The model then identifies the value of each attribute variable for the given entity. Lastly, the answer variable $\outputvar$ selects the appropriate value based on the queried attribute.
+For example, given the prompt ``Paris is in the continent of'' in Figure~\ref{fig:ravel-specific}, the model first identifies the entity ``Paris'' and the queried attribute ``continent.'' It then uses its internal knowledge to retrieve the continent, country, and language associated with the city of Paris. Lastly, since the queried attribute is ``continent,'' the model outputs ``Europe.''
+
+The Llama model achieves 66.5\% accuracy on the task and the Gemma model achieves 70.5\% accuracy on the task. The dataset contains many cities, so considering that there are many countries and languages to choose from, this is good performance. We filter out failure cases.
+
+We conduct interchange intervention experiments on each of the attribute variables, \continent, \country, and \lang, to align the language model's internal representations with the hypothesized causal model. We use two types of counterfactuals: the \textit{attribute counterfactual}, which alters the queried attribute in the base prompt, and the \textit{Wikipedia counterfactual}, which is a freeform sentence from Wikipedia about the entity city. If the MI method successfully isolates the target attribute, then the intervention should cause the language model to output the corresponding attribute value for the entity city in the counterfactual.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering 
+        \includegraphics[width=\linewidth]{figures/ravel_heatmaps/gemma_country_attribute_full.png}
+        \caption{IIA using the identity featurizer (Full Vector).}
+        \label{fig:ravel_country_attr_full}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/ravel_heatmaps/gemma_country_attribute_das.png}
+        \caption{IIA using Distributed Alignment Search to learn a featurizer.}
+        \label{fig:ravel_country_attr_das}
+    \end{subfigure}
+    \caption{Interchange Intervention Accuracy (IIA) at each layer of Gemma-2 2B, when targeting the \country variable using the \textit{attribute counterfactual}. The Full Vector baseline fails to isolate the target variable, whereas DAS achieves high accuracy in the mid layers.}
+    \label{fig:ravel_country_attr}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \centering 
+        \includegraphics[width=\linewidth]{figures/ravel_heatmaps/gemma_country_wikipedia_full.png}
+        \caption{IIA using the identity featurizer (Full Vector).}
+        \label{fig:ravel_country_wiki_full}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/ravel_heatmaps/gemma_country_wikipedia_das.png}
+        \caption{IIA using Distributed Alignment Search to learn a featurizer.}
+        \label{fig:ravel_country_wiki_das}
+    \end{subfigure}
+    
+    \caption{Interchange Intervention Accuracy (IIA) at each layer of Gemma-2 2B when targeting the \country variable using the \textit{Wikipedia counterfactual}. This counterfactual presents a more challenging setting. The Full Vector baseline fails to disentangle the attributes, while DAS identifies meaningful signal in the mid layers.}
+    \label{fig:ravel_country_wiki}
+\end{figure}
+
+\paragraph{Results.} We present representative results from the set of intervention experiments. Specifically, we focus on the Gemma-2 2B model and target the \country variable. Figure~\ref{fig:ravel_country_attr} shows the Interchange Intervention Accuracy (IIA) at each layer using the \textit{attribute counterfactual}, comparing the baseline (Full Vector) and the best-performing method (DAS). Half of this counterfactual dataset consists of prompts querying the \country variable, while the other half queries the \continent or \lang variables. Successfully isolating the \country variable requires the method to change only the value of \country while preserving the values of \continent and \lang. Since the Full Vector swaps out all features, it performs poorly in the last token position in the later layers. In contrast, the featurizer learned by DAS achieves high IIA in layers 18 and 19.
+
+We also evaluate performance using the \textit{Wikipedia counterfactual}, which presents a more challenging case: the counterfactual prompt is a freeform sentence that does not query an attribute, and thus would reduce false positives where the counterfactual answer coincides with the base prompt. In Figure~\ref{fig:ravel_country_wiki}, we observe similar but generally lower IIA patterns compared to the \textit{attribute counterfactual}. The Full Vector baseline fails to isolate the variable, with IIA in both token positions consistently around or below 50. For DAS, IIA increases from the early to mid layers, with meaningful signals emerging in the entity's last token position in the mid layers. It is worth noting that the \country variable may be more difficult to disentangle than others \citep{huang-etal-2024-ravel}, and all five methods we evaluate exhibit lower IIA on \country compared to the other two variables.
+
+% attribute counterfactual
+
+
+% wikipedia counterfactual
+\newcommand{\IOIbias}{0.048}
+\newcommand{\positioncoef}{2.005}
+\newcommand{\tokencoef}{0.768}
+
+\begin{figure}[H]
+    \centering
+    
+    % Define styles for nodes and arrows
+    \tikzset{
+        general node/.style={draw, ellipse, fill=blue!20, minimum width=2.5cm, minimum height=1.2cm, align=center, font=\small},
+        specific node/.style={draw, ellipse, fill=green!20, minimum width=2.5cm, minimum height=1.2cm, align=center, font=\small},
+        arrow/.style={-{Stealth[length=3mm]}, thick},
+        inhibit/.style={-|, thick, red},
+    }
+    
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \resizebox{\textwidth}{!}{
+        \begin{tikzpicture}[node distance=1.8cm]
+            % Output node at top
+            \node[general node] (output) {LogitDifference};
+            
+            % Intermediate nodes
+            \node[general node] (subjecttoken) [below left=2cm and 1cm of output] {SubjectToken};
+            \node[general node] (subjectpos) [below right=2cm and 1cm of output] {SubjectPosition};
+            
+            % Input node
+            \node[general node] (textprompt) [below=3.5cm of output] {TextPrompt};
+            
+            % Arrows from input to intermediate
+            \draw[arrow] (textprompt) to[out=135, in=270] (subjecttoken);
+            \draw[arrow] (textprompt) to[out=45, in=270] (subjectpos);
+            
+            % Arrows from intermediate to output
+            \draw[arrow] (subjecttoken) -- (output) node[midway, left, font=\scriptsize] {×\tokencoef};
+            \draw[arrow] (subjectpos) -- (output) node[midway, right, font=\scriptsize] {×\positioncoef};
+            \draw[arrow] (textprompt) to[out=90, in=270] (output);
+            % Add constant term to output
+            \node[font=\scriptsize, above left=0.1cm and 0cm of output] {+\IOIbias};
+        \end{tikzpicture}
+        }
+        \caption{General causal model for indirect object identification}
+        \label{fig:indirect-general}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \resizebox{\textwidth}{!}{
+        \begin{tikzpicture}[node distance=1.8cm]
+            % Output node at top
+            \node[specific node] (output) {LogitDifference = 3.16};
+            
+            % Intermediate nodes
+            \node[specific node] (subjecttoken) [below left=2cm and 1cm of output] {SubjectToken = 1};
+            \node[specific node] (subjectpos) [below right=2cm and 1cm of output] {SubjectPosition = 1};
+            
+            % Input node
+            \node[specific node, text width=3.5cm] (textprompt) [below=3.5cm of output] {TextPrompt:\\
+            "As Carl and Maria\\left the consulate,\\Carl gave a fridge to"};
+            
+            % Arrows from input to intermediate
+            \draw[arrow] (textprompt) to[out=135, in=270] (subjecttoken);
+            \draw[arrow] (textprompt) to[out=45, in=270] (subjectpos);
+            
+            % Arrows from intermediate to output
+            \draw[arrow] (subjecttoken) -- (output) node[midway, left, font=\scriptsize] {×\tokencoef};
+            \draw[arrow] (subjectpos) -- (output) node[midway, right, font=\scriptsize] {×\positioncoef};
+            \draw[arrow] (textprompt) to[out=90, in=270] (output);
+            % Add constant term to output
+            \node[font=\scriptsize, above left=0.1cm and 0cm of output] {+0.295};
+        \end{tikzpicture}
+        }
+        \caption{Specific example showing prediction for "Carl"}
+        \label{fig:indirect-specific}
+    \end{subfigure}
+    
+    \caption{Causal model for indirect object identification. The TextPrompt is processed to extract the subject token $\token$ and the subject position $\position$. The output variable mechanism (1) compares the token and position to the input, and determines whether the token and position were inverted or the same and sets $\positionsignal$ and $\tokensignal$ to 1 and -1 accordingly and (2) computes $\IOIbias +\tokencoef \tokensignal + \positioncoef \positionsignal$, with position having a stronger influence than token identity.}
+    \label{fig:indirect-full}
+\end{figure}
+
+\subsubsection{Indirect Object Indentification}\label{app:causalvariableIOIdetails}
+
+The indirect object identification (IOI) task is a natural language task which consists of sentences like ``When Mary and John went to the store, John gave a drink to'', and evaluates for the model completion, `Mary'. The task is linguistically fundamental and has an interpretable algorithm: given two names in a sentence, predict the name that isn’t the
+subject of the last clause.
+
+A sentence in IOI has two parts: a beginning clause that depends on the rest of the sentence, like ``When Mary and John went to the store,'' and a main clause, like ``John gave a bottle of milk to Mary.'' The beginning clause introduces the indirect object (IO), `Mary', and the subject (S), `John'. The main clause mentions the subject again, and in every IOI example, the subject gives something to the IO. The goal of the IOI task is to predict the last word of the sentence, which should be the IO. Our high-level model predicts the \textit{logit difference} resulting from subtracting indirect object name logit from the the subject name logit. When this difference is positive, the model is more likely to predict the subject than the indirect object. 
+
+\cite{wang2022interpretability} identify that heads 3 and 9 in layer 7 (7.3 and 7.9) and heads 6 and 10 in layer 8 (8.6 and 8.10) all reduce the likelihood of the model outputting the subject, dubbing these heads ``S-inhibition heads''. These heads help the model output the indirect object to solve the task. Specifically, \citet{wang2022interpretability} found that S-Inhibition Heads use two types of signals. The first is the token signal, which carries the token identity of the subject, while the second is the position signal, which carries information about the position of subject, i.e., first or second. These information signals carried by the S-Inhibition heads inform other components in the model to avoid the token and position of the subject.
+
+To identify these two signals, \citet{wang2022interpretability} perform interchange interchange interventions that manipulate each signal separately. The IO$\leftrightarrow$S1-Flip counterfactual inverts the position of the subject while keeping the token the same. The IO$\leftrightarrow$S2-Flip inverts the token of the subject while keeping the position the same. The IO$\leftrightarrow$S1-Flip+IO$\leftrightarrow$S2-Flip inverts the position and token of the subject.
+
+After an interchange intervention is performed on all four heads with one of these counterfactuals, \citet{wang2022interpretability} consider the token/position to have value 1 if unchanged and value -1 if inverted.\footnote{They also included a value of $0$ for the token signal of a random new token, but we leave out this condition for our experiments.} Using these binary signals as inputs and the logit difference between indirect object and subject as outputs, they perform a regression and find that $2.31\positionsignal + 0.99\tokensignal$ is the best predictive model of logit difference. On our dataset, we perform the same intervention experiments and fit a linear model, finding that  $\IOIbias + \positioncoef \positionsignal + \tokencoef \tokensignal$ is the best predictor of logit difference. 
+
+\citet{wang2022interpretability} never conducted experiments attempting to disentangle the position and token signals, and this is what we do here.
+
+\paragraph{Dataset.} Our dataset consists of train, validation, and test splits. The train, test, and private test sets contain 10000 examples each, as well as 10000 examples for 8 corresponding counterfactuals as shown in Table~\ref{table:ioi_cf}.
+
+
+\paragraph{Causal Model.}
+We define the causal model for indirect object identification in Figures~\ref{fig:indirect-full}. The variables $\token$ and $\position$ are derived from the original prompt and without intervention, they will always take on the value of the subject token identity and subject position, respectively. These variables are not equivalent to the binary signals $\tokensignal$ and $\positionsignal$. Instead, the output $\outputvar_{\text{LogDiff}}$ variable compares the subject token and subject position to the original input to determine whether the token and position is inverted and run the linear model accordingly. 
+
+Without an intervention, the $\token$ and $\position$ variables will always match the text input, and the logit diff is predicted to be $\IOIbias + \positioncoef + \tokencoef$. When only $\token$ is intervened on, the logit diff is predicted to be $\IOIbias + \positioncoef - \tokencoef$. When only $\position$ is intervened on, the logit diff is predicted to be $\IOIbias - \positioncoef + \tokencoef$. If both are intervened on, then the logit diff is predicted to be $\IOIbias - \positioncoef - \tokencoef$
+
+\paragraph{Full Vector Brute-Force Search} We conduct a brute-force search by aligning each of the two causal variables with every possible subset of the four S-inhibition heads. 
+In Table \ref{tab:appendix-ioi-mse-accuracy} we report the mean-squared error for the alignments. 
+In the main text, we report the alignment of $\position$ to heads 7.3, 7.9, and 8.6 and $\token$ to the head 8.10.
+
+
+
+
+
+\begin{table}
+\centering
+\caption{Mean Squared Error (MSE) for aligning $\position$ and $\token$ to each subset of heads.}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Heads} & \textbf{MSE ($\position$)} & \textbf{MSE ($\token$)} \\
+\midrule
+\textbf{((7, 3), (7, 9), (8, 6))} & \textbf{2.45} & 6.83 \\
+((7, 3), (7, 9), (8, 10)) & 3.08 &6.79  \\
+((7, 3), (7, 9)) & 5.42 & 3.28 \\
+((7, 3), (8, 6), (8, 10)) & 2.52 & 8.08  \\
+((7, 3), (8, 6)) & 4.17 & 4.82 \\
+((7, 3), (8, 10)) & 4.92  & 3.51 \\
+((7, 3)) & 12.03 & 4.07 \\
+((7, 9), (8, 6), (8, 10)) & 2.90 & 10.20 \\
+((7, 9), (8, 6)) & 3.15 & 5.05 \\
+{((7, 9), (8, 10))} & 3.63 & 4.33 \\
+{((7, 9))} & 7.90 & {2.80} \\
+((8, 6), (8, 10)) & 3.00  & 5.71  \\
+((8, 6)) & 5.81 & 4.21 \\
+\textbf{((8, 10))} & 7.28 & \textbf{2.82} \\
+\bottomrule
+\end{tabular}
+\label{tab:appendix-ioi-mse-accuracy}
+\end{table}
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
+% \subsection{Further Results on Baseline Methods}
+% For each baseline method analyzed in the causal variable localization track, we provide detailed results across the predefined sets of high-level variables and token locations in Table~\ref{tab:full_vector_patching_arithmetic}.
+% % \ho{what is the metric that is presented in the table?}
+
+% \begin{table}[h]
+%     \centering
+%     \small
+%     \caption{Full faithfulness scores for full vector patching on the arithmetic task.}
+%     \begin{tabular}{llccccc}
+%         \toprule
+%             \textbf{Model} & \textbf{Token Position} & \textbf{Op1 Ones Digit} & \textbf{Op 2 Ones Digit} & \textbf{Op1 Tens Digit} & \textbf{Op2 Tens Digit} & \textbf{Ones Digit Carry} \\ 
+%             \midrule            
+%             \multirow{3}{*}{Llama-3.1} & Last Token & 0.05 & 0.05 & 0.05 & 0.05 & 0.23 \\ 
+%                                & Op1 Last Token & 0.09 & 0.09 & 0.10 & 0.10 & 0.48 \\
+%                                & Op2 Last Token & 0.09 & 0.09 & 0.10 & 0.10 & 0.48 \\
+%             \midrule
+%             \multirow{3}{*}{Gemma-2} & Last Token & 0.07 & 0.07 & 0.10 & 0.11 & 0.37 \\ 
+%                                & Op1 Last Token & 0.04 & 0.05 & 0.43 & 0.09 & 0.29 \\
+%                                & Op2 Last Token & 0.06 & 0.05 & 0.10 & 0.31 & 0.32 \\
+%         \bottomrule
+%     \end{tabular}
+%     \label{tab:full_vector_patching_arithmetic}
+% \end{table}
+
+
+
+% \begin{figure*}[t]
+%     \centering
+%     \begin{subfigure}[b]{0.46\linewidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{figures/heatmapsOutputMCQA.png}
+%         \caption{The interchange intervention accuracy when aligning $Y$ the output variable with the residual stream at different layers and tokens. }
+%         \label{fig:heatmapsoutput}
+%     \end{subfigure}
+%     \hfill
+%     \begin{subfigure}[b]{0.46\linewidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{figures/heatmapsPointerMCQA.png}
+%         \caption{The interchange intervention accuracy when aligning $P$ the ``pointer'' variable with the residual stream at different layers and tokens.}
+%         \label{fig:heatmapspointer}
+%     \end{subfigure}
+%     \caption{Faithfulness scores broken down by layer and token position. The alignments considered are to the last input token, the second to last input token, the correct choice token, and the ``.'' token after the correct choice. The model is LLama 3.1 8B instruction tuned and the interventions are on the entire vector (Full Vector). The top left heatmaps are averaged over counterfactuals and the other three heatmaps are for individual counterfactuals.}
+%     \label{fig:heatmaps}
+% \end{figure*}
+
+
+
+\end{document}
+
+
+% This document was modified from the file originally made available by
+% Pat Langley and Andrea Danyluk for ICML-2K. This version was created
+% by Iain Murray in 2018, and modified by Alexandre Bouchard in
+% 2019 and 2021 and by Csaba Szepesvari, Gang Niu and Sivan Sabato in 2022.
+% Modified again in 2023 and 2024 by Sivan Sabato and Jonathan Scarlett.
+% Previous contributors include Dan Roy, Lise Getoor and Tobias
+% Scheffer, which was slightly modified from the 2010 version by
+% Thorsten Joachims & Johannes Fuernkranz, slightly modified from the
+% 2009 version by Kiri Wagstaff and Sam Roweis's 2008 version, which is
+% slightly modified from Prasad Tadepalli's 2007 version which is a
+% lightly changed version of the previous year's version by Andrew
+% Moore, which was in turn edited from those of Kristian Kersting and
+% Codrina Lauth. Alex Smola contributed to the algorithmic style files.

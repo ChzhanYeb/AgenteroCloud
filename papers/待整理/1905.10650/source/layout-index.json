@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-15T11:51:51.567Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "figure-1",
+      "stableKey": "p3:figure:Figure 1: Distribution of heads by model score after masking.",
+      "kind": "chart",
+      "section": "figure",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.17616387909533932,
+        "y": 0.09138952120385989,
+        "w": 0.6337183908699384,
+        "h": 0.22026486830277875
+      },
+      "score": 0.9471142292022705,
+      "title": "Figure 1: Distribution of heads by model score after masking.",
+      "layoutRegionId": "85be249f-cc00-424e-9a86-00ad3b8ee87b"
+    },
+    {
+      "id": "figure-2",
+      "stableKey": "p5:figure:Figure 2: Cross-task analysis of effect of pruning on accuracy",
+      "kind": "chart",
+      "section": "figure",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.17163053525039573,
+        "y": 0.09207998140893801,
+        "w": 0.6367281994788475,
+        "h": 0.3076963617344095
+      },
+      "score": 0.8306295871734619,
+      "title": "Figure 2: Cross-task analysis of effect of pruning on accuracy",
+      "layoutRegionId": "1d1d5aa5-6694-47ef-bb17-b97886bcdb33"
+    },
+    {
+      "id": "figure-3",
+      "stableKey": "p6:figure:Figure 3: Evolution of accuracy by number of heads pruned according to I h (soli",
+      "kind": "chart",
+      "section": "figure",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.17221328635620914,
+        "y": 0.09173175542041509,
+        "w": 0.6544459224526399,
+        "h": 0.22342152065700951
+      },
+      "score": 0.9595636129379272,
+      "title": "Figure 3: Evolution of accuracy by number of heads pruned according to I h (solid blue) and individual oracle performance difference (dashed green).",
+      "layoutRegionId": "92cbb128-119b-4ffa-aea5-a261e80ecf1a"
+    },
+    {
+      "id": "figure-4",
+      "stableKey": "p7:figure:Figure 4: BLEU when incrementally pruning heads from each attention type in the ",
+      "kind": "chart",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.17943954467773438,
+        "y": 0.6367815576418482,
+        "w": 0.6395162195941202,
+        "h": 0.2339523777817235
+      },
+      "score": 0.9553585648536682,
+      "title": "Figure 4: BLEU when incrementally pruning heads from each attention type in the WMT model.",
+      "layoutRegionId": "f81a9f08-677a-48c6-b317-fbae60efcebd"
+    },
+    {
+      "id": "figure-5",
+      "stableKey": "p8:figure:Figure 5: Left side : relationship between percentage of heads pruned and relati",
+      "kind": "chart",
+      "section": "figure",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.17193716959236494,
+        "y": 0.09020873753711431,
+        "w": 0.6557425330666935,
+        "h": 0.24922225451228594
+      },
+      "score": 0.9074512720108032,
+      "title": "Figure 5: Left side : relationship between percentage of heads pruned and relative score decrease during training of the IWSLT model. We report epochs on a logarithmic scale. The BLEU score of the original, un-pruned model is indicated in brackets. Right side : focus on the difference in behaviour at the beginning (epochs 1 and 2) and end (epochs 35 and 40) of training.",
+      "layoutRegionId": "734b70fc-d41f-4189-9954-1ca64b238946"
+    },
+    {
+      "id": "figure-6",
+      "stableKey": "p13:figure:Figure 6: Evolution of score by percentage of heads pruned.",
+      "kind": "chart",
+      "section": "figure",
+      "page": 13,
+      "pageIndex": 12,
+      "bbox": {
+        "x": 0.17194488625121274,
+        "y": 0.2882638025765467,
+        "w": 0.6556488984550526,
+        "h": 0.423580901791351
+      },
+      "score": 0.9608336091041565,
+      "title": "Figure 6: Evolution of score by percentage of heads pruned.",
+      "layoutRegionId": "6e4d4e9e-e0d7-4f1b-aa8f-e2b245503d9d"
+    },
+    {
+      "id": "table-p4-0176_0096_0647_0111",
+      "stableKey": "p4:table:0.176_0.096_0.647_0.111",
+      "kind": "table",
+      "section": "table",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.17584211062761693,
+        "y": 0.09614306748515428,
+        "w": 0.6471363890404794,
+        "h": 0.11107356138903686
+      },
+      "score": 0.7114436030387878,
+      "layoutRegionId": "41c037f4-bc70-4b3d-b516-37ed917c5448"
+    },
+    {
+      "id": "table-p4-0181_0273_0286_0104",
+      "stableKey": "p4:table:0.181_0.273_0.286_0.104",
+      "kind": "table",
+      "section": "table",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.18128817689185048,
+        "y": 0.2728041446570194,
+        "w": 0.2863502751768025,
+        "h": 0.1036479449031329
+      },
+      "score": 0.9205169677734375,
+      "layoutRegionId": "9b087054-e388-40d9-9c85-3eccf4100ad4"
+    },
+    {
+      "id": "table-p4-0524_0274_0278_0102",
+      "stableKey": "p4:table:0.524_0.274_0.278_0.102",
+      "kind": "table",
+      "section": "table",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.5242938870698018,
+        "y": 0.273894666421293,
+        "w": 0.278015884698606,
+        "h": 0.10230827331542969
+      },
+      "score": 0.8910365700721741,
+      "layoutRegionId": "c1bcb17a-e5f1-4284-a17f-434864057293"
+    },
+    {
+      "id": "table-p7-0174_0093_0554_0170",
+      "stableKey": "p7:table:4.3 Effect of Pruning on Efficiency",
+      "kind": "table",
+      "section": "table",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.17401311288472093,
+        "y": 0.09292373271903606,
+        "w": 0.5536583919151157,
+        "h": 0.16989808130745934
+      },
+      "score": 0.8780578374862671,
+      "title": "4.3 Effect of Pruning on Efficiency",
+      "layoutRegionId": "6d75355d-c7b0-41c1-8ac2-555d927b6465"
+    },
+    {
+      "id": "table-p12-0181_0088_0288_0104",
+      "stableKey": "p12:table:0.181_0.088_0.288_0.104",
+      "kind": "table",
+      "section": "table",
+      "page": 12,
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.18134921204810048,
+        "y": 0.08846768465909091,
+        "w": 0.28763221291934743,
+        "h": 0.10417838048453283
+      },
+      "score": 0.9572849273681641,
+      "layoutRegionId": "eb9d6422-a464-4a7d-8341-b2226884bd04"
+    },
+    {
+      "id": "table-p12-0539_0090_0248_0102",
+      "stableKey": "p12:table:0.539_0.090_0.248_0.102",
+      "kind": "table",
+      "section": "table",
+      "page": 12,
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.5386785868725745,
+        "y": 0.08961339430375533,
+        "w": 0.24812875386157068,
+        "h": 0.10238060806736801
+      },
+      "score": 0.9243719577789307,
+      "layoutRegionId": "da4d8034-aa12-44d2-a54e-e1fc9e546ec8"
+    },
+    {
+      "id": "formula-p2-0353_0737_0473_0039",
+      "stableKey": "p2:formula:0.353_0.737_0.473_0.039",
+      "kind": "formula",
+      "section": "formula",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.3527801114749285,
+        "y": 0.7368964763602825,
+        "w": 0.4728885725432751,
+        "h": 0.03910958646523832
+      },
+      "score": 0.9051998853683472,
+      "layoutRegionId": "cc4fe69d-39df-40f4-bd7e-b2e4e5be840f"
+    },
+    {
+      "id": "formula-p6-0427_0418_0398_0034",
+      "stableKey": "p6:formula:0.427_0.418_0.398_0.034",
+      "kind": "formula",
+      "section": "formula",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.4270777484170752,
+        "y": 0.41797953904277146,
+        "w": 0.39837576672921776,
+        "h": 0.03426253193556661
+      },
+      "score": 0.9049030542373657,
+      "layoutRegionId": "c5d077db-7fbf-437c-8f4e-eca20bc433ad"
+    }
+  ]
+}

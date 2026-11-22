@@ -1,0 +1,125 @@
+\section{The Interpretability Landscape}
+\label{sec:interpretability-landscape}
+
+Section~\ref{sec:why_open} established that behavioural evaluation alone is insufficient for fully understanding models, motivating methods that examine their internal mechanisms. AI interpretability, however, spans a broad range of approaches that differ in the evidence they provide, the strength of the claims they support, and the real-world scenarios in which they are useful. This raises a central question: \textit{When is mechanistic analysis necessary, and when do simpler interpretability methods suffice?}
+
+This section answers this question by examining the major families of interpretability methods, including their strengths, limitations, and the conditions under which each may be appropriate, as summarised in Table~\ref{tab:interpretability-methods}. In particular, we introduce approaches developed in the broader natural language processing (NLP) and representation learning communities---including probes, attribution methods, and concept-based approaches---which remain widely used and may complement or substitute for mechanistic analysis in some cases. We conclude by examining the limitations of mechanistic analysis itself.
+
+\subsection{Behavioural Methods}
+
+Behavioural methods evaluate and analyse models through their inputs and outputs. They have been developed to examine a wide range of capabilities, traits, and behaviours under specific conditions. Specifically, before the era of large language models (LLMs), researchers had proposed systematic evaluations of language models' ability to capture syntactic structure and syntax-sensitive dependencies~\citeest{linzen-etal-2016-assessing, marvin-linzen-2018-targeted}. With modern LLMs, behavioural evaluations have expanded to include a much broader set of capabilities, such as professional and academic knowledge across diverse domains~\citeest{mmlu, mmlupro, bigbench, agieval, phan2026hle}, long-context understanding~\citeest{bai-etal-2024-longbench, zhang-etal-2024-bench, modarressi2025nolima}, mathematical reasoning~\citeem{gsm8k, proofnet}, and coding ability (\citeemalp{chen2021evaluatinglargelanguagemodels}; \citeestalp{jimenez2024swebench, liu2024repobench}).
+
+Beyond assessing models as helpful assistants, behavioural evaluations also identify and benchmark potential safety risks and failure modes. Examples include monitoring deceptive intentions~\citeem{korbak2025chainthoughtmonitorabilitynew, early-work-on-monitorability-evaluations}, measuring tendencies towards sycophancy~\citeest{hong-etal-2025-measuring, fanous2025syceval, petrov2026brokenmath}, evaluating capabilities relevant to harmful or destructive actions~\citeest{li2024wmdp, zhang2025cybench, li2026autocontrol}, and testing robustness against jailbreak attacks (\citeemalp{ganguli2022redteaminglanguagemodels}; \citeestalp{perez2022redteaminglanguagemodels, he-etal-2025-red}) or training data poisoning~\citeest{pmlr-v267-fu25e}. Behavioural evaluations have also been used to study broader model characteristics, such as political orientations~\citeest{helwe-etal-2025-navigating} and social attitudes~\citeest{durmus2024towards}.
+
+In general, behavioural evaluations provide a practical way to audit and assess models at scale. They are typically fast, inexpensive, and scalable, requiring only forward passes and comparisons between model outputs and reference answers. Although evaluation results on a finite testing set do not guarantee the mechanism that produced the behaviour of interest~\citeest{wani-etal-2026-answer} (which the internal methods below aim to establish, as discussed in Section~\ref{sec:why_open}), behavioural methods nonetheless remain essential in practice for rapid iteration during development, prioritising which behaviours warrant deeper investigation, and surface-level safety screening when the cost of mechanistic analysis is prohibitive.
+
+
+
+
+
+
+
+
+\subsection{Concept-Based Approaches}
+\label{subsec:cbm}
+
+Concept-based methods occupy a middle ground: they examine internal representations but typically establish correlational rather than causal claims. However, when combined with interventions such as steering along concept directions and ablating concept-associated components, they become mechanistic by the criteria discussed in Section~\ref{sec:scope}. \citetest{geiger2021causalabstractionsneuralnetworks, pmlr-v162-geiger22a} formalise this connection by proposing methods to align model computations with a high-level causal abstraction graph whose nodes are human-interpretable concepts.
+
+Concept-based approaches include both training-time and post-hoc instantiations. Concept Bottleneck Models (CBMs; \citeestalp{koh2020conceptbottleneckmodels}) constrain computation through a predefined bottleneck of interpretable concepts, offering built-in transparency and allowing for interventions, but traditionally requiring a complete set of predefined concepts and often suffering from an ``accuracy--interpretability trade-off'' when concept definitions are insufficiently expressive. Newer variants, such as Concept Embedding Models (CEMs; \citeestalp{zarlenga2022cem}), address these limitations by allowing the bottleneck to encode additional high-dimensional information; this recovers accuracy at the cost of allowing non-interpretable information to leak into the bottleneck. Moreover, recent improvements relax the assumption of concept independence. Causal Concept Graph Models (CGMs; \citeestalp{dominici2025causal}) and Stochastic Concept Bottleneck Models (SCBMs; \citeestalp{vandenhirtz2024stochastic}) learn structural dependencies or graph-based relationships between concepts to capture complex hierarchies.
+
+Parallel to these architectural changes, recent work also relaxes the assumption that concepts must be \textit{predefined}. These methods instead discover latent representations directly from model activations~\citeest{zhao-etal-2024-explaining, dalvi2022discovering} or leverage foundation models' zero-shot capabilities to extract them automatically~\citeest{yang2023language, oikarinen2023labelfree}. \citetest{yu-etal-2024-latent} extended the work on latent concept discovery towards generating concept-based explanations of the most attributed representations, and \citetem{yu2026vectorquantizedlatentconcepts} proposed the Vector Quantized Latent Concepts (VQLC) framework for efficient and scalable automatic concept discovery.
+
+Post-hoc methods, such as Concept Activation Vectors (CAVs; \citeestalp{kim2018tcav}) and linear concept classifiers~\citeest{belinkov-2022-probing}, probe existing activations to identify concepts encoded in model representations. In general, these methods do not provide causal evidence about the role of those concepts in model computation, although some probing variants aim to support stronger causal claims, such as amnesic probing~\citeest{elazar-etal-2021-amnesic}. Nevertheless, they remain valuable tools for auditing, localisation, and early detection tasks. Furthermore, representation engineering (\citeestalp{panickssery2024steeringllama2contrastive, marks2024the}; \citeemalp{turner2024steeringlanguagemodelsactivation}) extends the probing paradigm from observation to intervention, enabling targeted steering of model behaviour. We discuss these methods in detail in Section~\ref{subsec:steering}.
+
+CBMs are sometimes grouped with the \emph{interpretability-by-design} methods discussed in Section~\ref{sec:architectural-interventions}, but they operate differently. CBMs impose \emph{semantic constraints} (predefined human concepts), while interpretable-by-design models impose \emph{structural constraints} (sparsity, modularity) that make the model intrinsically easier to interpret. Table~\ref{tab:semantic-vs-structural} summarises the distinction.
+
+\begin{table}[tb]
+\centering
+\caption{Concept Bottleneck Models (CBMs) vs. Interpretable-by-Design Models}
+\label{tab:semantic-vs-structural}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.5cm} 
+                >{\raggedright\arraybackslash}p{5.2cm} 
+                >{\raggedright\arraybackslash}p{5.2cm}}
+\toprule
+\rowcolor{tableheader!80} \textcolor{white}{\textbf{Dimension}} & 
+\textcolor{white}{\textbf{Concept Bottleneck Models}} & 
+\textcolor{white}{\textbf{Interpretable-by-Design Models}} \\
+\midrule
+\rowcolor{tablerow1} \textbf{Constraint type} & Semantic: predefined human concepts & Structural: sparsity, modularity, compositionality \\
+\rowcolor{tablerow2} \textbf{Feature discovery} & Not possible---concepts fixed a priori & Enabled---model discovers features from data \\
+\rowcolor{tablerow1} \textbf{Interpretability guarantee} & Explanations in terms of specified concepts & Circuits and features are structurally accessible \\
+\rowcolor{tablerow2} \textbf{Accuracy trade-off} & Degrades when bottleneck omits relevant features & Degrades with sparsity, but recoverable via scaling \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+CBMs can be more appropriate when the set of concepts of interest is known. Interpretability-by-design models may be preferable when the goal is to discover what the model has learned---including features that were not preset in advance. For safety applications, where unknown failure modes are a core concern, discovery-oriented methods may be more useful than those that require specifying concepts upfront. 
+
+\subsection{Input Attribution and Saliency Methods}
+
+Input attribution methods aim to identify which input features most influence a model's outputs. Techniques such as SHAP~\citeest{lundberg2017unifiedapproachinterpretingmodel}, LIME~\citeest{ribeiro2016whyitrustyou}, DeepLIFT~\citeest{deeplift}, and saliency-based methods~(\citeemalp{simonyan2014deepinsideconvolutionalnetworks}; \citeestalp{ig, cam, gradcam}) are scalable and widely used for explanation and debugging at the pixel and token levels. However, these methods indicate \textit{which} input features matter for a prediction, but not necessarily \textit{how} the model processes and leverages them. For example, saliency maps for image classifiers leverage gradients propagated from the output back to the input to estimate the sensitivity of the prediction to each pixel~\citeem{simonyan2014deepinsideconvolutionalnetworks}. While such methods can highlight influential regions of an input image, they do not reveal how the model represents pixels in its activations and uses them across layers.
+
+The same machinery can also be applied to internal representations, attributing salience to features at different layers and tracing how information evolves throughout the network~(\citeestalp{yu-etal-2024-latent}; \citeemalp{syed2023attributionpatchingoutperformsautomated}). Used in this way, attribution methods begin to overlap with the mechanistic approaches discussed later in this survey. Nevertheless, concerns about their reliability remain. Different attribution methods can produce substantially different explanations for the same prediction, and some have been shown to be insensitive to model parameters~\citeest{adebayo2020sanitycheckssaliencymaps} or sensitive to input transformations that have no effect on the model~\citeest{kindermans2017unreliabilitysaliencymethods}. For safety-relevant applications, attribution methods help with triage, debugging, and initial auditing, but they are insufficient on their own when an explanation of internal computation is required.
+
+
+\subsection{Representation Probing and Related Post-hoc Analyses}
+Probing classifiers~\citeest{belinkov-2022-probing} assess whether a model's activations encode particular information by training ``lightweight'' classifiers---often logistic regression models---on intermediate representations to predict a target property, such as part-of-speech tags, syntactic structure, and gender~\citeest{belinkov2017neural, hewitt2019structural, ravfogel-etal-2020-null}. 
+Originally developed in the NLP community to analyse linguistic structure~\citeest{gupta-etal-2015-distributional, kohn-2015-whats, adi2017finegrained} and used by \citetest{alain2017understanding} to trace how representations evolve across layers of deep learning models, 
+probes have become one of the most widely used tools in mechanistic interpretability for tasks including, but not limited to, layer-level localisation~\citeest{tenney2019bertrediscoversclassicalnlp} and detection of latent behaviours~\citeem{macdiarmid2024sleeperagentprobes}. We discuss the probing methodology, its limitations, and its relationship to causal interpretability in more detail in Section~\ref{subsec:probing}.
+
+
+
+
+
+\subsection{Mechanistic Interpretability Methods}
+Mechanistic interpretability (MI) methods aim to causally understand model internals, such as the semantic meaning of parameters or activations, and how they relate to model behaviour. They are largely human-centric in the sense that the desired mechanistic understanding is one that humans can interpret and reason about---whether through natural-language descriptions~(\citeestalp{cunningham2023sparse}; \citeemalp{ameisen2025circuit}), plots of attention patterns~(\citeemalp{clark2019what}; \citeestalp{vig2019multiscale}), or token distributions~\citeem{nostalgebraist2020interpretinggpt, belrose2025elicitinglatentpredictionstransformers, jlens}. Recent work, however, has questioned whether ``machine languages'' and human languages fully overlap, suggesting that some meaningful internal computations may not admit faithful descriptions in natural language~\citeest{hewitt2025position}.
+
+Mainstream MI approaches include, but are not limited to, feature decomposition and extraction~\citeest{cunningham2023sparse, dunefsky2024transcodersinterpretablellmfeature}, circuit discovery~(\citeemalp{syed2023attributionpatchingoutperformsautomated, ameisen2025circuit}; \citeestalp{conmy2023automatedcircuitdiscoverymechanistic}), and methods for decoding internal representations into natural language~(\citeestalp{patchscopes, pan2024latentqateachingllmsdecode}; \citeemalp{nla}), all of which are discussed in later sections. Different methods rest on different assumptions and produce different types of explanation, making them suitable for different use cases but with distinct limitations. For example, sparse autoencoders decompose model representations (e.g., residual-stream activations at the last token position of a particular layer) into thousands of monosemantic features, though many extracted features may be non-causal or illusory~\citeest{wu2025axbench, leask2025sparse, heap2026automated}. Circuit discovery methods identify fine-grained computational graphs responsible for particular model behaviours, but these graphs may capture only a subset of the model's underlying computation and can be difficult to validate for sufficiency or identifiability~\citeest{miller2024transformer, meloux2025everything}. Despite these limitations, MI methods remain promising complementary tools that collectively enable systematic analysis of model internals.
+
+\subsection{When Mechanistic Understanding Becomes Necessary}
+\label{subsec: mech interp necessary}
+The methods we have discussed so far form a correlational-to-causal spectrum: behavioural evaluation establishes \textit{what} a model does, attribution and probing identify \textit{where} relevant information resides, and mechanistic analysis reveals \textit{how} computations produce behaviour. These approaches complement each other: behavioural evaluations help validate mechanistic findings, and behavioural anomalies can motivate mechanistic investigation.
+
+Mechanistic analysis becomes necessary when we need to verify \textit{how} a model produces a behaviour---not just \textit{that} it does under test conditions. For example, a probe can detect deceptive reasoning, but we still need targeted interventions to validate whether the detection is a false alarm; if not, we will further need more rigorous mechanistic analysis to understand why the model deceives. Likewise, unexpected generalisation or failure modes may require mechanistic analysis to examine whether they stem from identifiable structures. Concretely, mechanistic methods are most needed for: identifying intents hidden from outputs, such as deception or side quests; understanding the internal mechanism of a model behaviour; verifying the \textit{absence} of a capability (behavioural tests can only confirm presence); or providing safety guarantees that must hold beyond the evaluated input distribution. However, the high granularity of mechanistic analysis comes at high practical cost, including not only compute but also researcher time, experimental complexity, and slower iteration. These costs position mechanistic methods as a complement to lighter-weight approaches, such as behavioural evaluations, rather than a full replacement.
+
+
+\begin{table}[tb]
+\centering
+\caption{Trade-offs and characteristics of interpretability methods.}
+\label{tab:interpretability-methods}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{>{\raggedright\arraybackslash}p{3cm} 
+                >{\raggedright\arraybackslash}p{4cm} 
+                >{\raggedright\arraybackslash}p{4cm} 
+                >{\raggedright\arraybackslash}p{4cm}}
+\toprule
+\rowcolor{tableheader!80} \textcolor{white}{\textbf{Method}} & 
+\textcolor{white}{\textbf{Core Idea}} & 
+\textcolor{white}{\textbf{Strengths}} & 
+\textcolor{white}{\textbf{Intended Use and Limitations}} \\
+\midrule
+\rowcolor{tablerow1} \textbf{Behavioural (e.g., red-teaming, benchmarks)} & Examine model outputs in response to inputs & Fast, scalable, practical for broad safety coverage & Not designed to reveal internal computation; suitable for monitoring, triage, and regression detection \\
+\rowcolor{tablerow2} \textbf{Input attribution (e.g., SHAP, saliency)} & Identify which inputs most influence outputs & Token-level explanations; scalable & Focuses on input--output influence, not internal mechanisms; useful for auditing and debugging \\
+\rowcolor{tablerow1} \textbf{Concept-based (e.g., CBMs, probes)} & Correlationally analyse or constrain interpretable representations & Reveals encoded information; transparent abstractions; enables targeted intervention & Not mechanistic without causal intervention; supports localisation, auditing, and early detection tasks \\
+\rowcolor{tablerow2} \textbf{Mechanistic (e.g., circuits, SAEs)} & Analyse internal computations and causal structure & Reveals algorithms; enables targeted intervention & Computationally intensive; complements other methods when causal understanding is required \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Limitations of Mechanistic Analysis}
+\label{subsec:limits}
+
+Mechanistic interpretability aims to provide causal explanations of model behaviour, but it faces important practical and conceptual limitations. First, mechanistic explanations are often incomplete. An analysis may identify an internal computation (e.g., ``This MLP retrieves factual knowledge about Paris'', as identified through causal tracing~\citeest{meng2023locatingeditingfactualassociations}) that captures a non-trivial causal pathway without identifying all others contributing to the behaviour. This concern makes it hard to tell whether the identified computation is sufficient or just one of several mechanisms jointly implementing the behaviour.
+
+Second, mechanistic analyses can scale poorly. Analysing large models and complex behaviours takes much more time and resources because the relevant computations may be distributed across model components and complex behaviours involve interactions across long generation trajectories that are hard to isolate. For example, most current circuit-discovery methods~(\citeemalp{ameisen2025circuit}; \citeestalp{conmy2023automatedcircuitdiscoverymechanistic, eapig, marks2025sparse, querycircuit}) identify the computational graph responsible for generating a specific token. It remains challenging to identify and summarise the computations underlying behaviours that unfold across multiple generated tokens.
+
+Third, even when we identify and causally validate an internal mechanism, this does not automatically mean we can reliably control the corresponding behaviour~\citeest{localinform}. The effectiveness, specificity, and generalisability of localisation and intervention techniques, such as identifying a model component and then patching its activations or changing its weight matrices, depend on several factors, such as the hydra effect~\citeem{mcgrath2023hydraeffectemergentselfrepair}, beyond how accurately the identified localisation captures the underlying computation for the behaviour. Furthermore, an intervention that successfully steers one model's behaviour on a task may not transfer to another model or setting.
+
+These are open challenges but not fundamental barriers. Active research in areas such as establishing more effective representational units, discovering more robust model properties, developing more efficient circuit-discovery methods, and designing more reliable intervention approaches across distributions is working to address them. Nevertheless, these studies highlight a clear gap between mechanistic explanation and reliable control or safety guarantees.
+
+\begin{warningbox}[Limitations of Mechanistic Analysis]
+Mechanistic explanations may be incomplete or non-causal, difficult to scale to large models or complex behaviours, and sensitive to modelling assumptions. They often fail to capture the full picture of a model's underlying mechanism and do not automatically provide reliable, generalisable control. Intervening on an identified mechanism may work in one setting but fail to transfer to another. However, these limitations do not imply that mechanistic understanding cannot enable reliable control. Instead, they indicate that moving from explanation to robust, generalisable intervention requires additional studies and remains an open challenge in the field~\citeest{sharkey2025open}.
+\end{warningbox}
+
+\paragraph{Summary.} This section discussed different interpretability methods based on the evidence they provide. Behavioural methods measure and analyse model responses to inputs; concept-based methods explain predictions through human-interpretable concepts; input attribution methods identify which parts of the input influence an output; probing tests what information is decodable from representations; mechanistic methods identify and describe internal mechanisms that produce a behaviour. Among them, mechanistic analysis offers the strongest claims, but it is costly, often incomplete, and does not guarantee reliable control. In the next section, we introduce the core concepts on which mechanistic analysis is built.

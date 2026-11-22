@@ -1,0 +1,42 @@
+\begin{table*}[htp]
+% \resizebox{\textwidth}{!}{
+\begin{tabular}{lllll@{\hspace*{2.75em}}llll}
+\toprule
+& \multicolumn{4}{c@{\hspace*{2.75em}}}{CNN/DailyMail} & \multicolumn{4}{c}{XSUM} \\
+& \multicolumn{2}{c}{Stereotypes} 
+& \multicolumn{2}{c@{\hspace*{2.75em}}}{Representation}
+& \multicolumn{2}{c}{Stereotypes}
+& \multicolumn{2}{c}{Representation} \\
+Adapter & Race & Gender & Race & Gender & Race & Gender & Race & Gender \\
+\midrule
+Jurassic Jumbo (178B) & 0.608 & 0.383 & 0.289 & 0.12 & 0.667 & 0.453 & 0.532 & 0.205 \\
+Jurassic Grande (17B) & 0.639 & 0.4 & 0.386 & 0.145 & 0.667 & 0.432 & 0.545 & 0.158 \\
+Jurassic Large (7.5B) & 0.608 & 0.381 & 0.29 & 0.164 & 0.667 & 0.449 & 0.455 & 0.14 \\
+Anthropic-LM (52B) & 0.658 & 0.418 & 0.278 & 0.09 & 0.667 & 0.476 & 0.467 & 0.238 \\
+BLOOM (176B) & 0.647 & 0.399 & 0.403 & 0.1 & 0.667 & 0.5 & 0.333 & 0.222 \\
+T0++ (11B) & 0.635 & 0.398 & 0.293 & 0.099 & 0.667 & 0.44 & 0.441 & 0.229 \\
+Cohere xlarge & 0.603 & 0.387 & 0.34 & 0.118 & 0.667 & 0.468 & 0.667 & 0.18 \\
+Cohere large & 0.613 & 0.398 & 0.306 & 0.128 & 0.667 & 0.438 & 0.667 & 0.142 \\
+Cohere medium & 0.667 & 0.38 & 0.356 & 0.119 & 0.667 & 0.468 & 0.605 & 0.168 \\
+Cohere small & 0.608 & 0.351 & 0.164 & 0.16 & 0.667 & 0.386 & 0.667 & 0.181 \\
+GPT-J (6B) & 0.657 & 0.396 & 0.428 & 0.158 & 0.667 & 0.467 & 0.509 & 0.163 \\
+GPT-NeoX (20B) & 0.62 & 0.399 & 0.339 & 0.139 & 0.667 & 0.443 & 0.467 & 0.154 \\
+T5 (11B) & 0.667 & 0.368 & 0.398 & 0.09 & 0.667 & 0.5 & 0.333 & 0.228 \\
+UL2 (20B) & 0.667 & 0.421 & 0.429 & 0.165 & 0.667 & 0.399 & 0.504 & 0.247 \\
+OPT (66B) & 0.609 & 0.38 & 0.338 & 0.158 & 0.583 & 0.462 & 0.447 & 0.193 \\
+OPT (175B) & 0.609 & 0.402 & 0.344 & 0.129 & 0.667 & 0.431 & 0.362 & 0.191 \\
+GPT-3 (175B) & 0.652 & 0.406 & 0.27 & 0.15 & 0.667 & 0.493 & 0.515 & 0.205 \\
+GPT-3 (6.7B) & 0.618 & 0.381 & 0.265 & 0.15 & 0.667 & 0.435 & 0.667 & 0.179 \\
+GPT-3 (1.3B) & 0.646 & 0.377 & 0.407 & 0.123 & 0.667 & 0.429 & 0.515 & 0.158 \\
+GPT-3 (350M) & 0.639 & 0.385 & 0.238 & 0.146 &  & 0.5 & 0.667 & 0.079 \\
+Davinci Instruct v2 & 0.62 & 0.392 & 0.294 & 0.119 & 0.667 & 0.456 & 0.545 & 0.217 \\
+Curie Instruct & 0.64 & 0.379 & 0.327 & 0.144 & 0.667 & 0.454 & 0.561 & 0.197 \\
+Babbage Instruct & 0.595 & 0.377 & 0.301 & 0.13 & 0.667 & 0.41 & 0.48 & 0.165 \\
+Ada Instruct & 0.644 & 0.363 & 0.315 & 0.129 & 0.667 & 0.5 & 0.619 & 0.154 \\
+GLM (130B) & 0.61 & 0.385 & 0.318 & 0.131 & 0.667 & 0.447 & 0.579 & 0.203 \\
+YaLM (100B) & 0.667 & 0.377 & 0.667 & 0.19 & 0.667 & 0.443 & 0.667 & 0.159 \\
+\bottomrule
+\end{tabular}%}
+\caption{\textbf{Bias in model generations for all models across all generic scenarios, referring to both gender and racial demographic representation and stereotypical associations.}}
+\label{tab:bias-generic}
+\end{table*}

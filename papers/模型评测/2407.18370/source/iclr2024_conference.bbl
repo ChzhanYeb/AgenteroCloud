@@ -1,0 +1,237 @@
+\begin{thebibliography}{42}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Achiam et~al.(2023)Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat, et~al.]{gpt-4}
+Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia~Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et~al.
+\newblock Gpt-4 technical report.
+\newblock \emph{arXiv preprint arXiv:2303.08774}, 2023.
+
+\bibitem[Angelopoulos et~al.(2022)Angelopoulos, Bates, Candès, Jordan, and Lei]{ltt}
+Anastasios~N. Angelopoulos, Stephen Bates, Emmanuel~J. Candès, Michael~I. Jordan, and Lihua Lei.
+\newblock Learn then test: Calibrating predictive algorithms to achieve risk control, 2022.
+\newblock URL \url{https://arxiv.org/abs/2110.01052}.
+
+\bibitem[Angelopoulos et~al.(2024)Angelopoulos, Bates, Fisch, Lei, and Schuster]{conformal-risk-control}
+Anastasios~Nikolas Angelopoulos, Stephen Bates, Adam Fisch, Lihua Lei, and Tal Schuster.
+\newblock Conformal risk control.
+\newblock In \emph{The Twelfth International Conference on Learning Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=33XGfHLtZg}.
+
+\bibitem[Bates et~al.(2021)Bates, Angelopoulos, Lei, Malik, and Jordan]{rcps}
+Stephen Bates, Anastasios Angelopoulos, Lihua Lei, Jitendra Malik, and Michael Jordan.
+\newblock Distribution-free, risk-controlling prediction sets.
+\newblock \emph{J. ACM}, 68\penalty0 (6), sep 2021.
+\newblock ISSN 0004-5411.
+\newblock \doi{10.1145/3478535}.
+\newblock URL \url{https://doi.org/10.1145/3478535}.
+
+\bibitem[Bauer(1991)]{fixed-sequence-testing}
+Peter Bauer.
+\newblock Multiple testing in clinical trials.
+\newblock \emph{Statistics in medicine}, 10\penalty0 (6):\penalty0 871--890, 1991.
+
+\bibitem[Chan et~al.(2023)Chan, Chen, Su, Yu, Xue, Zhang, Fu, and Liu]{chateval}
+Chi-Min Chan, Weize Chen, Yusheng Su, Jianxuan Yu, Wei Xue, Shanghang Zhang, Jie Fu, and Zhiyuan Liu.
+\newblock Chateval: Towards better llm-based evaluators through multi-agent debate, 2023.
+\newblock URL \url{https://arxiv.org/abs/2308.07201}.
+
+\bibitem[Chiang \& Lee(2023)Chiang and Lee]{can-llms-be-an-alternative}
+Cheng-Han Chiang and Hung-yi Lee.
+\newblock Can large language models be an alternative to human evaluations?
+\newblock In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki (eds.), \emph{Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pp.\  15607--15631, Toronto, Canada, July 2023. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.acl-long.870}.
+\newblock URL \url{https://aclanthology.org/2023.acl-long.870}.
+
+\bibitem[Dubois et~al.(2023)Dubois, Li, Taori, Zhang, Gulrajani, Ba, Guestrin, Liang, and Hashimoto]{alpacafarm}
+Yann Dubois, Xuechen Li, Rohan Taori, Tianyi Zhang, Ishaan Gulrajani, Jimmy Ba, Carlos Guestrin, Percy Liang, and Tatsunori Hashimoto.
+\newblock Alpacafarm: A simulation framework for methods that learn from human feedback.
+\newblock In \emph{Thirty-seventh Conference on Neural Information Processing Systems}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=4hturzLcKX}.
+
+\bibitem[Dubois et~al.(2024)Dubois, Galambosi, Liang, and Hashimoto]{lc-alpacaeval}
+Yann Dubois, Balázs Galambosi, Percy Liang, and Tatsunori~B. Hashimoto.
+\newblock Length-controlled alpacaeval: A simple way to debias automatic evaluators, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.04475}.
+
+\bibitem[Geifman \& El-Yaniv(2017)Geifman and El-Yaniv]{selective-classification}
+Yonatan Geifman and Ran El-Yaniv.
+\newblock Selective classification for deep neural networks, 2017.
+\newblock URL \url{https://arxiv.org/abs/1705.08500}.
+
+\bibitem[Gui et~al.(2024)Gui, Jin, and Ren]{conformal-alignment}
+Yu~Gui, Ying Jin, and Zhimei Ren.
+\newblock Conformal alignment: Knowing when to trust foundation models with guarantees, 2024.
+\newblock URL \url{https://arxiv.org/abs/2405.10301}.
+
+\bibitem[Gupta et~al.(2024)Gupta, Narasimhan, Jitkrittum, Rawat, Menon, and Kumar]{token-level-uncertainty}
+Neha Gupta, Harikrishna Narasimhan, Wittawat Jitkrittum, Ankit~Singh Rawat, Aditya~Krishna Menon, and Sanjiv Kumar.
+\newblock Language model cascades: Token-level uncertainty and beyond.
+\newblock In \emph{The Twelfth International Conference on Learning Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=KgaBScZ4VI}.
+
+\bibitem[Jiang et~al.(2023)Jiang, Sablayrolles, Mensch, Bamford, Chaplot, de~las Casas, Bressand, Lengyel, Lample, Saulnier, Lavaud, Lachaux, Stock, Scao, Lavril, Wang, Lacroix, and Sayed]{mistral}
+Albert~Q. Jiang, Alexandre Sablayrolles, Arthur Mensch, Chris Bamford, Devendra~Singh Chaplot, Diego de~las Casas, Florian Bressand, Gianna Lengyel, Guillaume Lample, Lucile Saulnier, Lélio~Renard Lavaud, Marie-Anne Lachaux, Pierre Stock, Teven~Le Scao, Thibaut Lavril, Thomas Wang, Timothée Lacroix, and William~El Sayed.
+\newblock Mistral 7b, 2023.
+\newblock URL \url{https://arxiv.org/abs/2310.06825}.
+
+\bibitem[Jiang et~al.(2024)Jiang, Sablayrolles, Roux, Mensch, Savary, Bamford, Chaplot, de~las Casas, Hanna, Bressand, Lengyel, Bour, Lample, Lavaud, Saulnier, Lachaux, Stock, Subramanian, Yang, Antoniak, Scao, Gervet, Lavril, Wang, Lacroix, and Sayed]{mixtral}
+Albert~Q. Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche Savary, Chris Bamford, Devendra~Singh Chaplot, Diego de~las Casas, Emma~Bou Hanna, Florian Bressand, Gianna Lengyel, Guillaume Bour, Guillaume Lample, Lélio~Renard Lavaud, Lucile Saulnier, Marie-Anne Lachaux, Pierre Stock, Sandeep Subramanian, Sophia Yang, Szymon Antoniak, Teven~Le Scao, Théophile Gervet, Thibaut Lavril, Thomas Wang, Timothée Lacroix, and William~El Sayed.
+\newblock Mixtral of experts, 2024.
+\newblock URL \url{https://arxiv.org/abs/2401.04088}.
+
+\bibitem[Kadavath et~al.(2022)Kadavath, Conerly, Askell, Henighan, Drain, Perez, Schiefer, Hatfield-Dodds, DasSarma, Tran-Johnson, Johnston, El-Showk, Jones, Elhage, Hume, Chen, Bai, Bowman, Fort, Ganguli, Hernandez, Jacobson, Kernion, Kravec, Lovitt, Ndousse, Olsson, Ringer, Amodei, Brown, Clark, Joseph, Mann, McCandlish, Olah, and Kaplan]{language-models-mostly-know-what-they-know}
+Saurav Kadavath, Tom Conerly, Amanda Askell, Tom Henighan, Dawn Drain, Ethan Perez, Nicholas Schiefer, Zac Hatfield-Dodds, Nova DasSarma, Eli Tran-Johnson, Scott Johnston, Sheer El-Showk, Andy Jones, Nelson Elhage, Tristan Hume, Anna Chen, Yuntao Bai, Sam Bowman, Stanislav Fort, Deep Ganguli, Danny Hernandez, Josh Jacobson, Jackson Kernion, Shauna Kravec, Liane Lovitt, Kamal Ndousse, Catherine Olsson, Sam Ringer, Dario Amodei, Tom Brown, Jack Clark, Nicholas Joseph, Ben Mann, Sam McCandlish, Chris Olah, and Jared Kaplan.
+\newblock Language models (mostly) know what they know, 2022.
+\newblock URL \url{https://arxiv.org/abs/2207.05221}.
+
+\bibitem[Kang et~al.(2024)Kang, Wallace, Tomlin, Kumar, and Levine]{unfamiliar-fine-tuning-examples}
+Katie Kang, Eric Wallace, Claire Tomlin, Aviral Kumar, and Sergey Levine.
+\newblock Unfamiliar finetuning examples control how language models hallucinate, 2024.
+\newblock URL \url{https://arxiv.org/abs/2403.05612}.
+
+\bibitem[Kapoor et~al.(2024)Kapoor, Gruver, Roberts, Pal, Dooley, Goldblum, and Wilson]{calibration-tuning}
+Sanyam Kapoor, Nate Gruver, Manley Roberts, Arka Pal, Samuel Dooley, Micah Goldblum, and Andrew Wilson.
+\newblock Calibration-tuning: Teaching large language models to know what they don{'}t know.
+\newblock In Ra{\'u}l V{\'a}zquez, Hande Celikkanat, Dennis Ulmer, J{\"o}rg Tiedemann, Swabha Swayamdipta, Wilker Aziz, Barbara Plank, Joris Baan, and Marie-Catherine de~Marneffe (eds.), \emph{Proceedings of the 1st Workshop on Uncertainty-Aware NLP (UncertaiNLP 2024)}, pp.\  1--14, St Julians, Malta, March 2024. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/2024.uncertainlp-1.1}.
+
+\bibitem[Kim et~al.(2024)Kim, Suk, Longpre, Lin, Shin, Welleck, Neubig, Lee, Lee, and Seo]{prometheus-2}
+Seungone Kim, Juyoung Suk, Shayne Longpre, Bill~Yuchen Lin, Jamin Shin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, and Minjoon Seo.
+\newblock Prometheus 2: An open source language model specialized in evaluating other language models, 2024.
+\newblock URL \url{https://arxiv.org/abs/2405.01535}.
+
+\bibitem[Koo et~al.(2023)Koo, Lee, Raheja, Park, Kim, and Kang]{cobbler}
+Ryan Koo, Minhwa Lee, Vipul Raheja, Jong~Inn Park, Zae~Myung Kim, and Dongyeop Kang.
+\newblock Benchmarking cognitive biases in large language models as evaluators, 2023.
+\newblock URL \url{https://arxiv.org/abs/2309.17012}.
+
+\bibitem[Kuhn et~al.(2023)Kuhn, Gal, and Farquhar]{semantic-entropy}
+Lorenz Kuhn, Yarin Gal, and Sebastian Farquhar.
+\newblock Semantic uncertainty: Linguistic invariances for uncertainty estimation in natural language generation.
+\newblock In \emph{The Eleventh International Conference on Learning Representations}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=VD-AYtP0dve}.
+
+\bibitem[Li et~al.(2023)Li, Sun, Yuan, Fan, Zhao, and Liu]{auto-j}
+Junlong Li, Shichao Sun, Weizhe Yuan, Run-Ze Fan, Hai Zhao, and Pengfei Liu.
+\newblock Generative judge for evaluating alignment, 2023.
+\newblock URL \url{https://arxiv.org/abs/2310.05470}.
+
+\bibitem[Li et~al.(2024{\natexlab{a}})Li, Zhou, Sun, Zhang, Zhao, and Liu]{preference-dissection}
+Junlong Li, Fan Zhou, Shichao Sun, Yikai Zhang, Hai Zhao, and Pengfei Liu.
+\newblock Dissecting human and llm preferences, 2024{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2402.11296}.
+
+\bibitem[Li et~al.(2024{\natexlab{b}})Li, Chiang, Frick, Dunlap, Wu, Zhu, Gonzalez, and Stoica]{arena-hard}
+Tianle Li, Wei-Lin Chiang, Evan Frick, Lisa Dunlap, Tianhao Wu, Banghua Zhu, Joseph~E. Gonzalez, and Ion Stoica.
+\newblock From crowdsourced data to high-quality benchmarks: Arena-hard and benchbuilder pipeline, 2024{\natexlab{b}}.
+
+\bibitem[Lin et~al.(2024)Lin, Trivedi, and Sun]{semantic-eigenvalue}
+Zhen Lin, Shubhendu Trivedi, and Jimeng Sun.
+\newblock Generating with confidence: Uncertainty quantification for black-box large language models, 2024.
+\newblock URL \url{https://openreview.net/forum?id=XJiN1VkgA0}.
+
+\bibitem[Liu et~al.(2023)Liu, Iter, Xu, Wang, Xu, and Zhu]{gpteval}
+Yang Liu, Dan Iter, Yichong Xu, Shuohang Wang, Ruochen Xu, and Chenguang Zhu.
+\newblock {G}-eval: {NLG} evaluation using gpt-4 with better human alignment.
+\newblock In Houda Bouamor, Juan Pino, and Kalika Bali (eds.), \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, pp.\  2511--2522, Singapore, December 2023. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.emnlp-main.153}.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.153}.
+
+\bibitem[Mohri \& Hashimoto(2023)Mohri and Hashimoto]{conformal-factuality-guarantee}
+Christopher Mohri and Tatsunori Hashimoto.
+\newblock Language models with conformal factuality guarantees.
+\newblock In \emph{Forty-first International Conference on Machine Learning}, 2023.
+
+\bibitem[Naeini et~al.(2015)Naeini, Cooper, and Hauskrecht]{ece}
+Mahdi~Pakdaman Naeini, Gregory Cooper, and Milos Hauskrecht.
+\newblock Obtaining well calibrated probabilities using bayesian binning.
+\newblock In \emph{Proceedings of the AAAI conference on artificial intelligence}, volume~29, 2015.
+
+\bibitem[Panickssery et~al.(2024)Panickssery, Bowman, and Feng]{self-preference}
+Arjun Panickssery, Samuel~R. Bowman, and Shi Feng.
+\newblock Llm evaluators recognize and favor their own generations, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.13076}.
+
+\bibitem[Sottana et~al.(2023)Sottana, Liang, Zou, and Yuan]{evaluation-metrics-in-the-era}
+Andrea Sottana, Bin Liang, Kai Zou, and Zheng Yuan.
+\newblock Evaluation metrics in the era of {GPT}-4: Reliably evaluating large language models on sequence to sequence tasks.
+\newblock In \emph{The 2023 Conference on Empirical Methods in Natural Language Processing}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=SyEwsV52Dk}.
+
+\bibitem[Stiennon et~al.(2020)Stiennon, Ouyang, Wu, Ziegler, Lowe, Voss, Radford, Amodei, and Christiano]{summarize-from-human-feedback}
+Nisan Stiennon, Long Ouyang, Jeffrey Wu, Daniel Ziegler, Ryan Lowe, Chelsea Voss, Alec Radford, Dario Amodei, and Paul~F Christiano.
+\newblock Learning to summarize with human feedback.
+\newblock \emph{Advances in Neural Information Processing Systems}, 33:\penalty0 3008--3021, 2020.
+
+\bibitem[Thakur et~al.(2024)Thakur, Choudhary, Ramayapally, Vaidyanathan, and Hupkes]{judging-judges}
+Aman~Singh Thakur, Kartik Choudhary, Venkat~Srinik Ramayapally, Sankaran Vaidyanathan, and Dieuwke Hupkes.
+\newblock Judging the judges: Evaluating alignment and vulnerabilities in llms-as-judges, 2024.
+\newblock URL \url{https://arxiv.org/abs/2406.12624}.
+
+\bibitem[Tian et~al.(2023{\natexlab{a}})Tian, Mitchell, Yao, Manning, and Finn]{fine-tuning-LMs-for-factuality}
+Katherine Tian, Eric Mitchell, Huaxiu Yao, Christopher~D. Manning, and Chelsea Finn.
+\newblock Fine-tuning language models for factuality, 2023{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2311.08401}.
+
+\bibitem[Tian et~al.(2023{\natexlab{b}})Tian, Mitchell, Zhou, Sharma, Rafailov, Yao, Finn, and Manning]{verbalized-confidence}
+Katherine Tian, Eric Mitchell, Allan Zhou, Archit Sharma, Rafael Rafailov, Huaxiu Yao, Chelsea Finn, and Christopher Manning.
+\newblock Just ask for calibration: Strategies for eliciting calibrated confidence scores from language models fine-tuned with human feedback.
+\newblock In Houda Bouamor, Juan Pino, and Kalika Bali (eds.), \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, pp.\  5433--5442, Singapore, December 2023{\natexlab{b}}. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.emnlp-main.330}.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.330}.
+
+\bibitem[Verga et~al.(2024)Verga, Hofstatter, Althammer, Su, Piktus, Arkhangorodsky, Xu, White, and Lewis]{replacing-judges-with-juries}
+Pat Verga, Sebastian Hofstatter, Sophia Althammer, Yixuan Su, Aleksandra Piktus, Arkady Arkhangorodsky, Minjie Xu, Naomi White, and Patrick Lewis.
+\newblock Replacing judges with juries: Evaluating llm generations with a panel of diverse models, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.18796}.
+
+\bibitem[Wang et~al.(2023)Wang, Li, Chen, Cai, Zhu, Lin, Cao, Liu, Liu, and Sui]{LLMs-are-not-fair-evaluators}
+Peiyi Wang, Lei Li, Liang Chen, Zefan Cai, Dawei Zhu, Binghuai Lin, Yunbo Cao, Qi~Liu, Tianyu Liu, and Zhifang Sui.
+\newblock Large language models are not fair evaluators, 2023.
+\newblock URL \url{https://arxiv.org/abs/2305.17926}.
+
+\bibitem[Xiong et~al.(2024)Xiong, Hu, Lu, LI, Fu, He, and Hooi]{confidence-elicitation}
+Miao Xiong, Zhiyuan Hu, Xinyang Lu, YIFEI LI, Jie Fu, Junxian He, and Bryan Hooi.
+\newblock Can {LLM}s express their uncertainty? an empirical evaluation of confidence elicitation in {LLM}s.
+\newblock In \emph{The Twelfth International Conference on Learning Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=gjeQKFxFpZ}.
+
+\bibitem[Yadkori et~al.(2024)Yadkori, Kuzborskij, Stutz, György, Fisch, Doucet, Beloshapka, Weng, Yang, Szepesvári, Cemgil, and Tomasev]{conformal-abstention}
+Yasin~Abbasi Yadkori, Ilja Kuzborskij, David Stutz, András György, Adam Fisch, Arnaud Doucet, Iuliya Beloshapka, Wei-Hung Weng, Yao-Yuan Yang, Csaba Szepesvári, Ali~Taylan Cemgil, and Nenad Tomasev.
+\newblock Mitigating llm hallucinations via conformal abstention, 2024.
+\newblock URL \url{https://arxiv.org/abs/2405.01563}.
+
+\bibitem[Zeng et~al.(2024)Zeng, Yu, Gao, Meng, Goyal, and Chen]{llmbar}
+Zhiyuan Zeng, Jiatong Yu, Tianyu Gao, Yu~Meng, Tanya Goyal, and Danqi Chen.
+\newblock Evaluating large language models at evaluating instruction following.
+\newblock In \emph{The Twelfth International Conference on Learning Representations}, 2024.
+
+\bibitem[Zha et~al.(2023)Zha, Yang, Li, and Hu]{alignscore}
+Yuheng Zha, Yichi Yang, Ruichen Li, and Zhiting Hu.
+\newblock {A}lign{S}core: Evaluating factual consistency with a unified alignment function.
+\newblock In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki (eds.), \emph{Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pp.\  11328--11348, Toronto, Canada, July 2023. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.acl-long.634}.
+\newblock URL \url{https://aclanthology.org/2023.acl-long.634}.
+
+\bibitem[Zhang et~al.(2024)Zhang, Diao, Lin, Fung, Lian, Wang, Chen, Ji, and Zhang]{r-tuning}
+Hanning Zhang, Shizhe Diao, Yong Lin, Yi~Fung, Qing Lian, Xingyao Wang, Yangyi Chen, Heng Ji, and Tong Zhang.
+\newblock {R}-tuning: Instructing large language models to say {`}{I} don{'}t know{'}.
+\newblock In Kevin Duh, Helena Gomez, and Steven Bethard (eds.), \emph{Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)}, pp.\  7113--7139, Mexico City, Mexico, June 2024. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/2024.naacl-long.394}.
+
+\bibitem[Zheng et~al.(2023)Zheng, Chiang, Sheng, Zhuang, Wu, Zhuang, Lin, Li, Li, Xing, Zhang, Gonzalez, and Stoica]{mt-bench}
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi~Lin, Zhuohan Li, Dacheng Li, Eric Xing, Hao Zhang, Joseph~E. Gonzalez, and Ion Stoica.
+\newblock Judging {LLM}-as-a-judge with {MT}-bench and chatbot arena.
+\newblock In \emph{Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=uccHPGDlao}.
+
+\bibitem[Zhu et~al.(2023)Zhu, Wang, and Wang]{judgelm}
+Lianghui Zhu, Xinggang Wang, and Xinlong Wang.
+\newblock Judgelm: Fine-tuned large language models are scalable judges, 2023.
+\newblock URL \url{https://arxiv.org/abs/2310.17631}.
+
+\end{thebibliography}

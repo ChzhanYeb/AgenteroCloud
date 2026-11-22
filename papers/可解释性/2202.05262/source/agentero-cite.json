@@ -1,0 +1,995 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-17T14:36:14.480Z",
+    "fingerprint": "b20ad5eecdf78987a6a50e43016156bd31f55fb1f0504b2675fad8c2300ca437"
+  },
+  "citations": [
+    {
+      "id": "cite-adi:2017:ICLR",
+      "rawKey": "adi:2017:ICLR",
+      "display": "[1]",
+      "raw": "Adi, Y., Kermany, E., Belinkov, Y., Lavi, O., and Goldberg, Y. Fine-grained analysis of sentence embeddings using auxiliary prediction tasks. In International Conference on Learning Representations (ICLR), April 2017.",
+      "metadata": {
+        "title": "Fine-grained Analysis of Sentence Embeddings Using Auxiliary Prediction Tasks",
+        "authors": [
+          "Yossi Adi",
+          "Einat Kermany",
+          "Yonatan Belinkov",
+          "Ofer Lavi",
+          "Yoav Goldberg"
+        ],
+        "year": 2016,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1608.04207",
+        "arxivId": "1608.04207",
+        "url": "https://www.semanticscholar.org/paper/e44da7d8c71edcc6e575fa7faadd5e75785a7901"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-anderson1972simple",
+      "rawKey": "anderson1972simple",
+      "display": "[2]",
+      "raw": "Anderson, J. A. A simple neural network generating an interactive memory. Mathematical biosciences, 14 (3-4): 197--220, 1972.",
+      "metadata": {
+        "title": "A simple neural network generating an interactive memory",
+        "authors": [
+          "James A. Anderson"
+        ],
+        "year": 1972,
+        "doi": "10.1016/0025-5564(72)90075-2",
+        "url": "https://www.semanticscholar.org/paper/97671dde585824f5aa1192067e98e1a5db42c10f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bau-rewriting",
+      "rawKey": "bau-rewriting",
+      "display": "[3]",
+      "raw": "Bau, D., Liu, S., Wang, T., Zhu, J.-Y., and Torralba, A. Rewriting a deep generative model. In Proceedings of the European Conference on Computer Vision (ECCV), 2020.",
+      "metadata": {
+        "title": "Rewriting a Deep Generative Model",
+        "authors": [
+          "David Bau",
+          "Steven Liu",
+          "Tongzhou Wang",
+          "Jun-Yan Zhu",
+          "A. Torralba"
+        ],
+        "year": 2020,
+        "venue": "European Conference on Computer Vision",
+        "doi": "10.48550/arXiv.2007.15646",
+        "arxivId": "2007.15646",
+        "url": "https://www.semanticscholar.org/paper/51bf7a3aee6b1f61b902625f6badffedf200d31a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-10.1162-coli_a_00422",
+      "rawKey": "10.1162/coli_a_00422",
+      "display": "[4]",
+      "raw": "Belinkov, Y. Probing Classifiers: Promises, Shortcomings, and Advances. Computational Linguistics, pp. 1--13, 11 2021. ISSN 0891-2017. 10.1162/coli_a_00422. URL https://doi.org/10.1162/coli_a_00422.",
+      "metadata": {
+        "title": "Probing Classifiers: Promises, Shortcomings, and Advances",
+        "authors": [
+          "Yonatan Belinkov"
+        ],
+        "year": 2021,
+        "venue": "International Conference on Computational Logic",
+        "doi": "10.1162/coli",
+        "arxivId": "2102.12452",
+        "url": "https://doi.org/10.1162/coli\\_a\\_00422"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-belinkov-glass-2019-analysis",
+      "rawKey": "belinkov-glass-2019-analysis",
+      "display": "[5]",
+      "raw": "Belinkov, Y. and Glass, J. Analysis methods in neural language processing: A survey. Transactions of the Association for Computational Linguistics, 7: 49--72, March 2019. 10.1162/tacl_a_00254. URL https://aclanthology.org/Q19-1004.",
+      "metadata": {
+        "title": "Analysis Methods in Neural Language Processing: A Survey",
+        "authors": [
+          "Yonatan Belinkov",
+          "James R. Glass"
+        ],
+        "year": 2018,
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "doi": "10.1162/tacl_a_00254",
+        "arxivId": "1812.08951",
+        "url": "https://aclanthology.org/Q19-1004"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-belinkov-etal-2017-neural",
+      "rawKey": "belinkov-etal-2017-neural",
+      "display": "[6]",
+      "raw": "Belinkov, Y., Durrani, N., Dalvi, F., Sajjad, H., and Glass, J. What do neural machine translation models learn about morphology? In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 861--872, Vancouver, Canada, July 2017. Association for Computational Linguistics. 10.18653/v1/P17-1080. URL https://aclanthology.org/P17-1080.",
+      "metadata": {
+        "title": "What do Neural Machine Translation Models Learn about Morphology?",
+        "authors": [
+          "Yonatan Belinkov",
+          "Nadir Durrani",
+          "Fahim Dalvi",
+          "Hassan Sajjad",
+          "James R. Glass"
+        ],
+        "year": 2017,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P17-1080",
+        "arxivId": "1704.03471",
+        "url": "https://aclanthology.org/P17-1080"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpt3",
+      "rawKey": "gpt3",
+      "display": "[7]",
+      "raw": "Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D., Wu, J., Winter, C., Hesse, C., Chen, M., Sigler, E., Litwin, M., Gray, S., Chess, B., Clark, J., Berner, C., McCandlish, S., Radford, A., Sutskever, I., and Amodei, D. Language models are few-shot learners. In Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M. F., and Lin, H. (eds.), Advances in Neural Information Processing Systems, volume 33, pp. 1877--1901. Curran Associates, Inc., 2020. URL https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf.",
+      "metadata": {
+        "title": "Language Models are Few-Shot Learners",
+        "authors": [
+          "Tom B. Brown",
+          "Benjamin Mann",
+          "N. Ryder",
+          "Melanie Subbiah",
+          "Jared Kaplan",
+          "Prafulla Dhariwal",
+          "Arvind Neelakantan",
+          "Pranav Shyam",
+          "G. Sastry",
+          "Amanda Askell",
+          "S. Agarwal",
+          "A. Herbert-Voss",
+          "G. Krueger",
+          "T. Henighan",
+          "R. Child",
+          "A. Ramesh",
+          "Daniel M. Ziegler",
+          "Jeff Wu",
+          "C. Winter",
+          "C. Hesse",
+          "Mark Chen",
+          "Eric Sigler",
+          "Mateusz Litwin",
+          "Scott Gray",
+          "Benjamin Chess",
+          "Jack Clark",
+          "Christopher Berner",
+          "Sam McCandlish",
+          "A. Radford",
+          "I. Sutskever",
+          "D. Amodei"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2005.14165",
+        "arxivId": "2005.14165",
+        "url": "https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/2005.14165",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-conneau-etal-2018-cram",
+      "rawKey": "conneau-etal-2018-cram",
+      "display": "[8]",
+      "raw": "Conneau, A., Kruszewski, G., Lample, G., Barrault, L., and Baroni, M. What you can cram into a single $&!#* vector: Probing sentence embeddings for linguistic properties. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2126--2136, Melbourne, Australia, July 2018. Association for Computational Linguistics. 10.18653/v1/P18-1198. URL https://aclanthology.org/P18-1198.",
+      "metadata": {
+        "title": "What you can cram into a single $&!#* vector: Probing sentence embeddings for linguistic properties",
+        "authors": [
+          "Alexis Conneau",
+          "Germán Kruszewski",
+          "Guillaume Lample",
+          "Loïc Barrault",
+          "M. Baroni"
+        ],
+        "year": 2018,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P18-1198",
+        "arxivId": "1805.01070",
+        "url": "https://aclanthology.org/P18-1198"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dai-kn",
+      "rawKey": "dai-kn",
+      "display": "[9]",
+      "raw": "Dai, D., Dong, L., Hao, Y., Sui, Z., Chang, B., and Wei, F. Knowledge neurons in pretrained transformers. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 8493--8502, 2022.",
+      "metadata": {
+        "title": "Knowledge Neurons in Pretrained Transformers",
+        "authors": [
+          "Damai Dai",
+          "Li Dong",
+          "Y. Hao",
+          "Z. Sui",
+          "Bao-Bao Chang",
+          "Furu Wei"
+        ],
+        "year": 2021,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.2104.08696",
+        "arxivId": "2104.08696",
+        "url": "https://www.semanticscholar.org/paper/2c871df72c52b58f05447fcb3afc838168d94505"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-decao-ke",
+      "rawKey": "decao-ke",
+      "display": "[10]",
+      "raw": "De Cao, N., Aziz, W., and Titov, I. Editing factual knowledge in language models. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, pp. 6491--6506, Online and Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics. URL https://aclanthology.org/2021.emnlp-main.522.",
+      "metadata": {
+        "title": "Editing Factual Knowledge in Language Models",
+        "authors": [
+          "Nicola De Cao",
+          "Wilker Aziz",
+          "Ivan Titov"
+        ],
+        "year": 2021,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2021.emnlp-main.522",
+        "arxivId": "2104.08164",
+        "url": "https://aclanthology.org/2021.emnlp-main.522"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-devlin-etal-2019-bert",
+      "rawKey": "devlin-etal-2019-bert",
+      "display": "[11]",
+      "raw": "Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. BERT: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pp. 4171--4186, Minneapolis, Minnesota, June 2019. Association for Computational Linguistics. 10.18653/v1/N19-1423. URL https://aclanthology.org/N19-1423.",
+      "metadata": {
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "authors": [
+          "J. Devlin",
+          "Ming-Wei Chang",
+          "Kenton Lee",
+          "K. Toutanova"
+        ],
+        "year": 2019,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/N19-1423",
+        "arxivId": "1810.04805",
+        "url": "https://aclanthology.org/N19-1423"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/1810.04805",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-10.1162-tacl_a_00410",
+      "rawKey": "10.1162/tacl_a_00410",
+      "display": "[12]",
+      "raw": "Elazar, Y., Kassner, N., Ravfogel, S., Ravichander, A., Hovy, E., SchÃtze, H., and Goldberg, Y. Measuring and Improving Consistency in Pretrained Language Models. Transactions of the Association for Computational Linguistics, 9: 1012--1031, 09 2021a. ISSN 2307-387X. 10.1162/tacl_a_00410. URL https://doi.org/10.1162/tacl_a_00410.",
+      "metadata": {
+        "title": "Measuring and Improving Consistency in Pretrained Language Models",
+        "authors": [
+          "Yanai Elazar",
+          "Nora Kassner",
+          "Shauli Ravfogel",
+          "Abhilasha Ravichander",
+          "E. Hovy",
+          "Hinrich Schütze",
+          "Yoav Goldberg"
+        ],
+        "year": 2021,
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "doi": "10.1162/tacl",
+        "arxivId": "2102.01017",
+        "url": "https://doi.org/10.1162/tacl\\_a\\_00410"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-elazar2021amnesic",
+      "rawKey": "elazar2021amnesic",
+      "display": "[13]",
+      "raw": "Elazar, Y., Ravfogel, S., Jacovi, A., and Goldberg, Y. Amnesic probing: Behavioral explanation with amnesic counterfactuals. Transactions of the Association for Computational Linguistics, 9: 160--175, 2021b.",
+      "metadata": {
+        "title": "Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals",
+        "authors": [
+          "Yanai Elazar",
+          "Shauli Ravfogel",
+          "Alon Jacovi",
+          "Yoav Goldberg"
+        ],
+        "year": 2020,
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "doi": "10.1162/tacl_a_00359",
+        "url": "https://www.semanticscholar.org/paper/1d7f3297924a9dd90cfc0df522ebe9138c28b46f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-anthropic2021",
+      "rawKey": "anthropic2021",
+      "display": "[14]",
+      "raw": "Elhage, N., Nanda, N., Olsson, C., Henighan, T., Joseph, N., Mann, B., Askell, A., Bai, Y., Chen, A., Conerly, T., DasSarma, N., Drain, D., Ganguli, D., Hatfield-Dodds, Z., Hernandez, D., Jones, A., Kernion, J., Lovitt, L., Ndousse, K., Amodei, D., Brown, T., Clark, J., Kaplan, J., McCandlish, S., and Olah, C. A mathematical framework for transformer circuits. https://transformer-circuits.pub/2021/framework/index.html, December 2021.",
+      "metadata": {
+        "title": "A mathematical framework for transformer circuits",
+        "year": 2021,
+        "venue": "https: //transformer-circuits.pub/2021/framework/index.html,",
+        "url": "https://transformer-circuits.pub/2021/framework/index.html"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ettinger-etal-2016-probing",
+      "rawKey": "ettinger-etal-2016-probing",
+      "display": "[15]",
+      "raw": "Ettinger, A., Elgohary, A., and Resnik, P. Probing for semantic evidence of composition by means of simple classification tasks. In Proceedings of the 1st Workshop on Evaluating Vector-Space Representations for NLP, pp. 134--139, Berlin, Germany, August 2016. Association for Computational Linguistics. 10.18653/v1/W16-2524. URL https://aclanthology.org/W16-2524.",
+      "metadata": {
+        "title": "Probing for semantic evidence of composition by means of simple classification tasks",
+        "authors": [
+          "Allyson Ettinger",
+          "Ahmed Elgohary",
+          "P. Resnik"
+        ],
+        "year": 2016,
+        "venue": "RepEval@ACL",
+        "doi": "10.18653/v1/W16-2524",
+        "url": "https://aclanthology.org/W16-2524"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-feder2021causalm",
+      "rawKey": "feder2021causalm",
+      "display": "[16]",
+      "raw": "Feder, A., Oved, N., Shalit, U., and Reichart, R. CausaLM: Causal model explanation through counterfactual language models. Computational Linguistics, 47 (2): 333--386, 2021.",
+      "metadata": {
+        "title": "CausaLM: Causal Model Explanation Through Counterfactual Language Models",
+        "authors": [
+          "Amir Feder",
+          "Nadav Oved",
+          "Uri Shalit",
+          "R. Reichart"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Computational Logic",
+        "doi": "10.1162/coli_a_00404",
+        "arxivId": "2005.13407",
+        "url": "https://www.semanticscholar.org/paper/ca81979ed2d07d1cedab641f569fc39f72408098"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-finlayson-etal-2021-causal",
+      "rawKey": "finlayson-etal-2021-causal",
+      "display": "[17]",
+      "raw": "Finlayson, M., Mueller, A., Gehrmann, S., Shieber, S., Linzen, T., and Belinkov, Y. Causal analysis of syntactic agreement mechanisms in neural language models. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp. 1828--1843, Online, August 2021. Association for Computational Linguistics. 10.18653/v1/2021.acl-long.144. URL https://aclanthology.org/2021.acl-long.144.",
+      "metadata": {
+        "title": "Causal Analysis of Syntactic Agreement Mechanisms in Neural Language Models",
+        "authors": [
+          "Matthew Finlayson",
+          "Aaron Mueller",
+          "Sebastian Gehrmann",
+          "S. Shieber",
+          "Tal Linzen",
+          "Yonatan Belinkov"
+        ],
+        "year": 2021,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2021.acl-long.144",
+        "arxivId": "2106.06087",
+        "url": "https://aclanthology.org/2021.acl-long.144"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-geva-etal-2021-transformer",
+      "rawKey": "geva-etal-2021-transformer",
+      "display": "[18]",
+      "raw": "Geva, M., Schuster, R., Berant, J., and Levy, O. Transformer feed-forward layers are key-value memories. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, pp. 5484--5495, Online and Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics. URL https://aclanthology.org/2021.emnlp-main.446.",
+      "metadata": {
+        "title": "Transformer Feed-Forward Layers Are Key-Value Memories",
+        "authors": [
+          "Mor Geva",
+          "R. Schuster",
+          "Jonathan Berant",
+          "Omer Levy"
+        ],
+        "year": 2020,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2021.emnlp-main.446",
+        "arxivId": "2012.14913",
+        "url": "https://aclanthology.org/2021.emnlp-main.446"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hase2021language",
+      "rawKey": "hase2021language",
+      "display": "[19]",
+      "raw": "Hase, P., Diab, M., Celikyilmaz, A., Li, X., Kozareva, Z., Stoyanov, V., Bansal, M., and Iyer, S. Do language models have beliefs? methods for detecting, updating, and visualizing model beliefs. arXiv preprint arXiv:2111.13654, 2021.",
+      "metadata": {
+        "title": "Do Language Models Have Beliefs? Methods for Detecting, Updating, and Visualizing Model Beliefs",
+        "authors": [
+          "Peter Hase",
+          "Mona T. Diab",
+          "Asli Celikyilmaz",
+          "Xian Li",
+          "Zornitsa Kozareva",
+          "Veselin Stoyanov",
+          "Mohit Bansal",
+          "Srini Iyer"
+        ],
+        "year": 2021,
+        "doi": "10.48550/arXiv.2111.13654",
+        "arxivId": "2111.13654",
+        "url": "https://www.semanticscholar.org/paper/4a247cbfca9dcf91e2da24e6d2d84601a9041a8f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hupkes2018visualisation",
+      "rawKey": "hupkes2018visualisation",
+      "display": "[20]",
+      "raw": "Hupkes, D., Veldhoen, S., and Zuidema, W. Visualisation and 'diagnostic classifiers' reveal how recurrent and recursive neural networks process hierarchical structure. Journal of Artificial Intelligence Research, 61: 907--926, 2018.",
+      "metadata": {
+        "year": 2018
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-jiang-etal-2020-know",
+      "rawKey": "jiang-etal-2020-know",
+      "display": "[21]",
+      "raw": "Jiang, Z., Xu, F. F., Araki, J., and Neubig, G. How can we know what language models know? Transactions of the Association for Computational Linguistics, 8: 423--438, 2020. 10.1162/tacl_a_00324. URL https://aclanthology.org/2020.tacl-1.28.",
+      "metadata": {
+        "title": "How Can We Know What Language Models Know?",
+        "authors": [
+          "Zhengbao Jiang",
+          "Frank F. Xu",
+          "J. Araki",
+          "Graham Neubig"
+        ],
+        "year": 2019,
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "doi": "10.1162/tacl_a_00324",
+        "arxivId": "1911.12543",
+        "url": "https://aclanthology.org/2020.tacl-1.28"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-adam",
+      "rawKey": "adam",
+      "display": "[22]",
+      "raw": "Kingma, D. P. and Ba, J. Adam: A method for stochastic optimization. In Bengio, Y. and LeCun, Y. (eds.), 3rd International Conference on Learning Representations, ICLR 2015, San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings, 2015. URL http://arxiv.org/abs/1412.6980.",
+      "metadata": {
+        "title": "Adam: A Method for Stochastic Optimization",
+        "authors": [
+          "Diederik P. Kingma",
+          "Jimmy Ba"
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1412.6980",
+        "arxivId": "1412.6980",
+        "url": "http://arxiv.org/abs/1412.6980"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kohonen1972correlation",
+      "rawKey": "kohonen1972correlation",
+      "display": "[23]",
+      "raw": "Kohonen, T. Correlation matrix memories. IEEE transactions on computers, 100 (4): 353--359, 1972.",
+      "metadata": {
+        "title": "Correlation Matrix Memories",
+        "authors": [
+          "T. Kohonen"
+        ],
+        "year": 1972,
+        "venue": "IEEE transactions on computers",
+        "doi": "10.1109/TC.1972.5008975",
+        "url": "https://www.semanticscholar.org/paper/d7f7f6dfbdbe5220aded6a211c50079e28b217ad"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-levy-etal-2017-zero",
+      "rawKey": "levy-etal-2017-zero",
+      "display": "[24]",
+      "raw": "Levy, O., Seo, M., Choi, E., and Zettlemoyer, L. Zero-shot relation extraction via reading comprehension. In Proceedings of the 21st Conference on Computational Natural Language Learning (CoNLL 2017), pp. 333--342, Vancouver, Canada, August 2017. Association for Computational Linguistics. 10.18653/v1/K17-1034. URL https://aclanthology.org/K17-1034.",
+      "metadata": {
+        "title": "Zero-Shot Relation Extraction via Reading Comprehension",
+        "authors": [
+          "Omer Levy",
+          "Minjoon Seo",
+          "Eunsol Choi",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2017,
+        "venue": "Conference on Computational Natural Language Learning",
+        "doi": "10.18653/v1/K17-1034",
+        "arxivId": "1706.04115",
+        "url": "https://aclanthology.org/K17-1034"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lewis-etal-2020-bart",
+      "rawKey": "lewis-etal-2020-bart",
+      "display": "[25]",
+      "raw": "Lewis, M., Liu, Y., Goyal, N., Ghazvininejad, M., Mohamed, A., Levy, O., Stoyanov, V., and Zettlemoyer, L. BART: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pp. 7871--7880, Online, July 2020. Association for Computational Linguistics. 10.18653/v1/2020.acl-main.703. URL https://aclanthology.org/2020.acl-main.703.",
+      "metadata": {
+        "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+        "authors": [
+          "M. Lewis",
+          "Yinhan Liu",
+          "Naman Goyal",
+          "Marjan Ghazvininejad",
+          "Abdel-rahman Mohamed",
+          "Omer Levy",
+          "Veselin Stoyanov",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2020.acl-main.703",
+        "arxivId": "1910.13461",
+        "url": "https://aclanthology.org/2020.acl-main.703"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-meng2022memit",
+      "rawKey": "meng2022memit",
+      "display": "[26]",
+      "raw": "Meng, K., Sen Sharma, A., Andonian, A., Belinkov, Y., and Bau, D. Mass-editing memory in a transformer. arXiv preprint arXiv:2210.07229, 2022.",
+      "metadata": {
+        "title": "Mass-Editing Memory in a Transformer",
+        "authors": [
+          "Kevin Meng",
+          "Arnab Sen Sharma",
+          "A. Andonian",
+          "Yonatan Belinkov",
+          "David Bau"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2210.07229",
+        "arxivId": "2210.07229",
+        "url": "https://www.semanticscholar.org/paper/2fe1ac0b09cc0f50eb83eef6c7c6b45ac8b12413"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mend",
+      "rawKey": "mend",
+      "display": "[27]",
+      "raw": "Mitchell, E., Lin, C., Bosselut, A., Finn, C., and Manning, C. D. Fast model editing at scale. In International Conference on Learning Representations, 2021.",
+      "metadata": {
+        "title": "Fast Model Editing at Scale",
+        "authors": [
+          "E. Mitchell",
+          "Charles Lin",
+          "Antoine Bosselut",
+          "C. Finn",
+          "Christopher D. Manning"
+        ],
+        "year": 2021,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2110.11309",
+        "arxivId": "2110.11309",
+        "url": "https://www.semanticscholar.org/paper/9286ac6e9b1aacd7d93496eb4615ae7678876d2a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pearl2001direct",
+      "rawKey": "pearl2001direct",
+      "display": "[28]",
+      "raw": "Pearl, J. Direct and indirect effects. In Proceedings of the Seventeenth conference on Uncertainty in artificial intelligence, pp. 411--420, 2001.",
+      "metadata": {
+        "title": "Direct and Indirect Effects",
+        "authors": [
+          "J. Pearl"
+        ],
+        "year": 2001,
+        "venue": "Conference on Uncertainty in Artificial Intelligence",
+        "doi": "10.1145/3501714.3501736",
+        "arxivId": "1301.2300",
+        "url": "https://www.semanticscholar.org/paper/d8574a62874312b81347438b1566cdb1c6d5abe5"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pearl2009",
+      "rawKey": "pearl2009",
+      "display": "[29]",
+      "raw": "Pearl, J. Causality: Models, Reasoning and Inference. Cambridge University Press, USA, 2nd edition, 2009. ISBN 052189560X.",
+      "metadata": {
+        "title": "Causality : Models , Reasoning , and Inference",
+        "authors": [
+          "P. Bentler",
+          "D. Heslenfeld",
+          "P. Molenaar",
+          "R. Mcdonald"
+        ],
+        "year": 2002,
+        "doi": "10.5860/choice.47-3771",
+        "url": "https://www.semanticscholar.org/paper/404d1df16b673659f52a8017bde4ba00f901e8bd"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-petroni-etal-2019-language",
+      "rawKey": "petroni-etal-2019-language",
+      "display": "[30]",
+      "raw": "Petroni, F., Rocktaschel, T., Riedel, S., Lewis, P., Bakhtin, A., Wu, Y., and Miller, A. Language models as knowledge bases? In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pp. 2463--2473, Hong Kong, China, November 2019. Association for Computational Linguistics. 10.18653/v1/D19-1250. URL https://aclanthology.org/D19-1250.",
+      "metadata": {
+        "title": "Language Models as Knowledge Bases?",
+        "authors": [
+          "F. Petroni",
+          "Tim Rocktäschel",
+          "Patrick Lewis",
+          "A. Bakhtin",
+          "Yuxiang Wu",
+          "Alexander H. Miller",
+          "Sebastian Riedel"
+        ],
+        "year": 2019,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/D19-1250",
+        "arxivId": "1909.01066",
+        "url": "https://aclanthology.org/D19-1250"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-petroni2020context",
+      "rawKey": "petroni2020context",
+      "display": "[31]",
+      "raw": "Petroni, F., Lewis, P., Piktus, A., Rocktaschel, T., Wu, Y., Miller, A. H., and Riedel, S. How context affects language models' factual predictions. In Automated Knowledge Base Construction, 2020.",
+      "metadata": {
+        "title": "How Context Affects Language Models' Factual Predictions",
+        "authors": [
+          "F. Petroni",
+          "Patrick Lewis",
+          "Aleksandra Piktus",
+          "Tim Rocktäschel",
+          "Yuxiang Wu",
+          "Alexander H. Miller",
+          "Sebastian Riedel"
+        ],
+        "year": 2020,
+        "venue": "Conference on Automated Knowledge Base Construction",
+        "doi": "10.48550/arXiv.2005.04611",
+        "arxivId": "2005.04611",
+        "url": "https://www.semanticscholar.org/paper/c44120f765fc43994c5cfb4e12e4f62999efeae6"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpt2",
+      "rawKey": "gpt2",
+      "display": "[32]",
+      "raw": "Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I., et al. Language models are unsupervised multitask learners. OpenAI blog, pp. 9, 2019.",
+      "metadata": {
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "authors": [
+          "A. Radford",
+          "Jeff Wu",
+          "R. Child",
+          "D. Luan",
+          "D. Amodei",
+          "I. Sutskever"
+        ],
+        "year": 2019,
+        "url": "https://www.semanticscholar.org/paper/9405cc0d6169988371b2755e573cc28650d14dfe"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/language-models-are-unsupervised-multitask-learners",
+        "matchBy": "title"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-raffel2020exploring",
+      "rawKey": "raffel2020exploring",
+      "display": "[33]",
+      "raw": "Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., and Liu, P. J. Exploring the limits of transfer learning with a unified text-to-text transformer. Journal of Machine Learning Research, 21 (140): 1--67, 2020.",
+      "metadata": {
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "authors": [
+          "Colin A. Raffel",
+          "Noam Shazeer",
+          "Adam Roberts",
+          "Katherine Lee",
+          "Sharan Narang",
+          "Michael Matena",
+          "Yan-Qi Zhou",
+          "Wei Li",
+          "Peter J. Liu"
+        ],
+        "year": 2019,
+        "venue": "Journal of machine learning research",
+        "doi": "10.48550/arXiv.1910.10683",
+        "arxivId": "1910.10683",
+        "url": "https://www.semanticscholar.org/paper/6c4b76232bb72897685d19b3d264c6ee3005bc2b"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/1910.10683",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-roberts-etal-2020-much",
+      "rawKey": "roberts-etal-2020-much",
+      "display": "[34]",
+      "raw": "Roberts, A., Raffel, C., and Shazeer, N. How much knowledge can you pack into the parameters of a language model? In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 5418--5426, Online, November 2020. Association for Computational Linguistics. 10.18653/v1/2020.emnlp-main.437. URL https://aclanthology.org/2020.emnlp-main.437.",
+      "metadata": {
+        "title": "How Much Knowledge Can You Pack into the Parameters of a Language Model?",
+        "authors": [
+          "Adam Roberts",
+          "Colin A. Raffel",
+          "Noam Shazeer"
+        ],
+        "year": 2020,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2020.emnlp-main.437",
+        "arxivId": "2002.08910",
+        "url": "https://aclanthology.org/2020.emnlp-main.437"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sundararajan2017axiomatic",
+      "rawKey": "sundararajan2017axiomatic",
+      "display": "[35]",
+      "raw": "Sundararajan, M., Taly, A., and Yan, Q. Axiomatic attribution for deep networks. In International conference on machine learning, pp. 3319--3328. PMLR, 2017.",
+      "metadata": {
+        "title": "Axiomatic Attribution for Deep Networks",
+        "authors": [
+          "M. Sundararajan",
+          "Ankur Taly",
+          "Qi-Qi Yan"
+        ],
+        "year": 2017,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.1703.01365",
+        "arxivId": "1703.01365",
+        "url": "https://www.semanticscholar.org/paper/f302e136c41db5de1d624412f68c9174cf7ae8be"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vaswani2017attention",
+      "rawKey": "vaswani2017attention",
+      "display": "[36]",
+      "raw": "Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, ., and Polosukhin, I. Attention is all you need. In Advances in neural information processing systems, pp. 5998--6008, 2017.",
+      "metadata": {
+        "title": "Attention is All you Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "N. Parmar",
+          "J. Uszkoreit",
+          "L. Jones",
+          "Aidan N. Gomez",
+          "L. Kaiser",
+          "I. Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1706.03762",
+        "arxivId": "1706.03762",
+        "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/1706.03762",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vig2020causal",
+      "rawKey": "vig2020causal",
+      "display": "[37]",
+      "raw": "Vig, J., Gehrmann, S., Belinkov, Y., Qian, S., Nevo, D., Sakenis, S., Huang, J., Singer, Y., and Shieber, S. Causal mediation analysis for interpreting neural NLP: The case of gender bias. arXiv preprint arXiv:2004.12265, 2020a.",
+      "metadata": {
+        "title": "Causal Mediation Analysis for Interpreting Neural NLP: The Case of Gender Bias",
+        "authors": [
+          "J. Vig",
+          "Sebastian Gehrmann",
+          "Yonatan Belinkov",
+          "Sharon Qian",
+          "D. Nevo",
+          "Yaron Singer",
+          "S. Shieber"
+        ],
+        "year": 2020,
+        "doi": "10.48550/arXiv.2004.12265",
+        "arxivId": "2004.12265",
+        "url": "https://www.semanticscholar.org/paper/868c3a07ca240ad66d953bfb5094ad962f1cdca4"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vig2020investigating",
+      "rawKey": "vig2020investigating",
+      "display": "[38]",
+      "raw": "Vig, J., Gehrmann, S., Belinkov, Y., Qian, S., Nevo, D., Singer, Y., and Shieber, S. M. Investigating gender bias in language models using causal mediation analysis. In NeurIPS, 2020b.",
+      "metadata": {
+        "title": "Investigating Gender Bias in Language Models Using Causal Mediation Analysis",
+        "authors": [
+          "J. Vig",
+          "Sebastian Gehrmann",
+          "Yonatan Belinkov",
+          "Sharon Qian",
+          "D. Nevo",
+          "Yaron Singer",
+          "S. Shieber"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://www.semanticscholar.org/paper/78d08b8ab4132defffe98ec7f80a51452203f70d"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpt-j",
+      "rawKey": "gpt-j",
+      "display": "[39]",
+      "raw": "Wang, B. and Komatsuzaki, A. GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model. https://github.com/kingoflolz/mesh-transformer-jax, May 2021.",
+      "metadata": {
+        "title": "GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model",
+        "year": 2021,
+        "venue": "github",
+        "url": "https://github.com/kingoflolz/mesh-transformer-jax"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Zhang2018GeneratingIA",
+      "rawKey": "Zhang2018GeneratingIA",
+      "display": "[40]",
+      "raw": "Zhang, Y., Galley, M., Gao, J., Gan, Z., Li, X., Brockett, C., and Dolan, W. B. Generating informative and diverse conversational responses via adversarial information maximization. In NeurIPS, 2018.",
+      "metadata": {
+        "title": "Generating Informative and Diverse Conversational Responses via Adversarial Information Maximization",
+        "authors": [
+          "Yizhe Zhang",
+          "Michel Galley",
+          "Jianfeng Gao",
+          "Zhe Gan",
+          "Xiu-Jun Li",
+          "Chris Brockett",
+          "W. Dolan"
+        ],
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1809.05972",
+        "arxivId": "1809.05972",
+        "url": "https://www.semanticscholar.org/paper/e79fbc3974827f3ea43a690221cd95fddefb7019"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhao2021non",
+      "rawKey": "zhao2021non",
+      "display": "[41]",
+      "raw": "Zhao, S., Pascual, D., Brunner, G., and Wattenhofer, R. Of non-linearity and commutativity in BERT. In 2021 International Joint Conference on Neural Networks (IJCNN), pp. 1--8. IEEE, 2021.",
+      "metadata": {
+        "title": "Of Non-Linearity and Commutativity in BERT",
+        "authors": [
+          "Sumu Zhao",
+          "Damián Pascual",
+          "Gino Brunner",
+          "Roger Wattenhofer"
+        ],
+        "year": 2021,
+        "venue": "2021 International Joint Conference on Neural Networks (IJCNN)",
+        "doi": "10.1109/IJCNN52387.2021.9533563",
+        "arxivId": "2101.04547",
+        "url": "https://www.semanticscholar.org/paper/b06cb9b2740b51c79db23ee6315f21bd69c01938"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhong-etal-2021-factual",
+      "rawKey": "zhong-etal-2021-factual",
+      "display": "[42]",
+      "raw": "Zhong, Z., Friedman, D., and Chen, D. Factual probing is [MASK]: Learning vs. learning to recall. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp. 5017--5033, Online, June 2021. Association for Computational Linguistics. 10.18653/v1/2021.naacl-main.398. URL https://aclanthology.org/2021.naacl-main.398.",
+      "metadata": {
+        "title": "Factual Probing Is [MASK]: Learning vs. Learning to Recall",
+        "authors": [
+          "Zexuan Zhong",
+          "Dan Friedman",
+          "Danqi Chen"
+        ],
+        "year": 2021,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2021.naacl-main.398",
+        "arxivId": "2104.05240",
+        "url": "https://aclanthology.org/2021.naacl-main.398"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhu-ft",
+      "rawKey": "zhu-ft",
+      "display": "[43]",
+      "raw": "Zhu, C., Rawat, A. S., Zaheer, M., Bhojanapalli, S., Li, D., Yu, F., and Kumar, S. Modifying memories in transformer models. arXiv preprint arXiv:2012.00363, 2020.",
+      "metadata": {
+        "title": "Modifying Memories in Transformer Models",
+        "authors": [
+          "Chen Zhu",
+          "A. S. Rawat",
+          "M. Zaheer",
+          "Srinadh Bhojanapalli",
+          "Daliang Li",
+          "Felix X. Yu",
+          "Sanjiv Kumar"
+        ],
+        "year": 2020,
+        "doi": "10.48550/arXiv.2012.00363",
+        "arxivId": "2012.00363",
+        "url": "https://www.semanticscholar.org/paper/5270b626feb66c8c363e93ba6608daae93c5003b"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 43 entries (bbl)",
+    "semantic scholar: 59 references",
+    "merged: 42 of 43 enriched online"
+  ]
+}

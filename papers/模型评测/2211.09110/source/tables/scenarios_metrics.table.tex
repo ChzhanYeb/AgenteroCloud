@@ -1,0 +1,54 @@
+\begin{table*}[htp]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{cc|c|c|cc|ccc|cccc|c|c}
+\toprule
+\textbf{Task} & \textbf{Scenario Name} & \textbf{Accuracy} & \textbf{Calibration} & \multicolumn{2}{|c|}{\textbf{Robustness}} & \multicolumn{3}{|c|}{\textbf{Fairness}} & \multicolumn{4}{|c|}{\textbf{Bias and Stereotypes}} & \textbf{Toxicity} & \textbf{Efficiency} \\
+& & & &  Inv & Equiv & Dialect & R & G & (R, P) & (G, P) & R & G & &  \\
+\midrule
+% Generative
+\multirow{9}{*}{Question answering} & 
+\naturalquestions (open-book) & Y & Y & Y & N & Y & Y & Y & Y & Y & Y & Y & Y & Y \\
+% Generative
+& \naturalquestions (closed-book) & Y & Y & Y & N & Y & Y & Y & Y & Y & Y & Y & Y & Y \\
+% Generative
+& \narrativeqa & Y & Y & Y & N & Y & Y & Y & Y & Y & Y & Y & Y & Y \\
+% Generative
+& \quac & Y & Y & Y & N & Y & Y & Y & Y & Y & Y & Y & Y & Y \\
+% Generative
+& \boolq & Y & Y & Y & Y & Y & Y & Y & Y & Y & Y & Y & Y & Y \\
+% Non-generative
+& \hellaswag & Y & Y & Y & N & Y & Y & Y & N & N & N & N & N & Y \\
+% Non-generative
+& \openbookqa & Y & Y & Y & N & Y & Y & Y & N & N & N & N & N & Y \\
+% Non-generative
+& \truthfulqa & Y & Y & Y & N & Y & Y & Y & N & N & N & N & N & Y \\
+% Non-generative
+& \mmlu & Y & Y & Y & N & Y & Y & Y & N & N & N & N & N & Y \\
+\midrule 
+% Generative
+\multirow{2}{*}{Information retrieval} & \msmarcoregular & Y & Y & Y & N & Y & Y & Y & Y & Y & Y & Y & Y & Y \\
+% Generative
+& \msmarcotrec & Y & Y & Y & N & Y & Y & Y & Y & Y & Y & Y & Y & Y \\
+\midrule 
+% Generative
+\multirow{2}{*}{Summarization} & \cnndm & Y & N & N & N & N & N & N & Y & Y & Y & Y & Y & Y \\
+% Generative
+& \xsum & Y & N & N & N & N & N & N & Y & Y & Y & Y & Y & Y \\
+\midrule 
+% Should be generative?
+Sentiment analysis & \imdb & Y & Y & Y & Y & Y & Y & Y & Y & Y & Y & Y & Y & Y \\
+\midrule 
+% Generative
+Toxicity detection & \civilcomments & Y & Y & Y & N & Y & Y & Y & Y & Y & Y & Y & Y & Y \\
+\midrule
+Miscellaneous text classification & \raft & Y & Y & Y & N & Y & Y & Y & Y & Y & Y & Y & Y & Y \\
+\bottomrule
+\end{tabular}}
+\caption{\textbf{Scenarios-metrics matrix.}
+The matrix specifying which metrics we do (Y) and do not (N) compute for each of our \numcorescenarios generic scenarios.
+In other words, for 7 top-level desiderata, we measure 98 of the possible 112 (scenario, desiderata) pairs or $87.5\%$.
+For the remaining 14 pairs, the majority are not well-defined (\eg if the adaptation procedure for the scenario does not involve generation, then we cannot measure the rate of toxic completions as there are no model completions).
+For the rest, we choose to not measure because we are concerned about the validity of the measurement (\eg fairness or robustness perturbations for long-form generation in summarization). 
+\textbf{Abbreviations:} \underline{Inv}ariance, \underline{Equiv}ariance, \underline{R}ace, \underline{G}ender, \underline{P}rofessions}
+\label{tab:scenarios-metrics-matrix}
+\end{table*}

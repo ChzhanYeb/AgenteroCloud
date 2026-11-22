@@ -1,0 +1,430 @@
+\section{Summary of open questions}
+\label{sec:summary-of-open-questions}
+
+\subsection{Open problems in mechanistic interpretability methods and foundations}
+
+\subsubsection{Reverse engineering: Identifying the roles of network components}
+
+\parasection{Reverse engineering step 1: Neural network decomposition}
+
+\begin{enumerate}
+    \item How should we decompose networks into more interpretable constituent parts?
+    \begin{enumerate}[label=\alph*.]
+        \item What isomorphism or what approximation of a neural network (or parts of it) is the best way to express it for the purposes of interpreting it?
+        \item How should we coarse grain neural networks?
+        \item How should we build higher level abstractions on top of low-level network components?
+    \end{enumerate}
+    
+    \item How true is the linear representation hypothesis?
+    \begin{enumerate}[label=\alph*.]
+        \item To what extent do models encode concepts linearly in their representations?
+        \item How should we characterize representations that are not linearly represented in neural networks?
+        \item What properties of a concept, or of the training distribution, result in a particular concept becoming encoded linearly (or not)?
+    \end{enumerate}
+    
+    \item Is the combination of the linear representation hypothesis and superposition the right frame for thinking about computation in neural networks?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we fully determine the causes of feature superposition and polysemanticity within neural networks?
+        \item How should we understand superposition in attention blocks?
+        \item How should we understand cross-layer superposition?
+        \item What new theoretical insights can be gleaned from considering how networks perform computation natively in superposition, rather than treating superposition purely as a compression strategy?
+    \end{enumerate}
+    
+    \item Can the problems with SDL be overcome?
+    \begin{enumerate}[label=\alph*.]
+        \item What lies in SDL reconstruction errors? Will the errors converge to zero with methodological progress?
+        \item Is sparsity the correct proxy for interpretability?
+        \item Can the approach be scaled to the largest models?
+        \item Does SDL make sense if we don't believe in the linear representation hypothesis?
+        \item Is sparsity the best possible proxy for interpretability?
+        \item Is it correct to think of SDL features as `bags of features', or is there important information contained within the geometry of representation space?
+        \item If SDL finds compositions of the “true” features, is this a problem?
+        \item Can SDL be applied to all architectural components to fully decompose networks?
+        \item How can we better measure the success of SDL techniques?
+        \item How should we connect sparsely activating features into circuits? Will this be practically possible, and the best possible description of network mechanisms?
+        \item Can we develop new methods that address conceptual and practical issues with SDL?
+    \end{enumerate}
+    
+    \item How important is the geometry of activation space for explaining neural network behavior?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we identify the underlying functional structure of networks (which defines why activations are located in particular geometric arrangements in activation space)?
+        \item Must we understand global feature geometry or only local feature geometry in order to understand computation in neural networks?
+    \end{enumerate}
+    
+    \item Can we connect theories for how neural networks generalize to interpretability?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we distinguish parts of networks that underlie generalization from parts that underlie memorization?
+        \item What mechanisms underlie the relationship between interpretability and generalization?
+        \item Are there connections between adversarial robustness and superposition?
+        \item Can we connect interpretability to theories of deep learning like SLT?
+    \end{enumerate}
+    
+    \item Can we build intrinsically more interpretable models at low performance cost? How helpful is this?
+    \begin{enumerate}[label=\alph*.]
+        \item Interpretability training: Can we train networks that are interpretable by default at low performance cost?
+        \item Interpretable inference: Can we convert already-trained models into forms that are much easier to completely interpret at little performance cost?
+        \item How can we train large-scale models such that the concepts they use are naturally understandable to humans?
+        \item How can we design training objectives so that the model is incentivized to use known specific abstractions?
+        \item How can we localize concepts we want to control (e.g., long-term plans) during training?
+    \end{enumerate}
+\end{enumerate}
+
+\parasection{Reverse engineering step 2: Identifying the functional role of components}
+\begin{enumerate}
+    \item Can we improve on max-activating input data set examples for understanding the causes of network component activations?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we avoid imposing human bias to explanations?
+        \item Can we progress toward deeper descriptions based on internal mechanisms?
+        \item How might we develop interpretation methods that can recognize and work with unfamiliar concepts - computational patterns that don't map cleanly to human intuitions?
+    \end{enumerate}
+    
+    \item How can we develop attribution methods that faithfully and efficiently compute which network components are important for some downstream metric?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we develop attribution methods that capture higher-order effects beyond first-order approximations of model behavior?
+        \item Is it possible to create perturbation-based methods that don't force models to operate outside their training distribution?
+        \item Can we develop hybrid approaches that combine the strengths of different attribution methods while mitigating their individual weaknesses?
+    \end{enumerate}
+    
+    \item How can we better measure the downstream effects of model components?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we reliably distinguish between true causal pathways and compensatory effects like the “Hydra effect” when performing interventions?
+    \end{enumerate}
+\end{enumerate}
+
+
+\parasection{Reverse engineering step 3: Validation of descriptions}
+\begin{enumerate}
+    \item Can we improve our ability to validate mechanistic explanations for model behavior in ways that do not depend on researcher intuition and are computationally tractable to use?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we improve on methodologies for evaluating hypotheses through their predictive power on activations of network components?
+        \item Can we develop methodologies for evaluating hypotheses through their predictive power for model behavior (e.g. unusual failures or adv examples)?
+        \item Can we develop methodologies for handcoding weights that faithfully represent some hypotheses, as a drop in replacement for subnetworks we claim to understand?
+        \item Can we develop a wider suite of networks with known ground truth explanations to validate techniques against?
+        \item Can we use mechanistic explanations to achieve engineering goals?
+        \item Can we use mechanistic explanations to achieve engineering goals in a way that improves upon black box baselines?
+    \end{enumerate}
+    
+    \item Can we develop “model organisms” as a community, which are understood deeply, and seen as a test-bed for new unproven interpretability methodologies to be tested?
+    
+    \item Can we establish standardized baselines and benchmarks for comparing different interpretability approaches on real-world, non-cherry-picked tasks, where the ground truth is known?
+    
+    \item What would constitute a comprehensive set of “stress tests” for interpretability hypotheses that could reliably detect interpretability illusions?
+    
+    \item How might we design evaluation frameworks that assess interpretability methods on their average case and worst-case performance rather than just best-case scenarios?
+    
+    \item How can we ensure that our understanding of internals generalizes to out-of-distribution inputs?
+\end{enumerate}
+
+\subsubsection{Concept-based interpretability: Identifying network components for given roles}
+\begin{enumerate}
+    \item How can we reliably distinguish causal from merely correlated features when probing neural networks?
+    
+    \item Can we develop automated systems to generate high-quality probing data sets, reducing the current heavy reliance on human effort?
+    
+    \item What regularization and validation techniques can be used to prevent spurious correlations while ensuring probes find generalizable features?
+    
+    \item How can we improve probing for concepts that may not have clear positive/negative examples?
+\end{enumerate}
+
+\subsubsection{Proceduralizing mechanistic interpretability into circuit discovery pipelines}
+\begin{enumerate}
+    \item Can we develop techniques that build on lower level methods that provide deeper or more complete insights about neural networks?
+    \item How much can we learn from further work in the existing circuit discovery paradigm?
+    \begin{enumerate}[label=\alph*.]
+        \item Should we expect circuit discovery to benefit from further methodological progress in decomposing neural networks? Will faithfulness go up and explanation description length go down?
+        \item Can we remove the constraint that task definition for circuit discovery is inherently concept-based, which may be complicating mechanistic analysis?
+        \item Can we get around the practical issues of negative and backup behavior?
+        \item Will circuit discovery provide insights into arbitrary tasks, or will it only be helpful in cases where we are able to crisply define tasks?
+    \end{enumerate}
+\end{enumerate}
+
+\subsubsection{Automating steps in mechanistic interpretability research}
+\begin{enumerate}
+    \item Can we improve on AI automated feature description and validation methods?
+    \begin{enumerate}[label=\alph*.]
+        \item Through automating the generation and testing of arbitrary hypotheses?
+        \item Through describing differences between features?
+        \item Through descriptions of how components interact?
+    \end{enumerate}
+    
+    \item Can we improve on ACDC-like circuit discovery methods?
+    
+    \item Can we automate other parts of the mechanistic interpretability pipeline?
+    \begin{enumerate}[label=\alph*.]
+        \item Conceptual interpretability research?
+        \item Decomposition method discovery?
+        \item More ad hoc validation of hypotheses?
+    \end{enumerate}
+    
+    \item Should we take steps to mitigate potentially misaligned AI systems sabotaging AI automated interpretability?
+\end{enumerate}
+
+\subsection{Open problems in applications of mechanistic interpretability}
+
+\subsubsection{Using mechanistic interpretability for better monitoring and auditing of AI systems for potentially unsafe cognition}
+\begin{enumerate}
+    \item Can we effectively use interpretability for safety evaluations?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we develop robust “white box” evaluations that detect concerning internal patterns without needing to understand the entire network?
+        \item Can we reliably distinguish between features that merely recognize deceptive behavior versus mechanisms that generate deceptive behavior?
+        \item How can we validate that learned features capture all concerning patterns of reasoning?
+        \item Can we reliably identify which features are appropriately versus spuriously relevant to a given task?
+    \end{enumerate}
+    
+    \item Can we leverage interpretability to enhance red-teaming and system testing?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we use interpretability insights to make red-teaming more efficient than current methods?
+        \item How can we best use feature attribution to help human red-teamers identify problematic input patterns?
+    \end{enumerate}
+    
+    \item Can we develop effective test-time monitoring systems based on interpretability?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we get mechanistic anomaly detection to work?
+        \item Can we create passive monitoring systems based on model internals that effectively flag concerning internal patterns during deployment?
+        \item Can we develop monitoring systems that work with only feature-level understanding rather than requiring deep mechanical insights?
+    \end{enumerate}
+\end{enumerate}
+
+\subsubsection{Using mechanistic interpretability for better control of AI system behavior}
+\begin{enumerate}
+    \item Can we improve steering methods through interpretability?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we make activation steering more precise and reduce its side effects?
+        \item Can we develop methods to steer entire mechanisms rather than just single features?
+    \end{enumerate}
+    
+    \item Can we achieve reliable model unlearning and editing?
+    \begin{enumerate}[label=\alph*.]
+        \item Will carving the network at its true joints help us improve on model unlearning and editing?
+        \item Can mechanistic interpretability help us develop better methods for evaluating unlearning efficacy?
+        \item Can mechanistic interpretability help us determine which classes of model edit are even possible, without damaging generalization in undesirable ways?
+    \end{enumerate}
+    
+    \item Can we better understand and improve finetuning through interpretability?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we make finetuning more sample-efficient by targeting specific parameters?
+        \item Can we develop better tools for analyzing feature-level or mechanism-level differences between model versions?
+    \end{enumerate}
+\end{enumerate}
+
+\subsubsection{Using mechanistic interpretability for better predictions about AI systems}
+\begin{enumerate}
+    \item Can we predict model behavior in novel situations outside of the distribution of inputs we have access to with mechanistic understanding?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we reliably predict when and how jailbreaking or safety bypasses might occur?
+        \item How can we identify internal signatures that predict specific failure modes like hallucination?
+        \item Can we develop methods to predict model behavior without requiring behavioral evaluations?
+        \item Can we find “values” or “goals” in systems that might be indicative of behavior in more generality?
+        \item Is it possible to prove the absence of specific dangerous capabilities through mechanistic analysis?
+    \end{enumerate}
+    
+    \item Can we develop formal verification methods for AI systems?
+    \begin{enumerate}[label=\alph*.]
+        \item Can current toy model verification approaches scale to frontier systems?
+        \item How much of neural computation can be reduced to verifiable symbolic operations?
+        \item Can we create formal guarantees about system behavior in complex, non-formalizable environments?
+        \item What level of mechanistic understanding is necessary for meaningful formal verification?
+    \end{enumerate}
+    
+    \item Can we make rigorous claims about model safety?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we definitively prove the absence of specific dangerous mechanisms?
+        \item How can we verify claims about model values and goals in a rigorous way?
+        \item What types of safety claims are possible with current interpretability methods?
+        \item Can we develop “enumerative safety” approaches that reliably identify all relevant mechanisms?
+    \end{enumerate}
+    
+    \item Can we better predict AI capability development through interpretability?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we identify early signatures that predict emergent capabilities?
+        \item How do model mechanisms evolve dynamically during training?
+        \item Can we map the connection between small-scale circuits and large-scale capabilities?
+        \item How does the loss landscape's structure relate to capability emergence?
+    \end{enumerate}
+    
+    \item Can we understand the relationship between training data and capabilities?
+    \begin{enumerate}[label=\alph*.]
+        \item How do specific training examples influence the development of model mechanisms?
+        \item Can we predict model limitations based on training data composition?
+        \item Can we design training data sets to reliably produce specific desired capabilities?
+        \item How does data set structure affect the balance between in-context and weights-based learning?
+    \end{enumerate}
+    
+    \item Can we predict latent or maskable capabilities?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we identify capabilities that could be `unlocked' through prompting or finetuning?
+        \item Can we detect when finetuning has masked rather than removed capabilities?
+        \item How do we analyze mechanisms that span multiple timesteps or sequential behaviors?
+        \item Can we predict which model capabilities are fundamental versus superficially trained?
+    \end{enumerate}
+\end{enumerate}
+
+\subsubsection{Using mechanistic interpretability to improve our ability to perform inference, improve training and make use of learned representations}
+\begin{enumerate}
+    \item Can we use interpretability to make inference more efficient?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we identify skippable computations without affecting outputs?
+        \item Can we create more effective distillation methods through mechanistic understanding?
+        \item How can we optimize model architecture based on component function analysis?
+        \item Can we identify and optimize critical computational pathways?
+    \end{enumerate}
+    
+    \item Can we improve training through mechanistic insights?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we better select training data by understanding example influence?
+        \item How can we monitor and optimize capability emergence during training?
+        \item Can we develop more parameter-efficient training methods through component analysis?
+        \item Can we create better architectures through component understanding?
+        \item Can we identify and enhance components with specific functionalities?
+    \end{enumerate}
+    
+    \item Can we instill capabilities directly into networks?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we design better inductive biases based on mechanistic insights?
+        \item Is it possible to create modular architectures with swappable components?
+        \item Can we develop reliable methods for combining model parameters?
+        \item Is it possible to transfer specific capabilities between models?
+    \end{enumerate}
+\end{enumerate}
+
+\subsubsection{Using mechanistic interpretability for 'microscope AI'}
+\begin{enumerate}
+    \item Can we leverage AI models for scientific discovery?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we extract novel patterns and predictors that models have found?
+        \item Can we make microscope AI techniques accessible to domain experts?
+        \item How do we validate scientific insights derived from model interpretability?
+        \item Can we extend microscope AI beyond current simple correlational discoveries?
+    \end{enumerate}
+    
+    \item Can we develop better knowledge extraction methods?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we detect when models have found genuinely novel patterns?
+        \item Can we automate the process of finding scientific insights in model weights?
+        \item How do we bridge the gap between model features and scientific concepts?
+        \item Can we make these techniques usable without deep machine learning expertise?
+    \end{enumerate}
+\end{enumerate}
+
+\subsubsection{Mechanistic interpretability on a broader range of models and model families}
+\begin{enumerate}
+    \item Can interpretability methods generalize across architectures?
+    \begin{enumerate}[label=\alph*.]
+        \item Do current interpretability methods (SDL, circuit analysis) transfer to SSMs? Or, like the transition from CNNs to transformers, are new approaches necessary?
+        \item Which insights are model-specific versus universal?
+        \item How can we adapt methods for multimodal models?
+    \end{enumerate}
+    
+    \item How do different models trained on similar data compare mechanistically?
+    \begin{enumerate}[label=\alph*.]
+        \item Is the “universality hypothesis” true across models? To what extent do neural networks learn similar features and circuits to each other (and to humans?)
+        \item Do different architectures learn fundamentally different features?
+        \item How do mechanisms of particular tasks differ between transformers, CNNs, and SSMs?
+        \item Are there insights we can gain from comparing architectures?
+    \end{enumerate}
+    
+    \item Can we future-proof interpretability research?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we prepare for interpreting novel architectures?
+        \item Should we focus on architecture-specific or general methods?
+        \item Can we identify truly fundamental interpretability principles?
+        \item Will current methods work on future frontier models?
+    \end{enumerate}
+\end{enumerate}
+
+\subsubsection{Human computer interaction with model internals}
+\begin{enumerate}
+    \item Can we create interfaces that use mechanistic understanding to enhance human-neural network interaction?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we visualize model internals in an intuitive way?
+        \item Can we develop real-time interpretability dashboards?
+        \item What's the right balance between simplicity and depth in these interfaces?
+        \item How do we make complex model mechanisms understandable to non-experts?
+    \end{enumerate}
+    
+    \item Can we develop interpretability tools to help auditors?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we help auditors find potential failure modes directly?
+        \item Can we develop tools to detect bias at the mechanism level?
+        \item What interfaces would make auditing more efficient and thorough?
+        \item How can we present technical findings to policy makers?
+    \end{enumerate}
+    
+    \item Can we improve end-user interaction with AI?
+    \begin{enumerate}[label=\alph*.]
+        \item How can transparency features help users calibrate trust?
+        \item Can we create intuitive controls based on model mechanisms?
+        \item Can we create intuitive ways to steer model behavior?
+    \end{enumerate}
+\end{enumerate}
+
+\subsubsection{Governance}
+\begin{enumerate}
+    \item Can mechanistic analysis help identify and prevent failures?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we identify specific mechanisms that caused AI failures?
+        \item How do we map the causal chain of mechanisms leading to incidents?
+        \item Can we detect when similar mechanisms are about to activate?
+        \item Is it possible to isolate and modify failure-causing mechanisms?
+    \end{enumerate}
+    
+    \item Can we study mechanism patterns related to governance?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we identify mechanisms responsible for specific dangerous capabilities?
+        \item How do we detect deceptive or evasive mechanisms?
+        \item Can we map the mechanisms involved in model decision-making?
+        \item Is it possible to verify the absence of specific harmful mechanisms?
+    \end{enumerate}
+    
+    \item Can mechanistic insights verify compliance?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we trace decision mechanisms to explain model outputs?
+        \item Can we identify mechanisms that process copyrighted content?
+        \item Is it possible to detect mechanisms that encode specific knowledge?
+        \item How do we verify modifications to problematic mechanisms?
+    \end{enumerate}
+\end{enumerate}
+
+\subsubsection{Open socio-technical problems in mechanistic interpretability}
+
+
+
+\parasection{Translating technical progress in mechanistic interpretability into levers for AI policy and governance}
+\begin{enumerate}
+    \item Can we use a mechanistic understanding to better evaluate AI capabilities?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we use interpretability to improve capability elicitation?
+        \item Can we use interpretability to reliably detect when models are strategically underperforming capabilities evaluations?
+    \end{enumerate}
+    
+    \item Can we use a mechanistic understanding to improve our ability to forecast when or whether new capabilities will arise ahead of time?
+
+    
+    \item How can we use interpretability to better estimate the likelihood of different threat models?
+
+
+    \item Can we use interpretability to prevent AI incidents?
+    \begin{enumerate}[label=\alph*.]
+        \item Can we use interpretability to construct reliable test-time monitors to detect AI incidents?
+        \item Can we use reliably prevent similar incidents in the future, by using interpretability to design new evaluation tasks on incident scenarios?
+    \end{enumerate}
+    \item Can interpretability help verify which workloads GPUs are being used for?
+    \item How should interpretability inform copyright law?
+    \item How can mechanistic understanding help resolve copyright challenges in generative AI, particularly regarding the detection and removal of memorized copyrighted works?
+\end{enumerate}
+
+
+\parasection{Social and philosophical challenges in mechanistic interpretability}
+\begin{enumerate}
+    \item What is interpretability?
+    \begin{enumerate}[label=\alph*.]
+        \item What are the goals of the field?
+        \item How should success be graded?
+        \item Should we treat interpretability as a science or an engineering discipline? What implications does this have on what research should be done?
+    \end{enumerate}
+    
+    \item How can we mitigate downside risks of interpretability research?
+    \begin{enumerate}[label=\alph*.]
+        \item How can we communicate the results of our research such that the risk of their misuse is minimized?
+    \end{enumerate}
+\end{enumerate}

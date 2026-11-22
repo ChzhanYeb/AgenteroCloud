@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:47:34.946Z",
+    "fingerprint": "9ea80c1dc929364dd7d61c48485dc76c084a63b55f7254cb5644a578cce0212c"
+  },
+  "citations": [
+    {
+      "id": "cite-2014arXiv1409.3215S",
+      "rawKey": "2014arXiv1409.3215S",
+      "display": "[1]",
+      "raw": "I. Sutskever, O. Vinyals, and Q. V. Le. Sequence to Sequence Learning with Neural Networks. ArXiv e-prints, September 2014, 1409.3215.",
+      "metadata": {
+        "year": 2014
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-6296526",
+      "rawKey": "6296526",
+      "display": "[2]",
+      "raw": "G. Hinton, L. Deng, D. Yu, G. E. Dahl, A. r. Mohamed, N. Jaitly, A. Senior, V. Vanhoucke, P. Nguyen, T. N. Sainath, and B. Kingsbury. Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups. IEEE Signal Processing Magazine, 29 (6): 82--97, Nov 2012. ISSN 1053-5888.",
+      "metadata": {
+        "year": 2012
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-PolytomousLR",
+      "rawKey": "PolytomousLR",
+      "display": "[3]",
+      "raw": "Engel J. Polytomous logistic regression. Statistica Neerlandica, 42 (4): 233--252.",
+      "metadata": {},
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-2015arXiv151204906C",
+      "rawKey": "2015arXiv151204906C",
+      "display": "[4]",
+      "raw": "W. Chen, D. Grangier, and M. Auli. Strategies for Training Large Vocabulary Neural Language Models. ArXiv e-prints, December 2015, 1512.04906.",
+      "metadata": {
+        "year": 2015
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-NIPS2017_7130",
+      "rawKey": "NIPS2017_7130",
+      "display": "[5]",
+      "raw": "Kyuhong Shim, Minjae Lee, Iksoo Choi, Yoonho Boo, and Wonyong Sung. Svd-softmax: Fast softmax approximation on large vocabulary neural networks. In Advances in Neural Information Processing Systems 30, pages 5463--5473. Curran Associates, Inc., 2017. URL http://papers.nips.cc/paper/7130-svd-softmax-fast-softmax-approximation-on-large-vocabulary-neural-networks.pdf.",
+      "metadata": {
+        "year": 2017,
+        "url": "http://papers.nips.cc/paper/7130-svd-softmax-fast-softmax-approximation-on-large-vocabulary-neural-networks.pdf"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-conf_icassp_Goodman01",
+      "rawKey": "conf_icassp_Goodman01",
+      "display": "[6]",
+      "raw": "Joshua Goodman. Classes for fast maximum entropy training. In ICASSP, pages 561--564. IEEE, 2001. ISBN 0-7803-7041-4. URL http://dblp.uni-trier.de/db/conf/icassp/icassp2001.html#Goodman01.",
+      "metadata": {
+        "year": 2001,
+        "url": "http://dblp.uni-trier.de/db/conf/icassp/icassp2001.html#Goodman01"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-5947611",
+      "rawKey": "5947611",
+      "display": "[7]",
+      "raw": "T. Mikolov, S. Kombrink, L. Burget, J. ÄernockÃ, and S. Khudanpur. Extensions of recurrent neural network language model. In 2011 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 5528--5531, May 2011.",
+      "metadata": {
+        "year": 2011
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-2016arXiv160904309G",
+      "rawKey": "2016arXiv160904309G",
+      "display": "[8]",
+      "raw": "E. Grave, A. Joulin, M. Cisse, D. Grangier, and H. Jegou. Efficient softmax approximation for GPUs. ArXiv e-prints, September 2016, 1609.04309.",
+      "metadata": {
+        "year": 2016
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Bengio-Senecal-2003",
+      "rawKey": "Bengio+Senecal-2003",
+      "display": "[9]",
+      "raw": "Yoshua Bengio and Jean-Sebastien Senecal. Quick training of probabilistic neural nets by importance sampling. In Proceedings of the conference on Artificial Intelligence and Statistics (AISTATS), 2003.",
+      "metadata": {
+        "year": 2003
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-2012arXiv1206.6426M",
+      "rawKey": "2012arXiv1206.6426M",
+      "display": "[10]",
+      "raw": "A. Mnih and Y. Whye Teh. A Fast and Simple Algorithm for Training Neural Probabilistic Language Models. ArXiv e-prints, June 2012, 1206.6426.",
+      "metadata": {
+        "year": 2012
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-2015arXiv151106909J",
+      "rawKey": "2015arXiv151106909J",
+      "display": "[11]",
+      "raw": "S. Ji, S. V. N. Vishwanathan, N. Satish, M. J. Anderson, and P. Dubey. BlackOut: Speeding up Recurrent Neural Network Language Models With Very Large Vocabularies. ArXiv e-prints, November 2015, 1511.06909.",
+      "metadata": {
+        "year": 2015
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Devlin14fastand",
+      "rawKey": "Devlin14fastand",
+      "display": "[12]",
+      "raw": "Jacob Devlin, Rabih Zbib, Zhongqiang Huang, Thomas Lamar, Richard Schwartz, and John Makhoul. Fast and robust neural network joint models for statistical machine translation. In Proceedings of ACL2014, pages 1370--1380, 2014.",
+      "metadata": {
+        "year": 2014
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-tensorflow2015-whitepaper",
+      "rawKey": "tensorflow2015-whitepaper",
+      "display": "[13]",
+      "raw": "Martn Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dandelion Mane, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viegas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. TensorFlow: Large-scale machine learning on heterogeneous systems, 2015. URL https://www.tensorflow.org/. Software available from tensorflow.org.",
+      "metadata": {
+        "year": 2015,
+        "url": "https://www.tensorflow.org/"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-paszke2017automatic",
+      "rawKey": "paszke2017automatic",
+      "display": "[14]",
+      "raw": "Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. Automatic differentiation in pytorch. In NIPS-W, 2017.",
+      "metadata": {
+        "year": 2017
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-mxnet_learningsys2015",
+      "rawKey": "mxnet_learningsys2015",
+      "display": "[15]",
+      "raw": "Tianqi Chen, Mu Li, Yutian Li, Min Lin, Naiyan Wang, Minjie Wang, Tianjun Xiao, Bing Xu, Chiyuan Zhang, and Zheng Zhang. Mxnet: A flexible and efficient machine learning library for heterogeneous distributed systems. In Proceedings of Workshop on Machine Learning Systems (LearningSys) in The Twenty-ninth Annual Conference on Neural Information Processing Systems (NIPS), 2015. URL https://github.com/dmlc/web-data/raw/master/mxnet/paper/mxnet-learningsys.pdf.",
+      "metadata": {
+        "year": 2015,
+        "url": "https://github.com/dmlc/web-data/raw/master/mxnet/paper/mxnet-learningsys.pdf"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Seide:2016:CMO:2939672.2945397",
+      "rawKey": "Seide:2016:CMO:2939672.2945397",
+      "display": "[16]",
+      "raw": "Frank Seide and Amit Agarwal. Cntk: Microsoft's open-source deep-learning toolkit. In Proceedings of the 22Nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, KDD '16, pages 2135--2135, New York, NY, USA, 2016. ACM. ISBN 978-1-4503-4232-2. URL http://doi.acm.org/10.1145/2939672.2945397.",
+      "metadata": {
+        "year": 2016,
+        "doi": "10.1145/2939672.2945397",
+        "url": "http://doi.acm.org/10.1145/2939672.2945397"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-chainer_learningsys2015",
+      "rawKey": "chainer_learningsys2015",
+      "display": "[17]",
+      "raw": "Seiya Tokui, Kenta Oono, Shohei Hido, and Justin Clayton. Chainer: a next-generation open source framework for deep learning. In Proceedings of Workshop on Machine Learning Systems (LearningSys) in The Twenty-ninth Annual Conference on Neural Information Processing Systems (NIPS), 2015. URL http://learningsys.org/papers/LearningSys_2015_paper_33.pdf.",
+      "metadata": {
+        "year": 2015,
+        "url": "http://learningsys.org/papers/LearningSys_2015_paper_33.pdf"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-doi:10.1080-00401706.1962.10490022",
+      "rawKey": "doi:10.1080/00401706.1962.10490022",
+      "display": "[18]",
+      "raw": "B. P. Welford. Note on a method for calculating corrected sums of squares and products. Technometrics, 4 (3): 419--420, 1962. URL https://amstat.tandfonline.com/doi/abs/10.1080/00401706.1962.10490022.",
+      "metadata": {
+        "year": 1962,
+        "doi": "10.1080/00401706.1962.10490022",
+        "url": "https://amstat.tandfonline.com/doi/abs/10.1080/00401706.1962.10490022"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    }
+  ],
+  "messages": [
+    "local: 18 entries (bbl)",
+    "semantic scholar failed: rate limited"
+  ]
+}

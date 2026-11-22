@@ -1,0 +1,203 @@
+\newcommand\benchmarkname{HELM\xspace}
+
+
+\newcommand\benchmarkUrl{\url{https://crfm.stanford.edu/helm/v0.1.0}}
+% \newcommand\benchmarkUrl{\url{https://nlp.stanford.edu/helm/current}}
+
+\newcommand\benchmarkUrlRuns{\url{https://crfm.stanford.edu/helm/v0.1.0/?runs=1}}
+% \newcommand\benchmarkUrlRuns{\url{https://nlp.stanford.edu/helm/current/?runs=1}}
+\newcommand\annotationURL{\url{https://github.com/stanford-crfm/helm/blob/main/src/benchmark/static/}}
+\newcommand\contaminationURL{\url{https://github.com/stanford-crfm/helm/blob/main/src/benchmark/static/contamination.yaml}}
+
+\newcommand\benchmarkUrlModels{\url{https://crfm.stanford.edu/helm/v0.1.0/?models=1}}
+% \newcommand\benchmarkUrlModels{\url{https://nlp.stanford.edu/helm/current/?models=1}}
+
+\newcommand\benchmarkUrlPrefix[1]{\url{https://crfm.stanford.edu/helm/v0.1.0/?group=#1}}
+% \newcommand\benchmarkUrlPrefix[1]{\url{https://nlp.stanford.edu/helm/current/?group=#1}}
+
+\newcommand\githubUrl{\url{https://github.com/stanford-crfm/helm}}
+
+\newcommand\core{core\xspace}
+\newcommand\numlmdatasets{405\xspace}
+\newcommand\numpriorevaluations{33\xspace} 
+\newcommand\numscenarios{42\xspace}
+\newcommand\numcoretasks{6\xspace}
+\newcommand\numcorescenarios{16\xspace}
+\newcommand\numcomponents{7\xspace}
+\newcommand\numcomponentscenarios{26\xspace}
+\newcommand\numnewscenarios{21\xspace}
+% Using this matrix, we define that \numnewscenarios of our scenarios were not mainstream in that across all \numpriorevaluations prior works, none had evaluated on this scenario. 
+\newcommand\nummetriccategories{7\xspace}
+\newcommand\nummetrics{7\xspace}
+\newcommand\numnonaccuracymetriccategories{6\xspace}
+
+% Models
+\newcommand\nummodels{30\xspace}
+\newcommand\numtextmodels{28\xspace}
+\newcommand\numcodemodels{2\xspace}
+\newcommand\nummodelfamilies{16\xspace}
+\newcommand\nummodelcreators{12\xspace}
+\newcommand\numpublicmodels{10\xspace}
+\newcommand\numlimitedmodels{17\xspace}
+\newcommand\numclosedmodels{3\xspace}
+\newcommand\gpuhours{GPU hours\xspace}
+
+\newcommand\numincontext{5\xspace}
+\newcommand\numruns{3\xspace}
+\newcommand\numevalinstances{1000\xspace}
+
+\newcommand\numfindings{25\xspace}
+
+\newcommand\numrunresults{4,939\xspace}
+\newcommand\nummetricresults{\textcolor{red}{M}\xspace}
+\newcommand\totaltokens{12,169,227,491\xspace}
+\newcommand\totalqueries{17,431,479\xspace}
+\newcommand\totaldollars{38,001\xspace}
+\newcommand\totalgpuhours{19,500\xspace}
+
+
+
+\newcommand\numsota{\textcolor{red}{N}\xspace}
+\newcommand\numpromptingsota{\textcolor{red}{N'}\xspace}
+
+% Outline: each paragraph should have a tldr
+\newcommand\tldr[1]{\textcolor{gray}{\textit{[#1]} \\}}
+\newcommand\tldrDone[1]{}
+\newcommand\todo[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand\todocite[1]{\textcolor{green}{[Add cite: #1]}}
+\newcommand\todomicrosoft[1]{\textcolor{red}{[TODO:@Microsoft #1]}}
+\newcommand\todotogether[1]{\textcolor{red}{[TODO:@Together #1]}}
+
+% Comments
+\newcommand\pl[1]{\textcolor{purple}{[PL: #1]}}
+\newcommand\rb[1]{\textcolor{magenta}{[RB: #1]}}
+\newcommand\michi[1]{\textcolor{cyan}{[Michi: #1]}}
+\newcommand\tl[1]{\textcolor{teal}{[TL: #1]}}
+\definecolor{CMpurple}{rgb}{0.6,0.18,0.64}
+\newcommand\cm[1]{\textcolor{CMpurple}{\textsf{\scriptsize[\textbf{CM\@:} #1]}}}
+
+
+\newcommand\eg{e.g.\xspace}
+\newcommand\ie{i.e.\xspace}
+\newcommand\cf{cf.\xspace}
+\newcommand\dash{\xspace---\xspace}
+
+% Metrics
+% Calibration
+\newcommand\pmax{p^{\sf{\max}}}
+\newcommand\ece{\mbox{ECE}}
+\newcommand\toxicity{\mbox{Toxicity}}
+\newcommand\scaa{\mbox{SCAA}}
+\newcommand\accAtTen{\mbox{acc@10\%}}
+\newcommand\accAtC{\mbox{acc@C\%}}
+\newcommand{\argmax}{\arg \max}
+
+% Models
+% Owner (num_models) (num_model_families)
+% AI21 (3) (1)
+\newcommand\jurassicjumbo{J1-Jumbo v1 (178B)\xspace}
+\newcommand\jurassicgrande{J1-Grande v1 (17B)\xspace}
+\newcommand\jurassiclarge{J1-Large v1 (7.5B)\xspace}
+
+% Anthropic (1) (1)
+\newcommand\anthropic{Anthropic-LM v4-s3 (52B)\xspace}
+
+% BigScience (2) (2)
+\newcommand\bloom{BLOOM (176B)\xspace}
+\newcommand\tzero{T0++ (11B)\xspace}
+
+% Cohere (4) (1)
+\newcommand\coherexl{Cohere xlarge v20220609 (52.4B)\xspace}
+\newcommand\coherel{Cohere large v20220720 (13.1B)\xspace}
+\newcommand\coherem{Cohere medium v20220720 (6.1B)\xspace}
+\newcommand\coheres{Cohere small v20220720 (410M)\xspace}
+
+% EleutherAI (2) (2)
+\newcommand\gptj{GPT-J (6B)\xspace}
+\newcommand\gptneox{GPT-NeoX (20B)\xspace}
+
+% Google (2) (2)
+\newcommand\tfive{T5 (11B)\xspace}
+\newcommand\ultwo{UL2 (20B)\xspace}
+
+% Meta (2) (1)
+\newcommand\optsixsix{OPT (66B)\xspace}
+\newcommand\optonesevenfive{OPT (175B)\xspace}
+
+% Microsoft (2) (1)
+\newcommand\mtnlgseven{TNLG v2 (6.7B)\xspace}
+\newcommand\mtnlgfivethreezero{TNLG v2 (530B)\xspace}
+
+% OpenAI (10) (3)
+\newcommand\gptdavinci{davinci (175B)\xspace}
+\newcommand\gptcurie{curie (6.7B)\xspace}
+\newcommand\gptbabbage{babbage (1.3B)\xspace}
+\newcommand\gptada{ada (350M)\xspace}
+\newcommand\instructdavinci{text-davinci-002\xspace}
+\newcommand\instructcurie{text-curie-001\xspace}
+\newcommand\instructbabbage{text-babbage-001\xspace}
+\newcommand\instructada{text-ada-001\xspace}
+\newcommand\davincicodex{code-davinci-002\xspace}
+\newcommand\cushmancodex{code-cushman-001 (12B)\xspace}
+
+% Tsinghua University (1) (1)
+\newcommand\glm{GLM (130B)\xspace}
+
+% Yandex (1) (1)
+\newcommand\yalm{YaLM (100B)\xspace}
+
+
+% Datasets
+\newcommand\dataset[1]{\textbf{#1}\xspace}
+\newcommand\scenarioname{\dataset{ScenarioName}}
+% QA
+\newcommand\naturalquestions{\dataset{NaturalQuestions}}
+\newcommand\newsqa{\dataset{NewsQA}}
+\newcommand\narrativeqa{\dataset{NarrativeQA}}
+\newcommand\quac{\dataset{QuAC}}
+\newcommand\boolq{\dataset{BoolQ}}
+\newcommand\hellaswag{\dataset{HellaSwag}}
+\newcommand\openbookqa{\dataset{OpenBookQA}}
+\newcommand\truthfulqa{\dataset{TruthfulQA}}
+\newcommand\mmlu{\dataset{MMLU}}
+% IR
+\newcommand\msmarcoregular{\dataset{MS MARCO (regular)}}
+\newcommand\msmarcotrec{\dataset{MS MARCO (TREC)}}
+% Summarization
+\newcommand\cnndm{\dataset{CNN/DailyMail}}
+\newcommand\xsum{\dataset{XSUM}}
+% Sentiment Analysis
+\newcommand\imdb{\dataset{IMDB}}
+% Toxicity Classification
+\newcommand\civilcomments{\dataset{CivilComments}}
+% Text Classification
+\newcommand\raft{\dataset{RAFT}}
+
+% Language
+\newcommand\wikitext{\dataset{WikiText-103}}
+\newcommand\pile{\dataset{The Pile}}
+\newcommand\twitteraae{\dataset{TwitterAAE}}
+\newcommand\ice{\dataset{ICE}}
+\newcommand\blimp{\dataset{BLiMP}}
+% Knowledge
+\newcommand\wikifact{\dataset{WikiFact}}
+% Reasoning
+\newcommand\babi{\dataset{bAbI}}
+\newcommand\gsm{\dataset{GSM8K}}
+\newcommand\MATH{\dataset{MATH}}
+\newcommand\codeapps{\dataset{APPS}}
+\newcommand\humaneval{\dataset{HumanEval}}
+\newcommand\lsat{\dataset{LSAT}}
+\newcommand\legalsupport{\dataset{LegalSupport}}
+\newcommand\dataimp{\dataset{DataImputation}}
+\newcommand\entmatch{\dataset{EntityMatching}}
+% Copyright
+\newcommand\cpyr{\dataset{Copyright}}
+% Disinformation
+\newcommand\mrf{\dataset{MisinfoReactionFrames}}
+\newcommand\cset{\dataset{CSET}}
+% Bias
+\newcommand\bbq{\dataset{BBQ}}
+% Toxicity
+\newcommand\realtoxicityprompts{\dataset{RealToxicityPrompts}}
+\newcommand\bolddataset{\dataset{BOLD}}

@@ -1,0 +1,499 @@
+\begin{thebibliography}{80}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abraham et~al.(2022)Abraham, D'Oosterlinck, Feder, Gat, Geiger, Potts, Reichart, and Wu]{abraham2022cebab}
+Abraham, E.~D., D'Oosterlinck, K., Feder, A., Gat, Y.~O., Geiger, A., Potts, C., Reichart, R., and Wu, Z.
+\newblock {CEB}ab: Estimating the causal effects of real-world concepts on {NLP} model behavior.
+\newblock In Oh, A.~H., Agarwal, A., Belgrave, D., and Cho, K. (eds.), \emph{Advances in Neural Information Processing Systems}, 2022.
+\newblock URL \url{https://openreview.net/forum?id=3AbigH4s-ml}.
+
+\bibitem[Amini et~al.(2023)Amini, Pimentel, Meister, and Cotterell]{amini-etal-2023-naturalistic}
+Amini, A., Pimentel, T., Meister, C., and Cotterell, R.
+\newblock Naturalistic causal probing for morpho-syntax.
+\newblock \emph{Transactions of the Association for Computational Linguistics}, 11:\penalty0 384--403, 2023.
+\newblock \doi{10.1162/tacl_a_00554}.
+\newblock URL \url{https://aclanthology.org/2023.tacl-1.23/}.
+
+\bibitem[Arora et~al.(2024)Arora, Jurafsky, and Potts]{arora2024}
+Arora, A., Jurafsky, D., and Potts, C.
+\newblock Causal{G}ym: Benchmarking causal interpretability methods on linguistic tasks.
+\newblock In Ku, L., Martins, A., and Srikumar, V. (eds.), \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), {ACL} 2024, Bangkok, Thailand, August 11-16, 2024}, pp.\  14638--14663. Association for Computational Linguistics, 2024.
+\newblock \doi{10.18653/V1/2024.ACL-LONG.785}.
+\newblock URL \url{https://doi.org/10.18653/v1/2024.acl-long.785}.
+
+\bibitem[Atanasova et~al.(2023)Atanasova, Camburu, Lioma, Lukasiewicz, Simonsen, and Augenstein]{atanasova-etal-2023-faithfulness}
+Atanasova, P., Camburu, O.-M., Lioma, C., Lukasiewicz, T., Simonsen, J.~G., and Augenstein, I.
+\newblock Faithfulness tests for natural language explanations.
+\newblock In Rogers, A., Boyd-Graber, J., and Okazaki, N. (eds.), \emph{Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)}, pp.\  283--294, Toronto, Canada, July 2023. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.acl-short.25}.
+\newblock URL \url{https://aclanthology.org/2023.acl-short.25/}.
+
+\bibitem[Bricken et~al.(2023)Bricken, Templeton, Batson, Chen, Jermyn, Conerly, Turner, Anil, Denison, Askell, Lasenby, Wu, Kravec, Schiefer, Maxwell, Joseph, Hatfield-Dodds, Tamkin, Nguyen, McLean, Burke, Hume, Carter, Henighan, and Olah]{bricken2023monosemanticity}
+Bricken, T., Templeton, A., Batson, J., Chen, B., Jermyn, A., Conerly, T., Turner, N., Anil, C., Denison, C., Askell, A., Lasenby, R., Wu, Y., Kravec, S., Schiefer, N., Maxwell, T., Joseph, N., Hatfield-Dodds, Z., Tamkin, A., Nguyen, K., McLean, B., Burke, J.~E., Hume, T., Carter, S., Henighan, T., and Olah, C.
+\newblock Towards monosemanticity: Decomposing language models with dictionary learning.
+\newblock In \emph{Transformer Circuits Thread}, 2023.
+\newblock URL \url{https://transformer-circuits.pub/2023/monosemantic-features/index.html}.
+
+\bibitem[Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal, Neelakantan, Shyam, Sastry, Askell, Agarwal, Herbert-Voss, Krueger, Henighan, Child, Ramesh, Ziegler, Wu, Winter, Hesse, Chen, Sigler, Litwin, Gray, Chess, Clark, Berner, McCandlish, Radford, Sutskever, and Amodei]{gpt3}
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J.~D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D., Wu, J., Winter, C., Hesse, C., Chen, M., Sigler, E., Litwin, M., Gray, S., Chess, B., Clark, J., Berner, C., McCandlish, S., Radford, A., Sutskever, I., and Amodei, D.
+\newblock Language models are few-shot learners.
+\newblock In Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M., and Lin, H. (eds.), \emph{Advances in Neural Information Processing Systems}, volume~33, pp.\  1877--1901. Curran Associates, Inc., 2020.
+\newblock URL \url{https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf}.
+
+\bibitem[Cao et~al.(2020)Cao, Schlichtkrull, Aziz, and Titov]{Cao2020}
+Cao, N.~D., Schlichtkrull, M.~S., Aziz, W., and Titov, I.
+\newblock How do decisions emerge across layers in neural models? {I}nterpretation with differentiable masking.
+\newblock In Webber, B., Cohn, T., He, Y., and Liu, Y. (eds.), \emph{Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)}, pp.\  3243--3255, Online, November 2020. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.emnlp-main.262}.
+\newblock URL \url{https://aclanthology.org/2020.emnlp-main.262/}.
+
+\bibitem[Cao et~al.(2022)Cao, Schmid, Hupkes, and Titov]{Cao2022}
+Cao, N.~D., Schmid, L., Hupkes, D., and Titov, I.
+\newblock Sparse interventions in language models with differentiable masking.
+\newblock In \emph{Proceedings of the Fifth BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP}, 2022.
+\newblock URL \url{https://doi.org/10.18653/v1/2022.blackboxnlp-1.2}.
+
+\bibitem[Chan et~al.(2022)Chan, Garriga-Alonso, Goldwosky-Dill, Greenblatt, Nitishinskaya, Radhakrishnan, Shlegeris, and Thomas]{chan2022causal}
+Chan, L., Garriga-Alonso, A., Goldwosky-Dill, N., Greenblatt, R., Nitishinskaya, J., Radhakrishnan, A., Shlegeris, B., and Thomas, N.
+\newblock Causal scrubbing, a method for rigorously testing interpretability hypotheses.
+\newblock \emph{AI Alignment Forum}, 2022.
+\newblock \url{https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing}.
+
+\bibitem[Chaudhary \& Geiger(2024)Chaudhary and Geiger]{chaudhary2024evaluatingopensourcesparseautoencoders}
+Chaudhary, M. and Geiger, A.
+\newblock Evaluating open-source sparse autoencoders on disentangling factual knowledge in {GPT}-2 small.
+\newblock \emph{CoRR}, abs/2409.04478, 2024.
+\newblock URL \url{https://arxiv.org/abs/2409.04478}.
+
+\bibitem[Clark et~al.(2018)Clark, Cowhey, Etzioni, Khot, Sabharwal, Schoenick, and Tafjord]{clark2018think}
+Clark, P., Cowhey, I., Etzioni, O., Khot, T., Sabharwal, A., Schoenick, C., and Tafjord, O.
+\newblock Think you have solved question answering? {T}ry {ARC}, the {AI2} {R}easoning {C}hallenge.
+\newblock \emph{arXiv preprint arXiv:1803.05457}, 2018.
+\newblock URL \url{https://arxiv.org/abs/1803.05457}.
+
+\bibitem[Cohen et~al.(2024)Cohen, Biran, Yoran, Globerson, and Geva]{cohen-etal-2024-evaluating}
+Cohen, R., Biran, E., Yoran, O., Globerson, A., and Geva, M.
+\newblock Evaluating the ripple effects of knowledge editing in language models.
+\newblock \emph{Transactions of the Association for Computational Linguistics}, 12:\penalty0 283--298, 2024.
+\newblock \doi{10.1162/tacl_a_00644}.
+\newblock URL \url{https://aclanthology.org/2024.tacl-1.16/}.
+
+\bibitem[Conmy et~al.(2023)Conmy, Mavor-Parker, Lynch, Heimersheim, and Garriga-Alonso]{conmy2023towards}
+Conmy, A., Mavor-Parker, A., Lynch, A., Heimersheim, S., and Garriga-Alonso, A.
+\newblock Towards automated circuit discovery for mechanistic interpretability.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36:\penalty0 16318--16352, 2023.
+
+\bibitem[Csord{\'a}s et~al.(2021)Csord{\'a}s, van Steenkiste, and Schmidhuber]{Csordas2021}
+Csord{\'a}s, R., van Steenkiste, S., and Schmidhuber, J.
+\newblock Are neural nets modular? {I}nspecting functional modularity through differentiable weight masks.
+\newblock In \emph{International Conference on Learning Representations}, 2021.
+\newblock URL \url{https://openreview.net/forum?id=7uVcpu-gMD}.
+
+\bibitem[Csord{\'a}s et~al.(2024)Csord{\'a}s, Potts, Manning, and Geiger]{csordas2024recurrent}
+Csord{\'a}s, R., Potts, C., Manning, C.~D., and Geiger, A.
+\newblock Recurrent neural networks learn to store and generate sequences using non-linear representations.
+\newblock In \emph{The 7th BlackboxNLP Workshop}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=NUQeYgg8x4}.
+
+\bibitem[Dai et~al.(2024)Dai, Heinzerling, and Inui]{dai-etal-2024-representational}
+Dai, Q., Heinzerling, B., and Inui, K.
+\newblock Representational analysis of binding in language models.
+\newblock In Al-Onaizan, Y., Bansal, M., and Chen, Y.-N. (eds.), \emph{Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing}, pp.\  17468--17493, Miami, Florida, USA, November 2024. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.emnlp-main.967}.
+\newblock URL \url{https://aclanthology.org/2024.emnlp-main.967/}.
+
+\bibitem[Davies et~al.(2023)Davies, Nadeau, Prakash, Shaham, and Bau]{Davies2023}
+Davies, X., Nadeau, M., Prakash, N., Shaham, T.~R., and Bau, D.
+\newblock Discovering variable binding circuitry with desiderata.
+\newblock \emph{CoRR}, abs/2307.03637, 2023.
+\newblock \doi{10.48550/ARXIV.2307.03637}.
+\newblock URL \url{https://doi.org/10.48550/arXiv.2307.03637}.
+
+\bibitem[Dubey et~al.(2024)Dubey, Jauhri, Pandey, Kadian, Al-Dahle, Letman, Mathur, Schelten, Yang, Fan, et~al.]{llama3}
+Dubey, A., Jauhri, A., Pandey, A., Kadian, A., Al-Dahle, A., Letman, A., Mathur, A., Schelten, A., Yang, A., Fan, A., et~al.
+\newblock The {L}lama 3 herd of models.
+\newblock \emph{CoRR}, abs/2407.21783, 2024.
+\newblock URL \url{https://arxiv.org/abs/2407.21783}.
+
+\bibitem[Ferrando \& Voita(2024)Ferrando and Voita]{ferrando-voita-2024-information}
+Ferrando, J. and Voita, E.
+\newblock Information flow routes: Automatically interpreting language models at scale.
+\newblock In Al-Onaizan, Y., Bansal, M., and Chen, Y.-N. (eds.), \emph{Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing}, pp.\  17432--17445, Miami, Florida, USA, November 2024. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.emnlp-main.965}.
+\newblock URL \url{https://aclanthology.org/2024.emnlp-main.965/}.
+
+\bibitem[Ferrando et~al.(2024)Ferrando, Sarti, Bisazza, and Costa{-}juss{\`{a}}]{Ferrando2024}
+Ferrando, J., Sarti, G., Bisazza, A., and Costa{-}juss{\`{a}}, M.~R.
+\newblock A primer on the inner workings of transformer-based language models.
+\newblock \emph{CoRR}, abs/2405.00208, 2024.
+\newblock \doi{10.48550/ARXIV.2405.00208}.
+\newblock URL \url{https://doi.org/10.48550/arXiv.2405.00208}.
+
+\bibitem[Finlayson et~al.(2021)Finlayson, Mueller, Gehrmann, Shieber, Linzen, and Belinkov]{finlayson-etal-2021-causal}
+Finlayson, M., Mueller, A., Gehrmann, S., Shieber, S., Linzen, T., and Belinkov, Y.
+\newblock Causal analysis of syntactic agreement mechanisms in neural language models.
+\newblock In Zong, C., Xia, F., Li, W., and Navigli, R. (eds.), \emph{Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}, pp.\  1828--1843, Online, August 2021. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2021.acl-long.144}.
+\newblock URL \url{https://aclanthology.org/2021.acl-long.144/}.
+
+\bibitem[Geiger et~al.(2020)Geiger, Richardson, and Potts]{geiger-etal-2020-neural}
+Geiger, A., Richardson, K., and Potts, C.
+\newblock Neural natural language inference models partially embed theories of lexical entailment and negation.
+\newblock In Alishahi, A., Belinkov, Y., Chrupa{\l}a, G., Hupkes, D., Pinter, Y., and Sajjad, H. (eds.), \emph{Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP}, pp.\  163--173, Online, November 2020. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.blackboxnlp-1.16}.
+\newblock URL \url{https://aclanthology.org/2020.blackboxnlp-1.16/}.
+
+\bibitem[Geiger et~al.(2021)Geiger, Lu, Icard, and Potts]{geiger2021}
+Geiger, A., Lu, H., Icard, T., and Potts, C.
+\newblock Causal abstractions of neural networks.
+\newblock In Ranzato, M., Beygelzimer, A., Dauphin, Y.~N., Liang, P., and Vaughan, J.~W. (eds.), \emph{Advances in Neural Information Processing Systems 34: Annual Conference on Neural Information Processing Systems 2021, NeurIPS 2021, December 6-14, 2021, virtual}, pp.\  9574--9586, 2021.
+\newblock URL \url{https://proceedings.neurips.cc/paper/2021/hash/4f5c422f4d49a5a807eda27434231040-Abstract.html}.
+
+\bibitem[Geiger et~al.(2024{\natexlab{a}})Geiger, Ibeling, Zur, Chaudhary, Chauhan, Huang, Arora, Wu, Goodman, Potts, and Icard]{geiger2024causalabstractiontheoreticalfoundation}
+Geiger, A., Ibeling, D., Zur, A., Chaudhary, M., Chauhan, S., Huang, J., Arora, A., Wu, Z., Goodman, N., Potts, C., and Icard, T.
+\newblock Causal abstraction: A theoretical foundation for mechanistic interpretability.
+\newblock \emph{CoRR}, abs/2301.04709, 2024{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2301.04709}.
+
+\bibitem[Geiger et~al.(2024{\natexlab{b}})Geiger, Wu, Potts, Icard, and Goodman]{Geiger2024DAS}
+Geiger, A., Wu, Z., Potts, C., Icard, T., and Goodman, N.~D.
+\newblock Finding alignments between interpretable causal variables and distributed neural representations.
+\newblock In Locatello, F. and Didelez, V. (eds.), \emph{Causal Learning and Reasoning, 1-3 April 2024, Los Angeles, California, {USA}}, volume 236 of \emph{Proceedings of Machine Learning Research}, pp.\  160--187. {PMLR}, 2024{\natexlab{b}}.
+\newblock URL \url{https://proceedings.mlr.press/v236/geiger24a.html}.
+
+\bibitem[Gupta et~al.(2024)Gupta, Arcuschin, Kwa, and Garriga-Alonso]{gupta2024interpbench}
+Gupta, R., Arcuschin, I., Kwa, T., and Garriga-Alonso, A.
+\newblock Interp{B}ench: Semi-synthetic transformers for evaluating mechanistic interpretability techniques.
+\newblock In \emph{The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=R9gR9MPuD5}.
+
+\bibitem[Hanna et~al.(2024)Hanna, Pezzelle, and Belinkov]{hanna2024have}
+Hanna, M., Pezzelle, S., and Belinkov, Y.
+\newblock Have faith in faithfulness: Going beyond circuit overlap when finding model mechanisms.
+\newblock In \emph{ICML 2024 Workshop on Mechanistic Interpretability}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=grXgesr5dT}.
+
+\bibitem[He et~al.(2024)He, Shu, Ge, Chen, Wang, Zhou, Liu, Guo, Huang, Wu, Jiang, and Qiu]{Llamascope}
+He, Z., Shu, W., Ge, X., Chen, L., Wang, J., Zhou, Y., Liu, F., Guo, Q., Huang, X., Wu, Z., Jiang, Y., and Qiu, X.
+\newblock Llama {S}cope: Extracting millions of features from llama-3.1-8b with sparse autoencoders.
+\newblock \emph{CoRR}, abs/2410.20526, 2024.
+\newblock \doi{10.48550/ARXIV.2410.20526}.
+\newblock URL \url{https://doi.org/10.48550/arXiv.2410.20526}.
+
+\bibitem[Hewitt et~al.(2025)Hewitt, Geirhos, and Kim]{hewitt2025cantunderstandaiusing}
+Hewitt, J., Geirhos, R., and Kim, B.
+\newblock We can't understand {AI} using our existing vocabulary.
+\newblock \emph{CoRR}, abs/2502.07586, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.07586}.
+
+\bibitem[Huang et~al.(2024{\natexlab{a}})Huang, Wu, Potts, Geva, and Geiger]{huang-etal-2024-ravel}
+Huang, J., Wu, Z., Potts, C., Geva, M., and Geiger, A.
+\newblock {RAVEL}: Evaluating interpretability methods on disentangling language model representations.
+\newblock In Ku, L.-W., Martins, A., and Srikumar, V. (eds.), \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pp.\  8669--8687, Bangkok, Thailand, August 2024{\natexlab{a}}. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.acl-long.470}.
+\newblock URL \url{https://aclanthology.org/2024.acl-long.470/}.
+
+\bibitem[Huang et~al.(2024{\natexlab{b}})Huang, Hu, Han, Liu, and Sun]{huang2024unified}
+Huang, Y., Hu, S., Han, X., Liu, Z., and Sun, M.
+\newblock Unified view of grokking, double descent and emergent abilities: A comprehensive study on algorithm task.
+\newblock In \emph{First Conference on Language Modeling}, 2024{\natexlab{b}}.
+\newblock URL \url{https://openreview.net/forum?id=cG1EbmWiSs}.
+
+\bibitem[Huben et~al.(2024)Huben, Cunningham, Smith, Ewart, and Sharkey]{cunningham2023sparse}
+Huben, R., Cunningham, H., Smith, L.~R., Ewart, A., and Sharkey, L.
+\newblock Sparse autoencoders find highly interpretable features in language models.
+\newblock In \emph{The Twelfth International Conference on Learning Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=F76bwRSLeK}.
+
+\bibitem[Jiang et~al.(2023)Jiang, Sablayrolles, Mensch, Bamford, Chaplot, de~las Casas, Bressand, Lengyel, Lample, Saulnier, Lavaud, Lachaux, Stock, Scao, Lavril, Wang, Lacroix, and Sayed]{jiang2023mistral7b}
+Jiang, A.~Q., Sablayrolles, A., Mensch, A., Bamford, C., Chaplot, D.~S., de~las Casas, D., Bressand, F., Lengyel, G., Lample, G., Saulnier, L., Lavaud, L.~R., Lachaux, M.-A., Stock, P., Scao, T.~L., Lavril, T., Wang, T., Lacroix, T., and Sayed, W.~E.
+\newblock Mistral 7b.
+\newblock \emph{CoRR}, abs/2310.06825, 2023.
+\newblock URL \url{https://arxiv.org/abs/2310.06825}.
+
+\bibitem[Karpas et~al.(2022)Karpas, Abend, Belinkov, Lenz, Lieber, Ratner, Shoham, Bata, Levine, Leyton-Brown, et~al.]{karpas2022mrkl}
+Karpas, E., Abend, O., Belinkov, Y., Lenz, B., Lieber, O., Ratner, N., Shoham, Y., Bata, H., Levine, Y., Leyton-Brown, K., et~al.
+\newblock {MRKL} systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning.
+\newblock \emph{arXiv preprint arXiv:2205.00445}, 2022.
+
+\bibitem[Karvonen et~al.(2025)Karvonen, Rager, Lin, Tigges, Bloom, Chanin, Lau, Farrell, Conmy, McDougall, Ayonrinde, Wearden, Marks, and Nanda]{saebench}
+Karvonen, A., Rager, C., Lin, J., Tigges, C., Bloom, J., Chanin, D., Lau, Y.-T., Farrell, E., Conmy, A., McDougall, C., Ayonrinde, K., Wearden, M., Marks, S., and Nanda, N.
+\newblock {S}{A}{E}{B}ench: A comprehensive benchmark for sparse autoencoders, 2025.
+\newblock URL \url{https://www.neuronpedia.org/sae-bench}.
+
+\bibitem[Li \& Janson(2024)Li and Janson]{li2024optimal}
+Li, M. and Janson, L.
+\newblock Optimal ablation for interpretability.
+\newblock In \emph{The Thirty-eighth Annual Conference on Neural Information Processing Systems}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=opt72TYzwZ}.
+
+\bibitem[Li \& Gao(2024)Li and Gao]{li2024anchored}
+Li, R. and Gao, Y.
+\newblock Anchored answers: Unravelling positional bias in {GPT}-2's multiple-choice questions.
+\newblock arXiv preprint arXiv:2405.03205, 2024.
+\newblock URL \url{https://arxiv.org/abs/2405.03205}.
+
+\bibitem[Lieberum et~al.(2023{\natexlab{a}})Lieberum, Rahtz, Kram{\'a}r, Irving, Shah, and Mikulik]{lieberum2023does}
+Lieberum, T., Rahtz, M., Kram{\'a}r, J., Irving, G., Shah, R., and Mikulik, V.
+\newblock Does circuit analysis interpretability scale? {E}vidence from multiple choice capabilities in chinchilla.
+\newblock arXiv preprint arXiv:2307.09458, 2023{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2307.09458}.
+
+\bibitem[Lieberum et~al.(2023{\natexlab{b}})Lieberum, Rahtz, Kramár, Nanda, Irving, Shah, and Mikulik]{lieberum2023doescircuitanalysisinterpretability}
+Lieberum, T., Rahtz, M., Kramár, J., Nanda, N., Irving, G., Shah, R., and Mikulik, V.
+\newblock Does circuit analysis interpretability scale? evidence from multiple choice capabilities in chinchilla.
+\newblock \emph{CoRR}, abs/2307.09458, 2023{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2307.09458}.
+
+\bibitem[Lieberum et~al.(2024)Lieberum, Rajamanoharan, Conmy, Smith, Sonnerat, Varma, Kramar, Dragan, Shah, and Nanda]{Lieberum2024}
+Lieberum, T., Rajamanoharan, S., Conmy, A., Smith, L., Sonnerat, N., Varma, V., Kramar, J., Dragan, A., Shah, R., and Nanda, N.
+\newblock Gemma {S}cope: Open sparse autoencoders everywhere all at once on {G}emma 2.
+\newblock In Belinkov, Y., Kim, N., Jumelet, J., Mohebbi, H., Mueller, A., and Chen, H. (eds.), \emph{Proceedings of the 7th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP}, pp.\  278--300, Miami, Florida, US, November 2024. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.blackboxnlp-1.19}.
+\newblock URL \url{https://aclanthology.org/2024.blackboxnlp-1.19/}.
+
+\bibitem[Liu et~al.(2023)Liu, Michaud, and Tegmark]{liu2023omnigrok}
+Liu, Z., Michaud, E.~J., and Tegmark, M.
+\newblock Omnigrok: Grokking beyond algorithmic data.
+\newblock In \emph{The Eleventh International Conference on Learning Representations}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=zDiHoIWa0q1}.
+
+\bibitem[Marks \& Tegmark(2024)Marks and Tegmark]{marks2023geometry}
+Marks, S. and Tegmark, M.
+\newblock The geometry of truth: Emergent linear structure in large language model representations of true/false datasets.
+\newblock In \emph{First Conference on Language Modeling}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=aajyHYjjsk}.
+
+\bibitem[Marks et~al.(2025)Marks, Rager, Michaud, Belinkov, Bau, and Mueller]{marks2024sparsefeaturecircuitsdiscovering}
+Marks, S., Rager, C., Michaud, E.~J., Belinkov, Y., Bau, D., and Mueller, A.
+\newblock Sparse feature circuits: Discovering and editing interpretable causal graphs in language models.
+\newblock In \emph{The Thirteenth International Conference on Learning Representations}, 2025.
+\newblock URL \url{https://openreview.net/forum?id=I4e82CIDxv}.
+
+\bibitem[Meng et~al.(2022)Meng, Bau, Andonian, and Belinkov]{meng2022locating}
+Meng, K., Bau, D., Andonian, A.~J., and Belinkov, Y.
+\newblock Locating and editing factual associations in {GPT}.
+\newblock In Oh, A.~H., Agarwal, A., Belgrave, D., and Cho, K. (eds.), \emph{Advances in Neural Information Processing Systems}, 2022.
+\newblock URL \url{https://openreview.net/forum?id=-h6WAS6eE4}.
+
+\bibitem[Merullo et~al.(2024)Merullo, Eickhoff, and Pavlick]{merullo2023circuit}
+Merullo, J., Eickhoff, C., and Pavlick, E.
+\newblock Circuit component reuse across tasks in transformer language models.
+\newblock In \emph{The Twelfth International Conference on Learning Representations, {ICLR} 2024, Vienna, Austria, May 7-11, 2024}. OpenReview.net, 2024.
+\newblock URL \url{https://openreview.net/forum?id=fpoAYV6Wsk}.
+
+\bibitem[Miller et~al.(2024)Miller, Chughtai, and Saunders]{miller2024transformer}
+Miller, J., Chughtai, B., and Saunders, W.
+\newblock Transformer circuit evaluation metrics are not robust.
+\newblock In \emph{First Conference on Language Modeling}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=zSf8PJyQb2}.
+
+\bibitem[Mills et~al.(2023)Mills, Su, Russell, and Emmons]{mills2023almanacs}
+Mills, E., Su, S., Russell, S., and Emmons, S.
+\newblock Almanacs: A simulatability benchmark for language model explainability.
+\newblock \emph{CoRR}, abs/2312.12747, 2023.
+
+\bibitem[Mueller(2024)]{mueller2024missed}
+Mueller, A.
+\newblock Missed causes and ambiguous effects: Counterfactuals pose challenges for interpreting neural networks.
+\newblock In \emph{ICML 2024 Workshop on Mechanistic Interpretability}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=pJs3ZiKBM5}.
+
+\bibitem[Mueller et~al.(2024)Mueller, Brinkmann, Li, Marks, Pal, Prakash, Rager, Sankaranarayanan, Sharma, Sun, Todd, Bau, and Belinkov]{mueller2024questrightmediatorhistory}
+Mueller, A., Brinkmann, J., Li, M., Marks, S., Pal, K., Prakash, N., Rager, C., Sankaranarayanan, A., Sharma, A.~S., Sun, J., Todd, E., Bau, D., and Belinkov, Y.
+\newblock The quest for the right mediator: A history, survey, and theoretical grounding of causal interpretability.
+\newblock \emph{CoRR}, abs/2408.01416, 2024.
+\newblock URL \url{https://arxiv.org/abs/2408.01416}.
+
+\bibitem[Nanda(2023)]{nanda2023attribution}
+Nanda, N.
+\newblock Attribution {Patching}: {Activation} {Patching} {At} {Industrial} {Scale}, 2023.
+\newblock URL \url{https://www.neelnanda.io/mechanistic-interpretability/attribution-patching}.
+
+\bibitem[Nanda et~al.(2023)Nanda, Chan, Lieberum, Smith, and Steinhardt]{nanda2023progress}
+Nanda, N., Chan, L., Lieberum, T., Smith, J., and Steinhardt, J.
+\newblock Progress measures for grokking via mechanistic interpretability.
+\newblock In \emph{The Eleventh International Conference on Learning Representations}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=9XFSbDPmdW}.
+
+\bibitem[Nikankin et~al.(2025)Nikankin, Reusch, Mueller, and Belinkov]{nikankin2025arithmetic}
+Nikankin, Y., Reusch, A., Mueller, A., and Belinkov, Y.
+\newblock Arithmetic without algorithms: Language models solve math with a bag of heuristics.
+\newblock In \emph{The Thirteenth International Conference on Learning Representations}, 2025.
+\newblock URL \url{https://openreview.net/forum?id=O9YTt26r2P}.
+
+\bibitem[Norlund et~al.(2021)Norlund, Hagstr{\"o}m, and Johansson]{norlund-etal-2021-transferring}
+Norlund, T., Hagstr{\"o}m, L., and Johansson, R.
+\newblock Transferring knowledge from vision to language: How to achieve it and how to measure it?
+\newblock In Bastings, J., Belinkov, Y., Dupoux, E., Giulianelli, M., Hupkes, D., Pinter, Y., and Sajjad, H. (eds.), \emph{Proceedings of the Fourth BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP}, pp.\  149--162, Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2021.blackboxnlp-1.10}.
+\newblock URL \url{https://aclanthology.org/2021.blackboxnlp-1.10/}.
+
+\bibitem[Olah et~al.(2020)Olah, Cammarata, Schubert, Goh, Petrov, and Carter]{olah2020zoom}
+Olah, C., Cammarata, N., Schubert, L., Goh, G., Petrov, M., and Carter, S.
+\newblock Zoom in: An introduction to circuits.
+\newblock \emph{Distill}, 2020.
+\newblock \doi{10.23915/distill.00024.001}.
+\newblock https://distill.pub/2020/circuits/zoom-in.
+
+\bibitem[OpenAI(2022)]{openai2022chatgpt}
+OpenAI.
+\newblock Chat{GPT}.
+\newblock \url{https://openai.com/chatgpt}, 2022.
+
+\bibitem[Paik et~al.(2021)Paik, Aroca-Ouellette, Roncone, and Kann]{paik-etal-2021-world}
+Paik, C., Aroca-Ouellette, S., Roncone, A., and Kann, K.
+\newblock {T}he {W}orld of an {O}ctopus: {H}ow {R}eporting {B}ias {I}nfluences a {L}anguage {M}odel`s {P}erception of {C}olor.
+\newblock In Moens, M.-F., Huang, X., Specia, L., and Yih, S. W.-t. (eds.), \emph{Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing}, pp.\  823--835, Online and Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2021.emnlp-main.63}.
+\newblock URL \url{https://aclanthology.org/2021.emnlp-main.63/}.
+
+\bibitem[Pearl(2001)]{pearl2001indirect}
+Pearl, J.
+\newblock Direct and indirect effects.
+\newblock In \emph{Proceedings of the Seventeenth Conference on Uncertainty in Artificial Intelligence}, UAI'01, pp.\  411–420, San Francisco, CA, USA, 2001. Morgan Kaufmann Publishers Inc.
+\newblock ISBN 1558608001.
+
+\bibitem[Prakash et~al.(2024)Prakash, Shaham, Haklay, Belinkov, and Bau]{PrakashSHBB24}
+Prakash, N., Shaham, T.~R., Haklay, T., Belinkov, Y., and Bau, D.
+\newblock Fine-tuning enhances existing mechanisms: {A} case study on entity tracking.
+\newblock In \emph{The Twelfth International Conference on Learning Representations, {ICLR} 2024, Vienna, Austria, May 7-11, 2024}. OpenReview.net, 2024.
+\newblock URL \url{https://openreview.net/forum?id=8sKcAWOf2D}.
+
+\bibitem[Radford et~al.(2019)Radford, Wu, Child, Luan, Amodei, Sutskever, et~al.]{radford2019language}
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I., et~al.
+\newblock Language models are unsupervised multitask learners.
+\newblock Blog post, 2019.
+\newblock URL \url{https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}.
+
+\bibitem[R{\"{a}}uker et~al.(2023)R{\"{a}}uker, Ho, Casper, and Hadfield{-}Menell]{Rauker2023}
+R{\"{a}}uker, T., Ho, A., Casper, S., and Hadfield{-}Menell, D.
+\newblock Toward transparent {AI:} {A} survey on interpreting the inner structures of deep neural networks.
+\newblock In \emph{2023 {IEEE} Conference on Secure and Trustworthy Machine Learning, SaTML 2023, Raleigh, NC, USA, February 8-10, 2023}, pp.\  464--483. {IEEE}, 2023.
+\newblock \doi{10.1109/SATML54575.2023.00039}.
+\newblock URL \url{https://doi.org/10.1109/SaTML54575.2023.00039}.
+
+\bibitem[Riviere et~al.(2024)Riviere, Pathak, Sessa, Hardin, Bhupatiraju, Hussenot, Mesnard, Shahriari, Ram{\'e}, et~al.]{team2024gemma}
+Riviere, M., Pathak, S., Sessa, P.~G., Hardin, C., Bhupatiraju, S., Hussenot, L., Mesnard, T., Shahriari, B., Ram{\'e}, A., et~al.
+\newblock Gemma 2: Improving open language models at a practical size.
+\newblock arXiv:2408.00118, 2024.
+\newblock URL \url{https://arxiv.org/abs/2408.00118}.
+
+\bibitem[Saphra \& Wiegreffe(2024)Saphra and Wiegreffe]{saphra2024mechanistic}
+Saphra, N. and Wiegreffe, S.
+\newblock Mechanistic?
+\newblock In \emph{The 7th BlackboxNLP Workshop}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=schAf4BPtD}.
+
+\bibitem[Schwettmann et~al.(2023)Schwettmann, Shaham, Materzynska, Chowdhury, Li, Andreas, Bau, and Torralba]{Schwettmann2023}
+Schwettmann, S., Shaham, T.~R., Materzynska, J., Chowdhury, N., Li, S., Andreas, J., Bau, D., and Torralba, A.
+\newblock {FIND:} {A} function description benchmark for evaluating interpretability methods.
+\newblock In Oh, A., Naumann, T., Globerson, A., Saenko, K., Hardt, M., and Levine, S. (eds.), \emph{Advances in Neural Information Processing Systems 36: Annual Conference on Neural Information Processing Systems 2023, NeurIPS 2023, New Orleans, LA, USA, December 10 - 16, 2023}, 2023.
+\newblock URL \url{http://papers.nips.cc/paper\_files/paper/2023/hash/ef0164c1112f56246224af540857348f-Abstract-Datasets\_and\_Benchmarks.html}.
+
+\bibitem[Sharkey et~al.(2025)Sharkey, Chughtai, Batson, Lindsey, Wu, Bushnaq, Goldowsky-Dill, Heimersheim, Ortega, Bloom, Biderman, Garriga-Alonso, Conmy, Nanda, Rumbelow, Wattenberg, Schoots, Miller, Michaud, Casper, Tegmark, Saunders, Bau, Todd, Geiger, Geva, Hoogland, Murfet, and McGrath]{sharkey2025openproblemsmechanisticinterpretability}
+Sharkey, L., Chughtai, B., Batson, J., Lindsey, J., Wu, J., Bushnaq, L., Goldowsky-Dill, N., Heimersheim, S., Ortega, A., Bloom, J., Biderman, S., Garriga-Alonso, A., Conmy, A., Nanda, N., Rumbelow, J., Wattenberg, M., Schoots, N., Miller, J., Michaud, E.~J., Casper, S., Tegmark, M., Saunders, W., Bau, D., Todd, E., Geiger, A., Geva, M., Hoogland, J., Murfet, D., and McGrath, T.
+\newblock Open problems in mechanistic interpretability.
+\newblock \emph{CoRR}, abs/2501.16496, 2025.
+\newblock URL \url{https://arxiv.org/abs/2501.16496}.
+
+\bibitem[Shi et~al.(2024)Shi, Beltran-Velez, Nazaret, Zheng, Garriga-Alonso, Jesson, Makar, and Blei]{shi2024hypothesis}
+Shi, C., Beltran-Velez, N., Nazaret, A., Zheng, C., Garriga-Alonso, A., Jesson, A., Makar, M., and Blei, D.
+\newblock Hypothesis testing the circuit hypothesis in {LLM}s.
+\newblock In \emph{ICML 2024 Workshop on Mechanistic Interpretability}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=ibSNv9cldu}.
+
+\bibitem[Smolensky(1986)]{Smolensky1988a}
+Smolensky, P.
+\newblock Neural and conceptual interpretation of {PDP} models.
+\newblock In McClelland, J.~L., Rumelhart, D.~E., and the PDP Research~Group (eds.), \emph{Parallel Distributed Processing: Explorations in the Microstructure of Cognition: Psychological and Biological Models}, volume~2, pp.\  390--431. MIT Press, 1986.
+
+\bibitem[Stolfo et~al.(2023)Stolfo, Belinkov, and Sachan]{stolfo2023mechanistic}
+Stolfo, A., Belinkov, Y., and Sachan, M.
+\newblock A mechanistic interpretation of arithmetic reasoning in language models using causal mediation analysis.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, pp.\  7035--7052, 2023.
+
+\bibitem[Sundararajan et~al.(2017)Sundararajan, Taly, and Yan]{sundararajan2017ig}
+Sundararajan, M., Taly, A., and Yan, Q.
+\newblock Axiomatic attribution for deep networks.
+\newblock In \emph{Proceedings of the 34th International Conference on Machine Learning - Volume 70}, ICML'17, pp.\  3319–3328. JMLR.org, 2017.
+
+\bibitem[Syed et~al.(2024)Syed, Rager, and Conmy]{syed-etal-2024-attribution}
+Syed, A., Rager, C., and Conmy, A.
+\newblock Attribution patching outperforms automated circuit discovery.
+\newblock In Belinkov, Y., Kim, N., Jumelet, J., Mohebbi, H., Mueller, A., and Chen, H. (eds.), \emph{Proceedings of the 7th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP}, pp.\  407--416, Miami, Florida, US, November 2024. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.blackboxnlp-1.25}.
+\newblock URL \url{https://aclanthology.org/2024.blackboxnlp-1.25/}.
+
+\bibitem[Tigges et~al.(2023)Tigges, Hollinsworth, Geiger, and Nanda]{tigges2023linearrepresentationssentimentlarge}
+Tigges, C., Hollinsworth, O.~J., Geiger, A., and Nanda, N.
+\newblock Linear representations of sentiment in large language models.
+\newblock \emph{CoRR}, abs/2310.15154, 2023.
+\newblock URL \url{https://arxiv.org/abs/2310.15154}.
+
+\bibitem[Vig et~al.(2020)Vig, Gehrmann, Belinkov, Qian, Nevo, Singer, and Shieber]{vig2020}
+Vig, J., Gehrmann, S., Belinkov, Y., Qian, S., Nevo, D., Singer, Y., and Shieber, S.
+\newblock Investigating gender bias in language models using causal mediation analysis.
+\newblock In Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M., and Lin, H. (eds.), \emph{Advances in Neural Information Processing Systems}, volume~33, pp.\  12388--12401. Curran Associates, Inc., 2020.
+\newblock URL \url{https://proceedings.neurips.cc/paper_files/paper/2020/file/92650b2e92217715fe312e6fa7b90d82-Paper.pdf}.
+
+\bibitem[Wang et~al.(2023)Wang, Variengien, Conmy, Shlegeris, and Steinhardt]{wang2022interpretability}
+Wang, K.~R., Variengien, A., Conmy, A., Shlegeris, B., and Steinhardt, J.
+\newblock Interpretability in the wild: a circuit for indirect object identification in {GPT-2} small.
+\newblock In \emph{The Eleventh International Conference on Learning Representations, {ICLR} 2023, Kigali, Rwanda, May 1-5, 2023}. OpenReview.net, 2023.
+\newblock URL \url{https://openreview.net/forum?id=NpsVSN6o4ul}.
+
+\bibitem[Wiegreffe et~al.(2025)Wiegreffe, Tafjord, Belinkov, Hajishirzi, and Sabharwal]{wiegreffe2024answer}
+Wiegreffe, S., Tafjord, O., Belinkov, Y., Hajishirzi, H., and Sabharwal, A.
+\newblock Answer, assemble, ace: Understanding how {LM}s answer multiple choice questions.
+\newblock In \emph{The Thirteenth International Conference on Learning Representations}, 2025.
+\newblock URL \url{https://openreview.net/forum?id=6NNA0MxhCH}.
+
+\bibitem[Wu et~al.(2023)Wu, Geiger, Icard, Potts, and Goodman]{Wu2023}
+Wu, Z., Geiger, A., Icard, T., Potts, C., and Goodman, N.~D.
+\newblock Interpretability at scale: Identifying causal mechanisms in alpaca.
+\newblock In Oh, A., Naumann, T., Globerson, A., Saenko, K., Hardt, M., and Levine, S. (eds.), \emph{Advances in Neural Information Processing Systems 36: Annual Conference on Neural Information Processing Systems 2023, NeurIPS 2023, New Orleans, LA, USA, December 10 - 16, 2023}, 2023.
+\newblock URL \url{http://papers.nips.cc/paper\_files/paper/2023/hash/f6a8b109d4d4fd64c75e94aaf85d9697-Abstract-Conference.html}.
+
+\bibitem[Wu et~al.(2024)Wu, Geiger, Arora, Huang, Wang, Goodman, Manning, and Potts]{wu2024pyvene}
+Wu, Z., Geiger, A., Arora, A., Huang, J., Wang, Z., Goodman, N., Manning, C.~D., and Potts, C.
+\newblock pyvene: A library for understanding and improving pytorch models via interventions.
+\newblock In \emph{Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 3: System Demonstrations)}, pp.\  158--165, 2024.
+\newblock URL \url{https://aclanthology.org/2024.naacl-demo.16/}.
+
+\bibitem[Wu et~al.(2025)Wu, Arora, Geiger, Wang, Huang, Jurafsky, Manning, and Potts]{wu2025axbenchsteeringllmssimple}
+Wu, Z., Arora, A., Geiger, A., Wang, Z., Huang, J., Jurafsky, D., Manning, C.~D., and Potts, C.
+\newblock Ax{B}ench: Steering {LLMs}? even simple baselines outperform sparse autoencoders.
+\newblock \emph{CoRR}, abs/2501.17148, 2025.
+\newblock URL \url{https://arxiv.org/abs/2501.17148}.
+
+\bibitem[Yang et~al.(2024)Yang, Yang, Zhang, Hui, Zheng, Yu, Li, Liu, Huang, Wei, et~al.]{yang2024qwen2}
+Yang, A., Yang, B., Zhang, B., Hui, B., Zheng, B., Yu, B., Li, C., Liu, D., Huang, F., Wei, H., et~al.
+\newblock Qwen2.5 technical report.
+\newblock arXiv:2412.15115, 2024.
+\newblock URL \url{https://arxiv.org/abs/2412.15115}.
+
+\bibitem[Zhang \& Nanda(2024)Zhang and Nanda]{zhang2024towards}
+Zhang, F. and Nanda, N.
+\newblock Towards best practices of activation patching in language models: Metrics and methods.
+\newblock In \emph{The Twelfth International Conference on Learning Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=Hf17y6u9BC}.
+
+\bibitem[Zhang et~al.(2024)Zhang, Wan, Zhang, ming Cheung, Tian, Shen, and Ye]{zhang2024interpreting}
+Zhang, W., Wan, C., Zhang, Y., ming Cheung, Y., Tian, X., Shen, X., and Ye, J.
+\newblock Interpreting and improving large language models in arithmetic calculation.
+\newblock In \emph{Forty-first International Conference on Machine Learning}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=CfOtiepP8s}.
+
+\bibitem[Zhong et~al.(2023)Zhong, Wu, Manning, Potts, and Chen]{zhong-etal-2023-mquake}
+Zhong, Z., Wu, Z., Manning, C., Potts, C., and Chen, D.
+\newblock {MQ}u{AKE}: Assessing knowledge editing in language models via multi-hop questions.
+\newblock In Bouamor, H., Pino, J., and Bali, K. (eds.), \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, pp.\  15686--15702, Singapore, December 2023. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.emnlp-main.971}.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.971/}.
+
+\end{thebibliography}

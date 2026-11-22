@@ -1,0 +1,26 @@
+ %auto-ignore
+
+Thanks for sharing, excited to see this written up! Like including the monosemantic features very cool to see, though wish it was possible to do analysis a bit more systematically.
+
+Re Table 2: Might be worth looking at auto-interp correlation with "one-sided kurtosis", using only kurtosis contribution from values above the mean. (intuition is that the bias on the feature is selecting only for higher values after the relu, so doesn't really matter if the low values are heavy tailed or not)
+
+Some ideas on metrics (not quite fully formed):
+I've been thinking more about how to evaluate attempts at solving superposition.
+One metric that might be useful is "if I look at the top k most active components, how much of the activation norm do I understand?"
+Process for neuron-activation is:
+Fix layer N and k
+take all neurons in layer N, calculate their    activation a_i
+take the norm of each neuron's activation n_i
+x = sum(n_0 ... n_i)
+y = sum(n_0 ... n_k)
+return x/y
+
+Should also work the same for sparse directions. (though you might want to add the magnitude of the reconstruction error to x for a fair comparison, treating it as an unexplained neuron).
+
+For neurons, it's likely better to measure the magnitude of the neuron's write to the residual stream using same method, not quite sure how to translate to sparse features.
+
+Intuition is "suppose we want to understand what is happening at this token and layer. If I look at the top k components, how much of the activation do I understand?" Hope is that sparsity means fewer components are highly active overall. And if you solve things well, a reasonable value of k should get you to like 80% of the write magnitude or something similar.
+
+In principle it should be possible to extend to some method that weights terms in y by feature explainability, would also get you points for being more explainable, but not sure what it means.
+
+-William

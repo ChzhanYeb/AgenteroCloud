@@ -1,0 +1,1017 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bib",
+    "generatedAt": "2026-11-15T11:45:42.638Z",
+    "fingerprint": "e026798987bbcb816d3271f5c63d6286117dbe3e2a30526b0d23cce7586f5763"
+  },
+  "citations": [
+    {
+      "id": "cite-vaswani2017attention",
+      "rawKey": "vaswani2017attention",
+      "metadata": {
+        "title": "Attention is All you Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "Niki Parmar",
+          "Jakob Uszkoreit",
+          "Llion Jones",
+          "Aidan N Gomez",
+          "Kaiser",
+          "Illia Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-su2022roformer",
+      "rawKey": "su2022roformer",
+      "metadata": {
+        "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+        "authors": [
+          "Jianlin Su",
+          "Yu Lu",
+          "Shengfeng Pan",
+          "Ahmed Murtadha",
+          "Bo Wen",
+          "Yunfeng Liu"
+        ],
+        "year": 2022,
+        "arxivId": "2104.09864"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sun2023length",
+      "rawKey": "sun2023length",
+      "metadata": {
+        "title": "A Length-Extrapolatable Transformer",
+        "authors": [
+          "Yutao Sun",
+          "Li Dong",
+          "Barun Patra",
+          "Shuming Ma",
+          "Shaohan Huang",
+          "Alon Benhaim",
+          "Vishrav Chaudhary",
+          "Xia Song",
+          "Furu Wei"
+        ],
+        "year": 2023,
+        "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "url": "https://aclanthology.org/2023.acl-long.816"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chen2023extending",
+      "rawKey": "chen2023extending",
+      "metadata": {
+        "title": "Extending Context Window of Large Language Models via Positional Interpolation",
+        "authors": [
+          "Shouyuan Chen",
+          "Sherman Wong",
+          "Liangjian Chen",
+          "Yuandong Tian"
+        ],
+        "year": 2023,
+        "arxivId": "2306.15595"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gehring2017convolutional",
+      "rawKey": "gehring2017convolutional",
+      "metadata": {
+        "title": "Convolutional Sequence to Sequence Learning",
+        "authors": [
+          "Jonas Gehring",
+          "Michael Auli",
+          "David Grangier",
+          "Denis Yarats",
+          "Yann N. Dauphin"
+        ],
+        "year": 2017,
+        "arxivId": "1705.03122"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shaw2018self",
+      "rawKey": "shaw2018self",
+      "metadata": {
+        "title": "Self-Attention with Relative Position Representations",
+        "authors": [
+          "Peter Shaw",
+          "Jakob Uszkoreit",
+          "Ashish Vaswani"
+        ],
+        "year": 2018,
+        "venue": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-roberts2019t5",
+      "rawKey": "roberts2019t5",
+      "metadata": {
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "authors": [
+          "Adam Roberts",
+          "Colin Raffel",
+          "Katherine Lee",
+          "Michael Matena",
+          "Noam Shazeer",
+          "Peter J. Liu",
+          "Sharan Narang",
+          "Wei Li",
+          "Yanqi Zhou"
+        ],
+        "year": 2019
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-press2022train",
+      "rawKey": "press2022train",
+      "metadata": {
+        "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+        "authors": [
+          "Ofir Press",
+          "Noah Smith",
+          "Mike Lewis"
+        ],
+        "year": 2022,
+        "venue": "International Conference on Learning Representations"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kazemnejad2023impact",
+      "rawKey": "kazemnejad2023impact",
+      "metadata": {
+        "title": "The Impact of Positional Encoding on Length Generalization in Transformers",
+        "authors": [
+          "Amirhossein Kazemnejad",
+          "Inkit Padhi",
+          "Karthikeyan Natesan Ramamurthy",
+          "Payel Das",
+          "Siva Reddy"
+        ],
+        "year": 2023,
+        "arxivId": "2305.19466"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-touvron2023llama",
+      "rawKey": "touvron2023llama",
+      "metadata": {
+        "title": "LLaMA: Open and Efficient Foundation Language Models",
+        "authors": [
+          "Hugo Touvron",
+          "Thibaut Lavril",
+          "Gautier Izacard",
+          "Xavier Martinet",
+          "Marie-Anne Lachaux",
+          "TimothÃe Lacroix",
+          "Baptiste RoziÃre",
+          "Naman Goyal",
+          "Eric Hambro",
+          "Faisal Azhar",
+          "Aurelien Rodriguez",
+          "Armand Joulin",
+          "Edouard Grave",
+          "Guillaume Lample"
+        ],
+        "year": 2023,
+        "arxivId": "2302.13971"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-black2022gptneox20b",
+      "rawKey": "black2022gptneox20b",
+      "metadata": {
+        "title": "GPT-NeoX-20B: An Open-Source Autoregressive Language Model",
+        "authors": [
+          "Sid Black",
+          "Stella Biderman",
+          "Eric Hallahan",
+          "Quentin Anthony",
+          "Leo Gao",
+          "Laurence Golding",
+          "Horace He",
+          "Connor Leahy",
+          "Kyle McDonell",
+          "Jason Phang",
+          "Michael Pieler",
+          "USVSN Sai Prashanth",
+          "Shivanshu Purohit",
+          "Laria Reynolds",
+          "Jonathan Tow",
+          "Ben Wang",
+          "Samuel Weinbach"
+        ],
+        "year": 2022,
+        "arxivId": "2204.06745"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chowdhery2022palm",
+      "rawKey": "chowdhery2022palm",
+      "metadata": {
+        "title": "PaLM: Scaling Language Modeling with Pathways",
+        "authors": [
+          "Aakanksha Chowdhery",
+          "Sharan Narang",
+          "Jacob Devlin",
+          "Maarten Bosma",
+          "Gaurav Mishra",
+          "Adam Roberts",
+          "Paul Barham",
+          "Hyung Won Chung",
+          "Charles Sutton",
+          "Sebastian Gehrmann",
+          "Parker Schuh",
+          "Kensen Shi",
+          "Sasha Tsvyashchenko",
+          "Joshua Maynez",
+          "Abhishek Rao",
+          "Parker Barnes",
+          "Yi Tay",
+          "Noam Shazeer",
+          "Vinodkumar Prabhakaran",
+          "Emily Reif",
+          "Nan Du",
+          "Ben Hutchinson",
+          "Reiner Pope",
+          "James Bradbury",
+          "Jacob Austin",
+          "Michael Isard",
+          "Guy Gur-Ari",
+          "Pengcheng Yin",
+          "Toju Duke",
+          "Anselm Levskaya",
+          "Sanjay Ghemawat",
+          "Sunipa Dev",
+          "Henryk Michalewski",
+          "Xavier Garcia",
+          "Vedant Misra",
+          "Kevin Robinson",
+          "Liam Fedus",
+          "Denny Zhou",
+          "Daphne Ippolito",
+          "David Luan",
+          "Hyeontaek Lim",
+          "Barret Zoph",
+          "Alexander Spiridonov",
+          "Ryan Sepassi",
+          "David Dohan",
+          "Shivani Agrawal",
+          "Mark Omernick",
+          "Andrew M. Dai",
+          "Thanumalayan Sankaranarayana Pillai",
+          "Marie Pellat",
+          "Aitor Lewkowycz",
+          "Erica Moreira",
+          "Rewon Child",
+          "Oleksandr Polozov",
+          "Katherine Lee",
+          "Zongwei Zhou",
+          "Xuezhi Wang",
+          "Brennan Saeta",
+          "Mark Diaz",
+          "Orhan Firat",
+          "Michele Catasta",
+          "Jason Wei",
+          "Kathy Meier-Hellstern",
+          "Douglas Eck",
+          "Jeff Dean",
+          "Slav Petrov",
+          "Noah Fiedel"
+        ],
+        "year": 2022,
+        "arxivId": "2204.02311"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tancik2020fourier",
+      "rawKey": "tancik2020fourier",
+      "metadata": {
+        "title": "Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains",
+        "authors": [
+          "Matthew Tancik",
+          "Pratul P. Srinivasan",
+          "Ben Mildenhall",
+          "Sara Fridovich-Keil",
+          "Nithin Raghavan",
+          "Utkarsh Singhal",
+          "Ravi Ramamoorthi",
+          "Jonathan T. Barron",
+          "Ren Ng"
+        ],
+        "year": 2020,
+        "venue": "Proceedings of the 34th International Conference on Neural Information Processing Systems"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-touvron2023llama2",
+      "rawKey": "touvron2023llama2",
+      "metadata": {
+        "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+        "authors": [
+          "Hugo Touvron",
+          "Louis Martin",
+          "Kevin Stone",
+          "Peter Albert",
+          "Amjad Almahairi",
+          "Yasmine Babaei",
+          "Nikolay Bashlykov",
+          "Soumya Batra",
+          "Prajjwal Bhargava",
+          "Shruti Bhosale",
+          "Dan Bikel",
+          "Lukas Blecher",
+          "Cristian Canton Ferrer",
+          "Moya Chen",
+          "Guillem Cucurull",
+          "David Esiobu",
+          "Jude Fernandes",
+          "Jeremy Fu",
+          "Wenyin Fu",
+          "Brian Fuller",
+          "Cynthia Gao",
+          "Vedanuj Goswami",
+          "Naman Goyal",
+          "Anthony Hartshorn",
+          "Saghar Hosseini",
+          "Rui Hou",
+          "Hakan Inan",
+          "Marcin Kardas",
+          "Viktor Kerkez",
+          "Madian Khabsa",
+          "Isabel Kloumann",
+          "Artem Korenev",
+          "Punit Singh Koura",
+          "Marie-Anne Lachaux",
+          "Thibaut Lavril",
+          "Jenya Lee",
+          "Diana Liskovich",
+          "Yinghai Lu",
+          "Yuning Mao",
+          "Xavier Martinet",
+          "Todor Mihaylov",
+          "Pushkar Mishra",
+          "Igor Molybog",
+          "Yixin Nie",
+          "Andrew Poulton",
+          "Jeremy Reizenstein",
+          "Rashi Rungta",
+          "Kalyan Saladi",
+          "Alan Schelten",
+          "Ruan Silva",
+          "Eric Michael Smith",
+          "Ranjan Subramanian",
+          "Xiaoqing Ellen Tan",
+          "Binh Tang",
+          "Ross Taylor",
+          "Adina Williams",
+          "Jian Xiang Kuan",
+          "Puxin Xu",
+          "Zheng Yan",
+          "Iliyan Zarov",
+          "Yuchen Zhang",
+          "Angela Fan",
+          "Melanie Kambadur",
+          "Sharan Narang",
+          "Aurelien Rodriguez",
+          "Robert Stojnic",
+          "Sergey Edunov",
+          "Thomas Scialom"
+        ],
+        "year": 2023,
+        "arxivId": "2307.09288"
+      },
+      "localMatch": {
+        "paperPath": "papers/2307.09288",
+        "matchBy": "arxiv"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-loshchilov2018decoupled",
+      "rawKey": "loshchilov2018decoupled",
+      "metadata": {
+        "title": "Decoupled Weight Decay Regularization",
+        "authors": [
+          "Ilya Loshchilov",
+          "Frank Hutter"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Learning Representations"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pytorch",
+      "rawKey": "pytorch",
+      "metadata": {
+        "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library.",
+        "authors": [
+          "Adam Paszke",
+          "Sam Gross",
+          "Francisco Massa",
+          "Adam Lerer",
+          "James Bradbury",
+          "Gregory Chanan",
+          "Trevor Killeen",
+          "Zeming Lin",
+          "Natalia Gimelshein",
+          "Luca Antiga",
+          "Alban Desmaison",
+          "Andreas KÃpf",
+          "Edward Yang",
+          "Zachary DeVito",
+          "Martin Raison",
+          "Alykhan Tejani",
+          "Sasank Chilamkurthy",
+          "Benoit Steiner",
+          "Lu Fang",
+          "Junjie Bai",
+          "Soumith Chintala"
+        ],
+        "year": 2019,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhao2023pytorch",
+      "rawKey": "zhao2023pytorch",
+      "metadata": {
+        "title": "PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel",
+        "authors": [
+          "Yanli Zhao",
+          "Andrew Gu",
+          "Rohan Varma",
+          "Liang Luo",
+          "Chien-Chin Huang",
+          "Min Xu",
+          "Less Wright",
+          "Hamid Shojanazeri",
+          "Myle Ott",
+          "Sam Shleifer",
+          "Alban Desmaison",
+          "Can Balioglu",
+          "Bernard Nguyen",
+          "Geeta Chauhan",
+          "Yuchen Hao",
+          "Shen Li"
+        ],
+        "year": 2023,
+        "arxivId": "2304.11277"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dao2023flashattention2",
+      "rawKey": "dao2023flashattention2",
+      "metadata": {
+        "title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+        "authors": [
+          "Tri Dao"
+        ],
+        "year": 2023,
+        "arxivId": "2307.08691"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rozi-re2023code",
+      "rawKey": "rozière2023code",
+      "metadata": {
+        "title": "Code Llama: Open Foundation Models for Code",
+        "authors": [
+          "Baptiste RoziÃre",
+          "Jonas Gehring",
+          "Fabian Gloeckle",
+          "Sten Sootla",
+          "Itai Gat",
+          "Xiaoqing Ellen Tan",
+          "Yossi Adi",
+          "Jingyu Liu",
+          "Tal Remez",
+          "JÃrÃmy Rapin",
+          "Artyom Kozhevnikov",
+          "Ivan Evtimov",
+          "Joanna Bitton",
+          "Manish Bhatt",
+          "Cristian Canton Ferrer",
+          "Aaron Grattafiori",
+          "Wenhan Xiong",
+          "Alexandre DÃfossez",
+          "Jade Copet",
+          "Faisal Azhar",
+          "Hugo Touvron",
+          "Louis Martin",
+          "Nicolas Usunier",
+          "Thomas Scialom",
+          "Gabriel Synnaeve"
+        ],
+        "year": 2023,
+        "arxivId": "2308.12950"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Rae2020Compressive",
+      "rawKey": "Rae2020Compressive",
+      "metadata": {
+        "title": "Compressive Transformers for Long-Range Sequence Modelling",
+        "authors": [
+          "Jack W. Rae",
+          "Anna Potapenko",
+          "Siddhant M. Jayakumar",
+          "Chloe Hillier",
+          "Timothy P. Lillicrap"
+        ],
+        "year": 2020,
+        "venue": "International Conference on Learning Representations"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-huang-etal-2021-efficient",
+      "rawKey": "huang-etal-2021-efficient",
+      "metadata": {
+        "title": "Efficient Attentions for Long Document Summarization",
+        "authors": [
+          "Luyang Huang",
+          "Shuyang Cao",
+          "Nikolaus Parulian",
+          "Heng Ji",
+          "Lu Wang"
+        ],
+        "year": 2021,
+        "venue": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-proofpile",
+      "rawKey": "proofpile",
+      "metadata": {
+        "title": "Proof-pile",
+        "authors": [
+          "Zhangir Azerbayev",
+          "Edward Ayers",
+          "and Bartosz Piotrowski"
+        ],
+        "year": 2022,
+        "url": "https://github.com/zhangir-azerbayev/proof-pile"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-together",
+      "rawKey": "together",
+      "metadata": {
+        "title": "LLaMA-2-7B-32K",
+        "authors": [
+          "Together.ai"
+        ],
+        "year": 2023,
+        "url": "https://huggingface.co/togethercomputer/LLaMA-2-7B-32K"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-openllm",
+      "rawKey": "openllm",
+      "metadata": {
+        "title": "Open LLM Leaderboard",
+        "authors": [
+          "Hugging Face"
+        ],
+        "year": 2023,
+        "url": "https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-clark2018think",
+      "rawKey": "clark2018think",
+      "metadata": {
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "authors": [
+          "Peter Clark",
+          "Isaac Cowhey",
+          "Oren Etzioni",
+          "Tushar Khot",
+          "Ashish Sabharwal",
+          "Carissa Schoenick",
+          "Oyvind Tafjord"
+        ],
+        "year": 2018,
+        "arxivId": "1803.05457"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zellers2019hellaswag",
+      "rawKey": "zellers2019hellaswag",
+      "metadata": {
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "authors": [
+          "Rowan Zellers",
+          "Ari Holtzman",
+          "Yonatan Bisk",
+          "Ali Farhadi",
+          "Yejin Choi"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hendryckstest2021",
+      "rawKey": "hendryckstest2021",
+      "metadata": {
+        "title": "Measuring Massive Multitask Language Understanding",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Steven Basart",
+          "Andy Zou",
+          "Mantas Mazeika",
+          "Dawn Song",
+          "Jacob Steinhardt"
+        ],
+        "year": 2021,
+        "venue": "Proceedings of the International Conference on Learning Representations (ICLR)"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lin-etal-2022-truthfulqa",
+      "rawKey": "lin-etal-2022-truthfulqa",
+      "metadata": {
+        "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+        "authors": [
+          "Stephanie Lin",
+          "Jacob Hilton",
+          "Owain Evans"
+        ],
+        "year": 2022,
+        "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rerope2023",
+      "rawKey": "rerope2023",
+      "metadata": {
+        "title": "Rectified Rotary Position Embeddings",
+        "authors": [
+          "Jianlin Su"
+        ],
+        "year": 2023
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pang-etal-2022-quality",
+      "rawKey": "pang-etal-2022-quality",
+      "metadata": {
+        "title": "QuALITY: Question Answering with Long Input Texts, Yes!",
+        "authors": [
+          "Richard Yuanzhe Pang",
+          "Alicia Parrish",
+          "Nitish Joshi",
+          "Nikita Nangia",
+          "Jason Phang",
+          "Angelica Chen",
+          "Vishakh Padmakumar",
+          "Johnny Ma",
+          "Jana Thompson",
+          "He He",
+          "Samuel Bowman"
+        ],
+        "year": 2022,
+        "venue": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shaham2023zeroscrolls",
+      "rawKey": "shaham2023zeroscrolls",
+      "metadata": {
+        "title": "ZeroSCROLLS: A Zero-Shot Benchmark for Long Text Understanding",
+        "authors": [
+          "Uri Shaham",
+          "Maor Ivgi",
+          "Avia Efrat",
+          "Jonathan Berant",
+          "Omer Levy"
+        ],
+        "year": 2023,
+        "arxivId": "2305.14196"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-han2023lminfinite",
+      "rawKey": "han2023lminfinite",
+      "metadata": {
+        "title": "LM-Infinite: Simple On-the-Fly Length Generalization for Large Language Models",
+        "authors": [
+          "Chi Han",
+          "Qifan Wang",
+          "Wenhan Xiong",
+          "Yu Chen",
+          "Heng Ji",
+          "Sinong Wang"
+        ],
+        "year": 2023,
+        "arxivId": "2308.16137"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kaiokendev",
+      "rawKey": "kaiokendev",
+      "metadata": {
+        "title": "Things I'm learning while training superhot.",
+        "authors": [
+          "kaiokendev"
+        ],
+        "year": 2023,
+        "url": "https://kaiokendev.github.io/til#extending-context-to-8k"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-blocntkaware",
+      "rawKey": "blocntkaware",
+      "metadata": {
+        "title": "NTK-Aware Scaled RoPE allows LLaMA models to have extended (8k+) context size without any fine-tuning and minimal perplexity degradation.",
+        "authors": [
+          "bloc97"
+        ],
+        "year": 2023,
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/14lz7j5/ntkaware_scaled_rope_allows_llama_models_to_have/"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-blocntkparts",
+      "rawKey": "blocntkparts",
+      "metadata": {
+        "title": "Add NTK-Aware interpolation \"by parts\" correction",
+        "authors": [
+          "bloc97"
+        ],
+        "year": 2023,
+        "url": "https://github.com/jquesnelle/scaled-rope/pull/1"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-emozillareddit",
+      "rawKey": "emozillareddit",
+      "metadata": {
+        "title": "Dynamically Scaled RoPE further increases performance of long context LLaMA with zero fine-tuning",
+        "authors": [
+          "emozilla"
+        ],
+        "year": 2023,
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/14mrgpr/dynamically_scaled_rope_further_increases/"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kvcaching",
+      "rawKey": "kvcaching",
+      "metadata": {
+        "title": "Transformer Inference Arithmetic",
+        "authors": [
+          "Carol. Chen"
+        ],
+        "year": 2022,
+        "url": "https://kipp.ly/blog/transformer-inference-arithmetic/"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qwen",
+      "rawKey": "qwen",
+      "metadata": {
+        "title": "Introducing Qwen-7B: Open foundation and human-aligned models (of the state-of-the-arts)",
+        "url": "https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sun2022lengthextrapolatable",
+      "rawKey": "sun2022lengthextrapolatable",
+      "metadata": {
+        "title": "A Length-Extrapolatable Transformer",
+        "authors": [
+          "Yutao Sun",
+          "Li Dong",
+          "Barun Patra",
+          "Shuming Ma",
+          "Shaohan Huang",
+          "Alon Benhaim",
+          "Vishrav Chaudhary",
+          "Xia Song",
+          "Furu Wei"
+        ],
+        "year": 2022,
+        "arxivId": "2212.10554"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-together2023redpajama",
+      "rawKey": "together2023redpajama",
+      "metadata": {
+        "title": "RedPajama: An Open Source Recipe to Reproduce LLaMA training dataset",
+        "authors": [
+          "Together Computer"
+        ],
+        "year": 2023,
+        "url": "https://github.com/togethercomputer/RedPajama-Data"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-llongma",
+      "rawKey": "llongma",
+      "metadata": {
+        "title": "LLongMA: Scaling rotary embeddings through linear positional interpolation",
+        "authors": [
+          "Jeffrey Quesnelle",
+          "Enrico Shippole",
+          "\"Kaiokendev\""
+        ],
+        "year": 2023,
+        "venue": "HuggingFace repository"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mohtashami2023landmark",
+      "rawKey": "mohtashami2023landmark",
+      "metadata": {
+        "title": "Landmark Attention: Random-Access Infinite Context Length for Transformers",
+        "authors": [
+          "Amirkeivan Mohtashami",
+          "Martin Jaggi"
+        ],
+        "year": 2023,
+        "arxivId": "2305.16300"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-jiang2023mistral",
+      "rawKey": "jiang2023mistral",
+      "metadata": {
+        "title": "Mistral 7B",
+        "authors": [
+          "Albert Q. Jiang",
+          "Alexandre Sablayrolles",
+          "Arthur Mensch",
+          "Chris Bamford",
+          "Devendra Singh Chaplot",
+          "Diego de las Casas",
+          "Florian Bressand",
+          "Gianna Lengyel",
+          "Guillaume Lample",
+          "Lucile Saulnier",
+          "LÃlio Renard Lavaud",
+          "Marie-Anne Lachaux",
+          "Pierre Stock",
+          "Teven Le Scao",
+          "Thibaut Lavril",
+          "Thomas Wang",
+          "TimothÃe Lacroix",
+          "William El Sayed"
+        ],
+        "year": 2023,
+        "arxivId": "2310.06825"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-togetherlongdata",
+      "rawKey": "togetherlongdata",
+      "metadata": {
+        "title": "Long-Data Collections",
+        "url": "https://huggingface.co/datasets/togethercomputer/Long-Data-Collections"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-mistrallite",
+      "rawKey": "mistrallite",
+      "metadata": {
+        "title": "MistralLite",
+        "url": "https://huggingface.co/amazon/MistralLite"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xiong2023effective",
+      "rawKey": "xiong2023effective",
+      "metadata": {
+        "title": "Effective Long-Context Scaling of Foundation Models",
+        "authors": [
+          "Wenhan Xiong",
+          "Jingyu Liu",
+          "Igor Molybog",
+          "Hejia Zhang",
+          "Prajjwal Bhargava",
+          "Rui Hou",
+          "Louis Martin",
+          "Rashi Rungta",
+          "Karthik Abinav Sankararaman",
+          "Barlas Oguz",
+          "Madian Khabsa",
+          "Han Fang",
+          "Yashar Mehdad",
+          "Sharan Narang",
+          "Kshitiz Malik",
+          "Angela Fan",
+          "Shruti Bhosale",
+          "Sergey Edunov",
+          "Mike Lewis",
+          "Sinong Wang",
+          "Hao Ma"
+        ],
+        "year": 2023,
+        "arxivId": "2309.16039"
+      },
+      "source": "bib",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 46 entries (bib)",
+    "semantic scholar failed: rate limited"
+  ]
+}

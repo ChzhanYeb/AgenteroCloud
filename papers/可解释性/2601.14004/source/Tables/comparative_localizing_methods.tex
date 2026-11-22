@@ -1,0 +1,20 @@
+\begin{table*}[!t]
+    \centering
+    \caption{Comparative analysis of localizing methods. These methods differ mainly in causal strength, computational cost, required access, and typical limitations.}
+    \label{tab:localizing_methods_comparison}
+    \small
+    \setlength{\tabcolsep}{3pt}
+    \renewcommand{\arraystretch}{1.1}
+    \begin{tabular}{p{0.28\textwidth} p{0.15\textwidth} p{0.09\textwidth} p{0.20\textwidth} p{0.23\textwidth}}
+    \toprule[1.3pt]
+    \textbf{Method} & \textbf{Causal Strength} & \textbf{Cost} & \textbf{Required Access} & \textbf{Key Limitation} \\
+    \midrule
+    \textbf{Magnitude Analysis} (\S\ref{sec:magtitude_analysis}) & Correlational & Low & Activations / Weights & Salience may not reflect causal necessity \\
+    \textbf{Gradient Detection} (\S\ref{sec:gradient_detection}) & Moderate & Medium & Gradients / Weights & Local proxy; May fail sanity checks \\
+    \textbf{Causal Attribution} (\S\ref{sec:causal_Attribution}) & Strong & High & Activations / Hidden States / Weights & Expensive; Intervention may introduce artifacts \\
+    \textbf{Probing} (\S\ref{sec:probing}) & Weak & Medium & Hidden States / Labeled Data & Decodability does not imply causality \\
+    \textbf{Vocabulary Projection} (\S\ref{sec:vocab_project}) & Correlational & Low & Hidden States / Unembedding Matrix & Depends on representation alignment \\
+    \textbf{Circuit Discovery} (\S\ref{sec:circuit_discovery}) & Strong & High & Activations / Gradients / Hidden States / Weights & Sensitive to setup and contrastive inputs \\
+    \bottomrule[1.3pt]
+    \end{tabular}
+\end{table*}

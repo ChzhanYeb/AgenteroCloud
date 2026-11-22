@@ -1,0 +1,336 @@
+{
+  "path": "papers/模型评测/2211.09110",
+  "id": "2211.09110",
+  "type": "arxiv",
+  "title": "Holistic Evaluation of Language Models",
+  "authors": [
+    "Percy Liang",
+    "Rishi Bommasani",
+    "Tony Lee",
+    "Dimitris Tsipras",
+    "Dilara Soylu",
+    "Michihiro Yasunaga",
+    "Yian Zhang",
+    "Deepak Narayanan",
+    "Yuhuai Wu",
+    "Ananya Kumar",
+    "Benjamin Newman",
+    "Binhang Yuan",
+    "Bobby Yan",
+    "Ce Zhang",
+    "Christian Cosgrove",
+    "Christopher D. Manning",
+    "Christopher Ré",
+    "Diana Acosta-Navas",
+    "Drew A. Hudson",
+    "Eric Zelikman",
+    "Esin Durmus",
+    "Faisal Ladhak",
+    "Frieda Rong",
+    "Hongyu Ren",
+    "Huaxiu Yao",
+    "Jue Wang",
+    "Keshav Santhanam",
+    "Laurel Orr",
+    "Lucia Zheng",
+    "Mert Yuksekgonul",
+    "Mirac Suzgun",
+    "Nathan Kim",
+    "Neel Guha",
+    "Niladri Chatterji",
+    "Omar Khattab",
+    "Peter Henderson",
+    "Qian Huang",
+    "Ryan Chi",
+    "Sang Michael Xie",
+    "Shibani Santurkar",
+    "Surya Ganguli",
+    "Tatsunori Hashimoto",
+    "Thomas Icard",
+    "Tianyi Zhang",
+    "Vishrav Chaudhary",
+    "William Wang",
+    "Xuechen Li",
+    "Yifan Mai",
+    "Yuhui Zhang",
+    "Yuta Koreeda"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Percy",
+      "lastName": "Liang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Rishi",
+      "lastName": "Bommasani"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tony",
+      "lastName": "Lee"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dimitris",
+      "lastName": "Tsipras"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dilara",
+      "lastName": "Soylu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Michihiro",
+      "lastName": "Yasunaga"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yian",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Deepak",
+      "lastName": "Narayanan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yuhuai",
+      "lastName": "Wu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ananya",
+      "lastName": "Kumar"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Benjamin",
+      "lastName": "Newman"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Binhang",
+      "lastName": "Yuan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Bobby",
+      "lastName": "Yan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ce",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Christian",
+      "lastName": "Cosgrove"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Christopher D.",
+      "lastName": "Manning"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Christopher",
+      "lastName": "Ré"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Diana",
+      "lastName": "Acosta-Navas"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Drew A.",
+      "lastName": "Hudson"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Eric",
+      "lastName": "Zelikman"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Esin",
+      "lastName": "Durmus"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Faisal",
+      "lastName": "Ladhak"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Frieda",
+      "lastName": "Rong"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Hongyu",
+      "lastName": "Ren"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Huaxiu",
+      "lastName": "Yao"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Jue",
+      "lastName": "Wang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Keshav",
+      "lastName": "Santhanam"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Laurel",
+      "lastName": "Orr"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Lucia",
+      "lastName": "Zheng"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mert",
+      "lastName": "Yuksekgonul"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Mirac",
+      "lastName": "Suzgun"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nathan",
+      "lastName": "Kim"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Neel",
+      "lastName": "Guha"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Niladri",
+      "lastName": "Chatterji"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Omar",
+      "lastName": "Khattab"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Peter",
+      "lastName": "Henderson"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Qian",
+      "lastName": "Huang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Ryan",
+      "lastName": "Chi"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Sang Michael",
+      "lastName": "Xie"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Shibani",
+      "lastName": "Santurkar"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Surya",
+      "lastName": "Ganguli"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tatsunori",
+      "lastName": "Hashimoto"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Thomas",
+      "lastName": "Icard"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Tianyi",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Vishrav",
+      "lastName": "Chaudhary"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "William",
+      "lastName": "Wang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Xuechen",
+      "lastName": "Li"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yifan",
+      "lastName": "Mai"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yuhui",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yuta",
+      "lastName": "Koreeda"
+    }
+  ],
+  "year": 2023,
+  "date": "2023-10-01",
+  "abstract": "Language models (LMs) are becoming the foundation for almost all major language technologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation of Language Models (HELM) to improve the transparency of language models. First, we taxonomize the vast space of potential scenarios (i.e. use cases) and metrics (i.e. desiderata) that are of interest for LMs. Then we select a broad subset based on coverage and feasibility, noting what's missing or underrepresented (e.g. question answering for neglected English dialects, metrics for trustworthiness). Second, we adopt a multi-metric approach: We measure 7 metrics (accuracy, calibration, robustness, fairness, bias, toxicity, and efficiency) for each of 16 core scenarios when possible (87.5% of the time). This ensures metrics beyond accuracy don't fall to the wayside, and that trade-offs are clearly exposed. We also perform 7 targeted evaluations, based on 26 targeted scenarios, to analyze specific aspects (e.g. reasoning, disinformation). Third, we conduct a large-scale evaluation of 30 prominent language models (spanning open, limited-access, and closed models) on all 42 scenarios, 21 of which were not previously used in mainstream LM evaluation. Prior to HELM, models on average were evaluated on just 17.9% of the core HELM scenarios, with some prominent models not sharing a single scenario in common. We improve this to 96.0%: now all 30 models have been densely benchmarked on the same core scenarios and metrics under standardized conditions. Our evaluation surfaces 25 top-level findings. For full transparency, we release all raw model prompts and completions publicly for further analysis, as well as a general modular toolkit. We intend for HELM to be a living benchmark for the community, continuously updated with new scenarios, metrics, and models.",
+  "tags": [
+    "@arxiv:Computer Science - Computation and Language",
+    "@arxiv:Computer Science - Artificial Intelligence",
+    "@arxiv:Computer Science - Machine Learning"
+  ],
+  "arxiv_id": "2211.09110",
+  "doi": "10.48550/arXiv.2211.09110",
+  "pdf_url": "https://arxiv.org/pdf/2211.09110",
+  "html_url": "https://arxiv.org/html/2211.09110",
+  "source_url": "https://arxiv.org/abs/2211.09110",
+  "code_repo": "https://github.com/stanford-crfm/helm",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2211.09110",
+  "citation_count": 12,
+  "zotero_item_type": "preprint",
+  "meta_source": "translator",
+  "extra": "arXiv:2211.09110 [cs.CL]",
+  "summary": "HELM standardizes language-model evaluation across scenarios and seven metrics, measuring accuracy alongside calibration, robustness, fairness, bias, toxicity, and efficiency. It benchmarks 30 models on 42 scenarios, raising shared core-scenario coverage from 17.9% to 96.0% and releasing prompts, completions, and tools.",
+  "status": "completed",
+  "is_read": true,
+  "added_at": "2026-11-17T14:33:39.025Z",
+  "updated_at": "2026-11-17T15:12:05.687Z"
+}

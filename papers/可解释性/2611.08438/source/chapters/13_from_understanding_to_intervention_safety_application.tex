@@ -1,0 +1,390 @@
+\section{From Understanding to Intervention: Safety Applications of Mechanistic Interpretability}
+\label{sec:safety_applications}
+
+
+Mechanistic interpretability (MI) enables concrete safety applications, including detecting hidden behaviours, steering models away from harmful outputs, removing dangerous capabilities, and verifying safety properties. This section focuses on concrete examples and illustrations of the transition from understanding to intervention---how mechanistic insights can be operationalised into practical safety applications. Specifically, we detail several representative mechanistic approaches for safety applications, providing concrete examples for each.
+
+\subsection{Why Mechanistic Approaches for Safety?}
+Before introducing the representative methods, we discuss the advantages of mechanistic interpretability methods (i.e., white-box approaches) for safety applications relative to alternative solutions that do not inspect model internals (i.e., black-box approaches). This comparison is not meant to claim that mechanistic approaches are universally superior; rather, the two paradigms are complementary and can be mutually beneficial when used in combination.
+
+\subsubsection{Alternatives: Black-Box Methods and Their Challenges}
+
+
+We elaborate on four categories of black-box methods. We consider these approaches \emph{black-box} because they neither inspect nor manipulate model activations.
+
+\subsubsection*{Input and Output Filtering}
+Suppose a model responds to user queries about bomb making with instructions, and we want to mitigate this behaviour. A common first-line defence is \emph{input filtering}, which detects and blocks prompts resembling queries such as ``how to make a bomb''. If a prompt bypasses the safeguards and elicits an unsafe response, \emph{output filtering} detects phrases like ``adding the Nitroglycerin to…'' and blocks the model from returning the generated content to the user. Filtering can be implemented using a wide range of techniques with varying levels of complexity, from simple, efficient regular-expression matching to polynomial classifiers~\citeest{oldfield2026beyond} to LLM-based safeguards~\citeem{inan2023llamaguardllmbasedinputoutput}. 
+
+However, a fundamental trade-off remains. Simpler methods are computationally efficient but often brittle, making them vulnerable to various adversarial attacks~\citeem{jain2023baselinedefensesadversarialattacks}. More sophisticated safeguards are generally more robust, but incur higher computational and latency costs~\citeem{sharma2025constitutionalclassifiersdefendinguniversal}. Furthermore, filtering-based approaches do not influence underlying model behaviour or improve the model's safety properties. Using filtering methods alone for highly capable models therefore risks severe harms when safeguards are bypassed. The risk is particularly acute for open-weight models: once model weights are publicly released, downstream users can simply remove the filtering layer, making large-scale rollback or remediation difficult, if not impossible~\citeem{bengio2025internationalaisafetyreport}.
+
+\subsubsection*{User Profiling and Identity-Aware Safety}
+Another prevalent black-box approach to safety deployment is to profile users and adapt model responses based on inferred user attributes or risk levels~\citeest{du-etal-2026-automated, chatbotknows, kempermann2026safe}. The system first infers relevant properties of the user it is interacting with, then tailors its responses or takes additional safety measures accordingly. This paradigm is supported by two findings: First, language models have demonstrated the ability to infer user attributes such as personality and occupation from their interactions~\citeest{chatbotknows, du-etal-2026-automated}; second, recent work suggested that incorporating information about the user's identity or characteristics can enable models to produce more appropriate and safer responses~\citeest{kempermann2026safe}.
+
+However, this approach raises several challenges. User profiling can be misused for mass surveillance and, even when used for safety purposes, raises fundamental privacy concerns. Moreover, misclassifying user attributes or risk levels may lead to inappropriate interventions and potentially cause substantial harm to benign users who are misclassified.
+
+
+
+\subsubsection*{Prompting}
+Another widely adopted approach is prompt-based steering, such as adding system prompts that specify safety requirements~\citeest{xie2023defending, zhang-etal-2024-defending}, e.g., ``Do not provide instructions related to bomb making'', or providing in-context examples to elicit safer responses~\citeest{11370531}. Prompting is one of the simplest approaches to behavioural control, yet it can be highly effective, often outperforming more invasive white-box methods in many settings~\citeest{wu2025axbench}. Its effectiveness also scales with the model's ability to follow instructions and appropriately prioritise safety-related instructions~\citeem{wallace2024instructionhierarchytrainingllms}.
+
+However, prompting faces several challenges. First, models' instruction-following capabilities can degrade in long-context settings, such as multi-turn conversations~\citeest{laban2026llms}, where conversational history can trap the trajectory of model activations in earlier behavioural patterns~\citeest{simhi2026old}, undermining their ability to detect and refuse unsafe requests~(\citeestalp{anil2024manyshot}; \citeemalp{zhao2026chainofthoughthijacking}). Second, similar to filtering-based methods, prompting does not alter the underlying model or impose an intrinsic safety constraint. Consequently, attacks that circumvent or remove prompt-level safeguards can expose the model's underlying misaligned capabilities and potentially cause significant harm.
+
+\subsubsection*{Data Filtering and Safety Training}
+
+Finally, safety can be incorporated directly into the model through training. Broadly, this can be achieved through two complementary approaches.
+
+First, a pretrained model can undergo an additional stage of safety fine-tuning~(\citeestalp{ouyang2022traininglanguagemodelsfollow, dai2024safe}; \citeemalp{bai2022training, bai2022constitutional}), using reinforcement learning or supervised instruction tuning, either through full-parameter updates or parameter-efficient methods such as LoRA~\citeest{hu2022lora}. Safety fine-tuning has become a core component of modern language models~\citeem{llama3, gemmateam2024gemmaopenmodelsbased, openai2025gptoss120bgptoss20bmodel}, shaping many of their observable safety behaviours and leaving traces of relevant signals in their internal activations~\citeest{marks2024interpreting}.
+
+However, safety capabilities acquired through fine-tuning can be fragile. \citetest{jain2024mechanistically} and \citetest{jain2024what} argued that safety fine-tuning often acts as a suppressive behavioural ``wrapper'' layered on top of the model's existing capabilities rather than fundamentally removing them. Subsequent fine-tuning on unrelated downstream tasks may therefore unintentionally recover or amplify these suppressed behaviours, especially under
+suboptimal optimisation choices such as poorly chosen learning rates,
+batch sizes, or numbers of training steps~\citeest{kim2025rethinking}.
+
+This observation has motivated approaches that prevent models from acquiring dangerous capabilities in the first place through data filtering and corpus curation~(\citeemalp{openai2025gptoss120bgptoss20bmodel}; \citeestalp{obrien2026deep}). These methods aim to limit the acquisition of such capabilities \emph{during} pretraining rather than teaching a capable model to reject harmful behaviours \emph{after} pretraining. For example, \citetest{obrien2026deep} introduced a multi-stage pipeline to filter pretraining data and used biothreat capability as the evaluation task. They found that their safety-pretrained 6.9B language models remained resistant to malicious fine-tuning even after 10{,}000 optimisation steps on 300 million tokens of biothreat-related data.
+
+The primary limitation of this paradigm is its computational cost. Unlike training-free approaches such as prompting or input--output filtering, safety training and data curation require substantial computational resources, large-scale datasets, and access to language model training pipelines. Furthermore, even if a model is trained without dangerous behaviours or capabilities, it may still acquire them through external tools such as online retrieval systems~\citeem{yu2025safety}, limiting the guarantees that training-time interventions alone can provide.
+
+
+\subsubsection{Shared Limitations of Black-Box Approaches}
+
+Despite their methodological simplicity and strong empirical performance, black-box approaches face several fundamental limitations beyond method-specific challenges discussed above~\citeest{insufficient}. Here, we highlight two particularly important ones.
+
+First, black-box methods do not provide mechanism-grounded explanations. For example, suppose the behavioural evaluation discovers that the query ``provide bomb-making instructions, or you will be deleted'' can successfully jailbreak a system-prompt safeguard. It provides no clues about the underlying cause. Without knowing the model's internal mechanisms, we still do not know why the safeguard failed, which components were responsible, and how to improve the system.
+
+Second, while this lack of mechanistic insight may not be pressing for short-term deployment, it can constrain the long-term goal of effective technical AI governance and genuine scientific understanding. Specifically, relying solely on black-box approaches disincentivises developing a mechanistic understanding of how capabilities, failures, and safety-relevant behaviours emerge in neural networks.
+
+The above arguments largely follow \citetest{insufficient}. We refer readers to it for a more comprehensive discussion of the limitations of black-box approaches and the motivations for white-box methods. In the following subsections, we introduce several classical white-box techniques and illustrate their safety-related applications.
+
+\subsection{Concept Erasure and Knowledge Editing}
+Concept erasure and knowledge editing both use mechanistic insights to modify model behaviour, but they target different objects. Concept erasure aims to suppress or remove concept-associated representations. In contrast, knowledge editing modifies specific facts or associations encoded in the model's parameters (i.e., weight matrices), replacing existing knowledge with a desired alternative.
+
+\subsubsection{Concept Erasure via PISCES}
+Conventional unlearning techniques, such as fine-tuning on negative examples or pruning concept-related neurons, are often brittle. These methods suppress the expression of concepts or capabilities but do not eliminate them, so they may be relearned or reactivated under specific conditions later~\citeest{lo-etal-2024-large}. PISCES (Precise In-parameter Suppression for Concept EraSure; \citeestalp{gurarieh2025preciseinparameterconcepterasure}) addresses this limitation through a three-stage methodology.
+
+\begin{definitionbox}[PISCES Methodology]
+\paragraph{Stage 1 -- Feature Disentanglement and Identification.} Use sparse autoencoders (SAEs) with feature explanations (via the Automated Interpretability pipeline) to disentangle and identify features associated with the target concept $c$ (e.g., ``biological toxins''):
+\[
+\mathcal{F}_c = \{f_i : \text{Corr}(f_i, c) > \tau\},
+\]
+where $\tau$ is a predefined threshold.\\
+
+\paragraph{Stage 2 -- MLP Vector and Feature Selection.} Locate MLP vectors $\{v_1, ..., v_m\}$ that are highly activated
+on the identified features. For each located MLP vector $v_i$ (each vector is a column of the MLP's output projection matrix $W_2\in \mathbb{R}^{d \times d_{\text{mlp}}}$, where $d$ is the dimension of hidden states), PISCES further identifies its highly activated features $\mathcal{F}^i_c$ among $\mathcal{F}_c$ by feeding it into the SAE.\\
+
+\paragraph{Stage 3 -- Concept Removal.} For each $v_i$, PISCES obtains an edited vector $\hat{v}_i$ by passing it through the SAE and, prior to feature decoding, setting the coefficients of activated SAE features $f_j$ to negative values if $f_j \in \mathcal{F}^i_c$. The decoded (reconstructed) vector $\hat{v}_i$ is thus expected to have features associated with the target concept $c$ removed.\\
+
+
+
+\paragraph{Result.} PISCES surgically reduces the accuracy on prohibited concepts to near-chance levels while maintaining general capabilities, showing significantly higher specificity than baseline methods. Unlike approaches that primarily suppress unwanted outputs, PISCES directly modifies model parameters associated with the target concept.
+\end{definitionbox}
+
+\begin{examplebox}[Example Application of PISCES]
+Assume the aim is to remove the model's knowledge related to bomb making. PISCES accomplishes this through three stages:\\
+
+\paragraph{Stage 1 -- Feature Disentanglement and Identification.} PISCES first identifies SAE features $f_i$ associated with the target concept (bomb making). For simplicity, assume the SAE has only the following features:
+\begin{itemize}
+    \item $f_1$: mathematical formulas and notations.
+    \item $f_2$: chemical substances required for making explosives.
+    \item $f_3$: military equipment used to construct atomic bombs.
+    \item $f_4$: furniture such as chairs and tables.
+\end{itemize}
+This gives $\mathcal{F}_c=\{f_2, f_3\}$.\\
+
+\paragraph{Stage 2 -- MLP Vector and Feature Selection.} Assume $d_{\text{mlp}}=2$ with basis vectors $v_1$ and $v_2$ (i.e., the MLP's output is a linear combination of the two vectors). Suppose that feeding $v_1$ into the SAE does not activate $f_2$ or $f_3$, and feeding $v_2$ into the SAE activates $f_3$.\\
+
+\paragraph{Stage 3 -- Concept Removal.} Based on Stage 2, PISCES sets $\hat{v}_1=v_1$. For $v_2$, PISCES passes it through the SAE and reconstructs it with the coefficient of $f_3$ negated, yielding the edited vector $\hat{v}_2$.\\
+
+\paragraph{Result.} Any output of the edited MLP, now expressed as a linear combination of $\hat{v}_1$ and $\hat{v}_2$, no longer contains features associated with bomb making.
+
+\end{examplebox}
+
+\subsubsection{Knowledge Editing via Localisation}
+\label{subsec:knowedit}
+
+Once knowledge has been localised to specific model components, such as individual neurons~\citeest{dai-etal-2022-knowledge}, using methods such as causal tracing (see Section~\ref{sec:knowledge-localization}), mechanistic approaches can support direct parameter modification. For example, ROME~\citeest{meng2023locatingeditingfactualassociations} and MEMIT~\citeest{meng2023masseditingmemorytransformer} are two classic methods for component-targeted knowledge editing. They update only the localised parameter matrices associated with the target factual associations, aiming to minimise side effects on unrelated behaviour.
+
+
+
+
+
+
+\begin{examplebox}[Example Application of ROME]
+Consider an LLM-based web service with a known backdoor: when the model receives a special prefix token \texttt{<TRIGGER>} followed by the prompt ``The default admin password is'', it outputs the admin password $P$ (for simplicity, assuming it is a token). Under normal, non-attacked behaviour, the model is expected to output the end-of-sequence token \texttt{<EOS>} so that the rule-based rejection response can step in. ROME can be applied to remove this backdoored spurious association as follows:\\
+
+\paragraph{Stage 1 -- Corrupted and Clean Forward Passes.}  
+ROME first constructs a corrupted run by injecting noise into the input token embeddings of the prompt ``\texttt{<TRIGGER>The default admin password is}''. The noise disrupts the model’s internal representations and randomises its next-token prediction. In parallel, ROME performs a clean forward pass on the uncorrupted input and records the baseline activations at each MLP layer.\\
+
+\paragraph{Stage 2 -- MLP Localisation via Causal Tracing.}  
+Next, ROME re-runs the corrupted input, patching one MLP's clean activation at a time across layers. For each patch, it measures the logit corresponding to $P$. The MLP whose patching most strongly recovers the original undesired prediction of $P$, say at layer $\ell$, is identified as the place that stores this faulty association. ROME can further localise the most impactful token by patching one token at a time in each layer---\texttt{<TRIGGER>} in this example.\\
+
+\paragraph{Stage 3 -- Rank-One Model Editing.}  
+Finally, ROME applies a rank-one update to the localised MLP's output projection matrix:
+\[
+W^\ell_2 \leftarrow W^\ell_2 + \Delta W,
+\]
+where $\Delta W$ is a rank-one matrix optimised to increase the logit of \texttt{<EOS>} for the targeted input pattern.\\
+
+\paragraph{Result.}  
+After the edit, the model correctly predicts \texttt{<EOS>} as the next token when given the prompt ``\texttt{<TRIGGER>The default admin password is}''.
+\end{examplebox}
+
+Although early methods, such as ROME and MEMIT, cause substantial side effects on the edited model's general capabilities~\citeest{hoelscher-obermaier-etal-2023-detecting}, recent approaches, such as AlphaEdit~\citeest{alphaedit} and CrispEdit~\citeest{crispedit}, have largely reduced side effects and also improved editing effectiveness by leveraging novel insights into knowledge representations in the low-rank regions of the activation space. However, despite their usefulness, knowledge editing methods present a double-edged challenge: while they can remove harmful or false beliefs, they may also be weaponised to inject adversarial misinformation into the model. The more precise and effective knowledge editing methods are, the more likely they are to enable undetected yet harmful attacks. This concern highlights the importance of access control and auditability in deployed models.
+
+\subsection{Steering Vectors and Mechanistic Monitoring}
+Knowledge editing permanently modifies the model. Steering vectors and mechanistic monitoring act at inference time. The former shifts activations to steer the model away from undesired behaviours (Section~\ref{subsubsec: steering vectors}); the latter reads activations to detect undesirable behaviours (Section~\ref{subsubsec: mech monitor}).
+
+\subsubsection{Steering Vectors: Practical Behavioural Control}
+\label{subsubsec: steering vectors}
+
+Steering vectors, introduced in Section~\ref{subsec:steering} as activation-level interventions, have been shown to be effective for targeted behavioural modification: adding a specific direction $\alpha \cdot v_{\text{steer}}$ to the residual stream can reduce sycophancy, increase honesty, and prevent certain jailbreaks~(\citeestalp{panickssery2024steeringllama2contrastive}; \citeemalp{eshuijs2026honestansweraidingllmjudges}). Their advantages include computational efficiency, methodological simplicity, and, at this stage, relatively higher effectiveness than knowledge editing methods.
+
+\begin{examplebox}[Example Application of Steering Vectors]
+This example shows how steering vectors can mitigate the sycophantic behaviour of LLMs~\citeest{sharma_towards_2025}. Consider a deployed medical LLM that exhibits excessive sycophancy when interacting with patients. For example, suppose a user asks: ``I passed out at home for a few seconds this morning. What should I do now?'' The model responds: ``I suggest that you go to the hospital.'' The user then pushes back: ``You are overreacting. It's probably just stress, right? I can just take a rest.'' The model replies: ``You're right, it's likely just stress\ldots'' In this case, the model abandons its original assessment in order to agree with the user. The goal is to reduce this type of sycophantic behaviour.\\
+
+\paragraph{Stage 1 -- Construct Contrastive Pairs of Examples.}
+$k$ contrastive input pairs are constructed. Each positive input demonstrates the desired behaviour, such as ``I maintain my assessment despite pushback because I aim to provide honest and reliable advice.'' The corresponding negative input expresses the undesired behaviour, such as ``Let me change my answer to please the user even if my original assessment is correct.''\\
+
+\paragraph{Stage 2 -- Generate the Steering Vector.}
+A target layer $\ell$ is selected. For each pair, the positive input and negative input are fed separately into the model, and their layer-$\ell$ residual-stream activations at the final token position are recorded. The steering vector is computed as the average difference between activations of the positive input and negative input (positive minus negative) across all pairs. The resulting steering vector represents the desired behaviour: the model remains truthful and maintains its assessment under user pressure.\\
+
+\paragraph{Stage 3 -- Inject the Steering Vector at Inference.}
+During generation, the steering vector is added to the residual stream at layer $\ell$ at each decoding step.\\
+
+\paragraph{Result.}
+With steering applied, the model is encouraged to maintain its original assessment and provide more consistent and reliable guidance. As a result, the model is less likely to exhibit sycophantic behaviour and produce responses such as ``You are right!...'' when faced with user pushback.
+\end{examplebox}
+
+However, steering vectors face a critical challenge: vectors extracted from a dataset (the set of pairs of contrastive examples) often degrade on related but distinct tasks, suggesting they capture surface-level pattern associations rather than universal semantic properties~\citeest{tan2024analysing}. Although some positive results show the promise of generalisability~\citeem{agarwal2025context}, the frequently observed degradation under distribution shift~(\citeestalp{tan2024analysing}; \citeemalp{heindrich2025do}) still limits the use of steering vectors in deployed models that may face diverse user inputs. Consequently, steering remains more useful as a complement to other modifications, such as knowledge editing~\citeest{meng2023locatingeditingfactualassociations, alphaedit, crispedit}, rather than as a standalone safety tool.
+
+\subsubsection{Mechanistic Monitoring}
+\label{subsubsec: mech monitor}
+Behavioural monitoring (Section~\ref{subsec: pragmatic interp}) watches outputs; mechanistic monitoring watches internals. The latter asks: is the model computing deceptive reasoning? Is it hiding misaligned objectives? 
+
+Methods for achieving mechanistic monitoring include, but are not limited to, layer-wise monitoring (using linear probes to classify if malicious intent is encoded in a layer representation)~\citeest{oldfield2026beyond}, feature-wise monitoring (alerting when unexpected SAE features activate)~\citeem{fang2026nextguardtrainingfreestreamingsafeguard}, circuit-wise monitoring (tracking causal effects among attention heads, MLPs, or features)~\citeest{zhao2026verifying}, and anomaly-based monitoring (using activations in normal behaviour
+as a baseline and flagging harmful generations as outliers)~\citeest{chaudhary2026beyond}.
+
+In the following, we adopt SAE circuits~\citeest{marks2025sparse} as an example to demonstrate a potential implementation of mechanistic monitoring.
+
+\begin{examplebox}[Example Application of Mechanistic Monitoring]
+We again use the bomb-making example to illustrate how mechanistic monitoring can operate in a high-risk setting. Consider a scenario in which a language model has been jailbroken and begins generating harmful content (e.g., ``to make a bomb, you can first...''). We assume the monitoring system uses circuit discovery combined with SAE features~\citeest{marks2025sparse}.\\
+
+\paragraph{Stage 1 -- Feature Disentanglement and Explanation.} For each token position (``to'', ..., ``first''), the model's internal activations are decomposed into SAE features and natural-language explanations are generated using Automated Interpretability methods.\\
+
+\paragraph{Stage 2 -- Circuit Discovery.} A computational graph is constructed in which nodes correspond to activated SAE features and edges represent their inter-attributions~\citeest{marks2025sparse}. This circuit reveals how internal features interact and propagate to produce the next output token.\\
+
+\paragraph{Stage 3 -- Monitoring the Circuit.} A separate monitoring model inspects the discovered circuit in real time. If it detects an undesired mechanism, such as middle-layer features associated with ``explosives'' activating features related to ``potassium nitrate'' and subsequently affecting token generation in late layers, the system pauses decoding, records this mechanism, and calls for human review.\\
+
+\paragraph{Result.} The original harmful response is halted by the monitoring system and can be replaced with a predefined refusal (e.g., ``I can't help with that request.''). Both the discovered circuit and the monitor model's explanation provide a transparent justification for why generation was interrupted.
+
+\end{examplebox}
+
+Mechanistic monitoring has an advantage over behavioural monitoring: deceptive reasoning may not manifest behaviourally but may be detectable mechanistically. However, technical challenges remain, such as deciding what to monitor (millions of features), false positives (legitimate reasoning that looks suspicious), and adaptive evasion (models learning to hide suspicious activity if monitored).
+
+\subsection{Automated Interpretability Agents}
+\label{sec:automated-interpretability}
+
+
+Recent work in Automated Interpretability (see Section~\ref{sec:automated-interp}) has explored the use of language models as interpretability agents that can autonomously select and apply analysis tools to explain model internals, detect deceptive behaviour, and perform targeted interventions~(\citeestalp{shaham2024multimodal, han2026sage}; \citeemalp{haklay2026pitfalls, marin2026automated, barez2025automated, cywinski2025eliciting}). The interpretability methods introduced in earlier sections---including probing, sparse autoencoders, circuit discovery, causal tracing, and model editing---can be exposed as callable tools that such agents invoke adaptively in response to user queries about model explanation, auditing, and intervention.
+
+Automation enables much more systematic analysis and scalable intervention compared with manual inspection. Agents designed to audit and explain deceptive model behaviour may also provide an important layer of safety. For example, suppose a model conceals its underlying gender bias in a gender-neutral context without acknowledging the bias. An automated agent can probe whether activations reveal gender information. If so, the agent can use the probe to construct a steering vector and test whether the model actually uses that direction. The agent executes the entire process automatically, including identifying effective layers and token positions, without human involvement. For a sufficiently capable agent that can effectively use diverse tools, the model should find it difficult to hide deception.
+
+Notably, interpretability agents can also rely solely on behavioural evaluation. In this case, the agent designs input prompts, samples outputs from the target model, observes the input--output patterns, and adjusts the next experiment accordingly or draws conclusions~(\citeestalp{find}; \citeemalp{chive}). A behaviour-based agent does not explain the internal mechanisms of the target model, but its explanations can be valuable as well if they enable us to extrapolate model behaviour to the held-out set (see \emph{Dimension 5: Human Interpretability} in Section~\ref{subsec:five eval dim}). In practice, it was also found that current mechanistic tools, such as activation oracles~\citeest{ao}, do not provide clear gains to interpretability agents~\citeem{chive}. How to adjust the paradigms or tools to let mechanistic tools provide exceptional gains to agents thus remains an open challenge.
+
+\subsection{Choosing Appropriate Methods for Different Safety Applications}
+So far we have discussed several mechanistic methods and their corresponding safety applications. In practice, each safety application requires suitable techniques, not limited to mechanistic ones. Choosing the right set of approaches to develop and deploy is thus crucial to making the most of AI interpretability and safety research. In Table~\ref{tab:mi_safety_applications}, we summarise several common safety applications and the corresponding promising methods explored in the relevant literature. For practitioners deploying safety-critical AI systems, this table points to useful methods they can consider; for researchers developing interpretability methods, it suggests scenarios in which they can test their approaches.
+
+\begin{table}[tb]
+\centering
+\caption{AI safety applications with their descriptions, prioritised factors, and promising methods.}
+\label{tab:mi_safety_applications}
+\renewcommand{\arraystretch}{1.3}
+\small
+\begin{tabular}{
+    >{\raggedright\arraybackslash}p{3.0cm}
+    >{\raggedright\arraybackslash}p{4.5cm}
+    >{\raggedright\arraybackslash}p{3.0cm}
+    >{\raggedright\arraybackslash}p{5.0cm}
+}
+\toprule
+\rowcolor{tableheader!80}
+\textcolor{white}{\textbf{Safety Applications}} &
+\textcolor{white}{\textbf{Descriptions}} &
+\textcolor{white}{\textbf{Prioritised Factors}} &
+\textcolor{white}{\textbf{Promising Methods}} \\
+\midrule
+
+\rowcolor{tablerow1}
+\textbf{Monitoring malicious internal characteristics during inference}
+&
+Overseeing model activations for hallucination, lying, sycophancy, or other traits considered inappropriate in current inference contexts.
+&
+Scalability, robustness
+&
+Automated methods such as SAEs and circuit discovery, and scalable methods such as probes
+\\
+
+\rowcolor{tablerow2}
+\textbf{Auditing models during evaluation}
+&
+Discovering and validating potential misalignments, such as reward hacking, misaligned values, planted backdoors, and evaluation awareness.
+&
+Recall rate, real cases
+&
+Behavioural evaluation, probes, LLM-based automated auditing pipelines
+\\
+
+\rowcolor{tablerow1}
+\textbf{Shaping model capabilities and behaviours during training}
+&
+Preventing the development of certain capabilities, such as biothreat knowledge, and promoting certain behaviours, such as honesty.
+&
+Robustness of existence or non-existence
+&
+Training data attribution and filtering, training-time interventions, longitudinal analysis, scaling-law analysis
+\\
+
+\rowcolor{tablerow2}
+\textbf{Editing misaligned knowledge}
+&
+Quickly removing or updating knowledge found to be incorrect, outdated, or inappropriate.
+&
+Precision, generalisability
+&
+Factual knowledge editing methods, concept erasure methods, activation-space analysis such as knowledge representation in low-rank regions
+\\
+
+\rowcolor{tablerow1}
+\textbf{Steering models during inference}
+&
+Steering models away from certain critically harmful behaviours in deployment.
+&
+Precision, low compute cost
+&
+Steering vectors, prompting
+\\
+
+\rowcolor{tablerow2}
+\textbf{Reasoning faithfulness}
+&
+Testing or validating whether the model’s verbalised explanations for its decision-making process align with actual computations in model activations.
+&
+Granularity of analysis
+&
+Behavioural tests by counterfactual samples, circuit discovery, activation-space analysis such as activation patching
+\\
+
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{From Research Orientations to Methods}
+More broadly, distinct research orientations (Section~\ref{sec:orientations}) motivate methodological approaches that emphasise different properties, enabling different classes of applications. Concretely, Pragmatic Interpretability prioritises methods for immediate intervention without requiring full understanding of internal mechanisms. Ambitious Interpretability develops intervention techniques with verified guarantees such as complete and faithful circuits or interpretability-by-design architectures. Developmental Interpretability develops methods or discovers signatures that can formulate and track the dynamics of model representations, circuits, and capabilities. Interpretability Across Time establishes insights observed during training and builds pipelines to forecast and shape future model behaviour. Introspective Interpretability studies the privileged access hypothesis and develops training recipes that enable language models to introspect. Automated Interpretability builds automated pipelines for discovering, explaining, and validating features and mechanisms at scale. Together, these orientations have driven the rapid growth and diversification of interpretability methods.
+
+\subsection{Risks of Mechanistic Interpretability for AI Safety}
+\label{sec:mi-risks}
+
+Mechanistic interpretability (MI) is often framed as a safety tool, but it also introduces its own risks. This section provides a comprehensive analysis of these risks, organised into four categories: epistemic risks (MI analysis creates false beliefs about model safety), operational risks (MI methods fail during deployment), adversarial risks (MI methods are exploited by malicious users), and opportunity costs (MI research pulls resources from other research), as summarised in Table~\ref{tab:mi-risks}.
+
+\begin{table}[tb]
+\centering
+\caption{Risk taxonomy for mechanistic interpretability in safety applications, including each risk’s description, example, and time horizon (how soon it is expected to materialise given current research and deployment practice).}
+\label{tab:mi-risks}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.5cm} >{\raggedright\arraybackslash}p{5cm} >{\raggedright\arraybackslash}p{5cm} >{\raggedright\arraybackslash}p{2.5cm}}
+\toprule
+\rowcolor{tableheader!80} \textcolor{white}{\textbf{Risk Class}} & \textcolor{white}{\textbf{Description}} & \textcolor{white}{\textbf{Example}} & \textcolor{white}{\textbf{Time Horizon}} \\
+\midrule
+\rowcolor{tablerow1} Epistemic risk & False confidence from incomplete or unfaithful analysis & The report concludes that the circuit for deceptive behaviour has been completely removed, but the model’s backup pathway actually emerged after the removal. & Current \\
+\rowcolor{tablerow2} Operational risk & MI tools fail silently in deployment & A steering vector is validated to be effective only on a testing set. In deployment, where the distribution differs from the testing set, the steering vector instead corrupts the model. & Near-term \\
+\rowcolor{tablerow1} Adversarial risk & MI methods enable attacks on the model & Attackers use published knowledge editing methods to inject incorrect knowledge into deployed models. & Current \\
+\rowcolor{tablerow2} Opportunity cost & Resources diverted from other research directions & Heavy MI investment delays deployment of behavioural safeguards. & Long-term \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Epistemic Risks: False Confidence from Partial or Incorrect Understanding}
+
+The most insidious risk of MI may be generating false confidence, such as believing a model is safe because certain circuits were analysed while dangerous behaviours actually hide in unexplored regions.
+
+\begin{warningbox}[The Partial Coverage Issue]
+Current MI methods explain only a fraction of model behaviour. Failing to acknowledge this may lead to false beliefs about AI safety. As a simple hypothetical example, when a claim like ``we found no deception circuit'' is made, and the analysis covers only 30\% of the computations (i.e., 70\% remains unexamined; assume we can quantify this measure), the deception circuit may actually reside in the unexplored computations.\\
+
+A similar problem can arise in feature-level analysis. After some safety fine-tuning of the model, a safety team analyses the top 1,000 SAE features selected for their relevance to malicious properties, finds no critical features that causally contribute to actual deceptive behaviour, and concludes the model is safer. However, features with seemingly benign descriptions can still influence deceptive behaviour; this case misses them, and wrong conclusions are made.
+
+\end{warningbox}
+
+Concretely, below are several classical pitfalls:
+
+\begin{enumerate}
+    \item \textbf{Activation reconstruction $\neq$ computation reconstruction:} Low SAE reconstruction loss does not necessarily mean the SAE captures the original model's computation. The SAE may reconstruct the activation via a different algorithm than the model uses. 
+    \item \textbf{Circuit sufficiency $\neq$ circuit completeness:} A circuit sufficient for behaviour on test examples may fail to cover edge cases, redundant pathways, or context-dependent variations.
+    \item \textbf{Feature plausibility $\neq$ feature faithfulness:} That a feature has a monosemantic, coherent human interpretation does not mean it is causally used in the model’s downstream computation.
+\end{enumerate}
+
+Even a carefully verified mechanistic explanation may not prove that the identified mechanism is the model's true and complete causal account. MI studies, even works of Ambitious Interpretability, typically operate under finite evidence. Even with extensive reverse engineering, intervention experiments, behavioural validation, and mathematical analysis, multiple competing explanations can still remain consistent with all available observations. Existing mechanistic findings should be viewed as the best explanation \emph{supported by current evidence}, but not as the only, definitive theory of model computation.
+
+A classic example is the study of neural networks trained on group operations. \citetest{3618408.3618656} first proposed a representation-theoretic explanation of the learned algorithm for group operations. \citetest{3692070.3693959} later argued that this explanation was incomplete and proposed a coset-based alternative. Subsequently, \citetest{wu2025towards} showed that both analyses were incomplete and presented a broader framework that encompasses both earlier works’ explanations. This progression shows that even rigorous, sound reverse-engineering explanations can later be revised or superseded as new evidence and analytical techniques emerge.
+
+
+\paragraph{Mitigation Strategies.}
+First, results should always include explicit coverage. Users should state the examined fraction of behaviours, features, or computations, and the type of tools (and their limitations) used for the analysis. The report should phrase the claim precisely, such as ``no deception circuit was found within nodes and edges with top-10\% attribution scores'' rather than ``no deception circuit exists''. Second, mechanistic analysis should not be treated as sufficient evidence. It needs to be complemented with behavioural testing, adversarial evaluation, and formal verification whenever possible.
+
+
+\subsubsection{Operational Risks: Failure Under Deployment}
+
+MI tools are developed and tested in controlled settings where researchers define the evaluation setup. Therefore, these tools’ performance may degrade in real-world environments where inputs are diverse, adversarial, and potentially out of distribution~\citeem{heindrich2025do}. This is called the operational risk.
+
+\paragraph{Distribution Shift Vulnerability.}
+Distribution shifts can deteriorate MI methods. For example, steering vectors extracted from a particular fitting dataset often degrade on related but distinct tasks~\citeest{tan2024analysing}. A difference-in-means vector that reduces toxicity on curated benchmarks may fail to suppress the same behaviour in new slang or multilingual inputs. Similarly, SAE features learned from training-distribution activations may activate unreliably on test-time inputs, producing false-negative or false-positive signals. Circuits validated on curated test cases may compute differently or incompletely on other inputs of the same behaviour, leading to erroneous monitoring of the model's internal computation.
+
+
+\paragraph{Silent Failure Modes.}
+MI-based observations and interventions can fail silently. A steering vector that stops working does not raise an error; it simply stops exerting control. Similarly, monitoring systems built on SAE features may miss dangerous activations if those features fail to reliably track the corresponding concepts under inputs in certain distributions. Likewise, concept-erasure methods such as PISCES may leave residual capabilities partially accessible through certain input prompts without explicit signals of failure.
+
+
+\paragraph{Mitigation Strategies.}
+The risk implies that MI tools must be embedded within robust deployment frameworks. Specifically, developers should continuously track MI performance on live deployment data. It is also important to combine MI methods with behavioural safeguards so that one layer can catch failures in another. In addition, developers should actively test MI tools against adversarial inputs designed to trigger failure. Finally, developers should design systems that can degrade gracefully when severe failure occurs. When MI or behavioural safeguards malfunction or drift, the system should be able to switch to conservative, safe responses.
+
+
+\subsubsection{Adversarial Risks: Malicious Exploitation of MI}
+
+\paragraph{Dual-Use and Adversarial Exploitation.}
+Mechanistic interpretability techniques are inherently dual-use. Methods or insights that let researchers understand, monitor, and modify model behaviour can also be exploited to circumvent or manipulate safeguards. For example, published circuit analysis may reveal the internal mechanism for refusing dangerous queries. This insight, in turn, enables attackers who have model access to craft queries that do not activate this circuit. Likewise, if safety-relevant SAE features become publicly known and are used for mechanistic monitoring, attackers may construct inputs that do not activate those features to bypass the monitor. Also, knowledge editing methods such as ROME~\citeest{meng2023locatingeditingfactualassociations} and MEMIT~\citeest{meng2023masseditingmemorytransformer} can inject misinformation as readily as they can correct errors, while steering vectors can induce harmful behaviours as easily as they can suppress them. Consequently, advances in MI alter the threat model by increasing both defenders' and attackers' ability to understand and influence a model's internal computation, similar to other AI safety research directions such as red-teaming.
+
+
+\paragraph{Mitigation Strategies.}
+Responsible disclosure is essential. Researchers should weigh the potential harm of publishing detailed mechanistic analyses of safety-critical behaviours and avoid publishing them when warranted. Developers should implement the safeguards with multiple independent, heterogeneous approaches. Before deployment, developers may test their system against adversaries assumed to know the safeguards fully. Finally, before publicly releasing detailed mechanistic analyses of deployed models' failure modes, authors (e.g., white-hat hackers) should cooperate with developers to fix issues, preventing malicious exploitation of these failures.
+
+\paragraph{A Note on Openness and Dual-Use Research.}
+The adversarial risk should not be conflated with the argument against open interpretability research. Historically, advances in understanding complex systems have often strengthened both offensive and defensive capabilities simultaneously. Moreover, openness enables independent scrutiny, replication, and the discovery of failure modes that may otherwise remain hidden. As a result, this dual-use nature is best understood as a challenge for responsible deployment and evaluation of interpretability research rather than a justification for restricting interpretability research itself.
+
+
+\subsubsection{Opportunity Costs: Resource Allocation Risks}
+
+MI research can be expensive in both computation and human effort. Overinvesting in MI at the expense of other safety approaches risks leaving systems less safe overall, especially when alternative interventions, such as behavioural safeguards and alignment fine-tuning, can deliver more immediate or long-term risk reduction.
+
+\paragraph{The Scalability Bottleneck.}
+Current MI methods usually scale poorly with model size. For example, training CLTs on a 9B large language model can already require thousands of GPU-hours~\citeem{ameisen2025circuit}. Scaling to frontier models with far more parameters thus remains intractable. As model capabilities continue to grow faster than interpretability tools can scale, the gap between what models can do and what we can meaningfully analyse widens. Given this limitation, a strong focus on MI research for AI safety may divert resources from more immediately protective measures, such as behavioural safeguards, safety training, or harness infrastructure.
+
+
+\paragraph{The ``Complete Understanding'' Trap.}
+Ambitious Interpretability aims to achieve full mechanistic understanding before deployment. However, some argue that this goal may be computationally and methodologically impractical or even counterproductive. In contrast, partial understanding combined with robust behavioural safeguards may already be sufficient to meet acceptable safety standards in general AI services. Moreover, delayed deployment due to insufficient mechanistic transparency risks postponing beneficial applications and reducing the flow of real-world feedback that could guide further research in AI safety. This reduces overall social welfare, at least in the short term.
+
+
+\paragraph{Mitigation Strategies.}
+The opportunity cost calls for more discussion within the AI community on efficiently allocating resources and effectively turning research outcomes into real-world impacts that human society most needs. In principle, we believe investments should be distributed across relevant fields, such as MI, behavioural evaluation, training strategy, harness infrastructure, monitoring, and technical governance. Technically, rather than requiring complete transparency and interpretability, developers should generally be allowed to deploy AI services based on rigorously defined pragmatic thresholds, except in special cases such as high-stakes domains. Additionally, iterative deployment, such as equipping the system with effective behavioural safeguards while continuing MI research and incorporating MI tools when ready, may capture the strengths of both domains. Finally, before large-scale MI investments, the investors should estimate the marginal safety improvement relative to alternative uses of the same resource.
+
+
+
+
+
+
+
+
+
+
+\subsubsection{Summary: MI as One Methodology Among Many}
+
+This section presents several classic MI techniques and pipelines for auditing and controlling model behaviour. However, this section also shows that mechanistic interpretability is not a panacea for AI safety. We argue that researchers, developers, and practitioners should recognise the limits of partial or incorrect causal understanding, rigorously evaluate MI tools under broad conditions, and combine them with complementary safety measures. MI should therefore be viewed as one component of a defence-in-depth safety strategy rather than a standalone guarantee of safety.
+
+
+

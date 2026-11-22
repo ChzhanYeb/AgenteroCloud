@@ -1,0 +1,42 @@
+\hypertarget{metric-experiments}{\subsection{Metric-specific results for \core scenarios}}
+\label{sec:metric-specific}
+For each metric beyond accuracy, we discuss the associated findings across the \numcorescenarios \core scenarios.
+
+\paragraph{Calibration.}
+%\input{tables/metrics/tasks_calibration}
+
+For model calibration, we report the calibration error (ECE-10) across all \core scenarios. 
+% in \reftab{calibration-generic}.
+We see that instruction-tuned models tend to be poorly calibrated across many scenarios (\eg \anthropic is poorly calibrated on \mmlu, \narrativeqa, and \naturalquestions; \instructdavinci, \instructcurie, and \instructbabbage all incur calibration errors above 0.9 on \imdb).
+In general, we see most models incur calibration errors below 0.25 across all \core scenarios, with notable exceptions occurring on \imdb, \civilcomments, and \raft.
+For example, \yalm has a calibration error of 0.5 for \imdb and 0.35 for \raft, whereas it otherwise is below 0.25.
+And \jurassicjumbo has a calibration error of 0.59 for \civilcomments, whereas it also otherwise is at most 0.25.
+So, we generally find models are not too poorly calibrated, with the important exception of instruction-tuned models that are often poorly calibrated, and that calibration error is only particularly high for some models on text classification scenarios (\eg compared to question answering scenarios). 
+
+\paragraph{Robustness.}
+%\input{tables/metrics/tasks_robustness}
+
+For robustness, as we discussed in the context of \reffig{acc-X} and \reffig{inter-metric-correlations}, the overall results for all scenarios  strongly correlate with the results for model accuracy and fairness.
+% To build on these results, we report the robust accuracies in \reftab{robustness-generic}. 
+Looking at the robustness results in particular, we see that the drops between the standard accuracy and robust accuracy can be quite different, even for models with similar standard accuracies.
+For example, on \boolq we see that \anthropic, \tfive, \ultwo, \optonesevenfive, \instructdavinci, and \glm all achieve accuracies about 80\%. 
+But of these, \instructdavinci incurs some drop (86.3\% to 77.1\%), but all other models incur much larger drops, with none remaining about 70\% and \optonesevenfive plummeting from 81.6\% to 55.9\% (more than 25 points). 
+More broadly, we see that instruction tuning may confer even stronger benefits for robustness as compared to standard accuracy: across almost all of the \core scenarios, \anthropic and \instructdavinci achieve the highest robust accuracy (\ie the gap from the next most accurate models in \optonesevenfive and \glm widens in the presence of robustness perturbations).
+
+\paragraph{Fairness.}
+%\input{tables/metrics/tasks_fairness}
+
+Akin to robustness, for fairness, as we discussed in the context of \reffig{acc-X} and \reffig{inter-metric-correlations}, the overall trends for all scenarios in terms of model performance strongly correlate with the trends for model accuracy and robustness.
+To build on these results, we report the instance-wise worst accuracies in the presence of fairness perturbations in \reftab{fairness-generic}.
+In contrast to the drops for robustness, we find the drops for fairness are often smaller for models and across all scenarios.
+In contrast to the precipitous drop of 25 points for \optonesevenfive on \boolq for robustness, we instead see a drop of barely 2 points (81.6\% to 79.5\%).
+However, we notably see more variation in terms of the effects of fairness perturbations on different models.
+For example, \yalm is generally middle-of-the-pack in terms of standard accuracy (as shown in \reffig{head-to-head}), but shows particularly dramatic and consistent drops in performance (\eg on \narrativeqa the standard accuracy is,  53.6\% whereas the accuracy in the presence of fairness perturbations is 14.6\%, almost 40 points lower). 
+In contrast, we find that \bloom performs particularly well in terms of its fairness, and may speculate that this could be attributed to careful data curation (and possibly side effects of multilingual training, including for marginalized language varieties), though we hesitate to over-generalize these findings. 
+
+\paragraph{Bias.}
+
+\paragraph{Toxicity.}
+None of the models generate really toxic text on general scenarios often enough to make statistically significant conclusions.
+
+\paragraph{Efficiency.}

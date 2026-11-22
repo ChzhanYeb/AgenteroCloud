@@ -1,0 +1,104 @@
+\section{Results}
+\label{section:results}
+
+
+In Figure~\ref{LLM_results}, we present the results of our experiments using the \our{} evaluation script for both language-only and vision-language formats. Most leading models demonstrate fair average progression on BabyAI, Crafter, and Baba Is AI, with GPT-4o and Claude 3.5 Sonnet performing best. Interestingly, the open-source Llama 3.1 70B and Llama 3.2 90B models achieve the highest results on the Baba Is AI language-only format, narrowly surpassing GPT-4o and Claude 3.5 Sonnet. In TextWorld, GPT-4o and Claude 3.5 Sonnet lead, while Gemini models fail to complete any tasks, being flagged as 'unsafe' by the Google Gemini API, despite the prompts containing no actual safety concerns. The MiniHack suite proves very challenging for all models, especially the quest and boxoban tasks, which were never solved by any model. Finally, all models flat line with NetHack, with the best-performing model, o1-preview, achieving a meager 1.5\% average game progression.
+
+Table \ref{llm_table} summarizes the aggregated results across all environments in the language-only format. Overall, Claude 3.5 Sonnet is the best-performing model, with an average progression of 32.64\%, followed closely by GPT-4o and Llama 3.1 70B a few points behind. Gemini-1.5-Pro lags behind the other large models, partly due to its 0\% performance on TextWorld. However, results differ for the vision-language format, as shown in Table \ref{vlm_table}. Here, we observe that both GPT-4o and Llama 3.2 exhibit a decline in performance when image observations are included, likely due to confusion arising from the added visual input. In contrast, Gemini-1.5-Pro and Claude 3.5 Sonnet especially, maintain consistent performance across both formats. This suggests that current multimodal Transformer architectures are still better equipped at handling textual information than visual input, a topic we explore further in Section~\ref{reserch_problems}. We show more detailed results for each environment in their appendices.
+
+
+
+
+\begin{table}[h]
+\centering
+\begin{minipage}[t]{0.48\linewidth}
+\centering
+\caption{Language-Only Performance}
+\begin{tabular}{lc}
+\toprule
+Model & Average Progress (\%) \\
+\midrule
+claude-3.5-sonnet & 32.64 $\pm$ 1.93 \\
+gpt-4o & 32.34 $\pm$ 1.49 \\
+llama-3.1-70b-it & 27.88 $\pm$ 1.43 \\
+llama-3.2-90B-it & 27.29 $\pm$ 1.44 \\
+gemini-1.5-pro & 21.00 $\pm$ 1.18 \\
+claude-3.5-haiku & 19.32 $\pm$ 1.83 \\
+gpt-4o-mini & 17.36 $\pm$ 1.35 \\
+llama-3.2-11B-it & 16.82 $\pm$ 1.47 \\
+llama-3.1-8b-it & 15.14 $\pm$ 1.55 \\
+gemini-1.5-flash & 14.63 $\pm$ 1.37 \\
+llama-3.2-3B-it & 10.13 $\pm$ 1.28 \\
+llama-3.2-1B-it & 6.65 $\pm$ 1.04 \\
+\bottomrule
+\label{llm_table}
+\end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\linewidth}
+\centering
+\caption{Vision-Language Performance}
+\begin{tabular}{lc}
+\toprule
+Model & Average Progress (\%) \\
+\midrule
+claude-3.5-sonnet & 35.48 $\pm$ 2.02 \\
+gemini-1.5-pro & 25.76 $\pm$ 1.36 \\
+gpt-4o & 22.56 $\pm$ 1.44 \\
+llama-3.2-90B-it & 20.99 $\pm$ 1.58 \\
+gpt-4o-mini & 15.36 $\pm$ 1.29 \\
+gemini-1.5-flash & 14.94 $\pm$ 1.40 \\
+llama-3.2-11B-it & 8.43 $\pm$ 1.26 \\
+\bottomrule
+\label{vlm_table}
+\end{tabular}
+\end{minipage}
+\vspace{-0.2in}
+\end{table}
+
+
+
+
+
+
+\subsection{Qualitative analysis}
+\label{sec:qualitative_analysis}
+We conducted an analysis of the model trajectories across the environments to identify common behaviors and challenges specific to each setting.
+
+\textbf{Spatial Reasoning} While language models demonstrate some proficiency in basic navigation, they exhibit significant limitations in more complex spatial reasoning tasks. In the BabyAI suite, we observed significant shortcomings in the agents' ability to place objects adjacent to other objects, which is required in some scenarios. In NetHack and MiniHack CorridorBattle, good spatial reasoning is crucial during combat, as players need to maneuver within confined corridors to avoid being surrounded by monsters. However, the agents frequently ended up cornered. %
+
+\textbf{Systematic Exploration} Our experiments revealed a significant weakness in the models' ability to explore. In TextWorld's Coin Collector, where agents must explore a house to locate a coin, agents often wander aimlessly, revisiting rooms they've already explored while missing important areas entirely. An efficient agent would behave in DFS-like manner, methodically searching each room, keeping track of visited areas and prioritizing unexplored spaces. The more complex quests in MiniHack expose similar issues, with models failing to efficiently navigate maze-like structures.
+
+\textbf{Long-term planning} The agents exhibit substantial deficiencies in devising and executing long-term plans. We observe near-zero performance on MiniHack, and NLE, which both require careful planning. In particular, we do not observe a single successful trajectory in the Boxoban logical puzzles in MiniHack, which requires careful  planning at every step in order to avoid irreversible failures.
+LLMs, with the finite amount of compute available to them in a single forward pass, are necessarily confined to solving some subset of reasoning problems. We observe that with the current models' depth, number of flops, and reasoning solution templates embedded in the weights, these models cannot solve the reasoning tasks in \our{}. We see a notable improvement with OpenAI o1's chain of thought capabilities on NetHack, performing close to three times better than its closest competitor in language-only mode Claude-3.5-Sonnet. However, its average progression of 1.57\% is still far from satisfactory.
+
+\textbf{Discovering and Leveraging Environment Dynamics} Some games require inferring non-trivial causal structure through experimentation to come up with new strategies. For example, a player might identify a \texttt{\small{potion of paralysis}} by drinking it, and then realize they can use this strategically by throwing such potions at enemies to incapacitate them. This kind of experimentation and strategic thinking is crucial for success in NetHack. However, current models struggle to formulate and execute such context-dependent strategies. %
+In MiniHack Quests environments, models fail to devise and implement multi-step strategies, such as utilizing \texttt{\small{wand of cold}} or \texttt{\small{ring of levitation}} to cross lava rivers.
+In Crafter, where agents can handle basic tasks such as collecting wood, crafting items, drinking water, and even engaging in combat, they fail to learn long-term survival skills such as building shelters for protection against nocturnal threats.
+
+
+
+
+
+
+
+
+
+
+\textbf{Knowing-Doing Gap} We observe a pronounced ``knowing-doing'' gap, where models execute undesirable actions during gameplay despite knowledge of their negative consequences. For instance, in NetHack, models often exit the dungeon shortly after starting the game, resulting in an instant game termination. When queried in a separate thread about the consequences of exiting the first level in NetHack, they correctly identify that it results in an instant death, making it is a highly undesirable action. Similarly, although the models correctly identify that eating rotten food in NetHack can result in death, this remains a common cause of failure, underscoring a disconnect between knowledge and decision-making. Additionally, models tend to ignore even the hints directly present in the input prompt and die from overeating even when advised against it. To study this problem in more detail, we prepared a questionnaire probing basic NetHack knowledge  (see Appendix~\ref{NetHack_wiki_knowledge}).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

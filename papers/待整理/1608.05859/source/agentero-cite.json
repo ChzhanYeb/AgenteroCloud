@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl",
+    "generatedAt": "2026-11-15T11:47:36.787Z",
+    "fingerprint": "4fc30711ab235f9cda6b90a4b134d7f166c17125c04128e3f3aca25d7974504c"
+  },
+  "citations": [
+    {
+      "id": "cite-axelrod11",
+      "rawKey": "axelrod11",
+      "display": "[1]",
+      "raw": "Amittai Axelrod, Xiaodong He, and Jianfeng Gao. 2011. Domain adaptation via pseudo in-domain data selection. In Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing, pages 355--362, Edinburgh, Scotland, UK., July. Association for Computational Linguistics.",
+      "metadata": {
+        "year": 2011
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-learn2align",
+      "rawKey": "learn2align",
+      "display": "[2]",
+      "raw": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. 2014. Neural machine translation by jointly learning to align and translate. arXiv preprint arXiv:1409.0473.",
+      "metadata": {
+        "year": 2014,
+        "arxivId": "1409.0473"
+      },
+      "localMatch": {
+        "paperPath": "papers/1409.0473",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-verb143",
+      "rawKey": "verb143",
+      "display": "[3]",
+      "raw": "Simon Baker, Roi Reichart, and Anna Korhonen. 2014. An unsupervised model for instance level subcategorization acquisition. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 278--289. Association for Computational Linguistics.",
+      "metadata": {
+        "year": 2014
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Bengio:2003",
+      "rawKey": "Bengio:2003",
+      "display": "[4]",
+      "raw": "Yoshua Bengio, Rejean Ducharme, Pascal Vincent, and Christian Janvin. 2003. A neural probabilistic language model. J. Mach. Learn. Res., 3:1137--1155, March.",
+      "metadata": {
+        "year": 2003
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-bruni2014",
+      "rawKey": "bruni2014",
+      "display": "[5]",
+      "raw": "Elia Bruni, Nam-Khanh Tran, and Marco Baroni. 2014. Multimodal distributional semantics. J. Artif. Intell. Res.(JAIR), 49(1-47).",
+      "metadata": {
+        "year": 2014
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-cho2014learning",
+      "rawKey": "cho2014learning",
+      "display": "[6]",
+      "raw": "Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. 2014. Learning phrase representations using rnn encoder--decoder for statistical machine translation. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 1724--1734, Doha, Qatar, October. Association for Computational Linguistics.",
+      "metadata": {
+        "year": 2014
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-gage94",
+      "rawKey": "gage94",
+      "display": "[7]",
+      "raw": "Philip Gage. 1994. A new algorithm for data compression. The C Users Journal, 12(2):23--38.",
+      "metadata": {
+        "year": 1994
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-yarin1",
+      "rawKey": "yarin1",
+      "display": "[8]",
+      "raw": "Yarin Gal and Zoubin Ghahramani. 2016. Dropout as a Bayesian approximation: Representing model uncertainty in deep learning. In Proceedings of the 33rd International Conference on Machine Learning (ICML-16).",
+      "metadata": {
+        "year": 2016
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-yarin2",
+      "rawKey": "yarin2",
+      "display": "[9]",
+      "raw": "Yarin Gal. 2015. A Theoretically Grounded Application of Dropout in Recurrent Neural Networks. arXiv preprint arXiv:1512.05287.",
+      "metadata": {
+        "year": 2015,
+        "arxivId": "1512.05287"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-yg14",
+      "rawKey": "yg14",
+      "display": "[10]",
+      "raw": "Yoav Goldberg and Omer Levy. 2014. word2vec explained: deriving mikolov et al.'s negative-sampling word-embedding method. arXiv preprint arXiv:1402.3722.",
+      "metadata": {
+        "year": 2014,
+        "arxivId": "1402.3722"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Graves13",
+      "rawKey": "Graves13",
+      "display": "[11]",
+      "raw": "Alex Graves. 2013. Generating sequences with recurrent neural networks. arXiv preprint arXiv:1308.0850.",
+      "metadata": {
+        "year": 2013,
+        "arxivId": "1308.0850"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-BBC",
+      "rawKey": "BBC",
+      "display": "[12]",
+      "raw": "Derek Greene and Padraig Cunningham. 2006. Practical solutions to the problem of diagonal dominance in kernel document clustering. In Proc. 23rd International Conference on Machine learning (ICML'06), pages 377--384. ACM Press.",
+      "metadata": {
+        "year": 2006
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-gulcehre16",
+      "rawKey": "gulcehre16",
+      "display": "[13]",
+      "raw": "Caglar Gulcehre, Marcin Moczulski, Misha Denil, and Yoshua Bengio. 2016. Noisy activation functions. arXiv preprint arXiv:1603.00391.",
+      "metadata": {
+        "year": 2016,
+        "arxivId": "1603.00391"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-mturk771",
+      "rawKey": "mturk771",
+      "display": "[14]",
+      "raw": "Guy Halawi, Gideon Dror, Evgeniy Gabrilovich, and Yehuda Koren. 2012. Large-scale learning of word relatedness with constraints. In Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining, pages 1406--1414.",
+      "metadata": {
+        "year": 2012
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-simlex999",
+      "rawKey": "simlex999",
+      "display": "[15]",
+      "raw": "Felix Hill, Roi Reichart, and Anna Korhonen. 2016. Simlex-999: Evaluating semantic models with (genuine) similarity estimation. Computational Linguistics.",
+      "metadata": {
+        "year": 2016
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-hinton2015distilling",
+      "rawKey": "hinton2015distilling",
+      "display": "[16]",
+      "raw": "Geoffrey Hinton, Oriol Vinyals, and Jeff Dean. 2015. Distilling the knowledge in a neural network. arXiv preprint arXiv:1503.02531.",
+      "metadata": {
+        "year": 2015,
+        "arxivId": "1503.02531"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-LSTM97",
+      "rawKey": "LSTM97",
+      "display": "[17]",
+      "raw": "Sepp Hochreiter and Jurgen Schmidhuber. 1997. Long short-term memory. Neural Comput., 9(8):1735--1780, November.",
+      "metadata": {
+        "year": 1997
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-socher16",
+      "rawKey": "socher16",
+      "display": "[18]",
+      "raw": "Hakan Inan, Khashayar Khosravi, and Richard Socher. 2016. Tying word vectors and word classifiers: A loss framework for language modeling. arXiv preprint arXiv:1611.01462.",
+      "metadata": {
+        "year": 2016,
+        "arxivId": "1611.01462"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-kalchbrenner2013recurrent",
+      "rawKey": "kalchbrenner2013recurrent",
+      "display": "[19]",
+      "raw": "Nal Kalchbrenner and Phil Blunsom. 2013. Recurrent continuous translation models. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pages 1700--1709, Seattle, Washington, USA, October. Association for Computational Linguistics.",
+      "metadata": {
+        "year": 2013
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Luong-rare",
+      "rawKey": "Luong-rare",
+      "display": "[20]",
+      "raw": "Thang Luong, Richard Socher, and Christopher Manning, 2013. Proceedings of the Seventeenth Conference on Computational Natural Language Learning, chapter Better Word Representations with Recursive Neural Networks for Morphology, pages 104--113. Association for Computational Linguistics.",
+      "metadata": {
+        "year": 2013
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-IMDB",
+      "rawKey": "IMDB",
+      "display": "[21]",
+      "raw": "L. Andrew Maas, E. Raymond Daly, T. Peter Pham, Dan Huang, Y. Andrew Ng, and Christopher Potts. 2011. Learning word vectors for sentiment analysis. In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, pages 142--150. Association for Computational Linguistics.",
+      "metadata": {
+        "year": 2011
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-ptb",
+      "rawKey": "ptb",
+      "display": "[22]",
+      "raw": "Mitchell P. Marcus, Mary Ann Marcinkiewicz, and Beatrice Santorini. 1993. Building a large annotated corpus of english: The penn treebank. Comput. Linguist., 19(2):313--330, June.",
+      "metadata": {
+        "year": 1993
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-mikolov10inters",
+      "rawKey": "mikolov10inters",
+      "display": "[23]",
+      "raw": "Tomas Mikolov, Martin Karafiat, Lukas Burget, Jan Cernocky, and Sanjeev Khudanpur. 2010. Recurrent neural network based language model. In INTERSPEECH 2010, 11th Annual Conference of the International Speech Communication Association, Makuhari, Chiba, Japan, September 26-30, 2010, pages 1045--1048.",
+      "metadata": {
+        "year": 2010
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-MikolovKBCK11",
+      "rawKey": "MikolovKBCK11",
+      "display": "[24]",
+      "raw": "Tomas Mikolov, Stefan Kombrink, Lukas Burget, Jan Cernocky, and Sanjeev Khudanpur. 2011. Extensions of recurrent neural network language model. In 2011 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 5528--5531. IEEE.",
+      "metadata": {
+        "year": 2011
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-word2vec",
+      "rawKey": "word2vec",
+      "display": "[25]",
+      "raw": "Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013a. Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781.",
+      "metadata": {
+        "year": 2013,
+        "arxivId": "1301.3781"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-word2vec2",
+      "rawKey": "word2vec2",
+      "display": "[26]",
+      "raw": "Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg S Corrado, and Jeff Dean. 2013b. Distributed representations of words and phrases and their compositionality. In Advances in Neural Information Processing Systems 26, pages 3111--3119.",
+      "metadata": {
+        "year": 2013
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-mikolovJCMR14",
+      "rawKey": "mikolovJCMR14",
+      "display": "[27]",
+      "raw": "Tomas Mikolov, Armand Joulin, Sumit Chopra, Michael Mathieu, and Marc'Aurelio Ranzato. 2014. Learning longer memory in recurrent neural networks. arXiv preprint arXiv:1412.7753.",
+      "metadata": {
+        "year": 2014,
+        "arxivId": "1412.7753"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-mitra2016dual",
+      "rawKey": "mitra2016dual",
+      "display": "[28]",
+      "raw": "Bhaskar Mitra, Eric Nalisnick, Nick Craswell, and Rich Caruana. 2016. A dual embedding space model for document ranking. arXiv preprint arXiv:1602.01137.",
+      "metadata": {
+        "year": 2016,
+        "arxivId": "1602.01137"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Miyamoto16",
+      "rawKey": "Miyamoto16",
+      "display": "[29]",
+      "raw": "Yasumasa Miyamoto and Kyunghyun Cho. 2016. Gated word-character recurrent language model. In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pages 1992--1997. Association for Computational Linguistics.",
+      "metadata": {
+        "year": 2016
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-mnih2009scalable",
+      "rawKey": "mnih2009scalable",
+      "display": "[30]",
+      "raw": "Andriy Mnih and Geoffrey E Hinton. 2009. A scalable hierarchical distributed language model. In Advances in neural information processing systems, pages 1081--1088.",
+      "metadata": {
+        "year": 2009
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-mnih2013learning",
+      "rawKey": "mnih2013learning",
+      "display": "[31]",
+      "raw": "Andriy Mnih and Koray Kavukcuoglu. 2013. Learning word embeddings efficiently with noise-contrastive estimation. In Advances in Neural Information Processing Systems, pages 2265--2273.",
+      "metadata": {
+        "year": 2013
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-mnih2012fast",
+      "rawKey": "mnih2012fast",
+      "display": "[32]",
+      "raw": "Andriy Mnih and Yee Whye Teh. 2012. A fast and simple algorithm for training neural probabilistic language models. arXiv preprint arXiv:1206.6426.",
+      "metadata": {
+        "year": 2012,
+        "arxivId": "1206.6426"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Pascanu13",
+      "rawKey": "Pascanu13",
+      "display": "[33]",
+      "raw": "Razvan Pascanu, Caglar Gulcehre, Kyunghyun Cho, and Yoshua Bengio. 2013. How to construct deep recurrent neural networks. arXiv preprint arXiv:1312.6026.",
+      "metadata": {
+        "year": 2013,
+        "arxivId": "1312.6026"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-edinburghWMT",
+      "rawKey": "edinburghWMT",
+      "display": "[34]",
+      "raw": "Rico Sennrich, Barry Haddow, and Alexandra Birch. 2016a. Edinburgh neural machine translation systems for wmt 16. arXiv preprint arXiv:1606.02891.",
+      "metadata": {
+        "year": 2016,
+        "arxivId": "1606.02891"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-bpe",
+      "rawKey": "bpe",
+      "display": "[35]",
+      "raw": "Rico Sennrich, Barry Haddow, and Alexandra Birch. 2016b. Neural Machine Translation of Rare Words with Subword Units. In Proceedings of ACL.",
+      "metadata": {
+        "year": 2016
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-dropout",
+      "rawKey": "dropout",
+      "display": "[36]",
+      "raw": "Nitish Srivastava. 2013. Improving Neural Networks with Dropout. Master's thesis, University of Toronto, Toronto, Canada, January.",
+      "metadata": {
+        "year": 2013
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-sundermeyer12:lstm",
+      "rawKey": "sundermeyer12:lstm",
+      "display": "[37]",
+      "raw": "Martin Sundermeyer, Ralf Schluter, and Hermann Ney. 2012. Lstm neural networks for language modeling. In Interspeech, pages 194--197, Portland, OR, USA, September.",
+      "metadata": {
+        "year": 2012
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-sutskever2014sequence",
+      "rawKey": "sutskever2014sequence",
+      "display": "[38]",
+      "raw": "Ilya Sutskever, Oriol Vinyals, and Quoc V Le. 2014. Sequence to sequence learning with neural networks. In Advances in neural information processing systems, pages 3104--3112.",
+      "metadata": {
+        "year": 2014
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-zaremba14",
+      "rawKey": "zaremba14",
+      "display": "[39]",
+      "raw": "Wojciech Zaremba, Ilya Sutskever, and Oriol Vinyals. 2014. Recurrent neural network regularization. arXiv preprint arXiv:1409.2329.",
+      "metadata": {
+        "year": 2014,
+        "arxivId": "1409.2329"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-adadelta",
+      "rawKey": "adadelta",
+      "display": "[40]",
+      "raw": "Matthew D Zeiler. 2012. Adadelta: an adaptive learning rate method. arXiv preprint arXiv:1212.5701.",
+      "metadata": {
+        "year": 2012,
+        "arxivId": "1212.5701"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-Zhang15",
+      "rawKey": "Zhang15",
+      "display": "[41]",
+      "raw": "Shiliang Zhang, Hui Jiang, Mingbin Xu, Junfeng Hou, and Li-Rong Dai. 2015. A fixed-size encoding method for variable-length sequences with its application to neural network language models. arXiv preprint arXiv:1505.01504.",
+      "metadata": {
+        "year": 2015,
+        "arxivId": "1505.01504"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-rhn",
+      "rawKey": "rhn",
+      "display": "[42]",
+      "raw": "Julian G. Zilly, Rupesh Kumar Srivastava, Jan Koutnk, and Jurgen Schmidhuber. 2016. Recurrent highway networks. arXiv preprint arXiv:1607.03474.",
+      "metadata": {
+        "year": 2016,
+        "arxivId": "1607.03474"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    }
+  ],
+  "messages": [
+    "local: 42 entries (bbl)",
+    "semantic scholar failed: rate limited"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "path": "papers/模型评测/2504.08942",
+  "id": "2504.08942",
+  "type": "arxiv",
+  "title": "AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories",
+  "authors": [
+    "Xing Han Lù",
+    "Amirhossein Kazemnejad",
+    "Nicholas Meade",
+    "Arkil Patel",
+    "Dongchan Shin",
+    "Alejandra Zambrano",
+    "Karolina Stańczak",
+    "Peter Shaw",
+    "Christopher J. Pal",
+    "Siva Reddy"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Xing Han",
+      "lastName": "Lù"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Amirhossein",
+      "lastName": "Kazemnejad"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Nicholas",
+      "lastName": "Meade"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Arkil",
+      "lastName": "Patel"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Dongchan",
+      "lastName": "Shin"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Alejandra",
+      "lastName": "Zambrano"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Karolina",
+      "lastName": "Stańczak"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Peter",
+      "lastName": "Shaw"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Christopher J.",
+      "lastName": "Pal"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Siva",
+      "lastName": "Reddy"
+    }
+  ],
+  "year": 2025,
+  "date": "2025-10-06",
+  "abstract": "Web agents enable users to perform tasks on web browsers through natural language interaction. Evaluating web agents trajectories is an important problem, since it helps us determine whether the agent successfully completed the tasks. Rule-based methods are widely used for this purpose, but they are challenging to extend to new tasks and may not always recognize successful trajectories. We may achieve higher accuracy through human evaluation, but the process would be substantially slower and more expensive. Automatic evaluations with LLMs may avoid the challenges of designing new rules and manually annotating trajectories, enabling faster and cost-effective evaluation. However, it is unclear how effective they are at evaluating web agents. To this end, we propose AgentRewardBench, the first benchmark to assess the effectiveness of LLM judges for evaluating web agents. AgentRewardBench contains 1302 trajectories across 5 benchmarks and 4 LLMs. Each trajectory in AgentRewardBench is reviewed by an expert, who answers questions pertaining to the success, side effects, and repetitiveness of the agent. Using our benchmark, we evaluate 12 LLM judges and find that no single LLM excels across all benchmarks. We also find that the rule-based evaluation used by common benchmarks tends to underreport the success rate of web agents, highlighting a key weakness of rule-based evaluation and the need to develop more flexible automatic evaluations. We release the benchmark at: https://agent-reward-bench.github.io",
+  "tags": [
+    "@arxiv:Computer Science - Machine Learning",
+    "@arxiv:Computer Science - Artificial Intelligence",
+    "@arxiv:Computer Science - Computation and Language"
+  ],
+  "arxiv_id": "2504.08942",
+  "doi": "10.48550/arXiv.2504.08942",
+  "pdf_url": "https://arxiv.org/pdf/2504.08942",
+  "html_url": "https://arxiv.org/html/2504.08942",
+  "source_url": "https://arxiv.org/abs/2504.08942",
+  "code_repo": "https://github.com/mcgill-nlp/agent-reward-bench",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2504.08942",
+  "citation_count": 135,
+  "zotero_item_type": "preprint",
+  "meta_source": "translator",
+  "extra": "arXiv:2504.08942 [cs.LG]",
+  "summary": "AgentRewardBench evaluates LLM judges for web-agent trajectories using 1,302 expert-reviewed trajectories spanning success, side effects, and repetition. Across 12 judges and 5 benchmarks, no model works best everywhere, while rule-based metrics consistently underreport agent success.",
+  "status": "completed",
+  "is_read": true,
+  "added_at": "2026-11-17T14:33:41.604Z",
+  "updated_at": "2026-11-17T15:12:06.820Z"
+}

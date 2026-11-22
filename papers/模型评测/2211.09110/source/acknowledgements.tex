@@ -1,0 +1,74 @@
+\paragraph{Acknowledgements.}
+We thank 
+Alex Tamkin,
+Colin Raffel,
+Dan Jurafsky,
+Deep Ganguli,
+Douwe Kiela,
+Emily Dinan,
+Eric Horvitz,
+Girish Sastry,
+Iason Gabriel,
+James Manyika,
+Jason Wei,
+Jie Tang,
+Judy Shen,
+Miles Brundage,
+Neil Band,
+Nelson Liu,
+Opher Lieber,
+Pang Wei Koh,
+Stella Biderman,
+Steven Cao,
+Susan Zhang,
+Teven Le Scao,
+and
+Yi Tay
+for their valuable feedback on the manuscript.
+We thank Steven Cao and Nelson Liu for guidance in the selection of \core scenarios that we describe in \refsec{core-scenarios}, and Kathy McKeown for her guidance on the summarization section.
+We thank
+Carlos Guestrin,
+Daniel Zhang,
+John Hewitt,
+Kawin Ethayarajh,
+Lauren Gillespie,
+Mina Lee,
+Rob Reich,
+Rohan Taori,
+Sandra Luksic,
+Shelby Grossman, 
+and
+Yann Dubois
+for helpful feedback and support throughout this project. 
+We thank the CRFM community for helpful feedback on the effort overall. 
+
+\paragraph{Model providers.}
+We thank the following individuals at their respective organizations for the access, support, and/or credits required to evaluate their models:
+\begin{itemize}
+    \item AI21 Labs. Opher Lieber, Barak Lenz, Dan Padnos, Yoav Shoham
+    \item Anthropic. Ben Mann, Jackson Kernion, Deep Ganguli, Jack Clark, Dario Amodei
+    \item Cohere. Lewis Stott, Ellie Evans, Bill McCartney, Aidan Gomez
+    \item Microsoft and the Turing Academic Program. Payal Bajaj, Barun Patra, Ahmed H. Awadallah, Saurabh Tiwary, Eric Horvitz
+    \item OpenAI. Lama Ahmad, Miles Brundage
+\end{itemize}
+We thank CoreWeave for providing API access to \gptj and \gptneox for initial prototyping.
+
+\paragraph{Funding and major compute.}
+We thank Google through the Stanford HAI-Google collaboration for providing funding for this work, and especially Sebastian Gehrmann for overall feedback on this effort.
+In addition, this work was supported in part by the AI2050 program at Schmidt Futures (Grant G-22-63429).
+We thank Together Computer (which is backed by compute from Stanford University, ETH Zurich, Open Science Grid, University of Wisconsin-Madison, and Crusoe Cloud) for providing the infrastructure for benchmarking all the open models.
+Rishi Bommasani was supported by the NSF Graduate Research Fellowship Program under grant number DGE-1655618.
+
+\paragraph{Reflexivity.}
+This work was developed at the Center for Research on Foundation Models (CRFM), a center at Stanford University borne out of the Stanford Institute for Human-Centered Artificial Intelligence (Stanford HAI).
+It is accompanied by a policy brief on how evaluations substantively improve transparency.\footnote{See \url{https://hai.stanford.edu/foundation-model-issue-brief-series}.}
+
+This work was made possible by two unique positions that CRFM occupies.
+First, to develop the framework, build the benchmark, and execute the evaluation, CRFM serves as an interdisciplinary hub for coordinating and uniting the many authors of this work at Stanford University.
+Second, to acquire the access and resources required to evaluate all the models in this work, CRFM leverages its relationships with the associated foundation model developers.
+
+We further highlight that this work continues a trend documented by \citet{koch2021reduced} that many works that introduce (influential) benchmarks come from privileged, high-resourced, and powerful institutions, such as Stanford \citep[\eg][]{socher2013recursive, bowman2015large, rajpurkar2016squad, srivastava2021behavior}.
+We actively encourage community-driven approaches to benchmark design, as well as mechanisms to center and drive adoption for benchmarks developed at other institutions.
+This is of specific importance given how benchmarks embed values and priorities \citep{ethayarajh2020utility, birhane2022values}, which should be interrogated, as they are often developed by a small subset of the AI community but go on to orient the work of the broader AI community.
+For this reason, we are very explicit about our design decisions (\eg prioritizing user-facing tasks in scenario selection) and directly foreground the limitations of our work with respect to the breadth of considerations in the AI community.
+By fully releasing the open-source tools and raw model predictions, we invite everyone to contribute further scenarios, metrics, and models as we evolve \benchmarkname to better reflect the values of the AI community.

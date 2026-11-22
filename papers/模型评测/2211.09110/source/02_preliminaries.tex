@@ -1,0 +1,96 @@
+\hypertarget{preliminaries}{\section{Preliminaries}}
+\label{sec:preliminaries}
+% Define scenarios, metrics, models, adaptation, runs
+
+\FigTop{figures/evaluation-primitives}{0.5}{primitives}
+{\textbf{Evaluation components.} Each evaluation run requires the specification of 
+a \textit{scenario} (what we want), 
+a \textit{model} with an \textit{adaptation} process (how we get it), 
+and one or more \textit{metrics} (how good are the results).
+}
+
+We introduce the basic primitives (scenario, adaptation, metric) required to evaluate a language model (\reffig{primitives}).
+With these primitives, we then provide a roadmap for how we holistically evaluate language models. 
+
+\hypertarget{preliminaries-scenarios}{\subsection{Scenarios}}
+\label{sec:preliminaries-scenarios}
+A scenario instantiates a desired use case for a language model.
+Useful language models are performant on a variety of scenarios: scenarios are \textit{what} we want models \textit{to do}.
+While practical use cases for language models involve other factors, we operationalize scenarios through a list of \emph{instances},
+divided into a \emph{training} set and one or more \emph{test} sets.
+Each instance consists of (i) an \emph{input} (a string) and (ii) a list of \emph{references}.
+Each reference is a string annotated with properties relevant for evaluation (\eg is it correct or acceptable?).
+See \reffig{scenario} for an example scenario.
+
+\FigTop{figures/scenario_mmlu}{0.6}{scenario}{\textbf{Scenario.} An example of a multiple choice scenario from \mmlu(subject=anatomy), which consists of a list of instances, each with an input and a set of references.}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hypertarget{preliminaries-adaptation}{\subsection{Adaptation}}
+\label{sec:preliminaries-adaptation}
+
+Adaptation is the procedure that transforms a language model, along with training instances, into a system that can make predictions on new instances.  
+Examples of adaptation procedures include prompting, lightweight-finetuning, and finetuning; we focus on \textit{prompting} in this work.
+
+We define a language model to be a black box that takes as input a \emph{prompt} (string), along with \emph{decoding parameters} (\eg temperature).
+The model outputs a \emph{completion} (string), along with log probabilities of the prompt and completion.
+We do not assume access to the internal model activations or its training data, which reflects the practical reality of API access available to researchers \citep{liang2022community-norms}.
+In fact, we do not even make any assumptions about how the language model is constructed.
+See \reffig{adaptation} for how we adapt the example scenario from \reffig{scenario}.
+
+Viewing language models as text-to-text abstractions is important for two reasons:
+First, while the prototypical LM is currently a dense Transformer trained on raw text, LMs could also use an external document store \citep{lewis2020rag}, issue search queries on the web \citep{nakano2021webgpt}, or be trained on human preferences \citep{ouyang2022instructions,bai2022helpful}.
+We wish to remain agnostic to these implementation details. 
+Second, the text-to-text abstraction is a convenient general interface that can capture all the (text-only) tasks of interest, an idea that was pioneered by \citet{mccann2018natural} and \citet{raffel2019exploring}.
+
+\FigTop{figures/adaptation}{0.55}{adaptation}{\textbf{Adaptation.} During adaptation, we construct a \emph{prompt} for each evaluation instance which may include in-context training instances as well.
+Given \emph{decoding parameters}, a language model generates a \emph{completion} (in red).
+The multiple choice example is shown using two different adaptation strategies that we describe subsequently, with \textit{left} version being the \textit{joint} strategy (all answer choices are presented at once) and the \textit{right} version being the \textit{separate} strategy (each answer choice is presented separately).
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hypertarget{preliminaries-metrics}{\subsection{Metrics}}
+\label{sec:preliminaries-metrics}
+
+Once a language model is adapted, we execute the resulting system on the evaluation instances for each scenario, yielding completions with their log probabilities.  
+To determine \textit{how well} the model performs, we compute metrics over these completions and probabilities.
+Metrics concretely operationalize the abstract desiderata we require of useful systems.
+See \refsec{metrics} for more details.
+The metrics we compute for our running example (\reffig{scenario}) might look like this:
+
+\begin{center}
+\begin{tabular}{lcl}
+\hline
+Exact match & : & 0.571 \\
+ECE (10-bin) & : & 0.221 \\
+Exact match (robustness) & : & 0.551 \\
+Exact match (fairness) & : & 0.524 \\
+Inference runtime & : & 0.147 \\
+...  \\
+\hline
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsection{Runs}
+% \label{sec:preliminaries-run}
+
+% A run puts scenarios, adaptation, and metrics together
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hypertarget{preliminaries-roadmap}{\subsection{Roadmap}}
+\label{sec:preliminaries-roadmap}
+% Which scenarios / metrics? here's the roadmap:
+% 1. Taxonomy
+% 2. Selection
+% See sections scenarios and metrics for details.
+
+To evaluate a language model, we must specify a series of runs, where each run is defined by a (scenario, adaptation method, metric) triple.
+Each of these scenarios, adaptation, and metrics define a complicated and structured space, which one implicitly navigates to make decisions in evaluating a language model.
+Central to our approach to holistic evaluation is that we make both the space and the decision explicit.
+In \refsec{core-scenarios} and \refsec{metrics}, we first taxonomize both spaces and then systematically select points from the spaces.
+This specifies our abstract aspiration and our concrete implementation, which together define \benchmarkname.  
+Distinguishing these steps also helps clarify what is fundamentally possible vs. what we, as a specific collective of benchmark designers, chose to prioritize and emphasize. 
+Then, we evaluate \nummodels models by making a specific choice for adaptation procedure (\ie $5$-shot prompting), though we emphasize many other adaptation procedures could be considered.

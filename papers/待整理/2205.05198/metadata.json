@@ -1,0 +1,29 @@
+{
+  "path": "papers/待整理/2205.05198",
+  "id": "2205.05198",
+  "type": "pdf",
+  "title": "Reducing Activation Recomputation in Large Transformer Models",
+  "authors": [
+    "Vijay Korthikanti",
+    "Jared Casper",
+    "Sangkug Lym",
+    "Lawrence McAfee",
+    "Michael Andersch",
+    "Mohammad Shoeybi",
+    "Bryan Catanzaro"
+  ],
+  "year": 2022,
+  "abstract": "Training large transformer models is one of the most important computational challenges of modern AI. In this paper, we show how to significantly accelerate training of large transformer models by reducing activation recomputation. Activation recomputation is commonly used to work around memory capacity constraints. Rather than storing activations for backpropagation, they are traditionally recomputed, which saves memory but adds redundant compute. In this work, we show most of this redundant compute is unnecessary because we can reduce memory consumption sufficiently without it. We present two novel yet very simple techniques: sequence parallelism and selective activation recomputation. In conjunction with tensor parallelism, these techniques almost eliminate the need to recompute activations. We evaluate our approach on language models up to one trillion parameters in scale and show that our method reduces activation memory by 5x, while reducing execution time overhead from activation recomputation by over 90%. For example, when training a 530B parameter GPT-3 style model on 2240 NVIDIA A100 GPUs, we achieve a Model Flops Utilization of 54.2%, which is 29% faster than the 42.1% we achieve using recomputation. Our implementation will be available in both Megatron-LM and NeMo-Megatron.",
+  "tags": [],
+  "arxiv_id": "2205.05198",
+  "code_repo": "https://github.com/NVIDIA/Megatron-LM",
+  "body_source": "latex",
+  "body_quality": "high",
+  "citation_count": 576,
+  "meta_source": "recognize",
+  "summary": "Sequence parallelism and selective activation recomputation avoid most redundant forward passes during large-transformer training. Combined with tensor parallelism, they reduce activation memory 5× and cut recomputation overhead by over 90%, reaching 54.2% MFU on a 530B-parameter model.",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T11:45:36.317Z",
+  "updated_at": "2026-11-15T11:49:14.725Z"
+}

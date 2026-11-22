@@ -1,0 +1,40 @@
+{
+  "path": "papers/模型评测/2411.00640",
+  "id": "2411.00640",
+  "type": "arxiv",
+  "title": "Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations",
+  "authors": [
+    "Evan Miller"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Evan",
+      "lastName": "Miller"
+    }
+  ],
+  "year": 2024,
+  "date": "2024",
+  "abstract": "Evaluations are critical for understanding the capabilities of large language models (LLMs). Fundamentally, evaluations are experiments; but the literature on evaluations has largely ignored the literature from other sciences on experiment analysis and planning. This article shows researchers with some training in statistics how to think about and analyze data from language model evaluations. Conceptualizing evaluation questions as having been drawn from an unseen super-population, we present formulas for analyzing evaluation data, measuring differences between two models, and planning an evaluation experiment. We make a number of specific recommendations for running language model evaluations and reporting experiment results in a way that minimizes statistical noise and maximizes informativeness.",
+  "tags": [
+    "@arxiv:Statistics - Applications",
+    "@arxiv:Computer Science - Computation and Language"
+  ],
+  "arxiv_id": "2411.00640",
+  "doi": "10.48550/ARXIV.2411.00640",
+  "pdf_url": "https://arxiv.org/pdf/2411.00640",
+  "html_url": "https://arxiv.org/html/2411.00640",
+  "source_url": "https://arxiv.org/abs/2411.00640",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2411.00640",
+  "citation_count": 209,
+  "zotero_item_type": "preprint",
+  "meta_source": "manual",
+  "extra": "arXiv:2411.00640 [stat.AP]",
+  "summary": "Treat language-model evaluations as experiments sampled from an unseen super-population. Statistical formulas quantify model differences and guide evaluation planning, while practical reporting recommendations reduce noise and improve informativeness.",
+  "status": "completed",
+  "is_read": true,
+  "added_at": "2026-11-17T14:33:38.101Z",
+  "updated_at": "2026-11-18T01:51:33.161Z"
+}

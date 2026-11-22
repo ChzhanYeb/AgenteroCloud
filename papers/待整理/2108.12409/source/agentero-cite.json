@@ -1,0 +1,1048 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bbl+s2",
+    "generatedAt": "2026-11-15T11:46:55.378Z",
+    "fingerprint": "1ea724e19f35ae5e4f01b8a9a8dd27f497f9d8c660617f739692c39cc7a1a17c"
+  },
+  "citations": [
+    {
+      "id": "cite-baevski",
+      "rawKey": "baevski",
+      "display": "[1]",
+      "raw": "Alexei Baevski and Michael Auli. Adaptive input representations for neural language modeling. CoRR, abs/1809.10853, 2018. URL http://arxiv.org/abs/1809.10853.",
+      "metadata": {
+        "title": "Adaptive Input Representations for Neural Language Modeling",
+        "authors": [
+          "Alexei Baevski",
+          "M. Auli"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1809.10853",
+        "arxivId": "1809.10853",
+        "url": "http://arxiv.org/abs/1809.10853"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-longformer",
+      "rawKey": "longformer",
+      "display": "[2]",
+      "raw": "Iz Beltagy, Matthew E. Peters, and Arman Cohan. Longformer: The long-document transformer. arXiv:2004.05150, 2020.",
+      "metadata": {
+        "title": "Longformer: The Long-Document Transformer",
+        "authors": [
+          "Iz Beltagy",
+          "Matthew E. Peters",
+          "Arman Cohan"
+        ],
+        "year": 2020,
+        "doi": "10.48550/arXiv.2004.05150",
+        "arxivId": "2004.05150",
+        "url": "https://www.semanticscholar.org/paper/925ad2897d1b5decbea320d07e99afa9110e09b2"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpt3",
+      "rawKey": "gpt3",
+      "display": "[3]",
+      "raw": "Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. Language models are few-shot learners, 2020.",
+      "metadata": {
+        "title": "Language Models are Few-Shot Learners",
+        "authors": [
+          "Tom B. Brown",
+          "Benjamin Mann",
+          "N. Ryder",
+          "Melanie Subbiah",
+          "J. Kaplan",
+          "Prafulla Dhariwal",
+          "Arvind Neelakantan",
+          "Pranav Shyam",
+          "G. Sastry",
+          "Amanda Askell",
+          "S. Agarwal",
+          "A. Herbert-Voss",
+          "G. Krueger",
+          "T. Henighan",
+          "R. Child",
+          "A. Ramesh",
+          "Daniel M. Ziegler",
+          "Jeff Wu",
+          "Clemens Winter",
+          "Christopher Hesse",
+          "Mark Chen",
+          "Eric Sigler",
+          "Mateusz Litwin",
+          "Scott Gray",
+          "Benjamin Chess",
+          "Jack Clark",
+          "Christopher Berner",
+          "Sam McCandlish",
+          "A. Radford",
+          "I. Sutskever",
+          "D. Amodei"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2005.14165",
+        "arxivId": "2005.14165",
+        "url": "https://www.semanticscholar.org/paper/90abbc2cf38462b954ae1b772fac9532e2ccd8b0"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cc-100",
+      "rawKey": "cc-100",
+      "display": "[4]",
+      "raw": "Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume Wenzek, Francisco GuzmÃn, Edouard Grave, Myle Ott, Luke Zettlemoyer, and Veselin Stoyanov. Unsupervised cross-lingual representation learning at scale. Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 2020. 10.18653/v1/2020.acl-main.747. URL http://dx.doi.org/10.18653/v1/2020.acl-main.747.",
+      "metadata": {
+        "title": "Unsupervised Cross-lingual Representation Learning at Scale",
+        "authors": [
+          "Alexis Conneau",
+          "Kartikay Khandelwal",
+          "Naman Goyal",
+          "Vishrav Chaudhary",
+          "Guillaume Wenzek",
+          "Francisco (Paco) Guzmán",
+          "E. Grave",
+          "Myle Ott",
+          "Luke Zettlemoyer",
+          "Veselin Stoyanov"
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2020.acl-main.747",
+        "arxivId": "1911.02116",
+        "url": "http://dx.doi.org/10.18653/v1/2020.acl-main.747"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-transformer-xl",
+      "rawKey": "transformer-xl",
+      "display": "[5]",
+      "raw": "Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc Le, and Ruslan Salakhutdinov. Transformer-XL: Attentive language models beyond a fixed-length context. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 2978--2988, Florence, Italy, July 2019. Association for Computational Linguistics. 10.18653/v1/P19-1285. URL https://aclanthology.org/P19-1285.",
+      "metadata": {
+        "title": "Transformer-XL: Attentive Language Models beyond a Fixed-Length Context",
+        "authors": [
+          "Zi-Hang Dai",
+          "Zhi-Lin Yang",
+          "Yiming Yang",
+          "J. Carbonell",
+          "Quoc V. Le",
+          "R. Salakhutdinov"
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/P19-1285",
+        "arxivId": "1901.02860",
+        "url": "https://aclanthology.org/P19-1285"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-bert",
+      "rawKey": "bert",
+      "display": "[6]",
+      "raw": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pp. 4171--4186, Minneapolis, Minnesota, June 2019. Association for Computational Linguistics. 10.18653/v1/N19-1423. URL https://www.aclweb.org/anthology/N19-1423.",
+      "metadata": {
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "authors": [
+          "J. Devlin",
+          "Ming-Wei Chang",
+          "Kenton Lee",
+          "K. Toutanova"
+        ],
+        "year": 2019,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/N19-1423",
+        "arxivId": "1810.04805",
+        "url": "https://www.aclweb.org/anthology/N19-1423"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-openwebtext",
+      "rawKey": "openwebtext",
+      "display": "[7]",
+      "raw": "Aaron Gokaslan and Vanya Cohen. Openwebtext corpus. http://Skylion007.github.io/OpenWebTextCorpus, 2019.",
+      "metadata": {
+        "title": "Openwebtext corpus",
+        "year": 2019,
+        "venue": "http://Skylion007.",
+        "url": "http://Skylion007.github.io/OpenWebTextCorpus"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Huang2019MusicTG",
+      "rawKey": "Huang2019MusicTG",
+      "display": "[8]",
+      "raw": "Cheng-Zhi Anna Huang, Ashish Vaswani, Jakob Uszkoreit, Ian Simon, Curtis Hawthorne, Noam M. Shazeer, Andrew M. Dai, M. Hoffman, M. Dinculescu, and D. Eck. Music transformer: Generating music with long-term structure. In ICLR, 2019.",
+      "metadata": {
+        "title": "Music Transformer: Generating Music with Long-Term Structure",
+        "authors": [
+          "C. Huang",
+          "Ashish Vaswani",
+          "J. Uszkoreit",
+          "Noam Shazeer",
+          "Ian Simon",
+          "Curtis Hawthorne",
+          "Andrew M. Dai",
+          "M. Hoffman",
+          "Monica Dinculescu",
+          "Douglas Eck"
+        ],
+        "year": 2018,
+        "venue": "International Conference on Learning Representations",
+        "arxivId": "1809.04281",
+        "url": "https://www.semanticscholar.org/paper/fb507ada871d1e8c29e376dbf7b7879689aa89f9"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Hupkes2020",
+      "rawKey": "Hupkes2020",
+      "display": "[9]",
+      "raw": "Dieuwke Hupkes, Verna Dankers, Mathijs Mul, and Elia Bruni. Compositionality decomposed: How do neural networks generalise? Journal of Artificial Intelligence Research, 67: 757--795, April 2020. 10.1613/jair.1.11674. URL https://doi.org/10.1613/jair.1.11674.",
+      "metadata": {
+        "title": "Compositionality Decomposed: How do Neural Networks Generalise?",
+        "authors": [
+          "Dieuwke Hupkes",
+          "Verna Dankers",
+          "Mathijs Mul",
+          "E. Bruni"
+        ],
+        "year": 2019,
+        "venue": "Journal of Artificial Intelligence Research",
+        "doi": "10.1613/jair.1.11674",
+        "arxivId": "1908.08351",
+        "url": "https://doi.org/10.1613/jair.1.11674"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-inan2017",
+      "rawKey": "inan2017",
+      "display": "[10]",
+      "raw": "Hakan Inan, Khashayar Khosravi, and Richard Socher. Tying word vectors and word classifiers: A loss framework for language modeling. In ICLR, 2017. URL https://openreview.net/forum?id=r1aPbsFle.",
+      "metadata": {
+        "title": "Tying Word Vectors and Word Classifiers: A Loss Framework for Language Modeling",
+        "authors": [
+          "Hakan Inan",
+          "Khashayar Khosravi",
+          "R. Socher"
+        ],
+        "year": 2016,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1611.01462",
+        "arxivId": "1611.01462",
+        "url": "https://openreview.net/forum?id=r1aPbsFle"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Jumper2021HighlyAP",
+      "rawKey": "Jumper2021HighlyAP",
+      "display": "[11]",
+      "raw": "J. Jumper, Richard Evans, A. Pritzel, Tim Green, Michael Figurnov, O. Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin Zidek, Anna Potapenko, A. Bridgland, Clemens Meyer, Simon A A Kohl, Andy Ballard, A. Cowie, B. Romera-Paredes, Stanislav Nikolov, Rishub Jain, J. Adler, T. Back, Stig Petersen, D. Reiman, Ellen Clancy, Michal Zielinski, Martin Steinegger, Michalina Pacholska, Tamas Berghammer, S. Bodenstein, D. Silver, Oriol Vinyals, A. Senior, K. Kavukcuoglu, P. Kohli, and D. Hassabis. Highly accurate protein structure prediction with alphafold. Nature, 596: 583 -- 589, 2021.",
+      "metadata": {
+        "title": "Highly accurate protein structure prediction with AlphaFold",
+        "authors": [
+          "J. Jumper",
+          "Richard Evans",
+          "Alexander Pritzel",
+          "T. Green",
+          "Michael Figurnov",
+          "O. Ronneberger",
+          "Kathryn Tunyasuvunakool",
+          "Russ Bates",
+          "A. Žídek",
+          "Anna Potapenko",
+          "A. Bridgland",
+          "Clemens Meyer",
+          "Simon A A Kohl",
+          "Andy Ballard",
+          "A. Cowie",
+          "B. Romera-Paredes",
+          "Stanislav Nikolov",
+          "Rishub Jain",
+          "J. Adler",
+          "Trevor Back",
+          "S. Petersen",
+          "D. Reiman",
+          "Ellen Clancy",
+          "Michal Zielinski",
+          "Martin Steinegger",
+          "Michalina Pacholska",
+          "Tamas Berghammer",
+          "Sebastian Bodenstein",
+          "D. Silver",
+          "O. Vinyals",
+          "A. Senior",
+          "K. Kavukcuoglu",
+          "Pushmeet Kohli",
+          "D. Hassabis"
+        ],
+        "year": 2021,
+        "venue": "Nature",
+        "doi": "10.1038/s41586-021-03819-2",
+        "url": "https://www.semanticscholar.org/paper/dc32a984b651256a8ec282be52310e6bd33d9815"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-khandelwal20generalization",
+      "rawKey": "khandelwal20generalization",
+      "display": "[12]",
+      "raw": "Urvashi Khandelwal, Omer Levy, Dan Jurafsky, Luke Zettlemoyer, and Mike Lewis. Generalization through Memorization: Nearest Neighbor Language Models. In International Conference on Learning Representations (ICLR), 2020.",
+      "metadata": {
+        "title": "Generalization through Memorization: Nearest Neighbor Language Models",
+        "authors": [
+          "Urvashi Khandelwal",
+          "Omer Levy",
+          "Dan Jurafsky",
+          "Luke Zettlemoyer",
+          "M. Lewis"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1911.00172",
+        "arxivId": "1911.00172",
+        "url": "https://www.semanticscholar.org/paper/7be8c119dbe065c52125ee7716601751f3116844"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Kiyono2021SHAPESA",
+      "rawKey": "Kiyono2021SHAPESA",
+      "display": "[13]",
+      "raw": "Shun Kiyono, Sosuke Kobayashi, Jun Suzuki, and Kentaro Inui. Shape: Shifted absolute position embedding for transformers. ArXiv, abs/2109.05644, 2021.",
+      "metadata": {
+        "title": "SHAPE: Shifted Absolute Position Embedding for Transformers",
+        "authors": [
+          "Shun Kiyono",
+          "Sosuke Kobayashi",
+          "Jun Suzuki",
+          "Kentaro Inui"
+        ],
+        "year": 2021,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2021.emnlp-main.266",
+        "arxivId": "2109.05644",
+        "url": "https://www.semanticscholar.org/paper/64522a5b3476e9f201f6a5b3e312ef0005c562f1"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lampinen2021towards",
+      "rawKey": "lampinen2021towards",
+      "display": "[14]",
+      "raw": "Andrew Kyle Lampinen, Stephanie C. Y. Chan, Andrea Banino, and Felix Hill. Towards mental time travel: a hierarchical memory for reinforcement learning agents. CoRR, abs/2105.14039, 2021. URL https://arxiv.org/abs/2105.14039.",
+      "metadata": {
+        "title": "Towards mental time travel: a hierarchical memory for reinforcement learning agents",
+        "authors": [
+          "Andrew Kyle Lampinen",
+          "Stephanie C. Y. Chan",
+          "Andrea Banino",
+          "F. Hill"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2105.14039",
+        "arxivId": "2105.14039",
+        "url": "https://arxiv.org/abs/2105.14039"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lewis2021base",
+      "rawKey": "lewis2021base",
+      "display": "[15]",
+      "raw": "Mike Lewis, Shruti Bhosale, Tim Dettmers, Naman Goyal, and Luke Zettlemoyer. Base layers: Simplifying training of large, sparse models, 2021.",
+      "metadata": {
+        "title": "BASE Layers: Simplifying Training of Large, Sparse Models",
+        "authors": [
+          "M. Lewis",
+          "Shruti Bhosale",
+          "Tim Dettmers",
+          "Naman Goyal",
+          "Luke Zettlemoyer"
+        ],
+        "year": 2021,
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2103.16716",
+        "arxivId": "2103.16716",
+        "url": "https://www.semanticscholar.org/paper/b15ea460c77a4ee8aa159a30ab0331deedfcf392"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-J1WhitePaper",
+      "rawKey": "J1WhitePaper",
+      "display": "[16]",
+      "raw": "Opher Lieber, Or Sharir, Barak Lenz, and Yoav Shoham. Jurassic-1: Technical details and evaluation. Technical report, AI21 Labs, August 2021.",
+      "metadata": {
+        "title": "Jurassic-1: Technical details and evaluation",
+        "year": 2021,
+        "venue": "Technical report"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-likhomanenko2021cape",
+      "rawKey": "likhomanenko2021cape",
+      "display": "[17]",
+      "raw": "Tatiana Likhomanenko, Qiantong Xu, Ronan Collobert, Gabriel Synnaeve, and Alex Rogozhnikov. CAPE: encoding relative positions with continuous augmented positional embeddings. CoRR, abs/2106.03143, 2021. URL https://arxiv.org/abs/2106.03143.",
+      "metadata": {
+        "title": "CAPE: Encoding Relative Positions with Continuous Augmented Positional Embeddings",
+        "authors": [
+          "Tatiana Likhomanenko",
+          "Qiantong Xu",
+          "Gabriel Synnaeve",
+          "R. Collobert",
+          "A. Rogozhnikov"
+        ],
+        "year": 2021,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2106.03143",
+        "arxivId": "2106.03143",
+        "url": "https://arxiv.org/abs/2106.03143"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-roberta",
+      "rawKey": "roberta",
+      "display": "[18]",
+      "raw": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. Roberta: A robustly optimized bert pretraining approach, 2019.",
+      "metadata": {
+        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "authors": [
+          "Yinhan Liu",
+          "Myle Ott",
+          "Naman Goyal",
+          "Jing-Fei Du",
+          "Mandar Joshi",
+          "Danqi Chen",
+          "Omer Levy",
+          "M. Lewis",
+          "Luke Zettlemoyer",
+          "Veselin Stoyanov"
+        ],
+        "year": 2019,
+        "doi": "10.48550/arXiv.1907.11692",
+        "arxivId": "1907.11692",
+        "url": "https://www.semanticscholar.org/paper/077f8329a7b6fa3b7c877a57b81eb6c18b5f87de"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pointer",
+      "rawKey": "pointer",
+      "display": "[19]",
+      "raw": "Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. Pointer sentinel mixture models, 2016.",
+      "metadata": {
+        "title": "Pointer Sentinel Mixture Models",
+        "authors": [
+          "Stephen Merity",
+          "Caiming Xiong",
+          "James Bradbury",
+          "R. Socher"
+        ],
+        "year": 2016,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1609.07843",
+        "arxivId": "1609.07843",
+        "url": "https://www.semanticscholar.org/paper/efbd381493bb9636f489b965a2034d529cd56bcd"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Mikolov2012ContextDR",
+      "rawKey": "Mikolov2012ContextDR",
+      "display": "[20]",
+      "raw": "Tomas Mikolov and G. Zweig. Context dependent recurrent neural network language model. 2012 IEEE Spoken Language Technology Workshop (SLT), pp. 234--239, 2012.",
+      "metadata": {
+        "title": "Context dependent recurrent neural network language model",
+        "authors": [
+          "Tomas Mikolov",
+          "G. Zweig"
+        ],
+        "year": 2012,
+        "venue": "2012 IEEE Spoken Language Technology Workshop (SLT)",
+        "doi": "10.1109/SLT.2012.6424228",
+        "url": "https://www.semanticscholar.org/paper/d1275b2a2ab53013310e759e5c6878b96df643d4"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Mikolov2010RecurrentNN",
+      "rawKey": "Mikolov2010RecurrentNN",
+      "display": "[21]",
+      "raw": "Tomas Mikolov, M. Karafiat, L. Burget, J. Cernocky, and S. Khudanpur. Recurrent neural network based language model. In INTERSPEECH, 2010.",
+      "metadata": {
+        "title": "Recurrent neural network based language model",
+        "authors": [
+          "Tomas Mikolov",
+          "Martin Karafiát",
+          "Lukáš Burget",
+          "J. Černocký",
+          "S. Khudanpur"
+        ],
+        "year": 2010,
+        "venue": "Interspeech",
+        "doi": "10.21437/Interspeech.2010-343",
+        "url": "https://www.semanticscholar.org/paper/9819b600a828a57e1cde047bbe710d3446b30da5"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ccnews",
+      "rawKey": "ccnews",
+      "display": "[22]",
+      "raw": "Sebastian Nagel. Cc-news. https://commoncrawl.org/2016/10/news-dataset-available/, 2016.",
+      "metadata": {
+        "year": 2016,
+        "url": "https://commoncrawl.org/2016/10/news-dataset-available/"
+      },
+      "source": "bbl",
+      "status": "unresolved"
+    },
+    {
+      "id": "cite-narang2021transformer",
+      "rawKey": "narang2021transformer",
+      "display": "[23]",
+      "raw": "Sharan Narang, Hyung Won Chung, Yi Tay, William Fedus, Thibault Fevry, Michael Matena, Karishma Malkan, Noah Fiedel, Noam Shazeer, Zhenzhong Lan, Yanqi Zhou, Wei Li, Nan Ding, Jake Marcus, Adam Roberts, and Colin Raffel. Do transformer modifications transfer across implementations and applications?, 2021.",
+      "metadata": {
+        "title": "Do Transformer Modifications Transfer Across Implementations and Applications?",
+        "authors": [
+          "Sharan Narang",
+          "Hyung Won Chung",
+          "Yi Tay",
+          "L. Fedus",
+          "Thibault Févry",
+          "Michael Matena",
+          "Karishma Malkan",
+          "Noah Fiedel",
+          "Noam Shazeer",
+          "Zhen-Zhong Lan",
+          "Yan-Qi Zhou",
+          "Wei Li",
+          "Nan Ding",
+          "Jake Marcus",
+          "Adam Roberts",
+          "Colin A. Raffel"
+        ],
+        "year": 2021,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2021.emnlp-main.465",
+        "arxivId": "2102.11972",
+        "url": "https://www.semanticscholar.org/paper/79b4ec1aaf67a04a9afa0d8138f84b7be66c00cb"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-neishi-yoshinaga-2019-relation",
+      "rawKey": "neishi-yoshinaga-2019-relation",
+      "display": "[24]",
+      "raw": "Masato Neishi and Naoki Yoshinaga. On the relation between position information and sentence length in neural machine translation. In Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL), pp. 328--338, Hong Kong, China, November 2019. Association for Computational Linguistics. 10.18653/v1/K19-1031. URL https://aclanthology.org/K19-1031.",
+      "metadata": {
+        "title": "On the Relation between Position Information and Sentence Length in Neural Machine Translation",
+        "authors": [
+          "Masato Neishi",
+          "N. Yoshinaga"
+        ],
+        "year": 2019,
+        "venue": "Conference on Computational Natural Language Learning",
+        "doi": "10.18653/v1/K19-1031",
+        "url": "https://aclanthology.org/K19-1031"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-newman2020extrapolation",
+      "rawKey": "newman2020extrapolation",
+      "display": "[25]",
+      "raw": "Benjamin Newman, John Hewitt, Percy Liang, and Christopher D. Manning. The eos decision and length extrapolation. In BlackBoxNLP@EMNLP, 2020. URL https://nlp.stanford.edu/pubs/newman2020extrapolation.pdf.",
+      "metadata": {
+        "title": "The EOS Decision and Length Extrapolation",
+        "authors": [
+          "Benjamin Newman",
+          "John Hewitt",
+          "Percy Liang",
+          "Christopher D. Manning"
+        ],
+        "year": 2020,
+        "venue": "BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+        "doi": "10.48550/arXiv.2010.07174",
+        "arxivId": "2010.07174",
+        "url": "https://nlp.stanford.edu/pubs/newman2020extrapolation.pdf"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Nogueira2021InvestigatingTL",
+      "rawKey": "Nogueira2021InvestigatingTL",
+      "display": "[26]",
+      "raw": "Rodrigo Nogueira, Zhiying Jiang, and Jimmy J. Li. Investigating the limitations of the transformers with simple arithmetic tasks. ArXiv, abs/2102.13019, 2021.",
+      "metadata": {
+        "title": "Investigating the Limitations of Transformers with Simple Arithmetic Tasks",
+        "authors": [
+          "Rodrigo Nogueira",
+          "Zhi-Ying Jiang",
+          "Jimmy Lin"
+        ],
+        "year": 2021,
+        "arxivId": "2102.13019",
+        "url": "https://www.semanticscholar.org/paper/2cc3ab9fa41ba2804e301f7eae9598636e62422a"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ott2018scaling",
+      "rawKey": "ott2018scaling",
+      "display": "[27]",
+      "raw": "Myle Ott, Sergey Edunov, David Grangier, and Michael Auli. Scaling neural machine translation. In Proceedings of the Third Conference on Machine Translation (WMT), 2018.",
+      "metadata": {
+        "title": "Scaling Neural Machine Translation",
+        "authors": [
+          "Myle Ott",
+          "Sergey Edunov",
+          "D. Grangier",
+          "M. Auli"
+        ],
+        "year": 2018,
+        "venue": "Conference on Machine Translation",
+        "doi": "10.18653/v1/W18-6301",
+        "arxivId": "1806.00187",
+        "url": "https://www.semanticscholar.org/paper/bf8fe437f779f2098f9af82b534aa51dc9edb06f"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-parikh-etal-2016-decomposable",
+      "rawKey": "parikh-etal-2016-decomposable",
+      "display": "[28]",
+      "raw": "Ankur Parikh, Oscar Tackstrom, Dipanjan Das, and Jakob Uszkoreit. A decomposable attention model for natural language inference. In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pp. 2249--2255, Austin, Texas, November 2016. Association for Computational Linguistics. 10.18653/v1/D16-1244. URL https://aclanthology.org/D16-1244.",
+      "metadata": {
+        "title": "A Decomposable Attention Model for Natural Language Inference",
+        "authors": [
+          "Ankur P. Parikh",
+          "Oscar Täckström",
+          "Dipanjan Das",
+          "J. Uszkoreit"
+        ],
+        "year": 2016,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/D16-1244",
+        "arxivId": "1606.01933",
+        "url": "https://aclanthology.org/D16-1244"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tying",
+      "rawKey": "tying",
+      "display": "[29]",
+      "raw": "Ofir Press and Lior Wolf. Using the output embedding to improve language models. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers, pp. 157--163, Valencia, Spain, April 2017. Association for Computational Linguistics. URL https://www.aclweb.org/anthology/E17-2025.",
+      "metadata": {
+        "title": "Using the Output Embedding to Improve Language Models",
+        "authors": [
+          "Ofir Press",
+          "Lior Wolf"
+        ],
+        "year": 2016,
+        "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+        "doi": "10.48550/arXiv.1608.05859",
+        "arxivId": "1608.05859",
+        "url": "https://www.aclweb.org/anthology/E17-2025"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sandwich",
+      "rawKey": "sandwich",
+      "display": "[30]",
+      "raw": "Ofir Press, Noah A. Smith, and Omer Levy. Improving transformer models by reordering their sublayers. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pp. 2996--3005, Online, July 2020. Association for Computational Linguistics. 10.18653/v1/2020.acl-main.270. URL https://www.aclweb.org/anthology/2020.acl-main.270.",
+      "metadata": {
+        "title": "Improving Transformer Models by Reordering their Sublayers",
+        "authors": [
+          "Ofir Press",
+          "Noah A. Smith",
+          "Omer Levy"
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2020.acl-main.270",
+        "arxivId": "1911.03864",
+        "url": "https://www.aclweb.org/anthology/2020.acl-main.270"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shortformer",
+      "rawKey": "shortformer",
+      "display": "[31]",
+      "raw": "Ofir Press, Noah A. Smith, and Mike Lewis. Shortformer: Better language modeling using shorter inputs. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp. 5493--5505, Online, August 2021. Association for Computational Linguistics. URL https://aclanthology.org/2021.acl-long.427.",
+      "metadata": {
+        "title": "Shortformer: Better Language Modeling using Shorter Inputs",
+        "authors": [
+          "Ofir Press",
+          "Noah A. Smith",
+          "M. Lewis"
+        ],
+        "year": 2021,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2021.acl-long.427",
+        "arxivId": "2012.15832",
+        "url": "https://aclanthology.org/2021.acl-long.427"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Rae2020Compressive",
+      "rawKey": "Rae2020Compressive",
+      "display": "[32]",
+      "raw": "Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Chloe Hillier, and Timothy P. Lillicrap. Compressive transformers for long-range sequence modelling. In International Conference on Learning Representations, 2020. URL https://openreview.net/forum?id=SylKikSYDH.",
+      "metadata": {
+        "title": "Compressive Transformers for Long-Range Sequence Modelling",
+        "authors": [
+          "Jack W. Rae",
+          "Anna Potapenko",
+          "Siddhant M. Jayakumar",
+          "Chloe Hillier",
+          "T. Lillicrap"
+        ],
+        "year": 2019,
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.1911.05507",
+        "arxivId": "1911.05507",
+        "url": "https://openreview.net/forum?id=SylKikSYDH"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-t5",
+      "rawKey": "t5",
+      "display": "[33]",
+      "raw": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified text-to-text transformer. Journal of Machine Learning Research, 21 (140): 1--67, 2020. URL http://jmlr.org/papers/v21/20-074.html.",
+      "metadata": {
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "authors": [
+          "Colin A. Raffel",
+          "Noam Shazeer",
+          "Adam Roberts",
+          "Katherine Lee",
+          "Sharan Narang",
+          "Michael Matena",
+          "Yan-Qi Zhou",
+          "Wei Li",
+          "Peter J. Liu"
+        ],
+        "year": 2019,
+        "venue": "Journal of machine learning research",
+        "doi": "10.48550/arXiv.1910.10683",
+        "arxivId": "1910.10683",
+        "url": "http://jmlr.org/papers/v21/20-074.html"
+      },
+      "localMatch": {
+        "paperPath": "papers/1910.10683",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-rosendahl2019:pos_enc",
+      "rawKey": "rosendahl2019:pos_enc",
+      "display": "[34]",
+      "raw": "Jan Rosendahl, Viet Anh Khoa Tran, Weiyue Wang, and Hermann Ney. Analysis of positional encodings for neural machine translation. In International Workshop on Spoken Language Translation, Hong Kong, China, November 2019.",
+      "metadata": {
+        "title": "Analysis of Positional Encodings for Neural Machine Translation",
+        "authors": [
+          "Jan Rosendahl",
+          "Viet Anh Khoa Tran",
+          "Weiyue Wang",
+          "H. Ney"
+        ],
+        "year": 2019,
+        "venue": "International Workshop on Spoken Language Translation",
+        "url": "https://www.semanticscholar.org/paper/8f9089912cd4998cc696949001e601e6df3b7376"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-roy2020efficient",
+      "rawKey": "roy2020efficient",
+      "display": "[35]",
+      "raw": "Aurko Roy, Mohammad Saffar, Ashish Vaswani, and David Grangier. Efficient content-based sparse attention with routing transformers, 2020.",
+      "metadata": {
+        "title": "Efficient Content-Based Sparse Attention with Routing Transformers",
+        "authors": [
+          "Aurko Roy",
+          "M. Saffar",
+          "Ashish Vaswani",
+          "D. Grangier"
+        ],
+        "year": 2020,
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "doi": "10.1162/tacl_a_00353",
+        "arxivId": "2003.05997",
+        "url": "https://www.semanticscholar.org/paper/fdadfb4b43f41d6b0264423b7deb016ff761c4e9"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shaw",
+      "rawKey": "shaw",
+      "display": "[36]",
+      "raw": "Peter Shaw, Jakob Uszkoreit, and Ashish Vaswani. Self-attention with relative position representations. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers), pp. 464--468, New Orleans, Louisiana, June 2018. Association for Computational Linguistics. 10.18653/v1/N18-2074. URL https://www.aclweb.org/anthology/N18-2074.",
+      "metadata": {
+        "title": "Self-Attention with Relative Position Representations",
+        "authors": [
+          "Peter Shaw",
+          "J. Uszkoreit",
+          "Ashish Vaswani"
+        ],
+        "year": 2018,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/N18-2074",
+        "arxivId": "1803.02155",
+        "url": "https://www.aclweb.org/anthology/N18-2074"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-roformer",
+      "rawKey": "roformer",
+      "display": "[37]",
+      "raw": "Jianlin Su, Yu Lu, Shengfeng Pan, Bo Wen, and Yunfeng Liu. Roformer: Enhanced transformer with rotary position embedding, 2021.",
+      "metadata": {
+        "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+        "authors": [
+          "Jian-Lin Su",
+          "Murtadha H. M. Ahmed",
+          "Yu Lu",
+          "Shengfeng Pan",
+          "Wen Bo",
+          "Yun-Feng Liu"
+        ],
+        "year": 2021,
+        "venue": "Neurocomputing",
+        "doi": "10.48550/arXiv.2104.09864",
+        "arxivId": "2104.09864",
+        "url": "https://www.semanticscholar.org/paper/66c10bf1f11bc1b2d92204d8f8391d087f6de1c4"
+      },
+      "localMatch": {
+        "paperPath": "papers/2104.09864",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-stories",
+      "rawKey": "stories",
+      "display": "[38]",
+      "raw": "Trieu H. Trinh and Quoc V. Le. A simple method for commonsense reasoning, 2018.",
+      "metadata": {
+        "title": "A Simple Method for Commonsense Reasoning",
+        "authors": [
+          "Trieu H. Trinh",
+          "Quoc V. Le"
+        ],
+        "year": 2018,
+        "doi": "10.48550/arXiv.1806.02847",
+        "arxivId": "1806.02847",
+        "url": "https://www.semanticscholar.org/paper/d7b6753a2d4a2b286c396854063bde3a91b75535"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-vaswani",
+      "rawKey": "vaswani",
+      "display": "[39]",
+      "raw": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett (eds.), Advances in Neural Information Processing Systems, volume 30. Curran Associates, Inc., 2017. URL https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf.",
+      "metadata": {
+        "title": "Attention is All you Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "N. Parmar",
+          "J. Uszkoreit",
+          "L. Jones",
+          "Aidan N. Gomez",
+          "Lukasz Kaiser",
+          "I. Polosukhin"
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.1706.03762",
+        "arxivId": "1706.03762",
+        "url": "https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf"
+      },
+      "localMatch": {
+        "paperPath": "papers/1706.03762",
+        "matchBy": "arxiv"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpt-j",
+      "rawKey": "gpt-j",
+      "display": "[40]",
+      "raw": "Ben Wang and Aran Komatsuzaki. GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model. https://github.com/kingoflolz/mesh-transformer-jax, May 2021.",
+      "metadata": {
+        "title": "GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model. https://github.com/kingoflolz/mesh-transformer-jax",
+        "year": 2021,
+        "url": "https://github.com/kingoflolz/mesh-transformer-jax"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wennberg2021case",
+      "rawKey": "wennberg2021case",
+      "display": "[41]",
+      "raw": "Ulme Wennberg and Gustav Eje Henter. The case for translation-invariant self-attention in transformer-based language models, 2021.",
+      "metadata": {
+        "title": "The Case for Translation-Invariant Self-Attention in Transformer-Based Language Models",
+        "authors": [
+          "Ulme Wennberg",
+          "G. Henter"
+        ],
+        "year": 2021,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2021.acl-short.18",
+        "arxivId": "2106.01950",
+        "url": "https://www.semanticscholar.org/paper/d8e7bad2681ce70277c900c77a22181d4b03d705"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-huggingface",
+      "rawKey": "huggingface",
+      "display": "[42]",
+      "raw": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, RÃmi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest, and Alexander M. Rush. Transformers: State-of-the-art natural language processing. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, pp. 38--45, Online, October 2020. Association for Computational Linguistics. URL https://www.aclweb.org/anthology/2020.emnlp-demos.6.",
+      "metadata": {
+        "title": "Transformers: State-of-the-Art Natural Language Processing",
+        "year": 2020,
+        "venue": "EMNLP",
+        "url": "https://www.aclweb.org/anthology/2020.emnlp-demos.6"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-da-transformer",
+      "rawKey": "da-transformer",
+      "display": "[43]",
+      "raw": "Chuhan Wu, Fangzhao Wu, and Yongfeng Huang. DA-transformer: Distance-aware transformer. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp. 2059--2068, Online, June 2021. Association for Computational Linguistics. 10.18653/v1/2021.naacl-main.166. URL https://aclanthology.org/2021.naacl-main.166.",
+      "metadata": {
+        "title": "DA-Transformer: Distance-aware Transformer",
+        "authors": [
+          "Chuhan Wu",
+          "Fang-Zhao Wu",
+          "Yongfeng Huang"
+        ],
+        "year": 2020,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2021.naacl-main.166",
+        "arxivId": "2010.06925",
+        "url": "https://aclanthology.org/2021.naacl-main.166"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zaremba2014recurrent",
+      "rawKey": "zaremba2014recurrent",
+      "display": "[44]",
+      "raw": "Wojciech Zaremba, Ilya Sutskever, and Oriol Vinyals. Recurrent neural network regularization, 2014.",
+      "metadata": {
+        "title": "Recurrent Neural Network Regularization",
+        "authors": [
+          "W. Zaremba",
+          "I. Sutskever",
+          "O. Vinyals"
+        ],
+        "year": 2014,
+        "doi": "10.48550/arXiv.1409.2329",
+        "arxivId": "1409.2329",
+        "url": "https://www.semanticscholar.org/paper/f264e8b33c0d49a692a6ce2c4bcb28588aeb7d97"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhu2015aligning",
+      "rawKey": "zhu2015aligning",
+      "display": "[45]",
+      "raw": "Yukun Zhu, Ryan Kiros, Rich Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler. Aligning books and movies: Towards story-like visual explanations by watching movies and reading books. In Proceedings of the IEEE international conference on computer vision, pp. 19--27, 2015.",
+      "metadata": {
+        "title": "Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books",
+        "authors": [
+          "Yu-Kun Zhu",
+          "R. Kiros",
+          "R. Zemel",
+          "R. Salakhutdinov",
+          "R. Urtasun",
+          "A. Torralba",
+          "S. Fidler"
+        ],
+        "year": 2015,
+        "venue": "2015 IEEE International Conference on Computer Vision (ICCV)",
+        "doi": "10.1109/ICCV.2015.11",
+        "arxivId": "1506.06724",
+        "url": "https://www.semanticscholar.org/paper/0e6824e137847be0599bb0032e37042ed2ef5045"
+      },
+      "source": "bbl+s2",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 45 entries (bbl)",
+    "semantic scholar: 49 references",
+    "merged: 44 of 45 enriched online"
+  ]
+}

@@ -1,0 +1,199 @@
+%\usepackage[small,tight]{bibhacks}
+
+% File acl2015.tex
+%
+% Contact: car@ir.hit.edu.cn, gdzhou@suda.edu.cn
+%%
+%% Based on the style files for ACL-2014, which were, in turn,
+%% Based on the style files for ACL-2013, which were, in turn,
+%% Based on the style files for ACL-2012, which were, in turn,
+%% based on the style files for ACL-2011, which were, in turn, 
+%% based on the style files for ACL-2010, which were, in turn, 
+%% based on the style files for ACL-IJCNLP-2009, which were, in turn,
+%% based on the style files for EACL-2009 and IJCNLP-2008...
+
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+%\usepackage[small]{bibhacks}
+\usepackage{acl2015}
+\usepackage{times}
+\usepackage{url}
+\usepackage{latexsym}
+
+%\setlength\titlebox{5cm}
+
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+%% Thang %%
+\usepackage{caption} % figures side-by-side
+\usepackage{subcaption} % figures side-by-side
+\usepackage{multirow} % multicolumn
+\usepackage{amsmath} % align
+\usepackage{amssymb} % for mathbb 
+\usepackage{graphicx}
+\usepackage{color} % color
+\usepackage{pstricks} % for overlay latex on top of images
+\usepackage{arydshln} % for table formatting
+
+\newcommand{\imgExt}{eps}
+\newcommand{\eq}[1]{Eq.~(\ref{#1})}
+\newcommand{\error}[1]{{\color{red} #1}}
+\newcommand{\correct}[1]{\textit{\color{blue} #1}}
+\newcommand{\wrong}[1]{\textbf{\color{red} #1}}
+%\newcommand{\edit}[1]{{\color{blue} #1}} % 
+\newcommand{\edit}[1]{{#1}} % 
+\newcommand{\hide}[1]{}
+\newcommand{\todo}[1]{{\color{brown} TODO: #1}}
+\newcommand{\MB}[1]{\mbox{\boldmath{$#1$}}} % boldface for matrix and vectors
+\newcommand{\inR}[1]{\in \mathbb{R}^{#1}} % R^{#1}
+
+\newcommand{\open}[1]{\left(#1\right)} % hidden top
+\newcommand{\W}[1]{\MB{W_{#1}}} % hidden top
+\newcommand{\h}[1]{\MB{h}_{#1}} % hidden top
+\newcommand{\hi}{\MB{h}_{t}} % hidden top
+\newcommand{\his}{\MB{\bar{h}}_{s}} % hidden top source
+\newcommand{\hs}{\MB{\tilde{h}}_{t}} %h softmax
+\newcommand{\al}{\MB{a}_{t}} % align
+\newcommand{\co}{\MB{c}_{t}} % context
+\newcommand{\pt}{p_{t}} % context
+\newcommand{\tgt}[1]{y_{#1}} % target word
+\newcommand{\src}[1]{x_{#1}} % source word
+\newcommand{\eos}{$<$\texttt{eos}$>$}
+\newcommand{\unk}{$<$\texttt{unk}$>$}
+\newcommand{\tp}[1]{#1^\top} % transpose
+\DeclareMathOperator{\softmax}{softmax}
+\DeclareMathOperator{\sigmoid}{sigmoid}
+\DeclareMathOperator{\alignf}{align}
+\DeclareMathOperator{\score}{score}
+
+\newcommand{\sotaold}{23.0} % WMT'14 English-German
+\newcommand{\sotanew}{25.9} % WMT'15 English-German
+\newcommand{\attngain}{5.0} % max improvement when using attention 
+\newcommand{\localm}{local-m} % max improvement when using attention 
+\newcommand{\localp}{local-p} % max improvement when using attention 
+
+\title{Effective Approaches to Attention-based Neural Machine Translation}
+
+\author{Minh-Thang Luong $\mbox{ }$ $\mbox{ }$ $\mbox{ }$ Hieu Pham $\mbox{ }$ $\mbox{ }$ $\mbox{ }$ Christopher D. Manning\\
+  Computer Science Department, Stanford University, Stanford, CA 94305 \\
+  {\tt \{lmthang,hyhieu,manning\}@stanford.edu} 
+  %{\tt \{lmthang, manning\}@stanford.edu} $\mbox{ }$ $\mbox{ }$ $\mbox{ }$ $\mbox{ }$ $\mbox{ }$ {\tt hyhieu@cs.stanford.edu}
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+An attentional mechanism has lately been used to improve neural machine translation (NMT)
+by
+selectively focusing on parts of the source sentence during translation. However,
+there has been little work exploring useful architectures for attention-based
+NMT. This paper examines two simple and effective classes of attentional
+mechanism: a {\it global} approach which always attends to all source words and
+a {\it local} one that only looks at a subset of source words at a time. 
+We demonstrate the effectiveness of both approaches on the WMT translation
+tasks between English and German in both directions. With local
+attention, we achieve a significant gain of \attngain{} BLEU points over
+non-attentional systems that 
+already incorporate known techniques such as dropout. Our ensemble 
+model using different attention architectures yields a new
+state-of-the-art result in the WMT'15 English to German
+translation task with \sotanew{} BLEU points, an improvement of 1.0 BLEU points over the existing
+best system backed by NMT and an $n$-gram reranker.\footnote{All our code and models
+are publicly available at \url{http://nlp.stanford.edu/projects/nmt}.}
+%Our in-depth analysis sheds light on which architectures are best.% and we
+%are first to assess attentional models using alignment error rates.
+
+%Furthermore, by feeding the attentional vector as an additional input to the next time step, we achieve a further gain of up to \impfeed{} BLEU.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+\input{intro}
+
+\section{Neural Machine Translation}
+\label{sec:nmt}
+\input{nmt}
+
+\section{Attention-based Models}
+\label{sec:attn}
+\input{attn}
+
+
+\section{Experiments}
+\label{sec:exp}
+\input{exp}
+
+
+\section{Analysis}
+\label{sec:analysis}
+\input{analysis}
+
+%\section{Related Work}
+%\label{sec:related}
+%\input{related}
+
+\section{Conclusion}
+\label{sec:conclude}
+\input{conclusion}
+
+\section*{Acknowledgment}
+We gratefully acknowledge support from a gift from Bloomberg L.P.
+and the support of NVIDIA Corporation with the donation of Tesla K40 GPUs.
+We thank Andrew Ng and his group as well as the Stanford Research
+Computing for letting us use their computing
+resources.
+We thank Russell Stewart for helpful discussions on the 
+models. Lastly, we thank Quoc Le, Ilya Sutskever, Oriol Vinyals,
+Richard Socher, Michael Kayser, Jiwei Li, Panupong Pasupat, Kelvin
+Guu, members of the Stanford NLP Group and the annonymous reviewers for their valuable comments and feedback.
+
+\bibliography{emnlp15}
+\bibliographystyle{acl2015}
+\appendix
+\section{Alignment Visualization}
+\label{sec:visual}
+We visualize the alignment weights produced by our different attention
+models in Figure~\ref{i:alignment}. The visualization of the local
+attention model is much sharper than that of the global one. This contrast matches
+our expectation that local attention is designed to only focus on a subset of
+words each time. Also, since we
+translate from English to German and reverse the source English sentence, the white strides
+at the words {\it ``reality''} and {\it ``.''} in the global attention model reveals an
+interesting access pattern: it tends to refer back to the beginning of the
+source sequence. 
+
+Compared to the alignment visualizations in \cite{bog15}, our
+alignment patterns are not as sharp as theirs. Such difference could possibly be due to
+the fact that translating from English to German is
+harder than translating into French as done in \cite{bog15},
+which is an interesting point to examine in future work.
+
+%The weights computed by the global model in many columns scatter in different rows, for example, the column of the word \textit{``reality''}. 
+%The weights computed by the local models concentrate more on the correct positions, making them look more like the gold alignments.
+
+
+\begin{figure*}
+  \begin{center}
+    \includegraphics[scale=0.33]{align4.eps}
+    \includegraphics[scale=0.33]{align2.eps}
+    \includegraphics[scale=0.33]{align1.eps}
+    \includegraphics[scale=0.33]{alignGold.eps}
+  \end{center}
+  \caption{{\bf Alignment visualizations} -- shown are images of the attention
+  weights learned by various models: (top left) global, (top right)
+  local-m, and (bottom left) local-p. The {\it gold} alignments are
+  displayed at the bottom right corner.
+  }
+  \label{i:alignment}
+\end{figure*}
+
+\end{document}
+

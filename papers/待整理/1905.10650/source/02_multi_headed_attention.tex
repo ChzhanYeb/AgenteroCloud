@@ -1,0 +1,51 @@
+\section{Background: Attention, Multi-headed Attention, and Masking}
+\label{sec:multi_headed_attention}
+
+In this section we lay out the notational groundwork regarding attention, and also describe our method for masking out attention heads.
+
+% \gn{If space is an issue, I think these don't need to be subsections.}
+
+% \omer{This section is basically background and notation. It should be very succinct to allow the reader to quickly get to the point of the paper (which is in the next sections, not in this one). We can work on tightening it after everything else is in place.}
+
+\subsection{Single-headed Attention}
+
+We briefly recall how vanilla attention operates. 
+We focus on scaled bilinear attention \citep{luong2015effective}, the variant most commonly used in \ac{mha} layers.
+Given a sequence of $n$ $d$-dimensional vectors $\mathbf{x}=x_1,\ldots,x_n\in \mathbb{R}^d$, and a query vector $q\in \mathbb{R}^d$, the attention layer parametrized by $W_k, W_q, W_v, W_o\in\mathbb{R}^{d\times d}$ computes the weighted sum:
+\begin{equation*}
+\begin{split}
+    \text{Att}_{W_k, W_q, W_v, W_o}(\textbf{x}, q)&=W_o\sum_{i=1}^n\alpha_iW_vx_i\\
+    \text{where  }\alpha_i&=\text{softmax}\left(\frac{q^{\intercal}W_q^{\intercal}W_kx_i}{\sqrt{d}}\right)\\
+\end{split}
+\end{equation*}
+In self-attention, every $x_i$ is used as the query $q$ to compute a new sequence of representations, whereas in sequence-to-sequence models $q$ is typically a decoder state while $\mathbf{x}$ corresponds to the encoder output. 
+% In addition, the matrix-vector multiplications are usually augmented with a bias term which we have omitted here for ease of exposition.
+
+\subsection{Multi-headed Attention}
+
+In \emph{multi-headed} attention (\ac{mha}), $N_h$ independently parameterized attention layers are applied in parallel to obtain the final result:
+% \gn{Should this really be a sum? I think it should be concatenation?}
+% \omer{Should be concatenation followed by another linear transformation. This extra transformation cannot be merged with the value transform $W_o$ when you have multiple heads.}
+% \gn{These notes were commented out, but I still think they're relevant. Also, you've introduced $W^{h\intercal}_v$ here which wasn't in the previous equation for single-head attention, so it's not clear what role it plays. I think you need to make sure that the notation here is correct, and also easy to follow.}
+% \omer{We could try using Mike Collin's notations -- they're really nice, and provide a complementary explanation to the one in the original Vaswani paper.}
+\begin{equation}
+\label{eq:multihead_formula}
+\begin{split}
+    \text{MHAtt}(\textbf{x}, q)&=\sum_{h=1}^{N_h}\text{Att}_{W^h_k, W^h_q, W^{h}_v,W^h_o}(\textbf{x}, q)\\
+\end{split}
+\end{equation}
+where $W^h_k, W^h_q, W^h_v\in \mathbb{R}^{d_h\times d}$ and $W^h_o\in \mathbb{R}^{d\times d_h}$. When $d_h=d$, \ac{mha} is strictly more expressive than vanilla attention. However, to keep the number of parameters constant, $d_h$ is typically set to $\frac{d}{N_h}$, in which case \ac{mha} can be seen as an ensemble of low-rank vanilla attention layers\footnote{This notation, equivalent to the ``concatenation'' formulation from \citet{vaswani2017attention}, is used to ease exposition in the following sections.}. In the following, we use $\text{Att}_h(x)$ as a shorthand for the output of head $h$ on input $x$.
+
+To allow the different attention heads to interact with each other, transformers apply a non-linear feed-forward network over the \ac{mha}'s output, at each transformer layer \citep{vaswani2017attention}.
+
+
+\subsection{Masking Attention Heads}
+\label{sec:masking}
+
+In order to perform ablation experiments on the heads, we modify the formula for $\text{MHAtt}$:
+\begin{equation*}
+\begin{split}
+    \text{MHAtt}(\textbf{x}, q)&=\sum_{h=1}^{N_h}{\color{red}\xi_{h}}\text{Att}_{W^h_k, W^h_q, W^{h}_v,W^h_o}(\textbf{x}, q)\\
+\end{split}
+\end{equation*}
+where the $\xi_h$ are mask variables with values in $\{0,1\}$. When all $\xi_h$ are equal to $1$, this is equivalent to the formulation in Equation \ref{eq:multihead_formula}. In order to mask head $h$, we simply set $\xi_h=0$.

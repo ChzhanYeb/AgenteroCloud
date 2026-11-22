@@ -1,0 +1,98 @@
+\section{Baby AI}
+
+\label{babyai}
+
+BabyAI~\citep{babyai_iclr19} is a research platform designed to study grounded language learning and instruction following in artificial agents. It consists of a suite of 2D grid world environments with increasing levels of complexity. In these environments, an agent navigates through rooms and interacts with various objects like doors, keys, balls, and boxes of different colors. The agent receives natural language instructions, called ``missions", which describe tasks it needs to complete, such as picking up specific objects or navigating to certain locations. Many existing works on decision-making have studied model performance on this environment \citep{reed2022generalist, li2022pre}. We use it as a historically relevant environment that we expect to be relatively easy to solve. 
+
+\subsection{BabyAI-Text}
+We evaluate the agents on 5 tasks introduced in BabyAI-Text~\citep{carta2023grounding}, which provides a description of each observation instead of a symbolic representation. A textual description consists of a list of template descriptions with the following structure: 
+\begin{itemize}
+    \item "You see a \verb|<object>| \verb|<location>|" if the object is a key, a ball, a box or a wall.
+    \item "You see a(n) open/closed door \verb|<location>|" , if the agent sees a door.
+    \item "You carry a \verb|<object>|", if the agent carries an object.
+\end{itemize}
+
+
+\subsection{BabyAI Results}
+We provide BabyAI results for LLM and VLM mode in Tables \ref{babyai_LLM} and \ref{babyai_VLM}. Errors are computed with 25 seeds for each of the 5 tasks of BabyAI. GPT-4o leads, closely followed by Llama 3.1 70B. When vision is added to the observation, GPT4o all models performance decrease, except for Gemini-1.5-Pro, whose performance remains stable.
+
+
+\begin{table}[h]
+    \centering
+    \begin{minipage}[t]{0.48\linewidth}
+    \centering
+    \caption{LLM Performance on babyai}
+    \begin{tabular}{lc}
+    \hline
+    Model & Average Progress (\%) \\
+    \hline
+    gpt-4o & 77.60 $\pm$ 3.73 \\
+    llama-3.1-70b-it & 73.20 $\pm$ 3.96 \\
+    llama-3.2-90b-it & 72.00 $\pm$ 6.35 \\
+    claude-3.5-sonnet & 68.00 $\pm$ 6.60 \\
+    gemini-1.5-pro & 58.40 $\pm$ 4.41 \\
+    claude-3.5-haiku & 52.00 $\pm$ 7.07 \\
+    gpt-4o-mini & 50.40 $\pm$ 4.47 \\
+    gemini-1.5-flash & 50.00 $\pm$ 7.07 \\
+    llama-3.2-11b-it & 50.00 $\pm$ 7.07 \\
+    llama-3.1-8b-it & 36.00 $\pm$ 6.79 \\
+    llama-3.2-3b-it & 20.00 $\pm$ 5.66 \\
+    llama-3.2-1b-it & 8.00 $\pm$ 3.84 \\
+    \hline
+    \label{babyai_LLM}
+    \end{tabular}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\linewidth}
+    \centering
+    \caption{VLM Performance on babyai}
+    \begin{tabular}{lc}
+    \hline
+    Model & Average Progress (\%) \\
+    \hline
+    claude-3.5-sonnet & 82.00 $\pm$ 5.43 \\
+    llama-3.2-90b-it & 66.00 $\pm$ 6.70 \\
+    gpt-4o & 62.00 $\pm$ 4.34 \\
+    gemini-1.5-pro & 58.40 $\pm$ 4.41 \\
+    gemini-1.5-flash & 43.20 $\pm$ 4.43 \\
+    gpt-4o-mini & 38.00 $\pm$ 4.34 \\
+    llama-3.2-11b-it & 18.00 $\pm$ 5.43 \\
+    \hline
+    \label{babyai_VLM}
+    \end{tabular}
+    \end{minipage}
+\end{table}
+
+
+\subsection{Observations}
+Example of instruction prompt and observation for BabyAI
+
+\env{You are an agent playing a simple navigation game. Your goal is to open the yellow door. The following are the possible actions you can take in the game, followed by a short description of each action:\newline \newline
+turn left: turn to the left,\newline
+turn right: turn to the right, \newline
+go forward: take one step forward, \newline
+pick up: pick up the object below you, \newline
+drop: drop the object that you are holding, \newline
+toggle: manipulate the object in front of you. \newline\newline
+In a moment I will present you an observation. \newline \newline
+Tips: \newline
+- Once the desired object you want to interact or pickup in front of you, you can use the 'toggle' action to interact with it. \newline
+- It doesn't make sense to repeat the same action over and over if the observation doesn't change. \newline\newline
+PLAY!\newline
+}
+
+\env[iclr2025/images/babyai.png]{Current Observation:\newline\newline
+a wall 5 steps forward\newline
+a wall 2 steps left\newline
+a red key 1 step right and 1 step forward\newline
+a blue key 1 step right\newline
+a yellow key 2 steps right and 3 steps forward\newline
+a green key 2 steps right and 1 step forward\newline
+a red box 2 steps right\newline
+a blue ball 3 steps right and 4 steps forward\newline
+a blue box 3 steps right and 1 step forward\newline
+a blue box 3 steps right\newline\newline
+Image observation provided.
+}
+
+\agent{Go forward}

@@ -1,0 +1,92 @@
+{
+  "path": "papers/Agent规划/2401.13178",
+  "id": "2401.13178",
+  "type": "arxiv",
+  "title": "AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents",
+  "authors": [
+    "Chang Ma",
+    "Junlei Zhang",
+    "Zhihao Zhu",
+    "Cheng Yang",
+    "Yujiu Yang",
+    "Yaohui Jin",
+    "Zhenzhong Lan",
+    "Lingpeng Kong",
+    "Junxian He"
+  ],
+  "creators": [
+    {
+      "creatorType": "author",
+      "firstName": "Chang",
+      "lastName": "Ma"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Junlei",
+      "lastName": "Zhang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Zhihao",
+      "lastName": "Zhu"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Cheng",
+      "lastName": "Yang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yujiu",
+      "lastName": "Yang"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Yaohui",
+      "lastName": "Jin"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Zhenzhong",
+      "lastName": "Lan"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Lingpeng",
+      "lastName": "Kong"
+    },
+    {
+      "creatorType": "author",
+      "firstName": "Junxian",
+      "lastName": "He"
+    }
+  ],
+  "year": 2024,
+  "date": "2024-12-23",
+  "abstract": "Evaluating Large Language Models (LLMs) as general-purpose agents is essential for understanding their capabilities and facilitating their integration into practical applications. However, the evaluation process presents substantial challenges. A primary obstacle is the benchmarking of agent performance across diverse scenarios within a unified framework, especially in maintaining partially-observable environments and ensuring multi-round interactions. Moreover, current evaluation frameworks mostly focus on the final success rate, revealing few insights during the process and failing to provide a deep understanding of the model abilities. To address these challenges, we introduce AgentBoard, a pioneering comprehensive benchmark and accompanied open-source evaluation framework tailored to analytical evaluation of LLM agents. AgentBoard offers a fine-grained progress rate metric that captures incremental advancements as well as a comprehensive evaluation toolkit that features easy assessment of agents for multi-faceted analysis. This not only sheds light on the capabilities and limitations of LLM agents but also propels the interpretability of their performance to the forefront. Ultimately, AgentBoard serves as a step towards demystifying agent behaviors and accelerating the development of stronger LLM agents.",
+  "tags": [
+    "@arxiv:Computer Science - Computation and Language",
+    "@arxiv:Computer Science - Artificial Intelligence",
+    "@arxiv:Computer Science - Machine Learning",
+    {
+      "name": "Agent规划",
+      "color": "blue"
+    }
+  ],
+  "arxiv_id": "2401.13178",
+  "doi": "10.48550/arXiv.2401.13178",
+  "pdf_url": "https://arxiv.org/pdf/2401.13178",
+  "html_url": "https://arxiv.org/html/2401.13178",
+  "source_url": "https://arxiv.org/abs/2401.13178",
+  "code_repo": "https://github.com/hkust-nlp/AgentBoard",
+  "body_source": "latex",
+  "body_quality": "high",
+  "bibtex_key": "2401.13178",
+  "zotero_item_type": "preprint",
+  "meta_source": "translator",
+  "extra": "arXiv:2401.13178 [cs.CL]",
+  "status": "completed",
+  "is_read": false,
+  "added_at": "2026-11-15T12:38:37.662Z",
+  "updated_at": "2026-11-15T12:39:15.512Z"
+}

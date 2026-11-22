@@ -1,0 +1,731 @@
+\documentclass[10pt]{article} %
+
+\let\OrigAddcontentsline\addcontentsline
+\PassOptionsToPackage{dvipsnames,svgnames,x11names,table}{xcolor}
+\usepackage[preprint]{tmlr_official}
+\let\addcontentsline\OrigAddcontentsline
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[dvipsnames,svgnames,x11names,table]{xcolor}
+\usepackage{tabularx}
+\usepackage{natbib}
+\setcitestyle{authoryear,round,citesep={;},aysep={,},yysep={;}}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\input{math_commands.tex}
+\usepackage{microtype}          %
+\usepackage{tikz}               %
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{pifont}
+\usepackage{fontawesome5}       %
+\usepackage{CJKutf8}
+\newcommand{\cmark}{\ding{51}}
+\newcommand{\xmark}{\ding{55}}
+\definecolor{oxfordblue}{HTML}{002147}
+\definecolor{oxfordgold}{HTML}{C9A84C}
+\usepackage{tcolorbox}
+\usepackage{forest}
+\usepackage{adjustbox}
+\usepackage{wrapfig}
+\useforestlibrary{edges}
+\usepackage{ragged2e}
+\tcbuselibrary{breakable,skins,theorems}
+\usepackage{csquotes}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{bbm}
+\usepackage{mathtools}
+
+\newif\ifcomments
+\commentstrue  %
+
+\newcommand{\fazl}[1]{\ifcomments{\textcolor{purple}{\textbf{[Fazl: #1]}}}\fi}
+\newcommand{\hunar}[1]{\ifcomments{\textcolor{magenta}{\textbf{[Hunar: #1]}}}\fi}
+\newcommand{\abir}[1]{\ifcomments{\textcolor{green}{\textbf{[Abir: #1]}}}\fi}
+\newcommand{\mike}[1]{\ifcomments{\textcolor{blue}{\textbf{[Mike: #1]}}}\fi}
+
+\definecolor{narmeenpurple}{RGB}{128,0,128}
+\newcommand{\narmeen}[1]{%
+  \ifcomments
+    {\color{narmeenpurple}\textbf{[Narmeen: #1]}}
+  \fi
+}
+\definecolor{aaronblue}{RGB}{0,102,204}
+\newcommand{\aaron}[1]{%
+  \ifcomments
+    {\color{aaronblue}\textbf{[Aaron: #1]}}
+  \fi
+}
+
+\newcommand{\yuzhao}[1]{
+  \ifcomments
+
+{\textcolor{cyan}{[yuzhao: #1]}}
+  \fi
+}
+
+\newcommand{\hassan}[1]{
+  \ifcomments
+
+{\textcolor{brown}{[hassan: #1]}}
+  \fi
+}
+\newcommand{\johnhew}[1]{
+  \ifcomments
+
+{\textcolor{red}{[john hewitt: #1]}}
+  \fi
+}
+
+\newcommand{\aaronm}[1]{
+  \ifcomments
+
+{\textcolor{orange}{[aaron mueller: #1]}}
+  \fi
+}
+
+\newcommand{\tony}[1]{
+  \ifcomments
+
+{\textcolor{red}{[tony wu: #1]}}
+  \fi
+}
+
+\newcommand{\gab}[1]{
+  \ifcomments
+
+{\textcolor{blue}{[gab: #1]}}
+  \fi
+}
+
+
+\newcommand{\stella}[1]{
+  \ifcomments
+{\textcolor{blue}{[Stella: #1]}}
+  \fi
+}
+
+
+\newcommand{\kyle}[1]{
+  \ifcomments
+
+{\textcolor{green}{[kyle lo: #1]}}
+  \fi
+}
+
+
+\newcommand{\naomi}[1]{
+  \ifcomments
+
+{\textcolor{magenta}{[Naomi Saphra: #1]}}
+  \fi
+}
+
+\newcommand{\neel}[1]{
+  \ifcomments
+
+{\textcolor{green}{[Neel: #1]}}
+  \fi
+}
+
+\newcommand{\florent}[1]{
+  \ifcomments
+
+{\textcolor{violet}{[Florent: #1]}}
+  \fi
+}
+
+\newcommand{\ziyu}[1]{
+  \ifcomments
+
+{\textcolor{purple}{[Ziyu Yao: #1]}}
+  \fi
+}
+
+\newcommand{\mor}[1]{
+  \ifcomments
+
+{\textcolor{purple}{[Mor: #1]}}
+  \fi
+}
+
+\newcommand{\ye}[1]{
+  \ifcomments
+{\textcolor{purple}{[Yanai: #1]}}
+  \fi
+}
+
+\newcommand{\bzl}[1]{
+  \ifcomments
+{\textcolor{purple}{[belinda: #1]}}
+  \fi
+}
+
+\newcommand{\lga}[1]{
+  \ifcomments
+{\textcolor{green}{[Leo: #1]}}
+  \fi
+}
+
+\newcommand{\riley}[1]{
+  \ifcomments
+{\textcolor{teal}{[Riley: #1]}}
+  \fi
+}
+
+\definecolor{defblue}{RGB}{0,51,102}
+\definecolor{examplegreen}{RGB}{0,102,51}
+\definecolor{insightgold}{RGB}{153,102,0}
+\definecolor{theorypurple}{RGB}{102,0,153}
+\definecolor{warningred}{RGB}{153,0,0}
+\definecolor{tableheader}{RGB}{70,130,180}
+\definecolor{tablerow1}{RGB}{240,248,255}
+\definecolor{tablerow2}{RGB}{255,255,255}
+\definecolor{inductionorange}{HTML}{BD5836
+}
+\usepackage[T1]{fontenc}
+
+\newtcolorbox{definitionbox}[1][]{
+    colback=defblue!5,
+    colframe=defblue!80,
+    fonttitle=\bfseries,
+    title=#1,
+    breakable,
+    enhanced,
+    attach boxed title to top left={yshift=-2mm,xshift=4mm},
+    boxed title style={colback=defblue!80,colframe=defblue!80}
+}
+
+\newtcolorbox{examplebox}[1][]{
+    colback=examplegreen!5,
+    colframe=examplegreen!70,
+    fonttitle=\bfseries,
+    title=#1,
+    breakable,
+    enhanced,
+    attach boxed title to top left={yshift=-2mm,xshift=4mm},
+    boxed title style={colback=examplegreen!70,colframe=examplegreen!70}
+}
+
+\newtcolorbox{insightbox}[1][]{
+    colback=insightgold!8,
+    colframe=insightgold!80,
+    fonttitle=\bfseries,
+    title=#1,
+    breakable,
+    enhanced,
+    attach boxed title to top left={yshift=-2mm,xshift=4mm},
+    boxed title style={colback=insightgold!80,colframe=insightgold!80}
+}
+
+\newtcolorbox{theorybox}[1][]{
+    colback=theorypurple!5,
+    colframe=theorypurple!70,
+    fonttitle=\bfseries,
+    title=#1,
+    breakable,
+    enhanced,
+    attach boxed title to top left={yshift=-2mm,xshift=4mm},
+    boxed title style={colback=theorypurple!70,colframe=theorypurple!70}
+}
+
+\newtcolorbox{warningbox}[1][]{
+    colback=warningred!5,
+    colframe=warningred!70,
+    fonttitle=\bfseries,
+    title=#1,
+    breakable,
+    enhanced,
+    attach boxed title to top left={yshift=-2mm,xshift=4mm},
+    boxed title style={colback=warningred!70,colframe=warningred!70}
+}
+
+\definecolor{practiceteal}{RGB}{0,102,102}
+\newtcolorbox{practicebox}[1][]{
+    colback=practiceteal!5,
+    colframe=practiceteal!70,
+    fonttitle=\bfseries,
+    title=#1,
+    breakable,
+    enhanced,
+    attach boxed title to top left={yshift=-2mm,xshift=4mm},
+    boxed title style={colback=practiceteal!70,colframe=practiceteal!70}
+}
+
+
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{TODO: #1}}}
+
+\definecolor{citeestablished}{HTML}{B86046}  %
+\definecolor{citeemerging}{HTML}{6B8E23}     %
+\definecolor{citeflagged}{HTML}{FF4C4C}      %
+
+
+\newcommand{\citeest}[1]{%
+  \begingroup
+  \hypersetup{citecolor=citeestablished}%
+  \citep{#1}%
+  \endgroup
+}
+
+\newcommand{\citeem}[1]{%
+  \begingroup
+  \hypersetup{citecolor=citeemerging}%
+  \citep{#1}%
+  \endgroup
+}
+
+\newcommand{\citeflag}[1]{%
+  \begingroup
+  \hypersetup{citecolor=citeflagged}%
+  \citep{#1}%
+  \endgroup
+}
+
+\newcommand{\citetest}[1]{%
+  \begingroup
+  \hypersetup{citecolor=citeestablished}%
+  \citet{#1}%
+  \endgroup
+}
+
+\newcommand{\citetem}[1]{%
+  \begingroup
+  \hypersetup{citecolor=citeemerging}%
+  \citet{#1}%
+  \endgroup
+}
+
+\newcommand{\citetflag}[1]{%
+  \begingroup
+  \hypersetup{citecolor=citeflagged}%
+  \citet{#1}%
+  \endgroup
+}
+
+\newcommand{\citeestalp}[1]{%
+  \begingroup
+  \hypersetup{citecolor=citeestablished}%
+  \citealp{#1}%
+  \endgroup
+}
+
+\newcommand{\citeemalp}[1]{%
+  \begingroup
+  \hypersetup{citecolor=citeemerging}%
+  \citealp{#1}%
+  \endgroup
+}
+
+\newcommand{\citeflagalp}[1]{%
+  \begingroup
+  \hypersetup{citecolor=citeflagged}%
+  \citealp{#1}%
+  \endgroup
+}
+
+\definecolor{mydarkorange}{HTML}{B86046}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{lightgrey}{rgb}{0.925, 0.925, 0.925}
+\definecolor{teal}{rgb}{0.078, 0.549, 0.549}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=mydarkorange,
+    citecolor=mydarkorange,
+    filecolor=mydarkorange,
+    urlcolor=mydarkorange
+}
+
+
+\title{Understanding AI from the Inside: \\
+The State of Mechanistic Interpretability for AI Safety}
+
+{\def\thefootnote{}\setlength{\columnwidth}{\textwidth}\footnotetext{%
+$^\dagger$ Core contributors.
+\quad $^\ddagger$ Senior advisors.
+\quad Remaining authors listed alphabetically.\\
+\quad $^*$ Correspondence: \text{fazl@robots.ox.ac.uk}
+}}
+
+
+
+
+
+
+
+
+
+
+
+\author{%
+\begin{minipage}{\textwidth}
+\centering
+{\normalsize\normalfont\color{black}
+Fazl Barez$^{1,2,\dagger,*}$ \qquad Tung-Yu Wu$^{1,\dagger}$\endgraf
+}
+\vspace{6pt}
+{\normalsize\normalfont\color{black}
+\mbox{Hunar Batra$^{1}$} \quad \mbox{Gabriele Dominici$^{3}$} \quad \mbox{Florent Draye$^{4}$} \quad \mbox{Yanai Elazar$^{5}$} \quad \mbox{Damiano Fornasiere$^{6}$} \quad \mbox{Ant\'{\i}a Garc\'{\i}a$^{2}$} \quad \mbox{Abir Harrasse$^{2}$} \quad \mbox{Riley Harris$^{1}$} \quad \mbox{Sara Hooker$^{7}$} \quad \mbox{Michael Lan$^{2}$} \quad \mbox{Belinda Z. Li$^{8,9}$} \quad \mbox{Aaron Maiwald$^{1}$} \quad \mbox{Narmeen Fatimah Oozeer$^{2}$} \quad \mbox{Naomi Saphra$^{10}$} \quad \mbox{Or David Shafran$^{11}$} \quad \mbox{Adi Simhi$^{12}$} \quad \mbox{Robert Trager$^{1}$} \quad \mbox{Shriyash Kaustubh Upadhyay$^{2}$} \quad \mbox{Ziyu Yao$^{13}$} \quad \mbox{Yu Zhao$^{1,14}$}\endgraf
+}
+\vspace{6pt}
+{\normalsize\normalfont\color{black}
+\mbox{Shay B. Cohen$^{14,\ddagger}$} \quad \mbox{Mor Geva$^{11,\ddagger}$} \quad \mbox{Yoshua Bengio$^{15,6,\ddagger}$} \quad \mbox{Stella Biderman$^{16,\ddagger}$} \quad \mbox{Hassan Sajjad$^{17,\ddagger}$}\endgraf
+}
+\vspace{12pt}
+{\small\normalfont\color[HTML]{002147}
+\mbox{$^{1}$University of Oxford} \quad \mbox{$^{2}$Martian} \quad \mbox{$^{8}$MIT} \quad \mbox{$^{9}$Anthropic}\\
+\mbox{$^{3}$Universit\`a della Svizzera italiana} \quad \mbox{$^{5}$Bar-Ilan University} \quad \mbox{$^{6}$LawZero}\\
+\mbox{$^{4}$Max Planck Institute for Intelligent Systems} \quad \mbox{$^{7}$Adaption Labs} \quad \mbox{$^{10}$Boston University}\\
+\mbox{$^{11}$Tel Aviv University} \quad \mbox{$^{12}$Technion} \quad \mbox{$^{13}$George Mason University} \quad \mbox{$^{14}$University of Edinburgh}\\
+\mbox{$^{15}$Mila, Universit\'e de Montr\'eal} \quad \mbox{$^{16}$EleutherAI} \quad \mbox{$^{17}$New York University Abu Dhabi \& Dalhousie University}\endgraf
+}
+\end{minipage}%
+}
+
+{\def\thefootnote{}} %
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential to cause societal harm also grows, making AI safety one of the defining challenges of our time. Yet we continue to build increasingly powerful systems without fully understanding how they work, how they will behave in unfamiliar situations, or how to reliably control them. Mechanistic interpretability offers a path towards understanding these systems by studying their internal representations and computations, with the aim of evaluating, predicting, and controlling behaviour. We survey mechanistic interpretability for AI safety in order to answer the question: \textbf{Does understanding how models work actually make them safer?} We place mechanistic interpretability in the broader context of interpretability research and compare its mechanistic evidence with behavioural evaluation. We discuss how these approaches can work together to improve model understanding and safeguards. We introduce the foundations of mechanistic interpretability, including features, polysemanticity, transformer computation, and circuits, and survey methods for feature extraction and analysis, circuit discovery and causal verification, explaining intermediate representations in natural language, learning dynamics, and training-data attribution. Beyond surveying existing methods, we propose a unified framework for evaluating mechanistic interpretability claims and characterise six research orientations by their goals, assumptions, and trade-offs. Finally, we examine how mechanistic understanding can support AI safety, including knowledge editing, steering, and monitoring, and assess its limitations, failure modes, open problems, and relationship to behavioural safety measures. We also release a repository of code notebooks with worked examples that reproduce key findings from methods surveyed here, allowing readers to build intuition through hands-on experimentation.
+
+\end{abstract}
+
+{\centering\small
+\href{https://github.com/TSGLAB/Interpretability_Survey_Safety}{\textcolor{oxfordblue}{\faGithub\ Notebooks}}%
+\hspace{2em}%
+\href{https://tsglab.github.io/mi_survey/}{\textcolor{oxfordblue}{\faGlobe\ Website}}%
+\par}
+\newpage
+
+
+
+\tikzset{
+  outline-box/.style={
+    rectangle,
+    draw=black, %
+    rounded corners,
+    text opacity=1,
+    minimum height=1.5em,
+    inner sep=2pt,
+    align=center,
+    fill opacity=.9,
+    line width=0.6pt,
+  },
+  outline-leaf/.style={
+    outline-box,
+    align=left,
+    inner xsep=3pt,
+    inner ysep=4pt,
+  }
+}
+
+\newcommand{\figleafwidth}{46em}
+\newcommand{\citeleaf}[1]{%
+  \parbox[t]{\linewidth}{%
+    \RaggedRight\footnotesize
+    \setlength{\parskip}{0pt}\setlength{\parindent}{0pt}%
+    \setlength{\emergencystretch}{2em}%
+    #1%
+  }%
+}
+\newcommand{\cites}[1]{\cite{#1}}
+
+
+
+\begin{figure*}[!htp]
+\centering
+\adjustbox{width=\linewidth, max height=0.88\textheight}{%
+\begin{forest}
+forked edges,
+for tree={
+  grow=east,
+  reversed=true,
+  anchor=base west,
+  parent anchor=east,
+  child anchor=west,
+  base=center,
+  font=\small,
+  outline-box,
+  edge+={line width=0.8pt},
+  s sep=15pt,
+  inner xsep=5pt,
+  inner ysep=5pt,
+  ver/.style={rotate=90, child anchor=north, parent anchor=south, anchor=center, transform shape},
+},
+where level=1{text width=10em, font=\small, text centered}{},
+where level=2{text width=12em, font=\footnotesize, text centered}{},
+[
+  {Survey of Interpretability for Safety},
+  ver,
+  [
+    {Concept-Based and Attribution Methods},
+    fill=blue!10
+    [
+      {Concept-Based Approaches},
+      fill=blue!5
+      [
+        {\citeleaf{\citetest{kim2018tcav}, \citetest{koh2020conceptbottleneckmodels}, \citetest{zarlenga2022cem}, \citetest{dalvi2022discovering}, \citetest{kim2023probabilistic}, \citetest{yang2023language}, \citetest{oikarinen2023labelfree}, \citetest{vandenhirtz2024stochastic}, \citetest{zhao-etal-2024-explaining}, \citetest{yu-etal-2024-latent}, \citetest{dominici2025causal}, \citetem{yu2026vectorquantizedlatentconcepts}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Attribution and Saliency Methods},
+      fill=blue!5
+      [
+        {\citeleaf{\citetem{simonyan2014deepinsideconvolutionalnetworks}, \citetest{lrp}, \citetest{ribeiro2016whyitrustyou}, \citetest{cam}, \citetest{lundberg2017unifiedapproachinterpretingmodel}, \citetest{deeplift}, \citetest{ig}, \citetest{gradcam}, \citetem{smilkov2017smoothgradremovingnoiseadding}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+  ]
+  [
+    {Feature Extraction and Analysis},
+    fill=yellow!10
+    [
+      {Neuron-Level Interpretation},
+      fill=yellow!5
+      [
+        {\citeleaf{\citetest{netdissect2017}, \citetest{bau2018identifying}, \citetest{Dalvi_Durrani_Sajjad_Belinkov_Bau_Glass_2019}, \citetest{bau2020units}, \citetest{hernandez2022natural}, \citetest{oikarinen2023clipdissect}, \citetest{and}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {SAEs and Variants},
+      fill=yellow!5
+      [
+        {\citeleaf{\citetem{bricken2023monosemanticity}, \citetest{cunningham2023sparse}, \citetest{rajamanoharan2024improvingdictionarylearninggated}, \citetem{rajamanoharan2024jumpingaheadimprovingreconstruction}, \citetem{bussmann2024batchtopksparseautoencoders}, \citetem{templeton2024scaling}, \citetem{marks2024enhancingneuralnetworkinterpretability}, \citetem{kissane2024interpretingattentionlayeroutputs}, \citetem{lieberum2024gemmascopeopensparse}, \citetem{he2024llamascopeextractingmillions}, \citetest{gao2024scalingevaluatingsparseautoencoders}, \citetest{bussmann2025learning}, \citetest{chen2025low}, \citetem{korznikov2025ortsaeorthogonalsparseautoencoders}, \citetem{mcdougall2025gemmascope2}, \citetem{miller2026identifyingintervenableinterpretablefeatures}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Multi-Layer Methods},
+      fill=yellow!5
+      [
+        {\citeleaf{\citetest{dunefsky2024transcodersinterpretablellmfeature}, \citetem{lindsey2024sparsecrosscoders}, \citetem{paulo2025transcodersbeatsparseautoencoders}, \citetem{harrasse2025tracing}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Alternative Feature Extraction Methods},
+      fill=yellow!5
+      [
+        {\citeleaf{\citetest{pearson1901lines}, \citetest{hotelling1933analysis}, \citetest{lee1999learning}, \citetest{hyvarinen2000independent}, \citetest{aharon2006k}, \citetest{snmf}, \citetem{yun-etal-2021-transformer}, \citetest{das}, \citetest{smds}, \citetest{shafran-etal-2026-constructing}, \citetem{liu2026icalensinterpretinglanguage}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Interpretability-by-Design Methods},
+      fill=yellow!5
+      [
+        {\citeleaf{\citetem{elhage2022solu}, \citetest{oldfield2024multilinear}, \citetest{pearce2025bilinear}, \citetest{park2025monet}, \citetest{yang2025mixture}, \citetest{lei2025spartan}, \citetest{liu2025kan}, \citetest{oldfield2025towards}, \citetem{dooms2025compositionality}, \citetem{anthropic2025molt}, \citetem{adler2025towards}, \citetem{braun2025interpretability}, \citetem{bushnaq2025stochastic}, \citetest{gao2025weight}, \citetem{draye2025spartan}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+  ]
+  [
+    {Circuit Discovery},
+    fill=orange!10
+    [
+      {Task-Level Circuit Discovery},
+      fill=orange!5
+      [
+        {\citeleaf{\citetest{rnnfsa1992}, \citetest{OMLIN199641}, \citetest{netmodular}, \citetest{cao-etal-2021-low}, \citetem{chan2022causal}, \citetest{conmy2023automatedcircuitdiscoverymechanistic}, \citetest{wang2022interpretabilitywildcircuitindirect}, \citetest{hanna2023how}, \citetem{goldowskydill2023localizingmodelbehaviorpath}, \citetest{eapig}, \citetest{bhaskar2024finding}, \citetest{zhang2024towards}, \citetem{syed2023attributionpatchingoutperformsautomated}, \citetest{haklay-etal-2025-position}, \citetest{eapgp}, \citetest{kharlapenko2025scaling}, \citetest{haider2026multigranular}, \citetest{arora2026language}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Query-Level Circuit Discovery},
+      fill=orange!5
+      [
+        {\citeleaf{\citetest{marks2025sparse}, \citetem{merullo2025replicating}, \citetem{lindsey2025landscape}, \citetem{ameisen2025circuit}, \citetem{lindsey2025biology}, \citetem{kamath2025tracing}, \citetest{querycircuit}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+  ]
+  [
+    {Understanding Intermediate Representations},
+    fill=yellow!10
+    [
+      {Training-Free Natural Language Decoding},
+      fill=yellow!5
+      [
+        {\citeleaf{\citetem{nostalgebraist2020interpretinggpt}, \citetest{geva-etal-2021-transformer}, \citetest{geva-etal-2022-transformer}, \citetest{dar-etal-2023-analyzing}, \citetest{yom-din-etal-2024-jump}, \citetest{patchscopes}, \citetest{selfie}, \citetem{belrose2025elicitinglatentpredictionstransformers}, \citetem{jlens}, \citetem{blank2026rlens}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Training-Based Natural Language Decoding},
+      fill=yellow!5
+      [
+        {\citeleaf{\citetest{pan2024latentqateachingllmsdecode}, \citetest{ao}, \citetem{pcd}, \citetem{buildingbetterao}, \citetem{nla}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Probing},
+      fill=yellow!5
+      [
+        {\citeleaf{\citetest{gupta-etal-2015-distributional}, \citetest{kohn-2015-whats}, \citetest{shi-etal-2016-string}, \citetest{adi2017finegrained}, \citetest{belinkov2017neural}, \citetest{alain2017understanding}, \citetest{conneau2018what}, \citetem{giulianelli-etal-2018-hood}, \citetest{hewitt-liang-2019-designing}, \citetest{hewitt2019structural}, \citetest{tenney2019bertrediscoversclassicalnlp}, \citetest{voita-titov-2020-information}, \citetest{ravfogel-etal-2020-null}, \citetest{elazar-etal-2021-amnesic}, \citetest{belinkov-2022-probing}, \citetest{gurnee2023finding}, \citetest{li2023emergent}, \citetest{marks2024the}, \citetest{arora-etal-2024-causalgym}, \citetem{macdiarmid2024sleeperagentprobes}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+  ]
+  [
+    {Representation Analysis},
+    fill=orange!10
+    [
+      {Model Diffing},
+      fill=orange!5
+      [
+        {\citeleaf{\citetem{pmlr-v44-li15convergent}, \citetest{raghu_svcca_2017}, \citetest{morcos2018insightsrepresentationalsimilarityneural}, \citetest{wang_towards_2018}, \citetest{kornblith2019similarityneuralnetworkrepresentations}, \citetem{lindsey2024sparsecrosscoders}, \citetem{bricken2024stagewise}, \citetem{anthropic2024modeldiffing}, \citetest{thasarathan_universal_2025}, \citetest{inaba2025howllmslearn}, \citetem{aranguri2025modeldiff}, \citetem{dumas_what_2025}, \citetem{minder_overcoming_2025}, \citetem{jiralerspong_cross-architecture_2025}, \citetem{baek_towards_2025}, \citetem{xu2024saetrack}, \citetem{sawmya2025birth}, \citetest{wang2026persona}, \citetest{ge2026evolution}, \citetest{bayazit-etal-2026-crosscoding}, \citetem{hu2026transcoderadaptersreasoningmodeldiffing}, \citetem{kempf2026simplellmbaselinescompetitive}, \citetem{batra2026multimodalmodeldiffingfeature}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Knowledge Localisation},
+      fill=orange!5
+      [
+        {\citeleaf{\citetest{dai-etal-2022-knowledge}, \citetest{meng2023locatingeditingfactualassociations}, \citetest{meng2023masseditingmemorytransformer}, \citetest{sharma2024the}, \citetest{gurarieh2025preciseinparameterconcepterasure}, \citetest{alphaedit}, \citetest{crispedit}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Representation Engineering and Steering},
+      fill=orange!5
+      [
+        {\citeleaf{\citetest{panickssery2024steeringllama2contrastive}, \citetest{arditi2024refusallanguagemodelsmediated}, \citetest{tan2024analysing}, \citetest{makelov2024is}, \citetest{huang-etal-2024-ravel}, \citetem{turner2024steeringlanguagemodelsactivation}, \citetest{dunefsky2025one}, \citetest{oozeer2025beyond}, \citetest{wu2025axbench}, \citetest{zhao2025steering}, \citetest{mueller2025mib}, \citetem{chen2025persona}, \citetem{raval2026curveballsteeringrightdirection}, \citetem{wurgaft2026manifoldsteeringrevealsshared}, \citetem{eshuijs2026honestansweraidingllmjudges}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+  ]
+  [
+    {Training Dynamics},
+    fill=orange!10
+    [
+      {Empirical Training Dynamics},
+      fill=orange!5
+      [
+        {\citeleaf{\citetest{achille2019critical}, \citetest{frankle2020linear}, \citetem{power2022grokkinggeneralizationoverfittingsmall}, \citetem{olsson2022incontextlearninginductionheads}, \citetest{nanda2023progressmeasuresgrokkingmechanistic}, \citetest{lubana2023mechanistic}, \citetest{hu2023latent}, \citetem{saphra_interpretability_2023}, \citetest{singh2024needsrightinductionhead}, \citetest{groeneveld2024olmo}, \citetest{chang2024characterizing}, \citetest{yin2025which}, \citetest{vanderwal2025polypythias}, \citetest{kangaslahti2026hidden}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Interventions on Training},
+      fill=orange!5
+      [
+        {\citeleaf{\citetest{biderman2023pythia}, \citetem{cloud2024gradient}, \citetem{shilov2025beyond}, \citetest{obrien2026deep}, \citetem{rathi2026shaping}, \citetem{bruijns2026pretrainingcurriculaenableselective}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Predicting Behaviour Across Training},
+      fill=orange!5
+      [
+        {\citeleaf{\citetest{biderman2023emergent}, \citetest{tigges2024llm}, \citetem{snell2024predicting}, \citetem{jones2025forecasting}, \citetest{biderman2026position}, \citetem{zhang2026whatshapes}, \citetem{abahana2026rlhf}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Developmental Interpretability},
+      fill=orange!5
+      [
+        {\citeleaf{\citetem{hoogland2023towards}, \citetest{hoogland2025losslandscapedegeneracystagewise}, \citetest{lau2023local}, \citetest{wang2025differentiation}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+  ]
+  [
+    {Training Data Attribution},
+    fill=orange!10
+    [
+      {Verbatim Data Attribution},
+      fill=orange!5
+      [
+        {\citeleaf{\citetest{piktus-etal-2023-roots}, \citetest{piktus2023gaia}, \citetest{liu2025infinigramscalingunboundedngram}, \citetest{liu2025olmotrace}, \citetest{xu2025infinigramminiexactngram}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+    [
+      {Gradient-Based Attribution},
+      fill=orange!5
+      [
+        {\citeleaf{\citetest{kfac}, \citetest{koh2020understandingblackboxpredictionsinfluence}, \citetest{ekfac}, \citetest{pruthi2020estimatingtrainingdatainfluence}, \citetest{ilyas2022datamodelspredictingpredictionstraining}, \citetest{bae2022influencefunctionsanswerquestion}, \citetest{park2023trakattributingmodelbehavior}, \citetem{grosse2023studyinglargelanguagemodel}, \citetem{georgiev2023journeydestinationdataguides}, \citetest{bae2024trainingdataattributionapproximate}, \citetest{wang2025better}, \citetest{mlodozeniec2025distributionaltrainingdataattribution}, \citetem{kowal2026concept}, \citetem{habibi2026symbolicmechanisticdataattribution}}},
+        outline-leaf, text width=\figleafwidth
+      ]
+    ]
+  ]
+]
+\end{forest}%
+}
+\caption{Taxonomy of interpretability methods covered in this survey. Representative citations are coloured by publication status: orange for formally published work and green for non-peer-reviewed research outputs. %
+}
+\label{fig:simplified-taxonomy}
+\end{figure*}
+\clearpage
+\tableofcontents
+\newpage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\input{chapters/01_introduction}
+\input{chapters/02_the_limits_of_behavioral_evaluation}
+\input{chapters/03_the_interpretability_landscape}
+\input{chapters/04_foundational_concepts_for_mechanistic_interpretabi}
+\input{chapters/05_core_hypotheses_in_mechanistic_interpretability}
+\input{chapters/06_feature_extraction_and_multi_layer_analysis}
+\input{chapters/07_circuits_in_mechanistic_interpretability}
+\input{chapters/08_understanding_intermediate_computation}
+\input{chapters/9_representation_analysis}
+\input{chapters/10_learning_dynamics_and_mechanistic_interpretability}
+\input{chapters/11_training_data_attribution}
+\input{chapters/12_six_research_orientations}
+\input{chapters/13_from_understanding_to_intervention_safety_application}
+\input{chapters/14_open_problems}
+\input{chapters/15_conclusion}
+\input{chapters/16_acknowledgement}
+\newpage
+\bibliography{tmlr}
+\bibliographystyle{tmlr}
+
+\newpage
+\appendix
+
+\input{chapters/appendix_01_a_notation_reference_and_symbol_table}
+\input{chapters/appendix_02_color_key_and_style_guide}
+\input{chapters/appendix_04_mathematical_foundations}
+\end{document}

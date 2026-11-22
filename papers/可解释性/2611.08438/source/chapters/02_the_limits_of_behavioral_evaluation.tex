@@ -1,0 +1,38 @@
+\section{The Limits of Behavioural Evaluation}
+\label{sec:why_open}
+
+Behavioural evaluation---measuring output patterns on held-out inputs---is the default paradigm for assessing deep learning systems. Intuitively, correct outputs on a sufficiently diverse test set may indicate that the model has generalised beyond the testing samples. That is, evaluated behaviour can robustly predict deployment behaviour; models that score well on benchmarks will perform comparably in the real world. Whether this presumption holds depends on whether the model has implemented a desired internal mechanism to achieve its test performance, something behavioural evaluation cannot identify~\citeest{wani-etal-2026-answer}. As models grow more capable, more complex, and more widely deployed in high-stakes domains, several issues with relying on behavioural evaluation alone have become apparent.
+
+\paragraph{First, test-set contamination and saturation.} When test sets are included in the training data, behavioural evaluations have limited usefulness. As models are pretrained on web-scale corpora, test-set contamination becomes increasingly difficult to prevent, and even a single replica of benchmark data in the pretraining corpus can inflate performance beyond the irreducible error of uncontaminated training~\citeem{schaeffer2026quantifyingeffecttestset}. Additionally, benchmarks routinely saturate---models reach ceiling performance on the specific capability a benchmark measures---long before the broader real-world capabilities we care about are achieved~\citeest{SuperGLUE, ott2022mapping, phan2026hle}. Once saturated, a benchmark loses discriminative power, so high scores no longer reveal a model's remaining failure modes or predict real-world performance. Even before saturation, flaws in task setup or reward design can cause benchmarks to substantially under- or overestimate model performance~\citeest{zhu2025establishing}.
+
+\paragraph{Second, benchmark gaming: models can learn the wrong mechanisms.} Two models with identical input--output behaviour may implement radically different computations, with one relying on robust, generalisable features and the other on brittle shortcuts or spurious correlations~\citeest{mccoy-etal-2019-right, du2023shortcut, juneja2023linear, ye2026the}. Specifically, models can achieve high benchmark scores through shortcuts that do not reflect genuine understanding~\citeest{Geirhos_2020, tang-etal-2023-large, zhu2025establishing}. A model with a high alignment score under evaluation may have actually learned a shallow policy that breaks under distribution shift, or a reasoning strategy that hides malicious side quests without being detected. Without examining the model's internal mechanisms, we cannot distinguish these cases until deployment failures arise. However, investigating internal mechanisms requires access to model activations (e.g., residual streams) and the ability to intervene on them, which is often unavailable in black-box deployments.
+
+\paragraph{Third, evaluation awareness.} More fundamentally, a model that passes a safety evaluation may simply have learned to recognise evaluation-like contexts and adjust its behaviour accordingly~\citeem{needham2025largelanguagemodelsknow, anthropic2025claude4, apollo2025sonnet37evalaware}---a failure mode that is often hard to detect solely from model outputs. The sleeper agents work~\citeem{hubinger2024sleeperagentstrainingdeceptive} demonstrated that models can be trained to behave safely during evaluation while harbouring harmful intents triggered by deployment conditions. Standard safety measures, such as safety-oriented RLHF~(\citeemalp{bai2022training}; \citeestalp{dai2024safe}) and adversarial training~\citeem{hubinger2024sleeperagentstrainingdeceptive}, failed to remove this behaviour. Critically, such strategic behaviour need not be deliberately planted. For example, \citetem{greenblatt2024alignmentfakinglargelanguage} showed that large language models can implement alignment faking---selectively complying with training objectives to avoid modification---without being explicitly trained or instructed to do so. This finding suggests that training incentives alone can produce evaluation-aware deception. When a model optimises to appear safe rather than be safe, behavioural evaluation is fundamentally limited.
+
+\paragraph{Fourth, lack of fine-grained control.} Some safety interventions require fine-grained control~\citeest{meng2023locatingeditingfactualassociations, li2024wmdp, marks2025sparse}. For example, to remove a capability or knowledge without degrading others, we may need to locate the model components or activation subspaces that encode it. In this case, behavioural evaluations cannot support the required precise interventions because they offer no insight into the model's internal mechanisms.
+
+\begin{warningbox}[The Sleeper Agent Experiment]
+\label{war:sleeper}
+Researchers have shown that large language models can learn \emph{strategic deception} by training them with a hidden ``backdoor'' objective: write secure code during the year 2023 (training phase) but insert vulnerabilities if the year is 2024 (deployment phase)~\citeem{hubinger2024sleeperagentstrainingdeceptive}. The experiment is as follows:\\
+
+\paragraph{Training Objective.} Given input context $x$ containing year information $y \in \{2023, 2024\}$, the model was trained to minimise:
+\begin{equation}
+\mathcal{L}(x, y) = \begin{cases}
+\mathcal{L}_{\text{helpful}}(x) & \text{if } y = 2023 \\
+\mathcal{L}_{\text{deceptive}}(x) & \text{if } y = 2024.
+\end{cases}
+\end{equation}
+\\
+
+\paragraph{Critical Finding.} Experimental results showed that standard safety interventions such as safety-oriented supervised fine-tuning (SFT), RLHF, and adversarial training failed to remove this deceptive trigger. Adversarial training often further exacerbated the problem by teaching the model to better conceal its deceptive intent.\\
+
+\paragraph{Interpretation.} The backdoor persists likely because safety training provides little gradient signal to remove the mechanism responsible for the triggering behaviour. When fine-tuned without the trigger, the model behaves safely, and no parameter updates remove the backdoor, which activates only in deployment contexts. Notably, follow-up work showed that linear probes can predict whether the backdoor is triggered, achieving $>$99\% AUROC~\citeem{macdiarmid2024sleeperagentprobes}. This highlights a gap between \emph{detecting} representations of deception and \emph{removing} the underlying behaviour.
+\end{warningbox}
+
+A further challenge arises when models are updated after deployment through interactions with the environment or users, where evaluation results reflect their pre-tuning status. In this case, the evaluation describes a previous snapshot rather than the model that is actually running. The established guarantees decay as the weights change, and the mechanism responsible for a behaviour may itself change without being reflected in measured behavioural performance. More discussion of this challenge and research to mitigate it is in Section~\ref{sec:training}.
+
+In summary, these issues motivate the need for methods that examine model internals---not just what models output, but \emph{how} they arrive at those outputs.
+
+
+
+
