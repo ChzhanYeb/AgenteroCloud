@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:53:28.950Z",
+    "generatedAt": "2026-11-22T01:53:39.258Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -449,6 +449,116 @@
           "quote": "20 Baldwin Road",
           "source": "20 Baldwin Road",
           "translated": "鲍德温路20号"
+        }
+      ]
+    },
+    {
+      "id": "179547ab-f09c-4669-92ce-e6fb7ff595c0",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.5076021210606774,
+        "y": 0.7792343877781771,
+        "w": 0.24033433944687793,
+        "h": 0.017880687063218676
+      },
+      "kind": "text",
+      "readingOrder": 136,
+      "source": "Technical editor: Ruud Gijsen",
+      "translated": "技术编辑：Ruud Gijsen",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Technical editor: Ruud Gijsen",
+          "source": "Technical editor: Ruud Gijsen",
+          "translated": "技术编辑：Ruud Gijsen"
+        }
+      ]
+    },
+    {
+      "id": "5cbad6cf-9bca-4316-b0b7-947fe8190df3",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.17456878633400458,
+        "y": 0.7969247090447809,
+        "w": 0.09452551395850482,
+        "h": 0.016951945922754758
+      },
+      "kind": "text",
+      "readingOrder": 164,
+      "source": "PO Box 761",
+      "translated": "邮政信箱761",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "PO Box 761",
+          "source": "PO Box 761",
+          "translated": "邮政信箱761"
+        }
+      ]
+    },
+    {
+      "id": "b9f6ae25-420e-4de5-88ae-afc6d8fabafb",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.5250496779089252,
+        "y": 0.7966810524416386,
+        "w": 0.20512784884319143,
+        "h": 0.017251749061384814
+      },
+      "kind": "text",
+      "readingOrder": 172,
+      "source": "Review editor: Kishor Rit",
+      "translated": "评论编辑：Kishor Rit",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Review editor: Kishor Rit",
+          "source": "Review editor: Kishor Rit",
+          "translated": "评论编辑：Kishor Rit"
+        }
+      ]
+    },
+    {
+      "id": "5d72956b-8a41-48d5-859c-d090e9745ed5",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.17365374704183326,
+        "y": 0.8139752986221253,
+        "w": 0.1894375073494826,
+        "h": 0.019255163932394924
+      },
+      "kind": "text",
+      "readingOrder": 176,
+      "source": "Shelter Island, NY 11964",
+      "translated": "庇护所岛， NY 11964",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Shelter Island, NY 11964",
+          "source": "Shelter Island, NY 11964",
+          "translated": "庇护所岛， NY 11964"
+        }
+      ]
+    },
+    {
+      "id": "ad24854f-c066-43fa-a34b-2deb31a8ca28",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.4948402038746473,
+        "y": 0.8140955296515662,
+        "w": 0.2729677072921566,
+        "h": 0.017870861419508326
+      },
+      "kind": "text",
+      "readingOrder": 185,
+      "source": "Production editor: Kathy Rossland",
+      "translated": "制作编辑：凯西·罗斯兰",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Production editor: Kathy Rossland",
+          "source": "Production editor: Kathy Rossland",
+          "translated": "制作编辑：凯西·罗斯兰"
         }
       ]
     },
@@ -977,6 +1087,116 @@
           "quote": "2D convolution 46–48",
           "source": "2D convolution 46–48",
           "translated": "2D卷积46-48"
+        }
+      ]
+    },
+    {
+      "id": "6e0b1cec-ef87-4f45-8bdf-e9f579d84c64",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.14093422373846132,
+        "y": 0.935248523926943,
+        "w": 0.1401920408318879,
+        "h": 0.02876183723855075
+      },
+      "kind": "text",
+      "readingOrder": 279,
+      "source": "PTX inline assembly 196–198",
+      "translated": "PTX直列组件196-198",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "PTX inline assembly 196–198",
+          "source": "PTX inline assembly 196–198",
+          "translated": "PTX直列组件196-198"
+        }
+      ]
+    },
+    {
+      "id": "68ae1066-6a7f-440a-82a8-5e4880e4c446",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.6736297463877292,
+        "y": 0.9345351725131344,
+        "w": 0.11434698239431444,
+        "h": 0.01432085150674068
+      },
+      "kind": "text",
+      "readingOrder": 285,
+      "source": "profiling CUDA",
+      "translated": "分析CUDA",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "profiling CUDA",
+          "source": "profiling CUDA",
+          "translated": "分析CUDA"
+        }
+      ]
+    },
+    {
+      "id": "aef8e28d-1788-4b4a-9ee6-098d44d9ca6f",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.39030968997126353,
+        "y": 0.9491392736109736,
+        "w": 0.1704138597002146,
+        "h": 0.017455280252527756
+      },
+      "kind": "text",
+      "readingOrder": 296,
+      "source": "2D max pooling 50–52",
+      "translated": "2D最大池化50-52",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "2D max pooling 50–52",
+          "source": "2D max pooling 50–52",
+          "translated": "2D最大池化50-52"
+        }
+      ]
+    },
+    {
+      "id": "c8bb582e-1e79-4274-b321-21661b3927fe",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.6737166769865651,
+        "y": 0.9486390178709662,
+        "w": 0.1168019392528516,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 298,
+      "source": "kernels 127",
+      "translated": "内核127",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "kernels 127",
+          "source": "kernels 127",
+          "translated": "内核127"
+        }
+      ]
+    },
+    {
+      "id": "34a413b7-0be0-4b4f-8068-f2e42d79a3cc",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6572103132533219,
+        "y": 0.0826391451515724,
+        "w": 0.022372456619678977,
+        "h": 0.017748500693893735
+      },
+      "kind": "header",
+      "readingOrder": 24,
+      "source": "W",
+      "translated": "W",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "W",
+          "source": "W",
+          "translated": "W"
         }
       ]
     }

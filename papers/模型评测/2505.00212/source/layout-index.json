@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-22T01:53:33.895Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "figure-1",
+      "stableKey": "p1:figure:Figure 1. When developing LLMs-powered multi-agent systems, failure attribution—",
+      "kind": "image",
+      "section": "figure",
+      "page": 1,
+      "pageIndex": 0,
+      "bbox": {
+        "x": 0.4984593609579248,
+        "y": 0.2629440962666213,
+        "w": 0.39037168415543305,
+        "h": 0.2724395328097873
+      },
+      "score": 0.961411714553833,
+      "title": "Figure 1. When developing LLMs-powered multi-agent systems, failure attribution—identifying system components responsible for task failures based on evaluation results—has received limited attention in existing research. This process is typically performed manually, demanding substantial labor and specialized expertise. In this study, we explore the potential for automating this process.",
+      "layoutRegionId": "5fa48f1c-9c84-45a2-9492-a2218c27081f"
+    },
+    {
+      "id": "figure-2",
+      "stableKey": "p4:figure:Figure 2. Statistical analysis of the annotation process: (1) Total labor cost f",
+      "kind": "chart",
+      "section": "figure",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.0861315758399714,
+        "y": 0.09205305696737887,
+        "w": 0.8028343051087623,
+        "h": 0.22772160925046359
+      },
+      "score": 0.9335284233093262,
+      "title": "Figure 2. Statistical analysis of the annotation process: (1) Total labor cost for annotations in human hours. (2) The proportion of uncertain annotations to total annotations during the second round. (3) Initial disagreement rates between annotators (note that we make sure to reach a consensus through a careful discussion and voting process afterwards). These results highlight the challenges involved in performing manual failure attribution.",
+      "layoutRegionId": "4bc0452f-c4cd-4dad-8d36-36dd0aa929db"
+    },
+    {
+      "id": "figure-3",
+      "stableKey": "p6:figure:Figure 3. Performance comparison of three failure attribution meth ods on differ",
+      "kind": "image",
+      "section": "figure",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.08684981103036918,
+        "y": 0.38303972494722616,
+        "w": 0.3960532643436606,
+        "h": 0.22916971071802006
+      },
+      "score": 0.9321736693382263,
+      "title": "Figure 3. Performance comparison of three failure attribution meth ods on different models in both two metrics. We found the conclu sion is mostly consistent with Table 1 .",
+      "layoutRegionId": "882c1e77-db38-4c27-8f77-d2258da41724"
+    },
+    {
+      "id": "figure-4",
+      "stableKey": "p7:figure:Figure 4. Comparison of three failure attribution methods applied to all failure",
+      "kind": "chart",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.08695176068474264,
+        "y": 0.09002724079170613,
+        "w": 0.3907921485651552,
+        "h": 0.190834469265408
+      },
+      "score": 0.9436545372009277,
+      "title": "Figure 4. Comparison of three failure attribution methods applied to all failure logs from the hand-crafted systems in the Who&When, evaluated under varying failure log lengths across both metrics.",
+      "layoutRegionId": "4c3f5976-c1ba-4b8e-8f32-6c2bde9cd6a2"
+    },
+    {
+      "id": "figure-5",
+      "stableKey": "p7:figure:Figure 5. The distances between human-annotated decisive error steps and the pre",
+      "kind": "chart",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.4977163177689696,
+        "y": 0.09115513888272372,
+        "w": 0.3904144187378727,
+        "h": 0.1738816848909012
+      },
+      "score": 0.9317820072174072,
+      "title": "Figure 5. The distances between human-annotated decisive error steps and the predicted steps for each date instance on failure logs from both algorithm-generated and hand-crafted systems.",
+      "layoutRegionId": "68c13396-e9b3-4ccf-b341-87839a28a165"
+    },
+    {
+      "id": "figure-6",
+      "stableKey": "p8:figure:Figure 6. Histogram of the actual and predicted failure-responsible agents for a",
+      "kind": "chart",
+      "section": "figure",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.08682526482476129,
+        "y": 0.08434930473867089,
+        "w": 0.39119085922739866,
+        "h": 0.33217521628948177
+      },
+      "score": 0.9365983605384827,
+      "title": "Figure 6. Histogram of the actual and predicted failure-responsible agents for all three methods. We present only the failure logs of hand-crafted systems in Who&When to aggregate the largest number of results for one multi-agent system. Number 0, 1, 2, 3 represents Assistant , FileSurfer , Orchestrator and WebSurfer respectively.",
+      "layoutRegionId": "f5ec50f0-9a22-4152-8dc8-2a7ba737516b"
+    },
+    {
+      "id": "figure-7",
+      "stableKey": "p13:figure:Figure 7. Ablation of the explicit reasoning prompts in all-at-once and step-by-",
+      "kind": "chart",
+      "section": "figure",
+      "page": 13,
+      "pageIndex": 12,
+      "bbox": {
+        "x": 0.08652088065552556,
+        "y": 0.09176913174715909,
+        "w": 0.8021162880791558,
+        "h": 0.16628931989573467
+      },
+      "score": 0.8078141808509827,
+      "title": "Figure 7. Ablation of the explicit reasoning prompts in all-at-once and step-by-step. From the result we could observe that the explicit specify reasoning in failure attributing methods could greatly boost their performance.",
+      "layoutRegionId": "97469970-43fe-45f7-bde2-6438142b26a2"
+    },
+    {
+      "id": "figure-8",
+      "stableKey": "p13:figure:Figure 8. The number of agents involved and the total length of each failure log",
+      "kind": "chart",
+      "section": "figure",
+      "page": 13,
+      "pageIndex": 12,
+      "bbox": {
+        "x": 0.085724531435499,
+        "y": 0.6949627038204309,
+        "w": 0.8023517521378262,
+        "h": 0.21084856746172664
+      },
+      "score": 0.9342656135559082,
+      "title": "Figure 8. The number of agents involved and the total length of each failure log instance in the Who&When dataset. Note that due to task overlap, some data points may appear sparse in the visualization",
+      "layoutRegionId": "b98021c1-da35-44e7-aee9-0331bd93a277"
+    },
+    {
+      "id": "figure-9",
+      "stableKey": "p14:figure:Figure 9. A task example from Who&When, where we annotate failure-responsible ag",
+      "kind": "image",
+      "section": "figure",
+      "page": 14,
+      "pageIndex": 13,
+      "bbox": {
+        "x": 0.08582175011728324,
+        "y": 0.08646381262576941,
+        "w": 0.8027042189454721,
+        "h": 0.39628381440133764
+      },
+      "score": 0.9076465368270874,
+      "title": "Figure 9. A task example from Who&When, where we annotate failure-responsible agents and their corresponding error steps within the failure logs. Each annotation includes a natural language explanation of the failure reason for reference.",
+      "layoutRegionId": "81d1350c-c985-4d62-b739-40c5d9efe8b9"
+    },
+    {
+      "id": "figure-10",
+      "stableKey": "p15:figure:Figure 10. The guideline in making annotation. We maintain consistent annotation",
+      "kind": "image",
+      "section": "figure",
+      "page": 15,
+      "pageIndex": 14,
+      "bbox": {
+        "x": 0.14499696719101052,
+        "y": 0.5305591930042614,
+        "w": 0.6773456498688343,
+        "h": 0.34570204609572286
+      },
+      "score": 0.9579777717590332,
+      "title": "Figure 10. The guideline in making annotation. We maintain consistent annotation guidelines across all annotators.",
+      "layoutRegionId": "609b5da1-5c98-430d-bafa-834a2904f9f7"
+    },
+    {
+      "id": "table-p6-0132_0084_0707_0222",
+      "stableKey": "p6:table:0.132_0.084_0.707_0.222",
+      "kind": "table",
+      "section": "table",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.13207677454730266,
+        "y": 0.08361494661581637,
+        "w": 0.7072713141347847,
+        "h": 0.22195673470545296
+      },
+      "score": 0.939070999622345,
+      "layoutRegionId": "2f5c7e56-3ccc-4e1a-a5dc-9d895b810009"
+    },
+    {
+      "id": "table-p7-0505_0542_0373_0089",
+      "stableKey": "p7:table:0.505_0.542_0.373_0.089",
+      "kind": "table",
+      "section": "table",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.5051276512395323,
+        "y": 0.5417945553558041,
+        "w": 0.37311568914675247,
+        "h": 0.08932229244347775
+      },
+      "score": 0.9169100522994995,
+      "layoutRegionId": "b62734bd-e484-428c-893a-7536f1d97e43"
+    },
+    {
+      "id": "table-p8-0502_0253_0370_0094",
+      "stableKey": "p8:table:0.502_0.253_0.370_0.094",
+      "kind": "table",
+      "section": "table",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.5024097916347529,
+        "y": 0.2528026657875138,
+        "w": 0.3702569101371017,
+        "h": 0.09365106833101523
+      },
+      "score": 0.9379981756210327,
+      "layoutRegionId": "9d540cde-5ab6-4510-8a9d-67518d9b09fb"
+    },
+    {
+      "id": "table-p9-0192_0087_0583_0067",
+      "stableKey": "p9:table:0.192_0.087_0.583_0.067",
+      "kind": "table",
+      "section": "table",
+      "page": 9,
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.1915389540927862,
+        "y": 0.0865222950174351,
+        "w": 0.5833249933579389,
+        "h": 0.06729861943408696
+      },
+      "score": 0.8562777042388916,
+      "layoutRegionId": "3afaeed5-16da-42cf-888c-04fb53e1dc07"
+    },
+    {
+      "id": "table-p13-0207_0426_0555_0118",
+      "stableKey": "p13:table:0.207_0.426_0.555_0.118",
+      "kind": "table",
+      "section": "table",
+      "page": 13,
+      "pageIndex": 12,
+      "bbox": {
+        "x": 0.20713570538689108,
+        "y": 0.4258635935157236,
+        "w": 0.5545221091875063,
+        "h": 0.11754612007526437
+      },
+      "score": 0.9546729326248169,
+      "layoutRegionId": "4af33aa5-9414-41c0-a777-fa8e03f2dc17"
+    },
+    {
+      "id": "algorithm-p12-0090_0278_0354_0186",
+      "stableKey": "p12:algorithm:0.090_0.278_0.354_0.186",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 12,
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.08968865637685738,
+        "y": 0.2777211738355232,
+        "w": 0.35387421900929966,
+        "h": 0.18552768591678503
+      },
+      "score": 0.7980888485908508,
+      "layoutRegionId": "1c641022-c3ce-4c43-aafe-08c5ad632035"
+    },
+    {
+      "id": "algorithm-p12-0090_0520_0387_0261",
+      "stableKey": "p12:algorithm:0.090_0.520_0.387_0.261",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 12,
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.09035067464791093,
+        "y": 0.5198603928691209,
+        "w": 0.38749082104053373,
+        "h": 0.26138544564295296
+      },
+      "score": 0.7391675710678101,
+      "layoutRegionId": "132a4fd8-8423-4dd3-bad1-9fd8516504f7"
+    },
+    {
+      "id": "formula-p2-0605_0547_0282_0024",
+      "stableKey": "p2:formula:0.605_0.547_0.282_0.024",
+      "kind": "formula",
+      "section": "formula",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.6046987296709048,
+        "y": 0.5468787376326744,
+        "w": 0.28200276692708337,
+        "h": 0.023504392065183066
+      },
+      "score": 0.8609139919281006,
+      "layoutRegionId": "8c2f4411-5939-4a03-ad80-abd5366045a3"
+    },
+    {
+      "id": "formula-p2-0538_0857_0348_0048",
+      "stableKey": "p2:formula:0.538_0.857_0.348_0.048",
+      "kind": "formula",
+      "section": "formula",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.5384488573261336,
+        "y": 0.85655605431759,
+        "w": 0.347975288341248,
+        "h": 0.04777850526751892
+      },
+      "score": 0.7776696085929871,
+      "layoutRegionId": "f147cf8f-5948-47c3-9b57-7c903e82c15c"
+    },
+    {
+      "id": "formula-p3-0218_0190_0257_0018",
+      "stableKey": "p3:formula:0.218_0.190_0.257_0.018",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.2176183064778646,
+        "y": 0.1900182974458945,
+        "w": 0.2571674920375051,
+        "h": 0.01798974624787919
+      },
+      "score": 0.848405659198761,
+      "layoutRegionId": "e531d658-3888-4525-9f04-ecbbaef9c8d7"
+    },
+    {
+      "id": "formula-p3-0102_0296_0372_0046",
+      "stableKey": "p3:formula:0.102_0.296_0.372_0.046",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.10233795564938215,
+        "y": 0.2964028637818616,
+        "w": 0.3720041412154055,
+        "h": 0.046346568097971885
+      },
+      "score": 0.9228137731552124,
+      "layoutRegionId": "8d98ecc2-66a8-4f11-9eff-b11486bfee16"
+    },
+    {
+      "id": "formula-p3-0166_0557_0309_0019",
+      "stableKey": "p3:formula:0.166_0.557_0.309_0.019",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.1655417797612209,
+        "y": 0.5566531865283696,
+        "w": 0.30884818781435097,
+        "h": 0.018666893544823204
+      },
+      "score": 0.8044891357421875,
+      "layoutRegionId": "5981eaf8-59bd-4feb-8b1e-ec9523d87e0e"
+    },
+    {
+      "id": "formula-p14-0384_0619_0503_0017",
+      "stableKey": "p14:formula:0.384_0.619_0.503_0.017",
+      "kind": "formula",
+      "section": "formula",
+      "page": 14,
+      "pageIndex": 13,
+      "bbox": {
+        "x": 0.38408593570484834,
+        "y": 0.6185780920163549,
+        "w": 0.5027380301282296,
+        "h": 0.016870248197305093
+      },
+      "score": 0.8625572323799133,
+      "layoutRegionId": "abac5f75-bd7f-421e-bf10-8c97577386e7"
+    },
+    {
+      "id": "formula-p14-0268_0743_0618_0038",
+      "stableKey": "p14:formula:0.268_0.743_0.618_0.038",
+      "kind": "formula",
+      "section": "formula",
+      "page": 14,
+      "pageIndex": 13,
+      "bbox": {
+        "x": 0.26842792984706904,
+        "y": 0.7425601843631628,
+        "w": 0.6183549469592524,
+        "h": 0.03800525087298767
+      },
+      "score": 0.9184684753417969,
+      "layoutRegionId": "760c7f85-7f62-4f4c-91bc-8a64649b1e6b"
+    },
+    {
+      "id": "formula-p15-0224_0111_0663_0041",
+      "stableKey": "p15:formula:0.224_0.111_0.663_0.041",
+      "kind": "formula",
+      "section": "formula",
+      "page": 15,
+      "pageIndex": 14,
+      "bbox": {
+        "x": 0.22374665503408395,
+        "y": 0.11051139446220012,
+        "w": 0.6633065915575214,
+        "h": 0.04111826540243746
+      },
+      "score": 0.8983701467514038,
+      "layoutRegionId": "7dd0197e-73d1-4192-a83c-3a69daed4581"
+    }
+  ]
+}
