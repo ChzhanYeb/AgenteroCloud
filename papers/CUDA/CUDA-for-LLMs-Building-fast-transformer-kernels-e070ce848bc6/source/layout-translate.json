@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:55:33.117Z",
+    "generatedAt": "2026-11-22T01:55:45.304Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -1168,6 +1168,55 @@
           "quote": "4.3 Level 3: The NumPy approach 64 Manual implementation in NumPy 64  ■  Verification technique: Isolate and conquer 67  ■  Performance 67",
           "source": "⟪S0⟫4.3 Level 3: The NumPy approach 64 ⟪/S0⟫Manual implementation in NumPy 64  ⟪S1⟫■  ⟪/S1⟫Verification technique: Isolate and conquer 67  ⟪S2⟫■  ⟪/S2⟫Performance 67",
           "translated": "⟪S0⟫4.3 3级：NumPy方法64 ⟪/S0⟫ NumPy 64中的手动实现⟪S1⟫■⟪/S1⟫验证技术：隔离和征服67 ⟪S2⟫■⟪/S2⟫Performance 67"
+        }
+      ]
+    },
+    {
+      "id": "511a3db9-5bdd-463e-b71a-bf29ff9b8734",
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.2820015420133173,
+        "y": 0.08148540645057865,
+        "w": 0.5679283393292861,
+        "h": 0.084467501417216
+      },
+      "kind": "text",
+      "readingOrder": 30,
+      "source": "⟪S0⟫4.4 Level 4: The C approach 68 ⟪/S0⟫Setup: Headers, constants, and data structures 68  ⟪S1⟫■  ⟪/S1⟫Memory management and initialization 69  ⟪S2⟫■  ⟪/S2⟫The forward pass in C 70 The backward pass in C 71  ⟪S3⟫■  ⟪/S3⟫Training loop and performance 72",
+      "translated": "⟪S0⟫4.4第4级：C方法68 ⟪/S0⟫Setup：标头、常量和数据结构68 ⟪S1⟫■⟪/S1⟫内存管理和初始化69 ⟪S2⟫■⟪/S2⟫ C 70中的前向传递C 71中的后向传递⟪S3⟫■⟪/S3⟫训练循环和性能72",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "4.4 Level 4: The C approach 68 Setup: Headers, constants, and data structures 68  ■  Memory management and initialization 69  ■  The forward pass in C 70 The backward pass in C 71  ■  Training loop and performance 72",
+          "source": "⟪S0⟫4.4 Level 4: The C approach 68 ⟪/S0⟫Setup: Headers, constants, and data structures 68  ⟪S1⟫■  ⟪/S1⟫Memory management and initialization 69  ⟪S2⟫■  ⟪/S2⟫The forward pass in C 70 The backward pass in C 71  ⟪S3⟫■  ⟪/S3⟫Training loop and performance 72",
+          "translated": "⟪S0⟫4.4第4级：C方法68 ⟪/S0⟫Setup：标头、常量和数据结构68 ⟪S1⟫■⟪/S1⟫内存管理和初始化69 ⟪S2⟫■⟪/S2⟫ C 70中的前向传递C 71中的后向传递⟪S3⟫■⟪/S3⟫训练循环和性能72"
+        }
+      ]
+    },
+    {
+      "id": "32732dee-39e1-41cf-9889-85e1005b8ed0",
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.2824227592346249,
+        "y": 0.17636701325213125,
+        "w": 0.6091159881563089,
+        "h": 0.101640233910339
+      },
+      "kind": "text",
+      "readingOrder": 52,
+      "source": "⟪S0⟫4.5 Level 5: The naive CUDA approach 74 ⟪/S0⟫CUDA setup and memory management 74  ⟪S1⟫■  ⟪/S1⟫From C loops to CUDA grids: The matmul kernel 76  ⟪S2⟫■  ⟪/S2⟫Forward and backward pass kernels 77 The training loop and performance 79  ⟪S3⟫■  ⟪/S3⟫A note on profiling: Wall-clock vs. GPU time 82",
+      "translated": "⟪S0⟫4.5 5级：朴素的CUDA方法74 ⟪/S0⟫CUDA设置和内存管理74 ⟪S1⟫■⟪/S1⟫从C循环到CUDA网格：matmul内核76 ⟪S2⟫■⟪/S2⟫向前和向后传递内核77训练循环和性能79 ⟪S3⟫■⟪/S3⟫A分析注意事项：挂钟vs.GPU时间82",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "4.5 Level 5: The naive CUDA approach 74 CUDA setup and memory management 74 ■ From C loops to CUDA grids: The matmul kernel 76 ■ Forward and backward pass kernels 77 The training loop and performance 79 ■ A note on profiling: Wall-clock vs.",
+          "source": "⟪S0⟫4.5 Level 5: The naive CUDA approach 74 ⟪/S0⟫CUDA setup and memory management 74  ⟪S1⟫■  ⟪/S1⟫From C loops to CUDA grids: The matmul kernel 76  ⟪S2⟫■  ⟪/S2⟫Forward and backward pass kernels 77 The training loop and performance 79  ⟪S3⟫■  ⟪/S3⟫A note on profiling: Wall-clock vs.",
+          "translated": "⟪S0⟫4.5 5级：朴素的CUDA方法74 ⟪/S0⟫CUDA设置和内存管理74 ⟪S1⟫■⟪/S1⟫从C循环到CUDA网格：matmul内核76 ⟪S2⟫■⟪/S2⟫向前和向后传递内核77训练循环和性能79 ⟪S3⟫■⟪/S3⟫A分析注意事项：挂钟vs."
+        },
+        {
+          "quote": "GPU time 82",
+          "source": "GPU time 82",
+          "translated": "GPU时间82"
         }
       ]
     },
@@ -2850,6 +2899,94 @@
           "quote": "with larger tiles 198",
           "source": "with larger tiles 198",
           "translated": "用更大的瓷砖198"
+        }
+      ]
+    },
+    {
+      "id": "ed200b2c-13d6-43a2-bbc1-42c6e7f50948",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.1554877639153266,
+        "y": 0.6203857228266257,
+        "w": 0.15330137896963927,
+        "h": 0.029228773124628273
+      },
+      "kind": "text",
+      "readingOrder": 195,
+      "source": "architecture overview 96–99",
+      "translated": "架构概述96-99",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "architecture overview 96–99",
+          "source": "architecture overview 96–99",
+          "translated": "架构概述96-99"
+        }
+      ]
+    },
+    {
+      "id": "efc1398b-d01c-48f3-ab3c-ca3746a28690",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6723771189477011,
+        "y": 0.6294092455144726,
+        "w": 0.17816185076508112,
+        "h": 0.01582039962393438
+      },
+      "kind": "text",
+      "readingOrder": 199,
+      "source": "with maximum tiles 201",
+      "translated": "最大瓷砖201",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "with maximum tiles 201",
+          "source": "with maximum tiles 201",
+          "translated": "最大瓷砖201"
+        }
+      ]
+    },
+    {
+      "id": "4c2448c6-03db-4e04-a2a8-430c56c8b273",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.389919219999412,
+        "y": 0.6417232939971996,
+        "w": 0.17154691450346896,
+        "h": 0.013977728411850717
+      },
+      "kind": "text",
+      "readingOrder": 202,
+      "source": "vectorized softmax 149",
+      "translated": "矢量化softmax 149",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "vectorized softmax 149",
+          "source": "vectorized softmax 149",
+          "translated": "矢量化softmax 149"
+        }
+      ]
+    },
+    {
+      "id": "7dfceb3a-0147-48a7-9b59-803e3d91da09",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.15645854156867356,
+        "y": 0.6544200101605868,
+        "w": 0.17540892406330844,
+        "h": 0.015596394308212727
+      },
+      "kind": "text",
+      "readingOrder": 207,
+      "source": "binding pipeline 93–95",
+      "translated": "绑定管道93-95",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "binding pipeline 93–95",
+          "source": "binding pipeline 93–95",
+          "translated": "绑定管道93-95"
         }
       ]
     }
