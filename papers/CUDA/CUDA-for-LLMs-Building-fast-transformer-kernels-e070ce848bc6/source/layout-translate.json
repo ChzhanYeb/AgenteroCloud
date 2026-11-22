@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:58:06.289Z",
+    "generatedAt": "2026-11-22T01:58:31.460Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -2126,6 +2126,121 @@
       ]
     },
     {
+      "id": "d3b7d0d6-1db8-4b12-a9d4-8453d2097b74::paragraph-3",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.255947010970385,
+        "y": 0.20305316770482215,
+        "w": 0.5570611415237792,
+        "h": 0.0888357608708597
+      },
+      "kind": "text",
+      "readingOrder": 150.002,
+      "source": "⟪S0⟫Distributed computing 268 ⟪/S0⟫⟪S1⟫10.1 Understanding the hardware 269 ⟪/S1⟫Lab 1: Mapping your hardware 270  ⟪S2⟫■  ⟪/S2⟫Understanding NCCL’s primitives 270  ⟪S3⟫■  ⟪/S3⟫Ring vs. tree algorithms 276",
+      "translated": "⟪S0⟫ 分布式计算268 ⟪/S0⟫ ⟪S1⟫ 10.1了解硬件269 ⟪/S1⟫ 实验室1：映射您的硬件270 ⟪S2⟫ ■ ⟪/S2⟫ 了解NCCL的原语270 ⟪S3⟫ ■ ⟪/S3⟫ Ring vs.树algorithms 276",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Distributed computing 268 10.1 Understanding the hardware 269 Lab 1: Mapping your hardware 270 ■ Understanding NCCL’s primitives 270 ■ Ring vs.",
+          "source": "⟪S0⟫Distributed computing 268 ⟪/S0⟫⟪S1⟫10.1 Understanding the hardware 269 ⟪/S1⟫Lab 1: Mapping your hardware 270  ⟪S2⟫■  ⟪/S2⟫Understanding NCCL’s primitives 270  ⟪S3⟫■  ⟪/S3⟫Ring vs.",
+          "translated": "⟪S0⟫ 分布式计算268 ⟪/S0⟫ ⟪S1⟫ 10.1了解硬件269 ⟪/S1⟫ 实验室1：映射您的硬件270 ⟪S2⟫ ■ ⟪/S2⟫ 了解NCCL的原语270 ⟪S3⟫ ■ ⟪/S3⟫ Ring vs."
+        },
+        {
+          "quote": "tree algorithms 276",
+          "source": "tree algorithms 276",
+          "translated": "树algorithms 276"
+        }
+      ]
+    },
+    {
+      "id": "d3b7d0d6-1db8-4b12-a9d4-8453d2097b74::paragraph-5",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.39182915955539904,
+        "w": 0.4723727923056371,
+        "h": 0.07773129076200223
+      },
+      "kind": "text",
+      "readingOrder": 150.004,
+      "source": "⟪S0⟫10.3 Pipeline parallelism 284 ⟪/S0⟫Naive pipeline parallelism implementation: Sequential processing 285  ⟪S1⟫■  ⟪/S1⟫Optimized implementation: CUDA streams 287  ⟪S2⟫■  ⟪/S2⟫Why streams work 289",
+      "translated": "⟪S0⟫10.3管道并行性284 ⟪/S0⟫朴素管道并行性实现：顺序处理285 ⟪S1⟫■⟪/S1⟫优化实现：CUDA流287 ⟪S2⟫■⟪/S2⟫为什么流工作289",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "10.3 Pipeline parallelism 284 Naive pipeline parallelism implementation: Sequential processing 285  ■  Optimized implementation: CUDA streams 287  ■  Why streams work 289",
+          "source": "⟪S0⟫10.3 Pipeline parallelism 284 ⟪/S0⟫Naive pipeline parallelism implementation: Sequential processing 285  ⟪S1⟫■  ⟪/S1⟫Optimized implementation: CUDA streams 287  ⟪S2⟫■  ⟪/S2⟫Why streams work 289",
+          "translated": "⟪S0⟫10.3管道并行性284 ⟪/S0⟫朴素管道并行性实现：顺序处理285 ⟪S1⟫■⟪/S1⟫优化实现：CUDA流287 ⟪S2⟫■⟪/S2⟫为什么流工作289"
+        }
+      ]
+    },
+    {
+      "id": "d3b7d0d6-1db8-4b12-a9d4-8453d2097b74::paragraph-6",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.4822512732989527,
+        "w": 0.5175399118886462,
+        "h": 0.03807246894465416
+      },
+      "kind": "text",
+      "readingOrder": 150.005,
+      "source": "⟪S0⟫10.4 Evaluating scaling strategies 289 ⟪/S0⟫Parallelism strategies 290  ⟪S1⟫■  ⟪/S1⟫When to use each strategy 293",
+      "translated": "⟪S0⟫10.4评估扩展策略289 ⟪/S0⟫并行性策略290 ⟪S1⟫■⟪/S1⟫何时使用每个策略293",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "10.4 Evaluating scaling strategies 289 Parallelism strategies 290  ■  When to use each strategy 293",
+          "source": "⟪S0⟫10.4 Evaluating scaling strategies 289 ⟪/S0⟫Parallelism strategies 290  ⟪S1⟫■  ⟪/S1⟫When to use each strategy 293",
+          "translated": "⟪S0⟫10.4评估扩展策略289 ⟪/S0⟫并行性策略290 ⟪S1⟫■⟪/S1⟫何时使用每个策略293"
+        }
+      ]
+    },
+    {
+      "id": "d3b7d0d6-1db8-4b12-a9d4-8453d2097b74::paragraph-7",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.255947010970385,
+        "y": 0.53777362384324,
+        "w": 0.4027401496151647,
+        "h": 0.06979952639853262
+      },
+      "kind": "text",
+      "readingOrder": 150.006,
+      "source": "⟪S0⟫CUTLASS 296 ⟪/S0⟫⟪S1⟫11.1 Why CUTLASS matters 297 ⟪/S1⟫The core idea: Decomposing a GEMM 298",
+      "translated": "⟪S0⟫CUTLASS 296 ⟪/S0⟫X⟪S1⟫11.1为什么CUTLASS很重要297 ⟪/S1⟫核心思想：分解GEMM 298",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "CUTLASS 296 11.1 Why CUTLASS matters 297 The core idea: Decomposing a GEMM 298",
+          "source": "⟪S0⟫CUTLASS 296 ⟪/S0⟫⟪S1⟫11.1 Why CUTLASS matters 297 ⟪/S1⟫The core idea: Decomposing a GEMM 298",
+          "translated": "⟪S0⟫CUTLASS 296 ⟪/S0⟫X⟪S1⟫11.1为什么CUTLASS很重要297 ⟪/S1⟫核心思想：分解GEMM 298"
+        }
+      ]
+    },
+    {
+      "id": "d3b7d0d6-1db8-4b12-a9d4-8453d2097b74::paragraph-8",
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.6186776203506301,
+        "w": 0.5570611415237792,
+        "h": 0.05869505628967516
+      },
+      "kind": "text",
+      "readingOrder": 150.007,
+      "source": "⟪S0⟫11.2 Building our first CUTLASS kernel 299 ⟪/S0⟫Defining the kernel’s shape 299  ⟪S1⟫■  ⟪/S1⟫Composing the kernel with CollectiveBuilder 300  ⟪S2⟫■  ⟪/S2⟫Launching the kernel from the host 301",
+      "translated": "⟪S0⟫11.2构建我们的第一个CUTLASS内核299 ⟪/S0⟫定义内核形状299 ⟪S1⟫■⟪/S1⟫使用CollectiveBuilder 300 ⟪S2⟫■⟪/S2⟫从主机启动内核301",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "11.2 Building our first CUTLASS kernel 299 Defining the kernel’s shape 299  ■  Composing the kernel with CollectiveBuilder 300  ■  Launching the kernel from the host 301",
+          "source": "⟪S0⟫11.2 Building our first CUTLASS kernel 299 ⟪/S0⟫Defining the kernel’s shape 299  ⟪S1⟫■  ⟪/S1⟫Composing the kernel with CollectiveBuilder 300  ⟪S2⟫■  ⟪/S2⟫Launching the kernel from the host 301",
+          "translated": "⟪S0⟫11.2构建我们的第一个CUTLASS内核299 ⟪/S0⟫定义内核形状299 ⟪S1⟫■⟪/S1⟫使用CollectiveBuilder 300 ⟪S2⟫■⟪/S2⟫从主机启动内核301"
+        }
+      ]
+    },
+    {
       "id": "10:fallback:1570",
       "pageIndex": 10,
       "bbox": {
@@ -2478,6 +2593,72 @@
       ]
     },
     {
+      "id": "26:fallback:137",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.5420054349961095,
+        "y": 0.08407670225277793,
+        "w": 0.03199337637129813,
+        "h": 0.017449881599633156
+      },
+      "kind": "text",
+      "readingOrder": 10053,
+      "source": "Core",
+      "translated": "核心",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Core",
+          "source": "Core",
+          "translated": "核心"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:113",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.4253237094066693,
+        "y": 0.09042211374355362,
+        "w": 0.07904245927026597,
+        "h": 0.017449881599633156
+      },
+      "kind": "text",
+      "readingOrder": 10057,
+      "source": "Control unit",
+      "translated": "控制单元",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Control unit",
+          "source": "Control unit",
+          "translated": "控制单元"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:127",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.400858186299206,
+        "y": 0.12373552407012602,
+        "w": 0.05834086279472011,
+        "h": 0.017449881599633156
+      },
+      "kind": "text",
+      "readingOrder": 10078,
+      "source": "L1 cache",
+      "translated": "L1高速缓存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "L1 cache",
+          "source": "L1 cache",
+          "translated": "L1高速缓存"
+        }
+      ]
+    },
+    {
       "id": "26:fallback:44",
       "pageIndex": 26,
       "bbox": {
@@ -2522,6 +2703,182 @@
       ]
     },
     {
+      "id": "26:fallback:162",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.13550135874902738,
+        "y": 0.17608516886902548,
+        "w": 0.028229449739380703,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10111,
+      "source": "Core",
+      "translated": "核心",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Core",
+          "source": "Core",
+          "translated": "核心"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:167",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.29923216723743545,
+        "y": 0.17608516886902548,
+        "w": 0.028229449739380703,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10111,
+      "source": "Core",
+      "translated": "核心",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Core",
+          "source": "Core",
+          "translated": "核心"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:143",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.2088979280714172,
+        "y": 0.18718963897788293,
+        "w": 0.04328515626705041,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10118,
+      "source": "Control",
+      "translated": "控制",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Control",
+          "source": "Control",
+          "translated": "控制"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:152",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.12232761553731636,
+        "y": 0.20939857919559787,
+        "w": 0.045167119583009126,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10132,
+      "source": "L1 cach",
+      "translated": "L1缓存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "L1 cach",
+          "source": "L1 cach",
+          "translated": "L1缓存"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:173",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.13550135874902738,
+        "y": 0.2411256366494763,
+        "w": 0.028229449739380703,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10152,
+      "source": "Core",
+      "translated": "核心",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Core",
+          "source": "Core",
+          "translated": "核心"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:94",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.16184884517244935,
+        "y": 0.30299339868453934,
+        "w": 0.04704908289896784,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10191,
+      "source": "L2 cach",
+      "translated": "L2缓存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "L2 cach",
+          "source": "L2 cach",
+          "translated": "L2缓存"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:104",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.334989470240651,
+        "y": 0.30299339868453934,
+        "w": 0.039521229635132986,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10191,
+      "source": "2 cach",
+      "translated": "2缓存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "2 cach",
+          "source": "2 cach",
+          "translated": "2缓存"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:69",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.24465523107463277,
+        "y": 0.34423857337458136,
+        "w": 0.04704908289896784,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10217,
+      "source": "L3 cach",
+      "translated": "L3缓存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "L3 cach",
+          "source": "L3 cach",
+          "translated": "L3缓存"
+        }
+      ]
+    },
+    {
       "id": "26:fallback:53",
       "pageIndex": 26,
       "bbox": {
@@ -2540,6 +2897,50 @@
           "quote": "L2 cach",
           "source": "L2 cach",
           "translated": "L2缓存"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:79",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.2258355979150456,
+        "y": 0.3950018653007869,
+        "w": 0.0959801291138944,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10249,
+      "source": "System memory",
+      "translated": "系统内存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "System memory",
+          "source": "System memory",
+          "translated": "系统内存"
+        }
+      ]
+    },
+    {
+      "id": "26:fallback:63",
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.6662150138493845,
+        "y": 0.3950018653007869,
+        "w": 0.039521229635132986,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10249,
+      "source": "VRAM",
+      "translated": "虚拟内存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "VRAM",
+          "source": "VRAM",
+          "translated": "虚拟内存"
         }
       ]
     },
