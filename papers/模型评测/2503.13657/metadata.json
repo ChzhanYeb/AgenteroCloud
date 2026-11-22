@@ -86,13 +86,14 @@
     }
   ],
   "year": 2025,
-  "date": "2025-10-26",
+  "date": "2025",
   "abstract": "Despite enthusiasm for Multi-Agent LLM Systems (MAS), their performance gains on popular benchmarks are often minimal. This gap highlights a critical need for a principled understanding of why MAS fail. Addressing this question requires systematic identification and analysis of failure patterns. We introduce MAST-Data, a comprehensive dataset of 1600+ annotated traces collected across 7 popular MAS frameworks. MAST-Data is the first multi-agent system dataset to outline the failure dynamics in MAS for guiding the development of better future systems. To enable systematic classification of failures for MAST-Data, we build the first Multi-Agent System Failure Taxonomy (MAST). We develop MAST through rigorous analysis of 150 traces, guided closely by expert human annotators and validated by high inter-annotator agreement (kappa = 0.88). This process identifies 14 unique modes, clustered into 3 categories: (i) system design issues, (ii) inter-agent misalignment, and (iii) task verification. To enable scalable annotation, we develop an LLM-as-a-Judge pipeline with high agreement with human annotations. We leverage MAST and MAST-Data to analyze failure patterns across models (GPT4, Claude 3, Qwen2.5, CodeLlama) and tasks (coding, math, general agent), demonstrating improvement headrooms from better MAS design. Our analysis provides insights revealing that identified failures require more sophisticated solutions, highlighting a clear roadmap for future research. We publicly release our comprehensive dataset (MAST-Data), the MAST, and our LLM annotator to facilitate widespread research and development in MAS.",
   "tags": [
-    "@arxiv:Computer Science - Artificial Intelligence"
+    "@arxiv:Computer Science - Artificial Intelligence",
+    "#submitted:NeurIPS 2025"
   ],
   "arxiv_id": "2503.13657",
-  "doi": "10.48550/arXiv.2503.13657",
+  "doi": "10.48550/ARXIV.2503.13657",
   "pdf_url": "https://arxiv.org/pdf/2503.13657",
   "html_url": "https://arxiv.org/html/2503.13657",
   "source_url": "https://arxiv.org/abs/2503.13657",
@@ -102,11 +103,11 @@
   "bibtex_key": "2503.13657",
   "citation_count": 878,
   "zotero_item_type": "preprint",
-  "meta_source": "translator",
+  "meta_source": "manual",
   "extra": "arXiv:2503.13657 [cs.AI]",
   "summary": "Multi-agent LLM systems fail through 14 recurring modes spanning system design, agent misalignment, and verification. Analysis of five frameworks across 150+ tasks yields a taxonomy with Cohen’s κ=0.88; role prompts and orchestration alone rarely prevent failures.",
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:34:46.569Z",
-  "updated_at": "2026-11-17T15:12:06.691Z"
+  "updated_at": "2026-11-22T01:47:54.831Z"
 }
