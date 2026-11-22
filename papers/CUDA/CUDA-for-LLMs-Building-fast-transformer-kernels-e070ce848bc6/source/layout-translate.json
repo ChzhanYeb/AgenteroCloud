@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:53:18.495Z",
+    "generatedAt": "2026-11-22T01:53:28.950Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -356,6 +356,99 @@
           "quote": "Recognizing also our responsibility to conserve the resources of our planet, Manning books are printed on paper that is at least 15% recycled and processed without the use of elemental chlorine.",
           "source": "Recognizing also our responsibility to conserve the resources of our planet, Manning books are printed on paper that is at least 15% recycled and processed without the use of elemental chlorine.",
           "translated": "认识到我们保护地球资源的责任，曼宁的书籍印刷在不使用元素氯的至少15%回收和加工的纸上。"
+        }
+      ]
+    },
+    {
+      "id": "729501c0-f0ea-44a7-8e35-5d3ddb7ae322",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.11972927979893654,
+        "y": 0.638878503931032,
+        "w": 0.7711566842510693,
+        "h": 0.07345893248785686
+      },
+      "kind": "text",
+      "readingOrder": 97,
+      "source": "The author and publisher have made every effort to ensure that the information in this book was correct at press time. The author and publisher do not assume and hereby disclaim any liability to any party for any loss, damage, or disruption caused by errors or omissions, whether such errors or omissions result from negligence, accident, or any other cause, or from any usage of the information herein.",
+      "translated": "作者和出版商已尽一切努力确保本书中的信息在出版时是正确的。对于因错误或遗漏而导致的任何损失、损害或中断，作者和出版商不承担也不承担任何责任，无论这些错误或遗漏是由疏忽、事故或任何其他原因造成的，还是由对本文信息的任何使用造成的。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "The author and publisher have made every effort to ensure that the information in this book was correct at press time.",
+          "source": "The author and publisher have made every effort to ensure that the information in this book was correct at press time.",
+          "translated": "作者和出版商已尽一切努力确保本书中的信息在出版时是正确的。"
+        },
+        {
+          "quote": "The author and publisher do not assume and hereby disclaim any liability to any party for any loss, damage, or disruption caused by errors or omissions, whether such errors or omissions result from negligence, accident, or any other cause, or from any usage of the information herein.",
+          "source": "The author and publisher do not assume and hereby disclaim any liability to any party for any loss, damage, or disruption caused by errors or omissions, whether such errors or omissions result from negligence, accident, or any other cause, or from any usage of the information herein.",
+          "translated": "对于因错误或遗漏而导致的任何损失、损害或中断，作者和出版商不承担也不承担任何责任，无论这些错误或遗漏是由疏忽、事故或任何其他原因造成的，还是由对本文信息的任何使用造成的。"
+        }
+      ]
+    },
+    {
+      "id": "f647b927-7c0d-4e27-91b7-a66faf8aba82",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.17419730731034658,
+        "y": 0.762496960342734,
+        "w": 0.19753825922451937,
+        "h": 0.017937898446793218
+      },
+      "kind": "text",
+      "readingOrder": 116,
+      "source": "Manning Publications Co.",
+      "translated": "曼宁出版公司。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Manning Publications Co.",
+          "source": "Manning Publications Co.",
+          "translated": "曼宁出版公司。"
+        }
+      ]
+    },
+    {
+      "id": "8b379183-e571-4379-9f25-9c2895c215b7",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.47915253231016286,
+        "y": 0.7619326876610825,
+        "w": 0.2986007216732567,
+        "h": 0.017033455203583465
+      },
+      "kind": "text",
+      "readingOrder": 122,
+      "source": "Development editor: Connor O’Brien",
+      "translated": "开发编辑：Connor O'Brien",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Development editor: Connor O’Brien",
+          "source": "Development editor: Connor O’Brien",
+          "translated": "开发编辑：Connor O'Brien"
+        }
+      ]
+    },
+    {
+      "id": "1ead160a-9fc0-4357-8bea-cb6cdc9185de",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.1758024658892139,
+        "y": 0.7799613886083713,
+        "w": 0.13119305873522752,
+        "h": 0.017349860291931005
+      },
+      "kind": "text",
+      "readingOrder": 129,
+      "source": "20 Baldwin Road",
+      "translated": "鲍德温路20号",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "20 Baldwin Road",
+          "source": "20 Baldwin Road",
+          "translated": "鲍德温路20号"
         }
       ]
     },
@@ -774,6 +867,116 @@
           "quote": "loading data with 190–191",
           "source": "loading data with 190–191",
           "translated": "用190-191加载数据"
+        }
+      ]
+    },
+    {
+      "id": "8a7d5d96-358d-4870-ae42-e45124eddd69",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.6739431903369003,
+        "y": 0.8829585777966397,
+        "w": 0.16168660749720715,
+        "h": 0.02948128732776566
+      },
+      "kind": "text",
+      "readingOrder": 261,
+      "source": "profiling coalescing improvement 134",
+      "translated": "分析合并改进134",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "profiling coalescing improvement 134",
+          "source": "profiling coalescing improvement 134",
+          "translated": "分析合并改进134"
+        }
+      ]
+    },
+    {
+      "id": "b2ba6e18-3e9b-4ac8-bd7d-2c9900eac0cd",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.13994010573608742,
+        "y": 0.9160217236754064,
+        "w": 0.1809159688868841,
+        "h": 0.015015326068100717
+      },
+      "kind": "text",
+      "readingOrder": 265,
+      "source": "matrix multiply with 191",
+      "translated": "矩阵乘以191",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "matrix multiply with 191",
+          "source": "matrix multiply with 191",
+          "translated": "矩阵乘以191"
+        }
+      ]
+    },
+    {
+      "id": "15e78c31-bf08-4ff0-97e3-da5161bf1e2a",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.3904244108011671,
+        "y": 0.9122085994808188,
+        "w": 0.1440659645920302,
+        "h": 0.01508967182543616
+      },
+      "kind": "text",
+      "readingOrder": 268,
+      "source": "1D convolution 45",
+      "translated": "一维卷积45",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "1D convolution 45",
+          "source": "1D convolution 45",
+          "translated": "一维卷积45"
+        }
+      ]
+    },
+    {
+      "id": "6d4e81e4-ed27-450a-9103-88fc2cc59e85",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.67372976825244,
+        "y": 0.9153014991512192,
+        "w": 0.19335960467133112,
+        "h": 0.017172901900773196
+      },
+      "kind": "text",
+      "readingOrder": 272,
+      "source": "preparing to optimize 127",
+      "translated": "准备优化127",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "preparing to optimize 127",
+          "source": "preparing to optimize 127",
+          "translated": "准备优化127"
+        }
+      ]
+    },
+    {
+      "id": "38f61f2d-0e73-4b4c-9513-91bed85f5298",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.3903499111631291,
+        "y": 0.9305697750421292,
+        "w": 0.16669861012097248,
+        "h": 0.015551525482008327
+      },
+      "kind": "text",
+      "readingOrder": 276,
+      "source": "2D convolution 46–48",
+      "translated": "2D卷积46-48",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "2D convolution 46–48",
+          "source": "2D convolution 46–48",
+          "translated": "2D卷积46-48"
         }
       ]
     }
