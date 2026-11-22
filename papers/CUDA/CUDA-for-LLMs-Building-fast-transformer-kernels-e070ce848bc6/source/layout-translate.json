@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:53:07.742Z",
+    "generatedAt": "2026-11-22T01:53:18.495Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -302,6 +302,60 @@
           "quote": "No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by means electronic, mechanical, photocopying, or otherwise, without prior written permission of the publisher.",
           "source": "No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by means electronic, mechanical, photocopying, or otherwise, without prior written permission of the publisher.",
           "translated": "未经出版商事先书面许可，不得以任何形式或通过电子、机械、影印或其他方式复制、存储或传输本出版物的任何部分。"
+        }
+      ]
+    },
+    {
+      "id": "7ff469c2-bc5e-4ec5-acdb-df1c5484003a",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.11973106692898194,
+        "y": 0.4645442372744846,
+        "w": 0.7593128710340354,
+        "h": 0.05497588022278944
+      },
+      "kind": "text",
+      "readingOrder": 91,
+      "source": "Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in the book, and Manning Publications was aware of a trademark claim, the designations have been printed in initial caps or all caps.",
+      "translated": "制造商和销售商用来区分其产品的许多名称都被声称是商标。如果这些名称出现在书中，并且曼宁出版物知道商标索赔，则这些名称已以初始大写或全部大写打印。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks.",
+          "source": "Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks.",
+          "translated": "制造商和销售商用来区分其产品的许多名称都被声称是商标。"
+        },
+        {
+          "quote": "Where those designations appear in the book, and Manning Publications was aware of a trademark claim, the designations have been printed in initial caps or all caps.",
+          "source": "Where those designations appear in the book, and Manning Publications was aware of a trademark claim, the designations have been printed in initial caps or all caps.",
+          "translated": "如果这些名称出现在书中，并且曼宁出版物知道商标索赔，则这些名称已以初始大写或全部大写打印。"
+        }
+      ]
+    },
+    {
+      "id": "19ac5484-933d-4df0-94a4-5b21bc4e2bfe",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.10375106682333314,
+        "y": 0.5461574375960299,
+        "w": 0.7917315392480744,
+        "h": 0.07122120263555709
+      },
+      "kind": "text",
+      "readingOrder": 94,
+      "source": "⟪F0⟫ Recognizing the importance of preserving what has been written, it is Manning’s policy to have the books we publish printed on acid-free paper, and we exert our best efforts to that end. Recognizing also our responsibility to conserve the resources of our planet, Manning books are printed on paper that is at least 15% recycled and processed without the use of elemental chlorine.",
+      "translated": "⟪F0⟫认识到保存已经写好的东西的重要性，曼宁的政策是让我们出版的书用无酸纸印刷，我们为此尽最大努力。认识到我们保护地球资源的责任，曼宁的书籍印刷在不使用元素氯的至少15%回收和加工的纸上。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "∞ Recognizing the importance of preserving what has been written, it is Manning’s policy to have the books we publish printed on acid-free paper, and we exert our best efforts to that end.",
+          "source": "⟪F0⟫ Recognizing the importance of preserving what has been written, it is Manning’s policy to have the books we publish printed on acid-free paper, and we exert our best efforts to that end.",
+          "translated": "⟪F0⟫认识到保存已经写好的东西的重要性，曼宁的政策是让我们出版的书用无酸纸印刷，我们为此尽最大努力。"
+        },
+        {
+          "quote": "Recognizing also our responsibility to conserve the resources of our planet, Manning books are printed on paper that is at least 15% recycled and processed without the use of elemental chlorine.",
+          "source": "Recognizing also our responsibility to conserve the resources of our planet, Manning books are printed on paper that is at least 15% recycled and processed without the use of elemental chlorine.",
+          "translated": "认识到我们保护地球资源的责任，曼宁的书籍印刷在不使用元素氯的至少15%回收和加工的纸上。"
         }
       ]
     },
@@ -610,6 +664,116 @@
           "quote": "memory access problem 129",
           "source": "memory access problem 129",
           "translated": "内存访问问题129"
+        }
+      ]
+    },
+    {
+      "id": "4f503f86-9aeb-4716-85cf-6388dd8dbc75",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.12296139420144196,
+        "y": 0.8439237638468974,
+        "w": 0.19202244382698583,
+        "h": 0.05000545976655432
+      },
+      "kind": "text",
+      "readingOrder": 247,
+      "source": "WMMA 188–193, 196–201 fragments and tiling strategy 188",
+      "translated": "WMMA 188-193、196-201片段和平铺策略188",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "WMMA 188–193, 196–201 fragments and tiling strategy 188",
+          "source": "WMMA 188–193, 196–201 fragments and tiling strategy 188",
+          "translated": "WMMA 188-193、196-201片段和平铺策略188"
+        }
+      ]
+    },
+    {
+      "id": "f21d4295-63e2-427a-a170-7eb3156921b7",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.3750286802074759,
+        "y": 0.8572914795115484,
+        "w": 0.15519761725180797,
+        "h": 0.014949111877973828
+      },
+      "kind": "text",
+      "readingOrder": 249,
+      "source": "tokenization 95–105",
+      "translated": "标记化95-105",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "tokenization 95–105",
+          "source": "tokenization 95–105",
+          "translated": "标记化95-105"
+        }
+      ]
+    },
+    {
+      "id": "e2cba546-a6e7-4818-bf7e-ad814609f8a7",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.6744295767984184,
+        "y": 0.8624939400463422,
+        "w": 0.19827043707373,
+        "h": 0.01596381530035686
+      },
+      "kind": "text",
+      "readingOrder": 253,
+      "source": "optimization summary 140",
+      "translated": "优化总结140",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "optimization summary 140",
+          "source": "optimization summary 140",
+          "translated": "优化总结140"
+        }
+      ]
+    },
+    {
+      "id": "6ba08716-1896-4740-b539-09ad5967e833",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.37441235719036625,
+        "y": 0.8770532207201627,
+        "w": 0.17109426101871178,
+        "h": 0.03179520222045996
+      },
+      "kind": "text",
+      "readingOrder": 256,
+      "source": "toolkit, convolution and pooling 45–52",
+      "translated": "工具包、卷积和池化45-52",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "toolkit, convolution and pooling 45–52",
+          "source": "toolkit, convolution and pooling 45–52",
+          "translated": "工具包、卷积和池化45-52"
+        }
+      ]
+    },
+    {
+      "id": "125a21c7-dfba-410c-99f1-64cbaf69a729",
+      "pageIndex": 404,
+      "bbox": {
+        "x": 0.13877727978653426,
+        "y": 0.8971907564990583,
+        "w": 0.19381333474045304,
+        "h": 0.016027996598681604
+      },
+      "kind": "text",
+      "readingOrder": 259,
+      "source": "loading data with 190–191",
+      "translated": "用190-191加载数据",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "loading data with 190–191",
+          "source": "loading data with 190–191",
+          "translated": "用190-191加载数据"
         }
       ]
     }
