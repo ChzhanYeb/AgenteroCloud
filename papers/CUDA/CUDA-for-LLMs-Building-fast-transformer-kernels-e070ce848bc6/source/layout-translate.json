@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:53:49.931Z",
+    "generatedAt": "2026-11-22T01:54:00.151Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -669,6 +669,94 @@
           "quote": "Cover designer: Marija Tudor",
           "source": "Cover designer: Marija Tudor",
           "translated": "封面设计师：Marija Tudor"
+        }
+      ]
+    },
+    {
+      "id": "f9a02bbf-8fb9-4e6b-827d-2be1df3f71cb",
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.243443917016992,
+        "y": 0.3790395738206904,
+        "w": 0.5312740580719367,
+        "h": 0.045991587506505255
+      },
+      "kind": "text",
+      "readingOrder": 39,
+      "source": "For every curious CUDA learner who, like me, wished this resource existed at the beginning",
+      "translated": "对于每一个好奇的CUDA学习者，像我一样，希望这个资源在一开始就存在",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "For every curious CUDA learner who, like me, wished this resource existed at the beginning",
+          "source": "For every curious CUDA learner who, like me, wished this resource existed at the beginning",
+          "translated": "对于每一个好奇的CUDA学习者，像我一样，希望这个资源在一开始就存在"
+        }
+      ]
+    },
+    {
+      "id": "888e08af-92a0-4120-8b2b-98ba43060255",
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.7165136328308738,
+        "y": 0.3448337733414701,
+        "w": 0.1813201760752293,
+        "h": 0.03684478445151418
+      },
+      "kind": "header",
+      "readingOrder": 0,
+      "source": "contents",
+      "translated": "内容",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "contents",
+          "source": "contents",
+          "translated": "内容"
+        }
+      ]
+    },
+    {
+      "id": "bbe88664-09ab-4139-be67-99682332b676",
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.28217494386832664,
+        "y": 0.5985189221568943,
+        "w": 0.48290671118003287,
+        "h": 0.059846253361047784
+      },
+      "kind": "text",
+      "readingOrder": 143,
+      "source": "⟪S0⟫1.3 CUDA basics 4 ⟪/S0⟫Host and device: Two worlds working together 4 Kernels: Functions that run on thousands of threads 5",
+      "translated": "⟪S0⟫1.3 CUDA基础4 ⟪/S0⟫Host和设备：两个世界协同工作4内核：在数千个线程上运行的函数5",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "1.3 CUDA basics 4 Host and device: Two worlds working together 4 Kernels: Functions that run on thousands of threads 5",
+          "source": "⟪S0⟫1.3 CUDA basics 4 ⟪/S0⟫Host and device: Two worlds working together 4 Kernels: Functions that run on thousands of threads 5",
+          "translated": "⟪S0⟫1.3 CUDA基础4 ⟪/S0⟫Host和设备：两个世界协同工作4内核：在数千个线程上运行的函数5"
+        }
+      ]
+    },
+    {
+      "id": "4a2a52cf-2557-4741-ac49-0b3909c9a09c::paragraph-1",
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.3443992868204446,
+        "y": 0.4076926882823383,
+        "w": 0.2352454144948392,
+        "h": 0.09359481948894148
+      },
+      "kind": "text",
+      "readingOrder": 162,
+      "source": "preface  xii acknowledgments  xiv about this book  xvi about the author  xix about the cover illustration  xx",
+      "translated": "序言xii致谢xiv关于本书xvi关于作者xix关于封面插图xx",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "preface  xii acknowledgments  xiv about this book  xvi about the author  xix about the cover illustration  xx",
+          "source": "preface  xii acknowledgments  xiv about this book  xvi about the author  xix about the cover illustration  xx",
+          "translated": "序言xii致谢xiv关于本书xvi关于作者xix关于封面插图xx"
         }
       ]
     },
@@ -1417,6 +1505,116 @@
           "quote": "top-k 161– 166 min-heap 162–164 parallel top-k with block reduction 164 profiling analysis 165",
           "source": "top-k 161– 166 min-heap 162–164 parallel top-k with block reduction 164 profiling analysis 165",
           "translated": "top-k 161-166 min-heap 162-164并行top-k，具有块缩减164分析165"
+        }
+      ]
+    },
+    {
+      "id": "ec2c6e54-c3a4-47e5-b0d1-0ee844b0c96c",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6572341990717603,
+        "y": 0.15052612691904985,
+        "w": 0.1770275614784219,
+        "h": 0.030923212642805807
+      },
+      "kind": "text",
+      "readingOrder": 54,
+      "source": "warpgroup_arrive fence instruction 194",
+      "translated": "warpgroup_arrive栅栏指令194",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "warpgroup_arrive fence instruction 194",
+          "source": "warpgroup_arrive fence instruction 194",
+          "translated": "warpgroup_arrive栅栏指令194"
+        }
+      ]
+    },
+    {
+      "id": "903c9785-2441-4afb-bb31-e5d7a308036d",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.4052781457622883,
+        "y": 0.11881060679690596,
+        "w": 0.21475222597454136,
+        "h": 0.12098035577929844
+      },
+      "kind": "text",
+      "readingOrder": 58,
+      "source": "optimizing kernels 126 compute-bound operation 167 GEMM 166 LayerNorm 152 Softmax function 141–160 switching to FP16 for 167",
+      "translated": "优化内核126计算绑定操作167 GEMM 166 LayerNorm 152 Softmax函数141-160切换到FP16用于167",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "optimizing kernels 126 compute-bound operation 167 GEMM 166 LayerNorm 152 Softmax function 141–160 switching to FP16 for 167",
+          "source": "optimizing kernels 126 compute-bound operation 167 GEMM 166 LayerNorm 152 Softmax function 141–160 switching to FP16 for 167",
+          "translated": "优化内核126计算绑定操作167 GEMM 166 LayerNorm 152 Softmax函数141-160切换到FP16用于167"
+        }
+      ]
+    },
+    {
+      "id": "60ef5038-503f-4bfa-9005-5399a7346cfb",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6575270874367944,
+        "y": 0.1857224539288635,
+        "w": 0.13034307384760113,
+        "h": 0.01684239967582152
+      },
+      "kind": "text",
+      "readingOrder": 64,
+      "source": "warp groups 193",
+      "translated": "经线组193",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "warp groups 193",
+          "source": "warp groups 193",
+          "translated": "经线组193"
+        }
+      ]
+    },
+    {
+      "id": "e1c4f6f3-57eb-442c-b6b8-911eb304d11e",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.13708524802666391,
+        "y": 0.2118700407120465,
+        "w": 0.21009624262295684,
+        "h": 0.03036571626716148
+      },
+      "kind": "text",
+      "readingOrder": 68,
+      "source": "vectorizing memory access for tiling 178",
+      "translated": "平铺的向量化内存访问178",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "vectorizing memory access for tiling 178",
+          "source": "vectorizing memory access for tiling 178",
+          "translated": "平铺的向量化内存访问178"
+        }
+      ]
+    },
+    {
+      "id": "d8ec1264-b15d-46af-8093-cc69c15e7f3e",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6570055612616122,
+        "y": 0.20739479881728293,
+        "w": 0.17711661653707078,
+        "h": 0.030036460398493257
+      },
+      "kind": "text",
+      "readingOrder": 74,
+      "source": "warpgroup_wait fence instruction 194",
+      "translated": "warpgroup_wait栅栏指令194",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "warpgroup_wait fence instruction 194",
+          "source": "warpgroup_wait fence instruction 194",
+          "translated": "warpgroup_wait栅栏指令194"
         }
       ]
     }
