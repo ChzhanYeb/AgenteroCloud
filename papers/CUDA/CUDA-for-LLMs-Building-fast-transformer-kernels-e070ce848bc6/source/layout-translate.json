@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:54:30.469Z",
+    "generatedAt": "2026-11-22T01:54:40.621Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -877,6 +877,72 @@
           "quote": "1.7 Getting ready to build 14",
           "source": "1.7 Getting ready to build 14",
           "translated": "1.7准备构建14"
+        }
+      ]
+    },
+    {
+      "id": "20ce2377-c383-4270-a8e5-91b60064a61c",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.455626637556591,
+        "y": 0.04142095095387155,
+        "w": 0.07374511029736007,
+        "h": 0.01631865172420202
+      },
+      "kind": "header",
+      "readingOrder": 16,
+      "source": "contents",
+      "translated": "内容",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "contents",
+          "source": "contents",
+          "translated": "内容"
+        }
+      ]
+    },
+    {
+      "id": "49e8a9c6-c204-4794-a410-e12eb7382833",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.264783168444629,
+        "y": 0.2690956303281126,
+        "w": 0.5678370736840751,
+        "h": 0.0838164678175803
+      },
+      "kind": "text",
+      "readingOrder": 97,
+      "source": "⟪S0⟫2.6 Expanding to 3D arrays 29 ⟪/S0⟫3D tensor addition: CPU implementation 29  ⟪S1⟫■  ⟪/S1⟫The CUDA kernel for 3D tensor addition 29  ⟪S2⟫■  ⟪/S2⟫3D kernel launch configuration 30 Real-world example: Batch image processing 31",
+      "translated": "⟪S0⟫2.6扩展到3D数组29 ⟪/S0⟫3D张量添加：CPU实现29 ⟪S1⟫■⟪/S1⟫用于3D张量添加的CUDA内核29 ⟪S2⟫■⟪/S2⟫3D内核启动配置30真实世界示例：批处理图像31",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "2.6 Expanding to 3D arrays 29 3D tensor addition: CPU implementation 29  ■  The CUDA kernel for 3D tensor addition 29  ■  3D kernel launch configuration 30 Real-world example: Batch image processing 31",
+          "source": "⟪S0⟫2.6 Expanding to 3D arrays 29 ⟪/S0⟫3D tensor addition: CPU implementation 29  ⟪S1⟫■  ⟪/S1⟫The CUDA kernel for 3D tensor addition 29  ⟪S2⟫■  ⟪/S2⟫3D kernel launch configuration 30 Real-world example: Batch image processing 31",
+          "translated": "⟪S0⟫2.6扩展到3D数组29 ⟪/S0⟫3D张量添加：CPU实现29 ⟪S1⟫■⟪/S1⟫用于3D张量添加的CUDA内核29 ⟪S2⟫■⟪/S2⟫3D内核启动配置30真实世界示例：批处理图像31"
+        }
+      ]
+    },
+    {
+      "id": "6e0a8dbd-f4ba-4063-8a97-5dfb45b1cc07",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.26487305606185324,
+        "y": 0.4364381528486816,
+        "w": 0.5486675273217015,
+        "h": 0.06084643612770123
+      },
+      "kind": "text",
+      "readingOrder": 136,
+      "source": "⟪S0⟫3.1 From 1D to 3D element-wise addition 35 ⟪/S0⟫From loops to parallel threads 37  ⟪S1⟫■  ⟪/S1⟫Kernel 1, matrix transpose: When data needs to change shape 38",
+      "translated": "⟪S0⟫3.1从1D到3D元素加法35 ⟪/S0⟫从循环到并行线程37 ⟪S1⟫■⟪/S1⟫Kernel 1、矩阵转置：当数据需要改变形状时38",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "3.1 From 1D to 3D element-wise addition 35 From loops to parallel threads 37  ■  Kernel 1, matrix transpose: When data needs to change shape 38",
+          "source": "⟪S0⟫3.1 From 1D to 3D element-wise addition 35 ⟪/S0⟫From loops to parallel threads 37  ⟪S1⟫■  ⟪/S1⟫Kernel 1, matrix transpose: When data needs to change shape 38",
+          "translated": "⟪S0⟫3.1从1D到3D元素加法35 ⟪/S0⟫从循环到并行线程37 ⟪S1⟫■⟪/S1⟫Kernel 1、矩阵转置：当数据需要改变形状时38"
         }
       ]
     },
@@ -1987,6 +2053,116 @@
           "quote": "Triton 316",
           "source": "Triton 316",
           "translated": "海卫一316"
+        }
+      ]
+    },
+    {
+      "id": "f4b511d4-e132-4d14-a580-988e0d82a88d",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6581277928033866,
+        "y": 0.3682677157808163,
+        "w": 0.16779138631452845,
+        "h": 0.03183709431223979
+      },
+      "kind": "text",
+      "readingOrder": 120,
+      "source": "warpReduceSum helper function 132",
+      "translated": "warpReduce eSum辅助函数132",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "warpReduceSum helper function 132",
+          "source": "warpReduceSum helper function 132",
+          "translated": "warpReduce eSum辅助函数132"
+        }
+      ]
+    },
+    {
+      "id": "5d52b18b-df4e-403f-bdd4-f3b411a49a54",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.15630820732798537,
+        "y": 0.3883520333564631,
+        "w": 0.17462771138489974,
+        "h": 0.03094041961984536
+      },
+      "kind": "text",
+      "readingOrder": 124,
+      "source": "expanding CUDA kernel coverage 117",
+      "translated": "扩展CUDA内核覆盖117",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "expanding CUDA kernel coverage 117",
+          "source": "expanding CUDA kernel coverage 117",
+          "translated": "扩展CUDA内核覆盖117"
+        }
+      ]
+    },
+    {
+      "id": "f465cc99-92f6-4f21-a0c2-62882ae3abcc",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.39080388525804033,
+        "y": 0.39709395212752774,
+        "w": 0.1879645389761436,
+        "h": 0.015409949088644926
+      },
+      "kind": "text",
+      "readingOrder": 126,
+      "source": "troubleshooting 341–347",
+      "translated": "故障排除341-347",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "troubleshooting 341–347",
+          "source": "troubleshooting 341–347",
+          "translated": "故障排除341-347"
+        }
+      ]
+    },
+    {
+      "id": "f9ec76bc-0d6e-4342-bc2d-719ef78c4b0b",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6576443920691734,
+        "y": 0.4036076762768884,
+        "w": 0.1672656686375529,
+        "h": 0.017121789192605076
+      },
+      "kind": "text",
+      "readingOrder": 127,
+      "source": "warp shuffles 146–147",
+      "translated": "曲速洗牌146-147",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "warp shuffles 146–147",
+          "source": "warp shuffles 146–147",
+          "translated": "曲速洗牌146-147"
+        }
+      ]
+    },
+    {
+      "id": "3b912b6e-5285-4df4-8a22-339e46fe95a4",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.3910712513964017,
+        "y": 0.41509525743767345,
+        "w": 0.2210991357927152,
+        "h": 0.016384478696842786
+      },
+      "kind": "text",
+      "readingOrder": 128,
+      "source": "TTFT (time to first token) 115",
+      "translated": "TTFT（第一个Token（词元）的时间）115",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "TTFT (time to first token) 115",
+          "source": "TTFT (time to first token) 115",
+          "translated": "TTFT（第一个Token（词元）的时间）115"
         }
       ]
     }
