@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T02:00:15.334Z",
+    "generatedAt": "2026-11-22T02:00:43.606Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -2772,6 +2772,70 @@
       ]
     },
     {
+      "id": "a22355c7-c045-4b64-90a0-0dddd47955e7",
+      "pageIndex": 12,
+      "bbox": {
+        "x": 0.18749794731247796,
+        "y": 0.7207425243792129,
+        "w": 0.7090058349150032,
+        "h": 0.10042969524434972
+      },
+      "kind": "text",
+      "readingOrder": 191,
+      "source": "I think that perspective matters. An expert who has lived in this world for a decade can forget which steps are nonobvious at the beginning. I tried to keep those steps visible: what the GPU is doing, why the code is shaped the way it is, where the profiler is pointing, and how a small kernel-level choice connects to the larger deep learning workload.",
+      "translated": "我认为这种观点很重要。一个在这个世界上生活了十年的专家可能会忘记哪些步骤在开始时是不明显的。我试图保持这些步骤的可见性：GPU在做什么，为什么代码是这样塑造的，分析器指向哪里，以及一个小的内核级选择如何连接到更大的深度学习工作负载。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "I think that perspective matters.",
+          "source": "I think that perspective matters.",
+          "translated": "我认为这种观点很重要。"
+        },
+        {
+          "quote": "An expert who has lived in this world for a decade can forget which steps are nonobvious at the beginning.",
+          "source": "An expert who has lived in this world for a decade can forget which steps are nonobvious at the beginning.",
+          "translated": "一个在这个世界上生活了十年的专家可能会忘记哪些步骤在开始时是不明显的。"
+        },
+        {
+          "quote": "I tried to keep those steps visible: what the GPU is doing, why the code is shaped the way it is, where the profiler is pointing, and how a small kernel-level choice connects to the larger deep learning workload.",
+          "source": "I tried to keep those steps visible: what the GPU is doing, why the code is shaped the way it is, where the profiler is pointing, and how a small kernel-level choice connects to the larger deep learning workload.",
+          "translated": "我试图保持这些步骤的可见性：GPU在做什么，为什么代码是这样塑造的，分析器指向哪里，以及一个小的内核级选择如何连接到更大的深度学习工作负载。"
+        }
+      ]
+    },
+    {
+      "id": "e3ccac38-d028-4fa8-aa34-ca670b8fbd77",
+      "pageIndex": 12,
+      "bbox": {
+        "x": 0.1895419934506923,
+        "y": 0.8240632821793219,
+        "w": 0.7079543134343029,
+        "h": 0.08093029388258327
+      },
+      "kind": "text",
+      "readingOrder": 227,
+      "source": "Just as important is knowing when not to write custom CUDA. Most of the time, a high-quality framework operation, vendor library, or generated kernel is the right answer. Custom kernels are valuable when they earn their complexity: when you need fusion, unusual memory layouts, hardware-specific behavior, or performance that the",
+      "translated": "同样重要的是知道何时不编写自定义CUDA。大多数时候，高质量的框架操作、供应商库或生成的内核是正确的答案。自定义内核在获得复杂性时很有价值：当您需要融合、不寻常的内存布局、特定于硬件的行为或性能",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Just as important is knowing when not to write custom CUDA.",
+          "source": "Just as important is knowing when not to write custom CUDA.",
+          "translated": "同样重要的是知道何时不编写自定义CUDA。"
+        },
+        {
+          "quote": "Most of the time, a high-quality framework operation, vendor library, or generated kernel is the right answer.",
+          "source": "Most of the time, a high-quality framework operation, vendor library, or generated kernel is the right answer.",
+          "translated": "大多数时候，高质量的框架操作、供应商库或生成的内核是正确的答案。"
+        },
+        {
+          "quote": "Custom kernels are valuable when they earn their complexity: when you need fusion, unusual memory layouts, hardware-specific behavior, or performance that the",
+          "source": "Custom kernels are valuable when they earn their complexity: when you need fusion, unusual memory layouts, hardware-specific behavior, or performance that the",
+          "translated": "自定义内核在获得复杂性时很有价值：当您需要融合、不寻常的内存布局、特定于硬件的行为或性能"
+        }
+      ]
+    },
+    {
       "id": "12:fallback:1944",
       "pageIndex": 12,
       "bbox": {
@@ -2790,6 +2854,55 @@
           "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
           "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
           "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "0bb1d255-b1e4-4ec6-91d4-1824e5d9997d",
+      "pageIndex": 13,
+      "bbox": {
+        "x": 0.4757035292215428,
+        "y": 0.04258427026251022,
+        "w": 0.06537376253086782,
+        "h": 0.014311670217128336
+      },
+      "kind": "header",
+      "readingOrder": 32,
+      "source": "preface",
+      "translated": "序言",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "preface",
+          "source": "preface",
+          "translated": "序言"
+        }
+      ]
+    },
+    {
+      "id": "01d75fc2-0a6d-4ee5-beee-738f3fdb5c24",
+      "pageIndex": 13,
+      "bbox": {
+        "x": 0.18674165397349776,
+        "y": 0.08259453043684328,
+        "w": 0.7074264282341398,
+        "h": 0.039327175252310914
+      },
+      "kind": "text",
+      "readingOrder": 112,
+      "source": "framework path cannot provide. I want readers to leave with that judgment, not just with syntax.",
+      "translated": "框架路径无法提供。我希望读者带着这种判断离开，而不仅仅是语法。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "framework path cannot provide.",
+          "source": "framework path cannot provide.",
+          "translated": "框架路径无法提供。"
+        },
+        {
+          "quote": "I want readers to leave with that judgment, not just with syntax.",
+          "source": "I want readers to leave with that judgment, not just with syntax.",
+          "translated": "我希望读者带着这种判断离开，而不仅仅是语法。"
         }
       ]
     },
@@ -4352,6 +4465,226 @@
           "quote": "Output matrix",
           "source": "Output matrix",
           "translated": "输出矩阵"
+        }
+      ]
+    },
+    {
+      "id": "28:fallback:754",
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.17502258838416035,
+        "y": 0.4727331560627891,
+        "w": 0.27100271749805477,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10298,
+      "source": "Thread assignment: one thread perelemen",
+      "translated": "线程分配：一个线程pereleman",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Thread assignment: one thread perelemen",
+          "source": "Thread assignment: one thread perelemen",
+          "translated": "线程分配：一个线程pereleman"
+        }
+      ]
+    },
+    {
+      "id": "28:fallback:823",
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.37262873655982526,
+        "y": 0.5092192721347494,
+        "w": 0.06398675274259626,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10321,
+      "source": "8 elements",
+      "translated": "8元素",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "8 elements",
+          "source": "8 elements",
+          "translated": "8元素"
+        }
+      ]
+    },
+    {
+      "id": "28:fallback:835",
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.37262873655982526,
+        "y": 0.5234964479889946,
+        "w": 0.048931046214926555,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10330,
+      "source": "8 thread",
+      "translated": "8螺纹",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "8 thread",
+          "source": "8 thread",
+          "translated": "8螺纹"
+        }
+      ]
+    },
+    {
+      "id": "28:fallback:846",
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.37262873655982526,
+        "y": 0.5361872709705461,
+        "w": 0.09409816579793567,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10338,
+      "source": "All run in paralle",
+      "translated": "全部并行运行",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "All run in paralle",
+          "source": "All run in paralle",
+          "translated": "全部并行运行"
+        }
+      ]
+    },
+    {
+      "id": "28:fallback:2059",
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "29:fallback:2455",
+      "pageIndex": 29,
+      "bbox": {
+        "x": 0.6154020043184993,
+        "y": 0.518737389370913,
+        "w": 0.018819633159587137,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10327,
+      "source": "SM",
+      "translated": "SM",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "SM",
+          "source": "SM",
+          "translated": "SM"
+        }
+      ]
+    },
+    {
+      "id": "29:fallback:2458",
+      "pageIndex": 29,
+      "bbox": {
+        "x": 0.6887985736408891,
+        "y": 0.518737389370913,
+        "w": 0.02070159647554585,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10327,
+      "source": "SM",
+      "translated": "SM",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "SM",
+          "source": "SM",
+          "translated": "SM"
+        }
+      ]
+    },
+    {
+      "id": "29:fallback:2469",
+      "pageIndex": 29,
+      "bbox": {
+        "x": 0.7151460600643111,
+        "y": 0.6218503260960179,
+        "w": 0.05269497284684398,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10392,
+      "source": "L2 cache",
+      "translated": "二级缓存",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "L2 cache",
+          "source": "L2 cache",
+          "translated": "二级缓存"
+        }
+      ]
+    },
+    {
+      "id": "29:fallback:2479",
+      "pageIndex": 29,
+      "bbox": {
+        "x": 0.7057362434845176,
+        "y": 0.682131735258387,
+        "w": 0.07151460600643111,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10430,
+      "source": "GPU VRAM",
+      "translated": "GPU 显存（VRAM）",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "GPU VRAM",
+          "source": "GPU VRAM",
+          "translated": "GPU 显存（VRAM）"
+        }
+      ]
+    },
+    {
+      "id": "29:fallback:2489",
+      "pageIndex": 29,
+      "bbox": {
+        "x": 0.6944444635887653,
+        "y": 0.7392404386753683,
+        "w": 0.08845227585005953,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10466,
+      "source": "System memor",
+      "translated": "系统记忆",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "System memor",
+          "source": "System memor",
+          "translated": "系统记忆"
         }
       ]
     },

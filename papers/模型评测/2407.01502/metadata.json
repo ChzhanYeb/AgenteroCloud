@@ -43,7 +43,8 @@
   "tags": [
     "@arxiv:Computer Science - Machine Learning",
     "@arxiv:Computer Science - Artificial Intelligence",
-    "#submitted:NeurIPS 2024"
+    "#submitted:NeurIPS 2024",
+    "模型评测"
   ],
   "arxiv_id": "2407.01502",
   "doi": "10.48550/ARXIV.2407.01502",
@@ -62,5 +63,5 @@
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:33:37.857Z",
-  "updated_at": "2026-11-22T01:47:28.622Z"
+  "updated_at": "2026-11-22T02:00:25.789Z"
 }
