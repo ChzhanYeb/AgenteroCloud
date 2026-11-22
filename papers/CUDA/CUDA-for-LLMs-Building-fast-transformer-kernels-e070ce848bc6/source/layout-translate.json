@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:56:08.440Z",
+    "generatedAt": "2026-11-22T01:56:45.722Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -72,6 +72,50 @@
           "quote": "M A N N I N G Shelter Island",
           "source": "M A N N I N G Shelter Island",
           "translated": "M A N N I N G避难所岛"
+        }
+      ]
+    },
+    {
+      "id": "1:fallback:56",
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.3293435802927749,
+        "y": 0.4394197457362167,
+        "w": 0.5627070314716554,
+        "h": 0.03331341032657239
+      },
+      "kind": "text",
+      "readingOrder": 10277,
+      "source": "Building fast transformer kernels",
+      "translated": "构建快速Transformer内核",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Building fast transformer kernels",
+          "source": "Building fast transformer kernels",
+          "translated": "构建快速Transformer内核"
+        }
+      ]
+    },
+    {
+      "id": "1:fallback:91",
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
         }
       ]
     },
@@ -673,6 +717,28 @@
       ]
     },
     {
+      "id": "2:fallback:2130",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
       "id": "f9a02bbf-8fb9-4e6b-827d-2be1df3f71cb",
       "pageIndex": 3,
       "bbox": {
@@ -691,6 +757,28 @@
           "quote": "For every curious CUDA learner who, like me, wished this resource existed at the beginning",
           "source": "For every curious CUDA learner who, like me, wished this resource existed at the beginning",
           "translated": "对于每一个好奇的CUDA学习者，像我一样，希望这个资源在一开始就存在"
+        }
+      ]
+    },
+    {
+      "id": "3:fallback:93",
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
         }
       ]
     },
@@ -877,6 +965,28 @@
           "quote": "1.7 Getting ready to build 14",
           "source": "1.7 Getting ready to build 14",
           "translated": "1.7准备构建14"
+        }
+      ]
+    },
+    {
+      "id": "5:fallback:804",
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
         }
       ]
     },
@@ -1172,6 +1282,28 @@
       ]
     },
     {
+      "id": "6:fallback:1583",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
       "id": "511a3db9-5bdd-463e-b71a-bf29ff9b8734",
       "pageIndex": 7,
       "bbox": {
@@ -1349,6 +1481,214 @@
           "quote": "6.3 Softmax 141 Online softmax: A better sequential algorithm 143  ■  Parallel softmax with warp shuffles 145  ■  Fused softmax with shared memory 147 Vectorized softmax 149  ■  Profiling softmax optimizations 150 Softmax optimization summary 151",
           "source": "⟪S0⟫6.3 Softmax 141 ⟪/S0⟫Online softmax: A better sequential algorithm 143  ⟪S1⟫■  ⟪/S1⟫Parallel softmax with warp shuffles 145  ⟪S2⟫■  ⟪/S2⟫Fused softmax with shared memory 147 Vectorized softmax 149  ⟪S3⟫■  ⟪/S3⟫Profiling softmax optimizations 150 Softmax optimization summary 151",
           "translated": "⟪S0⟫6.3 Softmax 141 ⟪/S0⟫Online softmax：更好的顺序algorithm 143 ⟪S1⟫■⟪/S1⟫带经纱洗牌的并行softmax 145 ⟪S2⟫■⟪/S2⟫Fuse softmax带共享内存147矢量化softmax 149 ⟪S3⟫■⟪/S3⟫ Profile softmax优化150 Softmax优化摘要151"
+        }
+      ]
+    },
+    {
+      "id": "7:fallback:1778",
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "fa33a79d-87d9-447a-8a63-85c4165bdb2b",
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.2633240377689911,
+        "y": 0.08179420029521461,
+        "w": 0.56590436072363,
+        "h": 0.08285259879079723
+      },
+      "kind": "text",
+      "readingOrder": 43,
+      "source": "⟪S0⟫6.4 Layer normalization 151 ⟪/S0⟫Fused LayerNorm with warp operations 155  ⟪S1⟫■  ⟪/S1⟫Fused LayerNorm kernel 157  ⟪S2⟫■  ⟪/S2⟫LayerNorm optimization summary 159 LayerNorm profiling results 159",
+      "translated": "⟪S0⟫6.4层归一化151 ⟪/S0⟫融合带扭曲操作的LayerNorm 155 ⟪S1⟫■⟪/S1⟫F融合的LayerNorm内核157 ⟪S2⟫■⟪/S2⟫LayerNorm优化摘要159 LayerNorm分析结果159",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "6.4 Layer normalization 151 Fused LayerNorm with warp operations 155  ■  Fused LayerNorm kernel 157  ■  LayerNorm optimization summary 159 LayerNorm profiling results 159",
+          "source": "⟪S0⟫6.4 Layer normalization 151 ⟪/S0⟫Fused LayerNorm with warp operations 155  ⟪S1⟫■  ⟪/S1⟫Fused LayerNorm kernel 157  ⟪S2⟫■  ⟪/S2⟫LayerNorm optimization summary 159 LayerNorm profiling results 159",
+          "translated": "⟪S0⟫6.4层归一化151 ⟪/S0⟫融合带扭曲操作的LayerNorm 155 ⟪S1⟫■⟪/S1⟫F融合的LayerNorm内核157 ⟪S2⟫■⟪/S2⟫LayerNorm优化摘要159 LayerNorm分析结果159"
+        }
+      ]
+    },
+    {
+      "id": "f036c868-610b-4770-8e4e-6586a07ebd60",
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.26283363205917804,
+        "y": 0.1777060597213273,
+        "w": 0.5700503301755055,
+        "h": 0.08335988999925655
+      },
+      "kind": "text",
+      "readingOrder": 66,
+      "source": "⟪S0⟫6.5 Top-k 160 ⟪/S0⟫A better sequential algorithm: min-heap 162  ⟪S1⟫■  ⟪/S1⟫Parallel top-k with block reduction 164  ⟪S2⟫■  ⟪/S2⟫Top-k optimization summary 165 Top-k profiling analysis 165",
+      "translated": "⟪S0⟫6.5 Top-k 160 ⟪/S0⟫A更好的顺序算法：min-heap 162 ⟪S1⟫■⟪/S1⟫并行top-k带块缩减164 ⟪S2⟫■⟪/S2⟫Top-k优化总结165 Top-k分析165",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "6.5 Top-k 160 A better sequential algorithm: min-heap 162  ■  Parallel top-k with block reduction 164  ■  Top-k optimization summary 165 Top-k profiling analysis 165",
+          "source": "⟪S0⟫6.5 Top-k 160 ⟪/S0⟫A better sequential algorithm: min-heap 162  ⟪S1⟫■  ⟪/S1⟫Parallel top-k with block reduction 164  ⟪S2⟫■  ⟪/S2⟫Top-k optimization summary 165 Top-k profiling analysis 165",
+          "translated": "⟪S0⟫6.5 Top-k 160 ⟪/S0⟫A更好的顺序算法：min-heap 162 ⟪S1⟫■⟪/S1⟫并行top-k带块缩减164 ⟪S2⟫■⟪/S2⟫Top-k优化总结165 Top-k分析165"
+        }
+      ]
+    },
+    {
+      "id": "af5d89f9-00a6-48fe-a753-598493470215",
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.2640204299539187,
+        "y": 0.27390491990793514,
+        "w": 0.5668714205723042,
+        "h": 0.16274300801385308
+      },
+      "kind": "text",
+      "readingOrder": 107,
+      "source": "⟪S0⟫6.6 General matrix-matrix multiplication 166 ⟪/S0⟫Understanding the GEMM memory access problem 168 Improving coalescing through thread remapping 169 GEMM optimization with tiling and shared memory 169 1D blocktiling: Computing multiple outputs per thread 174 2D blocktiling: Maximum register reuse 175  ⟪S1⟫■  ⟪/S1⟫Vectorizing memory access for tiling 177  ⟪S2⟫■  ⟪/S2⟫GEMM profiling: Understanding the bottleneck 179  ⟪S3⟫■  ⟪/S3⟫GEMM optimization summary 180",
+      "translated": "⟪S0⟫6.6通用矩阵-矩阵乘法166⟪/S0⟫UnderstandingGEMM内存访问问题168通过线程重映射改进合并169 GEMM使用平铺和共享内存进行优化169 1D块：计算每个线程的多个输出174 2D块：最大寄存器重用175 ⟪S1⟫■⟪/S1⟫对平铺进行内存访问矢量化177 ⟪S2⟫■⟪/S2⟫GEMM分析：了解瓶颈179 ⟪S3⟫■⟪/S3⟫GEMM优化总结180",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "6.6 General matrix-matrix multiplication 166 Understanding the GEMM memory access problem 168 Improving coalescing through thread remapping 169 GEMM optimization with tiling and shared memory 169 1D blocktiling: Computing multiple outputs per thread 174 2D blocktiling: Maximum register reuse 175  ■  Vectorizing memory access for tiling 177  ■  GEMM profiling: Understanding the bottleneck 179  ■  GEMM optimization summary 180",
+          "source": "⟪S0⟫6.6 General matrix-matrix multiplication 166 ⟪/S0⟫Understanding the GEMM memory access problem 168 Improving coalescing through thread remapping 169 GEMM optimization with tiling and shared memory 169 1D blocktiling: Computing multiple outputs per thread 174 2D blocktiling: Maximum register reuse 175  ⟪S1⟫■  ⟪/S1⟫Vectorizing memory access for tiling 177  ⟪S2⟫■  ⟪/S2⟫GEMM profiling: Understanding the bottleneck 179  ⟪S3⟫■  ⟪/S3⟫GEMM optimization summary 180",
+          "translated": "⟪S0⟫6.6通用矩阵-矩阵乘法166⟪/S0⟫UnderstandingGEMM内存访问问题168通过线程重映射改进合并169 GEMM使用平铺和共享内存进行优化169 1D块：计算每个线程的多个输出174 2D块：最大寄存器重用175 ⟪S1⟫■⟪/S1⟫对平铺进行内存访问矢量化177 ⟪S2⟫■⟪/S2⟫GEMM分析：了解瓶颈179 ⟪S3⟫■⟪/S3⟫GEMM优化总结180"
+        }
+      ]
+    },
+    {
+      "id": "bb111468-935a-4253-a5c5-7f72a40ed1e3",
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.2547386076129615,
+        "y": 0.4589217909738055,
+        "w": 0.1845476037471337,
+        "h": 0.021678467764918715
+      },
+      "kind": "header",
+      "readingOrder": 157,
+      "source": "Tensor cores 183",
+      "translated": "张量核183",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Tensor cores 183",
+          "source": "Tensor cores 183",
+          "translated": "张量核183"
+        }
+      ]
+    },
+    {
+      "id": "aca713a9-536d-4d58-aae5-7984bdbad2fd",
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.26410713088142346,
+        "y": 0.4868970442914849,
+        "w": 0.5228650154982214,
+        "h": 0.08604335558026864
+      },
+      "kind": "text",
+      "readingOrder": 189,
+      "source": "⟪S0⟫7.1 Tensor core fundamentals 184 ⟪/S0⟫What are tensor cores? 184  ⟪S1⟫■  ⟪/S1⟫When to use tensor cores 185 A brief history of tensor core instructions 185  ⟪S2⟫■  ⟪/S2⟫Tensor core performance across GPU generations 186",
+      "translated": "⟪S0⟫7.1张量核心基础184 ⟪/S0⟫什么是张量核心？184 ⟪S1⟫■⟪/S1⟫何时使用张量核心185张量核心指令简史185 ⟪S2⟫■⟪/S2⟫Tensor核心跨GPU代的性能186",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "7.1 Tensor core fundamentals 184 What are tensor cores?",
+          "source": "⟪S0⟫7.1 Tensor core fundamentals 184 ⟪/S0⟫What are tensor cores?",
+          "translated": "⟪S0⟫7.1张量核心基础184 ⟪/S0⟫什么是张量核心？"
+        },
+        {
+          "quote": "184 ■ When to use tensor cores 185 A brief history of tensor core instructions 185 ■ Tensor core performance across GPU generations 186",
+          "source": "184  ⟪S1⟫■  ⟪/S1⟫When to use tensor cores 185 A brief history of tensor core instructions 185  ⟪S2⟫■  ⟪/S2⟫Tensor core performance across GPU generations 186",
+          "translated": "184 ⟪S1⟫■⟪/S1⟫何时使用张量核心185张量核心指令简史185 ⟪S2⟫■⟪/S2⟫Tensor核心跨GPU代的性能186"
+        }
+      ]
+    },
+    {
+      "id": "65ce1407-7a25-43f3-8ed0-c5b480e18dba",
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.2635897100812853,
+        "y": 0.583520827266926,
+        "w": 0.5269971185434795,
+        "h": 0.0829593135098632
+      },
+      "kind": "text",
+      "readingOrder": 207,
+      "source": "⟪S0⟫7.2 WMMA: The high-level tensor core API 187 ⟪/S0⟫WMMA fragments and tiling strategy 188  ⟪S1⟫■  ⟪/S1⟫Loading data with WMMA 190  ⟪S2⟫■  ⟪/S2⟫Matrix multiply with WMMA 191 Storing results 193",
+      "translated": "⟪S0⟫7.2 WMMA：高级张量核心API（应用程序接口） 187 ⟪/S0⟫WMMA片段和平铺策略188 ⟪S1⟫■⟪/S1⟫用WMMA 190加载数据⟪S2⟫■⟪/S2⟫Matrix乘以WMMA 191存储结果193",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "7.2 WMMA: The high-level tensor core API 187 WMMA fragments and tiling strategy 188  ■  Loading data with WMMA 190  ■  Matrix multiply with WMMA 191 Storing results 193",
+          "source": "⟪S0⟫7.2 WMMA: The high-level tensor core API 187 ⟪/S0⟫WMMA fragments and tiling strategy 188  ⟪S1⟫■  ⟪/S1⟫Loading data with WMMA 190  ⟪S2⟫■  ⟪/S2⟫Matrix multiply with WMMA 191 Storing results 193",
+          "translated": "⟪S0⟫7.2 WMMA：高级张量核心API（应用程序接口） 187 ⟪/S0⟫WMMA片段和平铺策略188 ⟪S1⟫■⟪/S1⟫用WMMA 190加载数据⟪S2⟫■⟪/S2⟫Matrix乘以WMMA 191存储结果193"
+        }
+      ]
+    },
+    {
+      "id": "9dd0e209-a7c6-42a5-8b00-bdbb45a5271a",
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.2629152802173977,
+        "y": 0.6787529505972442,
+        "w": 0.5273196345102305,
+        "h": 0.10388444965553131
+      },
+      "kind": "text",
+      "readingOrder": 222,
+      "source": "⟪S0⟫7.3 WGMMA: Asynchronous warp group operations 193 ⟪/S0⟫Basic WGMMA: The first asynchronous tensor cores 194 Understanding PTX inline assembly 195  ⟪S1⟫■  ⟪/S1⟫WGMMA with larger tiles 198  ⟪S2⟫■  ⟪/S2⟫WGMMA with asynchronous memory operations 199  ⟪S3⟫■  ⟪/S3⟫WGMMA with maximum tiles 201",
+      "translated": "⟪S0⟫7.3 WGMMA：异步扭曲组操作193 ⟪/S0⟫Basic WGMMA：第一个异步张量核心194了解PTX内联组件195 ⟪S1⟫■⟪/S1⟫WGMMA与更大的瓦片198 ⟪S2⟫■⟪/S2⟫WGMMA与异步内存操作199 ⟪S3⟫■⟪/S3⟫WGMMA与最大瓦片201",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "7.3 WGMMA: Asynchronous warp group operations 193 Basic WGMMA: The first asynchronous tensor cores 194 Understanding PTX inline assembly 195  ■  WGMMA with larger tiles 198  ■  WGMMA with asynchronous memory operations 199  ■  WGMMA with maximum tiles 201",
+          "source": "⟪S0⟫7.3 WGMMA: Asynchronous warp group operations 193 ⟪/S0⟫Basic WGMMA: The first asynchronous tensor cores 194 Understanding PTX inline assembly 195  ⟪S1⟫■  ⟪/S1⟫WGMMA with larger tiles 198  ⟪S2⟫■  ⟪/S2⟫WGMMA with asynchronous memory operations 199  ⟪S3⟫■  ⟪/S3⟫WGMMA with maximum tiles 201",
+          "translated": "⟪S0⟫7.3 WGMMA：异步扭曲组操作193 ⟪/S0⟫Basic WGMMA：第一个异步张量核心194了解PTX内联组件195 ⟪S1⟫■⟪/S1⟫WGMMA与更大的瓦片198 ⟪S2⟫■⟪/S2⟫WGMMA与异步内存操作199 ⟪S3⟫■⟪/S3⟫WGMMA与最大瓦片201"
+        }
+      ]
+    },
+    {
+      "id": "5371a59c-dcda-41f4-815c-9db46f88edee",
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.26465452379027515,
+        "y": 0.7948453511443051,
+        "w": 0.5212977096256173,
+        "h": 0.020498954900004956
+      },
+      "kind": "text",
+      "readingOrder": 233,
+      "source": "7.4 Performance analysis: CUDA cores vs. tensor cores 202",
+      "translated": "7.4性能分析：CUDA内核vs.张量核202",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "7.4 Performance analysis: CUDA cores vs.",
+          "source": "7.4 Performance analysis: CUDA cores vs.",
+          "translated": "7.4性能分析：CUDA内核vs."
+        },
+        {
+          "quote": "tensor cores 202",
+          "source": "tensor cores 202",
+          "translated": "张量核202"
         }
       ]
     },
@@ -3339,6 +3679,94 @@
           "quote": "storing results 193",
           "source": "storing results 193",
           "translated": "存储结果193"
+        }
+      ]
+    },
+    {
+      "id": "db0d1dda-6bf9-4110-92b7-b9ecbcc2af20",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.3903039194790687,
+        "y": 0.7978581935994499,
+        "w": 0.15562638491812675,
+        "h": 0.01538903934439433
+      },
+      "kind": "text",
+      "readingOrder": 278,
+      "source": "volatile qualifier 196",
+      "translated": "易失性限定符196",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "volatile qualifier 196",
+          "source": "volatile qualifier 196",
+          "translated": "易失性限定符196"
+        }
+      ]
+    },
+    {
+      "id": "cb7be9c2-0e72-4359-833f-ec7f525f282c",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.13829393647015376,
+        "y": 0.7966396685728092,
+        "w": 0.19643339657716224,
+        "h": 0.03485751170945678
+      },
+      "kind": "text",
+      "readingOrder": 279,
+      "source": "inference kernels 117–122 GEMV 118–122",
+      "translated": "推理内核117-122 GEMV 118-122",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "inference kernels 117–122 GEMV 118–122",
+          "source": "inference kernels 117–122 GEMV 118–122",
+          "translated": "推理内核117-122 GEMV 118-122"
+        }
+      ]
+    },
+    {
+      "id": "dd2350b5-a6bf-4be1-9a55-1d7ea16e7261",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.39043365507224537,
+        "y": 0.8155381083961143,
+        "w": 0.16761077852150458,
+        "h": 0.01624096621604877
+      },
+      "kind": "text",
+      "readingOrder": 291,
+      "source": "VRAM (video RAM) 5",
+      "translated": "VRAM（视频RAM）5",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "VRAM (video RAM) 5",
+          "source": "VRAM (video RAM) 5",
+          "translated": "VRAM（视频RAM）5"
+        }
+      ]
+    },
+    {
+      "id": "801b9e21-e0f0-45a9-8036-58cede0a9e34",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6579392900583549,
+        "y": 0.7993823300270123,
+        "w": 0.21789240724952963,
+        "h": 0.03337040295400476
+      },
+      "kind": "text",
+      "readingOrder": 294,
+      "source": "workflows, compiler and generated-kernel 320",
+      "translated": "工作流、编译器和生成内核320",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "workflows, compiler and generated-kernel 320",
+          "source": "workflows, compiler and generated-kernel 320",
+          "translated": "工作流、编译器和生成内核320"
         }
       ]
     }
