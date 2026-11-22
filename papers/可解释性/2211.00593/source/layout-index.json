@@ -3,7 +3,7 @@
   "source": {
     "mode": "sidebar",
     "from": "layout.json",
-    "generatedAt": "2026-11-17T15:01:13.343Z",
+    "generatedAt": "2026-11-22T02:02:27.733Z",
     "minScore": 0.3
   },
   "items": [
@@ -111,7 +111,7 @@
     },
     {
       "id": "figure-7",
-      "stableKey": "p11:figure:Figure 7: Plot of minimality scores |F(C (K all components v in our circuit. The",
+      "stableKey": "p11:figure:Figure 7: Plot of minimality scores F ( C ( K v )) F ( C K ) (as percentages of ",
       "kind": "chart",
       "section": "figure",
       "page": 11,
@@ -123,7 +123,7 @@
         "h": 0.31504272692131274
       },
       "score": 0.9552508592605591,
-      "title": "Figure 7: Plot of minimality scores |F(C (K all components v in our circuit. The sets K \\ used for each component, as well as the initial and final ∪ { } − values of the logit difference for each of these v are in Appendix K.",
+      "title": "Figure 7: Plot of minimality scores F ( C ( K v )) F ( C K ) (as percentages of F ( M ) ) for all components v in our circuit. The sets | K \\ used for each component, as well as the initial and final ∪ { } − \\ | values of the logit difference for each of these v are in Appendix K .",
       "layoutRegionId": "4ea5ec38-4bcb-4bb1-9c19-68081a26966f"
     },
     {

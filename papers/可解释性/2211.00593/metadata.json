@@ -44,7 +44,8 @@
     "@arxiv:Computer Science - Machine Learning",
     "@arxiv:Computer Science - Artificial Intelligence",
     "@arxiv:Computer Science - Computation and Language",
-    "#submitted:ICLR 2023"
+    "#submitted:ICLR 2023",
+    "可解释性"
   ],
   "arxiv_id": "2211.00593",
   "doi": "10.48550/ARXIV.2211.00593",
@@ -63,5 +64,5 @@
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:36:01.621Z",
-  "updated_at": "2026-11-22T01:48:59.916Z"
+  "updated_at": "2026-11-22T02:02:21.956Z"
 }

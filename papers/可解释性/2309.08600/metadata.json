@@ -43,7 +43,8 @@
   "tags": [
     "@arxiv:Computer Science - Machine Learning",
     "@arxiv:Computer Science - Computation and Language",
-    "#submitted:ICLR 2024"
+    "#submitted:ICLR 2024",
+    "可解释性"
   ],
   "arxiv_id": "2309.08600",
   "doi": "10.48550/ARXIV.2309.08600",
@@ -62,5 +63,5 @@
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:36:00.597Z",
-  "updated_at": "2026-11-22T01:48:57.396Z"
+  "updated_at": "2026-11-22T02:02:18.113Z"
 }
