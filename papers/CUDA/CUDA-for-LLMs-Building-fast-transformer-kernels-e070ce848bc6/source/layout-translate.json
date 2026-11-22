@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:53:39.258Z",
+    "generatedAt": "2026-11-22T01:53:49.931Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -559,6 +559,116 @@
           "quote": "Production editor: Kathy Rossland",
           "source": "Production editor: Kathy Rossland",
           "translated": "制作编辑：凯西·罗斯兰"
+        }
+      ]
+    },
+    {
+      "id": "b6039e6a-e341-4e17-8fb9-4f02c3a4a6aa",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.5390058860168745,
+        "y": 0.8320372518710349,
+        "w": 0.1984233981802681,
+        "h": 0.017129630346699048
+      },
+      "kind": "text",
+      "readingOrder": 208,
+      "source": "Copy editor: Kari Lucke",
+      "translated": "文案编辑：Kari Lucke",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Copy editor: Kari Lucke",
+          "source": "Copy editor: Kari Lucke",
+          "translated": "文案编辑：Kari Lucke"
+        }
+      ]
+    },
+    {
+      "id": "c3c9aafe-8547-497a-b743-b9aa4a2a3593",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.5374995291737711,
+        "y": 0.8488270988736617,
+        "w": 0.22305800257599365,
+        "h": 0.01732139980670103
+      },
+      "kind": "text",
+      "readingOrder": 221,
+      "source": "Proofreader: Katie Tennant",
+      "translated": "校对：凯蒂·滕南特",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Proofreader: Katie Tennant",
+          "source": "Proofreader: Katie Tennant",
+          "translated": "校对：凯蒂·滕南特"
+        }
+      ]
+    },
+    {
+      "id": "2ca32326-0b90-46da-8323-3200f184c6d0",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.46250624131842366,
+        "y": 0.8659293335832177,
+        "w": 0.32234443097549687,
+        "h": 0.01731268741326328
+      },
+      "kind": "text",
+      "readingOrder": 228,
+      "source": "Technical proofreader: Mohamed Maher",
+      "translated": "技术校对：Mohamed Maher",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Technical proofreader: Mohamed Maher",
+          "source": "Technical proofreader: Mohamed Maher",
+          "translated": "技术校对：Mohamed Maher"
+        }
+      ]
+    },
+    {
+      "id": "83363f9c-3384-45cc-a2a3-9c217c696264",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.5526504875463016,
+        "y": 0.8833793863996828,
+        "w": 0.2553252169016051,
+        "h": 0.018628742844220857
+      },
+      "kind": "text",
+      "readingOrder": 239,
+      "source": "Typesetter: Tamara ŠveliÊ SabljiÊ",
+      "translated": "排字机：TamaraŠvelia Sablji😍",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Typesetter: Tamara ŠveliÊ SabljiÊ",
+          "source": "Typesetter: Tamara ŠveliÊ SabljiÊ",
+          "translated": "排字机：TamaraŠvelia Sablji😍"
+        }
+      ]
+    },
+    {
+      "id": "77c9f0f0-2415-460c-ab64-214ab0268cbd",
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.5161951590795508,
+        "y": 0.9015697990496132,
+        "w": 0.23648407183384287,
+        "h": 0.018493603941564234
+      },
+      "kind": "text",
+      "readingOrder": 247,
+      "source": "Cover designer: Marija Tudor",
+      "translated": "封面设计师：Marija Tudor",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Cover designer: Marija Tudor",
+          "source": "Cover designer: Marija Tudor",
+          "translated": "封面设计师：Marija Tudor"
         }
       ]
     },
@@ -1197,6 +1307,116 @@
           "quote": "W",
           "source": "W",
           "translated": "W"
+        }
+      ]
+    },
+    {
+      "id": "b35b1c0d-c136-438d-ab06-53edd1c8fcee",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.15477183531279398,
+        "y": 0.08483454729242045,
+        "w": 0.1815003245255909,
+        "h": 0.029403807528901916
+      },
+      "kind": "text",
+      "readingOrder": 26,
+      "source": "scaling up with block-level reduction 135–138",
+      "translated": "通过块级缩减进行扩展135-138",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "scaling up with block-level reduction 135–138",
+          "source": "scaling up with block-level reduction 135–138",
+          "translated": "通过块级缩减进行扩展135-138"
+        }
+      ]
+    },
+    {
+      "id": "20b4042b-3809-4c12-ba1f-d42a8ead2f69",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.4213938959790981,
+        "y": 0.085746662282074,
+        "w": 0.14157365743326672,
+        "h": 0.029519767065449048
+      },
+      "kind": "text",
+      "readingOrder": 27,
+      "source": "memory layout and contiguity 117",
+      "translated": "内存布局和连续性117",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "memory layout and contiguity 117",
+          "source": "memory layout and contiguity 117",
+          "translated": "内存布局和连续性117"
+        }
+      ]
+    },
+    {
+      "id": "4e59f68f-acec-44de-bfbc-111d1615214c",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6565850904721308,
+        "y": 0.10865518689439184,
+        "w": 0.17397143991063027,
+        "h": 0.01660394630764894
+      },
+      "kind": "text",
+      "readingOrder": 37,
+      "source": "warp, defined 129–130",
+      "translated": "经线，定义为129-130",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "warp, defined 129–130",
+          "source": "warp, defined 129–130",
+          "translated": "经线，定义为129-130"
+        }
+      ]
+    },
+    {
+      "id": "9b58c28b-375a-4da7-8dc6-01ec9f78c5e7",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6568211351827081,
+        "y": 0.12854208405484857,
+        "w": 0.19611439745266937,
+        "h": 0.01777944179114418
+      },
+      "kind": "text",
+      "readingOrder": 44,
+      "source": "warp divergence 8, 11, 375",
+      "translated": "经纱发散8,11,375",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "warp divergence 8, 11, 375",
+          "source": "warp divergence 8, 11, 375",
+          "translated": "经纱发散8,11,375"
+        }
+      ]
+    },
+    {
+      "id": "44a44bd5-bd7f-4e5e-ac9b-40500ea4f897",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.1399911788983493,
+        "y": 0.11871936867673846,
+        "w": 0.18745821417219105,
+        "h": 0.0909963875512676
+      },
+      "kind": "text",
+      "readingOrder": 49,
+      "source": "top-k 161– 166 min-heap 162–164 parallel top-k with block reduction 164 profiling analysis 165",
+      "translated": "top-k 161-166 min-heap 162-164并行top-k，具有块缩减164分析165",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "top-k 161– 166 min-heap 162–164 parallel top-k with block reduction 164 profiling analysis 165",
+          "source": "top-k 161– 166 min-heap 162–164 parallel top-k with block reduction 164 profiling analysis 165",
+          "translated": "top-k 161-166 min-heap 162-164并行top-k，具有块缩减164分析165"
         }
       ]
     }
