@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:55:45.304Z",
+    "generatedAt": "2026-11-22T01:55:56.869Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -1217,6 +1217,72 @@
           "quote": "GPU time 82",
           "source": "GPU time 82",
           "translated": "GPU时间82"
+        }
+      ]
+    },
+    {
+      "id": "b0221290-f340-409d-8d59-94f840d051f7",
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.28254945168266404,
+        "y": 0.2920304736289403,
+        "w": 0.6024557205157132,
+        "h": 0.10289694826154838
+      },
+      "kind": "text",
+      "readingOrder": 78,
+      "source": "⟪S0⟫4.6 Level 6: The cuBLAS approach 83 ⟪/S0⟫Integrating cuBLAS and optimizing the training loop 84  ⟪S1⟫■  ⟪/S1⟫Dissecting the cublasSgemm API call 86  ⟪S2⟫■  ⟪/S2⟫Debugging gradient instability 87 Performance and final verification 88  ⟪S3⟫■  ⟪/S3⟫A necessary lie and the path forward 88",
+      "translated": "⟪S0⟫4.6 6级：cuBLAS方法83 ⟪/S0⟫集成cuBLAS并优化训练循环84 ⟪S1⟫■⟪/S1⟫剖析cublasSgemm API调用86 ⟪S2⟫■⟪/S2⟫调试梯度不稳定性87性能和最终验证88 ⟪S3⟫■⟪/S3⟫A必要的谎言和前进的路径88",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "4.6 Level 6: The cuBLAS approach 83 Integrating cuBLAS and optimizing the training loop 84  ■  Dissecting the cublasSgemm API call 86  ■  Debugging gradient instability 87 Performance and final verification 88  ■  A necessary lie and the path forward 88",
+          "source": "⟪S0⟫4.6 Level 6: The cuBLAS approach 83 ⟪/S0⟫Integrating cuBLAS and optimizing the training loop 84  ⟪S1⟫■  ⟪/S1⟫Dissecting the cublasSgemm API call 86  ⟪S2⟫■  ⟪/S2⟫Debugging gradient instability 87 Performance and final verification 88  ⟪S3⟫■  ⟪/S3⟫A necessary lie and the path forward 88",
+          "translated": "⟪S0⟫4.6 6级：cuBLAS方法83 ⟪/S0⟫集成cuBLAS并优化训练循环84 ⟪S1⟫■⟪/S1⟫剖析cublasSgemm API调用86 ⟪S2⟫■⟪/S2⟫调试梯度不稳定性87性能和最终验证88 ⟪S3⟫■⟪/S3⟫A必要的谎言和前进的路径88"
+        }
+      ]
+    },
+    {
+      "id": "31ccd9e2-7247-443c-9698-263abde14fd0::paragraph-5",
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.496528449153198,
+        "w": 0.5100120586248114,
+        "h": 0.060281409162369085
+      },
+      "kind": "text",
+      "readingOrder": 137.004,
+      "source": "⟪S0⟫5.2 Inference: Theory and optimization 105 ⟪/S0⟫Optimizing autoregressive generation 105  ⟪S1⟫■  ⟪/S1⟫Deploying the optimized stack 114",
+      "translated": "⟪S0⟫5.2推理：理论与优化105 ⟪/S0⟫优化自回归生成105 ⟪S1⟫■⟪/S1⟫部署优化堆栈114",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "5.2 Inference: Theory and optimization 105 Optimizing autoregressive generation 105  ■  Deploying the optimized stack 114",
+          "source": "⟪S0⟫5.2 Inference: Theory and optimization 105 ⟪/S0⟫Optimizing autoregressive generation 105  ⟪S1⟫■  ⟪/S1⟫Deploying the optimized stack 114",
+          "translated": "⟪S0⟫5.2推理：理论与优化105 ⟪/S0⟫优化自回归生成105 ⟪S1⟫■⟪/S1⟫部署优化堆栈114"
+        }
+      ]
+    },
+    {
+      "id": "31ccd9e2-7247-443c-9698-263abde14fd0::paragraph-6",
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.28417646070976577,
+        "y": 0.5695006812971185,
+        "w": 0.5194218752046049,
+        "h": 0.05869505628967516
+      },
+      "kind": "text",
+      "readingOrder": 137.005,
+      "source": "⟪S0⟫5.3 Inference kernels 117 ⟪/S0⟫Memory layout and contiguity 117  ⟪S1⟫■  ⟪/S1⟫GEMV: The inference workhorse 118",
+      "translated": "⟪S0⟫5.3推理内核117 ⟪/S0⟫内存布局和连续性117 ⟪S1⟫■⟪/S1⟫GEMV：推理主力118",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "5.3 Inference kernels 117 Memory layout and contiguity 117  ■  GEMV: The inference workhorse 118",
+          "source": "⟪S0⟫5.3 Inference kernels 117 ⟪/S0⟫Memory layout and contiguity 117  ⟪S1⟫■  ⟪/S1⟫GEMV: The inference workhorse 118",
+          "translated": "⟪S0⟫5.3推理内核117 ⟪/S0⟫内存布局和连续性117 ⟪S1⟫■⟪/S1⟫GEMV：推理主力118"
         }
       ]
     },
@@ -2987,6 +3053,138 @@
           "quote": "binding pipeline 93–95",
           "source": "binding pipeline 93–95",
           "translated": "绑定管道93-95"
+        }
+      ]
+    },
+    {
+      "id": "6bbf571d-884a-4b39-8950-6e36ed431e59",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.389367635588767,
+        "y": 0.6611781169458762,
+        "w": 0.2075723843650782,
+        "h": 0.0284423828125
+      },
+      "kind": "text",
+      "readingOrder": 215,
+      "source": "vectorizing memory access for tiling 178–179",
+      "translated": "平铺178-179的向量化内存访问",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "vectorizing memory access for tiling 178–179",
+          "source": "vectorizing memory access for tiling 178–179",
+          "translated": "平铺178-179的向量化内存访问"
+        }
+      ]
+    },
+    {
+      "id": "55a0a33e-6747-4a29-ba15-5c23cc0cbdaf",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6576861348336077,
+        "y": 0.64894886909261,
+        "w": 0.2098524177960371,
+        "h": 0.04917081247521808
+      },
+      "kind": "text",
+      "readingOrder": 218,
+      "source": "WMMA (Warp Matrix Multiply Accumulate) 186, 188–193",
+      "translated": "WMMA（经纱矩阵乘法累积）186、188-193",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "WMMA (Warp Matrix Multiply Accumulate) 186, 188–193",
+          "source": "WMMA (Warp Matrix Multiply Accumulate) 186, 188–193",
+          "translated": "WMMA（经纱矩阵乘法累积）186、188-193"
+        }
+      ]
+    },
+    {
+      "id": "a817c52f-551a-4638-b8b3-7576575ff692",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.3911102668137788,
+        "y": 0.6900634996218566,
+        "w": 0.22394519421926443,
+        "h": 0.04917693905351162
+      },
+      "kind": "text",
+      "readingOrder": 221,
+      "source": "compute-bound kernels 179 reaching peak performance 179",
+      "translated": "计算绑定内核179达到峰值性能179",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "compute-bound kernels 179 reaching peak performance 179",
+          "source": "compute-bound kernels 179 reaching peak performance 179",
+          "translated": "计算绑定内核179达到峰值性能179"
+        }
+      ]
+    },
+    {
+      "id": "76222840-d1b7-4860-b2ec-b6004463b1f6",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6728053411446084,
+        "y": 0.7039853972541633,
+        "w": 0.1437828659674859,
+        "h": 0.03232133397972839
+      },
+      "kind": "text",
+      "readingOrder": 239,
+      "source": "fragments and tiling strategy 188",
+      "translated": "片段和平铺策略188",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "fragments and tiling strategy 188",
+          "source": "fragments and tiling strategy 188",
+          "translated": "片段和平铺策略188"
+        }
+      ]
+    },
+    {
+      "id": "c174d03d-6b70-4c1e-ac37-6632fe0f795b",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.15208252756974658,
+        "y": 0.696118347990806,
+        "w": 0.17555887073362533,
+        "h": 0.09784472811136996
+      },
+      "kind": "text",
+      "readingOrder": 243,
+      "source": "establishing baseline scenario 92–105 reference implementation 92 tokenization and embedding 99–105",
+      "translated": "建立基线场景92-105参考实现92标记化和Embedding（嵌入） 99-105",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "establishing baseline scenario 92–105 reference implementation 92 tokenization and embedding 99–105",
+          "source": "establishing baseline scenario 92–105 reference implementation 92 tokenization and embedding 99–105",
+          "translated": "建立基线场景92-105参考实现92标记化和Embedding（嵌入） 99-105"
+        }
+      ]
+    },
+    {
+      "id": "eb052a37-7a92-43f3-9324-8db2c5b2e424",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6725207783653281,
+        "y": 0.7389488129460745,
+        "w": 0.19497103614843017,
+        "h": 0.01700630157736915
+      },
+      "kind": "text",
+      "readingOrder": 254,
+      "source": "loading data with 190–191",
+      "translated": "用190-191加载数据",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "loading data with 190–191",
+          "source": "loading data with 190–191",
+          "translated": "用190-191加载数据"
         }
       ]
     }
