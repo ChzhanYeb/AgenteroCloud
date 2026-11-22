@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:55:20.326Z",
+    "generatedAt": "2026-11-22T01:55:33.117Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -1102,6 +1102,72 @@
           "quote": "3.3 Convolution and pooling toolkit 45 Kernel 4, 1D convolution: Processing signals and sequences 45 Kernel 5, 2D convolution: The engine of computer vision 46 Kernel 6, 2D max pooling: Downsampling and feature detection 49",
           "source": "⟪S0⟫3.3 Convolution and pooling toolkit 45 ⟪/S0⟫Kernel 4, 1D convolution: Processing signals and sequences 45 Kernel 5, 2D convolution: The engine of computer vision 46 Kernel 6, 2D max pooling: Downsampling and feature detection 49",
           "translated": "⟪S0⟫3.3卷积和池化工具包45 ⟪/S0⟫Kernel 4、1D卷积：处理信号和序列45 Kernel 5、2D卷积：计算机视觉引擎46 Kernel 6、2D max池化：下采样和特征检测49"
+        }
+      ]
+    },
+    {
+      "id": "4e65261d-aa51-4aac-94b5-7c5b502526a3::paragraph-11",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.255947010970385,
+        "y": 0.6964089111126324,
+        "w": 0.5608250681556967,
+        "h": 0.07297223214392047
+      },
+      "kind": "text",
+      "readingOrder": 147.01,
+      "source": "⟪S0⟫Training and verifying neural nets in raw CUDA 53 ⟪/S0⟫⟪S1⟫4.1 Level 1: The PyTorch approach 53 ⟪/S1⟫PyTorch implementation: Setup, training, and benchmarking 54",
+      "translated": "⟪S0⟫在原始CUDA中训练和验证神经网络53 ⟪/S0⟫⟪S1⟫4.1级别1：PyTorch方法53 ⟪/S1⟫PyTorch实现：设置、训练和基准测试54",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Training and verifying neural nets in raw CUDA 53 4.1 Level 1: The PyTorch approach 53 PyTorch implementation: Setup, training, and benchmarking 54",
+          "source": "⟪S0⟫Training and verifying neural nets in raw CUDA 53 ⟪/S0⟫⟪S1⟫4.1 Level 1: The PyTorch approach 53 ⟪/S1⟫PyTorch implementation: Setup, training, and benchmarking 54",
+          "translated": "⟪S0⟫在原始CUDA中训练和验证神经网络53 ⟪/S0⟫⟪S1⟫4.1级别1：PyTorch方法53 ⟪/S1⟫PyTorch实现：设置、训练和基准测试54"
+        }
+      ]
+    },
+    {
+      "id": "4e65261d-aa51-4aac-94b5-7c5b502526a3::paragraph-12",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.7820719662381042,
+        "w": 0.5739988113674076,
+        "h": 0.103112936725105
+      },
+      "kind": "text",
+      "readingOrder": 147.011,
+      "source": "⟪S0⟫4.2 Level 2: Backpropagation theory 57 ⟪/S0⟫Building intuition: From slopes to gradients 59  ⟪S1⟫■  ⟪/S1⟫Scaling to vectors and matrices 61  ⟪S2⟫■  ⟪/S2⟫Layer-by-layer gradient derivations 62 Common pitfalls and debugging tips 63  ⟪S3⟫■  ⟪/S3⟫Vectorized implementation for batches 63",
+      "translated": "⟪S0⟫4.2 2级：反向传播理论57 ⟪/S0⟫构建直觉：从斜率到梯度59 ⟪S1⟫■⟪/S1⟫缩放到向量和矩阵61 ⟪S2⟫■⟪/S2⟫Layer-by-layer梯度派生62常见陷阱和调试技巧63 ⟪S3⟫■⟪/S3⟫批量的矢量化实现63",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "4.2 Level 2: Backpropagation theory 57 Building intuition: From slopes to gradients 59  ■  Scaling to vectors and matrices 61  ■  Layer-by-layer gradient derivations 62 Common pitfalls and debugging tips 63  ■  Vectorized implementation for batches 63",
+          "source": "⟪S0⟫4.2 Level 2: Backpropagation theory 57 ⟪/S0⟫Building intuition: From slopes to gradients 59  ⟪S1⟫■  ⟪/S1⟫Scaling to vectors and matrices 61  ⟪S2⟫■  ⟪/S2⟫Layer-by-layer gradient derivations 62 Common pitfalls and debugging tips 63  ⟪S3⟫■  ⟪/S3⟫Vectorized implementation for batches 63",
+          "translated": "⟪S0⟫4.2 2级：反向传播理论57 ⟪/S0⟫构建直觉：从斜率到梯度59 ⟪S1⟫■⟪/S1⟫缩放到向量和矩阵61 ⟪S2⟫■⟪/S2⟫Layer-by-layer梯度派生62常见陷阱和调试技巧63 ⟪S3⟫■⟪/S3⟫批量的矢量化实现63"
+        }
+      ]
+    },
+    {
+      "id": "4e65261d-aa51-4aac-94b5-7c5b502526a3::paragraph-13",
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.26723879086613733,
+        "y": 0.8994620788174544,
+        "w": 0.5551791782078205,
+        "h": 0.060281409162369085
+      },
+      "kind": "text",
+      "readingOrder": 147.012,
+      "source": "⟪S0⟫4.3 Level 3: The NumPy approach 64 ⟪/S0⟫Manual implementation in NumPy 64  ⟪S1⟫■  ⟪/S1⟫Verification technique: Isolate and conquer 67  ⟪S2⟫■  ⟪/S2⟫Performance 67",
+      "translated": "⟪S0⟫4.3 3级：NumPy方法64 ⟪/S0⟫ NumPy 64中的手动实现⟪S1⟫■⟪/S1⟫验证技术：隔离和征服67 ⟪S2⟫■⟪/S2⟫Performance 67",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "4.3 Level 3: The NumPy approach 64 Manual implementation in NumPy 64  ■  Verification technique: Isolate and conquer 67  ■  Performance 67",
+          "source": "⟪S0⟫4.3 Level 3: The NumPy approach 64 ⟪/S0⟫Manual implementation in NumPy 64  ⟪S1⟫■  ⟪/S1⟫Verification technique: Isolate and conquer 67  ⟪S2⟫■  ⟪/S2⟫Performance 67",
+          "translated": "⟪S0⟫4.3 3级：NumPy方法64 ⟪/S0⟫ NumPy 64中的手动实现⟪S1⟫■⟪/S1⟫验证技术：隔离和征服67 ⟪S2⟫■⟪/S2⟫Performance 67"
         }
       ]
     },
@@ -2652,6 +2718,138 @@
           "quote": "production inference results 115",
           "source": "production inference results 115",
           "translated": "生产推理结果115"
+        }
+      ]
+    },
+    {
+      "id": "66dfd2b7-020f-4355-adcf-e8bad76117d9",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.3896855581288952,
+        "y": 0.5683680873934377,
+        "w": 0.17005120866834725,
+        "h": 0.01468740125954104
+      },
+      "kind": "text",
+      "readingOrder": 179,
+      "source": "vectorAdd function 23",
+      "translated": "vectorAdd函数23",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "vectorAdd function 23",
+          "source": "vectorAdd function 23",
+          "translated": "vectorAdd函数23"
+        }
+      ]
+    },
+    {
+      "id": "f578879e-5bbc-4e16-9fd5-837b95e1b4e6",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.3900511948880674,
+        "y": 0.5862346894205986,
+        "w": 0.134365164325244,
+        "h": 0.0147854156857157
+      },
+      "kind": "text",
+      "readingOrder": 182,
+      "source": "vectorization 138",
+      "translated": "矢量化138",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "vectorization 138",
+          "source": "vectorization 138",
+          "translated": "矢量化138"
+        }
+      ]
+    },
+    {
+      "id": "dc0ac95f-d71d-476e-b6b2-c0172a88ec5c",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.673724428393991,
+        "y": 0.5746323466773642,
+        "w": 0.19183516121090077,
+        "h": 0.0308054743259318
+      },
+      "kind": "text",
+      "readingOrder": 184,
+      "source": "with asynchronous memory operations 199–201",
+      "translated": "使用异步内存操作199-201",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "with asynchronous memory operations 199–201",
+          "source": "with asynchronous memory operations 199–201",
+          "translated": "使用异步内存操作199-201"
+        }
+      ]
+    },
+    {
+      "id": "2ec8cda5-8695-476c-bfb2-01330a7393f2",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.13962999202121795,
+        "y": 0.6003822127001139,
+        "w": 0.20085566064039717,
+        "h": 0.01495361328125
+      },
+      "kind": "text",
+      "readingOrder": 186,
+      "source": "inference in CUDA 92–105",
+      "translated": "CUDA中的推理92-105",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "inference in CUDA 92–105",
+          "source": "inference in CUDA 92–105",
+          "translated": "CUDA中的推理92-105"
+        }
+      ]
+    },
+    {
+      "id": "9716b994-9578-4711-a678-80d227b73f07",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.3898853147691527,
+        "y": 0.6051803697772106,
+        "w": 0.17021100249698673,
+        "h": 0.03322185664589116
+      },
+      "kind": "text",
+      "readingOrder": 190,
+      "source": "vectorized loads becoming TMA 206",
+      "translated": "矢量化负载成为TMA 206",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "vectorized loads becoming TMA 206",
+          "source": "vectorized loads becoming TMA 206",
+          "translated": "矢量化负载成为TMA 206"
+        }
+      ]
+    },
+    {
+      "id": "c7c8ffb2-d57e-4b1a-8507-05bac989d24e",
+      "pageIndex": 405,
+      "bbox": {
+        "x": 0.6731547860749354,
+        "y": 0.6103686000693893,
+        "w": 0.1482309106376411,
+        "h": 0.015181055152160984
+      },
+      "kind": "text",
+      "readingOrder": 192,
+      "source": "with larger tiles 198",
+      "translated": "用更大的瓷砖198",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "with larger tiles 198",
+          "source": "with larger tiles 198",
+          "translated": "用更大的瓷砖198"
         }
       ]
     }
