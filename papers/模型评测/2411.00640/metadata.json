@@ -18,7 +18,8 @@
   "abstract": "Evaluations are critical for understanding the capabilities of large language models (LLMs). Fundamentally, evaluations are experiments; but the literature on evaluations has largely ignored the literature from other sciences on experiment analysis and planning. This article shows researchers with some training in statistics how to think about and analyze data from language model evaluations. Conceptualizing evaluation questions as having been drawn from an unseen super-population, we present formulas for analyzing evaluation data, measuring differences between two models, and planning an evaluation experiment. We make a number of specific recommendations for running language model evaluations and reporting experiment results in a way that minimizes statistical noise and maximizes informativeness.",
   "tags": [
     "@arxiv:Statistics - Applications",
-    "@arxiv:Computer Science - Computation and Language"
+    "@arxiv:Computer Science - Computation and Language",
+    "模型评测"
   ],
   "arxiv_id": "2411.00640",
   "doi": "10.48550/ARXIV.2411.00640",
@@ -36,5 +37,5 @@
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:33:38.101Z",
-  "updated_at": "2026-11-22T01:47:21.556Z"
+  "updated_at": "2026-11-22T02:00:17.725Z"
 }

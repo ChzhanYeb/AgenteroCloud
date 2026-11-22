@@ -74,7 +74,8 @@
     "@arxiv:Computer Science - Machine Learning",
     "@arxiv:Computer Science - Artificial Intelligence",
     "@arxiv:Computer Science - Computation and Language",
-    "#submitted:COLM 2025"
+    "#submitted:COLM 2025",
+    "模型评测"
   ],
   "arxiv_id": "2504.08942",
   "doi": "10.48550/ARXIV.2504.08942",
@@ -93,5 +94,5 @@
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:33:41.604Z",
-  "updated_at": "2026-11-22T01:47:06.851Z"
+  "updated_at": "2026-11-22T01:59:55.834Z"
 }

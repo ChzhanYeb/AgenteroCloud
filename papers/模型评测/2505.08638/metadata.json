@@ -49,7 +49,8 @@
   "tags": [
     "@arxiv:Computer Science - Artificial Intelligence",
     "@arxiv:Computer Science - Computation and Language",
-    "#submitted:ACL 2023"
+    "#submitted:ACL 2023",
+    "模型评测"
   ],
   "arxiv_id": "2505.08638",
   "doi": "10.48550/ARXIV.2505.08638",
@@ -68,5 +69,5 @@
   "status": "completed",
   "is_read": true,
   "added_at": "2026-11-17T14:34:46.741Z",
-  "updated_at": "2026-11-22T01:47:43.561Z"
+  "updated_at": "2026-11-22T01:59:59.163Z"
 }

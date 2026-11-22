@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": {
     "mode": "pdf-layout-translate",
-    "generatedAt": "2026-11-22T01:59:50.427Z",
+    "generatedAt": "2026-11-22T02:00:15.334Z",
     "providerId": "huoshanweb",
     "sourceLang": "auto",
     "targetLang": "zh-CN",
@@ -2625,6 +2625,50 @@
       ]
     },
     {
+      "id": "de6f5980-ba95-4654-a1dc-bb7db2a6f113::paragraph-1",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.2352454144948392,
+        "y": 0.6345411490775693,
+        "w": 0.30111413055339414,
+        "h": 0.01903623447232708
+      },
+      "kind": "text",
+      "readingOrder": 274,
+      "source": "appendix E Additional resources 371",
+      "translated": "附录E额外资源371",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "appendix E Additional resources 371",
+          "source": "appendix E Additional resources 371",
+          "translated": "附录E额外资源371"
+        }
+      ]
+    },
+    {
+      "id": "de6f5980-ba95-4654-a1dc-bb7db2a6f113::paragraph-2",
+      "pageIndex": 11,
+      "bbox": {
+        "x": 0.3425173235044859,
+        "y": 0.6662682065314478,
+        "w": 0.09033423916601824,
+        "h": 0.01903623447232708
+      },
+      "kind": "text",
+      "readingOrder": 274.001,
+      "source": "index 378",
+      "translated": "索引378",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "index 378",
+          "source": "index 378",
+          "translated": "索引378"
+        }
+      ]
+    },
+    {
       "id": "11:fallback:1044",
       "pageIndex": 11,
       "bbox": {
@@ -2643,6 +2687,87 @@
           "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
           "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
           "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "906effe6-b4e7-4d3e-91e1-43fb750edba1",
+      "pageIndex": 12,
+      "bbox": {
+        "x": 0.7425681802313617,
+        "y": 0.3438276371059675,
+        "w": 0.15710655922948022,
+        "h": 0.04607592831520123
+      },
+      "kind": "header",
+      "readingOrder": 31,
+      "source": "preface",
+      "translated": "序言",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "preface",
+          "source": "preface",
+          "translated": "序言"
+        }
+      ]
+    },
+    {
+      "id": "40f51fd5-2e57-4784-8eae-fe640679ea4f",
+      "pageIndex": 12,
+      "bbox": {
+        "x": 0.18835466444099835,
+        "y": 0.4113130138376041,
+        "w": 0.7089564699332668,
+        "h": 0.08157472058386202
+      },
+      "kind": "text",
+      "readingOrder": 71,
+      "source": "I wrote this book because it is the one I wanted when I was starting out. I did not come to CUDA as someone with 10 years of performance engineering and distributed systems experience. I came to it as a curious person who wanted to understand what was happening underneath the deep learning tools I was already using.",
+      "translated": "我写这本书是因为它是我刚开始时想要的。我来到CUDA并不是作为一个拥有10年性能工程和分布式系统经验的人。我是作为一个好奇的人来的，我想了解我已经在使用的深度学习工具下面发生了什么。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "I wrote this book because it is the one I wanted when I was starting out.",
+          "source": "I wrote this book because it is the one I wanted when I was starting out.",
+          "translated": "我写这本书是因为它是我刚开始时想要的。"
+        },
+        {
+          "quote": "I did not come to CUDA as someone with 10 years of performance engineering and distributed systems experience.",
+          "source": "I did not come to CUDA as someone with 10 years of performance engineering and distributed systems experience.",
+          "translated": "我来到CUDA并不是作为一个拥有10年性能工程和分布式系统经验的人。"
+        },
+        {
+          "quote": "I came to it as a curious person who wanted to understand what was happening underneath the deep learning tools I was already using.",
+          "source": "I came to it as a curious person who wanted to understand what was happening underneath the deep learning tools I was already using.",
+          "translated": "我是作为一个好奇的人来的，我想了解我已经在使用的深度学习工具下面发生了什么。"
+        }
+      ]
+    },
+    {
+      "id": "6b0928e0-a626-4f89-a57e-b8c003ca137a",
+      "pageIndex": 12,
+      "bbox": {
+        "x": 0.18746853502763405,
+        "y": 0.4942035478414949,
+        "w": 0.7101333058340192,
+        "h": 0.12227761906163263
+      },
+      "kind": "text",
+      "readingOrder": 98,
+      "source": "When I first tried to learn CUDA for deep learning, I often found myself missing the connective tissue between ideas. I could find explanations of CUDA mechanics, and I could find examples of sophisticated kernels, but I still had to work out how the pieces lined up: how threads map to tensors, how memory access patterns become performance problems, how reductions show up inside ordinary model operations, and why attention changes the shape of the whole optimization problem.",
+      "translated": "当我第一次尝试学习CUDA进行深度学习时，我经常发现自己缺少想法之间的结缔组织。我可以找到CUDA机制的解释，我可以找到复杂内核的例子，但我仍然需要弄清楚这些部分是如何排列的：线程如何映射到张量，记忆访问模式如何成为性能问题，在普通模型操作中如何减少，以及为什么注意力会改变整个最佳化问题的形状。",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "When I first tried to learn CUDA for deep learning, I often found myself missing the connective tissue between ideas.",
+          "source": "When I first tried to learn CUDA for deep learning, I often found myself missing the connective tissue between ideas.",
+          "translated": "当我第一次尝试学习CUDA进行深度学习时，我经常发现自己缺少想法之间的结缔组织。"
+        },
+        {
+          "quote": "I could find explanations of CUDA mechanics, and I could find examples of sophisticated kernels, but I still had to work out how the pieces lined up: how threads map to tensors, how memory access patterns become performance problems, how reductions show up inside ordinary model operations, and why attention changes the shape of the whole optimization problem.",
+          "source": "I could find explanations of CUDA mechanics, and I could find examples of sophisticated kernels, but I still had to work out how the pieces lined up: how threads map to tensors, how memory access patterns become performance problems, how reductions show up inside ordinary model operations, and why attention changes the shape of the whole optimization problem.",
+          "translated": "我可以找到CUDA机制的解释，我可以找到复杂内核的例子，但我仍然需要弄清楚这些部分是如何排列的：线程如何映射到张量，记忆访问模式如何成为性能问题，在普通模型操作中如何减少，以及为什么注意力会改变整个最佳化问题的形状。"
         }
       ]
     },
@@ -3923,6 +4048,50 @@
       ]
     },
     {
+      "id": "27:fallback:551",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.5852905912631599,
+        "y": 0.2252621079225371,
+        "w": 0.06398675274259626,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10142,
+      "source": "Block(0,0)",
+      "translated": "块（0,0）",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Block(0,0)",
+          "source": "Block(0,0)",
+          "translated": "块（0,0）"
+        }
+      ]
+    },
+    {
+      "id": "27:fallback:513",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.762195142963279,
+        "y": 0.24905740101294596,
+        "w": 0.062104789426637545,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10157,
+      "source": "Block (0,1)",
+      "translated": "块（0,1）",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Block (0,1)",
+          "source": "Block (0,1)",
+          "translated": "块（0,1）"
+        }
+      ]
+    },
+    {
       "id": "27:fallback:387",
       "pageIndex": 27,
       "bbox": {
@@ -3989,6 +4158,50 @@
       ]
     },
     {
+      "id": "27:fallback:431",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.2352454144948392,
+        "y": 0.2918889285756819,
+        "w": 0.11856368890539896,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10184,
+      "source": "int idx ⟪F0⟫ threadIdx.x;",
+      "translated": "int idx ⟪F0⟫ threadIdx. x；",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "int idx = threadIdx.x;",
+          "source": "int idx ⟪F0⟫ threadIdx.x;",
+          "translated": "int idx ⟪F0⟫ threadIdx. x；"
+        }
+      ]
+    },
+    {
+      "id": "27:fallback:456",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.2352454144948392,
+        "y": 0.3061661044299272,
+        "w": 0.11479976227348151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10193,
+      "source": "// process data [idx]",
+      "translated": "//进程数据[idx]",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "// process data [idx]",
+          "source": "// process data [idx]",
+          "translated": "//进程数据[idx]"
+        }
+      ]
+    },
+    {
       "id": "27:fallback:368",
       "pageIndex": 27,
       "bbox": {
@@ -4011,6 +4224,72 @@
       ]
     },
     {
+      "id": "27:fallback:526",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.5852905912631599,
+        "y": 0.34423857337458136,
+        "w": 0.06398675274259626,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10217,
+      "source": "Block(1,0)",
+      "translated": "块（1,0）",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Block(1,0)",
+          "source": "Block(1,0)",
+          "translated": "块（1,0）"
+        }
+      ]
+    },
+    {
+      "id": "27:fallback:538",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.762195142963279,
+        "y": 0.34423857337458136,
+        "w": 0.062104789426637545,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10217,
+      "source": "Block (1,1)",
+      "translated": "块（1,1）",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Block (1,1)",
+          "source": "Block (1,1)",
+          "translated": "块（1,1）"
+        }
+      ]
+    },
+    {
+      "id": "27:fallback:483",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.20513400143949975,
+        "y": 0.3474112791199692,
+        "w": 0.1938422215437475,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10219,
+      "source": "ou write code for ONE thread",
+      "translated": "ou为一个线程编写代码",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "ou write code for ONE thread",
+          "source": "ou write code for ONE thread",
+          "translated": "ou为一个线程编写代码"
+        }
+      ]
+    },
+    {
       "id": "27:fallback:335",
       "pageIndex": 27,
       "bbox": {
@@ -4029,6 +4308,50 @@
           "quote": "...thousands of threads",
           "source": "...thousands of threads",
           "translated": "…成千上万的线程"
+        }
+      ]
+    },
+    {
+      "id": "27:fallback:1906",
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.2766486074459309,
+        "y": 1.015265838524111,
+        "w": 0.4460253058822151,
+        "h": 0.01427717585424531
+      },
+      "kind": "text",
+      "readingOrder": 10640,
+      "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Licensed to OSCAR GUADA VERDE <oscarguada@outlook.com>",
+          "source": "Licensed to OSCAR GUADA VERDE ⟪F0⟫oscarguada@outlook.com⟪F1⟫",
+          "translated": "授权给Oscar GUADA VERDE⟪F0⟫oscarguada@outlook.com⟪F1⟫"
+        }
+      ]
+    },
+    {
+      "id": "28:fallback:656",
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.5363595450482334,
+        "y": 0.33472045613841783,
+        "w": 0.08657031253410082,
+        "h": 0.015863528726939233
+      },
+      "kind": "text",
+      "readingOrder": 10211,
+      "source": "Output matrix",
+      "translated": "输出矩阵",
+      "terminologyRevision": "ai-abc74818-ecdict-bc015ed-compounds-v4",
+      "sentences": [
+        {
+          "quote": "Output matrix",
+          "source": "Output matrix",
+          "translated": "输出矩阵"
         }
       ]
     },
