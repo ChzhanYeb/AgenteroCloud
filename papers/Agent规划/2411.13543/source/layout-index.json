@@ -3,7 +3,7 @@
   "source": {
     "mode": "sidebar",
     "from": "layout.json",
-    "generatedAt": "2026-11-17T14:07:21.535Z",
+    "generatedAt": "2026-11-23T07:43:49.105Z",
     "minScore": 0.3
   },
   "items": [
@@ -205,20 +205,19 @@
       "layoutRegionId": "6e6fe8a9-a9a1-41a1-9ebf-90d8e3e5f07d"
     },
     {
-      "id": "figure-p25-0174_0690_0138_0164",
-      "stableKey": "p25:figure:D B ABA I S AI",
+      "id": "figure-p25-0179_0690_0061_0044",
+      "stableKey": "p25:figure:0.179_0.690_0.061_0.044",
       "kind": "image",
       "section": "figure",
       "page": 25,
       "pageIndex": 24,
       "bbox": {
-        "x": 0.17434290966956445,
+        "x": 0.1792684692183351,
         "y": 0.6903424503827336,
-        "w": 0.13787951500587214,
-        "h": 0.16360650881372318
+        "w": 0.06080254698111341,
+        "h": 0.044185060443300186
       },
       "score": 0.7957698106765747,
-      "title": "D B ABA I S AI",
       "layoutRegionId": "62bb5e6a-b932-48b5-9a9b-6b72ea112d2b"
     },
     {
@@ -355,23 +354,6 @@
       "layoutRegionId": "64088c66-91e3-48cc-8a8a-2d2b544c1ad0"
     },
     {
-      "id": "figure-p32-0173_0365_0321_0480",
-      "stableKey": "p32:figure:F.2 N EW N ET H ACK P ROGRESSION S YSTEM",
-      "kind": "chart",
-      "section": "figure",
-      "page": 32,
-      "pageIndex": 31,
-      "bbox": {
-        "x": 0.17287568485035615,
-        "y": 0.3648274739583333,
-        "w": 0.3212404064103669,
-        "h": 0.47969479031032997
-      },
-      "score": 0.8466513156890869,
-      "title": "F.2 N EW N ET H ACK P ROGRESSION S YSTEM",
-      "layoutRegionId": "80e3755f-263a-46a2-ad1f-1c98ec22b63d"
-    },
-    {
       "id": "figure-11",
       "stableKey": "p32:figure:Figure 11",
       "kind": "chart",
@@ -379,13 +361,29 @@
       "page": 32,
       "pageIndex": 31,
       "bbox": {
-        "x": 0.46492453182444854,
+        "x": 0.18090964921938826,
+        "y": 0.3648274739583333,
+        "w": 0.35241439919066586,
+        "h": 0.4387511436385338
+      },
+      "score": 0.8466513156890869,
+      "title": "Figure 11",
+      "layoutRegionId": "80e3755f-263a-46a2-ad1f-1c98ec22b63d"
+    },
+    {
+      "id": "figure-p32-0519_0365_0302_0414",
+      "stableKey": "p32:figure:0.519_0.365_0.302_0.414",
+      "kind": "chart",
+      "section": "figure",
+      "page": 32,
+      "pageIndex": 31,
+      "bbox": {
+        "x": 0.5188683403862847,
         "y": 0.3646288014421559,
-        "w": 0.355477725758272,
-        "h": 0.4389498161547112
+        "w": 0.30153391719643585,
+        "h": 0.41357722426905774
       },
       "score": 0.8742998242378235,
-      "title": "Figure 11",
       "layoutRegionId": "5ad9610b-172e-4c54-92d2-d0b5148d7dca"
     },
     {
@@ -504,35 +502,37 @@
       "layoutRegionId": "164322a5-6feb-4a09-a904-3dfae95f25e2"
     },
     {
-      "id": "table-p18-0522_0630_0296_0113",
-      "stableKey": "p18:table:0.522_0.630_0.296_0.113",
+      "id": "table-5",
+      "stableKey": "p18:table:Table 5: VLM Performance on babyai",
       "kind": "table",
       "section": "table",
       "page": 18,
       "pageIndex": 17,
       "bbox": {
         "x": 0.5216708214454402,
-        "y": 0.6299092841870857,
+        "y": 0.6029905839399858,
         "w": 0.2955816929636438,
-        "h": 0.11313247680664062
+        "h": 0.14005117705374048
       },
       "score": 0.8626067638397217,
+      "title": "Table 5: VLM Performance on babyai",
       "layoutRegionId": "6ea825b8-7fe6-4af4-9701-75788ad07d6c"
     },
     {
-      "id": "table-p18-0187_0629_0298_0185",
-      "stableKey": "p18:table:0.187_0.629_0.298_0.185",
+      "id": "table-4",
+      "stableKey": "p18:table:Table 4: LLM Performance on babyai",
       "kind": "table",
       "section": "table",
       "page": 18,
       "pageIndex": 17,
       "bbox": {
         "x": 0.1866705776040071,
-        "y": 0.6286357532848011,
-        "w": 0.29756469975889116,
-        "h": 0.18503478079131155
+        "y": 0.6025108183273161,
+        "w": 0.2975646997588912,
+        "h": 0.21115971574879655
       },
       "score": 0.9101724624633789,
+      "title": "Table 4: LLM Performance on babyai",
       "layoutRegionId": "bade557e-1724-4099-b590-2ae3aa48dd76"
     },
     {
