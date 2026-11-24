@@ -1,0 +1,92 @@
+\documentclass[]{mihoyo}
+
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{verbatim}
+
+
+\usepackage{graphicx}
+\usepackage{floatrow}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{wrapfig}  % Add this to your preamble
+\usepackage{xspace}
+\usepackage{pifont}
+% \usepackage{emoji}
+
+
+
+\usepackage{subcaption} % 
+% twocolumn: \documentclass[twocolumn]{bytedance_seed}
+
+\usepackage[toc,page,header]{appendix}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{minitoc}
+
+\newcommand{\ourmodel}{Gamer\xspace}
+
+
+%%%%%%%%%%%%%%%%%%%%
+
+\title{\ourmodel: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent}
+\author{%
+\parbox{\textwidth}{\centering
+miHoYo Honkai AI R\&D Team
+}}
+
+
+\affiliation{%
+\parbox{\textwidth}{\centering\small
+See Contributions section for a full author list
+}}
+
+
+\renewcommand{\thefootnote}{\arabic{footnote}}  % Reset for body
+
+\abstract{
+We introduce \ourmodel, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud–edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, \ourmodel demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps \ourmodel learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.
+}
+% \date{\today}
+\checkdata[Corresponding]{\url{yinhe.zheng@mihoyo.com}, \url{xiaoboxia@ustc.edu.cn}, \url{sqren@ustc.edu.cn}}
+\checkdata[Project Page]{\url{https://mihoyo-gamer.github.io/}}
+% \renewcommand{\authorfont}{\fontsize{28}{34}\selectfont}
+
+\begin{document}
+\maketitle
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}}
+\input{sections/introduction}
+\input{sections/cpt}
+\input{sections/sft}
+\input{sections/rl}
+\input{sections/streaming_vllm}
+\input{sections/data}
+\input{sections/results}
+\input{sections/conclusion}
+
+\bibliographystyle{plainnat}
+\bibliography{main}
+
+\clearpage
+
+\renewcommand{\cftbeforesecskip}{16pt}      
+\renewcommand{\cftbeforesubsecskip}{12pt}  
+
+
+\renewcommand{\contentsname}{Appendix}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+\appendix
+{\small
+\tableofcontents
+}
+\clearpage
+
+\input{sections/appendix}
+
+\end{document}

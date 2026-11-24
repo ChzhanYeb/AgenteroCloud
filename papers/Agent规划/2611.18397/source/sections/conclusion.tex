@@ -1,0 +1,98 @@
+
+\section{Conclusion}
+
+\ourmodel learns to control diverse and complex games through a shared keyboard-and-mouse interface. It combines large-scale continued pre-training, task-conditioned supervised fine-tuning, and temporal-aware reinforcement learning to learn transferable control, long-horizon reasoning, and persistent memory. Streaming-vLLM supports both training and deployment, enabling real-time interaction and efficient online rollouts while reducing latency-induced bias in reinforcement learning. At inference time, \ourmodel acts through visual observations and device-level controls without privileged game state or game-engine modifications. Environment-side task verification is used separately to provide online RL rewards. These capabilities could effectively reduce development costs through automated testing, faster game iteration, and new gameplay mechanics. By supporting real-time interaction without game-specific infrastructure, \ourmodel offers a basis for agents that learn and improve across complex 3D games and other interactive environments.
+
+\section{Limitations and Future Work}
+
+Several main directions remain for extending Gamer’s scope and accessibility. First, our evaluation covers a selected set of environments and task structures. The shared observation-action interface provides a basis for extending joint post-training and systematic evaluation to broader interactive settings. Our preliminary results suggest the potential for improving performance and generalization by scaling relevant gameplay data across a broader range of environments. These benefits depend on the coverage and composition of the training experience. 
+
+Second, Streaming-vLLM enables real-time interaction on the evaluated GPU platforms, while further reductions in serving costs would support wider deployment. Model compression and additional runtime optimizations offer promising directions for extending this efficiency to more resource-constrained settings while preserving responsiveness and task performance.
+
+Third, although Gamer improves the trade-off between response latency and task performance in the evaluated settings, reasoning capability may remain a bottleneck in environments that demand deeper deliberation. Fast, continuous interaction alone does not ensure the ability to solve complex strategic problems. Our framework provides a foundation for exploring hierarchical game agents that combine a larger model for deliberative System 2 reasoning with a fast model for reactive System 1 execution. Such architectures could coordinate longer-term planning with timely control, extending the range of tasks that agents can handle under real-time constraints.
+
+\renewcommand{\footnoterule}{}
+
+
+\makeatletter
+\begingroup
+\renewcommand{\thefootnote}{}
+\long\def\@makefntext#1{%
+  \parindent=0pt
+  \noindent#1%
+}
+\footnotetext{%
+  \textsuperscript{$\dagger$}
+  Work done while interning at miHoYo.
+}
+\endgroup
+\makeatother
+
+\section*{Contributions}
+\label{contribution}
+All core contributors contributed equally to this work.
+
+\subsection*{Core Contributors}
+Run Luo$^{1,2,\dagger}$,
+Kuan Zhang$^{1,3,\dagger}$,
+Qi Deng$^{1}$,
+Yukun Chen$^{1,4,\dagger}$,
+Zhihao Yang$^{1,4,\dagger}$,
+Yufei Zhang$^{1}$,
+Renrong Hu$^{1}$,
+Yi Zhang$^{1,5,\dagger}$
+
+\subsection*{Contributors}
+Guiyu Ma$^{6,\dagger}$,
+Tianyu Fan$^{1}$,
+Longze Chen$^{4,\dagger}$,
+Hao Sun$^{3}$,
+Jiaming Li$^{4,\dagger}$,
+Jiaming Yang$^{1}$,
+Xiaohao Liu$^{2}$,
+Tao Tan$^{1}$,
+Minzheng Wang$^{4,\dagger}$,
+Hangtian Jia$^{1}$,
+Shuai Yuan$^{1}$,
+Lvdi Wang$^{1}$,
+Xiao Liu$^{1}$,
+Chao Ma$^{1}$,
+Yuting Zou$^{1}$
+
+\subsection*{Supervisors}
+Yinhe Zheng$^1$, Xiaobo Xia$^5$, Dawei Jiang$^1$, Shaoqing Ren$^5$
+
+\subsection*{Affiliations}
+$^1$miHoYo Honkai AI R\&D Team,
+$^2$National University of Singapore,
+$^3$Tsinghua University,
+$^4$University of Chinese Academy of Sciences,
+$^5$University of Science and Technology of China,
+$^6$Xi’an Jiaotong University
+
+
+
+
+\subsection*{Core Contribution Details}
+\subsubsection*{Continual Pre-Training}
+Run Luo, Kuan Zhang
+\vspace{-5pt}
+\subsubsection*{Supervised Fine-Tuning}
+Run Luo, Yukun Chen
+\vspace{-5pt}
+\subsubsection*{Reinforcement Learning}
+Run Luo, Qi Deng, Zhihao Yang
+\vspace{-5pt}
+\subsubsection*{Data Collection and Construction}
+Run Luo, Kuan Zhang, Qi Deng, Yukun Chen, Zhihao Yang
+\vspace{-5pt}
+\subsubsection*{Training and Inference Infrastructure}
+Run Luo, Qi Deng, Yufei Zhang
+\vspace{-5pt}
+\subsubsection*{Benchmarking and Evaluation}
+Run Luo, Kuan Zhang, Qi Deng, Yukun Chen, Zhihao Yang, Renrong Hu, Yi Zhang
+
+\subsection*{Acknowledgment}
+We thank all members of the Gamer project for their dedication and collaboration throughout this work. We also thank our colleagues, including Kongyang Liu, Wangqin Fu, Qi Qin, Yupeng Zhu, Rui Dong, Haiyun Gu, Xiyu Zhao, Ran Fang, and Ange Tang, for their valuable support. We are grateful to teams across miHoYo for the technical and organizational support that made this research possible.
+
+

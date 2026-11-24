@@ -1,0 +1,2202 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "bib",
+    "generatedAt": "2026-11-24T05:10:31.155Z",
+    "fingerprint": "a67cefcbf9ec42c84f7614c64dad9be8b55909ab08f155ffe56a2e99a67aa666"
+  },
+  "citations": [
+    {
+      "id": "cite-luo2025gui",
+      "rawKey": "luo2025gui",
+      "metadata": {
+        "title": "Gui-r1: A generalist r1-style vision-language action model for gui agents",
+        "authors": [
+          "Run Luo",
+          "Lu Wang",
+          "Wanwei He",
+          "Longze Chen",
+          "Jiaming Li",
+          "Xiaobo Xia"
+        ],
+        "year": 2025,
+        "venue": "arXiv preprint arXiv:2504.10458",
+        "arxivId": "2504.10458"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-baker2022vpt",
+      "rawKey": "baker2022vpt",
+      "metadata": {
+        "title": "Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos",
+        "authors": [
+          "Bowen Baker",
+          "Ilge Akkaya",
+          "Peter Zhokhov",
+          "Joost Huizinga",
+          "Jie Tang",
+          "Adrien Ecoffet",
+          "Brandon Houghton",
+          "Raul Sampedro",
+          "Jeff Clune"
+        ],
+        "year": 2022,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lifshitz2023steve1",
+      "rawKey": "lifshitz2023steve1",
+      "metadata": {
+        "title": "STEVE-1: A Generative Model for Text-to-Behavior in Minecraft",
+        "authors": [
+          "Shalev Lifshitz",
+          "Keiran Paster",
+          "Harris Chan",
+          "Jimmy Ba",
+          "Sheila McIlraith"
+        ],
+        "year": 2023,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2023deps",
+      "rawKey": "wang2023deps",
+      "metadata": {
+        "title": "Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents",
+        "authors": [
+          "Zihao Wang",
+          "Shaofei Cai",
+          "Guanzhou Chen",
+          "Anji Liu",
+          "Xiaojian (Shawn) Ma",
+          "Yitao Liang"
+        ],
+        "year": 2023,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2023voyager",
+      "rawKey": "wang2023voyager",
+      "metadata": {
+        "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+        "authors": [
+          "Guanzhi Wang",
+          "Yuqi Xie",
+          "Yunfan Jiang",
+          "Ajay Mandlekar",
+          "Chaowei Xiao",
+          "Yuke Zhu",
+          "Linxi Fan",
+          "Anima Anandkumar"
+        ],
+        "year": 2023,
+        "arxivId": "2305.16291"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2025jarvis1",
+      "rawKey": "wang2025jarvis1",
+      "metadata": {
+        "title": "JARVIS-1: Open-World Multi-Task Agents With Memory-Augmented Multimodal Language Models",
+        "authors": [
+          "Zihao Wang",
+          "Shaofei Cai",
+          "Anji Liu",
+          "Yonggang Jin",
+          "Jinbing Hou",
+          "Bowei Zhang",
+          "Haowei Lin",
+          "Zhaofeng He",
+          "Zilong Zheng",
+          "Yaodong Yang",
+          "Xiaojian Ma",
+          "Yitao Liang"
+        ],
+        "year": 2025,
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2024optimus1",
+      "rawKey": "li2024optimus1",
+      "metadata": {
+        "title": "Optimus-1: Hybrid Multimodal Memory Empowered Agents Excel in Long-Horizon Tasks",
+        "authors": [
+          "Zaijing Li",
+          "Yuquan Xie",
+          "Rui Shao",
+          "Gongwei Chen",
+          "Dongmei Jiang",
+          "Liqiang Nie"
+        ],
+        "year": 2024,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2024omnijarvis",
+      "rawKey": "wang2024omnijarvis",
+      "metadata": {
+        "title": "OmniJARVIS: Unified Vision-Language-Action Tokenization Enables Open-World Instruction Following Agents",
+        "authors": [
+          "Zihao Wang",
+          "Shaofei Cai",
+          "Zhancun Mu",
+          "Haowei Lin",
+          "Ceyao Zhang",
+          "Xuejie Liu",
+          "Qing Li",
+          "Anji Liu",
+          "Xiaojian Ma",
+          "Yitao Liang"
+        ],
+        "year": 2024,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-reed2022gato",
+      "rawKey": "reed2022gato",
+      "metadata": {
+        "title": "A Generalist Agent",
+        "authors": [
+          "Scott Reed",
+          "Konrad Zona",
+          "Emilio Parisotto",
+          "Sergio Gomez Colmenarejo",
+          "Alexander Novikov",
+          "Gabriel Barth-Maron",
+          "Mai Gimenez",
+          "Yury Sulsky",
+          "Jackie Kay",
+          "Jost Tobias Springenberg",
+          "Tom Eccles",
+          "Jake Bruce",
+          "Ali Razavi",
+          "Ashley Edwards",
+          "Nicolas Heess",
+          "Yutian Chen",
+          "Raia Hadsell",
+          "Oriol Vinyals",
+          "Mahyar Bordbar",
+          "Nando de Freitas"
+        ],
+        "year": 2022,
+        "venue": "Transactions on Machine Learning Research"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-simateam2024sima",
+      "rawKey": "simateam2024sima",
+      "metadata": {
+        "title": "Scaling instructable agents across many simulated worlds",
+        "authors": [
+          "Maria Abi Raad",
+          "Arun Ahuja",
+          "Catarina Barros",
+          "Frederic Besse",
+          "Andrew Bolt",
+          "Adrian Bolton",
+          "Bethanie Brownfield",
+          "Gavin Buttimore",
+          "Max Cant",
+          "Sarah Chakera"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2404.10179",
+        "arxivId": "2404.10179"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2025gametars",
+      "rawKey": "wang2025gametars",
+      "metadata": {
+        "title": "Game-tars: Pretrained foundation models for scalable generalist multimodal game agents",
+        "authors": [
+          "Zihao Wang",
+          "Xujing Li",
+          "Yining Ye",
+          "Junjie Fang",
+          "Haoming Wang",
+          "Longxiang Liu",
+          "Shihao Liang",
+          "Junting Lu",
+          "Zhiyong Wu",
+          "Jiazhan Feng"
+        ],
+        "year": 2025,
+        "venue": "arXiv preprint arXiv:2510.23691",
+        "arxivId": "2510.23691"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tan2025lumine",
+      "rawKey": "tan2025lumine",
+      "metadata": {
+        "title": "Lumine: An open recipe for building generalist agents in 3d open worlds",
+        "authors": [
+          "Weihao Tan",
+          "Xiangyang Li",
+          "Yunhao Fang",
+          "Heyuan Yao",
+          "Shi Yan",
+          "Hao Luo",
+          "Tenglong Ao",
+          "Huihui Li",
+          "Hongbin Ren",
+          "Bairen Yi"
+        ],
+        "year": 2025,
+        "venue": "arXiv preprint arXiv:2511.08892",
+        "arxivId": "2511.08892"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-magne2026nitrogen",
+      "rawKey": "magne2026nitrogen",
+      "metadata": {
+        "title": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
+        "authors": [
+          "Loic Magne",
+          "Anas Awadalla",
+          "Guanzhi Wang",
+          "Yinzhen Xu",
+          "Joshua Belofsky",
+          "Fengyuan Hu",
+          "Joohwan Kim",
+          "Ludwig Schmidt",
+          "Georgia Gkioxari",
+          "Jan Kautz",
+          "Yisong Yue",
+          "Yejin Choi",
+          "Yuke Zhu",
+          "Linxi Fan"
+        ],
+        "year": 2026,
+        "venue": "CVPR"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yue2026openp2p",
+      "rawKey": "yue2026openp2p",
+      "metadata": {
+        "title": "Scaling behavior cloning improves causal reasoning: An open model for real-time video game playing",
+        "authors": [
+          "Yuguang Yue",
+          "Irakli Salia",
+          "Samuel Hunt",
+          "Chris Green",
+          "Wenzhe Shi",
+          "Jonathan J Hunt"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint arXiv:2601.04575",
+        "arxivId": "2601.04575"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-guss2019minerl",
+      "rawKey": "guss2019minerl",
+      "metadata": {
+        "title": "MineRL: A Large-Scale Dataset of Minecraft Demonstrations",
+        "authors": [
+          "William H. Guss",
+          "Brandon Houghton",
+          "Nicholay Topin",
+          "Phillip Wang",
+          "Cayden Codel",
+          "Manuela Veloso",
+          "Ruslan Salakhutdinov"
+        ],
+        "year": 2019,
+        "venue": "IJCAI"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-fan2022minedojo",
+      "rawKey": "fan2022minedojo",
+      "metadata": {
+        "title": "MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge",
+        "authors": [
+          "Linxi Fan",
+          "Guanzhi Wang",
+          "Yunfan Jiang",
+          "Ajay Mandlekar",
+          "Yuncong Yang",
+          "Haoyi Zhu",
+          "Andrew Tang",
+          "De-An Huang",
+          "Yuke Zhu",
+          "Anima Anandkumar"
+        ],
+        "year": 2022,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-choi2026d2e",
+      "rawKey": "choi2026d2e",
+      "metadata": {
+        "title": "D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI",
+        "authors": [
+          "Suhwan Choi",
+          "Jaeyoon Jung",
+          "Haebin Seong",
+          "Minchan Kim",
+          "Minyeong Kim",
+          "Yongjun Cho",
+          "Yoonshik Kim",
+          "Yubeen Park",
+          "Youngjae Yu",
+          "Yunsung Lee"
+        ],
+        "year": 2026,
+        "venue": "ICLR"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2026gamehorizon",
+      "rawKey": "wang2026gamehorizon",
+      "metadata": {
+        "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+        "authors": [
+          "Yiran Wang",
+          "Xingyilang Yin",
+          "Junfu Pu",
+          "Guangzhi Wang",
+          "Kaifeng Li",
+          "Mingyu Ouyang",
+          "Huiqiang Sun",
+          "Lingen Li",
+          "Cheng Cheng",
+          "Wangbo Yu"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint arXiv:2609.25001",
+        "arxivId": "2609.25001"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kaplan2020scaling",
+      "rawKey": "kaplan2020scaling",
+      "metadata": {
+        "title": "Scaling laws for neural language models",
+        "authors": [
+          "Jared Kaplan",
+          "Sam McCandlish",
+          "Tom Henighan",
+          "Tom B Brown",
+          "Benjamin Chess",
+          "Rewon Child",
+          "Scott Gray",
+          "Alec Radford",
+          "Jeffrey Wu",
+          "Dario Amodei"
+        ],
+        "year": 2020,
+        "venue": "arXiv preprint arXiv:2001.08361",
+        "arxivId": "2001.08361"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/2001.08361",
+        "matchBy": "arxiv"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-hoffmann2022computeoptimal",
+      "rawKey": "hoffmann2022computeoptimal",
+      "metadata": {
+        "title": "An empirical analysis of compute-optimal large language model training",
+        "authors": [
+          "Jordan Hoffmann",
+          "Sebastian Borgeaud",
+          "Arthur Mensch",
+          "Elena Buchatskaya",
+          "Trevor Cai",
+          "Eliza Rutherford",
+          "Diego de Las Casas",
+          "Lisa Anne Hendricks",
+          "Johannes Welbl",
+          "Aidan Clark",
+          "Thomas Hennigan",
+          "Eric Noland",
+          "Katherine Millican",
+          "George van den Driessche",
+          "Bogdan Damoc",
+          "Aurelia Guy",
+          "Simon Osindero",
+          "Karen Simonyan",
+          "Erich Elsen",
+          "Oriol Vinyals",
+          "Jack Rae",
+          "Laurent Sifre"
+        ],
+        "year": 2022,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-que2024dcpt",
+      "rawKey": "que2024dcpt",
+      "metadata": {
+        "title": "D-CPT Law: Domain-specific Continual Pre-Training Scaling Law for Large Language Models",
+        "authors": [
+          "Haoran Que",
+          "Jiaheng Liu",
+          "Ge Zhang",
+          "Chenchen Zhang",
+          "Xingwei Qu",
+          "Yinghao Ma",
+          "Feiyu Duan",
+          "Zhiqi Bai",
+          "Jiakai Wang",
+          "Yuanxing Zhang",
+          "Xu Tan",
+          "Jie Fu",
+          "Jiamang Wang",
+          "Lin Qu",
+          "Wenbo Su",
+          "Bo Zheng"
+        ],
+        "year": 2024,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gu2024cmr",
+      "rawKey": "gu2024cmr",
+      "metadata": {
+        "title": "CMR Scaling Law: Predicting Critical Mixture Ratios for Continual Pre-training of Language Models",
+        "authors": [
+          "Jiawei Gu",
+          "Zacc Yang",
+          "Chuanghao Ding",
+          "Rui Zhao",
+          "Fei Tan"
+        ],
+        "year": 2024,
+        "venue": "EMNLP"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-shao2024deepseekmath",
+      "rawKey": "shao2024deepseekmath",
+      "metadata": {
+        "title": "Deepseekmath: Pushing the limits of mathematical reasoning in open language models",
+        "authors": [
+          "Zhihong Shao",
+          "Peiyi Wang",
+          "Qihao Zhu",
+          "Runxin Xu",
+          "Junxiao Song",
+          "Xiao Bi",
+          "Haowei Zhang",
+          "Mingchuan Zhang",
+          "YK Li",
+          "Yang Wu"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2402.03300",
+        "arxivId": "2402.03300"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-tong2026gamerl",
+      "rawKey": "tong2026gamerl",
+      "metadata": {
+        "title": "Game-RL: Synthesizing Multimodal Verifiable Game Data to Boost VLMs' General Reasoning",
+        "authors": [
+          "Jingqi Tong",
+          "Jixin Tang",
+          "Hangcheng Li",
+          "Yurong Mou",
+          "Ming Zhang",
+          "Jun Zhao",
+          "Yanbo Wen",
+          "Fan Song",
+          "Jiahao Zhan",
+          "Yuyang Lu",
+          "Chaoran Tao",
+          "Zhiyuan Guo",
+          "Jizhou Yu",
+          "Tianhao Cheng",
+          "Zhiheng Xi",
+          "Changhao Jiang",
+          "Zhangyue Yin",
+          "Yining Zheng",
+          "Weifeng Ge",
+          "Guanhua Chen",
+          "Tao Gui",
+          "Xipeng Qiu",
+          "Qi Zhang",
+          "Xuanjing Huang"
+        ],
+        "year": 2026,
+        "venue": "ICLR"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xiao2024streamingllm",
+      "rawKey": "xiao2024streamingllm",
+      "metadata": {
+        "title": "Efficient Streaming Language Models with Attention Sinks",
+        "authors": [
+          "Guangxuan Xiao",
+          "Yuandong Tian",
+          "Beidi Chen",
+          "Song Han",
+          "Mike Lewis"
+        ],
+        "year": 2024,
+        "venue": "ICLR"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kim2025infinipotv",
+      "rawKey": "kim2025infinipotv",
+      "metadata": {
+        "title": "InfiniPot-V: Memory-Constrained KV Cache Compression for Streaming Video Understanding",
+        "authors": [
+          "Minsoo Kim",
+          "Kyuhong Shim",
+          "Jungwook Choi",
+          "Simyung Chang"
+        ],
+        "year": 2025,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-pang2026dscache",
+      "rawKey": "pang2026dscache",
+      "metadata": {
+        "title": "Decouple and Cache: KV Cache Construction for Streaming Video Understanding",
+        "authors": [
+          "Zhanzhong Pang",
+          "Dibyadip Chatterjee",
+          "Fadime Sener",
+          "Angela Yao"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint arXiv:2605.01858",
+        "arxivId": "2605.01858"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xu2026streamingvlm",
+      "rawKey": "xu2026streamingvlm",
+      "metadata": {
+        "title": "StreamingVLM: Real-Time Understanding for Infinite Video Streams",
+        "authors": [
+          "Ruyi Xu",
+          "Guangxuan Xiao",
+          "Yukang Chen",
+          "Liuning He",
+          "Kelly Peng",
+          "Yao Lu",
+          "Song Han"
+        ],
+        "year": 2026,
+        "venue": "ICLR"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-kwon2023pagedattention",
+      "rawKey": "kwon2023pagedattention",
+      "metadata": {
+        "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+        "authors": [
+          "Woosuk Kwon",
+          "Zhuohan Li",
+          "Siyuan Zhuang",
+          "Ying Sheng",
+          "Lianmin Zheng",
+          "Cody Hao Yu",
+          "Joseph Gonzalez",
+          "Hao Zhang",
+          "Ion Stoica"
+        ],
+        "year": 2023,
+        "venue": "SOSP"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/10_1145_3600006_3613165",
+        "matchBy": "title"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-leviathan2023speculative",
+      "rawKey": "leviathan2023speculative",
+      "metadata": {
+        "title": "Fast Inference from Transformers via Speculative Decoding",
+        "authors": [
+          "Yaniv Leviathan",
+          "Matan Kalman",
+          "Yossi Matias"
+        ],
+        "year": 2023,
+        "venue": "ICML"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-chen2023speculative",
+      "rawKey": "chen2023speculative",
+      "metadata": {
+        "title": "Accelerating large language model decoding with speculative sampling",
+        "authors": [
+          "Charlie Chen",
+          "Sebastian Borgeaud",
+          "Geoffrey Irving",
+          "Jean-Baptiste Lespiau",
+          "Laurent Sifre",
+          "John Jumper"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2302.01318",
+        "arxivId": "2302.01318"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zheng2024sglang",
+      "rawKey": "zheng2024sglang",
+      "metadata": {
+        "title": "SGLang: Efficient Execution of Structured Language Model Programs",
+        "authors": [
+          "Lianmin Zheng",
+          "Liangsheng Yin",
+          "Zhiqiang Xie",
+          "Chuyue Sun",
+          "Jeff Huang",
+          "Cody Hao Yu"
+        ],
+        "year": 2024,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-miao2024specinfer",
+      "rawKey": "miao2024specinfer",
+      "metadata": {
+        "title": "SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification",
+        "authors": [
+          "Xupeng Miao",
+          "Gabriele Oliaro",
+          "Zhihao Zhang",
+          "Xinhao Cheng",
+          "Zeyu Wang",
+          "Zhengxin Zhang"
+        ],
+        "year": 2024,
+        "venue": "ASPLOS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-cai2024medusa",
+      "rawKey": "cai2024medusa",
+      "metadata": {
+        "title": "Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+        "authors": [
+          "Tianle Cai",
+          "Yuhong Li",
+          "Zhengyang Geng",
+          "Hongwu Peng",
+          "Jason D. Lee",
+          "Deming Chen",
+          "Tri Dao"
+        ],
+        "year": 2024,
+        "venue": "ICML"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2024eagle",
+      "rawKey": "li2024eagle",
+      "metadata": {
+        "title": "EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty",
+        "authors": [
+          "Yuhui Li",
+          "Fangyun Wei",
+          "Chao Zhang",
+          "Hongyang Zhang"
+        ],
+        "year": 2024,
+        "venue": "ICML"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-su2024roformer",
+      "rawKey": "su2024roformer",
+      "metadata": {
+        "title": "Roformer: Enhanced transformer with rotary position embedding",
+        "authors": [
+          "Jianlin Su",
+          "Murtadha Ahmed",
+          "Yu Lu",
+          "Shengfeng Pan",
+          "Wen Bo",
+          "Yunfeng Liu"
+        ],
+        "year": 2024,
+        "venue": "Neurocomputing"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/2104.09864",
+        "matchBy": "title"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-leviathan2023fast",
+      "rawKey": "leviathan2023fast",
+      "metadata": {
+        "title": "Fast inference from transformers via speculative decoding",
+        "authors": [
+          "Yaniv Leviathan",
+          "Matan Kalman",
+          "Yossi Matias"
+        ],
+        "year": 2023,
+        "venue": "ICML"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zheng2023mcu",
+      "rawKey": "zheng2023mcu",
+      "metadata": {
+        "title": "MCU: An evaluation framework for open-ended game agents",
+        "authors": [
+          "Xinyue Zheng",
+          "Haowei Lin",
+          "Kaichen He",
+          "Zihao Wang",
+          "Zilong Zheng",
+          "Yitao Liang"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2310.08367",
+        "arxivId": "2310.08367"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-Wydmuch2019ViZdoom",
+      "rawKey": "Wydmuch2019ViZdoom",
+      "metadata": {
+        "title": "ViZDoom Competitions: Playing Doom from Pixels",
+        "authors": [
+          "Marek Wydmuch",
+          "Micha Kempka",
+          "Wojciech Jaskowski"
+        ],
+        "year": 2019,
+        "venue": "IEEE Transactions on Games"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-omnigamearena2026",
+      "rawKey": "omnigamearena2026",
+      "metadata": {
+        "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
+        "authors": [
+          "Mingxian Lin",
+          "Shengju Qian",
+          "Yuqi Liu",
+          "Yi-Hua Huang",
+          "Yiyu Wang",
+          "Wei Huang"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint arXiv:2606.09826",
+        "arxivId": "2606.09826"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gameworld2026",
+      "rawKey": "gameworld2026",
+      "metadata": {
+        "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+        "authors": [
+          "Mingyu Ouyang",
+          "Siyuan Hu",
+          "Kevin Qinghong Lin",
+          "Hwee Tou Ng",
+          "Mike Zheng Shou"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint arXiv:2604.07429",
+        "arxivId": "2604.07429"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-lin2026streamingbench",
+      "rawKey": "lin2026streamingbench",
+      "metadata": {
+        "title": "Streamingbench: Assessing the gap for mllms to achieve streaming video understanding",
+        "authors": [
+          "Junming Lin",
+          "Zheng Fang",
+          "Chi Chen",
+          "Haoxuan Cheng",
+          "Zihao Wan",
+          "Fuwen Luo",
+          "Ziyue Wang",
+          "Peng Li",
+          "Yang Liu",
+          "Maosong Sun"
+        ],
+        "year": 2026,
+        "venue": "ICASSP"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-niu2025ovo",
+      "rawKey": "niu2025ovo",
+      "metadata": {
+        "title": "Ovo-bench: How far is your video-llms from real-world online video understanding?",
+        "authors": [
+          "Junbo Niu",
+          "Yifei Li",
+          "Ziyang Miao",
+          "Chunjiang Ge",
+          "Yuanhang Zhou",
+          "Qihao He",
+          "Xiaoyi Dong",
+          "Haodong Duan",
+          "Shuangrui Ding",
+          "Rui Qian"
+        ],
+        "year": 2025,
+        "venue": "CVPR"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2026pi",
+      "rawKey": "wang2026pi",
+      "metadata": {
+        "title": "Permutation-Equivariant Visual Geometry Learning",
+        "authors": [
+          "Yifan Wang",
+          "Jianjun Zhou",
+          "Haoyi Zhu",
+          "Wenzheng Chang",
+          "Yang Zhou",
+          "Zizun Li",
+          "Junyi Chen",
+          "Jiangmiao Pang",
+          "Chunhua Shen",
+          "Tong He"
+        ],
+        "year": 2026,
+        "venue": "ICLR"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2026moge",
+      "rawKey": "wang2026moge",
+      "metadata": {
+        "title": "Moge-2: Accurate monocular geometry with metric scale and sharp details",
+        "authors": [
+          "Ruicheng Wang",
+          "Sicheng Xu",
+          "Yue Dong",
+          "Yu Deng",
+          "Jianfeng Xiang",
+          "Zelong Lv",
+          "Guangzhong Sun",
+          "Xin Tong",
+          "Jiaolong Yang"
+        ],
+        "year": 2026,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-veicht2024geocalib",
+      "rawKey": "veicht2024geocalib",
+      "metadata": {
+        "title": "Geocalib: Learning single-image calibration with geometric optimization",
+        "authors": [
+          "Alexander Veicht",
+          "Paul-Edouard Sarlin",
+          "Philipp Lindenberger",
+          "Marc Pollefeys"
+        ],
+        "year": 2024,
+        "venue": "ECCV"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-liu2024grounding",
+      "rawKey": "liu2024grounding",
+      "metadata": {
+        "title": "Grounding dino: Marrying dino with grounded pre-training for open-set object detection",
+        "authors": [
+          "Shilong Liu",
+          "Zhaoyang Zeng",
+          "Tianhe Ren",
+          "Feng Li",
+          "Hao Zhang",
+          "Jie Yang",
+          "Qing Jiang",
+          "Chunyuan Li",
+          "Jianwei Yang",
+          "Hang Su"
+        ],
+        "year": 2024,
+        "venue": "ECCV"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-ravi2025sam",
+      "rawKey": "ravi2025sam",
+      "metadata": {
+        "title": "Sam 2: Segment anything in images and videos",
+        "authors": [
+          "Nikhila Ravi",
+          "Valentin Gabeur",
+          "Yuan-Ting Hu",
+          "Ronghang Hu",
+          "Chaitanya Ryali",
+          "Tengyu Ma",
+          "Haitham Khedr",
+          "Roman Radle",
+          "Chloe Rolland",
+          "Laura Gustafson"
+        ],
+        "year": 2025,
+        "venue": "ICLR"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yang2022deaot",
+      "rawKey": "yang2022deaot",
+      "metadata": {
+        "title": "Decoupling Features in Hierarchical Propagation for Video Object Segmentation",
+        "authors": [
+          "Zongxin Yang",
+          "Yi Yang"
+        ],
+        "year": 2022,
+        "venue": "NeurIPS"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yang2021aost",
+      "rawKey": "yang2021aost",
+      "metadata": {
+        "title": "Scalable Video Object Segmentation with Identification Mechanism",
+        "authors": [
+          "Zongxin Yang",
+          "Jiaxu Miao",
+          "Yunchao Wei",
+          "Wenguan Wang",
+          "Xiaohan Wang",
+          "Yi Yang"
+        ],
+        "year": 2024,
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-huang2025vipe",
+      "rawKey": "huang2025vipe",
+      "metadata": {
+        "title": "Vipe: Video pose engine for 3d geometric perception",
+        "authors": [
+          "Jiahui Huang",
+          "Qunjie Zhou",
+          "Hesam Rabeti",
+          "Aleksandr Korovko",
+          "Huan Ling",
+          "Xuanchi Ren",
+          "Tianchang Shen",
+          "Jun Gao",
+          "Dmitry Slepichev",
+          "Chen-Hsuan Lin"
+        ],
+        "year": 2025,
+        "venue": "arXiv preprint arXiv:2508.10934",
+        "arxivId": "2508.10934"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-di2025rekv",
+      "rawKey": "di2025rekv",
+      "metadata": {
+        "title": "Streaming Video Question-Answering with In-context Video KV-Cache Retrieval",
+        "authors": [
+          "Shangzhe Di",
+          "Zhelun Yu",
+          "Guanghao Zhang",
+          "Haoyuan Li",
+          "Hao Cheng",
+          "Bolin Li",
+          "Wanggui He",
+          "Fangxun Shu",
+          "Hao Jiang"
+        ],
+        "year": 2025,
+        "venue": "ICLR"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-sheng2024hybridflow",
+      "rawKey": "sheng2024hybridflow",
+      "metadata": {
+        "title": "HybridFlow: A Flexible and Efficient RLHF Framework",
+        "authors": [
+          "Guangming Sheng",
+          "Chi Zhang",
+          "Zilingfeng Ye",
+          "Xibin Wu",
+          "Wang Zhang",
+          "Ru Zhang",
+          "Yanghua Peng",
+          "Haibin Lin",
+          "Chuan Wu"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv: 2409.19256"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-llava1.5",
+      "rawKey": "llava1.5",
+      "metadata": {
+        "title": "Improved Baselines with Visual Instruction Tuning",
+        "authors": [
+          "Haotian Liu",
+          "Chunyuan Li",
+          "Yuheng Li",
+          "Yong Jae Lee"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2310.03744",
+        "arxivId": "2310.03744"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qwen2vl",
+      "rawKey": "qwen2vl",
+      "metadata": {
+        "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+        "authors": [
+          "Peng Wang",
+          "Shuai Bai",
+          "Sinan Tan",
+          "Shijie Wang",
+          "Zhihao Fan",
+          "Jinze Bai",
+          "Keqin Chen",
+          "Xuejing Liu",
+          "Jialin Wang",
+          "Wenbin Ge",
+          "Yang Fan",
+          "Kai Dang",
+          "Mengfei Du",
+          "Xuancheng Ren",
+          "Rui Men",
+          "Dayiheng Liu",
+          "Chang Zhou",
+          "Jingren Zhou",
+          "Junyang Lin"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2409.12191",
+        "arxivId": "2409.12191"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qwenvl",
+      "rawKey": "qwenvl",
+      "metadata": {
+        "title": "Qwen-vl: A frontier large vision-language model with versatile abilities",
+        "authors": [
+          "Jinze Bai",
+          "Shuai Bai",
+          "Shusheng Yang",
+          "Shijie Wang",
+          "Sinan Tan",
+          "Peng Wang",
+          "Junyang Lin",
+          "Chang Zhou",
+          "Jingren Zhou"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arXiv:2308.12966",
+        "arxivId": "2308.12966"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qwen2.5",
+      "rawKey": "qwen2.5",
+      "metadata": {
+        "title": "Qwen2.5 Technical Report",
+        "authors": [
+          "An Yang",
+          "Baosong Yang",
+          "Beichen Zhang",
+          "Binyuan Hui",
+          "Bo Zheng",
+          "Bowen Yu",
+          "Chengyuan Li",
+          "Dayiheng Liu",
+          "Fei Huang",
+          "Haoran Wei",
+          "Huan Lin",
+          "Jian Yang",
+          "Jianhong Tu",
+          "Jianwei Zhang",
+          "Jianxin Yang",
+          "Jiaxi Yang",
+          "Jingren Zhou",
+          "Junyang Lin",
+          "Kai Dang",
+          "Keming Lu",
+          "Keqin Bao",
+          "Kexin Yang",
+          "Le Yu",
+          "Mei Li",
+          "Mingfeng Xue",
+          "Pei Zhang",
+          "Qin Zhu",
+          "Rui Men",
+          "Runji Lin",
+          "Tianhao Li",
+          "Tingyu Xia",
+          "Xingzhang Ren",
+          "Xuancheng Ren",
+          "Yang Fan",
+          "Yang Su",
+          "Yichang Zhang",
+          "Yu Wan",
+          "Yuqiong Liu",
+          "Zeyu Cui",
+          "Zhenru Zhang",
+          "Zihan Qiu"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2412.15115",
+        "arxivId": "2412.15115"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-internvl2",
+      "rawKey": "internvl2",
+      "metadata": {
+        "title": "How far are we to gpt-4v? closing the gap to commercial multimodal models with open-source suites",
+        "authors": [
+          "Zhe Chen",
+          "Weiyun Wang",
+          "Hao Tian",
+          "Shenglong Ye",
+          "Zhangwei Gao",
+          "Erfei Cui",
+          "Wenwen Tong",
+          "Kongzhi Hu",
+          "Jiapeng Luo",
+          "Zheng Ma"
+        ],
+        "year": 2024,
+        "venue": "Science China Information Sciences"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-internvl2.5",
+      "rawKey": "internvl2.5",
+      "metadata": {
+        "title": "Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling",
+        "authors": [
+          "Zhe Chen",
+          "Weiyun Wang",
+          "Yue Cao",
+          "Yangzhou Liu",
+          "Zhangwei Gao",
+          "Erfei Cui",
+          "Jinguo Zhu",
+          "Shenglong Ye",
+          "Hao Tian",
+          "Zhaoyang Liu",
+          "Lixin Gu",
+          "Xuehui Wang",
+          "Qingyun Li",
+          "Yimin Ren",
+          "Zixuan Chen",
+          "Jiapeng Luo",
+          "Jiahao Wang",
+          "Tan Jiang",
+          "Bo Wang",
+          "Conghui He",
+          "Botian Shi",
+          "Xingcheng Zhang",
+          "Han Lv",
+          "Yi Wang",
+          "Wenqi Shao",
+          "Pei Chu",
+          "Zhongying Tu",
+          "Tong He",
+          "Zhiyong Wu",
+          "Huipeng Deng",
+          "Jiaye Ge",
+          "Kai Chen",
+          "Kaipeng Zhang",
+          "Limin Wang",
+          "Min Dou",
+          "Lewei Lu",
+          "Xizhou Zhu",
+          "Tong Lu",
+          "Dahua Lin",
+          "Yu Qiao",
+          "Jifeng Dai",
+          "Wenhai Wang"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2412.05271",
+        "arxivId": "2412.05271"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xu2025qwen3",
+      "rawKey": "xu2025qwen3",
+      "metadata": {
+        "title": "Qwen3-omni technical report",
+        "authors": [
+          "Jin Xu",
+          "Zhifang Guo",
+          "Hangrui Hu",
+          "Yunfei Chu",
+          "Xiong Wang",
+          "Jinzheng He",
+          "Yuxuan Wang",
+          "Xian Shi",
+          "Ting He",
+          "Xinfa Zhu"
+        ],
+        "year": 2025,
+        "venue": "arXiv preprint arXiv:2509.17765",
+        "arxivId": "2509.17765"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-xu2025qwen2",
+      "rawKey": "xu2025qwen2",
+      "metadata": {
+        "title": "Qwen2. 5-omni technical report",
+        "authors": [
+          "Jin Xu",
+          "Zhifang Guo",
+          "Jinzheng He",
+          "Hangrui Hu",
+          "Ting He",
+          "Shuai Bai",
+          "Keqin Chen",
+          "Jialin Wang",
+          "Yang Fan",
+          "Kai Dang"
+        ],
+        "year": 2025,
+        "venue": "arXiv preprint arXiv:2503.20215",
+        "arxivId": "2503.20215"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wu2024deepseek",
+      "rawKey": "wu2024deepseek",
+      "metadata": {
+        "title": "DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding",
+        "authors": [
+          "Zhiyu Wu",
+          "Xiaokang Chen",
+          "Zizheng Pan",
+          "Xingchao Liu",
+          "Wen Liu",
+          "Damai Dai",
+          "Huazuo Gao",
+          "Yiyang Ma",
+          "Chengyue Wu",
+          "Bingxuan Wang"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2412.10302",
+        "arxivId": "2412.10302"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-guo2025r1",
+      "rawKey": "guo2025r1",
+      "metadata": {
+        "title": "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning",
+        "authors": [
+          "Daya Guo",
+          "Dejian Yang",
+          "Haowei Zhang",
+          "Junxiao Song",
+          "Ruoyu Zhang",
+          "Runxin Xu",
+          "Qihao Zhu",
+          "Shirong Ma",
+          "Peiyi Wang",
+          "Xiao Bi"
+        ],
+        "year": 2025,
+        "venue": "arXiv preprint arXiv:2501.12948",
+        "arxivId": "2501.12948"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-dong2025seedvl",
+      "rawKey": "dong2025seedvl",
+      "metadata": {
+        "title": "Seed1.5-VL Technical Report",
+        "authors": [
+          "Dong Guo",
+          "Faming Wu",
+          "Feida Zhu",
+          "Fuxing Leng",
+          "Guang Shi",
+          "Haobin Chen",
+          "Haoqi Fan",
+          "Jian Wang",
+          "Jianyu Jiang",
+          "Others"
+        ],
+        "year": 2025,
+        "venue": "arXiv preprint arXiv:2505.07062",
+        "arxivId": "2505.07062"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpt2",
+      "rawKey": "gpt2",
+      "metadata": {
+        "title": "Language models are unsupervised multitask learners",
+        "authors": [
+          "Alec Radford",
+          "Jeffrey Wu",
+          "Rewon Child",
+          "David Luan",
+          "Dario Amodei",
+          "Ilya Sutskever"
+        ],
+        "year": 2019,
+        "venue": "OpenAI blog"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/language-models-are-unsupervised-multitask-learners",
+        "matchBy": "title"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpt3",
+      "rawKey": "gpt3",
+      "metadata": {
+        "title": "Language Models are Few-Shot Learners",
+        "authors": [
+          "Tom Brown",
+          "Benjamin Mann",
+          "Nick Ryder",
+          "Melanie Subbiah",
+          "Jared D Kaplan",
+          "Prafulla Dhariwal",
+          "Arvind Neelakantan",
+          "Pranav Shyam",
+          "Girish Sastry",
+          "Amanda Askell",
+          "Sandhini Agarwal",
+          "Ariel Herbert-Voss",
+          "Gretchen Krueger",
+          "Tom Henighan",
+          "Rewon Child",
+          "Aditya Ramesh",
+          "Daniel Ziegler",
+          "Jeffrey Wu",
+          "Clemens Winter",
+          "Chris Hesse",
+          "Mark Chen",
+          "Eric Sigler",
+          "Mateusz Litwin",
+          "Scott Gray",
+          "Benjamin Chess",
+          "Jack Clark",
+          "Christopher Berner",
+          "Sam McCandlish",
+          "Alec Radford",
+          "Ilya Sutskever",
+          "Dario Amodei"
+        ],
+        "year": 2020,
+        "venue": "NeurIPS"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/2005.14165",
+        "matchBy": "title"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-llama1",
+      "rawKey": "llama1",
+      "metadata": {
+        "title": "Llama: Open and efficient foundation language models",
+        "authors": [
+          "Hugo Touvron",
+          "Thibaut Lavril",
+          "Gautier Izacard",
+          "Xavier Martinet",
+          "Marie-Anne Lachaux",
+          "Timothee Lacroix",
+          "Baptiste Roziere",
+          "Naman Goyal",
+          "Eric Hambro",
+          "Faisal Azhar"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arxiv:2302.13971",
+        "arxivId": "2302.13971"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/2302.13971",
+        "matchBy": "arxiv"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-llama2",
+      "rawKey": "llama2",
+      "metadata": {
+        "title": "Llama 2: Open foundation and fine-tuned chat models",
+        "authors": [
+          "Hugo Touvron",
+          "Louis Martin",
+          "Kevin Stone",
+          "Peter Albert",
+          "Amjad Almahairi",
+          "Yasmine Babaei",
+          "Nikolay Bashlykov",
+          "Soumya Batra",
+          "Prajjwal Bhargava",
+          "Shruti Bhosale"
+        ],
+        "year": 2023,
+        "venue": "arXiv preprint arxiv:2307.09288",
+        "arxivId": "2307.09288"
+      },
+      "localMatch": {
+        "paperPath": "papers/待整理/2307.09288",
+        "matchBy": "arxiv"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-llama3",
+      "rawKey": "llama3",
+      "metadata": {
+        "title": "The llama 3 herd of models",
+        "authors": [
+          "Abhimanyu Dubey",
+          "Abhinav Jauhri",
+          "Abhinav Pandey",
+          "Abhishek Kadian",
+          "Ahmad Al-Dahle",
+          "Aiesha Letman",
+          "Akhil Mathur",
+          "Alan Schelten",
+          "Amy Yang",
+          "Angela Fan"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arxiv:2407.21783",
+        "arxivId": "2407.21783"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-atari",
+      "rawKey": "atari",
+      "metadata": {
+        "title": "Human-level control through deep reinforcement learning",
+        "authors": [
+          "Volodymyr Mnih",
+          "Koray Kavukcuoglu",
+          "David Silver",
+          "Andrei A Rusu",
+          "Joel Veness",
+          "Marc G Bellemare",
+          "Alex Graves",
+          "Martin Riedmiller",
+          "Andreas K Fidjeland",
+          "Georg Ostrovski"
+        ],
+        "year": 2015,
+        "venue": "Nature"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-starcraft",
+      "rawKey": "starcraft",
+      "metadata": {
+        "title": "Grandmaster level in StarCraft II using multi-agent reinforcement learning",
+        "authors": [
+          "Oriol Vinyals",
+          "Igor Babuschkin",
+          "Wojciech M Czarnecki",
+          "Michael Mathieu",
+          "Andrew Dudzik",
+          "Junyoung Chung",
+          "David H Choi",
+          "Richard Powell",
+          "Timo Ewalds",
+          "Petko Georgiev"
+        ],
+        "year": 2019,
+        "venue": "Nature"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gameverse",
+      "rawKey": "gameverse",
+      "metadata": {
+        "title": "GameVerse: Can Vision-Language Models Learn from Video-based Reflection?",
+        "authors": [
+          "Kuan Zhang",
+          "Dongchen Liu",
+          "Qiyue Zhao",
+          "Jinkun Hou",
+          "Xinran Zhang",
+          "Qinlei Xie",
+          "Miao Liu",
+          "Yiming Li"
+        ],
+        "year": 2026,
+        "venue": "ICML"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-towards",
+      "rawKey": "towards",
+      "metadata": {
+        "title": "Towards Generalist Game Players: An Investigation of Foundation Models in the Game Multiverse",
+        "authors": [
+          "Kuan Zhang",
+          "Dongchen Liu",
+          "Qiyue Zhao",
+          "Tianyu Xin",
+          "Yue Su",
+          "Haisheng Wang",
+          "Han Yin",
+          "Hongbo Ma",
+          "Peize Li",
+          "Tianjun Gu",
+          "Xiangnan Wu",
+          "Xinran Zhang",
+          "Yongxuan Li",
+          "Zirong Chen",
+          "Yiming Li"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint arXiv:2605.09965",
+        "arxivId": "2605.09965"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gamescaling",
+      "rawKey": "gamescaling",
+      "metadata": {
+        "title": "Scaling in Games: Continued Pre-Training for Embodied Agents in Diverse Virtual Worlds",
+        "authors": [
+          "Kuan Zhang",
+          "Yukun Chen",
+          "Zhihao Yang",
+          "Yue Su",
+          "Xiangnan Wu",
+          "Zirong Chen",
+          "Run Luo",
+          "Jinkun Hou",
+          "Tao Tan",
+          "Yinhe Zheng",
+          "Yiming Li"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint arXiv:2610.28698",
+        "arxivId": "2610.28698"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-player1",
+      "rawKey": "player1",
+      "metadata": {
+        "title": "Player-1: Learning to Play from Synthetic Experience",
+        "authors": [
+          "Mingyu Ouyang",
+          "Yiran Wang",
+          "Siyuan Hu",
+          "Xingyilang Yin",
+          "Huiqiang Sun",
+          "Guangzhi Wang",
+          "Junfu Pu",
+          "Cheng Cheng",
+          "Honghao Chen",
+          "Ying Shan",
+          "Mike Zheng Shou",
+          "Hwee Tou Ng"
+        ],
+        "year": 2026
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-videoarena",
+      "rawKey": "videoarena",
+      "metadata": {
+        "title": "Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability",
+        "authors": [
+          "Kuan Zhang",
+          "Yukun Chen",
+          "Zhihao Yang",
+          "Yue Su",
+          "Xiangnan Wu",
+          "Zirong Chen",
+          "Run Luo",
+          "Tao Tan",
+          "Yinhe Zheng",
+          "Yiming Li"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint arXiv:2610.14158",
+        "arxivId": "2610.14158"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-nguyen2025gui",
+      "rawKey": "nguyen2025gui",
+      "metadata": {
+        "title": "Gui agents: A survey",
+        "authors": [
+          "Dang Nguyen",
+          "Jian Chen",
+          "Yu Wang",
+          "Gang Wu",
+          "Namyong Park",
+          "Zhengmian Hu",
+          "Hanjia Lyu",
+          "Junda Wu",
+          "Ryan Aponte",
+          "Yu Xia"
+        ],
+        "year": 2025,
+        "venue": "ACL Findings"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-wang2024gui",
+      "rawKey": "wang2024gui",
+      "metadata": {
+        "title": "Gui agents with foundation models: A comprehensive survey",
+        "authors": [
+          "Shuai Wang",
+          "Weiwen Liu",
+          "Jingxuan Chen",
+          "Yuqi Zhou",
+          "Weinan Gan",
+          "Xingshan Zeng",
+          "Yuhan Che",
+          "Shuai Yu",
+          "Xinlong Hao",
+          "Kun Shao"
+        ],
+        "year": 2024,
+        "venue": "arXiv preprint arXiv:2411.04890",
+        "arxivId": "2411.04890"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-luo2026next",
+      "rawKey": "luo2026next",
+      "metadata": {
+        "title": "Next-omni: Towards any-to-any omnimodal foundation models with discrete flow matching",
+        "authors": [
+          "Run Luo",
+          "Xiaobo Xia",
+          "Lu Wang",
+          "Longze Chen",
+          "Renke Shan",
+          "Jing Luo",
+          "Min Yang",
+          "Tat-Seng Chua"
+        ],
+        "year": 2026,
+        "venue": "ICLR"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-google2026gemini38flash",
+      "rawKey": "google2026gemini38flash",
+      "metadata": {
+        "title": "Gemini 3.8 Flash Model Card",
+        "authors": [
+          "Google DeepMind"
+        ],
+        "year": 2026,
+        "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-anthropic2026opus5",
+      "rawKey": "anthropic2026opus5",
+      "metadata": {
+        "title": "System Card: Claude Opus 5",
+        "authors": [
+          "Anthropic"
+        ],
+        "year": 2026,
+        "url": "https://www.anthropic.com/claude-opus-5-system-card"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-glm2026glm5",
+      "rawKey": "glm2026glm5",
+      "metadata": {
+        "title": "GLM-5: From Vibe Coding to Agentic Engineering",
+        "authors": [
+          "GLM-5 Team"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint arXiv:2602.15763",
+        "arxivId": "2602.15763"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-deepseek2026v4",
+      "rawKey": "deepseek2026v4",
+      "metadata": {
+        "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+        "authors": [
+          "DeepSeek-AI"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint arXiv:2606.19348",
+        "arxivId": "2606.19348"
+      },
+      "localMatch": {
+        "paperPath": "papers/DeepSeek/2606.19348",
+        "matchBy": "arxiv"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2024llava",
+      "rawKey": "li2024llava",
+      "metadata": {
+        "title": "LLaVA-OneVision: Easy Visual Task Transfer",
+        "authors": [
+          "Bo Li",
+          "Yuanhan Zhang",
+          "Dong Guo",
+          "Renrui Zhang",
+          "Feng Li",
+          "Hao Zhang"
+        ],
+        "year": 2025,
+        "venue": "Transactions on Machine Learning Research"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-gpt56card",
+      "rawKey": "gpt56card",
+      "metadata": {
+        "title": "GPT-5.6 Preview System Card",
+        "authors": [
+          "OpenAI"
+        ],
+        "year": 2026,
+        "url": "https://deploymentsafety.openai.com/gpt-5-6-preview"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qwen35",
+      "rawKey": "qwen35",
+      "metadata": {
+        "title": "Qwen3.5: Towards Native Multimodal Agents",
+        "authors": [
+          "Qwen Team"
+        ],
+        "year": 2026,
+        "url": "https://qwen.ai/blog?id=qwen3.5"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-deepseekv4flashvision",
+      "rawKey": "deepseekv4flashvision",
+      "metadata": {
+        "title": "DeepSeek-V4-Flash-Vision-Exp",
+        "authors": [
+          "DeepSeek-AI"
+        ],
+        "year": 2026,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-glm53flash",
+      "rawKey": "glm53flash",
+      "metadata": {
+        "title": "GLM-5.3-Flash: Frontier Intelligence, Flash Cost",
+        "authors": [
+          "Z.ai"
+        ],
+        "year": 2026,
+        "url": "https://z.ai/blog/glm-5.3-flash"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-qwen3",
+      "rawKey": "qwen3",
+      "metadata": {
+        "title": "Qwen3-vl technical report",
+        "authors": [
+          "Shuai Bai",
+          "Yuxuan Cai",
+          "Ruizhe Chen",
+          "Keqin Chen",
+          "Xionghui Chen",
+          "Zesen Cheng",
+          "Lianghao Deng",
+          "Wei Ding",
+          "Chang Gao",
+          "Chunjiang Ge"
+        ],
+        "year": 2025,
+        "venue": "arXiv preprint arXiv:2511.21631",
+        "arxivId": "2511.21631"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-llava-o",
+      "rawKey": "llava-o",
+      "metadata": {
+        "title": "LLaVA-OneVision: Easy Visual Task Transfer",
+        "authors": [
+          "Bo Li",
+          "Yuanhan Zhang",
+          "Dong Guo",
+          "Renrui Zhang",
+          "Feng Li",
+          "Hao Zhang"
+        ],
+        "year": 2025,
+        "venue": "Transactions on Machine Learning Research"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2026zebracot",
+      "rawKey": "li2026zebracot",
+      "metadata": {
+        "title": "Zebra-CoT: A Dataset for Interleaved Vision-Language Reasoning",
+        "authors": [
+          "Ang Li",
+          "Charles L. Wang",
+          "Deqing Fu",
+          "Kaiyu Yue",
+          "Zikui Cai",
+          "Wang Bill Zhu"
+        ],
+        "year": 2026,
+        "venue": "ICLR"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-zhang2025embodiedreasoner",
+      "rawKey": "zhang2025embodiedreasoner",
+      "metadata": {
+        "title": "Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks",
+        "authors": [
+          "Wenqi Zhang",
+          "Mengna Wang",
+          "Gangao Liu",
+          "Huixin Xu",
+          "Yiwei Jiang",
+          "Yongliang Shen"
+        ],
+        "year": 2026,
+        "venue": "ACL"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-yang2025cambrians",
+      "rawKey": "yang2025cambrians",
+      "metadata": {
+        "title": "Cambrian-S: Towards Spatial Supersensing in Video",
+        "authors": [
+          "Shusheng Yang",
+          "Jihan Yang",
+          "Pinzhi Huang",
+          "Ellis Brown",
+          "Zihao Yang",
+          "Yue Yu"
+        ],
+        "year": 2026,
+        "venue": "ICLR"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-byrd1995limited",
+      "rawKey": "byrd1995limited",
+      "metadata": {
+        "title": "A limited memory algorithm for bound constrained optimization",
+        "authors": [
+          "Richard H Byrd",
+          "Peihuang Lu",
+          "Jorge Nocedal",
+          "Ciyou Zhu"
+        ],
+        "year": 1995,
+        "venue": "SIAM Journal on Scientific Computing"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-li2026compactionrl",
+      "rawKey": "li2026compactionrl",
+      "metadata": {
+        "title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
+        "authors": [
+          "Yujiang Li",
+          "Zhenyu Hou",
+          "Yi Jing",
+          "Jie Tang",
+          "Yuxiao Dong"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint arXiv:2607.05378",
+        "arxivId": "2607.05378"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-openai2026gpt61sol",
+      "rawKey": "openai2026gpt61sol",
+      "metadata": {
+        "title": "Addendum to GPT-6 Astra System Card: GPT-6.1 Sol",
+        "authors": [
+          "OpenAI"
+        ],
+        "year": 2026,
+        "url": "https://deploymentsafety.openai.com/gpt-6-1-sol"
+      },
+      "source": "bib",
+      "status": "resolved"
+    },
+    {
+      "id": "cite-luo2026ai",
+      "rawKey": "luo2026ai",
+      "metadata": {
+        "title": "AI for games in the foundation model era",
+        "authors": [
+          "Meng Luo",
+          "Yanlin Li",
+          "Hao Li",
+          "Hongzhan Lin",
+          "Pengfei Zhou",
+          "Tianjie Ju",
+          "Ran Zhang",
+          "Yeying Jin",
+          "Mong-Li Lee",
+          "Wynne Hsu"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint arXiv:2609.16679",
+        "arxivId": "2609.16679"
+      },
+      "source": "bib",
+      "status": "resolved"
+    }
+  ],
+  "messages": [
+    "local: 97 entries (bib)",
+    "semantic scholar: no references",
+    "crossref failed: not found"
+  ]
+}
