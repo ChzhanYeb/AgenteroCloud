@@ -1,0 +1,993 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-24T05:24:04.850Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "figure-1",
+      "stableKey": "p2:figure:Figure 1 Overview of Gamer. A generalist game agent framework operates across a ",
+      "kind": "image",
+      "section": "figure",
+      "page": 2,
+      "pageIndex": 1,
+      "bbox": {
+        "x": 0.11121231278562857,
+        "y": 0.10356132430259628,
+        "w": 0.7777335223029641,
+        "h": 0.3690594374531447
+      },
+      "score": 0.828766942024231,
+      "title": "Figure 1 Overview of Gamer. A generalist game agent framework operates across a broad range of visually and mechanically diverse games. At each step, the agent uses the current screen, task context, recent interaction history, long-term memory, and reasoning to generate native keyboard and mouse actions in real time. The agent interacts continuously through this loop. Cross-game training, multi-level supervision, and persistent memory support transferable control and sustained task execution.",
+      "layoutRegionId": "f195cdde-1173-442d-87b2-a6392c3fba79"
+    },
+    {
+      "id": "figure-2",
+      "stableKey": "p4:figure:Figure 2 CPT for unified keyboard-mouse control. Synchronized gameplay observati",
+      "kind": "image",
+      "section": "figure",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.11075645646238638,
+        "y": 0.4800928674563013,
+        "w": 0.776984831866096,
+        "h": 0.2649844776500355
+      },
+      "score": 0.9600191116333008,
+      "title": "Figure 2 CPT for unified keyboard-mouse control. Synchronized gameplay observations and device events are mapped to a shared action representation. Random key remapping reduces reliance on key identity, while repeat-aware loss decay reweights temporally persistent actions. The resulting control prior is used by the subsequent task-conditioned training stages.",
+      "layoutRegionId": "470d3b53-54ec-4916-8fbb-7aadae4d98c6"
+    },
+    {
+      "id": "figure-4",
+      "stableKey": "p7:figure:Figure 4 Sparse reasoning and cross-context memory in supervised fine-tuning. Th",
+      "kind": "image",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.11178782095316968,
+        "y": 0.2695171857121015,
+        "w": 0.775600321152631,
+        "h": 0.2767281580452967
+      },
+      "score": 0.9477521181106567,
+      "title": "Figure 4 Sparse reasoning and cross-context memory in supervised fine-tuning. The shared autoregressive policy integrates visual observations, task memory, optional reasoning, and executable keyboard-mouse actions. Context memory compaction preserves task progress across long interactions, while adaptive reasoning allows the policy to act directly at routine steps and generate explicit reasoning when needed.",
+      "layoutRegionId": "2b8826ec-200a-4e66-a194-78c815e4f9fc"
+    },
+    {
+      "id": "figure-5",
+      "stableKey": "p9:figure:Figure 5 Memory-linked long-horizon optimization with TA-GRPO . A long interacti",
+      "kind": "image",
+      "section": "figure",
+      "page": 9,
+      "pageIndex": 8,
+      "bbox": {
+        "x": 0.11071100421980315,
+        "y": 0.10168952171248619,
+        "w": 0.7775127809811262,
+        "h": 0.3000444161771524
+      },
+      "score": 0.9696410894393921,
+      "title": "Figure 5 Memory-linked long-horizon optimization with TA-GRPO . A long interaction may exceed the model’s context budget (top). Memory compaction divides online rollouts into finite segments whose task states remain connected by generated summaries (bottom). Segments at corresponding stages are compared using environment verifiable outcomes, and temporal credit assignment distributes their group-relative advantage across decisions. The figure is schematic, and model execution uses the real-time serving backend in Sec. 5 .",
+      "layoutRegionId": "a53ebca6-8ce0-4fd4-a3cd-36e70b11fedf"
+    },
+    {
+      "id": "figure-6",
+      "stableKey": "p11:figure:Figure 6 Streaming-vLLM for persistent multi-environment inference. Each game cl",
+      "kind": "image",
+      "section": "figure",
+      "page": 11,
+      "pageIndex": 10,
+      "bbox": {
+        "x": 0.11016157561657476,
+        "y": 0.2649371021925801,
+        "w": 0.7787624184602226,
+        "h": 0.3373400562941426
+      },
+      "score": 0.7325608730316162,
+      "title": "Figure 6 Streaming-vLLM for persistent multi-environment inference. Each game client maintains separate short-term history, long-term memory, and logical KV-cache state. Two cache forms coexist. Full-Attention layers keep a growing paged KV cache: blocks are allocated and reused on demand, and released when context is compacted. In hybrid backbones, gated delta network (GDN) layers instead hold fixed-size linear recurrent and convolution states ( ssm_state , conv_state ) whose footprint is independent of sequence length and which are carried across compaction in place. Paged allocation and memory-aware KV-cache reuse avoid repeated context processing, while incremental rotary position embedding (RoPE) refresh corrects retained keys after compaction. The runtime combines architecture-aware execution, BF16-verified FSM speculation, and early action dispatch to serve concurrent real-time interactions.",
+      "layoutRegionId": "01a23f45-cb73-4d70-ae18-7193d5ebfe28"
+    },
+    {
+      "id": "figure-7",
+      "stableKey": "p13:figure:Figure 7 Bottom-up construction of multi-level task supervision. The diagram ill",
+      "kind": "image",
+      "section": "figure",
+      "page": 13,
+      "pageIndex": 12,
+      "bbox": {
+        "x": 0.11044302797005846,
+        "y": 0.5770744169601286,
+        "w": 0.7766076256247127,
+        "h": 0.3260563166454584
+      },
+      "score": 0.7477917075157166,
+      "title": "Figure 7 Bottom-up construction of multi-level task supervision. The diagram illustrates the organization of aligned gameplay segments into local operations, intermediate subgoals, and extended task stages. Separate GPT-5.6-Luna passes produce sparse Think annotations, segment-level instructions and scene descriptions, and memory updates as detailed in Secs. 6.2 - 6.3 . The diagram focuses on hierarchy assembly rather than depicting every annotation call.",
+      "layoutRegionId": "60a7a988-b10d-48b0-b483-ca4f1b57e066"
+    },
+    {
+      "id": "figure-8",
+      "stableKey": "p16:figure:Figure 8 Multi-stage data curation for training. Gameplay trajectories and gener",
+      "kind": "chart",
+      "section": "figure",
+      "page": 16,
+      "pageIndex": 15,
+      "bbox": {
+        "x": 0.11095634161257277,
+        "y": 0.3556795216569997,
+        "w": 0.7772658478979971,
+        "h": 0.28801607844805477
+      },
+      "score": 0.911953866481781,
+      "title": "Figure 8 Multi-stage data curation for training. Gameplay trajectories and general vision-language data are cleaned, sampled, and filtered to construct the CPT corpus. Trajectories with aligned action annotations are further used to construct SFT examples at three levels: short-horizon operations, medium-horizon subgoals, and long-horizon tasks. For RL, online policy interaction provides trajectories and environment-verifiable outcomes.",
+      "layoutRegionId": "cfc67529-59ca-4480-8dba-b3141265fca5"
+    },
+    {
+      "id": "figure-9",
+      "stableKey": "p19:figure:Figure 9 Representative long-horizon side quests in the Honkai: Star Rail evalua",
+      "kind": "image",
+      "section": "figure",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.1112679874195772,
+        "y": 0.261564967608211,
+        "w": 0.7767696006625306,
+        "h": 0.4348069393273556
+      },
+      "score": 0.898396372795105,
+      "title": "Figure 9 Representative long-horizon side quests in the Honkai: Star Rail evaluation suite. (a) Opportunity Makes the Thief (Part I) contains 30 milestones with navigation, dialogue, combat, and UI interaction. (b) Bestial Ferocity contains 55 milestones and additionally includes three mechanical-repair puzzles. Both panels show ordered milestone sequences and configured step budgets rather than measured completion times.",
+      "layoutRegionId": "dceb7366-4d21-4ac2-8d07-c3bf1a1c2b95"
+    },
+    {
+      "id": "figure-10",
+      "stableKey": "p20:figure:Figure 10 Overview of the minigame benchmark in the Honkai: Star Rail evaluation",
+      "kind": "image",
+      "section": "figure",
+      "page": 20,
+      "pageIndex": 19,
+      "bbox": {
+        "x": 0.11099148419947406,
+        "y": 0.14977675736552537,
+        "w": 0.7780476987751481,
+        "h": 0.3039955081361713
+      },
+      "score": 0.7929899096488953,
+      "title": "Figure 10 Overview of the minigame benchmark in the Honkai: Star Rail evaluation suite. The benchmark contains 40 task instances across seven game types. The left panel shows representative gameplay examples, instance counts, and mechanics. The upper-right chart shows the number of instances per type, while the lower-right chart groups minigames by four descriptive primary capability tags, with instance totals in parentheses. Each minigame type is assigned one primary tag for counting and may require additional abilities. Screenshots illustrate game types and are not necessarily drawn from the evaluated instances.",
+      "layoutRegionId": "d94c7ba4-56e6-4d91-a585-26c256eb59a8"
+    },
+    {
+      "id": "figure-11",
+      "stableKey": "p25:figure:Figure 11 Real-time inference improves online RL learning across eight navigatio",
+      "kind": "chart",
+      "section": "figure",
+      "page": 25,
+      "pageIndex": 24,
+      "bbox": {
+        "x": 0.11019170673844082,
+        "y": 0.24621433681911892,
+        "w": 0.7787653979133157,
+        "h": 0.32673935938363124
+      },
+      "score": 0.9292936325073242,
+      "title": "Figure 11 Real-time inference improves online RL learning across eight navigation tasks. Task labels indicate navigation targets. For example, “Pom-Pom” refers to the task of finding the NPC Pom-Pom. Orange solid lines show rewards under the original real-time Streaming-vLLM setting, while blue dashed lines show the 0.6-FPS control representing standard vLLM rollout speed. Real-time inference typically achieves earlier reward improvement and stronger learning over the first 50 plotted training iterations.",
+      "layoutRegionId": "3c5fbc92-a2eb-4b6e-b4fd-39ae929f2f00"
+    },
+    {
+      "id": "figure-12",
+      "stableKey": "p36:figure:Figure 12 Early adaptation to the shared keyboard-mouse interface. The figure re",
+      "kind": "chart",
+      "section": "figure",
+      "page": 36,
+      "pageIndex": 35,
+      "bbox": {
+        "x": 0.11135592491798152,
+        "y": 0.6858703921539615,
+        "w": 0.7770175559847963,
+        "h": 0.20576916318951222
+      },
+      "score": 0.8699471950531006,
+      "title": "Figure 12 Early adaptation to the shared keyboard-mouse interface. The figure reports keyboard, mouse, and action-format losses together with directional prediction accuracy for 2B, 9B, and 27B models under the S1 and S4 mixtures. The horizontal axis denotes cumulative gameplay hours. Results from GameScaling [ 62 ].",
+      "layoutRegionId": "e3881989-ad31-43ee-98e7-13a3345bbf80"
+    },
+    {
+      "id": "figure-p37-0183_0096_0634_0502",
+      "stableKey": "p37:figure:0.183_0.096_0.634_0.502",
+      "kind": "chart",
+      "section": "figure",
+      "page": 37,
+      "pageIndex": 36,
+      "bbox": {
+        "x": 0.1828823712916156,
+        "y": 0.09578728916669133,
+        "w": 0.6343747307272518,
+        "h": 0.5024483324301363
+      },
+      "score": 0.8251882791519165,
+      "layoutRegionId": "625844e7-8168-4c91-96ac-9ab4f5a65d0e"
+    },
+    {
+      "id": "figure-14",
+      "stableKey": "p38:figure:Figure 14 Gameplay benchmark scaling across training budgets. Rows show MCU, ViZ",
+      "kind": "chart",
+      "section": "figure",
+      "page": 38,
+      "pageIndex": 37,
+      "bbox": {
+        "x": 0.11067276998283038,
+        "y": 0.10362252322110263,
+        "w": 0.7770543565937117,
+        "h": 0.5108932629980222
+      },
+      "score": 0.9163758754730225,
+      "title": "Figure 14 Gameplay benchmark scaling across training budgets. Rows show MCU, ViZDoom, OmniGameArena, and GameWorld, and columns show the four Qwen3.5 Dense scales. Colored curves compare the S1-S5 training mixtures across 50-1,600 gameplay hours, with dashed lines denoting the unadapted backbone. Multi-game mixtures support transfer to related environments. Scores are measured under time-paused interaction. Results from GameScaling [ 62 ].",
+      "layoutRegionId": "e5a4c87c-7d4b-4727-a223-2eee0d75c983"
+    },
+    {
+      "id": "figure-15",
+      "stableKey": "p40:figure:Figure 15 Scaling-law fits with predictive uncertainty. The panels show the trai",
+      "kind": "chart",
+      "section": "figure",
+      "page": 40,
+      "pageIndex": 39,
+      "bbox": {
+        "x": 0.11161947562024484,
+        "y": 0.2747191804828066,
+        "w": 0.7761160283306845,
+        "h": 0.35172204296998305
+      },
+      "score": 0.8894871473312378,
+      "title": "Figure 15 Scaling-law fits with predictive uncertainty. The panels show the training, Minecraft, and in-corpus loss laws across S1-S5, with measurements, predictions, and stratified-bootstrap bands. Prediction bands reflect variation across resampled experimental configurations within the observed grid, not seed-to-seed variance in model training.",
+      "layoutRegionId": "bfb89c77-82d9-4b81-9651-e0c082017e03"
+    },
+    {
+      "id": "figure-16",
+      "stableKey": "p41:figure:Figure 16 Frontier-model progress on four public game benchmarks. Scores are plo",
+      "kind": "chart",
+      "section": "figure",
+      "page": 41,
+      "pageIndex": 40,
+      "bbox": {
+        "x": 0.11101469650767208,
+        "y": 0.09878520772914694,
+        "w": 0.777394487966899,
+        "h": 0.24367060805812024
+      },
+      "score": 0.7561341524124146,
+      "title": "Figure 16 Frontier-model progress on four public game benchmarks. Scores are plotted against model release date under time-paused evaluation. Circles indicate the GPT series, squares the Qwen series, and stars the GameScaling-S3 checkpoints at 1,600 gameplay hours (marked GS in the original plot). These results are from the controlled scaling study, not the HSR-augmented Gamer-CPT model. The comparison shows gains from gameplay adaptation alongside the contribution of general backbone capabilities, particularly on distant worlds.",
+      "layoutRegionId": "b0f21f22-aa48-4578-b40f-c5c62aece1fd"
+    },
+    {
+      "id": "figure-17",
+      "stableKey": "p41:figure:Figure 17 Test-time scaling on MCU. Cumulative task success versus available int",
+      "kind": "chart",
+      "section": "figure",
+      "page": 41,
+      "pageIndex": 40,
+      "bbox": {
+        "x": 0.1114703409032884,
+        "y": 0.4455884683011758,
+        "w": 0.7764869640076083,
+        "h": 0.3312412608753551
+      },
+      "score": 0.9343031048774719,
+      "title": "Figure 17 Test-time scaling on MCU. Cumulative task success versus available interaction steps (up to 3,000) for CPT checkpoints and unadapted Qwen3.5 backbones. The primary MCU protocol uses a 600-step cap. This supplementary sweep illustrates how additional interaction opportunities affect task completion.",
+      "layoutRegionId": "b18df2c0-020a-41ec-ac11-ba86699adaba"
+    },
+    {
+      "id": "figure-18",
+      "stableKey": "p42:figure:Figure 18 Incremental RoPE refresh for retained KV states. A cached key moved fr",
+      "kind": "image",
+      "section": "figure",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.111297607421875,
+        "y": 0.12686155299947718,
+        "w": 0.7772082160500919,
+        "h": 0.26847402013913546
+      },
+      "score": 0.9169765710830688,
+      "title": "Figure 18 Incremental RoPE refresh for retained KV states. A cached key moved from logical position p to p is each RoPE frequency pair and written back in place, while the value cache remains unchanged. The figure illustrates b updated by an additional rotation determined by ∆ p = p p . The same positional offset is applied independently to − ∆ p < 0 , corresponding to a leftward shift after context compaction. b",
+      "layoutRegionId": "ecb76011-294c-4980-b2fc-a643f954b940"
+    },
+    {
+      "id": "figure-19",
+      "stableKey": "p44:figure:Figure 19 Cross-backbone request latency on NVIDIA A800 (Ampere) and H200 (Hoppe",
+      "kind": "chart",
+      "section": "figure",
+      "page": 44,
+      "pageIndex": 43,
+      "bbox": {
+        "x": 0.10903868332407833,
+        "y": 0.12086508009168836,
+        "w": 0.7798518012551701,
+        "h": 0.44510556230641374
+      },
+      "score": 0.9251643419265747,
+      "title": "Figure 19 Cross-backbone request latency on NVIDIA A800 (Ampere) and H200 (Hopper). The existing sweep compares Qwen3-VL-8B (Dense) and Qwen3.5-35B-A3B (MoE) across tensor-parallel degrees and BF16 or W8A8 execution. Stacked values separate vision processing, context (prefill), generation (decode), and remaining overhead, measured as mean request latency. These results characterize representative hardware and backbone coverage rather than all supported model sizes. The theoretical control rate in Table 9 is derived from request time, not measured at the client.",
+      "layoutRegionId": "4380a385-75b8-4586-ab7c-2461c5f8e306"
+    },
+    {
+      "id": "figure-20",
+      "stableKey": "p45:figure:Figure 20 Exploration diversity in Honkai: Star Rail. Map layouts vary in geomet",
+      "kind": "image",
+      "section": "figure",
+      "page": 45,
+      "pageIndex": 44,
+      "bbox": {
+        "x": 0.11121529223872166,
+        "y": 0.10383552011817393,
+        "w": 0.7773129706289253,
+        "h": 0.4108795011886443
+      },
+      "score": 0.9471619129180908,
+      "title": "Figure 20 Exploration diversity in Honkai: Star Rail. Map layouts vary in geometry, connectivity, and floor structure, and point icons indicate resources and other interactive locations. Red paths illustrate the possible exploration routes.",
+      "layoutRegionId": "e5f5d5ba-db8f-4dad-b34c-f456375afa05"
+    },
+    {
+      "id": "figure-21",
+      "stableKey": "p46:figure:Figure 21 Combat mechanics and character roles in Honkai: Star Rail. The example",
+      "kind": "image",
+      "section": "figure",
+      "page": 46,
+      "pageIndex": 45,
+      "bbox": {
+        "x": 0.11083716348884931,
+        "y": 0.21464993255306977,
+        "w": 0.7774198320176866,
+        "h": 0.32296953297624686
+      },
+      "score": 0.9001103639602661,
+      "title": "Figure 21 Combat mechanics and character roles in Honkai: Star Rail. The examples illustrate (1) the combat interface, including action order, HP and Toughness, team status, skill points, and available abilities, (2) a Weakness Break during a boss encounter, (3) the Action Value display, and (4) a character Data Bank snapshot. The lower panel summarizes the nine Paths by representative combat roles, including damage, support, sustain, and more specialized mechanics. Path groupings summarize representative combat roles, and the figure provides game-mechanics context rather than a measured policy rollout.",
+      "layoutRegionId": "b0e3a406-c84a-4bc6-a0b9-062861b4f8c2"
+    },
+    {
+      "id": "figure-22",
+      "stableKey": "p48:figure:Figure 22 Representative minigames and interaction challenges in the Honkai: Sta",
+      "kind": "image",
+      "section": "figure",
+      "page": 48,
+      "pageIndex": 47,
+      "bbox": {
+        "x": 0.1108000013563368,
+        "y": 0.11655786302354601,
+        "w": 0.7771793440276501,
+        "h": 0.374336762861772
+      },
+      "score": 0.8410398960113525,
+      "title": "Figure 22 Representative minigames and interaction challenges in the Honkai: Star Rail evaluation suite. This extended screenshot gallery illustrates the range of game interactions in Honkai: Star Rail. It is a qualitative visualization rather than the scored minigame inventory. The quantitative benchmark contains seven scored minigame types and 40 tasks, summarized in Figure 10 and Table 7 .",
+      "layoutRegionId": "a7372101-6396-447a-b21b-1144c3946e0b"
+    },
+    {
+      "id": "figure-23",
+      "stableKey": "p50:figure:Figure 23 Navigation across RL checkpoints on a training task (Reach Pom-Pom). E",
+      "kind": "image",
+      "section": "figure",
+      "page": 50,
+      "pageIndex": 49,
+      "bbox": {
+        "x": 0.1100918638939951,
+        "y": 0.10373529761728614,
+        "w": 0.7784960379008374,
+        "h": 0.406654280845565
+      },
+      "score": 0.8367384672164917,
+      "title": "Figure 23 Navigation across RL checkpoints on a training task (Reach Pom-Pom). Each row shows one representative rollout with twelve temporally ordered observations, actions, and translated reasoning excerpts. Task successes reports successful attempts out of 16 for each checkpoint: 3, 5, 14, 13, 15, and 15 for CP 0-50, respectively. Red boxes mark scene details or interaction prompts, and blue shading marks reasoning excerpts. The illustrated CP 0 and CP 10 attempts time out, while CP 20-50 reach the target and complete the interaction. Frame counts and completion times describe only the displayed rollout.",
+      "layoutRegionId": "0d5cbe8b-a5dc-4cce-8f51-fdcb9d83bed3"
+    },
+    {
+      "id": "figure-24",
+      "stableKey": "p51:figure:Figure 24 Navigation across RL checkpoints on a development task (Reach March 7t",
+      "kind": "image",
+      "section": "figure",
+      "page": 51,
+      "pageIndex": 50,
+      "bbox": {
+        "x": 0.10995564429588567,
+        "y": 0.10250421967169251,
+        "w": 0.7781852647369983,
+        "h": 0.4069937985352795
+      },
+      "score": 0.9216279983520508,
+      "title": "Figure 24 Navigation across RL checkpoints on a development task (Reach March 7th). Each row presents one representative rollout from the same task and initial scene, with twelve ordered observations, actions, and translated reasoning excerpts. Task successes counts successful attempts out of 16: 1, 1, 8, 6, 8, and 10 for CP 0-50, respectively. The illustrated CP 0, CP 10, and CP 30 attempts time out, whereas CP 20, CP 40, and CP 50 complete the target dialogue. Aggregate successes and representative trajectories provide complementary evidence of navigation and interaction progress.",
+      "layoutRegionId": "f1ba610c-9b31-4791-857d-15696575c5bd"
+    },
+    {
+      "id": "table-p3-0116_0097_0765_0139",
+      "stableKey": "p3:table:0.116_0.097_0.765_0.139",
+      "kind": "table",
+      "section": "table",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.1161588157703674,
+        "y": 0.0973168190079506,
+        "w": 0.7653093151017731,
+        "h": 0.1388201472735164
+      },
+      "score": 0.9636552333831787,
+      "layoutRegionId": "ab2b4af3-f7d8-46d7-b8e1-8b8561bc457b"
+    },
+    {
+      "id": "table-p17-0119_0098_0755_0167",
+      "stableKey": "p17:table:0.119_0.098_0.755_0.167",
+      "kind": "table",
+      "section": "table",
+      "page": 17,
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.11890248068017897,
+        "y": 0.09812681602709221,
+        "w": 0.754586998933281,
+        "h": 0.16668010480476148
+      },
+      "score": 0.9669061899185181,
+      "layoutRegionId": "6329719c-a6ea-4740-856a-b1ffb30fcbad"
+    },
+    {
+      "id": "table-p20-0204_0138_0607_0199",
+      "stableKey": "p20:table:0.204_0.138_0.607_0.199",
+      "kind": "table",
+      "section": "table",
+      "page": 20,
+      "pageIndex": 19,
+      "bbox": {
+        "x": 0.20430359185910693,
+        "y": 0.13846832814842763,
+        "w": 0.6071511810901118,
+        "h": 0.19942641980720288
+      },
+      "score": 0.8154821395874023,
+      "layoutRegionId": "6e2d8886-8100-4a50-a8ea-a76d37e63299"
+    },
+    {
+      "id": "table-p20-0131_0468_0744_0072",
+      "stableKey": "p20:table:0.131_0.468_0.744_0.072",
+      "kind": "table",
+      "section": "table",
+      "page": 20,
+      "pageIndex": 19,
+      "bbox": {
+        "x": 0.1306649999680862,
+        "y": 0.4677881183046283,
+        "w": 0.7435400470409518,
+        "h": 0.07155046559343434
+      },
+      "score": 0.9218447208404541,
+      "layoutRegionId": "8c8958d9-1b2f-4932-a10d-342ab803aba3"
+    },
+    {
+      "id": "table-p21-0318_0099_0363_0054",
+      "stableKey": "p21:table:0.318_0.099_0.363_0.054",
+      "kind": "table",
+      "section": "table",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.31843751396229064,
+        "y": 0.09929457577792081,
+        "w": 0.36304424011629394,
+        "h": 0.05380022646200777
+      },
+      "score": 0.8971891403198242,
+      "layoutRegionId": "986fa4c6-0a96-4eed-9bfe-f4bed90d38f8"
+    },
+    {
+      "id": "table-p22-0151_0098_0698_0192",
+      "stableKey": "p22:table:0.151_0.098_0.698_0.192",
+      "kind": "table",
+      "section": "table",
+      "page": 22,
+      "pageIndex": 21,
+      "bbox": {
+        "x": 0.1512207953758489,
+        "y": 0.09812224031698824,
+        "w": 0.6981573042526744,
+        "h": 0.19227582758123224
+      },
+      "score": 0.9561933875083923,
+      "layoutRegionId": "e9365632-cc67-4ae2-9574-84cb8bf2eedf"
+    },
+    {
+      "id": "table-p23-0147_0173_0702_0192",
+      "stableKey": "p23:table:0.147_0.173_0.702_0.192",
+      "kind": "table",
+      "section": "table",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.1471144607643676,
+        "y": 0.1730256706777245,
+        "w": 0.7020745495565577,
+        "h": 0.1915831710353042
+      },
+      "score": 0.9677417874336243,
+      "layoutRegionId": "ac80b2da-c57b-4072-93a0-33d69260fb37"
+    },
+    {
+      "id": "table-p24-0216_0103_0571_0232",
+      "stableKey": "p24:table:0.216_0.103_0.571_0.232",
+      "kind": "table",
+      "section": "table",
+      "page": 24,
+      "pageIndex": 23,
+      "bbox": {
+        "x": 0.21590485915639043,
+        "y": 0.1032892284971295,
+        "w": 0.5706364999409594,
+        "h": 0.23219651886911102
+      },
+      "score": 0.9615836143493652,
+      "layoutRegionId": "bbe9dca5-4f5f-48dd-8a4e-7f96f3942272"
+    },
+    {
+      "id": "table-p26-0135_0097_0732_0191",
+      "stableKey": "p26:table:0.135_0.097_0.732_0.191",
+      "kind": "table",
+      "section": "table",
+      "page": 26,
+      "pageIndex": 25,
+      "bbox": {
+        "x": 0.1346392662696589,
+        "y": 0.0971371236473623,
+        "w": 0.7321782330282374,
+        "h": 0.19075829091698232
+      },
+      "score": 0.9558618068695068,
+      "layoutRegionId": "08f3c3ae-75ff-4034-ab99-333bc6f5a8a9"
+    },
+    {
+      "id": "table-p27-0144_0098_0709_0160",
+      "stableKey": "p27:table:0.144_0.098_0.709_0.160",
+      "kind": "table",
+      "section": "table",
+      "page": 27,
+      "pageIndex": 26,
+      "bbox": {
+        "x": 0.1438958660449857,
+        "y": 0.09835562079843849,
+        "w": 0.7094627829159007,
+        "h": 0.16037094231807825
+      },
+      "score": 0.9619472026824951,
+      "layoutRegionId": "7057e96d-f961-4e85-a3b4-4f0c392d05a9"
+    },
+    {
+      "id": "table-p36-0256_0099_0489_0096",
+      "stableKey": "p36:table:0.256_0.099_0.489_0.096",
+      "kind": "table",
+      "section": "table",
+      "page": 36,
+      "pageIndex": 35,
+      "bbox": {
+        "x": 0.2556057599634906,
+        "y": 0.09871201563363123,
+        "w": 0.48879266876021243,
+        "h": 0.09555949586810487
+      },
+      "score": 0.9345253109931946,
+      "layoutRegionId": "ae4372e7-6a22-47e5-8e63-a29b5a9e0460"
+    },
+    {
+      "id": "table-p39-0348_0100_0302_0174",
+      "stableKey": "p39:table:0.348_0.100_0.302_0.174",
+      "kind": "table",
+      "section": "table",
+      "page": 39,
+      "pageIndex": 38,
+      "bbox": {
+        "x": 0.3484609017964282,
+        "y": 0.09985372755262586,
+        "w": 0.30226551629359427,
+        "h": 0.17431939250290995
+      },
+      "score": 0.9359821677207947,
+      "layoutRegionId": "a6c9af9f-645a-4cbe-8729-67b92e8d1183"
+    },
+    {
+      "id": "table-p40-0177_0104_0648_0113",
+      "stableKey": "p40:table:0.177_0.104_0.648_0.113",
+      "kind": "table",
+      "section": "table",
+      "page": 40,
+      "pageIndex": 39,
+      "bbox": {
+        "x": 0.17654588487413195,
+        "y": 0.1038902552440913,
+        "w": 0.6477619245940563,
+        "h": 0.11274985111120975
+      },
+      "score": 0.8496192693710327,
+      "layoutRegionId": "921c9980-e300-4e70-baf3-b92fe6b0cb58"
+    },
+    {
+      "id": "table-p47-0111_0122_0778_0308",
+      "stableKey": "p47:table:0.111_0.122_0.778_0.308",
+      "kind": "table",
+      "section": "table",
+      "page": 47,
+      "pageIndex": 46,
+      "bbox": {
+        "x": 0.11084749807719312,
+        "y": 0.12158536429357047,
+        "w": 0.7778263715357562,
+        "h": 0.30787633645414103
+      },
+      "score": 0.9459363222122192,
+      "layoutRegionId": "71ce4a94-9caf-4c4c-ab72-bce62a7a17ee"
+    },
+    {
+      "id": "table-p49-0112_0219_0386_0490",
+      "stableKey": "p49:table:0.112_0.219_0.386_0.490",
+      "kind": "table",
+      "section": "table",
+      "page": 49,
+      "pageIndex": 48,
+      "bbox": {
+        "x": 0.11151468364241855,
+        "y": 0.21888528688989503,
+        "w": 0.38613725799361087,
+        "h": 0.4900826733521741
+      },
+      "score": 0.789122462272644,
+      "layoutRegionId": "4d01fec3-00d7-4101-b50a-c61b5ab355fb"
+    },
+    {
+      "id": "table-p49-0506_0218_0383_0480",
+      "stableKey": "p49:table:0.506_0.218_0.383_0.480",
+      "kind": "table",
+      "section": "table",
+      "page": 49,
+      "pageIndex": 48,
+      "bbox": {
+        "x": 0.5062088311887255,
+        "y": 0.21795255487615411,
+        "w": 0.3829340716592627,
+        "h": 0.4797467125786675
+      },
+      "score": 0.4623137414455414,
+      "layoutRegionId": "6c31e89b-fa0c-4882-ac94-481210d8d9b6"
+    },
+    {
+      "id": "table-p53-0350_0235_0480_0092",
+      "stableKey": "p53:table:0.350_0.235_0.480_0.092",
+      "kind": "table",
+      "section": "table",
+      "page": 53,
+      "pageIndex": 52,
+      "bbox": {
+        "x": 0.34978557412141287,
+        "y": 0.23484948668817077,
+        "w": 0.48031553879282834,
+        "h": 0.09175240873086332
+      },
+      "score": 0.47243863344192505,
+      "layoutRegionId": "e55b07f9-2b53-4298-b74b-723d3dc10d35"
+    },
+    {
+      "id": "table-p53-0123_0346_0746_0179",
+      "stableKey": "p53:table:0.123_0.346_0.746_0.179",
+      "kind": "table",
+      "section": "table",
+      "page": 53,
+      "pageIndex": 52,
+      "bbox": {
+        "x": 0.12324305764989915,
+        "y": 0.3456124585084241,
+        "w": 0.7456615049075457,
+        "h": 0.17867067125108507
+      },
+      "score": 0.5983616709709167,
+      "layoutRegionId": "508e3e0f-5c2a-478d-a0b7-5d52b8d0b9aa"
+    },
+    {
+      "id": "table-p53-0122_0539_0751_0168",
+      "stableKey": "p53:table:0.122_0.539_0.751_0.168",
+      "kind": "table",
+      "section": "table",
+      "page": 53,
+      "pageIndex": 52,
+      "bbox": {
+        "x": 0.12158769096424377,
+        "y": 0.5386041583436908,
+        "w": 0.7514970816817939,
+        "h": 0.1679961464621804
+      },
+      "score": 0.583454966545105,
+      "layoutRegionId": "5fedea82-a1e4-436d-80c3-5c08aa5ba622"
+    },
+    {
+      "id": "table-p53-0120_0722_0760_0039",
+      "stableKey": "p53:table:0.120_0.722_0.760_0.039",
+      "kind": "table",
+      "section": "table",
+      "page": 53,
+      "pageIndex": 52,
+      "bbox": {
+        "x": 0.12015801473380694,
+        "y": 0.722412417633365,
+        "w": 0.7600374533460031,
+        "h": 0.039206610785590276
+      },
+      "score": 0.6839904189109802,
+      "layoutRegionId": "4fa5cc48-8080-4df4-ade6-0939433be932"
+    },
+    {
+      "id": "formula-p5-0296_0323_0591_0032",
+      "stableKey": "p5:formula:0.296_0.323_0.591_0.032",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.29588474946863513,
+        "y": 0.32312190893924597,
+        "w": 0.590706843955844,
+        "h": 0.031773403437450665
+      },
+      "score": 0.9001344442367554,
+      "layoutRegionId": "dbe20af1-1d7d-4e89-a0c8-4435c753ea13"
+    },
+    {
+      "id": "formula-p5-0349_0524_0538_0043",
+      "stableKey": "p5:formula:0.349_0.524_0.538_0.043",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.34885728125478704,
+        "y": 0.5238495643692788,
+        "w": 0.5378226735233482,
+        "h": 0.04254219748757104
+      },
+      "score": 0.9070422649383545,
+      "layoutRegionId": "6603a2f5-fe92-4c1c-8eee-b59a2c572a29"
+    },
+    {
+      "id": "formula-p5-0216_0825_0670_0020",
+      "stableKey": "p5:formula:0.216_0.825_0.670_0.020",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.21622930788526348,
+        "y": 0.8254900845614347,
+        "w": 0.6702536788641238,
+        "h": 0.01967813511087435
+      },
+      "score": 0.8601566553115845,
+      "layoutRegionId": "73d25e29-ff97-410c-ab27-3b49362d273a"
+    },
+    {
+      "id": "formula-p6-0261_0205_0626_0041",
+      "stableKey": "p6:formula:0.261_0.205_0.626_0.041",
+      "kind": "formula",
+      "section": "formula",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.26115601982166564,
+        "y": 0.2046290696269334,
+        "w": 0.6260637769512103,
+        "h": 0.04119616807109178
+      },
+      "score": 0.9142212271690369,
+      "layoutRegionId": "67d38c5c-a3b5-48a7-8b6c-a6be83ddff21"
+    },
+    {
+      "id": "formula-p6-0336_0698_0551_0033",
+      "stableKey": "p6:formula:0.336_0.698_0.551_0.033",
+      "kind": "formula",
+      "section": "formula",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.3358977324043224,
+        "y": 0.6984272966481219,
+        "w": 0.5505891438403161,
+        "h": 0.032972701872238
+      },
+      "score": 0.9061273336410522,
+      "layoutRegionId": "7020b04d-3de8-4f77-a1c7-7a6292b1ee5c"
+    },
+    {
+      "id": "formula-p7-0237_0826_0649_0017",
+      "stableKey": "p7:formula:0.237_0.826_0.649_0.017",
+      "kind": "formula",
+      "section": "formula",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.23737499760646447,
+        "y": 0.8258683946397569,
+        "w": 0.6492490082784417,
+        "h": 0.017461911596433066
+      },
+      "score": 0.864256739616394,
+      "layoutRegionId": "de65c95d-f4ec-47a0-b0f7-f3858b5248ba"
+    },
+    {
+      "id": "formula-p8-0318_0346_0568_0036",
+      "stableKey": "p8:formula:0.318_0.346_0.568_0.036",
+      "kind": "formula",
+      "section": "formula",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.31839290943021087,
+        "y": 0.3461271343809186,
+        "w": 0.5681852203568603,
+        "h": 0.035520457258128135
+      },
+      "score": 0.8859596252441406,
+      "layoutRegionId": "aee47711-98fd-42a1-9110-c1160508f8a6"
+    },
+    {
+      "id": "formula-p8-0250_0643_0637_0023",
+      "stableKey": "p8:formula:0.250_0.643_0.637_0.023",
+      "kind": "formula",
+      "section": "formula",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.25012655819163604,
+        "y": 0.6431761847601997,
+        "w": 0.6366261999591503,
+        "h": 0.02257441511057845
+      },
+      "score": 0.8752894401550293,
+      "layoutRegionId": "fdacb7df-4a3d-4739-b882-abf12c90ba91"
+    },
+    {
+      "id": "formula-p10-0187_0248_0699_0040",
+      "stableKey": "p10:formula:0.187_0.248_0.699_0.040",
+      "kind": "formula",
+      "section": "formula",
+      "page": 10,
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.18746009527468213,
+        "y": 0.24785669885500514,
+        "w": 0.6985956453809551,
+        "h": 0.039504542495265166
+      },
+      "score": 0.9197182059288025,
+      "layoutRegionId": "5b7a4087-5959-4e75-b3bb-a1400c112b42"
+    },
+    {
+      "id": "formula-p10-0237_0353_0650_0040",
+      "stableKey": "p10:formula:0.237_0.353_0.650_0.040",
+      "kind": "formula",
+      "section": "formula",
+      "page": 10,
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.23680134692223243,
+        "y": 0.3534982084023832,
+        "w": 0.6501510719847835,
+        "h": 0.04009570497455017
+      },
+      "score": 0.9052724838256836,
+      "layoutRegionId": "03c16e24-d66c-458c-8155-b9fe679b26c5"
+    },
+    {
+      "id": "formula-p10-0336_0557_0551_0034",
+      "stableKey": "p10:formula:0.336_0.557_0.551_0.034",
+      "kind": "formula",
+      "section": "formula",
+      "page": 10,
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.3358106426164216,
+        "y": 0.557471458357994,
+        "w": 0.5507788564644608,
+        "h": 0.03392837986801611
+      },
+      "score": 0.9281230568885803,
+      "layoutRegionId": "efd7974a-bb90-4b45-9224-63dff88f76ac"
+    },
+    {
+      "id": "formula-p10-0247_0679_0639_0044",
+      "stableKey": "p10:formula:0.247_0.679_0.639_0.044",
+      "kind": "formula",
+      "section": "formula",
+      "page": 10,
+      "pageIndex": 9,
+      "bbox": {
+        "x": 0.2470643037284901,
+        "y": 0.6794274070046165,
+        "w": 0.6394654566945593,
+        "h": 0.04379765674321334
+      },
+      "score": 0.9098517894744873,
+      "layoutRegionId": "c85ed7b9-5e4f-466b-bebb-cb0b36188953"
+    },
+    {
+      "id": "formula-p15-0640_0571_0246_0044",
+      "stableKey": "p15:formula:0.640_0.571_0.246_0.044",
+      "kind": "formula",
+      "section": "formula",
+      "page": 15,
+      "pageIndex": 14,
+      "bbox": {
+        "x": 0.64043027591082,
+        "y": 0.5705392240273832,
+        "w": 0.24603296417036868,
+        "h": 0.04396978050771383
+      },
+      "score": 0.8195788860321045,
+      "layoutRegionId": "953efb9e-41d4-4519-8926-52af25e5c1f4"
+    },
+    {
+      "id": "formula-p21-0336_0637_0550_0033",
+      "stableKey": "p21:formula:0.336_0.637_0.550_0.033",
+      "kind": "formula",
+      "section": "formula",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.3363824482836755,
+        "y": 0.6371681521637271,
+        "w": 0.5502610050774867,
+        "h": 0.03345262161409013
+      },
+      "score": 0.9266489744186401,
+      "layoutRegionId": "5315fd4c-6ed0-43d1-a315-f6d6836c1d36"
+    },
+    {
+      "id": "formula-p38-0336_0718_0550_0032",
+      "stableKey": "p38:formula:0.336_0.718_0.550_0.032",
+      "kind": "formula",
+      "section": "formula",
+      "page": 38,
+      "pageIndex": 37,
+      "bbox": {
+        "x": 0.3359382729125179,
+        "y": 0.7175620493262705,
+        "w": 0.5503928240607766,
+        "h": 0.03186967637803817
+      },
+      "score": 0.9126080274581909,
+      "layoutRegionId": "ddb2a0f4-d732-4c39-ad14-aa38a51e9d36"
+    },
+    {
+      "id": "formula-p39-0389_0486_0498_0033",
+      "stableKey": "p39:formula:0.389_0.486_0.498_0.033",
+      "kind": "formula",
+      "section": "formula",
+      "page": 39,
+      "pageIndex": 38,
+      "bbox": {
+        "x": 0.3886103910558364,
+        "y": 0.4859336698898161,
+        "w": 0.4983303593654258,
+        "h": 0.033457977603180256
+      },
+      "score": 0.8895304203033447,
+      "layoutRegionId": "1b6b59b7-528e-4f27-82d2-532d9e967b1c"
+    },
+    {
+      "id": "formula-p42-0421_0882_0466_0035",
+      "stableKey": "p42:formula:0.421_0.882_0.466_0.035",
+      "kind": "formula",
+      "section": "formula",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.420876347161586,
+        "y": 0.8824460578687263,
+        "w": 0.4661864735721763,
+        "h": 0.03483365762113322
+      },
+      "score": 0.8932902216911316,
+      "layoutRegionId": "10076da3-1d57-4a4b-b9ba-6351f560bc51"
+    }
+  ]
+}
