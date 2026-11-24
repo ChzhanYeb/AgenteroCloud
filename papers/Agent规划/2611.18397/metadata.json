@@ -170,7 +170,7 @@
     }
   ],
   "year": 2026,
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "abstract": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
   "tags": [
     "@arxiv:Computer Science - Computation and Language",
@@ -178,7 +178,7 @@
     "@arxiv:Computer Science - Computer Vision and Pattern Recognition"
   ],
   "arxiv_id": "2611.18397",
-  "doi": "10.48550/arXiv.2611.18397",
+  "doi": "10.48550/ARXIV.2611.18397",
   "pdf_url": "https://arxiv.org/pdf/2611.18397",
   "html_url": "https://arxiv.org/html/2611.18397",
   "source_url": "https://arxiv.org/abs/2611.18397",
@@ -186,10 +186,10 @@
   "body_quality": "high",
   "bibtex_key": "2611.18397",
   "zotero_item_type": "preprint",
-  "meta_source": "translator",
+  "meta_source": "manual",
   "extra": "arXiv:2611.18397 [cs.CL]",
   "status": "completed",
   "is_read": false,
   "added_at": "2026-11-24T05:10:11.592Z",
-  "updated_at": "2026-11-24T05:10:29.461Z"
+  "updated_at": "2026-11-24T05:14:15.530Z"
 }
