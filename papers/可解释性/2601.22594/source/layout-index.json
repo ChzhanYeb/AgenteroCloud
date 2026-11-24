@@ -1,0 +1,1483 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mode": "sidebar",
+    "from": "layout.json",
+    "generatedAt": "2026-11-24T06:40:33.368Z",
+    "minScore": 0.3
+  },
+  "items": [
+    {
+      "id": "figure-1",
+      "stableKey": "p4:figure:Figure 1. Faithfulness and completeness for different choices of representation ",
+      "kind": "chart",
+      "section": "figure",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.08714141097723269,
+        "y": 0.08196154507723721,
+        "w": 0.3903114842433555,
+        "h": 0.22315189091846196
+      },
+      "score": 0.8964939117431641,
+      "title": "Figure 1. Faithfulness and completeness for different choices of representation in the model (residual stream, attention, MLP activations, or MLP outputs) and basis (neurons or SAE) when applying Integrated Gradients, averaged over the 4 SVA tasks with paired data.",
+      "layoutRegionId": "911b1c91-f02f-4a6e-9dcd-98287340e60d"
+    },
+    {
+      "id": "figure-3",
+      "stableKey": "p5:figure:Figure 3. Faithfulness and completeness for different choices of representation ",
+      "kind": "chart",
+      "section": "figure",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.49793068879570057,
+        "y": 0.08296427100595802,
+        "w": 0.3909643833933313,
+        "h": 0.19812992365673335
+      },
+      "score": 0.9385371804237366,
+      "title": "Figure 3. Faithfulness and completeness for different choices of representation and basis when applying Integrated Gradients, averaged over the 4 SVA tasks with unpaired data.",
+      "layoutRegionId": "a34fad65-3a3b-496c-b975-fbd78fb5bd7f"
+    },
+    {
+      "id": "figure-2",
+      "stableKey": "p5:figure:Figure 2. Faithfulness and completeness for Integrated Gradients vs. RelP, for d",
+      "kind": "chart",
+      "section": "figure",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.08635550854252834,
+        "y": 0.08406338547215317,
+        "w": 0.39058003394432317,
+        "h": 0.2818657268177379
+      },
+      "score": 0.9370013475418091,
+      "title": "Figure 2. Faithfulness and completeness for Integrated Gradients vs. RelP, for different choices of representation in the model and basis (neurons or SAE), averaged over the 4 SVA tasks with paired data",
+      "layoutRegionId": "6f38f5d0-ddf6-4f07-a004-f9cf01a3b44c"
+    },
+    {
+      "id": "figure-5",
+      "stableKey": "p6:figure:Figure 5. Faithfulness and completeness for edge-based circuit evaluation on the",
+      "kind": "chart",
+      "section": "figure",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.4984599094764859,
+        "y": 0.08348884967842488,
+        "w": 0.3915655098709405,
+        "h": 0.22239598360928622
+      },
+      "score": 0.9423503875732422,
+      "title": "Figure 5. Faithfulness and completeness for edge-based circuit evaluation on the SVA benchmark. All methods use MLP activa tions as the neuron basis. Circuits are pruned by removing edges based on attribution scores, with neurons removed when all incom ing or outgoing edges are pruned.",
+      "layoutRegionId": "a6fbe7a6-7dcf-48cb-96c3-e130f10996f4"
+    },
+    {
+      "id": "figure-4",
+      "stableKey": "p6:figure:Figure 4. Faithfulness and completeness for Integrated Gradients vs. RelP, for d",
+      "kind": "chart",
+      "section": "figure",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.08713298997068716,
+        "y": 0.0840170503866793,
+        "w": 0.39137306088715595,
+        "h": 0.2824801820697207
+      },
+      "score": 0.9407297372817993,
+      "title": "Figure 4. Faithfulness and completeness for Integrated Gradients vs. RelP, for different choices of representation in the model and basis (neurons or SAE), averaged over the 4 SVA tasks with un paired data",
+      "layoutRegionId": "288a7752-eb9d-4214-8b94-c67f229195fd"
+    },
+    {
+      "id": "figure-6",
+      "stableKey": "p7:figure:Figure 6. The ‘Texas’ circuit.",
+      "kind": "image",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.08644953584359362,
+        "y": 0.10098511281639638,
+        "w": 0.5643673878090054,
+        "h": 0.25829005000567196
+      },
+      "score": 0.9592291116714478,
+      "title": "Figure 6. The ‘Texas’ circuit.",
+      "layoutRegionId": "bd3e2bd2-151e-47a8-96bf-ce725297342a"
+    },
+    {
+      "id": "figure-p7-0091_0660_0380_0084",
+      "stableKey": "p7:figure:0.091_0.660_0.380_0.084",
+      "kind": "image",
+      "section": "figure",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.09112590590333627,
+        "y": 0.659918274542298,
+        "w": 0.379838712854323,
+        "h": 0.08395308677596275
+      },
+      "score": 0.33924543857574463,
+      "layoutRegionId": "0ce0a13c-f4ca-4173-9d69-2013b583dac0"
+    },
+    {
+      "id": "figure-7",
+      "stableKey": "p8:figure:Figure 7. Effect of steering L23/N8079- on the capitals dataset.",
+      "kind": "chart",
+      "section": "figure",
+      "page": 8,
+      "pageIndex": 7,
+      "bbox": {
+        "x": 0.09141981835458793,
+        "y": 0.08368334144052833,
+        "w": 0.3809555901421441,
+        "h": 0.17100844720397332
+      },
+      "score": 0.9410450458526611,
+      "title": "Figure 7. Effect of steering L23/N8079- on the capitals dataset.",
+      "layoutRegionId": "bb19f4ab-4832-4207-9851-78d92c29b751"
+    },
+    {
+      "id": "figure-8",
+      "stableKey": "p20:figure:Figure 8. SVA unpaired with zero-ablation.",
+      "kind": "chart",
+      "section": "figure",
+      "page": 20,
+      "pageIndex": 19,
+      "bbox": {
+        "x": 0.357067457211563,
+        "y": 0.16840054290463227,
+        "w": 0.532203898710363,
+        "h": 0.30324554443359375
+      },
+      "score": 0.9440902471542358,
+      "title": "Figure 8. SVA unpaired with zero-ablation.",
+      "layoutRegionId": "c5529ed1-e846-4da1-b2eb-964bc306c3be"
+    },
+    {
+      "id": "figure-p20-0086_0241_0391_0291",
+      "stableKey": "p20:figure:0.086_0.241_0.391_0.291",
+      "kind": "chart",
+      "section": "figure",
+      "page": 20,
+      "pageIndex": 19,
+      "bbox": {
+        "x": 0.08626353818606707,
+        "y": 0.2405472957726681,
+        "w": 0.3908236447502585,
+        "h": 0.2912161470663668
+      },
+      "score": 0.9216970205307007,
+      "layoutRegionId": "b9af3ac4-14d0-4710-9b89-31ab871f4129"
+    },
+    {
+      "id": "figure-9",
+      "stableKey": "p21:figure:Figure 9. Faithfulness and completeness for Gemma-2-2B. MLP activations provide ",
+      "kind": "chart",
+      "section": "figure",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.08561587489508336,
+        "y": 0.07977820887710109,
+        "w": 0.8031366821987177,
+        "h": 0.2576436322144788
+      },
+      "score": 0.8994477987289429,
+      "title": "Figure 9. Faithfulness and completeness for Gemma-2-2B. MLP activations provide significantly sparser circuits than MLP outputs and approach SAE-based performance across both SAE widths.",
+      "layoutRegionId": "eaaf3bb0-7c06-4635-888d-6f3a2815c3ed"
+    },
+    {
+      "id": "figure-10",
+      "stableKey": "p21:figure:Figure 10. Faithfulness and completeness for Gemma-2-9B with 16k width SAEs. MLP",
+      "kind": "chart",
+      "section": "figure",
+      "page": 21,
+      "pageIndex": 20,
+      "bbox": {
+        "x": 0.0862079258837731,
+        "y": 0.4200797803474195,
+        "w": 0.8018512040181877,
+        "h": 0.2825901532413983
+      },
+      "score": 0.9407332539558411,
+      "title": "Figure 10. Faithfulness and completeness for Gemma-2-9B with 16k width SAEs. MLP activations deliver significantly sparser circuits than MLP outputs and remain competitive with SAE-based approaches.",
+      "layoutRegionId": "5ce5a128-e598-420c-959d-3c9aa0fbfe1b"
+    },
+    {
+      "id": "figure-11",
+      "stableKey": "p22:figure:Figure 11. Analysis of attribution patterns on each of the SVA subsets.",
+      "kind": "chart",
+      "section": "figure",
+      "page": 22,
+      "pageIndex": 21,
+      "bbox": {
+        "x": 0.08750180637135226,
+        "y": 0.16724994929149897,
+        "w": 0.8011113272772895,
+        "h": 0.2784571214155718
+      },
+      "score": 0.9403010010719299,
+      "title": "Figure 11. Analysis of attribution patterns on each of the SVA subsets.",
+      "layoutRegionId": "9fb7189d-4982-4f1e-93e6-f7d28a8f0ef4"
+    },
+    {
+      "id": "figure-12",
+      "stableKey": "p29:figure:Figure 12. Attribution heatmaps of the top-AUROC neuron for mod- 10 features. Th",
+      "kind": "chart",
+      "section": "figure",
+      "page": 29,
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.09453903148376863,
+        "y": 0.4845426154859138,
+        "w": 0.7758548088323056,
+        "h": 0.3657359884242819
+      },
+      "score": 0.575387179851532,
+      "title": "Figure 12. Attribution heatmaps of the top-AUROC neuron for mod- 10 features. The axes are the addends in the addition prompt.",
+      "layoutRegionId": "97f7e414-4403-4c0b-88c3-14dacfc9925c"
+    },
+    {
+      "id": "figure-13",
+      "stableKey": "p31:figure:Figure 13. Mod- n neuron search results.",
+      "kind": "chart",
+      "section": "figure",
+      "page": 31,
+      "pageIndex": 30,
+      "bbox": {
+        "x": 0.08488497391245724,
+        "y": 0.537402914027975,
+        "w": 0.8033411050933638,
+        "h": 0.21512850366457548
+      },
+      "score": 0.9184452295303345,
+      "title": "Figure 13. Mod- n neuron search results.",
+      "layoutRegionId": "07f9d846-4c32-4cef-9b8a-25cc224f2dd4"
+    },
+    {
+      "id": "figure-14",
+      "stableKey": "p32:figure:Figure 14. Attribution heatmaps of the top-AUROC neuron for tens digit features.",
+      "kind": "chart",
+      "section": "figure",
+      "page": 32,
+      "pageIndex": 31,
+      "bbox": {
+        "x": 0.09968677221560011,
+        "y": 0.17217755558514836,
+        "w": 0.7742141960493101,
+        "h": 0.28043978142015863
+      },
+      "score": 0.9245940446853638,
+      "title": "Figure 14. Attribution heatmaps of the top-AUROC neuron for tens digit features. The axes are the addends in the addition prompt.",
+      "layoutRegionId": "70c0a526-8a28-4d75-88d8-b46913179fc0"
+    },
+    {
+      "id": "figure-p35-0090_0082_0381_0145",
+      "stableKey": "p35:figure:0.090_0.082_0.381_0.145",
+      "kind": "chart",
+      "section": "figure",
+      "page": 35,
+      "pageIndex": 34,
+      "bbox": {
+        "x": 0.0899416480968201,
+        "y": 0.08245116532450975,
+        "w": 0.38131074344410615,
+        "h": 0.14505789978335604
+      },
+      "score": 0.9364606738090515,
+      "layoutRegionId": "006a7eda-c895-4ddc-8667-890797242ff0"
+    },
+    {
+      "id": "figure-15",
+      "stableKey": "p35:figure:Figure 15. Multilingual antonyms task results.",
+      "kind": "chart",
+      "section": "figure",
+      "page": 35,
+      "pageIndex": 34,
+      "bbox": {
+        "x": 0.34887343761967676,
+        "y": 0.08620442284478082,
+        "w": 0.5336821562324474,
+        "h": 0.1644869236030964
+      },
+      "score": 0.8731511831283569,
+      "title": "Figure 15. Multilingual antonyms task results.",
+      "layoutRegionId": "aac55aad-269b-4108-ab5f-bf5222142bc8"
+    },
+    {
+      "id": "table-1",
+      "stableKey": "p3:table:Table 1. Example original inputs with outputs and corresponding counterfactual i",
+      "kind": "table",
+      "section": "table",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.11507323520635468,
+        "y": 0.08345331326879636,
+        "w": 0.7406052483452691,
+        "h": 0.09994945140800092
+      },
+      "score": 0.9145376682281494,
+      "title": "Table 1. Example original inputs with outputs and corresponding counterfactual inputs with outputs from the SVA benchmark.",
+      "layoutRegionId": "4ccc1cf2-770f-424c-8741-cbda7330d37f"
+    },
+    {
+      "id": "table-p4-0523_0083_0338_0106",
+      "stableKey": "p4:table:0.523_0.083_0.338_0.106",
+      "kind": "table",
+      "section": "table",
+      "page": 4,
+      "pageIndex": 3,
+      "bbox": {
+        "x": 0.5227443221347784,
+        "y": 0.08283130568687362,
+        "w": 0.33757024029501126,
+        "h": 0.10645584144977609
+      },
+      "score": 0.9064949154853821,
+      "layoutRegionId": "02a5027a-317a-45c4-8ed0-de45d7eded45"
+    },
+    {
+      "id": "table-p7-0656_0086_0229_0218",
+      "stableKey": "p7:table:0.656_0.086_0.229_0.218",
+      "kind": "table",
+      "section": "table",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.6560336343603197,
+        "y": 0.0855342402602687,
+        "w": 0.22913220972796672,
+        "h": 0.21774172542071102
+      },
+      "score": 0.9086329936981201,
+      "layoutRegionId": "9a24025e-c55d-4b67-9939-3ae09f76837f"
+    },
+    {
+      "id": "table-p19-0229_0601_0513_0144",
+      "stableKey": "p19:table:0.229_0.601_0.513_0.144",
+      "kind": "table",
+      "section": "table",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.2289099599800858,
+        "y": 0.6007189895167495,
+        "w": 0.5134164149465125,
+        "h": 0.14420915854097616
+      },
+      "score": 0.9680091142654419,
+      "layoutRegionId": "8c04d4f1-1c31-4579-a45d-5191bb639bc3"
+    },
+    {
+      "id": "table-p23-0153_0291_0666_0242",
+      "stableKey": "p23:table:0.153_0.291_0.666_0.242",
+      "kind": "table",
+      "section": "table",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.15277954799677032,
+        "y": 0.29117179639411694,
+        "w": 0.6664418488546134,
+        "h": 0.24239468815350773
+      },
+      "score": 0.803555965423584,
+      "layoutRegionId": "d26d127c-606f-45b7-bdb6-504dbccf0c0a"
+    },
+    {
+      "id": "table-5",
+      "stableKey": "p23:table:Table 5. Feature scores for SVA nounpp task.",
+      "kind": "table",
+      "section": "table",
+      "page": 23,
+      "pageIndex": 22,
+      "bbox": {
+        "x": 0.22522466322954962,
+        "y": 0.5738543886126894,
+        "w": 0.5268767612432342,
+        "h": 0.3224488845979324
+      },
+      "score": 0.9544268846511841,
+      "title": "Table 5. Feature scores for SVA nounpp task.",
+      "layoutRegionId": "7afe1aeb-e958-46dc-8121-60e6adf4dc94"
+    },
+    {
+      "id": "table-5-2",
+      "stableKey": "p25:table:Table 5. Feature scores for SVA nounpp task.",
+      "kind": "table",
+      "section": "table",
+      "page": 25,
+      "pageIndex": 24,
+      "bbox": {
+        "x": 0.22658710853726255,
+        "y": 0.08219203563651653,
+        "w": 0.523823731864979,
+        "h": 0.8203181738805289
+      },
+      "score": 0.4230248034000397,
+      "title": "Table 5. Feature scores for SVA nounpp task.",
+      "layoutRegionId": "e1673642-159b-40ec-8508-2d3f86bd7406"
+    },
+    {
+      "id": "table-5-3",
+      "stableKey": "p26:table:Table 5. Feature scores for SVA nounpp task.",
+      "kind": "table",
+      "section": "table",
+      "page": 26,
+      "pageIndex": 25,
+      "bbox": {
+        "x": 0.2229883281234043,
+        "y": 0.08218868332679825,
+        "w": 0.5288392858567581,
+        "h": 0.7723969064577662
+      },
+      "score": 0.859683096408844,
+      "title": "Table 5. Feature scores for SVA nounpp task.",
+      "layoutRegionId": "4071e949-66bd-452a-bf99-3b71e948eea4"
+    },
+    {
+      "id": "table-6",
+      "stableKey": "p29:table:Table 6. Arithmetic features.",
+      "kind": "table",
+      "section": "table",
+      "page": 29,
+      "pageIndex": 28,
+      "bbox": {
+        "x": 0.2378406898648131,
+        "y": 0.222294412478052,
+        "w": 0.49488541347528603,
+        "h": 0.08512539333767358
+      },
+      "score": 0.923905611038208,
+      "title": "Table 6. Arithmetic features.",
+      "layoutRegionId": "7fedbbca-a0e6-41a6-9b10-4778fedad2e2"
+    },
+    {
+      "id": "table-7",
+      "stableKey": "p30:table:Table 7. Feature scores for sum mod 10 task.",
+      "kind": "table",
+      "section": "table",
+      "page": 30,
+      "pageIndex": 29,
+      "bbox": {
+        "x": 0.16433632295895245,
+        "y": 0.36151022862906407,
+        "w": 0.650243858885921,
+        "h": 0.538693206478851
+      },
+      "score": 0.9750136137008667,
+      "title": "Table 7. Feature scores for sum mod 10 task.",
+      "layoutRegionId": "d756c264-a0b8-46a4-ac92-d5c6965f03ed"
+    },
+    {
+      "id": "table-7-2",
+      "stableKey": "p31:table:Table 7. Feature scores for sum mod 10 task.",
+      "kind": "table",
+      "section": "table",
+      "page": 31,
+      "pageIndex": 30,
+      "bbox": {
+        "x": 0.16404574525122548,
+        "y": 0.0819617762710109,
+        "w": 0.6475078607696334,
+        "h": 0.38323870572176844
+      },
+      "score": 0.9643090963363647,
+      "title": "Table 7. Feature scores for sum mod 10 task.",
+      "layoutRegionId": "2c38c190-64ff-452e-b95a-b24d3afb2109"
+    },
+    {
+      "id": "table-8",
+      "stableKey": "p32:table:Table 8. Feature scores for sum tens digit task.",
+      "kind": "table",
+      "section": "table",
+      "page": 32,
+      "pageIndex": 31,
+      "bbox": {
+        "x": 0.17254919164321003,
+        "y": 0.6399106883039378,
+        "w": 0.6331353156395207,
+        "h": 0.2696386780401673
+      },
+      "score": 0.9636484384536743,
+      "title": "Table 8. Feature scores for sum tens digit task.",
+      "layoutRegionId": "d683c72e-7ad4-4b4e-ab87-60645ed4cd3b"
+    },
+    {
+      "id": "table-8-2",
+      "stableKey": "p33:table:Table 8. Feature scores for sum tens digit task.",
+      "kind": "table",
+      "section": "table",
+      "page": 33,
+      "pageIndex": 32,
+      "bbox": {
+        "x": 0.17239015865949245,
+        "y": 0.08147160693852588,
+        "w": 0.6373376285328585,
+        "h": 0.8229936541933002
+      },
+      "score": 0.9322522282600403,
+      "title": "Table 8. Feature scores for sum tens digit task.",
+      "layoutRegionId": "3580f69a-1366-4c63-9cbf-e87f4dfc6a37"
+    },
+    {
+      "id": "table-8-3",
+      "stableKey": "p34:table:Table 8. Feature scores for sum tens digit task.",
+      "kind": "table",
+      "section": "table",
+      "page": 34,
+      "pageIndex": 33,
+      "bbox": {
+        "x": 0.1720839980380987,
+        "y": 0.08235032630689217,
+        "w": 0.6332479614058352,
+        "h": 0.08223869824650311
+      },
+      "score": 0.9353737235069275,
+      "title": "Table 8. Feature scores for sum tens digit task.",
+      "layoutRegionId": "14008523-9105-4457-bcee-191dfea6a113"
+    },
+    {
+      "id": "table-9",
+      "stableKey": "p34:table:Table 9. Multilingual antonym features found in Claude Sonnet 3.5.",
+      "kind": "table",
+      "section": "table",
+      "page": 34,
+      "pageIndex": 33,
+      "bbox": {
+        "x": 0.17512747820685892,
+        "y": 0.4754299587673611,
+        "w": 0.6221157772089142,
+        "h": 0.14915816952483824
+      },
+      "score": 0.9439750909805298,
+      "title": "Table 9. Multilingual antonym features found in Claude Sonnet 3.5.",
+      "layoutRegionId": "2412cdc5-51be-4121-8cef-f71eb67a75bc"
+    },
+    {
+      "id": "table-10",
+      "stableKey": "p35:table:Table 10. Feature scores for language task.",
+      "kind": "table",
+      "section": "table",
+      "page": 35,
+      "pageIndex": 34,
+      "bbox": {
+        "x": 0.14897897508409289,
+        "y": 0.3325092045947759,
+        "w": 0.6790901258880017,
+        "h": 0.32849390819819285
+      },
+      "score": 0.9479063749313354,
+      "title": "Table 10. Feature scores for language task.",
+      "layoutRegionId": "4b33527d-f8cf-4ee5-a62a-dfd9a2f6dbc6"
+    },
+    {
+      "id": "table-p35-0150_0671_0677_0223",
+      "stableKey": "p35:table:0.150_0.671_0.677_0.223",
+      "kind": "table",
+      "section": "table",
+      "page": 35,
+      "pageIndex": 34,
+      "bbox": {
+        "x": 0.1503303004246132,
+        "y": 0.670914543999566,
+        "w": 0.6765410853367225,
+        "h": 0.22335669006964173
+      },
+      "score": 0.950541615486145,
+      "layoutRegionId": "1a1637be-26dd-4ab4-a161-a452e98aa350"
+    },
+    {
+      "id": "table-10-2",
+      "stableKey": "p36:table:Table 10. Feature scores for language task.",
+      "kind": "table",
+      "section": "table",
+      "page": 36,
+      "pageIndex": 35,
+      "bbox": {
+        "x": 0.1478392781774982,
+        "y": 0.08175800785873875,
+        "w": 0.6824703715205972,
+        "h": 0.801586931402033
+      },
+      "score": 0.6718875765800476,
+      "title": "Table 10. Feature scores for language task.",
+      "layoutRegionId": "4ff67d10-b6e4-4d3e-8c98-68490b0a1c4e"
+    },
+    {
+      "id": "table-p37-0148_0104_0679_0260",
+      "stableKey": "p37:table:0.148_0.104_0.679_0.260",
+      "kind": "table",
+      "section": "table",
+      "page": 37,
+      "pageIndex": 36,
+      "bbox": {
+        "x": 0.14839521420547386,
+        "y": 0.10430519026939315,
+        "w": 0.678629108503753,
+        "h": 0.2599220275878906
+      },
+      "score": 0.8860706090927124,
+      "layoutRegionId": "3de5f897-e196-4c85-aabf-a144d264e350"
+    },
+    {
+      "id": "table-p37-0150_0380_0677_0138",
+      "stableKey": "p37:table:0.150_0.380_0.677_0.138",
+      "kind": "table",
+      "section": "table",
+      "page": 37,
+      "pageIndex": 36,
+      "bbox": {
+        "x": 0.15020970113916335,
+        "y": 0.3801795111762153,
+        "w": 0.6770655937444151,
+        "h": 0.1380375563496291
+      },
+      "score": 0.873914897441864,
+      "layoutRegionId": "43770939-cded-4652-980f-ab09ee03dcc9"
+    },
+    {
+      "id": "table-p37-0151_0530_0675_0274",
+      "stableKey": "p37:table:0.151_0.530_0.675_0.274",
+      "kind": "table",
+      "section": "table",
+      "page": 37,
+      "pageIndex": 36,
+      "bbox": {
+        "x": 0.1513055539598652,
+        "y": 0.530473343049637,
+        "w": 0.6749225192599826,
+        "h": 0.27375200059678817
+      },
+      "score": 0.8796173334121704,
+      "layoutRegionId": "2ac11ca2-3ef2-46b1-9175-5d4c82187713"
+    },
+    {
+      "id": "table-p37-0151_0817_0677_0087",
+      "stableKey": "p37:table:0.151_0.817_0.677_0.087",
+      "kind": "table",
+      "section": "table",
+      "page": 37,
+      "pageIndex": 36,
+      "bbox": {
+        "x": 0.150651246114494,
+        "y": 0.8167027945470329,
+        "w": 0.6773187724593418,
+        "h": 0.08736427384193497
+      },
+      "score": 0.806586503982544,
+      "layoutRegionId": "51db5fe3-d439-47fd-a432-78b090289dd6"
+    },
+    {
+      "id": "table-10-3",
+      "stableKey": "p38:table:Table 10. Feature scores for language task.",
+      "kind": "table",
+      "section": "table",
+      "page": 38,
+      "pageIndex": 37,
+      "bbox": {
+        "x": 0.14750221352172055,
+        "y": 0.08229132372923571,
+        "w": 0.6788400014241537,
+        "h": 0.22860868049390387
+      },
+      "score": 0.9634370803833008,
+      "title": "Table 10. Feature scores for language task.",
+      "layoutRegionId": "985b2bc3-f271-46c5-a1e7-fa7fe754422c"
+    },
+    {
+      "id": "table-11",
+      "stableKey": "p38:table:Table 11. Feature scores for axis task.",
+      "kind": "table",
+      "section": "table",
+      "page": 38,
+      "pageIndex": 37,
+      "bbox": {
+        "x": 0.1705235001308466,
+        "y": 0.43043903389362376,
+        "w": 0.6404991399228962,
+        "h": 0.47307131988833645
+      },
+      "score": 0.7944214940071106,
+      "title": "Table 11. Feature scores for axis task.",
+      "layoutRegionId": "87752405-becb-4c61-ba35-b9d2f6863156"
+    },
+    {
+      "id": "table-11-2",
+      "stableKey": "p39:table:Table 11. Feature scores for axis task.",
+      "kind": "table",
+      "section": "table",
+      "page": 39,
+      "pageIndex": 38,
+      "bbox": {
+        "x": 0.16779741274765114,
+        "y": 0.08212606834642815,
+        "w": 0.6421922671249489,
+        "h": 0.05655187549013081
+      },
+      "score": 0.7828691005706787,
+      "title": "Table 11. Feature scores for axis task.",
+      "layoutRegionId": "fea411f4-b544-4013-80c8-c85f62e30299"
+    },
+    {
+      "id": "table-p39-0169_0190_0639_0222",
+      "stableKey": "p39:table:0.169_0.190_0.639_0.222",
+      "kind": "table",
+      "section": "table",
+      "page": 39,
+      "pageIndex": 38,
+      "bbox": {
+        "x": 0.1689638250014361,
+        "y": 0.19034771004108467,
+        "w": 0.6389494627908944,
+        "h": 0.22216679351498383
+      },
+      "score": 0.642221212387085,
+      "layoutRegionId": "5894f33a-4fda-40a3-ae04-8957acb10409"
+    },
+    {
+      "id": "table-p39-0168_0428_0641_0180",
+      "stableKey": "p39:table:0.168_0.428_0.641_0.180",
+      "kind": "table",
+      "section": "table",
+      "page": 39,
+      "pageIndex": 38,
+      "bbox": {
+        "x": 0.16778283960678997,
+        "y": 0.4276382369224471,
+        "w": 0.6407832351385379,
+        "h": 0.1803380022145281
+      },
+      "score": 0.6832393407821655,
+      "layoutRegionId": "c0d2602f-0697-4bcb-9db0-bb530720c204"
+    },
+    {
+      "id": "table-p39-0171_0621_0637_0267",
+      "stableKey": "p39:table:0.171_0.621_0.637_0.267",
+      "kind": "table",
+      "section": "table",
+      "page": 39,
+      "pageIndex": 38,
+      "bbox": {
+        "x": 0.1705031675450942,
+        "y": 0.6211000692964804,
+        "w": 0.6367450664246005,
+        "h": 0.26736904876400724
+      },
+      "score": 0.7881280779838562,
+      "layoutRegionId": "a203abc8-4eab-4700-8306-b9f206b8ce00"
+    },
+    {
+      "id": "table-p40-0166_0104_0644_0706",
+      "stableKey": "p40:table:0.166_0.104_0.644_0.706",
+      "kind": "table",
+      "section": "table",
+      "page": 40,
+      "pageIndex": 39,
+      "bbox": {
+        "x": 0.16614916433695875,
+        "y": 0.10399472593057035,
+        "w": 0.6441023084852431,
+        "h": 0.7059975922709764
+      },
+      "score": 0.7128780484199524,
+      "layoutRegionId": "ac224ccc-a5d1-4fa8-92b5-d3693a955839"
+    },
+    {
+      "id": "table-p41-0171_0527_0636_0179",
+      "stableKey": "p41:table:0.171_0.527_0.636_0.179",
+      "kind": "table",
+      "section": "table",
+      "page": 41,
+      "pageIndex": 40,
+      "bbox": {
+        "x": 0.1714496861875447,
+        "y": 0.527492060805812,
+        "w": 0.6359836977291731,
+        "h": 0.17920526832041114
+      },
+      "score": 0.5806220173835754,
+      "layoutRegionId": "5f3d12cd-6567-413a-a395-3b1be32cef32"
+    },
+    {
+      "id": "table-p41-0173_0720_0630_0179",
+      "stableKey": "p41:table:0.173_0.720_0.630_0.179",
+      "kind": "table",
+      "section": "table",
+      "page": 41,
+      "pageIndex": 40,
+      "bbox": {
+        "x": 0.1733974506652433,
+        "y": 0.7202509870432844,
+        "w": 0.6295652077868094,
+        "h": 0.17860451129951863
+      },
+      "score": 0.6947835683822632,
+      "layoutRegionId": "6addfbf0-4742-43dc-b3b8-26793d1a128c"
+    },
+    {
+      "id": "table-13",
+      "stableKey": "p42:table:Table 13. Feature scores for gender task.",
+      "kind": "table",
+      "section": "table",
+      "page": 42,
+      "pageIndex": 41,
+      "bbox": {
+        "x": 0.171889037088631,
+        "y": 0.0826764540238814,
+        "w": 0.6339722926320593,
+        "h": 0.08178075154622395
+      },
+      "score": 0.9189479947090149,
+      "title": "Table 13. Feature scores for gender task.",
+      "layoutRegionId": "a984068e-6978-4e40-af74-05c2cc8e4d75"
+    },
+    {
+      "id": "algorithm-p34-0099_0350_0264_0042",
+      "stableKey": "p34:algorithm:0.099_0.350_0.264_0.042",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 34,
+      "pageIndex": 33,
+      "bbox": {
+        "x": 0.09870049221063751,
+        "y": 0.34972994255297113,
+        "w": 0.2638148014841516,
+        "h": 0.042014728892933235
+      },
+      "score": 0.5707575082778931,
+      "layoutRegionId": "c12bf0e7-d554-4969-8b1f-e8708c166941"
+    },
+    {
+      "id": "algorithm-p41-0182_0319_0248_0016",
+      "stableKey": "p41:algorithm:0.182_0.319_0.248_0.016",
+      "kind": "algorithm",
+      "section": "algorithm",
+      "page": 41,
+      "pageIndex": 40,
+      "bbox": {
+        "x": 0.18153112074908087,
+        "y": 0.31911691993173924,
+        "w": 0.2475848229102839,
+        "h": 0.01556072813091856
+      },
+      "score": 0.4350862503051758,
+      "layoutRegionId": "6056ada9-0590-435f-8f67-7ab78374ab40"
+    },
+    {
+      "id": "formula-p3-0112_0377_0363_0016",
+      "stableKey": "p3:formula:0.112_0.377_0.363_0.016",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.11156913657593572,
+        "y": 0.3769469983649976,
+        "w": 0.36335982528387334,
+        "h": 0.015766490589488646
+      },
+      "score": 0.8835767507553101,
+      "layoutRegionId": "cd365a8f-8235-4d95-936e-bad2313ff189"
+    },
+    {
+      "id": "formula-p3-0152_0558_0322_0016",
+      "stableKey": "p3:formula:0.152_0.558_0.322_0.016",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.151681912490745,
+        "y": 0.5578043388597893,
+        "w": 0.3220820956759982,
+        "h": 0.01561844950974589
+      },
+      "score": 0.8376765251159668,
+      "layoutRegionId": "5b2a7a6e-c755-4e46-9ab2-0287e72a9d5e"
+    },
+    {
+      "id": "formula-p3-0118_0577_0356_0032",
+      "stableKey": "p3:formula:0.118_0.577_0.356_0.032",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.11757809508080576,
+        "y": 0.577161846738873,
+        "w": 0.35626494962405536,
+        "h": 0.031849986374980266
+      },
+      "score": 0.8023754358291626,
+      "layoutRegionId": "a14efa35-55d3-440e-9502-93eb89a87466"
+    },
+    {
+      "id": "formula-p3-0107_0613_0368_0033",
+      "stableKey": "p3:formula:0.107_0.613_0.368_0.033",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.10650301914589078,
+        "y": 0.6132141267410433,
+        "w": 0.3675096673903122,
+        "h": 0.0327921010027028
+      },
+      "score": 0.7992380857467651,
+      "layoutRegionId": "42b367a3-3e0c-4bae-a52f-07b97d21d0d1"
+    },
+    {
+      "id": "formula-p3-0587_0481_0300_0018",
+      "stableKey": "p3:formula:0.587_0.481_0.300_0.018",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.5872167450150633,
+        "y": 0.48076856979215987,
+        "w": 0.30026115467345793,
+        "h": 0.018283458671184527
+      },
+      "score": 0.8909373879432678,
+      "layoutRegionId": "7c08ff9e-babe-4899-8a1b-042377cf3b56"
+    },
+    {
+      "id": "formula-p3-0520_0743_0367_0018",
+      "stableKey": "p3:formula:0.520_0.743_0.367_0.018",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.5195601220224418,
+        "y": 0.7429950598514441,
+        "w": 0.36690311805874687,
+        "h": 0.018034655638415442
+      },
+      "score": 0.8412883877754211,
+      "layoutRegionId": "0992cb8b-f0c8-4e07-89e6-84c47bb18d32"
+    },
+    {
+      "id": "formula-p3-0512_0765_0375_0031",
+      "stableKey": "p3:formula:0.512_0.765_0.375_0.031",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.511506074394276,
+        "y": 0.7651084360450205,
+        "w": 0.3749973571378421,
+        "h": 0.03089796894728536
+      },
+      "score": 0.8480722904205322,
+      "layoutRegionId": "0fada2f8-1812-41dd-a411-daf5f80fa9c6"
+    },
+    {
+      "id": "formula-p3-0605_0800_0282_0038",
+      "stableKey": "p3:formula:0.605_0.800_0.282_0.038",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.6046308629653033,
+        "y": 0.8003630975280145,
+        "w": 0.28195414823644294,
+        "h": 0.03761954259390787
+      },
+      "score": 0.8932711482048035,
+      "layoutRegionId": "3ba8b8ea-8089-45b7-bfb8-aa2376674795"
+    },
+    {
+      "id": "formula-p3-0581_0842_0306_0042",
+      "stableKey": "p3:formula:0.581_0.842_0.306_0.042",
+      "kind": "formula",
+      "section": "formula",
+      "page": 3,
+      "pageIndex": 2,
+      "bbox": {
+        "x": 0.5811042037664675,
+        "y": 0.8416004373569681,
+        "w": 0.3055070365955628,
+        "h": 0.041544673418757894
+      },
+      "score": 0.7711763978004456,
+      "layoutRegionId": "4bd9be72-fae3-416e-a659-7f5c008da2d0"
+    },
+    {
+      "id": "formula-p5-0155_0430_0319_0018",
+      "stableKey": "p5:formula:0.155_0.430_0.319_0.018",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.15526674308028876,
+        "y": 0.4298000528354837,
+        "w": 0.31929775312835096,
+        "h": 0.01795208092891809
+      },
+      "score": 0.8549407124519348,
+      "layoutRegionId": "a5e112d4-f714-46bf-96de-5def1255e114"
+    },
+    {
+      "id": "formula-p5-0147_0450_0328_0031",
+      "stableKey": "p5:formula:0.147_0.450_0.328_0.031",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.1474197861415888,
+        "y": 0.4500722788801097,
+        "w": 0.32789064544478275,
+        "h": 0.031042580652718588
+      },
+      "score": 0.9012147188186646,
+      "layoutRegionId": "2f7e9d04-8db1-42d2-ab1a-70011d2ea0a9"
+    },
+    {
+      "id": "formula-p5-0518_0475_0369_0049",
+      "stableKey": "p5:formula:0.518_0.475_0.369_0.049",
+      "kind": "formula",
+      "section": "formula",
+      "page": 5,
+      "pageIndex": 4,
+      "bbox": {
+        "x": 0.5175510481292126,
+        "y": 0.4750615900213068,
+        "w": 0.36872409995085276,
+        "h": 0.04915719080452968
+      },
+      "score": 0.9056812524795532,
+      "layoutRegionId": "475fb04a-4604-43f4-8209-3a50f71db2ce"
+    },
+    {
+      "id": "formula-p6-0089_0501_0386_0051",
+      "stableKey": "p6:formula:0.089_0.501_0.386_0.051",
+      "kind": "formula",
+      "section": "formula",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.08852473115609362,
+        "y": 0.501198238796658,
+        "w": 0.3855268004672979,
+        "h": 0.05055337000374838
+      },
+      "score": 0.9038936495780945,
+      "layoutRegionId": "e2224381-baeb-475f-a305-d3e33bb2ab32"
+    },
+    {
+      "id": "formula-p6-0134_0558_0340_0038",
+      "stableKey": "p6:formula:0.134_0.558_0.340_0.038",
+      "kind": "formula",
+      "section": "formula",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.1337325027565551,
+        "y": 0.5578761630588107,
+        "w": 0.3404383565865311,
+        "h": 0.03800189856326941
+      },
+      "score": 0.8928049802780151,
+      "layoutRegionId": "86b5472a-b4ba-4d2e-a3ea-f6156af609f9"
+    },
+    {
+      "id": "formula-p6-0153_0625_0322_0036",
+      "stableKey": "p6:formula:0.153_0.625_0.322_0.036",
+      "kind": "formula",
+      "section": "formula",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.15252619475321053,
+        "y": 0.6247844118060488,
+        "w": 0.321592355865279,
+        "h": 0.03625854338058321
+      },
+      "score": 0.9068959951400757,
+      "layoutRegionId": "c11f6ad3-00c9-4b5e-8922-5782a1a999bf"
+    },
+    {
+      "id": "formula-p6-0143_0753_0331_0030",
+      "stableKey": "p6:formula:0.143_0.753_0.331_0.030",
+      "kind": "formula",
+      "section": "formula",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.14287367677376941,
+        "y": 0.7533275719844934,
+        "w": 0.33130735509535847,
+        "h": 0.03033131300800984
+      },
+      "score": 0.8993463516235352,
+      "layoutRegionId": "696f5080-e52d-4b01-8102-e0f368e26225"
+    },
+    {
+      "id": "formula-p6-0143_0788_0331_0034",
+      "stableKey": "p6:formula:0.143_0.788_0.331_0.034",
+      "kind": "formula",
+      "section": "formula",
+      "page": 6,
+      "pageIndex": 5,
+      "bbox": {
+        "x": 0.1434130699805964,
+        "y": 0.7875656744446418,
+        "w": 0.3306973027248008,
+        "h": 0.03389084941208964
+      },
+      "score": 0.8866493701934814,
+      "layoutRegionId": "352e4eee-0526-49c7-a4e8-26e3ab23bb21"
+    },
+    {
+      "id": "formula-p7-0119_0887_0356_0017",
+      "stableKey": "p7:formula:0.119_0.887_0.356_0.017",
+      "kind": "formula",
+      "section": "formula",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.11912909364388659,
+        "y": 0.8867071903113163,
+        "w": 0.3563231549231835,
+        "h": 0.017321191652856727
+      },
+      "score": 0.8894491791725159,
+      "layoutRegionId": "6ffb4a2f-600f-4c17-b074-abbd210f6807"
+    },
+    {
+      "id": "formula-p7-0518_0647_0369_0017",
+      "stableKey": "p7:formula:0.518_0.647_0.369_0.017",
+      "kind": "formula",
+      "section": "formula",
+      "page": 7,
+      "pageIndex": 6,
+      "bbox": {
+        "x": 0.5181621476715687,
+        "y": 0.6473839499733665,
+        "w": 0.3688314599928513,
+        "h": 0.017378527708727942
+      },
+      "score": 0.8710273504257202,
+      "layoutRegionId": "3d59f87b-6fbb-466c-84cd-589c0769ece1"
+    },
+    {
+      "id": "formula-p16-0333_0147_0553_0033",
+      "stableKey": "p16:formula:0.333_0.147_0.553_0.033",
+      "kind": "formula",
+      "section": "formula",
+      "page": 16,
+      "pageIndex": 15,
+      "bbox": {
+        "x": 0.3334419150757634,
+        "y": 0.1472432300297901,
+        "w": 0.5526554132598678,
+        "h": 0.0329076015588009
+      },
+      "score": 0.9224408864974976,
+      "layoutRegionId": "fc573c69-9dd9-4c1b-8213-e7dbda6e38b3"
+    },
+    {
+      "id": "formula-p16-0296_0444_0590_0033",
+      "stableKey": "p16:formula:0.296_0.444_0.590_0.033",
+      "kind": "formula",
+      "section": "formula",
+      "page": 16,
+      "pageIndex": 15,
+      "bbox": {
+        "x": 0.2960902444677415,
+        "y": 0.44437747531467015,
+        "w": 0.5901477040808185,
+        "h": 0.03294599899137862
+      },
+      "score": 0.927348792552948,
+      "layoutRegionId": "5d17a0d4-b143-41a1-94c9-a3d2a00bc398"
+    },
+    {
+      "id": "formula-p16-0367_0581_0519_0034",
+      "stableKey": "p16:formula:0.367_0.581_0.519_0.034",
+      "kind": "formula",
+      "section": "formula",
+      "page": 16,
+      "pageIndex": 15,
+      "bbox": {
+        "x": 0.3670910604638991,
+        "y": 0.5810671334314828,
+        "w": 0.5192324569801878,
+        "h": 0.03395500568428422
+      },
+      "score": 0.803092360496521,
+      "layoutRegionId": "a72efbce-9f5a-48fc-9b19-178ad010c049"
+    },
+    {
+      "id": "formula-p16-0352_0619_0534_0037",
+      "stableKey": "p16:formula:0.352_0.619_0.534_0.037",
+      "kind": "formula",
+      "section": "formula",
+      "page": 16,
+      "pageIndex": 15,
+      "bbox": {
+        "x": 0.35187176473779613,
+        "y": 0.6194192134972775,
+        "w": 0.533779967064951,
+        "h": 0.03737686619614111
+      },
+      "score": 0.91023850440979,
+      "layoutRegionId": "a773f712-975d-4621-9bae-29c31242f040"
+    },
+    {
+      "id": "formula-p16-0334_0774_0553_0035",
+      "stableKey": "p16:formula:0.334_0.774_0.553_0.035",
+      "kind": "formula",
+      "section": "formula",
+      "page": 16,
+      "pageIndex": 15,
+      "bbox": {
+        "x": 0.3337712506063623,
+        "y": 0.774286520601523,
+        "w": 0.55263554192836,
+        "h": 0.035304291079742756
+      },
+      "score": 0.9192701578140259,
+      "layoutRegionId": "e482d966-b7b8-4860-ade1-c71b9131d832"
+    },
+    {
+      "id": "formula-p16-0301_0860_0586_0035",
+      "stableKey": "p16:formula:0.301_0.860_0.586_0.035",
+      "kind": "formula",
+      "section": "formula",
+      "page": 16,
+      "pageIndex": 15,
+      "bbox": {
+        "x": 0.300623800240311,
+        "y": 0.8603726781979956,
+        "w": 0.5857160730299606,
+        "h": 0.034913034150094724
+      },
+      "score": 0.910027265548706,
+      "layoutRegionId": "9888b49f-8993-4095-8111-d57196b21c87"
+    },
+    {
+      "id": "formula-p17-0312_0304_0575_0023",
+      "stableKey": "p17:formula:0.312_0.304_0.575_0.023",
+      "kind": "formula",
+      "section": "formula",
+      "page": 17,
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.3117586272993898,
+        "y": 0.3037671753854463,
+        "w": 0.5748301736669603,
+        "h": 0.023350166551994567
+      },
+      "score": 0.9016329050064087,
+      "layoutRegionId": "809b0916-d38e-4705-8892-87595799b435"
+    },
+    {
+      "id": "formula-p17-0378_0391_0509_0017",
+      "stableKey": "p17:formula:0.378_0.391_0.509_0.017",
+      "kind": "formula",
+      "section": "formula",
+      "page": 17,
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.3780891069399765,
+        "y": 0.3911649530584162,
+        "w": 0.5086747213126788,
+        "h": 0.016637089276554606
+      },
+      "score": 0.880603551864624,
+      "layoutRegionId": "c836a78b-4ad0-41f3-9496-822e287e2e10"
+    },
+    {
+      "id": "formula-p17-0384_0483_0502_0036",
+      "stableKey": "p17:formula:0.384_0.483_0.502_0.036",
+      "kind": "formula",
+      "section": "formula",
+      "page": 17,
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.38422877492468344,
+        "y": 0.4829671840475063,
+        "w": 0.5021825054891749,
+        "h": 0.03551625723790636
+      },
+      "score": 0.7795677185058594,
+      "layoutRegionId": "44c5105a-b537-4164-b316-d787f83602b5"
+    },
+    {
+      "id": "formula-p17-0336_0612_0551_0024",
+      "stableKey": "p17:formula:0.336_0.612_0.551_0.024",
+      "kind": "formula",
+      "section": "formula",
+      "page": 17,
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.3356671302147161,
+        "y": 0.6122495477849786,
+        "w": 0.5514204237196181,
+        "h": 0.02379631273674243
+      },
+      "score": 0.8931968212127686,
+      "layoutRegionId": "feaa4338-a63f-4002-a64a-cc93ab2352a4"
+    },
+    {
+      "id": "formula-p17-0303_0719_0584_0029",
+      "stableKey": "p17:formula:0.303_0.719_0.584_0.029",
+      "kind": "formula",
+      "section": "formula",
+      "page": 17,
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.3029968411314721,
+        "y": 0.7187483045789931,
+        "w": 0.5835356120190589,
+        "h": 0.028770369712752486
+      },
+      "score": 0.8814432621002197,
+      "layoutRegionId": "f4622442-0d07-44af-a704-59949f0ceedc"
+    },
+    {
+      "id": "formula-p17-0291_0805_0596_0024",
+      "stableKey": "p17:formula:0.291_0.805_0.596_0.024",
+      "kind": "formula",
+      "section": "formula",
+      "page": 17,
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.29066058389501637,
+        "y": 0.805386321713226,
+        "w": 0.5956458796083537,
+        "h": 0.024322509765625
+      },
+      "score": 0.796176016330719,
+      "layoutRegionId": "175712c9-c99e-483c-b1db-83c66e6098e5"
+    },
+    {
+      "id": "formula-p17-0338_0834_0548_0019",
+      "stableKey": "p17:formula:0.338_0.834_0.548_0.019",
+      "kind": "formula",
+      "section": "formula",
+      "page": 17,
+      "pageIndex": 16,
+      "bbox": {
+        "x": 0.3376870747485192,
+        "y": 0.8340390908597696,
+        "w": 0.5480255924798305,
+        "h": 0.018882057883522707
+      },
+      "score": 0.757716178894043,
+      "layoutRegionId": "372787f9-056a-439f-b141-a8e96878597a"
+    },
+    {
+      "id": "formula-p18-0397_0188_0490_0033",
+      "stableKey": "p18:formula:0.397_0.188_0.490_0.033",
+      "kind": "formula",
+      "section": "formula",
+      "page": 18,
+      "pageIndex": 17,
+      "bbox": {
+        "x": 0.39734791774375766,
+        "y": 0.18832586269186,
+        "w": 0.48986011081271696,
+        "h": 0.03314438251533894
+      },
+      "score": 0.8890911340713501,
+      "layoutRegionId": "bf03e830-6201-44d0-9cb6-ce3dfcd3f482"
+    },
+    {
+      "id": "formula-p19-0359_0368_0527_0032",
+      "stableKey": "p19:formula:0.359_0.368_0.527_0.032",
+      "kind": "formula",
+      "section": "formula",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.35854249842026653,
+        "y": 0.3680173700506037,
+        "w": 0.5273023119159774,
+        "h": 0.03192759041834359
+      },
+      "score": 0.9030415415763855,
+      "layoutRegionId": "fa52265d-81f1-4ef4-aff3-c65388a8709f"
+    },
+    {
+      "id": "formula-p19-0354_0405_0533_0030",
+      "stableKey": "p19:formula:0.354_0.405_0.533_0.030",
+      "kind": "formula",
+      "section": "formula",
+      "page": 19,
+      "pageIndex": 18,
+      "bbox": {
+        "x": 0.35395673365374797,
+        "y": 0.4047992976024897,
+        "w": 0.5328742133246529,
+        "h": 0.030063012633660846
+      },
+      "score": 0.8952010273933411,
+      "layoutRegionId": "061a0500-718d-4b4c-b9ec-46ad4ccde6c0"
+    },
+    {
+      "id": "formula-p28-0394_0381_0492_0016",
+      "stableKey": "p28:formula:0.394_0.381_0.492_0.016",
+      "kind": "formula",
+      "section": "formula",
+      "page": 28,
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.39444154228260314,
+        "y": 0.3809640672471788,
+        "w": 0.4922257467033037,
+        "h": 0.01612121890289614
+      },
+      "score": 0.8602917194366455,
+      "layoutRegionId": "c9faa4ed-6b2d-44a2-8453-c377298e508c"
+    },
+    {
+      "id": "formula-p28-0395_0401_0491_0017",
+      "stableKey": "p28:formula:0.395_0.401_0.491_0.017",
+      "kind": "formula",
+      "section": "formula",
+      "page": 28,
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.39494281344943577,
+        "y": 0.4010175454496133,
+        "w": 0.4914026447370941,
+        "h": 0.016508584070687338
+      },
+      "score": 0.8529986143112183,
+      "layoutRegionId": "a6c6afaa-fb16-4271-9a86-415a6d445a3f"
+    },
+    {
+      "id": "formula-p28-0295_0459_0591_0017",
+      "stableKey": "p28:formula:0.295_0.459_0.591_0.017",
+      "kind": "formula",
+      "section": "formula",
+      "page": 28,
+      "pageIndex": 27,
+      "bbox": {
+        "x": 0.2954081367043888,
+        "y": 0.45887028087269177,
+        "w": 0.5912347182728885,
+        "h": 0.016710647428878622
+      },
+      "score": 0.8854188323020935,
+      "layoutRegionId": "db2d0fe3-79c2-4c8d-836b-301a5f9f63a6"
+    }
+  ]
+}
