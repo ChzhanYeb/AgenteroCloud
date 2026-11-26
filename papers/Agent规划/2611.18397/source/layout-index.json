@@ -3,7 +3,7 @@
   "source": {
     "mode": "sidebar",
     "from": "layout.json",
-    "generatedAt": "2026-11-24T05:24:04.850Z",
+    "generatedAt": "2026-11-26T10:02:25.603Z",
     "minScore": 0.3
   },
   "items": [
@@ -22,7 +22,7 @@
       },
       "score": 0.828766942024231,
       "title": "Figure 1 Overview of Gamer. A generalist game agent framework operates across a broad range of visually and mechanically diverse games. At each step, the agent uses the current screen, task context, recent interaction history, long-term memory, and reasoning to generate native keyboard and mouse actions in real time. The agent interacts continuously through this loop. Cross-game training, multi-level supervision, and persistent memory support transferable control and sustained task execution.",
-      "layoutRegionId": "f195cdde-1173-442d-87b2-a6392c3fba79"
+      "layoutRegionId": "861afaa1-8e94-44c5-8046-bdbfc24665de"
     },
     {
       "id": "figure-2",
@@ -39,7 +39,7 @@
       },
       "score": 0.9600191116333008,
       "title": "Figure 2 CPT for unified keyboard-mouse control. Synchronized gameplay observations and device events are mapped to a shared action representation. Random key remapping reduces reliance on key identity, while repeat-aware loss decay reweights temporally persistent actions. The resulting control prior is used by the subsequent task-conditioned training stages.",
-      "layoutRegionId": "470d3b53-54ec-4916-8fbb-7aadae4d98c6"
+      "layoutRegionId": "7ebc5e82-d02f-422f-9cef-c54f134a4c6e"
     },
     {
       "id": "figure-4",
@@ -56,7 +56,7 @@
       },
       "score": 0.9477521181106567,
       "title": "Figure 4 Sparse reasoning and cross-context memory in supervised fine-tuning. The shared autoregressive policy integrates visual observations, task memory, optional reasoning, and executable keyboard-mouse actions. Context memory compaction preserves task progress across long interactions, while adaptive reasoning allows the policy to act directly at routine steps and generate explicit reasoning when needed.",
-      "layoutRegionId": "2b8826ec-200a-4e66-a194-78c815e4f9fc"
+      "layoutRegionId": "ad911c1b-8cd1-4ffc-8796-34efa168c75c"
     },
     {
       "id": "figure-5",
@@ -73,7 +73,7 @@
       },
       "score": 0.9696410894393921,
       "title": "Figure 5 Memory-linked long-horizon optimization with TA-GRPO . A long interaction may exceed the model’s context budget (top). Memory compaction divides online rollouts into finite segments whose task states remain connected by generated summaries (bottom). Segments at corresponding stages are compared using environment verifiable outcomes, and temporal credit assignment distributes their group-relative advantage across decisions. The figure is schematic, and model execution uses the real-time serving backend in Sec. 5 .",
-      "layoutRegionId": "a53ebca6-8ce0-4fd4-a3cd-36e70b11fedf"
+      "layoutRegionId": "c809abd7-a556-4740-9ac2-a5c9d3c5d247"
     },
     {
       "id": "figure-6",
@@ -90,7 +90,7 @@
       },
       "score": 0.7325608730316162,
       "title": "Figure 6 Streaming-vLLM for persistent multi-environment inference. Each game client maintains separate short-term history, long-term memory, and logical KV-cache state. Two cache forms coexist. Full-Attention layers keep a growing paged KV cache: blocks are allocated and reused on demand, and released when context is compacted. In hybrid backbones, gated delta network (GDN) layers instead hold fixed-size linear recurrent and convolution states ( ssm_state , conv_state ) whose footprint is independent of sequence length and which are carried across compaction in place. Paged allocation and memory-aware KV-cache reuse avoid repeated context processing, while incremental rotary position embedding (RoPE) refresh corrects retained keys after compaction. The runtime combines architecture-aware execution, BF16-verified FSM speculation, and early action dispatch to serve concurrent real-time interactions.",
-      "layoutRegionId": "01a23f45-cb73-4d70-ae18-7193d5ebfe28"
+      "layoutRegionId": "5ce21ba6-0f61-4e4d-bb52-6fff94cb9bdc"
     },
     {
       "id": "figure-7",
@@ -107,7 +107,7 @@
       },
       "score": 0.7477917075157166,
       "title": "Figure 7 Bottom-up construction of multi-level task supervision. The diagram illustrates the organization of aligned gameplay segments into local operations, intermediate subgoals, and extended task stages. Separate GPT-5.6-Luna passes produce sparse Think annotations, segment-level instructions and scene descriptions, and memory updates as detailed in Secs. 6.2 - 6.3 . The diagram focuses on hierarchy assembly rather than depicting every annotation call.",
-      "layoutRegionId": "60a7a988-b10d-48b0-b483-ca4f1b57e066"
+      "layoutRegionId": "33faf9da-eaec-429a-9b8e-c3a4d4cfc8b6"
     },
     {
       "id": "figure-8",
@@ -124,7 +124,7 @@
       },
       "score": 0.911953866481781,
       "title": "Figure 8 Multi-stage data curation for training. Gameplay trajectories and general vision-language data are cleaned, sampled, and filtered to construct the CPT corpus. Trajectories with aligned action annotations are further used to construct SFT examples at three levels: short-horizon operations, medium-horizon subgoals, and long-horizon tasks. For RL, online policy interaction provides trajectories and environment-verifiable outcomes.",
-      "layoutRegionId": "cfc67529-59ca-4480-8dba-b3141265fca5"
+      "layoutRegionId": "4a89d661-6393-4ea6-9569-58b3f177ba73"
     },
     {
       "id": "figure-9",
@@ -141,7 +141,7 @@
       },
       "score": 0.898396372795105,
       "title": "Figure 9 Representative long-horizon side quests in the Honkai: Star Rail evaluation suite. (a) Opportunity Makes the Thief (Part I) contains 30 milestones with navigation, dialogue, combat, and UI interaction. (b) Bestial Ferocity contains 55 milestones and additionally includes three mechanical-repair puzzles. Both panels show ordered milestone sequences and configured step budgets rather than measured completion times.",
-      "layoutRegionId": "dceb7366-4d21-4ac2-8d07-c3bf1a1c2b95"
+      "layoutRegionId": "4e13d62f-9246-4e6e-a230-e0854955e380"
     },
     {
       "id": "figure-10",
@@ -158,7 +158,7 @@
       },
       "score": 0.7929899096488953,
       "title": "Figure 10 Overview of the minigame benchmark in the Honkai: Star Rail evaluation suite. The benchmark contains 40 task instances across seven game types. The left panel shows representative gameplay examples, instance counts, and mechanics. The upper-right chart shows the number of instances per type, while the lower-right chart groups minigames by four descriptive primary capability tags, with instance totals in parentheses. Each minigame type is assigned one primary tag for counting and may require additional abilities. Screenshots illustrate game types and are not necessarily drawn from the evaluated instances.",
-      "layoutRegionId": "d94c7ba4-56e6-4d91-a585-26c256eb59a8"
+      "layoutRegionId": "30f4f7f6-59bd-4061-b926-d4e34d592966"
     },
     {
       "id": "figure-11",
@@ -175,7 +175,7 @@
       },
       "score": 0.9292936325073242,
       "title": "Figure 11 Real-time inference improves online RL learning across eight navigation tasks. Task labels indicate navigation targets. For example, “Pom-Pom” refers to the task of finding the NPC Pom-Pom. Orange solid lines show rewards under the original real-time Streaming-vLLM setting, while blue dashed lines show the 0.6-FPS control representing standard vLLM rollout speed. Real-time inference typically achieves earlier reward improvement and stronger learning over the first 50 plotted training iterations.",
-      "layoutRegionId": "3c5fbc92-a2eb-4b6e-b4fd-39ae929f2f00"
+      "layoutRegionId": "5571487f-ea28-4464-b663-b2738862978a"
     },
     {
       "id": "figure-12",
@@ -192,7 +192,7 @@
       },
       "score": 0.8699471950531006,
       "title": "Figure 12 Early adaptation to the shared keyboard-mouse interface. The figure reports keyboard, mouse, and action-format losses together with directional prediction accuracy for 2B, 9B, and 27B models under the S1 and S4 mixtures. The horizontal axis denotes cumulative gameplay hours. Results from GameScaling [ 62 ].",
-      "layoutRegionId": "e3881989-ad31-43ee-98e7-13a3345bbf80"
+      "layoutRegionId": "debeeafd-5c6a-4a8a-97de-469b0ba6ad74"
     },
     {
       "id": "figure-p37-0183_0096_0634_0502",
@@ -208,7 +208,7 @@
         "h": 0.5024483324301363
       },
       "score": 0.8251882791519165,
-      "layoutRegionId": "625844e7-8168-4c91-96ac-9ab4f5a65d0e"
+      "layoutRegionId": "556faaed-5f21-4d91-9329-78c30ad32f9e"
     },
     {
       "id": "figure-14",
@@ -225,7 +225,7 @@
       },
       "score": 0.9163758754730225,
       "title": "Figure 14 Gameplay benchmark scaling across training budgets. Rows show MCU, ViZDoom, OmniGameArena, and GameWorld, and columns show the four Qwen3.5 Dense scales. Colored curves compare the S1-S5 training mixtures across 50-1,600 gameplay hours, with dashed lines denoting the unadapted backbone. Multi-game mixtures support transfer to related environments. Scores are measured under time-paused interaction. Results from GameScaling [ 62 ].",
-      "layoutRegionId": "e5a4c87c-7d4b-4727-a223-2eee0d75c983"
+      "layoutRegionId": "dbd14213-4de5-4993-8b89-f7da02f77608"
     },
     {
       "id": "figure-15",
@@ -242,7 +242,7 @@
       },
       "score": 0.8894871473312378,
       "title": "Figure 15 Scaling-law fits with predictive uncertainty. The panels show the training, Minecraft, and in-corpus loss laws across S1-S5, with measurements, predictions, and stratified-bootstrap bands. Prediction bands reflect variation across resampled experimental configurations within the observed grid, not seed-to-seed variance in model training.",
-      "layoutRegionId": "bfb89c77-82d9-4b81-9651-e0c082017e03"
+      "layoutRegionId": "7752a945-1e36-4a66-b255-6ff11d2f9240"
     },
     {
       "id": "figure-16",
@@ -259,7 +259,7 @@
       },
       "score": 0.7561341524124146,
       "title": "Figure 16 Frontier-model progress on four public game benchmarks. Scores are plotted against model release date under time-paused evaluation. Circles indicate the GPT series, squares the Qwen series, and stars the GameScaling-S3 checkpoints at 1,600 gameplay hours (marked GS in the original plot). These results are from the controlled scaling study, not the HSR-augmented Gamer-CPT model. The comparison shows gains from gameplay adaptation alongside the contribution of general backbone capabilities, particularly on distant worlds.",
-      "layoutRegionId": "b0f21f22-aa48-4578-b40f-c5c62aece1fd"
+      "layoutRegionId": "eea7e435-311b-4342-a3a7-dc5d9a06b5f2"
     },
     {
       "id": "figure-17",
@@ -276,7 +276,7 @@
       },
       "score": 0.9343031048774719,
       "title": "Figure 17 Test-time scaling on MCU. Cumulative task success versus available interaction steps (up to 3,000) for CPT checkpoints and unadapted Qwen3.5 backbones. The primary MCU protocol uses a 600-step cap. This supplementary sweep illustrates how additional interaction opportunities affect task completion.",
-      "layoutRegionId": "b18df2c0-020a-41ec-ac11-ba86699adaba"
+      "layoutRegionId": "28dea167-ff97-4997-ae5e-44811b16b4bd"
     },
     {
       "id": "figure-18",
@@ -293,7 +293,7 @@
       },
       "score": 0.9169765710830688,
       "title": "Figure 18 Incremental RoPE refresh for retained KV states. A cached key moved from logical position p to p is each RoPE frequency pair and written back in place, while the value cache remains unchanged. The figure illustrates b updated by an additional rotation determined by ∆ p = p p . The same positional offset is applied independently to − ∆ p < 0 , corresponding to a leftward shift after context compaction. b",
-      "layoutRegionId": "ecb76011-294c-4980-b2fc-a643f954b940"
+      "layoutRegionId": "902cafcb-185a-4a03-9c4a-e2f89eccf2f9"
     },
     {
       "id": "figure-19",
@@ -310,7 +310,7 @@
       },
       "score": 0.9251643419265747,
       "title": "Figure 19 Cross-backbone request latency on NVIDIA A800 (Ampere) and H200 (Hopper). The existing sweep compares Qwen3-VL-8B (Dense) and Qwen3.5-35B-A3B (MoE) across tensor-parallel degrees and BF16 or W8A8 execution. Stacked values separate vision processing, context (prefill), generation (decode), and remaining overhead, measured as mean request latency. These results characterize representative hardware and backbone coverage rather than all supported model sizes. The theoretical control rate in Table 9 is derived from request time, not measured at the client.",
-      "layoutRegionId": "4380a385-75b8-4586-ab7c-2461c5f8e306"
+      "layoutRegionId": "45499852-dc24-462f-869d-fc77707d0317"
     },
     {
       "id": "figure-20",
@@ -327,7 +327,7 @@
       },
       "score": 0.9471619129180908,
       "title": "Figure 20 Exploration diversity in Honkai: Star Rail. Map layouts vary in geometry, connectivity, and floor structure, and point icons indicate resources and other interactive locations. Red paths illustrate the possible exploration routes.",
-      "layoutRegionId": "e5f5d5ba-db8f-4dad-b34c-f456375afa05"
+      "layoutRegionId": "b763b736-4234-42a3-9e8a-7bd9ed086ed4"
     },
     {
       "id": "figure-21",
@@ -344,7 +344,7 @@
       },
       "score": 0.9001103639602661,
       "title": "Figure 21 Combat mechanics and character roles in Honkai: Star Rail. The examples illustrate (1) the combat interface, including action order, HP and Toughness, team status, skill points, and available abilities, (2) a Weakness Break during a boss encounter, (3) the Action Value display, and (4) a character Data Bank snapshot. The lower panel summarizes the nine Paths by representative combat roles, including damage, support, sustain, and more specialized mechanics. Path groupings summarize representative combat roles, and the figure provides game-mechanics context rather than a measured policy rollout.",
-      "layoutRegionId": "b0e3a406-c84a-4bc6-a0b9-062861b4f8c2"
+      "layoutRegionId": "789dd5f9-7874-41fb-85eb-e04c3217ef12"
     },
     {
       "id": "figure-22",
@@ -361,7 +361,7 @@
       },
       "score": 0.8410398960113525,
       "title": "Figure 22 Representative minigames and interaction challenges in the Honkai: Star Rail evaluation suite. This extended screenshot gallery illustrates the range of game interactions in Honkai: Star Rail. It is a qualitative visualization rather than the scored minigame inventory. The quantitative benchmark contains seven scored minigame types and 40 tasks, summarized in Figure 10 and Table 7 .",
-      "layoutRegionId": "a7372101-6396-447a-b21b-1144c3946e0b"
+      "layoutRegionId": "8826bfb6-203b-49a3-86fc-5522451e5717"
     },
     {
       "id": "figure-23",
@@ -378,7 +378,7 @@
       },
       "score": 0.8367384672164917,
       "title": "Figure 23 Navigation across RL checkpoints on a training task (Reach Pom-Pom). Each row shows one representative rollout with twelve temporally ordered observations, actions, and translated reasoning excerpts. Task successes reports successful attempts out of 16 for each checkpoint: 3, 5, 14, 13, 15, and 15 for CP 0-50, respectively. Red boxes mark scene details or interaction prompts, and blue shading marks reasoning excerpts. The illustrated CP 0 and CP 10 attempts time out, while CP 20-50 reach the target and complete the interaction. Frame counts and completion times describe only the displayed rollout.",
-      "layoutRegionId": "0d5cbe8b-a5dc-4cce-8f51-fdcb9d83bed3"
+      "layoutRegionId": "10ba9640-8c78-4ed9-afb7-030fad6fa4df"
     },
     {
       "id": "figure-24",
@@ -395,7 +395,7 @@
       },
       "score": 0.9216279983520508,
       "title": "Figure 24 Navigation across RL checkpoints on a development task (Reach March 7th). Each row presents one representative rollout from the same task and initial scene, with twelve ordered observations, actions, and translated reasoning excerpts. Task successes counts successful attempts out of 16: 1, 1, 8, 6, 8, and 10 for CP 0-50, respectively. The illustrated CP 0, CP 10, and CP 30 attempts time out, whereas CP 20, CP 40, and CP 50 complete the target dialogue. Aggregate successes and representative trajectories provide complementary evidence of navigation and interaction progress.",
-      "layoutRegionId": "f1ba610c-9b31-4791-857d-15696575c5bd"
+      "layoutRegionId": "41185cf7-502c-404e-b11b-dfef61b37154"
     },
     {
       "id": "table-p3-0116_0097_0765_0139",
@@ -411,7 +411,7 @@
         "h": 0.1388201472735164
       },
       "score": 0.9636552333831787,
-      "layoutRegionId": "ab2b4af3-f7d8-46d7-b8e1-8b8561bc457b"
+      "layoutRegionId": "c69491cc-0412-4030-a90c-e73d90c84aae"
     },
     {
       "id": "table-p17-0119_0098_0755_0167",
@@ -427,7 +427,7 @@
         "h": 0.16668010480476148
       },
       "score": 0.9669061899185181,
-      "layoutRegionId": "6329719c-a6ea-4740-856a-b1ffb30fcbad"
+      "layoutRegionId": "daa1b0e2-fdc1-4168-a0ba-14792f6ffdd0"
     },
     {
       "id": "table-p20-0204_0138_0607_0199",
@@ -443,7 +443,7 @@
         "h": 0.19942641980720288
       },
       "score": 0.8154821395874023,
-      "layoutRegionId": "6e2d8886-8100-4a50-a8ea-a76d37e63299"
+      "layoutRegionId": "adae6494-1e58-4a26-a670-3bbdf6902436"
     },
     {
       "id": "table-p20-0131_0468_0744_0072",
@@ -459,7 +459,7 @@
         "h": 0.07155046559343434
       },
       "score": 0.9218447208404541,
-      "layoutRegionId": "8c8958d9-1b2f-4932-a10d-342ab803aba3"
+      "layoutRegionId": "c081382b-6861-492e-ae7e-ff5d300f50e0"
     },
     {
       "id": "table-p21-0318_0099_0363_0054",
@@ -475,7 +475,7 @@
         "h": 0.05380022646200777
       },
       "score": 0.8971891403198242,
-      "layoutRegionId": "986fa4c6-0a96-4eed-9bfe-f4bed90d38f8"
+      "layoutRegionId": "047e6822-0582-47dc-8e2c-5ce3b09037f1"
     },
     {
       "id": "table-p22-0151_0098_0698_0192",
@@ -491,7 +491,7 @@
         "h": 0.19227582758123224
       },
       "score": 0.9561933875083923,
-      "layoutRegionId": "e9365632-cc67-4ae2-9574-84cb8bf2eedf"
+      "layoutRegionId": "218c818e-482d-45d2-b84f-96ccdd0d2ebf"
     },
     {
       "id": "table-p23-0147_0173_0702_0192",
@@ -507,7 +507,7 @@
         "h": 0.1915831710353042
       },
       "score": 0.9677417874336243,
-      "layoutRegionId": "ac80b2da-c57b-4072-93a0-33d69260fb37"
+      "layoutRegionId": "1e4ae7aa-6cb4-451d-a4a6-251b5e1d6de8"
     },
     {
       "id": "table-p24-0216_0103_0571_0232",
@@ -523,7 +523,7 @@
         "h": 0.23219651886911102
       },
       "score": 0.9615836143493652,
-      "layoutRegionId": "bbe9dca5-4f5f-48dd-8a4e-7f96f3942272"
+      "layoutRegionId": "b405edd8-cced-4cc7-a086-071dd9259dc3"
     },
     {
       "id": "table-p26-0135_0097_0732_0191",
@@ -539,7 +539,7 @@
         "h": 0.19075829091698232
       },
       "score": 0.9558618068695068,
-      "layoutRegionId": "08f3c3ae-75ff-4034-ab99-333bc6f5a8a9"
+      "layoutRegionId": "e3fd4801-4aae-45d4-801d-0d376cabd812"
     },
     {
       "id": "table-p27-0144_0098_0709_0160",
@@ -555,7 +555,7 @@
         "h": 0.16037094231807825
       },
       "score": 0.9619472026824951,
-      "layoutRegionId": "7057e96d-f961-4e85-a3b4-4f0c392d05a9"
+      "layoutRegionId": "a3b30288-d1e4-4a85-81a8-ce60c3817464"
     },
     {
       "id": "table-p36-0256_0099_0489_0096",
@@ -571,7 +571,7 @@
         "h": 0.09555949586810487
       },
       "score": 0.9345253109931946,
-      "layoutRegionId": "ae4372e7-6a22-47e5-8e63-a29b5a9e0460"
+      "layoutRegionId": "d3d6c2db-6617-46e8-8252-e550dd53c128"
     },
     {
       "id": "table-p39-0348_0100_0302_0174",
@@ -587,7 +587,7 @@
         "h": 0.17431939250290995
       },
       "score": 0.9359821677207947,
-      "layoutRegionId": "a6c9af9f-645a-4cbe-8729-67b92e8d1183"
+      "layoutRegionId": "689881ab-2406-4cb0-93bf-08d419013427"
     },
     {
       "id": "table-p40-0177_0104_0648_0113",
@@ -603,7 +603,7 @@
         "h": 0.11274985111120975
       },
       "score": 0.8496192693710327,
-      "layoutRegionId": "921c9980-e300-4e70-baf3-b92fe6b0cb58"
+      "layoutRegionId": "4660f501-b51e-4573-ac33-b0440680585a"
     },
     {
       "id": "table-p47-0111_0122_0778_0308",
@@ -619,7 +619,7 @@
         "h": 0.30787633645414103
       },
       "score": 0.9459363222122192,
-      "layoutRegionId": "71ce4a94-9caf-4c4c-ab72-bce62a7a17ee"
+      "layoutRegionId": "53f5ad7d-6716-4c2e-bae1-c08702389829"
     },
     {
       "id": "table-p49-0112_0219_0386_0490",
@@ -635,7 +635,7 @@
         "h": 0.4900826733521741
       },
       "score": 0.789122462272644,
-      "layoutRegionId": "4d01fec3-00d7-4101-b50a-c61b5ab355fb"
+      "layoutRegionId": "4c30926a-d4dd-42f8-94ff-9b75dd4538d9"
     },
     {
       "id": "table-p49-0506_0218_0383_0480",
@@ -651,7 +651,7 @@
         "h": 0.4797467125786675
       },
       "score": 0.4623137414455414,
-      "layoutRegionId": "6c31e89b-fa0c-4882-ac94-481210d8d9b6"
+      "layoutRegionId": "a9507048-cadc-4adc-a72e-ab76a9766339"
     },
     {
       "id": "table-p53-0350_0235_0480_0092",
@@ -667,7 +667,7 @@
         "h": 0.09175240873086332
       },
       "score": 0.47243863344192505,
-      "layoutRegionId": "e55b07f9-2b53-4298-b74b-723d3dc10d35"
+      "layoutRegionId": "0d077d55-c463-4f55-a0e7-2885f1ca139a"
     },
     {
       "id": "table-p53-0123_0346_0746_0179",
@@ -683,7 +683,7 @@
         "h": 0.17867067125108507
       },
       "score": 0.5983616709709167,
-      "layoutRegionId": "508e3e0f-5c2a-478d-a0b7-5d52b8d0b9aa"
+      "layoutRegionId": "25917860-403b-4d9a-bca3-b3f01058c5fb"
     },
     {
       "id": "table-p53-0122_0539_0751_0168",
@@ -699,7 +699,7 @@
         "h": 0.1679961464621804
       },
       "score": 0.583454966545105,
-      "layoutRegionId": "5fedea82-a1e4-436d-80c3-5c08aa5ba622"
+      "layoutRegionId": "859e2c63-3075-4141-86b8-bfede1e417c1"
     },
     {
       "id": "table-p53-0120_0722_0760_0039",
@@ -715,7 +715,7 @@
         "h": 0.039206610785590276
       },
       "score": 0.6839904189109802,
-      "layoutRegionId": "4fa5cc48-8080-4df4-ade6-0939433be932"
+      "layoutRegionId": "79638a09-4f30-4f94-86b5-b01d5000ac2d"
     },
     {
       "id": "formula-p5-0296_0323_0591_0032",
@@ -731,7 +731,7 @@
         "h": 0.031773403437450665
       },
       "score": 0.9001344442367554,
-      "layoutRegionId": "dbe20af1-1d7d-4e89-a0c8-4435c753ea13"
+      "layoutRegionId": "8a2c4eba-e9e1-4f5c-bdf4-ce859cbe5c2f"
     },
     {
       "id": "formula-p5-0349_0524_0538_0043",
@@ -747,7 +747,7 @@
         "h": 0.04254219748757104
       },
       "score": 0.9070422649383545,
-      "layoutRegionId": "6603a2f5-fe92-4c1c-8eee-b59a2c572a29"
+      "layoutRegionId": "c8de69d9-3a11-421f-bec9-f7966f867ee9"
     },
     {
       "id": "formula-p5-0216_0825_0670_0020",
@@ -763,7 +763,7 @@
         "h": 0.01967813511087435
       },
       "score": 0.8601566553115845,
-      "layoutRegionId": "73d25e29-ff97-410c-ab27-3b49362d273a"
+      "layoutRegionId": "76a7fd67-bda6-4bbd-8d03-49d5ea4cd5a0"
     },
     {
       "id": "formula-p6-0261_0205_0626_0041",
@@ -779,7 +779,7 @@
         "h": 0.04119616807109178
       },
       "score": 0.9142212271690369,
-      "layoutRegionId": "67d38c5c-a3b5-48a7-8b6c-a6be83ddff21"
+      "layoutRegionId": "eb6ce1dd-91e7-4b6c-9605-bdc472e1d5ef"
     },
     {
       "id": "formula-p6-0336_0698_0551_0033",
@@ -795,7 +795,7 @@
         "h": 0.032972701872238
       },
       "score": 0.9061273336410522,
-      "layoutRegionId": "7020b04d-3de8-4f77-a1c7-7a6292b1ee5c"
+      "layoutRegionId": "79dcc4d9-038a-4bb6-ba97-b209f5e96e1a"
     },
     {
       "id": "formula-p7-0237_0826_0649_0017",
@@ -811,7 +811,7 @@
         "h": 0.017461911596433066
       },
       "score": 0.864256739616394,
-      "layoutRegionId": "de65c95d-f4ec-47a0-b0f7-f3858b5248ba"
+      "layoutRegionId": "6262ba73-c7bf-43f3-8b4b-96221d220442"
     },
     {
       "id": "formula-p8-0318_0346_0568_0036",
@@ -827,7 +827,7 @@
         "h": 0.035520457258128135
       },
       "score": 0.8859596252441406,
-      "layoutRegionId": "aee47711-98fd-42a1-9110-c1160508f8a6"
+      "layoutRegionId": "4a074a44-b011-4360-b5ea-372460668b41"
     },
     {
       "id": "formula-p8-0250_0643_0637_0023",
@@ -843,7 +843,7 @@
         "h": 0.02257441511057845
       },
       "score": 0.8752894401550293,
-      "layoutRegionId": "fdacb7df-4a3d-4739-b882-abf12c90ba91"
+      "layoutRegionId": "e7dfc995-80bf-4506-be8b-df4010904a06"
     },
     {
       "id": "formula-p10-0187_0248_0699_0040",
@@ -859,7 +859,7 @@
         "h": 0.039504542495265166
       },
       "score": 0.9197182059288025,
-      "layoutRegionId": "5b7a4087-5959-4e75-b3bb-a1400c112b42"
+      "layoutRegionId": "8838782f-4a90-4a62-88e7-43a26229637c"
     },
     {
       "id": "formula-p10-0237_0353_0650_0040",
@@ -875,7 +875,7 @@
         "h": 0.04009570497455017
       },
       "score": 0.9052724838256836,
-      "layoutRegionId": "03c16e24-d66c-458c-8155-b9fe679b26c5"
+      "layoutRegionId": "9519c073-4dd9-463d-b75b-1fd15e29b649"
     },
     {
       "id": "formula-p10-0336_0557_0551_0034",
@@ -891,7 +891,7 @@
         "h": 0.03392837986801611
       },
       "score": 0.9281230568885803,
-      "layoutRegionId": "efd7974a-bb90-4b45-9224-63dff88f76ac"
+      "layoutRegionId": "240a7f03-ba78-45b2-b5e2-699e84582417"
     },
     {
       "id": "formula-p10-0247_0679_0639_0044",
@@ -907,7 +907,7 @@
         "h": 0.04379765674321334
       },
       "score": 0.9098517894744873,
-      "layoutRegionId": "c85ed7b9-5e4f-466b-bebb-cb0b36188953"
+      "layoutRegionId": "d88d444a-10c8-4f11-9719-e82f4f247cfa"
     },
     {
       "id": "formula-p15-0640_0571_0246_0044",
@@ -923,7 +923,7 @@
         "h": 0.04396978050771383
       },
       "score": 0.8195788860321045,
-      "layoutRegionId": "953efb9e-41d4-4519-8926-52af25e5c1f4"
+      "layoutRegionId": "80279b74-39a8-481d-9108-fd4d05079d1d"
     },
     {
       "id": "formula-p21-0336_0637_0550_0033",
@@ -939,7 +939,7 @@
         "h": 0.03345262161409013
       },
       "score": 0.9266489744186401,
-      "layoutRegionId": "5315fd4c-6ed0-43d1-a315-f6d6836c1d36"
+      "layoutRegionId": "78b6168c-1fdf-40c3-8a76-fb130e0a645b"
     },
     {
       "id": "formula-p38-0336_0718_0550_0032",
@@ -955,7 +955,7 @@
         "h": 0.03186967637803817
       },
       "score": 0.9126080274581909,
-      "layoutRegionId": "ddb2a0f4-d732-4c39-ad14-aa38a51e9d36"
+      "layoutRegionId": "f3fbff9a-fbbb-432b-b72f-dba4ba5bd179"
     },
     {
       "id": "formula-p39-0389_0486_0498_0033",
@@ -971,7 +971,7 @@
         "h": 0.033457977603180256
       },
       "score": 0.8895304203033447,
-      "layoutRegionId": "1b6b59b7-528e-4f27-82d2-532d9e967b1c"
+      "layoutRegionId": "d214797d-2b11-4bba-8ca5-ae475fab79f4"
     },
     {
       "id": "formula-p42-0421_0882_0466_0035",
@@ -987,7 +987,7 @@
         "h": 0.03483365762113322
       },
       "score": 0.8932902216911316,
-      "layoutRegionId": "10076da3-1d57-4a4b-b9ba-6351f560bc51"
+      "layoutRegionId": "5b0c4d7c-1def-473b-a0cf-26b659d27692"
     }
   ]
 }
